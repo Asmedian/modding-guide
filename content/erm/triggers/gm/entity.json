@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.gm",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/gm",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-gm.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "GM",
+    "!?GM",
+    "OnAfterLoadGame",
+    "OnBeforeSaveGame"
+  ],
+  "questions": [
+    "0 после загрузки сохранения, до показа карты; 1 перед сохранением после выбора слота. GM1 срабатывает также для автосохранения.",
+    "0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-gm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-gm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-gm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-gm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-gm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-gm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-gm": [
+      "old-help:tr-gm.htm"
+    ]
+  }
+}

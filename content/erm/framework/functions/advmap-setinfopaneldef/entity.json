@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.advmap-setinfopaneldef",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/advmap-setinfopaneldef",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+  ],
+  "keywords": [
+    "AdvMap_SetInfoPanelDef",
+    "FU(AdvMap_SetInfoPanelDef)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Показывает текст и кадр DEF в панели карты на 5000 мс по умолчанию. Временно подменяет два машинных операнда имени DEF и восстанавливает их. Меняет z1/v1; без defName вызывает текстовый вариант.",
+    "Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+    ]
+  }
+}

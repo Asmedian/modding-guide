@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.strreplace",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/strreplace",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+  ],
+  "keywords": [
+    "StrReplace",
+    "FU(StrReplace)",
+    "public",
+    "strings"
+  ],
+  "questions": [
+    "Заменяет все вхождения patternPtr в sourcePtr на replacementPtr и возвращает строку. Вызывается только внутри триггера.",
+    "Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+    ]
+  }
+}

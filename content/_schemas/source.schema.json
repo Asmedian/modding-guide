@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://era-modding-guide.local/schemas/source.schema.json",
+  "title": "Source record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "title",
+    "sourceSet",
+    "relativeSourcePath",
+    "version",
+    "sha256"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "source-code",
+        "changelog",
+        "legacy-help",
+        "editorial-brief",
+        "tool-distribution",
+        "forum",
+        "official-docs"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "sourceSet": {
+      "type": "string"
+    },
+    "relativeSourcePath": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    },
+    "locator": {
+      "type": "object",
+      "properties": {
+        "startLine": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "endLine": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.oneveryday",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/oneveryday",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnEveryDay",
+    "77018"
+  ],
+  "questions": [
+    "Движок вызывает событие для каждого игрока до обычных TM, без аргументов. Framework расширяет контракт: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once=TRUE только при первом вызове в данный день. Используйте эти аргументы лишь с подключённым Framework.",
+    "The engine fires this for each player before ordinary TM, without arguments. Framework extends the contract: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once is TRUE only on the first call that day. Use these arguments only with Framework loaded."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

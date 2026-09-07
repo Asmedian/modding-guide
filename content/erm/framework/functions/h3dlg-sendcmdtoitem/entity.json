@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.h3dlg-sendcmdtoitem",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/h3dlg-sendcmdtoitem",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+  ],
+  "keywords": [
+    "H3Dlg_SendCmdToItem",
+    "FU(H3Dlg_SendCmdToItem)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Отправляет itemId команду DLG_CMD_; cmdType по умолчанию DLG_CMD_TYPE_DEFAULT. Для SET_TEXT/SET_DEF/SET_PCX param трактуется как строка; остальные команды получают число.",
+    "Sends a DLG_CMD_ to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.savegame",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/savegame",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+  ],
+  "keywords": [
+    "SaveGame",
+    "FU(SaveGame)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Сохраняет игру по имени без расширения. По умолчанию appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Вызывает машинный адрес сохранения и может менять выбранную запись диалога.",
+    "Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+    ]
+  }
+}

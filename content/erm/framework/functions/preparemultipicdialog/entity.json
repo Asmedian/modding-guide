@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.preparemultipicdialog",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/preparemultipicdialog",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+  ],
+  "keywords": [
+    "PrepareMultiPicDialog",
+    "FU(PrepareMultiPicDialog)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Настраивает картинки следующего IF:N: без аргументов очищает; принимает пары type/subtype или один ID массива пар. Пропускает NO_PIC_TYPE и отрицательные типы существ; максимум 8 непустых пар. Сам диалог не показывает.",
+    "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+    ]
+  }
+}

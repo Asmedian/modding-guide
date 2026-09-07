@@ -1,0 +1,13 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.troubleshooting",
+  "kind": "article",
+  "slug": "troubleshooting",
+  "status": "published",
+  "sourceRefs": ["era-source:gameext", "era-source:lodman", "era-source:reslib", "era-tools:mod-manager-format", "era-tools:vfs-test-binary"],
+  "keywords": ["troubleshooting", "logs", "minimal reproduction", "VFS", "cache", "mod conflict"],
+  "questions": ["How do I diagnose an ERA mod that does not load?", "What should an ERA bug report contain?", "How can I isolate a resource conflict?"],
+  "previous": "tools/catalog",
+  "next": "glossary"
+}

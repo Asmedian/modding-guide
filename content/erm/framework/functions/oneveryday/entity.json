@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.oneveryday",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/oneveryday",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+  ],
+  "keywords": [
+    "OnEveryDay",
+    "FU(OnEveryDay)",
+    "event-handler",
+    "events"
+  ],
+  "questions": [
+    "Дополняет событие аргументами day, weekDay (1..7), once, owner, isAi. once=TRUE только при первом вызове за день, а не для каждого игрока.",
+    "Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+    ]
+  }
+}

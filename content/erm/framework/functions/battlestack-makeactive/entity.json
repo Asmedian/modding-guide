@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.battlestack-makeactive",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/battlestack-makeactive",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+  ],
+  "keywords": [
+    "BattleStack_MakeActive",
+    "FU(BattleStack_MakeActive)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Передаёт ход стеку 0..41 и при необходимости выполняет фазу регенерации. Допустимый индекс сам по себе не гарантирует существование живого стека.",
+    "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+    ]
+  }
+}

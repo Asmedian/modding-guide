@@ -1,0 +1,13 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.game",
+  "kind": "article",
+  "slug": "game",
+  "status": "published",
+  "sourceRefs": ["era-source:gameext", "era-source:reslib", "era-source:lodman"],
+  "keywords": ["game architecture", "initialization", "events", "resources", "cache"],
+  "questions": ["Which parts of the game lifecycle matter to a content mod?", "How does ERA locate and cache resources?"],
+  "previous": "era/compatibility",
+  "next": "game/resource-loading"
+}

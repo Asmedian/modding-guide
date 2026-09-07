@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.dl",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/dl",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-dl.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "DL",
+    "!?DL",
+    "OnCustomDialogEvent"
+  ],
+  "questions": [
+    "Обрабатывает действия элементов пользовательского диалога. Классический контекст: v998 — диалог, v999 — элемент, v1000 — действие.",
+    "Handles custom-dialog item actions. Classic context: v998 is dialog ID, v999 item ID, v1000 action."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-dl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-dl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-dl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-dl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-dl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-dl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-dl": [
+      "old-help:tr-dl.htm"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

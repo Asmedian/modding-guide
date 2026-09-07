@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.onchat",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/onchat",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnChat",
+    "77014"
+  ],
+  "questions": [
+    "x1 задаёт стадию: 0 вход (x2 — запрет); 1 ввод (x2 — адрес текста, x3 — действие: 0 очистить, 1 закрыть, 2 штатно); 2 выход. Значения аргументов зависят от стадии; сначала проверяйте x1.",
+    "x1 selects the stage: 0 enter (x2 blocks entry); 1 input (x2 text pointer, x3 action: 0 clear, 1 close, 2 default); 2 leave. Argument meanings depend on stage; check x1 first."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

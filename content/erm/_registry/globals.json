@@ -1,0 +1,2104 @@
+[
+  {
+    "name": "i^timerDay^",
+    "anchor": "global-i-timerday",
+    "ru": "День с начала игры, 1..",
+    "en": "Day since game start, 1..",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerWeekDay^",
+    "anchor": "global-i-timerweekday",
+    "ru": "День недели, 1..7",
+    "en": "Day of week, 1..7",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerMonthDay^",
+    "anchor": "global-i-timermonthday",
+    "ru": "День месяца, 1..28",
+    "en": "Day of month, 1..28",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerWeek^",
+    "anchor": "global-i-timerweek",
+    "ru": "Неделя с начала игры, 1..",
+    "en": "Week since game start, 1..",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerMonthWeek^",
+    "anchor": "global-i-timermonthweek",
+    "ru": "Неделя месяца, 1..4",
+    "en": "Week of month, 1..4",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerMonth^",
+    "anchor": "global-i-timermonth",
+    "ru": "Месяц с начала игры, 1..",
+    "en": "Month since game start, 1..",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerOnce^",
+    "anchor": "global-i-timeronce",
+    "ru": "TRUE при первом вызове за этот день",
+    "en": "TRUE on the first invocation that day",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerOwner^",
+    "anchor": "global-i-timerowner",
+    "ru": "Текущий игрок, 0..7",
+    "en": "Current player, 0..7",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerIsAi^",
+    "anchor": "global-i-timerisai",
+    "ru": "TRUE для игрока ИИ",
+    "en": "TRUE for an AI player",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^timerIsHuman^",
+    "anchor": "global-i-timerishuman",
+    "ru": "TRUE для человека",
+    "en": "TRUE for a human",
+    "group": "timer",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^key^",
+    "anchor": "global-i-key",
+    "ru": "Код текущей клавиши",
+    "en": "Current key code",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "OnKeyPressed",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 148,
+        "endLine": 156
+      },
+      {
+        "name": "OnKeyReleased",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 157,
+        "endLine": 164
+      }
+    ]
+  },
+  {
+    "name": "i^key_down^",
+    "anchor": "global-i-key-down",
+    "ru": "TRUE при первоначальном KeyPressed; не определяет состояние KeyReleased",
+    "en": "TRUE on initial KeyPressed; does not define KeyReleased state",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "OnKeyPressed",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 148,
+        "endLine": 156
+      }
+    ]
+  },
+  {
+    "name": "i^key_leftAlt^",
+    "anchor": "global-i-key-leftalt",
+    "ru": "Состояние leftAlt: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of leftAlt: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_rightAlt^",
+    "anchor": "global-i-key-rightalt",
+    "ru": "Состояние rightAlt: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of rightAlt: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_alt^",
+    "anchor": "global-i-key-alt",
+    "ru": "Состояние alt: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of alt: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_leftCtrl^",
+    "anchor": "global-i-key-leftctrl",
+    "ru": "Состояние leftCtrl: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of leftCtrl: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_rightCtrl^",
+    "anchor": "global-i-key-rightctrl",
+    "ru": "Состояние rightCtrl: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of rightCtrl: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_ctrl^",
+    "anchor": "global-i-key-ctrl",
+    "ru": "Состояние ctrl: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of ctrl: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_leftShift^",
+    "anchor": "global-i-key-leftshift",
+    "ru": "Состояние leftShift: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of leftShift: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_rightShift^",
+    "anchor": "global-i-key-rightshift",
+    "ru": "Состояние rightShift: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of rightShift: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^key_shift^",
+    "anchor": "global-i-key-shift",
+    "ru": "Состояние shift: 0/1. Общий модификатор объединяет левую и правую клавиши.",
+    "en": "State of shift: 0/1. A combined modifier joins left and right keys.",
+    "group": "keyboard",
+    "status": "public",
+    "uses": [
+      {
+        "name": "SavePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 88,
+        "endLine": 90
+      },
+      {
+        "name": "RestorePrevKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 91,
+        "endLine": 93
+      },
+      {
+        "name": "GetKeyModsState",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 94,
+        "endLine": 128
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_x^",
+    "anchor": "global-i-mouse-x",
+    "ru": "X курсора в окне",
+    "en": "Cursor X in the window",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_y^",
+    "anchor": "global-i-mouse-y",
+    "ru": "Y курсора в окне",
+    "en": "Cursor Y in the window",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_battleHex^",
+    "anchor": "global-i-mouse-battlehex",
+    "ru": "Гекс боя в контексте CM:D",
+    "en": "Battle hex from CM:D context",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_flags^",
+    "anchor": "global-i-mouse-flags",
+    "ru": "Флаги мыши CM:F",
+    "en": "Mouse flags from CM:F",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_hero_0^",
+    "anchor": "global-i-mouse-hero-0",
+    "ru": "Первый герой CM:H",
+    "en": "First hero from CM:H",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_hero_1^",
+    "anchor": "global-i-mouse-hero-1",
+    "ru": "Второй герой CM:H; не входит в стек восстановления этого снимка",
+    "en": "Second hero from CM:H; not included in this snapshot’s restoration stack",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_item^",
+    "anchor": "global-i-mouse-item",
+    "ru": "ID элемента CM:I",
+    "en": "Item ID from CM:I",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_mapX^",
+    "anchor": "global-i-mouse-mapx",
+    "ru": "X карты из CM:P",
+    "en": "Map X from CM:P",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_mapY^",
+    "anchor": "global-i-mouse-mapy",
+    "ru": "Y карты из CM:P",
+    "en": "Map Y from CM:P",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_mapZ^",
+    "anchor": "global-i-mouse-mapz",
+    "ru": "Уровень карты из CM:P",
+    "en": "Map level from CM:P",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^mouse_action^",
+    "anchor": "global-i-mouse-action",
+    "ru": "CM:S; отпускание LMB на кнопке выхода нормализовано в обычное отпускание",
+    "en": "CM:S; exit-button LMB release is normalized to ordinary release",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      },
+      {
+        "name": "SavePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 139,
+        "endLine": 141
+      },
+      {
+        "name": "RestorePrevMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 142,
+        "endLine": 144
+      }
+    ]
+  },
+  {
+    "name": "i^dlg_id^",
+    "anchor": "global-i-dlg-id",
+    "ru": "ID пользовательского диалога; сохраняется и восстанавливается вокруг события.",
+    "en": "Custom dialog ID; saved and restored around the event.",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnCustomDialogEvent",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 208,
+        "endLine": 213
+      },
+      {
+        "name": "OnCustomDialogEvent_Quit",
+        "path": "lib_end/-9999 era - stdlib.erm",
+        "startLine": 70,
+        "endLine": 73
+      }
+    ]
+  },
+  {
+    "name": "i^dlg_action^",
+    "anchor": "global-i-dlg-action",
+    "ru": "Действие CM:T; не входит в стек восстановления мыши этого снимка.",
+    "en": "CM:T action; not included in this snapshot’s mouse restoration stack.",
+    "group": "mouse",
+    "status": "public",
+    "uses": [
+      {
+        "name": "CollectMouseEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 129,
+        "endLine": 138
+      }
+    ]
+  },
+  {
+    "name": "i^battle_round^",
+    "anchor": "global-i-battle-round",
+    "ru": "Раунд, INT_MIN до инициализации",
+    "en": "Round, INT_MIN before initialization",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattle",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 251,
+        "endLine": 254
+      },
+      {
+        "name": "OnBeforeBattleUniversal",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 255,
+        "endLine": 262
+      },
+      {
+        "name": "OnBattleRound",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 266,
+        "endLine": 268
+      },
+      {
+        "name": "OnBattleReplay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2905,
+        "endLine": 2913
+      }
+    ]
+  },
+  {
+    "name": "i^battle_current_stack^",
+    "anchor": "global-i-battle-current-stack",
+    "ru": "Стек, получающий управление, либо NO_STACK",
+    "en": "Stack receiving control, or NO_STACK",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleUniversal",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 255,
+        "endLine": 262
+      },
+      {
+        "name": "OnBeforeBattleStackTurn",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 269,
+        "endLine": 274
+      },
+      {
+        "name": "OnBattleStackObtainsTurn",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 275,
+        "endLine": 284
+      }
+    ]
+  },
+  {
+    "name": "i^battle_current_side^",
+    "anchor": "global-i-battle-current-side",
+    "ru": "Сторона текущего стека, с учётом гипноза",
+    "en": "Current stack side, accounting for hypnosis",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleUniversal",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 255,
+        "endLine": 262
+      },
+      {
+        "name": "OnBeforeBattleStackTurn",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 269,
+        "endLine": 274
+      },
+      {
+        "name": "OnBattleStackObtainsTurn",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 275,
+        "endLine": 284
+      }
+    ]
+  },
+  {
+    "name": "i^battle_acting_stack^",
+    "anchor": "global-i-battle-acting-stack",
+    "ru": "BG:N последнего начала действия",
+    "en": "BG:N at the latest action start",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleUniversal",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 255,
+        "endLine": 262
+      },
+      {
+        "name": "OnBeforeBattleAction",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 285,
+        "endLine": 291
+      },
+      {
+        "name": "OnBattleReplay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2905,
+        "endLine": 2913
+      }
+    ]
+  },
+  {
+    "name": "i^battle_acting_side^",
+    "anchor": "global-i-battle-acting-side",
+    "ru": "BG:Q последнего начала действия",
+    "en": "BG:Q at the latest action start",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleUniversal",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 255,
+        "endLine": 262
+      },
+      {
+        "name": "OnBeforeBattleAction",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 285,
+        "endLine": 291
+      },
+      {
+        "name": "OnBattleReplay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2905,
+        "endLine": 2913
+      }
+    ]
+  },
+  {
+    "name": "i^battle_x^",
+    "anchor": "global-i-battle-x",
+    "ru": "X места боя",
+    "en": "Battle location X",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_y^",
+    "anchor": "global-i-battle-y",
+    "ru": "Y места боя",
+    "en": "Battle location Y",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_z^",
+    "anchor": "global-i-battle-z",
+    "ru": "Уровень места боя",
+    "en": "Battle location level",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_hero_vs_hero^",
+    "anchor": "global-i-battle-hero-vs-hero",
+    "ru": "У защитника есть герой",
+    "en": "Defender has a hero",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_hasHuman^",
+    "anchor": "global-i-battle-hashuman",
+    "ru": "Хотя бы одна сторона — человек",
+    "en": "At least one side is human",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_humanOnly^",
+    "anchor": "global-i-battle-humanonly",
+    "ru": "Обе стороны — люди",
+    "en": "Both sides are human",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_aiOnly^",
+    "anchor": "global-i-battle-aionly",
+    "ru": "Обе стороны управляются ИИ",
+    "en": "Both sides are AI-controlled",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleAction",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 285,
+        "endLine": 291
+      },
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_isQuick^",
+    "anchor": "global-i-battle-isquick",
+    "ru": "Быстрый бой; может измениться во время боя",
+    "en": "Quick combat; may change during battle",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleAction",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 285,
+        "endLine": 291
+      },
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_isVisible^",
+    "anchor": "global-i-battle-isvisible",
+    "ru": "Не aiOnly и не isQuick",
+    "en": "Neither aiOnly nor isQuick",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleAction",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 285,
+        "endLine": 291
+      },
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_isNetwork^",
+    "anchor": "global-i-battle-isnetwork",
+    "ru": "Хотя бы одна сторона удалённая",
+    "en": "At least one side is remote",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_isActingSideUiUser^",
+    "anchor": "global-i-battle-isactingsideuiuser",
+    "ru": "Вычисляется по battle_current_side и battle_localHuman_*, несмотря на слово Acting в имени",
+    "en": "Computed from battle_current_side and battle_localHuman_*, despite Acting in the name",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnBeforeBattleStackTurn",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 269,
+        "endLine": 274
+      },
+      {
+        "name": "OnBattleStackObtainsTurn",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 275,
+        "endLine": 284
+      },
+      {
+        "name": "OnBeforeBattleAction",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 285,
+        "endLine": 291
+      }
+    ]
+  },
+  {
+    "name": "i^battle_type^",
+    "anchor": "global-i-battle-type",
+    "ru": "Маска BATTLE_TYPE_FLAG_*",
+    "en": "BATTLE_TYPE_FLAG_* mask",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_owner_0^",
+    "anchor": "global-i-battle-owner-0",
+    "ru": "Владелец либо NO_OWNER; сторона 0.",
+    "en": "Owner or NO_OWNER; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_hero_0^",
+    "anchor": "global-i-battle-hero-0",
+    "ru": "Герой либо NO_HERO; сторона 0.",
+    "en": "Hero or NO_HERO; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_ai_0^",
+    "anchor": "global-i-battle-ai-0",
+    "ru": "Стороной управляет ИИ; сторона 0.",
+    "en": "Side is AI-controlled; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_human_0^",
+    "anchor": "global-i-battle-human-0",
+    "ru": "Стороной управляет человек; сторона 0.",
+    "en": "Side is human-controlled; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_remote_0^",
+    "anchor": "global-i-battle-remote-0",
+    "ru": "Удалённый человек; сторона 0.",
+    "en": "Remote human; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_local_0^",
+    "anchor": "global-i-battle-local-0",
+    "ru": "Не удалённая сторона, включая локальный ИИ; сторона 0.",
+    "en": "Non-remote side, including local AI; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_localHuman_0^",
+    "anchor": "global-i-battle-localhuman-0",
+    "ru": "Локальный человек; сторона 0.",
+    "en": "Local human; side 0.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_owner_1^",
+    "anchor": "global-i-battle-owner-1",
+    "ru": "Владелец либо NO_OWNER; сторона 1.",
+    "en": "Owner or NO_OWNER; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_hero_1^",
+    "anchor": "global-i-battle-hero-1",
+    "ru": "Герой либо NO_HERO; сторона 1.",
+    "en": "Hero or NO_HERO; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_ai_1^",
+    "anchor": "global-i-battle-ai-1",
+    "ru": "Стороной управляет ИИ; сторона 1.",
+    "en": "Side is AI-controlled; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_human_1^",
+    "anchor": "global-i-battle-human-1",
+    "ru": "Стороной управляет человек; сторона 1.",
+    "en": "Side is human-controlled; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_remote_1^",
+    "anchor": "global-i-battle-remote-1",
+    "ru": "Удалённый человек; сторона 1.",
+    "en": "Remote human; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_local_1^",
+    "anchor": "global-i-battle-local-1",
+    "ru": "Не удалённая сторона, включая локальный ИИ; сторона 1.",
+    "en": "Non-remote side, including local AI; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^battle_localHuman_1^",
+    "anchor": "global-i-battle-localhuman-1",
+    "ru": "Локальный человек; сторона 1.",
+    "en": "Local human; side 1.",
+    "group": "battle",
+    "status": "public",
+    "uses": [
+      {
+        "name": "UpdateBattleVars",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2848,
+        "endLine": 2904
+      }
+    ]
+  },
+  {
+    "name": "i^maxArtifacId^",
+    "anchor": "global-i-maxartifacid",
+    "ru": "GetMaxArtifactId: ART_LAST_WOG; написание Artifac без t сохранено",
+    "en": "GetMaxArtifactId: ART_LAST_WOG; spelling Artifac without t is preserved",
+    "group": "limits",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnStartOrLoad",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 292,
+        "endLine": 300
+      }
+    ]
+  },
+  {
+    "name": "i^maxHeroId^",
+    "anchor": "global-i-maxheroid",
+    "ru": "GetMaxHeroId: верхняя граница ID героев",
+    "en": "GetMaxHeroId: upper hero ID bound",
+    "group": "limits",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnStartOrLoad",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 292,
+        "endLine": 300
+      }
+    ]
+  },
+  {
+    "name": "i^maxMonsterId^",
+    "anchor": "global-i-maxmonsterid",
+    "ru": "GetMaxMonsterId: верхняя граница ID существ",
+    "en": "GetMaxMonsterId: upper creature ID bound",
+    "group": "limits",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnStartOrLoad",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 292,
+        "endLine": 300
+      }
+    ]
+  },
+  {
+    "name": "i^maxSpellId^",
+    "anchor": "global-i-maxspellid",
+    "ru": "GetMaxSpellId: SPELL_LAST_WOG",
+    "en": "GetMaxSpellId: SPELL_LAST_WOG",
+    "group": "limits",
+    "status": "public",
+    "uses": [
+      {
+        "name": "OnStartOrLoad",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 292,
+        "endLine": 300
+      }
+    ]
+  },
+  {
+    "name": "i^savedEventData^",
+    "anchor": "global-i-savedeventdata",
+    "ru": "ID временного массива сохранённых контекстов",
+    "en": "Temporary saved-context array ID",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "ClearEventChainData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 12,
+        "endLine": 15
+      },
+      {
+        "name": "SaveEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 16,
+        "endLine": 46
+      },
+      {
+        "name": "RestoreEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 47,
+        "endLine": 87
+      }
+    ]
+  },
+  {
+    "name": "i^savedEventDataPos^",
+    "anchor": "global-i-savedeventdatapos",
+    "ru": "Текущая позиция в стеке контекстов",
+    "en": "Current context-stack position",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "ClearEventChainData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 12,
+        "endLine": 15
+      },
+      {
+        "name": "SaveEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 16,
+        "endLine": 46
+      },
+      {
+        "name": "RestoreEventData",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 47,
+        "endLine": 87
+      }
+    ]
+  },
+  {
+    "name": "i^era_everyDayTimerLastDay^",
+    "anchor": "global-i-era-everydaytimerlastday",
+    "ru": "Последний день для вычисления timerOnce",
+    "en": "Last day used to compute timerOnce",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "OnAfterErmInstructions",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 214,
+        "endLine": 227
+      },
+      {
+        "name": "OnEveryDay",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 228,
+        "endLine": 250
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_captions^",
+    "anchor": "global-i-radiodlg-captions",
+    "ru": "ID массива подписей",
+    "en": "Caption array ID",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_tags^",
+    "anchor": "global-i-radiodlg-tags",
+    "ru": "ID массива тегов",
+    "en": "Tag array ID",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_SelectItemByTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2514,
+        "endLine": 2531
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      },
+      {
+        "name": "RadioDlg_GetItemTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2597,
+        "endLine": 2611
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_values^",
+    "anchor": "global-i-radiodlg-values",
+    "ru": "ID массива чисел",
+    "en": "Value array ID",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_SelectItemByValue",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2497,
+        "endLine": 2513
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      },
+      {
+        "name": "RadioDlg_GetItemValue",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2584,
+        "endLine": 2596
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_numItems^",
+    "anchor": "global-i-radiodlg-numitems",
+    "ru": "Число пунктов",
+    "en": "Item count",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_AddCancelButton",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2474,
+        "endLine": 2489
+      },
+      {
+        "name": "RadioDlg_SelectItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2490,
+        "endLine": 2496
+      },
+      {
+        "name": "RadioDlg_SelectItemByValue",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2497,
+        "endLine": 2513
+      },
+      {
+        "name": "RadioDlg_SelectItemByTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2514,
+        "endLine": 2531
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      },
+      {
+        "name": "RadioDlg_GetNumItems",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2578,
+        "endLine": 2583
+      },
+      {
+        "name": "RadioDlg_GetItemValue",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2584,
+        "endLine": 2596
+      },
+      {
+        "name": "RadioDlg_GetItemTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2597,
+        "endLine": 2611
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_selectedItemInd^",
+    "anchor": "global-i-radiodlg-selecteditemind",
+    "ru": "Выбранный индекс либо NO_RADIO_DLG_ITEM",
+    "en": "Selected index or NO_RADIO_DLG_ITEM",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_SelectItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2490,
+        "endLine": 2496
+      },
+      {
+        "name": "RadioDlg_SelectItemByValue",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2497,
+        "endLine": 2513
+      },
+      {
+        "name": "RadioDlg_SelectItemByTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2514,
+        "endLine": 2531
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_flags^",
+    "anchor": "global-i-radiodlg-flags",
+    "ru": "Маска флагов диалога",
+    "en": "Dialog flag mask",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_AddCancelButton",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2474,
+        "endLine": 2489
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "i^radioDlg_freeSpaceAlerted^",
+    "anchor": "global-i-radiodlg-freespacealerted",
+    "ru": "Уже показано сообщение о нехватке места",
+    "en": "Out-of-space error already shown",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_AddCancelButton",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2474,
+        "endLine": 2489
+      },
+      {
+        "name": "RadioDlg_AddItem",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2532,
+        "endLine": 2560
+      }
+    ]
+  },
+  {
+    "name": "s^radioDlg_title^",
+    "anchor": "global-s-radiodlg-title",
+    "ru": "Заголовок строящегося RadioDlg. Меняйте через RadioDlg_SetTitle.",
+    "en": "Title of the RadioDlg being built. Change through RadioDlg_SetTitle.",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      },
+      {
+        "name": "RadioDlg_Reset",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2456,
+        "endLine": 2467
+      },
+      {
+        "name": "RadioDlg_SetTitle",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2468,
+        "endLine": 2473
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      }
+    ]
+  },
+  {
+    "name": "s^temp^",
+    "anchor": "global-s-temp",
+    "ru": "Рабочая строка реализации. Перезаписывается и очищается помощниками; не является устойчивым хранилищем результата.",
+    "en": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "Array_Pop",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 401,
+        "endLine": 445
+      },
+      {
+        "name": "Array_Move",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 446,
+        "endLine": 517
+      },
+      {
+        "name": "Array_Splice",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 518,
+        "endLine": 586
+      },
+      {
+        "name": "Array_Join",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 744,
+        "endLine": 780
+      },
+      {
+        "name": "CompareStrings_Bridge_INTERNAL",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 813,
+        "endLine": 834
+      },
+      {
+        "name": "GetStrAtAddr",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 1421,
+        "endLine": 1430
+      },
+      {
+        "name": "StrToUpper",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 1443,
+        "endLine": 1457
+      },
+      {
+        "name": "StrToLower",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 1458,
+        "endLine": 1472
+      },
+      {
+        "name": "RadioDlg_SelectItemByTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2514,
+        "endLine": 2531
+      },
+      {
+        "name": "RadioDlg_GetItemTag",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2597,
+        "endLine": 2611
+      },
+      {
+        "name": "RadioDlg_Show",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2612,
+        "endLine": 2678
+      },
+      {
+        "name": "GetHeroPortraitName",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 3062,
+        "endLine": 3080
+      }
+    ]
+  },
+  {
+    "name": "s^temp_text^",
+    "anchor": "global-s-temp-text",
+    "ru": "Рабочая строка реализации. Перезаписывается и очищается помощниками; не является устойчивым хранилищем результата.",
+    "en": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "AdvMap_SetInfoPanelText",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2377,
+        "endLine": 2403
+      },
+      {
+        "name": "AdvMap_SetInfoPanelDef",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2404,
+        "endLine": 2455
+      }
+    ]
+  },
+  {
+    "name": "s^result^",
+    "anchor": "global-s-result",
+    "ru": "Рабочая строка реализации. Перезаписывается и очищается помощниками; не является устойчивым хранилищем результата.",
+    "en": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+    "group": "internal",
+    "status": "internal",
+    "uses": [
+      {
+        "name": "Array_Join",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 744,
+        "endLine": 780
+      },
+      {
+        "name": "GetStrAtAddr",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 1421,
+        "endLine": 1430
+      },
+      {
+        "name": "MonCountToFuzzyText",
+        "path": "lib/9999 era - stdlib.erm",
+        "startLine": 2950,
+        "endLine": 3019
+      }
+    ]
+  }
+]

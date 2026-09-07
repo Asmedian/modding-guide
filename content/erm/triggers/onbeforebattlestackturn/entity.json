@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.onbeforebattlestackturn",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/onbeforebattlestackturn",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnBeforeBattleStackTurn",
+    "77041"
+  ],
+  "questions": [
+    "x1 — активный стек 0..41, изменяемый. Срабатывает до OnBattleRegeneratePhase. Проверяйте допустимость нового стека; это не произвольный вызов атаки.",
+    "x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.ontownfortmouseclick",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/ontownfortmouseclick",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnTownFortMouseClick",
+    "77026"
+  ],
+  "questions": [
+    "Контекст CM. В актуальной регистрации имя OnTownFortMouseClick; старое OnTownHallMouseClick переименовано и не зарегистрировано как алиас. Предоставленный Framework всё ещё содержит обработчик старого имени: при переносе проверяйте согласованность версий.",
+    "CM context. Current registration uses OnTownFortMouseClick; the old OnTownHallMouseClick was renamed and is not registered as an alias. The supplied Framework still handles the old name: check version alignment when porting."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

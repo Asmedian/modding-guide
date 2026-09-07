@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.events",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/events",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm",
+    "era-framework:lib-end--9999-era---stdlib.erm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnAfterErmInited",
+    "OnStartOrLoad",
+    "OnAfterBattleSetup",
+    "OnKeyPressed_AdvMap",
+    "OnKeyPressed_Battle",
+    "OnKeyPressed_HeroScreen",
+    "OnKeyPressed_HeroMeetingScreen",
+    "OnKeyPressed_Town",
+    "OnKeyReleased_AdvMap",
+    "OnKeyReleased_Battle",
+    "OnKeyReleased_HeroScreen",
+    "OnKeyReleased_HeroMeetingScreen",
+    "OnKeyReleased_Town"
+  ],
+  "questions": [
+    "Дополнительные события, расширенный контекст и порядок завершающих обработчиков.",
+    "Additional events, extended context, and final-handler ordering."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "installation": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onaftererminited": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onstartorload": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onafterbattlesetup": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeypressed-advmap": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeypressed-battle": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeypressed-heroscreen": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeypressed-heromeetingscreen": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeypressed-town": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeyreleased-advmap": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeyreleased-battle": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeyreleased-heroscreen": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeyreleased-heromeetingscreen": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "onkeyreleased-town": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "extensions": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "links": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm",
+      "era-source:erm.pas"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

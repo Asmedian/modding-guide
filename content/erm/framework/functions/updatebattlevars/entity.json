@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.updatebattlevars",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/updatebattlevars",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+  ],
+  "keywords": [
+    "UpdateBattleVars",
+    "FU(UpdateBattleVars)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Перечитывает BA и OW в battle_: герои, владельцы, быстрый/сетевой/видимый бой и признаки сторон. После изменения BA (кроме состава существ) вызовите снова. Для защитника без героя нормализует ID в NO_HERO.",
+    "Refreshes BA/OW data in battle_: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+    ]
+  }
+}

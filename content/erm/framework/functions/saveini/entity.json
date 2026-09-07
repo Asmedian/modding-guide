@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.saveini",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/saveini",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+  ],
+  "keywords": [
+    "SaveIni",
+    "FU(SaveIni)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Сохраняет кэш INI на диск, создавая родительские каталоги. Если кэша ещё нет, сначала загружает исходный файл.",
+    "Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+    ]
+  }
+}

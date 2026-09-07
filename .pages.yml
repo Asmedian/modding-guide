@@ -1,0 +1,116 @@
+media:
+  input: static/images/content
+  output: /images/content
+
+content:
+  - name: documentation
+    label: Bilingual documentation
+    type: collection
+    path: content/docs
+    subfolders: true
+    format: json-frontmatter
+    exclude:
+      - "**/entity.json"
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      fields: [title, translationStatus]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+      - name: translationStatus
+        label: Translation status
+        type: select
+        required: true
+        options:
+          values: [draft, reviewed]
+      - name: body
+        label: Markdown body
+        type: code
+        required: true
+        options:
+          language: markdown
+
+  - name: erm-reference
+    label: Bilingual ERM reference
+    type: collection
+    path: content/erm
+    subfolders: true
+    format: json-frontmatter
+    exclude:
+      - "**/entity.json"
+      - "_registry/**"
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      fields: [title, translationStatus]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+      - name: translationStatus
+        label: Translation status
+        type: select
+        required: true
+        options:
+          values: [draft, reviewed]
+      - name: body
+        label: Markdown body
+        type: code
+        required: true
+        options:
+          language: markdown
+
+  - name: erm-navigation
+    label: ERM navigation
+    type: file
+    path: content/_navigation/erm.json
+    format: code
+    operations:
+      delete: false
+
+  - name: navigation
+    label: Documentation navigation
+    type: file
+    path: content/_navigation/docs.json
+    format: code
+    operations:
+      delete: false
+
+  - name: ui-russian
+    label: Russian interface strings
+    type: file
+    path: src/lib/i18n/ui.ru.json
+    format: code
+    operations:
+      delete: false
+
+  - name: ui-english
+    label: English interface strings
+    type: file
+    path: src/lib/i18n/ui.en.json
+    format: code
+    operations:
+      delete: false
+
+settings:
+  content:
+    merge: true
+

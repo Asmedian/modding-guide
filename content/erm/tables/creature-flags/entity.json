@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.creature-flags",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/creature-flags",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:form-flaggedabilities.htm",
+    "old-help:rec-ma.htm",
+    "old-help:rec-bm.htm"
+  ],
+  "keywords": [
+    "Битовые флаги существ",
+    "Creature bit flags"
+  ],
+  "questions": [
+    "Маска MA:X и BM:F. Для изменения одного свойства сохраняйте остальные биты. Биты боевого состояния нельзя произвольно включать у живого отряда.",
+    "MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:form-flaggedabilities.htm",
+      "old-help:rec-ma.htm",
+      "old-help:rec-bm.htm"
+    ],
+    "values": [
+      "old-help:form-flaggedabilities.htm",
+      "old-help:rec-ma.htm",
+      "old-help:rec-bm.htm"
+    ],
+    "related": [
+      "old-help:form-flaggedabilities.htm",
+      "old-help:rec-ma.htm",
+      "old-help:rec-bm.htm"
+    ],
+    "reference-links": [
+      "old-help:form-flaggedabilities.htm",
+      "old-help:rec-ma.htm",
+      "old-help:rec-bm.htm"
+    ],
+    "ref-form-flaggedabilities": [
+      "old-help:form-flaggedabilities.htm"
+    ]
+  }
+}

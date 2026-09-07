@@ -1,0 +1,4682 @@
+[
+  {
+    "name": "ClearEventChainData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 12,
+    "endLine": 15,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^savedEventData^",
+      "i^savedEventDataPos^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/cleareventchaindata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Очищает служебный стек контекста событий и сбрасывает его позицию. Вызывается при чтении сохранения.",
+      "en": "Clears the internal event-context stack and its position when loading a save."
+    }
+  },
+  {
+    "name": "SaveEventData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 16,
+    "endLine": 46,
+    "args": [
+      "firstArg"
+    ],
+    "calls": [],
+    "globals": [
+      "i^savedEventData^",
+      "i^savedEventDataPos^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/saveeventdata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет переданные целые аргументы в стеке события. RestoreEventData должен получить такое же число выходных аргументов в том же порядке. Вызов без аргументов выходит до RestoreErmTracking.",
+      "en": "Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking."
+    }
+  },
+  {
+    "name": "RestoreEventData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 47,
+    "endLine": 87,
+    "args": [
+      "firstArg"
+    ],
+    "calls": [
+      "ClearEventChainData"
+    ],
+    "globals": [
+      "i^savedEventData^",
+      "i^savedEventDataPos^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/restoreeventdata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Восстанавливает целые значения в переданные через ? аргументы. Проверка savedNumArgs в снимке отсутствует: вместо неё повторена проверка размера буфера. Несовпадение пар сохранения/восстановления недопустимо.",
+      "en": "Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly."
+    }
+  },
+  {
+    "name": "SavePrevKeyModsState",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 88,
+    "endLine": 90,
+    "args": [],
+    "calls": [
+      "SaveEventData"
+    ],
+    "globals": [
+      "i^key^",
+      "i^key_down^",
+      "i^key_leftAlt^",
+      "i^key_rightAlt^",
+      "i^key_alt^",
+      "i^key_leftCtrl^",
+      "i^key_rightCtrl^",
+      "i^key_ctrl^",
+      "i^key_leftShift^",
+      "i^key_rightShift^",
+      "i^key_shift^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/saveprevkeymodsstate",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет 11 глобальных значений клавиши и модификаторов для вложенного события.",
+      "en": "Saves 11 key and modifier globals for a nested event."
+    }
+  },
+  {
+    "name": "RestorePrevKeyModsState",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 91,
+    "endLine": 93,
+    "args": [],
+    "calls": [
+      "RestoreEventData"
+    ],
+    "globals": [
+      "i^key^",
+      "i^key_down^",
+      "i^key_leftAlt^",
+      "i^key_rightAlt^",
+      "i^key_alt^",
+      "i^key_leftCtrl^",
+      "i^key_rightCtrl^",
+      "i^key_ctrl^",
+      "i^key_leftShift^",
+      "i^key_rightShift^",
+      "i^key_shift^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/restoreprevkeymodsstate",
+    "review": "full-body",
+    "summary": {
+      "ru": "Восстанавливает клавишу и модификаторы после вложенного события.",
+      "en": "Restores key and modifier globals after a nested event."
+    }
+  },
+  {
+    "name": "GetKeyModsState",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 94,
+    "endLine": 128,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^key_leftAlt^",
+      "i^key_rightAlt^",
+      "i^key_alt^",
+      "i^key_leftCtrl^",
+      "i^key_rightCtrl^",
+      "i^key_ctrl^",
+      "i^key_leftShift^",
+      "i^key_rightShift^",
+      "i^key_shift^"
+    ],
+    "constants": [
+      "KEY_LCONTROL",
+      "KEY_LMENU",
+      "KEY_LSHIFT",
+      "KEY_RCONTROL",
+      "KEY_RMENU",
+      "KEY_RSHIFT"
+    ],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/getkeymodsstate",
+    "review": "full-body",
+    "summary": {
+      "ru": "Опрашивает левые и правые Alt, Ctrl, Shift через GetKeyState и обновляет key_*; объединённый флаг равен OR двух сторон.",
+      "en": "Polls left/right Alt, Ctrl and Shift with GetKeyState and updates key_*; each combined flag is the OR of both sides."
+    }
+  },
+  {
+    "name": "CollectMouseEventData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 129,
+    "endLine": 138,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^key^",
+      "i^mouse_x^",
+      "i^mouse_y^",
+      "i^mouse_battleHex^",
+      "i^mouse_flags^",
+      "i^mouse_hero_0^",
+      "i^mouse_hero_1^",
+      "i^mouse_item^",
+      "i^mouse_mapX^",
+      "i^mouse_mapY^",
+      "i^mouse_mapZ^",
+      "i^mouse_action^",
+      "i^dlg_action^"
+    ],
+    "constants": [
+      "DLG_ACTION_KEY_PRESSED",
+      "MOUSE_EXIT_BTN_LMB_RELEASED",
+      "MOUSE_LMB_RELEASED"
+    ],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/collectmouseeventdata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает CM в глобальные mouse_* и dlg_action. Действие кнопки выхода нормализуется в обычное отпускание ЛКМ; клавиатурное событие DL записывает код в key.",
+      "en": "Copies CM context to mouse_* and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key."
+    }
+  },
+  {
+    "name": "SavePrevMouseEventData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 139,
+    "endLine": 141,
+    "args": [],
+    "calls": [
+      "SaveEventData"
+    ],
+    "globals": [
+      "i^mouse_x^",
+      "i^mouse_y^",
+      "i^mouse_battleHex^",
+      "i^mouse_flags^",
+      "i^mouse_hero_0^",
+      "i^mouse_item^",
+      "i^mouse_mapX^",
+      "i^mouse_mapY^",
+      "i^mouse_mapZ^",
+      "i^mouse_action^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/saveprevmouseeventdata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет/восстанавливает десять mouse_* значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.",
+      "en": "Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+    }
+  },
+  {
+    "name": "RestorePrevMouseEventData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 142,
+    "endLine": 144,
+    "args": [],
+    "calls": [
+      "RestoreEventData"
+    ],
+    "globals": [
+      "i^mouse_x^",
+      "i^mouse_y^",
+      "i^mouse_battleHex^",
+      "i^mouse_flags^",
+      "i^mouse_hero_0^",
+      "i^mouse_item^",
+      "i^mouse_mapX^",
+      "i^mouse_mapY^",
+      "i^mouse_mapZ^",
+      "i^mouse_action^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/restoreprevmouseeventdata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет/восстанавливает десять mouse_* значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.",
+      "en": "Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+    }
+  },
+  {
+    "name": "OnSavegameRead",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 145,
+    "endLine": 147,
+    "args": [],
+    "calls": [
+      "ClearEventChainData"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onsavegameread",
+    "review": "full-body",
+    "summary": {
+      "ru": "Очищает служебное состояние цепочек после чтения сохранения.",
+      "en": "Clears event-chain state after save data is read."
+    }
+  },
+  {
+    "name": "OnKeyPressed",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 148,
+    "endLine": 156,
+    "args": [
+      "key",
+      "preventDefault",
+      "isDown"
+    ],
+    "calls": [
+      "GetKeyModsState",
+      "SavePrevKeyModsState"
+    ],
+    "globals": [
+      "i^key^",
+      "i^key_down^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onkeypressed",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.",
+      "en": "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+    }
+  },
+  {
+    "name": "OnKeyReleased",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 157,
+    "endLine": 164,
+    "args": [
+      "key",
+      "preventDefault"
+    ],
+    "calls": [
+      "GetKeyModsState",
+      "SavePrevKeyModsState"
+    ],
+    "globals": [
+      "i^key^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onkeyreleased",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.",
+      "en": "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+    }
+  },
+  {
+    "name": "EnterMouseEvent",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 165,
+    "endLine": 170,
+    "args": [],
+    "calls": [
+      "CollectMouseEventData",
+      "GetKeyModsState",
+      "SavePrevKeyModsState",
+      "SavePrevMouseEventData"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/entermouseevent",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет прежний контекст клавиатуры и мыши, затем читает модификаторы и CM нового события.",
+      "en": "Saves previous keyboard/mouse context, then reads modifiers and CM for the new event."
+    }
+  },
+  {
+    "name": "LeaveMouseEvent",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 171,
+    "endLine": 174,
+    "args": [],
+    "calls": [
+      "RestorePrevKeyModsState",
+      "RestorePrevMouseEventData"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/leavemouseevent",
+    "review": "full-body",
+    "summary": {
+      "ru": "Восстанавливает контекст мыши, затем клавиатуры; вызывается завершающими обработчиками.",
+      "en": "Restores mouse context followed by keyboard context from the final handlers."
+    }
+  },
+  {
+    "name": "OnAdventureMapRightMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 175,
+    "endLine": 177,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onadventuremaprightmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnTownMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 178,
+    "endLine": 180,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/ontownmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnHeroScreenMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 181,
+    "endLine": 183,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onheroscreenmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnHeroesMeetScreenMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 184,
+    "endLine": 186,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onheroesmeetscreenmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnBattleScreenMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 187,
+    "endLine": 189,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattlescreenmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnAdventureMapLeftMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 190,
+    "endLine": 192,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onadventuremapleftmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnRecruitDlgMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 193,
+    "endLine": 195,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onrecruitdlgmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnTownHallMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 196,
+    "endLine": 198,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/ontownhallmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnKingdomOverviewMouseClick",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 199,
+    "endLine": 201,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onkingdomoverviewmouseclick",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnBattleMouseHint",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 202,
+    "endLine": 204,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattlemousehint",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnTownMouseHint",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 205,
+    "endLine": 207,
+    "args": [],
+    "calls": [
+      "EnterMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/ontownmousehint",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnCustomDialogEvent",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 208,
+    "endLine": 213,
+    "args": [
+      "dlgId"
+    ],
+    "calls": [
+      "EnterMouseEvent",
+      "SaveEventData"
+    ],
+    "globals": [
+      "i^dlg_id^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/oncustomdialogevent",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_*; OnCustomDialogEvent дополнительно сохраняет dlg_id.",
+      "en": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    }
+  },
+  {
+    "name": "OnAfterErmInstructions",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 214,
+    "endLine": 227,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^timerDay^",
+      "i^timerWeekDay^",
+      "i^timerMonthDay^",
+      "i^timerWeek^",
+      "i^timerMonthWeek^",
+      "i^timerMonth^",
+      "i^timerOnce^",
+      "i^timerOwner^",
+      "i^timerIsAi^",
+      "i^timerIsHuman^",
+      "i^era_everyDayTimerLastDay^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onaftererminstructions",
+    "review": "full-body",
+    "summary": {
+      "ru": "Создаёт ежедневный таймер Framework и сбрасывает учёт обработанного дня.",
+      "en": "Creates the Framework daily timer and resets last-day tracking."
+    }
+  },
+  {
+    "name": "OnEveryDay",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 228,
+    "endLine": 250,
+    "args": [
+      "day",
+      "weekDay",
+      "once",
+      "owner",
+      "isAi"
+    ],
+    "calls": [],
+    "globals": [
+      "i^timerDay^",
+      "i^timerWeekDay^",
+      "i^timerMonthDay^",
+      "i^timerWeek^",
+      "i^timerMonthWeek^",
+      "i^timerMonth^",
+      "i^timerOnce^",
+      "i^timerOwner^",
+      "i^timerIsAi^",
+      "i^timerIsHuman^",
+      "i^era_everyDayTimerLastDay^"
+    ],
+    "constants": [
+      "DAYS_IN_MONTH",
+      "DAYS_IN_WEEK",
+      "FALSE",
+      "TRUE"
+    ],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/oneveryday",
+    "review": "full-body",
+    "summary": {
+      "ru": "Дополняет событие аргументами day, weekDay (1..7), once, owner, isAi. once=TRUE только при первом вызове за день, а не для каждого игрока.",
+      "en": "Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player."
+    }
+  },
+  {
+    "name": "OnBeforeBattle",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 251,
+    "endLine": 254,
+    "args": [],
+    "calls": [
+      "UpdateBattleVars"
+    ],
+    "globals": [
+      "i^battle_round^"
+    ],
+    "constants": [
+      "INT_MIN"
+    ],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbeforebattle",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сбрасывает battle_round в INT_MIN перед настоящим боем.",
+      "en": "Resets battle_round to INT_MIN before actual combat."
+    }
+  },
+  {
+    "name": "OnBeforeBattleUniversal",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 255,
+    "endLine": 262,
+    "args": [],
+    "calls": [
+      "UpdateBattleVars"
+    ],
+    "globals": [
+      "i^battle_round^",
+      "i^battle_current_stack^",
+      "i^battle_current_side^",
+      "i^battle_acting_stack^",
+      "i^battle_acting_side^"
+    ],
+    "constants": [
+      "BATTLE_LEFT",
+      "INT_MIN",
+      "NO_STACK"
+    ],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbeforebattleuniversal",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обновляет battle_* и сбрасывает текущий/действующий стек. Возможен теоретический расчёт ИИ без менеджера боя.",
+      "en": "Refreshes battle_* and resets current/acting stack context. May run in theoretical AI combat with no combat manager."
+    }
+  },
+  {
+    "name": "OnSetupBattlefield",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 263,
+    "endLine": 265,
+    "args": [],
+    "calls": [
+      "UpdateBattleVars"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onsetupbattlefield",
+    "review": "full-body",
+    "summary": {
+      "ru": "Перечитывает battle_* при подготовке поля.",
+      "en": "Refreshes battle_* during battlefield setup."
+    }
+  },
+  {
+    "name": "OnBattleRound",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 266,
+    "endLine": 268,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^battle_round^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattleround",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обновляет battle_round из текущего контекста раунда.",
+      "en": "Updates battle_round from the current round context."
+    }
+  },
+  {
+    "name": "OnBeforeBattleStackTurn",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 269,
+    "endLine": 274,
+    "args": [
+      "activeStack"
+    ],
+    "calls": [],
+    "globals": [
+      "i^battle_current_stack^",
+      "i^battle_current_side^",
+      "i^battle_isActingSideUiUser^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbeforebattlestackturn",
+    "review": "full-body",
+    "summary": {
+      "ru": "Записывает activeStack в battle_current_stack.",
+      "en": "Stores activeStack in battle_current_stack."
+    }
+  },
+  {
+    "name": "OnBattleStackObtainsTurn",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 275,
+    "endLine": 284,
+    "args": [
+      "stackSide",
+      "stackInd"
+    ],
+    "calls": [],
+    "globals": [
+      "i^battle_current_stack^",
+      "i^battle_current_side^",
+      "i^battle_isActingSideUiUser^"
+    ],
+    "constants": [
+      "BATTLE_STACKS_PER_SIDE",
+      "SPELL_HYPNOTIZE"
+    ],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattlestackobtainsturn",
+    "review": "full-body",
+    "summary": {
+      "ru": "Переводит side/index в глобальный ID стека, учитывает гипноз при определении текущей стороны.",
+      "en": "Converts side/index to a global stack ID and accounts for hypnosis when determining the current side."
+    }
+  },
+  {
+    "name": "OnBeforeBattleAction",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 285,
+    "endLine": 291,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^battle_acting_stack^",
+      "i^battle_acting_side^",
+      "i^battle_aiOnly^",
+      "i^battle_isQuick^",
+      "i^battle_isVisible^",
+      "i^battle_isActingSideUiUser^"
+    ],
+    "constants": [
+      "TRUE"
+    ],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbeforebattleaction",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает BG:N/Q в battle_acting_stack/side и обновляет флаги видимого/быстрого боя.",
+      "en": "Reads BG:N/Q into battle_acting_stack/side and updates visible/quick combat flags."
+    }
+  },
+  {
+    "name": "OnStartOrLoad",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 292,
+    "endLine": 300,
+    "args": [],
+    "calls": [
+      "GetMaxArtifactId",
+      "GetMaxHeroId",
+      "GetMaxMonsterId",
+      "GetMaxSpellId"
+    ],
+    "globals": [
+      "i^maxArtifacId^",
+      "i^maxHeroId^",
+      "i^maxMonsterId^",
+      "i^maxSpellId^"
+    ],
+    "constants": [],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onstartorload",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обновляет maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. Имя maxArtifacId в исходнике без второй t.",
+      "en": "Updates maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. The source spells maxArtifacId without the second t."
+    }
+  },
+  {
+    "name": "NewIntArray",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 301,
+    "endLine": 336,
+    "args": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "calls": [
+      "Array_Fill"
+    ],
+    "globals": [],
+    "constants": [
+      "ARG_SYNTAX_GET",
+      "M_AUTO_ID",
+      "M_INT",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/newintarray",
+    "review": "full-body",
+    "summary": {
+      "ru": "Создаёт массив целых: P?result, Psize/?result или Psize/fill/?result. После выходного аргумента допустим тип хранения; по умолчанию M_TRIGGER_LOCAL, время жизни продлено до вызывающего контекста. Значение заполнения по умолчанию 0.",
+      "en": "Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0."
+    }
+  },
+  {
+    "name": "NewStrArray",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 337,
+    "endLine": 375,
+    "args": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ARG_SYNTAX_GET",
+      "M_AUTO_ID",
+      "M_STR",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/newstrarray",
+    "review": "full-body",
+    "summary": {
+      "ru": "Создаёт строковый массив с теми же перегрузками, что NewIntArray. Заполнитель — строка, по умолчанию пустая. Возвращается ID массива, а не адрес памяти.",
+      "en": "Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address."
+    }
+  },
+  {
+    "name": "Array_Push",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 376,
+    "endLine": 400,
+    "args": [
+      "list",
+      "firstItem"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-push",
+    "review": "full-body",
+    "summary": {
+      "ru": "Добавляет до 15 значений в конец массива, увеличивая размер. Тип значений должен соответствовать массиву. Недействительный массив пропускается.",
+      "en": "Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped."
+    }
+  },
+  {
+    "name": "Array_Pop",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 401,
+    "endLine": 445,
+    "args": [
+      "list",
+      "firstItem"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [
+      "M_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-pop",
+    "review": "full-body",
+    "summary": {
+      "ru": "Удаляет последние элементы; до 15 выходов заполняются от последнего к первому. Без выходов удаляет один элемент. При нехватке элементов возвращает 0 или пустую строку.",
+      "en": "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings."
+    }
+  },
+  {
+    "name": "Array_Move",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 446,
+    "endLine": 517,
+    "args": [
+      "list",
+      "offset",
+      "length",
+      "destInd"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [
+      "M_INT",
+      "SIZEOF_INT"
+    ],
+    "status": "requires-review",
+    "group": "arrays",
+    "slug": "framework/functions/array-move",
+    "review": "full-body",
+    "summary": {
+      "ru": "Перемещает length элементов из offset в destInd внутри массива без изменения размера; поддерживает перекрытие, обрезает выход за конец. В снимке destInd объявлен через !#VR вместо !#VA: сверяйте исправление библиотеки перед использованием.",
+      "en": "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use."
+    }
+  },
+  {
+    "name": "Array_Splice",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 518,
+    "endLine": 586,
+    "args": [
+      "list",
+      "startIndex",
+      "numItemsToDelete",
+      "firstItemToInsert"
+    ],
+    "calls": [
+      "Array_Move"
+    ],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [
+      "M_INT"
+    ],
+    "status": "requires-review",
+    "group": "arrays",
+    "slug": "framework/functions/array-splice",
+    "review": "full-body",
+    "summary": {
+      "ru": "Удаляет диапазон и вставляет до 13 значений с изменением размера. Отрицательный startIndex отсчитывается от конца; отсутствие numItemsToDelete удаляет остаток, отрицательное число сохраняет столько элементов в конце. Зависит от Array_Move.",
+      "en": "Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move."
+    }
+  },
+  {
+    "name": "Array_Copy",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 587,
+    "endLine": 618,
+    "args": [
+      "srcArray",
+      "dstArray"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_INT",
+      "SIZEOF_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-copy",
+    "review": "full-body",
+    "summary": {
+      "ru": "Полностью заменяет dstArray содержимым srcArray, подгоняя размер. Оба массива должны существовать и иметь одинаковый тип.",
+      "en": "Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type."
+    }
+  },
+  {
+    "name": "Array_Clone",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 619,
+    "endLine": 630,
+    "args": [
+      "srcArray",
+      "result"
+    ],
+    "calls": [
+      "Array_Copy"
+    ],
+    "globals": [],
+    "constants": [
+      "M_AUTO_ID",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-clone",
+    "review": "full-body",
+    "summary": {
+      "ru": "Создаёт копию массива в памяти вызывающего триггера и возвращает её ID. Строки копируются как значения.",
+      "en": "Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values."
+    }
+  },
+  {
+    "name": "Array_Merge",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 631,
+    "endLine": 688,
+    "args": [
+      "dstArray",
+      "firstArrayToMerge"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "DUMMY",
+      "M_INT",
+      "NULL",
+      "SIZEOF_INT",
+      "SIZEOF_PTR",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-merge",
+    "review": "full-body",
+    "summary": {
+      "ru": "Добавляет содержимое одного или нескольких массивов в dstArray. Все типы должны совпадать; массив-приёмник изменяется.",
+      "en": "Appends one or more arrays to dstArray. All element types must match; the destination is modified."
+    }
+  },
+  {
+    "name": "Array_Slice",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 689,
+    "endLine": 743,
+    "args": [
+      "list",
+      "start",
+      "count",
+      "result",
+      "arrayStorageType"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "DUMMY",
+      "INT_MAX",
+      "M_AUTO_ID",
+      "M_INT",
+      "M_TRIGGER_LOCAL",
+      "NULL",
+      "SIZEOF_INT",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-slice",
+    "review": "full-body",
+    "summary": {
+      "ru": "Копирует диапазон в новый массив. Отрицательные start/count задают отсчёт от конца/исключение хвоста. Хранение по умолчанию M_TRIGGER_LOCAL. Для пустого или неверного исходного массива возвращает NULL, поэтому проверяйте результат.",
+      "en": "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result."
+    }
+  },
+  {
+    "name": "Array_Join",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 744,
+    "endLine": 780,
+    "args": [
+      "list",
+      "resultPtr",
+      "gluePtr"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^",
+      "s^result^"
+    ],
+    "constants": [
+      "M_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-join",
+    "review": "full-body",
+    "summary": {
+      "ru": "Соединяет элементы целого или строкового массива, разделяя gluePtr (по умолчанию пустой строкой). Возвращает ERM-строку; использует и очищает s^result^ и s^temp^.",
+      "en": "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^."
+    }
+  },
+  {
+    "name": "Array_Sort",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 781,
+    "endLine": 812,
+    "args": [
+      "list",
+      "startInd",
+      "endInd"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_STR"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-sort",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сортирует по возрастанию весь массив или включительный диапазон startInd..endInd. По умолчанию 0..size-1; границы обрезаются.",
+      "en": "Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped."
+    }
+  },
+  {
+    "name": "CompareStrings_Bridge_INTERNAL",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 813,
+    "endLine": 834,
+    "args": [
+      "str1Addr",
+      "str2Addr",
+      "bridgeState",
+      "result"
+    ],
+    "calls": [
+      "compareFunc"
+    ],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [],
+    "status": "internal",
+    "group": "internal",
+    "slug": "framework/functions/comparestrings-bridge-internal",
+    "review": "full-body",
+    "summary": {
+      "ru": "Мост строкового компаратора: преобразует адреса в ERM-строки и вызывает пользовательский callback со state и выходным результатом. Нулевой адрес трактует как пустую строку.",
+      "en": "String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string."
+    }
+  },
+  {
+    "name": "Array_CustomSort",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 835,
+    "endLine": 889,
+    "args": [
+      "list",
+      "compareFunc",
+      "state",
+      "startInd",
+      "endInd"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_AUTO_ID",
+      "M_INT",
+      "M_STR",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-customsort",
+    "review": "full-body",
+    "summary": {
+      "ru": "Стабильная сортировка: callback(value1,value2,state,?result), где результат <0, 0, >0 определяет порядок. Для строк передаются z-индексы. state по умолчанию 0; диапазон включительный, по умолчанию весь массив.",
+      "en": "Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array."
+    }
+  },
+  {
+    "name": "Array_SortedUnique",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 890,
+    "endLine": 933,
+    "args": [
+      "list"
+    ],
+    "calls": [
+      "Array_Sort"
+    ],
+    "globals": [],
+    "constants": [
+      "M_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-sortedunique",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сортирует целочисленный массив и удаляет повторы, уменьшая размер. Строковые массивы отвергаются.",
+      "en": "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected."
+    }
+  },
+  {
+    "name": "Array_Shuffle",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 934,
+    "endLine": 955,
+    "args": [
+      "list"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_INT",
+      "SIZEOF_INT",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-shuffle",
+    "review": "full-body",
+    "summary": {
+      "ru": "Перемешивает элементы на месте через VR:R и перестановки. Строковые указатели переставляются без копирования текста. Для сетевой логики проверяйте синхронизацию генератора.",
+      "en": "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic."
+    }
+  },
+  {
+    "name": "Array_Revert",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 956,
+    "endLine": 981,
+    "args": [
+      "list",
+      "startInd",
+      "endInd"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-revert",
+    "review": "full-body",
+    "summary": {
+      "ru": "Разворачивает порядок элементов всего массива либо включительного диапазона. По умолчанию 0..size-1; поддерживает числа и строки.",
+      "en": "Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings."
+    }
+  },
+  {
+    "name": "Array_Fill",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 982,
+    "endLine": 1010,
+    "args": [
+      "list",
+      "startValue",
+      "step",
+      "startInd",
+      "endInd"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-fill",
+    "review": "full-body",
+    "summary": {
+      "ru": "Заполняет целочисленный массив арифметической последовательностью startValue, startValue+step…; step по умолчанию 0. Диапазон включительный, по умолчанию весь массив. Реализация пишет 32-битные значения: строковый массив не передавайте.",
+      "en": "Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array."
+    }
+  },
+  {
+    "name": "Array_Resize",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1011,
+    "endLine": 1040,
+    "args": [
+      "list",
+      "newSize",
+      "fillValue"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_INT",
+      "M_STR"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-resize",
+    "review": "full-body",
+    "summary": {
+      "ru": "Изменяет размер массива. Новые элементы получают 0/пустую строку или указанный fillValue; существующие сохраняются, усечённые удаляются.",
+      "en": "Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed."
+    }
+  },
+  {
+    "name": "Array_EnsureMinSize",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1041,
+    "endLine": 1053,
+    "args": [
+      "list",
+      "minSize",
+      "fillValue"
+    ],
+    "calls": [
+      "Array_Resize"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-ensureminsize",
+    "review": "full-body",
+    "summary": {
+      "ru": "Увеличивает массив до minSize при необходимости и заполняет новые элементы. Никогда не уменьшает размер.",
+      "en": "Grows an array to minSize when needed and fills new items. Never shrinks it."
+    }
+  },
+  {
+    "name": "Array_CountValue",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1054,
+    "endLine": 1084,
+    "args": [
+      "list",
+      "value",
+      "result",
+      "caseInsensitive"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_INT",
+      "SIZEOF_PTR",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-countvalue",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает число совпадений value. Для строк caseInsensitive по умолчанию FALSE; используется lstrcmpA/lstrcmpiA.",
+      "en": "Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA."
+    }
+  },
+  {
+    "name": "Array_IndexOf",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1085,
+    "endLine": 1123,
+    "args": [
+      "list",
+      "value",
+      "result",
+      "caseInsensitive"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_INT",
+      "SIZEOF_PTR",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-indexof",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает индекс первого совпадения либо -1. Числа сравниваются точно; для строк можно включить caseInsensitive.",
+      "en": "Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive."
+    }
+  },
+  {
+    "name": "Array_Find",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1124,
+    "endLine": 1165,
+    "args": [
+      "list",
+      "callback",
+      "result",
+      "customArg"
+    ],
+    "calls": [
+      "callback"
+    ],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "M_INT",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "arrays",
+    "slug": "framework/functions/array-find",
+    "review": "full-body",
+    "summary": {
+      "ru": "Вызывает callback(value,?found,listId,customArg) до первого TRUE. Возвращает индекс или -1; строковое value — ERM-строка. found и необязательный customArg по умолчанию 0.",
+      "en": "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0."
+    }
+  },
+  {
+    "name": "Pow",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1166,
+    "endLine": 1172,
+    "args": [
+      "base",
+      "power",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/pow",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возведение в степень. Оба входа и выход — float; результат копируется из e1 через VR:C без числового преобразования.",
+      "en": "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion."
+    }
+  },
+  {
+    "name": "Sqrt",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1173,
+    "endLine": 1179,
+    "args": [
+      "value",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/sqrt",
+    "review": "full-body",
+    "summary": {
+      "ru": "Квадратный корень float. Вход и выход вещественные; e1 изменяется. Отрицательные аргументы не имеют действительного корня.",
+      "en": "Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root."
+    }
+  },
+  {
+    "name": "IntLog2",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1180,
+    "endLine": 1193,
+    "args": [
+      "value",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/intlog2",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает ceil(log2(value)); для value<=0 возвращает 0. Используется, в частности, для номера единственного установленного бита.",
+      "en": "Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit."
+    }
+  },
+  {
+    "name": "ConstructBitMask",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1194,
+    "endLine": 1223,
+    "args": [
+      "args",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/constructbitmask",
+    "review": "full-body",
+    "summary": {
+      "ru": "Объединяет до 15 позиций битов 0..31 в маску; последний аргумент — выход. Повтор позиции не удваивает бит, поскольку применяется OR. Нужны хотя бы позиция и выход.",
+      "en": "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output."
+    }
+  },
+  {
+    "name": "DeconstructBitMask",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1224,
+    "endLine": 1240,
+    "args": [
+      "mask",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "M_AUTO_ID",
+      "M_INT",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/deconstructbitmask",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает новый локальный целочисленный массив позиций установленных битов 0..31. Время жизни продлено до вызывающего контекста.",
+      "en": "Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context."
+    }
+  },
+  {
+    "name": "PackUnion",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1241,
+    "endLine": 1294,
+    "args": [
+      "firstArg"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "BITS_IN_INT32"
+    ],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/packunion",
+    "review": "full-body",
+    "summary": {
+      "ru": "PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.",
+      "en": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+    }
+  },
+  {
+    "name": "UnpackUnion",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1295,
+    "endLine": 1333,
+    "args": [
+      "packedValue",
+      "firstFieldArg"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "BITS_IN_INT32"
+    ],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/unpackunion",
+    "review": "full-body",
+    "summary": {
+      "ru": "PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.",
+      "en": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+    }
+  },
+  {
+    "name": "Tm32Encode",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1334,
+    "endLine": 1341,
+    "args": [
+      "value",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/tm32encode",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обратимое перемешивание 32 бит; выход можно восстановить Tm32Decode. Меняет быстрые переменные f и g. Это не шифрование.",
+      "en": "Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption."
+    }
+  },
+  {
+    "name": "Tm32Decode",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1342,
+    "endLine": 1349,
+    "args": [
+      "value",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/tm32decode",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обращает Tm32Encode над 32-битным значением. Меняет f и g.",
+      "en": "Inverts Tm32Encode for a 32-bit value. Changes f and g."
+    }
+  },
+  {
+    "name": "Hash32",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1350,
+    "endLine": 1360,
+    "args": [
+      "data",
+      "dataLen",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/hash32",
+    "review": "full-body",
+    "summary": {
+      "ru": "Считает 32-битный хеш dataLen байт по адресу data (либо строки). Размер и доступность памяти обеспечивает вызывающий код; криптографические свойства не заявлены.",
+      "en": "Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised."
+    }
+  },
+  {
+    "name": "MakeRngSeed",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1361,
+    "endLine": 1375,
+    "args": [
+      "firstArg"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "SIZEOF_INT"
+    ],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/makerngseed",
+    "review": "full-body",
+    "summary": {
+      "ru": "Получает детерминированный seed из до 15 целых аргументов; последний аргумент — выход. Одинаковая последовательность входов даёт одинаковый seed.",
+      "en": "Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed."
+    }
+  },
+  {
+    "name": "SplitMix32",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1376,
+    "endLine": 1410,
+    "args": [
+      "seed",
+      "min",
+      "max",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "INT_MAX",
+      "INT_MIN"
+    ],
+    "status": "public",
+    "group": "math",
+    "slug": "framework/functions/splitmix32",
+    "review": "full-body",
+    "summary": {
+      "ru": "P?seed/?result выдаёт int32; P?seed/min/max/?result — число во включительном диапазоне. Seed изменяется и должен передаваться через ?. Не использует состояние обычного VR:R.",
+      "en": "P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state."
+    }
+  },
+  {
+    "name": "Trim",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1411,
+    "endLine": 1420,
+    "args": [
+      "strPtr",
+      "resultPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/trim",
+    "review": "full-body",
+    "summary": {
+      "ru": "Убирает с обоих концов строки пробелы и управляющие байты 0..32; возвращает новую ERM-строку.",
+      "en": "Trims spaces and control bytes 0..32 from both ends; returns a new ERM string."
+    }
+  },
+  {
+    "name": "GetStrAtAddr",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1421,
+    "endLine": 1430,
+    "args": [
+      "strAddr",
+      "resultPtr"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^",
+      "s^result^"
+    ],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/getstrataddr",
+    "review": "full-body",
+    "summary": {
+      "ru": "Копирует строку с нулевым терминатором по адресу strAddr в выходную ERM-строку; NULL даёт пустую. Для ненулевого адреса память должна быть доступна.",
+      "en": "Copies a null-terminated string at strAddr into an output ERM string; NULL yields empty text. Non-null memory must be readable."
+    }
+  },
+  {
+    "name": "CompareStrings",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1431,
+    "endLine": 1442,
+    "args": [
+      "str1Ptr",
+      "str2Ptr",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/comparestrings",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сравнивает две ERM-строки операторами языка и возвращает -1, 0 или 1.",
+      "en": "Compares two ERM strings with language operators and returns -1, 0, or 1."
+    }
+  },
+  {
+    "name": "StrToUpper",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1443,
+    "endLine": 1457,
+    "args": [
+      "strPtr",
+      "resultPtr"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [
+      "M_AUTO_ID",
+      "M_STR",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/strtoupper",
+    "review": "full-body",
+    "summary": {
+      "ru": "Создаёт строку в верхнем/нижнем регистре через CharUpperA/CharLowerA. Это ANSI-преобразование Windows, не универсальная Unicode-нормализация.",
+      "en": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization."
+    }
+  },
+  {
+    "name": "StrToLower",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1458,
+    "endLine": 1472,
+    "args": [
+      "strPtr",
+      "resultPtr"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [
+      "M_AUTO_ID",
+      "M_STR",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/strtolower",
+    "review": "full-body",
+    "summary": {
+      "ru": "Создаёт строку в верхнем/нижнем регистре через CharUpperA/CharLowerA. Это ANSI-преобразование Windows, не универсальная Unicode-нормализация.",
+      "en": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization."
+    }
+  },
+  {
+    "name": "Substr",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1473,
+    "endLine": 1485,
+    "args": [
+      "strPtr",
+      "start",
+      "count",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/substr",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает подстроку: start с нуля, отрицательный start от конца; count — длина, отрицательный count исключает хвост.",
+      "en": "Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative."
+    }
+  },
+  {
+    "name": "StrPos",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1486,
+    "endLine": 1497,
+    "args": [
+      "haystackPtr",
+      "needlePtr",
+      "result",
+      "offset"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/strpos",
+    "review": "full-body",
+    "summary": {
+      "ru": "Ищет первое вхождение needlePtr в haystackPtr начиная с offset (по умолчанию 0). Возвращает смещение с нуля либо -1.",
+      "en": "Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1."
+    }
+  },
+  {
+    "name": "StrReplace",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1498,
+    "endLine": 1510,
+    "args": [
+      "sourcePtr",
+      "patternPtr",
+      "replacementPtr",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/strreplace",
+    "review": "full-body",
+    "summary": {
+      "ru": "Заменяет все вхождения patternPtr в sourcePtr на replacementPtr и возвращает строку. Вызывается только внутри триггера.",
+      "en": "Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger."
+    }
+  },
+  {
+    "name": "Interpolate",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1511,
+    "endLine": 1520,
+    "args": [
+      "strPtr",
+      "resultPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/interpolate",
+    "review": "full-body",
+    "summary": {
+      "ru": "Подставляет текущие значения ERM-переменных в строковый шаблон. Учитывайте момент вызова: шаблон и уже готовый текст имеют разное назначение.",
+      "en": "Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs."
+    }
+  },
+  {
+    "name": "DecorateInt",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1521,
+    "endLine": 1532,
+    "args": [
+      "value",
+      "resultPtr",
+      "ignoreSmallNumbers"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/decorateint",
+    "review": "full-body",
+    "summary": {
+      "ru": "Форматирует целое с разделителем тысяч era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS оставляет числа до 9999 без группировки. Выход — строка.",
+      "en": "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string."
+    }
+  },
+  {
+    "name": "FormatQuantity",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1533,
+    "endLine": 1553,
+    "args": [
+      "value",
+      "resultPtr",
+      "maxLen",
+      "maxDigits"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "SIZEOF_ZSTR"
+    ],
+    "status": "public",
+    "group": "strings",
+    "slug": "framework/functions/formatquantity",
+    "review": "full-body",
+    "summary": {
+      "ru": "Форматирует количество с локалью и суффиксами K/M/G. maxLen по умолчанию 5 логических символов, maxDigits — 4; поддерживает отрицательные числа.",
+      "en": "Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported."
+    }
+  },
+  {
+    "name": "FileExists",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1554,
+    "endLine": 1565,
+    "args": [
+      "filePathPtr",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "FILE_ATTRIBUTE_DIRECTORY",
+      "INVALID_FILE_ATTRIBUTES",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/fileexists",
+    "review": "full-body",
+    "summary": {
+      "ru": "Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.",
+      "en": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+    }
+  },
+  {
+    "name": "DirExists",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1566,
+    "endLine": 1577,
+    "args": [
+      "dirPathPtr",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "FILE_ATTRIBUTE_DIRECTORY",
+      "INVALID_FILE_ATTRIBUTES",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/direxists",
+    "review": "full-body",
+    "summary": {
+      "ru": "Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.",
+      "en": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+    }
+  },
+  {
+    "name": "DeleteFile",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1578,
+    "endLine": 1588,
+    "args": [
+      "filePathPtr",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/deletefile",
+    "review": "full-body",
+    "summary": {
+      "ru": "Удаляет файл через DeleteFileA; TRUE означает успешное удаление. Не удаляет дерево каталогов.",
+      "en": "Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees."
+    }
+  },
+  {
+    "name": "ClearIniCache",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1589,
+    "endLine": 1596,
+    "args": [
+      "filePathPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/clearinicache",
+    "review": "full-body",
+    "summary": {
+      "ru": "Забывает кэш одного INI. Следующее чтение или запись заново загрузит файл с диска. Сам файл не удаляется.",
+      "en": "Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file."
+    }
+  },
+  {
+    "name": "EmptyIniCache",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1597,
+    "endLine": 1604,
+    "args": [
+      "filePathPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/emptyinicache",
+    "review": "full-body",
+    "summary": {
+      "ru": "Заменяет кэш INI пустым содержимым для создания настроек заново. Чтобы записать на диск, нужен SaveIni.",
+      "en": "Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk."
+    }
+  },
+  {
+    "name": "CreateDir",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1605,
+    "endLine": 1612,
+    "args": [
+      "dirPathPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/createdir",
+    "review": "full-body",
+    "summary": {
+      "ru": "Вызывает CreateDirectoryA для одного каталога; результат API не возвращается. Не гарантирует создание отсутствующей цепочки родителей.",
+      "en": "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories."
+    }
+  },
+  {
+    "name": "SaveIni",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1613,
+    "endLine": 1620,
+    "args": [
+      "filePathPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/saveini",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет кэш INI на диск, создавая родительские каталоги. Если кэша ещё нет, сначала загружает исходный файл.",
+      "en": "Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists."
+    }
+  },
+  {
+    "name": "MergeIniWithDefault",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1621,
+    "endLine": 1629,
+    "args": [
+      "targetPathPtr",
+      "sourcePathPtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/mergeiniwithdefault",
+    "review": "full-body",
+    "summary": {
+      "ru": "Добавляет недостающие ключи из source в кэш target, сохраняя уже заданные значения. Запись на диск выполняется отдельно через SaveIni.",
+      "en": "Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni."
+    }
+  },
+  {
+    "name": "WriteIniInts",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1630,
+    "endLine": 1662,
+    "args": [
+      "filePathPtr",
+      "sectionNamePtr",
+      "firstKeyPtr",
+      "firstValue"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "HERO_ORRIN",
+      "HERO_XERON"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/writeiniints",
+    "review": "full-body",
+    "summary": {
+      "ru": "После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.",
+      "en": "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+    }
+  },
+  {
+    "name": "WriteIniStrings",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1663,
+    "endLine": 1696,
+    "args": [
+      "filePathPtr",
+      "sectionNamePtr",
+      "firstKeyPtr",
+      "firstValue"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "HERO_ORRIN",
+      "HERO_XERON"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/writeinistrings",
+    "review": "full-body",
+    "summary": {
+      "ru": "После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.",
+      "en": "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+    }
+  },
+  {
+    "name": "ReadIniStrings",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1697,
+    "endLine": 1735,
+    "args": [
+      "filePathPtr",
+      "sectionNamePtr",
+      "firstKeyPtr",
+      "firstValue",
+      "firstValueDefault"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "HERO_ORRIN",
+      "HERO_XERON"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/readinistrings",
+    "review": "full-body",
+    "summary": {
+      "ru": "После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.",
+      "en": "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check."
+    }
+  },
+  {
+    "name": "ReadIniInts",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1736,
+    "endLine": 1777,
+    "args": [
+      "filePathPtr",
+      "sectionNamePtr",
+      "firstKeyPtr",
+      "firstValue",
+      "firstValueDefault"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "HERO_ORRIN",
+      "HERO_XERON"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/readiniints",
+    "review": "full-body",
+    "summary": {
+      "ru": "После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.",
+      "en": "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check."
+    }
+  },
+  {
+    "name": "ReadJsonIntArray",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1778,
+    "endLine": 1806,
+    "args": [
+      "jsonKeyPtr",
+      "intArray"
+    ],
+    "calls": [
+      "Array_Push",
+      "NewIntArray"
+    ],
+    "globals": [],
+    "constants": [
+      "ARG_SYNTAX_GET"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/readjsonintarray",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.",
+      "en": "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers."
+    }
+  },
+  {
+    "name": "ReadJsonStrArray",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1807,
+    "endLine": 1834,
+    "args": [
+      "jsonKeyPtr",
+      "strArray"
+    ],
+    "calls": [
+      "Array_Push",
+      "NewStrArray"
+    ],
+    "globals": [],
+    "constants": [
+      "ARG_SYNTAX_GET"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/readjsonstrarray",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.",
+      "en": "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers."
+    }
+  },
+  {
+    "name": "LoadIntGlobalsFromJson",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1835,
+    "endLine": 1869,
+    "args": [
+      "jsonKeysPrefixPtr",
+      "globalVarsPrefixPtr",
+      "firstKeyNamePtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/loadintglobalsfromjson",
+    "review": "full-body",
+    "summary": {
+      "ru": "После JSON-префикса и префикса глобальных переменных принимает до 14 имён. Значение сначала ищется как имя ERM-константы, затем преобразуется в целое; отсутствующий ключ не меняет глобальную переменную.",
+      "en": "Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged."
+    }
+  },
+  {
+    "name": "ScanDir",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1870,
+    "endLine": 1931,
+    "args": [
+      "dirPathPtr",
+      "fileList",
+      "itemsType",
+      "fullPaths"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "FILE_ATTRIBUTE_DIRECTORY",
+      "INVALID_HANDLE_VALUE",
+      "M_STR",
+      "SCAN_DIRS_ONLY",
+      "SCAN_FILES_ONLY",
+      "STRUCT_WIN32_FIND_DATA_ATTRS",
+      "STRUCT_WIN32_FIND_DATA_FILENAME",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/scandir",
+    "review": "full-body",
+    "summary": {
+      "ru": "Очищает переданный строковый массив и заполняет именами без . и ... itemsType — SCAN_* (по умолчанию файлы и каталоги), fullPaths — добавлять путь (FALSE). При раннем выходе после FindFirstFileA снимок не восстанавливает v1.",
+      "en": "Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_* (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot."
+    }
+  },
+  {
+    "name": "GetModList",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1932,
+    "endLine": 1986,
+    "args": [
+      "arrayId",
+      "toLower",
+      "reverse"
+    ],
+    "calls": [
+      "Array_Revert",
+      "NewStrArray",
+      "StrToLower",
+      "Substr"
+    ],
+    "globals": [],
+    "constants": [
+      "CALLCONV_STDCALL",
+      "FALSE",
+      "SIZEOF_INT"
+    ],
+    "status": "public",
+    "group": "files",
+    "slug": "framework/functions/getmodlist",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает локальный массив активных модов из VFS. toLower и reverse по умолчанию FALSE. При нулевом числе модов выход не инициализируется; заранее задайте NULL и проверяйте результат.",
+      "en": "Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it."
+    }
+  },
+  {
+    "name": "SaveGame",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 1987,
+    "endLine": 2009,
+    "args": [
+      "fileNamePtr",
+      "appendExtension",
+      "compressFile",
+      "saveToData",
+      "markInList"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ADDR_MARKED_SAVEGAME_NAME",
+      "CALLCONV_THISCALL",
+      "FALSE",
+      "GAME_MANAGER",
+      "TRUE",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/savegame",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сохраняет игру по имени без расширения. По умолчанию appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Вызывает машинный адрес сохранения и может менять выбранную запись диалога.",
+      "en": "Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection."
+    }
+  },
+  {
+    "name": "DisableErrors",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2010,
+    "endLine": 2013,
+    "args": [],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "TRUE",
+      "WOG_OPT_LAST_ERROR",
+      "WOG_OPT_MUTE_ERRORS"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/disableerrors",
+    "review": "full-body",
+    "summary": {
+      "ru": "Включает WOG_OPT_MUTE_ERRORS и обнуляет WOG_OPT_LAST_ERROR. Используйте только вокруг контролируемой операции.",
+      "en": "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation."
+    }
+  },
+  {
+    "name": "EnableErrors",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2014,
+    "endLine": 2021,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "TRUE",
+      "WOG_OPT_LAST_ERROR",
+      "WOG_OPT_MUTE_ERRORS"
+    ],
+    "status": "requires-review",
+    "group": "game",
+    "slug": "framework/functions/enableerrors",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает последний флаг ошибки, но в этом снимке снова устанавливает WOG_OPT_MUTE_ERRORS=TRUE. Комментарий обещает включение сообщений, код этого не делает. Для восстановления требуется явный UN:P с FALSE либо исправленная библиотека.",
+      "en": "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library."
+    }
+  },
+  {
+    "name": "H3Dlg_StopAnimation",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2022,
+    "endLine": 2025,
+    "args": [],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-stopanimation",
+    "review": "full-body",
+    "summary": {
+      "ru": "Останавливает/возобновляет анимацию текущих диалогов через машинную функцию. Пары должны быть сбалансированы.",
+      "en": "Stops/resumes current dialog animation through native functions. Keep calls balanced."
+    }
+  },
+  {
+    "name": "H3Dlg_ResumeAnimation",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2026,
+    "endLine": 2029,
+    "args": [],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-resumeanimation",
+    "review": "full-body",
+    "summary": {
+      "ru": "Останавливает/возобновляет анимацию текущих диалогов через машинную функцию. Пары должны быть сбалансированы.",
+      "en": "Stops/resumes current dialog animation through native functions. Keep calls balanced."
+    }
+  },
+  {
+    "name": "H3Dlg_ShowPopup",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2030,
+    "endLine": 2037,
+    "args": [
+      "h3Dlg"
+    ],
+    "calls": [
+      "H3Dlg_ResumeAnimation",
+      "H3Dlg_StopAnimation"
+    ],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-showpopup",
+    "review": "full-body",
+    "summary": {
+      "ru": "Показывает H3-диалог как окно по ПКМ, приостанавливая и возобновляя анимацию. Требует действительный адрес H3Dlg.",
+      "en": "Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address."
+    }
+  },
+  {
+    "name": "H3Dlg_Coords",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2038,
+    "endLine": 2087,
+    "args": [
+      "h3Dlg",
+      "x",
+      "y"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ADDR_GAME_SCREEN_HEIGHT",
+      "ADDR_GAME_SCREEN_WIDTH",
+      "ARG_SYNTAX_ADD",
+      "ARG_SYNTAX_GET",
+      "DLG_BOX_SHADOW_WIDTH",
+      "NULL",
+      "STRUCT_H3DLG_HEIGHT",
+      "STRUCT_H3DLG_WIDTH",
+      "STRUCT_H3DLG_X",
+      "STRUCT_H3DLG_Y",
+      "UNC_INT",
+      "UNC_INT16"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-coords",
+    "review": "full-body",
+    "summary": {
+      "ru": "Координаты x/y поддерживают GET, SET и ADD (?). Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.",
+      "en": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N."
+    }
+  },
+  {
+    "name": "H3Dlg_CenterAtMouse",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2088,
+    "endLine": 2102,
+    "args": [
+      "h3Dlg"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_STDCALL",
+      "CALLCONV_THISCALL",
+      "STRUCT_H3DLG_HEIGHT",
+      "STRUCT_H3DLG_WIDTH",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-centeratmouse",
+    "review": "full-body",
+    "summary": {
+      "ru": "Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.",
+      "en": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first."
+    }
+  },
+  {
+    "name": "H3Dlg_GetRootDlg",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2103,
+    "endLine": 2108,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "UNC_INT",
+      "WND_MANAGER"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-getrootdlg",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает адрес корневого диалога или NULL; обычно это карта приключений.",
+      "en": "Returns the root dialog address or NULL; usually the adventure map."
+    }
+  },
+  {
+    "name": "H3Dlg_GetCurrentDlg",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2109,
+    "endLine": 2114,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "UNC_INT",
+      "WND_MANAGER"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-getcurrentdlg",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает адрес верхнего диалога или NULL. Адрес не равен его идентификатору DLG_*.",
+      "en": "Returns the topmost dialog address or NULL. This address is not its DLG_* identifier."
+    }
+  },
+  {
+    "name": "H3Dlg_GetCurrentDlgId",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2115,
+    "endLine": 2125,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "NULL",
+      "UNC_INT",
+      "WND_MANAGER"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-getcurrentdlgid",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает идентификатор верхнего окна из виртуальной таблицы, сопоставимый с DLG_*, либо NULL.",
+      "en": "Returns the top dialog identifier from its virtual table, comparable to DLG_*, or NULL."
+    }
+  },
+  {
+    "name": "H3Dlg_SendCmdToItem",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2126,
+    "endLine": 2151,
+    "args": [
+      "h3Dlg",
+      "itemId",
+      "cmdSubtype",
+      "param",
+      "cmdType"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL",
+      "DLG_CMD_SET_DEF",
+      "DLG_CMD_SET_PCX",
+      "DLG_CMD_SET_TEXT",
+      "DLG_CMD_TYPE_DEFAULT",
+      "NULL"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-sendcmdtoitem",
+    "review": "full-body",
+    "summary": {
+      "ru": "Отправляет itemId команду DLG_CMD_*; cmdType по умолчанию DLG_CMD_TYPE_DEFAULT. Для SET_TEXT/SET_DEF/SET_PCX param трактуется как строка; остальные команды получают число.",
+      "en": "Sends a DLG_CMD_* to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number."
+    }
+  },
+  {
+    "name": "H3Dlg_DrawItemOnScreen",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2152,
+    "endLine": 2166,
+    "args": [
+      "h3Dlg",
+      "itemId"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL",
+      "NULL"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-drawitemonscreen",
+    "review": "full-body",
+    "summary": {
+      "ru": "Выводит на экран элемент по itemId или весь диалог при ALL_ITEMS. Объект H3Dlg должен существовать.",
+      "en": "Draws itemId or the entire dialog for ALL_ITEMS. The H3Dlg object must exist."
+    }
+  },
+  {
+    "name": "H3Dlg_UpdateItemRange",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2167,
+    "endLine": 2183,
+    "args": [
+      "h3Dlg",
+      "minItemId",
+      "maxItemId"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL",
+      "NULL",
+      "STRUCT_H3DLG_VTABLE",
+      "UNC_INT"
+    ],
+    "status": "requires-review",
+    "group": "dialogs",
+    "slug": "framework/functions/h3dlg-updateitemrange",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обновляет внутреннее состояние диалога перед перерисовкой. В снимке minItemId/maxItemId не используются: вызывается виртуальный метод с 0/200/200. Не рассчитывайте на обновление только заданного диапазона.",
+      "en": "Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates."
+    }
+  },
+  {
+    "name": "DL_FindById",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2184,
+    "endLine": 2191,
+    "args": [
+      "dlgId",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "NULL"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-findbyid",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает адрес оболочки DL-диалога по ID либо NULL. Это не адрес H3Dlg: он хранится в первом поле оболочки. v1 изменяется.",
+      "en": "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1."
+    }
+  },
+  {
+    "name": "DL_Destroy",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2192,
+    "endLine": 2197,
+    "args": [
+      "dlgObj"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-destroy",
+    "review": "full-body",
+    "summary": {
+      "ru": "Уничтожает объект оболочки DL по адресу. Повторно использовать уничтоженный адрес нельзя.",
+      "en": "Destroys a DL wrapper by address. Do not reuse the destroyed address."
+    }
+  },
+  {
+    "name": "DL_ShowPopup",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2198,
+    "endLine": 2214,
+    "args": [
+      "dlgId"
+    ],
+    "calls": [
+      "DL_Destroy",
+      "DL_FindById",
+      "H3Dlg_ShowPopup"
+    ],
+    "globals": [],
+    "constants": [
+      "NULL",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-showpopup",
+    "review": "full-body",
+    "summary": {
+      "ru": "Показывает DL-диалог по ID как ПКМ-подсказку и затем уничтожает его. Перед повторным показом снова нужен DL:N.",
+      "en": "Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display."
+    }
+  },
+  {
+    "name": "DL_CenterAtMouse",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2215,
+    "endLine": 2222,
+    "args": [
+      "dlgId"
+    ],
+    "calls": [
+      "DL_FindById",
+      "H3Dlg_CenterAtMouse"
+    ],
+    "globals": [],
+    "constants": [
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-centeratmouse",
+    "review": "full-body",
+    "summary": {
+      "ru": "Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.",
+      "en": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first."
+    }
+  },
+  {
+    "name": "DL_Coords",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2223,
+    "endLine": 2255,
+    "args": [
+      "dlgId",
+      "x",
+      "y"
+    ],
+    "calls": [
+      "DL_FindById",
+      "H3Dlg_Coords"
+    ],
+    "globals": [],
+    "constants": [
+      "ARG_SYNTAX_ADD",
+      "ARG_SYNTAX_GET",
+      "NULL",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-coords",
+    "review": "full-body",
+    "summary": {
+      "ru": "Координаты x/y поддерживают GET, SET и ADD (?). Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.",
+      "en": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N."
+    }
+  },
+  {
+    "name": "DL_GetSize",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2256,
+    "endLine": 2272,
+    "args": [
+      "dlgId",
+      "width",
+      "height"
+    ],
+    "calls": [
+      "DL_FindById"
+    ],
+    "globals": [],
+    "constants": [
+      "NULL",
+      "STRUCT_H3DLG_HEIGHT",
+      "STRUCT_H3DLG_WIDTH",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-getsize",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает ширину и высоту уже созданного DL-диалога; при отсутствии окна сообщает ошибку.",
+      "en": "Returns the width and height of an existing DL dialog; reports an error if absent."
+    }
+  },
+  {
+    "name": "DL_SetSize",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2273,
+    "endLine": 2289,
+    "args": [
+      "dlgId",
+      "width",
+      "height"
+    ],
+    "calls": [
+      "DL_FindById"
+    ],
+    "globals": [],
+    "constants": [
+      "NULL",
+      "STRUCT_H3DLG_HEIGHT",
+      "STRUCT_H3DLG_WIDTH",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-setsize",
+    "review": "full-body",
+    "summary": {
+      "ru": "Меняет ширину/высоту существующего DL-диалога. Нулевой или пропущенный размер сохраняет соответствующее измерение; элементы автоматически не раскладываются.",
+      "en": "Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged."
+    }
+  },
+  {
+    "name": "DL_AlignDlg",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2290,
+    "endLine": 2331,
+    "args": [
+      "dlgId",
+      "alignment"
+    ],
+    "calls": [
+      "DL_FindById"
+    ],
+    "globals": [],
+    "constants": [
+      "ADDR_GAME_SCREEN_HEIGHT",
+      "ADDR_GAME_SCREEN_WIDTH",
+      "FALSE",
+      "NULL",
+      "STRUCT_H3DLG_HEIGHT",
+      "STRUCT_H3DLG_WIDTH",
+      "STRUCT_H3DLG_X",
+      "STRUCT_H3DLG_Y",
+      "TEXT_ALIGN_BOTTOM",
+      "TEXT_ALIGN_CENTER",
+      "TEXT_ALIGN_MIDDLE",
+      "TEXT_ALIGN_RIGHT",
+      "UNC_INT",
+      "UNC_INT16"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-aligndlg",
+    "review": "full-body",
+    "summary": {
+      "ru": "Выравнивает созданный DL-диалог по битовой маске TEXT_ALIGN_*. CENTER/MIDDLE имеют приоритет над RIGHT/BOTTOM.",
+      "en": "Aligns an existing DL dialog using TEXT_ALIGN_* bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM."
+    }
+  },
+  {
+    "name": "DL_SetPlayerColor",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2332,
+    "endLine": 2356,
+    "args": [
+      "dlgId",
+      "playerId"
+    ],
+    "calls": [
+      "DL_FindById",
+      "H3Dlg_SendCmdToItem"
+    ],
+    "globals": [],
+    "constants": [
+      "NULL",
+      "PLAYER_FIRST",
+      "PLAYER_LAST",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/dl-setplayercolor",
+    "review": "full-body",
+    "summary": {
+      "ru": "Меняет цвет рамки DL-диалога. playerId по умолчанию — взаимодействующий игрок; проверяется диапазон PLAYER_FIRST..PLAYER_LAST.",
+      "en": "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST."
+    }
+  },
+  {
+    "name": "ClearScreenLog",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2357,
+    "endLine": 2362,
+    "args": [],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/clearscreenlog",
+    "review": "full-body",
+    "summary": {
+      "ru": "Очищает зелёные сообщения экранного журнала.",
+      "en": "Clears green on-screen log messages."
+    }
+  },
+  {
+    "name": "AdvMap_SetHint",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2363,
+    "endLine": 2376,
+    "args": [
+      "newHint"
+    ],
+    "calls": [
+      "H3Dlg_DrawItemOnScreen",
+      "H3Dlg_GetRootDlg",
+      "H3Dlg_SendCmdToItem",
+      "H3Dlg_UpdateItemRange"
+    ],
+    "globals": [],
+    "constants": [
+      "DLG_ADVMAP",
+      "DLG_CMD_SET_TEXT",
+      "ITEM_ADVMAP_HINT",
+      "NULL",
+      "STRUCT_H3DLG_VTABLE",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/advmap-sethint",
+    "review": "full-body",
+    "summary": {
+      "ru": "Немедленно обновляет подсказку карты приключений; выполняется только если корневое окно DLG_ADVMAP. Текст чата может скрыться до следующего ввода.",
+      "en": "Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input."
+    }
+  },
+  {
+    "name": "AdvMap_SetInfoPanelText",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2377,
+    "endLine": 2403,
+    "args": [
+      "text",
+      "timeToDisplay"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp_text^"
+    ],
+    "constants": [
+      "ADV_MANAGER",
+      "CALLCONV_CDECL",
+      "CALLCONV_THISCALL"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/advmap-setinfopaneltext",
+    "review": "full-body",
+    "summary": {
+      "ru": "Показывает непустой текст в панели карты на timeToDisplay миллисекунд (по умолчанию 5000). Использует s^temp_text^ и меняет v1.",
+      "en": "Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1."
+    }
+  },
+  {
+    "name": "AdvMap_SetInfoPanelDef",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2404,
+    "endLine": 2455,
+    "args": [
+      "text",
+      "defName",
+      "defFrameId",
+      "timeToDisplay"
+    ],
+    "calls": [
+      "AdvMap_SetInfoPanelText"
+    ],
+    "globals": [
+      "i^radioDlg_captions^",
+      "i^radioDlg_tags^",
+      "i^radioDlg_values^",
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^",
+      "i^radioDlg_flags^",
+      "i^radioDlg_freeSpaceAlerted^",
+      "s^radioDlg_title^",
+      "s^temp_text^"
+    ],
+    "constants": [
+      "ADV_MANAGER",
+      "CALLCONV_CDECL",
+      "CALLCONV_THISCALL",
+      "FALSE",
+      "M_AUTO_ID",
+      "M_INT",
+      "M_STORED",
+      "M_STR",
+      "NO_RADIO_DLG_ITEM",
+      "RADIO_DLG_FLAG_BTN_CANCEL",
+      "RADIO_DLG_MAX_ITEMS"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/advmap-setinfopaneldef",
+    "review": "full-body",
+    "summary": {
+      "ru": "Показывает текст и кадр DEF в панели карты на 5000 мс по умолчанию. Временно подменяет два машинных операнда имени DEF и восстанавливает их. Меняет z1/v1; без defName вызывает текстовый вариант.",
+      "en": "Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant."
+    }
+  },
+  {
+    "name": "RadioDlg_Reset",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2456,
+    "endLine": 2467,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_captions^",
+      "i^radioDlg_tags^",
+      "i^radioDlg_values^",
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^",
+      "i^radioDlg_flags^",
+      "i^radioDlg_freeSpaceAlerted^",
+      "s^radioDlg_title^"
+    ],
+    "constants": [
+      "FALSE",
+      "NO_RADIO_DLG_ITEM",
+      "RADIO_DLG_MAX_ITEMS"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-reset",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сбрасывает заголовок, элементы, выбор и флаги общего радиодиалога. Вызывайте перед составлением нового диалога.",
+      "en": "Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog."
+    }
+  },
+  {
+    "name": "RadioDlg_SetTitle",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2468,
+    "endLine": 2473,
+    "args": [
+      "titlePtr"
+    ],
+    "calls": [],
+    "globals": [
+      "s^radioDlg_title^"
+    ],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-settitle",
+    "review": "full-body",
+    "summary": {
+      "ru": "Копирует заголовок в состояние радиодиалога.",
+      "en": "Copies the title into radio-dialog state."
+    }
+  },
+  {
+    "name": "RadioDlg_AddCancelButton",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2474,
+    "endLine": 2489,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_numItems^",
+      "i^radioDlg_flags^",
+      "i^radioDlg_freeSpaceAlerted^"
+    ],
+    "constants": [
+      "FALSE",
+      "RADIO_DLG_FLAG_BTN_CANCEL",
+      "RADIO_DLG_MAX_ITEMS",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-addcancelbutton",
+    "review": "full-body",
+    "summary": {
+      "ru": "Резервирует одну из 12 позиций под отмену. Если все позиции заняты, удаляет последний пункт и сообщает ошибку один раз. Повторный вызов не добавляет вторую кнопку.",
+      "en": "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button."
+    }
+  },
+  {
+    "name": "RadioDlg_SelectItem",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2490,
+    "endLine": 2496,
+    "args": [
+      "itemInd"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^"
+    ],
+    "constants": [
+      "NO_RADIO_DLG_ITEM"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-selectitem",
+    "review": "full-body",
+    "summary": {
+      "ru": "Выбирает индекс 0..numItems-1; неверный индекс снимает выбор (NO_RADIO_DLG_ITEM).",
+      "en": "Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM."
+    }
+  },
+  {
+    "name": "RadioDlg_SelectItemByValue",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2497,
+    "endLine": 2513,
+    "args": [
+      "itemValue"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_values^",
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^"
+    ],
+    "constants": [
+      "NO_RADIO_DLG_ITEM"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-selectitembyvalue",
+    "review": "full-body",
+    "summary": {
+      "ru": "Выбирает первое совпадение значения/строковой метки. При отсутствии совпадения выбор снимается.",
+      "en": "Selects the first matching value/string tag. Clears selection if no match exists."
+    }
+  },
+  {
+    "name": "RadioDlg_SelectItemByTag",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2514,
+    "endLine": 2531,
+    "args": [
+      "itemTagPtr"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_tags^",
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^",
+      "s^temp^"
+    ],
+    "constants": [
+      "NO_RADIO_DLG_ITEM"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-selectitembytag",
+    "review": "full-body",
+    "summary": {
+      "ru": "Выбирает первое совпадение значения/строковой метки. При отсутствии совпадения выбор снимается.",
+      "en": "Selects the first matching value/string tag. Clears selection if no match exists."
+    }
+  },
+  {
+    "name": "RadioDlg_AddItem",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2532,
+    "endLine": 2560,
+    "args": [
+      "itemCaptionPtr",
+      "itemValue",
+      "itemTagPtr",
+      "selectItem"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_captions^",
+      "i^radioDlg_tags^",
+      "i^radioDlg_values^",
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^",
+      "i^radioDlg_flags^",
+      "i^radioDlg_freeSpaceAlerted^"
+    ],
+    "constants": [
+      "FALSE",
+      "NULL",
+      "RADIO_DLG_FLAG_BTN_CANCEL",
+      "RADIO_DLG_MAX_ITEMS",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-additem",
+    "review": "full-body",
+    "summary": {
+      "ru": "Добавляет подпись, число, метку и необязательный selectItem. Значения по умолчанию: пусто, 0, пусто, FALSE. Пустая подпись отображается как -/-. Вместимость 12, с отменой 11.",
+      "en": "Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel."
+    }
+  },
+  {
+    "name": "RadioDlg_AddItems",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2561,
+    "endLine": 2577,
+    "args": [
+      "firstItemCaptionPtr",
+      "firstItemValue",
+      "firstItemTagPtr"
+    ],
+    "calls": [
+      "RadioDlg_AddItem"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-additems",
+    "review": "full-body",
+    "summary": {
+      "ru": "Добавляет до 5 троек caption/value/tag. Неполная последняя тройка игнорируется; автоматического выбора нет.",
+      "en": "Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected."
+    }
+  },
+  {
+    "name": "RadioDlg_GetNumItems",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2578,
+    "endLine": 2583,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_numItems^"
+    ],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-getnumitems",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает количество содержательных пунктов без кнопки отмены.",
+      "en": "Returns the item count excluding Cancel."
+    }
+  },
+  {
+    "name": "RadioDlg_GetItemValue",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2584,
+    "endLine": 2596,
+    "args": [
+      "itemInd",
+      "result"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_values^",
+      "i^radioDlg_numItems^"
+    ],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-getitemvalue",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.",
+      "en": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+    }
+  },
+  {
+    "name": "RadioDlg_GetItemTag",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2597,
+    "endLine": 2611,
+    "args": [
+      "itemInd",
+      "result"
+    ],
+    "calls": [],
+    "globals": [
+      "i^radioDlg_tags^",
+      "i^radioDlg_numItems^",
+      "s^temp^"
+    ],
+    "constants": [],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-getitemtag",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.",
+      "en": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+    }
+  },
+  {
+    "name": "RadioDlg_Show",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2612,
+    "endLine": 2678,
+    "args": [
+      "resultItem",
+      "resultValue",
+      "resultTagPtr"
+    ],
+    "calls": [
+      "Array_Copy",
+      "IntLog2",
+      "NewIntArray",
+      "NewStrArray"
+    ],
+    "globals": [
+      "i^radioDlg_captions^",
+      "i^radioDlg_tags^",
+      "i^radioDlg_values^",
+      "i^radioDlg_numItems^",
+      "i^radioDlg_selectedItemInd^",
+      "i^radioDlg_flags^",
+      "s^radioDlg_title^",
+      "s^temp^"
+    ],
+    "constants": [
+      "FALSE",
+      "NO_RADIO_DLG_ITEM",
+      "RADIO_DLG_FLAG_BTN_CANCEL",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/radiodlg-show",
+    "review": "full-body",
+    "summary": {
+      "ru": "Показывает диалог через IF:G и возвращает ?resultItem/?resultValue/?resultTagPtr. Отмена/пустой список дают -1/-1/пусто. Состояние предварительно копируется, чтобы вложенный диалог не испортил текущие пункты.",
+      "en": "Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items."
+    }
+  },
+  {
+    "name": "PrepareMultiPicDialog",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2679,
+    "endLine": 2755,
+    "args": [
+      "firstArg"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "MON_FIRST",
+      "NO_PIC_TYPE",
+      "PIC_TYPE_MONSTER"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/preparemultipicdialog",
+    "review": "full-body",
+    "summary": {
+      "ru": "Настраивает картинки следующего IF:N: без аргументов очищает; принимает пары type/subtype или один ID массива пар. Пропускает NO_PIC_TYPE и отрицательные типы существ; максимум 8 непустых пар. Сам диалог не показывает.",
+      "en": "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog."
+    }
+  },
+  {
+    "name": "ShowAnimatedDefDlg",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2756,
+    "endLine": 2766,
+    "args": [
+      "textPtr",
+      "defNamePtr"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_CDECL"
+    ],
+    "status": "public",
+    "group": "dialogs",
+    "slug": "framework/functions/showanimateddefdlg",
+    "review": "full-body",
+    "summary": {
+      "ru": "Показывает сообщение с OK и анимированным DEF. Без имени DEF или при пустом имени использует обычный IF:M1.",
+      "en": "Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1."
+    }
+  },
+  {
+    "name": "PrepareMessageBoxText",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2767,
+    "endLine": 2798,
+    "args": [
+      "text[16]"
+    ],
+    "calls": [
+      "NewStrArray"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "requires-review",
+    "group": "dialogs",
+    "slug": "framework/functions/preparemessageboxtext",
+    "review": "full-body",
+    "summary": {
+      "ru": "Передаёт пары имени/подсказки для следующего сообщения в wog native dialogs:PrepareMessageBoxText. В снимке условие l<argsNum пропускает последнюю подсказку при чётном числе аргументов; проверьте версию библиотеки.",
+      "en": "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version."
+    }
+  },
+  {
+    "name": "Battle_RedrawGridShadow",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2799,
+    "endLine": 2803,
+    "args": [],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL",
+      "COMBAT_MANAGER"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/battle-redrawgridshadow",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обновляет тень доступного перемещения после изменения скорости. Нужен существующий менеджер боя.",
+      "en": "Refreshes movement-range shading after a speed change. Requires an existing combat manager."
+    }
+  },
+  {
+    "name": "BattleStack_Shoot",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2804,
+    "endLine": 2816,
+    "args": [
+      "attackerStackId",
+      "defenderStackId"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/battlestack-shoot",
+    "review": "full-body",
+    "summary": {
+      "ru": "Заставляет attackerStackId стрелять в defenderStackId, временно меняя и восстанавливая позицию цели в структуре атакующего. Проверку существования стеков выполняйте заранее.",
+      "en": "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first."
+    }
+  },
+  {
+    "name": "BattleStack_MakeActive",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2817,
+    "endLine": 2836,
+    "args": [
+      "stackId"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "BATTLE_MAX_STACKS",
+      "BATTLE_STACKS_PER_SIDE",
+      "CALLCONV_THISCALL",
+      "COMBAT_MANAGER",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/battlestack-makeactive",
+    "review": "full-body",
+    "summary": {
+      "ru": "Передаёт ход стеку 0..41 и при необходимости выполняет фазу регенерации. Допустимый индекс сам по себе не гарантирует существование живого стека.",
+      "en": "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists."
+    }
+  },
+  {
+    "name": "ActivateNextStack",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2837,
+    "endLine": 2847,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "BITS_1_MASK",
+      "CALLCONV_THISCALL",
+      "COMBAT_MANAGER",
+      "TRUE"
+    ],
+    "status": "requires-review",
+    "group": "game",
+    "slug": "framework/functions/activatenextstack",
+    "review": "full-body",
+    "summary": {
+      "ru": "Вызывает выбор следующего стека. В снимке запись результата защищена условием result<>0: выход, заранее равный 0, не обновляется. Инициализируйте выход ненулевым либо используйте исправленную версию.",
+      "en": "Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version."
+    }
+  },
+  {
+    "name": "UpdateBattleVars",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2848,
+    "endLine": 2904,
+    "args": [],
+    "calls": [],
+    "globals": [
+      "i^battle_x^",
+      "i^battle_y^",
+      "i^battle_z^",
+      "i^battle_hero_vs_hero^",
+      "i^battle_hasHuman^",
+      "i^battle_humanOnly^",
+      "i^battle_aiOnly^",
+      "i^battle_isQuick^",
+      "i^battle_isVisible^",
+      "i^battle_isNetwork^",
+      "i^battle_type^",
+      "i^battle_owner_0^",
+      "i^battle_hero_0^",
+      "i^battle_ai_0^",
+      "i^battle_human_0^",
+      "i^battle_remote_0^",
+      "i^battle_local_0^",
+      "i^battle_localHuman_0^",
+      "i^battle_owner_1^",
+      "i^battle_hero_1^",
+      "i^battle_ai_1^",
+      "i^battle_human_1^",
+      "i^battle_remote_1^",
+      "i^battle_local_1^",
+      "i^battle_localHuman_1^"
+    ],
+    "constants": [
+      "BATTLE_TYPE_FLAG_LEFT_HAS_HERO",
+      "BATTLE_TYPE_FLAG_LEFT_HAS_OWNER",
+      "BATTLE_TYPE_FLAG_LEFT_IS_HUMAN",
+      "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO",
+      "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER",
+      "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN",
+      "FALSE",
+      "HERO_FIRST",
+      "NO_DEFENDING_HERO",
+      "NO_HERO",
+      "NO_OWNER",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/updatebattlevars",
+    "review": "full-body",
+    "summary": {
+      "ru": "Перечитывает BA и OW в battle_*: герои, владельцы, быстрый/сетевой/видимый бой и признаки сторон. После изменения BA (кроме состава существ) вызовите снова. Для защитника без героя нормализует ID в NO_HERO.",
+      "en": "Refreshes BA/OW data in battle_*: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO."
+    }
+  },
+  {
+    "name": "OnBattleReplay",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2905,
+    "endLine": 2913,
+    "args": [],
+    "calls": [
+      "UpdateBattleVars"
+    ],
+    "globals": [
+      "i^battle_round^",
+      "i^battle_acting_stack^",
+      "i^battle_acting_side^"
+    ],
+    "constants": [
+      "BATTLE_LEFT",
+      "INT_MIN",
+      "NO_STACK"
+    ],
+    "status": "event-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattlereplay",
+    "review": "full-body",
+    "summary": {
+      "ru": "Сбрасывает раунд и действующий стек, перечитывает параметры боя для переигровки.",
+      "en": "Resets round/acting stack and refreshes combat parameters for replay."
+    }
+  },
+  {
+    "name": "GetTimeMsec",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2914,
+    "endLine": 2925,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_STDCALL",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/gettimemsec",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает миллисекунды с запуска ОС через timeGetTime. 32-битный счётчик переполняется примерно через 49,71 суток; это не игровая дата.",
+      "en": "Returns milliseconds since OS startup via timeGetTime. The 32-bit counter wraps after about 49.71 days; it is not the in-game date."
+    }
+  },
+  {
+    "name": "GetProcessGuid",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2926,
+    "endLine": 2935,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getprocessguid",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает строку из 32 символов, уникальную для запуска игрового процесса. Подходит для отличия нового запуска от загрузки сохранения в том же процессе.",
+      "en": "Returns a 32-character identifier for this game-process run. Distinguishes a restart from loading a save in the same process."
+    }
+  },
+  {
+    "name": "IsDllLoaded",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2936,
+    "endLine": 2949,
+    "args": [
+      "dllFileNamePtr",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "FALSE",
+      "NULL",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/isdllloaded",
+    "review": "full-body",
+    "summary": {
+      "ru": "Проверяет DLL по имени с расширением через GetModuleHandleA. Возвращает TRUE/FALSE и не загружает отсутствующий модуль.",
+      "en": "Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module."
+    }
+  },
+  {
+    "name": "MonCountToFuzzyText",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 2950,
+    "endLine": 3019,
+    "args": [
+      "monNum",
+      "resultPtr",
+      "maxTextLength"
+    ],
+    "calls": [
+      "IntLog2"
+    ],
+    "globals": [
+      "s^result^"
+    ],
+    "constants": [
+      "INT_MAX",
+      "MON_FUZZY_COUNT_EXTRA_SHORT",
+      "MON_FUZZY_COUNT_HUMAN_FRIENDLY",
+      "MON_FUZZY_COUNT_SHORT",
+      "SIZEOF_INT",
+      "SIZEOF_PTR"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/moncounttofuzzytext",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает приблизительное количество: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 и K+/M+. Формат задаётся MON_FUZZY_COUNT_*; 0 попадает в 1–4, отрицательное число — ошибка.",
+      "en": "Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_* selects formatting; 0 falls into 1–4 and negative input is an error."
+    }
+  },
+  {
+    "name": "GetMaxMonsterId",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3020,
+    "endLine": 3027,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getmaxmonsterid",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.",
+      "en": "Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity."
+    }
+  },
+  {
+    "name": "GetUpgradedMonster",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3028,
+    "endLine": 3037,
+    "args": [
+      "monId",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_FASTCALL"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getupgradedmonster",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает улучшение типа существа либо NO_MON (-1), если улучшения нет.",
+      "en": "Returns the creature upgrade or NO_MON (-1) when absent."
+    }
+  },
+  {
+    "name": "GetDegradedMonCandidates",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3038,
+    "endLine": 3054,
+    "args": [
+      "monId",
+      "degradesList"
+    ],
+    "calls": [
+      "GetMaxMonsterId",
+      "GetUpgradedMonster"
+    ],
+    "globals": [],
+    "constants": [
+      "MON_FIRST",
+      "M_AUTO_ID",
+      "M_INT",
+      "M_TRIGGER_LOCAL"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getdegradedmoncandidates",
+    "review": "full-body",
+    "summary": {
+      "ru": "Перебирает все поддерживаемые типы и возвращает локальный массив существ, улучшающихся до monId. Кандидатов может быть несколько; полный перебор дорог при расширенном лимите.",
+      "en": "Scans all supported types and returns a local array of creatures upgrading to monId. Multiple candidates are possible; a full scan is expensive with extended limits."
+    }
+  },
+  {
+    "name": "GetMaxHeroId",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3055,
+    "endLine": 3061,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getmaxheroid",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.",
+      "en": "Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity."
+    }
+  },
+  {
+    "name": "GetHeroPortraitName",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3062,
+    "endLine": 3080,
+    "args": [
+      "heroId",
+      "small",
+      "large"
+    ],
+    "calls": [],
+    "globals": [
+      "s^temp^"
+    ],
+    "constants": [],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getheroportraitname",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает актуальные имена малого и большого портретов героя. Читает таблицу структур по ID; диапазон проверяйте до вызова.",
+      "en": "Returns current small/large portrait filenames for a hero. Reads the structure table by ID; validate the range first."
+    }
+  },
+  {
+    "name": "GetHeroPrimarySkillsWithoutArts",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3081,
+    "endLine": 3110,
+    "args": [
+      "hero",
+      "attack",
+      "defense",
+      "power",
+      "knowledge"
+    ],
+    "calls": [
+      "EquipArtToSlot",
+      "GetArtAtSlot",
+      "UnequipArtFromSlot"
+    ],
+    "globals": [],
+    "constants": [
+      "ART_ARTIFACT_LOCK",
+      "ART_HIGHLIGHTED_SLOT",
+      "CURRENT_HERO",
+      "NO_ART"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getheroprimaryskillswithoutarts",
+    "review": "full-body",
+    "summary": {
+      "ru": "Временно снимает 19 экипированных артефактов, читает HE:F и надевает их обратно. Вызывает OnUnequipArt/OnEquipArt; это операция с побочными событиями, а не чистое чтение.",
+      "en": "Temporarily removes 19 equipped artifacts, reads HE:F, then re-equips them. Fires OnUnequipArt/OnEquipArt; this operation has event side effects."
+    }
+  },
+  {
+    "name": "GetArtAtSlot",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3111,
+    "endLine": 3133,
+    "args": [
+      "hero",
+      "slot",
+      "artId",
+      "artMod"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ART_SLOT_EQUIPPED_FIRST",
+      "ART_SLOT_EQUIPPED_LAST",
+      "ART_SLOT_FIRST",
+      "ART_SLOT_LAST",
+      "CURRENT_HERO",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getartatslot",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает ID артефакта и модификатор по слоту героя; поддерживает рюкзак. Для пустого слота учитывайте NO_ART.",
+      "en": "Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot."
+    }
+  },
+  {
+    "name": "ChangeArtModAtSlot",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3134,
+    "endLine": 3154,
+    "args": [
+      "hero",
+      "slot",
+      "artMod"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ART_SLOT_EQUIPPED_FIRST",
+      "ART_SLOT_EQUIPPED_LAST",
+      "ART_SLOT_FIRST",
+      "ART_SLOT_LAST",
+      "CURRENT_HERO",
+      "NO_ART_MOD",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/changeartmodatslot",
+    "review": "full-body",
+    "summary": {
+      "ru": "Меняет модификатор артефакта в слоту, включая рюкзак. Для свитка модификатор — ID заклинания; для обычного артефакта обычно NO_ART_MOD.",
+      "en": "Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD."
+    }
+  },
+  {
+    "name": "AddArtToHero",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3155,
+    "endLine": 3169,
+    "args": [
+      "hero",
+      "art",
+      "artMod",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_CDECL",
+      "NO_ART_MOD"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/addarttohero",
+    "review": "full-body",
+    "summary": {
+      "ru": "Пытается надеть артефакт, затем положить в рюкзак; возвращает успех. Автоматически собирает сборные артефакты и проверяет условия победы.",
+      "en": "Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions."
+    }
+  },
+  {
+    "name": "EquipArtToSlot",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3170,
+    "endLine": 3190,
+    "args": [
+      "hero",
+      "art",
+      "artMod",
+      "slot",
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ART_SLOT_MISC_5",
+      "CALLCONV_THISCALL",
+      "FALSE",
+      "GAME_MANAGER",
+      "NO_ART_MOD",
+      "NO_ART_SLOT",
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/equiparttoslot",
+    "review": "full-body",
+    "summary": {
+      "ru": "Надевает артефакт в слот куклы героя либо выбирает слот при NO_ART_SLOT. Возвращает TRUE/FALSE и вызывает OnEquipArt. Не служит записью произвольного слота рюкзака.",
+      "en": "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots."
+    }
+  },
+  {
+    "name": "UnequipArtFromSlot",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3191,
+    "endLine": 3198,
+    "args": [
+      "hero",
+      "slot"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/unequipartfromslot",
+    "review": "full-body",
+    "summary": {
+      "ru": "Снимает артефакт со слота куклы и вызывает OnUnequipArt. Артефактные ID/модификаторы при временном снятии нужно сохранить самостоятельно.",
+      "en": "Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment."
+    }
+  },
+  {
+    "name": "GetMaxArtifactId",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3199,
+    "endLine": 3208,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "ART_LAST_WOG"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getmaxartifactid",
+    "review": "full-body",
+    "summary": {
+      "ru": "В этом снимке просто возвращает ART_LAST_WOG. Несмотря на комментарий о расширениях, динамический предел плагинов не запрашивается.",
+      "en": "This snapshot simply returns ART_LAST_WOG. Despite its comment about extensions, it does not query a dynamic plugin limit."
+    }
+  },
+  {
+    "name": "GetMaxSpellId",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3209,
+    "endLine": 3216,
+    "args": [
+      "result"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "SPELL_LAST_WOG"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/getmaxspellid",
+    "review": "full-body",
+    "summary": {
+      "ru": "Возвращает константу SPELL_LAST_WOG, а не динамический предел стороннего расширения заклинаний.",
+      "en": "Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin."
+    }
+  },
+  {
+    "name": "GetTextFileString",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3217,
+    "endLine": 3284,
+    "args": [
+      "txtFilename",
+      "rowIndex",
+      "string"
+    ],
+    "calls": [
+      "StrToLower",
+      "Substr"
+    ],
+    "globals": [],
+    "constants": [
+      "UNC_INT"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/gettextfilestring",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает строку с нулевым индексом из загруженных ресурсов randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent. Имя нормализуется; неизвестное даёт Wrong txt filename!. Индекс строки не проверяется.",
+      "en": "Reads a zero-based row from loaded randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent resources. Normalizes the name; unknown names return Wrong txt filename!. Does not validate row bounds."
+    }
+  },
+  {
+    "name": "GetTextTableString",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3285,
+    "endLine": 3320,
+    "args": [
+      "txtFilename",
+      "rowIndex",
+      "colIndex",
+      "string"
+    ],
+    "calls": [
+      "StrToLower",
+      "Substr"
+    ],
+    "globals": [],
+    "constants": [
+      "CALLCONV_CDECL"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/gettexttablestring",
+    "review": "full-body",
+    "summary": {
+      "ru": "Читает ячейку bldgspec, help или znpc00 по rowIndex/colIndex. Несмотря на комментарий «get or set», ветки записи в снимке нет. Проверку индексов обеспечивает вызывающий код.",
+      "en": "Reads a bldgspec, help, or znpc00 cell by rowIndex/colIndex. Despite the “get or set” comment, this snapshot has no write branch. The caller must validate indices."
+    }
+  },
+  {
+    "name": "H3Quests_RefreshData",
+    "path": "lib/9999 era - stdlib.erm",
+    "startLine": 3321,
+    "endLine": 3370,
+    "args": [
+      "forceRefreshText"
+    ],
+    "calls": [],
+    "globals": [],
+    "constants": [
+      "CALLCONV_THISCALL",
+      "GAME_MANAGER",
+      "NO_MON",
+      "OBJ_MONSTER",
+      "QUEST_TYPE_DEFEAT_MONSTER",
+      "TRUE"
+    ],
+    "status": "public",
+    "group": "game",
+    "slug": "framework/functions/h3quests-refreshdata",
+    "review": "full-body",
+    "summary": {
+      "ru": "Обновляет данные заданий после подмены существ/имён. Для задания на уничтожение монстра сверяет реальный тип по координатам; forceRefreshText пересоздаёт тексты всех заданий. Использует внутренние структуры игры.",
+      "en": "Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures."
+    }
+  },
+  {
+    "name": "OnAfterErmInstructions_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 3,
+    "endLine": 7,
+    "args": [],
+    "calls": [
+      "OnAfterErmInited",
+      "OnStartOrLoad"
+    ],
+    "globals": [],
+    "constants": [
+      "TRUE"
+    ],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onaftererminstructions-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnAfterErmInstructions: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnAfterErmInstructions: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnAfterLoadGame_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 8,
+    "endLine": 12,
+    "args": [],
+    "calls": [
+      "OnStartOrLoad"
+    ],
+    "globals": [],
+    "constants": [
+      "FALSE"
+    ],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onafterloadgame-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnAfterLoadGame: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnAfterLoadGame: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnKeyPressed_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 13,
+    "endLine": 25,
+    "args": [
+      "key",
+      "preventDefault"
+    ],
+    "calls": [
+      "OnKeyPressed_AdvMap",
+      "OnKeyPressed_Battle",
+      "OnKeyPressed_HeroMeetingScreen",
+      "OnKeyPressed_HeroScreen",
+      "OnKeyPressed_Town",
+      "RestorePrevKeyModsState"
+    ],
+    "globals": [],
+    "constants": [
+      "DLG_ADVMAP",
+      "DLG_BATTLE",
+      "DLG_HERO_MEETING_SCREEN",
+      "DLG_HERO_SCREEN",
+      "DLG_TOWN_SCREEN"
+    ],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onkeypressed-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnKeyPressed: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnKeyReleased_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 26,
+    "endLine": 36,
+    "args": [
+      "key",
+      "preventDefault",
+      "isDown"
+    ],
+    "calls": [
+      "OnKeyReleased_AdvMap",
+      "OnKeyReleased_Battle",
+      "OnKeyReleased_HeroMeetingScreen",
+      "OnKeyReleased_HeroScreen",
+      "OnKeyReleased_Town",
+      "RestorePrevKeyModsState"
+    ],
+    "globals": [],
+    "constants": [
+      "DLG_ADVMAP",
+      "DLG_BATTLE",
+      "DLG_HERO_MEETING_SCREEN",
+      "DLG_HERO_SCREEN",
+      "DLG_TOWN_SCREEN"
+    ],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onkeyreleased-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnKeyReleased: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnKeyReleased: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnAdventureMapRightMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 37,
+    "endLine": 39,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onadventuremaprightmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnAdventureMapRightMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnTownMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 40,
+    "endLine": 42,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/ontownmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnTownMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnHeroScreenMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 43,
+    "endLine": 45,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onheroscreenmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnHeroScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnHeroesMeetScreenMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 46,
+    "endLine": 48,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onheroesmeetscreenmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnHeroesMeetScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnBattleScreenMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 49,
+    "endLine": 51,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattlescreenmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnBattleScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnBattleScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnAdventureMapLeftMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 52,
+    "endLine": 54,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onadventuremapleftmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnAdventureMapLeftMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnRecruitDlgMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 55,
+    "endLine": 57,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onrecruitdlgmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnRecruitDlgMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnRecruitDlgMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnTownHallMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 58,
+    "endLine": 60,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/ontownhallmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnTownHallMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnKingdomOverviewMouseClick_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 61,
+    "endLine": 63,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onkingdomoverviewmouseclick-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnKingdomOverviewMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnKingdomOverviewMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnBattleMouseHint_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 64,
+    "endLine": 66,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onbattlemousehint-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnBattleMouseHint: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnBattleMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnTownMouseHint_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 67,
+    "endLine": 69,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/ontownmousehint-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnTownMouseHint: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnCustomDialogEvent_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 70,
+    "endLine": 73,
+    "args": [],
+    "calls": [
+      "LeaveMouseEvent",
+      "RestoreEventData"
+    ],
+    "globals": [
+      "i^dlg_id^"
+    ],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/oncustomdialogevent-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnCustomDialogEvent: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnBeforeBattle_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 74,
+    "endLine": 76,
+    "args": [],
+    "calls": [
+      "UpdateBattleVars"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onbeforebattle-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnBeforeBattle: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnBeforeBattle: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  },
+  {
+    "name": "OnBeforeBattleUniversal_Quit",
+    "path": "lib_end/-9999 era - stdlib.erm",
+    "startLine": 77,
+    "endLine": 83,
+    "args": [],
+    "calls": [
+      "OnAfterBattleSetup",
+      "UpdateBattleVars"
+    ],
+    "globals": [],
+    "constants": [],
+    "status": "quit-handler",
+    "group": "events",
+    "slug": "framework/functions/onbeforebattleuniversal-quit",
+    "review": "full-body",
+    "summary": {
+      "ru": "Завершающий обработчик OnBeforeBattleUniversal: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+      "en": "Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    }
+  }
+]

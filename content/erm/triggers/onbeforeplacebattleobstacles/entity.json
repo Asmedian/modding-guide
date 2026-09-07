@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.onbeforeplacebattleobstacles",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/onbeforeplacebattleobstacles",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnBeforePlaceBattleObstacles",
+    "77054"
+  ],
+  "questions": [
+    "После OnBeforeBattlefieldVisible, перед препятствиями. Аргументов нет. Временно используется штатный генератор с seed 110291x+167801y+81569; потребление случайных чисел здесь влияет на расстановку.",
+    "After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

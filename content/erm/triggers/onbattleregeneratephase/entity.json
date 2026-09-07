@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.onbattleregeneratephase",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/onbattleregeneratephase",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnBattleRegeneratePhase",
+    "77007"
+  ],
+  "questions": [
+    "x1 — стек 0..41; x2 — адрес его структуры; x3 — запрет штатной фазы (0/1, изменяемый). Указатель действует только в текущем бою. Для изменения количества лечения используйте отдельное OnBattleStackRegeneration.",
+    "x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

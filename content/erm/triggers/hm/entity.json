@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.hm",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/hm",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-hm.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "HM",
+    "!?HM",
+    "OnHeroMove"
+  ],
+  "questions": [
+    "Срабатывает перед каждым шагом. -1 выбирает всех героев; общий обработчик предшествует обработчику конкретного героя. v998/v999/v1000 содержат координаты текущего героя.",
+    "Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero’s coordinates."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-hm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-hm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-hm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-hm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-hm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-hm.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-hm": [
+      "old-help:tr-hm.htm"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

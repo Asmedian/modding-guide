@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.moncounttofuzzytext",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/moncounttofuzzytext",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+  ],
+  "keywords": [
+    "MonCountToFuzzyText",
+    "FU(MonCountToFuzzyText)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Возвращает приблизительное количество: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 и K+/M+. Формат задаётся MON_FUZZY_COUNT_; 0 попадает в 1–4, отрицательное число — ошибка.",
+    "Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_ selects formatting; 0 falls into 1–4 and negative input is an error."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+    ]
+  }
+}

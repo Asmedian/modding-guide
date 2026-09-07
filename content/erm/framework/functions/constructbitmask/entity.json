@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.constructbitmask",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/constructbitmask",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+  ],
+  "keywords": [
+    "ConstructBitMask",
+    "FU(ConstructBitMask)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "Объединяет до 15 позиций битов 0..31 в маску; последний аргумент — выход. Повтор позиции не удваивает бит, поскольку применяется OR. Нужны хотя бы позиция и выход.",
+    "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+    ]
+  }
+}

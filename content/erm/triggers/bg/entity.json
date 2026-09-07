@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.bg",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/bg",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-bg.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "BG",
+    "!?BG",
+    "OnBeforeBattleAction",
+    "OnAfterBattleAction"
+  ],
+  "questions": [
+    "BG0 предваряет действие; BG1 связан с завершением действия и передачей хода. Параметры действия читаются через BG; v997 хранит номер раунда.",
+    "BG0 precedes an action; BG1 is associated with action completion and passing control. Read action parameters through BG; v997 stores the round."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-bg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-bg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-bg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-bg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-bg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-bg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-bg": [
+      "old-help:tr-bg.htm"
+    ]
+  }
+}

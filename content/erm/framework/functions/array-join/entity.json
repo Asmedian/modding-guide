@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-join",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-join",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+  ],
+  "keywords": [
+    "Array_Join",
+    "FU(Array_Join)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Соединяет элементы целого или строкового массива, разделяя gluePtr (по умолчанию пустой строкой). Возвращает ERM-строку; использует и очищает s^result^ и s^temp^.",
+    "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+    ]
+  }
+}

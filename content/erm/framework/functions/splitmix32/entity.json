@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.splitmix32",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/splitmix32",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+  ],
+  "keywords": [
+    "SplitMix32",
+    "FU(SplitMix32)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "P?seed/?result выдаёт int32; P?seed/min/max/?result — число во включительном диапазоне. Seed изменяется и должен передаваться через ?. Не использует состояние обычного VR:R.",
+    "P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.equiparttoslot",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/equiparttoslot",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+  ],
+  "keywords": [
+    "EquipArtToSlot",
+    "FU(EquipArtToSlot)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Надевает артефакт в слот куклы героя либо выбирает слот при NO_ART_SLOT. Возвращает TRUE/FALSE и вызывает OnEquipArt. Не служит записью произвольного слота рюкзака.",
+    "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.direxists",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/direxists",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+  ],
+  "keywords": [
+    "DirExists",
+    "FU(DirExists)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.",
+    "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+    ]
+  }
+}

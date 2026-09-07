@@ -1,0 +1,850 @@
+[
+  {
+    "code": "AI",
+    "slug": "receivers/ai",
+    "title": {
+      "ru": "Маршруты ИИ (AI)",
+      "en": "AI destinations (AI)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ai.htm"
+    ]
+  },
+  {
+    "code": "AR",
+    "slug": "receivers/ar",
+    "title": {
+      "ru": "Артефакты и ресурсы на карте (AR)",
+      "en": "Map artifacts and resources (AR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ar.htm"
+    ]
+  },
+  {
+    "code": "BA",
+    "slug": "receivers/ba",
+    "title": {
+      "ru": "Параметры сражения (BA)",
+      "en": "Battle configuration (BA)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ba.htm"
+    ]
+  },
+  {
+    "code": "BF",
+    "slug": "receivers/bf",
+    "title": {
+      "ru": "Подготовка поля боя (BF)",
+      "en": "Battlefield setup (BF)"
+    },
+    "sourceRefs": [
+      "old-help:rec-bf.htm"
+    ]
+  },
+  {
+    "code": "BG",
+    "slug": "receivers/bg",
+    "title": {
+      "ru": "Текущее действие в бою (BG)",
+      "en": "Current battle action (BG)"
+    },
+    "sourceRefs": [
+      "old-help:rec-bg.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "BH",
+    "slug": "receivers/bh",
+    "title": {
+      "ru": "Действия героя в бою (BH)",
+      "en": "Battle hero actions (BH)"
+    },
+    "sourceRefs": [
+      "old-help:rec-bh.htm"
+    ]
+  },
+  {
+    "code": "BM",
+    "slug": "receivers/bm",
+    "title": {
+      "ru": "Боевой стек (BM)",
+      "en": "Battle stack (BM)"
+    },
+    "sourceRefs": [
+      "old-help:rec-bm.htm"
+    ]
+  },
+  {
+    "code": "BU",
+    "slug": "receivers/bu",
+    "title": {
+      "ru": "Управление полем боя (BU)",
+      "en": "Battlefield operations (BU)"
+    },
+    "sourceRefs": [
+      "old-help:rec-bu.htm"
+    ]
+  },
+  {
+    "code": "CA",
+    "slug": "receivers/ca",
+    "title": {
+      "ru": "Города (CA)",
+      "en": "Towns (CA)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ca.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "CB",
+    "slug": "receivers/cb",
+    "title": {
+      "ru": "Хранилища существ (CB)",
+      "en": "Creature banks (CB)"
+    },
+    "sourceRefs": [
+      "old-help:rec-cb.htm"
+    ]
+  },
+  {
+    "code": "CD",
+    "slug": "receivers/cd",
+    "title": {
+      "ru": "Разрушение и зависимости зданий (CD)",
+      "en": "Town demolition and building dependencies (CD)"
+    },
+    "sourceRefs": [
+      "old-help:rec-cd.htm"
+    ]
+  },
+  {
+    "code": "CE",
+    "slug": "receivers/ce",
+    "title": {
+      "ru": "Городские события (CE)",
+      "en": "Town events (CE)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ce.htm"
+    ]
+  },
+  {
+    "code": "CH",
+    "slug": "receivers/ch",
+    "title": {
+      "ru": "Сундук сокровищ (CH)",
+      "en": "Treasure chest (CH)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ch.htm"
+    ]
+  },
+  {
+    "code": "CM",
+    "slug": "receivers/cm",
+    "title": {
+      "ru": "События мыши (CM)",
+      "en": "Mouse-event context (CM)"
+    },
+    "sourceRefs": [
+      "old-help:rec-cm.htm"
+    ]
+  },
+  {
+    "code": "CO",
+    "slug": "receivers/co",
+    "title": {
+      "ru": "Командиры (CO)",
+      "en": "Commanders (CO)"
+    },
+    "sourceRefs": [
+      "old-help:rec-co.htm"
+    ]
+  },
+  {
+    "code": "DL",
+    "slug": "receivers/dl",
+    "title": {
+      "ru": "Пользовательские диалоги (DL)",
+      "en": "Custom dialogs (DL)"
+    },
+    "sourceRefs": [
+      "old-help:rec-dl.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "DO",
+    "slug": "receivers/do",
+    "title": {
+      "ru": "Циклические вызовы (DO)",
+      "en": "Repeated function calls (DO)"
+    },
+    "sourceRefs": [
+      "old-help:rec-do.htm"
+    ]
+  },
+  {
+    "code": "DW",
+    "slug": "receivers/dw",
+    "title": {
+      "ru": "Жилища существ (DW)",
+      "en": "Creature dwellings (DW)"
+    },
+    "sourceRefs": [
+      "old-help:rec-dw.htm"
+    ]
+  },
+  {
+    "code": "EA",
+    "slug": "receivers/ea",
+    "title": {
+      "ru": "Опыт и бонусы существ (EA)",
+      "en": "Creature experience and bonuses (EA)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ea.htm"
+    ]
+  },
+  {
+    "code": "EX",
+    "slug": "receivers/ex",
+    "title": {
+      "ru": "Опыт армейского отряда (EX)",
+      "en": "Army stack experience (EX)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ex.htm"
+    ]
+  },
+  {
+    "code": "FC",
+    "slug": "receivers/fc",
+    "title": {
+      "ru": "Параметры городской фракции (FC)",
+      "en": "Town-faction parameters (FC)"
+    },
+    "sourceRefs": [
+      "old-help:rec-fc.htm"
+    ]
+  },
+  {
+    "code": "FR",
+    "slug": "receivers/fr",
+    "title": {
+      "ru": "Костёр (FR)",
+      "en": "Campfire (FR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-fr.htm"
+    ]
+  },
+  {
+    "code": "FU",
+    "slug": "receivers/fu",
+    "title": {
+      "ru": "Вызовы функций (FU)",
+      "en": "Function calls (FU)"
+    },
+    "sourceRefs": [
+      "old-help:rec-fu.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "GD",
+    "slug": "receivers/gd",
+    "title": {
+      "ru": "Мистический сад (GD)",
+      "en": "Mystical garden (GD)"
+    },
+    "sourceRefs": [
+      "old-help:rec-gd.htm"
+    ]
+  },
+  {
+    "code": "GE",
+    "slug": "receivers/ge",
+    "title": {
+      "ru": "Глобальные события (GE)",
+      "en": "Global events (GE)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ge.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "GR",
+    "slug": "receivers/gr",
+    "title": {
+      "ru": "Гарнизон (GR)",
+      "en": "Garrison (GR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-gr.htm"
+    ]
+  },
+  {
+    "code": "HE",
+    "slug": "receivers/he",
+    "title": {
+      "ru": "Герои (HE)",
+      "en": "Heroes (HE)"
+    },
+    "sourceRefs": [
+      "old-help:rec-he.htm"
+    ]
+  },
+  {
+    "code": "HL",
+    "slug": "receivers/hl",
+    "title": {
+      "ru": "Выбор навыков при повышении уровня (HL)",
+      "en": "Level-up skill selection (HL)"
+    },
+    "sourceRefs": [
+      "old-help:rec-hl.htm"
+    ]
+  },
+  {
+    "code": "HO",
+    "slug": "receivers/ho",
+    "title": {
+      "ru": "Доступ к герою (HO)",
+      "en": "Hero interaction permissions (HO)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ho.htm"
+    ]
+  },
+  {
+    "code": "HT",
+    "slug": "receivers/ht",
+    "title": {
+      "ru": "Подсказки типов объектов (HT)",
+      "en": "Object-type hints (HT)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ht.htm"
+    ]
+  },
+  {
+    "code": "IF",
+    "slug": "receivers/if",
+    "title": {
+      "ru": "Флаги, сообщения и выбор (IF)",
+      "en": "Flags, messages and choices (IF)"
+    },
+    "sourceRefs": [
+      "old-help:rec-if.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "IP",
+    "slug": "receivers/ip",
+    "title": {
+      "ru": "Сетевая синхронизация (IP)",
+      "en": "Network synchronization (IP)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ip.htm"
+    ]
+  },
+  {
+    "code": "KT",
+    "slug": "receivers/kt",
+    "title": {
+      "ru": "Древо знаний (KT)",
+      "en": "Tree of knowledge (KT)"
+    },
+    "sourceRefs": [
+      "old-help:rec-kt.htm"
+    ]
+  },
+  {
+    "code": "LE",
+    "slug": "receivers/le",
+    "title": {
+      "ru": "Локальные события (LE)",
+      "en": "Local map events (LE)"
+    },
+    "sourceRefs": [
+      "old-help:rec-le.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "LN",
+    "slug": "receivers/ln",
+    "title": {
+      "ru": "Навес (LN)",
+      "en": "Lean-to (LN)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ln.htm"
+    ]
+  },
+  {
+    "code": "MA",
+    "slug": "receivers/ma",
+    "title": {
+      "ru": "Параметры типов существ (MA)",
+      "en": "Creature-type attributes (MA)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ma.htm"
+    ]
+  },
+  {
+    "code": "MC",
+    "slug": "receivers/mc",
+    "title": {
+      "ru": "Макросы классического ERM (MC)",
+      "en": "Classic ERM macros (MC)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mc.htm"
+    ]
+  },
+  {
+    "code": "MF",
+    "slug": "receivers/mf",
+    "title": {
+      "ru": "Физический урон (MF)",
+      "en": "Physical damage (MF)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mf.htm"
+    ]
+  },
+  {
+    "code": "ML",
+    "slug": "receivers/ml",
+    "title": {
+      "ru": "Ветряная мельница (ML)",
+      "en": "Windmill (ML)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ml.htm"
+    ]
+  },
+  {
+    "code": "MM",
+    "slug": "receivers/mm",
+    "title": {
+      "ru": "Текст боевой подсказки (MM)",
+      "en": "Battle hint text (MM)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mm.htm"
+    ]
+  },
+  {
+    "code": "MN",
+    "slug": "receivers/mn",
+    "title": {
+      "ru": "Шахты (MN)",
+      "en": "Mines (MN)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mn.htm"
+    ]
+  },
+  {
+    "code": "MO",
+    "slug": "receivers/mo",
+    "title": {
+      "ru": "Нейтральные монстры на карте (MO)",
+      "en": "Neutral map monsters (MO)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mo.htm"
+    ]
+  },
+  {
+    "code": "MP",
+    "slug": "receivers/mp",
+    "title": {
+      "ru": "Музыка MP3 (MP)",
+      "en": "MP3 music (MP)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mp.htm",
+      "old-help:rec-mp-era.htm"
+    ]
+  },
+  {
+    "code": "MR",
+    "slug": "receivers/mr",
+    "title": {
+      "ru": "Сопротивление заклинаниям (MR)",
+      "en": "Spell resistance (MR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mr.htm"
+    ]
+  },
+  {
+    "code": "MT",
+    "slug": "receivers/mt",
+    "title": {
+      "ru": "Обелиск (MT)",
+      "en": "Obelisk (MT)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mt.htm"
+    ]
+  },
+  {
+    "code": "MW",
+    "slug": "receivers/mw",
+    "title": {
+      "ru": "Бродячие монстры (MW)",
+      "en": "Wandering monsters (MW)"
+    },
+    "sourceRefs": [
+      "old-help:rec-mw.htm"
+    ]
+  },
+  {
+    "code": "OB",
+    "slug": "receivers/ob",
+    "title": {
+      "ru": "Объекты карты (OB)",
+      "en": "Map objects (OB)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ob.htm"
+    ]
+  },
+  {
+    "code": "OW",
+    "slug": "receivers/ow",
+    "title": {
+      "ru": "Игроки (OW)",
+      "en": "Players (OW)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ow.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "PA",
+    "slug": "receivers/pa",
+    "title": {
+      "ru": "Ящик Пандоры (PA)",
+      "en": "Pandora box (PA)"
+    },
+    "sourceRefs": [
+      "old-help:rec-pa.htm"
+    ]
+  },
+  {
+    "code": "PM",
+    "slug": "receivers/pm",
+    "title": {
+      "ru": "Пирамиды и новые объекты (PM)",
+      "en": "Pyramids and new objects (PM)"
+    },
+    "sourceRefs": [
+      "old-help:rec-pm.htm"
+    ]
+  },
+  {
+    "code": "PO",
+    "slug": "receivers/po",
+    "title": {
+      "ru": "Данные клеток карты (PO)",
+      "en": "Map-cell data (PO)"
+    },
+    "sourceRefs": [
+      "old-help:rec-po.htm"
+    ]
+  },
+  {
+    "code": "PR",
+    "slug": "receivers/pr",
+    "title": {
+      "ru": "Тюрьма (PR)",
+      "en": "Prison (PR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-pr.htm"
+    ]
+  },
+  {
+    "code": "QU",
+    "slug": "receivers/qu",
+    "title": {
+      "ru": "Задания объектов (QU)",
+      "en": "Object quests (QU)"
+    },
+    "sourceRefs": [
+      "old-help:rec-qu.htm"
+    ]
+  },
+  {
+    "code": "QW",
+    "slug": "receivers/qw",
+    "title": {
+      "ru": "Дополнительный журнал (QW)",
+      "en": "Supplementary quest log (QW)"
+    },
+    "sourceRefs": [
+      "old-help:rec-qw.htm"
+    ]
+  },
+  {
+    "code": "RD",
+    "slug": "receivers/rd",
+    "title": {
+      "ru": "Найм существ (RD)",
+      "en": "Creature recruitment (RD)"
+    },
+    "sourceRefs": [
+      "old-help:rec-rd.htm"
+    ]
+  },
+  {
+    "code": "SC",
+    "slug": "receivers/sc",
+    "title": {
+      "ru": "Учёный (SC)",
+      "en": "Scholar (SC)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sc.htm"
+    ]
+  },
+  {
+    "code": "SG",
+    "slug": "receivers/sg",
+    "title": {
+      "ru": "Знак и океанская бутыль (SG)",
+      "en": "Sign and ocean bottle (SG)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sg.htm"
+    ]
+  },
+  {
+    "code": "SK",
+    "slug": "receivers/sk",
+    "title": {
+      "ru": "Скелет на карте (SK)",
+      "en": "Map skeleton (SK)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sk.htm"
+    ]
+  },
+  {
+    "code": "SN",
+    "slug": "receivers/sn",
+    "title": {
+      "ru": "Средства ERA, память и звук (SN)",
+      "en": "ERA services, memory and sound (SN)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "SP",
+    "slug": "receivers/sp",
+    "title": {
+      "ru": "Магический источник (SP)",
+      "en": "Magic spring (SP)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sp.htm"
+    ]
+  },
+  {
+    "code": "SR",
+    "slug": "receivers/sr",
+    "title": {
+      "ru": "Святыня магии (SR)",
+      "en": "Shrine of magic (SR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sr.htm"
+    ]
+  },
+  {
+    "code": "SS",
+    "slug": "receivers/ss",
+    "title": {
+      "ru": "Параметры заклинаний (SS)",
+      "en": "Spell attributes (SS)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ss.htm"
+    ]
+  },
+  {
+    "code": "ST",
+    "slug": "receivers/st",
+    "title": {
+      "ru": "Камень знаний (ST)",
+      "en": "Learning stone (ST)"
+    },
+    "sourceRefs": [
+      "old-help:rec-st.htm"
+    ]
+  },
+  {
+    "code": "SW",
+    "slug": "receivers/sw",
+    "title": {
+      "ru": "Лебединое озеро (SW)",
+      "en": "Swan pond (SW)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sw.htm"
+    ]
+  },
+  {
+    "code": "SY",
+    "slug": "receivers/sy",
+    "title": {
+      "ru": "Верфь (SY)",
+      "en": "Shipyard (SY)"
+    },
+    "sourceRefs": [
+      "old-help:rec-sy.htm"
+    ]
+  },
+  {
+    "code": "TL",
+    "slug": "receivers/tl",
+    "title": {
+      "ru": "Лимит времени хода (TL)",
+      "en": "Turn time limit (TL)"
+    },
+    "sourceRefs": [
+      "old-help:rec-tl.htm"
+    ]
+  },
+  {
+    "code": "TM",
+    "slug": "receivers/tm",
+    "title": {
+      "ru": "Игровые таймеры (TM)",
+      "en": "Game timers (TM)"
+    },
+    "sourceRefs": [
+      "old-help:rec-tm.htm"
+    ]
+  },
+  {
+    "code": "TR",
+    "slug": "receivers/tr",
+    "title": {
+      "ru": "Клетки карты (TR)",
+      "en": "Map tiles (TR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-tr.htm"
+    ]
+  },
+  {
+    "code": "UN",
+    "slug": "receivers/un",
+    "title": {
+      "ru": "Общие игровые операции (UN)",
+      "en": "General game operations (UN)"
+    },
+    "sourceRefs": [
+      "old-help:rec-un.htm"
+    ]
+  },
+  {
+    "code": "UR",
+    "slug": "receivers/ur",
+    "title": {
+      "ru": "Университет (UR)",
+      "en": "University (UR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-ur.htm"
+    ]
+  },
+  {
+    "code": "VC",
+    "slug": "receivers/vc",
+    "title": {
+      "ru": "Учёт использования переменных (VC)",
+      "en": "Variable-usage logging (VC)"
+    },
+    "sourceRefs": [
+      "old-help:rec-vc.htm"
+    ]
+  },
+  {
+    "code": "VR",
+    "slug": "receivers/vr",
+    "title": {
+      "ru": "Переменные и выражения (VR)",
+      "en": "Variables and expressions (VR)"
+    },
+    "sourceRefs": [
+      "old-help:rec-vr.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  },
+  {
+    "code": "WG",
+    "slug": "receivers/wg",
+    "title": {
+      "ru": "Телега (WG)",
+      "en": "Wagon (WG)"
+    },
+    "sourceRefs": [
+      "old-help:rec-wg.htm"
+    ]
+  },
+  {
+    "code": "WH",
+    "slug": "receivers/wh",
+    "title": {
+      "ru": "Хижина ведьмы (WH)",
+      "en": "Witch hut (WH)"
+    },
+    "sourceRefs": [
+      "old-help:rec-wh.htm"
+    ]
+  },
+  {
+    "code": "WM",
+    "slug": "receivers/wm",
+    "title": {
+      "ru": "Водяная мельница (WM)",
+      "en": "Water wheel (WM)"
+    },
+    "sourceRefs": [
+      "old-help:rec-wm.htm"
+    ]
+  },
+  {
+    "code": "WT",
+    "slug": "receivers/wt",
+    "title": {
+      "ru": "Гробница воина (WT)",
+      "en": "Warrior tomb (WT)"
+    },
+    "sourceRefs": [
+      "old-help:rec-wt.htm"
+    ]
+  }
+]

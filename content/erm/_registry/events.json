@@ -1,0 +1,838 @@
+[
+  {
+    "constant": "TRIGGER_BA0",
+    "id": 30300,
+    "name": "OnBeforeBattle",
+    "aliases": [],
+    "slug": "triggers/ba",
+    "legacyCode": "BA0"
+  },
+  {
+    "constant": "TRIGGER_BA1",
+    "id": 30301,
+    "name": "OnAfterBattle",
+    "aliases": [],
+    "slug": "triggers/ba",
+    "legacyCode": "BA1"
+  },
+  {
+    "constant": "TRIGGER_BR",
+    "id": 30302,
+    "name": "OnBattleRound",
+    "aliases": [
+      "OnCombatRound"
+    ],
+    "slug": "triggers/br",
+    "legacyCode": "BR"
+  },
+  {
+    "constant": "TRIGGER_BG0",
+    "id": 30303,
+    "name": "OnBeforeBattleAction",
+    "aliases": [],
+    "slug": "triggers/bg",
+    "legacyCode": "BG0"
+  },
+  {
+    "constant": "TRIGGER_BG1",
+    "id": 30304,
+    "name": "OnAfterBattleAction",
+    "aliases": [],
+    "slug": "triggers/bg",
+    "legacyCode": "BG1"
+  },
+  {
+    "constant": "TRIGGER_MW0",
+    "id": 30305,
+    "name": "OnWanderingMonsterReach",
+    "aliases": [],
+    "slug": "triggers/mw",
+    "legacyCode": "MW0"
+  },
+  {
+    "constant": "TRIGGER_MW1",
+    "id": 30306,
+    "name": "OnWanderingMonsterDeath",
+    "aliases": [],
+    "slug": "triggers/mw",
+    "legacyCode": "MW1"
+  },
+  {
+    "constant": "TRIGGER_MR0",
+    "id": 30307,
+    "name": "OnMagicBasicResistance",
+    "aliases": [],
+    "slug": "triggers/mr",
+    "legacyCode": "MR0"
+  },
+  {
+    "constant": "TRIGGER_MR1",
+    "id": 30308,
+    "name": "OnMagicCorrectedResistance",
+    "aliases": [],
+    "slug": "triggers/mr",
+    "legacyCode": "MR1"
+  },
+  {
+    "constant": "TRIGGER_MR2",
+    "id": 30309,
+    "name": "OnDwarfMagicResistance",
+    "aliases": [],
+    "slug": "triggers/mr",
+    "legacyCode": "MR2"
+  },
+  {
+    "constant": "TRIGGER_CM0",
+    "id": 30310,
+    "name": "OnAdventureMapRightMouseClick",
+    "aliases": [],
+    "slug": "triggers/cm",
+    "legacyCode": "CM0"
+  },
+  {
+    "constant": "TRIGGER_CM1",
+    "id": 30311,
+    "name": "OnTownMouseClick",
+    "aliases": [],
+    "slug": "triggers/cm",
+    "legacyCode": "CM1"
+  },
+  {
+    "constant": "TRIGGER_CM2",
+    "id": 30312,
+    "name": "OnHeroScreenMouseClick",
+    "aliases": [],
+    "slug": "triggers/cm",
+    "legacyCode": "CM2"
+  },
+  {
+    "constant": "TRIGGER_CM3",
+    "id": 30313,
+    "name": "OnHeroesMeetScreenMouseClick",
+    "aliases": [],
+    "slug": "triggers/cm",
+    "legacyCode": "CM3"
+  },
+  {
+    "constant": "TRIGGER_CM4",
+    "id": 30314,
+    "name": "OnBattleScreenMouseClick",
+    "aliases": [],
+    "slug": "triggers/cm",
+    "legacyCode": "CM4"
+  },
+  {
+    "constant": "TRIGGER_CM5",
+    "id": 30319,
+    "name": "OnAdventureMapLeftMouseClick",
+    "aliases": [],
+    "slug": "triggers/cm",
+    "legacyCode": "CM5"
+  },
+  {
+    "constant": "TRIGGER_AE0",
+    "id": 30315,
+    "name": "OnUnequipArt",
+    "aliases": [],
+    "slug": "triggers/ae",
+    "legacyCode": "AE0"
+  },
+  {
+    "constant": "TRIGGER_AE1",
+    "id": 30316,
+    "name": "OnEquipArt",
+    "aliases": [],
+    "slug": "triggers/ae",
+    "legacyCode": "AE1"
+  },
+  {
+    "constant": "TRIGGER_MM0",
+    "id": 30317,
+    "name": "OnBattleMouseHint",
+    "aliases": [],
+    "slug": "triggers/mm",
+    "legacyCode": "MM0"
+  },
+  {
+    "constant": "TRIGGER_MM1",
+    "id": 30318,
+    "name": "OnTownMouseHint",
+    "aliases": [],
+    "slug": "triggers/mm",
+    "legacyCode": "MM1"
+  },
+  {
+    "constant": "TRIGGER_MP",
+    "id": 30320,
+    "name": "OnMp3MusicChange",
+    "aliases": [],
+    "slug": "triggers/mp",
+    "legacyCode": "MP"
+  },
+  {
+    "constant": "TRIGGER_SN",
+    "id": 30321,
+    "name": "OnSoundPlay",
+    "aliases": [],
+    "slug": "triggers/sn",
+    "legacyCode": "SN"
+  },
+  {
+    "constant": "TRIGGER_MG0",
+    "id": 30322,
+    "name": "OnBeforeAdventureMagic",
+    "aliases": [],
+    "slug": "triggers/mg",
+    "legacyCode": "MG0"
+  },
+  {
+    "constant": "TRIGGER_MG1",
+    "id": 30323,
+    "name": "OnAfterAdventureMagic",
+    "aliases": [],
+    "slug": "triggers/mg",
+    "legacyCode": "MG1"
+  },
+  {
+    "constant": "TRIGGER_TH0",
+    "id": 30324,
+    "name": "OnEnterTownHall",
+    "aliases": [],
+    "slug": "triggers/th",
+    "legacyCode": "TH0"
+  },
+  {
+    "constant": "TRIGGER_TH1",
+    "id": 30325,
+    "name": "OnLeaveTownHall",
+    "aliases": [],
+    "slug": "triggers/th",
+    "legacyCode": "TH1"
+  },
+  {
+    "constant": "TRIGGER_IP0",
+    "id": 30330,
+    "name": "OnBeforeBattleBeforeDataSend",
+    "aliases": [],
+    "slug": "triggers/ip",
+    "legacyCode": "IP0"
+  },
+  {
+    "constant": "TRIGGER_IP1",
+    "id": 30331,
+    "name": "OnBeforeBattleAfterDataReceived",
+    "aliases": [],
+    "slug": "triggers/ip",
+    "legacyCode": "IP1"
+  },
+  {
+    "constant": "TRIGGER_IP2",
+    "id": 30332,
+    "name": "OnAfterBattleBeforeDataSend",
+    "aliases": [],
+    "slug": "triggers/ip",
+    "legacyCode": "IP2"
+  },
+  {
+    "constant": "TRIGGER_IP3",
+    "id": 30333,
+    "name": "OnAfterBattleAfterDataReceived",
+    "aliases": [],
+    "slug": "triggers/ip",
+    "legacyCode": "IP3"
+  },
+  {
+    "constant": "TRIGGER_CO0",
+    "id": 30340,
+    "name": "OnOpenCommanderWindow",
+    "aliases": [],
+    "slug": "triggers/co",
+    "legacyCode": "CO0"
+  },
+  {
+    "constant": "TRIGGER_CO1",
+    "id": 30341,
+    "name": "OnCloseCommanderWindow",
+    "aliases": [],
+    "slug": "triggers/co",
+    "legacyCode": "CO1"
+  },
+  {
+    "constant": "TRIGGER_CO2",
+    "id": 30342,
+    "name": "OnAfterCommanderBuy",
+    "aliases": [],
+    "slug": "triggers/co",
+    "legacyCode": "CO2"
+  },
+  {
+    "constant": "TRIGGER_CO3",
+    "id": 30343,
+    "name": "OnAfterCommanderResurrect",
+    "aliases": [],
+    "slug": "triggers/co",
+    "legacyCode": "CO3"
+  },
+  {
+    "constant": "TRIGGER_BA50",
+    "id": 30350,
+    "name": "OnBeforeBattleForThisPcDefender",
+    "aliases": [],
+    "slug": "triggers/ba",
+    "legacyCode": "BA50"
+  },
+  {
+    "constant": "TRIGGER_BA51",
+    "id": 30351,
+    "name": "OnAfterBattleForThisPcDefender",
+    "aliases": [],
+    "slug": "triggers/ba",
+    "legacyCode": "BA51"
+  },
+  {
+    "constant": "TRIGGER_BA52",
+    "id": 30352,
+    "name": "OnBeforeBattleUniversal",
+    "aliases": [],
+    "slug": "triggers/ba",
+    "legacyCode": "BA52"
+  },
+  {
+    "constant": "TRIGGER_BA53",
+    "id": 30353,
+    "name": "OnAfterBattleUniversal",
+    "aliases": [],
+    "slug": "triggers/ba",
+    "legacyCode": "BA53"
+  },
+  {
+    "constant": "TRIGGER_GM0",
+    "id": 30360,
+    "name": "OnAfterLoadGame",
+    "aliases": [],
+    "slug": "triggers/gm",
+    "legacyCode": "GM0"
+  },
+  {
+    "constant": "TRIGGER_GM1",
+    "id": 30361,
+    "name": "OnBeforeSaveGame",
+    "aliases": [],
+    "slug": "triggers/gm",
+    "legacyCode": "GM1"
+  },
+  {
+    "constant": "TRIGGER_PI",
+    "id": 30370,
+    "name": "OnAfterErmInstructions",
+    "aliases": [],
+    "slug": "triggers/pi",
+    "legacyCode": "PI"
+  },
+  {
+    "constant": "TRIGGER_DL",
+    "id": 30371,
+    "name": "OnCustomDialogEvent",
+    "aliases": [],
+    "slug": "triggers/dl",
+    "legacyCode": "DL"
+  },
+  {
+    "constant": "TRIGGER_HM",
+    "id": 30400,
+    "name": "OnHeroMove",
+    "aliases": [],
+    "slug": "triggers/hm",
+    "legacyCode": "HM"
+  },
+  {
+    "constant": "TRIGGER_HL",
+    "id": 30600,
+    "name": "OnHeroGainLevel",
+    "aliases": [],
+    "slug": "triggers/hl",
+    "legacyCode": "HL"
+  },
+  {
+    "constant": "TRIGGER_BF",
+    "id": 30800,
+    "name": "OnSetupBattlefield",
+    "aliases": [],
+    "slug": "triggers/bf",
+    "legacyCode": "BF"
+  },
+  {
+    "constant": "TRIGGER_MF1",
+    "id": 30801,
+    "name": "OnMonsterPhysicalDamage",
+    "aliases": [],
+    "slug": "triggers/mf",
+    "legacyCode": "MF1"
+  },
+  {
+    "constant": "TRIGGER_TL0",
+    "id": 30900,
+    "name": "OnEverySecond",
+    "aliases": [],
+    "slug": "triggers/tl",
+    "legacyCode": "TL0"
+  },
+  {
+    "constant": "TRIGGER_TL1",
+    "id": 30901,
+    "name": "OnEvery2Seconds",
+    "aliases": [],
+    "slug": "triggers/tl",
+    "legacyCode": "TL1"
+  },
+  {
+    "constant": "TRIGGER_TL2",
+    "id": 30902,
+    "name": "OnEvery5Seconds",
+    "aliases": [],
+    "slug": "triggers/tl",
+    "legacyCode": "TL2"
+  },
+  {
+    "constant": "TRIGGER_TL3",
+    "id": 30903,
+    "name": "OnEvery10Seconds",
+    "aliases": [],
+    "slug": "triggers/tl",
+    "legacyCode": "TL3"
+  },
+  {
+    "constant": "TRIGGER_TL4",
+    "id": 30904,
+    "name": "OnEveryMinute",
+    "aliases": [],
+    "slug": "triggers/tl",
+    "legacyCode": "TL4"
+  },
+  {
+    "constant": "TRIGGER_SAVEGAME_WRITE",
+    "id": 77001,
+    "name": "OnSavegameWrite",
+    "aliases": [],
+    "slug": "triggers/onsavegamewrite",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_SAVEGAME_READ",
+    "id": 77002,
+    "name": "OnSavegameRead",
+    "aliases": [],
+    "slug": "triggers/onsavegameread",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_KEYPRESS",
+    "id": 77003,
+    "name": "OnKeyPressed",
+    "aliases": [],
+    "slug": "triggers/onkeypressed",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_OPEN_HEROSCREEN",
+    "id": 77004,
+    "name": "OnOpenHeroScreen",
+    "aliases": [],
+    "slug": "triggers/onopenheroscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_CLOSE_HEROSCREEN",
+    "id": 77005,
+    "name": "OnCloseHeroScreen",
+    "aliases": [],
+    "slug": "triggers/oncloseheroscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_STACK_OBTAINS_TURN",
+    "id": 77006,
+    "name": "OnBattleStackObtainsTurn",
+    "aliases": [],
+    "slug": "triggers/onbattlestackobtainsturn",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_REGENERATE_PHASE",
+    "id": 77007,
+    "name": "OnBattleRegeneratePhase",
+    "aliases": [],
+    "slug": "triggers/onbattleregeneratephase",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTER_SAVE_GAME",
+    "id": 77008,
+    "name": "OnAfterSaveGame",
+    "aliases": [],
+    "slug": "triggers/onaftersavegame",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BEFOREHEROINTERACT",
+    "id": 77010,
+    "name": "OnBeforeHeroInteraction",
+    "aliases": [],
+    "slug": "triggers/onbeforeherointeraction",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTERHEROINTERACT",
+    "id": 77011,
+    "name": "OnAfterHeroInteraction",
+    "aliases": [],
+    "slug": "triggers/onafterherointeraction",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ONSTACKTOSTACKDAMAGE",
+    "id": 77012,
+    "name": "OnStackToStackDamage",
+    "aliases": [],
+    "slug": "triggers/onstacktostackdamage",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ONAICALCSTACKATTACKEFFECT",
+    "id": 77013,
+    "name": "OnAICalcStackAttackEffect",
+    "aliases": [],
+    "slug": "triggers/onaicalcstackattackeffect",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ONCHAT",
+    "id": 77014,
+    "name": "OnChat",
+    "aliases": [],
+    "slug": "triggers/onchat",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ONGAMEENTER",
+    "id": 77015,
+    "name": "OnGameEnter",
+    "aliases": [],
+    "slug": "triggers/ongameenter",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ONGAMELEAVE",
+    "id": 77016,
+    "name": "OnGameLeave",
+    "aliases": [],
+    "slug": "triggers/ongameleave",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_DAILY_TIMER",
+    "id": 77018,
+    "name": "OnEveryDay",
+    "aliases": [],
+    "slug": "triggers/oneveryday",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ONBEFORE_BATTLEFIELD_VISIBLE",
+    "id": 77019,
+    "name": "OnBeforeBattlefieldVisible",
+    "aliases": [],
+    "slug": "triggers/onbeforebattlefieldvisible",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BATTLEFIELD_VISIBLE",
+    "id": 77020,
+    "name": "OnBattlefieldVisible",
+    "aliases": [],
+    "slug": "triggers/onbattlefieldvisible",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTER_TACTICS_PHASE",
+    "id": 77021,
+    "name": "OnAfterTacticsPhase",
+    "aliases": [],
+    "slug": "triggers/onaftertacticsphase",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_OPEN_RECRUIT_DLG",
+    "id": 77023,
+    "name": "OnOpenRecruitDlg",
+    "aliases": [],
+    "slug": "triggers/onopenrecruitdlg",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_CLOSE_RECRUIT_DLG",
+    "id": 77024,
+    "name": "OnCloseRecruitDlg",
+    "aliases": [],
+    "slug": "triggers/oncloserecruitdlg",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_RECRUIT_DLG_MOUSE_CLICK",
+    "id": 77025,
+    "name": "OnRecruitDlgMouseClick",
+    "aliases": [],
+    "slug": "triggers/onrecruitdlgmouseclick",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_TOWN_FORT_MOUSE_CLICK",
+    "id": 77026,
+    "name": "OnTownFortMouseClick",
+    "aliases": [],
+    "slug": "triggers/ontownfortmouseclick",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_KINGDOM_OVERVIEW_MOUSE_CLICK",
+    "id": 77027,
+    "name": "OnKingdomOverviewMouseClick",
+    "aliases": [],
+    "slug": "triggers/onkingdomoverviewmouseclick",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_RECRUIT_DLG_RECALC",
+    "id": 77028,
+    "name": "OnRecruitDlgRecalc",
+    "aliases": [],
+    "slug": "triggers/onrecruitdlgrecalc",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_RECRUIT_DLG_ACTION",
+    "id": 77029,
+    "name": "OnRecruitDlgAction",
+    "aliases": [],
+    "slug": "triggers/onrecruitdlgaction",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_LOAD_HERO_SCREEN",
+    "id": 77030,
+    "name": "OnLoadHeroScreen",
+    "aliases": [],
+    "slug": "triggers/onloadheroscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BUILD_TOWN_BUILDING",
+    "id": 77031,
+    "name": "OnBuildTownBuilding",
+    "aliases": [],
+    "slug": "triggers/onbuildtownbuilding",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_OPEN_TOWN_SCREEN",
+    "id": 77032,
+    "name": "OnOpenTownScreen",
+    "aliases": [],
+    "slug": "triggers/onopentownscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_CLOSE_TOWN_SCREEN",
+    "id": 77033,
+    "name": "OnCloseTownScreen",
+    "aliases": [],
+    "slug": "triggers/onclosetownscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_SWITCH_TOWN_SCREEN",
+    "id": 77034,
+    "name": "OnSwitchTownScreen",
+    "aliases": [],
+    "slug": "triggers/onswitchtownscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_PRE_TOWN_SCREEN",
+    "id": 77035,
+    "name": "OnPreTownScreen",
+    "aliases": [],
+    "slug": "triggers/onpretownscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_POST_TOWN_SCREEN",
+    "id": 77036,
+    "name": "OnPostTownScreen",
+    "aliases": [],
+    "slug": "triggers/onposttownscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_PRE_HEROSCREEN",
+    "id": 77037,
+    "name": "OnPreHeroScreen",
+    "aliases": [],
+    "slug": "triggers/onpreheroscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_POST_HEROSCREEN",
+    "id": 77038,
+    "name": "OnPostHeroScreen",
+    "aliases": [],
+    "slug": "triggers/onpostheroscreen",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_DETERMINE_MON_INFO_DLG_UPGRADE",
+    "id": 77039,
+    "name": "OnDetermineMonInfoDlgUpgrade",
+    "aliases": [],
+    "slug": "triggers/ondeterminemoninfodlgupgrade",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_ADVMAP_TILE_HINT",
+    "id": 77040,
+    "name": "OnAdventureMapTileHint",
+    "aliases": [
+      "OnAdvMapTileHint"
+    ],
+    "slug": "triggers/onadventuremaptilehint",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BEFORE_STACK_TURN",
+    "id": 77041,
+    "name": "OnBeforeBattleStackTurn",
+    "aliases": [],
+    "slug": "triggers/onbeforebattlestackturn",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_CALC_TOWN_INCOME",
+    "id": 77042,
+    "name": "OnCalculateTownIncome",
+    "aliases": [],
+    "slug": "triggers/oncalculatetownincome",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BATTLE_REPLAY",
+    "id": 77043,
+    "name": "OnBattleReplay",
+    "aliases": [],
+    "slug": "triggers/onbattlereplay",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BEFORE_BATTLE_REPLAY",
+    "id": 77044,
+    "name": "OnBeforeBattleReplay",
+    "aliases": [],
+    "slug": "triggers/onbeforebattlereplay",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BEFORE_LOCAL_EVENT",
+    "id": 77045,
+    "name": "OnBeforeLocalEvent",
+    "aliases": [],
+    "slug": "triggers/onbeforelocalevent",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTER_LOCAL_EVENT",
+    "id": 77046,
+    "name": "OnAfterLocalEvent",
+    "aliases": [],
+    "slug": "triggers/onafterlocalevent",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_WIN_GAME",
+    "id": 77047,
+    "name": "OnWinGame",
+    "aliases": [],
+    "slug": "triggers/onwingame",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_LOSE_GAME",
+    "id": 77048,
+    "name": "OnLoseGame",
+    "aliases": [],
+    "slug": "triggers/onlosegame",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_TRANSFER_HERO",
+    "id": 77049,
+    "name": "OnTransferHero",
+    "aliases": [],
+    "slug": "triggers/ontransferhero",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTER_HERO_GAIN_LEVEL",
+    "id": 77050,
+    "name": "OnAfterHeroGainLevel",
+    "aliases": [],
+    "slug": "triggers/onafterherogainlevel",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BATTLE_ACTION_END",
+    "id": 77051,
+    "name": "OnBattleActionEnd",
+    "aliases": [],
+    "slug": "triggers/onbattleactionend",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTER_BUILD_TOWN_BUILDING",
+    "id": 77052,
+    "name": "OnAfterBuildTownBuilding",
+    "aliases": [],
+    "slug": "triggers/onafterbuildtownbuilding",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_KEY_RELEASED",
+    "id": 77053,
+    "name": "OnKeyReleased",
+    "aliases": [],
+    "slug": "triggers/onkeyreleased",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BEFORE_BATTLE_PLACE_BATTLE_OBSTACLES",
+    "id": 77054,
+    "name": "OnBeforePlaceBattleObstacles",
+    "aliases": [],
+    "slug": "triggers/onbeforeplacebattleobstacles",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_AFTER_BATTLE_PLACE_BATTLE_OBSTACLES",
+    "id": 77055,
+    "name": "OnAfterPlaceBattleObstacles",
+    "aliases": [],
+    "slug": "triggers/onafterplacebattleobstacles",
+    "legacyCode": null
+  },
+  {
+    "constant": "TRIGGER_BATTLE_STACK_REGENERATION",
+    "id": 77056,
+    "name": "OnBattleStackRegeneration",
+    "aliases": [],
+    "slug": "triggers/onbattlestackregeneration",
+    "legacyCode": null
+  }
+]

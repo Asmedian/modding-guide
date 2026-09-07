@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.h3dlg-coords",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/h3dlg-coords",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+  ],
+  "keywords": [
+    "H3Dlg_Coords",
+    "FU(H3Dlg_Coords)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Координаты x/y поддерживают GET, SET и ADD (?). Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.",
+    "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords"
+    ]
+  }
+}

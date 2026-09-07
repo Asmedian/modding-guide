@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.ae",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/ae",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-ae.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "AE",
+    "!?AE",
+    "OnUnequipArt",
+    "OnEquipArt"
+  ],
+  "questions": [
+    "0 — снятие, 1 — экипировка. Текущий герой владеет артефактом, v998 содержит ID артефакта, v999 — слот.",
+    "0 unequips; 1 equips. The current hero owns the artifact, v998 is the artifact ID, and v999 its slot."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-ae.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-ae.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-ae.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-ae.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-ae.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-ae.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-ae": [
+      "old-help:tr-ae.htm"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-move",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-move",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+  ],
+  "keywords": [
+    "Array_Move",
+    "FU(Array_Move)",
+    "requires-review",
+    "arrays"
+  ],
+  "questions": [
+    "Перемещает length элементов из offset в destInd внутри массива без изменения размера; поддерживает перекрытие, обрезает выход за конец. В снимке destInd объявлен через !#VR вместо !#VA: сверяйте исправление библиотеки перед использованием.",
+    "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+    ]
+  }
+}

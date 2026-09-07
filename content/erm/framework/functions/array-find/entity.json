@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-find",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-find",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+  ],
+  "keywords": [
+    "Array_Find",
+    "FU(Array_Find)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Вызывает callback(value,?found,listId,customArg) до первого TRUE. Возвращает индекс или -1; строковое value — ERM-строка. found и необязательный customArg по умолчанию 0.",
+    "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+    ]
+  }
+}

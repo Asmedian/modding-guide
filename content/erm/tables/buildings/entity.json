@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.buildings",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/buildings",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:form-buldings.htm",
+    "old-help:rec-ca.htm"
+  ],
+  "keywords": [
+    "ID городских зданий",
+    "Town building IDs"
+  ],
+  "questions": [
+    "Номер здания для CA и бит в массиве построек. Тип города уточняет смысл специальных строений. Картинки зданий IF:Q используют другую нумерацию.",
+    "Building ID for CA and bit in the building array. Town type determines special buildings. IF:Q building pictures use a different numbering system."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:form-buldings.htm",
+      "old-help:rec-ca.htm"
+    ],
+    "values": [
+      "old-help:form-buldings.htm",
+      "old-help:rec-ca.htm"
+    ],
+    "related": [
+      "old-help:form-buldings.htm",
+      "old-help:rec-ca.htm"
+    ],
+    "reference-links": [
+      "old-help:form-buldings.htm",
+      "old-help:rec-ca.htm"
+    ],
+    "ref-form-buldings": [
+      "old-help:form-buldings.htm"
+    ]
+  }
+}

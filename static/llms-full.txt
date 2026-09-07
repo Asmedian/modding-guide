@@ -1,0 +1,1018 @@
+# ERA Modding Guide — full catalog
+
+- ERA documentation: /en/docs/ — A starting point for the platform, mod structure, game resources, and practical tools.
+- The ERA platform: /en/docs/era/ — ERA’s role between Heroes III, mods, resources, and extensions during game startup.
+- Mod compatibility and order: /en/docs/era/compatibility/ — Declare dependencies, priority, and conflicts without relying on accidental load order.
+- Creating your first mod: /en/docs/era/creating-mod/ — Move from an empty directory to an enabled mod with metadata, one resource, and a repeatable test.
+- Installation and workspace: /en/docs/era/installation/ — Prepare a reproducible ERA setup for development without losing a known-good state.
+- Mod structure: /en/docs/era/mod-structure/ — A practical map of Data and Lang directories, archives, and resource precedence.
+- Game architecture for mod authors: /en/docs/game/ — The smallest useful model of startup, virtual resources, and caching for diagnosing a content mod.
+- How ERA loads resources: /en/docs/game/resource-loading/ — A practical model of the VFS, archives, redirections, and caching for conflict diagnosis.
+- Resource formats: /en/docs/game/resources/ — A map of important game and ERA formats, their roles, and safe verification steps.
+- Glossary: /en/docs/glossary/ — Agreed Russian and English terminology for the general ERA documentation.
+- LLM content map: /en/docs/llm-map/ — A human-readable page index with links to compact machine-readable representations.
+- Quick Start: /en/docs/quick-start/ — A safe path from a working installation to the first verifiable mod resource.
+- Site structure: /en/docs/site-structure/ — How routes, locales, search, sources, and machine-readable representations fit together.
+- Modding tools: /en/docs/tools/ — Choose a program for the format, separate editing from validation, and use the legacy Tools bundle safely.
+- ERA tool catalog: /en/docs/tools/catalog/ — A verified inventory of the bundled Tools programs, grouped by task and risk level.
+- Troubleshooting: /en/docs/troubleshooting/ — A repeatable path from a clean startup to a precise report for a conflict or invalid resource.
+- ERM scripts: /en/erm/ — Game events, ERM commands, and the ERA ERM Framework library.
+- ERM debugging and compatibility: /en/erm/compatibility/ — Version differences, execution context and script validation.
+- Conditions and branches: /en/erm/conditions/ — Variable and flag checks, AND/OR conditions, and if/el/en blocks.
+- ERM examples: /en/erm/examples/ — Small examples with explained preconditions and results.
+- SN:E — calling by address: /en/erm/examples/sn-e/ — Resolve GetKeyState from user32.dll, check the export, then call with left Shift code 160. The pressed state is bit 15 of the SHORT result; the example does not mutate game state.
+- SN:F — calling an export: /en/erm/examples/sn-f/ — SN:F resolves and caches GetKeyState. Copy the result from v1 into the output argument immediately, then restore v1. Export names and ABI cannot be selected by superficial similarity.
+- ERA ERM Framework: /en/erm/framework/ — Standard helper library, event context and named constants.
+- ERA ERM Framework constants: /en/erm/framework/constants/ — 1838 definitions: game IDs, flags, command parameters, and key codes.
+- Army Slots: /en/erm/framework/constants/army-slots/ — 9 named values: army slots.
+- Artifact Modifiers: /en/erm/framework/constants/artfiact-modifiers/ — 1 named values: artifact modifiers.
+- Artifacts: /en/erm/framework/constants/artifacts/ — 177 named values: artifacts.
+- Assembler: /en/erm/framework/constants/assembler/ — 3 named values: assembler.
+- Battle Actions: /en/erm/framework/constants/battle-actions/ — 14 named values: battle actions.
+- Battle Hexes: /en/erm/framework/constants/battle-hexes/ — 3 named values: battle hexes.
+- Battle Type Flags: /en/erm/framework/constants/battle-type-flags/ — 6 named values: battle type flags.
+- Battle: /en/erm/framework/constants/battle/ — 18 named values: battle.
+- Bit Masks: /en/erm/framework/constants/bit-masks/ — 32 named values: bit masks.
+- Bit Sizes: /en/erm/framework/constants/bit-sizes/ — 5 named values: bit sizes.
+- Bits: /en/erm/framework/constants/bits/ — 32 named values: bits.
+- Bm:G Field Offsets: /en/erm/framework/constants/bm-g-field-offsets/ — 14 named values: bm:g field offsets.
+- Calling Conventions: /en/erm/framework/constants/calling-conventions/ — 11 named values: calling conventions.
+- Character Codes: /en/erm/framework/constants/character-codes/ — 62 named values: character codes.
+- Data Types: /en/erm/framework/constants/data-types/ — 21 named values: data types.
+- Dialog Action Types: /en/erm/framework/constants/dialog-action-types/ — 5 named values: dialog action types.
+- Dialog Item Ids: /en/erm/framework/constants/dialog-item-ids/ — 92 named values: dialog item ids.
+- Dialogs: /en/erm/framework/constants/dialogs/ — 18 named values: dialogs.
+- Era Chat Event: /en/erm/framework/constants/era-chat-event/ — 6 named values: era chat event.
+- Erm Commands: /en/erm/framework/constants/erm-commands/ — 9 named values: erm commands.
+- Erm Flags: /en/erm/framework/constants/erm-flags/ — 4 named values: erm flags.
+- Game Functions: /en/erm/framework/constants/game-functions/ — 2 named values: game functions.
+- Game Limits: /en/erm/framework/constants/game-limits/ — 12 named values: game limits.
+- Game Managers: /en/erm/framework/constants/game-managers/ — 10 named values: game managers.
+- Game Settings: /en/erm/framework/constants/game-settings/ — 39 named values: game settings.
+- Game Structures: /en/erm/framework/constants/game-structures/ — 26 named values: game structures.
+- Game Types: /en/erm/framework/constants/game-types/ — 6 named values: game types.
+- H3 Dialog Commands: /en/erm/framework/constants/h3-dialog-commands/ — 5 named values: h3 dialog commands.
+- H3 Dialog Picture Types: /en/erm/framework/constants/h3-dialog-picture-types/ — 47 named values: h3 dialog picture types.
+- H3 Dialog Text Alignment: /en/erm/framework/constants/h3-dialog-text-alignment/ — 6 named values: h3 dialog text alignment.
+- H3 Message Dialog Types: /en/erm/framework/constants/h3-message-dialog-types/ — 5 named values: h3 message dialog types.
+- Hero Artifact Levels: /en/erm/framework/constants/hero-artifact-levels/ — 6 named values: hero artifact levels.
+- Hero Artifact Slots: /en/erm/framework/constants/hero-artifact-slots/ — 28 named values: hero artifact slots.
+- Hero Classes: /en/erm/framework/constants/hero-classes/ — 20 named values: hero classes.
+- Hero Skills: /en/erm/framework/constants/hero-skills/ — 41 named values: hero skills.
+- Heroes: /en/erm/framework/constants/heroes/ — 164 named values: heroes.
+- Key Codes: /en/erm/framework/constants/key-codes/ — 171 named values: key codes.
+- Monster Aggression Level: /en/erm/framework/constants/monster-aggression-level/ — 10 named values: monster aggression level.
+- Monster Flags: /en/erm/framework/constants/monster-flags/ — 32 named values: monster flags.
+- Monsters: /en/erm/framework/constants/monsters/ — 205 named values: monsters.
+- Mouse Click Subtypes: /en/erm/framework/constants/mouse-click-subtypes/ — 4 named values: mouse click subtypes.
+- Mouse Clicks: /en/erm/framework/constants/mouse-clicks/ — 5 named values: mouse clicks.
+- Mouse Wheel Subtypes: /en/erm/framework/constants/mouse-wheel-subtypes/ — 2 named values: mouse wheel subtypes.
+- Object Types: /en/erm/framework/constants/object-types/ — 230 named values: object types.
+- Player Bits: /en/erm/framework/constants/player-bits/ — 8 named values: player bits.
+- Players: /en/erm/framework/constants/players/ — 15 named values: players.
+- Quest Rewards: /en/erm/framework/constants/quest-rewards/ — 11 named values: quest rewards.
+- Quest Types: /en/erm/framework/constants/quest-types/ — 10 named values: quest types.
+- Radio Dialogs: /en/erm/framework/constants/radio-dialogs/ — 3 named values: radio dialogs.
+- Resources: /en/erm/framework/constants/resources/ — 13 named values: resources.
+- Special Enums: /en/erm/framework/constants/special-enums/ — 12 named values: special enums.
+- Spell Schools: /en/erm/framework/constants/spell-schools/ — 4 named values: spell schools.
+- Spell Texts For Sn H: /en/erm/framework/constants/spell-texts-for-sn-h/ — 7 named values: spell texts for sn h.
+- Spells: /en/erm/framework/constants/spells/ — 78 named values: spells.
+- Stack Experience: /en/erm/framework/constants/stack-experience/ — 1 named values: stack experience.
+- Towns: /en/erm/framework/constants/towns/ — 15 named values: towns.
+- Un:C Data Types: /en/erm/framework/constants/un-c-data-types/ — 8 named values: un:c data types.
+- Universal: /en/erm/framework/constants/universal/ — 4 named values: universal.
+- Useful Addresses: /en/erm/framework/constants/useful-addresses/ — 6 named values: useful addresses.
+- Win32 Api: /en/erm/framework/constants/win32-api/ — 3 named values: win32 api.
+- Wog Options: /en/erm/framework/constants/wog-options/ — 22 named values: wog options.
+- Framework events: /en/erm/framework/events/ — Additional events, extended context, and final-handler ordering.
+- Framework functions: /en/erm/framework/functions/ — Complete catalog of 185 functions and handlers, with contracts and limitations.
+- ActivateNextStack: /en/erm/framework/functions/activatenextstack/ — Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version.
+- AddArtToHero: /en/erm/framework/functions/addarttohero/ — Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions.
+- AdvMap_SetHint: /en/erm/framework/functions/advmap-sethint/ — Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input.
+- AdvMap_SetInfoPanelDef: /en/erm/framework/functions/advmap-setinfopaneldef/ — Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant.
+- AdvMap_SetInfoPanelText: /en/erm/framework/functions/advmap-setinfopaneltext/ — Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1.
+- Array_Clone: /en/erm/framework/functions/array-clone/ — Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values.
+- Array_Copy: /en/erm/framework/functions/array-copy/ — Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type.
+- Array_CountValue: /en/erm/framework/functions/array-countvalue/ — Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA.
+- Array_CustomSort: /en/erm/framework/functions/array-customsort/ — Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array.
+- Array_EnsureMinSize: /en/erm/framework/functions/array-ensureminsize/ — Grows an array to minSize when needed and fills new items. Never shrinks it.
+- Array_Fill: /en/erm/framework/functions/array-fill/ — Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array.
+- Array_Find: /en/erm/framework/functions/array-find/ — Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0.
+- Array_IndexOf: /en/erm/framework/functions/array-indexof/ — Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive.
+- Array_Join: /en/erm/framework/functions/array-join/ — Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^.
+- Array_Merge: /en/erm/framework/functions/array-merge/ — Appends one or more arrays to dstArray. All element types must match; the destination is modified.
+- Array_Move: /en/erm/framework/functions/array-move/ — Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use.
+- Array_Pop: /en/erm/framework/functions/array-pop/ — Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings.
+- Array_Push: /en/erm/framework/functions/array-push/ — Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped.
+- Array_Resize: /en/erm/framework/functions/array-resize/ — Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed.
+- Array_Revert: /en/erm/framework/functions/array-revert/ — Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings.
+- Array_Shuffle: /en/erm/framework/functions/array-shuffle/ — Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic.
+- Array_Slice: /en/erm/framework/functions/array-slice/ — Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.
+- Array_Sort: /en/erm/framework/functions/array-sort/ — Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped.
+- Array_SortedUnique: /en/erm/framework/functions/array-sortedunique/ — Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected.
+- Array_Splice: /en/erm/framework/functions/array-splice/ — Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move.
+- Battle_RedrawGridShadow: /en/erm/framework/functions/battle-redrawgridshadow/ — Refreshes movement-range shading after a speed change. Requires an existing combat manager.
+- BattleStack_MakeActive: /en/erm/framework/functions/battlestack-makeactive/ — Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists.
+- BattleStack_Shoot: /en/erm/framework/functions/battlestack-shoot/ — Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first.
+- ChangeArtModAtSlot: /en/erm/framework/functions/changeartmodatslot/ — Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD.
+- ClearEventChainData: /en/erm/framework/functions/cleareventchaindata/ — Clears the internal event-context stack and its position when loading a save.
+- ClearIniCache: /en/erm/framework/functions/clearinicache/ — Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file.
+- ClearScreenLog: /en/erm/framework/functions/clearscreenlog/ — Clears green on-screen log messages.
+- CollectMouseEventData: /en/erm/framework/functions/collectmouseeventdata/ — Copies CM context to mouse_ and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key.
+- CompareStrings_Bridge_INTERNAL: /en/erm/framework/functions/comparestrings-bridge-internal/ — String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string.
+- CompareStrings: /en/erm/framework/functions/comparestrings/ — Compares two ERM strings with language operators and returns -1, 0, or 1.
+- ConstructBitMask: /en/erm/framework/functions/constructbitmask/ — Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.
+- CreateDir: /en/erm/framework/functions/createdir/ — Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.
+- DeconstructBitMask: /en/erm/framework/functions/deconstructbitmask/ — Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context.
+- DecorateInt: /en/erm/framework/functions/decorateint/ — Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string.
+- DeleteFile: /en/erm/framework/functions/deletefile/ — Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees.
+- DirExists: /en/erm/framework/functions/direxists/ — Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.
+- DisableErrors: /en/erm/framework/functions/disableerrors/ — Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation.
+- DL_AlignDlg: /en/erm/framework/functions/dl-aligndlg/ — Aligns an existing DL dialog using TEXT_ALIGN_ bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM.
+- DL_CenterAtMouse: /en/erm/framework/functions/dl-centeratmouse/ — Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.
+- DL_Coords: /en/erm/framework/functions/dl-coords/ — Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.
+- DL_Destroy: /en/erm/framework/functions/dl-destroy/ — Destroys a DL wrapper by address. Do not reuse the destroyed address.
+- DL_FindById: /en/erm/framework/functions/dl-findbyid/ — Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1.
+- DL_GetSize: /en/erm/framework/functions/dl-getsize/ — Returns the width and height of an existing DL dialog; reports an error if absent.
+- DL_SetPlayerColor: /en/erm/framework/functions/dl-setplayercolor/ — Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.
+- DL_SetSize: /en/erm/framework/functions/dl-setsize/ — Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged.
+- DL_ShowPopup: /en/erm/framework/functions/dl-showpopup/ — Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.
+- EmptyIniCache: /en/erm/framework/functions/emptyinicache/ — Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.
+- EnableErrors: /en/erm/framework/functions/enableerrors/ — Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library.
+- EnterMouseEvent: /en/erm/framework/functions/entermouseevent/ — Saves previous keyboard/mouse context, then reads modifiers and CM for the new event.
+- EquipArtToSlot: /en/erm/framework/functions/equiparttoslot/ — Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots.
+- FileExists: /en/erm/framework/functions/fileexists/ — Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.
+- FormatQuantity: /en/erm/framework/functions/formatquantity/ — Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported.
+- GetArtAtSlot: /en/erm/framework/functions/getartatslot/ — Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot.
+- GetDegradedMonCandidates: /en/erm/framework/functions/getdegradedmoncandidates/ — Scans all supported types and returns a local array of creatures upgrading to monId. Multiple candidates are possible; a full scan is expensive with extended limits.
+- GetHeroPortraitName: /en/erm/framework/functions/getheroportraitname/ — Returns current small/large portrait filenames for a hero. Reads the structure table by ID; validate the range first.
+- GetHeroPrimarySkillsWithoutArts: /en/erm/framework/functions/getheroprimaryskillswithoutarts/ — Temporarily removes 19 equipped artifacts, reads HE:F, then re-equips them. Fires OnUnequipArt/OnEquipArt; this operation has event side effects.
+- GetKeyModsState: /en/erm/framework/functions/getkeymodsstate/ — Polls left/right Alt, Ctrl and Shift with GetKeyState and updates key_; each combined flag is the OR of both sides.
+- GetMaxArtifactId: /en/erm/framework/functions/getmaxartifactid/ — This snapshot simply returns ART_LAST_WOG. Despite its comment about extensions, it does not query a dynamic plugin limit.
+- GetMaxHeroId: /en/erm/framework/functions/getmaxheroid/ — Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity.
+- GetMaxMonsterId: /en/erm/framework/functions/getmaxmonsterid/ — Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity.
+- GetMaxSpellId: /en/erm/framework/functions/getmaxspellid/ — Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin.
+- GetModList: /en/erm/framework/functions/getmodlist/ — Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it.
+- GetProcessGuid: /en/erm/framework/functions/getprocessguid/ — Returns a 32-character identifier for this game-process run. Distinguishes a restart from loading a save in the same process.
+- GetStrAtAddr: /en/erm/framework/functions/getstrataddr/ — Copies a null-terminated string at strAddr into an output ERM string; NULL yields empty text. Non-null memory must be readable.
+- GetTextFileString: /en/erm/framework/functions/gettextfilestring/ — Reads a zero-based row from loaded randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent resources. Normalizes the name; unknown names return Wrong txt filename!. Does not validate row bounds.
+- GetTextTableString: /en/erm/framework/functions/gettexttablestring/ — Reads a bldgspec, help, or znpc00 cell by rowIndex/colIndex. Despite the “get or set” comment, this snapshot has no write branch. The caller must validate indices.
+- GetTimeMsec: /en/erm/framework/functions/gettimemsec/ — Returns milliseconds since OS startup via timeGetTime. The 32-bit counter wraps after about 49.71 days; it is not the in-game date.
+- GetUpgradedMonster: /en/erm/framework/functions/getupgradedmonster/ — Returns the creature upgrade or NO_MON (-1) when absent.
+- H3Dlg_CenterAtMouse: /en/erm/framework/functions/h3dlg-centeratmouse/ — Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.
+- H3Dlg_Coords: /en/erm/framework/functions/h3dlg-coords/ — Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.
+- H3Dlg_DrawItemOnScreen: /en/erm/framework/functions/h3dlg-drawitemonscreen/ — Draws itemId or the entire dialog for ALL_ITEMS. The H3Dlg object must exist.
+- H3Dlg_GetCurrentDlg: /en/erm/framework/functions/h3dlg-getcurrentdlg/ — Returns the topmost dialog address or NULL. This address is not its DLG_ identifier.
+- H3Dlg_GetCurrentDlgId: /en/erm/framework/functions/h3dlg-getcurrentdlgid/ — Returns the top dialog identifier from its virtual table, comparable to DLG_, or NULL.
+- H3Dlg_GetRootDlg: /en/erm/framework/functions/h3dlg-getrootdlg/ — Returns the root dialog address or NULL; usually the adventure map.
+- H3Dlg_ResumeAnimation: /en/erm/framework/functions/h3dlg-resumeanimation/ — Stops/resumes current dialog animation through native functions. Keep calls balanced.
+- H3Dlg_SendCmdToItem: /en/erm/framework/functions/h3dlg-sendcmdtoitem/ — Sends a DLG_CMD_ to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number.
+- H3Dlg_ShowPopup: /en/erm/framework/functions/h3dlg-showpopup/ — Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address.
+- H3Dlg_StopAnimation: /en/erm/framework/functions/h3dlg-stopanimation/ — Stops/resumes current dialog animation through native functions. Keep calls balanced.
+- H3Dlg_UpdateItemRange: /en/erm/framework/functions/h3dlg-updateitemrange/ — Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates.
+- H3Quests_RefreshData: /en/erm/framework/functions/h3quests-refreshdata/ — Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures.
+- Hash32: /en/erm/framework/functions/hash32/ — Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised.
+- Interpolate: /en/erm/framework/functions/interpolate/ — Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs.
+- IntLog2: /en/erm/framework/functions/intlog2/ — Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit.
+- IsDllLoaded: /en/erm/framework/functions/isdllloaded/ — Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module.
+- LeaveMouseEvent: /en/erm/framework/functions/leavemouseevent/ — Restores mouse context followed by keyboard context from the final handlers.
+- LoadIntGlobalsFromJson: /en/erm/framework/functions/loadintglobalsfromjson/ — Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged.
+- MakeRngSeed: /en/erm/framework/functions/makerngseed/ — Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed.
+- MergeIniWithDefault: /en/erm/framework/functions/mergeiniwithdefault/ — Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni.
+- MonCountToFuzzyText: /en/erm/framework/functions/moncounttofuzzytext/ — Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_ selects formatting; 0 falls into 1–4 and negative input is an error.
+- NewIntArray: /en/erm/framework/functions/newintarray/ — Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0.
+- NewStrArray: /en/erm/framework/functions/newstrarray/ — Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address.
+- OnAdventureMapLeftMouseClick_Quit: /en/erm/framework/functions/onadventuremapleftmouseclick-quit/ — Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnAdventureMapLeftMouseClick: /en/erm/framework/functions/onadventuremapleftmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnAdventureMapRightMouseClick_Quit: /en/erm/framework/functions/onadventuremaprightmouseclick-quit/ — Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnAdventureMapRightMouseClick: /en/erm/framework/functions/onadventuremaprightmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnAfterErmInstructions_Quit: /en/erm/framework/functions/onaftererminstructions-quit/ — Final handler for OnAfterErmInstructions: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnAfterErmInstructions: /en/erm/framework/functions/onaftererminstructions/ — Creates the Framework daily timer and resets last-day tracking.
+- OnAfterLoadGame_Quit: /en/erm/framework/functions/onafterloadgame-quit/ — Final handler for OnAfterLoadGame: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnBattleMouseHint_Quit: /en/erm/framework/functions/onbattlemousehint-quit/ — Final handler for OnBattleMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnBattleMouseHint: /en/erm/framework/functions/onbattlemousehint/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnBattleReplay: /en/erm/framework/functions/onbattlereplay/ — Resets round/acting stack and refreshes combat parameters for replay.
+- OnBattleRound: /en/erm/framework/functions/onbattleround/ — Updates battle_round from the current round context.
+- OnBattleScreenMouseClick_Quit: /en/erm/framework/functions/onbattlescreenmouseclick-quit/ — Final handler for OnBattleScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnBattleScreenMouseClick: /en/erm/framework/functions/onbattlescreenmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnBattleStackObtainsTurn: /en/erm/framework/functions/onbattlestackobtainsturn/ — Converts side/index to a global stack ID and accounts for hypnosis when determining the current side.
+- OnBeforeBattle_Quit: /en/erm/framework/functions/onbeforebattle-quit/ — Final handler for OnBeforeBattle: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnBeforeBattle: /en/erm/framework/functions/onbeforebattle/ — Resets battle_round to INT_MIN before actual combat.
+- OnBeforeBattleAction: /en/erm/framework/functions/onbeforebattleaction/ — Reads BG:N/Q into battle_acting_stack/side and updates visible/quick combat flags.
+- OnBeforeBattleStackTurn: /en/erm/framework/functions/onbeforebattlestackturn/ — Stores activeStack in battle_current_stack.
+- OnBeforeBattleUniversal_Quit: /en/erm/framework/functions/onbeforebattleuniversal-quit/ — Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnBeforeBattleUniversal: /en/erm/framework/functions/onbeforebattleuniversal/ — Refreshes battle_ and resets current/acting stack context. May run in theoretical AI combat with no combat manager.
+- OnCustomDialogEvent_Quit: /en/erm/framework/functions/oncustomdialogevent-quit/ — Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnCustomDialogEvent: /en/erm/framework/functions/oncustomdialogevent/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnEveryDay: /en/erm/framework/functions/oneveryday/ — Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player.
+- OnHeroesMeetScreenMouseClick_Quit: /en/erm/framework/functions/onheroesmeetscreenmouseclick-quit/ — Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnHeroesMeetScreenMouseClick: /en/erm/framework/functions/onheroesmeetscreenmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnHeroScreenMouseClick_Quit: /en/erm/framework/functions/onheroscreenmouseclick-quit/ — Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnHeroScreenMouseClick: /en/erm/framework/functions/onheroscreenmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnKeyPressed_Quit: /en/erm/framework/functions/onkeypressed-quit/ — Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnKeyPressed: /en/erm/framework/functions/onkeypressed/ — Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.
+- OnKeyReleased_Quit: /en/erm/framework/functions/onkeyreleased-quit/ — Final handler for OnKeyReleased: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnKeyReleased: /en/erm/framework/functions/onkeyreleased/ — Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.
+- OnKingdomOverviewMouseClick_Quit: /en/erm/framework/functions/onkingdomoverviewmouseclick-quit/ — Final handler for OnKingdomOverviewMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnKingdomOverviewMouseClick: /en/erm/framework/functions/onkingdomoverviewmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnRecruitDlgMouseClick_Quit: /en/erm/framework/functions/onrecruitdlgmouseclick-quit/ — Final handler for OnRecruitDlgMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnRecruitDlgMouseClick: /en/erm/framework/functions/onrecruitdlgmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnSavegameRead: /en/erm/framework/functions/onsavegameread/ — Clears event-chain state after save data is read.
+- OnSetupBattlefield: /en/erm/framework/functions/onsetupbattlefield/ — Refreshes battle_ during battlefield setup.
+- OnStartOrLoad: /en/erm/framework/functions/onstartorload/ — Updates maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. The source spells maxArtifacId without the second t.
+- OnTownHallMouseClick_Quit: /en/erm/framework/functions/ontownhallmouseclick-quit/ — Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnTownHallMouseClick: /en/erm/framework/functions/ontownhallmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnTownMouseClick_Quit: /en/erm/framework/functions/ontownmouseclick-quit/ — Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnTownMouseClick: /en/erm/framework/functions/ontownmouseclick/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- OnTownMouseHint_Quit: /en/erm/framework/functions/ontownmousehint-quit/ — Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+- OnTownMouseHint: /en/erm/framework/functions/ontownmousehint/ — Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
+- PackUnion: /en/erm/framework/functions/packunion/ — PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
+- Pow: /en/erm/framework/functions/pow/ — Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion.
+- PrepareMessageBoxText: /en/erm/framework/functions/preparemessageboxtext/ — Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version.
+- PrepareMultiPicDialog: /en/erm/framework/functions/preparemultipicdialog/ — Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog.
+- RadioDlg_AddCancelButton: /en/erm/framework/functions/radiodlg-addcancelbutton/ — Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button.
+- RadioDlg_AddItem: /en/erm/framework/functions/radiodlg-additem/ — Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel.
+- RadioDlg_AddItems: /en/erm/framework/functions/radiodlg-additems/ — Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected.
+- RadioDlg_GetItemTag: /en/erm/framework/functions/radiodlg-getitemtag/ — Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
+- RadioDlg_GetItemValue: /en/erm/framework/functions/radiodlg-getitemvalue/ — Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
+- RadioDlg_GetNumItems: /en/erm/framework/functions/radiodlg-getnumitems/ — Returns the item count excluding Cancel.
+- RadioDlg_Reset: /en/erm/framework/functions/radiodlg-reset/ — Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.
+- RadioDlg_SelectItem: /en/erm/framework/functions/radiodlg-selectitem/ — Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.
+- RadioDlg_SelectItemByTag: /en/erm/framework/functions/radiodlg-selectitembytag/ — Selects the first matching value/string tag. Clears selection if no match exists.
+- RadioDlg_SelectItemByValue: /en/erm/framework/functions/radiodlg-selectitembyvalue/ — Selects the first matching value/string tag. Clears selection if no match exists.
+- RadioDlg_SetTitle: /en/erm/framework/functions/radiodlg-settitle/ — Copies the title into radio-dialog state.
+- RadioDlg_Show: /en/erm/framework/functions/radiodlg-show/ — Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items.
+- ReadIniInts: /en/erm/framework/functions/readiniints/ — Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.
+- ReadIniStrings: /en/erm/framework/functions/readinistrings/ — Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.
+- ReadJsonIntArray: /en/erm/framework/functions/readjsonintarray/ — Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.
+- ReadJsonStrArray: /en/erm/framework/functions/readjsonstrarray/ — Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.
+- RestoreEventData: /en/erm/framework/functions/restoreeventdata/ — Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly.
+- RestorePrevKeyModsState: /en/erm/framework/functions/restoreprevkeymodsstate/ — Restores key and modifier globals after a nested event.
+- RestorePrevMouseEventData: /en/erm/framework/functions/restoreprevmouseeventdata/ — Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
+- SaveEventData: /en/erm/framework/functions/saveeventdata/ — Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.
+- SaveGame: /en/erm/framework/functions/savegame/ — Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.
+- SaveIni: /en/erm/framework/functions/saveini/ — Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.
+- SavePrevKeyModsState: /en/erm/framework/functions/saveprevkeymodsstate/ — Saves 11 key and modifier globals for a nested event.
+- SavePrevMouseEventData: /en/erm/framework/functions/saveprevmouseeventdata/ — Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
+- ScanDir: /en/erm/framework/functions/scandir/ — Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_ (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot.
+- ShowAnimatedDefDlg: /en/erm/framework/functions/showanimateddefdlg/ — Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1.
+- SplitMix32: /en/erm/framework/functions/splitmix32/ — P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state.
+- Sqrt: /en/erm/framework/functions/sqrt/ — Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root.
+- StrPos: /en/erm/framework/functions/strpos/ — Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1.
+- StrReplace: /en/erm/framework/functions/strreplace/ — Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger.
+- StrToLower: /en/erm/framework/functions/strtolower/ — Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.
+- StrToUpper: /en/erm/framework/functions/strtoupper/ — Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.
+- Substr: /en/erm/framework/functions/substr/ — Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative.
+- Tm32Decode: /en/erm/framework/functions/tm32decode/ — Inverts Tm32Encode for a 32-bit value. Changes f and g.
+- Tm32Encode: /en/erm/framework/functions/tm32encode/ — Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption.
+- Trim: /en/erm/framework/functions/trim/ — Trims spaces and control bytes 0..32 from both ends; returns a new ERM string.
+- UnequipArtFromSlot: /en/erm/framework/functions/unequipartfromslot/ — Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment.
+- UnpackUnion: /en/erm/framework/functions/unpackunion/ — PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
+- UpdateBattleVars: /en/erm/framework/functions/updatebattlevars/ — Refreshes BA/OW data in battle_: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO.
+- WriteIniInts: /en/erm/framework/functions/writeiniints/ — Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.
+- WriteIniStrings: /en/erm/framework/functions/writeinistrings/ — Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.
+- Framework globals: /en/erm/framework/globals/ — Combat, calendar, keyboard and mouse context; public data and internal state.
+- Functions and parameters: /en/erm/functions/ — FU declarations, x arguments, returning through GET arguments, and local variables.
+- ERM Hooker — custom events: /en/erm/hooker/ — Installing hooks, register context and removing code hooks.
+- Command and symbol index: /en/erm/index/ — Command codes, event names, functions, variables and constants.
+- Loops: re, br, co, and DO: /en/erm/loops/ — Loop bounds, steps, nesting, and repeated function calls.
+- Receivers and subcommands: /en/erm/receivers/ — Alphabetical command catalog with parameters, limitations and context.
+- AI destinations (AI): /en/erm/receivers/ai/ — AI receiver: ai destinations, command parameters, and limitations.
+- Map artifacts and resources (AR): /en/erm/receivers/ar/ — AR receiver: map artifacts and resources, command parameters, and limitations.
+- Battle configuration (BA): /en/erm/receivers/ba/ — BA receiver: battle configuration, command parameters, and limitations.
+- Battlefield setup (BF): /en/erm/receivers/bf/ — BF receiver: battlefield setup, command parameters, and limitations.
+- Current battle action (BG): /en/erm/receivers/bg/ — BG receiver: current battle action, command parameters, and limitations.
+- Battle hero actions (BH): /en/erm/receivers/bh/ — BH receiver: battle hero actions, command parameters, and limitations.
+- Battle stack (BM): /en/erm/receivers/bm/ — BM receiver: battle stack, command parameters, and limitations.
+- Battlefield operations (BU): /en/erm/receivers/bu/ — BU receiver: battlefield operations, command parameters, and limitations.
+- Towns (CA): /en/erm/receivers/ca/ — CA receiver: towns, command parameters, and limitations.
+- Creature banks (CB): /en/erm/receivers/cb/ — CB receiver: creature banks, command parameters, and limitations.
+- Town demolition and building dependencies (CD): /en/erm/receivers/cd/ — CD receiver: town demolition and building dependencies, command parameters, and limitations.
+- Town events (CE): /en/erm/receivers/ce/ — CE receiver: town events, command parameters, and limitations.
+- Treasure chest (CH): /en/erm/receivers/ch/ — CH receiver: treasure chest, command parameters, and limitations.
+- Mouse-event context (CM): /en/erm/receivers/cm/ — CM receiver: mouse-event context, command parameters, and limitations.
+- Commanders (CO): /en/erm/receivers/co/ — CO receiver: commanders, command parameters, and limitations.
+- Custom dialogs (DL): /en/erm/receivers/dl/ — DL receiver: custom dialogs, command parameters, and limitations.
+- Repeated function calls (DO): /en/erm/receivers/do/ — DO receiver: repeated function calls, command parameters, and limitations.
+- Creature dwellings (DW): /en/erm/receivers/dw/ — DW receiver: creature dwellings, command parameters, and limitations.
+- Creature experience and bonuses (EA): /en/erm/receivers/ea/ — EA receiver: creature experience and bonuses, command parameters, and limitations.
+- Army stack experience (EX): /en/erm/receivers/ex/ — EX receiver: army stack experience, command parameters, and limitations.
+- Town-faction parameters (FC): /en/erm/receivers/fc/ — FC receiver: town-faction parameters, command parameters, and limitations.
+- Campfire (FR): /en/erm/receivers/fr/ — FR receiver: campfire, command parameters, and limitations.
+- Function calls (FU): /en/erm/receivers/fu/ — FU receiver: function calls, command parameters, and limitations.
+- Mystical garden (GD): /en/erm/receivers/gd/ — GD receiver: mystical garden, command parameters, and limitations.
+- Global events (GE): /en/erm/receivers/ge/ — GE receiver: global events, command parameters, and limitations.
+- Garrison (GR): /en/erm/receivers/gr/ — GR receiver: garrison, command parameters, and limitations.
+- Heroes (HE): /en/erm/receivers/he/ — HE receiver: heroes, command parameters, and limitations.
+- Level-up skill selection (HL): /en/erm/receivers/hl/ — HL receiver: level-up skill selection, command parameters, and limitations.
+- Hero interaction permissions (HO): /en/erm/receivers/ho/ — HO receiver: hero interaction permissions, command parameters, and limitations.
+- Object-type hints (HT): /en/erm/receivers/ht/ — HT receiver: object-type hints, command parameters, and limitations.
+- Flags, messages and choices (IF): /en/erm/receivers/if/ — IF receiver: flags, messages and choices, command parameters, and limitations.
+- Network synchronization (IP): /en/erm/receivers/ip/ — IP receiver: network synchronization, command parameters, and limitations.
+- Tree of knowledge (KT): /en/erm/receivers/kt/ — KT receiver: tree of knowledge, command parameters, and limitations.
+- Local map events (LE): /en/erm/receivers/le/ — LE receiver: local map events, command parameters, and limitations.
+- Lean-to (LN): /en/erm/receivers/ln/ — LN receiver: lean-to, command parameters, and limitations.
+- Creature-type attributes (MA): /en/erm/receivers/ma/ — MA receiver: creature-type attributes, command parameters, and limitations.
+- Classic ERM macros (MC): /en/erm/receivers/mc/ — MC receiver: classic erm macros, command parameters, and limitations.
+- Physical damage (MF): /en/erm/receivers/mf/ — MF receiver: physical damage, command parameters, and limitations.
+- Windmill (ML): /en/erm/receivers/ml/ — ML receiver: windmill, command parameters, and limitations.
+- Battle hint text (MM): /en/erm/receivers/mm/ — MM receiver: battle hint text, command parameters, and limitations.
+- Mines (MN): /en/erm/receivers/mn/ — MN receiver: mines, command parameters, and limitations.
+- Neutral map monsters (MO): /en/erm/receivers/mo/ — MO receiver: neutral map monsters, command parameters, and limitations.
+- MP3 music (MP): /en/erm/receivers/mp/ — MP receiver: mp3 music, command parameters, and limitations.
+- Spell resistance (MR): /en/erm/receivers/mr/ — MR receiver: spell resistance, command parameters, and limitations.
+- Obelisk (MT): /en/erm/receivers/mt/ — MT receiver: obelisk, command parameters, and limitations.
+- Wandering monsters (MW): /en/erm/receivers/mw/ — MW receiver: wandering monsters, command parameters, and limitations.
+- Map objects (OB): /en/erm/receivers/ob/ — OB receiver: map objects, command parameters, and limitations.
+- Players (OW): /en/erm/receivers/ow/ — OW receiver: players, command parameters, and limitations.
+- Pandora box (PA): /en/erm/receivers/pa/ — PA receiver: pandora box, command parameters, and limitations.
+- Pyramids and new objects (PM): /en/erm/receivers/pm/ — PM receiver: pyramids and new objects, command parameters, and limitations.
+- Map-cell data (PO): /en/erm/receivers/po/ — PO receiver: map-cell data, command parameters, and limitations.
+- Prison (PR): /en/erm/receivers/pr/ — PR receiver: prison, command parameters, and limitations.
+- Object quests (QU): /en/erm/receivers/qu/ — QU receiver: object quests, command parameters, and limitations.
+- Supplementary quest log (QW): /en/erm/receivers/qw/ — QW receiver: supplementary quest log, command parameters, and limitations.
+- Creature recruitment (RD): /en/erm/receivers/rd/ — RD receiver: creature recruitment, command parameters, and limitations.
+- Scholar (SC): /en/erm/receivers/sc/ — SC receiver: scholar, command parameters, and limitations.
+- Sign and ocean bottle (SG): /en/erm/receivers/sg/ — SG receiver: sign and ocean bottle, command parameters, and limitations.
+- Map skeleton (SK): /en/erm/receivers/sk/ — SK receiver: map skeleton, command parameters, and limitations.
+- ERA services, memory and sound (SN): /en/erm/receivers/sn/ — SN receiver: era services, memory and sound, command parameters, and limitations.
+- Magic spring (SP): /en/erm/receivers/sp/ — SP receiver: magic spring, command parameters, and limitations.
+- Shrine of magic (SR): /en/erm/receivers/sr/ — SR receiver: shrine of magic, command parameters, and limitations.
+- Spell attributes (SS): /en/erm/receivers/ss/ — SS receiver: spell attributes, command parameters, and limitations.
+- Learning stone (ST): /en/erm/receivers/st/ — ST receiver: learning stone, command parameters, and limitations.
+- Swan pond (SW): /en/erm/receivers/sw/ — SW receiver: swan pond, command parameters, and limitations.
+- Shipyard (SY): /en/erm/receivers/sy/ — SY receiver: shipyard, command parameters, and limitations.
+- Turn time limit (TL): /en/erm/receivers/tl/ — TL receiver: turn time limit, command parameters, and limitations.
+- Game timers (TM): /en/erm/receivers/tm/ — TM receiver: game timers, command parameters, and limitations.
+- Map tiles (TR): /en/erm/receivers/tr/ — TR receiver: map tiles, command parameters, and limitations.
+- General game operations (UN): /en/erm/receivers/un/ — UN receiver: general game operations, command parameters, and limitations.
+- University (UR): /en/erm/receivers/ur/ — UR receiver: university, command parameters, and limitations.
+- Variable-usage logging (VC): /en/erm/receivers/vc/ — VC receiver: variable-usage logging, command parameters, and limitations.
+- Variables and expressions (VR): /en/erm/receivers/vr/ — VR receiver: variables and expressions, command parameters, and limitations.
+- Wagon (WG): /en/erm/receivers/wg/ — WG receiver: wagon, command parameters, and limitations.
+- Witch hut (WH): /en/erm/receivers/wh/ — WH receiver: witch hut, command parameters, and limitations.
+- Water wheel (WM): /en/erm/receivers/wm/ — WM receiver: water wheel, command parameters, and limitations.
+- Warrior tomb (WT): /en/erm/receivers/wt/ — WT receiver: warrior tomb, command parameters, and limitations.
+- Introduction to ERM: /en/erm/start/ — How a script is loaded and responds to Heroes III events.
+- ERM syntax: ZVSE and ZVSE2: /en/erm/syntax/ — Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor.
+- Reference tables: /en/erm/tables/ — IDs, flags, constants, slots and data formats for ERM commands.
+- Artifact slots: /en/erm/tables/artifact-slots/ — Hero doll positions, UN:A categories and HE:Y2 slots use different numbering.
+- Artifact table: /en/erm/tables/artifacts/ — IDs from the standard WoG set. Adventure-map object: type 5.
+- Battle backgrounds: /en/erm/tables/battle-backgrounds/ — BA:B selects the battle background. -1 keeps the default selection; 1–25 are the legacy variants.
+- BU:G special battle terrain: /en/erm/tables/battle-terrain/ — BU:G uses a separate index for the combat effect. The corresponding map object type is listed alongside it.
+- Battlefield hexes: /en/erm/tables/battlefield/ — 11 rows of 17 positions: indices 0–186. Edge positions are reserved; check whether the chosen hex is usable.
+- Bits, masks and hexadecimal: /en/erm/tables/bits/ — Bit indices start at 0; each mask is 2 raised to its index. The high bit of a signed 32-bit ERM integer corresponds to -2147483648. Hex FF = 255; hex 100 = 256.
+- Hero blessings and curses: /en/erm/tables/blessings/ — HE:Y IDs and power parameter meanings. Slot-locking curses use a separate slot table. Legacy WoG effects may depend on installed scripts.
+- Tent and border colors: /en/erm/tables/border-colors/ — Tent is type 10, guard 9, gate 212. These are key colors, not player colors.
+- Building pictures by town: /en/erm/tables/building-pictures/ — Town building picture indices for IF:Q dialogs.
+- Town building IDs: /en/erm/tables/buildings/ — Building ID for CA and bit in the building array. Town type determines special buildings. IF:Q building pictures use a different numbering system.
+- BM:V animations: /en/erm/tables/combat-animations/ — A BM:V visual-effect ID is distinct from a spell ID.
+- Combat stack fields: /en/erm/tables/combat-stack-structure/ — Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.
+- Combination artifacts: /en/erm/tables/combination-artifacts/ — Combination index and assembled artifact ID are different values.
+- Commander special bonuses: /en/erm/tables/commander-bonuses/ — CO uses bonus indices and bit masks; mask = 2 to the power of the index.
+- Commander classes: /en/erm/tables/commanders/ — Commander class corresponds to a pair of hero classes. This index differs from a commander creature ID.
+- Creature banks: /en/erm/tables/creature-banks/ — Subtypes of WoG object 16. Mods that expand creature banks may change this set.
+- Creature dwellings on the map: /en/erm/tables/creature-dwellings/ — The main table lists subtypes of object 17. For object 20, subtype 0 is the four-elemental dwelling and subtype 1 the four-golem factory.
+- Creature bit flags: /en/erm/tables/creature-flags/ — MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack.
+- Creature DEF and sound resources: /en/erm/tables/creature-resources/ — Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource names and casing are technical data.
+- Creature table: /en/erm/tables/creatures/ — IDs from the standard WoG set. Adventure-map object: type 54.
+- Mouse cursors: /en/erm/tables/cursors/ — Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact.
+- CM:I click areas: /en/erm/tables/dialog-items/ — Adventure, town, hero, hero exchange and combat click areas.
+- IF:Q picture types: /en/erm/tables/dialog-pictures/ — The picture type determines the meaning of the next parameter. Town pictures use 22 + town type.
+- DL dialog templates: /en/erm/tables/dialog-templates/ — Text-table structure, element fields and template limitations.
+- Game dialog identifiers: /en/erm/tables/dialog-types/ — Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order.
+- Hero classes: /en/erm/tables/hero-classes/ — IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
+- Hero experience thresholds: /en/erm/tables/hero-levels/ — Standard experience curve. Beyond level 75, overflow and unreachable intermediate levels can occur; do not extrapolate this table to a modified engine.
+- Hero structure fields: /en/erm/tables/hero-structure/ — Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.
+- Hero visits and bits: /en/erm/tables/hero-visits/ — HE:V uses a visit-kind index, not the adventure-map object type.
+- Hero table: /en/erm/tables/heroes/ — IDs from the standard WoG set. Adventure-map object: type 34.
+- Mine types: /en/erm/tables/mines/ — Object type 53; its subtype is separate from the resource ID.
+- Music: IDs and MP3 names: /en/erm/tables/music/ — Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions.
+- Object control words: /en/erm/tables/object-control-words/ — The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data.
+- Game object table: /en/erm/tables/objects/ — IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
+- Obstacle flags: /en/erm/tables/obstacle-flags/ — BU:O returns a combination of cell flags; bit position differs from bit value.
+- Battlefield obstacles: /en/erm/tables/obstacles/ — IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex may remain free. See obstacle flags and the battlefield grid.
+- One-way monoliths: /en/erm/tables/one-way-monoliths/ — Subtypes of object 43. One-way entrances and exits use different types, 43 and 44.
+- Player colors: /en/erm/tables/players/ — IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
+- Projectiles and beams: /en/erm/tables/projectiles/ — A projectile image type differs from creature type and shooter flags.
+- RD recruitment dialog: /en/erm/tables/recruitment-dialog/ — Recruitment dialog layout: three creature variants, price, stock, quantity and confirmation. Configure this dialog with RD.
+- Resources: /en/erm/tables/resources/ — IDs from the standard WoG set. Adventure-map object: type 79.
+- Secondary skill pictures: /en/erm/tables/secondary-skill-pictures/ — Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.
+- Secondary skills: /en/erm/tables/secondary-skills/ — IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
+- Game event sounds: /en/erm/tables/sounds/ — WAV/82M resource names from the standard set. Check that the active installation includes the requested sound.
+- Special terrain objects: /en/erm/tables/special-terrain/ — These are map object IDs, not basic terrain IDs.
+- Hero specialty pictures: /en/erm/tables/specialty-pictures/ — Image index for UN:G2. It changes the specialty picture; other HE:X parameters control gameplay behavior. Entries 0–155 correspond to standard heroes.
+- Spell table: /en/erm/tables/spells/ — IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
+- Stack experience abilities: /en/erm/tables/stack-experience-abilities/ — EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes.
+- EA:B flag abilities: /en/erm/tables/stack-experience-flags/ — EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:F masks.
+- EA:B spell immunities: /en/erm/tables/stack-experience-immunities/ — EA:B values of $4 when $3=119 (character w). Character codes differ from spell IDs.
+- EA:B modifiers: /en/erm/tables/stack-experience-modifiers/ — Modifier $4 determines whether an ability value is added, assigned or interpreted as a percentage.
+- EA:B non-damaging spells: /en/erm/tables/stack-experience-spells/ — Values of $4 when $3=99 (c). These are spell IDs.
+- Terrain types: /en/erm/tables/terrain/ — IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
+- DL text alignment: /en/erm/tables/text-alignment/ — DL template Text values select vertical and horizontal positioning inside the item rectangle.
+- Named text colors: /en/erm/tables/text-colors/ — Rainbow.pas color names and RGB values without the alpha byte.
+- Text resources: ERT, ERS and JSON: /en/erm/tables/text-resources/ — External text, option labels and script localization.
+- Town types: /en/erm/tables/towns/ — IDs from the standard WoG set. Adventure-map object: type 98.
+- Two-way monoliths: /en/erm/tables/two-way-monoliths/ — Subtypes of object 45. One-way entrances and exits use different types, 43 and 44.
+- Game videos: /en/erm/tables/videos/ — Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is not part of a filename.
+- WoG object variants: /en/erm/tables/wog-object-variants/ — Appearance, type and subtype in the legacy WoG set. A picture does not define behavior by itself; active scripts and object settings do.
+- ERM triggers and events: /en/erm/triggers/ — 28 classic families and 104 registered ERA events.
+- Artifact equipment (AE): /en/erm/triggers/ae/ — 0 unequips; 1 equips. The current hero owns the artifact, v998 is the artifact ID, and v999 its slot.
+- Battle start and completion (BA): /en/erm/triggers/ba/ — 0/1 start/end on the attacking or local computer; 50/51 on the defender’s computer; 52/53 are universal events on both sides. Start order is BA0 or BA50, then BA52; end order is BA1 or BA51, then BA53.
+- Battlefield setup (BF): /en/erm/triggers/bf/ — The battlefield-configuration point before combat. BF can place obstacles.
+- Battle actions (BG): /en/erm/triggers/bg/ — BG0 precedes an action; BG1 is associated with action completion and passing control. Read action parameters through BG; v997 stores the round.
+- Battle rounds (BR): /en/erm/triggers/br/ — The classic code accepts a round selector: -1 before tactics, 0 first round, 1 second. v997 is the round counter; early phases run before the field is visible.
+- Mouse clicks (CM): /en/erm/triggers/cm/ — 0 adventure-map right click; 1 town; 2 hero; 3 hero meeting; 4 battle; 5 adventure-map left click. CM provides coordinates, item, and action.
+- Commander events (CO): /en/erm/triggers/co/ — 0 before the commander window, 1 after closing, 2 after purchase, 3 after resurrection. HE-1 and CO-1 access the current hero and commander.
+- Custom dialog events (DL): /en/erm/triggers/dl/ — Handles custom-dialog item actions. Classic context: v998 is dialog ID, v999 item ID, v1000 action.
+- Function handler (FU): /en/erm/triggers/fu/ — The function body follows its declaration and is invoked with FU:P or DO:P. Inputs and outputs use x1..x16.
+- Global map event (GE): /en/erm/triggers/ge/ — Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists.
+- Saving and loading (GM): /en/erm/triggers/gm/ — 0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves.
+- Visiting a hero (HE): /en/erm/triggers/he/ — Responds to visiting or attacking the selected hero. The selector is a hero ID.
+- Hero level-up (HL): /en/erm/triggers/hl/ — Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills.
+- Hero movement (HM): /en/erm/triggers/hm/ — Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero’s coordinates.
+- Network battle data transfer (IP): /en/erm/triggers/ip/ — 0 before the attacker sends initial data, 1 after the defender receives it; 2 before results are sent, 3 after receiving them. IP provides additional synchronization.
+- Local-event visit (LE): /en/erm/triggers/le/ — X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards.
+- Physical damage calculation (MF): /en/erm/triggers/mf/ — Fires before damage is dealt. MF reads the target and changes final damage.
+- Adventure-map magic (MG): /en/erm/triggers/mg/ — 0 before opening the spellbook to select a spell; 1 after the casting attempt. v997 contains the spell ID after MG1.
+- Interface hints (MM): /en/erm/triggers/mm/ — 0 battle hints, 1 town hints, 2 adventure map. MM modifies text in the relevant context.
+- Music theme changes (MP): /en/erm/triggers/mp/ — Fires when ChangeMp3Theme is called. MP:S changes parameters; MP:R controls the default reaction.
+- Magic resistance (MR): /en/erm/triggers/mr/ — 0 precedes standard damage correction for resistance; 1 follows it. In MR2, MR:F means a percentage chance of dwarf-style full resistance.
+- Wandering monsters (MW): /en/erm/triggers/mw/ — 0 reaching a destination/hero, 1 monster death. v997 is the wandering-monster ID. Corresponding MW settings must enable these events.
+- Object visits (OB): /en/erm/triggers/ob/ — Select an object type, type/subtype, or exact entrance coordinates. The object must have an entrance cell. Monsters, resources, and artifacts qualify; heroes use HE.
+- Adventure-map tile hint (OnAdventureMapTileHint): /en/erm/triggers/onadventuremaptilehint/ — x1..x3 are object coordinates; x4/x5 type/subtype or -1; x6..x8 hovered tile coordinates. Change text through MM, not numeric arguments. OnAdvMapTileHint is a registered alias for the same ID.
+- After construction (OnAfterBuildTownBuilding): /en/erm/triggers/onafterbuildtownbuilding/ — x1 is town; x2 constructed building. Town state has been updated. Closing the town hall alone does not imply construction.
+- After a hero level-up (OnAfterHeroGainLevel): /en/erm/triggers/onafterherogainlevel/ — x1 is hero after leveling up, once the dialog closes. Applies to humans and AI. Use HL before selection completes to change offered skills.
+- After hero interaction (OnAfterHeroInteraction): /en/erm/triggers/onafterherointeraction/ — x1 is the initiator; x2 the target hero. State may have changed during interaction: a hero may have died or changed owner.
+- After a local event (OnAfterLocalEvent): /en/erm/triggers/onafterlocalevent/ — x1/x2/x3 are event coordinates. For humans; fires before the corresponding !$LE. Do not assume a one-shot event object remains on the map.
+- After placing battle obstacles (OnAfterPlaceBattleObstacles): /en/erm/triggers/onafterplacebattleobstacles/ — After obstacle placement. No arguments. ERA restores its main RNG; cell changes must account for obstacles already placed.
+- After saving (OnAfterSaveGame): /en/erm/triggers/onaftersavegame/ — After save completion. No arguments. Use OnSavegameWrite to write a custom data section.
+- After tactics (OnAfterTacticsPhase): /en/erm/triggers/onaftertacticsphase/ — After tactical placement ends. When there is no tactics phase, it follows preparation for battlefield display. No arguments.
+- AI attack evaluation (OnAICalcStackAttackEffect): /en/erm/triggers/onaicalcstackattackeffect/ — x1 is attacking stack; x2 defender; x3 mutable effect score; x4 original score. This evaluates an action for AI rather than dealing damage.
+- Battle action completion (OnBattleActionEnd): /en/erm/triggers/onbattleactionend/ — No arguments. Order: OnBeforeBattleAction → OnBattleActionEnd → OnBattleRound → OnBeforeBattleStackTurn → OnBattleStackObtainsTurn → OnAfterBattleAction. Round/stack events occur on the relevant transition, not unconditionally after every action.
+- Battlefield becomes visible (OnBattlefieldVisible): /en/erm/triggers/onbattlefieldvisible/ — After the battle theme starts and the tactics dialog. No arguments. This marks visibility, not necessarily the end of tactical placement.
+- Regeneration phase (OnBattleRegeneratePhase): /en/erm/triggers/onbattleregeneratephase/ — x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount.
+- Battle replay (OnBattleReplay): /en/erm/triggers/onbattlereplay/ — After battle state is reset for replay. No arguments. OnBeforeBattleUniversal does not run again; rebuild combat-dependent context here. Requires replay support in the installed build.
+- Passing control to a stack (OnBattleStackObtainsTurn): /en/erm/triggers/onbattlestackobtainsturn/ — x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale.
+- Stack regeneration amount (OnBattleStackRegeneration): /en/erm/triggers/onbattlestackregeneration/ — x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase.
+- Before showing the battlefield (OnBeforeBattlefieldVisible): /en/erm/triggers/onbeforebattlefieldvisible/ — The field is still dark; the event precedes early BR-1. No arguments. Early BA/BF do not guarantee BM/EA structures are ready; choose the phase required by your data.
+- Before battle replay (OnBeforeBattleReplay): /en/erm/triggers/onbeforebattlereplay/ — After the user rejects the result, before battle state is reset. No arguments. Suitable for releasing temporary resources from the previous attempt.
+- Before a stack turn (OnBeforeBattleStackTurn): /en/erm/triggers/onbeforebattlestackturn/ — x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation.
+- Before hero interaction (OnBeforeHeroInteraction): /en/erm/triggers/onbeforeherointeraction/ — x1 is the initiator, x2 the target hero; x3 allows interaction, defaults to 1 and can be set to 0. Covers meetings and attacks.
+- Before a local event (OnBeforeLocalEvent): /en/erm/triggers/onbeforelocalevent/ — x1/x2/x3 are event coordinates. For humans; fires before the corresponding !?LE.
+- Before placing battle obstacles (OnBeforePlaceBattleObstacles): /en/erm/triggers/onbeforeplacebattleobstacles/ — After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement.
+- Building a town structure (OnBuildTownBuilding): /en/erm/triggers/onbuildtownbuilding/ — x1 is town; x2 building. Applies to humans and AI. Use OnAfterBuildTownBuilding for actions after construction is complete.
+- Calculating town income (OnCalculateTownIncome): /en/erm/triggers/oncalculatetownincome/ — x1 is town; x2 income, mutable; x3 includes additional silo resources. Only returned income x2 is changed. This is a calculation event and does not guarantee resources are being paid.
+- Game chat (OnChat): /en/erm/triggers/onchat/ — x1 selects the stage: 0 enter (x2 blocks entry); 1 input (x2 text pointer, x3 action: 0 clear, 1 close, 2 default); 2 leave. Argument meanings depend on stage; check x1 first.
+- Closing the hero screen (OnCloseHeroScreen): /en/erm/triggers/oncloseheroscreen/ — x1 is the hero used to open the window, even if the user subsequently switched heroes.
+- Closing recruitment (OnCloseRecruitDlg): /en/erm/triggers/oncloserecruitdlg/ — No arguments. RD data remains available before the dialog is freed; a retained dialog pointer is invalid afterwards.
+- Closing a town (OnCloseTownScreen): /en/erm/triggers/onclosetownscreen/ — x1 is the town used to open the window.
+- Choosing a creature upgrade (OnDetermineMonInfoDlgUpgrade): /en/erm/triggers/ondeterminemoninfodlgupgrade/ — x1 is creature; x2 upgraded type or -1, mutable; x3 town or -1; x4 hero or -1. This controls the upgrade available in the creature-info dialog.
+- Start of a game day (OnEveryDay): /en/erm/triggers/oneveryday/ — The engine fires this for each player before ordinary TM, without arguments. Framework extends the contract: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once is TRUE only on the first call that day. Use these arguments only with Framework loaded.
+- Entering the game (OnGameEnter): /en/erm/triggers/ongameenter/ — After starting or loading a game, before adventure-map control. No arguments. Suitable for obtaining process-local pointers and exports; distinguish it from one-time PI initialization.
+- Leaving the game (OnGameLeave): /en/erm/triggers/ongameleave/ — Before ERM is disabled when leaving the current game. No arguments. Release temporary resources tied to the game session.
+- Key press (OnKeyPressed): /en/erm/triggers/onkeypressed/ — x1 is the key code; x2 blocks the default action (0/1, mutable); x3 is isDown, TRUE only on the initial press and FALSE on auto-repeat. See Framework KEY_ constants.
+- Key release (OnKeyReleased): /en/erm/triggers/onkeyreleased/ — x1 is key code; x2 blocks the default reaction (0/1, mutable). The engine contract does not declare a third argument. Do not copy the meaning of OnKeyPressed x3 here.
+- Kingdom overview mouse click (OnKingdomOverviewMouseClick): /en/erm/triggers/onkingdomoverviewmouseclick/ — CM provides mouse context. This is a local UI event, not multiplayer action synchronization.
+- Loading hero-screen data (OnLoadHeroScreen): /en/erm/triggers/onloadheroscreen/ — x1 is hero. Fires after OnOpenHeroScreen and when switching heroes, before rendering. Other windows and plugins may also trigger loading; do not assume it only means manual opening.
+- Losing the game (OnLoseGame): /en/erm/triggers/onlosegame/ — For a human defeat, immediately before OnGameLeave in the current implementation. No arguments. Do not expect a subsequent game turn.
+- Opening the hero screen (OnOpenHeroScreen): /en/erm/triggers/onopenheroscreen/ — x1 is the hero when the window first opens. Switching heroes inside the window does not repeat this event; use OnLoadHeroScreen or OnPreHeroScreen.
+- Opening recruitment (OnOpenRecruitDlg): /en/erm/triggers/onopenrecruitdlg/ — x1 is active slot 0..3; x2 flags (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 show dialog (1/0). Arguments are mutable. RD provides recruitment state.
+- Opening a town (OnOpenTownScreen): /en/erm/triggers/onopentownscreen/ — x1 is the town when the window first opens.
+- After a hero screen (OnPostHeroScreen): /en/erm/triggers/onpostheroscreen/ — x1 is the hero after leaving their screen, including switches.
+- After a town screen (OnPostTownScreen): /en/erm/triggers/onposttownscreen/ — x1 is the town after leaving its screen; covers closing and switching.
+- Before a hero screen (OnPreHeroScreen): /en/erm/triggers/onpreheroscreen/ — x1 is the hero before display, including switches.
+- Before a town screen (OnPreTownScreen): /en/erm/triggers/onpretownscreen/ — x1 is the town before display; covers opening and switching.
+- Recruitment action (OnRecruitDlgAction): /en/erm/triggers/onrecruitdlgaction/ — x1 is the number of creatures recruited, read-only. RD provides the current dialog configuration.
+- Recruitment mouse click (OnRecruitDlgMouseClick): /en/erm/triggers/onrecruitdlgmouseclick/ — Read mouse context through CM and recruitment state through RD. Use CM:R0 to suppress the default reaction, rather than merely leaving the handler.
+- Recalculating recruitment cost (OnRecruitDlgRecalc): /en/erm/triggers/onrecruitdlgrecalc/ — x1 is gold per creature; x2 extra resource 0..5 or -1; x3 amount of that resource per creature. All three values are mutable.
+- Reading save data (OnSavegameRead): /en/erm/triggers/onsavegameread/ — After ERM variables are restored. No arguments. Read custom sections here; pointers from the previous session are invalid.
+- Writing save data (OnSavegameWrite): /en/erm/triggers/onsavegamewrite/ — After ERM variables are written. No arguments. Write custom save sections here; this is a different phase from GM1.
+- Stack-to-stack damage (OnStackToStackDamage): /en/erm/triggers/onstacktostackdamage/ — x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state.
+- Switching towns (OnSwitchTownScreen): /en/erm/triggers/onswitchtownscreen/ — x1 is the selected town when switching inside the window.
+- Town fort mouse click (OnTownFortMouseClick): /en/erm/triggers/ontownfortmouseclick/ — CM context. Current registration uses OnTownFortMouseClick; the old OnTownHallMouseClick was renamed and is not registered as an alias. The supplied Framework still handles the old name: check version alignment when porting.
+- Transferring a campaign hero (OnTransferHero): /en/erm/triggers/ontransferhero/ — x1 is the transferred hero, after ERM instructions and before PI. May include inactive campaign heroes; existence does not imply presence on the map.
+- Winning the game (OnWinGame): /en/erm/triggers/onwingame/ — For a human victory, immediately before OnGameLeave in the current implementation. No arguments. Earlier behavior after OnGameLeave was fixed.
+- After ERM instructions (PI): /en/erm/triggers/pi/ — Runs after initialization instructions for a new map.
+- Sound playback (SN): /en/erm/triggers/sn/ — Intercepts an attempt to play a WAV/M82 sound effect. SN provides the playback parameters.
+- Town hall (TH): /en/erm/triggers/th/ — 0 enters the town hall; 1 leaves it. Changes can be associated with visiting the construction screen.
+- Real-time timer (TL): /en/erm/triggers/tl/ — Index 0 means 1 second, 1 means 2 seconds, 2 means 5 seconds, 3 means 10 seconds, and 4 means 60 seconds.
+- Game timer (TM): /en/erm/triggers/tm/ — Fires for timer 1..100 previously configured with the TM receiver.
+- UN:C — memory access: /en/erm/un-c/ — Data widths, pointers, relocatable bases and historical recipes.
+- Spell power inside combat: /en/erm/un-c/battle-spell-power/ — Attacker and defender spell-power fields live in the combat manager. This example reads them without changing permanent hero skills.
+- Reading beam color: /en/erm/un-c/beam-color/ — For unmodified h3wog.exe: creatures 35..121; 0 green, 1 white, 2 black.
+- Commander structure: /en/erm/un-c/commander-structure/ — Historical base 42344640, record stride 296 bytes. Reads current experience without modifying the structure.
+- Grail coordinates: /en/erm/un-c/grail-coordinates/ — Reads Grail data through the game-manager pointer. Latin y variables replace accidental Cyrillic lookalikes in the original post.
+- Reading projectile type: /en/erm/un-c/projectile-type/ — For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value.
+- Reading game resolution: /en/erm/un-c/screen-size/ — Reads width and height from the two-byte fields used by the legacy HD implementation.
+- Town building-cost tables: /en/erm/un-c/town-building-cost/ — Reads seven resource costs: common buildings 0..16, special buildings 17..25, dwellings 30..43.
+- Variables, strings and arrays: /en/erm/variables/ — Data types, scope, named variables, flags and array lifetimes.
+- Документация ERA: /ru/docs/ — Точка входа в устройство платформы, структуру модов, игровые ресурсы и рабочие инструменты.
+- Платформа ERA: /ru/docs/era/ — Роль ERA между Heroes III, модами, ресурсами и расширениями во время запуска игры.
+- Совместимость и порядок модов: /ru/docs/era/compatibility/ — Как описывать зависимости, приоритет и конфликты без случайного порядка загрузки.
+- Создание первого мода: /ru/docs/era/creating-mod/ — От пустого каталога до подключённого мода с метаданными, ресурсом и воспроизводимой проверкой.
+- Установка и рабочая среда: /ru/docs/era/installation/ — Как подготовить воспроизводимую ERA-установку для разработки и не потерять рабочее состояние.
+- Структура мода: /ru/docs/era/mod-structure/ — Практическая карта каталогов Data и Lang, архивов и правил приоритета ресурсов.
+- Устройство игры для автора мода: /ru/docs/game/ — Минимальная модель запуска, виртуальных ресурсов и кэша, достаточная для диагностики контентного мода.
+- Как ERA загружает ресурсы: /ru/docs/game/resource-loading/ — Практическая модель VFS, архивов, перенаправлений и кэша для поиска конфликтов.
+- Форматы ресурсов: /ru/docs/game/resources/ — Карта основных игровых и ERA-форматов, их назначения и безопасной проверки.
+- Глоссарий: /ru/docs/glossary/ — Согласованные термины общей документации ERA на русском и английском.
+- Карта материалов для LLM: /ru/docs/llm-map/ — Человекочитаемый указатель страниц и ссылки на компактные машинные представления.
+- Быстрый старт: /ru/docs/quick-start/ — Безопасная последовательность от рабочей копии игры до первого проверенного ресурса мода.
+- Структура сайта: /ru/docs/site-structure/ — Как устроены маршруты, локали, поиск, источники и машинные представления документации.
+- Инструменты моддера: /ru/docs/tools/ — Как выбрать программу под формат, отделить редактирование от проверки и безопасно работать со старым комплектом Tools.
+- Каталог инструментов ERA: /ru/docs/tools/catalog/ — Проверенный список программ из комплекта Tools, сгруппированный по задаче и уровню риска.
+- Диагностика проблем: /ru/docs/troubleshooting/ — Повторяемая схема от чистого запуска до точного отчёта о конфликте или неверном ресурсе.
+- ERM-скрипты: /ru/erm/ — События игры, команды ERM и библиотека ERA ERM Framework.
+- Отладка и совместимость ERM: /ru/erm/compatibility/ — Версионные различия, контекст исполнения и проверка скриптов.
+- Условия и ветвления: /ru/erm/conditions/ — Проверки переменных и флагов, AND/OR и блоки if/el/en.
+- Примеры ERM: /ru/erm/examples/ — Небольшие образцы с объяснёнными предусловиями и результатом.
+- SN:E — вызов по адресу: /ru/erm/examples/sn-e/ — Получаем адрес GetKeyState из user32.dll, проверяем результат разрешения, вызываем с кодом левого Shift 160. Состояние нажатия читается из бита 15 результата SHORT; пример не меняет состояние игры.
+- SN:F — вызов экспорта: /ru/erm/examples/sn-f/ — SN:F находит и кэширует GetKeyState. Результат немедленно переносится из v1 в выходной аргумент, затем v1 восстанавливается. Имена экспортов и ABI нельзя выбирать по внешнему сходству.
+- ERA ERM Framework: /ru/erm/framework/ — Библиотека стандартных функций, контекст событий и именованные константы.
+- Константы ERA ERM Framework: /ru/erm/framework/constants/ — 1838 определений: игровые ID, флаги, параметры команд и коды клавиш.
+- Слоты армии: /ru/erm/framework/constants/army-slots/ — 9 именованных значений: слоты армии.
+- Модификаторы артефактов: /ru/erm/framework/constants/artfiact-modifiers/ — 1 именованных значений: модификаторы артефактов.
+- Артефакты: /ru/erm/framework/constants/artifacts/ — 177 именованных значений: артефакты.
+- Машинные инструкции: /ru/erm/framework/constants/assembler/ — 3 именованных значений: машинные инструкции.
+- Боевые действия: /ru/erm/framework/constants/battle-actions/ — 14 именованных значений: боевые действия.
+- Клетки поля боя: /ru/erm/framework/constants/battle-hexes/ — 3 именованных значений: клетки поля боя.
+- Маски типов боя: /ru/erm/framework/constants/battle-type-flags/ — 6 именованных значений: маски типов боя.
+- Стороны и контекст боя: /ru/erm/framework/constants/battle/ — 18 именованных значений: стороны и контекст боя.
+- Битовые маски: /ru/erm/framework/constants/bit-masks/ — 32 именованных значений: битовые маски.
+- Размеры в битах: /ru/erm/framework/constants/bit-sizes/ — 5 именованных значений: размеры в битах.
+- Номера битов: /ru/erm/framework/constants/bits/ — 32 именованных значений: номера битов.
+- Индексы полей BM:G: /ru/erm/framework/constants/bm-g-field-offsets/ — 14 именованных значений: индексы полей bm:g.
+- Соглашения о вызовах: /ru/erm/framework/constants/calling-conventions/ — 11 именованных значений: соглашения о вызовах.
+- Коды символов: /ru/erm/framework/constants/character-codes/ — 62 именованных значений: коды символов.
+- Типы данных: /ru/erm/framework/constants/data-types/ — 21 именованных значений: типы данных.
+- Действия диалогов: /ru/erm/framework/constants/dialog-action-types/ — 5 именованных значений: действия диалогов.
+- Элементы диалогов: /ru/erm/framework/constants/dialog-item-ids/ — 92 именованных значений: элементы диалогов.
+- Диалоги: /ru/erm/framework/constants/dialogs/ — 18 именованных значений: диалоги.
+- События чата: /ru/erm/framework/constants/era-chat-event/ — 6 именованных значений: события чата.
+- Параметры ERM-команд: /ru/erm/framework/constants/erm-commands/ — 9 именованных значений: параметры erm-команд.
+- Флаги ERM: /ru/erm/framework/constants/erm-flags/ — 4 именованных значений: флаги erm.
+- Адреса игровых функций: /ru/erm/framework/constants/game-functions/ — 2 именованных значений: адреса игровых функций.
+- Пределы игровых индексов: /ru/erm/framework/constants/game-limits/ — 12 именованных значений: пределы игровых индексов.
+- Адреса игровых менеджеров: /ru/erm/framework/constants/game-managers/ — 10 именованных значений: адреса игровых менеджеров.
+- Настройки игры: /ru/erm/framework/constants/game-settings/ — 39 именованных значений: настройки игры.
+- Размеры игровых структур: /ru/erm/framework/constants/game-structures/ — 26 именованных значений: размеры игровых структур.
+- Типы игры: /ru/erm/framework/constants/game-types/ — 6 именованных значений: типы игры.
+- Команды диалогов: /ru/erm/framework/constants/h3-dialog-commands/ — 5 именованных значений: команды диалогов.
+- Изображения в диалогах: /ru/erm/framework/constants/h3-dialog-picture-types/ — 47 именованных значений: изображения в диалогах.
+- Выравнивание текста: /ru/erm/framework/constants/h3-dialog-text-alignment/ — 6 именованных значений: выравнивание текста.
+- Типы сообщений: /ru/erm/framework/constants/h3-message-dialog-types/ — 5 именованных значений: типы сообщений.
+- Классы артефактов: /ru/erm/framework/constants/hero-artifact-levels/ — 6 именованных значений: классы артефактов.
+- Слоты артефактов героя: /ru/erm/framework/constants/hero-artifact-slots/ — 28 именованных значений: слоты артефактов героя.
+- Классы героев: /ru/erm/framework/constants/hero-classes/ — 20 именованных значений: классы героев.
+- Навыки героев: /ru/erm/framework/constants/hero-skills/ — 41 именованных значений: навыки героев.
+- Герои: /ru/erm/framework/constants/heroes/ — 164 именованных значений: герои.
+- Коды клавиш: /ru/erm/framework/constants/key-codes/ — 171 именованных значений: коды клавиш.
+- Агрессивность монстров: /ru/erm/framework/constants/monster-aggression-level/ — 10 именованных значений: агрессивность монстров.
+- Флаги существ: /ru/erm/framework/constants/monster-flags/ — 32 именованных значений: флаги существ.
+- Существа: /ru/erm/framework/constants/monsters/ — 205 именованных значений: существа.
+- Действия мыши: /ru/erm/framework/constants/mouse-click-subtypes/ — 4 именованных значений: действия мыши.
+- Флаги мыши: /ru/erm/framework/constants/mouse-clicks/ — 5 именованных значений: флаги мыши.
+- Колесо мыши: /ru/erm/framework/constants/mouse-wheel-subtypes/ — 2 именованных значений: колесо мыши.
+- Типы объектов: /ru/erm/framework/constants/object-types/ — 230 именованных значений: типы объектов.
+- Маски игроков: /ru/erm/framework/constants/player-bits/ — 8 именованных значений: маски игроков.
+- Игроки: /ru/erm/framework/constants/players/ — 15 именованных значений: игроки.
+- Награды заданий: /ru/erm/framework/constants/quest-rewards/ — 11 именованных значений: награды заданий.
+- Типы заданий: /ru/erm/framework/constants/quest-types/ — 10 именованных значений: типы заданий.
+- Диалоги выбора: /ru/erm/framework/constants/radio-dialogs/ — 3 именованных значений: диалоги выбора.
+- Ресурсы: /ru/erm/framework/constants/resources/ — 13 именованных значений: ресурсы.
+- Специальные значения: /ru/erm/framework/constants/special-enums/ — 12 именованных значений: специальные значения.
+- Школы магии: /ru/erm/framework/constants/spell-schools/ — 4 именованных значений: школы магии.
+- Тексты заклинаний для SN:H: /ru/erm/framework/constants/spell-texts-for-sn-h/ — 7 именованных значений: тексты заклинаний для sn:h.
+- Заклинания: /ru/erm/framework/constants/spells/ — 78 именованных значений: заклинания.
+- Опыт отрядов: /ru/erm/framework/constants/stack-experience/ — 1 именованных значений: опыт отрядов.
+- Города: /ru/erm/framework/constants/towns/ — 15 именованных значений: города.
+- Типы данных UN:C: /ru/erm/framework/constants/un-c-data-types/ — 8 именованных значений: типы данных un:c.
+- Логические значения: /ru/erm/framework/constants/universal/ — 4 именованных значений: логические значения.
+- Адреса памяти: /ru/erm/framework/constants/useful-addresses/ — 6 именованных значений: адреса памяти.
+- Win32 API: /ru/erm/framework/constants/win32-api/ — 3 именованных значений: win32 api.
+- Настройки WoG: /ru/erm/framework/constants/wog-options/ — 22 именованных значений: настройки wog.
+- События Framework: /ru/erm/framework/events/ — Дополнительные события, расширенный контекст и порядок завершающих обработчиков.
+- Функции Framework: /ru/erm/framework/functions/ — Полный каталог 185 функций и обработчиков с контрактами и ограничениями.
+- ActivateNextStack: /ru/erm/framework/functions/activatenextstack/ — Вызывает выбор следующего стека. В снимке запись результата защищена условием result<>0: выход, заранее равный 0, не обновляется. Инициализируйте выход ненулевым либо используйте исправленную версию.
+- AddArtToHero: /ru/erm/framework/functions/addarttohero/ — Пытается надеть артефакт, затем положить в рюкзак; возвращает успех. Автоматически собирает сборные артефакты и проверяет условия победы.
+- AdvMap_SetHint: /ru/erm/framework/functions/advmap-sethint/ — Немедленно обновляет подсказку карты приключений; выполняется только если корневое окно DLG_ADVMAP. Текст чата может скрыться до следующего ввода.
+- AdvMap_SetInfoPanelDef: /ru/erm/framework/functions/advmap-setinfopaneldef/ — Показывает текст и кадр DEF в панели карты на 5000 мс по умолчанию. Временно подменяет два машинных операнда имени DEF и восстанавливает их. Меняет z1/v1; без defName вызывает текстовый вариант.
+- AdvMap_SetInfoPanelText: /ru/erm/framework/functions/advmap-setinfopaneltext/ — Показывает непустой текст в панели карты на timeToDisplay миллисекунд (по умолчанию 5000). Использует s^temp_text^ и меняет v1.
+- Array_Clone: /ru/erm/framework/functions/array-clone/ — Создаёт копию массива в памяти вызывающего триггера и возвращает её ID. Строки копируются как значения.
+- Array_Copy: /ru/erm/framework/functions/array-copy/ — Полностью заменяет dstArray содержимым srcArray, подгоняя размер. Оба массива должны существовать и иметь одинаковый тип.
+- Array_CountValue: /ru/erm/framework/functions/array-countvalue/ — Возвращает число совпадений value. Для строк caseInsensitive по умолчанию FALSE; используется lstrcmpA/lstrcmpiA.
+- Array_CustomSort: /ru/erm/framework/functions/array-customsort/ — Стабильная сортировка: callback(value1,value2,state,?result), где результат <0, 0, >0 определяет порядок. Для строк передаются z-индексы. state по умолчанию 0; диапазон включительный, по умолчанию весь массив.
+- Array_EnsureMinSize: /ru/erm/framework/functions/array-ensureminsize/ — Увеличивает массив до minSize при необходимости и заполняет новые элементы. Никогда не уменьшает размер.
+- Array_Fill: /ru/erm/framework/functions/array-fill/ — Заполняет целочисленный массив арифметической последовательностью startValue, startValue+step…; step по умолчанию 0. Диапазон включительный, по умолчанию весь массив. Реализация пишет 32-битные значения: строковый массив не передавайте.
+- Array_Find: /ru/erm/framework/functions/array-find/ — Вызывает callback(value,?found,listId,customArg) до первого TRUE. Возвращает индекс или -1; строковое value — ERM-строка. found и необязательный customArg по умолчанию 0.
+- Array_IndexOf: /ru/erm/framework/functions/array-indexof/ — Возвращает индекс первого совпадения либо -1. Числа сравниваются точно; для строк можно включить caseInsensitive.
+- Array_Join: /ru/erm/framework/functions/array-join/ — Соединяет элементы целого или строкового массива, разделяя gluePtr (по умолчанию пустой строкой). Возвращает ERM-строку; использует и очищает s^result^ и s^temp^.
+- Array_Merge: /ru/erm/framework/functions/array-merge/ — Добавляет содержимое одного или нескольких массивов в dstArray. Все типы должны совпадать; массив-приёмник изменяется.
+- Array_Move: /ru/erm/framework/functions/array-move/ — Перемещает length элементов из offset в destInd внутри массива без изменения размера; поддерживает перекрытие, обрезает выход за конец. В снимке destInd объявлен через !#VR вместо !#VA: сверяйте исправление библиотеки перед использованием.
+- Array_Pop: /ru/erm/framework/functions/array-pop/ — Удаляет последние элементы; до 15 выходов заполняются от последнего к первому. Без выходов удаляет один элемент. При нехватке элементов возвращает 0 или пустую строку.
+- Array_Push: /ru/erm/framework/functions/array-push/ — Добавляет до 15 значений в конец массива, увеличивая размер. Тип значений должен соответствовать массиву. Недействительный массив пропускается.
+- Array_Resize: /ru/erm/framework/functions/array-resize/ — Изменяет размер массива. Новые элементы получают 0/пустую строку или указанный fillValue; существующие сохраняются, усечённые удаляются.
+- Array_Revert: /ru/erm/framework/functions/array-revert/ — Разворачивает порядок элементов всего массива либо включительного диапазона. По умолчанию 0..size-1; поддерживает числа и строки.
+- Array_Shuffle: /ru/erm/framework/functions/array-shuffle/ — Перемешивает элементы на месте через VR:R и перестановки. Строковые указатели переставляются без копирования текста. Для сетевой логики проверяйте синхронизацию генератора.
+- Array_Slice: /ru/erm/framework/functions/array-slice/ — Копирует диапазон в новый массив. Отрицательные start/count задают отсчёт от конца/исключение хвоста. Хранение по умолчанию M_TRIGGER_LOCAL. Для пустого или неверного исходного массива возвращает NULL, поэтому проверяйте результат.
+- Array_Sort: /ru/erm/framework/functions/array-sort/ — Сортирует по возрастанию весь массив или включительный диапазон startInd..endInd. По умолчанию 0..size-1; границы обрезаются.
+- Array_SortedUnique: /ru/erm/framework/functions/array-sortedunique/ — Сортирует целочисленный массив и удаляет повторы, уменьшая размер. Строковые массивы отвергаются.
+- Array_Splice: /ru/erm/framework/functions/array-splice/ — Удаляет диапазон и вставляет до 13 значений с изменением размера. Отрицательный startIndex отсчитывается от конца; отсутствие numItemsToDelete удаляет остаток, отрицательное число сохраняет столько элементов в конце. Зависит от Array_Move.
+- Battle_RedrawGridShadow: /ru/erm/framework/functions/battle-redrawgridshadow/ — Обновляет тень доступного перемещения после изменения скорости. Нужен существующий менеджер боя.
+- BattleStack_MakeActive: /ru/erm/framework/functions/battlestack-makeactive/ — Передаёт ход стеку 0..41 и при необходимости выполняет фазу регенерации. Допустимый индекс сам по себе не гарантирует существование живого стека.
+- BattleStack_Shoot: /ru/erm/framework/functions/battlestack-shoot/ — Заставляет attackerStackId стрелять в defenderStackId, временно меняя и восстанавливая позицию цели в структуре атакующего. Проверку существования стеков выполняйте заранее.
+- ChangeArtModAtSlot: /ru/erm/framework/functions/changeartmodatslot/ — Меняет модификатор артефакта в слоту, включая рюкзак. Для свитка модификатор — ID заклинания; для обычного артефакта обычно NO_ART_MOD.
+- ClearEventChainData: /ru/erm/framework/functions/cleareventchaindata/ — Очищает служебный стек контекста событий и сбрасывает его позицию. Вызывается при чтении сохранения.
+- ClearIniCache: /ru/erm/framework/functions/clearinicache/ — Забывает кэш одного INI. Следующее чтение или запись заново загрузит файл с диска. Сам файл не удаляется.
+- ClearScreenLog: /ru/erm/framework/functions/clearscreenlog/ — Очищает зелёные сообщения экранного журнала.
+- CollectMouseEventData: /ru/erm/framework/functions/collectmouseeventdata/ — Читает CM в глобальные mouse_ и dlg_action. Действие кнопки выхода нормализуется в обычное отпускание ЛКМ; клавиатурное событие DL записывает код в key.
+- CompareStrings_Bridge_INTERNAL: /ru/erm/framework/functions/comparestrings-bridge-internal/ — Мост строкового компаратора: преобразует адреса в ERM-строки и вызывает пользовательский callback со state и выходным результатом. Нулевой адрес трактует как пустую строку.
+- CompareStrings: /ru/erm/framework/functions/comparestrings/ — Сравнивает две ERM-строки операторами языка и возвращает -1, 0 или 1.
+- ConstructBitMask: /ru/erm/framework/functions/constructbitmask/ — Объединяет до 15 позиций битов 0..31 в маску; последний аргумент — выход. Повтор позиции не удваивает бит, поскольку применяется OR. Нужны хотя бы позиция и выход.
+- CreateDir: /ru/erm/framework/functions/createdir/ — Вызывает CreateDirectoryA для одного каталога; результат API не возвращается. Не гарантирует создание отсутствующей цепочки родителей.
+- DeconstructBitMask: /ru/erm/framework/functions/deconstructbitmask/ — Возвращает новый локальный целочисленный массив позиций установленных битов 0..31. Время жизни продлено до вызывающего контекста.
+- DecorateInt: /ru/erm/framework/functions/decorateint/ — Форматирует целое с разделителем тысяч era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS оставляет числа до 9999 без группировки. Выход — строка.
+- DeleteFile: /ru/erm/framework/functions/deletefile/ — Удаляет файл через DeleteFileA; TRUE означает успешное удаление. Не удаляет дерево каталогов.
+- DirExists: /ru/erm/framework/functions/direxists/ — Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.
+- DisableErrors: /ru/erm/framework/functions/disableerrors/ — Включает WOG_OPT_MUTE_ERRORS и обнуляет WOG_OPT_LAST_ERROR. Используйте только вокруг контролируемой операции.
+- DL_AlignDlg: /ru/erm/framework/functions/dl-aligndlg/ — Выравнивает созданный DL-диалог по битовой маске TEXT_ALIGN_. CENTER/MIDDLE имеют приоритет над RIGHT/BOTTOM.
+- DL_CenterAtMouse: /ru/erm/framework/functions/dl-centeratmouse/ — Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.
+- DL_Coords: /ru/erm/framework/functions/dl-coords/ — Координаты x/y поддерживают GET, SET и ADD. Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.
+- DL_Destroy: /ru/erm/framework/functions/dl-destroy/ — Уничтожает объект оболочки DL по адресу. Повторно использовать уничтоженный адрес нельзя.
+- DL_FindById: /ru/erm/framework/functions/dl-findbyid/ — Возвращает адрес оболочки DL-диалога по ID либо NULL. Это не адрес H3Dlg: он хранится в первом поле оболочки. v1 изменяется.
+- DL_GetSize: /ru/erm/framework/functions/dl-getsize/ — Возвращает ширину и высоту уже созданного DL-диалога; при отсутствии окна сообщает ошибку.
+- DL_SetPlayerColor: /ru/erm/framework/functions/dl-setplayercolor/ — Меняет цвет рамки DL-диалога. playerId по умолчанию — взаимодействующий игрок; проверяется диапазон PLAYER_FIRST..PLAYER_LAST.
+- DL_SetSize: /ru/erm/framework/functions/dl-setsize/ — Меняет ширину/высоту существующего DL-диалога. Нулевой или пропущенный размер сохраняет соответствующее измерение; элементы автоматически не раскладываются.
+- DL_ShowPopup: /ru/erm/framework/functions/dl-showpopup/ — Показывает DL-диалог по ID как ПКМ-подсказку и затем уничтожает его. Перед повторным показом снова нужен DL:N.
+- EmptyIniCache: /ru/erm/framework/functions/emptyinicache/ — Заменяет кэш INI пустым содержимым для создания настроек заново. Чтобы записать на диск, нужен SaveIni.
+- EnableErrors: /ru/erm/framework/functions/enableerrors/ — Читает последний флаг ошибки, но в этом снимке снова устанавливает WOG_OPT_MUTE_ERRORS=TRUE. Комментарий обещает включение сообщений, код этого не делает. Для восстановления требуется явный UN:P с FALSE либо исправленная библиотека.
+- EnterMouseEvent: /ru/erm/framework/functions/entermouseevent/ — Сохраняет прежний контекст клавиатуры и мыши, затем читает модификаторы и CM нового события.
+- EquipArtToSlot: /ru/erm/framework/functions/equiparttoslot/ — Надевает артефакт в слот куклы героя либо выбирает слот при NO_ART_SLOT. Возвращает TRUE/FALSE и вызывает OnEquipArt. Не служит записью произвольного слота рюкзака.
+- FileExists: /ru/erm/framework/functions/fileexists/ — Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.
+- FormatQuantity: /ru/erm/framework/functions/formatquantity/ — Форматирует количество с локалью и суффиксами K/M/G. maxLen по умолчанию 5 логических символов, maxDigits — 4; поддерживает отрицательные числа.
+- GetArtAtSlot: /ru/erm/framework/functions/getartatslot/ — Возвращает ID артефакта и модификатор по слоту героя; поддерживает рюкзак. Для пустого слота учитывайте NO_ART.
+- GetDegradedMonCandidates: /ru/erm/framework/functions/getdegradedmoncandidates/ — Перебирает все поддерживаемые типы и возвращает локальный массив существ, улучшающихся до monId. Кандидатов может быть несколько; полный перебор дорог при расширенном лимите.
+- GetHeroPortraitName: /ru/erm/framework/functions/getheroportraitname/ — Возвращает актуальные имена малого и большого портретов героя. Читает таблицу структур по ID; диапазон проверяйте до вызова.
+- GetHeroPrimarySkillsWithoutArts: /ru/erm/framework/functions/getheroprimaryskillswithoutarts/ — Временно снимает 19 экипированных артефактов, читает HE:F и надевает их обратно. Вызывает OnUnequipArt/OnEquipArt; это операция с побочными событиями, а не чистое чтение.
+- GetKeyModsState: /ru/erm/framework/functions/getkeymodsstate/ — Опрашивает левые и правые Alt, Ctrl, Shift через GetKeyState и обновляет key_; объединённый флаг равен OR двух сторон.
+- GetMaxArtifactId: /ru/erm/framework/functions/getmaxartifactid/ — В этом снимке просто возвращает ART_LAST_WOG. Несмотря на комментарий о расширениях, динамический предел плагинов не запрашивается.
+- GetMaxHeroId: /ru/erm/framework/functions/getmaxheroid/ — Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.
+- GetMaxMonsterId: /ru/erm/framework/functions/getmaxmonsterid/ — Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.
+- GetMaxSpellId: /ru/erm/framework/functions/getmaxspellid/ — Возвращает константу SPELL_LAST_WOG, а не динамический предел стороннего расширения заклинаний.
+- GetModList: /ru/erm/framework/functions/getmodlist/ — Возвращает локальный массив активных модов из VFS. toLower и reverse по умолчанию FALSE. При нулевом числе модов выход не инициализируется; заранее задайте NULL и проверяйте результат.
+- GetProcessGuid: /ru/erm/framework/functions/getprocessguid/ — Возвращает строку из 32 символов, уникальную для запуска игрового процесса. Подходит для отличия нового запуска от загрузки сохранения в том же процессе.
+- GetStrAtAddr: /ru/erm/framework/functions/getstrataddr/ — Копирует строку с нулевым терминатором по адресу strAddr в выходную ERM-строку; NULL даёт пустую. Для ненулевого адреса память должна быть доступна.
+- GetTextFileString: /ru/erm/framework/functions/gettextfilestring/ — Читает строку с нулевым индексом из загруженных ресурсов randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent. Имя нормализуется; неизвестное даёт Wrong txt filename!. Индекс строки не проверяется.
+- GetTextTableString: /ru/erm/framework/functions/gettexttablestring/ — Читает ячейку bldgspec, help или znpc00 по rowIndex/colIndex. Несмотря на комментарий «get or set», ветки записи в снимке нет. Проверку индексов обеспечивает вызывающий код.
+- GetTimeMsec: /ru/erm/framework/functions/gettimemsec/ — Возвращает миллисекунды с запуска ОС через timeGetTime. 32-битный счётчик переполняется примерно через 49,71 суток; это не игровая дата.
+- GetUpgradedMonster: /ru/erm/framework/functions/getupgradedmonster/ — Возвращает улучшение типа существа либо NO_MON (-1), если улучшения нет.
+- H3Dlg_CenterAtMouse: /ru/erm/framework/functions/h3dlg-centeratmouse/ — Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.
+- H3Dlg_Coords: /ru/erm/framework/functions/h3dlg-coords/ — Координаты x/y поддерживают GET, SET и ADD. Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.
+- H3Dlg_DrawItemOnScreen: /ru/erm/framework/functions/h3dlg-drawitemonscreen/ — Выводит на экран элемент по itemId или весь диалог при ALL_ITEMS. Объект H3Dlg должен существовать.
+- H3Dlg_GetCurrentDlg: /ru/erm/framework/functions/h3dlg-getcurrentdlg/ — Возвращает адрес верхнего диалога или NULL. Адрес не равен его идентификатору DLG_.
+- H3Dlg_GetCurrentDlgId: /ru/erm/framework/functions/h3dlg-getcurrentdlgid/ — Возвращает идентификатор верхнего окна из виртуальной таблицы, сопоставимый с DLG_, либо NULL.
+- H3Dlg_GetRootDlg: /ru/erm/framework/functions/h3dlg-getrootdlg/ — Возвращает адрес корневого диалога или NULL; обычно это карта приключений.
+- H3Dlg_ResumeAnimation: /ru/erm/framework/functions/h3dlg-resumeanimation/ — Останавливает/возобновляет анимацию текущих диалогов через машинную функцию. Пары должны быть сбалансированы.
+- H3Dlg_SendCmdToItem: /ru/erm/framework/functions/h3dlg-sendcmdtoitem/ — Отправляет itemId команду DLG_CMD_; cmdType по умолчанию DLG_CMD_TYPE_DEFAULT. Для SET_TEXT/SET_DEF/SET_PCX param трактуется как строка; остальные команды получают число.
+- H3Dlg_ShowPopup: /ru/erm/framework/functions/h3dlg-showpopup/ — Показывает H3-диалог как окно по ПКМ, приостанавливая и возобновляя анимацию. Требует действительный адрес H3Dlg.
+- H3Dlg_StopAnimation: /ru/erm/framework/functions/h3dlg-stopanimation/ — Останавливает/возобновляет анимацию текущих диалогов через машинную функцию. Пары должны быть сбалансированы.
+- H3Dlg_UpdateItemRange: /ru/erm/framework/functions/h3dlg-updateitemrange/ — Обновляет внутреннее состояние диалога перед перерисовкой. В снимке minItemId/maxItemId не используются: вызывается виртуальный метод с 0/200/200. Не рассчитывайте на обновление только заданного диапазона.
+- H3Quests_RefreshData: /ru/erm/framework/functions/h3quests-refreshdata/ — Обновляет данные заданий после подмены существ/имён. Для задания на уничтожение монстра сверяет реальный тип по координатам; forceRefreshText пересоздаёт тексты всех заданий. Использует внутренние структуры игры.
+- Hash32: /ru/erm/framework/functions/hash32/ — Считает 32-битный хеш dataLen байт по адресу data (либо строки). Размер и доступность памяти обеспечивает вызывающий код; криптографические свойства не заявлены.
+- Interpolate: /ru/erm/framework/functions/interpolate/ — Подставляет текущие значения ERM-переменных в строковый шаблон. Учитывайте момент вызова: шаблон и уже готовый текст имеют разное назначение.
+- IntLog2: /ru/erm/framework/functions/intlog2/ — Возвращает ceil(log2(value)); для value<=0 возвращает 0. Используется, в частности, для номера единственного установленного бита.
+- IsDllLoaded: /ru/erm/framework/functions/isdllloaded/ — Проверяет DLL по имени с расширением через GetModuleHandleA. Возвращает TRUE/FALSE и не загружает отсутствующий модуль.
+- LeaveMouseEvent: /ru/erm/framework/functions/leavemouseevent/ — Восстанавливает контекст мыши, затем клавиатуры; вызывается завершающими обработчиками.
+- LoadIntGlobalsFromJson: /ru/erm/framework/functions/loadintglobalsfromjson/ — После JSON-префикса и префикса глобальных переменных принимает до 14 имён. Значение сначала ищется как имя ERM-константы, затем преобразуется в целое; отсутствующий ключ не меняет глобальную переменную.
+- MakeRngSeed: /ru/erm/framework/functions/makerngseed/ — Получает детерминированный seed из до 15 целых аргументов; последний аргумент — выход. Одинаковая последовательность входов даёт одинаковый seed.
+- MergeIniWithDefault: /ru/erm/framework/functions/mergeiniwithdefault/ — Добавляет недостающие ключи из source в кэш target, сохраняя уже заданные значения. Запись на диск выполняется отдельно через SaveIni.
+- MonCountToFuzzyText: /ru/erm/framework/functions/moncounttofuzzytext/ — Возвращает приблизительное количество: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 и K+/M+. Формат задаётся MON_FUZZY_COUNT_; 0 попадает в 1–4, отрицательное число — ошибка.
+- NewIntArray: /ru/erm/framework/functions/newintarray/ — Создаёт массив целых: P?result, Psize/?result или Psize/fill/?result. После выходного аргумента допустим тип хранения; по умолчанию M_TRIGGER_LOCAL, время жизни продлено до вызывающего контекста. Значение заполнения по умолчанию 0.
+- NewStrArray: /ru/erm/framework/functions/newstrarray/ — Создаёт строковый массив с теми же перегрузками, что NewIntArray. Заполнитель — строка, по умолчанию пустая. Возвращается ID массива, а не адрес памяти.
+- OnAdventureMapLeftMouseClick_Quit: /ru/erm/framework/functions/onadventuremapleftmouseclick-quit/ — Завершающий обработчик OnAdventureMapLeftMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnAdventureMapLeftMouseClick: /ru/erm/framework/functions/onadventuremapleftmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnAdventureMapRightMouseClick_Quit: /ru/erm/framework/functions/onadventuremaprightmouseclick-quit/ — Завершающий обработчик OnAdventureMapRightMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnAdventureMapRightMouseClick: /ru/erm/framework/functions/onadventuremaprightmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnAfterErmInstructions_Quit: /ru/erm/framework/functions/onaftererminstructions-quit/ — Завершающий обработчик OnAfterErmInstructions: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnAfterErmInstructions: /ru/erm/framework/functions/onaftererminstructions/ — Создаёт ежедневный таймер Framework и сбрасывает учёт обработанного дня.
+- OnAfterLoadGame_Quit: /ru/erm/framework/functions/onafterloadgame-quit/ — Завершающий обработчик OnAfterLoadGame: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnBattleMouseHint_Quit: /ru/erm/framework/functions/onbattlemousehint-quit/ — Завершающий обработчик OnBattleMouseHint: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnBattleMouseHint: /ru/erm/framework/functions/onbattlemousehint/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnBattleReplay: /ru/erm/framework/functions/onbattlereplay/ — Сбрасывает раунд и действующий стек, перечитывает параметры боя для переигровки.
+- OnBattleRound: /ru/erm/framework/functions/onbattleround/ — Обновляет battle_round из текущего контекста раунда.
+- OnBattleScreenMouseClick_Quit: /ru/erm/framework/functions/onbattlescreenmouseclick-quit/ — Завершающий обработчик OnBattleScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnBattleScreenMouseClick: /ru/erm/framework/functions/onbattlescreenmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnBattleStackObtainsTurn: /ru/erm/framework/functions/onbattlestackobtainsturn/ — Переводит side/index в глобальный ID стека, учитывает гипноз при определении текущей стороны.
+- OnBeforeBattle_Quit: /ru/erm/framework/functions/onbeforebattle-quit/ — Завершающий обработчик OnBeforeBattle: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnBeforeBattle: /ru/erm/framework/functions/onbeforebattle/ — Сбрасывает battle_round в INT_MIN перед настоящим боем.
+- OnBeforeBattleAction: /ru/erm/framework/functions/onbeforebattleaction/ — Читает BG:N/Q в battle_acting_stack/side и обновляет флаги видимого/быстрого боя.
+- OnBeforeBattleStackTurn: /ru/erm/framework/functions/onbeforebattlestackturn/ — Записывает activeStack в battle_current_stack.
+- OnBeforeBattleUniversal_Quit: /ru/erm/framework/functions/onbeforebattleuniversal-quit/ — Завершающий обработчик OnBeforeBattleUniversal: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnBeforeBattleUniversal: /ru/erm/framework/functions/onbeforebattleuniversal/ — Обновляет battle_ и сбрасывает текущий/действующий стек. Возможен теоретический расчёт ИИ без менеджера боя.
+- OnCustomDialogEvent_Quit: /ru/erm/framework/functions/oncustomdialogevent-quit/ — Завершающий обработчик OnCustomDialogEvent: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnCustomDialogEvent: /ru/erm/framework/functions/oncustomdialogevent/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnEveryDay: /ru/erm/framework/functions/oneveryday/ — Дополняет событие аргументами day, weekDay (1..7), once, owner, isAi. once=TRUE только при первом вызове за день, а не для каждого игрока.
+- OnHeroesMeetScreenMouseClick_Quit: /ru/erm/framework/functions/onheroesmeetscreenmouseclick-quit/ — Завершающий обработчик OnHeroesMeetScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnHeroesMeetScreenMouseClick: /ru/erm/framework/functions/onheroesmeetscreenmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnHeroScreenMouseClick_Quit: /ru/erm/framework/functions/onheroscreenmouseclick-quit/ — Завершающий обработчик OnHeroScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnHeroScreenMouseClick: /ru/erm/framework/functions/onheroscreenmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnKeyPressed_Quit: /ru/erm/framework/functions/onkeypressed-quit/ — Завершающий обработчик OnKeyPressed: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnKeyPressed: /ru/erm/framework/functions/onkeypressed/ — Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.
+- OnKeyReleased_Quit: /ru/erm/framework/functions/onkeyreleased-quit/ — Завершающий обработчик OnKeyReleased: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnKeyReleased: /ru/erm/framework/functions/onkeyreleased/ — Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.
+- OnKingdomOverviewMouseClick_Quit: /ru/erm/framework/functions/onkingdomoverviewmouseclick-quit/ — Завершающий обработчик OnKingdomOverviewMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnKingdomOverviewMouseClick: /ru/erm/framework/functions/onkingdomoverviewmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnRecruitDlgMouseClick_Quit: /ru/erm/framework/functions/onrecruitdlgmouseclick-quit/ — Завершающий обработчик OnRecruitDlgMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnRecruitDlgMouseClick: /ru/erm/framework/functions/onrecruitdlgmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnSavegameRead: /ru/erm/framework/functions/onsavegameread/ — Очищает служебное состояние цепочек после чтения сохранения.
+- OnSetupBattlefield: /ru/erm/framework/functions/onsetupbattlefield/ — Перечитывает battle_ при подготовке поля.
+- OnStartOrLoad: /ru/erm/framework/functions/onstartorload/ — Обновляет maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. Имя maxArtifacId в исходнике без второй t.
+- OnTownHallMouseClick_Quit: /ru/erm/framework/functions/ontownhallmouseclick-quit/ — Завершающий обработчик OnTownHallMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnTownHallMouseClick: /ru/erm/framework/functions/ontownhallmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnTownMouseClick_Quit: /ru/erm/framework/functions/ontownmouseclick-quit/ — Завершающий обработчик OnTownMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnTownMouseClick: /ru/erm/framework/functions/ontownmouseclick/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- OnTownMouseHint_Quit: /ru/erm/framework/functions/ontownmousehint-quit/ — Завершающий обработчик OnTownMouseHint: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
+- OnTownMouseHint: /ru/erm/framework/functions/ontownmousehint/ — Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
+- PackUnion: /ru/erm/framework/functions/packunion/ — PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.
+- Pow: /ru/erm/framework/functions/pow/ — Возведение в степень. Оба входа и выход — float; результат копируется из e1 через VR:C без числового преобразования.
+- PrepareMessageBoxText: /ru/erm/framework/functions/preparemessageboxtext/ — Передаёт пары имени/подсказки для следующего сообщения в wog native dialogs:PrepareMessageBoxText. В снимке условие l<argsNum пропускает последнюю подсказку при чётном числе аргументов; проверьте версию библиотеки.
+- PrepareMultiPicDialog: /ru/erm/framework/functions/preparemultipicdialog/ — Настраивает картинки следующего IF:N: без аргументов очищает; принимает пары type/subtype или один ID массива пар. Пропускает NO_PIC_TYPE и отрицательные типы существ; максимум 8 непустых пар. Сам диалог не показывает.
+- RadioDlg_AddCancelButton: /ru/erm/framework/functions/radiodlg-addcancelbutton/ — Резервирует одну из 12 позиций под отмену. Если все позиции заняты, удаляет последний пункт и сообщает ошибку один раз. Повторный вызов не добавляет вторую кнопку.
+- RadioDlg_AddItem: /ru/erm/framework/functions/radiodlg-additem/ — Добавляет подпись, число, метку и необязательный selectItem. Значения по умолчанию: пусто, 0, пусто, FALSE. Пустая подпись отображается как -/-. Вместимость 12, с отменой 11.
+- RadioDlg_AddItems: /ru/erm/framework/functions/radiodlg-additems/ — Добавляет до 5 троек caption/value/tag. Неполная последняя тройка игнорируется; автоматического выбора нет.
+- RadioDlg_GetItemTag: /ru/erm/framework/functions/radiodlg-getitemtag/ — Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.
+- RadioDlg_GetItemValue: /ru/erm/framework/functions/radiodlg-getitemvalue/ — Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.
+- RadioDlg_GetNumItems: /ru/erm/framework/functions/radiodlg-getnumitems/ — Возвращает количество содержательных пунктов без кнопки отмены.
+- RadioDlg_Reset: /ru/erm/framework/functions/radiodlg-reset/ — Сбрасывает заголовок, элементы, выбор и флаги общего радиодиалога. Вызывайте перед составлением нового диалога.
+- RadioDlg_SelectItem: /ru/erm/framework/functions/radiodlg-selectitem/ — Выбирает индекс 0..numItems-1; неверный индекс снимает выбор (NO_RADIO_DLG_ITEM).
+- RadioDlg_SelectItemByTag: /ru/erm/framework/functions/radiodlg-selectitembytag/ — Выбирает первое совпадение значения/строковой метки. При отсутствии совпадения выбор снимается.
+- RadioDlg_SelectItemByValue: /ru/erm/framework/functions/radiodlg-selectitembyvalue/ — Выбирает первое совпадение значения/строковой метки. При отсутствии совпадения выбор снимается.
+- RadioDlg_SetTitle: /ru/erm/framework/functions/radiodlg-settitle/ — Копирует заголовок в состояние радиодиалога.
+- RadioDlg_Show: /ru/erm/framework/functions/radiodlg-show/ — Показывает диалог через IF:G и возвращает ?resultItem/?resultValue/?resultTagPtr. Отмена/пустой список дают -1/-1/пусто. Состояние предварительно копируется, чтобы вложенный диалог не испортил текущие пункты.
+- ReadIniInts: /ru/erm/framework/functions/readiniints/ — После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.
+- ReadIniStrings: /ru/erm/framework/functions/readinistrings/ — После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.
+- ReadJsonIntArray: /ru/erm/framework/functions/readjsonintarray/ — Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.
+- ReadJsonStrArray: /ru/erm/framework/functions/readjsonstrarray/ — Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.
+- RestoreEventData: /ru/erm/framework/functions/restoreeventdata/ — Восстанавливает целые значения в переданные через ? аргументы. Проверка savedNumArgs в снимке отсутствует: вместо неё повторена проверка размера буфера. Несовпадение пар сохранения/восстановления недопустимо.
+- RestorePrevKeyModsState: /ru/erm/framework/functions/restoreprevkeymodsstate/ — Восстанавливает клавишу и модификаторы после вложенного события.
+- RestorePrevMouseEventData: /ru/erm/framework/functions/restoreprevmouseeventdata/ — Сохраняет/восстанавливает десять mouse_ значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.
+- SaveEventData: /ru/erm/framework/functions/saveeventdata/ — Сохраняет переданные целые аргументы в стеке события. RestoreEventData должен получить такое же число выходных аргументов в том же порядке. Вызов без аргументов выходит до RestoreErmTracking.
+- SaveGame: /ru/erm/framework/functions/savegame/ — Сохраняет игру по имени без расширения. По умолчанию appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Вызывает машинный адрес сохранения и может менять выбранную запись диалога.
+- SaveIni: /ru/erm/framework/functions/saveini/ — Сохраняет кэш INI на диск, создавая родительские каталоги. Если кэша ещё нет, сначала загружает исходный файл.
+- SavePrevKeyModsState: /ru/erm/framework/functions/saveprevkeymodsstate/ — Сохраняет 11 глобальных значений клавиши и модификаторов для вложенного события.
+- SavePrevMouseEventData: /ru/erm/framework/functions/saveprevmouseeventdata/ — Сохраняет/восстанавливает десять mouse_ значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.
+- ScanDir: /ru/erm/framework/functions/scandir/ — Очищает переданный строковый массив и заполняет именами без . и ... itemsType — SCAN_ (по умолчанию файлы и каталоги), fullPaths — добавлять путь (FALSE). При раннем выходе после FindFirstFileA снимок не восстанавливает v1.
+- ShowAnimatedDefDlg: /ru/erm/framework/functions/showanimateddefdlg/ — Показывает сообщение с OK и анимированным DEF. Без имени DEF или при пустом имени использует обычный IF:M1.
+- SplitMix32: /ru/erm/framework/functions/splitmix32/ — P?seed/?result выдаёт int32; P?seed/min/max/?result — число во включительном диапазоне. Seed изменяется и должен передаваться через ?. Не использует состояние обычного VR:R.
+- Sqrt: /ru/erm/framework/functions/sqrt/ — Квадратный корень float. Вход и выход вещественные; e1 изменяется. Отрицательные аргументы не имеют действительного корня.
+- StrPos: /ru/erm/framework/functions/strpos/ — Ищет первое вхождение needlePtr в haystackPtr начиная с offset (по умолчанию 0). Возвращает смещение с нуля либо -1.
+- StrReplace: /ru/erm/framework/functions/strreplace/ — Заменяет все вхождения patternPtr в sourcePtr на replacementPtr и возвращает строку. Вызывается только внутри триггера.
+- StrToLower: /ru/erm/framework/functions/strtolower/ — Создаёт строку в верхнем/нижнем регистре через CharUpperA/CharLowerA. Это ANSI-преобразование Windows, не универсальная Unicode-нормализация.
+- StrToUpper: /ru/erm/framework/functions/strtoupper/ — Создаёт строку в верхнем/нижнем регистре через CharUpperA/CharLowerA. Это ANSI-преобразование Windows, не универсальная Unicode-нормализация.
+- Substr: /ru/erm/framework/functions/substr/ — Возвращает подстроку: start с нуля, отрицательный start от конца; count — длина, отрицательный count исключает хвост.
+- Tm32Decode: /ru/erm/framework/functions/tm32decode/ — Обращает Tm32Encode над 32-битным значением. Меняет f и g.
+- Tm32Encode: /ru/erm/framework/functions/tm32encode/ — Обратимое перемешивание 32 бит; выход можно восстановить Tm32Decode. Меняет быстрые переменные f и g. Это не шифрование.
+- Trim: /ru/erm/framework/functions/trim/ — Убирает с обоих концов строки пробелы и управляющие байты 0..32; возвращает новую ERM-строку.
+- UnequipArtFromSlot: /ru/erm/framework/functions/unequipartfromslot/ — Снимает артефакт со слота куклы и вызывает OnUnequipArt. Артефактные ID/модификаторы при временном снятии нужно сохранить самостоятельно.
+- UnpackUnion: /ru/erm/framework/functions/unpackunion/ — PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.
+- UpdateBattleVars: /ru/erm/framework/functions/updatebattlevars/ — Перечитывает BA и OW в battle_: герои, владельцы, быстрый/сетевой/видимый бой и признаки сторон. После изменения BA (кроме состава существ) вызовите снова. Для защитника без героя нормализует ID в NO_HERO.
+- WriteIniInts: /ru/erm/framework/functions/writeiniints/ — После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.
+- WriteIniStrings: /ru/erm/framework/functions/writeinistrings/ — После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.
+- Глобальные переменные Framework: /ru/erm/framework/globals/ — Контекст боя, календаря, клавиатуры и мыши; публичные данные и служебное состояние.
+- Функции и параметры: /ru/erm/functions/ — Объявление FU, аргументы x, возврат через GET-параметр и локальные переменные.
+- ERM Hooker — собственные события: /ru/erm/hooker/ — Установка, контекст регистров и удаление хуков исполняемого кода.
+- Указатель команд и символов: /ru/erm/index/ — Коды команд, имена событий, функции, переменные и константы.
+- Циклы: re, br, co и DO: /ru/erm/loops/ — Границы цикла, шаг, вложенность и повторный вызов функции.
+- Ресиверы и подкоманды: /ru/erm/receivers/ — Алфавитный каталог команд с параметрами, ограничениями и контекстом.
+- Маршруты ИИ (AI): /ru/erm/receivers/ai/ — Ресивер AI: маршруты ии, параметры команд и ограничения.
+- Артефакты и ресурсы на карте (AR): /ru/erm/receivers/ar/ — Ресивер AR: артефакты и ресурсы на карте, параметры команд и ограничения.
+- Параметры сражения (BA): /ru/erm/receivers/ba/ — Ресивер BA: параметры сражения, параметры команд и ограничения.
+- Подготовка поля боя (BF): /ru/erm/receivers/bf/ — Ресивер BF: подготовка поля боя, параметры команд и ограничения.
+- Текущее действие в бою (BG): /ru/erm/receivers/bg/ — Ресивер BG: текущее действие в бою, параметры команд и ограничения.
+- Действия героя в бою (BH): /ru/erm/receivers/bh/ — Ресивер BH: действия героя в бою, параметры команд и ограничения.
+- Боевой стек (BM): /ru/erm/receivers/bm/ — Ресивер BM: боевой стек, параметры команд и ограничения.
+- Управление полем боя (BU): /ru/erm/receivers/bu/ — Ресивер BU: управление полем боя, параметры команд и ограничения.
+- Города (CA): /ru/erm/receivers/ca/ — Ресивер CA: города, параметры команд и ограничения.
+- Хранилища существ (CB): /ru/erm/receivers/cb/ — Ресивер CB: хранилища существ, параметры команд и ограничения.
+- Разрушение и зависимости зданий (CD): /ru/erm/receivers/cd/ — Ресивер CD: разрушение и зависимости зданий, параметры команд и ограничения.
+- Городские события (CE): /ru/erm/receivers/ce/ — Ресивер CE: городские события, параметры команд и ограничения.
+- Сундук сокровищ (CH): /ru/erm/receivers/ch/ — Ресивер CH: сундук сокровищ, параметры команд и ограничения.
+- События мыши (CM): /ru/erm/receivers/cm/ — Ресивер CM: события мыши, параметры команд и ограничения.
+- Командиры (CO): /ru/erm/receivers/co/ — Ресивер CO: командиры, параметры команд и ограничения.
+- Пользовательские диалоги (DL): /ru/erm/receivers/dl/ — Ресивер DL: пользовательские диалоги, параметры команд и ограничения.
+- Циклические вызовы (DO): /ru/erm/receivers/do/ — Ресивер DO: циклические вызовы, параметры команд и ограничения.
+- Жилища существ (DW): /ru/erm/receivers/dw/ — Ресивер DW: жилища существ, параметры команд и ограничения.
+- Опыт и бонусы существ (EA): /ru/erm/receivers/ea/ — Ресивер EA: опыт и бонусы существ, параметры команд и ограничения.
+- Опыт армейского отряда (EX): /ru/erm/receivers/ex/ — Ресивер EX: опыт армейского отряда, параметры команд и ограничения.
+- Параметры городской фракции (FC): /ru/erm/receivers/fc/ — Ресивер FC: параметры городской фракции, параметры команд и ограничения.
+- Костёр (FR): /ru/erm/receivers/fr/ — Ресивер FR: костёр, параметры команд и ограничения.
+- Вызовы функций (FU): /ru/erm/receivers/fu/ — Ресивер FU: вызовы функций, параметры команд и ограничения.
+- Мистический сад (GD): /ru/erm/receivers/gd/ — Ресивер GD: мистический сад, параметры команд и ограничения.
+- Глобальные события (GE): /ru/erm/receivers/ge/ — Ресивер GE: глобальные события, параметры команд и ограничения.
+- Гарнизон (GR): /ru/erm/receivers/gr/ — Ресивер GR: гарнизон, параметры команд и ограничения.
+- Герои (HE): /ru/erm/receivers/he/ — Ресивер HE: герои, параметры команд и ограничения.
+- Выбор навыков при повышении уровня (HL): /ru/erm/receivers/hl/ — Ресивер HL: выбор навыков при повышении уровня, параметры команд и ограничения.
+- Доступ к герою (HO): /ru/erm/receivers/ho/ — Ресивер HO: доступ к герою, параметры команд и ограничения.
+- Подсказки типов объектов (HT): /ru/erm/receivers/ht/ — Ресивер HT: подсказки типов объектов, параметры команд и ограничения.
+- Флаги, сообщения и выбор (IF): /ru/erm/receivers/if/ — Ресивер IF: флаги, сообщения и выбор, параметры команд и ограничения.
+- Сетевая синхронизация (IP): /ru/erm/receivers/ip/ — Ресивер IP: сетевая синхронизация, параметры команд и ограничения.
+- Древо знаний (KT): /ru/erm/receivers/kt/ — Ресивер KT: древо знаний, параметры команд и ограничения.
+- Локальные события (LE): /ru/erm/receivers/le/ — Ресивер LE: локальные события, параметры команд и ограничения.
+- Навес (LN): /ru/erm/receivers/ln/ — Ресивер LN: навес, параметры команд и ограничения.
+- Параметры типов существ (MA): /ru/erm/receivers/ma/ — Ресивер MA: параметры типов существ, параметры команд и ограничения.
+- Макросы классического ERM (MC): /ru/erm/receivers/mc/ — Ресивер MC: макросы классического erm, параметры команд и ограничения.
+- Физический урон (MF): /ru/erm/receivers/mf/ — Ресивер MF: физический урон, параметры команд и ограничения.
+- Ветряная мельница (ML): /ru/erm/receivers/ml/ — Ресивер ML: ветряная мельница, параметры команд и ограничения.
+- Текст боевой подсказки (MM): /ru/erm/receivers/mm/ — Ресивер MM: текст боевой подсказки, параметры команд и ограничения.
+- Шахты (MN): /ru/erm/receivers/mn/ — Ресивер MN: шахты, параметры команд и ограничения.
+- Нейтральные монстры на карте (MO): /ru/erm/receivers/mo/ — Ресивер MO: нейтральные монстры на карте, параметры команд и ограничения.
+- Музыка MP3 (MP): /ru/erm/receivers/mp/ — Ресивер MP: музыка mp3, параметры команд и ограничения.
+- Сопротивление заклинаниям (MR): /ru/erm/receivers/mr/ — Ресивер MR: сопротивление заклинаниям, параметры команд и ограничения.
+- Обелиск (MT): /ru/erm/receivers/mt/ — Ресивер MT: обелиск, параметры команд и ограничения.
+- Бродячие монстры (MW): /ru/erm/receivers/mw/ — Ресивер MW: бродячие монстры, параметры команд и ограничения.
+- Объекты карты (OB): /ru/erm/receivers/ob/ — Ресивер OB: объекты карты, параметры команд и ограничения.
+- Игроки (OW): /ru/erm/receivers/ow/ — Ресивер OW: игроки, параметры команд и ограничения.
+- Ящик Пандоры (PA): /ru/erm/receivers/pa/ — Ресивер PA: ящик пандоры, параметры команд и ограничения.
+- Пирамиды и новые объекты (PM): /ru/erm/receivers/pm/ — Ресивер PM: пирамиды и новые объекты, параметры команд и ограничения.
+- Данные клеток карты (PO): /ru/erm/receivers/po/ — Ресивер PO: данные клеток карты, параметры команд и ограничения.
+- Тюрьма (PR): /ru/erm/receivers/pr/ — Ресивер PR: тюрьма, параметры команд и ограничения.
+- Задания объектов (QU): /ru/erm/receivers/qu/ — Ресивер QU: задания объектов, параметры команд и ограничения.
+- Дополнительный журнал (QW): /ru/erm/receivers/qw/ — Ресивер QW: дополнительный журнал, параметры команд и ограничения.
+- Найм существ (RD): /ru/erm/receivers/rd/ — Ресивер RD: найм существ, параметры команд и ограничения.
+- Учёный (SC): /ru/erm/receivers/sc/ — Ресивер SC: учёный, параметры команд и ограничения.
+- Знак и океанская бутыль (SG): /ru/erm/receivers/sg/ — Ресивер SG: знак и океанская бутыль, параметры команд и ограничения.
+- Скелет на карте (SK): /ru/erm/receivers/sk/ — Ресивер SK: скелет на карте, параметры команд и ограничения.
+- Средства ERA, память и звук (SN): /ru/erm/receivers/sn/ — Ресивер SN: средства era, память и звук, параметры команд и ограничения.
+- Магический источник (SP): /ru/erm/receivers/sp/ — Ресивер SP: магический источник, параметры команд и ограничения.
+- Святыня магии (SR): /ru/erm/receivers/sr/ — Ресивер SR: святыня магии, параметры команд и ограничения.
+- Параметры заклинаний (SS): /ru/erm/receivers/ss/ — Ресивер SS: параметры заклинаний, параметры команд и ограничения.
+- Камень знаний (ST): /ru/erm/receivers/st/ — Ресивер ST: камень знаний, параметры команд и ограничения.
+- Лебединое озеро (SW): /ru/erm/receivers/sw/ — Ресивер SW: лебединое озеро, параметры команд и ограничения.
+- Верфь (SY): /ru/erm/receivers/sy/ — Ресивер SY: верфь, параметры команд и ограничения.
+- Лимит времени хода (TL): /ru/erm/receivers/tl/ — Ресивер TL: лимит времени хода, параметры команд и ограничения.
+- Игровые таймеры (TM): /ru/erm/receivers/tm/ — Ресивер TM: игровые таймеры, параметры команд и ограничения.
+- Клетки карты (TR): /ru/erm/receivers/tr/ — Ресивер TR: клетки карты, параметры команд и ограничения.
+- Общие игровые операции (UN): /ru/erm/receivers/un/ — Ресивер UN: общие игровые операции, параметры команд и ограничения.
+- Университет (UR): /ru/erm/receivers/ur/ — Ресивер UR: университет, параметры команд и ограничения.
+- Учёт использования переменных (VC): /ru/erm/receivers/vc/ — Ресивер VC: учёт использования переменных, параметры команд и ограничения.
+- Переменные и выражения (VR): /ru/erm/receivers/vr/ — Ресивер VR: переменные и выражения, параметры команд и ограничения.
+- Телега (WG): /ru/erm/receivers/wg/ — Ресивер WG: телега, параметры команд и ограничения.
+- Хижина ведьмы (WH): /ru/erm/receivers/wh/ — Ресивер WH: хижина ведьмы, параметры команд и ограничения.
+- Водяная мельница (WM): /ru/erm/receivers/wm/ — Ресивер WM: водяная мельница, параметры команд и ограничения.
+- Гробница воина (WT): /ru/erm/receivers/wt/ — Ресивер WT: гробница воина, параметры команд и ограничения.
+- Введение в ERM: /ru/erm/start/ — Как скрипт подключается к карте и реагирует на события Heroes III.
+- Синтаксис ERM: ZVSE и ZVSE2: /ru/erm/syntax/ — Префиксы команд, параметры, GET/SET, комментарии и препроцессор ERM 2.0.
+- Справочные таблицы: /ru/erm/tables/ — ID, флаги, константы, слоты и форматы данных для команд ERM.
+- Слоты артефактов: /ru/erm/tables/artifact-slots/ — Позиция на кукле героя, категория UN:A и слот HE:Y2 используют разные нумерации.
+- Таблица артефактов: /ru/erm/tables/artifacts/ — ID из стандартного набора WoG. Объект карты — тип 5.
+- Фоны битвы: /ru/erm/tables/battle-backgrounds/ — BA:B выбирает фон. -1 оставляет стандартный выбор; 1–25 — варианты из старой справки.
+- Накладные ландшафты BU:G: /ru/erm/tables/battle-terrain/ — Значение BU:G — отдельный индекс боевого эффекта. Тип соответствующего объекта карты приведён рядом.
+- Клетки поля боя: /ru/erm/tables/battlefield/ — 11 рядов по 17 позиций: индексы 0–186. Крайние позиции ряда служебные; проверяйте проходимость выбранной клетки.
+- Биты, маски и HEX: /ru/erm/tables/bits/ — Номер бита начинается с 0; его маска равна 2 в степени номера. Старший бит 32-разрядного знакового ERM-целого соответствует -2147483648. HEX FF = 255; HEX 100 = 256.
+- Благословения и проклятия героя: /ru/erm/tables/blessings/ — ID и смысл параметра силы для HE:Y. У проклятия блокировки слот выбирается по отдельной таблице. Эффекты старого WoG могут зависеть от установленных скриптов.
+- Цвета палаток и границ: /ru/erm/tables/border-colors/ — Палатка — тип 10, страж — 9, ворота — 212. Это нумерация ключей, не цветов игроков.
+- Картинки зданий по городам: /ru/erm/tables/building-pictures/ — Нумерация изображений зданий для диалогов IF:Q.
+- ID городских зданий: /ru/erm/tables/buildings/ — Номер здания для CA и бит в массиве построек. Тип города уточняет смысл специальных строений. Картинки зданий IF:Q используют другую нумерацию.
+- Анимации BM:V: /ru/erm/tables/combat-animations/ — ID визуального эффекта BM:V не совпадает с ID заклинания.
+- Поля боевого отряда: /ru/erm/tables/combat-stack-structure/ — Смещения HEX относительно указателя на структуру из старого снимка WoG. Это описание формата, не универсальные адреса для UN:C. Поля с неясным назначением не трактуются как API. Проверяйте размер и расположение структуры в своей сборке.
+- Сборные артефакты: /ru/erm/tables/combination-artifacts/ — Номер комбинации и ID готового артефакта — разные величины.
+- Особые бонусы командира: /ru/erm/tables/commander-bonuses/ — CO использует номера бонусов и их битовые маски; маска = 2 в степени номера.
+- Классы командиров: /ru/erm/tables/commanders/ — Класс командира связан с парой классов героя. Это отдельный индекс, не ID существа-командира.
+- Хранилища существ: /ru/erm/tables/creature-banks/ — Подтипы объекта 16 из WoG. Расширяющие банки моды могут менять этот набор.
+- Жилища существ на карте: /ru/erm/tables/creature-dwellings/ — Основная таблица — подтипы объекта 17. У объекта 20 подтип 0 — жилище четырёх элементалей, подтип 1 — фабрика четырёх големов.
+- Битовые флаги существ: /ru/erm/tables/creature-flags/ — Маска MA:X и BM:F. Для изменения одного свойства сохраняйте остальные биты. Биты боевого состояния нельзя произвольно включать у живого отряда.
+- DEF и звуки существ: /ru/erm/tables/creature-resources/ — Имя боевого DEF и префикс звуков для стандартных ID WoG. Полные имена файлов и регистр сохраняются как технические данные.
+- Таблица существ: /ru/erm/tables/creatures/ — ID из стандартного набора WoG. Объект карты — тип 54.
+- Курсоры мыши: /ru/erm/tables/cursors/ — Типы 0 — обычные, 1 — карта приключений, 2 — бой, 3 — заклинание, 4 — артефакт.
+- Области кликов CM:I: /ru/erm/tables/dialog-items/ — Области карты, города, героя, встречи героев и битвы.
+- Картинки для IF:Q: /ru/erm/tables/dialog-pictures/ — Тип картинки определяет трактовку следующего параметра. Для города выбирается 22 + тип города.
+- Шаблоны диалогов DL: /ru/erm/tables/dialog-templates/ — Структура текстовой таблицы, элементы и ограничения шаблонов.
+- Идентификаторы игровых окон: /ru/erm/tables/dialog-types/ — Идентификаторы, возвращаемые GetGameState в старом комплекте. Плагины WND и HD могут заменять окно; одинаковый номер может объединять несколько диалогов. Значения привязаны к реализации, а не к порядку строк.
+- Классы героев: /ru/erm/tables/hero-classes/ — ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
+- Опыт для уровня героя: /ru/erm/tables/hero-levels/ — Таблица стандартной кривой опыта. После 75-го уровня возможны переполнения и недостижимые промежуточные уровни; не экстраполируйте эту таблицу на модифицированный движок.
+- Поля структуры героя: /ru/erm/tables/hero-structure/ — Смещения HEX относительно указателя на структуру из старого снимка WoG. Это описание формата, не универсальные адреса для UN:C. Поля с неясным назначением не трактуются как API. Проверяйте размер и расположение структуры в своей сборке.
+- Посещения и биты героя: /ru/erm/tables/hero-visits/ — HE:V использует индекс вида посещения, а не тип объекта карты.
+- Таблица героев: /ru/erm/tables/heroes/ — ID из стандартного набора WoG. Объект карты — тип 34.
+- Типы шахт: /ru/erm/tables/mines/ — Объект типа 53; подтип не следует путать с ID ресурса.
+- Музыка: ID и имена MP3: /ru/erm/tables/music/ — Стандартные номера 1–58. Диапазон 59–199 в старой системе отведён пользовательским композициям. Пробелы в именах значимы; расширение задавайте по контракту команды.
+- Контрольные слова объектов: /ru/erm/tables/object-control-words/ — 32-битное поле OB:C с разной упаковкой для разных типов объектов. Ниже приведены исследованные поля старого WoG; неизвестные биты сохраняйте. Ёмкость поля не означает допустимость всех его значений. Для собственных данных используйте PO.
+- Таблица объектов в игре: /ru/erm/tables/objects/ — ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
+- Флаги препятствий: /ru/erm/tables/obstacle-flags/ — BU:O возвращает комбинацию битов клетки; номер бита и его значение различаются.
+- Препятствия на поле боя: /ru/erm/tables/obstacles/ — ID для BF:O. Форма от стартового гекса распространяется вверх и вправо; сам стартовый гекс может оставаться свободным. Флаги препятствий и схема поля — отдельные справочники.
+- Односторонние монолиты: /ru/erm/tables/one-way-monoliths/ — Подтипы объекта 43. Для односторонних монолитов вход и выход имеют разные типы 43 и 44.
+- Цвета игроков: /ru/erm/tables/players/ — ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
+- Снаряды и лучи: /ru/erm/tables/projectiles/ — Тип изображения выстрела отличается от типа существа и флага стрелка.
+- Диалог найма RD: /ru/erm/tables/recruitment-dialog/ — Пример компоновки окна найма: три варианта существа, цена, запас, количество и подтверждение. Настройку окна выполняет RD.
+- Ресурсы: /ru/erm/tables/resources/ — ID из стандартного набора WoG. Объект карты — тип 79.
+- Картинки вторичных навыков: /ru/erm/tables/secondary-skill-pictures/ — Номер картинки = 3 × ID навыка + уровень − 1; уровень от 1 до 3.
+- Вторичные навыки: /ru/erm/tables/secondary-skills/ — ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
+- Звуки игровых событий: /ru/erm/tables/sounds/ — Имена WAV/82M из стандартного набора. Наличие конкретного звука проверяется в ресурсах активного комплекта игры.
+- Специальные земли: /ru/erm/tables/special-terrain/ — Это номера объектов карты, а не базовой почвы.
+- Картинки специальностей героя: /ru/erm/tables/specialty-pictures/ — Индекс изображения для UN:G2. Он меняет оформление специальности, а её игровое действие настраивается другими параметрами HE:X. Номера 0–155 соответствуют стандартным героям.
+- Таблица заклинаний: /ru/erm/tables/spells/ — ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
+- Способности от опыта существ: /ru/erm/tables/stack-experience-abilities/ — EA:B: параметр $3 выбирает тип способности. Строчные и прописные буквы имеют разные ASCII-коды.
+- Флаговые способности EA:B: /ru/erm/tables/stack-experience-flags/ — EA:B: значения $4 при $3=102 (символ f). Это ASCII-коды, а не маски MA:X/BM:F.
+- Иммунитеты EA:B: /ru/erm/tables/stack-experience-immunities/ — EA:B: значения $4 при $3=119 (символ w). Код символа и ID заклинания — разные величины.
+- Модификаторы EA:B: /ru/erm/tables/stack-experience-modifiers/ — Модификатор $4 определяет, как трактовать значение способности: прибавить, установить или применить процент.
+- Заклинания без урона EA:B: /ru/erm/tables/stack-experience-spells/ — Значения $4 при $3=99 (c). Здесь используются ID заклинаний.
+- Типы почвы: /ru/erm/tables/terrain/ — ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
+- Выравнивание текста DL: /ru/erm/tables/text-alignment/ — Значения для элемента Text в шаблоне DL: вертикальное и горизонтальное положение внутри прямоугольника.
+- Именованные цвета текста: /ru/erm/tables/text-colors/ — Палитра Rainbow.pas: имена и RGB без альфа-байта.
+- Тексты: ERT, ERS и JSON: /ru/erm/tables/text-resources/ — Внешние тексты, названия настроек и локализация скрипта.
+- Типы городов: /ru/erm/tables/towns/ — ID из стандартного набора WoG. Объект карты — тип 98.
+- Двусторонние монолиты: /ru/erm/tables/two-way-monoliths/ — Подтипы объекта 45. Для односторонних монолитов вход и выход имеют разные типы 43 и 44.
+- Игровое видео: /ru/erm/tables/videos/ — ID ролика и имя BIK без расширения. Знак + разделяет последовательность фрагментов, а не часть имени файла.
+- Варианты объектов WoG: /ru/erm/tables/wog-object-variants/ — Внешний вид, тип и подтип объектов из старого комплекта WoG. Одинаковая картинка не задаёт поведение сама по себе: оно зависит от активного скрипта и настроек объекта.
+- Триггеры и события ERM: /ru/erm/triggers/ — 28 классических семейств и 104 зарегистрированных события ERA.
+- Экипировка артефакта (AE): /ru/erm/triggers/ae/ — 0 — снятие, 1 — экипировка. Текущий герой владеет артефактом, v998 содержит ID артефакта, v999 — слот.
+- Начало и завершение боя (BA): /ru/erm/triggers/ba/ — 0/1 — начало/конец на стороне атакующего или локально; 50/51 — на ПК защитника; 52/53 — универсальные события обеих сторон. В начале сначала BA0 или BA50, затем BA52; в конце BA1 или BA51, затем BA53.
+- Подготовка поля боя (BF): /ru/erm/triggers/bf/ — Момент настройки поля перед боем. Ресивер BF позволяет расставить препятствия.
+- Действие в бою (BG): /ru/erm/triggers/bg/ — BG0 предваряет действие; BG1 связан с завершением действия и передачей хода. Параметры действия читаются через BG; v997 хранит номер раунда.
+- Раунд боя (BR): /ru/erm/triggers/br/ — Классический код поддерживает фильтр по номеру раунда: -1 до тактики, 0 первый раунд, 1 второй. v997 — счётчик раунда; ранние фазы проходят при ещё невидимом поле.
+- Клики мыши (CM): /ru/erm/triggers/cm/ — 0 — правая кнопка на карте; 1 город; 2 герой; 3 встреча героев; 4 бой; 5 левая кнопка на карте. Координаты, элемент и действие доступны через CM.
+- События командира (CO): /ru/erm/triggers/co/ — 0 перед окном командира, 1 после закрытия, 2 после покупки, 3 после воскрешения. HE-1 и CO-1 относятся к текущему герою и его командиру.
+- Событие пользовательского диалога (DL): /ru/erm/triggers/dl/ — Обрабатывает действия элементов пользовательского диалога. Классический контекст: v998 — диалог, v999 — элемент, v1000 — действие.
+- Обработчик функции (FU): /ru/erm/triggers/fu/ — Тело функции начинается после объявления и вызывается через FU:P или DO:P. Входные и выходные параметры используют x1..x16.
+- Глобальное событие карты (GE): /ru/erm/triggers/ge/ — Срабатывает для глобального события, текст которого начинается с указанного номера. Пока существует обработчик, этот служебный номер скрывается из сообщения.
+- Сохранение и загрузка (GM): /ru/erm/triggers/gm/ — 0 после загрузки сохранения, до показа карты; 1 перед сохранением после выбора слота. GM1 срабатывает также для автосохранения.
+- Посещение героя (HE): /ru/erm/triggers/he/ — Реагирует на посещение/атаку выбранного героя. Селектор — ID героя.
+- Получение уровня героем (HL): /ru/erm/triggers/hl/ — Срабатывает при получении уровня. -1 выбирает всех героев. Общий обработчик HL-1 выполняется раньше обработчика конкретного героя. HL меняет предложенные навыки.
+- Шаг героя (HM): /ru/erm/triggers/hm/ — Срабатывает перед каждым шагом. -1 выбирает всех героев; общий обработчик предшествует обработчику конкретного героя. v998/v999/v1000 содержат координаты текущего героя.
+- Сетевая передача данных боя (IP): /ru/erm/triggers/ip/ — 0 перед отправкой начальных данных атакующим, 1 после их получения защитником; 2 перед отправкой итогов, 3 после их получения. IP предоставляет дополнительную синхронизацию.
+- Посещение локального события (LE): /ru/erm/triggers/le/ — X/Y/уровень задают существующее локальное событие карты. !? срабатывает до его стандартных эффектов, !$ — после.
+- Расчёт физического урона (MF): /ru/erm/triggers/mf/ — Срабатывает перед нанесением урона. Через MF можно прочитать цель и изменить итоговый урон.
+- Магия на карте приключений (MG): /ru/erm/triggers/mg/ — 0 перед открытием книги для выбора заклинания; 1 после попытки колдовства. v997 содержит номер заклинания после MG1.
+- Подсказки интерфейса (MM): /ru/erm/triggers/mm/ — 0 подсказка боя, 1 подсказка города, 2 карта приключений. MM меняет текст соответствующего контекста.
+- Смена музыкальной темы (MP): /ru/erm/triggers/mp/ — Срабатывает при вызове ChangeMp3Theme. MP:S меняет параметры, MP:R управляет стандартной реакцией.
+- Сопротивление магии (MR): /ru/erm/triggers/mr/ — 0 до стандартной коррекции урона сопротивлением, 1 после неё. В MR2 параметр MR:F означает процент шанса полного сопротивления по типу гномов.
+- Бродячие монстры (MW): /ru/erm/triggers/mw/ — 0 достижение цели/героя, 1 гибель монстра. v997 — ID бродячего монстра. События должны быть включены соответствующими настройками MW.
+- Посещение объекта (OB): /ru/erm/triggers/ob/ — Можно выбрать тип, тип/подтип либо точные координаты входа. Объект должен иметь входную клетку. Монстры, ресурсы и артефакты подходят; герои используют HE.
+- Подсказка клетки карты (OnAdventureMapTileHint): /ru/erm/triggers/onadventuremaptilehint/ — x1..x3 — координаты объекта; x4/x5 — тип/подтип либо -1; x6..x8 — координаты клетки под курсором. Изменяйте текст через MM, не через числовые аргументы. OnAdvMapTileHint — зарегистрированный алиас того же ID.
+- После строительства (OnAfterBuildTownBuilding): /ru/erm/triggers/onafterbuildtownbuilding/ — x1 — город; x2 — построенное здание. Состояние города уже обновлено. Не выводите факт постройки из одного лишь закрытия городского холла.
+- После повышения уровня (OnAfterHeroGainLevel): /ru/erm/triggers/onafterherogainlevel/ — x1 — герой после повышения, когда диалог закрыт. Для человека и ИИ. Для изменения вариантов навыков используйте HL до завершения выбора.
+- После взаимодействия героев (OnAfterHeroInteraction): /ru/erm/triggers/onafterherointeraction/ — x1 — инициатор; x2 — целевой герой. Состояние после взаимодействия может отличаться: герой мог погибнуть или сменить владельца.
+- После локального события (OnAfterLocalEvent): /ru/erm/triggers/onafterlocalevent/ — x1/x2/x3 — координаты события. Для человека; срабатывает до соответствующего !$LE. Не предполагайте, что одноразовый объект события остался на карте.
+- После расстановки препятствий (OnAfterPlaceBattleObstacles): /ru/erm/triggers/onafterplacebattleobstacles/ — После размещения препятствий. Аргументов нет. Восстанавливается основной генератор случайных чисел ERA; изменения клеток должны учитывать уже созданные препятствия.
+- После сохранения (OnAfterSaveGame): /ru/erm/triggers/onaftersavegame/ — После завершения сохранения. Аргументов нет. Для записи собственной секции данных используйте OnSavegameWrite.
+- После тактики (OnAfterTacticsPhase): /ru/erm/triggers/onaftertacticsphase/ — После завершения расстановки. При отсутствии фазы тактики срабатывает вслед за подготовкой показа поля. Аргументов нет.
+- Оценка атаки ИИ (OnAICalcStackAttackEffect): /ru/erm/triggers/onaicalcstackattackeffect/ — x1 — атакующий стек; x2 — защитник; x3 — изменяемая оценка эффекта; x4 — исходная оценка. Это вычисление привлекательности действия для ИИ, а не нанесение урона.
+- Завершение боевого действия (OnBattleActionEnd): /ru/erm/triggers/onbattleactionend/ — Аргументов нет. Порядок: OnBeforeBattleAction → OnBattleActionEnd → OnBattleRound → OnBeforeBattleStackTurn → OnBattleStackObtainsTurn → OnAfterBattleAction. События раунда/стека возникают при соответствующем переходе, не после каждого действия безусловно.
+- Поле боя показано (OnBattlefieldVisible): /ru/erm/triggers/onbattlefieldvisible/ — После запуска темы боя и диалога тактики. Аргументов нет. Это момент видимости, а не гарантия завершения расстановки тактики.
+- Фаза регенерации (OnBattleRegeneratePhase): /ru/erm/triggers/onbattleregeneratephase/ — x1 — стек 0..41; x2 — адрес его структуры; x3 — запрет штатной фазы (0/1, изменяемый). Указатель действует только в текущем бою. Для изменения количества лечения используйте отдельное OnBattleStackRegeneration.
+- Переигровка боя (OnBattleReplay): /ru/erm/triggers/onbattlereplay/ — После восстановления состояния для переигровки. Аргументов нет. OnBeforeBattleUniversal повторно не вызывается; восстановите зависящий от боя контекст здесь. Требуется поддержка переигровки в сборке.
+- Передача хода стеку (OnBattleStackObtainsTurn): /ru/erm/triggers/onbattlestackobtainsturn/ — x1 — сторона (0/1), x2 — слот стороны (0..20). Глобальный индекс стека = x121+x2. Это передача управления, а не обязательно фаза регенерации; учитывайте ожидание и мораль.
+- Количество регенерации стека (OnBattleStackRegeneration): /ru/erm/triggers/onbattlestackregeneration/ — x1 — стек 0..41; x2 — изменяемое лечение; x3 — исходное стандартное лечение. Результат ограничивается диапазоном 0..потерянные HP верхнего существа. Событие может дать лечение стеку без штатной регенерации, но не воскрешает погибших существ. Это отдельное событие от OnBattleRegeneratePhase.
+- Перед показом поля боя (OnBeforeBattlefieldVisible): /ru/erm/triggers/onbeforebattlefieldvisible/ — Поле ещё затемнено; событие предшествует раннему BR-1. Аргументов нет. Ранние BA/BF не гарантируют готовности структур BM/EA; выбирайте фазу по данным, которые нужно менять.
+- Перед переигровкой боя (OnBeforeBattleReplay): /ru/erm/triggers/onbeforebattlereplay/ — После отказа пользователя от результата, перед сбросом состояния боя. Аргументов нет. Подходит для очистки временных ресурсов предыдущей попытки.
+- Перед ходом стека (OnBeforeBattleStackTurn): /ru/erm/triggers/onbeforebattlestackturn/ — x1 — активный стек 0..41, изменяемый. Срабатывает до OnBattleRegeneratePhase. Проверяйте допустимость нового стека; это не произвольный вызов атаки.
+- Перед взаимодействием героев (OnBeforeHeroInteraction): /ru/erm/triggers/onbeforeherointeraction/ — x1 — инициатор, x2 — целевой герой; x3 — разрешение взаимодействия, по умолчанию 1, можно изменить на 0. Охватывает встречу и нападение.
+- Перед локальным событием (OnBeforeLocalEvent): /ru/erm/triggers/onbeforelocalevent/ — x1/x2/x3 — координаты события. Для человека; срабатывает до соответствующего !?LE.
+- Перед расстановкой препятствий (OnBeforePlaceBattleObstacles): /ru/erm/triggers/onbeforeplacebattleobstacles/ — После OnBeforeBattlefieldVisible, перед препятствиями. Аргументов нет. Временно используется штатный генератор с seed 110291x+167801y+81569; потребление случайных чисел здесь влияет на расстановку.
+- Строительство здания (OnBuildTownBuilding): /ru/erm/triggers/onbuildtownbuilding/ — x1 — город; x2 — здание. Для человека и ИИ. Для действий после завершённой постройки используйте OnAfterBuildTownBuilding.
+- Расчёт дохода города (OnCalculateTownIncome): /ru/erm/triggers/oncalculatetownincome/ — x1 — город; x2 — доход, изменяемый; x3 — учитывать дополнительные ресурсы силоса. Меняется только возвращаемый доход x2. Событие расчётное: оно не гарантирует фактическую выдачу ресурсов.
+- Игровой чат (OnChat): /ru/erm/triggers/onchat/ — x1 задаёт стадию: 0 вход (x2 — запрет); 1 ввод (x2 — адрес текста, x3 — действие: 0 очистить, 1 закрыть, 2 штатно); 2 выход. Значения аргументов зависят от стадии; сначала проверяйте x1.
+- Закрытие окна героя (OnCloseHeroScreen): /ru/erm/triggers/oncloseheroscreen/ — x1 — герой, с которого окно было открыто, даже если затем пользователь переключился на другого героя.
+- Закрытие окна найма (OnCloseRecruitDlg): /ru/erm/triggers/oncloserecruitdlg/ — Аргументов нет. Данные RD ещё доступны до освобождения окна; сохранённый указатель на диалог после выхода недействителен.
+- Закрытие города (OnCloseTownScreen): /ru/erm/triggers/onclosetownscreen/ — x1 — город, с которого окно было открыто.
+- Выбор улучшения существа (OnDetermineMonInfoDlgUpgrade): /ru/erm/triggers/ondeterminemoninfodlgupgrade/ — x1 — существо; x2 — улучшенный тип либо -1, изменяемый; x3 — город либо -1; x4 — герой либо -1. Событие относится к доступному улучшению в окне сведений о существе.
+- Начало игрового дня (OnEveryDay): /ru/erm/triggers/oneveryday/ — Движок вызывает событие для каждого игрока до обычных TM, без аргументов. Framework расширяет контракт: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once=TRUE только при первом вызове в данный день. Используйте эти аргументы лишь с подключённым Framework.
+- Вход в игру (OnGameEnter): /ru/erm/triggers/ongameenter/ — После новой игры или загрузки, перед передачей управления на карте. Аргументов нет. Подходит для получения временных адресов и экспортов текущего процесса; не путайте с однократной инициализацией PI.
+- Выход из игры (OnGameLeave): /ru/erm/triggers/ongameleave/ — Перед отключением ERM при выходе из текущей игры. Аргументов нет. Освободите временные ресурсы, срок жизни которых привязан к игровой сессии.
+- Нажатие клавиши (OnKeyPressed): /ru/erm/triggers/onkeypressed/ — x1 — код клавиши; x2 — блокировка стандартной реакции (0/1, изменяемый); x3 — isDown, TRUE только при первоначальном нажатии, FALSE при автоповторе. Коды находятся в KEY_ константах Framework.
+- Отпускание клавиши (OnKeyReleased): /ru/erm/triggers/onkeyreleased/ — x1 — код клавиши; x2 — блокировка штатной реакции (0/1, изменяемый). Третий аргумент в контракте движка не заявлен. Не переносите сюда смысл x3 из OnKeyPressed.
+- Клик в обзоре королевства (OnKingdomOverviewMouseClick): /ru/erm/triggers/onkingdomoverviewmouseclick/ — Контекст мыши доступен через CM. Событие интерфейсное и локальное; оно не является сетевой синхронизацией действия.
+- Загрузка данных окна героя (OnLoadHeroScreen): /ru/erm/triggers/onloadheroscreen/ — x1 — герой. Срабатывает после OnOpenHeroScreen и при переключении героя, перед отрисовкой. Другие окна и плагины могут также инициировать загрузку; не считайте событие исключительно ручным открытием.
+- Поражение в игре (OnLoseGame): /ru/erm/triggers/onlosegame/ — Для поражения человека, непосредственно перед OnGameLeave в актуальной реализации. Аргументов нет. Учитывайте отсутствие дальнейшего игрового хода.
+- Открытие окна героя (OnOpenHeroScreen): /ru/erm/triggers/onopenheroscreen/ — x1 — герой при первом открытии окна. Переключение героя внутри этого окна не повторяет данное событие; используйте OnLoadHeroScreen или OnPreHeroScreen.
+- Открытие окна найма (OnOpenRecruitDlg): /ru/erm/triggers/onopenrecruitdlg/ — x1 — активный слот 0..3; x2 — маска флагов (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 — показывать окно (1/0). Аргументы изменяемые. Состояние найма доступно через RD.
+- Открытие города (OnOpenTownScreen): /ru/erm/triggers/onopentownscreen/ — x1 — город при первом открытии окна.
+- После экрана героя (OnPostHeroScreen): /ru/erm/triggers/onpostheroscreen/ — x1 — герой после ухода с его экрана, включая переключения.
+- После экрана города (OnPostTownScreen): /ru/erm/triggers/onposttownscreen/ — x1 — город после ухода с его экрана; охватывает закрытие и переключения.
+- Перед экраном героя (OnPreHeroScreen): /ru/erm/triggers/onpreheroscreen/ — x1 — герой перед отображением, включая переключения.
+- Перед экраном города (OnPreTownScreen): /ru/erm/triggers/onpretownscreen/ — x1 — город перед отображением; охватывает открытие и переключения.
+- Найм существ (OnRecruitDlgAction): /ru/erm/triggers/onrecruitdlgaction/ — x1 — количество нанятых существ, только чтение. Через RD можно получить текущую конфигурацию окна.
+- Клик в окне найма (OnRecruitDlgMouseClick): /ru/erm/triggers/onrecruitdlgmouseclick/ — Контекст мыши читается через CM, состояние найма — через RD. Для подавления реакции используйте CM:R0, а не только выход из обработчика.
+- Пересчёт стоимости найма (OnRecruitDlgRecalc): /ru/erm/triggers/onrecruitdlgrecalc/ — x1 — золото за существо; x2 — дополнительный ресурс 0..5 либо -1; x3 — количество этого ресурса за существо. Все три значения изменяемы.
+- Чтение данных сохранения (OnSavegameRead): /ru/erm/triggers/onsavegameread/ — После восстановления переменных ERM. Аргументов нет. Здесь читают собственные секции; временные указатели прошлого сеанса недействительны.
+- Запись данных сохранения (OnSavegameWrite): /ru/erm/triggers/onsavegamewrite/ — После записи переменных ERM. Аргументов нет. Здесь записывают собственные секции сохранения; это другая фаза, чем GM1.
+- Урон между стеками (OnStackToStackDamage): /ru/erm/triggers/onstacktostackdamage/ — x1 атакующий и x2 защитник: глобальные индексы либо -1. x3 — исходный итоговый урон (чтение); x4 — изменяемый итоговый урон; x5 — базовый урон; x6 — бонус; x7 — признак стрельбы (не во всех путях определён); x8 — расстояние для теоретического расчёта; x9 — теоретический расчёт (0/1). При x9=1 событие обслуживает прогноз или ИИ: не выдавайте награды, не убивайте стеки и не меняйте состояние игры.
+- Переключение города (OnSwitchTownScreen): /ru/erm/triggers/onswitchtownscreen/ — x1 — выбранный город при переключении внутри окна.
+- Клик в окне форта (OnTownFortMouseClick): /ru/erm/triggers/ontownfortmouseclick/ — Контекст CM. В актуальной регистрации имя OnTownFortMouseClick; старое OnTownHallMouseClick переименовано и не зарегистрировано как алиас. Предоставленный Framework всё ещё содержит обработчик старого имени: при переносе проверяйте согласованность версий.
+- Перенос героя кампании (OnTransferHero): /ru/erm/triggers/ontransferhero/ — x1 — герой после переноса, после инструкций ERM и до PI. Может включать неактивных героев кампании; наличие героя не означает присутствие на карте.
+- Победа в игре (OnWinGame): /ru/erm/triggers/onwingame/ — Для победы человека, непосредственно перед OnGameLeave в актуальной реализации. Аргументов нет. Старое поведение после OnGameLeave было исправлено.
+- После инструкций ERM (PI): /ru/erm/triggers/pi/ — Выполняется после инструкций инициализации новой карты.
+- Воспроизведение звука (SN): /ru/erm/triggers/sn/ — Перехватывает попытку воспроизвести звуковой эффект WAV/M82. Параметры доступны через SN.
+- Городской холл (TH): /ru/erm/triggers/th/ — 0 вход в городской холл, 1 выход. Можно связать изменения с посещением экрана строительства.
+- Таймер реального времени (TL): /ru/erm/triggers/tl/ — Индекс 0 — 1 секунда, 1 — 2 секунды, 2 — 5 секунд, 3 — 10 секунд, 4 — 60 секунд.
+- Игровой таймер (TM): /ru/erm/triggers/tm/ — Срабатывает для таймера 1..100, предварительно настроенного ресивером TM.
+- UN:C — работа с памятью: /ru/erm/un-c/ — Размеры данных, указатели, переносимые базы и исторические рецепты.
+- Сила магии внутри боя: /ru/erm/un-c/battle-spell-power/ — Поля силы магии атакующего и защитника находятся в менеджере боя. Этот пример читает их, не меняя постоянные навыки героя.
+- Чтение цвета луча: /ru/erm/un-c/beam-color/ — Для чистого h3wog.exe: существа 35..121; 0 зелёный, 1 белый, 2 чёрный.
+- Структура командира: /ru/erm/un-c/commander-structure/ — Историческая база 42344640, шаг записи 296 байт. Получение текущего опыта без изменения структуры.
+- Координаты Грааля: /ru/erm/un-c/grail-coordinates/ — Чтение данных Грааля через указатель менеджера игры. Латинские y в примере заменяют случайные кириллические буквы исходного сообщения.
+- Чтение типа снаряда: /ru/erm/un-c/projectile-type/ — Для чистого h3wog.exe: существа 2..197, таблица по одному байту. Пример только читает значение.
+- Чтение разрешения игры: /ru/erm/un-c/screen-size/ — Читает ширину и высоту в двухбайтных полях, используемых старой реализацией HD.
+- Таблицы стоимости зданий: /ru/erm/un-c/town-building-cost/ — Чтение семи ресурсов стоимости: обычные здания 0..16, специальные 17..25, жилища 30..43.
+- Переменные, строки и массивы: /ru/erm/variables/ — Типы данных, область действия, именованные переменные, флаги и время жизни массивов.

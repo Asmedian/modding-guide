@@ -1,0 +1,13 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.tools",
+  "kind": "article",
+  "slug": "tools",
+  "status": "published",
+  "sourceRefs": ["era-source:lodman", "era-tools:mmarchive-help", "era-tools:defpreview-help", "era-tools:mod-manager-format", "era-tools:def-tool-binary", "era-tools:txt-editor-binary"],
+  "keywords": ["tools", "map editor", "MMArchive", "DEF Tool", "TXT Tables Editor", "ERM Editor"],
+  "questions": ["Which tool should I use for a particular ERA resource?", "How can I reduce mistakes when editing binary and text resources?"],
+  "previous": "game/resources",
+  "next": "tools/catalog"
+}

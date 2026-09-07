@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.readjsonstrarray",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/readjsonstrarray",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+  ],
+  "keywords": [
+    "ReadJsonStrArray",
+    "FU(ReadJsonStrArray)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.",
+    "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray"
+    ]
+  }
+}

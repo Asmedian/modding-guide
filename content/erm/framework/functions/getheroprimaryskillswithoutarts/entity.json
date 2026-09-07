@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getheroprimaryskillswithoutarts",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getheroprimaryskillswithoutarts",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+  ],
+  "keywords": [
+    "GetHeroPrimarySkillsWithoutArts",
+    "FU(GetHeroPrimarySkillsWithoutArts)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Временно снимает 19 экипированных артефактов, читает HE:F и надевает их обратно. Вызывает OnUnequipArt/OnEquipArt; это операция с побочными событиями, а не чистое чтение.",
+    "Temporarily removes 19 equipped artifacts, reads HE:F, then re-equips them. Fires OnUnequipArt/OnEquipArt; this operation has event side effects."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts"
+    ]
+  }
+}

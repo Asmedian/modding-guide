@@ -1,0 +1,25 @@
+---
+{"title":"Stack-to-stack damage (OnStackToStackDamage)","summary":"x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state.","translationStatus":"reviewed"}
+---
+
+## Timing and arguments {#event}
+
+x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state.
+
+## Declaration {#declaration}
+
+```erm
+!?FU(OnStackToStackDamage);
+```
+
+## Identity and compatibility {#identity}
+
+ID `77012`; registered as `TRIGGER_ONSTACKTOSTACKDAMAGE`. The name is confirmed by the supplied ERA source. An introduction version is not assigned without separate evidence. Use the event name in new scripts; the numeric ID is retained for mapping old code.
+
+## Related references {#related}
+
+[All triggers](../) · [Functions and arguments](../../functions/) · [Framework events](../../framework/events/)
+
+## Related commands and tables {#reference-links}
+
+[ERM triggers and events](../) · [ERM debugging and compatibility](../../compatibility/) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-w-w-key-w-key) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-xvalues) · [Key Codes](../../framework/constants/key-codes/) · [ERA services, memory and sound (SN)](../../receivers/sn/) · [Game timer (TM)](../tm/) · [Battle stack (BM)](../../receivers/bm/) · [Creature experience and bonuses (EA)](../../receivers/ea/) · [Mouse-event context (CM)](../../receivers/cm/) · [Building pictures by town](../../tables/building-pictures/)

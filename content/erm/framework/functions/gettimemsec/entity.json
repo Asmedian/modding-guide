@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.gettimemsec",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/gettimemsec",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+  ],
+  "keywords": [
+    "GetTimeMsec",
+    "FU(GetTimeMsec)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Возвращает миллисекунды с запуска ОС через timeGetTime. 32-битный счётчик переполняется примерно через 49,71 суток; это не игровая дата.",
+    "Returns milliseconds since OS startup via timeGetTime. The 32-bit counter wraps after about 49.71 days; it is not the in-game date."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec"
+    ]
+  }
+}

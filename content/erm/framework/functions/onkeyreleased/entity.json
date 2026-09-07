@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.onkeyreleased",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/onkeyreleased",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+  ],
+  "keywords": [
+    "OnKeyReleased",
+    "FU(OnKeyReleased)",
+    "event-handler",
+    "events"
+  ],
+  "questions": [
+    "Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.",
+    "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.pow",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/pow",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+  ],
+  "keywords": [
+    "Pow",
+    "FU(Pow)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "Возведение в степень. Оба входа и выход — float; результат копируется из e1 через VR:C без числового преобразования.",
+    "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+    ]
+  }
+}

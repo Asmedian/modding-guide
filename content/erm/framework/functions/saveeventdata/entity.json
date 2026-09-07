@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.saveeventdata",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/saveeventdata",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+  ],
+  "keywords": [
+    "SaveEventData",
+    "FU(SaveEventData)",
+    "internal"
+  ],
+  "questions": [
+    "Сохраняет переданные целые аргументы в стеке события. RestoreEventData должен получить такое же число выходных аргументов в том же порядке. Вызов без аргументов выходит до RestoreErmTracking.",
+    "Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+    ]
+  }
+}

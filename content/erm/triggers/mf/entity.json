@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.mf",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/mf",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-mf.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "MF",
+    "!?MF",
+    "OnMonsterPhysicalDamage"
+  ],
+  "questions": [
+    "Срабатывает перед нанесением урона. Через MF можно прочитать цель и изменить итоговый урон.",
+    "Fires before damage is dealt. MF reads the target and changes final damage."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-mf.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-mf.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-mf.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-mf.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-mf.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-mf.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-mf": [
+      "old-help:tr-mf.htm"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.era.creating-mod",
+  "kind": "article",
+  "slug": "era/creating-mod",
+  "status": "published",
+  "sourceRefs": ["era-source:lodman", "era-changelog:3", "era-tools:mod-manager-format"],
+  "keywords": ["create mod", "Mods", "mod.json", "Data", "Lang", "icon.png"],
+  "questions": ["How do I create a minimal ERA mod?", "Which files belong in mod.json?", "How should I test the first resource override?"],
+  "previous": "era/mod-structure",
+  "next": "era/compatibility"
+}

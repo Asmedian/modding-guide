@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.enableerrors",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/enableerrors",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+  ],
+  "keywords": [
+    "EnableErrors",
+    "FU(EnableErrors)",
+    "requires-review",
+    "game"
+  ],
+  "questions": [
+    "Читает последний флаг ошибки, но в этом снимке снова устанавливает WOG_OPT_MUTE_ERRORS=TRUE. Комментарий обещает включение сообщений, код этого не делает. Для восстановления требуется явный UN:P с FALSE либо исправленная библиотека.",
+    "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+    ]
+  }
+}

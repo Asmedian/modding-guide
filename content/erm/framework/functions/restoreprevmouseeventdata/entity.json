@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.restoreprevmouseeventdata",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/restoreprevmouseeventdata",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+  ],
+  "keywords": [
+    "RestorePrevMouseEventData",
+    "FU(RestorePrevMouseEventData)",
+    "internal"
+  ],
+  "questions": [
+    "Сохраняет/восстанавливает десять mouse_ значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.",
+    "Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+    ]
+  }
+}

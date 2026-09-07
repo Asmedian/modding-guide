@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.cleareventchaindata",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/cleareventchaindata",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+  ],
+  "keywords": [
+    "ClearEventChainData",
+    "FU(ClearEventChainData)",
+    "internal"
+  ],
+  "questions": [
+    "Очищает служебный стек контекста событий и сбрасывает его позицию. Вызывается при чтении сохранения.",
+    "Clears the internal event-context stack and its position when loading a save."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+    ]
+  }
+}

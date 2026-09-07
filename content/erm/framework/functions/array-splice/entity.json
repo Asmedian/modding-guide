@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-splice",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-splice",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+  ],
+  "keywords": [
+    "Array_Splice",
+    "FU(Array_Splice)",
+    "requires-review",
+    "arrays"
+  ],
+  "questions": [
+    "Удаляет диапазон и вставляет до 13 значений с изменением размера. Отрицательный startIndex отсчитывается от конца; отсутствие numItemsToDelete удаляет остаток, отрицательное число сохраняет столько элементов в конце. Зависит от Array_Move.",
+    "Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+    ]
+  }
+}

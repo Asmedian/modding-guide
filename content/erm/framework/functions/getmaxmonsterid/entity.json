@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getmaxmonsterid",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getmaxmonsterid",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+  ],
+  "keywords": [
+    "GetMaxMonsterId",
+    "FU(GetMaxMonsterId)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.",
+    "Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid"
+    ]
+  }
+}

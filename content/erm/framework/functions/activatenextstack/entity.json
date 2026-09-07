@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.activatenextstack",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/activatenextstack",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+  ],
+  "keywords": [
+    "ActivateNextStack",
+    "FU(ActivateNextStack)",
+    "requires-review",
+    "game"
+  ],
+  "questions": [
+    "Вызывает выбор следующего стека. В снимке запись результата защищена условием result<>0: выход, заранее равный 0, не обновляется. Инициализируйте выход ненулевым либо используйте исправленную версию.",
+    "Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+    ]
+  }
+}

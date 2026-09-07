@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.globals",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/globals",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm",
+    "era-framework:lib-end--9999-era---stdlib.erm"
+  ],
+  "keywords": [
+    "i^timerDay^",
+    "i^timerWeekDay^",
+    "i^timerMonthDay^",
+    "i^timerWeek^",
+    "i^timerMonthWeek^",
+    "i^timerMonth^",
+    "i^timerOnce^",
+    "i^timerOwner^",
+    "i^timerIsAi^",
+    "i^timerIsHuman^",
+    "i^key^",
+    "i^key_down^",
+    "i^key_leftAlt^",
+    "i^key_rightAlt^",
+    "i^key_alt^",
+    "i^key_leftCtrl^",
+    "i^key_rightCtrl^",
+    "i^key_ctrl^",
+    "i^key_leftShift^",
+    "i^key_rightShift^",
+    "i^key_shift^",
+    "i^mouse_x^",
+    "i^mouse_y^",
+    "i^mouse_battleHex^",
+    "i^mouse_flags^",
+    "i^mouse_hero_0^",
+    "i^mouse_hero_1^",
+    "i^mouse_item^",
+    "i^mouse_mapX^",
+    "i^mouse_mapY^",
+    "i^mouse_mapZ^",
+    "i^mouse_action^",
+    "i^dlg_id^",
+    "i^dlg_action^",
+    "i^battle_round^",
+    "i^battle_current_stack^",
+    "i^battle_current_side^",
+    "i^battle_acting_stack^",
+    "i^battle_acting_side^",
+    "i^battle_x^",
+    "i^battle_y^",
+    "i^battle_z^",
+    "i^battle_hero_vs_hero^",
+    "i^battle_hasHuman^",
+    "i^battle_humanOnly^",
+    "i^battle_aiOnly^",
+    "i^battle_isQuick^",
+    "i^battle_isVisible^",
+    "i^battle_isNetwork^",
+    "i^battle_isActingSideUiUser^",
+    "i^battle_type^",
+    "i^battle_owner_0^",
+    "i^battle_hero_0^",
+    "i^battle_ai_0^",
+    "i^battle_human_0^",
+    "i^battle_remote_0^",
+    "i^battle_local_0^",
+    "i^battle_localHuman_0^",
+    "i^battle_owner_1^",
+    "i^battle_hero_1^",
+    "i^battle_ai_1^",
+    "i^battle_human_1^",
+    "i^battle_remote_1^",
+    "i^battle_local_1^",
+    "i^battle_localHuman_1^",
+    "i^maxArtifacId^",
+    "i^maxHeroId^",
+    "i^maxMonsterId^",
+    "i^maxSpellId^",
+    "i^savedEventData^",
+    "i^savedEventDataPos^",
+    "i^era_everyDayTimerLastDay^",
+    "i^radioDlg_captions^",
+    "i^radioDlg_tags^",
+    "i^radioDlg_values^",
+    "i^radioDlg_numItems^",
+    "i^radioDlg_selectedItemInd^",
+    "i^radioDlg_flags^",
+    "i^radioDlg_freeSpaceAlerted^",
+    "s^radioDlg_title^",
+    "s^temp^",
+    "s^temp_text^",
+    "s^result^"
+  ],
+  "questions": [
+    "Контекст боя, календаря, клавиатуры и мыши; публичные данные и служебное состояние.",
+    "Combat, calendar, keyboard and mouse context; public data and internal state."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "lifetime": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "timer": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "keyboard": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "mouse": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "battle": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "limits": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "internal": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "audit": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.object-control-words",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/object-control-words",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:cont-conwords.htm",
+    "old-help:rec-ob.htm",
+    "old-help:rec-sk.htm",
+    "old-help:rec-mt.htm"
+  ],
+  "keywords": [
+    "Контрольные слова объектов",
+    "Object control words"
+  ],
+  "questions": [
+    "32-битное поле OB:C с разной упаковкой для разных типов объектов. Ниже приведены исследованные поля старого WoG; неизвестные биты сохраняйте. Ёмкость поля не означает допустимость всех его значений. Для собственных данных используйте PO.",
+    "The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:cont-conwords.htm",
+      "old-help:rec-ob.htm"
+    ],
+    "values": [
+      "old-help:cont-conwords.htm",
+      "old-help:rec-ob.htm"
+    ],
+    "related": [
+      "old-help:cont-conwords.htm",
+      "old-help:rec-ob.htm"
+    ],
+    "reference-links": [
+      "old-help:cont-conwords.htm",
+      "old-help:rec-ob.htm"
+    ],
+    "ref-cont-conwords": [
+      "old-help:cont-conwords.htm"
+    ],
+    "source-link-corrections": [
+      "old-help:rec-sk.htm",
+      "old-help:rec-mt.htm",
+      "old-help:cont-conwords.htm"
+    ]
+  }
+}

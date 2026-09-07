@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-fill",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-fill",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+  ],
+  "keywords": [
+    "Array_Fill",
+    "FU(Array_Fill)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Заполняет целочисленный массив арифметической последовательностью startValue, startValue+step…; step по умолчанию 0. Диапазон включительный, по умолчанию весь массив. Реализация пишет 32-битные значения: строковый массив не передавайте.",
+    "Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+    ]
+  }
+}

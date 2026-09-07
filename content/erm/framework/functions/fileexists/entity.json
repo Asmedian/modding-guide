@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.fileexists",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/fileexists",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+  ],
+  "keywords": [
+    "FileExists",
+    "FU(FileExists)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.",
+    "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+    ]
+  }
+}

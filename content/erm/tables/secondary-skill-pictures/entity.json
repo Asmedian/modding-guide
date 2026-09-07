@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.secondary-skill-pictures",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/secondary-skill-pictures",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:form-secondaryskill-if.htm",
+    "old-help:rec-if.htm"
+  ],
+  "keywords": [
+    "Картинки вторичных навыков",
+    "Secondary skill pictures"
+  ],
+  "questions": [
+    "Номер картинки = 3 × ID навыка + уровень − 1; уровень от 1 до 3.",
+    "Picture ID = 3 × skill ID + level − 1, with level from 1 to 3."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:form-secondaryskill-if.htm",
+      "old-help:rec-if.htm"
+    ],
+    "values": [
+      "old-help:form-secondaryskill-if.htm",
+      "old-help:rec-if.htm"
+    ],
+    "related": [
+      "old-help:form-secondaryskill-if.htm",
+      "old-help:rec-if.htm"
+    ],
+    "reference-links": [
+      "old-help:form-secondaryskill-if.htm",
+      "old-help:rec-if.htm"
+    ],
+    "ref-form-secondaryskill-if": [
+      "old-help:form-secondaryskill-if.htm"
+    ]
+  }
+}

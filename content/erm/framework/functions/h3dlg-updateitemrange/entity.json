@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.h3dlg-updateitemrange",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/h3dlg-updateitemrange",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+  ],
+  "keywords": [
+    "H3Dlg_UpdateItemRange",
+    "FU(H3Dlg_UpdateItemRange)",
+    "requires-review",
+    "dialogs"
+  ],
+  "questions": [
+    "Обновляет внутреннее состояние диалога перед перерисовкой. В снимке minItemId/maxItemId не используются: вызывается виртуальный метод с 0/200/200. Не рассчитывайте на обновление только заданного диапазона.",
+    "Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+    ]
+  }
+}

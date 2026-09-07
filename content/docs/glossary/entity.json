@@ -1,0 +1,13 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.glossary",
+  "kind": "article",
+  "slug": "glossary",
+  "status": "published",
+  "sourceRefs": ["era-source:gameext", "era-source:lodman", "era-source:reslib", "old-help:index"],
+  "keywords": ["glossary", "terminology", "ERA", "mod", "resource", "receiver", "trigger"],
+  "questions": ["What do common ERA modding terms mean?", "Which technical terms should remain untranslated?"],
+  "previous": "troubleshooting",
+  "next": "llm-map"
+}

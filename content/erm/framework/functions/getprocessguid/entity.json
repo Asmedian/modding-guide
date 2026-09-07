@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getprocessguid",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getprocessguid",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid"
+  ],
+  "keywords": [
+    "GetProcessGuid",
+    "FU(GetProcessGuid)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Возвращает строку из 32 символов, уникальную для запуска игрового процесса. Подходит для отличия нового запуска от загрузки сохранения в том же процессе.",
+    "Returns a 32-character identifier for this game-process run. Distinguishes a restart from loading a save in the same process."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid"
+    ]
+  }
+}

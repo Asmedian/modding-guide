@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.ip",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/ip",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-ip.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "IP",
+    "!?IP",
+    "OnBeforeBattleBeforeDataSend",
+    "OnBeforeBattleAfterDataReceived",
+    "OnAfterBattleBeforeDataSend",
+    "OnAfterBattleAfterDataReceived"
+  ],
+  "questions": [
+    "0 перед отправкой начальных данных атакующим, 1 после их получения защитником; 2 перед отправкой итогов, 3 после их получения. IP предоставляет дополнительную синхронизацию.",
+    "0 before the attacker sends initial data, 1 after the defender receives it; 2 before results are sent, 3 after receiving them. IP provides additional synchronization."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-ip.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-ip.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-ip.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-ip.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-ip.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-ip.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-ip": [
+      "old-help:tr-ip.htm"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.tools.catalog",
+  "kind": "article",
+  "slug": "tools/catalog",
+  "status": "published",
+  "sourceRefs": ["era-tools:mmarchive-help", "era-tools:defpreview-help", "era-tools:binmagic-help", "era-tools:evme-help", "era-tools:template-editor-help", "era-tools:unc-to-bin", "era-tools:mod-manager-format", "era-tools:rsbink-player-help", "era-tools:exe-builder-help", "era-tools:def-tool-binary", "era-tools:dialogs-editor-binary", "era-tools:object-txt-editor-binary", "era-tools:txt-editor-binary", "era-tools:vfs-test-binary"],
+  "keywords": ["MMArchive", "Def Preview", "Heroes3 Def Tool", "DEFka", "Txt Tables Editor", "Object TXT Files Editor", "Template Editor", "SD Mod Manager", "BinMagic", "EVME", "RS Bink Player", "VfsTest"],
+  "questions": ["Which programs are included with ERA Tools?", "Which editor opens LOD, PAC, DEF, TXT, BIK, SMK, or RMG templates?", "Which bundled utilities require extra caution?"],
+  "previous": "tools",
+  "next": "troubleshooting"
+}

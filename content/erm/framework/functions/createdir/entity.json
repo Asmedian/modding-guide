@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.createdir",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/createdir",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+  ],
+  "keywords": [
+    "CreateDir",
+    "FU(CreateDir)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Вызывает CreateDirectoryA для одного каталога; результат API не возвращается. Не гарантирует создание отсутствующей цепочки родителей.",
+    "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+    ]
+  }
+}

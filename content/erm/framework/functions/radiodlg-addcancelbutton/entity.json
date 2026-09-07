@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.radiodlg-addcancelbutton",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/radiodlg-addcancelbutton",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+  ],
+  "keywords": [
+    "RadioDlg_AddCancelButton",
+    "FU(RadioDlg_AddCancelButton)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Резервирует одну из 12 позиций под отмену. Если все позиции заняты, удаляет последний пункт и сообщает ошибку один раз. Повторный вызов не добавляет вторую кнопку.",
+    "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+    ]
+  }
+}

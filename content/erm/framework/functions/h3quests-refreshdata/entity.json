@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.h3quests-refreshdata",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/h3quests-refreshdata",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+  ],
+  "keywords": [
+    "H3Quests_RefreshData",
+    "FU(H3Quests_RefreshData)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Обновляет данные заданий после подмены существ/имён. Для задания на уничтожение монстра сверяет реальный тип по координатам; forceRefreshText пересоздаёт тексты всех заданий. Использует внутренние структуры игры.",
+    "Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+    ]
+  }
+}

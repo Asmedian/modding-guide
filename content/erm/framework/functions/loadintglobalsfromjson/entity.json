@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.loadintglobalsfromjson",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/loadintglobalsfromjson",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+  ],
+  "keywords": [
+    "LoadIntGlobalsFromJson",
+    "FU(LoadIntGlobalsFromJson)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "После JSON-префикса и префикса глобальных переменных принимает до 14 имён. Значение сначала ищется как имя ERM-константы, затем преобразуется в целое; отсутствующий ключ не меняет глобальную переменную.",
+    "Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+    ]
+  }
+}

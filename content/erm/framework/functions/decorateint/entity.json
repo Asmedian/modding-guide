@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.decorateint",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/decorateint",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+  ],
+  "keywords": [
+    "DecorateInt",
+    "FU(DecorateInt)",
+    "public",
+    "strings"
+  ],
+  "questions": [
+    "Форматирует целое с разделителем тысяч era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS оставляет числа до 9999 без группировки. Выход — строка.",
+    "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+    ]
+  }
+}

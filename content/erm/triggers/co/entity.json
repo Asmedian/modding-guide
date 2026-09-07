@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.co",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/co",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-co.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "CO",
+    "!?CO",
+    "OnOpenCommanderWindow",
+    "OnCloseCommanderWindow",
+    "OnAfterCommanderBuy",
+    "OnAfterCommanderResurrect"
+  ],
+  "questions": [
+    "0 перед окном командира, 1 после закрытия, 2 после покупки, 3 после воскрешения. HE-1 и CO-1 относятся к текущему герою и его командиру.",
+    "0 before the commander window, 1 after closing, 2 after purchase, 3 after resurrection. HE-1 and CO-1 access the current hero and commander."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-co.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-co.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-co.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-co.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-co.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-co.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-co": [
+      "old-help:tr-co.htm"
+    ]
+  }
+}

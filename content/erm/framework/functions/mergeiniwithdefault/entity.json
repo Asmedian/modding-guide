@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.mergeiniwithdefault",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/mergeiniwithdefault",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+  ],
+  "keywords": [
+    "MergeIniWithDefault",
+    "FU(MergeIniWithDefault)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Добавляет недостающие ключи из source в кэш target, сохраняя уже заданные значения. Запись на диск выполняется отдельно через SaveIni.",
+    "Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+    ]
+  }
+}

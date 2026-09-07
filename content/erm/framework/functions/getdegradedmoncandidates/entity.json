@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getdegradedmoncandidates",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getdegradedmoncandidates",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+  ],
+  "keywords": [
+    "GetDegradedMonCandidates",
+    "FU(GetDegradedMonCandidates)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Перебирает все поддерживаемые типы и возвращает локальный массив существ, улучшающихся до monId. Кандидатов может быть несколько; полный перебор дорог при расширенном лимите.",
+    "Scans all supported types and returns a local array of creatures upgrading to monId. Multiple candidates are possible; a full scan is expensive with extended limits."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates"
+    ]
+  }
+}

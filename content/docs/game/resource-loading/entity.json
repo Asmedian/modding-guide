@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.game.resource-loading",
+  "kind": "article",
+  "slug": "game/resource-loading",
+  "status": "published",
+  "sourceRefs": ["era-source:lodman", "era-source:reslib", "era-source:gameext", "era-changelog:3"],
+  "keywords": ["VFS", "resource loading", "Data", "PAC", "LOD", "ZIP", "Redirections", "cache"],
+  "questions": ["How does ERA locate a game resource?", "Which source wins when several mods provide the same file?", "Why is a changed resource not visible until restart?"],
+  "previous": "game",
+  "next": "game/resources"
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../_schemas/navigation.schema.json",
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "start",
+      "labelKey": "nav.startHere",
+      "items": [
+        { "labelKey": "nav.overview", "slug": "" },
+        { "labelKey": "nav.quickStart", "slug": "docs/quick-start" },
+        { "labelKey": "nav.siteStructure", "slug": "docs/site-structure" }
+      ]
+    },
+    {
+      "id": "era",
+      "labelKey": "nav.platformEra",
+      "items": [
+        { "labelKey": "nav.platformOverview", "slug": "docs/era" },
+        { "labelKey": "nav.installation", "slug": "docs/era/installation" },
+        { "labelKey": "nav.modStructure", "slug": "docs/era/mod-structure" },
+        { "labelKey": "nav.createMod", "slug": "docs/era/creating-mod" },
+        { "labelKey": "nav.compatibility", "slug": "docs/era/compatibility" }
+      ]
+    },
+    {
+      "id": "resources",
+      "labelKey": "nav.gameResources",
+      "items": [
+        { "labelKey": "nav.gameArchitecture", "slug": "docs/game" },
+        { "labelKey": "nav.resourceLoading", "slug": "docs/game/resource-loading" },
+        { "labelKey": "nav.resources", "slug": "docs/game/resources" }
+      ]
+    },
+    { "id": "tools", "labelKey": "nav.tools", "items": [
+      { "labelKey": "nav.toolsOverview", "slug": "docs/tools" },
+      { "labelKey": "nav.toolsCatalog", "slug": "docs/tools/catalog" }
+    ] },
+    { "id": "reference", "labelKey": "nav.reference", "items": [
+      { "labelKey": "nav.troubleshooting", "slug": "docs/troubleshooting" },
+      { "labelKey": "nav.glossary", "slug": "docs/glossary" }
+    ] },
+    { "id": "llm", "labelKey": "nav.llm", "items": [{ "labelKey": "nav.llmMap", "slug": "docs/llm-map" }] }
+  ]
+}

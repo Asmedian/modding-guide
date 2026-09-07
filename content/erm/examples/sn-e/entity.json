@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.examples.sn-e",
+  "kind": "article",
+  "section": "erm",
+  "slug": "examples/sn-e",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm",
+    "old-help:rec-sn-era.htm",
+    "era-changelog:era-iii-changelog.txt",
+    "windows-api:getkeystate"
+  ],
+  "keywords": [
+    "SN:E",
+    "GetKeyState"
+  ],
+  "questions": [
+    "Получаем адрес GetKeyState из user32.dll, проверяем результат разрешения, вызываем с кодом левого Shift 160. Пример использует способ проверки бита из GetKeyModsState Framework; он не меняет состояние игры.",
+    "Resolve GetKeyState from user32.dll, check the export, then call with left Shift code 160. The example uses Framework GetKeyModsState’s bit test and does not mutate game state."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "code": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "contract": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "related": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "reference-links": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "OnAfterErmInited",
+    "slug": "framework/events",
+    "anchor": "onaftererminited",
+    "summary": {
+      "ru": "Без аргументов. После полной цепочки OnAfterErmInstructions, перед OnStartOrLoad(TRUE).",
+      "en": "No arguments. After the complete OnAfterErmInstructions chain, before OnStartOrLoad(TRUE)."
+    }
+  },
+  {
+    "name": "OnStartOrLoad",
+    "slug": "framework/events",
+    "anchor": "onstartorload",
+    "summary": {
+      "ru": "x1 — новая игра TRUE, загрузка FALSE. Объединяет инициализацию временных данных после старта и загрузки.",
+      "en": "x1 is TRUE for a new game, FALSE for loading. Joins temporary-data initialization after start and load."
+    }
+  },
+  {
+    "name": "OnAfterBattleSetup",
+    "slug": "framework/events",
+    "anchor": "onafterbattlesetup",
+    "summary": {
+      "ru": "Без аргументов. После OnBeforeBattleUniversal; базовые координаты, герои и флаги боя уже обновлены. Готовность BM/EA всё ещё определяется фазой боя.",
+      "en": "No arguments. After OnBeforeBattleUniversal; base coordinates, heroes and battle flags have been refreshed. BM/EA readiness still depends on the combat phase."
+    }
+  },
+  {
+    "name": "OnKeyPressed_AdvMap",
+    "slug": "framework/events",
+    "anchor": "onkeypressed-advmap",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу AdvMap. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog AdvMap. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyPressed_Battle",
+    "slug": "framework/events",
+    "anchor": "onkeypressed-battle",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу Battle. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Battle. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyPressed_HeroScreen",
+    "slug": "framework/events",
+    "anchor": "onkeypressed-heroscreen",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу HeroScreen. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroScreen. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyPressed_HeroMeetingScreen",
+    "slug": "framework/events",
+    "anchor": "onkeypressed-heromeetingscreen",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу HeroMeetingScreen. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroMeetingScreen. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyPressed_Town",
+    "slug": "framework/events",
+    "anchor": "onkeypressed-town",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу Town. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Town. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyReleased_AdvMap",
+    "slug": "framework/events",
+    "anchor": "onkeyreleased-advmap",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу AdvMap. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog AdvMap. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyReleased_Battle",
+    "slug": "framework/events",
+    "anchor": "onkeyreleased-battle",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу Battle. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Battle. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyReleased_HeroScreen",
+    "slug": "framework/events",
+    "anchor": "onkeyreleased-heroscreen",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу HeroScreen. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroScreen. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyReleased_HeroMeetingScreen",
+    "slug": "framework/events",
+    "anchor": "onkeyreleased-heromeetingscreen",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу HeroMeetingScreen. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroMeetingScreen. The reliable contract contains two arguments."
+    }
+  },
+  {
+    "name": "OnKeyReleased_Town",
+    "slug": "framework/events",
+    "anchor": "onkeyreleased-town",
+    "summary": {
+      "ru": "x1 — клавиша, x2 — изменяемая блокировка. Фильтр по текущему основному диалогу Town. Надёжный контракт содержит два аргумента.",
+      "en": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Town. The reliable contract contains two arguments."
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.readiniints",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/readiniints",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+  ],
+  "keywords": [
+    "ReadIniInts",
+    "FU(ReadIniInts)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.",
+    "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints"
+    ]
+  }
+}

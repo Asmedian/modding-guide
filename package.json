@@ -1,0 +1,27 @@
+{
+  "name": "era-modding-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:content": "node scripts/content/build-derived.mjs",
+    "dev": "npm run prepare:content && vite dev",
+    "check": "npm run prepare:content && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "test": "node --test tests/unit/*.test.mjs tests/content/*.test.mjs",
+    "verify:build": "node scripts/content/verify-build.mjs",
+    "verify:performance": "node scripts/content/verify-performance.mjs",
+    "build": "npm run check && vite build && pagefind --site build --output-subdir pagefind && npm run verify:build && npm run verify:performance",
+    "preview": "node scripts/preview.mjs"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.48.5",
+    "@sveltejs/vite-plugin-svelte": "^6.2.2",
+    "@types/node": "^24.10.1",
+    "pagefind": "^1.4.0",
+    "svelte": "^5.45.6",
+    "svelte-check": "^4.3.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
+  }
+}

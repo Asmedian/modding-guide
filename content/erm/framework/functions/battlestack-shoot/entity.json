@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.battlestack-shoot",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/battlestack-shoot",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+  ],
+  "keywords": [
+    "BattleStack_Shoot",
+    "FU(BattleStack_Shoot)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Заставляет attackerStackId стрелять в defenderStackId, временно меняя и восстанавливая позицию цели в структуре атакующего. Проверку существования стеков выполняйте заранее.",
+    "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getmodlist",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getmodlist",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+  ],
+  "keywords": [
+    "GetModList",
+    "FU(GetModList)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Возвращает локальный массив активных модов из VFS. toLower и reverse по умолчанию FALSE. При нулевом числе модов выход не инициализируется; заранее задайте NULL и проверяйте результат.",
+    "Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist"
+    ]
+  }
+}

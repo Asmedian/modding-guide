@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.hl",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/hl",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-hl.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "HL",
+    "!?HL",
+    "OnHeroGainLevel"
+  ],
+  "questions": [
+    "Срабатывает при получении уровня. -1 выбирает всех героев. Общий обработчик HL-1 выполняется раньше обработчика конкретного героя. HL меняет предложенные навыки.",
+    "Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-hl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-hl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-hl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-hl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-hl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-hl.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-hl": [
+      "old-help:tr-hl.htm"
+    ]
+  }
+}

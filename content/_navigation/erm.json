@@ -1,0 +1,118 @@
+{
+  "$schema": "../_schemas/navigation.schema.json",
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "erm-basics",
+      "labelKey": "erm.nav.basics",
+      "items": [
+        {
+          "labelKey": "erm.page.overview",
+          "slug": "erm"
+        },
+        {
+          "labelKey": "erm.page.start",
+          "slug": "erm/start"
+        },
+        {
+          "labelKey": "erm.page.syntax",
+          "slug": "erm/syntax"
+        },
+        {
+          "labelKey": "erm.page.variables",
+          "slug": "erm/variables"
+        },
+        {
+          "labelKey": "erm.page.conditions",
+          "slug": "erm/conditions"
+        },
+        {
+          "labelKey": "erm.page.loops",
+          "slug": "erm/loops"
+        },
+        {
+          "labelKey": "erm.page.functions",
+          "slug": "erm/functions"
+        }
+      ]
+    },
+    {
+      "id": "erm-reference",
+      "labelKey": "erm.nav.reference",
+      "items": [
+        {
+          "labelKey": "erm.page.triggers",
+          "slug": "erm/triggers"
+        },
+        {
+          "labelKey": "erm.page.receivers",
+          "slug": "erm/receivers"
+        },
+        {
+          "labelKey": "erm.page.tables",
+          "slug": "erm/tables"
+        },
+        {
+          "labelKey": "erm.page.compatibility",
+          "slug": "erm/compatibility"
+        }
+      ]
+    },
+    {
+      "id": "erm-framework",
+      "labelKey": "erm.nav.framework",
+      "items": [
+        {
+          "labelKey": "erm.page.framework",
+          "slug": "erm/framework"
+        },
+        {
+          "labelKey": "erm.page.framework.events",
+          "slug": "erm/framework/events"
+        },
+        {
+          "labelKey": "erm.page.framework.functions",
+          "slug": "erm/framework/functions"
+        },
+        {
+          "labelKey": "erm.page.framework.globals",
+          "slug": "erm/framework/globals"
+        },
+        {
+          "labelKey": "erm.page.framework.constants",
+          "slug": "erm/framework/constants"
+        }
+      ]
+    },
+    {
+      "id": "erm-practice",
+      "labelKey": "erm.nav.practice",
+      "items": [
+        {
+          "labelKey": "erm.page.hooker",
+          "slug": "erm/hooker"
+        },
+        {
+          "labelKey": "erm.page.un-c",
+          "slug": "erm/un-c"
+        },
+        {
+          "labelKey": "erm.page.examples",
+          "slug": "erm/examples"
+        },
+        {
+          "labelKey": "erm.page.examples.sn-e",
+          "slug": "erm/examples/sn-e"
+        },
+        {
+          "labelKey": "erm.page.examples.sn-f",
+          "slug": "erm/examples/sn-f"
+        },
+        {
+          "labelKey": "erm.page.learn",
+          "slug": "erm/learn"
+        }
+      ]
+    }
+  ]
+}

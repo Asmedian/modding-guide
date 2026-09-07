@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.writeiniints",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/writeiniints",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+  ],
+  "keywords": [
+    "WriteIniInts",
+    "FU(WriteIniInts)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.",
+    "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+    ]
+  }
+}

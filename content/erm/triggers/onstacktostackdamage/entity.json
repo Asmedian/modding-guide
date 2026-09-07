@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.onstacktostackdamage",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/onstacktostackdamage",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "era-source:triggers.pas",
+    "era-source:adverm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "OnStackToStackDamage",
+    "77012"
+  ],
+  "questions": [
+    "x1 атакующий и x2 защитник: глобальные индексы либо -1. x3 — исходный итоговый урон (чтение); x4 — изменяемый итоговый урон; x5 — базовый урон; x6 — бонус; x7 — признак стрельбы (не во всех путях определён); x8 — расстояние для теоретического расчёта; x9 — теоретический расчёт (0/1). При x9=1 событие обслуживает прогноз или ИИ: не выдавайте награды, не убивайте стеки и не меняйте состояние игры.",
+    "x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "declaration": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "identity": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "era-source:triggers.pas",
+      "era-source:adverm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

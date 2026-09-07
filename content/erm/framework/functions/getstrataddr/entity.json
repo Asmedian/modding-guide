@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getstrataddr",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getstrataddr",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr"
+  ],
+  "keywords": [
+    "GetStrAtAddr",
+    "FU(GetStrAtAddr)",
+    "public",
+    "strings"
+  ],
+  "questions": [
+    "Копирует строку с нулевым терминатором по адресу strAddr в выходную ERM-строку; NULL даёт пустую. Для ненулевого адреса память должна быть доступна.",
+    "Copies a null-terminated string at strAddr into an output ERM string; NULL yields empty text. Non-null memory must be readable."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr"
+    ]
+  }
+}

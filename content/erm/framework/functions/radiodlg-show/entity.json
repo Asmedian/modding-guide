@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.radiodlg-show",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/radiodlg-show",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+  ],
+  "keywords": [
+    "RadioDlg_Show",
+    "FU(RadioDlg_Show)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Показывает диалог через IF:G и возвращает ?resultItem/?resultValue/?resultTagPtr. Отмена/пустой список дают -1/-1/пусто. Состояние предварительно копируется, чтобы вложенный диалог не испортил текущие пункты.",
+    "Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+    ]
+  }
+}

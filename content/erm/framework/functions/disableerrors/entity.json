@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.disableerrors",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/disableerrors",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+  ],
+  "keywords": [
+    "DisableErrors",
+    "FU(DisableErrors)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Включает WOG_OPT_MUTE_ERRORS и обнуляет WOG_OPT_LAST_ERROR. Используйте только вокруг контролируемой операции.",
+    "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.isdllloaded",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/isdllloaded",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+  ],
+  "keywords": [
+    "IsDllLoaded",
+    "FU(IsDllLoaded)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Проверяет DLL по имени с расширением через GetModuleHandleA. Возвращает TRUE/FALSE и не загружает отсутствующий модуль.",
+    "Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+    ]
+  }
+}

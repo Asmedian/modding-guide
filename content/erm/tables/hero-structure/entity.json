@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.hero-structure",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/hero-structure",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:form-advhero.htm",
+    "old-help:rec-he.htm"
+  ],
+  "keywords": [
+    "Поля структуры героя",
+    "Hero structure fields"
+  ],
+  "questions": [
+    "Смещения HEX относительно указателя на структуру из старого снимка WoG. Это описание формата, не универсальные адреса для UN:C. Поля с неясным назначением не трактуются как API. Проверяйте размер и расположение структуры в своей сборке.",
+    "Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:form-advhero.htm",
+      "old-help:rec-he.htm"
+    ],
+    "values": [
+      "old-help:form-advhero.htm",
+      "old-help:rec-he.htm"
+    ],
+    "related": [
+      "old-help:form-advhero.htm",
+      "old-help:rec-he.htm"
+    ],
+    "reference-links": [
+      "old-help:form-advhero.htm",
+      "old-help:rec-he.htm"
+    ],
+    "ref-form-advhero": [
+      "old-help:form-advhero.htm"
+    ]
+  }
+}

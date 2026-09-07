@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.strpos",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/strpos",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+  ],
+  "keywords": [
+    "StrPos",
+    "FU(StrPos)",
+    "public",
+    "strings"
+  ],
+  "questions": [
+    "Ищет первое вхождение needlePtr в haystackPtr начиная с offset (по умолчанию 0). Возвращает смещение с нуля либо -1.",
+    "Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-shuffle",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-shuffle",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+  ],
+  "keywords": [
+    "Array_Shuffle",
+    "FU(Array_Shuffle)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Перемешивает элементы на месте через VR:R и перестановки. Строковые указатели переставляются без копирования текста. Для сетевой логики проверяйте синхронизацию генератора.",
+    "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+    ]
+  }
+}

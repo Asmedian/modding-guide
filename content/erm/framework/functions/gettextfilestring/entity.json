@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.gettextfilestring",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/gettextfilestring",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+  ],
+  "keywords": [
+    "GetTextFileString",
+    "FU(GetTextFileString)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Читает строку с нулевым индексом из загруженных ресурсов randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent. Имя нормализуется; неизвестное даёт Wrong txt filename!. Индекс строки не проверяется.",
+    "Reads a zero-based row from loaded randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent resources. Normalizes the name; unknown names return Wrong txt filename!. Does not validate row bounds."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring"
+    ]
+  }
+}

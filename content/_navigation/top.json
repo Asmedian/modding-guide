@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "docs",
+      "labelKey": "nav.documentation",
+      "href": "docs",
+      "enabled": true
+    },
+    {
+      "id": "erm",
+      "labelKey": "nav.ermScripts",
+      "href": "erm",
+      "enabled": true
+    },
+    {
+      "id": "plugins",
+      "labelKey": "nav.plugins",
+      "href": "plugins",
+      "enabled": false
+    }
+  ],
+  "github": {
+    "labelKey": "nav.github",
+    "href": "https://github.com/"
+  }
+}

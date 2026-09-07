@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.mg",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/mg",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-mg.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "MG",
+    "!?MG",
+    "OnBeforeAdventureMagic",
+    "OnAfterAdventureMagic"
+  ],
+  "questions": [
+    "0 перед открытием книги для выбора заклинания; 1 после попытки колдовства. v997 содержит номер заклинания после MG1.",
+    "0 before opening the spellbook to select a spell; 1 after the casting attempt. v997 contains the spell ID after MG1."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-mg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-mg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-mg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-mg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-mg.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-mg": [
+      "old-help:tr-mg.htm"
+    ]
+  }
+}

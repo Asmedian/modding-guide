@@ -1,0 +1,5541 @@
+[
+  {
+    "id": "era-source:lodman",
+    "type": "source-code",
+    "title": "ERA source: archive loading and resource redirection",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Lodman.pas",
+    "locator": {
+      "startLine": 1,
+      "endLine": 445
+    },
+    "version": "workspace snapshot",
+    "sha256": "EC0CBE81BF9FC84A9C544412CCDEBC6F0225CEEA14281B95118C8FCD8379C542"
+  },
+  {
+    "id": "era-source:reslib",
+    "type": "source-code",
+    "title": "ERA source: shared resource manager",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "ResLib.pas",
+    "locator": {
+      "startLine": 1,
+      "endLine": 358
+    },
+    "version": "workspace snapshot",
+    "sha256": "FF76027205F532A3A731F1048E79EEF5E5FDC5355CD33AECFCA709841764C729"
+  },
+  {
+    "id": "era-source:gameext",
+    "type": "source-code",
+    "title": "ERA source: initialization and game extension lifecycle",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "GameExt.pas",
+    "locator": {
+      "startLine": 480,
+      "endLine": 555
+    },
+    "version": "workspace snapshot",
+    "sha256": "7365CF6C1EA4FA2C522C64F0148D480DCC91BEB2772D2F4792EA9107160A6777"
+  },
+  {
+    "id": "era-source:era",
+    "type": "source-code",
+    "title": "ERA source: public core structures",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Era.pas",
+    "locator": {
+      "startLine": 1,
+      "endLine": 220
+    },
+    "version": "workspace snapshot",
+    "sha256": "AB40C5236B9143E15B14C1F290679873DA91D660E76BB781D1CA0BB0500AB7C0"
+  },
+  {
+    "id": "era-changelog:3",
+    "type": "changelog",
+    "title": "ERA III changelog",
+    "sourceSet": "era-changelog",
+    "relativeSourcePath": "era iii changelog.txt",
+    "locator": {
+      "note": "Used only for versioned, topic-specific facts."
+    },
+    "version": "through 3.9.30",
+    "sha256": "30353C0C34D9C69ED2408E13AC731FDE2E307C3E1312D2DD7A608555EA65A5EA"
+  },
+  {
+    "id": "old-help:index",
+    "type": "legacy-help",
+    "title": "Legacy ERM Help navigation snapshot",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "index.htm",
+    "version": "2.10b",
+    "sha256": "C9472553CE604F45CE08DFFB86E68266D900D9BB4446B6C675AD36D6FA52AC93"
+  },
+  {
+    "id": "era-tools:mmarchive-help",
+    "type": "tool-distribution",
+    "title": "MMArchive bundled English help",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "MMArchive/Language/English.txt",
+    "version": "MMArchive 1.3.1 bundle",
+    "sha256": "6C71FC29667C22DD04244D87741BC5B39A3D2684C761C695963469C2A76D682F"
+  },
+  {
+    "id": "era-tools:defpreview-help",
+    "type": "tool-distribution",
+    "title": "Def Preview bundled English help",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "DefPreview/Language/english.txt",
+    "version": "Def Preview 1.0 bundle",
+    "sha256": "5BD8BD7569F8CAFBF3CC099B570C1E7AD3BCC302499CECE278AC7E6DFA369848"
+  },
+  {
+    "id": "era-tools:binmagic-help",
+    "type": "tool-distribution",
+    "title": "BinMagic command-line help",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "BinMagic 1.0/binmagichelp.txt",
+    "version": "BinMagic 1.0 bundle",
+    "sha256": "6A581962B62333F53FD118D037715C8EE02E1D69CE1E70DEBBAA49C9BCA0659D"
+  },
+  {
+    "id": "era-tools:evme-help",
+    "type": "tool-distribution",
+    "title": "ERM Vars Memory Editor bundled help",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "EVME 1.0/help.txt",
+    "version": "EVME 1.0 bundle",
+    "sha256": "33BF81EBFF5012EC6809735882B7798FF8E7EEC2864C84E9AF23C37EDA462B9E"
+  },
+  {
+    "id": "era-tools:template-editor-help",
+    "type": "tool-distribution",
+    "title": "Heroes III Template Editor bundled help",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "TEditor/Readme&help.txt",
+    "version": "Template Editor 0.99 bundle",
+    "sha256": "4D31D318F753364A774B700D94338C8962E860205269DDAC6213FF2873C296BC"
+  },
+  {
+    "id": "era-tools:unc-to-bin",
+    "type": "tool-distribution",
+    "title": "UN:C to BIN converter bundled page",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "UncToBin/un_c_to_bin.html",
+    "version": "installed bundle snapshot",
+    "sha256": "D2C84773212D119BDCD7BCFDE7061E872D6E6C3F095BF5CDCFDD99927C12ADC2"
+  },
+  {
+    "id": "era-tools:mod-manager-format",
+    "type": "tool-distribution",
+    "title": "SD Mod Manager mod.json format",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "Mod Manager/docs/mod.json.md",
+    "version": "SD Mod Manager 0.98.83 bundle",
+    "sha256": "516FAA428C31305FE6A3E688BF00077B7D20F9C11016450D25837A9EE85F1C84"
+  },
+  {
+    "id": "era-tools:rsbink-player-help",
+    "type": "tool-distribution",
+    "title": "RS Bink Player bundled readme",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "RSBinkPlayer/readme.txt",
+    "version": "RS Bink Player 1.2.5 bundle",
+    "sha256": "BB9BD60742BD535F8FDDD0B998B20DAEBE48F5DD75A5F944E320FE6EDBCF192C"
+  },
+  {
+    "id": "era-tools:exe-builder-help",
+    "type": "tool-distribution",
+    "title": "ExeBuilder bundled readme",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "ExeBuilder/readme.txt",
+    "version": "installed bundle snapshot",
+    "sha256": "64D3FAD0EE496BD1EAEDC577C38CBECFCFB275C4272840ECDF46BB2BE09D8B9E"
+  },
+  {
+    "id": "era-tools:def-tool-binary",
+    "type": "tool-distribution",
+    "title": "Heroes3 Def Tool executable metadata",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "H3DefTool/H3DefTool.exe",
+    "version": "3.2.1.0",
+    "sha256": "544B867BFB53AD32C31CBFA16990EF05DD03F223CD6C9883FF903930FB6A3242"
+  },
+  {
+    "id": "era-tools:dialogs-editor-binary",
+    "type": "tool-distribution",
+    "title": "Heroes 3 Dialogs executable metadata",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "Dialogs Editor/dialogs editor.exe",
+    "version": "0.1.0.0",
+    "sha256": "CE3DF83BE32848102BC0757D5C878EF74245454B8B1E84E9CA71F1A4F01FD11B"
+  },
+  {
+    "id": "era-tools:object-txt-editor-binary",
+    "type": "tool-distribution",
+    "title": "Object TXT Files Editor executable metadata",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "ObjTxtEditor/objtxteditor.exe",
+    "version": "1.06.0026",
+    "sha256": "CF5B742434244FBD7D598012F6E59FBEEFD7BE74E06C0938F8931E68AEA88A3A"
+  },
+  {
+    "id": "era-tools:txt-editor-binary",
+    "type": "tool-distribution",
+    "title": "Txt Tables Editor executable metadata",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "TextEdit/TxtEdit.exe",
+    "version": "1.4.1.0",
+    "sha256": "758AFC18A4429089EEF88CE13DAF8D4087A590BED0D978B488E6CC7B7863B1B3"
+  },
+  {
+    "id": "era-tools:vfs-test-binary",
+    "type": "tool-distribution",
+    "title": "VfsTest executable snapshot",
+    "sourceSet": "era-tools",
+    "relativeSourcePath": "VfsTest/VfsTest.exe",
+    "version": "installed bundle snapshot",
+    "sha256": "A4E049D3ED6642C7EE246A2AF1E5F52D1C80667C5B6265D3F619D1A4505F125F"
+  },
+  {
+    "id": "old-help:cont-triggersol.htm",
+    "type": "legacy-help",
+    "title": "Cont/TriggerSol.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/TriggerSol.htm",
+    "version": "2.10b",
+    "sha256": "9D5BE6AD17E611074A97C204F3638C4A1FC58461015474949D45C9FE3EC6265B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 71
+    }
+  },
+  {
+    "id": "old-help:cont-receiversol.htm",
+    "type": "legacy-help",
+    "title": "Cont/ReceiverSol.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/ReceiverSol.htm",
+    "version": "2.10b",
+    "sha256": "9A64D70911A352561F0685FD2320116DF008FFBAD0AE1BE2F42A5B39C51DBF59",
+    "locator": {
+      "startLine": 1,
+      "endLine": 144
+    }
+  },
+  {
+    "id": "era-changelog:era-iii-changelog.txt",
+    "type": "changelog",
+    "title": "era iii changelog.txt",
+    "sourceSet": "era-changelog",
+    "relativeSourcePath": "era iii changelog.txt",
+    "version": "through 3.9.30",
+    "sha256": "30353C0C34D9C69ED2408E13AC731FDE2E307C3E1312D2DD7A608555EA65A5EA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 4121
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 3371
+    }
+  },
+  {
+    "id": "old-help:cont-zvse.htm",
+    "type": "legacy-help",
+    "title": "Cont/ZVSE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/ZVSE.htm",
+    "version": "2.10b",
+    "sha256": "AE6DD2470A57020086E3B9E46CECEAFF199B55038D123E08A6C29CD5B87C5129",
+    "locator": {
+      "startLine": 1,
+      "endLine": 15
+    }
+  },
+  {
+    "id": "old-help:tr-pi.htm",
+    "type": "legacy-help",
+    "title": "Tr/PI.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/PI.htm",
+    "version": "2.10b",
+    "sha256": "56A197F662D3D72142145606431899D4447620C8B238EBB8E2943E9DDC56D738",
+    "locator": {
+      "startLine": 1,
+      "endLine": 25
+    }
+  },
+  {
+    "id": "old-help:tr-gm.htm",
+    "type": "legacy-help",
+    "title": "Tr/GM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/GM.htm",
+    "version": "2.10b",
+    "sha256": "6894795834A56CF0E5FB06937022DA282FB46734D6B140883334426F0CD4D462",
+    "locator": {
+      "startLine": 1,
+      "endLine": 29
+    }
+  },
+  {
+    "id": "old-help:cont-flags.htm",
+    "type": "legacy-help",
+    "title": "Cont/Flags.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Flags.htm",
+    "version": "2.10b",
+    "sha256": "BC7062D461FC694A8A26EAD3550185744AEAAA977BFED6B7BFB93B7B11567E31",
+    "locator": {
+      "startLine": 1,
+      "endLine": 474
+    }
+  },
+  {
+    "id": "old-help:rec-iee.htm",
+    "type": "legacy-help",
+    "title": "Rec/iee.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/iee.htm",
+    "version": "2.10b",
+    "sha256": "F71D5364A087FFA457D36B844DAF53D8D5EAB80CD2030266864CAE08D8DCFE55",
+    "locator": {
+      "startLine": 1,
+      "endLine": 80
+    }
+  },
+  {
+    "id": "old-help:rec-re.htm",
+    "type": "legacy-help",
+    "title": "Rec/re.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/re.htm",
+    "version": "2.10b",
+    "sha256": "72C100D0EBD2C8F54EDCACBFAEE0CC15CDECB2C884787B85C18D7B094282974F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 94
+    }
+  },
+  {
+    "id": "old-help:rec-fu.htm",
+    "type": "legacy-help",
+    "title": "Rec/FU.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/FU.htm",
+    "version": "2.10b",
+    "sha256": "2279D2009A665A25B4011D4BC83DA4E24F82D0333B03513FC1D04780085EEA80",
+    "locator": {
+      "startLine": 1,
+      "endLine": 344
+    }
+  },
+  {
+    "id": "old-help:rec-do.htm",
+    "type": "legacy-help",
+    "title": "Rec/DO.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/DO.htm",
+    "version": "2.10b",
+    "sha256": "52517590F74122354BCB0E92CBFC5FA5943EFFFAE5AAEA6911640AE982B005A3",
+    "locator": {
+      "startLine": 1,
+      "endLine": 176
+    }
+  },
+  {
+    "id": "old-help:rec-ar.htm",
+    "type": "legacy-help",
+    "title": "Rec/AR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/AR.htm",
+    "version": "2.10b",
+    "sha256": "0333E962089C3BF12867379EA3FFA977C9182440580BF7BE876CEC071DD51C15",
+    "locator": {
+      "startLine": 1,
+      "endLine": 131
+    }
+  },
+  {
+    "id": "old-help:rec-ba.htm",
+    "type": "legacy-help",
+    "title": "Rec/BA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/BA.htm",
+    "version": "2.10b",
+    "sha256": "1A7613BEF3A1D67001A7C34F1ECF891144F0B29E2B06081A3BE5B491EE9DBEB2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 154
+    }
+  },
+  {
+    "id": "old-help:rec-bf.htm",
+    "type": "legacy-help",
+    "title": "Rec/BF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/BF.htm",
+    "version": "2.10b",
+    "sha256": "574594C72EDBBAE2EF30BFFA6E0D0102AC4C7494650F610319083F7F0C13C7AA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 107
+    }
+  },
+  {
+    "id": "old-help:rec-bg.htm",
+    "type": "legacy-help",
+    "title": "Rec/BG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/BG.htm",
+    "version": "2.10b",
+    "sha256": "E61FA403E53F7229BF3334E1C6A07F5D07552B2B08590CBF6687CA93B654BD56",
+    "locator": {
+      "startLine": 1,
+      "endLine": 119
+    }
+  },
+  {
+    "id": "old-help:rec-bh.htm",
+    "type": "legacy-help",
+    "title": "Rec/BH.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/BH.htm",
+    "version": "2.10b",
+    "sha256": "472F6E288925D44E8C383F06B2EF206E301A671F76F9311BFED05D2EF10825CB",
+    "locator": {
+      "startLine": 1,
+      "endLine": 100
+    }
+  },
+  {
+    "id": "old-help:rec-bm.htm",
+    "type": "legacy-help",
+    "title": "Rec/BM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/BM.htm",
+    "version": "2.10b",
+    "sha256": "2658E48F4A4E120158A849993607A005815E080DC1570828AFD2173A75821CBB",
+    "locator": {
+      "startLine": 1,
+      "endLine": 326
+    }
+  },
+  {
+    "id": "old-help:rec-bu.htm",
+    "type": "legacy-help",
+    "title": "Rec/BU.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/BU.htm",
+    "version": "2.10b",
+    "sha256": "44FA19C67BD20379FCEB60A4A9A9C147BB027DDA57D27C523568EBE6F5EE4CA5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 152
+    }
+  },
+  {
+    "id": "old-help:tr-ae.htm",
+    "type": "legacy-help",
+    "title": "Tr/AE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/AE.htm",
+    "version": "2.10b",
+    "sha256": "F7C67F647AFD819B2A2D38683353D69B6807825D66F64668037E8D98A40152AD",
+    "locator": {
+      "startLine": 1,
+      "endLine": 34
+    }
+  },
+  {
+    "id": "era-source:erm.pas",
+    "type": "source-code",
+    "title": "Erm.pas",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Erm.pas",
+    "version": "workspace snapshot",
+    "sha256": "509A33D3C701A88CF32EE938CCDC12742493A0F044D41D01529B483D6CE8D1C0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 9673
+    }
+  },
+  {
+    "id": "old-help:tr-ba.htm",
+    "type": "legacy-help",
+    "title": "Tr/BA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/BA.htm",
+    "version": "2.10b",
+    "sha256": "D1C2A05EF564F2C50AEB07BB5F64CCCAA785D931C2236303A9A3450EDE537E80",
+    "locator": {
+      "startLine": 1,
+      "endLine": 34
+    }
+  },
+  {
+    "id": "old-help:tr-bf.htm",
+    "type": "legacy-help",
+    "title": "Tr/BF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/BF.htm",
+    "version": "2.10b",
+    "sha256": "E4006A067AAC9EEC66501DD559242A80623FDD59F4C6F3363842542C5DA5351D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 16
+    }
+  },
+  {
+    "id": "old-help:tr-bg.htm",
+    "type": "legacy-help",
+    "title": "Tr/BG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/BG.htm",
+    "version": "2.10b",
+    "sha256": "91624D29C44449CCA74A2EE56C4E982D0A2A1E13D456D929075F4DF536AD7DB1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 27
+    }
+  },
+  {
+    "id": "old-help:tr-br.htm",
+    "type": "legacy-help",
+    "title": "Tr/BR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/BR.htm",
+    "version": "2.10b",
+    "sha256": "03495EC1C65E78DDF61DC4556F4ACD7825B8948899164B5E0AA8993FD2629504",
+    "locator": {
+      "startLine": 1,
+      "endLine": 30
+    }
+  },
+  {
+    "id": "old-help:tr-cm.htm",
+    "type": "legacy-help",
+    "title": "Tr/CM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/CM.htm",
+    "version": "2.10b",
+    "sha256": "34A966726F27567E534E1D3F26D83D0F87D86DA58F140D3C5B55000F894A31A5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 26
+    }
+  },
+  {
+    "id": "old-help:tr-co.htm",
+    "type": "legacy-help",
+    "title": "Tr/CO.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/CO.htm",
+    "version": "2.10b",
+    "sha256": "2B2AD4A8E53D5AF5701A2B23D47B8F7938221E34591D7995BDB7AA81781E329C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 21
+    }
+  },
+  {
+    "id": "old-help:tr-dl.htm",
+    "type": "legacy-help",
+    "title": "Tr/DL.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/DL.htm",
+    "version": "2.10b",
+    "sha256": "FE8D7101E54145B228DEA20E521BA7BB9DC0AF893741ECD54B5DE6527B9E3895",
+    "locator": {
+      "startLine": 1,
+      "endLine": 27
+    }
+  },
+  {
+    "id": "old-help:tr-fu.htm",
+    "type": "legacy-help",
+    "title": "Tr/FU.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/FU.htm",
+    "version": "2.10b",
+    "sha256": "EE41143CC8A9B894916B9F16476EA05408D1E660EE3678BBFADC6AA93A343231",
+    "locator": {
+      "startLine": 1,
+      "endLine": 21
+    }
+  },
+  {
+    "id": "old-help:tr-ge.htm",
+    "type": "legacy-help",
+    "title": "Tr/GE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/GE.htm",
+    "version": "2.10b",
+    "sha256": "7B1B7C2B717F2861440CB58F7AAAEE64AB2E99CFE8B220DCFC711576C6E0C273",
+    "locator": {
+      "startLine": 1,
+      "endLine": 18
+    }
+  },
+  {
+    "id": "old-help:tr-he.htm",
+    "type": "legacy-help",
+    "title": "Tr/HE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/HE.htm",
+    "version": "2.10b",
+    "sha256": "FDD4284C2A5E853C3C125DCDE91AF97B41EDDED8BBDC4C5104208D7EA9CC5D4E",
+    "locator": {
+      "startLine": 1,
+      "endLine": 14
+    }
+  },
+  {
+    "id": "old-help:tr-hl.htm",
+    "type": "legacy-help",
+    "title": "Tr/HL.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/HL.htm",
+    "version": "2.10b",
+    "sha256": "C8A59A0E2439963C058F5ABC4B24B824E31D40854F3EC6F2A1A18A718B395EC7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 22
+    }
+  },
+  {
+    "id": "old-help:tr-hm.htm",
+    "type": "legacy-help",
+    "title": "Tr/HM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/HM.htm",
+    "version": "2.10b",
+    "sha256": "BD6BD899A0C50AFF8FB38649E09C17C111636D6BD10046A3240D0FF404385661",
+    "locator": {
+      "startLine": 1,
+      "endLine": 26
+    }
+  },
+  {
+    "id": "old-help:tr-ip.htm",
+    "type": "legacy-help",
+    "title": "Tr/IP.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/IP.htm",
+    "version": "2.10b",
+    "sha256": "C230B3194575BBCC8EAD8C2EB30C13B581FDC1106B651B063DE76F9642263F23",
+    "locator": {
+      "startLine": 1,
+      "endLine": 46
+    }
+  },
+  {
+    "id": "old-help:tr-le.htm",
+    "type": "legacy-help",
+    "title": "Tr/LE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/LE.htm",
+    "version": "2.10b",
+    "sha256": "268C7BCE3C534825ADB76E66B6E98503D15B6C4C778E740290FE049FE0BA44B0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 35
+    }
+  },
+  {
+    "id": "old-help:tr-mf.htm",
+    "type": "legacy-help",
+    "title": "Tr/MF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/MF.htm",
+    "version": "2.10b",
+    "sha256": "F2309828011D5809864A1DF8FA8894DCFAD20A743542C5A7A75A17627373EF30",
+    "locator": {
+      "startLine": 1,
+      "endLine": 45
+    }
+  },
+  {
+    "id": "old-help:tr-mg.htm",
+    "type": "legacy-help",
+    "title": "Tr/MG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/MG.htm",
+    "version": "2.10b",
+    "sha256": "413AAC0BA0E139F0A61B5BC121221C5C331AB1A499521AD90460251C5E0630CA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 28
+    }
+  },
+  {
+    "id": "old-help:tr-mm.htm",
+    "type": "legacy-help",
+    "title": "Tr/MM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/MM.htm",
+    "version": "2.10b",
+    "sha256": "F10056A54286BEFBA64992AE32110B2A5D597BCDFCE5691DD7F73E969B4E7265",
+    "locator": {
+      "startLine": 1,
+      "endLine": 22
+    }
+  },
+  {
+    "id": "old-help:tr-mp.htm",
+    "type": "legacy-help",
+    "title": "Tr/MP.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/MP.htm",
+    "version": "2.10b",
+    "sha256": "7565135174DE67CDC57620EED3D47891428FFD28250E44F6C5BA07B1601A8D66",
+    "locator": {
+      "startLine": 1,
+      "endLine": 15
+    }
+  },
+  {
+    "id": "old-help:tr-mr.htm",
+    "type": "legacy-help",
+    "title": "Tr/MR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/MR.htm",
+    "version": "2.10b",
+    "sha256": "A6215C302E7F864C235696FF9E2D71486D87E59EB8A52FAC560A061B89638158",
+    "locator": {
+      "startLine": 1,
+      "endLine": 41
+    }
+  },
+  {
+    "id": "old-help:tr-mw.htm",
+    "type": "legacy-help",
+    "title": "Tr/MW.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/MW.htm",
+    "version": "2.10b",
+    "sha256": "C3F8A01916CE7E7EE826C98E61C0ABFD542BFE3D41F1C81ABFB2682B332E249D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 18
+    }
+  },
+  {
+    "id": "old-help:tr-ob.htm",
+    "type": "legacy-help",
+    "title": "Tr/OB.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/OB.htm",
+    "version": "2.10b",
+    "sha256": "D1B23DCF3E9B51BAF9B3111A5D4EAAA6334BA98F7B9EAFEE6D1981ED5597966E",
+    "locator": {
+      "startLine": 1,
+      "endLine": 58
+    }
+  },
+  {
+    "id": "old-help:tr-sn.htm",
+    "type": "legacy-help",
+    "title": "Tr/SN.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/SN.htm",
+    "version": "2.10b",
+    "sha256": "57AF4CD2E6EC03C27AD190FD1B39F0419363E70F7FF2696B2CD4E61801587241",
+    "locator": {
+      "startLine": 1,
+      "endLine": 16
+    }
+  },
+  {
+    "id": "old-help:tr-th.htm",
+    "type": "legacy-help",
+    "title": "Tr/TH.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/TH.htm",
+    "version": "2.10b",
+    "sha256": "76FC7720E6839B56F44867DBD8D2F81807102E9592FCEE76F653CAD93AAC6293",
+    "locator": {
+      "startLine": 1,
+      "endLine": 19
+    }
+  },
+  {
+    "id": "old-help:tr-tl.htm",
+    "type": "legacy-help",
+    "title": "Tr/TL.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/TL.htm",
+    "version": "2.10b",
+    "sha256": "0F03468BB7796E2624585C455C81BEA8E0237D3ECD76BC395543260246675B0B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 29
+    }
+  },
+  {
+    "id": "old-help:tr-tm.htm",
+    "type": "legacy-help",
+    "title": "Tr/TM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Tr/TM.htm",
+    "version": "2.10b",
+    "sha256": "5E38FE3B80CC989C10C22ED47E2AE3D5B203C4776DFB26A2FFB526A1534695DF",
+    "locator": {
+      "startLine": 1,
+      "endLine": 16
+    }
+  },
+  {
+    "id": "old-help:rec-dw.htm",
+    "type": "legacy-help",
+    "title": "Rec/DW.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/DW.htm",
+    "version": "2.10b",
+    "sha256": "94A5CAA9CBB759D557A889938A072D399A89D45658D865E21F9FC2F0C870AB3F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 96
+    }
+  },
+  {
+    "id": "old-help:rec-fr.htm",
+    "type": "legacy-help",
+    "title": "Rec/FR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/FR.htm",
+    "version": "2.10b",
+    "sha256": "44BFFA3B14CDD6BE1E83EB1C0D6E2EF9783E845D7B8B343DEE2D6BF1B47438DE",
+    "locator": {
+      "startLine": 1,
+      "endLine": 82
+    }
+  },
+  {
+    "id": "old-help:rec-gd.htm",
+    "type": "legacy-help",
+    "title": "Rec/GD.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/GD.htm",
+    "version": "2.10b",
+    "sha256": "94824F80EF30314BDD705CBCAD6081A88A04BBAC75E972EDCFF987E8B627E797",
+    "locator": {
+      "startLine": 1,
+      "endLine": 84
+    }
+  },
+  {
+    "id": "old-help:rec-gr.htm",
+    "type": "legacy-help",
+    "title": "Rec/GR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/GR.htm",
+    "version": "2.10b",
+    "sha256": "4306DCCC8FDB67AC94E67BFBCBEC9EBA4E805E21057550EB6724FC54F5AED06C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 87
+    }
+  },
+  {
+    "id": "old-help:rec-kt.htm",
+    "type": "legacy-help",
+    "title": "Rec/KT.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/KT.htm",
+    "version": "2.10b",
+    "sha256": "F3F30BC6E90D738861618065F304F43510DFDB7BB41B7FCC401433AA9BD46879",
+    "locator": {
+      "startLine": 1,
+      "endLine": 76
+    }
+  },
+  {
+    "id": "old-help:rec-ln.htm",
+    "type": "legacy-help",
+    "title": "Rec/LN.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/LN.htm",
+    "version": "2.10b",
+    "sha256": "22CF7AD7E96D9B601D64ABD6351283475A4BD3AA6FED6C7806BFF426547420E1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 79
+    }
+  },
+  {
+    "id": "old-help:rec-ml.htm",
+    "type": "legacy-help",
+    "title": "Rec/ML.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/ML.htm",
+    "version": "2.10b",
+    "sha256": "DB71BB3526314647129E959E9FAA8DA224E7C766CD88629E7B79119C79F8F3B4",
+    "locator": {
+      "startLine": 1,
+      "endLine": 72
+    }
+  },
+  {
+    "id": "old-help:rec-mt.htm",
+    "type": "legacy-help",
+    "title": "Rec/MT.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MT.htm",
+    "version": "2.10b",
+    "sha256": "ECB91152708671F3910E27BD6276AF5C11B49F046316CF5B0002AE6ECEBF2B82",
+    "locator": {
+      "startLine": 1,
+      "endLine": 83
+    }
+  },
+  {
+    "id": "old-help:rec-pr.htm",
+    "type": "legacy-help",
+    "title": "Rec/PR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/PR.htm",
+    "version": "2.10b",
+    "sha256": "A8912099AB73DDC81C50398FCD1E18C27DC9585528278FF438B6A2DDF1D06095",
+    "locator": {
+      "startLine": 1,
+      "endLine": 73
+    }
+  },
+  {
+    "id": "old-help:rec-sc.htm",
+    "type": "legacy-help",
+    "title": "Rec/SC.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SC.htm",
+    "version": "2.10b",
+    "sha256": "32EFDDC93BDC440E46FB53FBDF73AA6FD5DED15126E0D83E6CE7103DF3EA1169",
+    "locator": {
+      "startLine": 1,
+      "endLine": 90
+    }
+  },
+  {
+    "id": "old-help:rec-sg.htm",
+    "type": "legacy-help",
+    "title": "Rec/SG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SG.htm",
+    "version": "2.10b",
+    "sha256": "C7D5A2690FFC7EB066E8A5574C83BFA49E30E4F893A4DE7046D396B714C6D4F0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 76
+    }
+  },
+  {
+    "id": "old-help:rec-sk.htm",
+    "type": "legacy-help",
+    "title": "Rec/SK.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SK.htm",
+    "version": "2.10b",
+    "sha256": "7202DF1FADB86BF9847DB863BFFD4C101F37279ABAA4A3CBB9939C0F8A008DD1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 81
+    }
+  },
+  {
+    "id": "old-help:rec-sp.htm",
+    "type": "legacy-help",
+    "title": "Rec/SP.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SP.htm",
+    "version": "2.10b",
+    "sha256": "37718085E7D6BE2B020332BDEC114588D194B868CCA6B262995ABAB0C6510705",
+    "locator": {
+      "startLine": 1,
+      "endLine": 78
+    }
+  },
+  {
+    "id": "old-help:rec-sr.htm",
+    "type": "legacy-help",
+    "title": "Rec/SR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SR.htm",
+    "version": "2.10b",
+    "sha256": "E36E687498C23C742E41369DA6079DCCEB9E5C3C1E07439A99C82E5AC6C29536",
+    "locator": {
+      "startLine": 1,
+      "endLine": 71
+    }
+  },
+  {
+    "id": "old-help:rec-st.htm",
+    "type": "legacy-help",
+    "title": "Rec/ST.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/ST.htm",
+    "version": "2.10b",
+    "sha256": "5C63A08AC518877462872D0843840CC6B4EDDBC4CF3895E279938806443F7645",
+    "locator": {
+      "startLine": 1,
+      "endLine": 70
+    }
+  },
+  {
+    "id": "old-help:rec-sw.htm",
+    "type": "legacy-help",
+    "title": "Rec/SW.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SW.htm",
+    "version": "2.10b",
+    "sha256": "84716AFD04B98A4215894460C9B4068FDD41964A77790E8BDA699B02CAC14F8C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 75
+    }
+  },
+  {
+    "id": "old-help:rec-sy.htm",
+    "type": "legacy-help",
+    "title": "Rec/SY.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SY.htm",
+    "version": "2.10b",
+    "sha256": "24E7ACB9E44B9D813C4FE6E1955E20D100961137BC8E2CE4E7DC9497CBB29D6D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 79
+    }
+  },
+  {
+    "id": "old-help:rec-ur.htm",
+    "type": "legacy-help",
+    "title": "Rec/UR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/UR.htm",
+    "version": "2.10b",
+    "sha256": "AD6C4EC1F7EA655ADE2AEAE749D9885BBCFB6D51CF0EF4C4288AC7D42A1F63CB",
+    "locator": {
+      "startLine": 1,
+      "endLine": 70
+    }
+  },
+  {
+    "id": "old-help:rec-wg.htm",
+    "type": "legacy-help",
+    "title": "Rec/WG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/WG.htm",
+    "version": "2.10b",
+    "sha256": "7BF00CF5759FA6D541335618DCF70BBE3E5AFA531906DD3EC3B9F70DFC161F17",
+    "locator": {
+      "startLine": 1,
+      "endLine": 89
+    }
+  },
+  {
+    "id": "old-help:rec-wh.htm",
+    "type": "legacy-help",
+    "title": "Rec/WH.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/WH.htm",
+    "version": "2.10b",
+    "sha256": "45865B2AFF79893DDF12DE620725634A127606EDE6CBA2DE36A7129F12154C20",
+    "locator": {
+      "startLine": 1,
+      "endLine": 72
+    }
+  },
+  {
+    "id": "old-help:rec-wm.htm",
+    "type": "legacy-help",
+    "title": "Rec/WM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/WM.htm",
+    "version": "2.10b",
+    "sha256": "69995F04F17E8F799AED0124547E1B86B49C8461099C543E40BD394ED5063CE2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 73
+    }
+  },
+  {
+    "id": "old-help:rec-wt.htm",
+    "type": "legacy-help",
+    "title": "Rec/WT.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/WT.htm",
+    "version": "2.10b",
+    "sha256": "DBB89C0F8ABF85F170124532BF7247FA5AB6247C1410DB609933B6D8B98E2A17",
+    "locator": {
+      "startLine": 1,
+      "endLine": 75
+    }
+  },
+  {
+    "id": "old-help:rec-ch.htm",
+    "type": "legacy-help",
+    "title": "Rec/CH.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CH.htm",
+    "version": "2.10b",
+    "sha256": "349C0CBD0F81A196D7DFDA17615981B36902D43FEC6E5E77F8C7F1D385A70B6B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 80
+    }
+  },
+  {
+    "id": "old-help:rec-hl.htm",
+    "type": "legacy-help",
+    "title": "Rec/HL.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/HL.htm",
+    "version": "2.10b",
+    "sha256": "21543795E735A0B400E22594B1793521EC0AB8FFF7E1145650914AD93D7623E8",
+    "locator": {
+      "startLine": 1,
+      "endLine": 79
+    }
+  },
+  {
+    "id": "old-help:rec-ho.htm",
+    "type": "legacy-help",
+    "title": "Rec/HO.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/HO.htm",
+    "version": "2.10b",
+    "sha256": "F677FDEA9B6F15CCFBAD61AD9185CCC7D5EF69DF78754F8C09647406F5284C3E",
+    "locator": {
+      "startLine": 1,
+      "endLine": 84
+    }
+  },
+  {
+    "id": "old-help:rec-ht.htm",
+    "type": "legacy-help",
+    "title": "Rec/HT.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/HT.htm",
+    "version": "2.10b",
+    "sha256": "787EBB0C6A2552592C8AF460A63EF7BCB10C9133FBD15B688BE0C5BEEC72D670",
+    "locator": {
+      "startLine": 1,
+      "endLine": 141
+    }
+  },
+  {
+    "id": "old-help:rec-fc.htm",
+    "type": "legacy-help",
+    "title": "Rec/FC.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/FC.htm",
+    "version": "2.10b",
+    "sha256": "5E71A65452951D4DE709996E8796F8D34BEB786A6F3F909783852B1FE9D0DEC7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 142
+    }
+  },
+  {
+    "id": "old-help:rec-cb.htm",
+    "type": "legacy-help",
+    "title": "Rec/CB.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CB.htm",
+    "version": "2.10b",
+    "sha256": "ACA63B16D8BEA1F4637F4BDC8D22DAA53AED77A7C26BF6C5E3272573EBFBC5CB",
+    "locator": {
+      "startLine": 1,
+      "endLine": 132
+    }
+  },
+  {
+    "id": "old-help:rec-cd.htm",
+    "type": "legacy-help",
+    "title": "Rec/CD.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CD.htm",
+    "version": "2.10b",
+    "sha256": "8DBDE2CE5B1943F9779DF7CD8730BAF5ADAB6EF5D5F9C480832D43853B6806C5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 153
+    }
+  },
+  {
+    "id": "old-help:rec-ce.htm",
+    "type": "legacy-help",
+    "title": "Rec/CE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CE.htm",
+    "version": "2.10b",
+    "sha256": "098887312EA4ED52FED75B97127352E2B2391EA820F24EE93B2E9399FBE7BE17",
+    "locator": {
+      "startLine": 1,
+      "endLine": 126
+    }
+  },
+  {
+    "id": "old-help:rec-ge.htm",
+    "type": "legacy-help",
+    "title": "Rec/GE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/GE.htm",
+    "version": "2.10b",
+    "sha256": "BB0BFD9BAFB7CC7DA479509F3405F8FCB00E40F53829D2794A9F6BE3D292DDB6",
+    "locator": {
+      "startLine": 1,
+      "endLine": 143
+    }
+  },
+  {
+    "id": "old-help:rec-mc.htm",
+    "type": "legacy-help",
+    "title": "Rec/MC.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MC.htm",
+    "version": "2.10b",
+    "sha256": "03B18AF2186A5AB22500433CAD195924FAA07CAB8FAEC9D24FA3F5E201041938",
+    "locator": {
+      "startLine": 1,
+      "endLine": 30
+    }
+  },
+  {
+    "id": "old-help:rec-mm.htm",
+    "type": "legacy-help",
+    "title": "Rec/MM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MM.htm",
+    "version": "2.10b",
+    "sha256": "127FBC410E8C7A92927248EBA2B6A8C531D996283FBE9DA7981A5115560A953C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 83
+    }
+  },
+  {
+    "id": "old-help:rec-qw.htm",
+    "type": "legacy-help",
+    "title": "Rec/QW.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/QW.htm",
+    "version": "2.10b",
+    "sha256": "608AD03B686516852994DD12CFB6BED566EB34B870AE580AC91AB8A788343D35",
+    "locator": {
+      "startLine": 1,
+      "endLine": 97
+    }
+  },
+  {
+    "id": "old-help:rec-tm.htm",
+    "type": "legacy-help",
+    "title": "Rec/TM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/TM.htm",
+    "version": "2.10b",
+    "sha256": "434D87AC6B0F7F42DBB07939503A5DDF3BBDBC4AE297E219AC0F2FCD9730D523",
+    "locator": {
+      "startLine": 1,
+      "endLine": 96
+    }
+  },
+  {
+    "id": "old-help:rec-tl.htm",
+    "type": "legacy-help",
+    "title": "Rec/TL.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/TL.htm",
+    "version": "2.10b",
+    "sha256": "E9CB0EA31E5496093964E7DA81D1D34C301FAE585B00BCDC8309DBEFC26FA182",
+    "locator": {
+      "startLine": 1,
+      "endLine": 120
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---consts.erm",
+    "type": "source-code",
+    "title": "lib/9999 era - consts.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - consts.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "AF239CA72F045BA0B1CBD5FBAAC01972BCD1C8B4B18A70B83AD28AA071663C81",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1924
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---key-codes.erm",
+    "type": "source-code",
+    "title": "lib/9999 era - key codes.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - key codes.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "B1CA326F69B2972EF1E3BE1BFDF48CD830E7A9714F21B1D3BEA2905106B541EF",
+    "locator": {
+      "startLine": 1,
+      "endLine": 171
+    }
+  },
+  {
+    "id": "old-help:rec-mf.htm",
+    "type": "legacy-help",
+    "title": "Rec/MF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MF.htm",
+    "version": "2.10b",
+    "sha256": "8EB1345E22C0B96C6E47A67E873A8154F65B616E00D7B0B995BF38386EAC069A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 109
+    }
+  },
+  {
+    "id": "old-help:rec-mr.htm",
+    "type": "legacy-help",
+    "title": "Rec/MR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MR.htm",
+    "version": "2.10b",
+    "sha256": "7D51B299CD78CDA7D896D5EBAAE39D6A31C22AA08D8A40159F3723207A891EA5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 114
+    }
+  },
+  {
+    "id": "old-help:rec-mp.htm",
+    "type": "legacy-help",
+    "title": "Rec/MP.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MP.htm",
+    "version": "2.10b",
+    "sha256": "1AEEA81994C50BBDFFFE5454C42C4E8B7FB7E35AAD471C2267F4DFBF181F11C0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 111
+    }
+  },
+  {
+    "id": "old-help:rec-mp-era.htm",
+    "type": "legacy-help",
+    "title": "Rec/MP_era.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MP_era.htm",
+    "version": "2.10b",
+    "sha256": "CC9812210B2E1C659FEC52BE9E7DC3869496E6C29063915F2567C84AAC46F258",
+    "locator": {
+      "startLine": 1,
+      "endLine": 129
+    }
+  },
+  {
+    "id": "old-help:rec-ob.htm",
+    "type": "legacy-help",
+    "title": "Rec/OB.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/OB.htm",
+    "version": "2.10b",
+    "sha256": "65E7F88FB958264876EA44E319C264FA3F3CE44819CF83E8448B240EB41F4CFA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 166
+    }
+  },
+  {
+    "id": "old-help:rec-po.htm",
+    "type": "legacy-help",
+    "title": "Rec/PO.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/PO.htm",
+    "version": "2.10b",
+    "sha256": "EDF3FBF59713F3397CFCA6A1C8727949962408C52CA3D11607C37F507F2C4083",
+    "locator": {
+      "startLine": 1,
+      "endLine": 170
+    }
+  },
+  {
+    "id": "old-help:rec-ai.htm",
+    "type": "legacy-help",
+    "title": "Rec/AI.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/AI.htm",
+    "version": "2.10b",
+    "sha256": "61C0B314D696F0B5AA1065F55316F28CB09F353312A1547AE5DBE5B7C38993E0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 114
+    }
+  },
+  {
+    "id": "old-help:rec-mn.htm",
+    "type": "legacy-help",
+    "title": "Rec/MN.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MN.htm",
+    "version": "2.10b",
+    "sha256": "1DB2DDC85E226BED017B2F643ADD0FEBA3DD8059B145151673327C04361B07C5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 94
+    }
+  },
+  {
+    "id": "old-help:rec-mo.htm",
+    "type": "legacy-help",
+    "title": "Rec/MO.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MO.htm",
+    "version": "2.10b",
+    "sha256": "4EE5914AB09D94E520A18D9BAAB8FBCED934FA1E1D9E19842412E9FA536E5D42",
+    "locator": {
+      "startLine": 1,
+      "endLine": 154
+    }
+  },
+  {
+    "id": "old-help:rec-pm.htm",
+    "type": "legacy-help",
+    "title": "Rec/PM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/PM.htm",
+    "version": "2.10b",
+    "sha256": "434BBBD9D3A83F1EFC49FCDD4BC87D343A5372DDDDE1BF264736F85F2B4CC29F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 100
+    }
+  },
+  {
+    "id": "old-help:rec-pa.htm",
+    "type": "legacy-help",
+    "title": "Rec/PA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/PA.htm",
+    "version": "2.10b",
+    "sha256": "9C9DAC0A3AA1A8F85D710256833A35DDA9BBF12C464D146076E2743477081863",
+    "locator": {
+      "startLine": 1,
+      "endLine": 167
+    }
+  },
+  {
+    "id": "old-help:rec-ex.htm",
+    "type": "legacy-help",
+    "title": "Rec/EX.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/EX.htm",
+    "version": "2.10b",
+    "sha256": "47D3FF994AAB5369E8D7A3C619273C8813CED0B728E6352B9E12500B3B60C8BA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 206
+    }
+  },
+  {
+    "id": "old-help:rec-ma.htm",
+    "type": "legacy-help",
+    "title": "Rec/MA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MA.htm",
+    "version": "2.10b",
+    "sha256": "1E16BFA4B78550831B610FE8CC1DF38EEA1868E394BD1B424BB9322CBF6E787A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 179
+    }
+  },
+  {
+    "id": "old-help:rec-ss.htm",
+    "type": "legacy-help",
+    "title": "Rec/SS.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SS.htm",
+    "version": "2.10b",
+    "sha256": "923BC00A68DF33419284660664709E8E1DDFD6C1D0E983A2E26B6A85D13E9EED",
+    "locator": {
+      "startLine": 1,
+      "endLine": 174
+    }
+  },
+  {
+    "id": "old-help:rec-ip.htm",
+    "type": "legacy-help",
+    "title": "Rec/IP.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/IP.htm",
+    "version": "2.10b",
+    "sha256": "C49E2DBFFDFCD0A71AAD8216B94A67B0AFECB868CDF7CD2D778982D5583C478B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 168
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "startLine": 1,
+      "endLine": 83
+    }
+  },
+  {
+    "id": "old-help:rec-ca.htm",
+    "type": "legacy-help",
+    "title": "Rec/CA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CA.htm",
+    "version": "2.10b",
+    "sha256": "EEECF6D3EFFF67B28E0EE220237B41BD868BB21956AACF2D099D3889569B5C33",
+    "locator": {
+      "startLine": 1,
+      "endLine": 160
+    }
+  },
+  {
+    "id": "old-help:rec-cm.htm",
+    "type": "legacy-help",
+    "title": "Rec/CM.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CM.htm",
+    "version": "2.10b",
+    "sha256": "A5589AB8AB73B6AC6BD34B8DE17980A527BF9549C4AB3AC881941BA0A2D6FAF2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 152
+    }
+  },
+  {
+    "id": "old-help:rec-co.htm",
+    "type": "legacy-help",
+    "title": "Rec/CO.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/CO.htm",
+    "version": "2.10b",
+    "sha256": "88F2CFAD4EF485E2D68DF1C72E38766682EBD318BA11B730974DD5DC37A03BCF",
+    "locator": {
+      "startLine": 1,
+      "endLine": 257
+    }
+  },
+  {
+    "id": "old-help:rec-le.htm",
+    "type": "legacy-help",
+    "title": "Rec/LE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/LE.htm",
+    "version": "2.10b",
+    "sha256": "62097F70278AAC81601D6E4770BB1EB3CA0532DD187252D8AEF95744ACE4A464",
+    "locator": {
+      "startLine": 1,
+      "endLine": 203
+    }
+  },
+  {
+    "id": "old-help:rec-ow.htm",
+    "type": "legacy-help",
+    "title": "Rec/OW.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/OW.htm",
+    "version": "2.10b",
+    "sha256": "27C5602681F4CCE77B8C081E0BB843A2CA005F35BDC27D2692265E7BC9644C8F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 289
+    }
+  },
+  {
+    "id": "old-help:rec-mw.htm",
+    "type": "legacy-help",
+    "title": "Rec/MW.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/MW.htm",
+    "version": "2.10b",
+    "sha256": "41B07FA5E0C75AA9FA94CA33D56DED19AFF8F16EFC7823F0FA052D043AF3D732",
+    "locator": {
+      "startLine": 1,
+      "endLine": 136
+    }
+  },
+  {
+    "id": "old-help:rec-tr.htm",
+    "type": "legacy-help",
+    "title": "Rec/TR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/TR.htm",
+    "version": "2.10b",
+    "sha256": "D72F2D8B3F09C8647CA661A4665342AA544487192DACAF59D1B58CAE5570D785",
+    "locator": {
+      "startLine": 1,
+      "endLine": 318
+    }
+  },
+  {
+    "id": "old-help:rec-vc.htm",
+    "type": "legacy-help",
+    "title": "Rec/VC.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/VC.htm",
+    "version": "2.10b",
+    "sha256": "C0AEF4B1E17DA011ADB713C9182DA54DBC91C48CB65908A4B71F4AD012FA99EF",
+    "locator": {
+      "startLine": 1,
+      "endLine": 160
+    }
+  },
+  {
+    "id": "old-help:rec-he.htm",
+    "type": "legacy-help",
+    "title": "Rec/HE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/HE.htm",
+    "version": "2.10b",
+    "sha256": "11DD31C31D4C4D44437206618ABCE295BD7599768E1BE6CF2B2449CFCE942910",
+    "locator": {
+      "startLine": 1,
+      "endLine": 777
+    }
+  },
+  {
+    "id": "old-help:rec-ea.htm",
+    "type": "legacy-help",
+    "title": "Rec/EA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/EA.htm",
+    "version": "2.10b",
+    "sha256": "DBB270B74F3258F658F7D5596D192BCC387EC0850DD9B09E4EDDC517679B1CD7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 321
+    }
+  },
+  {
+    "id": "old-help:rec-qu.htm",
+    "type": "legacy-help",
+    "title": "Rec/QU.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/QU.htm",
+    "version": "2.10b",
+    "sha256": "35DCA26A817287D0AF39527BC785F8E6E8C2746D54B1BB82FEE2DE15344D76DA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 217
+    }
+  },
+  {
+    "id": "old-help:rec-vr.htm",
+    "type": "legacy-help",
+    "title": "Rec/VR.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/VR.htm",
+    "version": "2.10b",
+    "sha256": "6940165560A32CFF724422179921787D423564B42D5234EB340427D2770F3320",
+    "locator": {
+      "startLine": 1,
+      "endLine": 400
+    }
+  },
+  {
+    "id": "old-help:rec-dl.htm",
+    "type": "legacy-help",
+    "title": "Rec/DL.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/DL.htm",
+    "version": "2.10b",
+    "sha256": "EF576683F20E50C701D4D4FDA823D3A1DD3F6ED084C8EA419EAAC011ECB90D3F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 552
+    }
+  },
+  {
+    "id": "old-help:rec-rd.htm",
+    "type": "legacy-help",
+    "title": "Rec/RD.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/RD.htm",
+    "version": "2.10b",
+    "sha256": "9198C5F9A4F3678682A89E08F8233EB9E29C72ABCB67D640CCAFE2AC6971C92E",
+    "locator": {
+      "startLine": 1,
+      "endLine": 243
+    }
+  },
+  {
+    "id": "old-help:rec-if.htm",
+    "type": "legacy-help",
+    "title": "Rec/IF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/IF.htm",
+    "version": "2.10b",
+    "sha256": "B111CD100B8647C7E1E6B6CD1351AA06E66C1625826A6206140A63E6872019D7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 431
+    }
+  },
+  {
+    "id": "old-help:rec-sn.htm",
+    "type": "legacy-help",
+    "title": "Rec/SN.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SN.htm",
+    "version": "2.10b",
+    "sha256": "C960B0CA97FABDFBDACA922D0D677C25DA057A1B7DF7C4FEF3FDBA31AFBE943D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 124
+    }
+  },
+  {
+    "id": "old-help:rec-sn-era.htm",
+    "type": "legacy-help",
+    "title": "Rec/SN_era.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/SN_era.htm",
+    "version": "2.10b",
+    "sha256": "9773EA99DC3C15F45EA73A3FDED9281A5C509BF3085F0E7FA37F7885BE6CB0A5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 624
+    }
+  },
+  {
+    "id": "old-help:rec-un.htm",
+    "type": "legacy-help",
+    "title": "Rec/UN.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Rec/UN.htm",
+    "version": "2.10b",
+    "sha256": "3F7C1B9E11BE1B665726479C7C1397A70C148031291F205F4C4A23DCCAB60060",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1186
+    }
+  },
+  {
+    "id": "era-source:triggers.pas",
+    "type": "source-code",
+    "title": "Triggers.pas",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Triggers.pas",
+    "version": "workspace snapshot",
+    "sha256": "39201231417E6DE57267EA540EBA8392A1FBC3DBD493421CCEA096A142E9B1A3",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1366
+    }
+  },
+  {
+    "id": "era-source:adverm.pas",
+    "type": "source-code",
+    "title": "AdvErm.pas",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "AdvErm.pas",
+    "version": "workspace snapshot",
+    "sha256": "45A21187AF723981DBE87E78CF3E2DED10AB432105962065F023D463AB14FFDA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 3784
+    }
+  },
+  {
+    "id": "old-help:era-new-events.htm",
+    "type": "legacy-help",
+    "title": "ERA/new_events.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "ERA/new_events.htm",
+    "version": "2.10b",
+    "sha256": "4F8CE50D0F44685774236AC7B6B050C590D81B636D8DD8817D99D9575FE32324",
+    "locator": {
+      "startLine": 1,
+      "endLine": 394
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 12-15: ClearEventChainData"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 16-46: SaveEventData"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 47-87: RestoreEventData"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 88-90: SavePrevKeyModsState"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 91-93: RestorePrevKeyModsState"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 94-128: GetKeyModsState"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 129-138: CollectMouseEventData"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 139-141: SavePrevMouseEventData"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 142-144: RestorePrevMouseEventData"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-145-147-onsavegameread",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 145-147: OnSavegameRead"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 148-156: OnKeyPressed"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 157-164: OnKeyReleased"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 165-170: EnterMouseEvent"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 171-174: LeaveMouseEvent"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 175-177: OnAdventureMapRightMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-178-180-ontownmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 178-180: OnTownMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 181-183: OnHeroScreenMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 184-186: OnHeroesMeetScreenMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-187-189-onbattlescreenmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 187-189: OnBattleScreenMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 190-192: OnAdventureMapLeftMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-193-195-onrecruitdlgmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 193-195: OnRecruitDlgMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-196-198-ontownhallmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 196-198: OnTownHallMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-199-201-onkingdomoverviewmouseclick",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 199-201: OnKingdomOverviewMouseClick"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-202-204-onbattlemousehint",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 202-204: OnBattleMouseHint"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 205-207: OnTownMouseHint"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 208-213: OnCustomDialogEvent"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 214-227: OnAfterErmInstructions"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 228-250: OnEveryDay"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-251-254-onbeforebattle",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 251-254: OnBeforeBattle"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 255-262: OnBeforeBattleUniversal"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-263-265-onsetupbattlefield",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 263-265: OnSetupBattlefield"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-266-268-onbattleround",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 266-268: OnBattleRound"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 269-274: OnBeforeBattleStackTurn"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-275-284-onbattlestackobtainsturn",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 275-284: OnBattleStackObtainsTurn"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 285-291: OnBeforeBattleAction"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-292-300-onstartorload",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 292-300: OnStartOrLoad"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 301-336: NewIntArray"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 337-375: NewStrArray"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 376-400: Array_Push"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 401-445: Array_Pop"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 446-517: Array_Move"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 518-586: Array_Splice"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 587-618: Array_Copy"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 619-630: Array_Clone"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 631-688: Array_Merge"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 689-743: Array_Slice"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 744-780: Array_Join"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 781-812: Array_Sort"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 813-834: CompareStrings_Bridge_INTERNAL"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 835-889: Array_CustomSort"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 890-933: Array_SortedUnique"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 934-955: Array_Shuffle"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 956-981: Array_Revert"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 982-1010: Array_Fill"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1011-1040: Array_Resize"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1041-1053: Array_EnsureMinSize"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1054-1084: Array_CountValue"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1085-1123: Array_IndexOf"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1124-1165: Array_Find"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1166-1172: Pow"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1173-1179: Sqrt"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1180-1193: IntLog2"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1194-1223: ConstructBitMask"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1224-1240: DeconstructBitMask"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1241-1294: PackUnion"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1295-1333: UnpackUnion"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1334-1341: Tm32Encode"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1342-1349: Tm32Decode"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1350-1360: Hash32"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1361-1375: MakeRngSeed"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1376-1410: SplitMix32"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1411-1420: Trim"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1421-1430: GetStrAtAddr"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1431-1442: CompareStrings"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1443-1457: StrToUpper"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1458-1472: StrToLower"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1473-1485: Substr"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1486-1497: StrPos"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1498-1510: StrReplace"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1511-1520: Interpolate"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1521-1532: DecorateInt"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1533-1553: FormatQuantity"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1554-1565: FileExists"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1566-1577: DirExists"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1578-1588: DeleteFile"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1589-1596: ClearIniCache"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1597-1604: EmptyIniCache"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1605-1612: CreateDir"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1613-1620: SaveIni"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1621-1629: MergeIniWithDefault"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1630-1662: WriteIniInts"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1663-1696: WriteIniStrings"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1697-1735-readinistrings",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1697-1735: ReadIniStrings"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1736-1777: ReadIniInts"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1778-1806-readjsonintarray",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1778-1806: ReadJsonIntArray"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1807-1834: ReadJsonStrArray"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1835-1869: LoadIntGlobalsFromJson"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1870-1931: ScanDir"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1932-1986: GetModList"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 1987-2009: SaveGame"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2010-2013: DisableErrors"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2014-2021: EnableErrors"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2022-2025: H3Dlg_StopAnimation"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2026-2029: H3Dlg_ResumeAnimation"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2030-2037: H3Dlg_ShowPopup"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2038-2087: H3Dlg_Coords"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2088-2102: H3Dlg_CenterAtMouse"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2103-2108: H3Dlg_GetRootDlg"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2109-2114-h3dlg-getcurrentdlg",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2109-2114: H3Dlg_GetCurrentDlg"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2115-2125: H3Dlg_GetCurrentDlgId"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2126-2151: H3Dlg_SendCmdToItem"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2152-2166-h3dlg-drawitemonscreen",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2152-2166: H3Dlg_DrawItemOnScreen"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2167-2183: H3Dlg_UpdateItemRange"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2184-2191: DL_FindById"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2192-2197: DL_Destroy"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2198-2214: DL_ShowPopup"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2215-2222: DL_CenterAtMouse"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2223-2255: DL_Coords"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2256-2272: DL_GetSize"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2273-2289: DL_SetSize"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2290-2331: DL_AlignDlg"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2332-2356: DL_SetPlayerColor"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2357-2362: ClearScreenLog"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2363-2376: AdvMap_SetHint"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2377-2403: AdvMap_SetInfoPanelText"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2404-2455: AdvMap_SetInfoPanelDef"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2456-2467: RadioDlg_Reset"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2468-2473: RadioDlg_SetTitle"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2474-2489: RadioDlg_AddCancelButton"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2490-2496: RadioDlg_SelectItem"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2497-2513: RadioDlg_SelectItemByValue"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2514-2531: RadioDlg_SelectItemByTag"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2532-2560: RadioDlg_AddItem"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2561-2577: RadioDlg_AddItems"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2578-2583: RadioDlg_GetNumItems"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2584-2596: RadioDlg_GetItemValue"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2597-2611: RadioDlg_GetItemTag"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2612-2678: RadioDlg_Show"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2679-2755: PrepareMultiPicDialog"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2756-2766: ShowAnimatedDefDlg"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2767-2798: PrepareMessageBoxText"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2799-2803: Battle_RedrawGridShadow"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2804-2816: BattleStack_Shoot"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2817-2836: BattleStack_MakeActive"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2837-2847: ActivateNextStack"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2848-2904: UpdateBattleVars"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2905-2913-onbattlereplay",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2905-2913: OnBattleReplay"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2914-2925: GetTimeMsec"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2926-2935: GetProcessGuid"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2936-2949: IsDllLoaded"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 2950-3019: MonCountToFuzzyText"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3020-3027: GetMaxMonsterId"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3028-3037-getupgradedmonster",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3028-3037: GetUpgradedMonster"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3038-3054: GetDegradedMonCandidates"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3055-3061-getmaxheroid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3055-3061: GetMaxHeroId"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3062-3080-getheroportraitname",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3062-3080: GetHeroPortraitName"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3081-3110: GetHeroPrimarySkillsWithoutArts"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3111-3133: GetArtAtSlot"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3134-3154: ChangeArtModAtSlot"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3155-3169: AddArtToHero"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3170-3190: EquipArtToSlot"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3191-3198: UnequipArtFromSlot"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3199-3208-getmaxartifactid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3199-3208: GetMaxArtifactId"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3209-3216-getmaxspellid",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3209-3216: GetMaxSpellId"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3217-3284: GetTextFileString"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3285-3320: GetTextTableString"
+    }
+  },
+  {
+    "id": "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata",
+    "type": "source-code",
+    "title": "lib/9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib/9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+    "locator": {
+      "note": "lines 3321-3370: H3Quests_RefreshData"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-3-7-onaftererminstructions-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 3-7: OnAfterErmInstructions_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-8-12-onafterloadgame-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 8-12: OnAfterLoadGame_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 13-25: OnKeyPressed_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-26-36-onkeyreleased-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 26-36: OnKeyReleased_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 37-39: OnAdventureMapRightMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 40-42: OnTownMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 43-45: OnHeroScreenMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 46-48: OnHeroesMeetScreenMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-49-51-onbattlescreenmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 49-51: OnBattleScreenMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 52-54: OnAdventureMapLeftMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-55-57-onrecruitdlgmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 55-57: OnRecruitDlgMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-58-60-ontownhallmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 58-60: OnTownHallMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-61-63-onkingdomoverviewmouseclick-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 61-63: OnKingdomOverviewMouseClick_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-64-66-onbattlemousehint-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 64-66: OnBattleMouseHint_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 67-69: OnTownMouseHint_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 70-73: OnCustomDialogEvent_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-74-76-onbeforebattle-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 74-76: OnBeforeBattle_Quit"
+    }
+  },
+  {
+    "id": "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit",
+    "type": "source-code",
+    "title": "lib_end/-9999 era - stdlib.erm",
+    "sourceSet": "era-framework",
+    "relativeSourcePath": "lib_end/-9999 era - stdlib.erm",
+    "version": "requires ERA 3.9.15+",
+    "sha256": "BC86F8F4390703A8CA8D8A387E376167DB7D06AAEFFB9BD565890F7FE0F28A95",
+    "locator": {
+      "note": "lines 77-83: OnBeforeBattleUniversal_Quit"
+    }
+  },
+  {
+    "id": "old-help:cont-usedvar.htm",
+    "type": "legacy-help",
+    "title": "Cont/UsedVar.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/UsedVar.htm",
+    "version": "2.10b",
+    "sha256": "4FCA26A545680AE057FD04D43A64C12112A3788FCCB599E2119F5C895CB6495C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 927
+    }
+  },
+  {
+    "id": "old-help:form-ap.htm",
+    "type": "legacy-help",
+    "title": "Form/AP.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/AP.htm",
+    "version": "2.10b",
+    "sha256": "4050C713BCAE28CDC894D38E83287D54BF924F31C56FC3B1AF1C55407EBAC6A7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 8
+    }
+  },
+  {
+    "id": "old-help:form-ap1.htm",
+    "type": "legacy-help",
+    "title": "Form/AP1.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/AP1.htm",
+    "version": "2.10b",
+    "sha256": "5EC2C7795715FDDBF145FC23747D0F1A46A379F7D9D8CDB8804FBAA1F79039E0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 71
+    }
+  },
+  {
+    "id": "old-help:form-ap2.htm",
+    "type": "legacy-help",
+    "title": "Form/AP2.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/AP2.htm",
+    "version": "2.10b",
+    "sha256": "8C5F944A1580FF8D34150020E93188E521F0F3A3724D182A2DE000608BA436B9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 85
+    }
+  },
+  {
+    "id": "old-help:form-ap3.htm",
+    "type": "legacy-help",
+    "title": "Form/AP3.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/AP3.htm",
+    "version": "2.10b",
+    "sha256": "3CFB540CF4DE0867091D41707491DF90B591BD4456F4BE19414D992F40C0293C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 77
+    }
+  },
+  {
+    "id": "old-help:form-formatanimation.htm",
+    "type": "legacy-help",
+    "title": "Form/FormatAnimation.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/FormatAnimation.htm",
+    "version": "2.10b",
+    "sha256": "8D464B76D0C7BB708A04C1B97A84DAC3916E5DE4A1EFAC7882D41824BA668AC0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 279
+    }
+  },
+  {
+    "id": "old-help:form-defspell.htm",
+    "type": "legacy-help",
+    "title": "Form/DefSpell.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/DefSpell.htm",
+    "version": "2.10b",
+    "sha256": "CDD8729AB917AD4CCE891952A4DF88349BEECD46C2F73D5CB4495CC9DFDA585C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 200
+    }
+  },
+  {
+    "id": "old-help:form-he-v.htm",
+    "type": "legacy-help",
+    "title": "Form/HE_V.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/HE_V.htm",
+    "version": "2.10b",
+    "sha256": "0F1414F8C6D809BFD52C0BA4E04ED58FC839E83C648B914E6870026F803242C9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 53
+    }
+  },
+  {
+    "id": "old-help:form-he-r.htm",
+    "type": "legacy-help",
+    "title": "Form/HE_R.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/HE_R.htm",
+    "version": "2.10b",
+    "sha256": "0D2959CF98FD96A307A14306D4BCA80A2BE3C55AA3DB25EAA8D40C4962F7015A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 108
+    }
+  },
+  {
+    "id": "old-help:form-cobo.htm",
+    "type": "legacy-help",
+    "title": "Form/CoBo.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/CoBo.htm",
+    "version": "2.10b",
+    "sha256": "C42B5574BE0CE8C9329B5517E8D8987BEE19F3F7889B9C9615687819B6AAF539",
+    "locator": {
+      "startLine": 1,
+      "endLine": 93
+    }
+  },
+  {
+    "id": "old-help:form-commanders.htm",
+    "type": "legacy-help",
+    "title": "Form/Commanders.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Commanders.htm",
+    "version": "2.10b",
+    "sha256": "01AB5909144E8D22D279FC745A6209811544552B3A2580215FB86DD4AB36C81A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 64
+    }
+  },
+  {
+    "id": "old-help:form-obstacles-bit.htm",
+    "type": "legacy-help",
+    "title": "Form/Obstacles_bit.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Obstacles_bit.htm",
+    "version": "2.10b",
+    "sha256": "38F530841F7872DA0879BAD67CA288B4B988E5900FBDCA079614FE2D91A55F89",
+    "locator": {
+      "startLine": 1,
+      "endLine": 33
+    }
+  },
+  {
+    "id": "old-help:form-obstacles.htm",
+    "type": "legacy-help",
+    "title": "Form/Obstacles.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Obstacles.htm",
+    "version": "2.10b",
+    "sha256": "1566728D47B7002D84C2960631CD9BC085E7D04A9DE34666B98E5CE115936742",
+    "locator": {
+      "startLine": 1,
+      "endLine": 380
+    }
+  },
+  {
+    "id": "old-help:form-bg.htm",
+    "type": "legacy-help",
+    "title": "Form/BG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/BG.htm",
+    "version": "2.10b",
+    "sha256": "BC278673DCB86943669AA10F7A02D5B250B8A75FA84EBA5E761FE160A1DDC90A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 48
+    }
+  },
+  {
+    "id": "old-help:form-weapon.htm",
+    "type": "legacy-help",
+    "title": "Form/weapon.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/weapon.htm",
+    "version": "2.10b",
+    "sha256": "936216483EC0AE693CD176910E56EF2010F06BA3D0208200154A56F2A4785528",
+    "locator": {
+      "startLine": 1,
+      "endLine": 81
+    }
+  },
+  {
+    "id": "old-help:cont-ert.htm",
+    "type": "legacy-help",
+    "title": "Cont/ERT.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/ERT.htm",
+    "version": "2.10b",
+    "sha256": "E87A8D6AAED9C775140239848CCF7DCCADCCC2F6ACCA672F5CBE7719E8817A9B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 85
+    }
+  },
+  {
+    "id": "old-help:cont-ers.htm",
+    "type": "legacy-help",
+    "title": "Cont/ERS.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/ERS.htm",
+    "version": "2.10b",
+    "sha256": "923DE587C784E28B7800764A9C8BE418B5F2287F874B9ED9B55BCD77A12AB2B5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 32
+    }
+  },
+  {
+    "id": "old-help:cont-json.htm",
+    "type": "legacy-help",
+    "title": "Cont/Json.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Json.htm",
+    "version": "2.10b",
+    "sha256": "4F55608FA0BE8321438FBBF0622D24EE0ECB87A5BAA431CEA2584319BF2955B3",
+    "locator": {
+      "startLine": 1,
+      "endLine": 76
+    }
+  },
+  {
+    "id": "erm-forum:faq-.html",
+    "type": "forum",
+    "title": "FAQ по моддингу.html",
+    "sourceSet": "erm-forum",
+    "relativeSourcePath": "FAQ по моддингу.html",
+    "version": "saved snapshot",
+    "sha256": "98509A822AB769D1CCA142FD12F4DC0B2CF54347128401CC92C486716A8F7F4F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 5064
+    }
+  },
+  {
+    "id": "old-help:cont-form.htm",
+    "type": "legacy-help",
+    "title": "Cont/form.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/form.htm",
+    "version": "2.10b",
+    "sha256": "42BDC8CABCAACCC856CC8F04163BB25B198E14AA08C59A2FD75EB8E73C869CD4",
+    "locator": {
+      "startLine": 1,
+      "endLine": 88
+    }
+  },
+  {
+    "id": "old-help:form-hex.htm",
+    "type": "legacy-help",
+    "title": "Form/HEX.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/HEX.htm",
+    "version": "2.10b",
+    "sha256": "392D135DDCB7D1736311BE558FE94C83A952AD120E92F5444B9E8C13AC0D9A60",
+    "locator": {
+      "startLine": 1,
+      "endLine": 109
+    }
+  },
+  {
+    "id": "erm-forum:un-c-page-1.html",
+    "type": "forum",
+    "title": "UN_C page 1.html",
+    "sourceSet": "erm-forum",
+    "relativeSourcePath": "UN_C page 1.html",
+    "version": "saved snapshot",
+    "sha256": "1835005861BDA2CA84D32D543223912B52F900C81FB77CDB2FEE338E1F264DB9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 2307
+    }
+  },
+  {
+    "id": "erm-forum:un-c-page-3.html",
+    "type": "forum",
+    "title": "UN_C page 3.html",
+    "sourceSet": "erm-forum",
+    "relativeSourcePath": "UN_C page 3.html",
+    "version": "saved snapshot",
+    "sha256": "794228134D198155F46AFF7D68D4CBCD6E34BC42764723AAC3003995AE12E3C6",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1974
+    }
+  },
+  {
+    "id": "erm-forum:un-c-page-4.html",
+    "type": "forum",
+    "title": "UN_C page 4.html",
+    "sourceSet": "erm-forum",
+    "relativeSourcePath": "UN_C page 4.html",
+    "version": "saved snapshot",
+    "sha256": "341BCCBEF78D6E2626715ED726A0ADBF4C0EE9F9904B9FD46C0D6A23C46EB886",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1993
+    }
+  },
+  {
+    "id": "old-help:form-commstr.htm",
+    "type": "legacy-help",
+    "title": "Form/CommStr.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/CommStr.htm",
+    "version": "2.10b",
+    "sha256": "567955CFCAEE5B099BC3FB7C4E81C8D41100F33E6C490635F783F7914A71DA16",
+    "locator": {
+      "startLine": 1,
+      "endLine": 53
+    }
+  },
+  {
+    "id": "old-help:cont-unc.htm",
+    "type": "legacy-help",
+    "title": "Cont/UNC.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/UNC.htm",
+    "version": "2.10b",
+    "sha256": "D3CE8B4300BDE37AA08FB60F96D29ED2B23D4C649E4646C8DD904997BCE92956",
+    "locator": {
+      "startLine": 1,
+      "endLine": 85
+    }
+  },
+  {
+    "id": "old-help:cont-unc-lib.htm",
+    "type": "legacy-help",
+    "title": "Cont/UNC_Lib.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/UNC_Lib.htm",
+    "version": "2.10b",
+    "sha256": "B53B1CFCF3D3AE7913844B4F4EA366FDC58D1533A7CF1DA91B4A4B3CD29C7A24",
+    "locator": {
+      "startLine": 1,
+      "endLine": 952
+    }
+  },
+  {
+    "id": "erm-hooker:author-api-1.0.0",
+    "type": "forum",
+    "title": "Berserker: ERM Hooker v1.0.0 API (author documentation reproduced)",
+    "sourceSet": "erm-forum",
+    "relativeSourcePath": "hooker-api.html",
+    "version": "1.0.0; lifecycle cross-checked with ERA 3 changelog",
+    "sha256": "2504E3C0E99DB772BD7603A12A231BBF0AD911B92E4C6C691B9E7813EA5EF2A9",
+    "url": "https://www.h3wog.com/archiver/tid-58865.html",
+    "locator": {
+      "note": "2017-05-06 23:53:08, reproduced author API documentation"
+    }
+  },
+  {
+    "id": "old-help:cont-receivers.htm",
+    "type": "legacy-help",
+    "title": "Cont/Receivers.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Receivers.htm",
+    "version": "2.10b",
+    "sha256": "A14D0CAF7C62B987F3AE3DD6F17F49338072B789F3807A153AD8A398202F9EA6",
+    "locator": {
+      "startLine": 1,
+      "endLine": 210
+    }
+  },
+  {
+    "id": "old-help:cont-receiversa.htm",
+    "type": "legacy-help",
+    "title": "Cont/ReceiversA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/ReceiversA.htm",
+    "version": "2.10b",
+    "sha256": "2ED2A82870482FD1B18ED41204566D274E601B267BEAD624E019E09ED61DCBE0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 128
+    }
+  },
+  {
+    "id": "era-changelog:era-ii-changelog.txt",
+    "type": "changelog",
+    "title": "era ii changelog.txt",
+    "sourceSet": "era-changelog",
+    "relativeSourcePath": "era ii changelog.txt",
+    "version": "through 2.9.14",
+    "sha256": "32D561EEE603CAC13AB642DDE762F9F3BF0379732C01553D2A92F6DB9CC1597D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1364
+    }
+  },
+  {
+    "id": "old-help:cont-list.htm",
+    "type": "legacy-help",
+    "title": "Cont/list.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/list.htm",
+    "version": "2.10b",
+    "sha256": "AF65121C272FCC1A7036CCE06CDBAABC8DB8712F37C697005FB38191248079A0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 303
+    }
+  },
+  {
+    "id": "old-help:form-a1.htm",
+    "type": "legacy-help",
+    "title": "Form/A1.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/A1.htm",
+    "version": "2.10b",
+    "sha256": "EBB1C11EBE5243B0D8EC534BED1C60F8781E0DFBB90F8A43533CCD8EAC0E9AA7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 881
+    }
+  },
+  {
+    "id": "old-help:form-objects.htm",
+    "type": "legacy-help",
+    "title": "Form/Objects.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Objects.htm",
+    "version": "2.10b",
+    "sha256": "7F62CA676165C8986AE4E698125EE49340148779D2EFFDFC01DF908A24D641B9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 924
+    }
+  },
+  {
+    "id": "old-help:form-creature.htm",
+    "type": "legacy-help",
+    "title": "Form/Creature.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Creature.htm",
+    "version": "2.10b",
+    "sha256": "107C4E9EC7066862F3F2E453F7B218E3CF1647F77D3933E7EABC3E2106446081",
+    "locator": {
+      "startLine": 1,
+      "endLine": 620
+    }
+  },
+  {
+    "id": "old-help:form-numberheroes.htm",
+    "type": "legacy-help",
+    "title": "Form/NumberHeroes.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/NumberHeroes.htm",
+    "version": "2.10b",
+    "sha256": "10EFF14E2D1264F99BDCAE66456568C4E01A4FD091D665BC5755BA174F2C222B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 373
+    }
+  },
+  {
+    "id": "old-help:form-spell.htm",
+    "type": "legacy-help",
+    "title": "Form/Spell.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Spell.htm",
+    "version": "2.10b",
+    "sha256": "C0A066364DF5C5C8ED11A58FC0D594F009EC2CCD8C28F42D8912A7A9C12B128A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 343
+    }
+  },
+  {
+    "id": "old-help:form-resource.htm",
+    "type": "legacy-help",
+    "title": "Form/Resource.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Resource.htm",
+    "version": "2.10b",
+    "sha256": "9F9B114DD8523ABFF3AA23B7BBBAA1F6A174B06675078FCABF81B6F427C83D96",
+    "locator": {
+      "startLine": 1,
+      "endLine": 44
+    }
+  },
+  {
+    "id": "old-help:form-towns.htm",
+    "type": "legacy-help",
+    "title": "Form/Towns.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Towns.htm",
+    "version": "2.10b",
+    "sha256": "7A18CBC18B7F8294118A62EA7342AFDE4A91FDC2BCFB785001DF61AC8734E0EA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 50
+    }
+  },
+  {
+    "id": "old-help:form-secondaryskill.htm",
+    "type": "legacy-help",
+    "title": "Form/SecondarySkill.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SecondarySkill.htm",
+    "version": "2.10b",
+    "sha256": "01358F598C55A6DE935D277DDE24D8DC3EAA866F9BD7266554BA79DF5D5EF6CA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 96
+    }
+  },
+  {
+    "id": "old-help:form-heroesclasses.htm",
+    "type": "legacy-help",
+    "title": "Form/HeroesClasses.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/HeroesClasses.htm",
+    "version": "2.10b",
+    "sha256": "2B56925FA18A8578895CAD903A6871A70C4806ACD110897EFD68FFC2B5129AD9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 85
+    }
+  },
+  {
+    "id": "old-help:form-terrain.htm",
+    "type": "legacy-help",
+    "title": "Form/Terrain.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Terrain.htm",
+    "version": "2.10b",
+    "sha256": "14A07287AF77EE7019B3DD4DF245D5CDD6EA49ADCD889A7C4911543068ADA70D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 51
+    }
+  },
+  {
+    "id": "old-help:form-gamerscolor.htm",
+    "type": "legacy-help",
+    "title": "Form/GamersColor.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/GamersColor.htm",
+    "version": "2.10b",
+    "sha256": "55930D2C6A2B686B607968B94EB5A0C24BF16AEAEFB507916755E8B246C65AB1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 52
+    }
+  },
+  {
+    "id": "old-help:form-a2.htm",
+    "type": "legacy-help",
+    "title": "Form/A2.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/A2.htm",
+    "version": "2.10b",
+    "sha256": "8DD69B4042DC317A3AD2AE0E704A591195456FAB4E09627B788FD13C88334F12",
+    "locator": {
+      "startLine": 1,
+      "endLine": 136
+    }
+  },
+  {
+    "id": "old-help:form-specexp1.htm",
+    "type": "legacy-help",
+    "title": "Form/SpecExp1.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpecExp1.htm",
+    "version": "2.10b",
+    "sha256": "60C5ECD405D4900977E07E173C69CFAD04DE316DADCE3C8EFB80A6CA856A6B17",
+    "locator": {
+      "startLine": 1,
+      "endLine": 162
+    }
+  },
+  {
+    "id": "old-help:form-specexp2.htm",
+    "type": "legacy-help",
+    "title": "Form/SpecExp2.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpecExp2.htm",
+    "version": "2.10b",
+    "sha256": "0BDE0CDFF689DDDACD59B383EF4F83146227892DD290BFBE5F608ADFC4993DF0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 33
+    }
+  },
+  {
+    "id": "old-help:form-specexp4.htm",
+    "type": "legacy-help",
+    "title": "Form/SpecExp4.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpecExp4.htm",
+    "version": "2.10b",
+    "sha256": "4640EC81AFC5E52E6791524A86DF17F5A9DF265F4D3929FF9B9B4ACDA899A737",
+    "locator": {
+      "startLine": 1,
+      "endLine": 111
+    }
+  },
+  {
+    "id": "old-help:form-specexp5.htm",
+    "type": "legacy-help",
+    "title": "Form/SpecExp5.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpecExp5.htm",
+    "version": "2.10b",
+    "sha256": "B9E45764495D3BC82512AE2E672A9F5791D1817D97AB08CC34EE7217DD70B2C6",
+    "locator": {
+      "startLine": 1,
+      "endLine": 19
+    }
+  },
+  {
+    "id": "old-help:form-specexp3.htm",
+    "type": "legacy-help",
+    "title": "Form/SpecExp3.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpecExp3.htm",
+    "version": "2.10b",
+    "sha256": "318CD208B8A1DAEA02425C439B6668670D5BE2DD60C6BDD1F9F06B39E7969C5E",
+    "locator": {
+      "startLine": 1,
+      "endLine": 40
+    }
+  },
+  {
+    "id": "old-help:form-flaggedabilities.htm",
+    "type": "legacy-help",
+    "title": "Form/FlaggedAbilities.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/FlaggedAbilities.htm",
+    "version": "2.10b",
+    "sha256": "27491C7AB0C0038006490BFE304D7E66B94E2749A3FD3A358AE5C030DD5D1A06",
+    "locator": {
+      "startLine": 1,
+      "endLine": 204
+    }
+  },
+  {
+    "id": "old-help:form-buldings.htm",
+    "type": "legacy-help",
+    "title": "Form/Buldings.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Buldings.htm",
+    "version": "2.10b",
+    "sha256": "A08D706A9C23DEA9EC524B4ECECD6D7FFABBD0D411A386B9A20C8EC4BF6A09B5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 248
+    }
+  },
+  {
+    "id": "old-help:form-heroeslevels.htm",
+    "type": "legacy-help",
+    "title": "Form/HeroesLevels.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/HeroesLevels.htm",
+    "version": "2.10b",
+    "sha256": "A3C67BD7A5DC1AFE422EF32C637C4A87549D80515C86BE2D8EAB998D3C4345D1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 375
+    }
+  },
+  {
+    "id": "old-help:form-16to10.htm",
+    "type": "legacy-help",
+    "title": "Form/16to10.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/16to10.htm",
+    "version": "2.10b",
+    "sha256": "A3A5C18D4AFC564563B0617E7308F6E98FB384616FB52BA855B11AB45BF2FB27",
+    "locator": {
+      "startLine": 1,
+      "endLine": 19
+    }
+  },
+  {
+    "id": "old-help:form-mines.htm",
+    "type": "legacy-help",
+    "title": "Form/Mines.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Mines.htm",
+    "version": "2.10b",
+    "sha256": "6EEF5FB352A5EEBDE0DDA7C1A12C9DD56C640EF9D7CA972563E41642BBB12E01",
+    "locator": {
+      "startLine": 1,
+      "endLine": 47
+    }
+  },
+  {
+    "id": "old-help:form-cb.htm",
+    "type": "legacy-help",
+    "title": "Form/CB.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/CB.htm",
+    "version": "2.10b",
+    "sha256": "65F482FB9A8C3601DB4689331561A9F757A8A2B1A7FC0FC2E20F740E6BD6F885",
+    "locator": {
+      "startLine": 1,
+      "endLine": 98
+    }
+  },
+  {
+    "id": "old-help:form-specterrain.htm",
+    "type": "legacy-help",
+    "title": "Form/SpecTerrain.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpecTerrain.htm",
+    "version": "2.10b",
+    "sha256": "CEFBBA9EE685D0904ECABDE8CC8B20405A652538E2053E471E7A1D1E4A040475",
+    "locator": {
+      "startLine": 1,
+      "endLine": 28
+    }
+  },
+  {
+    "id": "old-help:form-align.htm",
+    "type": "legacy-help",
+    "title": "Form/align.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/align.htm",
+    "version": "2.10b",
+    "sha256": "88DC42369F1BEFB3C5ABA8A281C5C291EA2C1EB8BE8FEC09918DCA90145934B2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 41
+    }
+  },
+  {
+    "id": "old-help:form-picts.htm",
+    "type": "legacy-help",
+    "title": "Form/Picts.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Picts.htm",
+    "version": "2.10b",
+    "sha256": "FA3FF0C2DBFDB8EF0FB934F853367738F6BCCC4006B30DDDE7A554230D94F8DB",
+    "locator": {
+      "startLine": 1,
+      "endLine": 100
+    }
+  },
+  {
+    "id": "old-help:form-secondaryskill-if.htm",
+    "type": "legacy-help",
+    "title": "Form/SecondarySkill_IF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SecondarySkill_IF.htm",
+    "version": "2.10b",
+    "sha256": "FD7B7B11E87734F3D37E1D458AD8A9291C41E1530E03DFF83508C8D9C1F0BEFB",
+    "locator": {
+      "startLine": 1,
+      "endLine": 222
+    }
+  },
+  {
+    "id": "old-help:form-bf.htm",
+    "type": "legacy-help",
+    "title": "Form/BF.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/BF.htm",
+    "version": "2.10b",
+    "sha256": "E3B1E814587A59BCEF78D1783A19C46423C593EFB3D47B03B7F7046B1E1B4F45",
+    "locator": {
+      "startLine": 1,
+      "endLine": 4
+    }
+  },
+  {
+    "id": "old-help:form-bf-s1.htm",
+    "type": "legacy-help",
+    "title": "Form/bf_s1.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/bf_s1.htm",
+    "version": "2.10b",
+    "sha256": "D4DEBE1C976DC988796E0E9865C3BE53A2EF6109E3F36369EDB6187088D15262",
+    "locator": {
+      "startLine": 1,
+      "endLine": 4
+    }
+  },
+  {
+    "id": "old-help:form-rd-s1.htm",
+    "type": "legacy-help",
+    "title": "Form/rd_s1.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/rd_s1.htm",
+    "version": "2.10b",
+    "sha256": "E64BD15C2C608DC07FCD37FD93D5F3C2D3459CCC03513A16F3CE515AB53ED78F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 4
+    }
+  },
+  {
+    "id": "old-help:form-mousepointers.htm",
+    "type": "legacy-help",
+    "title": "Form/MousePointers.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/MousePointers.htm",
+    "version": "2.10b",
+    "sha256": "E381E9E4D7477BAC73704A94F8DB6AD206A14F87C79B6CC757A75976B893B7EC",
+    "locator": {
+      "startLine": 1,
+      "endLine": 247
+    }
+  },
+  {
+    "id": "old-help:form-ba-b.htm",
+    "type": "legacy-help",
+    "title": "Form/BA_B.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/BA_B.htm",
+    "version": "2.10b",
+    "sha256": "261ED0B04E7C9D3290710F2CEAE4121C4E0A7D0AEB7C228C2E6AAE418ACD57C4",
+    "locator": {
+      "startLine": 1,
+      "endLine": 36
+    }
+  },
+  {
+    "id": "old-help:form-cr-def-snd.htm",
+    "type": "legacy-help",
+    "title": "Form/Cr_def_snd.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Cr_def_snd.htm",
+    "version": "2.10b",
+    "sha256": "5901FEF27E3C3E9B5F20C0AE7F75A1249F1E979249054F74883FB7A4B0C5AA58",
+    "locator": {
+      "startLine": 1,
+      "endLine": 819
+    }
+  },
+  {
+    "id": "old-help:form-mp3.htm",
+    "type": "legacy-help",
+    "title": "Form/MP3.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/MP3.htm",
+    "version": "2.10b",
+    "sha256": "620CEBD001216691E555769775CCF1589979440D8197618C0509CF201F581F0C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 294
+    }
+  },
+  {
+    "id": "old-help:form-track.htm",
+    "type": "legacy-help",
+    "title": "Form/Track.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Track.htm",
+    "version": "2.10b",
+    "sha256": "138EC9209E5140182245A6C0E75234E51498CAABA839FCF49E5D02DD14EF940D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 147
+    }
+  },
+  {
+    "id": "old-help:form-sound.htm",
+    "type": "legacy-help",
+    "title": "Form/Sound.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Sound.htm",
+    "version": "2.10b",
+    "sha256": "E71515F8ED63CDEA67FB959D5A627D7DE0A7FEAC4DECC9C9F9390481B08BB6C4",
+    "locator": {
+      "startLine": 1,
+      "endLine": 70
+    }
+  },
+  {
+    "id": "old-help:form-video.htm",
+    "type": "legacy-help",
+    "title": "Form/Video.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Video.htm",
+    "version": "2.10b",
+    "sha256": "91D9C998A18D9FE163D1962C0A95618E85FE57BF8E687A2517A31E40AB8596F2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 67
+    }
+  },
+  {
+    "id": "old-help:form-buldingsintowns.htm",
+    "type": "legacy-help",
+    "title": "Form/BuldingsInTowns.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/BuldingsInTowns.htm",
+    "version": "2.10b",
+    "sha256": "C5FCB7C61C24821848147F226918738F7DBD9D00C224EA4A5666AD3BF0F32EB8",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1222
+    }
+  },
+  {
+    "id": "old-help:form-bug.htm",
+    "type": "legacy-help",
+    "title": "Form/BUG.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/BUG.htm",
+    "version": "2.10b",
+    "sha256": "0D2F5C0FC86192790F86A37C2FE341B5EA93DAC63ED77E8CA0DEDD95ECE85C05",
+    "locator": {
+      "startLine": 1,
+      "endLine": 128
+    }
+  },
+  {
+    "id": "old-help:form-cmi.htm",
+    "type": "legacy-help",
+    "title": "Form/CMI.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/CMI.htm",
+    "version": "2.10b",
+    "sha256": "C6E4632262182834EFA2027B01138D243D33BF370AB75076E03E26FD8A3F96CC",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1974
+    }
+  },
+  {
+    "id": "old-help:form-advhero.htm",
+    "type": "legacy-help",
+    "title": "Form/AdvHero.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/AdvHero.htm",
+    "version": "2.10b",
+    "sha256": "BB13AEABB3A90DD9D8654634C5B414F2388FFB021EDB08C9DFF2EC671ADFAB1C",
+    "locator": {
+      "startLine": 1,
+      "endLine": 187
+    }
+  },
+  {
+    "id": "old-help:form-combatmon.htm",
+    "type": "legacy-help",
+    "title": "Form/CombatMon.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/CombatMon.htm",
+    "version": "2.10b",
+    "sha256": "355BA75A26B3D16DA1A66BED0C39B096429AC65313EA88279251E69DBFB27168",
+    "locator": {
+      "startLine": 1,
+      "endLine": 347
+    }
+  },
+  {
+    "id": "era-source:rainbow.pas",
+    "type": "source-code",
+    "title": "Rainbow.pas",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Rainbow.pas",
+    "version": "workspace snapshot",
+    "sha256": "A7708B9658DC31D119DEB9AC3072F9AAE7DF40BB59868F4A9060348D3EA9E363",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1636
+    }
+  },
+  {
+    "id": "old-help:form-colors.htm",
+    "type": "legacy-help",
+    "title": "Form/Colors.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Colors.htm",
+    "version": "2.10b",
+    "sha256": "9BAE4FB487E5648AE5790DAF81530BBD98FD3B055B6EE04A15818F1E28BCB1A8",
+    "locator": {
+      "startLine": 1,
+      "endLine": 748
+    }
+  },
+  {
+    "id": "old-help:form-bless.htm",
+    "type": "legacy-help",
+    "title": "Form/Bless.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Bless.htm",
+    "version": "2.10b",
+    "sha256": "1F761B73D195CFA287514017A2D3E6865CD3E09A9C4C1A1B5BEF8CA3DDCBF5C9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 274
+    }
+  },
+  {
+    "id": "old-help:form-heroesspec.htm",
+    "type": "legacy-help",
+    "title": "Form/HeroesSpec.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/HeroesSpec.htm",
+    "version": "2.10b",
+    "sha256": "B9871242028FC8C2919CACCAF9A95933B353DA157D5CFC2FF4A6A175631846E7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 1105
+    }
+  },
+  {
+    "id": "old-help:form-one-way-monolith.htm",
+    "type": "legacy-help",
+    "title": "Form/One-way monolith.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/One-way monolith.htm",
+    "version": "2.10b",
+    "sha256": "653612476EE7465A63E3AC5E2C0D26137BB180A7D25F2499262F386D00D9A2C4",
+    "locator": {
+      "startLine": 1,
+      "endLine": 35
+    }
+  },
+  {
+    "id": "old-help:form-two-way-monolith.htm",
+    "type": "legacy-help",
+    "title": "Form/Two-way monolith.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Two-way monolith.htm",
+    "version": "2.10b",
+    "sha256": "05E98626CF746BE3297B5F3A1E1661F952E21F0C4FDA1D2D802FC219D1778DF5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 30
+    }
+  },
+  {
+    "id": "old-help:form-newobj.htm",
+    "type": "legacy-help",
+    "title": "Form/NewObj.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/NewObj.htm",
+    "version": "2.10b",
+    "sha256": "9BB821529D4D7D21DFBBDBF549836846A5912E45156762AE31338154FC89CD11",
+    "locator": {
+      "startLine": 1,
+      "endLine": 434
+    }
+  },
+  {
+    "id": "windows-api:getkeystate",
+    "type": "official-docs",
+    "title": "Microsoft Learn — GetKeyState",
+    "sourceSet": "windows-api",
+    "relativeSourcePath": "getkeystate-source.json",
+    "version": "Microsoft Learn; retrieved 2026-09-04",
+    "sha256": "1F1DF4122CF94A3CDAAFFC03637FE8F3D435E45B7D7DA4B4A6EF823696D71D0E",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getkeystate",
+    "locator": {
+      "note": "Captured browser-tool response: SHORT result and high-order pressed bit"
+    }
+  },
+  {
+    "id": "old-help:form-creaturedwellings.htm",
+    "type": "legacy-help",
+    "title": "Form/CreatureDwellings.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/CreatureDwellings.htm",
+    "version": "2.10b",
+    "sha256": "94625B86F98E52E495465B8AFCE4AEE585559747AF7A102A01C81140F6C3F66B",
+    "locator": {
+      "startLine": 1,
+      "endLine": 485
+    }
+  },
+  {
+    "id": "old-help:cont-conwords.htm",
+    "type": "legacy-help",
+    "title": "Cont/conwords.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/conwords.htm",
+    "version": "2.10b",
+    "sha256": "73DB39CB4FD3A6D10F50248968450322946512B76F4345DA2F0E1165688ADAEA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 644
+    }
+  },
+  {
+    "id": "old-help:form-gamestate.htm",
+    "type": "legacy-help",
+    "title": "Form/GameState.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/GameState.htm",
+    "version": "2.10b",
+    "sha256": "580AD3023A061F94BA622B324669C265E37C1523F123611A885D3CAD6290D027",
+    "locator": {
+      "startLine": 1,
+      "endLine": 70
+    }
+  },
+  {
+    "id": "old-help:era-api.htm",
+    "type": "legacy-help",
+    "title": "ERA/api.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "ERA/api.htm",
+    "version": "2.10b",
+    "sha256": "83BA30510FB5DBF8B3831D48E342226B2A92CF040682E68958A2DE0D494C7ACE",
+    "locator": {
+      "startLine": 1,
+      "endLine": 203
+    }
+  },
+  {
+    "id": "era-source:era.pas",
+    "type": "source-code",
+    "title": "Era.pas",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Era.pas",
+    "version": "workspace snapshot",
+    "sha256": "AB40C5236B9143E15B14C1F290679873DA91D660E76BB781D1CA0BB0500AB7C0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 235
+    }
+  },
+  {
+    "id": "old-help:cont-abouthelp.htm",
+    "type": "legacy-help",
+    "title": "Cont/AboutHelp.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/AboutHelp.htm",
+    "version": "2.10b",
+    "sha256": "FBEBF77EA4464FA1D77633BC2D3F0A8C57B439E5BA302825437FC94D4E6F7A1D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 249
+    }
+  },
+  {
+    "id": "old-help:cont-links.htm",
+    "type": "legacy-help",
+    "title": "Cont/Links.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Links.htm",
+    "version": "2.10b",
+    "sha256": "4D5671AEBC37C2DCDB2DC7AB1999F95B09D6B503E82AFD0979C24E76B922A4EC",
+    "locator": {
+      "startLine": 1,
+      "endLine": 15
+    }
+  },
+  {
+    "id": "old-help:cont-main.htm",
+    "type": "legacy-help",
+    "title": "Cont/main.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/main.htm",
+    "version": "2.10b",
+    "sha256": "A6A48EE8635C0FCF97F965B56972545D0C34D3A5F4805A35C6DE301D020DABE5",
+    "locator": {
+      "startLine": 1,
+      "endLine": 30
+    }
+  },
+  {
+    "id": "old-help:cont-wogteam.htm",
+    "type": "legacy-help",
+    "title": "Cont/wogteam.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/wogteam.htm",
+    "version": "2.10b",
+    "sha256": "8A4583E71A96AFFA2481FDF3309481C017AEECCF0DB9AA42B125FFC217123C5D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 116
+    }
+  },
+  {
+    "id": "old-help:index.htm",
+    "type": "legacy-help",
+    "title": "index.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "index.htm",
+    "version": "2.10b",
+    "sha256": "C9472553CE604F45CE08DFFB86E68266D900D9BB4446B6C675AD36D6FA52AC93",
+    "locator": {
+      "startLine": 1,
+      "endLine": 16
+    }
+  },
+  {
+    "id": "old-help:titre.htm",
+    "type": "legacy-help",
+    "title": "titre.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "titre.htm",
+    "version": "2.10b",
+    "sha256": "B091E975CBF77BED5D98EFFB21F3BCC30EE5F9066F02E0CFFE112D77396FF525",
+    "locator": {
+      "startLine": 1,
+      "endLine": 165
+    }
+  },
+  {
+    "id": "old-help:cont-adv.htm",
+    "type": "legacy-help",
+    "title": "Cont/Adv.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Adv.htm",
+    "version": "2.10b",
+    "sha256": "12DBA895245990A4D43DBD352C54F29301A09FA0E8CD5E8E7C241EFD9F8246E0",
+    "locator": {
+      "startLine": 1,
+      "endLine": 34
+    }
+  },
+  {
+    "id": "old-help:cont-mapmakers.htm",
+    "type": "legacy-help",
+    "title": "Cont/mapmakers.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/mapmakers.htm",
+    "version": "2.10b",
+    "sha256": "D26116FF8898DE816DC39B2B000E69FB094D8AF36C2C77DC455A6CF36D6E6072",
+    "locator": {
+      "startLine": 1,
+      "endLine": 86
+    }
+  },
+  {
+    "id": "old-help:cont-wog.htm",
+    "type": "legacy-help",
+    "title": "Cont/wog.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/wog.htm",
+    "version": "2.10b",
+    "sha256": "7B3E633E6B0B854C0FFFC0DCAA06741A0D1D5972F2F4A2445592551BCB2530C7",
+    "locator": {
+      "startLine": 1,
+      "endLine": 94
+    }
+  },
+  {
+    "id": "old-help:cont-db.htm",
+    "type": "legacy-help",
+    "title": "Cont/DB.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/DB.htm",
+    "version": "2.10b",
+    "sha256": "A5709B65F68BB9FB3514CE5CBFBDB7C9457143D48E0601EE8026B30A5753ADF1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 212
+    }
+  },
+  {
+    "id": "old-help:era-color-text.htm",
+    "type": "legacy-help",
+    "title": "ERA/color_text.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "ERA/color_text.htm",
+    "version": "2.10b",
+    "sha256": "36BB2A3A2BC1F753D35A3A5C53821B4E7708FCEE6795CA126F58EF724AA1C5D2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 37
+    }
+  },
+  {
+    "id": "old-help:cont-eventslist.htm",
+    "type": "legacy-help",
+    "title": "Cont/EventsList.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/EventsList.htm",
+    "version": "2.10b",
+    "sha256": "F00500B9CCAE922ABA338947855DB119E667BC41537CCB40E30D5B254E867CE4",
+    "locator": {
+      "startLine": 1,
+      "endLine": 273
+    }
+  },
+  {
+    "id": "old-help:cont-logicevent.htm",
+    "type": "legacy-help",
+    "title": "Cont/LogicEvent.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/LogicEvent.htm",
+    "version": "2.10b",
+    "sha256": "9DFA342D738F61EE880BB182DBE4EC8103FE2CF23B87090E67FFBF31A9918D7E",
+    "locator": {
+      "startLine": 1,
+      "endLine": 297
+    }
+  },
+  {
+    "id": "old-help:cont-triggers.htm",
+    "type": "legacy-help",
+    "title": "Cont/Triggers.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Triggers.htm",
+    "version": "2.10b",
+    "sha256": "505FDFB7357A825A5E8D806EF40AF18F8114598CC0A64F17FBC4997AC9155CF2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 133
+    }
+  },
+  {
+    "id": "old-help:cont-triggers-era.htm",
+    "type": "legacy-help",
+    "title": "Cont/Triggers_ERA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Triggers_ERA.htm",
+    "version": "2.10b",
+    "sha256": "839F5EEBB4851C9CB929A7502DB844A8292D50C746E5FBD33752F4C6ACF78BD2",
+    "locator": {
+      "startLine": 1,
+      "endLine": 170
+    }
+  },
+  {
+    "id": "old-help:cont-hd.htm",
+    "type": "legacy-help",
+    "title": "Cont/HD.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/HD.htm",
+    "version": "2.10b",
+    "sha256": "EB2BEC3202D92F160A2AADCDF174FA2A66A5C1F566EC651DBC403C00FF641F30",
+    "locator": {
+      "startLine": 1,
+      "endLine": 17
+    }
+  },
+  {
+    "id": "old-help:cont-te.htm",
+    "type": "legacy-help",
+    "title": "Cont/TE.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/TE.htm",
+    "version": "2.10b",
+    "sha256": "20EF454DDDECD11088DF6B1C4C2BC90D6B42724173C78E80FF50F887AC8D7121",
+    "locator": {
+      "startLine": 1,
+      "endLine": 28
+    }
+  },
+  {
+    "id": "old-help:era-index.htm",
+    "type": "legacy-help",
+    "title": "ERA/index.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "ERA/index.htm",
+    "version": "2.10b",
+    "sha256": "F176C700D80B99C5EFFEC3880FC3C2D7B3D31B3E2EA300FF558B450B1632554D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 53
+    }
+  },
+  {
+    "id": "old-help:cont-ingener.htm",
+    "type": "legacy-help",
+    "title": "Cont/ingener.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/ingener.htm",
+    "version": "2.10b",
+    "sha256": "DB96F17E497F0B56F58F8FF54984BCD02B9613CC7D74359E52E7050651B99DCC",
+    "locator": {
+      "startLine": 1,
+      "endLine": 407
+    }
+  },
+  {
+    "id": "old-help:cont-lib.htm",
+    "type": "legacy-help",
+    "title": "Cont/Lib.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/Lib.htm",
+    "version": "2.10b",
+    "sha256": "1211D4441EA5F4E983B7E6FFD4506C801E9EBE5BAF14D365372F068471BAF4B1",
+    "locator": {
+      "startLine": 1,
+      "endLine": 201
+    }
+  },
+  {
+    "id": "old-help:cont-sschange.htm",
+    "type": "legacy-help",
+    "title": "Cont/SSchange.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/SSchange.htm",
+    "version": "2.10b",
+    "sha256": "80911F9BF75D62291A923038871F860F106A2A6058DC6B0EB80E05B3191E5D13",
+    "locator": {
+      "startLine": 1,
+      "endLine": 186
+    }
+  },
+  {
+    "id": "old-help:cont-stackexpbonus.htm",
+    "type": "legacy-help",
+    "title": "Cont/StackExpBonus.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Cont/StackExpBonus.htm",
+    "version": "2.10b",
+    "sha256": "4EB6E97192E6C30B005E235B29A01789291693FD0193087FAF6C31B6649FAC33",
+    "locator": {
+      "startLine": 1,
+      "endLine": 519
+    }
+  },
+  {
+    "id": "old-help:form-a1-hex.htm",
+    "type": "legacy-help",
+    "title": "Form/A1_HEX.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/A1_HEX.htm",
+    "version": "2.10b",
+    "sha256": "F4DE21B76CEA136D8A8A91AEA9AF182F18544F3A4670598B4BF34C10C8962348",
+    "locator": {
+      "startLine": 1,
+      "endLine": 875
+    }
+  },
+  {
+    "id": "old-help:form-a3.htm",
+    "type": "legacy-help",
+    "title": "Form/A3.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/A3.htm",
+    "version": "2.10b",
+    "sha256": "1FEF08F49F13BD07DD20F1BA607FE92B789779DA9BE39C4E6C2D968B67159C7D",
+    "locator": {
+      "startLine": 1,
+      "endLine": 699
+    }
+  },
+  {
+    "id": "old-help:form-creature-hex.htm",
+    "type": "legacy-help",
+    "title": "Form/Creature_HEX.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Creature_HEX.htm",
+    "version": "2.10b",
+    "sha256": "BA3D736494BD8D618AC311A68D33089D130B0DDA98166FFDF029FDC27CB43C9A",
+    "locator": {
+      "startLine": 1,
+      "endLine": 621
+    }
+  },
+  {
+    "id": "old-help:form-gamerscolor-bit.htm",
+    "type": "legacy-help",
+    "title": "Form/GamersColor_bit.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/GamersColor_bit.htm",
+    "version": "2.10b",
+    "sha256": "36EE8F73AC2F26F711EC4A99BCA1993136668334EB8A97ACFFC54A65304546E9",
+    "locator": {
+      "startLine": 1,
+      "endLine": 51
+    }
+  },
+  {
+    "id": "old-help:form-if-flags.htm",
+    "type": "legacy-help",
+    "title": "Form/IF_Flags.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/IF_Flags.htm",
+    "version": "2.10b",
+    "sha256": "A519104E3E22680360D65F5FA386EBD4F769A0D99274B5C7DAA709E8D3641070",
+    "locator": {
+      "startLine": 1,
+      "endLine": 63
+    }
+  },
+  {
+    "id": "old-help:form-keys.htm",
+    "type": "legacy-help",
+    "title": "Form/Keys.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Keys.htm",
+    "version": "2.10b",
+    "sha256": "8CBE087171188B258300E158D89DB1DA1D585266A1EBB35DB6D5DCD3EBDC2C15",
+    "locator": {
+      "startLine": 1,
+      "endLine": 214
+    }
+  },
+  {
+    "id": "old-help:form-numberheroes-hex.htm",
+    "type": "legacy-help",
+    "title": "Form/NumberHeroes_HEX.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/NumberHeroes_HEX.htm",
+    "version": "2.10b",
+    "sha256": "1D869FB3655AD961E6F7432C444E44F37A6A0413C5BD461155BDAE863C079D4F",
+    "locator": {
+      "startLine": 1,
+      "endLine": 355
+    }
+  },
+  {
+    "id": "old-help:form-primaryskill.htm",
+    "type": "legacy-help",
+    "title": "Form/PrimarySkill.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/PrimarySkill.htm",
+    "version": "2.10b",
+    "sha256": "E7F684EA31D3D272FDEAEA56BCD3521FC1A661CC2D946D80A09B60A8DF80E1FA",
+    "locator": {
+      "startLine": 1,
+      "endLine": 23
+    }
+  },
+  {
+    "id": "old-help:form-spell-hex.htm",
+    "type": "legacy-help",
+    "title": "Form/Spell_HEX.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/Spell_HEX.htm",
+    "version": "2.10b",
+    "sha256": "214720F47F1E95920D1D8ED9D9954437CF289FA852E67A2A07E3FA948EB2BB18",
+    "locator": {
+      "startLine": 1,
+      "endLine": 343
+    }
+  },
+  {
+    "id": "old-help:form-spella.htm",
+    "type": "legacy-help",
+    "title": "Form/SpellA.htm",
+    "sourceSet": "old-help",
+    "relativeSourcePath": "Form/SpellA.htm",
+    "version": "2.10b",
+    "sha256": "94A4AA3327639D46A65A7B6E3ECADCB827F43664DCAB5C3CCF16BA0E895720CE",
+    "locator": {
+      "startLine": 1,
+      "endLine": 338
+    }
+  }
+]

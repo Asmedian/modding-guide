@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.clearinicache",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/clearinicache",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+  ],
+  "keywords": [
+    "ClearIniCache",
+    "FU(ClearIniCache)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Забывает кэш одного INI. Следующее чтение или запись заново загрузит файл с диска. Сам файл не удаляется.",
+    "Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+    ]
+  }
+}

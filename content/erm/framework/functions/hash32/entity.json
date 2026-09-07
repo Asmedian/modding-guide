@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.hash32",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/hash32",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+  ],
+  "keywords": [
+    "Hash32",
+    "FU(Hash32)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "Считает 32-битный хеш dataLen байт по адресу data (либо строки). Размер и доступность памяти обеспечивает вызывающий код; криптографические свойства не заявлены.",
+    "Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+    ]
+  }
+}

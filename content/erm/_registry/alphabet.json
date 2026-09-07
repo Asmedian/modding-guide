@@ -1,0 +1,2345 @@
+[
+  {
+    "id": "alphabet-0",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Автосохранения",
+      "en": "Autosaves"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-j5"
+  },
+  {
+    "id": "alphabet-1",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Артефакт",
+      "en": "Artifact"
+    },
+    "slug": "receivers/ar",
+    "anchor": "ref-rec-ar"
+  },
+  {
+    "id": "alphabet-2",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Доступность",
+      "en": "Availability"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-a"
+  },
+  {
+    "id": "alphabet-3",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Комбо-артефакты",
+      "en": "Combination artifacts"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-a2"
+  },
+  {
+    "id": "alphabet-4",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Номер заклинания",
+      "en": "Spell ID"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-a1"
+  },
+  {
+    "id": "alphabet-5",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Номер заклинания (свиток)",
+      "en": "Scroll spell ID"
+    },
+    "slug": "receivers/ar",
+    "anchor": "ref-rec-ar-v"
+  },
+  {
+    "id": "alphabet-6",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Охрана",
+      "en": "Guards"
+    },
+    "slug": "receivers/ar",
+    "anchor": "ref-rec-ar-x"
+  },
+  {
+    "id": "alphabet-7",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Параметры артефакта",
+      "en": "Artifact properties"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-a1"
+  },
+  {
+    "id": "alphabet-8",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Сообщение",
+      "en": "Message"
+    },
+    "slug": "receivers/ar",
+    "anchor": "ref-rec-ar-m"
+  },
+  {
+    "id": "alphabet-9",
+    "parent": "alphabet-1",
+    "depth": 1,
+    "label": {
+      "ru": "Торговля артефактами",
+      "en": "Artifact trading"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-j7"
+  },
+  {
+    "id": "alphabet-10",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Банк существ",
+      "en": "Creature bank"
+    },
+    "slug": "receivers/cb",
+    "anchor": "ref-rec-cb"
+  },
+  {
+    "id": "alphabet-11",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Битва",
+      "en": "Battle"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba"
+  },
+  {
+    "id": "alphabet-12",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Анимация заклинаний",
+      "en": "Spell animations"
+    },
+    "slug": "receivers/bm",
+    "anchor": "ref-rec-bm-v"
+  },
+  {
+    "id": "alphabet-13",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Армии в начале боя",
+      "en": "Starting armies"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-m"
+  },
+  {
+    "id": "alphabet-14",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Быстрая битва",
+      "en": "Quick combat"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-q"
+  },
+  {
+    "id": "alphabet-15",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Вызвать монстра",
+      "en": "Summon creature"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-s"
+  },
+  {
+    "id": "alphabet-16",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Герои",
+      "en": "Heroes"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-h"
+  },
+  {
+    "id": "alphabet-17",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Действие монстра",
+      "en": "Creature action"
+    },
+    "slug": "receivers/bg",
+    "anchor": "ref-rec-bg-a"
+  },
+  {
+    "id": "alphabet-18",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Доступность колдовства",
+      "en": "Spellcasting availability"
+    },
+    "slug": "receivers/bh",
+    "anchor": "ref-rec-bh-m"
+  },
+  {
+    "id": "alphabet-19",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Колдовство заклинания",
+      "en": "Cast spell"
+    },
+    "slug": "receivers/bh",
+    "anchor": "ref-rec-bh-c"
+  },
+  {
+    "id": "alphabet-20",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Мины/зыбучие пески",
+      "en": "Mines / quicksand"
+    },
+    "slug": "receivers/bh",
+    "anchor": "ref-rec-bh-q"
+  },
+  {
+    "id": "alphabet-21",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Номер активного стека",
+      "en": "Active stack ID"
+    },
+    "slug": "receivers/bg",
+    "anchor": "ref-rec-bg-n"
+  },
+  {
+    "id": "alphabet-22",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Осада",
+      "en": "Siege"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-s"
+  },
+  {
+    "id": "alphabet-23",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Отмена боя",
+      "en": "Cancel battle"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-d"
+  },
+  {
+    "id": "alphabet-24",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Параметры монстров",
+      "en": "Creature properties"
+    },
+    "slug": "receivers/bm",
+    "anchor": "ref-rec-bm"
+  },
+  {
+    "id": "alphabet-25",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Победа",
+      "en": "Victory"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-v"
+  },
+  {
+    "id": "alphabet-26",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Поведение мыши на отряде",
+      "en": "Stack mouse behavior"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-j11"
+  },
+  {
+    "id": "alphabet-27",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Позиция курсора на поле",
+      "en": "Battle cursor position"
+    },
+    "slug": "receivers/mm",
+    "anchor": "ref-rec-mm-d"
+  },
+  {
+    "id": "alphabet-28",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Поле боя",
+      "en": "Battlefield"
+    },
+    "slug": "tables/battlefield",
+    "anchor": "ref-form-bf"
+  },
+  {
+    "id": "alphabet-29",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Почва",
+      "en": "Terrain"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-g"
+  },
+  {
+    "id": "alphabet-30",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Препятствия (список)",
+      "en": "Obstacles: list"
+    },
+    "slug": "tables/obstacles",
+    "anchor": "ref-form-obstacles"
+  },
+  {
+    "id": "alphabet-31",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Препятствия (установить)",
+      "en": "Place obstacles"
+    },
+    "slug": "receivers/bf",
+    "anchor": "ref-rec-bf-o"
+  },
+  {
+    "id": "alphabet-32",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Проверка, «жив» ли монстр",
+      "en": "Check living creature"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-e"
+  },
+  {
+    "id": "alphabet-33",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Проверка на тактическую фазу",
+      "en": "Check tactics phase"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-t"
+  },
+  {
+    "id": "alphabet-34",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Проверка на труп монстра",
+      "en": "Check creature corpse"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-d"
+  },
+  {
+    "id": "alphabet-35",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Сообщение в бою",
+      "en": "Battle message"
+    },
+    "slug": "receivers/mm",
+    "anchor": "ref-rec-mm"
+  },
+  {
+    "id": "alphabet-36",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Текст в истории битвы",
+      "en": "Battle log text"
+    },
+    "slug": "receivers/bu",
+    "anchor": "ref-rec-bu-m"
+  },
+  {
+    "id": "alphabet-37",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Телепортация",
+      "en": "Teleport"
+    },
+    "slug": "receivers/bm",
+    "anchor": "ref-rec-bm-p"
+  },
+  {
+    "id": "alphabet-38",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Убрать препятствия",
+      "en": "Remove obstacles"
+    },
+    "slug": "receivers/bf",
+    "anchor": "ref-rec-bf-c"
+  },
+  {
+    "id": "alphabet-39",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Установить цель действия",
+      "en": "Set action target"
+    },
+    "slug": "receivers/bg",
+    "anchor": "ref-rec-bg-d"
+  },
+  {
+    "id": "alphabet-40",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Фон битвы",
+      "en": "Battle background"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-b"
+  },
+  {
+    "id": "alphabet-41",
+    "parent": "alphabet-11",
+    "depth": 1,
+    "label": {
+      "ru": "Хозяева сражающихся",
+      "en": "Battle owners"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-o"
+  },
+  {
+    "id": "alphabet-42",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Благословения и проклятья",
+      "en": "Blessings and curses"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-y"
+  },
+  {
+    "id": "alphabet-43",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Бродячие монстры",
+      "en": "Wandering monsters"
+    },
+    "slug": "receivers/mw",
+    "anchor": "ref-rec-mw"
+  },
+  {
+    "id": "alphabet-44",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Бутылка и знак",
+      "en": "Bottle and sign"
+    },
+    "slug": "receivers/sg",
+    "anchor": "ref-rec-sg"
+  },
+  {
+    "id": "alphabet-45",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Версия ERM и WoG/ERA",
+      "en": "ERM and WoG/ERA version"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-v"
+  },
+  {
+    "id": "alphabet-46",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Верфь",
+      "en": "Shipyard"
+    },
+    "slug": "receivers/sy",
+    "anchor": "ref-rec-sy"
+  },
+  {
+    "id": "alphabet-47",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Ветряная мельница",
+      "en": "Windmill"
+    },
+    "slug": "receivers/ml",
+    "anchor": "ref-rec-ml"
+  },
+  {
+    "id": "alphabet-48",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Водяная мельница",
+      "en": "Water wheel"
+    },
+    "slug": "receivers/wm",
+    "anchor": "ref-rec-wm"
+  },
+  {
+    "id": "alphabet-49",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Вторичный навык: описание",
+      "en": "Secondary skill description"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-g"
+  },
+  {
+    "id": "alphabet-50",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Вход в объект",
+      "en": "Entering an object"
+    },
+    "slug": "triggers/ob",
+    "anchor": "ref-tr-ob"
+  },
+  {
+    "id": "alphabet-51",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Гарнизон",
+      "en": "Garrison"
+    },
+    "slug": "receivers/gr",
+    "anchor": "ref-rec-gr"
+  },
+  {
+    "id": "alphabet-52",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Герой",
+      "en": "Hero"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he"
+  },
+  {
+    "id": "alphabet-53",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Артефакты",
+      "en": "Artifacts"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-a"
+  },
+  {
+    "id": "alphabet-54",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Биография",
+      "en": "Biography"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-b1"
+  },
+  {
+    "id": "alphabet-55",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Благословения и проклятья",
+      "en": "Blessings and curses"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-y"
+  },
+  {
+    "id": "alphabet-56",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Взаимодействия",
+      "en": "Interactions"
+    },
+    "slug": "receivers/ho",
+    "anchor": "ref-rec-ho"
+  },
+  {
+    "id": "alphabet-57",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Вторичные навыки",
+      "en": "Secondary skills"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-s"
+  },
+  {
+    "id": "alphabet-58",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Вызвать битву",
+      "en": "Start battle"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-t"
+  },
+  {
+    "id": "alphabet-59",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Доступность",
+      "en": "Availability"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-r3"
+  },
+  {
+    "id": "alphabet-60",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Заклинания",
+      "en": "Spells"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-m"
+  },
+  {
+    "id": "alphabet-61",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Имя",
+      "en": "Name"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-b0"
+  },
+  {
+    "id": "alphabet-62",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Класс",
+      "en": "Class"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-b2"
+  },
+  {
+    "id": "alphabet-63",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Координаты",
+      "en": "Coordinates"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-p"
+  },
+  {
+    "id": "alphabet-64",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Мана",
+      "en": "Mana"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-i"
+  },
+  {
+    "id": "alphabet-65",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Монстры",
+      "en": "Creatures"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-c"
+  },
+  {
+    "id": "alphabet-66",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Мораль",
+      "en": "Morale"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-r"
+  },
+  {
+    "id": "alphabet-67",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Настройка w-переменных",
+      "en": "Select w variables"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-w"
+  },
+  {
+    "id": "alphabet-68",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Начальная армия",
+      "en": "Starting army"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-h"
+  },
+  {
+    "id": "alphabet-69",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Начальные очки передвижения",
+      "en": "Initial movement points"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-g"
+  },
+  {
+    "id": "alphabet-70",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Номер",
+      "en": "ID"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-n"
+  },
+  {
+    "id": "alphabet-71",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Опыт",
+      "en": "Experience"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-e"
+  },
+  {
+    "id": "alphabet-72",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Очки движения",
+      "en": "Movement points"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-w"
+  },
+  {
+    "id": "alphabet-73",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Патруль",
+      "en": "Patrol"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-u"
+  },
+  {
+    "id": "alphabet-74",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Первичные параметры",
+      "en": "Primary skills"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-f"
+  },
+  {
+    "id": "alphabet-75",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Подсказка",
+      "en": "Hint"
+    },
+    "slug": "receivers/ho",
+    "anchor": "ref-rec-ho-h"
+  },
+  {
+    "id": "alphabet-76",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Половая принадлежность",
+      "en": "Gender"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-r2"
+  },
+  {
+    "id": "alphabet-77",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Портрет",
+      "en": "Portrait"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-l"
+  },
+  {
+    "id": "alphabet-78",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Посещённые объекты",
+      "en": "Visited objects"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-v"
+  },
+  {
+    "id": "alphabet-79",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Специальность",
+      "en": "Specialty"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-x"
+  },
+  {
+    "id": "alphabet-80",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Специальность: текст",
+      "en": "Specialty text"
+    },
+    "slug": "receivers/sn",
+    "anchor": "ref-rec-sn-era-h-spec"
+  },
+  {
+    "id": "alphabet-81",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Специальность: картинка",
+      "en": "Specialty picture"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-g2"
+  },
+  {
+    "id": "alphabet-82",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Убить",
+      "en": "Kill"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-k"
+  },
+  {
+    "id": "alphabet-83",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Удача",
+      "en": "Luck"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-r1"
+  },
+  {
+    "id": "alphabet-84",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Улучшение существ",
+      "en": "Upgrade creatures"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-d"
+  },
+  {
+    "id": "alphabet-85",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Уровень: ограничение",
+      "en": "Level cap"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-j1"
+  },
+  {
+    "id": "alphabet-86",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Уровень: получение",
+      "en": "Gaining a level"
+    },
+    "slug": "receivers/hl",
+    "anchor": "ref-rec-hl"
+  },
+  {
+    "id": "alphabet-87",
+    "parent": "alphabet-52",
+    "depth": 1,
+    "label": {
+      "ru": "Хозяин",
+      "en": "Owner"
+    },
+    "slug": "receivers/he",
+    "anchor": "ref-rec-he-o"
+  },
+  {
+    "id": "alphabet-88",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Глобальное событие",
+      "en": "Global event"
+    },
+    "slug": "receivers/ge",
+    "anchor": "ref-rec-ge"
+  },
+  {
+    "id": "alphabet-89",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Город",
+      "en": "Town"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca"
+  },
+  {
+    "id": "alphabet-90",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Внешний вид",
+      "en": "Appearance"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-i"
+  },
+  {
+    "id": "alphabet-91",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Гарнизон",
+      "en": "Garrison"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-m"
+  },
+  {
+    "id": "alphabet-92",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Герои",
+      "en": "Heroes"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-h"
+  },
+  {
+    "id": "alphabet-93",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Гильдия магов",
+      "en": "Mage Guild"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-g"
+  },
+  {
+    "id": "alphabet-94",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Городской холл",
+      "en": "Town Hall"
+    },
+    "slug": "triggers/th",
+    "anchor": "ref-tr-th"
+  },
+  {
+    "id": "alphabet-95",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Доступные монстры (не скупленные)",
+      "en": "Available creatures: unbought"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-m"
+  },
+  {
+    "id": "alphabet-96",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Доступные монстры (для найма)",
+      "en": "Available creatures: recruitment"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-t"
+  },
+  {
+    "id": "alphabet-97",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Заклинания",
+      "en": "Spells"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-g"
+  },
+  {
+    "id": "alphabet-98",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Здания",
+      "en": "Buildings"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-b"
+  },
+  {
+    "id": "alphabet-99",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Имя",
+      "en": "Name"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-n"
+  },
+  {
+    "id": "alphabet-100",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Номер на карте",
+      "en": "Map ID"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-u"
+  },
+  {
+    "id": "alphabet-101",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Разрушение",
+      "en": "Destruction"
+    },
+    "slug": "receivers/cd",
+    "anchor": "ref-rec-cd"
+  },
+  {
+    "id": "alphabet-102",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Статус построек",
+      "en": "Building status"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-r"
+  },
+  {
+    "id": "alphabet-103",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Тип",
+      "en": "Type"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-t"
+  },
+  {
+    "id": "alphabet-104",
+    "parent": "alphabet-89",
+    "depth": 1,
+    "label": {
+      "ru": "Хозяин",
+      "en": "Owner"
+    },
+    "slug": "receivers/ca",
+    "anchor": "ref-rec-ca-o"
+  },
+  {
+    "id": "alphabet-105",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Гробница воина",
+      "en": "Warrior’s Tomb"
+    },
+    "slug": "receivers/wt",
+    "anchor": "ref-rec-wt"
+  },
+  {
+    "id": "alphabet-106",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Движения героя",
+      "en": "Hero movement"
+    },
+    "slug": "triggers/hm",
+    "anchor": "ref-tr-hm"
+  },
+  {
+    "id": "alphabet-107",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Дерево Знаний",
+      "en": "Tree of Knowledge"
+    },
+    "slug": "receivers/kt",
+    "anchor": "ref-rec-kt"
+  },
+  {
+    "id": "alphabet-108",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Диалоги",
+      "en": "Dialogs"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if"
+  },
+  {
+    "id": "alphabet-109",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Вопрос Сфинкса",
+      "en": "Sphinx question"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-x"
+  },
+  {
+    "id": "alphabet-110",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Вопросы",
+      "en": "Questions"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-q"
+  },
+  {
+    "id": "alphabet-111",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Выбор из вариантов",
+      "en": "Select an option"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-g"
+  },
+  {
+    "id": "alphabet-112",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Диалог",
+      "en": "Dialog"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-e"
+  },
+  {
+    "id": "alphabet-113",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Диалог найма существ",
+      "en": "Recruitment dialog"
+    },
+    "slug": "receivers/rd",
+    "anchor": "ref-rec-rd"
+  },
+  {
+    "id": "alphabet-114",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Добавить подсказки",
+      "en": "Add hints"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-f"
+  },
+  {
+    "id": "alphabet-115",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Показ картинки (анимации)",
+      "en": "Show picture / animation"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-p"
+  },
+  {
+    "id": "alphabet-116",
+    "parent": "alphabet-108",
+    "depth": 1,
+    "label": {
+      "ru": "Сообщение",
+      "en": "Message"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-m"
+  },
+  {
+    "id": "alphabet-117",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Жилища существ",
+      "en": "Creature dwellings"
+    },
+    "slug": "receivers/dw",
+    "anchor": "ref-rec-dw"
+  },
+  {
+    "id": "alphabet-118",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Журнал",
+      "en": "Quest log"
+    },
+    "slug": "receivers/qw",
+    "anchor": "ref-rec-qw"
+  },
+  {
+    "id": "alphabet-119",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Задержка",
+      "en": "Delay"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-r6"
+  },
+  {
+    "id": "alphabet-120",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Загрузка и сохранение",
+      "en": "Loading and saving"
+    },
+    "slug": "triggers/gm",
+    "anchor": "ref-tr-gm"
+  },
+  {
+    "id": "alphabet-121",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Заклинания",
+      "en": "Spells"
+    },
+    "slug": "receivers/ss",
+    "anchor": "ref-rec-ss"
+  },
+  {
+    "id": "alphabet-122",
+    "parent": "alphabet-121",
+    "depth": 1,
+    "label": {
+      "ru": "Запретить",
+      "en": "Disable"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-j"
+  },
+  {
+    "id": "alphabet-123",
+    "parent": "alphabet-121",
+    "depth": 1,
+    "label": {
+      "ru": "Колдовство на карте",
+      "en": "Adventure-map spellcasting"
+    },
+    "slug": "triggers/mg",
+    "anchor": "ref-tr-mg"
+  },
+  {
+    "id": "alphabet-124",
+    "parent": "alphabet-121",
+    "depth": 1,
+    "label": {
+      "ru": "Колдовство на карте",
+      "en": "Adventure-map spellcasting"
+    },
+    "slug": "receivers/ow",
+    "anchor": "ref-rec-ow-s"
+  },
+  {
+    "id": "alphabet-125",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Звуки",
+      "en": "Sounds"
+    },
+    "slug": "receivers/sn",
+    "anchor": "ref-rec-sn"
+  },
+  {
+    "id": "alphabet-126",
+    "parent": "alphabet-125",
+    "depth": 1,
+    "label": {
+      "ru": "mp3-файлы",
+      "en": "MP3 files"
+    },
+    "slug": "receivers/mp",
+    "anchor": "ref-rec-mp-era"
+  },
+  {
+    "id": "alphabet-127",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Знак и бутыль",
+      "en": "Sign and bottle"
+    },
+    "slug": "receivers/sg",
+    "anchor": "ref-rec-sg"
+  },
+  {
+    "id": "alphabet-128",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Игрок",
+      "en": "Player"
+    },
+    "slug": "receivers/ow",
+    "anchor": "ref-rec-ow"
+  },
+  {
+    "id": "alphabet-129",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "ИИ",
+      "en": "AI"
+    },
+    "slug": "receivers/ai",
+    "anchor": "ref-rec-ai"
+  },
+  {
+    "id": "alphabet-130",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Инструкции",
+      "en": "Instructions"
+    },
+    "slug": "syntax",
+    "anchor": "ref-cont-receiversol-instr"
+  },
+  {
+    "id": "alphabet-131",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Использованные переменные",
+      "en": "Used variables"
+    },
+    "slug": "variables",
+    "anchor": "ref-cont-usedvar"
+  },
+  {
+    "id": "alphabet-132",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Камень знаний",
+      "en": "Learning Stone"
+    },
+    "slug": "receivers/st",
+    "anchor": "ref-rec-st"
+  },
+  {
+    "id": "alphabet-133",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Карта: закрыть участок",
+      "en": "Map: hide area"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-h"
+  },
+  {
+    "id": "alphabet-134",
+    "parent": "alphabet-133",
+    "depth": 1,
+    "label": {
+      "ru": "Открыть",
+      "en": "Reveal"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-s"
+  },
+  {
+    "id": "alphabet-135",
+    "parent": "alphabet-133",
+    "depth": 1,
+    "label": {
+      "ru": "Переместить взгляд",
+      "en": "Move viewport"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-l"
+  },
+  {
+    "id": "alphabet-136",
+    "parent": "alphabet-133",
+    "depth": 1,
+    "label": {
+      "ru": "Размер",
+      "en": "Size"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-x"
+  },
+  {
+    "id": "alphabet-137",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Командиры",
+      "en": "Commanders"
+    },
+    "slug": "receivers/co",
+    "anchor": "ref-rec-co"
+  },
+  {
+    "id": "alphabet-138",
+    "parent": "alphabet-137",
+    "depth": 1,
+    "label": {
+      "ru": "Обнуление",
+      "en": "Reset"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-j13"
+  },
+  {
+    "id": "alphabet-139",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Контрольные слова объектов",
+      "en": "Object control words"
+    },
+    "slug": "tables/object-control-words",
+    "anchor": "ref-cont-conwords"
+  },
+  {
+    "id": "alphabet-140",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Костёр покинутого лагеря",
+      "en": "Campfire"
+    },
+    "slug": "receivers/fr",
+    "anchor": "ref-rec-fr"
+  },
+  {
+    "id": "alphabet-141",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Курсор",
+      "en": "Cursor"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-r5"
+  },
+  {
+    "id": "alphabet-142",
+    "parent": "alphabet-141",
+    "depth": 1,
+    "label": {
+      "ru": "Показать/скрыть",
+      "en": "Show / hide"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-r7"
+  },
+  {
+    "id": "alphabet-143",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Лебединое озеро",
+      "en": "Swan Pond"
+    },
+    "slug": "receivers/sw",
+    "anchor": "ref-rec-sw"
+  },
+  {
+    "id": "alphabet-144",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Логические битовые операции",
+      "en": "Bitwise logic"
+    },
+    "slug": "tables/object-control-words",
+    "anchor": "ref-cont-conwords-logic"
+  },
+  {
+    "id": "alphabet-145",
+    "parent": "alphabet-144",
+    "depth": 1,
+    "label": {
+      "ru": "И",
+      "en": "AND"
+    },
+    "slug": "receivers/vr",
+    "anchor": "ref-rec-vr-and"
+  },
+  {
+    "id": "alphabet-146",
+    "parent": "alphabet-144",
+    "depth": 1,
+    "label": {
+      "ru": "ИЛИ",
+      "en": "OR"
+    },
+    "slug": "receivers/vr",
+    "anchor": "ref-rec-vr-or"
+  },
+  {
+    "id": "alphabet-147",
+    "parent": "alphabet-144",
+    "depth": 1,
+    "label": {
+      "ru": "Исключающее ИЛИ",
+      "en": "XOR"
+    },
+    "slug": "receivers/vr",
+    "anchor": "ref-rec-vr-xor"
+  },
+  {
+    "id": "alphabet-148",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Локальное событие",
+      "en": "Local event"
+    },
+    "slug": "receivers/le",
+    "anchor": "ref-rec-le"
+  },
+  {
+    "id": "alphabet-149",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Макросы",
+      "en": "Macros"
+    },
+    "slug": "receivers/mc",
+    "anchor": "ref-rec-mc"
+  },
+  {
+    "id": "alphabet-150",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Маяк",
+      "en": "Lighthouse"
+    },
+    "slug": "receivers/mn",
+    "anchor": "ref-rec-mn"
+  },
+  {
+    "id": "alphabet-151",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Месяц",
+      "en": "Month"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-m"
+  },
+  {
+    "id": "alphabet-152",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Мистический сад",
+      "en": "Mystical Garden"
+    },
+    "slug": "receivers/gd",
+    "anchor": "ref-rec-gd"
+  },
+  {
+    "id": "alphabet-153",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Монстр",
+      "en": "Creature"
+    },
+    "slug": "receivers/ma",
+    "anchor": "ref-rec-ma"
+  },
+  {
+    "id": "alphabet-154",
+    "parent": "alphabet-153",
+    "depth": 1,
+    "label": {
+      "ru": "Имя/Описание",
+      "en": "Name / description"
+    },
+    "slug": "receivers/sn",
+    "anchor": "ref-rec-sn-era-h-mon"
+  },
+  {
+    "id": "alphabet-155",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Монстр на карте",
+      "en": "Map creature"
+    },
+    "slug": "receivers/mo",
+    "anchor": "ref-rec-mo"
+  },
+  {
+    "id": "alphabet-156",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Мышь",
+      "en": "Mouse"
+    },
+    "slug": "receivers/cm",
+    "anchor": "ref-rec-cm"
+  },
+  {
+    "id": "alphabet-157",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Навес",
+      "en": "Lean-to"
+    },
+    "slug": "receivers/ln",
+    "anchor": "ref-rec-ln"
+  },
+  {
+    "id": "alphabet-158",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Название",
+      "en": "Name"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-n"
+  },
+  {
+    "id": "alphabet-159",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Неделя",
+      "en": "Week"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-k"
+  },
+  {
+    "id": "alphabet-160",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Обелиск",
+      "en": "Obelisk"
+    },
+    "slug": "receivers/mt",
+    "anchor": "ref-rec-mt"
+  },
+  {
+    "id": "alphabet-161",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Обновление экрана",
+      "en": "Refresh screen"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-r"
+  },
+  {
+    "id": "alphabet-162",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Объект",
+      "en": "Object"
+    },
+    "slug": "receivers/ob",
+    "anchor": "ref-rec-ob"
+  },
+  {
+    "id": "alphabet-163",
+    "parent": "alphabet-162",
+    "depth": 1,
+    "label": {
+      "ru": "Подсчёт",
+      "en": "Count"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-u"
+  },
+  {
+    "id": "alphabet-164",
+    "parent": "alphabet-162",
+    "depth": 1,
+    "label": {
+      "ru": "Размещение на карте",
+      "en": "Place on map"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-i"
+  },
+  {
+    "id": "alphabet-165",
+    "parent": "alphabet-162",
+    "depth": 1,
+    "label": {
+      "ru": "Удаление с карты",
+      "en": "Remove from map"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-o"
+  },
+  {
+    "id": "alphabet-166",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Опции WoG",
+      "en": "WoG options"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-p2"
+  },
+  {
+    "id": "alphabet-167",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Опыт отрядов",
+      "en": "Stack experience"
+    },
+    "slug": "receivers/ex",
+    "anchor": "ref-rec-ex"
+  },
+  {
+    "id": "alphabet-168",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Опыт существ",
+      "en": "Creature experience"
+    },
+    "slug": "receivers/ea",
+    "anchor": "ref-rec-ea"
+  },
+  {
+    "id": "alphabet-169",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Параметры квадратов",
+      "en": "Square properties"
+    },
+    "slug": "receivers/po",
+    "anchor": "ref-rec-po"
+  },
+  {
+    "id": "alphabet-170",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Переменные",
+      "en": "Variables"
+    },
+    "slug": "receivers/vr",
+    "anchor": "ref-rec-vr"
+  },
+  {
+    "id": "alphabet-171",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Пирамиды",
+      "en": "Pyramids"
+    },
+    "slug": "receivers/pm",
+    "anchor": "ref-rec-pm"
+  },
+  {
+    "id": "alphabet-172",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Победа в игре",
+      "en": "Win game"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-q"
+  },
+  {
+    "id": "alphabet-173",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Подсказки",
+      "en": "Hints"
+    },
+    "slug": "receivers/ht",
+    "anchor": "ref-rec-ht"
+  },
+  {
+    "id": "alphabet-174",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Получение уровня героем",
+      "en": "Hero level-up"
+    },
+    "slug": "triggers/hl",
+    "anchor": "ref-tr-hl"
+  },
+  {
+    "id": "alphabet-175",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Ресиверы",
+      "en": "Receivers"
+    },
+    "slug": "syntax",
+    "anchor": "ref-cont-receiversol"
+  },
+  {
+    "id": "alphabet-176",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Ресурсы на карте",
+      "en": "Map resources"
+    },
+    "slug": "receivers/ar",
+    "anchor": "ref-rec-ar"
+  },
+  {
+    "id": "alphabet-177",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Ресурсы у игрока",
+      "en": "Player resources"
+    },
+    "slug": "receivers/ow",
+    "anchor": "ref-rec-ow-r"
+  },
+  {
+    "id": "alphabet-178",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Святыня магии",
+      "en": "Shrine"
+    },
+    "slug": "receivers/sr",
+    "anchor": "ref-rec-sr"
+  },
+  {
+    "id": "alphabet-179",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Сетевая игра",
+      "en": "Network game"
+    },
+    "slug": "receivers/ip",
+    "anchor": "ref-rec-ip"
+  },
+  {
+    "id": "alphabet-180",
+    "parent": "alphabet-179",
+    "depth": 1,
+    "label": {
+      "ru": "Флаги контроля",
+      "en": "Control flags"
+    },
+    "slug": "variables",
+    "anchor": "ref-cont-flags-mp"
+  },
+  {
+    "id": "alphabet-181",
+    "parent": "alphabet-179",
+    "depth": 1,
+    "label": {
+      "ru": "Проверка в игре",
+      "en": "Game network check"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-v2"
+  },
+  {
+    "id": "alphabet-182",
+    "parent": "alphabet-179",
+    "depth": 1,
+    "label": {
+      "ru": "Проверка в битве",
+      "en": "Battle network check"
+    },
+    "slug": "receivers/ba",
+    "anchor": "ref-rec-ba-e"
+  },
+  {
+    "id": "alphabet-183",
+    "parent": "alphabet-179",
+    "depth": 1,
+    "label": {
+      "ru": "Удалённый вызов ф-ции",
+      "en": "Remote function call"
+    },
+    "slug": "receivers/fu",
+    "anchor": "ref-rec-fu-d"
+  },
+  {
+    "id": "alphabet-184",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Скелет",
+      "en": "Skeleton"
+    },
+    "slug": "receivers/sk",
+    "anchor": "ref-rec-sk"
+  },
+  {
+    "id": "alphabet-185",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Событие в городе",
+      "en": "Town event"
+    },
+    "slug": "receivers/ce",
+    "anchor": "ref-rec-ce"
+  },
+  {
+    "id": "alphabet-186",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Сопротивление магии",
+      "en": "Magic resistance"
+    },
+    "slug": "receivers/mr",
+    "anchor": "ref-rec-mr"
+  },
+  {
+    "id": "alphabet-187",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Страж Границы",
+      "en": "Quest Guard"
+    },
+    "slug": "receivers/qu",
+    "anchor": "ref-rec-qu"
+  },
+  {
+    "id": "alphabet-188",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Сундук сокровищ",
+      "en": "Treasure Chest"
+    },
+    "slug": "receivers/ch",
+    "anchor": "ref-rec-ch"
+  },
+  {
+    "id": "alphabet-189",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Таймер",
+      "en": "Timer"
+    },
+    "slug": "receivers/tm",
+    "anchor": "ref-rec-tm"
+  },
+  {
+    "id": "alphabet-190",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Телега",
+      "en": "Wagon"
+    },
+    "slug": "receivers/wg",
+    "anchor": "ref-rec-wg"
+  },
+  {
+    "id": "alphabet-191",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Территория",
+      "en": "Terrain"
+    },
+    "slug": "receivers/tr",
+    "anchor": "ref-rec-tr"
+  },
+  {
+    "id": "alphabet-192",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Текст (выделение)",
+      "en": "Text emphasis"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-select"
+  },
+  {
+    "id": "alphabet-193",
+    "parent": "alphabet-192",
+    "depth": 1,
+    "label": {
+      "ru": "Цветной текст",
+      "en": "Colored text"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-era-color-text"
+  },
+  {
+    "id": "alphabet-194",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Триггеры",
+      "en": "Triggers"
+    },
+    "slug": "triggers",
+    "anchor": "ref-cont-triggersol"
+  },
+  {
+    "id": "alphabet-195",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Тюрьма, герой",
+      "en": "Prison / hero"
+    },
+    "slug": "tables/object-control-words",
+    "anchor": "ref-cont-conwords-t62"
+  },
+  {
+    "id": "alphabet-196",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Университет",
+      "en": "University"
+    },
+    "slug": "receivers/ur",
+    "anchor": "ref-rec-ur"
+  },
+  {
+    "id": "alphabet-197",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Учёный",
+      "en": "Scholar"
+    },
+    "slug": "receivers/sc",
+    "anchor": "ref-rec-sc"
+  },
+  {
+    "id": "alphabet-198",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Физический урон",
+      "en": "Physical damage"
+    },
+    "slug": "receivers/mf",
+    "anchor": "ref-rec-mf"
+  },
+  {
+    "id": "alphabet-199",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Флаги",
+      "en": "Flags"
+    },
+    "slug": "receivers/if",
+    "anchor": "ref-rec-if-v"
+  },
+  {
+    "id": "alphabet-200",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Функция",
+      "en": "Function"
+    },
+    "slug": "receivers/fu",
+    "anchor": "ref-rec-fu"
+  },
+  {
+    "id": "alphabet-201",
+    "parent": "alphabet-200",
+    "depth": 1,
+    "label": {
+      "ru": "Круговая",
+      "en": "Loop function"
+    },
+    "slug": "receivers/do",
+    "anchor": "ref-rec-do"
+  },
+  {
+    "id": "alphabet-202",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Хижина ведьмы",
+      "en": "Witch Hut"
+    },
+    "slug": "receivers/wh",
+    "anchor": "ref-rec-wh"
+  },
+  {
+    "id": "alphabet-203",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Хижина провидца",
+      "en": "Seer’s Hut"
+    },
+    "slug": "receivers/qu",
+    "anchor": "ref-rec-qu"
+  },
+  {
+    "id": "alphabet-204",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Цикл",
+      "en": "Loop"
+    },
+    "slug": "loops",
+    "anchor": "ref-rec-re"
+  },
+  {
+    "id": "alphabet-205",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Чит-коды (проверка)",
+      "en": "Cheat-code check"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-v3"
+  },
+  {
+    "id": "alphabet-206",
+    "parent": "alphabet-205",
+    "depth": 1,
+    "label": {
+      "ru": "Разрешить/запретить",
+      "en": "Enable / disable"
+    },
+    "slug": "receivers/un",
+    "anchor": "ref-rec-un-cheat"
+  },
+  {
+    "id": "alphabet-207",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Шахта",
+      "en": "Mine"
+    },
+    "slug": "receivers/mn",
+    "anchor": "ref-rec-mn"
+  },
+  {
+    "id": "alphabet-208",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "ЭРА",
+      "en": "ERA"
+    },
+    "slug": "compatibility",
+    "anchor": "ref-era-index"
+  },
+  {
+    "id": "alphabet-209",
+    "parent": "alphabet-208",
+    "depth": 1,
+    "label": {
+      "ru": "Новые команды",
+      "en": "New commands"
+    },
+    "slug": "receivers/sn",
+    "anchor": "ref-rec-sn-era"
+  },
+  {
+    "id": "alphabet-210",
+    "parent": "alphabet-208",
+    "depth": 1,
+    "label": {
+      "ru": "Триггеры/события",
+      "en": "Triggers / events"
+    },
+    "slug": "triggers",
+    "anchor": "ref-cont-triggers-era"
+  },
+  {
+    "id": "alphabet-211",
+    "parent": "alphabet-208",
+    "depth": 1,
+    "label": {
+      "ru": "Функции/процедуры",
+      "en": "Functions / procedures"
+    },
+    "slug": "receivers/sn",
+    "anchor": "ref-era-api"
+  },
+  {
+    "id": "alphabet-212",
+    "parent": null,
+    "depth": 0,
+    "label": {
+      "ru": "Ящик Пандоры",
+      "en": "Pandora’s Box"
+    },
+    "slug": "receivers/pa",
+    "anchor": "ref-rec-pa"
+  }
+]

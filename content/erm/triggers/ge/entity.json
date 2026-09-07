@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.ge",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/ge",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-ge.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "GE",
+    "!?GE"
+  ],
+  "questions": [
+    "Срабатывает для глобального события, текст которого начинается с указанного номера. Пока существует обработчик, этот служебный номер скрывается из сообщения.",
+    "Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-ge.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-ge.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-ge.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-ge.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-ge.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-ge": [
+      "old-help:tr-ge.htm"
+    ]
+  }
+}

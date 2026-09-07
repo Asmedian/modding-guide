@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.intlog2",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/intlog2",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+  ],
+  "keywords": [
+    "IntLog2",
+    "FU(IntLog2)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "Возвращает ceil(log2(value)); для value<=0 возвращает 0. Используется, в частности, для номера единственного установленного бита.",
+    "Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+    ]
+  }
+}

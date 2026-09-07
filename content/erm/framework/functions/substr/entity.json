@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.substr",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/substr",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+  ],
+  "keywords": [
+    "Substr",
+    "FU(Substr)",
+    "public",
+    "strings"
+  ],
+  "questions": [
+    "Возвращает подстроку: start с нуля, отрицательный start от конца; count — длина, отрицательный count исключает хвост.",
+    "Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+    ]
+  }
+}

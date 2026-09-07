@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.bits",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/bits",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:form-hex.htm",
+    "old-help:form-16to10.htm",
+    "old-help:rec-vr.htm"
+  ],
+  "keywords": [
+    "Биты, маски и HEX",
+    "Bits, masks and hexadecimal"
+  ],
+  "questions": [
+    "Номер бита начинается с 0; его маска равна 2 в степени номера. Старший бит 32-разрядного знакового ERM-целого соответствует -2147483648. HEX FF = 255; HEX 100 = 256.",
+    "Bit indices start at 0; each mask is 2 raised to its index. The high bit of a signed 32-bit ERM integer corresponds to -2147483648. Hex FF = 255; hex 100 = 256."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:form-hex.htm",
+      "old-help:form-16to10.htm",
+      "old-help:rec-vr.htm"
+    ],
+    "values": [
+      "old-help:form-hex.htm",
+      "old-help:form-16to10.htm",
+      "old-help:rec-vr.htm"
+    ],
+    "related": [
+      "old-help:form-hex.htm",
+      "old-help:form-16to10.htm",
+      "old-help:rec-vr.htm"
+    ],
+    "reference-links": [
+      "old-help:form-hex.htm",
+      "old-help:form-16to10.htm",
+      "old-help:rec-vr.htm"
+    ],
+    "ref-form-16to10": [
+      "old-help:form-16to10.htm"
+    ],
+    "ref-form-hex": [
+      "old-help:form-hex.htm"
+    ]
+  }
+}

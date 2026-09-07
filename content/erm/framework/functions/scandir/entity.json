@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.scandir",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/scandir",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+  ],
+  "keywords": [
+    "ScanDir",
+    "FU(ScanDir)",
+    "public",
+    "files"
+  ],
+  "questions": [
+    "Очищает переданный строковый массив и заполняет именами без . и ... itemsType — SCAN_ (по умолчанию файлы и каталоги), fullPaths — добавлять путь (FALSE). При раннем выходе после FindFirstFileA снимок не восстанавливает v1.",
+    "Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_ (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+    ]
+  }
+}

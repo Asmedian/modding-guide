@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.tables.dialog-types",
+  "kind": "article",
+  "section": "erm",
+  "slug": "tables/dialog-types",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:form-gamestate.htm",
+    "old-help:era-api.htm",
+    "era-source:era.pas",
+    "era-framework:lib-end--9999-era---stdlib.erm"
+  ],
+  "keywords": [
+    "Идентификаторы игровых окон",
+    "Game dialog identifiers"
+  ],
+  "questions": [
+    "Идентификаторы, возвращаемые GetGameState в старом комплекте. Плагины WND и HD могут заменять окно; одинаковый номер может объединять несколько диалогов. Значения привязаны к реализации, а не к порядку строк.",
+    "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "meaning": [
+      "old-help:form-gamestate.htm",
+      "old-help:era-api.htm",
+      "era-source:era.pas",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "values": [
+      "old-help:form-gamestate.htm",
+      "old-help:era-api.htm",
+      "era-source:era.pas",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "related": [
+      "old-help:form-gamestate.htm",
+      "old-help:era-api.htm",
+      "era-source:era.pas",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "reference-links": [
+      "old-help:form-gamestate.htm",
+      "old-help:era-api.htm",
+      "era-source:era.pas",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "api": [
+      "old-help:form-gamestate.htm",
+      "old-help:era-api.htm",
+      "era-source:era.pas",
+      "era-framework:lib-end--9999-era---stdlib.erm"
+    ],
+    "ref-form-gamestate": [
+      "old-help:form-gamestate.htm"
+    ]
+  }
+}

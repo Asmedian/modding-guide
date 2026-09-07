@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.onbeforebattleuniversal-quit",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/onbeforebattleuniversal-quit",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+  ],
+  "keywords": [
+    "OnBeforeBattleUniversal_Quit",
+    "FU(OnBeforeBattleUniversal_Quit)",
+    "quit-handler",
+    "events"
+  ],
+  "questions": [
+    "Завершающий обработчик OnBeforeBattleUniversal: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.",
+    "Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+    ],
+    "signature": [
+      "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+    ],
+    "context": [
+      "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+    ],
+    "calls": [
+      "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+    ],
+    "provenance": [
+      "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+    ]
+  }
+}

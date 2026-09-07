@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.comparestrings-bridge-internal",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/comparestrings-bridge-internal",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+  ],
+  "keywords": [
+    "CompareStrings_Bridge_INTERNAL",
+    "FU(CompareStrings_Bridge_INTERNAL)",
+    "internal"
+  ],
+  "questions": [
+    "Мост строкового компаратора: преобразует адреса в ERM-строки и вызывает пользовательский callback со state и выходным результатом. Нулевой адрес трактует как пустую строку.",
+    "String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+    ]
+  }
+}

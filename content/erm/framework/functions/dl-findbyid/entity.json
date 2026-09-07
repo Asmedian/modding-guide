@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.dl-findbyid",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/dl-findbyid",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+  ],
+  "keywords": [
+    "DL_FindById",
+    "FU(DL_FindById)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Возвращает адрес оболочки DL-диалога по ID либо NULL. Это не адрес H3Dlg: он хранится в первом поле оболочки. v1 изменяется.",
+    "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+    ]
+  }
+}

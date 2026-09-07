@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.receivers.sn",
+  "kind": "article",
+  "section": "erm",
+  "slug": "receivers/sn",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:rec-sn.htm",
+    "old-help:rec-sn-era.htm",
+    "era-changelog:era-iii-changelog.txt",
+    "old-help:era-api.htm"
+  ],
+  "keywords": [
+    "SN",
+    "!!SN",
+    "SN:Pz",
+    "SN:L^library^/?handle / Ahandle/^export^/?address",
+    "SN:Eaddress/convention/args...",
+    "SN:F^export^/args...",
+    "SN:Baddress[/ ?resultAddress / value]",
+    "SN:C^constant^/?value[/?exists]",
+    "SN:D / O?x/?y/?level",
+    "SN:G[label] / Q",
+    "SN:H^monname^/",
+    "SN:H^object^/x/y/level/",
+    "SN:H^spec^/",
+    "SN:Istring/?result / T^key^/?result[/^name^/value...]",
+    "SN:R^old^/^new^",
+    "SN:M",
+    "SN:Kstring/?length / Kstring/index/",
+    "SN:W / W^key^ / W^key^/",
+    "SN:Xvalues..."
+  ],
+  "questions": [
+    "Ресивер SN: средства era, память и звук, параметры команд и ограничения.",
+    "SN receiver: era services, memory and sound, command parameters, and limitations."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "syntax": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-pz-s": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-l-library-handle-ahandle-export-address": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-eaddress-convention-args": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-f-export-args": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-baddress-resultaddress-value": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-c-constant-value-exists": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-d-o-x-y-level": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-g-label-q": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-h-monname-h-secskill": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-h-object-x-y-level-h-object-type-subtype": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-h-spec-h-art-h-spell": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-istring-result-t-key-result-name-value": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-r-old-new": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-m-m-m-index-m-address-index": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-m-id-size-type-storage-result": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-m-id-size-type-storage-address-v-id-index-values": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-kstring-length-kstring-index-char-kbytes-source-destination-dummy": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-w-w-key-w-key": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "command-xvalues": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "notes": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-rec-sn": [
+      "old-help:rec-sn.htm"
+    ],
+    "ref-rec-sn-era": [
+      "old-help:rec-sn-era.htm"
+    ],
+    "ref-era-api": [
+      "old-help:era-api.htm"
+    ],
+    "era-notes": [
+      "old-help:rec-sn.htm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "old-help:era-api.htm"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

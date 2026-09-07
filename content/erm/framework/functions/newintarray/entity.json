@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.newintarray",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/newintarray",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+  ],
+  "keywords": [
+    "NewIntArray",
+    "FU(NewIntArray)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Создаёт массив целых: P?result, Psize/?result или Psize/fill/?result. После выходного аргумента допустим тип хранения; по умолчанию M_TRIGGER_LOCAL, время жизни продлено до вызывающего контекста. Значение заполнения по умолчанию 0.",
+    "Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:erm.pas",
+    "old-help:era-new-events.htm",
+    "era-changelog:era-iii-changelog.txt",
+    "old-help:cont-eventslist.htm",
+    "old-help:cont-logicevent.htm",
+    "old-help:cont-triggers.htm",
+    "old-help:cont-triggers-era.htm",
+    "old-help:cont-triggersol.htm"
+  ],
+  "keywords": [
+    "triggers",
+    "events",
+    "триггеры",
+    "OnBeforeBattle",
+    "OnAfterBattle",
+    "OnBattleRound",
+    "OnBeforeBattleAction",
+    "OnAfterBattleAction",
+    "OnWanderingMonsterReach",
+    "OnWanderingMonsterDeath",
+    "OnMagicBasicResistance",
+    "OnMagicCorrectedResistance",
+    "OnDwarfMagicResistance",
+    "OnAdventureMapRightMouseClick",
+    "OnTownMouseClick",
+    "OnHeroScreenMouseClick",
+    "OnHeroesMeetScreenMouseClick",
+    "OnBattleScreenMouseClick",
+    "OnAdventureMapLeftMouseClick",
+    "OnUnequipArt",
+    "OnEquipArt",
+    "OnBattleMouseHint",
+    "OnTownMouseHint",
+    "OnMp3MusicChange",
+    "OnSoundPlay",
+    "OnBeforeAdventureMagic",
+    "OnAfterAdventureMagic",
+    "OnEnterTownHall",
+    "OnLeaveTownHall",
+    "OnBeforeBattleBeforeDataSend",
+    "OnBeforeBattleAfterDataReceived",
+    "OnAfterBattleBeforeDataSend",
+    "OnAfterBattleAfterDataReceived",
+    "OnOpenCommanderWindow",
+    "OnCloseCommanderWindow",
+    "OnAfterCommanderBuy",
+    "OnAfterCommanderResurrect",
+    "OnBeforeBattleForThisPcDefender",
+    "OnAfterBattleForThisPcDefender",
+    "OnBeforeBattleUniversal",
+    "OnAfterBattleUniversal",
+    "OnAfterLoadGame",
+    "OnBeforeSaveGame",
+    "OnAfterErmInstructions",
+    "OnCustomDialogEvent",
+    "OnHeroMove",
+    "OnHeroGainLevel",
+    "OnSetupBattlefield",
+    "OnMonsterPhysicalDamage",
+    "OnEverySecond",
+    "OnEvery2Seconds",
+    "OnEvery5Seconds",
+    "OnEvery10Seconds",
+    "OnEveryMinute",
+    "OnSavegameWrite",
+    "OnSavegameRead",
+    "OnKeyPressed",
+    "OnOpenHeroScreen",
+    "OnCloseHeroScreen",
+    "OnBattleStackObtainsTurn",
+    "OnBattleRegeneratePhase",
+    "OnAfterSaveGame",
+    "OnBeforeHeroInteraction",
+    "OnAfterHeroInteraction",
+    "OnStackToStackDamage",
+    "OnAICalcStackAttackEffect",
+    "OnChat",
+    "OnGameEnter",
+    "OnGameLeave",
+    "OnEveryDay",
+    "OnBeforeBattlefieldVisible",
+    "OnBattlefieldVisible",
+    "OnAfterTacticsPhase",
+    "OnOpenRecruitDlg",
+    "OnCloseRecruitDlg",
+    "OnRecruitDlgMouseClick",
+    "OnTownFortMouseClick",
+    "OnKingdomOverviewMouseClick",
+    "OnRecruitDlgRecalc",
+    "OnRecruitDlgAction",
+    "OnLoadHeroScreen",
+    "OnBuildTownBuilding",
+    "OnOpenTownScreen",
+    "OnCloseTownScreen",
+    "OnSwitchTownScreen",
+    "OnPreTownScreen",
+    "OnPostTownScreen",
+    "OnPreHeroScreen",
+    "OnPostHeroScreen",
+    "OnDetermineMonInfoDlgUpgrade",
+    "OnAdventureMapTileHint",
+    "OnBeforeBattleStackTurn",
+    "OnCalculateTownIncome",
+    "OnBattleReplay",
+    "OnBeforeBattleReplay",
+    "OnBeforeLocalEvent",
+    "OnAfterLocalEvent",
+    "OnWinGame",
+    "OnLoseGame",
+    "OnTransferHero",
+    "OnAfterHeroGainLevel",
+    "OnBattleActionEnd",
+    "OnAfterBuildTownBuilding",
+    "OnKeyReleased",
+    "OnBeforePlaceBattleObstacles",
+    "OnAfterPlaceBattleObstacles",
+    "OnBattleStackRegeneration"
+  ],
+  "questions": [
+    "28 классических семейств и 104 зарегистрированных события ERA.",
+    "28 classic families and 104 registered ERA events."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "use": [
+      "era-source:erm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "legacy": [
+      "era-source:erm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era": [
+      "era-source:erm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "families": [
+      "era-source:erm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "order": [
+      "era-source:erm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "era-source:erm.pas",
+      "old-help:era-new-events.htm",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-cont-eventslist": [
+      "old-help:cont-eventslist.htm"
+    ],
+    "ref-cont-logicevent": [
+      "old-help:cont-logicevent.htm"
+    ],
+    "ref-cont-triggers": [
+      "old-help:cont-triggers.htm"
+    ],
+    "ref-cont-triggers-era": [
+      "old-help:cont-triggers-era.htm"
+    ],
+    "ref-cont-triggersol": [
+      "old-help:cont-triggersol.htm"
+    ],
+    "ref-era-new-events": [
+      "old-help:era-new-events.htm"
+    ],
+    "era3-updates": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

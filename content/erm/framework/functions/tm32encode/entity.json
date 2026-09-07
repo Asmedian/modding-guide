@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.tm32encode",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/tm32encode",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+  ],
+  "keywords": [
+    "Tm32Encode",
+    "FU(Tm32Encode)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "Обратимое перемешивание 32 бит; выход можно восстановить Tm32Decode. Меняет быстрые переменные f и g. Это не шифрование.",
+    "Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+    ]
+  }
+}

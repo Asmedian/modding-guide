@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.packunion",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/packunion",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+  ],
+  "keywords": [
+    "PackUnion",
+    "FU(PackUnion)",
+    "public",
+    "math"
+  ],
+  "questions": [
+    "PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.",
+    "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.era.compatibility",
+  "kind": "article",
+  "slug": "era/compatibility",
+  "status": "published",
+  "sourceRefs": ["era-tools:mod-manager-format", "era-changelog:3"],
+  "keywords": ["compatibility", "requires", "load_after", "incompatible", "priority", "mod order"],
+  "questions": ["How do requires, load_after, and incompatible work?", "Why does another mod override my resource?", "How should I report an ERA compatibility problem?"],
+  "previous": "era/creating-mod",
+  "next": "game"
+}

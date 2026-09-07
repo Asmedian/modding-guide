@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.onkeypressed",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/onkeypressed",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+  ],
+  "keywords": [
+    "OnKeyPressed",
+    "FU(OnKeyPressed)",
+    "event-handler",
+    "events"
+  ],
+  "questions": [
+    "Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.",
+    "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+    ]
+  }
+}

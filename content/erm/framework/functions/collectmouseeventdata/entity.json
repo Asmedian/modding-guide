@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.collectmouseeventdata",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/collectmouseeventdata",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+  ],
+  "keywords": [
+    "CollectMouseEventData",
+    "FU(CollectMouseEventData)",
+    "internal"
+  ],
+  "questions": [
+    "Читает CM в глобальные mouse_ и dlg_action. Действие кнопки выхода нормализуется в обычное отпускание ЛКМ; клавиатурное событие DL записывает код в key.",
+    "Copies CM context to mouse_ and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+    ]
+  }
+}

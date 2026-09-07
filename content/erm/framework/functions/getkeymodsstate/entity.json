@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.getkeymodsstate",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/getkeymodsstate",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+    "windows-api:getkeystate"
+  ],
+  "keywords": [
+    "GetKeyModsState",
+    "FU(GetKeyModsState)",
+    "internal"
+  ],
+  "questions": [
+    "Опрашивает левые и правые Alt, Ctrl, Shift через GetKeyState и обновляет key_; объединённый флаг равен OR двух сторон.",
+    "Polls left/right Alt, Ctrl and Shift with GetKeyState and updates key_; each combined flag is the OR of both sides."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+      "windows-api:getkeystate"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+      "windows-api:getkeystate"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+      "windows-api:getkeystate"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+      "windows-api:getkeystate"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate",
+      "windows-api:getkeystate"
+    ]
+  }
+}

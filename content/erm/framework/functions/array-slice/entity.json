@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-slice",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-slice",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+  ],
+  "keywords": [
+    "Array_Slice",
+    "FU(Array_Slice)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Копирует диапазон в новый массив. Отрицательные start/count задают отсчёт от конца/исключение хвоста. Хранение по умолчанию M_TRIGGER_LOCAL. Для пустого или неверного исходного массива возвращает NULL, поэтому проверяйте результат.",
+    "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+    ]
+  }
+}

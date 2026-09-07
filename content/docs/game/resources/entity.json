@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "docs.game.resources",
+  "kind": "article",
+  "slug": "game/resources",
+  "status": "published",
+  "sourceRefs": ["era-source:lodman", "era-source:reslib", "era-changelog:3", "old-help:index"],
+  "keywords": ["LOD", "PAC", "DEF", "TXT", "JSON", "ERT", "ERS", "PNG", "WAV", "SMK"],
+  "questions": ["Which resource formats are used by Heroes III and ERA?", "How do loose files, PAC archives, ZIP files, and redirections interact?"],
+  "previous": "game/resource-loading",
+  "next": "tools"
+}

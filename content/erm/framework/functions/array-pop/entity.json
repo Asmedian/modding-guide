@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-pop",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-pop",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+  ],
+  "keywords": [
+    "Array_Pop",
+    "FU(Array_Pop)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Удаляет последние элементы; до 15 выходов заполняются от последнего к первому. Без выходов удаляет один элемент. При нехватке элементов возвращает 0 или пустую строку.",
+    "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+    ]
+  }
+}

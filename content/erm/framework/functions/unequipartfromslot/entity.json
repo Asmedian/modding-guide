@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.unequipartfromslot",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/unequipartfromslot",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+  ],
+  "keywords": [
+    "UnequipArtFromSlot",
+    "FU(UnequipArtFromSlot)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Снимает артефакт со слота куклы и вызывает OnUnequipArt. Артефактные ID/модификаторы при временном снятии нужно сохранить самостоятельно.",
+    "Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+    ]
+  }
+}

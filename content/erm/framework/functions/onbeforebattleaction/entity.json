@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.onbeforebattleaction",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/onbeforebattleaction",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction"
+  ],
+  "keywords": [
+    "OnBeforeBattleAction",
+    "FU(OnBeforeBattleAction)",
+    "event-handler",
+    "events"
+  ],
+  "questions": [
+    "Читает BG:N/Q в battle_acting_stack/side и обновляет флаги видимого/быстрого боя.",
+    "Reads BG:N/Q into battle_acting_stack/side and updates visible/quick combat flags."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction"
+    ]
+  }
+}

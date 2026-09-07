@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; background: var(--bg-deep); }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(45, 87, 114, 0.18), transparent 65%),
+    linear-gradient(90deg, var(--bg-deep), var(--bg) 50%, var(--bg-deep));
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.58;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select { font: inherit; }
+
+button,
+a { -webkit-tap-highlight-color: transparent; }
+
+a { color: inherit; text-decoration: none; }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+
+h1,
+h2,
+h3,
+p { margin-top: 0; }
+
+h1,
+h2,
+h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: 0.01em; }
+
+.language-gateway {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: var(--space-8);
+}
+
+.language-gateway h1 { font-size: clamp(2.4rem, 6vw, 5rem); margin: 0.2em 0; }
+.language-gateway a { color: var(--gold); text-decoration: underline; }

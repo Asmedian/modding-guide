@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.radiodlg-getitemvalue",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/radiodlg-getitemvalue",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+  ],
+  "keywords": [
+    "RadioDlg_GetItemValue",
+    "FU(RadioDlg_GetItemValue)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.",
+    "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+    ]
+  }
+}

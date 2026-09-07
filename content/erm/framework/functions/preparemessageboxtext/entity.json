@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.preparemessageboxtext",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/preparemessageboxtext",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+  ],
+  "keywords": [
+    "PrepareMessageBoxText",
+    "FU(PrepareMessageBoxText)",
+    "requires-review",
+    "dialogs"
+  ],
+  "questions": [
+    "Передаёт пары имени/подсказки для следующего сообщения в wog native dialogs:PrepareMessageBoxText. В снимке условие l<argsNum пропускает последнюю подсказку при чётном числе аргументов; проверьте версию библиотеки.",
+    "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.restoreeventdata",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/restoreeventdata",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+  ],
+  "keywords": [
+    "RestoreEventData",
+    "FU(RestoreEventData)",
+    "internal"
+  ],
+  "questions": [
+    "Восстанавливает целые значения в переданные через ? аргументы. Проверка savedNumArgs в снимке отсутствует: вместо неё повторена проверка размера буфера. Несовпадение пар сохранения/восстановления недопустимо.",
+    "Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+    ]
+  }
+}

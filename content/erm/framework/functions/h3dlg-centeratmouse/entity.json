@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.h3dlg-centeratmouse",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/h3dlg-centeratmouse",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+  ],
+  "keywords": [
+    "H3Dlg_CenterAtMouse",
+    "FU(H3Dlg_CenterAtMouse)",
+    "public",
+    "dialogs"
+  ],
+  "questions": [
+    "Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.",
+    "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse"
+    ]
+  }
+}

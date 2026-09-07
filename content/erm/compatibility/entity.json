@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.compatibility",
+  "kind": "article",
+  "section": "erm",
+  "slug": "compatibility",
+  "status": "published",
+  "sourceRefs": [
+    "era-changelog:era-ii-changelog.txt",
+    "era-changelog:era-iii-changelog.txt",
+    "era-source:erm.pas",
+    "era-framework:lib-9999-era---stdlib.erm",
+    "old-help:cont-hd.htm",
+    "old-help:cont-te.htm",
+    "old-help:era-index.htm"
+  ],
+  "keywords": [
+    "debug",
+    "совместимость",
+    "ZVSE2",
+    "ERA 3.9.15",
+    "SN:E"
+  ],
+  "questions": [
+    "Версионные различия, контекст исполнения и проверка скриптов.",
+    "Version differences, execution context and script validation."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "baseline": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "porting": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "strings": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "battle": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "network": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "errors": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "checklist": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "framework": [
+      "era-changelog:era-ii-changelog.txt",
+      "era-changelog:era-iii-changelog.txt",
+      "era-source:erm.pas",
+      "era-framework:lib-9999-era---stdlib.erm"
+    ],
+    "ref-cont-hd": [
+      "old-help:cont-hd.htm"
+    ],
+    "ref-cont-te": [
+      "old-help:cont-te.htm"
+    ],
+    "ref-era-index": [
+      "old-help:era-index.htm"
+    ],
+    "current-era3": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-changelog": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-30": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-29": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-27": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-26": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-25": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-24": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-23": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-22": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-21": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-19": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-18": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-17": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-16": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-15": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-14": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-13": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-12": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-11": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-10": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-9": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-7": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-6": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-5": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-4": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-3": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-2": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9-1": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-9": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-10": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-8": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-5": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-4": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-3": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-2": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-8-1": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-7-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-6-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-5-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-4-3": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-4-2": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-4-1": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-4-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-3-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-2-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-1-1": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-1-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-0-5": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-0-4": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-0-3": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-0-2": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-0-1": [
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "era3-version-3-0-0": [
+      "era-changelog:era-iii-changelog.txt"
+    ]
+  }
+}

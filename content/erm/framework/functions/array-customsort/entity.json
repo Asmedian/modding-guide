@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.array-customsort",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/array-customsort",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+  ],
+  "keywords": [
+    "Array_CustomSort",
+    "FU(Array_CustomSort)",
+    "public",
+    "arrays"
+  ],
+  "questions": [
+    "Стабильная сортировка: callback(value1,value2,state,?result), где результат <0, 0, >0 определяет порядок. Для строк передаются z-индексы. state по умолчанию 0; диапазон включительный, по умолчанию весь массив.",
+    "Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+    ]
+  }
+}

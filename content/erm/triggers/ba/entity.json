@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.triggers.ba",
+  "kind": "article",
+  "section": "erm",
+  "slug": "triggers/ba",
+  "status": "published",
+  "sourceRefs": [
+    "old-help:tr-ba.htm",
+    "era-source:erm.pas",
+    "era-changelog:era-iii-changelog.txt"
+  ],
+  "keywords": [
+    "BA",
+    "!?BA",
+    "OnBeforeBattle",
+    "OnAfterBattle",
+    "OnBeforeBattleForThisPcDefender",
+    "OnAfterBattleForThisPcDefender",
+    "OnBeforeBattleUniversal",
+    "OnAfterBattleUniversal"
+  ],
+  "questions": [
+    "0/1 — начало/конец на стороне атакующего или локально; 50/51 — на ПК защитника; 52/53 — универсальные события обеих сторон. В начале сначала BA0 или BA50, затем BA52; в конце BA1 или BA51, затем BA53.",
+    "0/1 start/end on the attacking or local computer; 50/51 on the defender’s computer; 52/53 are universal events on both sides. Start order is BA0 or BA50, then BA52; end order is BA1 or BA51, then BA53."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "event": [
+      "old-help:tr-ba.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "syntax": [
+      "old-help:tr-ba.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "names": [
+      "old-help:tr-ba.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "limits": [
+      "old-help:tr-ba.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "related": [
+      "old-help:tr-ba.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "reference-links": [
+      "old-help:tr-ba.htm",
+      "era-source:erm.pas",
+      "era-changelog:era-iii-changelog.txt"
+    ],
+    "ref-tr-ba": [
+      "old-help:tr-ba.htm"
+    ]
+  }
+}

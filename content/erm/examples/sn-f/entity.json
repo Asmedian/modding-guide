@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.examples.sn-f",
+  "kind": "article",
+  "section": "erm",
+  "slug": "examples/sn-f",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm",
+    "old-help:rec-sn-era.htm",
+    "era-changelog:era-iii-changelog.txt",
+    "windows-api:getkeystate"
+  ],
+  "keywords": [
+    "SN:F",
+    "GetKeyState"
+  ],
+  "questions": [
+    "SN:F находит и кэширует GetKeyState. Результат немедленно переносится из v1 в выходной аргумент, затем v1 восстанавливается. Имена экспортов и ABI нельзя выбирать по внешнему сходству.",
+    "SN:F resolves and caches GetKeyState. Copy the result from v1 into the output argument immediately, then restore v1. Export names and ABI cannot be selected by superficial similarity."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "code": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "contract": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "related": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ],
+    "reference-links": [
+      "era-framework:lib-9999-era---stdlib.erm",
+      "old-help:rec-sn-era.htm",
+      "era-changelog:era-iii-changelog.txt",
+      "windows-api:getkeystate"
+    ]
+  }
+}

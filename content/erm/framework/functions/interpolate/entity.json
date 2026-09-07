@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.interpolate",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/interpolate",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+  ],
+  "keywords": [
+    "Interpolate",
+    "FU(Interpolate)",
+    "public",
+    "strings"
+  ],
+  "questions": [
+    "Подставляет текущие значения ERM-переменных в строковый шаблон. Учитывайте момент вызова: шаблон и уже готовый текст имеют разное назначение.",
+    "Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+    ]
+  }
+}

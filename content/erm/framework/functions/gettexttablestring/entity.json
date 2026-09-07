@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "erm.framework.functions.gettexttablestring",
+  "kind": "article",
+  "section": "erm",
+  "slug": "framework/functions/gettexttablestring",
+  "status": "published",
+  "sourceRefs": [
+    "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+  ],
+  "keywords": [
+    "GetTextTableString",
+    "FU(GetTextTableString)",
+    "public",
+    "game"
+  ],
+  "questions": [
+    "Читает ячейку bldgspec, help или znpc00 по rowIndex/colIndex. Несмотря на комментарий «get or set», ветки записи в снимке нет. Проверку индексов обеспечивает вызывающий код.",
+    "Reads a bldgspec, help, or znpc00 cell by rowIndex/colIndex. Despite the “get or set” comment, this snapshot has no write branch. The caller must validate indices."
+  ],
+  "previous": null,
+  "next": null,
+  "sectionSources": {
+    "purpose": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ],
+    "signature": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ],
+    "parameters": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ],
+    "context": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ],
+    "calls": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ],
+    "provenance": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ],
+    "constants": [
+      "era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring"
+    ]
+  }
+}
