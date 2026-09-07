@@ -4,8 +4,8 @@ import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const entries: EntryGenerator = () => getArticleEntries('erm');
 
-export const load: PageServerLoad = ({ params }) => {
-  const article = getArticle(params.lang as 'ru' | 'en', params.slug, 'erm');
+export const load: PageServerLoad = async ({ params }) => {
+  const article = await getArticle(params.lang as 'ru' | 'en', params.slug, 'erm');
   if (!article) error(404, 'Article not found');
   return { article };
 };

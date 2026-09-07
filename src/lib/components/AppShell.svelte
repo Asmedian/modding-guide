@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { browser } from '$app/environment';
-  import { afterNavigate } from '$app/navigation';
+  import { browser, dev } from '$app/environment';
+  import { afterNavigate, preloadData } from '$app/navigation';
   import { base } from '$app/paths';
   import { page } from '$app/stores';
   import { hexToDecimal } from '$lib/reference/rich.mjs';
@@ -74,8 +74,7 @@
   function handleKeyboard(event: KeyboardEvent) {
     if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
       event.preventDefault();
-      searchOpen = true;
-      void loadSearchComponent();
+      void openSearch();
     }
     if (event.key === 'Escape') {
       searchOpen = false;
@@ -99,9 +98,14 @@
     return searchComponentRequest;
   }
 
+  async function openSearch() {
+    await loadSearchComponent();
+    if (SearchDialogComponent) searchOpen = true;
+  }
+
   function toggleSearch() {
-    searchOpen = !searchOpen;
-    if (searchOpen) void loadSearchComponent();
+    if (searchOpen) searchOpen = false;
+    else void openSearch();
   }
 
   function handleReferenceClick(event: MouseEvent) {
@@ -150,6 +154,12 @@
   }
 
   onMount(() => {
+    // Vite compiles server routes on first use. Warm the two top-level article
+    // routes behind the already rendered home page so the first dev click is instant.
+    if (dev && !activeSlug) {
+      void preloadData(`${base}/${lang}/docs/`);
+      void preloadData(`${base}/${lang}/erm/`);
+    }
     try {
       const saved = JSON.parse(localStorage.getItem('modding-guide:preferences:v1') ?? '{}');
       applyTheme(saved.theme === 'light' ? 'light' : 'dark', false);
@@ -197,7 +207,7 @@
       {/if}
     {/each}
   </nav>
-  <button class="search-trigger" type="button" aria-label={t('search.label')} aria-expanded={searchOpen} on:click|stopPropagation={toggleSearch}>
+  <button class="search-trigger" type="button" aria-label={t('search.label')} aria-expanded={searchOpen} on:focus={() => void loadSearchComponent()} on:pointerdown={() => void loadSearchComponent()} on:click|stopPropagation={toggleSearch}>
     <span aria-hidden="true">⌕</span>
     <span>{t('search.placeholder')}</span>
     <kbd>{t('search.shortcut')}</kbd>
@@ -213,11 +223,7 @@
   {#if searchOpen}
     <div class="search-dropdown-host">
       {#key lang}
-        {#if SearchDialogComponent}
-          <svelte:component this={SearchDialogComponent} bind:open={searchOpen} bind:query={searchQuery} bind:scope={searchScope} {lang} {activeSlug} />
-        {:else}
-          <section class="search-dialog search-dialog-loading" aria-label={t('search.label')}><p>{t('search.loading')}</p></section>
-        {/if}
+        {#if SearchDialogComponent}<svelte:component this={SearchDialogComponent} bind:open={searchOpen} bind:query={searchQuery} bind:scope={searchScope} {lang} {activeSlug} />{/if}
       {/key}
     </div>
   {/if}

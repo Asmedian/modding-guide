@@ -39,7 +39,6 @@
   $: t = translator(lang);
   let entries: readonly SearchEntry[] = [];
   let symbols: SymbolEntry[] = [];
-  let loading = dev;
   let selected = 0;
   let inputElement: HTMLInputElement;
   let dialogElement: HTMLElement;
@@ -76,7 +75,6 @@
     if (disposed) return;
     entries = module.searchIndex as readonly SearchEntry[];
     symbols = symbolModule.default as SymbolEntry[];
-    loading = false;
   });
 
   function setScope(next: typeof scope) {
@@ -162,7 +160,6 @@
 
   async function loadPagefind() {
     engineLoading = true;
-    loading = true;
     try {
       const path = `${base}/pagefind/pagefind.js`;
       const pagefind = await import(/* @vite-ignore */ path) as Pagefind;
@@ -178,7 +175,6 @@
     } finally {
       if (!disposed) {
         engineLoading = false;
-        loading = false;
       }
     }
   }
@@ -306,8 +302,6 @@
         {:else}
           <div class="search-page-snippet">{#each pageMatches[pageSelected].parts as part}{#if part.match}<mark>{part.text}</mark>{:else}{part.text}{/if}{/each}</div>
         {/if}
-      {:else if loading}
-        <p>{t('search.loading')}</p>
       {:else if normalized.length < 2}
         <p>{t('search.prompt')}</p>
       {:else if !results.length}

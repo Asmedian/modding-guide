@@ -1,4 +1,3 @@
-import symbols from '$lib/generated/symbol-index.json';
 import type { SymbolEntry } from '$lib/search/symbols';
 import { addImageDimensions } from '$lib/server/image-dimensions';
 import { renderReference, highlightErm } from '$lib/reference/rich.mjs';
@@ -50,10 +49,9 @@ const metaModules = import.meta.glob(['../../../content/docs/**/entity.json', '.
 }) as Record<string, ArticleMeta>;
 
 const markdownModules = import.meta.glob(['../../../content/docs/**/{ru,en}.md', '../../../content/erm/**/{ru,en}.md'], {
-  eager: true,
   query: '?raw',
   import: 'default'
-}) as Record<string, string>;
+}) as Record<string, () => Promise<string>>;
 
 const sourceModules = import.meta.glob('../../../content/_sources/sources.json', {
   eager: true,
@@ -219,55 +217,90 @@ function directoryKey(path: string) {
   return path.replace(/\\/g, '/').replace(/\/(entity\.json|(?:ru|en)\.md)$/, '');
 }
 
-const articles: Article[] = [];
+const publishedMeta = Object.entries(metaModules)
+  .filter(([, meta]) => meta.status === 'published')
+  .map(([path, meta]) => ({ directory: directoryKey(path), meta }));
 
-for (const [metaPath, meta] of Object.entries(metaModules)) {
-  if (meta.status !== 'published') continue;
-  const key = directoryKey(metaPath);
-  for (const lang of ['ru', 'en'] as const) {
-    const markdownEntry = Object.entries(markdownModules).find(([path]) => directoryKey(path) === key && path.endsWith(`/${lang}.md`));
-    if (!markdownEntry) throw new Error(`Missing ${lang}.md for ${meta.id}`);
-    const { frontmatter, body } = parseFrontmatter(markdownEntry[1]);
-    const rendered = renderMarkdown(body);
-    const section = meta.section ?? 'docs';
-    const articleUrl = `/${lang}/${section}/${meta.slug ? `${meta.slug}/` : ''}`;
-    articles.push({
-      ...meta,
-      lang,
-      title: frontmatter.title,
-      summary: frontmatter.summary,
-      bodyHtml: addImageDimensions(rendered.html, articleUrl),
-      sections: rendered.sections,
-      sources: meta.sourceRefs.map((id) => {
-        const source = sourceMap.get(id);
-        if (!source) throw new Error(`Unknown source ${id} in ${meta.id}`);
-        return source;
-      }),
-      ...(meta.section === 'erm' && meta.slug === 'index' ? { symbols: symbols as SymbolEntry[] } : {})
-    });
-  }
+const markdownByLocale = new Map<string, () => Promise<string>>();
+for (const [path, load] of Object.entries(markdownModules)) {
+  const lang = path.match(/\/(ru|en)\.md$/)?.[1];
+  if (lang) markdownByLocale.set(`${directoryKey(path)}:${lang}`, load);
 }
 
-for (const article of articles.filter((entry) => entry.slug === 'llm-map')) {
-  article.catalog = articles
-    .filter((entry) => entry.lang === article.lang)
-    .map((entry) => ({
-      id: entry.id,
-      section: entry.section ?? 'docs',
-      slug: entry.slug,
-      title: entry.title,
-      summary: entry.summary,
-      keywords: entry.keywords,
-      questions: entry.questions
-    }))
-    .sort((a, b) => a.title.localeCompare(b.title, article.lang));
+const articleCache = new Map<string, Promise<Article>>();
+const catalogCache = new Map<'ru' | 'en', Promise<NonNullable<Article['catalog']>>>();
+
+function articleSection(meta: ArticleMeta) {
+  return meta.section ?? 'docs';
+}
+
+function markdownLoader(directory: string, lang: 'ru' | 'en', id: string) {
+  const load = markdownByLocale.get(`${directory}:${lang}`);
+  if (!load) throw new Error(`Missing ${lang}.md for ${id}`);
+  return load;
+}
+
+function getCatalog(lang: 'ru' | 'en') {
+  let request = catalogCache.get(lang);
+  if (request) return request;
+  request = Promise.all(publishedMeta.map(async ({ directory, meta }) => {
+    const raw = await markdownLoader(directory, lang, meta.id)();
+    const { frontmatter } = parseFrontmatter(raw);
+    return {
+      id: meta.id,
+      section: articleSection(meta),
+      slug: meta.slug,
+      title: frontmatter.title,
+      summary: frontmatter.summary,
+      keywords: meta.keywords,
+      questions: meta.questions
+    };
+  })).then((catalog) => catalog.sort((a, b) => a.title.localeCompare(b.title, lang)));
+  catalogCache.set(lang, request);
+  return request;
+}
+
+async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'ru' | 'en') {
+  const { frontmatter, body } = parseFrontmatter(await markdownLoader(directory, lang, meta.id)());
+  const rendered = renderMarkdown(body);
+  const section = articleSection(meta);
+  const articleUrl = `/${lang}/${section}/${meta.slug ? `${meta.slug}/` : ''}`;
+  const article: Article = {
+    ...meta,
+    lang,
+    title: frontmatter.title,
+    summary: frontmatter.summary,
+    bodyHtml: addImageDimensions(rendered.html, articleUrl),
+    sections: rendered.sections,
+    sources: meta.sourceRefs.map((id) => {
+      const source = sourceMap.get(id);
+      if (!source) throw new Error(`Unknown source ${id} in ${meta.id}`);
+      return source;
+    })
+  };
+  if (section === 'erm' && meta.slug === 'index') {
+    const symbolModule = await import('$lib/generated/symbol-index.json');
+    article.symbols = symbolModule.default as SymbolEntry[];
+  }
+  if (meta.slug === 'llm-map') article.catalog = await getCatalog(lang);
+  return article;
 }
 
 export function getArticle(lang: 'ru' | 'en', slug: string, section: 'docs' | 'erm' = 'docs') {
   const normalizedSlug = slug.replace(/^\/+|\/+$/g, '');
-  return articles.find((article) => article.lang === lang && article.slug === normalizedSlug && (article.section ?? 'docs') === section);
+  const entry = publishedMeta.find(({ meta }) => meta.slug === normalizedSlug && articleSection(meta) === section);
+  if (!entry) return undefined;
+  const key = `${lang}:${section}:${normalizedSlug}`;
+  let article = articleCache.get(key);
+  if (!article) {
+    article = materializeArticle(entry.directory, entry.meta, lang);
+    articleCache.set(key, article);
+  }
+  return article;
 }
 
 export function getArticleEntries(section: 'docs' | 'erm' = 'docs') {
-  return articles.filter((article) => article.slug && (article.section ?? 'docs') === section).map((article) => ({ lang: article.lang, slug: article.slug }));
+  return publishedMeta
+    .filter(({ meta }) => meta.slug && articleSection(meta) === section)
+    .flatMap(({ meta }) => (['ru', 'en'] as const).map((lang) => ({ lang, slug: meta.slug })));
 }

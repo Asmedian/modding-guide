@@ -19,9 +19,15 @@ npm run preview
 
 The static site is written to `build/`. Set `BASE_PATH=/repository-name` for GitHub project pages and `SITE_ORIGIN=https://owner.github.io` when generating an absolute sitemap.
 
+Local development supports Node.js 20 from `20.19.0` onward. The GitHub Actions workflows deliberately install Node.js 24, independently of the version installed on a developer machine, so a local Node 20 installation does not need to be replaced before pushing.
+
 The production build also enforces the old-device and constrained-network budgets documented in [the project map](docs/PROJECT_MAP.md#performance-contract). Measurements are written to `reports/performance-budget.json`.
 
 See [How to edit the site](docs/EDITING_GUIDE.md) and the [project map](docs/PROJECT_MAP.md) before changing content or routes.
+
+## GitHub Pages
+
+Before the first deployment, open the repository's **Settings → Pages** and select **GitHub Actions** under **Build and deployment → Source**. This one-time repository setting creates/enables the Pages site; the standard `GITHUB_TOKEN` intentionally cannot enable it through `actions/configure-pages`. After that, a push to `main` builds with Node.js 24 and deploys `build/`.
 
 ## Scope
 

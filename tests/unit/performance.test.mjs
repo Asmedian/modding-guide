@@ -18,9 +18,26 @@ test('search code and production index loading stay outside the initial applicat
   const search = readFileSync(join(root, 'src/lib/components/SearchDialog.svelte'), 'utf8');
   assert.doesNotMatch(shell, /^\s*import SearchDialog/m);
   assert.match(shell, /import\('\$lib\/components\/SearchDialog\.svelte'\)/);
-  const developmentBranch = search.match(/if \(!dev\) return;[\s\S]+?loading = false;/)?.[0] ?? '';
-  assert.match(developmentBranch, /import\('\$lib\/generated\/search-index'\)/);
+  const productionGuard = search.indexOf('if (!dev) return;');
+  const developmentImport = search.indexOf("import('$lib/generated/search-index')");
+  assert.ok(productionGuard >= 0 && developmentImport > productionGuard);
   assert.match(search, /normalized\.length >= 2[\s\S]+?loadPagefind\(\)/);
+});
+
+test('development loads only the requested article and exposes no visual preloaders', () => {
+  const content = readFileSync(join(root, 'src/lib/server/content.ts'), 'utf8');
+  const shell = readFileSync(join(root, 'src/lib/components/AppShell.svelte'), 'utf8');
+  const search = readFileSync(join(root, 'src/lib/components/SearchDialog.svelte'), 'utf8');
+  const reference = readFileSync(join(root, 'src/lib/components/ContextReference.svelte'), 'utf8');
+  const rootPage = readFileSync(join(root, 'src/routes/+page.svelte'), 'utf8');
+  const markdownGlob = content.match(/const markdownModules[\s\S]+?as Record<string, \(\) => Promise<string>>;/)?.[0] ?? '';
+  assert.match(markdownGlob, /import\.meta\.glob/);
+  assert.doesNotMatch(markdownGlob, /eager:\s*true/);
+  assert.match(shell, /preloadData\(`\$\{base\}\/\$\{lang\}\/erm\/`\)/);
+  assert.doesNotMatch(`${shell}\n${search}\n${reference}`, /search-dialog-loading|search\.loading|erm\.context\.loading/);
+  assert.doesNotMatch(rootPage, /onMount|language-gateway/);
+  assert.match(rootPage, /window\.location\.replace/);
+  assert.match(rootPage, /<noscript>/);
 });
 
 test('context reference URLs and IDs are prepared during prerendering', () => {

@@ -81,7 +81,6 @@
     </div>
   </div>
   <div class="reference-scroll" bind:this={scroller}>
-    {#if loading}<p role="status">{t('erm.context.loading')}</p>{/if}
     {#if failure}<p role="alert">{failure}</p><a href={pendingUrl}>{t('erm.context.open')}</a>{/if}
     {#if current}
       <h3 class="reference-title" bind:this={heading} tabindex="-1">{current.title}</h3>

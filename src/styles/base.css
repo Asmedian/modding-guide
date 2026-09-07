@@ -38,13 +38,5 @@ h1,
 h2,
 h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: 0.01em; }
 
-.language-gateway {
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-  text-align: center;
-  padding: var(--space-8);
-}
-
-.language-gateway h1 { font-size: clamp(2.4rem, 6vw, 5rem); margin: 0.2em 0; }
-.language-gateway a { color: var(--gold); text-decoration: underline; }
+.language-fallback { min-height: 100vh; display: flex; place-content: center; align-items: center; gap: var(--space-5); padding: var(--space-8); }
+.language-fallback a { color: var(--gold); text-decoration: underline; }
