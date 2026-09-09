@@ -49,14 +49,14 @@ test('context reference URLs and IDs are prepared during prerendering', () => {
   assert.match(prepared, /href="https:\/\/example\.com\/x\?a=1&amp;b=2"/);
 });
 
-test('long documents use progressive rendering without expensive fixed-page effects', () => {
+test('long documents render completely without expensive fixed-page effects', () => {
   const base = readFileSync(join(root, 'src/styles/base.css'), 'utf8');
   const layout = readFileSync(join(root, 'src/styles/layout.css'), 'utf8');
   const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
   assert.doesNotMatch(base, /background-attachment:\s*fixed/);
   assert.doesNotMatch(layout, /backdrop-filter/);
-  assert.match(components, /@supports \(content-visibility: auto\)/);
-  assert.match(components, /contain-intrinsic-size:\s*auto 8rem/);
+  assert.doesNotMatch(components, /content-visibility/);
+  assert.doesNotMatch(components, /contain-intrinsic-size/);
 });
 
 test('prerendered local images keep intrinsic dimensions and the build enforces them', () => {

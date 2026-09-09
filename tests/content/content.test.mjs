@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import test from 'node:test';
+import { prepareArticleMarkdown } from '../../src/lib/content/publication.mjs';
 
 const projectRoot = join(import.meta.dirname, '..', '..');
 const contentRoot = join(projectRoot, 'content');
@@ -86,4 +87,17 @@ test('generated LLM manifest covers every published entity in both locales', () 
   const expected = entities.filter(({ meta }) => meta.status === 'published').length * 2;
   assert.equal(manifest.entities.length, expected);
   assert.equal(new Set(manifest.entities.map((entry) => `${entry.locale}:${entry.id}`)).size, expected);
+});
+
+test('publication omits retired ERM histories, credits, and WoG-team material', () => {
+  for (const locale of ['ru', 'en']) {
+    const start = prepareArticleMarkdown(readFileSync(join(contentRoot, 'erm', 'start', `${locale}.md`), 'utf8'), 'erm', 'start');
+    assert.doesNotMatch(start, /ERA3-GENERATED:START|Changes in ERA 3|Изменения в ERA 3/i);
+
+    const compatibility = prepareArticleMarkdown(readFileSync(join(contentRoot, 'erm', 'compatibility', `${locale}.md`), 'utf8'), 'erm', 'compatibility');
+    assert.doesNotMatch(compatibility, /id="era3-changelog"|Complete ERA 3 change history|Полная история изменений ERA 3/i);
+  }
+
+  const root = prepareArticleMarkdown(readFileSync(join(contentRoot, 'erm', 'ru.md'), 'utf8'), 'erm', '');
+  assert.doesNotMatch(root, /ref-cont-wogteam|ref-cont-abouthelp-(?:n1|o)|Перевод ERM-помощи|История изменений справочника/i);
 });

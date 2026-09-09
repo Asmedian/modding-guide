@@ -38,10 +38,10 @@
   let searchScope: 'everywhere' | 'section' | 'page' = 'everywhere';
   $: if (searchScope === 'page' && !activeSlug) searchScope = 'everywhere';
   afterNavigate(() => { searchOpen = false; menuOpen = false; });
-  let resetPending = false;
   let referencePane: ContextReference;
   let referenceExpanded = false;
   let openGroups = [...docsNavigation.groups, ...ermNavigation.groups].map((group) => group.labelKey as string);
+  let navigationReady = false;
 
   function savePreferences() {
     try {
@@ -63,6 +63,7 @@
   }
 
   function updateGroup(label: string, isOpen: boolean) {
+    if (!navigationReady) return;
     openGroups = isOpen ? Array.from(new Set([...openGroups, label])) : openGroups.filter((item) => item !== label);
     try {
       localStorage.setItem('modding-guide:navigation:v1', JSON.stringify({ openGroups }));
@@ -137,20 +138,39 @@
     }
   }
 
+  function sortReferenceTable(event: MouseEvent) {
+    const button = event.target instanceof Element ? event.target.closest<HTMLButtonElement>('[data-erm-sort]') : null;
+    const table = button?.closest<HTMLTableElement>('table');
+    const body = table?.tBodies[0];
+    if (!button || !table || !body) return;
+    const column = Number(button.dataset.ermSort);
+    const type = button.dataset.sortType ?? 'text';
+    const heading = button.closest<HTMLTableCellElement>('th');
+    const direction = heading?.getAttribute('aria-sort') === 'ascending' ? 'descending' : 'ascending';
+    table.querySelectorAll<HTMLTableCellElement>('th[aria-sort]').forEach((item) => item.setAttribute('aria-sort', item === heading ? direction : 'none'));
+    const collator = new Intl.Collator(lang, { numeric: true, sensitivity: 'base' });
+    const rows = Array.from(body.rows).map((row, index) => ({ row, index }));
+    rows.sort((left, right) => {
+      const a = left.row.cells[column]?.dataset.sortValue ?? left.row.cells[column]?.textContent?.trim() ?? '';
+      const b = right.row.cells[column]?.dataset.sortValue ?? right.row.cells[column]?.textContent?.trim() ?? '';
+      const compared = type === 'number' ? Number(a) - Number(b) : collator.compare(a, b);
+      return (direction === 'ascending' ? compared : -compared) || left.index - right.index;
+    });
+    rows.forEach(({ row }) => body.append(row));
+  }
+
   function resetSettings() {
-    if (!resetPending) {
-      resetPending = true;
-      return;
-    }
     try {
       localStorage.removeItem('modding-guide:preferences:v1');
       localStorage.removeItem('modding-guide:navigation:v1');
+      localStorage.removeItem('modding-guide:erm-quick-links:v1');
     } catch {
       // Reset still updates the current view if storage is unavailable.
     }
     openGroups = navGroups.map((group) => group.label as string);
-    resetPending = false;
-    applyTheme('dark');
+    searchScope = 'everywhere';
+    applyTheme('dark', false);
+    window.dispatchEvent(new Event('modding-guide:settings-reset'));
   }
 
   onMount(() => {
@@ -168,19 +188,21 @@
       if (Array.isArray(savedNavigation.openGroups)) {
         openGroups = savedNavigation.openGroups.filter((label: unknown) => typeof label === 'string');
       }
-      const currentGroup = navGroups.find((group) => group.links.some((link) => activeSlug === link[1]));
-      if (currentGroup && !openGroups.includes(currentGroup.label)) openGroups = [...openGroups, currentGroup.label];
     } catch {
       applyTheme('dark', false);
     }
+    const readyFrame = requestAnimationFrame(() => { navigationReady = true; });
     window.addEventListener('keydown', handleKeyboard);
     document.addEventListener('pointerdown', handleOutsideSearch, true);
     document.addEventListener('click', handleReferenceClick, true);
+    document.addEventListener('click', sortReferenceTable);
     document.addEventListener('input', convertRadix);
     return () => {
+      cancelAnimationFrame(readyFrame);
       window.removeEventListener('keydown', handleKeyboard);
       document.removeEventListener('pointerdown', handleOutsideSearch, true);
       document.removeEventListener('click', handleReferenceClick, true);
+      document.removeEventListener('click', sortReferenceTable);
       document.removeEventListener('input', convertRadix);
     };
   });
@@ -274,14 +296,12 @@
         </details>
         <div class="ornament" aria-hidden="true"><span></span><b>◆</b><span></span></div>
       {/each}
-      <button class:confirming={resetPending} class="reset-button" type="button" on:click={resetSettings} on:blur={() => (resetPending = false)}>
-        {resetPending ? t('nav.confirmReset') : t('nav.reset')}
-      </button>
+      <button class="reset-button" type="button" on:click={resetSettings}>{t('nav.reset')}</button>
     </div>
   </aside>
 
   <main class="content-column">
-    {#if activeSection === 'erm'}<ErmQuickLinks {lang} />{/if}
+    {#if activeSection === 'erm'}<ErmQuickLinks {lang} {activeSlug} />{/if}
     <div class="content-inner">
       <slot />
     </div>

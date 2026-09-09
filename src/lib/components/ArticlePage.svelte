@@ -34,10 +34,9 @@
 </svelte:head>
 
 <AppShell {lang} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')}>
-  <article class="docs-article" data-pagefind-body data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
+  <article class="docs-article" lang={lang} data-pagefind-body data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
     <div class="article-ornament" aria-hidden="true"><span></span><b>◇ ◆ ◇</b><span></span></div>
     <header class="article-header">
-      <p class="eyebrow">{t(section === 'erm' ? 'nav.ermScripts' : 'nav.documentation')}</p>
       <h1 data-pagefind-meta="title">{article.title}</h1>
       <p class="article-summary">{article.summary}</p>
     </header>
@@ -78,7 +77,7 @@
     {/if}
 
     <details class="source-panel" data-pagefind-ignore>
-      <summary><span>{t('article.sources')}</span><span class="source-panel-arrow" aria-hidden="true">⌃</span></summary>
+      <summary><span>{t('article.sources')}</span><span class="source-panel-arrow" aria-hidden="true">⌄</span></summary>
       <ul class="source-panel-content">
         {#each article.sources as source}
           <li><code>{source.id}</code><span>{#if source.url}<a href={source.url}>{source.title}</a>{:else}{source.title}{/if} · {source.relativeSourcePath} · {source.version}</span></li>

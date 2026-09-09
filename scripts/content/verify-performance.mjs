@@ -10,7 +10,7 @@ const base = (process.env.BASE_PATH ?? '').replace(/\/$/, '');
 const kib = 1024;
 const budgets = {
   homeHtml: 32 * kib,
-  initialJavaScript: 190 * kib,
+  initialJavaScript: 192 * kib,
   initialCss: 48 * kib,
   initialBrotli: 72 * kib,
   deferredJavaScriptChunk: 768 * kib

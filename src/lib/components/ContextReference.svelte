@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onDestroy, tick } from 'svelte';
+  import { onDestroy, onMount, tick } from 'svelte';
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
   import { pushReference, moveReference } from '$lib/reference/history.mjs';
@@ -16,6 +16,8 @@
   let pendingUrl = '';
   let request = 0;
   let abort: AbortController | null = null;
+  let pointerInside = false;
+  let historyButtonDown = false;
   onDestroy(() => { request++; abort?.abort(); });
   function saveScroll() { if (current && scroller) current.scroll = scroller.scrollTop; }
   export async function openReference(href: string) {
@@ -59,18 +61,32 @@
     if (url.origin !== window.location.origin || !url.pathname.startsWith(`${base}/${lang}/erm/`) || url.pathname.endsWith('/learn/')) return;
     event.preventDefault(); event.stopPropagation(); void openReference(url.href);
   }
-  function mouseHistory(event: PointerEvent) {
-    if (event.button !== 3 && event.button !== 4) return;
-    event.preventDefault(); event.stopPropagation(); void move(event.button === 3 ? -1 : 1);
+  function ownMouseHistory(event: MouseEvent) {
+    if (!pointerInside || (event.button !== 3 && event.button !== 4)) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (event.type === 'mousedown' && !historyButtonDown) {
+      historyButtonDown = true;
+      void move(event.button === 3 ? -1 : 1);
+    }
+    if (event.type === 'mouseup' || event.type === 'auxclick') historyButtonDown = false;
   }
-  function suppressMouseNavigation(event: MouseEvent) {
-    if (event.button === 3 || event.button === 4) { event.preventDefault(); event.stopPropagation(); }
-  }
+
+  onMount(() => {
+    window.addEventListener('mousedown', ownMouseHistory, true);
+    window.addEventListener('mouseup', ownMouseHistory, true);
+    window.addEventListener('auxclick', ownMouseHistory, true);
+    return () => {
+      window.removeEventListener('mousedown', ownMouseHistory, true);
+      window.removeEventListener('mouseup', ownMouseHistory, true);
+      window.removeEventListener('auxclick', ownMouseHistory, true);
+    };
+  });
 </script>
 
-<!-- The panel owns mouse history only while the pointer event targets its area. -->
+<!-- Global capture prevents browser history from also moving the main column. -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<div class="reference-pane" on:pointerdown|capture={mouseHistory} on:mousedown|capture={suppressMouseNavigation} on:mouseup|capture={suppressMouseNavigation} on:auxclick|capture={suppressMouseNavigation}>
+<div class="reference-pane" on:pointerenter={() => (pointerInside = true)} on:pointerleave={() => { pointerInside = false; historyButtonDown = false; }}>
   <div class="reference-toolbar">
     <h2>{t('erm.context.title')}</h2>
     <div>

@@ -687,7 +687,7 @@ IF:P</a>.<br>
 
 ## Связанные материалы {#related}
 
-[SN:T](../../receivers/sn/) · [RadioDlg](../../framework/functions/radiodlg-show/)
+[SN:T](../../receivers/sn/#ref-rec-sn-era-t) · [RadioDlg](../../framework/functions/radiodlg-show/)
 
 
 

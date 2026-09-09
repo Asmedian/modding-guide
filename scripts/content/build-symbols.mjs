@@ -36,6 +36,8 @@ export function buildSymbols(root, entities) {
   for (const g of registry('globals')) add(g.name, 'global', 'framework/globals', g.anchor, [], { ru: g.ru, en: g.en });
   for (const c of registry('constants')) add(c.name, 'constant', `framework/constants/${c.group.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`, `const-${c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`, [], { ru: `${c.name} = ${c.value}`, en: `${c.name} = ${c.value}` });
   symbols.sort((a, b) => a.name.localeCompare(b.name, 'en'));
-  writeFileSync(join(root, 'src/lib/generated/symbol-index.json'), `${JSON.stringify(symbols)}\n`);
+  const outputPath = join(root, 'src/lib/generated/symbol-index.json');
+  const output = `${JSON.stringify(symbols)}\n`;
+  if (readFileSync(outputPath, 'utf8') !== output) writeFileSync(outputPath, output);
   return symbols;
 }

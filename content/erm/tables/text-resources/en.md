@@ -218,7 +218,7 @@ h3sprite.lod contains graphic resources; h3bitmap.lod contains bitmap images and
 
 ## Related material {#links}
 
-[Variables](../../variables/) · [Localization SN:T](../../receivers/sn/) · [Forum: Ivor 69738](https://wforum.heroes35.net/showthread.php?tid=3727&pid=69738#pid69738) · [Ivor 70142](https://wforum.heroes35.net/showthread.php?tid=3727&pid=70142#pid70142)
+[Variables](../../variables/) · [Localization SN:T](../../receivers/sn/#ref-rec-sn-era-t) · [Forum: Ivor 69738](https://wforum.heroes35.net/showthread.php?tid=3727&pid=69738#pid69738) · [Ivor 70142](https://wforum.heroes35.net/showthread.php?tid=3727&pid=70142#pid70142)
 
 ## Related commands and tables {#reference-links}
 

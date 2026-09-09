@@ -50,9 +50,9 @@
   .alphabet-frame { display: flex; height: clamp(380px, 64vh, 670px); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
   .alphabet-scroll { flex: 1; min-width: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: .5rem .25rem; }
   .alphabet-group { margin-bottom: .65rem; }
-  .alphabet-group a { display: block; padding: .3rem .45rem; line-height: 1.35; font-size: .83rem; overflow-wrap: anywhere; }
+  .alphabet-group a { display: block; padding: .3rem .45rem; line-height: 1.35; font-size: .9rem; overflow-wrap: anywhere; }
   .alphabet-group > a:first-child { color: var(--gold); font-weight: 600; }
-  .alphabet-group .alphabet-child { margin-left: .8rem; padding-left: .7rem; border-left: 1px solid var(--border); color: var(--text-muted); font-size: .79rem; }
+  .alphabet-group .alphabet-child { margin-left: .8rem; padding-left: .7rem; border-left: 1px solid var(--border); color: var(--text-muted); font-size: .85rem; }
   a:hover, a:focus-visible { color: var(--text); background: var(--gold-soft); border-radius: 3px; }
   .alphabet-rail { width: 24px; flex: 0 0 24px; display: flex; flex-direction: column; justify-content: space-between; padding: .15rem 0; background: var(--surface); }
   .alphabet-rail button { flex: 1; min-height: 0; width: 24px; border: 0; padding: 0; font: 600 .71rem/1 var(--font-body, sans-serif); color: var(--gold); background: transparent; cursor: pointer; }

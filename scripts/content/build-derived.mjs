@@ -3,6 +3,7 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildSymbols } from './build-symbols.mjs';
 import { referenceText, referenceSegments } from '../../src/lib/reference/rich.mjs';
+import { prepareArticleMarkdown } from '../../src/lib/content/publication.mjs';
 
 const projectRoot = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const contentRoots = ['docs', 'erm'].map((section) => join(projectRoot, 'content', section));
@@ -23,11 +24,11 @@ function walk(directory, name) {
   return matches;
 }
 
-function parseMarkdown(raw) {
+function parseMarkdown(raw, section, slug) {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
   if (!match) throw new Error('Missing JSON frontmatter.');
   const frontmatter = JSON.parse(match[1]);
-  const body = raw.slice(match[0].length).trim();
+  const body = prepareArticleMarkdown(raw.slice(match[0].length).trim(), section, slug);
   const plain = toPlain(body);
   return { frontmatter, body, plain, segments: buildSegments(body) };
 }
@@ -88,7 +89,7 @@ for (const entityPath of contentRoots.flatMap((root) => walk(root, 'entity.json'
   }
   for (const locale of locales) {
     const markdownPath = join(dirname(entityPath), `${locale}.md`);
-    const parsed = parseMarkdown(readFileSync(markdownPath, 'utf8'));
+    const parsed = parseMarkdown(readFileSync(markdownPath, 'utf8'), meta.section ?? 'docs', meta.slug);
     if (parsed.frontmatter.translationStatus !== 'reviewed') {
       throw new Error(`Unreviewed translation in ${relative(projectRoot, markdownPath)}`);
     }

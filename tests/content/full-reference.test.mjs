@@ -109,6 +109,22 @@ test('all transferred comments are collapsed by default', () => {
   }
 });
 
+test('legacy inline disclosures and the repaired UN comments keep their intended controls', () => {
+  const russian = fragment(page('receivers/un', 'ru'), 'ref-rec-un');
+  const english = fragment(page('receivers/un', 'en'), 'ref-rec-un');
+  for (const [raw, inlineLabel, commentLabel, strayLabel] of [
+    [russian, 'место поиска', 'Комментарий', '>здесь</summary>'],
+    [english, 'search location', 'Comment', '>here</summary>']
+  ]) {
+    assert.match(raw, new RegExp(`<details class="erm-comment erm-inline-comment"><summary>${inlineLabel}</summary>`));
+    assert.match(raw, new RegExp(`<summary><u><strong>${commentLabel} \\(`));
+    assert.ok(!raw.includes(strayLabel));
+  }
+
+  const renderedInline = renderReference('<details class="erm-comment"><summary>inline help</summary><div class="erm-comment-body">body</div></details>');
+  assert.match(renderedInline, /class="erm-comment erm-inline-comment"/);
+});
+
 test('every transferred reference asset matches its recorded source hash', () => {
   assert.ok(assets.length >= 752);
   assert.equal(new Set(assets.map((entry) => entry.asset)).size, new Set(assets.map((entry) => entry.sha256)).size);

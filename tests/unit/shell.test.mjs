@@ -9,7 +9,7 @@ const layout = readFileSync(join(root, 'src/styles/layout.css'), 'utf8');
 
 test('the header and all columns share a centered, bounded site frame', () => {
   const tokens = readFileSync(join(root, 'src/styles/tokens.css'), 'utf8');
-  assert.match(tokens, /--site-max:\s*1600px/);
+  assert.match(tokens, /--site-max:\s*1920px/);
   assert.match(shell, /<div class="site-frame">\s*<header class="topbar">/);
   assert.match(shell, /<\/aside>\s*<\/div>\s*<\/div>\s*$/);
   const frame = layout.match(/\.site-frame\s*\{([^}]+)\}/)?.[1];
@@ -69,10 +69,10 @@ test('the right-sidebar quick start card has no shield glyph', () => {
   assert.match(card, /home\.newAction/);
 });
 
-test('article sources are a collapsed disclosure that expands above its toggle', () => {
+test('article sources are a collapsed disclosure that expands below its toggle', () => {
   const article = readFileSync(join(root, 'src/lib/components/ArticlePage.svelte'), 'utf8');
   const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
   assert.match(article, /<details class="source-panel" data-pagefind-ignore>/);
   assert.doesNotMatch(article, /<details class="source-panel"[^>]*\bopen\b/);
-  assert.match(components, /\.source-panel\s*\{[^}]*flex-direction:\s*column-reverse/);
+  assert.match(components, /\.source-panel\s*\{[^}]*flex-direction:\s*column[;}]/);
 });

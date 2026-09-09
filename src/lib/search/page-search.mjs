@@ -10,8 +10,8 @@ export function findTextRanges(value, query) {
 }
 
 /** @param {number} current @param {number} delta @param {number} count */
-export function cycleMatch(current, delta, count) {
-  return count ? ((current + delta) % count + count) % count : 0;
+export function advanceMatch(current, delta, count) {
+  return count ? Math.max(0, Math.min(count - 1, current + delta)) : 0;
 }
 
 /** @param {string} value @param {{start: number, end: number}} range */

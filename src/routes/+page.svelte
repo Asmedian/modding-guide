@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths';
   const redirect = `(() => {
-    let preferred = navigator.language.toLowerCase().startsWith('en') ? 'en' : 'ru';
+    let preferred = navigator.language.toLowerCase().startsWith('ru') ? 'ru' : 'en';
     try {
       const saved = JSON.parse(localStorage.getItem('modding-guide:preferences:v1') || '{}');
       if (saved.language === 'ru' || saved.language === 'en') preferred = saved.language;

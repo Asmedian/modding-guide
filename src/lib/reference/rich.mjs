@@ -45,5 +45,6 @@ export function renderReference(html) {
     }
     return full;
   });
-  return cleaned.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
+  const disclosures = cleaned.replace(/<details class="erm-comment"><summary>((?:(?!erm-toggle-label)[\s\S])*?)<\/summary>/g, '<details class="erm-comment erm-inline-comment"><summary>$1</summary>');
+  return disclosures.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
 }

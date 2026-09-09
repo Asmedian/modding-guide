@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import test from 'node:test';
-import { findTextRanges, matchSnippet, cycleMatch, createPageSearch } from '../../src/lib/search/page-search.mjs';
+import { findTextRanges, matchSnippet, advanceMatch, createPageSearch } from '../../src/lib/search/page-search.mjs';
+import { matchUsesInputScript } from '../../src/lib/search/result-language.mjs';
 
 test('page search finds all literal RU/EN matches without treating punctuation as regex', () => {
   assert.deepEqual(findTextRanges('ERA era Era', ' era '), [{start: 0, end: 3}, {start: 4, end: 7}, {start: 8, end: 11}]);
@@ -23,12 +24,20 @@ test('match snippets contain the exact selected occurrence with surrounding cont
   assert.ok(parts[2].text.endsWith('…'));
 });
 
-test('match arrows wrap in both directions and handle empty and single results', () => {
-  assert.equal(cycleMatch(2, 1, 3), 0);
-  assert.equal(cycleMatch(0, -1, 3), 2);
-  assert.equal(cycleMatch(1, 1, 3), 2);
-  assert.equal(cycleMatch(0, 1, 1), 0);
-  assert.equal(cycleMatch(0, -1, 0), 0);
+test('match arrows advance in document order without wrapping', () => {
+  assert.equal(advanceMatch(2, 1, 3), 2);
+  assert.equal(advanceMatch(0, -1, 3), 0);
+  assert.equal(advanceMatch(1, 1, 3), 2);
+  assert.equal(advanceMatch(0, 1, 1), 0);
+  assert.equal(advanceMatch(0, -1, 0), 0);
+});
+
+test('fuzzy search results stay in the alphabet used by the query', () => {
+  assert.equal(matchUsesInputScript('ERM command', 'ууау'), false);
+  assert.equal(matchUsesInputScript('команда', 'ууау'), true);
+  assert.equal(matchUsesInputScript('ресивер', 'receiver'), false);
+  assert.equal(matchUsesInputScript('receiver', 'receiver'), true);
+  assert.equal(matchUsesInputScript('SN:T', 'SN:T'), true);
 });
 
 // Minimal DOM adapter for testing highlight transactions, not browser rendering.

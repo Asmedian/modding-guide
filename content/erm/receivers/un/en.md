@@ -577,7 +577,7 @@ This command does not work for the Black Market. To do this you will have to res
 J8/$1/^Text^</strong></span><br>
 Command that checks the existence of external files<br>
          $1 – 
-</div><span class="erm-anchor" id="ref-rec-un-19"></span><details class="erm-comment"><summary>search location</summary><div class="erm-comment-body"><span class="erm-anchor" id="ref-rec-un-t0"></span><pre class="erm-margin-top-zero">	0 – in the heroes folder
+</div><span class="erm-anchor" id="ref-rec-un-19"></span><details class="erm-comment erm-inline-comment"><summary>search location</summary><div class="erm-comment-body"><span class="erm-anchor" id="ref-rec-un-t0"></span><pre class="erm-margin-top-zero">	0 – in the heroes folder
 	1 – in <em class="erm-legacy-file">Data</em>
 	2 – in <em class="erm-legacy-file">Maps</em>
 	3 – in <em class="erm-legacy-file">Random maps</em>
@@ -617,7 +617,7 @@ Resetting commanders (depending on the current state <a href="./#ref-rec-un-p2">
 Set New Week options<br>
 K1/$ – ban ($ = 1) all “Week …” (creatures/imps) or allow ($ = 0)<br>
 K2/$ – set a message when a new week begins in the text variable $<br>
-<u><strong>Comment (<span class="erm-anchor" id="ref-rec-un-show48"></span><strong class="erm-toggle-label">show</strong>)</strong></u> </div><span class="erm-anchor" id="ref-rec-un-48"></span><details class="erm-comment"><summary>here</summary><div class="erm-comment-body">
+</div><span class="erm-anchor" id="ref-rec-un-48"></span><details class="erm-comment"><summary><u><strong>Comment (<span class="erm-anchor" id="ref-rec-un-show48"></span><strong class="erm-toggle-label">show</strong>)</strong></u></summary><div class="erm-comment-body">
 This command does NOT cancel the appearance of the Imp week/month if Inferno is built with Grail. However, this can be circumvented by using the following code:
 <pre class="erm-example"><code class="language-erm">; Removing the Grail bonus Inferno
 !!UN:C5015000/1/10; (original = 3)</code></pre></div></details>
@@ -655,7 +655,7 @@ M1 – ban creature months *2 and /2<br>
 M2/$ – set month
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature $</a>*2<br>
 M3 – set plague month (all creatures /2)<br>
-<span class="erm-anchor" id="ref-rec-un-bold"></span><em class="erm-strong">Note:</em> month of Bes, if Grail is built in Inferno, this command does NOT cancel (but there is another way out - see. ).</div>
+<span class="erm-anchor" id="ref-rec-un-bold"></span><em class="erm-strong">Note:</em> month of Bes, if Grail is built in Inferno, this command does NOT cancel (but there is another way out — see <a href="./#ref-rec-un-k">here</a>).</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-un-n"></span>N…</strong></span><br>

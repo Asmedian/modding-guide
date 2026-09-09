@@ -45,12 +45,18 @@
 .erm-reference .erm-game-text { padding: .5rem .7rem; border: 1px solid var(--border); background: var(--bg-deep); color: var(--gold); }
 .erm-reference hr { margin: 1.5rem 0; border: 0; border-top: 1px solid var(--border-strong); }
 .erm-reference .erm-comment { margin: .8rem 0 1.2rem; border: 1px solid var(--border); border-left: 3px solid var(--gold-soft); border-radius: 4px; background: var(--surface-soft); }
-.erm-reference .erm-comment summary { cursor: pointer; padding: .45rem .75rem; color: var(--gold); }
+.erm-reference .erm-comment summary, .erm-reference .erm-comment summary strong { cursor: pointer; padding: .45rem .75rem; color: var(--gold); }
+.erm-reference .erm-comment summary strong { padding: 0; }
 .erm-reference .erm-comment summary u { text-decoration: none; }
 .erm-reference .erm-comment-body { padding: .1rem .85rem .7rem; }
 .erm-reference .erm-toggle-label { font-size: 0; }
-.erm-reference .erm-toggle-label::after { content: 'показать / show'; font-size: .8rem; }
-.erm-reference .erm-comment[open] > summary .erm-toggle-label::after { content: 'скрыть / hide'; }
+.erm-reference:lang(ru) .erm-toggle-label::after { content: 'показать'; font-size: .8rem; }
+.erm-reference:lang(en) .erm-toggle-label::after { content: 'show'; font-size: .8rem; }
+.erm-reference:lang(ru) .erm-comment[open] > summary .erm-toggle-label::after { content: 'скрыть'; }
+.erm-reference:lang(en) .erm-comment[open] > summary .erm-toggle-label::after { content: 'hide'; }
+.erm-reference .erm-inline-comment { display: inline-block; margin: 0; border: 0; background: transparent; }
+.erm-reference .erm-inline-comment summary { display: inline; padding: 0; color: var(--erm-blue); text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+.erm-reference .erm-inline-comment .erm-comment-body { margin-top: .35rem; padding: .35rem .75rem; border-left: 2px solid var(--border-strong); }
 .era-change { margin: .65rem 0; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface-soft); }
 .era-change summary { padding: .7rem .85rem; color: var(--text-muted); cursor: pointer; }
 .era-change summary code { margin-right: .3rem; color: var(--gold); }
@@ -62,8 +68,11 @@
 .erm-reference .erm-player-flag { min-width: 20px; }
 .erm-reference .erm-reference-table table { min-width: 0; }
 .erm-reference .erm-reference-table td { padding: .55rem .65rem; }
+.erm-reference .erm-reference-table table.erm-align-left { width: max-content; max-width: 100%; }
+.erm-reference .erm-legacy-code-line td { width: auto; min-width: 0; border: 1px solid var(--border); background: var(--surface-raised); box-shadow: inset 0 1px rgba(255,255,255,.025); white-space: normal; }
+.erm-reference .erm-legacy-code-line td:first-child { color: var(--gold); }
 .erm-reference pre { font-family: var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; tab-size: 4; }
-.erm-reference pre.erm-example { white-space: pre; overflow-wrap: normal; }
+.erm-reference pre.erm-example { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; word-break: normal; }
 .erm-reference .erm-anchor { scroll-margin-top: calc(var(--header-height) + 170px); }
 .erm-syntax-trigger { color: #ee9a90; }
 .erm-syntax-receiver { color: #cda7ed; }

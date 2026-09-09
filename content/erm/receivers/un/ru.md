@@ -577,7 +577,7 @@ WoG'ификации.<br>
 J8/$1/^Текст^</strong></span><br>
 Команда, проверяющая существование внешних файлов<br>
          $1 – 
-</div><span class="erm-anchor" id="ref-rec-un-19"></span><details class="erm-comment"><summary>место поиска</summary><div class="erm-comment-body"><span class="erm-anchor" id="ref-rec-un-t0"></span><pre class="erm-margin-top-zero">	0 – в папке героев
+</div><span class="erm-anchor" id="ref-rec-un-19"></span><details class="erm-comment erm-inline-comment"><summary>место поиска</summary><div class="erm-comment-body"><span class="erm-anchor" id="ref-rec-un-t0"></span><pre class="erm-margin-top-zero">	0 – в папке героев
 	1 – в <em class="erm-legacy-file">Data</em>
 	2 – в <em class="erm-legacy-file">Maps</em>
 	3 – в <em class="erm-legacy-file">Random maps</em>
@@ -617,7 +617,7 @@ J8/$1/^Текст^</strong></span><br>
 Установить параметры «Новой недели»<br>
 K1/$ – запретить ($ = 1) все «Неделя …» (монстров/бесов) или разрешить ($ = 0)<br>
 K2/$ – установить сообщение при наступлении новой недели в текстовую переменную $<br>
-<u><strong>Комментарий (<span class="erm-anchor" id="ref-rec-un-show48"></span><strong class="erm-toggle-label">показать</strong>)</strong></u> </div><span class="erm-anchor" id="ref-rec-un-48"></span><details class="erm-comment"><summary>здесь</summary><div class="erm-comment-body">
+</div><span class="erm-anchor" id="ref-rec-un-48"></span><details class="erm-comment"><summary><u><strong>Комментарий (<span class="erm-anchor" id="ref-rec-un-show48"></span><strong class="erm-toggle-label">показать</strong>)</strong></u></summary><div class="erm-comment-body">
 Эта команда НЕ отменяет появление недели/месяца Бесов, если в Инферно построен Грааль. Однако, это можно обойти, применив следующий код:
 <pre class="erm-example"><code class="language-erm">; Убираем бонус Грааля Инферно
 !!UN:C5015000/1/10; (в оригинале = 3)</code></pre></div></details>
@@ -655,7 +655,7 @@ M1 – запретить месяца монстров *2 и /2<br>
 M2/$ – установить месяц
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">монстра $</a>*2<br>
 M3 – установить месяц чумы (все существа /2)<br>
-<span class="erm-anchor" id="ref-rec-un-bold"></span><em class="erm-strong">Замечание:</em> месяц Беса, если в Инферно построен Грааль, эта команда НЕ отменяет (но есть иной выход - см. ).</div>
+<span class="erm-anchor" id="ref-rec-un-bold"></span><em class="erm-strong">Замечание:</em> месяц Беса, если в Инферно построен Грааль, эта команда НЕ отменяет (но есть иной выход — см. <a href="./#ref-rec-un-k">здесь</a>).</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-un-n"></span>N…</strong></span><br>

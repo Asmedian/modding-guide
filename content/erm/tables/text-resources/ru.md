@@ -218,7 +218,7 @@ h3sprite.lod содержит графические ресурсы, h3bitmap.lo
 
 ## Связанные материалы {#links}
 
-[Переменные](../../variables/) · [Локализация SN:T](../../receivers/sn/) · [Форум: Ivor 69738](https://wforum.heroes35.net/showthread.php?tid=3727&pid=69738#pid69738) · [Ivor 70142](https://wforum.heroes35.net/showthread.php?tid=3727&pid=70142#pid70142)
+[Переменные](../../variables/) · [Локализация SN:T](../../receivers/sn/#ref-rec-sn-era-t) · [Форум: Ivor 69738](https://wforum.heroes35.net/showthread.php?tid=3727&pid=69738#pid69738) · [Ivor 70142](https://wforum.heroes35.net/showthread.php?tid=3727&pid=70142#pid70142)
 
 ## Связанные команды и таблицы {#reference-links}
 

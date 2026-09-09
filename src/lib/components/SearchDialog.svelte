@@ -4,7 +4,8 @@
   import { beforeNavigate } from '$app/navigation';
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
-  import { createPageSearch, cycleMatch, type PageMatch } from '$lib/search/page-search.mjs';
+  import { advanceMatch, createPageSearch, type PageMatch } from '$lib/search/page-search.mjs';
+  import { matchUsesInputScript } from '$lib/search/result-language.mjs';
   import { normalizeSymbol, type SymbolEntry } from '$lib/search/symbols';
 
   export let open = false;
@@ -59,6 +60,7 @@
   };
   let engine: Pagefind | null = null;
   let engineLoading = false;
+  let fullTextLoading = false;
   let engineUnavailable = false;
   let fullTextResults: RankedResult[] = [];
   let requestId = 0;
@@ -136,7 +138,7 @@
 
   async function movePageMatch(delta: number) {
     if (!pageMatches.length) return;
-    pageSelected = cycleMatch(pageSelected, delta, pageMatches.length);
+    pageSelected = advanceMatch(pageSelected, delta, pageMatches.length);
     const mark = pageSearch?.activate(pageSelected);
     await tick();
     if (!mark?.isConnected || disposed) return;
@@ -182,7 +184,11 @@
   async function fullTextSearch(pagefind: Pagefind, needle: string, locale: Locale, area: typeof scope) {
     const request = ++requestId;
     fullTextResults = [];
-    if (area === 'page' || needle.length < 2) return;
+    if (area === 'page' || needle.length < 2) {
+      fullTextLoading = false;
+      return;
+    }
+    fullTextLoading = true;
     try {
       const response = await pagefind.debouncedSearch(needle, area === 'section' ? { filters: { topSection: activeSlug.split('/')[0] || 'docs' } } : {});
       if (!response || disposed || request !== requestId) return;
@@ -192,7 +198,7 @@
         if (result.meta.locale && result.meta.locale !== locale) return [];
         const section = result.meta.topSection === 'erm' ? 'erm' : 'docs';
         const title = result.meta.title ?? result.url;
-        const slug = result.url.replace(/^\/(?:ru|en)\/(?:docs|erm)\/?/, '').replace(/\/$/, '');
+        const slug = stripBase(result.url).replace(/^\/(?:ru|en)\/(?:docs|erm)\/?/, '').replace(/\/$/, '');
         const entry: SearchEntry = {
           id: result.meta.pageId ?? result.url,
           locale,
@@ -208,7 +214,7 @@
         };
         const sub = result.sub_results?.find((item) => item.url.includes('#') && item.excerpt.includes('<mark>'));
         const parts = excerptParts(sub?.excerpt ?? result.excerpt);
-        if (!parts.some((part) => part.match)) return [];
+        if (!parts.some((part) => part.match) || !highlightMatchesInputScript(parts, needle)) return [];
         const titleMatch = title.toLocaleLowerCase(locale).includes(needle);
         const symbolMatch = section === 'erm' && /^[!?$%A-Z0-9:_-]+$/i.test(needle) && Boolean(sub?.url.includes('#'));
         return [{
@@ -222,7 +228,29 @@
       });
     } catch {
       if (!disposed && request === requestId) fullTextResults = [];
+    } finally {
+      if (!disposed && request === requestId) fullTextLoading = false;
     }
+  }
+
+  function highlightMatchesInputScript(parts: Array<{ text: string; match: boolean }>, needle: string) {
+    const marked = parts.filter((part) => part.match).map((part) => part.text).join('');
+    return matchUsesInputScript(marked, needle);
+  }
+
+  function stripBase(value: string) {
+    let pathname = value.split('#')[0] || '/';
+    if (base && (pathname === base || pathname.startsWith(`${base}/`))) pathname = pathname.slice(base.length) || '/';
+    return pathname;
+  }
+
+  function resultHref(result: RankedResult) {
+    const [rawPath, rawAnchor = ''] = result.entry.url.split('#');
+    const pathname = base && (rawPath === base || rawPath.startsWith(`${base}/`))
+      ? rawPath
+      : `${base}${rawPath.startsWith('/') ? rawPath : `/${rawPath}`}`;
+    const anchor = result.anchor || rawAnchor;
+    return `${pathname}${anchor ? `#${anchor}` : ''}`;
   }
 
   function excerpt(value: string, needle: string) {
@@ -264,7 +292,7 @@
       event.preventDefault();
       selected = (selected - 1 + results.length) % results.length;
     } else if (event.key === 'Enter' && results[selected]) {
-      window.location.href = `${base}${results[selected].entry.url}${results[selected].anchor ? `#${results[selected].anchor}` : ''}`;
+      window.location.href = resultHref(results[selected]);
     } else if (event.key === 'Escape') {
       open = false;
     }
@@ -289,8 +317,8 @@
     {#if scope === 'page'}
       <div class="search-page-controls">
         <output aria-live="polite">{t('search.matches')}: {pageMatches.length ? pageSelected + 1 : 0}/{pageMatches.length}</output>
-        <button type="button" disabled={!pageMatches.length} aria-label={t('common.previous')} on:click={() => movePageMatch(-1)}>↑</button>
-        <button type="button" disabled={!pageMatches.length} aria-label={t('common.next')} on:click={() => movePageMatch(1)}>↓</button>
+        <button type="button" disabled={!pageMatches.length || pageSelected === 0} aria-label={t('common.previous')} on:click={() => movePageMatch(-1)}>↑</button>
+        <button type="button" disabled={!pageMatches.length || pageSelected === pageMatches.length - 1} aria-label={t('common.next')} on:click={() => movePageMatch(1)}>↓</button>
       </div>
     {/if}
     <div class="search-results" aria-live="polite">
@@ -304,6 +332,8 @@
         {/if}
       {:else if normalized.length < 2}
         <p>{t('search.prompt')}</p>
+      {:else if (engineLoading || fullTextLoading) && !results.length}
+        <p class="search-loading">{t('search.searching')}</p>
       {:else if !results.length}
         <p>{t('search.empty')}</p>
       {:else}
@@ -311,7 +341,7 @@
         <ul>
           {#each results as result, index}
             <li>
-              <a class:selected={selected === index} href={`${base}${result.entry.url}${result.anchor ? `#${result.anchor}` : ''}`} on:mouseenter={() => (selected = index)} on:click={(event) => { if (!event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) open = false; }}>
+              <a class:selected={selected === index} href={resultHref(result)} on:mouseenter={() => (selected = index)} on:click={(event) => { if (!event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) open = false; }}>
                 <small>{t(`search.group.${result.group}`)}</small>
                 <strong>{#each highlighted(result.entry.title) as part}{#if part.match}<mark>{part.text}</mark>{:else}{part.text}{/if}{/each}</strong>
                 <span>{#each result.snippetParts ?? highlighted(result.snippet) as part}{#if part.match}<mark>{part.text}</mark>{:else}{part.text}{/if}{/each}</span>
