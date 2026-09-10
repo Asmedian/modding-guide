@@ -24,6 +24,14 @@ test('search code and production index loading stay outside the initial applicat
   assert.match(search, /normalized\.length >= 2[\s\S]+?loadPagefind\(\)/);
 });
 
+test('home navigation data stays outside the initial client bundle', () => {
+  const page = readFileSync(join(root, 'src/routes/[lang=locale]/+page.svelte'), 'utf8');
+  const server = readFileSync(join(root, 'src/routes/[lang=locale]/+page.server.ts'), 'utf8');
+  assert.doesNotMatch(page, /content\/_navigation\/docs\.json/);
+  assert.match(page, /navigation=\{data\.navigation\}/);
+  assert.match(server, /content\/_navigation\/docs\.json/);
+});
+
 test('development loads only the requested article and exposes no visual preloaders', () => {
   const content = readFileSync(join(root, 'src/lib/server/content.ts'), 'utf8');
   const shell = readFileSync(join(root, 'src/lib/components/AppShell.svelte'), 'utf8');
