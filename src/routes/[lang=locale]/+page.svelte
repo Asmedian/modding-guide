@@ -56,7 +56,7 @@
         <h2>{t('home.documentationTitle')}</h2>
         <p>{t('home.documentationText')}</p>
       </div>
-      <a href={`${base}/${data.lang}/docs/`}>{t('home.documentationAction')} <span aria-hidden="true">→</span></a>
+      <a href={`${base}/${data.lang}/docs/`}>{t('home.documentationAction')} <span class="css-arrow" aria-hidden="true"></span></a>
     </section>
 
     <section id="quick-start" class="home-section">
@@ -66,7 +66,7 @@
           <a class="step-card" href={`${base}/${data.lang}/${step[2]}/`}>
             <span class="step-number">{index + 1}</span>
             <div><h3>{t(step[0])}</h3><p>{t(step[1])}</p></div>
-            {#if index < quickSteps.length - 1}<span class="step-arrow" aria-hidden="true">→</span>{/if}
+            {#if index < quickSteps.length - 1}<span class="step-arrow css-arrow" aria-hidden="true"></span>{/if}
           </a>
         {/each}
       </div>
@@ -79,7 +79,7 @@
           <a class="topic-card" href={`${base}/${data.lang}/${topic[3]}/`}>
             <span class="feature-icon" aria-hidden="true">{topic[0]}</span>
             <div><h3>{t(topic[1])}</h3><p>{t(topic[2])}</p></div>
-            <span class="topic-arrow" aria-hidden="true">→</span>
+            <span class="topic-arrow" aria-hidden="true"><span class="css-arrow"></span></span>
           </a>
         {/each}
       </div>
@@ -88,7 +88,7 @@
     <section class="bottom-cta">
       <span class="shield-glyph" aria-hidden="true">♜</span>
       <div><h2>{t('home.newTitle')}</h2><p>{t('home.newText')}</p></div>
-      <a class="button-outline" href={`${base}/${data.lang}/docs/quick-start/`}>{t('home.newAction')} <span aria-hidden="true">→</span></a>
+      <a class="button-outline" href={`${base}/${data.lang}/docs/quick-start/`}>{t('home.newAction')} <span class="css-arrow" aria-hidden="true"></span></a>
     </section>
     <div class="footer-ornament" aria-hidden="true"><span></span><b>◇ ◆ ◇</b><span></span></div>
   </article>

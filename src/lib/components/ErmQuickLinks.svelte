@@ -10,16 +10,12 @@
 
   $: t = translator(lang);
   const name = (title: string) => title.replace(/\s+\([A-Z]{2}\)$/, '');
-  const objectReceiverRows = [
-    ['CB', 'CH', 'DW', 'FR', 'GD', 'GR', 'KT', 'LN', 'ML', 'MN', 'MT', 'PA', 'PM'],
-    ['QU', 'SC', 'SG', 'SK', 'SP', 'SR', 'ST', 'SW', 'SY', 'UR', 'WG', 'WH', 'WM'],
-    ['WT']
-  ];
-  const objectCodes = new Set(objectReceiverRows.flat());
+  const objectReceiverCodes = ['CB', 'CH', 'DW', 'FR', 'GD', 'GR', 'KT', 'LN', 'ML', 'MN', 'MT', 'PA', 'PM', 'QU', 'SC', 'SG', 'SK', 'SP', 'SR', 'ST', 'SW', 'SY', 'UR', 'WG', 'WH', 'WM', 'WT'];
+  const objectCodes = new Set(objectReceiverCodes);
   const regularReceivers = receivers.filter((item) => !objectCodes.has(item.code));
-  const objectReceivers = objectReceiverRows.map((row) => row
+  const objectReceivers = objectReceiverCodes
     .map((code) => receivers.find((item) => item.code === code))
-    .filter((item): item is (typeof receivers)[number] => Boolean(item)));
+    .filter((item): item is (typeof receivers)[number] => Boolean(item));
   $: currentItem = [...triggers, ...receivers].find((item) => `erm/${item.slug}` === activeSlug);
   let expanded = true;
   let stateReady = false;
@@ -68,16 +64,14 @@
     <div class="quick-row"><strong>{t('erm.quick.receivers')}</strong><span>
       {#each regularReceivers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined}>{item.code}</a>{/each}
     </span></div>
-    <div class="quick-row object-receivers"><strong>{t('erm.quick.objectReceivers')}</strong><div class="object-rows">
-      {#each objectReceivers as row}<span>
-        {#each row as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined}>{item.code}</a>{/each}
-      </span>{/each}
-    </div></div>
+    <div class="quick-row object-receivers"><strong>{t('erm.quick.objectReceivers')}</strong><span>
+      {#each objectReceivers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined}>{item.code}</a>{/each}
+    </span></div>
   </nav>
 </details>
 
 <style>
-  .erm-quick-links { position: sticky; top: var(--header-height); z-index: 12; background: var(--surface); border-bottom: 1px solid var(--border); font-size: .76rem; }
+  .erm-quick-links { position: sticky; top: 0; z-index: 12; background: var(--surface); border-bottom: 1px solid var(--border); font-size: .76rem; }
   summary { display: flex; align-items: center; gap: .7rem; min-height: 2.35rem; padding: .45rem 1rem; color: var(--text-muted); cursor: pointer; list-style: none; }
   summary::-webkit-details-marker { display: none; }
   summary > strong { color: var(--gold); }
@@ -88,8 +82,7 @@
   .quick-row { display: flex; gap: .8rem; align-items: baseline; }
   .quick-row + .quick-row { margin-top: .3rem; }
   .quick-row > strong { flex: 0 0 7.4rem; color: var(--text-muted); font-weight: 600; }
-  .quick-row > span, .object-rows span { display: flex; flex-wrap: wrap; column-gap: .48rem; row-gap: .15rem; }
-  .object-rows { display: grid; gap: .1rem; }
+  .quick-row > span { display: flex; flex-wrap: wrap; column-gap: .48rem; row-gap: .15rem; }
   a { position: relative; display: inline-block; padding: .1rem; border-radius: 2px; color: var(--gold); font-family: var(--font-mono, monospace); }
   a:hover, a:focus-visible, a.current { color: var(--text); background: var(--gold-soft); }
   a::after { content: attr(data-tooltip); position: absolute; z-index: 30; left: 50%; bottom: calc(100% + .42rem); width: max-content; max-width: min(22rem, 70vw); padding: .35rem .5rem; border: 1px solid var(--border-strong); border-radius: 4px; color: var(--text); background: var(--bg-deep); box-shadow: var(--shadow-soft); font: .78rem var(--font-body); opacity: 0; pointer-events: none; transform: translate(-50%, .2rem); visibility: hidden; }

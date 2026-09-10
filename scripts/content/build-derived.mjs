@@ -24,11 +24,16 @@ function walk(directory, name) {
   return matches;
 }
 
-function parseMarkdown(raw, section, slug) {
+function parseMarkdown(raw, section, slug, locale) {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
   if (!match) throw new Error('Missing JSON frontmatter.');
   const frontmatter = JSON.parse(match[1]);
-  const body = prepareArticleMarkdown(raw.slice(match[0].length).trim(), section, slug);
+  const battlefieldText = locale === 'ru'
+    ? 'Сетка поля боя: клетки 0–186, 11 рядов по 17 клеток.'
+    : 'Battlefield grid: cells 0–186, 11 rows of 17 cells.';
+  const body = prepareArticleMarkdown(raw.slice(match[0].length).trim(), section, slug)
+    .replace(/<img\b[^>]*7176e1b1eafc3a84\.png[^>]*\/?\s*>/gi, battlefieldText)
+    .replace(/!\[[^\]]*\]\([^)]*7176e1b1eafc3a84\.png\)/gi, battlefieldText);
   const plain = toPlain(body);
   return { frontmatter, body, plain, segments: buildSegments(body) };
 }
@@ -89,7 +94,7 @@ for (const entityPath of contentRoots.flatMap((root) => walk(root, 'entity.json'
   }
   for (const locale of locales) {
     const markdownPath = join(dirname(entityPath), `${locale}.md`);
-    const parsed = parseMarkdown(readFileSync(markdownPath, 'utf8'), meta.section ?? 'docs', meta.slug);
+    const parsed = parseMarkdown(readFileSync(markdownPath, 'utf8'), meta.section ?? 'docs', meta.slug, locale);
     if (parsed.frontmatter.translationStatus !== 'reviewed') {
       throw new Error(`Unreviewed translation in ${relative(projectRoot, markdownPath)}`);
     }

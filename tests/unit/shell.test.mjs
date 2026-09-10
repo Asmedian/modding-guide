@@ -17,7 +17,9 @@ test('the header and all columns share a centered, bounded site frame', () => {
   assert.match(frame, /width:\s*100%/);
   assert.match(frame, /max-width:\s*var\(--site-max\)/);
   assert.match(frame, /margin-inline:\s*auto/);
-  assert.doesNotMatch(frame, /overflow:\s*(hidden|auto|scroll)/);
+  assert.match(frame, /height:\s*100vh/);
+  assert.match(frame, /overflow:\s*hidden/);
+  assert.match(layout, /\.site-grid\s*\{[^}]*overflow-y:\s*auto/);
 });
 
 test('header text keeps its intrinsic width while search can shrink', () => {
@@ -42,6 +44,7 @@ test('search truncates only its label and keeps the shortcut on one line', () =>
   assert.match(label, /text-overflow:\s*ellipsis/);
   assert.match(shortcut, /flex:\s*0 0 auto/);
   assert.match(shortcut, /white-space:\s*nowrap/);
+  assert.match(layout, /\.mobile-search-row \.search-trigger kbd\s*\{\s*display:\s*none/);
 });
 
 test('locale options use document navigation without disabling the site router', () => {

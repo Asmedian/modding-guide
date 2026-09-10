@@ -73,7 +73,11 @@
 .erm-reference .erm-legacy-code-line td:first-child { color: var(--gold); }
 .erm-reference pre { font-family: var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; tab-size: 4; }
 .erm-reference pre.erm-example { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; word-break: normal; }
-.erm-reference .erm-anchor { scroll-margin-top: calc(var(--header-height) + 170px); }
+.erm-reference .erm-anchor { scroll-margin-top: 170px; }
+.erm-reference .erm-color-beige { color: #f5f5dc; }
+.erm-reference .erm-color-gold { color: #ffd700; }
+.erm-reference .erm-color-red { color: #ff0000; }
+.erm-reference .erm-color-white { color: #ffffff; }
 .erm-syntax-trigger { color: #ee9a90; }
 .erm-syntax-receiver { color: #cda7ed; }
 .erm-syntax-instruction { color: #ddc482; }

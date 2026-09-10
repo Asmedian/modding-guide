@@ -16,8 +16,8 @@
   let pendingUrl = '';
   let request = 0;
   let abort: AbortController | null = null;
-  let pointerInside = false;
   let historyButtonDown = false;
+  let pane: HTMLDivElement;
   onDestroy(() => { request++; abort?.abort(); });
   function saveScroll() { if (current && scroller) current.scroll = scroller.scrollTop; }
   export async function openReference(href: string) {
@@ -62,7 +62,7 @@
     event.preventDefault(); event.stopPropagation(); void openReference(url.href);
   }
   function ownMouseHistory(event: MouseEvent) {
-    if (!pointerInside || (event.button !== 3 && event.button !== 4)) return;
+    if ((event.button !== 3 && event.button !== 4) || !event.composedPath().includes(pane)) return;
     event.preventDefault();
     event.stopImmediatePropagation();
     if (event.type === 'mousedown' && !historyButtonDown) {
@@ -86,7 +86,7 @@
 
 <!-- Global capture prevents browser history from also moving the main column. -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<div class="reference-pane" on:pointerenter={() => (pointerInside = true)} on:pointerleave={() => { pointerInside = false; historyButtonDown = false; }}>
+<div class="reference-pane" bind:this={pane} on:pointerleave={() => { historyButtonDown = false; }}>
   <div class="reference-toolbar">
     <h2>{t('erm.context.title')}</h2>
     <div>
@@ -109,7 +109,7 @@
 </div>
 
 <style>
-  .reference-pane { position: sticky; top: var(--header-height); height: calc(100vh - var(--header-height)); display: flex; flex-direction: column; min-height: 0; }
+  .reference-pane { position: sticky; top: 0; height: calc(100vh - var(--header-height)); display: flex; flex-direction: column; min-height: 0; }
   .reference-toolbar { flex-shrink: 0; padding: 1rem; border-bottom: 1px solid var(--border); background: var(--surface); }
   .reference-toolbar h2 { font-size: .82rem; line-height: 1.4; margin: 0 0 .5rem; color: var(--gold); }
   .reference-toolbar > div { display: flex; gap: .4rem; }

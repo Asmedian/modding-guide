@@ -16,6 +16,11 @@ function walk(directory, name) {
 const entityPaths = walk(contentRoot, 'entity.json');
 const entities = entityPaths.map((path) => ({ path, meta: JSON.parse(readFileSync(path, 'utf8')) }));
 const records = new Map(entities.map(({ path, meta }) => [`${meta.section ?? 'docs'}/${meta.slug}`.replace(/\/$/, ''), { path, meta }]));
+const replacedAssets = new Set(
+  JSON.parse(readFileSync(join(contentRoot, 'erm', '_registry', 'assets.json'), 'utf8'))
+    .filter((entry) => entry.replacement)
+    .map((entry) => `/${entry.asset}`)
+);
 
 test('Markdown links and fragments resolve across all published sections', () => {
   const failures = [];
@@ -32,7 +37,9 @@ test('Markdown links and fragments resolve across all published sections', () =>
         if (/^(?:https?:|mailto:)/i.test(href)) continue;
         const target = new URL(href, current);
         if (link.image || target.pathname.startsWith('/assets/')) {
-          if (!existsSync(join(projectRoot, 'static', target.pathname))) failures.push(`${meta.id} missing image → ${href}`);
+          if (!existsSync(join(projectRoot, 'static', target.pathname)) && !replacedAssets.has(target.pathname)) {
+            failures.push(`${meta.id} missing image → ${href}`);
+          }
           continue;
         }
         const key = target.pathname.replace(/^\/(ru|en)\//, '').replace(/\/$/, '');

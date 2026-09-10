@@ -517,6 +517,7 @@ Appearance, type and subtype in the legacy WoG set. A picture does not define be
 | [63](../objects/#id-63) {#type-63-subtype-66} | 66 | ![Object 63:66](../../../../assets/erm/8953261fbc8435c6.gif) |
 | [63](../objects/#id-63) {#type-63-subtype-67} | 67 | ![Object 63:67](../../../../assets/erm/d20399ae6fd53ceb.gif) |
 | [63](../objects/#id-63) {#type-63-subtype-68} | 68 | ![Object 63:68](../../../../assets/erm/16022af70ebc9150.gif) |
+| [63](../objects/#id-63) {#type-63-subtype-69-74} | 69–74 | ![Six terrain variants clockwise from 12 o'clock](../../../../assets/erm/50192d118b261b74.gif) |
 
 ## Related commands and tables {#related}
 

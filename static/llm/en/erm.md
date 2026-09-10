@@ -13363,7 +13363,7 @@ Place a separate object<br>
 <strong><u>Comment</u>:</strong> some obstacles look proper only on their “native” soil</div>
 
 <hr>
-<div class="erm-paragraph"><strong>Battlefield:</strong><br><img src="../../../../assets/erm/7176e1b1eafc3a84.png" alt="Battlefield:" loading="lazy" decoding="async" class="erm-figure"></div>
+<div class="erm-paragraph"><strong>Battlefield:</strong><br>Battlefield grid: cells 0–186, 11 rows of 17 cells.</div>
 
 
 
@@ -31453,7 +31453,7 @@ URL: /en/erm/tables/battlefield/
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Battlefield</span></div>
-<div class="erm-paragraph"><img src="../../../../assets/erm/7176e1b1eafc3a84.png" alt="bf" loading="lazy" decoding="async" class="erm-figure"></div></div>
+<div class="erm-paragraph">Battlefield grid: cells 0–186, 11 rows of 17 cells.</div></div>
 </section>
 :::
 
@@ -31473,7 +31473,7 @@ URL: /en/erm/tables/battlefield/
 
 ## Values {#values}
 
-![Hex indices 0–186](../../../../assets/erm/7176e1b1eafc3a84.png)
+Battlefield grid: cells 0–186, 11 rows of 17 cells.
 
 ![Obstacle placement example](../../../../assets/erm/36317afafab58000.jpg)
 
@@ -53355,6 +53355,7 @@ Appearance, type and subtype in the legacy WoG set. A picture does not define be
 | [63](../objects/#id-63) {#type-63-subtype-66} | 66 | ![Object 63:66](../../../../assets/erm/8953261fbc8435c6.gif) |
 | [63](../objects/#id-63) {#type-63-subtype-67} | 67 | ![Object 63:67](../../../../assets/erm/d20399ae6fd53ceb.gif) |
 | [63](../objects/#id-63) {#type-63-subtype-68} | 68 | ![Object 63:68](../../../../assets/erm/16022af70ebc9150.gif) |
+| [63](../objects/#id-63) {#type-63-subtype-69-74} | 69–74 | ![Six terrain variants clockwise from 12 o'clock](../../../../assets/erm/50192d118b261b74.gif) |
 
 ## Related commands and tables {#related}
 

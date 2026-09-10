@@ -13363,7 +13363,7 @@ M#1/#2/#3/#4/#5/#6/#7/#8/#9/#10/#11(/#12)</span></strong><br>
 <strong><u>Комментарий</u>:</strong> некоторые препятствия выглядят должным образом лишь на "родной" земле</div>
 
 <hr>
-<div class="erm-paragraph"><strong>Поле боя:</strong><br><img src="../../../../assets/erm/7176e1b1eafc3a84.png" alt="Поле боя:" loading="lazy" decoding="async" class="erm-figure"></div>
+<div class="erm-paragraph"><strong>Поле боя:</strong><br>Сетка поля боя: клетки 0–186, 11 рядов по 17 клеток.</div>
 
 
 
@@ -31456,7 +31456,7 @@ URL: /ru/erm/tables/battlefield/
 <section class="erm-reference" lang="ru">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Поле боя</span></div>
-<div class="erm-paragraph"><img src="../../../../assets/erm/7176e1b1eafc3a84.png" alt="bf" loading="lazy" decoding="async" class="erm-figure"></div></div>
+<div class="erm-paragraph">Сетка поля боя: клетки 0–186, 11 рядов по 17 клеток.</div></div>
 </section>
 :::
 
@@ -31476,7 +31476,7 @@ URL: /ru/erm/tables/battlefield/
 
 ## Значения {#values}
 
-![Нумерация клеток 0–186](../../../../assets/erm/7176e1b1eafc3a84.png)
+Сетка поля боя: клетки 0–186, 11 рядов по 17 клеток.
 
 ![Пример размещения препятствий](../../../../assets/erm/36317afafab58000.jpg)
 
@@ -53358,6 +53358,7 @@ URL: /ru/erm/tables/wog-object-variants/
 | [63](../objects/#id-63) {#type-63-subtype-66} | 66 | ![Объект 63:66](../../../../assets/erm/8953261fbc8435c6.gif) |
 | [63](../objects/#id-63) {#type-63-subtype-67} | 67 | ![Объект 63:67](../../../../assets/erm/d20399ae6fd53ceb.gif) |
 | [63](../objects/#id-63) {#type-63-subtype-68} | 68 | ![Объект 63:68](../../../../assets/erm/16022af70ebc9150.gif) |
+| [63](../objects/#id-63) {#type-63-subtype-69-74} | 69–74 | ![Шесть вариантов почвы по часовой стрелке от 12 часов](../../../../assets/erm/50192d118b261b74.gif) |
 
 ## Связанные команды и таблицы {#related}
 
