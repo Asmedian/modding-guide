@@ -1,0 +1,14 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "plugins.getting-started",
+  "kind": "article",
+  "section": "plugins",
+  "slug": "getting-started",
+  "status": "published",
+  "sourceRefs": ["era-source:plugin-loader", "nh3api:readme", "nh3api:cmake", "nh3api:era-header", "windows-api:dll-best-practices"],
+  "keywords": ["plugin quick start", "CMake", "Win32", "x86", "DllMain", "OnAfterWoG", "EraPlugins"],
+  "questions": ["How do I build a minimal ERA plugin?", "How do I configure NH3API with CMake?", "Where should an ERA plugin be installed?"],
+  "previous": "",
+  "next": "era-api"
+}

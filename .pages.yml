@@ -86,6 +86,51 @@ content:
     operations:
       delete: false
 
+  - name: plugins
+    label: Bilingual plugin guide
+    type: collection
+    path: content/plugins
+    subfolders: true
+    format: json-frontmatter
+    exclude:
+      - "**/entity.json"
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      fields: [title, translationStatus]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+      - name: translationStatus
+        label: Translation status
+        type: select
+        required: true
+        options:
+          values: [draft, reviewed]
+      - name: body
+        label: Markdown body
+        type: code
+        required: true
+        options:
+          language: markdown
+
+  - name: plugins-navigation
+    label: Plugin navigation
+    type: file
+    path: content/_navigation/plugins.json
+    format: code
+    operations:
+      delete: false
+
   - name: navigation
     label: Documentation navigation
     type: file

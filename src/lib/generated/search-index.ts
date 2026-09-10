@@ -63937,6 +63937,271 @@ export const searchIndex = [
     ]
   },
   {
+    "id": "plugins.overview",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "en",
+    "slug": "",
+    "url": "/en/plugins/",
+    "title": "ERA plugins",
+    "summary": "A source-backed map of native ERA extensions: how they load, which API layers they use, and where binary compatibility becomes your responsibility.",
+    "keywords": [
+      "ERA plugin",
+      "EraPlugins",
+      ".era",
+      ".dll",
+      "native modding",
+      "NH3API"
+    ],
+    "questions": [
+      "What is an ERA plugin?",
+      "Where does ERA load plugins from?",
+      "When should I use the ERA API or NH3API?"
+    ],
+    "sourceRefs": [
+      "era-source:plugin-loader",
+      "era-source:era.pas",
+      "nh3api:readme"
+    ],
+    "text": "What a plugin changes An ERA plugin is a native Windows module loaded into the Heroes III process. Unlike an ERM script, it can call exported ERA services, subscribe to named events, use the patcher, and work with executable structures. That access enables engine-level changes, but a bad pointer, incorrect calling convention, or incompatible hook can terminate the whole game process. Use a plugin when the change genuinely needs native code, an ERA event handler, a binary patch, or direct game structures. Prefer resources, JSON localization, or ERM when those layers can express the same behavior with less version coupling. How ERA loads plugins The inspected ERA 3.9.30 source uses the EraPlugins directory. It loads non-empty .era files before WoG initialization, then loads legacy .dll plugins after WoG initialization and immediately fires OnAfterWoG . The current NH3API ERA wrapper describes .era as the modern extension and .dll as deprecated. Do not place both Name.era and Name.dll in the directory. ERA checks for the same basename with the other extension and treats that pair as a duplicate instead of choosing one silently. The working architecture Layer Responsibility Plugin artifact A 32-bit native module placed under EraPlugins , normally with the .era extension ERA API Events, localization, ERM integration, savegame sections, resource redirection, diagnostics, and managed patch operations Patcher x86 Named patch ownership, high- and low-level hooks, reversible patches, and patch diagnostics NH3API C++17 declarations for game structures and functions, the patcher interface, and an optional ERA module Mod package The plugin, its data and translations, compatibility notes, and a reproducible way to identify the build These layers are related but not interchangeable. NH3API models the executable and wraps integrations; it does not make every hard-coded address portable. ERA APIs are preferable when an exported service already covers the task. Choose the narrowest interface Start with the ERA API for lifecycle events, translations, settings, save data, and resource services. Add NH3API when you need typed C++ access to game structures or the patcher interface. Keep raw address patches as the last resort and record the exact executable and dependency versions that were tested. The getting-started guide builds a minimal .era module that registers an ERA handler and postpones real work until OnAfterWoG . Compatibility is part of the feature A plugin should declare at least its supported ERA range, target game executable, required plugins or patches, and known conflicts. A build that works with one executable layout is not automatically compatible with another distribution, HD Mod version, or plugin set. Test from a separate game copy. Keep a baseline without the plugin, add one change at a time, and retain ERA's generated debug information with the exact plugin build. Never ask users to replace unrelated binaries just to hide a compatibility failure.",
+    "segments": [
+      {
+        "id": "role",
+        "heading": "What a plugin changes",
+        "text": "An ERA plugin is a native Windows module loaded into the Heroes III process. Unlike an ERM script, it can call exported ERA services, subscribe to named events, use the patcher, and work with executable structures. That access enables engine-level changes, but a bad pointer, incorrect calling convention, or incompatible hook can terminate the whole game process. Use a plugin when the change genuinely needs native code, an ERA event handler, a binary patch, or direct game structures. Prefer resources, JSON localization, or ERM when those layers can express the same behavior with less version coupling."
+      },
+      {
+        "id": "loading",
+        "heading": "How ERA loads plugins",
+        "text": "The inspected ERA 3.9.30 source uses the EraPlugins directory. It loads non-empty .era files before WoG initialization, then loads legacy .dll plugins after WoG initialization and immediately fires OnAfterWoG . The current NH3API ERA wrapper describes .era as the modern extension and .dll as deprecated. Do not place both Name.era and Name.dll in the directory. ERA checks for the same basename with the other extension and treats that pair as a duplicate instead of choosing one silently."
+      },
+      {
+        "id": "architecture",
+        "heading": "The working architecture",
+        "text": "Layer Responsibility Plugin artifact A 32-bit native module placed under EraPlugins , normally with the .era extension ERA API Events, localization, ERM integration, savegame sections, resource redirection, diagnostics, and managed patch operations Patcher x86 Named patch ownership, high- and low-level hooks, reversible patches, and patch diagnostics NH3API C++17 declarations for game structures and functions, the patcher interface, and an optional ERA module Mod package The plugin, its data and translations, compatibility notes, and a reproducible way to identify the build These layers are related but not interchangeable. NH3API models the executable and wraps integrations; it does not make every hard-coded address portable. ERA APIs are preferable when an exported service already covers the task."
+      },
+      {
+        "id": "choice",
+        "heading": "Choose the narrowest interface",
+        "text": "Start with the ERA API for lifecycle events, translations, settings, save data, and resource services. Add NH3API when you need typed C++ access to game structures or the patcher interface. Keep raw address patches as the last resort and record the exact executable and dependency versions that were tested. The getting-started guide builds a minimal .era module that registers an ERA handler and postpones real work until OnAfterWoG ."
+      },
+      {
+        "id": "compatibility",
+        "heading": "Compatibility is part of the feature",
+        "text": "A plugin should declare at least its supported ERA range, target game executable, required plugins or patches, and known conflicts. A build that works with one executable layout is not automatically compatible with another distribution, HD Mod version, or plugin set. Test from a separate game copy. Keep a baseline without the plugin, add one change at a time, and retain ERA's generated debug information with the exact plugin build. Never ask users to replace unrelated binaries just to hide a compatibility failure."
+      }
+    ]
+  },
+  {
+    "id": "plugins.era-api",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "en",
+    "slug": "era-api",
+    "url": "/en/plugins/era-api/",
+    "title": "ERA plugin API",
+    "summary": "A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.",
+    "keywords": [
+      "ERA API",
+      "RegisterHandler",
+      "FireEvent",
+      "CreatePlugin",
+      "MemFree",
+      "savegame",
+      "RedirectFile",
+      "ExecErmCmd"
+    ],
+    "questions": [
+      "Which services does the ERA plugin API expose?",
+      "How do ERA plugin events work?",
+      "Who owns memory returned by the ERA API?"
+    ],
+    "sourceRefs": [
+      "era-source:era.pas",
+      "era-source:plugin-exports",
+      "era-source:plugin-loader",
+      "nh3api:era-header"
+    ],
+    "text": "Prefer exported behavior The ERA API is the first native interface to check before reading or rewriting game memory. Its exported functions express platform-level contracts: event delivery, translations, ERM interoperation, savegame sections, resource redirection, diagnostics, and patch ownership. The Pascal Era.pas unit and NH3API's nh3api/era/era.hpp expose the same broad surface in language-appropriate wrappers. Register one plugin identity. In NH3API, Era::ConnectEra(module, \"Name.era\") calls CreatePlugin and fails on a duplicate registration. Keep the real filename stable so reports and patch ownership identify the same module across builds. Subscribe to named events RegisterHandler adds a stdcall callback for an event name. The callback receives a TEvent containing Name , Data , and DataSize . Treat event data as event-specific: validate the expected size before casting it, and do not retain a pointer beyond the documented lifetime. void __stdcall OnReportVersion(Era::TEvent*) { Era::ReportPluginVersion(\"MyPlugin v1.0.0\"); } // During minimal plugin registration: Era::RegisterHandler(&OnReportVersion, \"OnReportVersion\"); FireEvent publishes a named event with an optional data pointer and byte count. Use a project-specific name for your own cross-plugin contract and publish the record layout, ownership, and lifetime. For platform events, use the exact names documented by ERA; the Framework event catalog helps locate existing lifecycle concepts but does not replace the native event-data declaration. API families Need Representative API Key constraint Events RegisterHandler , FireEvent Exact event name, stdcall handler, event-specific data layout Localization tr , trTemp , trStatic , ReloadLanguageData Copy temporary results immediately; do not modify static results ERM bridge ExecErmCmd , AllocErmFunc , FireErmEvent , GetArgXVars , associated variables Preserve ERM variable and event conventions Save data WriteSavegameSection , ReadSavegameSection Use a unique section name and version your binary payload Resources RedirectFile , GlobalRedirectFile , PcxPngExists , LoadImageAsPcx16 Distinguish current-save redirection from global redirection Configuration ReadStrFromIni , WriteStrToIni , SaveIni , registry-value helpers Use platform helpers rather than competing caches Compatibility GetVersionNum , PluginExists , PatchExists Check before relying on optional behavior Diagnostics NotifyError , FatalError , GenerateDebugInfo , ReportPluginVersion Reserve fatal termination for an unrecoverable state Patches Hook , Splice , WriteAtCode , rollback/free helpers Attach ownership to the registered plugin and record version assumptions This table is a route map, not a substitute for each declaration's parameter and ownership comments. Compile against the pinned header used by the project. Respect ownership and lifetime NH3API marks buffers allocated by era.dll with ERA_MEM ; release those through Era::MemFree , not the plugin's allocator. ERA_STATIC values remain owned by ERA and must not be freed or modified. trTemp is a temporary-buffer API, while trStatic returns a persistent translation pointer. Copy data when your lifetime is longer than the API guarantee. Apply the same discipline to savegame payloads and custom event data. A pointer value is not a portable serialization format; write an explicitly sized, versioned record and accept shorter data when migrating an older save. Keep patches reversible and attributable Use a named plugin/patcher instance so diagnostics can identify ownership. Prefer event callbacks and exported services over an absolute address. When a patch is unavoidable, verify original bytes, the calling convention, overwritten instruction size, and coexistence with other hooks before applying it. ERA exposes rollback and release operations for applied patches. Decide whether a patch must be reversible before discarding its tracking structure, and never reuse a pointer after rollback/free. Gate optional behavior by version Check GetVersionNum before calling an API introduced after your minimum ERA version. Check PluginExists or PatchExists before using an optional integration, but do not confuse file presence with semantic compatibility. Report your own version during OnReportVersion so a captured installation can be identified without guessing from a DLL timestamp. The minimal plugin guide shows registration and build setup. The NH3API page explains how the C++ wrapper and executable declarations fit around this API.",
+    "segments": [
+      {
+        "id": "contract",
+        "heading": "Prefer exported behavior",
+        "text": "The ERA API is the first native interface to check before reading or rewriting game memory. Its exported functions express platform-level contracts: event delivery, translations, ERM interoperation, savegame sections, resource redirection, diagnostics, and patch ownership. The Pascal Era.pas unit and NH3API's nh3api/era/era.hpp expose the same broad surface in language-appropriate wrappers. Register one plugin identity. In NH3API, Era::ConnectEra(module, \"Name.era\") calls CreatePlugin and fails on a duplicate registration. Keep the real filename stable so reports and patch ownership identify the same module across builds."
+      },
+      {
+        "id": "events",
+        "heading": "Subscribe to named events",
+        "text": "RegisterHandler adds a stdcall callback for an event name. The callback receives a TEvent containing Name , Data , and DataSize . Treat event data as event-specific: validate the expected size before casting it, and do not retain a pointer beyond the documented lifetime. void __stdcall OnReportVersion(Era::TEvent*) { Era::ReportPluginVersion(\"MyPlugin v1.0.0\"); } // During minimal plugin registration: Era::RegisterHandler(&OnReportVersion, \"OnReportVersion\"); FireEvent publishes a named event with an optional data pointer and byte count. Use a project-specific name for your own cross-plugin contract and publish the record layout, ownership, and lifetime. For platform events, use the exact names documented by ERA; the Framework event catalog helps locate existing lifecycle concepts but does not replace the native event-data declaration."
+      },
+      {
+        "id": "families",
+        "heading": "API families",
+        "text": "Need Representative API Key constraint Events RegisterHandler , FireEvent Exact event name, stdcall handler, event-specific data layout Localization tr , trTemp , trStatic , ReloadLanguageData Copy temporary results immediately; do not modify static results ERM bridge ExecErmCmd , AllocErmFunc , FireErmEvent , GetArgXVars , associated variables Preserve ERM variable and event conventions Save data WriteSavegameSection , ReadSavegameSection Use a unique section name and version your binary payload Resources RedirectFile , GlobalRedirectFile , PcxPngExists , LoadImageAsPcx16 Distinguish current-save redirection from global redirection Configuration ReadStrFromIni , WriteStrToIni , SaveIni , registry-value helpers Use platform helpers rather than competing caches Compatibility GetVersionNum , PluginExists , PatchExists Check before relying on optional behavior Diagnostics NotifyError , FatalError , GenerateDebugInfo , ReportPluginVersion Reserve fatal termination for an unrecoverable state Patches Hook , Splice , WriteAtCode , rollback/free helpers Attach ownership to the registered plugin and record version assumptions This table is a route map, not a substitute for each declaration's parameter and ownership comments. Compile against the pinned header used by the project."
+      },
+      {
+        "id": "memory",
+        "heading": "Respect ownership and lifetime",
+        "text": "NH3API marks buffers allocated by era.dll with ERA_MEM ; release those through Era::MemFree , not the plugin's allocator. ERA_STATIC values remain owned by ERA and must not be freed or modified. trTemp is a temporary-buffer API, while trStatic returns a persistent translation pointer. Copy data when your lifetime is longer than the API guarantee. Apply the same discipline to savegame payloads and custom event data. A pointer value is not a portable serialization format; write an explicitly sized, versioned record and accept shorter data when migrating an older save."
+      },
+      {
+        "id": "patching",
+        "heading": "Keep patches reversible and attributable",
+        "text": "Use a named plugin/patcher instance so diagnostics can identify ownership. Prefer event callbacks and exported services over an absolute address. When a patch is unavoidable, verify original bytes, the calling convention, overwritten instruction size, and coexistence with other hooks before applying it. ERA exposes rollback and release operations for applied patches. Decide whether a patch must be reversible before discarding its tracking structure, and never reuse a pointer after rollback/free."
+      },
+      {
+        "id": "versioning",
+        "heading": "Gate optional behavior by version",
+        "text": "Check GetVersionNum before calling an API introduced after your minimum ERA version. Check PluginExists or PatchExists before using an optional integration, but do not confuse file presence with semantic compatibility. Report your own version during OnReportVersion so a captured installation can be identified without guessing from a DLL timestamp. The minimal plugin guide shows registration and build setup. The NH3API page explains how the C++ wrapper and executable declarations fit around this API."
+      }
+    ]
+  },
+  {
+    "id": "plugins.getting-started",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "en",
+    "slug": "getting-started",
+    "url": "/en/plugins/getting-started/",
+    "title": "Getting started with ERA plugins",
+    "summary": "Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.",
+    "keywords": [
+      "plugin quick start",
+      "CMake",
+      "Win32",
+      "x86",
+      "DllMain",
+      "OnAfterWoG",
+      "EraPlugins"
+    ],
+    "questions": [
+      "How do I build a minimal ERA plugin?",
+      "How do I configure NH3API with CMake?",
+      "Where should an ERA plugin be installed?"
+    ],
+    "sourceRefs": [
+      "era-source:plugin-loader",
+      "nh3api:readme",
+      "nh3api:cmake",
+      "nh3api:era-header",
+      "windows-api:dll-best-practices"
+    ],
+    "text": "Prepare an isolated target Use a separate Heroes III + ERA installation for development. The current NH3API line targets the 32-bit Windows x86 executable and requires C++17. For the shortest documented route, install CMake and one supported compiler: MSVC 19.14 or newer, MinGW GCC 9 or newer, or Clang/Clang-CL in the ranges listed by NH3API. With Visual Studio generators, select the Win32 platform explicitly. A successful 64-bit DLL build is still unusable inside the 32-bit game process. Keep source and delivery separate MyPlugin/ ├─ CMakeLists.txt ├─ external/ │ └─ NH3API/ ├─ src/ │ └─ dllmain.cpp └─ dist/ └─ EraPlugins/ └─ MyPlugin.era Pin NH3API to a reviewed commit or release instead of silently following a moving branch. Do not store the game installation or proprietary game binaries in the project repository. Configure the build NH3API 1.2.0 exposes the interface target nh3api , requires C++17, and builds the optional ERA support module when NH3API_CMAKE_USE_ERA is enabled. The module links era.lib for MSVC/Clang-CL or libera.a for GNU-style toolchains. cmake_minimum_required(VERSION 3.14) project(MyPlugin LANGUAGES CXX) set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) add_library(MyPlugin SHARED src/dllmain.cpp) target_link_libraries(MyPlugin PRIVATE nh3api) set_target_properties(MyPlugin PROPERTIES OUTPUT_NAME \"MyPlugin\" PREFIX \"\" SUFFIX \".era\" ) For a Visual Studio toolchain, configure and build an x86 release like this: cmake -S . -B build -A Win32 cmake --build build --config Release Register, then wait for the lifecycle event Keep DllMain small. Microsoft documents that it runs while the loader lock is held; postpone file discovery, UI, thread coordination, and other substantial work. The minimal example connects the ERA wrapper and registers a handler, then performs its visible work after ERA fires OnAfterWoG . #include <nh3api/era/era.hpp> namespace { void __stdcall OnAfterWoG(Era::TEvent*) { Era::ShowMessage(\"MyPlugin is active\"); } } extern \"C\" NH3API_DLLEXPORT BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID) { if (reason == DLL_PROCESS_ATTACH) { Era::ConnectEra(module, \"MyPlugin.era\"); Era::RegisterHandler(&OnAfterWoG, \"OnAfterWoG\"); } return TRUE; } This verifies loading and event delivery; it is not a reason to begin patching addresses. Remove the dialog once the lifecycle is confirmed. Deploy one artifact Copy the release build to EraPlugins/MyPlugin.era . Make sure MyPlugin.dll with the same basename is absent: ERA rejects duplicate .era and .dll variants. Start the same short scenario once without the plugin and once with it. If loading fails, first check architecture, filename, unresolved runtime dependencies, and the ERA version. If loading succeeds but the handler does not run, verify the extension, event spelling, and that registration completed before OnAfterWoG . Diagnose before adding hooks Call Era::GenerateDebugInfo() from a safe user-triggered or event-driven path when you need ERA's scripts, plugins, patches, and context report. Keep the compiler/linker output and exact NH3API commit with the report. Visual Studio users can also add NH3API's debugging/nh3api_std.natvis to inspect its game-compatible container types. Once the clean module works, continue with the ERA API map and only then the NH3API executable interface. Release checklist - Build Release for x86 and test the exact delivered file. - Ship one extension for one basename; prefer .era . - State the tested ERA, executable, NH3API commit, HD Mod, and other required plugins. - Keep translations and configuration outside the binary where ERA services support them. - Test install, update, disable, and removal on a clean copy. - Record every absolute address and why an exported API or named event could not replace it.",
+    "segments": [
+      {
+        "id": "prerequisites",
+        "heading": "Prepare an isolated target",
+        "text": "Use a separate Heroes III + ERA installation for development. The current NH3API line targets the 32-bit Windows x86 executable and requires C++17. For the shortest documented route, install CMake and one supported compiler: MSVC 19.14 or newer, MinGW GCC 9 or newer, or Clang/Clang-CL in the ranges listed by NH3API. With Visual Studio generators, select the Win32 platform explicitly. A successful 64-bit DLL build is still unusable inside the 32-bit game process."
+      },
+      {
+        "id": "layout",
+        "heading": "Keep source and delivery separate",
+        "text": "MyPlugin/ ├─ CMakeLists.txt ├─ external/ │ └─ NH3API/ ├─ src/ │ └─ dllmain.cpp └─ dist/ └─ EraPlugins/ └─ MyPlugin.era Pin NH3API to a reviewed commit or release instead of silently following a moving branch. Do not store the game installation or proprietary game binaries in the project repository."
+      },
+      {
+        "id": "cmake",
+        "heading": "Configure the build",
+        "text": "NH3API 1.2.0 exposes the interface target nh3api , requires C++17, and builds the optional ERA support module when NH3API_CMAKE_USE_ERA is enabled. The module links era.lib for MSVC/Clang-CL or libera.a for GNU-style toolchains. cmake_minimum_required(VERSION 3.14) project(MyPlugin LANGUAGES CXX) set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) add_library(MyPlugin SHARED src/dllmain.cpp) target_link_libraries(MyPlugin PRIVATE nh3api) set_target_properties(MyPlugin PROPERTIES OUTPUT_NAME \"MyPlugin\" PREFIX \"\" SUFFIX \".era\" ) For a Visual Studio toolchain, configure and build an x86 release like this: cmake -S . -B build -A Win32 cmake --build build --config Release"
+      },
+      {
+        "id": "entry-point",
+        "heading": "Register, then wait for the lifecycle event",
+        "text": "Keep DllMain small. Microsoft documents that it runs while the loader lock is held; postpone file discovery, UI, thread coordination, and other substantial work. The minimal example connects the ERA wrapper and registers a handler, then performs its visible work after ERA fires OnAfterWoG . #include <nh3api/era/era.hpp> namespace { void __stdcall OnAfterWoG(Era::TEvent*) { Era::ShowMessage(\"MyPlugin is active\"); } } extern \"C\" NH3API_DLLEXPORT BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID) { if (reason == DLL_PROCESS_ATTACH) { Era::ConnectEra(module, \"MyPlugin.era\"); Era::RegisterHandler(&OnAfterWoG, \"OnAfterWoG\"); } return TRUE; } This verifies loading and event delivery; it is not a reason to begin patching addresses. Remove the dialog once the lifecycle is confirmed."
+      },
+      {
+        "id": "deploy",
+        "heading": "Deploy one artifact",
+        "text": "Copy the release build to EraPlugins/MyPlugin.era . Make sure MyPlugin.dll with the same basename is absent: ERA rejects duplicate .era and .dll variants. Start the same short scenario once without the plugin and once with it. If loading fails, first check architecture, filename, unresolved runtime dependencies, and the ERA version. If loading succeeds but the handler does not run, verify the extension, event spelling, and that registration completed before OnAfterWoG ."
+      },
+      {
+        "id": "diagnostics",
+        "heading": "Diagnose before adding hooks",
+        "text": "Call Era::GenerateDebugInfo() from a safe user-triggered or event-driven path when you need ERA's scripts, plugins, patches, and context report. Keep the compiler/linker output and exact NH3API commit with the report. Visual Studio users can also add NH3API's debugging/nh3api_std.natvis to inspect its game-compatible container types. Once the clean module works, continue with the ERA API map and only then the NH3API executable interface."
+      },
+      {
+        "id": "release",
+        "heading": "Release checklist",
+        "text": "- Build Release for x86 and test the exact delivered file. - Ship one extension for one basename; prefer .era . - State the tested ERA, executable, NH3API commit, HD Mod, and other required plugins. - Keep translations and configuration outside the binary where ERA services support them. - Test install, update, disable, and removal on a clean copy. - Record every absolute address and why an exported API or named event could not replace it."
+      }
+    ]
+  },
+  {
+    "id": "plugins.nh3api",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "en",
+    "slug": "nh3api",
+    "url": "/en/plugins/nh3api/",
+    "title": "NH3API",
+    "summary": "The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.",
+    "keywords": [
+      "NH3API",
+      "C++17",
+      "core.hpp",
+      "era.hpp",
+      "patcher_x86",
+      "era.lib",
+      "libera.a",
+      "natvis"
+    ],
+    "questions": [
+      "What does NH3API provide?",
+      "How do I connect NH3API to ERA III?",
+      "Which compilers and modules does NH3API support?"
+    ],
+    "sourceRefs": [
+      "nh3api:readme",
+      "nh3api:cmake",
+      "nh3api:era-header",
+      "nh3api:era-module-readme",
+      "nh3api:patcher-header",
+      "nh3api:natvis"
+    ],
+    "text": "Scope and target NH3API is an open-source C++17 library by void_17 for modding Heroes of Might and Magic III. Its main target is the Windows x86 Complete executable used with HD Mod. The repository describes the library as being based on an IDA database and names recovered in part from the Dreamcast build. That target matters. The types and wrappers make native work readable, but their layout and addresses still describe a particular executable family. Treat every direct structure access and hook as a binary compatibility claim. Repository map Path Use nh3api/core.hpp Umbrella include for the central game, interface, global, and patcher declarations nh3api/core/ Typed subsystems such as adventure, combat, heroes, maps, resources, dialogs, and game-compatible containers nh3api/era/era.hpp Optional ERA III wrapper: events, localization, ERM, persistence, resources, diagnostics, memory, and plugin registration nh3api/era/era.lib ERA import library for MSVC and Clang-CL nh3api/era/libera.a ERA import library for MinGW and GNU-style Clang nh3api/core/nh3api_std/patcher_x86.hpp Patcher x86 interface, hook and patch ownership, and patch diagnostics debugging/nh3api_std.natvis Visual Studio visualization for NH3API container types Include only what the module needs. core.hpp is the simple starting point; narrower headers can reduce coupling and compilation work later. Add the library with CMake Pin the repository under your source tree or as a submodule, then add its root directory and link the interface target: add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) For ERA III support, set the option before add_subdirectory : set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) The current CMake project identifies itself as NH3API 1.2.0, requires CMake 3.14 and C++17, and adds -m32 for non-MSVC builds. MSVC projects must still select the x86/Win32 platform themselves. Use the core and ERA entry points For the executable declarations and patcher: #include <nh3api/core.hpp> For ERA services: #include <nh3api/era/era.hpp> Call Era::ConnectEra as early as the minimal DLL entry path permits, then register named handlers and move substantial initialization into a suitable event. The plugin quick start contains a complete minimal skeleton; the ERA API map groups the wrapper by responsibility. Toolchain support Toolchain Minimum documented by NH3API 1.2 MSVC 19.14 / Visual Studio 2017 with C++17 MinGW GCC 9.0 with C++17 MinGW Clang 9.0 with C++17 Clang-CL 15.0.0 with Visual Studio 2019 or newer The repository documents separate Windows XP-compatible choices, including the v141_xp toolset for MSVC. That compiler target is independent of this website's browser baseline and must be tested with the plugin's actual dependencies. Patcher workflow The patcher header instructs a module to acquire GetPatcher() once, create a uniquely named PatcherInstance , and create patches or hooks through that owner. It exposes high-level hooks, safe/extended low-level hooks, raw writes, apply/undo/destroy operations, blocking, and a patch list dump. Use the highest-level hook that preserves the original calling contract. Do not copy the README's demonstration address into unrelated code: verify the exact executable bytes and document what owns the address before shipping. Debugging and reproducibility Add debugging/nh3api_std.natvis to a Visual Studio project to inspect NH3API containers. For runtime failures, combine the native debugger with ERA's GenerateDebugInfo report and the patcher dump. Record the plugin binary hash, compiler, build type, NH3API commit, ERA version, executable, and active plugin list. The source snapshot used for this page is commit 454cfe2bf34b54155168c17f9bbd627df596ad7a from 2026-09-06. Re-check upstream declarations and release notes before adopting a newer revision. License and compatibility boundary The repository declares Apache License 2.0 and also carries an additional legal-information notice in its README. Read the repository's current LICENSE and legal section before redistributing source or binaries; this guide does not reinterpret those terms. NH3API support does not imply that a plugin is compatible with every Heroes III edition or executable. Publish the tested matrix and fail cleanly when a required ERA version, patcher, plugin, or executable signature is absent.",
+    "segments": [
+      {
+        "id": "scope",
+        "heading": "Scope and target",
+        "text": "NH3API is an open-source C++17 library by void_17 for modding Heroes of Might and Magic III. Its main target is the Windows x86 Complete executable used with HD Mod. The repository describes the library as being based on an IDA database and names recovered in part from the Dreamcast build. That target matters. The types and wrappers make native work readable, but their layout and addresses still describe a particular executable family. Treat every direct structure access and hook as a binary compatibility claim."
+      },
+      {
+        "id": "modules",
+        "heading": "Repository map",
+        "text": "Path Use nh3api/core.hpp Umbrella include for the central game, interface, global, and patcher declarations nh3api/core/ Typed subsystems such as adventure, combat, heroes, maps, resources, dialogs, and game-compatible containers nh3api/era/era.hpp Optional ERA III wrapper: events, localization, ERM, persistence, resources, diagnostics, memory, and plugin registration nh3api/era/era.lib ERA import library for MSVC and Clang-CL nh3api/era/libera.a ERA import library for MinGW and GNU-style Clang nh3api/core/nh3api_std/patcher_x86.hpp Patcher x86 interface, hook and patch ownership, and patch diagnostics debugging/nh3api_std.natvis Visual Studio visualization for NH3API container types Include only what the module needs. core.hpp is the simple starting point; narrower headers can reduce coupling and compilation work later."
+      },
+      {
+        "id": "cmake",
+        "heading": "Add the library with CMake",
+        "text": "Pin the repository under your source tree or as a submodule, then add its root directory and link the interface target: add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) For ERA III support, set the option before add_subdirectory : set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) The current CMake project identifies itself as NH3API 1.2.0, requires CMake 3.14 and C++17, and adds -m32 for non-MSVC builds. MSVC projects must still select the x86/Win32 platform themselves."
+      },
+      {
+        "id": "includes",
+        "heading": "Use the core and ERA entry points",
+        "text": "For the executable declarations and patcher: #include <nh3api/core.hpp> For ERA services: #include <nh3api/era/era.hpp> Call Era::ConnectEra as early as the minimal DLL entry path permits, then register named handlers and move substantial initialization into a suitable event. The plugin quick start contains a complete minimal skeleton; the ERA API map groups the wrapper by responsibility."
+      },
+      {
+        "id": "toolchains",
+        "heading": "Toolchain support",
+        "text": "Toolchain Minimum documented by NH3API 1.2 MSVC 19.14 / Visual Studio 2017 with C++17 MinGW GCC 9.0 with C++17 MinGW Clang 9.0 with C++17 Clang-CL 15.0.0 with Visual Studio 2019 or newer The repository documents separate Windows XP-compatible choices, including the v141_xp toolset for MSVC. That compiler target is independent of this website's browser baseline and must be tested with the plugin's actual dependencies."
+      },
+      {
+        "id": "patcher",
+        "heading": "Patcher workflow",
+        "text": "The patcher header instructs a module to acquire GetPatcher() once, create a uniquely named PatcherInstance , and create patches or hooks through that owner. It exposes high-level hooks, safe/extended low-level hooks, raw writes, apply/undo/destroy operations, blocking, and a patch list dump. Use the highest-level hook that preserves the original calling contract. Do not copy the README's demonstration address into unrelated code: verify the exact executable bytes and document what owns the address before shipping."
+      },
+      {
+        "id": "debugging",
+        "heading": "Debugging and reproducibility",
+        "text": "Add debugging/nh3api_std.natvis to a Visual Studio project to inspect NH3API containers. For runtime failures, combine the native debugger with ERA's GenerateDebugInfo report and the patcher dump. Record the plugin binary hash, compiler, build type, NH3API commit, ERA version, executable, and active plugin list. The source snapshot used for this page is commit 454cfe2bf34b54155168c17f9bbd627df596ad7a from 2026-09-06. Re-check upstream declarations and release notes before adopting a newer revision."
+      },
+      {
+        "id": "license",
+        "heading": "License and compatibility boundary",
+        "text": "The repository declares Apache License 2.0 and also carries an additional legal-information notice in its README. Read the repository's current LICENSE and legal section before redistributing source or binaries; this guide does not reinterpret those terms. NH3API support does not imply that a plugin is compatible with every Heroes III edition or executable. Publish the tested matrix and fail cleanly when a required ERA version, patcher, plugin, or executable signature is absent."
+      }
+    ]
+  },
+  {
     "id": "docs.overview",
     "kind": "article",
     "section": "docs",
@@ -127869,6 +128134,271 @@ export const searchIndex = [
         "id": "reference-links",
         "heading": "Связанные команды и таблицы",
         "text": "Флаги, сообщения и выбор (IF) · Флаги, сообщения и выбор (IF) · Начало и завершение боя (BA) · Действие в бою (BG) · Подготовка поля боя (BF) · Глобальные события (GE) · Отладка и совместимость ERM · Средства ERA, память и звук (SN) · Переменные и выражения (VR) · Флаги, сообщения и выбор (IF) · Подсказки типов объектов (HT) · Вызовы функций (FU) · Циклические вызовы (DO) · Получение уровня героем (HL) · Макросы классического ERM (MC) · Триггеры и события ERM · Синтаксис ERM: ZVSE и ZVSE2 · Данные клеток карты (PO) · Варианты объектов WoG"
+      }
+    ]
+  },
+  {
+    "id": "plugins.overview",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "ru",
+    "slug": "",
+    "url": "/ru/plugins/",
+    "title": "Плагины ERA",
+    "summary": "Проверенная по исходникам карта нативных расширений ERA: порядок загрузки, уровни API и границы бинарной совместимости.",
+    "keywords": [
+      "ERA plugin",
+      "EraPlugins",
+      ".era",
+      ".dll",
+      "native modding",
+      "NH3API"
+    ],
+    "questions": [
+      "What is an ERA plugin?",
+      "Where does ERA load plugins from?",
+      "When should I use the ERA API or NH3API?"
+    ],
+    "sourceRefs": [
+      "era-source:plugin-loader",
+      "era-source:era.pas",
+      "nh3api:readme"
+    ],
+    "text": "Что меняет плагин Плагин ERA — нативный модуль Windows, загружаемый в процесс Heroes III. В отличие от ERM-скрипта он может вызывать экспортируемые службы ERA, подписываться на именованные события, использовать патчер и работать со структурами исполняемого файла. Такой доступ позволяет менять уровень движка, но неверный указатель, соглашение о вызовах или несовместимый хук способны завершить весь процесс игры. Выбирайте плагин, когда задаче действительно нужен нативный код, обработчик события ERA, бинарный патч или прямой доступ к структурам игры. Если то же поведение выражается ресурсами, JSON-локализацией или ERM, эти уровни обычно меньше зависят от версии. Как ERA загружает плагины В проверенном исходнике ERA 3.9.30 используется каталог EraPlugins . Непустые файлы .era загружаются до инициализации WoG, затем после инициализации WoG загружаются устаревшие плагины .dll и сразу вызывается событие OnAfterWoG . Актуальная обёртка ERA в NH3API также называет .era современным, а .dll устаревшим расширением. Не помещайте в каталог одновременно Name.era и Name.dll . ERA проверяет совпадение базового имени с другим расширением и считает такую пару дубликатом, а не выбирает один файл молча. Рабочая архитектура Уровень Ответственность Артефакт плагина 32-битный нативный модуль в EraPlugins , обычно с расширением .era API ERA События, локализация, интеграция с ERM, секции сохранений, перенаправление ресурсов, диагностика и управляемые патчи Patcher x86 Именованное владение патчами, хуки высокого и низкого уровня, откат патчей и диагностический список NH3API C++17-описания структур и функций игры, интерфейс патчера и необязательный модуль ERA Пакет мода Плагин, данные и переводы, сведения о совместимости и воспроизводимая идентификация сборки Эти уровни связаны, но не заменяют друг друга. NH3API описывает исполняемый файл и оборачивает интеграции, однако не делает любой жёстко заданный адрес переносимым. Если задачу уже решает экспортируемая служба ERA, предпочтительнее использовать её. Выбирайте самый узкий интерфейс Начните с API ERA для событий жизненного цикла, переводов, настроек, данных сохранения и работы с ресурсами. Подключайте NH3API, когда нужен типизированный доступ C++ к структурам игры или интерфейсу патчера. Патчи по абсолютным адресам оставляйте на крайний случай и фиксируйте точные версии проверенного EXE и зависимостей. Руководство для начала работы собирает минимальный модуль .era , регистрирующий обработчик ERA и откладывающий содержательную работу до OnAfterWoG . Совместимость — часть функции Плагин должен указывать как минимум поддерживаемый диапазон ERA, целевой исполняемый файл игры, необходимые плагины или патчи и известные конфликты. Сборка, работающая с одной разметкой EXE, не становится автоматически совместимой с другой сборкой игры, версией HD Mod или набором плагинов. Проверяйте изменения на отдельной копии игры. Храните исходный запуск без плагина, добавляйте по одному изменению и сохраняйте отладочную информацию ERA вместе с точной версией сборки плагина. Не предлагайте пользователю заменять посторонние бинарные файлы только для сокрытия несовместимости.",
+    "segments": [
+      {
+        "id": "role",
+        "heading": "Что меняет плагин",
+        "text": "Плагин ERA — нативный модуль Windows, загружаемый в процесс Heroes III. В отличие от ERM-скрипта он может вызывать экспортируемые службы ERA, подписываться на именованные события, использовать патчер и работать со структурами исполняемого файла. Такой доступ позволяет менять уровень движка, но неверный указатель, соглашение о вызовах или несовместимый хук способны завершить весь процесс игры. Выбирайте плагин, когда задаче действительно нужен нативный код, обработчик события ERA, бинарный патч или прямой доступ к структурам игры. Если то же поведение выражается ресурсами, JSON-локализацией или ERM, эти уровни обычно меньше зависят от версии."
+      },
+      {
+        "id": "loading",
+        "heading": "Как ERA загружает плагины",
+        "text": "В проверенном исходнике ERA 3.9.30 используется каталог EraPlugins . Непустые файлы .era загружаются до инициализации WoG, затем после инициализации WoG загружаются устаревшие плагины .dll и сразу вызывается событие OnAfterWoG . Актуальная обёртка ERA в NH3API также называет .era современным, а .dll устаревшим расширением. Не помещайте в каталог одновременно Name.era и Name.dll . ERA проверяет совпадение базового имени с другим расширением и считает такую пару дубликатом, а не выбирает один файл молча."
+      },
+      {
+        "id": "architecture",
+        "heading": "Рабочая архитектура",
+        "text": "Уровень Ответственность Артефакт плагина 32-битный нативный модуль в EraPlugins , обычно с расширением .era API ERA События, локализация, интеграция с ERM, секции сохранений, перенаправление ресурсов, диагностика и управляемые патчи Patcher x86 Именованное владение патчами, хуки высокого и низкого уровня, откат патчей и диагностический список NH3API C++17-описания структур и функций игры, интерфейс патчера и необязательный модуль ERA Пакет мода Плагин, данные и переводы, сведения о совместимости и воспроизводимая идентификация сборки Эти уровни связаны, но не заменяют друг друга. NH3API описывает исполняемый файл и оборачивает интеграции, однако не делает любой жёстко заданный адрес переносимым. Если задачу уже решает экспортируемая служба ERA, предпочтительнее использовать её."
+      },
+      {
+        "id": "choice",
+        "heading": "Выбирайте самый узкий интерфейс",
+        "text": "Начните с API ERA для событий жизненного цикла, переводов, настроек, данных сохранения и работы с ресурсами. Подключайте NH3API, когда нужен типизированный доступ C++ к структурам игры или интерфейсу патчера. Патчи по абсолютным адресам оставляйте на крайний случай и фиксируйте точные версии проверенного EXE и зависимостей. Руководство для начала работы собирает минимальный модуль .era , регистрирующий обработчик ERA и откладывающий содержательную работу до OnAfterWoG ."
+      },
+      {
+        "id": "compatibility",
+        "heading": "Совместимость — часть функции",
+        "text": "Плагин должен указывать как минимум поддерживаемый диапазон ERA, целевой исполняемый файл игры, необходимые плагины или патчи и известные конфликты. Сборка, работающая с одной разметкой EXE, не становится автоматически совместимой с другой сборкой игры, версией HD Mod или набором плагинов. Проверяйте изменения на отдельной копии игры. Храните исходный запуск без плагина, добавляйте по одному изменению и сохраняйте отладочную информацию ERA вместе с точной версией сборки плагина. Не предлагайте пользователю заменять посторонние бинарные файлы только для сокрытия несовместимости."
+      }
+    ]
+  },
+  {
+    "id": "plugins.era-api",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "ru",
+    "slug": "era-api",
+    "url": "/ru/plugins/era-api/",
+    "title": "API плагинов ERA",
+    "summary": "Практическая карта экспортируемых служб ERA: события, локализация, ERM, сохранения, ресурсы, диагностика и управляемые патчи.",
+    "keywords": [
+      "ERA API",
+      "RegisterHandler",
+      "FireEvent",
+      "CreatePlugin",
+      "MemFree",
+      "savegame",
+      "RedirectFile",
+      "ExecErmCmd"
+    ],
+    "questions": [
+      "Which services does the ERA plugin API expose?",
+      "How do ERA plugin events work?",
+      "Who owns memory returned by the ERA API?"
+    ],
+    "sourceRefs": [
+      "era-source:era.pas",
+      "era-source:plugin-exports",
+      "era-source:plugin-loader",
+      "nh3api:era-header"
+    ],
+    "text": "Предпочитайте экспортируемое поведение API ERA — первый нативный интерфейс, который следует проверить до чтения или перезаписи памяти игры. Его экспортируемые функции выражают контракты платформы: доставку событий, переводы, взаимодействие с ERM, секции сохранений, перенаправление ресурсов, диагностику и владение патчами. Модуль Pascal Era.pas и nh3api/era/era.hpp из NH3API предоставляют одну широкую поверхность через обёртки своих языков. Регистрируйте одну идентичность плагина. В NH3API вызов Era::ConnectEra(module, \"Name.era\") использует CreatePlugin и завершает работу при повторной регистрации. Стабильное настоящее имя файла позволяет отчётам и патчам обозначать один модуль во всех сборках. Подписывайтесь на именованные события RegisterHandler добавляет обработчик stdcall для имени события. Обработчик получает TEvent с полями Name , Data и DataSize . Данные зависят от события: проверяйте ожидаемый размер до приведения типа и не сохраняйте указатель дольше документированного времени жизни. void __stdcall OnReportVersion(Era::TEvent*) { Era::ReportPluginVersion(\"MyPlugin v1.0.0\"); } // Во время минимальной регистрации плагина: Era::RegisterHandler(&OnReportVersion, \"OnReportVersion\"); FireEvent публикует именованное событие с необязательным указателем на данные и числом байт. Для собственного межплагинного контракта используйте уникальное имя проекта и опишите разметку записи, владение и время жизни. Для событий платформы сохраняйте точные имена ERA; каталог событий Framework помогает найти существующие понятия жизненного цикла, но не заменяет нативное объявление данных события. Семейства API Задача Представители API Главное ограничение События RegisterHandler , FireEvent Точное имя, обработчик stdcall , собственная разметка данных каждого события Локализация tr , trTemp , trStatic , ReloadLanguageData Временный результат копируется сразу, статический нельзя изменять Связь с ERM ExecErmCmd , AllocErmFunc , FireErmEvent , GetArgXVars , ассоциативные переменные Соблюдайте правила переменных и событий ERM Сохранения WriteSavegameSection , ReadSavegameSection Уникальное имя секции и версионирование бинарной записи Ресурсы RedirectFile , GlobalRedirectFile , PcxPngExists , LoadImageAsPcx16 Различайте перенаправление текущего сохранения и глобальное Настройки ReadStrFromIni , WriteStrToIni , SaveIni , функции реестра ERA Используйте службы платформы, не создавая конкурирующие кэши Совместимость GetVersionNum , PluginExists , PatchExists Проверяйте до использования необязательного поведения Диагностика NotifyError , FatalError , GenerateDebugInfo , ReportPluginVersion Фатальное завершение допустимо только для невосстановимого состояния Патчи Hook , Splice , WriteAtCode , функции отката/освобождения Связывайте владение с зарегистрированным плагином и фиксируйте версионные допущения Таблица служит картой маршрутов, а не заменяет комментарии каждого объявления о параметрах и владении. Компилируйте с закреплённым заголовком, принятым в проекте. Соблюдайте владение и время жизни NH3API помечает буферы, выделенные era.dll , как ERA_MEM ; освобождайте их через Era::MemFree , а не через аллокатор плагина. Значения ERA_STATIC остаются собственностью ERA — их нельзя освобождать или изменять. trTemp возвращает временный буфер, а trStatic — постоянный указатель на перевод. Копируйте данные, если они нужны дольше гарантированного API срока. Тот же принцип действует для секций сохранения и данных собственных событий. Значение указателя не является переносимым форматом сериализации; записывайте структуру с явным размером и версией и допускайте более короткие данные при переносе старого сохранения. Делайте патчи обратимыми и различимыми Используйте именованный экземпляр плагина/патчера, чтобы диагностика показывала владельца. Предпочитайте обработчик события и экспортируемую службу абсолютному адресу. Если патч неизбежен, до применения проверьте исходные байты, соглашение о вызовах, размер заменяемых инструкций и сосуществование с другими хуками. ERA предоставляет операции отката и освобождения применённых патчей. Решите, понадобится ли откат, до уничтожения структуры отслеживания и никогда не используйте указатель после отката или освобождения. Ограничивайте необязательное поведение версией Проверяйте GetVersionNum до вызова API, появившегося после минимальной версии ERA вашего плагина. Проверяйте PluginExists или PatchExists перед необязательной интеграцией, но не считайте присутствие файла доказательством смысловой совместимости. Сообщайте собственную версию во время OnReportVersion , чтобы установленный комплект можно было определить без догадок по времени DLL. Минимальное руководство показывает регистрацию и настройку сборки. Страница NH3API объясняет место C++-обёртки и описаний исполняемого файла вокруг этого API.",
+    "segments": [
+      {
+        "id": "contract",
+        "heading": "Предпочитайте экспортируемое поведение",
+        "text": "API ERA — первый нативный интерфейс, который следует проверить до чтения или перезаписи памяти игры. Его экспортируемые функции выражают контракты платформы: доставку событий, переводы, взаимодействие с ERM, секции сохранений, перенаправление ресурсов, диагностику и владение патчами. Модуль Pascal Era.pas и nh3api/era/era.hpp из NH3API предоставляют одну широкую поверхность через обёртки своих языков. Регистрируйте одну идентичность плагина. В NH3API вызов Era::ConnectEra(module, \"Name.era\") использует CreatePlugin и завершает работу при повторной регистрации. Стабильное настоящее имя файла позволяет отчётам и патчам обозначать один модуль во всех сборках."
+      },
+      {
+        "id": "events",
+        "heading": "Подписывайтесь на именованные события",
+        "text": "RegisterHandler добавляет обработчик stdcall для имени события. Обработчик получает TEvent с полями Name , Data и DataSize . Данные зависят от события: проверяйте ожидаемый размер до приведения типа и не сохраняйте указатель дольше документированного времени жизни. void __stdcall OnReportVersion(Era::TEvent*) { Era::ReportPluginVersion(\"MyPlugin v1.0.0\"); } // Во время минимальной регистрации плагина: Era::RegisterHandler(&OnReportVersion, \"OnReportVersion\"); FireEvent публикует именованное событие с необязательным указателем на данные и числом байт. Для собственного межплагинного контракта используйте уникальное имя проекта и опишите разметку записи, владение и время жизни. Для событий платформы сохраняйте точные имена ERA; каталог событий Framework помогает найти существующие понятия жизненного цикла, но не заменяет нативное объявление данных события."
+      },
+      {
+        "id": "families",
+        "heading": "Семейства API",
+        "text": "Задача Представители API Главное ограничение События RegisterHandler , FireEvent Точное имя, обработчик stdcall , собственная разметка данных каждого события Локализация tr , trTemp , trStatic , ReloadLanguageData Временный результат копируется сразу, статический нельзя изменять Связь с ERM ExecErmCmd , AllocErmFunc , FireErmEvent , GetArgXVars , ассоциативные переменные Соблюдайте правила переменных и событий ERM Сохранения WriteSavegameSection , ReadSavegameSection Уникальное имя секции и версионирование бинарной записи Ресурсы RedirectFile , GlobalRedirectFile , PcxPngExists , LoadImageAsPcx16 Различайте перенаправление текущего сохранения и глобальное Настройки ReadStrFromIni , WriteStrToIni , SaveIni , функции реестра ERA Используйте службы платформы, не создавая конкурирующие кэши Совместимость GetVersionNum , PluginExists , PatchExists Проверяйте до использования необязательного поведения Диагностика NotifyError , FatalError , GenerateDebugInfo , ReportPluginVersion Фатальное завершение допустимо только для невосстановимого состояния Патчи Hook , Splice , WriteAtCode , функции отката/освобождения Связывайте владение с зарегистрированным плагином и фиксируйте версионные допущения Таблица служит картой маршрутов, а не заменяет комментарии каждого объявления о параметрах и владении. Компилируйте с закреплённым заголовком, принятым в проекте."
+      },
+      {
+        "id": "memory",
+        "heading": "Соблюдайте владение и время жизни",
+        "text": "NH3API помечает буферы, выделенные era.dll , как ERA_MEM ; освобождайте их через Era::MemFree , а не через аллокатор плагина. Значения ERA_STATIC остаются собственностью ERA — их нельзя освобождать или изменять. trTemp возвращает временный буфер, а trStatic — постоянный указатель на перевод. Копируйте данные, если они нужны дольше гарантированного API срока. Тот же принцип действует для секций сохранения и данных собственных событий. Значение указателя не является переносимым форматом сериализации; записывайте структуру с явным размером и версией и допускайте более короткие данные при переносе старого сохранения."
+      },
+      {
+        "id": "patching",
+        "heading": "Делайте патчи обратимыми и различимыми",
+        "text": "Используйте именованный экземпляр плагина/патчера, чтобы диагностика показывала владельца. Предпочитайте обработчик события и экспортируемую службу абсолютному адресу. Если патч неизбежен, до применения проверьте исходные байты, соглашение о вызовах, размер заменяемых инструкций и сосуществование с другими хуками. ERA предоставляет операции отката и освобождения применённых патчей. Решите, понадобится ли откат, до уничтожения структуры отслеживания и никогда не используйте указатель после отката или освобождения."
+      },
+      {
+        "id": "versioning",
+        "heading": "Ограничивайте необязательное поведение версией",
+        "text": "Проверяйте GetVersionNum до вызова API, появившегося после минимальной версии ERA вашего плагина. Проверяйте PluginExists или PatchExists перед необязательной интеграцией, но не считайте присутствие файла доказательством смысловой совместимости. Сообщайте собственную версию во время OnReportVersion , чтобы установленный комплект можно было определить без догадок по времени DLL. Минимальное руководство показывает регистрацию и настройку сборки. Страница NH3API объясняет место C++-обёртки и описаний исполняемого файла вокруг этого API."
+      }
+    ]
+  },
+  {
+    "id": "plugins.getting-started",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "ru",
+    "slug": "getting-started",
+    "url": "/ru/plugins/getting-started/",
+    "title": "Начало работы с плагинами ERA",
+    "summary": "Сборка минимального 32-битного модуля `.era` на C++17 с CMake и NH3API, его установка и диагностика с явными границами совместимости.",
+    "keywords": [
+      "plugin quick start",
+      "CMake",
+      "Win32",
+      "x86",
+      "DllMain",
+      "OnAfterWoG",
+      "EraPlugins"
+    ],
+    "questions": [
+      "How do I build a minimal ERA plugin?",
+      "How do I configure NH3API with CMake?",
+      "Where should an ERA plugin be installed?"
+    ],
+    "sourceRefs": [
+      "era-source:plugin-loader",
+      "nh3api:readme",
+      "nh3api:cmake",
+      "nh3api:era-header",
+      "windows-api:dll-best-practices"
+    ],
+    "text": "Подготовьте отдельную установку Разрабатывайте на отдельной установке Heroes III + ERA. Актуальная ветка NH3API предназначена для 32-битного исполняемого файла Windows x86 и требует C++17. Для кратчайшего документированного пути установите CMake и один из поддерживаемых компиляторов: MSVC 19.14 или новее, MinGW GCC 9 или новее либо Clang/Clang-CL в диапазонах, указанных NH3API. Для генератора Visual Studio явно выбирайте платформу Win32 . Успешно собранная 64-битная DLL всё равно не загрузится в 32-битный процесс игры. Разделите исходники и поставку MyPlugin/ ├─ CMakeLists.txt ├─ external/ │ └─ NH3API/ ├─ src/ │ └─ dllmain.cpp └─ dist/ └─ EraPlugins/ └─ MyPlugin.era Закрепляйте проверенный commit или релиз NH3API, а не следуйте меняющейся ветке без контроля. Не храните в репозитории проекта установленную игру или проприетарные бинарные файлы игры. Настройте сборку NH3API 1.2.0 предоставляет интерфейсную цель nh3api , требует C++17 и собирает необязательный модуль поддержки ERA при включённом NH3API_CMAKE_USE_ERA . Модуль связывается с era.lib для MSVC/Clang-CL или с libera.a для инструментов в стиле GNU. cmake_minimum_required(VERSION 3.14) project(MyPlugin LANGUAGES CXX) set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) add_library(MyPlugin SHARED src/dllmain.cpp) target_link_libraries(MyPlugin PRIVATE nh3api) set_target_properties(MyPlugin PROPERTIES OUTPUT_NAME \"MyPlugin\" PREFIX \"\" SUFFIX \".era\" ) Для Visual Studio настройте и соберите выпуск x86 так: cmake -S . -B build -A Win32 cmake --build build --config Release Зарегистрируйтесь и дождитесь события Оставляйте DllMain минимальным. По документации Microsoft он выполняется при захваченной блокировке загрузчика; поиск файлов, интерфейс, синхронизацию потоков и другую содержательную работу следует отложить. Минимальный пример подключает обёртку ERA и регистрирует обработчик, а видимое действие выполняет после вызова ERA события OnAfterWoG . #include <nh3api/era/era.hpp> namespace { void __stdcall OnAfterWoG(Era::TEvent*) { Era::ShowMessage(\"MyPlugin is active\"); } } extern \"C\" NH3API_DLLEXPORT BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID) { if (reason == DLL_PROCESS_ATTACH) { Era::ConnectEra(module, \"MyPlugin.era\"); Era::RegisterHandler(&OnAfterWoG, \"OnAfterWoG\"); } return TRUE; } Этот код проверяет загрузку и доставку события, но не служит поводом сразу патчить адреса. После проверки жизненного цикла удалите диалог. Установите один артефакт Скопируйте выпуск в EraPlugins/MyPlugin.era . Убедитесь, что рядом нет MyPlugin.dll с тем же базовым именем: ERA отклоняет дублирующие варианты .era и .dll . Запустите один и тот же короткий сценарий сначала без плагина, затем с ним. Если модуль не загружается, сначала проверьте архитектуру, имя файла, неразрешённые зависимости среды выполнения и версию ERA. Если загрузка прошла, но обработчик не вызывается, проверьте расширение, точное имя события и завершение регистрации до OnAfterWoG . Проведите диагностику до хуков Вызывайте Era::GenerateDebugInfo() из безопасного пользовательского или событийного пути, когда нужен отчёт ERA о скриптах, плагинах, патчах и контексте. Сохраняйте вместе с отчётом вывод компилятора/линкера и точный commit NH3API. Пользователи Visual Studio могут добавить debugging/nh3api_std.natvis для просмотра совместимых с игрой контейнеров NH3API. После работы чистого модуля переходите к карте API ERA и лишь затем к интерфейсу исполняемого файла NH3API. Контрольный список выпуска - Соберите Release для x86 и проверьте именно поставляемый файл. - Поставляйте одно расширение для одного базового имени; предпочитайте .era . - Укажите проверенные версии ERA, EXE, commit NH3API, HD Mod и других обязательных плагинов. - Выносите переводы и конфигурацию из бинарного файла, когда это поддерживают службы ERA. - Проверьте установку, обновление, отключение и удаление на чистой копии. - Зафиксируйте каждый абсолютный адрес и причину, по которой его нельзя заменить экспортируемым API или именованным событием.",
+    "segments": [
+      {
+        "id": "prerequisites",
+        "heading": "Подготовьте отдельную установку",
+        "text": "Разрабатывайте на отдельной установке Heroes III + ERA. Актуальная ветка NH3API предназначена для 32-битного исполняемого файла Windows x86 и требует C++17. Для кратчайшего документированного пути установите CMake и один из поддерживаемых компиляторов: MSVC 19.14 или новее, MinGW GCC 9 или новее либо Clang/Clang-CL в диапазонах, указанных NH3API. Для генератора Visual Studio явно выбирайте платформу Win32 . Успешно собранная 64-битная DLL всё равно не загрузится в 32-битный процесс игры."
+      },
+      {
+        "id": "layout",
+        "heading": "Разделите исходники и поставку",
+        "text": "MyPlugin/ ├─ CMakeLists.txt ├─ external/ │ └─ NH3API/ ├─ src/ │ └─ dllmain.cpp └─ dist/ └─ EraPlugins/ └─ MyPlugin.era Закрепляйте проверенный commit или релиз NH3API, а не следуйте меняющейся ветке без контроля. Не храните в репозитории проекта установленную игру или проприетарные бинарные файлы игры."
+      },
+      {
+        "id": "cmake",
+        "heading": "Настройте сборку",
+        "text": "NH3API 1.2.0 предоставляет интерфейсную цель nh3api , требует C++17 и собирает необязательный модуль поддержки ERA при включённом NH3API_CMAKE_USE_ERA . Модуль связывается с era.lib для MSVC/Clang-CL или с libera.a для инструментов в стиле GNU. cmake_minimum_required(VERSION 3.14) project(MyPlugin LANGUAGES CXX) set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) add_library(MyPlugin SHARED src/dllmain.cpp) target_link_libraries(MyPlugin PRIVATE nh3api) set_target_properties(MyPlugin PROPERTIES OUTPUT_NAME \"MyPlugin\" PREFIX \"\" SUFFIX \".era\" ) Для Visual Studio настройте и соберите выпуск x86 так: cmake -S . -B build -A Win32 cmake --build build --config Release"
+      },
+      {
+        "id": "entry-point",
+        "heading": "Зарегистрируйтесь и дождитесь события",
+        "text": "Оставляйте DllMain минимальным. По документации Microsoft он выполняется при захваченной блокировке загрузчика; поиск файлов, интерфейс, синхронизацию потоков и другую содержательную работу следует отложить. Минимальный пример подключает обёртку ERA и регистрирует обработчик, а видимое действие выполняет после вызова ERA события OnAfterWoG . #include <nh3api/era/era.hpp> namespace { void __stdcall OnAfterWoG(Era::TEvent*) { Era::ShowMessage(\"MyPlugin is active\"); } } extern \"C\" NH3API_DLLEXPORT BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID) { if (reason == DLL_PROCESS_ATTACH) { Era::ConnectEra(module, \"MyPlugin.era\"); Era::RegisterHandler(&OnAfterWoG, \"OnAfterWoG\"); } return TRUE; } Этот код проверяет загрузку и доставку события, но не служит поводом сразу патчить адреса. После проверки жизненного цикла удалите диалог."
+      },
+      {
+        "id": "deploy",
+        "heading": "Установите один артефакт",
+        "text": "Скопируйте выпуск в EraPlugins/MyPlugin.era . Убедитесь, что рядом нет MyPlugin.dll с тем же базовым именем: ERA отклоняет дублирующие варианты .era и .dll . Запустите один и тот же короткий сценарий сначала без плагина, затем с ним. Если модуль не загружается, сначала проверьте архитектуру, имя файла, неразрешённые зависимости среды выполнения и версию ERA. Если загрузка прошла, но обработчик не вызывается, проверьте расширение, точное имя события и завершение регистрации до OnAfterWoG ."
+      },
+      {
+        "id": "diagnostics",
+        "heading": "Проведите диагностику до хуков",
+        "text": "Вызывайте Era::GenerateDebugInfo() из безопасного пользовательского или событийного пути, когда нужен отчёт ERA о скриптах, плагинах, патчах и контексте. Сохраняйте вместе с отчётом вывод компилятора/линкера и точный commit NH3API. Пользователи Visual Studio могут добавить debugging/nh3api_std.natvis для просмотра совместимых с игрой контейнеров NH3API. После работы чистого модуля переходите к карте API ERA и лишь затем к интерфейсу исполняемого файла NH3API."
+      },
+      {
+        "id": "release",
+        "heading": "Контрольный список выпуска",
+        "text": "- Соберите Release для x86 и проверьте именно поставляемый файл. - Поставляйте одно расширение для одного базового имени; предпочитайте .era . - Укажите проверенные версии ERA, EXE, commit NH3API, HD Mod и других обязательных плагинов. - Выносите переводы и конфигурацию из бинарного файла, когда это поддерживают службы ERA. - Проверьте установку, обновление, отключение и удаление на чистой копии. - Зафиксируйте каждый абсолютный адрес и причину, по которой его нельзя заменить экспортируемым API или именованным событием."
+      }
+    ]
+  },
+  {
+    "id": "plugins.nh3api",
+    "kind": "article",
+    "section": "plugins",
+    "locale": "ru",
+    "slug": "nh3api",
+    "url": "/ru/plugins/nh3api/",
+    "title": "NH3API",
+    "summary": "Интерфейс исполняемого файла на C++17, модули CMake и ERA, поддерживаемые инструменты и границы совместимости, которые обязан фиксировать плагин.",
+    "keywords": [
+      "NH3API",
+      "C++17",
+      "core.hpp",
+      "era.hpp",
+      "patcher_x86",
+      "era.lib",
+      "libera.a",
+      "natvis"
+    ],
+    "questions": [
+      "What does NH3API provide?",
+      "How do I connect NH3API to ERA III?",
+      "Which compilers and modules does NH3API support?"
+    ],
+    "sourceRefs": [
+      "nh3api:readme",
+      "nh3api:cmake",
+      "nh3api:era-header",
+      "nh3api:era-module-readme",
+      "nh3api:patcher-header",
+      "nh3api:natvis"
+    ],
+    "text": "Назначение и целевая среда NH3API — открытая библиотека void_17 на C++17 для моддинга Heroes of Might and Magic III. Основная цель — 32-битный исполняемый файл Complete для Windows, используемый с HD Mod. Репозиторий описывает основу библиотеки как базу IDA, а часть имён — как восстановленные из сборки Dreamcast. Целевая среда принципиальна. Типы и обёртки делают нативный код понятнее, однако их разметка и адреса всё равно описывают определённое семейство исполняемых файлов. Каждый прямой доступ к структуре и каждый хук являются заявлением о бинарной совместимости. Карта репозитория Путь Назначение nh3api/core.hpp Общий include основных объявлений игры, интерфейса, глобальных объектов и патчера nh3api/core/ Типизированные подсистемы приключений, боя, героев, карт, ресурсов, диалогов и совместимых с игрой контейнеров nh3api/era/era.hpp Необязательная обёртка ERA III: события, локализация, ERM, сохранения, ресурсы, диагностика, память и регистрация плагина nh3api/era/era.lib Импортная библиотека ERA для MSVC и Clang-CL nh3api/era/libera.a Импортная библиотека ERA для MinGW и Clang в стиле GNU nh3api/core/nh3api_std/patcher_x86.hpp Интерфейс Patcher x86, владение хуками и патчами, диагностика патчей debugging/nh3api_std.natvis Визуализация типов-контейнеров NH3API в Visual Studio Подключайте только необходимое модулю. core.hpp удобен для старта, а более узкие заголовки позже уменьшают связанность и объём компиляции. Подключите библиотеку через CMake Закрепите репозиторий внутри дерева исходников или как подмодуль, затем добавьте его корень и свяжите интерфейсную цель: add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) Для поддержки ERA III установите параметр до add_subdirectory : set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) Текущий проект CMake обозначен как NH3API 1.2.0, требует CMake 3.14 и C++17 и добавляет -m32 для сборок не MSVC. В проектах MSVC платформу x86/Win32 по-прежнему нужно выбрать самостоятельно. Используйте точки входа Core и ERA Для объявлений исполняемого файла и патчера: #include <nh3api/core.hpp> Для служб ERA: #include <nh3api/era/era.hpp> Вызывайте Era::ConnectEra настолько рано, насколько допускает минимальный входной путь DLL, затем регистрируйте именованные обработчики и переносите содержательную инициализацию в подходящее событие. Быстрый старт плагина содержит полный минимальный каркас, а карта API ERA группирует обёртку по задачам. Поддерживаемые инструменты Набор инструментов Минимум по документации NH3API 1.2 MSVC 19.14 / Visual Studio 2017 с C++17 MinGW GCC 9.0 с C++17 MinGW Clang 9.0 с C++17 Clang-CL 15.0.0 с Visual Studio 2019 или новее Репозиторий отдельно описывает варианты с поддержкой Windows XP, включая набор v141_xp для MSVC. Эта цель компилятора не связана с браузерной совместимостью данного сайта и должна проверяться с настоящими зависимостями плагина. Работа с патчером Заголовок патчера предписывает один раз получить GetPatcher() , создать PatcherInstance с уникальным именем и создавать патчи или хуки через этого владельца. Доступны хуки высокого уровня, безопасные и расширенные хуки низкого уровня, запись байтов, применение/откат/удаление, блокировки и выгрузка списка патчей. Выбирайте самый высокоуровневый хук, сохраняющий исходный контракт вызова. Не переносите демонстрационный адрес из README в посторонний код: перед публикацией проверьте точные байты EXE и документируйте владельца адреса. Диагностика и воспроизводимость Добавьте debugging/nh3api_std.natvis в проект Visual Studio для просмотра контейнеров NH3API. При сбое во время игры объединяйте нативный отладчик с отчётом GenerateDebugInfo от ERA и выгрузкой патчера. Записывайте хэш бинарного файла плагина, компилятор, тип сборки, commit NH3API, версию ERA, EXE и список активных плагинов. Для этой страницы проверен снимок commit 454cfe2bf34b54155168c17f9bbd627df596ad7a от 2026-09-06. Перед переходом на новую ревизию повторно сверяйте объявления upstream и примечания к выпуску. Лицензия и граница совместимости Репозиторий объявляет Apache License 2.0 и отдельно содержит дополнительное юридическое уведомление в README. Перед распространением исходников или бинарных файлов прочитайте актуальные LICENSE и юридический раздел репозитория; это руководство не переосмысливает их условия. Поддержка NH3API не означает совместимость плагина с каждым изданием или исполняемым файлом Heroes III. Публикуйте проверенную матрицу и корректно прекращайте инициализацию, если отсутствует нужная версия ERA, патчер, плагин или сигнатура EXE.",
+    "segments": [
+      {
+        "id": "scope",
+        "heading": "Назначение и целевая среда",
+        "text": "NH3API — открытая библиотека void_17 на C++17 для моддинга Heroes of Might and Magic III. Основная цель — 32-битный исполняемый файл Complete для Windows, используемый с HD Mod. Репозиторий описывает основу библиотеки как базу IDA, а часть имён — как восстановленные из сборки Dreamcast. Целевая среда принципиальна. Типы и обёртки делают нативный код понятнее, однако их разметка и адреса всё равно описывают определённое семейство исполняемых файлов. Каждый прямой доступ к структуре и каждый хук являются заявлением о бинарной совместимости."
+      },
+      {
+        "id": "modules",
+        "heading": "Карта репозитория",
+        "text": "Путь Назначение nh3api/core.hpp Общий include основных объявлений игры, интерфейса, глобальных объектов и патчера nh3api/core/ Типизированные подсистемы приключений, боя, героев, карт, ресурсов, диалогов и совместимых с игрой контейнеров nh3api/era/era.hpp Необязательная обёртка ERA III: события, локализация, ERM, сохранения, ресурсы, диагностика, память и регистрация плагина nh3api/era/era.lib Импортная библиотека ERA для MSVC и Clang-CL nh3api/era/libera.a Импортная библиотека ERA для MinGW и Clang в стиле GNU nh3api/core/nh3api_std/patcher_x86.hpp Интерфейс Patcher x86, владение хуками и патчами, диагностика патчей debugging/nh3api_std.natvis Визуализация типов-контейнеров NH3API в Visual Studio Подключайте только необходимое модулю. core.hpp удобен для старта, а более узкие заголовки позже уменьшают связанность и объём компиляции."
+      },
+      {
+        "id": "cmake",
+        "heading": "Подключите библиотеку через CMake",
+        "text": "Закрепите репозиторий внутри дерева исходников или как подмодуль, затем добавьте его корень и свяжите интерфейсную цель: add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) Для поддержки ERA III установите параметр до add_subdirectory : set(NH3API_CMAKE_USE_ERA ON CACHE BOOL \"Build ERA support module\" FORCE) add_subdirectory(external/NH3API) target_link_libraries(MyPlugin PRIVATE nh3api) Текущий проект CMake обозначен как NH3API 1.2.0, требует CMake 3.14 и C++17 и добавляет -m32 для сборок не MSVC. В проектах MSVC платформу x86/Win32 по-прежнему нужно выбрать самостоятельно."
+      },
+      {
+        "id": "includes",
+        "heading": "Используйте точки входа Core и ERA",
+        "text": "Для объявлений исполняемого файла и патчера: #include <nh3api/core.hpp> Для служб ERA: #include <nh3api/era/era.hpp> Вызывайте Era::ConnectEra настолько рано, насколько допускает минимальный входной путь DLL, затем регистрируйте именованные обработчики и переносите содержательную инициализацию в подходящее событие. Быстрый старт плагина содержит полный минимальный каркас, а карта API ERA группирует обёртку по задачам."
+      },
+      {
+        "id": "toolchains",
+        "heading": "Поддерживаемые инструменты",
+        "text": "Набор инструментов Минимум по документации NH3API 1.2 MSVC 19.14 / Visual Studio 2017 с C++17 MinGW GCC 9.0 с C++17 MinGW Clang 9.0 с C++17 Clang-CL 15.0.0 с Visual Studio 2019 или новее Репозиторий отдельно описывает варианты с поддержкой Windows XP, включая набор v141_xp для MSVC. Эта цель компилятора не связана с браузерной совместимостью данного сайта и должна проверяться с настоящими зависимостями плагина."
+      },
+      {
+        "id": "patcher",
+        "heading": "Работа с патчером",
+        "text": "Заголовок патчера предписывает один раз получить GetPatcher() , создать PatcherInstance с уникальным именем и создавать патчи или хуки через этого владельца. Доступны хуки высокого уровня, безопасные и расширенные хуки низкого уровня, запись байтов, применение/откат/удаление, блокировки и выгрузка списка патчей. Выбирайте самый высокоуровневый хук, сохраняющий исходный контракт вызова. Не переносите демонстрационный адрес из README в посторонний код: перед публикацией проверьте точные байты EXE и документируйте владельца адреса."
+      },
+      {
+        "id": "debugging",
+        "heading": "Диагностика и воспроизводимость",
+        "text": "Добавьте debugging/nh3api_std.natvis в проект Visual Studio для просмотра контейнеров NH3API. При сбое во время игры объединяйте нативный отладчик с отчётом GenerateDebugInfo от ERA и выгрузкой патчера. Записывайте хэш бинарного файла плагина, компилятор, тип сборки, commit NH3API, версию ERA, EXE и список активных плагинов. Для этой страницы проверен снимок commit 454cfe2bf34b54155168c17f9bbd627df596ad7a от 2026-09-06. Перед переходом на новую ревизию повторно сверяйте объявления upstream и примечания к выпуску."
+      },
+      {
+        "id": "license",
+        "heading": "Лицензия и граница совместимости",
+        "text": "Репозиторий объявляет Apache License 2.0 и отдельно содержит дополнительное юридическое уведомление в README. Перед распространением исходников или бинарных файлов прочитайте актуальные LICENSE и юридический раздел репозитория; это руководство не переосмысливает их условия. Поддержка NH3API не означает совместимость плагина с каждым изданием или исполняемым файлом Heroes III. Публикуйте проверенную матрицу и корректно прекращайте инициализацию, если отсутствует нужная версия ERA, патчер, плагин или сигнатура EXE."
       }
     ]
   }

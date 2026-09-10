@@ -13,16 +13,16 @@ Before making changes, read this file, [How to edit the site](docs/EDITING_GUIDE
 - Treat old hardware and constrained networks as a release requirement. Keep navigation preloading on intentional `tap`, never on hover; do not eagerly ship search, Pagefind, generated indexes, or optional reference content. Preserve the production performance budgets enforced by `npm run verify:performance`.
 - Keep user-visible splash screens, route loaders, spinners, and “loading…” placeholders out of the interface. The root locale decision runs in the document head before body paint and retains only a no-JavaScript language fallback.
 - The sidebar is editorial, not generated from the directory tree. Its depth is at most two levels, with at most twelve permanent links in one curated group. ERM’s separate alphabetical index is an explicit user-requested exception: preserve every entry and indented child, the independently scrolling list, and the fixed alphabet rail. The Russian rail deliberately omits Ё, Й, Ы, Ъ, and Ь. Do not put a search field inside the alphabetical index.
-- ERM scripts are active. Keep `/erm/learn/` empty except for its localized heading until the user starts the course. Plugins, NH3API, and Lua remain deferred.
+- ERM scripts and Plugins are active. Keep `/erm/learn/` empty except for its localized heading until the user starts the course. Keep NH3API inside the Plugins section; Lua remains deferred.
 - Keep contextual ERM navigation independent of the central article. Reference JSON endpoints must be prerendered static files; they do not authorize a runtime backend.
 - The 223 non-learning ERM Help 2.10b documents are primary reference material. Preserve every non-empty source text slot, code example, inline link, illustration, command boundary, and meaningful presentation cue. Never merge adjacent commands or replace complete source definitions with summaries. Treat `content/erm/_registry/full-transfer-audit.json` as an immutable comparison record: update it only after re-extracting the external source, never to approve a loss in the site content.
 
 ## Where things live
 
-- `content/{docs,erm}/<article>/entity.json`: stable metadata, relations, questions, and provenance.
-- `content/{docs,erm}/<article>/ru.md` and `en.md`: localized long-form copy with matching `{#section-id}` headings.
+- `content/{docs,erm,plugins}/<article>/entity.json`: stable metadata, relations, questions, and provenance.
+- `content/{docs,erm,plugins}/<article>/ru.md` and `en.md`: localized long-form copy with matching `{#section-id}` headings.
 - `content/_sources/sources.json`: immutable source IDs and compact locators.
-- `content/_navigation/{docs,erm}.json`: curated sidebars.
+- `content/_navigation/{docs,erm,plugins}.json`: curated sidebars.
 - `content/erm/_registry/`: source coverage, legacy link graph, alphabet hierarchy, receivers, events, Framework entities, and reference-image provenance.
 - `src/lib/reference/rich.mjs` and `src/styles/erm-reference.css`: validated inert legacy-reference markup, ERM highlighting, and source presentation.
 - `src/lib/components`: application shell, article renderer, and search dialog.
@@ -34,7 +34,7 @@ Before making changes, read this file, [How to edit the site](docs/EDITING_GUIDE
 
 ### New article
 
-1. Copy the shape of a neighboring `entity.json` and assign a unique `docs.*` or `erm.*` ID and a section-local slug.
+1. Copy the shape of a neighboring `entity.json` and assign a unique `docs.*`, `erm.*`, or `plugins.*` ID and a section-local slug.
 2. Create reviewed `ru.md` and `en.md` files with identical section IDs.
 3. Add source records before using their IDs.
 4. Link the page in navigation only if it is a durable entry point.

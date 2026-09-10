@@ -23,7 +23,7 @@
     },
     "id": {
       "type": "string",
-      "pattern": "^(docs|erm)\\.[a-z0-9.-]+$"
+      "pattern": "^(docs|erm|plugins)\\.[a-z0-9.-]+$"
     },
     "kind": {
       "const": "article"
@@ -76,7 +76,8 @@
     "section": {
       "enum": [
         "docs",
-        "erm"
+        "erm",
+        "plugins"
       ]
     }
   }

@@ -3,11 +3,12 @@
   "generatedAt": null,
   "scope": [
     "docs",
-    "erm"
+    "erm",
+    "plugins"
   ],
   "deferredSections": [
     "erm/learn",
-    "plugins"
+    "lua"
   ],
   "entities": [
     {
@@ -14300,6 +14301,129 @@
       ]
     },
     {
+      "id": "plugins.overview",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "",
+      "url": "/en/plugins/",
+      "title": "ERA plugins",
+      "summary": "A source-backed map of native ERA extensions: how they load, which API layers they use, and where binary compatibility becomes your responsibility.",
+      "keywords": [
+        "ERA plugin",
+        "EraPlugins",
+        ".era",
+        ".dll",
+        "native modding",
+        "NH3API"
+      ],
+      "questions": [
+        "What is an ERA plugin?",
+        "Where does ERA load plugins from?",
+        "When should I use the ERA API or NH3API?"
+      ],
+      "sourceRefs": [
+        "era-source:plugin-loader",
+        "era-source:era.pas",
+        "nh3api:readme"
+      ]
+    },
+    {
+      "id": "plugins.era-api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "era-api",
+      "url": "/en/plugins/era-api/",
+      "title": "ERA plugin API",
+      "summary": "A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.",
+      "keywords": [
+        "ERA API",
+        "RegisterHandler",
+        "FireEvent",
+        "CreatePlugin",
+        "MemFree",
+        "savegame",
+        "RedirectFile",
+        "ExecErmCmd"
+      ],
+      "questions": [
+        "Which services does the ERA plugin API expose?",
+        "How do ERA plugin events work?",
+        "Who owns memory returned by the ERA API?"
+      ],
+      "sourceRefs": [
+        "era-source:era.pas",
+        "era-source:plugin-exports",
+        "era-source:plugin-loader",
+        "nh3api:era-header"
+      ]
+    },
+    {
+      "id": "plugins.getting-started",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "getting-started",
+      "url": "/en/plugins/getting-started/",
+      "title": "Getting started with ERA plugins",
+      "summary": "Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.",
+      "keywords": [
+        "plugin quick start",
+        "CMake",
+        "Win32",
+        "x86",
+        "DllMain",
+        "OnAfterWoG",
+        "EraPlugins"
+      ],
+      "questions": [
+        "How do I build a minimal ERA plugin?",
+        "How do I configure NH3API with CMake?",
+        "Where should an ERA plugin be installed?"
+      ],
+      "sourceRefs": [
+        "era-source:plugin-loader",
+        "nh3api:readme",
+        "nh3api:cmake",
+        "nh3api:era-header",
+        "windows-api:dll-best-practices"
+      ]
+    },
+    {
+      "id": "plugins.nh3api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "nh3api",
+      "url": "/en/plugins/nh3api/",
+      "title": "NH3API",
+      "summary": "The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.",
+      "keywords": [
+        "NH3API",
+        "C++17",
+        "core.hpp",
+        "era.hpp",
+        "patcher_x86",
+        "era.lib",
+        "libera.a",
+        "natvis"
+      ],
+      "questions": [
+        "What does NH3API provide?",
+        "How do I connect NH3API to ERA III?",
+        "Which compilers and modules does NH3API support?"
+      ],
+      "sourceRefs": [
+        "nh3api:readme",
+        "nh3api:cmake",
+        "nh3api:era-header",
+        "nh3api:era-module-readme",
+        "nh3api:patcher-header",
+        "nh3api:natvis"
+      ]
+    },
+    {
       "id": "docs.overview",
       "kind": "article",
       "section": "docs",
@@ -28586,6 +28710,129 @@
         "old-help:cont-usedvar.htm",
         "era-changelog:era-iii-changelog.txt",
         "era-framework:lib-9999-era---stdlib.erm"
+      ]
+    },
+    {
+      "id": "plugins.overview",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "ru",
+      "slug": "",
+      "url": "/ru/plugins/",
+      "title": "Плагины ERA",
+      "summary": "Проверенная по исходникам карта нативных расширений ERA: порядок загрузки, уровни API и границы бинарной совместимости.",
+      "keywords": [
+        "ERA plugin",
+        "EraPlugins",
+        ".era",
+        ".dll",
+        "native modding",
+        "NH3API"
+      ],
+      "questions": [
+        "What is an ERA plugin?",
+        "Where does ERA load plugins from?",
+        "When should I use the ERA API or NH3API?"
+      ],
+      "sourceRefs": [
+        "era-source:plugin-loader",
+        "era-source:era.pas",
+        "nh3api:readme"
+      ]
+    },
+    {
+      "id": "plugins.era-api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "ru",
+      "slug": "era-api",
+      "url": "/ru/plugins/era-api/",
+      "title": "API плагинов ERA",
+      "summary": "Практическая карта экспортируемых служб ERA: события, локализация, ERM, сохранения, ресурсы, диагностика и управляемые патчи.",
+      "keywords": [
+        "ERA API",
+        "RegisterHandler",
+        "FireEvent",
+        "CreatePlugin",
+        "MemFree",
+        "savegame",
+        "RedirectFile",
+        "ExecErmCmd"
+      ],
+      "questions": [
+        "Which services does the ERA plugin API expose?",
+        "How do ERA plugin events work?",
+        "Who owns memory returned by the ERA API?"
+      ],
+      "sourceRefs": [
+        "era-source:era.pas",
+        "era-source:plugin-exports",
+        "era-source:plugin-loader",
+        "nh3api:era-header"
+      ]
+    },
+    {
+      "id": "plugins.getting-started",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "ru",
+      "slug": "getting-started",
+      "url": "/ru/plugins/getting-started/",
+      "title": "Начало работы с плагинами ERA",
+      "summary": "Сборка минимального 32-битного модуля `.era` на C++17 с CMake и NH3API, его установка и диагностика с явными границами совместимости.",
+      "keywords": [
+        "plugin quick start",
+        "CMake",
+        "Win32",
+        "x86",
+        "DllMain",
+        "OnAfterWoG",
+        "EraPlugins"
+      ],
+      "questions": [
+        "How do I build a minimal ERA plugin?",
+        "How do I configure NH3API with CMake?",
+        "Where should an ERA plugin be installed?"
+      ],
+      "sourceRefs": [
+        "era-source:plugin-loader",
+        "nh3api:readme",
+        "nh3api:cmake",
+        "nh3api:era-header",
+        "windows-api:dll-best-practices"
+      ]
+    },
+    {
+      "id": "plugins.nh3api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "ru",
+      "slug": "nh3api",
+      "url": "/ru/plugins/nh3api/",
+      "title": "NH3API",
+      "summary": "Интерфейс исполняемого файла на C++17, модули CMake и ERA, поддерживаемые инструменты и границы совместимости, которые обязан фиксировать плагин.",
+      "keywords": [
+        "NH3API",
+        "C++17",
+        "core.hpp",
+        "era.hpp",
+        "patcher_x86",
+        "era.lib",
+        "libera.a",
+        "natvis"
+      ],
+      "questions": [
+        "What does NH3API provide?",
+        "How do I connect NH3API to ERA III?",
+        "Which compilers and modules does NH3API support?"
+      ],
+      "sourceRefs": [
+        "nh3api:readme",
+        "nh3api:cmake",
+        "nh3api:era-header",
+        "nh3api:era-module-readme",
+        "nh3api:patcher-header",
+        "nh3api:natvis"
       ]
     }
   ]

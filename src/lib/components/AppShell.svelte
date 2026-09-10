@@ -10,16 +10,17 @@
   import ErmAlphabet from '$lib/components/ErmAlphabet.svelte';
   import ErmQuickLinks from '$lib/components/ErmQuickLinks.svelte';
   import ContextReference from '$lib/components/ContextReference.svelte';
-  import ermNavigation from '../../../content/_navigation/erm.json';
-  import docsNavigation from '../../../content/_navigation/docs.json';
   import topNavigation from '../../../content/_navigation/top.json';
 
   export let lang: Locale;
   export let toc: Array<{ id: string; label: string }> = [];
   export let activeSlug = '';
+  export let navigation: {
+    groups: Array<{ labelKey: string; items: Array<{ labelKey: string; slug: string }> }>;
+  };
 
-  $: activeSection = activeSlug.startsWith('erm') ? 'erm' : 'docs';
-  $: navGroups = (activeSection === 'erm' ? ermNavigation : docsNavigation).groups.map((group) => ({
+  $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : 'docs';
+  $: navGroups = navigation.groups.map((group) => ({
     label: group.labelKey,
     links: group.items.map((item) => [item.labelKey, item.slug] as const)
   }));
@@ -40,7 +41,7 @@
   afterNavigate(() => { searchOpen = false; menuOpen = false; });
   let referencePane: ContextReference;
   let referenceExpanded = false;
-  let openGroups = [...docsNavigation.groups, ...ermNavigation.groups].map((group) => group.labelKey as string);
+  let openGroups = navigation.groups.map((group) => group.labelKey as string);
   let navigationReady = false;
 
   function savePreferences() {
@@ -179,6 +180,7 @@
     if (dev && !activeSlug) {
       void preloadData(`${base}/${lang}/docs/`);
       void preloadData(`${base}/${lang}/erm/`);
+      void preloadData(`${base}/${lang}/plugins/`);
     }
     try {
       const saved = JSON.parse(localStorage.getItem('modding-guide:preferences:v1') ?? '{}');
@@ -264,7 +266,7 @@
 {/if}
 
 <div class="site-grid" class:erm-grid={activeSection === 'erm'}>
-  <aside class:open={menuOpen} class="sidebar" aria-label={t('nav.documentation')}>
+  <aside class:open={menuOpen} class="sidebar" aria-label={t(activeSection === 'erm' ? 'nav.ermScripts' : activeSection === 'plugins' ? 'nav.plugins' : 'nav.documentation')}>
     <div class="sidebar-scroll">
       <div class="mobile-primary-controls">
         <nav aria-label={t('nav.primary')}>
@@ -328,9 +330,9 @@
       {/if}
       <div class="ornament wide" aria-hidden="true"><span></span><b>◆</b><span></span></div>
       <div class="new-card">
-        <h3>{t('home.newTitle')}</h3>
-        <p>{t('home.newText')}</p>
-        <a class="button-outline" href={`${base}/${lang}/${activeSection === 'erm' ? 'erm/start' : 'docs/quick-start'}/`}>{t('home.newAction')} <span aria-hidden="true">→</span></a>
+        <h3>{t(activeSection === 'plugins' ? 'plugins.ctaTitle' : 'home.newTitle')}</h3>
+        <p>{t(activeSection === 'plugins' ? 'plugins.ctaText' : 'home.newText')}</p>
+        <a class="button-outline" href={`${base}/${lang}/${activeSection === 'erm' ? 'erm/start' : activeSection === 'plugins' ? 'plugins/getting-started' : 'docs/quick-start'}/`}>{t(activeSection === 'plugins' ? 'plugins.ctaAction' : 'home.newAction')} <span aria-hidden="true">→</span></a>
       </div>
       <div class="motto-card">
         <span aria-hidden="true">◇</span>

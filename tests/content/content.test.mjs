@@ -74,10 +74,10 @@ test('source registry uses unique IDs, registered sets, and immutable hashes', (
 
 test('navigation resolves published articles or the intentionally empty learning route', () => {
   const published = new Set(entities.filter(({ meta }) => meta.status === 'published').map(({ meta }) => `${meta.section ?? 'docs'}/${meta.slug}`.replace(/\/$/, '')));
-  for (const section of ['docs', 'erm']) {
+  for (const section of ['docs', 'erm', 'plugins']) {
     const navigation = JSON.parse(readFileSync(join(projectRoot, 'content', '_navigation', `${section}.json`), 'utf8'));
     for (const item of navigation.groups.flatMap((group) => group.items)) {
-      assert.ok(published.has(item.slug || 'docs') || item.slug === 'erm/learn', `navigation resolves ${item.slug}`);
+      assert.ok(published.has(item.slug || section) || item.slug === 'erm/learn', `navigation resolves ${item.slug}`);
     }
   }
 });

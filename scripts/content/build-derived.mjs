@@ -6,7 +6,8 @@ import { referenceText, referenceSegments } from '../../src/lib/reference/rich.m
 import { prepareArticleMarkdown } from '../../src/lib/content/publication.mjs';
 
 const projectRoot = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
-const contentRoots = ['docs', 'erm'].map((section) => join(projectRoot, 'content', section));
+const sections = ['docs', 'erm', 'plugins'];
+const contentRoots = sections.map((section) => join(projectRoot, 'content', section));
 const generatedRoot = join(projectRoot, 'src', 'lib', 'generated');
 const staticRoot = join(projectRoot, 'static');
 const locales = ['ru', 'en'];
@@ -129,8 +130,8 @@ writeFileSync(
 const manifest = {
   schemaVersion: 1,
   generatedAt: process.env.SOURCE_DATE_EPOCH ? new Date(Number(process.env.SOURCE_DATE_EPOCH) * 1000).toISOString() : null,
-  scope: ['docs', 'erm'],
-  deferredSections: ['erm/learn', 'plugins'],
+  scope: sections,
+  deferredSections: ['erm/learn', 'lua'],
   entities: entities.map(({ markdown, text, segments, ...entity }) => ({ ...entity, url: publicUrl(entity.url) }))
 };
 
@@ -138,7 +139,7 @@ mkdirSync(join(staticRoot, 'llm', 'ru'), { recursive: true });
 mkdirSync(join(staticRoot, 'llm', 'en'), { recursive: true });
 writeFileSync(join(staticRoot, 'llm', 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 
-for (const locale of locales) for (const section of ['docs', 'erm']) {
+for (const locale of locales) for (const section of sections) {
   const bundle = entities
     .filter((entry) => entry.locale === locale && entry.section === section)
     .map((entry) => `# ${entry.title}\n\nURL: ${publicUrl(entry.url)}\n\n${entry.summary}\n\n${entry.markdown}`)
@@ -147,7 +148,7 @@ for (const locale of locales) for (const section of ['docs', 'erm']) {
 }
 
 const compactLines = entities.map((entry) => `- ${entry.title}: ${publicUrl(entry.url)} — ${entry.summary}`);
-writeFileSync(join(staticRoot, 'llms.txt'), `# ERA Modding Guide\n\nBilingual static documentation for ERA modding.\n\nCurrent scope: general documentation and ERM reference. ERM learning and plugins are deferred.\n\n- Manifest: ${publicUrl('/llm/manifest.json')}\n- Russian documentation: ${publicUrl('/llm/ru/docs.md')}\n- English documentation: ${publicUrl('/llm/en/docs.md')}\n- Russian ERM reference: ${publicUrl('/llm/ru/erm.md')}\n- English ERM reference: ${publicUrl('/llm/en/erm.md')}\n`, 'utf8');
+writeFileSync(join(staticRoot, 'llms.txt'), `# ERA Modding Guide\n\nBilingual static documentation for ERA modding.\n\nCurrent scope: general documentation, the ERM reference, and ERA plugin development with NH3API. The ERM learning course and Lua are deferred.\n\n- Manifest: ${publicUrl('/llm/manifest.json')}\n- Russian documentation: ${publicUrl('/llm/ru/docs.md')}\n- English documentation: ${publicUrl('/llm/en/docs.md')}\n- Russian ERM reference: ${publicUrl('/llm/ru/erm.md')}\n- English ERM reference: ${publicUrl('/llm/en/erm.md')}\n- Russian plugin guide: ${publicUrl('/llm/ru/plugins.md')}\n- English plugin guide: ${publicUrl('/llm/en/plugins.md')}\n`, 'utf8');
 writeFileSync(join(staticRoot, 'llms-full.txt'), `# ERA Modding Guide — full catalog\n\n${compactLines.join('\n')}\n`, 'utf8');
 
 if (siteOrigin) {

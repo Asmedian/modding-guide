@@ -3,10 +3,12 @@ import { addImageDimensions } from '$lib/server/image-dimensions';
 import { renderReference, highlightErm } from '$lib/reference/rich.mjs';
 import { prepareArticleMarkdown } from '$lib/content/publication.mjs';
 
+export type ContentSection = 'docs' | 'erm' | 'plugins';
+
 type ArticleMeta = {
   id: string;
   kind: 'article';
-  section?: 'docs' | 'erm';
+  section?: ContentSection;
   slug: string;
   status: 'draft' | 'reviewed' | 'published';
   sourceRefs: string[];
@@ -35,7 +37,7 @@ export type Article = ArticleMeta & {
   symbols?: SymbolEntry[];
   catalog?: Array<{
     id: string;
-    section?: 'docs' | 'erm';
+    section?: ContentSection;
     slug: string;
     title: string;
     summary: string;
@@ -44,12 +46,12 @@ export type Article = ArticleMeta & {
   }>;
 };
 
-const metaModules = import.meta.glob(['../../../content/docs/**/entity.json', '../../../content/erm/**/entity.json'], {
+const metaModules = import.meta.glob(['../../../content/docs/**/entity.json', '../../../content/erm/**/entity.json', '../../../content/plugins/**/entity.json'], {
   eager: true,
   import: 'default'
 }) as Record<string, ArticleMeta>;
 
-const markdownModules = import.meta.glob(['../../../content/docs/**/{ru,en}.md', '../../../content/erm/**/{ru,en}.md'], {
+const markdownModules = import.meta.glob(['../../../content/docs/**/{ru,en}.md', '../../../content/erm/**/{ru,en}.md', '../../../content/plugins/**/{ru,en}.md'], {
   query: '?raw',
   import: 'default'
 }) as Record<string, () => Promise<string>>;
@@ -779,7 +781,7 @@ async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'r
   return article;
 }
 
-export function getArticle(lang: 'ru' | 'en', slug: string, section: 'docs' | 'erm' = 'docs') {
+export function getArticle(lang: 'ru' | 'en', slug: string, section: ContentSection = 'docs') {
   const normalizedSlug = slug.replace(/^\/+|\/+$/g, '');
   const entry = publishedMeta.find(({ meta }) => meta.slug === normalizedSlug && articleSection(meta) === section);
   if (!entry) return undefined;
@@ -792,7 +794,7 @@ export function getArticle(lang: 'ru' | 'en', slug: string, section: 'docs' | 'e
   return article;
 }
 
-export function getArticleEntries(section: 'docs' | 'erm' = 'docs') {
+export function getArticleEntries(section: ContentSection = 'docs') {
   return publishedMeta
     .filter(({ meta }) => meta.slug && articleSection(meta) === section)
     .flatMap(({ meta }) => (['ru', 'en'] as const).map((lang) => ({ lang, slug: meta.slug })));

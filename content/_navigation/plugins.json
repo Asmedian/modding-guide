@@ -1,0 +1,22 @@
+{
+  "$schema": "../_schemas/navigation.schema.json",
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "plugin-development",
+      "labelKey": "plugins.nav.development",
+      "items": [
+        { "labelKey": "plugins.page.overview", "slug": "plugins" },
+        { "labelKey": "plugins.page.gettingStarted", "slug": "plugins/getting-started" },
+        { "labelKey": "plugins.page.eraApi", "slug": "plugins/era-api" }
+      ]
+    },
+    {
+      "id": "nh3api",
+      "labelKey": "plugins.nav.nh3api",
+      "items": [
+        { "labelKey": "plugins.page.nh3api", "slug": "plugins/nh3api" }
+      ]
+    }
+  ]
+}

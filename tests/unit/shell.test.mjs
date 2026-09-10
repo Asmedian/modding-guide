@@ -55,6 +55,13 @@ test('locale options use document navigation without disabling the site router',
   assert.doesNotMatch(shell, /data-sveltekit-reload/);
 });
 
+test('English is the first language option', () => {
+  const menu = readFileSync(join(root, 'src/lib/components/LanguageMenu.svelte'), 'utf8');
+  const options = menu.match(/<div class="language-options"[\s\S]*?<\/div>/)?.[0];
+  assert.ok(options);
+  assert.ok(options.indexOf('>English</a>') < options.indexOf('>Русский</a>'));
+});
+
 test('the background fills the middle column; only its inner content has a width limit', () => {
   assert.match(shell, /<main class="content-column">[\s\S]*?<div class="content-inner">\s*<slot \/>/);
   const columnRules = [...layout.matchAll(/\.content-column\s*\{([^}]+)\}/g)];

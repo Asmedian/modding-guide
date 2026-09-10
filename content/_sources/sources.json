@@ -1,5 +1,132 @@
 [
   {
+    "id": "era-source:plugin-loader",
+    "type": "source-code",
+    "title": "ERA source: plugin directory, extensions, and load order",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "GameExt.pas",
+    "locator": {
+      "startLine": 50,
+      "endLine": 546,
+      "note": "PLUGINS_PATH, LoadPlugins, PluginExists, and the .era/.dll initialization sequence"
+    },
+    "version": "ERA 3.9.30 workspace snapshot",
+    "sha256": "7365CF6C1EA4FA2C522C64F0148D480DCC91BEB2772D2F4792EA9107160A6777"
+  },
+  {
+    "id": "era-source:plugin-exports",
+    "type": "source-code",
+    "title": "ERA source: exported plugin API and plugin registration",
+    "sourceSet": "era-source",
+    "relativeSourcePath": "Extern.pas",
+    "locator": {
+      "startLine": 60,
+      "endLine": 1050,
+      "note": "TPlugin, CreatePlugin registration, memory ownership helpers, and exported API list"
+    },
+    "version": "ERA 3.9.30 workspace snapshot",
+    "sha256": "E25DF000639F32AE3938F73275CE6832EB9EB1E9C3E50459E4794F803CD9ADF6"
+  },
+  {
+    "id": "nh3api:readme",
+    "type": "official-docs",
+    "title": "NH3API README",
+    "sourceSet": "nh3api",
+    "relativeSourcePath": "README.md",
+    "locator": {
+      "startLine": 1,
+      "endLine": 113
+    },
+    "version": "commit 454cfe2 (2026-09-06)",
+    "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/README.md",
+    "sha256": "786EE6D754A8CA5E5A6A4D8C56422699120AC77BEF3AB9CB223871B2E09E5C49"
+  },
+  {
+    "id": "nh3api:cmake",
+    "type": "source-code",
+    "title": "NH3API CMake configuration",
+    "sourceSet": "nh3api",
+    "relativeSourcePath": "CMakeLists.txt",
+    "locator": {
+      "startLine": 1,
+      "endLine": 73
+    },
+    "version": "NH3API 1.2.0, commit 454cfe2 (2026-09-06)",
+    "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/CMakeLists.txt",
+    "sha256": "906DD9D9C92868CD3C8DCC62CDF9A62C844558C04E827A58D05ADB917F45ECA4"
+  },
+  {
+    "id": "nh3api:era-header",
+    "type": "source-code",
+    "title": "NH3API ERA module header",
+    "sourceSet": "nh3api",
+    "relativeSourcePath": "nh3api/era/era.hpp",
+    "locator": {
+      "startLine": 1,
+      "endLine": 769,
+      "note": "ERA imports, event and API wrappers, ownership annotations, and ConnectEra"
+    },
+    "version": "ERA API updated for 3.9.16; commit 454cfe2 (2026-09-06)",
+    "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/nh3api/era/era.hpp",
+    "sha256": "6046F370478CA008A4B213EDF51F004060FDE4C70B3A2D188F0770E151A9338B"
+  },
+  {
+    "id": "nh3api:era-module-readme",
+    "type": "official-docs",
+    "title": "NH3API ERA module linking notes",
+    "sourceSet": "nh3api",
+    "relativeSourcePath": "nh3api/era/readme.md",
+    "locator": {
+      "startLine": 1,
+      "endLine": 7
+    },
+    "version": "commit 454cfe2 (2026-09-06)",
+    "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/nh3api/era/readme.md",
+    "sha256": "CE88EBAEB9B3F44356C2E4E6A7706A09F45D463E2C99CEB4E068A0BED06E92C3"
+  },
+  {
+    "id": "nh3api:patcher-header",
+    "type": "source-code",
+    "title": "NH3API patcher_x86 interface",
+    "sourceSet": "nh3api",
+    "relativeSourcePath": "nh3api/core/nh3api_std/patcher_x86.hpp",
+    "locator": {
+      "startLine": 90,
+      "endLine": 2431,
+      "note": "Patcher ownership, instance creation, hooks, patches, and debug dump interface"
+    },
+    "version": "commit 454cfe2 (2026-09-06)",
+    "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/nh3api/core/nh3api_std/patcher_x86.hpp",
+    "sha256": "D7F8263B442FBFEAD3F0BAE6C8D40050714D8C19149B7F23C9A381007283AC14"
+  },
+  {
+    "id": "nh3api:natvis",
+    "type": "source-code",
+    "title": "NH3API Visual Studio debugger visualizer",
+    "sourceSet": "nh3api",
+    "relativeSourcePath": "debugging/nh3api_std.natvis",
+    "locator": {
+      "startLine": 1,
+      "endLine": 88
+    },
+    "version": "commit 454cfe2 (2026-09-06)",
+    "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/debugging/nh3api_std.natvis",
+    "sha256": "8451BC21D18BBED0B5557F134F045CDB9FF172E8E585E480F38BDFA51BE563F5"
+  },
+  {
+    "id": "windows-api:dll-best-practices",
+    "type": "official-docs",
+    "title": "Microsoft Learn — Dynamic-Link Library Best Practices",
+    "sourceSet": "windows-api",
+    "relativeSourcePath": "dynamic-link-library-best-practices-source.html",
+    "locator": {
+      "note": "Captured 2026-09-10; DllMain loader-lock restrictions and deferred initialization guidance"
+    },
+    "version": "Microsoft Learn; retrieved 2026-09-10",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-best-practices",
+    "sha256": "6398BD860CD55B005020714E37669945ED1C482A236B35E4454A4E78CAEBCFB7"
+  },
+  {
     "id": "era-source:lodman",
     "type": "source-code",
     "title": "ERA source: archive loading and resource redirection",

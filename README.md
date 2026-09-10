@@ -1,6 +1,6 @@
 # ERA Modding Guide
 
-A static, bilingual guide to the ERA modding platform for Heroes III. The current release contains general documentation and the ERM scripting reference.
+A static, bilingual guide to the ERA modding platform for Heroes III. The current release contains general documentation, the ERM scripting reference, and native plugin development with NH3API.
 
 ## Local development
 
@@ -33,7 +33,8 @@ Before the first deployment, open the repository's **Settings → Pages** and se
 
 - Included: platform overview, installation, mod creation and compatibility, game architecture and resource loading, detailed tool inventory, troubleshooting, glossary, bilingual highlighted search, generated LLM catalog, optional Pages CMS configuration, and GitHub Pages automation.
 - ERM: the complete non-learning ERM Help 2.10b source material, receivers and triggers, native reference tables, ERA Framework, source-reviewed examples and UN:C material. The interface includes a hierarchical alphabetical sidebar, compact trigger/receiver links, and contextual reference navigation with independent back/forward history. The original Russian legacy blocks remain available in both locale views; reviewed English editorial material is kept alongside them rather than presenting a partial legacy translation as complete.
-- Deferred: the ERM learning course (its page contains only a heading), plugins, NH3API, and Lua.
+- Plugins: ERA plugin loading and packaging, a CMake/C++17 quick start, the exported ERA API map, and NH3API as an internal plugin-documentation group. The NH3API source is pinned by commit and SHA-256 in the source registry.
+- Deferred: the ERM learning course (its page contains only a heading) and Lua.
 
 See [ERM content audit](docs/ERM_CONTENT_AUDIT.md) for source coverage and validation limits.
 

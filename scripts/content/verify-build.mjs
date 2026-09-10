@@ -104,7 +104,7 @@ for (const path of fragments) {
   const raw = compressed.subarray(0, 12).toString().startsWith('pagefind_dcd') ? compressed : gunzipSync(compressed);
   const fragment = JSON.parse(raw.subarray(12).toString());
   assert.ok(manifest.entities.some((entry) => entry.id === fragment.meta.pageId && entry.locale === fragment.meta.locale), `Pagefind has usable entity metadata: ${path}`);
-  assert.ok(['docs', 'erm'].includes(fragment.meta.topSection));
+  assert.ok(['docs', 'erm', 'plugins'].includes(fragment.meta.topSection));
 }
 
 const report = { articles: manifest.entities.length / 2, localizedArticles: manifest.entities.length, htmlPages: htmlFiles.length, referenceFiles, symbols: symbols.length, checkedLinks, checkedAnchors, basePath: base, passed: true };

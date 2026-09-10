@@ -509,6 +509,10 @@
 - Reading game resolution: /en/erm/un-c/screen-size/ — Reads width and height from the two-byte fields used by the legacy HD implementation.
 - Town building-cost tables: /en/erm/un-c/town-building-cost/ — Reads seven resource costs: common buildings 0..16, special buildings 17..25, dwellings 30..43.
 - Variables, strings and arrays: /en/erm/variables/ — Data types, scope, named variables, flags and array lifetimes.
+- ERA plugins: /en/plugins/ — A source-backed map of native ERA extensions: how they load, which API layers they use, and where binary compatibility becomes your responsibility.
+- ERA plugin API: /en/plugins/era-api/ — A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.
+- Getting started with ERA plugins: /en/plugins/getting-started/ — Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.
+- NH3API: /en/plugins/nh3api/ — The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.
 - Документация ERA: /ru/docs/ — Точка входа в устройство платформы, структуру модов, игровые ресурсы и рабочие инструменты.
 - Платформа ERA: /ru/docs/era/ — Роль ERA между Heroes III, модами, ресурсами и расширениями во время запуска игры.
 - Совместимость и порядок модов: /ru/docs/era/compatibility/ — Как описывать зависимости, приоритет и конфликты без случайного порядка загрузки.
@@ -1018,3 +1022,7 @@
 - Чтение разрешения игры: /ru/erm/un-c/screen-size/ — Читает ширину и высоту в двухбайтных полях, используемых старой реализацией HD.
 - Таблицы стоимости зданий: /ru/erm/un-c/town-building-cost/ — Чтение семи ресурсов стоимости: обычные здания 0..16, специальные 17..25, жилища 30..43.
 - Переменные, строки и массивы: /ru/erm/variables/ — Типы данных, область действия, именованные переменные, флаги и время жизни массивов.
+- Плагины ERA: /ru/plugins/ — Проверенная по исходникам карта нативных расширений ERA: порядок загрузки, уровни API и границы бинарной совместимости.
+- API плагинов ERA: /ru/plugins/era-api/ — Практическая карта экспортируемых служб ERA: события, локализация, ERM, сохранения, ресурсы, диагностика и управляемые патчи.
+- Начало работы с плагинами ERA: /ru/plugins/getting-started/ — Сборка минимального 32-битного модуля `.era` на C++17 с CMake и NH3API, его установка и диагностика с явными границами совместимости.
+- NH3API: /ru/plugins/nh3api/ — Интерфейс исполняемого файла на C++17, модули CMake и ERA, поддерживаемые инструменты и границы совместимости, которые обязан фиксировать плагин.

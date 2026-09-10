@@ -1,7 +1,7 @@
 /**
  * Remove historical material that is retained only for source-transfer auditing.
  * @param {string} markdown
- * @param {'docs' | 'erm'} section
+ * @param {'docs' | 'erm' | 'plugins'} section
  * @param {string} slug
  */
 export function prepareArticleMarkdown(markdown, section, slug) {

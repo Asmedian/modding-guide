@@ -46,7 +46,7 @@ test('entities, sources, and navigation satisfy their checked-in JSON schemas', 
   for (const path of entities(join(root, 'content'))) validate(JSON.parse(readFileSync(path, 'utf8')), articleSchema, path);
   const sourceSchema = read('content/_schemas/source.schema.json');
   for (const source of read('content/_sources/sources.json')) validate(source, sourceSchema, source.id);
-  for (const section of ['docs', 'erm']) validate(read(`content/_navigation/${section}.json`), read('content/_schemas/navigation.schema.json'));
+  for (const section of ['docs', 'erm', 'plugins']) validate(read(`content/_navigation/${section}.json`), read('content/_schemas/navigation.schema.json'));
 });
 
 test('schema validation rejects malformed or unsupported data', () => {

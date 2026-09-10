@@ -3,6 +3,7 @@
   import AppShell from '$lib/components/AppShell.svelte';
   import LanguageMenu from '$lib/components/LanguageMenu.svelte';
   import { translator, type Locale } from '$lib/i18n';
+  import docsNavigation from '../../../content/_navigation/docs.json';
 
   export let data: { lang: Locale };
   $: t = translator(data.lang);
@@ -31,7 +32,7 @@
   <link rel="alternate" hreflang={data.lang === 'ru' ? 'en' : 'ru'} href={alternateHomePath} />
 </svelte:head>
 
-<AppShell lang={data.lang} activeSlug="">
+<AppShell lang={data.lang} activeSlug="" navigation={docsNavigation}>
   <article class="home-page">
     <div class="hero-ornament" aria-hidden="true"><span></span><b>◇ ◆ ◇ ◆ ◇</b><span></span></div>
     <header class="hero" id="overview">

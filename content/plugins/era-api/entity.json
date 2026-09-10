@@ -1,0 +1,14 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "plugins.era-api",
+  "kind": "article",
+  "section": "plugins",
+  "slug": "era-api",
+  "status": "published",
+  "sourceRefs": ["era-source:era.pas", "era-source:plugin-exports", "era-source:plugin-loader", "nh3api:era-header"],
+  "keywords": ["ERA API", "RegisterHandler", "FireEvent", "CreatePlugin", "MemFree", "savegame", "RedirectFile", "ExecErmCmd"],
+  "questions": ["Which services does the ERA plugin API expose?", "How do ERA plugin events work?", "Who owns memory returned by the ERA API?"],
+  "previous": "getting-started",
+  "next": "nh3api"
+}

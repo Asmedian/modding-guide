@@ -4,7 +4,7 @@ Start with [AGENTS.md](../AGENTS.md) for mandatory rules and keep the [project m
 
 ## Edit an article
 
-Each article is a directory under `content/docs` or `content/erm`. `entity.json` contains the non-localized record. `ru.md` and `en.md` begin with JSON frontmatter containing `title`, `summary`, and `translationStatus`. Summaries and metadata questions are plain text; keep Markdown in the article body.
+Each article is a directory under `content/docs`, `content/erm`, or `content/plugins`. `entity.json` contains the non-localized record. `ru.md` and `en.md` begin with JSON frontmatter containing `title`, `summary`, and `translationStatus`. Summaries and metadata questions are plain text; keep Markdown in the article body.
 
 Use explicit section IDs:
 
@@ -47,7 +47,7 @@ The installed tool bundle is registered as `era-tools`. Prefer bundled help or e
 
 ## Update navigation
 
-Edit `content/_navigation/docs.json` or `erm.json`, then mirror any label in both UI dictionaries. Keep groups topical, never nest a group inside a group, and use a catalog rather than adding more than twelve leaves. The separate ERM alphabet intentionally contains the complete legacy hierarchy from `content/erm/_registry/alphabet.json`; preserve `parent`, `depth`, localized labels, and canonical destinations. The Russian rail omits Ё, Й, Ы, Ъ, and Ь; absent Е, Щ, and Ю destinations remain visibly disabled. Keep search out of this index.
+Edit `content/_navigation/docs.json`, `erm.json`, or `plugins.json`, then mirror any label in both UI dictionaries. Keep groups topical, never nest a group inside a group, and use a catalog rather than adding more than twelve leaves. NH3API remains a group within Plugins, not a fourth top-level section. The separate ERM alphabet intentionally contains the complete legacy hierarchy from `content/erm/_registry/alphabet.json`; preserve `parent`, `depth`, localized labels, and canonical destinations. The Russian rail omits Ё, Й, Ы, Ъ, and Ь; absent Е, Щ, and Ю destinations remain visibly disabled. Keep search out of this index.
 
 The central trigger/receiver strip uses the corresponding registries. Table and constant/global links in an ERM article open in the right reference panel; further internal ERM links stay there. Back/forward history and scroll positions belong to that panel. Mouse buttons 4/5 control the panel's history only when their event originates inside it. Normal links remain readable without JavaScript. Keep the learning route heading-only.
 
@@ -58,7 +58,7 @@ Run `npm run prepare:content`. This regenerates:
 - `src/lib/generated/search-index.ts`;
 - `src/lib/generated/symbol-index.json`;
 - `static/llm/manifest.json`;
-- `static/llm/{ru,en}/{docs,erm}.md`;
+- `static/llm/{ru,en}/{docs,erm,plugins}.md`;
 - `static/llms.txt` and `static/llms-full.txt`.
 
 It also refreshes anchored search segments. Search snippets are generated from the section containing the match, so do not remove explicit `{#section-id}` anchors. Do not edit generated files directly.

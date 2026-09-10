@@ -1,0 +1,14 @@
+{
+  "$schema": "../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "plugins.overview",
+  "kind": "article",
+  "section": "plugins",
+  "slug": "",
+  "status": "published",
+  "sourceRefs": ["era-source:plugin-loader", "era-source:era.pas", "nh3api:readme"],
+  "keywords": ["ERA plugin", "EraPlugins", ".era", ".dll", "native modding", "NH3API"],
+  "questions": ["What is an ERA plugin?", "Where does ERA load plugins from?", "When should I use the ERA API or NH3API?"],
+  "previous": null,
+  "next": "getting-started"
+}

@@ -196,9 +196,9 @@
       if (disposed || request !== requestId) return;
       fullTextResults = data.flatMap((result, index): RankedResult[] => {
         if (result.meta.locale && result.meta.locale !== locale) return [];
-        const section = result.meta.topSection === 'erm' ? 'erm' : 'docs';
+        const section = result.meta.topSection === 'erm' ? 'erm' : result.meta.topSection === 'plugins' ? 'plugins' : 'docs';
         const title = result.meta.title ?? result.url;
-        const slug = stripBase(result.url).replace(/^\/(?:ru|en)\/(?:docs|erm)\/?/, '').replace(/\/$/, '');
+        const slug = stripBase(result.url).replace(/^\/(?:ru|en)\/(?:docs|erm|plugins)\/?/, '').replace(/\/$/, '');
         const entry: SearchEntry = {
           id: result.meta.pageId ?? result.url,
           locale,

@@ -4,6 +4,9 @@
   import SymbolCatalog from '$lib/components/SymbolCatalog.svelte';
   import { translator, type Locale } from '$lib/i18n';
   import type { Article } from '$lib/server/content';
+  import docsNavigation from '../../../content/_navigation/docs.json';
+  import ermNavigation from '../../../content/_navigation/erm.json';
+  import pluginsNavigation from '../../../content/_navigation/plugins.json';
 
   export let article: Article;
   let lang: Locale;
@@ -11,6 +14,7 @@
   $: lang = article.lang as Locale;
   $: t = translator(lang);
   $: section = article.section ?? 'docs';
+  $: navigation = section === 'erm' ? ermNavigation : section === 'plugins' ? pluginsNavigation : docsNavigation;
   $: articlePath = `${base}/${lang}/${section}/${article.slug ? `${article.slug}/` : ''}`;
   $: alternatePath = `${base}/${lang === 'ru' ? 'en' : 'ru'}/${section}/${article.slug ? `${article.slug}/` : ''}`;
   $: structuredData = JSON.stringify({
@@ -33,7 +37,7 @@
   <script type="application/ld+json">{structuredData}</script>
 </svelte:head>
 
-<AppShell {lang} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')}>
+<AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')}>
   <article class="docs-article" lang={lang} data-pagefind-body data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
     <div class="article-ornament" aria-hidden="true"><span></span><b>◇ ◆ ◇</b><span></span></div>
     <header class="article-header">

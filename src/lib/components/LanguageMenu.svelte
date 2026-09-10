@@ -33,7 +33,7 @@
   <!-- Use a document navigation for locale changes: Chrome DevTools' injected
        web-vitals can crash on soft navigation (GoogleChrome/web-vitals#792). -->
   <div class="language-options" data-sveltekit-reload>
-    <a class:current={lang === 'ru'} href={ruPath} lang="ru" hreflang="ru" on:click={() => rememberLanguage('ru')}>Русский</a>
     <a class:current={lang === 'en'} href={enPath} lang="en" hreflang="en" on:click={() => rememberLanguage('en')}>English</a>
+    <a class:current={lang === 'ru'} href={ruPath} lang="ru" hreflang="ru" on:click={() => rememberLanguage('ru')}>Русский</a>
   </div>
 </details>
