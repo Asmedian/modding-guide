@@ -63,7 +63,7 @@ Short interface strings use stable keys in `src/lib/i18n`. Technical metadata is
 
 ## Local state
 
-Preferences use `modding-guide:preferences:v1`; navigation uses `modding-guide:navigation:v1`; ERM quick-link expansion uses `modding-guide:erm-quick-links:v1`. The settings reset clears all three stores and restores their defaults immediately. Storage access is guarded so blocked or damaged `localStorage` cannot prevent reading the site.
+Preferences use `modding-guide:preferences:v1`; navigation uses `modding-guide:navigation:v1` and stores the IDs of collapsed groups across every section (all groups are open by default); ERM quick-link expansion uses `modding-guide:erm-quick-links:v1`. The settings reset clears all three stores and immediately opens every navigation group. Storage access is guarded so blocked or damaged `localStorage` cannot prevent reading the site.
 
 ## Browser baseline
 

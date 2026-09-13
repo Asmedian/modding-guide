@@ -111,9 +111,21 @@ test('the sidebar keeps its scroll position across the first route-component tra
   assert.match(shell, /on:click=\{leaveSidebar\}/);
 });
 
-test('the documentation motto card uses the local phoenix artwork at its native ratio', () => {
+test('sidebar groups default open, persist collapsed groups globally, and reset them all', () => {
+  assert.match(shell, /let collapsedGroups:\s*string\[\]\s*=\s*\[\]/);
+  assert.match(shell, /open=\{!collapsedGroups\.includes\(group\.id\)\}/);
+  assert.match(shell, /updateGroup\(group\.id, event\.currentTarget\.open\)/);
+  assert.match(shell, /JSON\.stringify\(\{ collapsedGroups \}\)/);
+  assert.match(shell, /removeItem\('modding-guide:navigation:v1'\)[\s\S]*?collapsedGroups\s*=\s*\[\]/);
+  assert.match(shell, /belongsToCurrentSection[\s\S]*?\? navigation\.groups\.filter[\s\S]*?: \[\]/);
+  assert.doesNotMatch(shell, /let openGroups/);
+});
+
+test('the documentation motto card uses theme-specific phoenix artwork at its native ratio', () => {
   const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
-  assert.match(shell, /--motto-image:[^\n]+era-phoenix-dark\.png/);
+  assert.match(shell, /era-phoenix-\$\{theme\}\.png/);
+  assert.match(shell, /--motto-text:[^\n]+theme === 'light' \? '#24140a' : '#f5ead7'/);
   assert.match(components, /\.motto-card\s*\{[^}]*aspect-ratio:\s*245\s*\/\s*184/);
   assert.match(components, /var\(--motto-image\) center \/ cover no-repeat/);
+  assert.match(components, /color:\s*var\(--motto-text\)/);
 });

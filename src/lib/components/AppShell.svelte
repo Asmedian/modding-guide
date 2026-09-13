@@ -44,7 +44,7 @@
   afterNavigate(() => { searchOpen = false; menuOpen = false; });
   let referencePane: ContextReference;
   let referenceExpanded = false;
-  let openGroups = navigation.groups.map((group) => group.labelKey as string);
+  let collapsedGroups: string[] = [];
   let navigationReady = false;
   let sidebarScroller: HTMLDivElement;
 
@@ -67,11 +67,13 @@
     applyTheme(theme === 'dark' ? 'light' : 'dark');
   }
 
-  function updateGroup(label: string, isOpen: boolean) {
+  function updateGroup(groupId: string, isOpen: boolean) {
     if (!navigationReady) return;
-    openGroups = isOpen ? Array.from(new Set([...openGroups, label])) : openGroups.filter((item) => item !== label);
+    collapsedGroups = isOpen
+      ? collapsedGroups.filter((item) => item !== groupId)
+      : Array.from(new Set([...collapsedGroups, groupId]));
     try {
-      localStorage.setItem('modding-guide:navigation:v1', JSON.stringify({ openGroups }));
+      localStorage.setItem('modding-guide:navigation:v1', JSON.stringify({ collapsedGroups }));
     } catch {
       // Navigation state is optional.
     }
@@ -181,7 +183,7 @@
     } catch {
       // Reset still updates the current view if storage is unavailable.
     }
-    openGroups = navigation.groups.map((group) => group.labelKey);
+    collapsedGroups = [];
     searchScope = 'everywhere';
     applyTheme('dark', false);
     window.dispatchEvent(new Event('modding-guide:settings-reset'));
@@ -200,8 +202,15 @@
       applyTheme(saved.theme === 'light' ? 'light' : 'dark', false);
       if (saved.lastSearchScope === 'section' || saved.lastSearchScope === 'page') searchScope = saved.lastSearchScope;
       const savedNavigation = JSON.parse(localStorage.getItem('modding-guide:navigation:v1') ?? '{}');
-      if (Array.isArray(savedNavigation.openGroups)) {
-        openGroups = savedNavigation.openGroups.filter((label: unknown) => typeof label === 'string');
+      if (Array.isArray(savedNavigation.collapsedGroups)) {
+        collapsedGroups = savedNavigation.collapsedGroups.filter((groupId: unknown) => typeof groupId === 'string');
+      } else if (Array.isArray(savedNavigation.openGroups)) {
+        const legacyOpenGroups = new Set(savedNavigation.openGroups.filter((label: unknown) => typeof label === 'string'));
+        const belongsToCurrentSection = navigation.groups.some((group) => legacyOpenGroups.has(group.labelKey));
+        collapsedGroups = belongsToCurrentSection
+          ? navigation.groups.filter((group) => !legacyOpenGroups.has(group.labelKey)).map((group) => group.id)
+          : [];
+        localStorage.setItem('modding-guide:navigation:v1', JSON.stringify({ collapsedGroups }));
       }
     } catch {
       applyTheme('dark', false);
@@ -299,7 +308,7 @@
       </div>
       {#if activeSection === 'erm'}<ErmAlphabet {lang} entries={ermAlphabet} />{/if}
       {#each navigation.groups as group}
-        <details class="nav-group" data-group={group.id} open={openGroups.includes(group.labelKey)} on:toggle={(event) => updateGroup(group.labelKey, event.currentTarget.open)}>
+        <details class="nav-group" data-group={group.id} open={!collapsedGroups.includes(group.id)} on:toggle={(event) => updateGroup(group.id, event.currentTarget.open)}>
           <summary>
             <span class="sidebar-group-icon" aria-hidden="true"><UiIcon name={`sidebar-${group.id}`} /></span>
             <h2>{t(group.labelKey)}</h2>
@@ -353,7 +362,10 @@
         <p>{t(activeSection === 'plugins' ? 'plugins.ctaText' : 'home.newText')}</p>
         <a class="button-outline" href={`${base}/${lang}/${activeSection === 'erm' ? 'erm/start' : activeSection === 'plugins' ? 'plugins/getting-started' : 'docs/quick-start'}/`}>{t(activeSection === 'plugins' ? 'plugins.ctaAction' : 'home.newAction')} <UiIcon name="arrow-right" /></a>
       </div>
-      <div class="motto-card" style={`--motto-image: url('${base}/assets/site/era-phoenix-dark.png')`}>
+      <div
+        class="motto-card"
+        style={`--motto-image: url('${base}/assets/site/era-phoenix-${theme}.png'); --motto-overlay: ${theme === 'light' ? 'linear-gradient(rgba(255,248,230,.08),rgba(255,248,230,.32))' : 'linear-gradient(rgba(3,10,16,.3),rgba(3,10,16,.7))'}; --motto-color: ${theme === 'light' ? '#4a2606' : 'var(--gold)'}; --motto-text: ${theme === 'light' ? '#24140a' : '#f5ead7'}; --motto-shadow: ${theme === 'light' ? '0 1px 2px #808080' : '0 1px 3px #000'}`}
+      >
         <UiIcon name="diamond" />
         <p>{t('home.built')}</p>
         <UiIcon name="diamond" />
