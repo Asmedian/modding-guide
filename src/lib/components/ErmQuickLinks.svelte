@@ -2,12 +2,11 @@
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
-  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
-  import receivers from '../../../content/erm/_registry/receivers.json';
-  import triggers from '../../../content/erm/_registry/trigger-families.json';
-
+  import UiIcon from '$lib/components/UiIcon.svelte';
   export let lang: Locale;
   export let activeSlug = '';
+  export let receivers: Array<{ code: string; slug: string; title: Record<Locale, string> }>;
+  export let triggers: Array<{ code: string; slug: string; title: Record<Locale, string> }>;
 
   $: t = translator(lang);
   const name = (title: string) => title.replace(/\s+\([A-Z]{2}\)$/, '');
@@ -56,7 +55,7 @@
   <summary>
     <strong>{t('erm.quick.title')}</strong>
     {#if !expanded && currentItem}<span class="current-summary">{currentItem.code}: {name(currentItem.title[lang])}</span>{/if}
-    <DisclosureChevron />
+    <span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span>
   </summary>
   <nav aria-label={t('erm.quick.title')}>
     <div class="quick-row"><strong>{t('erm.quick.triggers')}</strong><span>

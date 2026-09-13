@@ -1,16 +1,14 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
-  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
-  import SidebarGroupIcon from '$lib/components/SidebarGroupIcon.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
-  import index from '../../../content/erm/_registry/alphabet.json';
   export let lang: Locale;
+  export let entries: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }>;
   $: t = translator(lang);
   let scroller: HTMLDivElement;
   let activeLetter = '';
   $: alphabet = lang === 'ru' ? [...'АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ'] : [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
-  $: groups = index.filter((r) => r.depth === 0).map((r) => ({ ...r, children: index.filter((c) => c.parent === r.id) })).sort((a,b) => a.label[lang].localeCompare(b.label[lang],lang));
+  $: groups = entries.filter((r) => r.depth === 0).map((r) => ({ ...r, children: entries.filter((c) => c.parent === r.id) })).sort((a,b) => a.label[lang].localeCompare(b.label[lang],lang));
   $: letters = new Set(groups.map((g) => g.label[lang][0].toUpperCase()));
   function jump(letter: string) {
     const target = Array.from(scroller.querySelectorAll<HTMLElement>('[data-letter]')).find((el) => el.dataset.letter === letter);
@@ -25,7 +23,7 @@
 </script>
 
 <details class="nav-group erm-alphabet" open>
-  <summary><SidebarGroupIcon name="erm-reference" /><h2>{t('erm.index.title')}</h2><DisclosureChevron /></summary>
+  <summary><span class="sidebar-group-icon" aria-hidden="true"><UiIcon name="sidebar-erm-reference" /></span><h2>{t('erm.index.title')}</h2><span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span></summary>
   <div class="alphabet-frame">
     <!-- Keyboard users can focus and scroll this independent region. -->
     <!-- svelte-ignore a11y_no_noninteractive_tabindex -->

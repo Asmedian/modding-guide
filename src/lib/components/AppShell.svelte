@@ -1,14 +1,15 @@
+<script context="module" lang="ts">
+  const sidebarScroll: Record<string, number> = {};
+</script>
+
 <script lang="ts">
   import { onMount } from 'svelte';
   import { browser, dev } from '$app/environment';
   import { afterNavigate, preloadData } from '$app/navigation';
   import { base } from '$app/paths';
-  import { page } from '$app/stores';
   import { hexToDecimal } from '$lib/reference/rich.mjs';
   import { translator, type Locale } from '$lib/i18n';
   import LanguageMenu from '$lib/components/LanguageMenu.svelte';
-  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
-  import SidebarGroupIcon from '$lib/components/SidebarGroupIcon.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
   import ErmAlphabet from '$lib/components/ErmAlphabet.svelte';
   import ErmQuickLinks from '$lib/components/ErmQuickLinks.svelte';
@@ -21,13 +22,11 @@
   export let navigation: {
     groups: Array<{ id: string; labelKey: string; items: Array<{ labelKey: string; slug: string }> }>;
   };
+  export let ermAlphabet: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }> = [];
+  export let ermReceivers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
+  export let ermTriggers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
 
   $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : 'docs';
-  $: navGroups = navigation.groups.map((group) => ({
-    id: group.id,
-    label: group.labelKey,
-    links: group.items.map((item) => [item.labelKey, item.slug] as const)
-  }));
   const topItems = topNavigation.items;
   const githubUrl = topNavigation.github.href;
 
@@ -47,6 +46,7 @@
   let referenceExpanded = false;
   let openGroups = navigation.groups.map((group) => group.labelKey as string);
   let navigationReady = false;
+  let sidebarScroller: HTMLDivElement;
 
   function savePreferences() {
     try {
@@ -96,6 +96,11 @@
 
   function isCurrentNavigationLink(slug: string) {
     return activeSlug === slug || (!slug && activeSlug === 'docs');
+  }
+
+  function leaveSidebar() {
+    sidebarScroll[activeSection] = sidebarScroller.scrollTop;
+    menuOpen = false;
   }
 
   function loadSearchComponent() {
@@ -176,7 +181,7 @@
     } catch {
       // Reset still updates the current view if storage is unavailable.
     }
-    openGroups = navGroups.map((group) => group.label as string);
+    openGroups = navigation.groups.map((group) => group.labelKey);
     searchScope = 'everywhere';
     applyTheme('dark', false);
     window.dispatchEvent(new Event('modding-guide:settings-reset'));
@@ -201,7 +206,10 @@
     } catch {
       applyTheme('dark', false);
     }
-    const readyFrame = requestAnimationFrame(() => { navigationReady = true; });
+    const readyFrame = requestAnimationFrame(() => {
+      navigationReady = true;
+      sidebarScroller.scrollTop = sidebarScroll[activeSection] ?? 0;
+    });
     window.addEventListener('keydown', handleKeyboard);
     document.addEventListener('pointerdown', handleOutsideSearch, true);
     document.addEventListener('click', handleReferenceClick, true);
@@ -275,7 +283,7 @@
 
 <div class="site-grid" class:erm-grid={activeSection === 'erm'}>
   <aside class:open={menuOpen} class="sidebar" aria-label={t(activeSection === 'erm' ? 'nav.ermScripts' : activeSection === 'plugins' ? 'nav.plugins' : 'nav.documentation')}>
-    <div class="sidebar-scroll">
+    <div class="sidebar-scroll" bind:this={sidebarScroller}>
       <div class="mobile-primary-controls">
         <nav aria-label={t('nav.primary')}>
           {#each topItems as item}
@@ -289,20 +297,20 @@
         </nav>
         <div><LanguageMenu {lang} /><button class="icon-button" type="button" aria-label={t('theme.toggle')} on:click={toggleTheme}><UiIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button></div>
       </div>
-      {#if activeSection === 'erm'}<ErmAlphabet {lang} />{/if}
-      {#each navGroups as group}
-        <details class="nav-group" data-group={group.id} open={openGroups.includes(group.label)} on:toggle={(event) => updateGroup(group.label, event.currentTarget.open)}>
+      {#if activeSection === 'erm'}<ErmAlphabet {lang} entries={ermAlphabet} />{/if}
+      {#each navigation.groups as group}
+        <details class="nav-group" data-group={group.id} open={openGroups.includes(group.labelKey)} on:toggle={(event) => updateGroup(group.labelKey, event.currentTarget.open)}>
           <summary>
-            <SidebarGroupIcon name={group.id} />
-            <h2>{t(group.label)}</h2>
-            <DisclosureChevron />
+            <span class="sidebar-group-icon" aria-hidden="true"><UiIcon name={`sidebar-${group.id}`} /></span>
+            <h2>{t(group.labelKey)}</h2>
+            <span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span>
           </summary>
           <ul>
-            {#each group.links as link}
+            {#each group.items as item}
               <li>
-                <a class:current={isCurrentNavigationLink(link[1])} aria-current={isCurrentNavigationLink(link[1]) ? 'page' : undefined} href={link[1] ? `${base}/${lang}/${link[1]}/` : `${base}/${lang}/`} on:click={() => (menuOpen = false)}>
+                <a class:current={isCurrentNavigationLink(item.slug)} aria-current={isCurrentNavigationLink(item.slug) ? 'page' : undefined} href={item.slug ? `${base}/${lang}/${item.slug}/` : `${base}/${lang}/`} on:click={leaveSidebar}>
                   <span class="nav-rune" aria-hidden="true"></span>
-                  <span>{t(link[0])}</span>
+                  <span>{t(item.labelKey)}</span>
                 </a>
               </li>
             {/each}
@@ -314,7 +322,7 @@
   </aside>
 
   <main class="content-column">
-    {#if activeSection === 'erm'}<ErmQuickLinks {lang} {activeSlug} />{/if}
+    {#if activeSection === 'erm'}<ErmQuickLinks {lang} {activeSlug} receivers={ermReceivers} triggers={ermTriggers} />{/if}
     <div class="content-inner">
       <slot />
     </div>
@@ -345,7 +353,7 @@
         <p>{t(activeSection === 'plugins' ? 'plugins.ctaText' : 'home.newText')}</p>
         <a class="button-outline" href={`${base}/${lang}/${activeSection === 'erm' ? 'erm/start' : activeSection === 'plugins' ? 'plugins/getting-started' : 'docs/quick-start'}/`}>{t(activeSection === 'plugins' ? 'plugins.ctaAction' : 'home.newAction')} <UiIcon name="arrow-right" /></a>
       </div>
-      <div class="motto-card">
+      <div class="motto-card" style={`--motto-image: url('${base}/assets/site/era-phoenix-dark.png')`}>
         <UiIcon name="diamond" />
         <p>{t('home.built')}</p>
         <UiIcon name="diamond" />

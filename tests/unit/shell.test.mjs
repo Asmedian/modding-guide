@@ -67,7 +67,7 @@ test('the background fills the middle column; only its inner content has a width
   const columnRules = [...layout.matchAll(/\.content-column\s*\{([^}]+)\}/g)];
   assert.ok(columnRules.length > 0);
   for (const [, rule] of columnRules) assert.doesNotMatch(rule, /max-width|margin|padding/);
-  assert.match(columnRules[0][1], /background:\s*linear-gradient/);
+  assert.match(columnRules[0][1], /background:\s*var\(--content-background,\s*linear-gradient/);
   assert.match(layout, /\.content-inner\s*\{[^}]*max-width:/);
 });
 
@@ -90,17 +90,30 @@ test('article sources are a collapsed disclosure that expands below its toggle',
 test('sidebar groups use themed cards, semantic icons, and a centered SVG disclosure chevron', () => {
   const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
   const base = readFileSync(join(root, 'src/styles/base.css'), 'utf8');
-  const chevron = readFileSync(join(root, 'src/lib/components/DisclosureChevron.svelte'), 'utf8');
-  const icons = readFileSync(join(root, 'static/assets/ui/sidebar-icons.svg'), 'utf8');
+  const icons = readFileSync(join(root, 'static/assets/ui/icons.svg'), 'utf8');
   assert.match(shell, /<details class="nav-group" data-group=\{group\.id\}/);
-  assert.match(shell, /<SidebarGroupIcon name=\{group\.id\} \/>/);
-  assert.match(shell, /<DisclosureChevron \/>/);
+  assert.match(shell, /<UiIcon name=\{`sidebar-\$\{group\.id\}`\} \/>/);
+  assert.match(shell, /<UiIcon name="chevron" \/>/);
   assert.match(components, /\.nav-group\s*\{[^}]*background:\s*var\(--nav-card\)/);
   assert.match(components, /\.disclosure-chevron\s*\{[^}]*width:\s*1\.25rem[^}]*height:\s*1\.25rem/);
   assert.match(components, /\.disclosure-chevron svg\s*\{[^}]*transform-origin:\s*50% 50%/);
-  assert.match(chevron, /<svg[^>]*viewBox="0 0 24 24"/);
   for (const group of ['start', 'era', 'resources', 'tools', 'reference', 'llm', 'erm-basics', 'erm-reference', 'erm-framework', 'erm-practice', 'plugin-development', 'nh3api']) {
-    assert.match(icons, new RegExp(`id="${group}"`));
+    assert.match(icons, new RegExp(`id="sidebar-${group}"`));
   }
   assert.match(base, /\[aria-hidden='true'\],[\s\S]*kbd\s*\{[\s\S]*user-select:\s*none/);
+});
+
+test('the sidebar keeps its scroll position across the first route-component transition', () => {
+  assert.match(shell, /const sidebarScroll:\s*Record<string, number>\s*=\s*\{\}/);
+  assert.match(shell, /bind:this=\{sidebarScroller\}/);
+  assert.match(shell, /sidebarScroll\[activeSection\]\s*=\s*sidebarScroller\.scrollTop/);
+  assert.match(shell, /sidebarScroller\.scrollTop\s*=\s*sidebarScroll\[activeSection\]\s*\?\?\s*0/);
+  assert.match(shell, /on:click=\{leaveSidebar\}/);
+});
+
+test('the documentation motto card uses the local phoenix artwork at its native ratio', () => {
+  const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
+  assert.match(shell, /--motto-image:[^\n]+era-phoenix-dark\.png/);
+  assert.match(components, /\.motto-card\s*\{[^}]*aspect-ratio:\s*245\s*\/\s*184/);
+  assert.match(components, /var\(--motto-image\) center \/ cover no-repeat/);
 });

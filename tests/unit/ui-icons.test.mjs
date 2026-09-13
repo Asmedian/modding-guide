@@ -24,7 +24,7 @@ test('decorative interface glyphs are provided by SVG assets', () => {
   assert.doesNotMatch(sources, /[←→↗×⌄⌘◆◇☀◐✕✖▲▼▶◀⌕◎☰✦↕♜⌁⌑□≡↑↓]/u);
   assert.doesNotMatch(interfaceCopy, /[←→↗×⌄⌘◆◇☀◐✕✖▲▼▶◀⌕◎☰✦↕♜⌁⌑□≡↑↓]/u);
   assert.match(icon, /<use href=\{`\$\{base\}\/assets\/ui\/icons\.svg#\$\{name\}`\}/);
-  for (const name of ['search', 'sun', 'moon', 'menu', 'close', 'external', 'arrow-left', 'arrow-right', 'arrow-up', 'arrow-down', 'globe', 'info', 'book', 'platform', 'resources', 'tools', 'glossary', 'shield', 'sparkle', 'diamond', 'ornament']) {
+  for (const name of ['search', 'sun', 'moon', 'menu', 'close', 'external', 'arrow-left', 'arrow-right', 'arrow-up', 'arrow-down', 'chevron', 'globe', 'info', 'book', 'platform', 'resources', 'tools', 'glossary', 'shield', 'sparkle', 'diamond', 'ornament']) {
     assert.match(sprite, new RegExp(`id="${name}"`));
   }
 });

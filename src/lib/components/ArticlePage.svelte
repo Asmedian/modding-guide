@@ -1,7 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import AppShell from '$lib/components/AppShell.svelte';
-  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
   import SymbolCatalog from '$lib/components/SymbolCatalog.svelte';
   import { translator, type Locale } from '$lib/i18n';
@@ -9,6 +8,9 @@
   import docsNavigation from '../../../content/_navigation/docs.json';
   import ermNavigation from '../../../content/_navigation/erm.json';
   import pluginsNavigation from '../../../content/_navigation/plugins.json';
+  import ermAlphabet from '../../../content/erm/_registry/alphabet.json';
+  import ermReceivers from '../../../content/erm/_registry/receivers.json';
+  import ermTriggers from '../../../content/erm/_registry/trigger-families.json';
 
   export let article: Article;
   let lang: Locale;
@@ -39,7 +41,7 @@
   <script type="application/ld+json">{structuredData}</script>
 </svelte:head>
 
-<AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')}>
+<AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')} {ermAlphabet} {ermReceivers} {ermTriggers}>
   <article class="docs-article" lang={lang} data-pagefind-body data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
     <div class="article-ornament" aria-hidden="true"><span></span><UiIcon name="ornament" /><span></span></div>
     <header class="article-header">
@@ -49,7 +51,7 @@
 
     <div class="mobile-toc">
       <details>
-        <summary><span>{t('nav.onThisPage')}</span><DisclosureChevron /></summary>
+        <summary><span>{t('nav.onThisPage')}</span><span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span></summary>
         <nav>
           {#each article.sections as section}
             <a href={`#${section.id}`}>{section.label}</a>
@@ -83,7 +85,7 @@
     {/if}
 
     <details class="source-panel" data-pagefind-ignore>
-      <summary><span>{t('article.sources')}</span><DisclosureChevron /></summary>
+      <summary><span>{t('article.sources')}</span><span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span></summary>
       <ul class="source-panel-content">
         {#each article.sources as source}
           <li><code>{source.id}</code><span class="metadata-list">{#if source.url}<a href={source.url}>{source.title}</a>{:else}<span>{source.title}</span>{/if}<span>{source.relativeSourcePath}</span><span>{source.version}</span></span></li>

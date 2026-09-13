@@ -27,7 +27,11 @@ test('search code and production index loading stay outside the initial applicat
 test('home navigation data stays outside the initial client bundle', () => {
   const page = readFileSync(join(root, 'src/routes/[lang=locale]/+page.svelte'), 'utf8');
   const server = readFileSync(join(root, 'src/routes/[lang=locale]/+page.server.ts'), 'utf8');
+  const alphabet = readFileSync(join(root, 'src/lib/components/ErmAlphabet.svelte'), 'utf8');
+  const quickLinks = readFileSync(join(root, 'src/lib/components/ErmQuickLinks.svelte'), 'utf8');
   assert.doesNotMatch(page, /content\/_navigation\/docs\.json/);
+  assert.doesNotMatch(alphabet, /content\/erm\/_registry\/alphabet\.json/);
+  assert.doesNotMatch(quickLinks, /content\/erm\/_registry\/(?:receivers|trigger-families)\.json/);
   assert.match(page, /navigation=\{data\.navigation\}/);
   assert.match(server, /content\/_navigation\/docs\.json/);
 });
