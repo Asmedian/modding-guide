@@ -86,3 +86,21 @@ test('article sources are a collapsed disclosure that expands below its toggle',
   assert.doesNotMatch(article, /<details class="source-panel"[^>]*\bopen\b/);
   assert.match(components, /\.source-panel\s*\{[^}]*flex-direction:\s*column[;}]/);
 });
+
+test('sidebar groups use themed cards, semantic icons, and a centered SVG disclosure chevron', () => {
+  const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
+  const base = readFileSync(join(root, 'src/styles/base.css'), 'utf8');
+  const chevron = readFileSync(join(root, 'src/lib/components/DisclosureChevron.svelte'), 'utf8');
+  const icons = readFileSync(join(root, 'static/assets/ui/sidebar-icons.svg'), 'utf8');
+  assert.match(shell, /<details class="nav-group" data-group=\{group\.id\}/);
+  assert.match(shell, /<SidebarGroupIcon name=\{group\.id\} \/>/);
+  assert.match(shell, /<DisclosureChevron \/>/);
+  assert.match(components, /\.nav-group\s*\{[^}]*background:\s*var\(--nav-card\)/);
+  assert.match(components, /\.disclosure-chevron\s*\{[^}]*width:\s*1\.25rem[^}]*height:\s*1\.25rem/);
+  assert.match(components, /\.disclosure-chevron svg\s*\{[^}]*transform-origin:\s*50% 50%/);
+  assert.match(chevron, /<svg[^>]*viewBox="0 0 24 24"/);
+  for (const group of ['start', 'era', 'resources', 'tools', 'reference', 'llm', 'erm-basics', 'erm-reference', 'erm-framework', 'erm-practice', 'plugin-development', 'nh3api']) {
+    assert.match(icons, new RegExp(`id="${group}"`));
+  }
+  assert.match(base, /\[aria-hidden='true'\],[\s\S]*kbd\s*\{[\s\S]*user-select:\s*none/);
+});

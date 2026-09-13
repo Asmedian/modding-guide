@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
+  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
   import receivers from '../../../content/erm/_registry/receivers.json';
   import triggers from '../../../content/erm/_registry/trigger-families.json';
 
@@ -55,7 +56,7 @@
   <summary>
     <strong>{t('erm.quick.title')}</strong>
     {#if !expanded && currentItem}<span class="current-summary">{currentItem.code}: {name(currentItem.title[lang])}</span>{/if}
-    <span class="chevron" aria-hidden="true">⌄</span>
+    <DisclosureChevron />
   </summary>
   <nav aria-label={t('erm.quick.title')}>
     <div class="quick-row"><strong>{t('erm.quick.triggers')}</strong><span>
@@ -71,13 +72,11 @@
 </details>
 
 <style>
-  .erm-quick-links { position: sticky; top: 0; z-index: 12; background: var(--surface); border-bottom: 1px solid var(--border); font-size: .76rem; }
-  summary { display: flex; align-items: center; gap: .7rem; min-height: 2.35rem; padding: .45rem 1rem; color: var(--text-muted); cursor: pointer; list-style: none; }
+  .erm-quick-links { position: sticky; top: 0; z-index: 12; background: var(--quick-links-background, var(--surface-background, var(--surface))); border-bottom: 1px solid var(--border); font-size: .76rem; }
+  summary { display: flex; align-items: center; gap: .7rem; min-height: 2.35rem; padding: .45rem 1rem; color: var(--text-muted); background: var(--quick-links-heading-background, transparent); cursor: pointer; list-style: none; }
   summary::-webkit-details-marker { display: none; }
   summary > strong { color: var(--gold); }
   .current-summary { min-width: 0; overflow: hidden; color: var(--text); text-overflow: ellipsis; white-space: nowrap; }
-  .chevron { margin-left: auto; color: var(--gold-soft); transition: transform 150ms ease; }
-  details:not([open]) .chevron { transform: rotate(-90deg); }
   nav { padding: .05rem 1rem .7rem; border-top: 1px solid var(--border); }
   .quick-row { display: flex; gap: .8rem; align-items: baseline; }
   .quick-row + .quick-row { margin-top: .3rem; }

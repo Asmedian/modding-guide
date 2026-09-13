@@ -382,8 +382,17 @@
   {
     "sourcePath": "Img/BF.png",
     "asset": "assets/erm/7176e1b1eafc3a84.png",
-    "replacement": "html-css:battlefield-grid",
-    "sha256": "7176E1B1EAFC3A84CD1A4B5C055AC12F6ED27FC720C0C2C006F38C2AA5380F44"
+    "sha256": "7176E1B1EAFC3A84CD1A4B5C055AC12F6ED27FC720C0C2C006F38C2AA5380F44",
+    "themeVariants": {
+      "light": {
+        "asset": "assets/erm/7176e1b1eafc3a84.png",
+        "sha256": "7176E1B1EAFC3A84CD1A4B5C055AC12F6ED27FC720C0C2C006F38C2AA5380F44"
+      },
+      "dark": {
+        "asset": "assets/erm/6d34ab26a86624d7.png",
+        "sha256": "6D34AB26A86624D7E010ADC80A4421784C9BFD1B6C038B721B586BCBD4EDAF2B"
+      }
+    }
   },
   {
     "sourcePath": "Img/HArmy.gif",

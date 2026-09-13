@@ -7,6 +7,9 @@
   import { hexToDecimal } from '$lib/reference/rich.mjs';
   import { translator, type Locale } from '$lib/i18n';
   import LanguageMenu from '$lib/components/LanguageMenu.svelte';
+  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
+  import SidebarGroupIcon from '$lib/components/SidebarGroupIcon.svelte';
+  import UiIcon from '$lib/components/UiIcon.svelte';
   import ErmAlphabet from '$lib/components/ErmAlphabet.svelte';
   import ErmQuickLinks from '$lib/components/ErmQuickLinks.svelte';
   import ContextReference from '$lib/components/ContextReference.svelte';
@@ -16,11 +19,12 @@
   export let toc: Array<{ id: string; label: string }> = [];
   export let activeSlug = '';
   export let navigation: {
-    groups: Array<{ labelKey: string; items: Array<{ labelKey: string; slug: string }> }>;
+    groups: Array<{ id: string; labelKey: string; items: Array<{ labelKey: string; slug: string }> }>;
   };
 
   $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : 'docs';
   $: navGroups = navigation.groups.map((group) => ({
+    id: group.id,
     label: group.labelKey,
     links: group.items.map((item) => [item.labelKey, item.slug] as const)
   }));
@@ -88,6 +92,10 @@
   function handleOutsideSearch(event: PointerEvent) {
     if (!searchOpen || !(event.target instanceof Element)) return;
     if (!event.target.closest('.search-dropdown-host, .search-trigger')) searchOpen = false;
+  }
+
+  function isCurrentNavigationLink(slug: string) {
+    return activeSlug === slug || (!slug && activeSlug === 'docs');
   }
 
   function loadSearchComponent() {
@@ -232,18 +240,18 @@
     {/each}
   </nav>
   <button class="search-trigger" type="button" aria-label={t('search.label')} aria-expanded={searchOpen} on:focus={() => void loadSearchComponent()} on:pointerdown={() => void loadSearchComponent()} on:click|stopPropagation={toggleSearch}>
-    <span aria-hidden="true">⌕</span>
+    <UiIcon name="search" />
     <span>{t('search.placeholder')}</span>
     <kbd>{t('search.shortcut')}</kbd>
   </button>
   <LanguageMenu {lang} />
   <button class="icon-button theme-button" type="button" aria-label={t('theme.toggle')} title={theme === 'dark' ? t('theme.light') : t('theme.dark')} on:click={toggleTheme}>
-    <span aria-hidden="true">{theme === 'dark' ? '◐' : '☀'}</span>
+    <UiIcon name={theme === 'dark' ? 'sun' : 'moon'} />
   </button>
   <button class="icon-button menu-button" type="button" aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')} aria-expanded={menuOpen} on:click={() => (menuOpen = !menuOpen)}>
-    <span aria-hidden="true">{menuOpen ? '×' : '☰'}</span>
+    <UiIcon name={menuOpen ? 'close' : 'menu'} />
   </button>
-  <a class="github-link" href={githubUrl} target="_blank" rel="noreferrer" aria-label={t('nav.github')}>{t('nav.github')} <span aria-hidden="true">↗</span></a>
+  <a class="github-link" href={githubUrl} target="_blank" rel="noreferrer" aria-label={t('nav.github')}>{t('nav.github')} <UiIcon name="external" /></a>
   {#if searchOpen}
     <div class="search-dropdown-host">
       {#key lang}
@@ -255,7 +263,7 @@
 
 <div class="mobile-search-row">
   <button class="search-trigger" type="button" aria-label={t('search.label')} aria-expanded={searchOpen} on:click|stopPropagation={toggleSearch}>
-    <span aria-hidden="true">⌕</span>
+    <UiIcon name="search" />
     <span>{t('search.placeholder')}</span>
     <kbd>{t('search.shortcut')}</kbd>
   </button>
@@ -277,26 +285,29 @@
               <button type="button" disabled title={t('nav.soon')}>{t(item.labelKey)}</button>
             {/if}
           {/each}
-          <a href={githubUrl} target="_blank" rel="noreferrer">{t('nav.github')} ↗</a>
+          <a href={githubUrl} target="_blank" rel="noreferrer">{t('nav.github')} <UiIcon name="external" /></a>
         </nav>
-        <div><LanguageMenu {lang} /><button class="icon-button" type="button" aria-label={t('theme.toggle')} on:click={toggleTheme}>{theme === 'dark' ? '◐' : '☀'}</button></div>
+        <div><LanguageMenu {lang} /><button class="icon-button" type="button" aria-label={t('theme.toggle')} on:click={toggleTheme}><UiIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button></div>
       </div>
       {#if activeSection === 'erm'}<ErmAlphabet {lang} />{/if}
       {#each navGroups as group}
-        <details class="nav-group" open={openGroups.includes(group.label)} on:toggle={(event) => updateGroup(group.label, event.currentTarget.open)}>
-          <summary><h2>{t(group.label)}</h2><span aria-hidden="true">⌄</span></summary>
+        <details class="nav-group" data-group={group.id} open={openGroups.includes(group.label)} on:toggle={(event) => updateGroup(group.label, event.currentTarget.open)}>
+          <summary>
+            <SidebarGroupIcon name={group.id} />
+            <h2>{t(group.label)}</h2>
+            <DisclosureChevron />
+          </summary>
           <ul>
             {#each group.links as link}
               <li>
-                <a class:current={activeSlug === link[1]} href={link[1] ? `${base}/${lang}/${link[1]}/` : `${base}/${lang}/`} on:click={() => (menuOpen = false)}>
-                  <span class="nav-rune" aria-hidden="true">◇</span>
-                  {t(link[0])}
+                <a class:current={isCurrentNavigationLink(link[1])} aria-current={isCurrentNavigationLink(link[1]) ? 'page' : undefined} href={link[1] ? `${base}/${lang}/${link[1]}/` : `${base}/${lang}/`} on:click={() => (menuOpen = false)}>
+                  <span class="nav-rune" aria-hidden="true"></span>
+                  <span>{t(link[0])}</span>
                 </a>
               </li>
             {/each}
           </ul>
         </details>
-        <div class="ornament" aria-hidden="true"><span></span><b>◆</b><span></span></div>
       {/each}
       <button class="reset-button" type="button" on:click={resetSettings}>{t('nav.reset')}</button>
     </div>
@@ -328,16 +339,16 @@
           <a href="#topics">{t('home.findTitle')}</a>
         </nav>
       {/if}
-      <div class="ornament wide" aria-hidden="true"><span></span><b>◆</b><span></span></div>
+      <div class="ornament wide" aria-hidden="true"><span></span><UiIcon name="diamond" /><span></span></div>
       <div class="new-card">
         <h3>{t(activeSection === 'plugins' ? 'plugins.ctaTitle' : 'home.newTitle')}</h3>
         <p>{t(activeSection === 'plugins' ? 'plugins.ctaText' : 'home.newText')}</p>
-        <a class="button-outline" href={`${base}/${lang}/${activeSection === 'erm' ? 'erm/start' : activeSection === 'plugins' ? 'plugins/getting-started' : 'docs/quick-start'}/`}>{t(activeSection === 'plugins' ? 'plugins.ctaAction' : 'home.newAction')} <span aria-hidden="true">→</span></a>
+        <a class="button-outline" href={`${base}/${lang}/${activeSection === 'erm' ? 'erm/start' : activeSection === 'plugins' ? 'plugins/getting-started' : 'docs/quick-start'}/`}>{t(activeSection === 'plugins' ? 'plugins.ctaAction' : 'home.newAction')} <UiIcon name="arrow-right" /></a>
       </div>
       <div class="motto-card">
-        <span aria-hidden="true">◇</span>
+        <UiIcon name="diamond" />
         <p>{t('home.built')}</p>
-        <span aria-hidden="true">◇</span>
+        <UiIcon name="diamond" />
       </div>
     </div>
     {/if}

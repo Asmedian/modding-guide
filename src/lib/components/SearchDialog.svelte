@@ -7,6 +7,7 @@
   import { advanceMatch, createPageSearch, type PageMatch } from '$lib/search/page-search.mjs';
   import { matchUsesInputScript } from '$lib/search/result-language.mjs';
   import { normalizeSymbol, type SymbolEntry } from '$lib/search/symbols';
+  import UiIcon from '$lib/components/UiIcon.svelte';
 
   export let open = false;
   export let lang: Locale;
@@ -303,9 +304,9 @@
 
 <section bind:this={dialogElement} class="search-dialog" aria-label={t('search.label')}>
     <div class="search-dialog-row">
-      <span aria-hidden="true">⌕</span>
+      <UiIcon name="search" />
       <input bind:this={inputElement} bind:value={query} placeholder={t('search.placeholder')} aria-label={t('search.label')} />
-      <button type="button" aria-label={t('search.close')} on:click={() => (open = false)}>×</button>
+      <button type="button" aria-label={t('search.close')} on:click={() => (open = false)}><UiIcon name="close" /></button>
     </div>
     <div class="search-scopes" aria-label={t('search.scope')}>
       {#each ['everywhere', 'section', 'page'] as option}
@@ -317,8 +318,8 @@
     {#if scope === 'page'}
       <div class="search-page-controls">
         <output aria-live="polite">{t('search.matches')}: {pageMatches.length ? pageSelected + 1 : 0}/{pageMatches.length}</output>
-        <button type="button" disabled={!pageMatches.length || pageSelected === 0} aria-label={t('common.previous')} on:click={() => movePageMatch(-1)}>↑</button>
-        <button type="button" disabled={!pageMatches.length || pageSelected === pageMatches.length - 1} aria-label={t('common.next')} on:click={() => movePageMatch(1)}>↓</button>
+        <button type="button" disabled={!pageMatches.length || pageSelected === 0} aria-label={t('common.previous')} on:click={() => movePageMatch(-1)}><UiIcon name="arrow-up" /></button>
+        <button type="button" disabled={!pageMatches.length || pageSelected === pageMatches.length - 1} aria-label={t('common.next')} on:click={() => movePageMatch(1)}><UiIcon name="arrow-down" /></button>
       </div>
     {/if}
     <div class="search-results" aria-live="polite">

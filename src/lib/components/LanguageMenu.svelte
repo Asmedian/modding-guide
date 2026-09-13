@@ -2,6 +2,7 @@
   import { base } from '$app/paths';
   import { page } from '$app/stores';
   import type { Locale } from '$lib/i18n';
+  import UiIcon from '$lib/components/UiIcon.svelte';
 
   export let lang: Locale;
   export let variant: 'header' | 'hero' = 'header';
@@ -26,9 +27,9 @@
 
 <details bind:this={menu} class:hero-language={variant === 'hero'} class:language-menu={variant === 'header'}>
   <summary aria-label={lang === 'ru' ? 'Выбрать язык' : 'Choose language'}>
-    <span aria-hidden="true">◎</span>
+    <UiIcon name="globe" />
     <span>{lang.toUpperCase()}</span>
-    <svg class="language-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
+    <svg class="language-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="m6 9 6 6 6-6" /></svg>
   </summary>
   <!-- Use a document navigation for locale changes: Chrome DevTools' injected
        web-vitals can crash on soft navigation (GoogleChrome/web-vitals#792). -->

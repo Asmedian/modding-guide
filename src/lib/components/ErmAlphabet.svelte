@@ -1,6 +1,9 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
+  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
+  import SidebarGroupIcon from '$lib/components/SidebarGroupIcon.svelte';
+  import UiIcon from '$lib/components/UiIcon.svelte';
   import index from '../../../content/erm/_registry/alphabet.json';
   export let lang: Locale;
   $: t = translator(lang);
@@ -22,7 +25,7 @@
 </script>
 
 <details class="nav-group erm-alphabet" open>
-  <summary><h2>{t('erm.index.title')}</h2><span aria-hidden="true">⌄</span></summary>
+  <summary><SidebarGroupIcon name="erm-reference" /><h2>{t('erm.index.title')}</h2><DisclosureChevron /></summary>
   <div class="alphabet-frame">
     <!-- Keyboard users can focus and scroll this independent region. -->
     <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
@@ -42,11 +45,11 @@
       {/each}
     </nav>
   </div>
-  <a class="full-symbol-index" href={`${base}/${lang}/erm/index/`}>{t('erm.index.symbols')} →</a>
+  <a class="full-symbol-index" href={`${base}/${lang}/erm/index/`}>{t('erm.index.symbols')} <UiIcon name="arrow-right" /></a>
 </details>
 
 <style>
-  .erm-alphabet { margin: .8rem -.45rem 1rem; padding-top: .65rem; border-top: 1px solid var(--border); }
+  .erm-alphabet { margin: 0 0 .15rem; padding-top: 0; border-top: 0; }
   .alphabet-frame { display: flex; height: clamp(380px, 64vh, 670px); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
   .alphabet-scroll { flex: 1; min-width: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: .5rem .25rem; }
   .alphabet-group { margin-bottom: .65rem; }
@@ -54,7 +57,7 @@
   .alphabet-group > a:first-child { color: var(--gold); font-weight: 600; }
   .alphabet-group .alphabet-child { margin-left: .8rem; padding-left: .7rem; border-left: 1px solid var(--border); color: var(--text-muted); font-size: .85rem; }
   a:hover, a:focus-visible { color: var(--text); background: var(--gold-soft); border-radius: 3px; }
-  .alphabet-rail { width: 24px; flex: 0 0 24px; display: flex; flex-direction: column; justify-content: space-between; padding: .15rem 0; background: var(--surface); }
+  .alphabet-rail { width: 24px; flex: 0 0 24px; display: flex; flex-direction: column; justify-content: space-between; padding: .15rem 0; background: var(--surface-background, var(--surface)); }
   .alphabet-rail button { flex: 1; min-height: 0; width: 24px; border: 0; padding: 0; font: 600 .71rem/1 var(--font-body, sans-serif); color: var(--gold); background: transparent; cursor: pointer; }
   .alphabet-rail button:disabled { color: var(--text-muted); opacity: .3; cursor: default; }
   .alphabet-rail button.active { background: var(--gold-soft); color: var(--text); }

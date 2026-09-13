@@ -13,6 +13,7 @@
   $: matches = symbols.filter((s) => (!kind || s.kind === kind) && (!letter || s.name.toUpperCase().startsWith(letter)) && (!needle || [s.name, ...s.aliases, s.label[lang]].some((v) => normalizeSymbol(v).includes(needle))));
   $: visible = matches.slice(0, limit);
   function reset() { limit = 60; }
+  function showAll() { limit = matches.length; }
 </script>
 
 <section class="symbol-catalog" aria-label={t('erm.index.title')}>
@@ -38,7 +39,12 @@
     {/each}</tbody>
   </table></div>
   {#if !matches.length}<p>{t('erm.index.empty')}</p>{/if}
-  {#if matches.length > limit}<button type="button" class="button-outline" on:click={() => (limit += 100)}>{t('erm.index.more')}</button>{/if}
+  {#if matches.length > limit}
+    <div class="catalog-actions">
+      <button type="button" class="button-outline" on:click={() => (limit += 100)}>{t('erm.index.more')}</button>
+      <button type="button" class="button-outline" on:click={showAll}>{t('erm.index.showAll')}</button>
+    </div>
+  {/if}
   <noscript><p>{t('erm.index.noscript')}</p></noscript>
 </section>
 
@@ -55,4 +61,5 @@
   td:first-child { min-width: 13rem; }
   code { overflow-wrap: anywhere; }
   .symbol-count { font-size: .85rem; }
+  .catalog-actions { display: flex; flex-wrap: wrap; gap: .65rem; }
 </style>

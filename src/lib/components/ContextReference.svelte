@@ -3,6 +3,7 @@
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
   import { pushReference, moveReference } from '$lib/reference/history.mjs';
+  import UiIcon from '$lib/components/UiIcon.svelte';
   export let lang: Locale;
   export let expanded = false;
   $: t = translator(lang);
@@ -90,10 +91,10 @@
   <div class="reference-toolbar">
     <h2>{t('erm.context.title')}</h2>
     <div>
-      <button type="button" aria-label={t('erm.context.back')} title={t('erm.context.back')} disabled={history.index <= 0} on:click={() => move(-1)}>←</button>
-      <button type="button" aria-label={t('erm.context.forward')} title={t('erm.context.forward')} disabled={history.index >= history.entries.length - 1} on:click={() => move(1)}>→</button>
-      {#if current}<a href={current.url} title={t('erm.context.open')} aria-label={t('erm.context.open')}>↗</a>{/if}
-      <button type="button" class="reference-close" aria-label={t('erm.context.close')} on:click={() => (expanded = false)}>×</button>
+      <button type="button" aria-label={t('erm.context.back')} title={t('erm.context.back')} disabled={history.index <= 0} on:click={() => move(-1)}><UiIcon name="arrow-left" /></button>
+      <button type="button" aria-label={t('erm.context.forward')} title={t('erm.context.forward')} disabled={history.index >= history.entries.length - 1} on:click={() => move(1)}><UiIcon name="arrow-right" /></button>
+      {#if current}<a href={current.url} title={t('erm.context.open')} aria-label={t('erm.context.open')}><UiIcon name="external" /></a>{/if}
+      <button type="button" class="reference-close" aria-label={t('erm.context.close')} on:click={() => (expanded = false)}><UiIcon name="close" /></button>
     </div>
   </div>
   <div class="reference-scroll" bind:this={scroller}>
@@ -110,7 +111,7 @@
 
 <style>
   .reference-pane { position: sticky; top: 0; height: calc(100vh - var(--header-height)); display: flex; flex-direction: column; min-height: 0; }
-  .reference-toolbar { flex-shrink: 0; padding: 1rem; border-bottom: 1px solid var(--border); background: var(--surface); }
+  .reference-toolbar { flex-shrink: 0; padding: 1rem; border-bottom: 1px solid var(--border); background: var(--surface-background, var(--surface)); }
   .reference-toolbar h2 { font-size: .82rem; line-height: 1.4; margin: 0 0 .5rem; color: var(--gold); }
   .reference-toolbar > div { display: flex; gap: .4rem; }
   .reference-toolbar button, .reference-toolbar a { min-width: 34px; height: 30px; padding: 0 .4rem; display: grid; place-items: center; border: 1px solid var(--border); border-radius: 3px; color: var(--gold); background: transparent; cursor: pointer; }

@@ -650,21 +650,13 @@ function makeNativeTablesSortable(html: string) {
   });
 }
 
-function battlefieldDiagram(lang: 'ru' | 'en') {
+function battlefieldImages(lang: 'ru' | 'en') {
   const label = lang === 'ru' ? 'Нумерация клеток поля боя от 0 до 186' : 'Battlefield hex numbering from 0 to 186';
-  const rows = Array.from({ length: 11 }, (_, row) => {
-    const cells = Array.from({ length: 17 }, (_, column) => {
-      const value = row * 17 + column;
-      const edge = column === 0 || column === 16 ? ' battlefield-edge' : '';
-      return `<span class="battlefield-cell${edge}">${value}</span>`;
-    }).join('');
-    return `<span class="battlefield-row">${cells}</span>`;
-  }).join('');
-  return `<span class="battlefield-diagram" role="img" aria-label="${label}">${rows}</span>`;
+  return `<span class="battlefield-diagram" role="img" aria-label="${label}"><img class="battlefield-image battlefield-image-light" src="../../../../assets/erm/7176e1b1eafc3a84.png" alt="" aria-hidden="true" loading="lazy" decoding="async" width="451" height="256"><img class="battlefield-image battlefield-image-dark" src="../../../../assets/erm/6d34ab26a86624d7.png" alt="" aria-hidden="true" loading="lazy" decoding="async" width="451" height="256"></span>`;
 }
 
 function applyReferenceCorrections(html: string, slug: string, lang: 'ru' | 'en') {
-  let result = html.replace(/<img\b[^>]*7176e1b1eafc3a84\.png[^>]*\/?\s*>/gi, battlefieldDiagram(lang));
+  let result = html.replace(/<img\b[^>]*7176e1b1eafc3a84\.png[^>]*\/?\s*>/gi, battlefieldImages(lang));
   if (slug === 'tables/object-control-words') {
     result = result.replace(/>VR:&amp;amp<\/a>/g, '>VR:&amp;</a>').replace(/>VR:\|<\/a>/g, '>VR:<u>|</u></a>');
   }

@@ -11,9 +11,9 @@ body {
   min-height: 100%;
   overflow: hidden;
   color: var(--text);
-  background:
+  background: var(--body-background,
     radial-gradient(ellipse at 50% 0, rgba(45, 87, 114, 0.18), transparent 65%),
-    linear-gradient(90deg, var(--bg-deep), var(--bg) 50%, var(--bg-deep));
+    linear-gradient(90deg, var(--bg-deep), var(--bg) 50%, var(--bg-deep)));
   font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.58;
@@ -26,6 +26,12 @@ select { font: inherit; }
 
 button,
 a { -webkit-tap-highlight-color: transparent; }
+
+[aria-hidden='true'],
+kbd {
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 a { color: inherit; text-decoration: none; }
 

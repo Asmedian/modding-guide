@@ -129,21 +129,18 @@ test('every transferred reference asset matches its recorded source hash', () =>
   assert.ok(assets.length >= 752);
   assert.equal(new Set(assets.map((entry) => entry.asset)).size, new Set(assets.map((entry) => entry.sha256)).size);
   for (const entry of assets) {
-    if (entry.replacement === 'html-css:battlefield-grid') {
-      assert.equal(entry.sourcePath.toLowerCase(), 'img/bf.png');
-      assert.equal(existsSync(join(root, 'static', entry.asset)), false);
-      assert.match(readFileSync(join(root, 'src/lib/server/content.ts'), 'utf8'), /function battlefieldDiagram/);
-      continue;
-    }
     assert.equal(hash(readFileSync(join(root, 'static', entry.asset))), entry.sha256, entry.sourcePath);
+    for (const variant of Object.values(entry.themeVariants ?? {})) {
+      assert.equal(hash(readFileSync(join(root, 'static', variant.asset))), variant.sha256, `${entry.sourcePath}: ${variant.asset}`);
+    }
   }
   for (const page of audit) for (const image of page.images) {
     const asset = assetBySource.get(image.source.toLowerCase());
     assert.ok(asset, `${page.sourcePath}: ${image.source}`);
   }
-  for (const locale of ['ru', 'en']) {
-    assert.doesNotMatch(readFileSync(join(root, `static/llm/${locale}/erm.md`), 'utf8'), /7176e1b1eafc3a84\.png/);
-  }
+  const contentLoader = readFileSync(join(root, 'src/lib/server/content.ts'), 'utf8');
+  assert.match(contentLoader, /function battlefieldImages/);
+  assert.doesNotMatch(contentLoader, /battlefield-cell|battlefield-row/);
 });
 
 test('native HEX conversion supports source notation, negative offsets and exact large values', () => {

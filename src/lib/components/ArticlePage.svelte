@@ -1,6 +1,8 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import AppShell from '$lib/components/AppShell.svelte';
+  import DisclosureChevron from '$lib/components/DisclosureChevron.svelte';
+  import UiIcon from '$lib/components/UiIcon.svelte';
   import SymbolCatalog from '$lib/components/SymbolCatalog.svelte';
   import { translator, type Locale } from '$lib/i18n';
   import type { Article } from '$lib/server/content';
@@ -39,7 +41,7 @@
 
 <AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')}>
   <article class="docs-article" lang={lang} data-pagefind-body data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
-    <div class="article-ornament" aria-hidden="true"><span></span><b>◇ ◆ ◇</b><span></span></div>
+    <div class="article-ornament" aria-hidden="true"><span></span><UiIcon name="ornament" /><span></span></div>
     <header class="article-header">
       <h1 data-pagefind-meta="title">{article.title}</h1>
       <p class="article-summary">{article.summary}</p>
@@ -47,7 +49,7 @@
 
     <div class="mobile-toc">
       <details>
-        <summary>{t('nav.onThisPage')}</summary>
+        <summary><span>{t('nav.onThisPage')}</span><DisclosureChevron /></summary>
         <nav>
           {#each article.sections as section}
             <a href={`#${section.id}`}>{section.label}</a>
@@ -71,7 +73,7 @@
             </div>
             <dl>
               <dt>{t('llm.questions')}</dt>
-              <dd>{entry.questions.join(' · ')}</dd>
+              <dd class="metadata-list">{#each entry.questions as question}<span>{question}</span>{/each}</dd>
               <dt>{t('llm.keywords')}</dt>
               <dd>{entry.keywords.join(', ')}</dd>
             </dl>
@@ -81,20 +83,20 @@
     {/if}
 
     <details class="source-panel" data-pagefind-ignore>
-      <summary><span>{t('article.sources')}</span><span class="source-panel-arrow" aria-hidden="true">⌄</span></summary>
+      <summary><span>{t('article.sources')}</span><DisclosureChevron /></summary>
       <ul class="source-panel-content">
         {#each article.sources as source}
-          <li><code>{source.id}</code><span>{#if source.url}<a href={source.url}>{source.title}</a>{:else}{source.title}{/if} · {source.relativeSourcePath} · {source.version}</span></li>
+          <li><code>{source.id}</code><span class="metadata-list">{#if source.url}<a href={source.url}>{source.title}</a>{:else}<span>{source.title}</span>{/if}<span>{source.relativeSourcePath}</span><span>{source.version}</span></span></li>
         {/each}
       </ul>
     </details>
 
     <nav class="article-pagination" aria-label={t('article.adjacent')} data-pagefind-ignore>
       {#if article.previous !== null}
-        <a class="previous" href={`${base}/${lang}/${section}/${article.previous ? `${article.previous}/` : ''}`}><small>{t('common.previous')}</small><span>←</span></a>
+        <a class="previous" href={`${base}/${lang}/${section}/${article.previous ? `${article.previous}/` : ''}`}><small>{t('common.previous')}</small><UiIcon name="arrow-left" /></a>
       {:else}<span></span>{/if}
       {#if article.next !== null}
-        <a class="next" href={`${base}/${lang}/${section}/${article.next ? `${article.next}/` : ''}`}><small>{t('common.next')}</small><span>→</span></a>
+        <a class="next" href={`${base}/${lang}/${section}/${article.next ? `${article.next}/` : ''}`}><small>{t('common.next')}</small><UiIcon name="arrow-right" /></a>
       {/if}
     </nav>
   </article>

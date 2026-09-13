@@ -45,6 +45,13 @@ export function renderReference(html) {
     }
     return full;
   });
-  const disclosures = cleaned.replace(/<details class="erm-comment"><summary>((?:(?!erm-toggle-label)[\s\S])*?)<\/summary>/g, '<details class="erm-comment erm-inline-comment"><summary>$1</summary>');
+  const repairedSpacing = cleaned
+    .replace(/<\/details><br>\s*<br><u><\/u>(<span class="erm-anchor" id="ref-rec-do-2"><\/span><details class="erm-comment">)/g, '</details>\n$1')
+    .replace(/<\/details><br>\s*<u><\/u>(<span class="erm-anchor" id="ref-rec-do-3"><\/span><details class="erm-comment">)/g, '</details>\n$1');
+  const indexDisclosure = repairedSpacing.replace(
+    /<div class="erm-align-center erm-paragraph"><span>((?:Алфавитный|Alphabetical)\s+(?:указатель|pointer))<\/span><\/div>\s*<pre>(<span class="erm-anchor" id="ref-cont-list-1"><\/span>[\s\S]*?)\s*<\/pre>/g,
+    '<details class="erm-index-disclosure"><summary><span>$1</span></summary><pre>$2\n</pre></details>'
+  );
+  const disclosures = indexDisclosure.replace(/<details class="erm-comment"><summary>((?:(?!erm-toggle-label)[\s\S])*?)<\/summary>/g, '<details class="erm-comment erm-inline-comment"><summary>$1</summary>');
   return disclosures.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
 }
