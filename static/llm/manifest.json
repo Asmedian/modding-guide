@@ -14315,17 +14315,19 @@
         ".era",
         ".dll",
         "native modding",
-        "NH3API"
+        "NH3API",
+        "H3API"
       ],
       "questions": [
         "What is an ERA plugin?",
         "Where does ERA load plugins from?",
-        "When should I use the ERA API or NH3API?"
+        "When should I use the ERA API, NH3API, or legacy H3API?"
       ],
       "sourceRefs": [
         "era-source:plugin-loader",
         "era-source:era.pas",
-        "nh3api:readme"
+        "nh3api:readme",
+        "h3api:readme"
       ]
     },
     {
@@ -14388,6 +14390,32 @@
         "nh3api:cmake",
         "nh3api:era-header",
         "windows-api:dll-best-practices"
+      ]
+    },
+    {
+      "id": "plugins.h3api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "h3api",
+      "url": "/en/plugins/h3api/",
+      "title": "H3API",
+      "summary": "The deprecated Heroes III 3.2 C++ interface: its purpose, integration modes, and a migration path to NH3API.",
+      "keywords": [
+        "H3API",
+        "deprecated",
+        "legacy C++ API",
+        "H3API.hpp",
+        "Heroes III 3.2",
+        "x86"
+      ],
+      "questions": [
+        "What is the legacy H3API library?",
+        "How was H3API included in a C++ project?",
+        "Why should new ERA plugins prefer NH3API?"
+      ],
+      "sourceRefs": [
+        "h3api:readme"
       ]
     },
     {
@@ -28727,17 +28755,19 @@
         ".era",
         ".dll",
         "native modding",
-        "NH3API"
+        "NH3API",
+        "H3API"
       ],
       "questions": [
         "What is an ERA plugin?",
         "Where does ERA load plugins from?",
-        "When should I use the ERA API or NH3API?"
+        "When should I use the ERA API, NH3API, or legacy H3API?"
       ],
       "sourceRefs": [
         "era-source:plugin-loader",
         "era-source:era.pas",
-        "nh3api:readme"
+        "nh3api:readme",
+        "h3api:readme"
       ]
     },
     {
@@ -28800,6 +28830,32 @@
         "nh3api:cmake",
         "nh3api:era-header",
         "windows-api:dll-best-practices"
+      ]
+    },
+    {
+      "id": "plugins.h3api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "ru",
+      "slug": "h3api",
+      "url": "/ru/plugins/h3api/",
+      "title": "H3API",
+      "summary": "Устаревшая C++-библиотека описаний Heroes III 3.2: назначение, варианты подключения и путь перехода на NH3API.",
+      "keywords": [
+        "H3API",
+        "deprecated",
+        "legacy C++ API",
+        "H3API.hpp",
+        "Heroes III 3.2",
+        "x86"
+      ],
+      "questions": [
+        "What is the legacy H3API library?",
+        "How was H3API included in a C++ project?",
+        "Why should new ERA plugins prefer NH3API?"
+      ],
+      "sourceRefs": [
+        "h3api:readme"
       ]
     },
     {

@@ -98,16 +98,17 @@ for (const path of files.filter((path) => /\.(?:html|js|json|css|txt|md)$/.test(
 assert.ok(existsSync(join(build, 'pagefind/pagefind.js')), 'Pagefind output exists');
 assert.ok(existsSync(join(build, 'icon.png')), 'Brand image is included');
 const fragments = files.filter((path) => path.endsWith('.pf_fragment'));
-assert.equal(fragments.length, manifest.entities.length, 'Pagefind covers every localized article');
+const searchableEntities = manifest.entities.filter((entry) => entry.slug !== 'llm-map');
+assert.equal(fragments.length, searchableEntities.length, 'Pagefind covers every searchable localized article');
 for (const path of fragments) {
   const compressed = readFileSync(path);
   const raw = compressed.subarray(0, 12).toString().startsWith('pagefind_dcd') ? compressed : gunzipSync(compressed);
   const fragment = JSON.parse(raw.subarray(12).toString());
-  assert.ok(manifest.entities.some((entry) => entry.id === fragment.meta.pageId && entry.locale === fragment.meta.locale), `Pagefind has usable entity metadata: ${path}`);
+  assert.ok(searchableEntities.some((entry) => entry.id === fragment.meta.pageId && entry.locale === fragment.meta.locale), `Pagefind has usable entity metadata: ${path}`);
   assert.ok(['docs', 'erm', 'plugins'].includes(fragment.meta.topSection));
 }
 
-const report = { articles: manifest.entities.length / 2, localizedArticles: manifest.entities.length, htmlPages: htmlFiles.length, referenceFiles, symbols: symbols.length, checkedLinks, checkedAnchors, basePath: base, passed: true };
+const report = { articles: manifest.entities.length / 2, localizedArticles: manifest.entities.length, searchableLocalizedArticles: searchableEntities.length, htmlPages: htmlFiles.length, referenceFiles, symbols: symbols.length, checkedLinks, checkedAnchors, basePath: base, passed: true };
 mkdirSync(join(root, 'reports'), { recursive: true });
 writeFileSync(join(root, 'reports/build-validation.json'), `${JSON.stringify(report, null, 2)}\n`);
 console.log(`Validated ${report.localizedArticles} localized articles, ${checkedLinks} links, and ${checkedAnchors} anchors (base: ${base || '/'}).`);

@@ -1,7 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import AppShell from '$lib/components/AppShell.svelte';
-  import LanguageMenu from '$lib/components/LanguageMenu.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
   import { translator, type Locale } from '$lib/i18n';
   import type { PageData } from './$types';
@@ -40,7 +39,6 @@
       <p class="eyebrow">{t('home.eyebrow')}</p>
       <h1>{t('home.title')}</h1>
       <p class="hero-copy">{t('home.intro')}</p>
-      <LanguageMenu lang={data.lang} variant="hero" />
     </header>
 
     <section class="info-banner">

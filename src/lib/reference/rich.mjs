@@ -31,6 +31,14 @@ export function highlightErm(code) {
     (token, string, command, comment) => `<span class="erm-syntax-${string ? 'string' : comment ? 'comment' : command ? command.startsWith('!?') ? 'trigger' : command.startsWith('!#') ? 'instruction' : 'receiver' : 'variable'}">${token}</span>`);
 }
 
+/** Add invisible wrap opportunities before slash-separated ERM parameters. @param {string} html */
+function addCommandWrapOpportunities(html) {
+  return html.replace(/>([^<]+)</g, (whole, text) => {
+    if ((text.match(/\/[#$?]/g) ?? []).length < 3) return whole;
+    return `>${text.replace(/(?=\/[#$?])/g, '<wbr>')}<`;
+  });
+}
+
 /** Validate the inert subset before rendering authored reference HTML. @param {string} html */
 export function renderReference(html) {
   const cleaned = html.replace(/<\/?([a-z][a-z0-9]*)([^>]*)>/gi, (full, name, rawAttributes) => {
@@ -53,5 +61,6 @@ export function renderReference(html) {
     '<details class="erm-index-disclosure"><summary><span>$1</span></summary><pre>$2\n</pre></details>'
   );
   const disclosures = indexDisclosure.replace(/<details class="erm-comment"><summary>((?:(?!erm-toggle-label)[\s\S])*?)<\/summary>/g, '<details class="erm-comment erm-inline-comment"><summary>$1</summary>');
-  return disclosures.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
+  const highlighted = disclosures.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
+  return addCommandWrapOpportunities(highlighted);
 }

@@ -41,12 +41,17 @@
   let searchQuery = '';
   let searchScope: 'everywhere' | 'section' | 'page' = 'everywhere';
   $: if (searchScope === 'page' && !activeSlug) searchScope = 'everywhere';
-  afterNavigate(() => { searchOpen = false; menuOpen = false; });
+  afterNavigate(({ type, to }) => {
+    searchOpen = false;
+    menuOpen = false;
+    if (type === 'link' && !to?.url.hash) siteScroller?.scrollTo(0, 0);
+  });
   let referencePane: ContextReference;
   let referenceExpanded = false;
   let collapsedGroups: string[] = [];
   let navigationReady = false;
   let sidebarScroller: HTMLDivElement;
+  let siteScroller: HTMLDivElement;
 
   function savePreferences() {
     try {
@@ -129,6 +134,7 @@
     if (activeSection !== 'erm' || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     const target = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('.content-column .article-body a') : null;
     if (!target || target.target === '_blank') return;
+    if (target.classList.contains('heading-anchor')) return;
     const url = new URL(target.href, window.location.href);
     const prefix = `${base}/${lang}/erm/`;
     if (url.origin !== window.location.origin || !url.pathname.startsWith(prefix)) return;
@@ -173,6 +179,48 @@
       return (direction === 'ascending' ? compared : -compared) || left.index - right.index;
     });
     rows.forEach(({ row }) => body.append(row));
+  }
+
+  function fallbackCopy(value: string) {
+    const field = document.createElement('textarea');
+    field.value = value;
+    field.setAttribute('readonly', '');
+    field.style.position = 'fixed';
+    field.style.opacity = '0';
+    document.body.append(field);
+    field.select();
+    const copied = document.execCommand('copy');
+    field.remove();
+    return copied;
+  }
+
+  async function copyText(value: string) {
+    try {
+      await navigator.clipboard.writeText(value);
+      return true;
+    } catch {
+      return fallbackCopy(value);
+    }
+  }
+
+  async function handleCopy(event: MouseEvent) {
+    if (!(event.target instanceof Element)) return;
+    const button = event.target.closest<HTMLElement>('.code-copy, .heading-anchor');
+    if (!button) return;
+    event.preventDefault();
+    event.stopPropagation();
+    const code = button.classList.contains('code-copy')
+      ? button.closest('.code-block')?.querySelector('pre > code')?.textContent ?? ''
+      : (button as HTMLAnchorElement).href;
+    if (!code || !await copyText(code)) return;
+    const originalLabel = button.getAttribute('aria-label') ?? button.title;
+    const copiedLabel = t('code.copied');
+    button.setAttribute('aria-label', copiedLabel);
+    button.title = copiedLabel;
+    window.setTimeout(() => {
+      button.setAttribute('aria-label', originalLabel);
+      button.title = originalLabel;
+    }, 1400);
   }
 
   function resetSettings() {
@@ -221,6 +269,7 @@
     });
     window.addEventListener('keydown', handleKeyboard);
     document.addEventListener('pointerdown', handleOutsideSearch, true);
+    document.addEventListener('click', handleCopy, true);
     document.addEventListener('click', handleReferenceClick, true);
     document.addEventListener('click', sortReferenceTable);
     document.addEventListener('input', convertRadix);
@@ -228,6 +277,7 @@
       cancelAnimationFrame(readyFrame);
       window.removeEventListener('keydown', handleKeyboard);
       document.removeEventListener('pointerdown', handleOutsideSearch, true);
+      document.removeEventListener('click', handleCopy, true);
       document.removeEventListener('click', handleReferenceClick, true);
       document.removeEventListener('click', sortReferenceTable);
       document.removeEventListener('input', convertRadix);
@@ -290,7 +340,7 @@
   <button class="drawer-scrim" type="button" aria-label={t('nav.closeMenu')} on:click={() => (menuOpen = false)}></button>
 {/if}
 
-<div class="site-grid" class:erm-grid={activeSection === 'erm'}>
+<div bind:this={siteScroller} class="site-grid" class:erm-grid={activeSection === 'erm'}>
   <aside class:open={menuOpen} class="sidebar" aria-label={t(activeSection === 'erm' ? 'nav.ermScripts' : activeSection === 'plugins' ? 'nav.plugins' : 'nav.documentation')}>
     <div class="sidebar-scroll" bind:this={sidebarScroller}>
       <div class="mobile-primary-controls">

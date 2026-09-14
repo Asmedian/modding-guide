@@ -1,6 +1,6 @@
 import type { SymbolEntry } from '$lib/search/symbols';
 import { addImageDimensions } from '$lib/server/image-dimensions';
-import { renderReference, highlightErm } from '$lib/reference/rich.mjs';
+import { renderReference, highlightErm, decodeReferenceText } from '$lib/reference/rich.mjs';
 import { prepareArticleMarkdown } from '$lib/content/publication.mjs';
 
 export type ContentSection = 'docs' | 'erm' | 'plugins';
@@ -658,7 +658,10 @@ function battlefieldImages(lang: 'ru' | 'en') {
 function applyReferenceCorrections(html: string, slug: string, lang: 'ru' | 'en') {
   let result = html.replace(/<img\b[^>]*7176e1b1eafc3a84\.png[^>]*\/?\s*>/gi, battlefieldImages(lang));
   if (slug === 'tables/object-control-words') {
-    result = result.replace(/>VR:&amp;amp<\/a>/g, '>VR:&amp;</a>').replace(/>VR:\|<\/a>/g, '>VR:<u>|</u></a>');
+    result = result
+      .replace(/>VR:&amp;amp<\/a>/g, '>VR:&amp;</a>')
+      .replace(/>VR:\|<\/a>/g, '>VR:<u>|</u></a>')
+      .replace(/\sstyle="background-color:#60b0b0"/gi, '');
   }
   if (slug === 'receivers/if') {
     result = result
@@ -680,6 +683,55 @@ function applyReferenceCorrections(html: string, slug: string, lang: 'ru' | 'en'
       );
   }
   return result;
+}
+
+function codeLanguage(attributes: string, code: string) {
+  const declared = attributes.match(/\blanguage-([a-z0-9+#-]+)/i)?.[1]?.toLowerCase();
+  const labels: Record<string, string> = {
+    'c++': 'C++', cpp: 'C++', cxx: 'C++', c: 'C',
+    cs: 'C#', csharp: 'C#',
+    erm: 'ERM', json: 'JSON', jsonc: 'JSONC',
+    js: 'JavaScript', javascript: 'JavaScript',
+    ts: 'TypeScript', typescript: 'TypeScript',
+    cmake: 'CMake', ini: 'INI', xml: 'XML', html: 'HTML', css: 'CSS',
+    ps1: 'PowerShell', powershell: 'PowerShell', sh: 'Shell', bash: 'Shell',
+    text: 'Text', txt: 'Text', plaintext: 'Text'
+  };
+  if (declared) return labels[declared] ?? declared.toUpperCase();
+  const plain = decodeReferenceText(code.replace(/<[^>]+>/g, ''));
+  if (/(?:!\?|!!|!#)[A-Za-z]{2}/.test(plain)) return 'ERM';
+  if (/^\s*[\[{]/.test(plain)) return 'JSON';
+  if (/#include\s*[<"]|\b(?:std::|class|struct)\b/.test(plain)) return 'C++';
+  return 'Text';
+}
+
+function decorateCodeBlocks(html: string, lang: 'ru' | 'en') {
+  const copyLabel = lang === 'ru' ? 'Копировать' : 'Copy';
+  return html.replace(/(<pre\b[^>]*>)\s*(<code\b([^>]*)>)([\s\S]*?)(<\/code>\s*<\/pre>)/gi, (block, pre, codeOpen, attributes, code, close) => {
+    const normalizedCode = code.endsWith('\n') ? code.slice(0, -1) : code;
+    const lineCount = normalizedCode.split('\n').length;
+    const lineNumbers = Array.from({ length: lineCount }, (_, index) => `<span>${index + 1}</span>`).join('');
+    const language = codeLanguage(attributes, code);
+    return `<div class="code-block"><div class="code-toolbar" data-pagefind-ignore><span class="code-language">${escapeHtml(language)}</span><button class="code-copy" type="button" aria-label="${copyLabel}" title="${copyLabel}">${copyLabel}</button></div><div class="code-frame"><span class="code-line-numbers" aria-hidden="true" data-pagefind-ignore>${lineNumbers}</span>${pre}${codeOpen}${code}${close}</div></div>`;
+  });
+}
+
+function headingAnchor(id: string, lang: 'ru' | 'en') {
+  const label = lang === 'ru' ? 'Скопировать ссылку на раздел' : 'Copy link to section';
+  return `<a class="heading-anchor" href="#${escapeHtml(id)}" aria-label="${label}" title="${label}" data-pagefind-ignore><span aria-hidden="true"></span></a>`;
+}
+
+function decorateHeadings(html: string, lang: 'ru' | 'en') {
+  let result = html.replace(/<h([23])([^>]*\bid="([^"]+)"[^>]*)>/gi, (heading, _level, _attributes, id) => `${heading}${headingAnchor(id, lang)}`);
+  result = result.replace(/<h([23])([^>]*)>(\s*<span class="erm-anchor" id="([^"]+)"><\/span>)/gi, (heading, level, attributes, anchor, id) => {
+    if (/\bid=/i.test(attributes)) return heading;
+    return `<h${level}${attributes}>${anchor}${headingAnchor(id, lang)}`;
+  });
+  return result;
+}
+
+function decorateArticleHtml(html: string, lang: 'ru' | 'en') {
+  return decorateHeadings(decorateCodeBlocks(html, lang), lang);
 }
 
 function directoryKey(path: string) {
@@ -746,6 +798,7 @@ async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'r
     ? applyReferenceCorrections(makeNativeTablesSortable(prefixTableHexValues(consolidated.html)), meta.slug, lang)
     : consolidated.html;
   const articleUrl = `/${lang}/${section}/${meta.slug ? `${meta.slug}/` : ''}`;
+  const decoratedHtml = decorateArticleHtml(finalHtml, lang);
   const publishedMeta = { ...meta } as ArticleMeta & { sectionSources?: Record<string, string[]> };
   delete publishedMeta.sectionSources;
   const article: Article = {
@@ -753,7 +806,7 @@ async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'r
     lang,
     title: frontmatter.title,
     summary: frontmatter.summary,
-    bodyHtml: addImageDimensions(finalHtml, articleUrl),
+    bodyHtml: addImageDimensions(decoratedHtml, articleUrl),
     sections: rendered.sections.filter((item) =>
       !consolidated.removedSections.includes(item.id) &&
       !unifiedTable.removedSections.includes(item.id) &&

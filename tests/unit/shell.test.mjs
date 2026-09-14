@@ -87,14 +87,14 @@ test('article sources are a collapsed disclosure that expands below its toggle',
   assert.match(components, /\.source-panel\s*\{[^}]*flex-direction:\s*column[;}]/);
 });
 
-test('sidebar groups use themed cards, semantic icons, and a centered SVG disclosure chevron', () => {
+test('sidebar groups use the shared soft surface, semantic icons, and a centered SVG disclosure chevron', () => {
   const components = readFileSync(join(root, 'src/styles/components.css'), 'utf8');
   const base = readFileSync(join(root, 'src/styles/base.css'), 'utf8');
   const icons = readFileSync(join(root, 'static/assets/ui/icons.svg'), 'utf8');
   assert.match(shell, /<details class="nav-group" data-group=\{group\.id\}/);
   assert.match(shell, /<UiIcon name=\{`sidebar-\$\{group\.id\}`\} \/>/);
   assert.match(shell, /<UiIcon name="chevron" \/>/);
-  assert.match(components, /\.nav-group\s*\{[^}]*background:\s*var\(--nav-card\)/);
+  assert.match(components, /\.nav-group\s*\{[^}]*background:\s*var\(--surface-soft\)/);
   assert.match(components, /\.disclosure-chevron\s*\{[^}]*width:\s*1\.25rem[^}]*height:\s*1\.25rem/);
   assert.match(components, /\.disclosure-chevron svg\s*\{[^}]*transform-origin:\s*50% 50%/);
   for (const group of ['start', 'era', 'resources', 'tools', 'reference', 'llm', 'erm-basics', 'erm-reference', 'erm-framework', 'erm-practice', 'plugin-development', 'nh3api']) {

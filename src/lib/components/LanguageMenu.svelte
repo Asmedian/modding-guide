@@ -1,11 +1,11 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { base } from '$app/paths';
   import { page } from '$app/stores';
   import type { Locale } from '$lib/i18n';
   import UiIcon from '$lib/components/UiIcon.svelte';
 
   export let lang: Locale;
-  export let variant: 'header' | 'hero' = 'header';
   let menu: HTMLDetailsElement;
 
   $: currentPath = $page.url.pathname;
@@ -23,9 +23,17 @@
       // Language selection still works when localStorage is unavailable.
     }
   }
+
+  onMount(() => {
+    function closeOutside(event: PointerEvent) {
+      if (menu.open && event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+    }
+    document.addEventListener('pointerdown', closeOutside, true);
+    return () => document.removeEventListener('pointerdown', closeOutside, true);
+  });
 </script>
 
-<details bind:this={menu} class:hero-language={variant === 'hero'} class:language-menu={variant === 'header'}>
+<details bind:this={menu} class="language-menu">
   <summary aria-label={lang === 'ru' ? 'Выбрать язык' : 'Choose language'}>
     <UiIcon name="globe" />
     <span>{lang.toUpperCase()}</span>

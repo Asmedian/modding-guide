@@ -1,4 +1,4 @@
-.erm-reference { --erm-red: #ee9a90; --erm-purple: #cda7ed; --erm-green: #97be88; --erm-blue: #a3c8ee; color: var(--text-muted); line-height: 1.65; }
+.erm-reference { min-width: 0; --erm-red: #ee9a90; --erm-purple: #cda7ed; --erm-green: #97be88; --erm-blue: #a3c8ee; color: var(--text-muted); line-height: 1.65; overflow-wrap: anywhere; word-break: normal; }
 [data-theme="light"] .erm-reference { --erm-red: #9b2920; --erm-purple: #753a97; --erm-green: #38602c; --erm-blue: #235c90; }
 .erm-reference .erm-paragraph { margin: .85rem 0; }
 .erm-reference .erm-paragraph:empty { display: none; }
@@ -79,6 +79,8 @@
 .erm-reference .erm-legacy-code-line td:first-child { color: var(--gold); }
 .erm-reference pre { font-family: var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; tab-size: 4; }
 .erm-reference pre.erm-example { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; word-break: normal; }
+.erm-reference .code-block pre.erm-example { white-space: pre; overflow-wrap: normal; }
+.erm-reference #ref-cont-adv-t0 + ul { margin-left: 1.5rem; }
 .erm-reference .erm-anchor { scroll-margin-top: 170px; }
 .erm-reference .erm-color-beige { color: #f5f5dc; }
 .erm-reference .erm-color-gold { color: #ffd700; }

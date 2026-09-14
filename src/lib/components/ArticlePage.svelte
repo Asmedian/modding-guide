@@ -42,7 +42,7 @@
 </svelte:head>
 
 <AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')} {ermAlphabet} {ermReceivers} {ermTriggers}>
-  <article class="docs-article" lang={lang} data-pagefind-body data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
+  <article class="docs-article" lang={lang} data-pagefind-body={article.slug === 'llm-map' ? undefined : true} data-pagefind-ignore={article.slug === 'llm-map' ? true : undefined} data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
     <div class="article-ornament" aria-hidden="true"><span></span><UiIcon name="ornament" /><span></span></div>
     <header class="article-header">
       <h1 data-pagefind-meta="title">{article.title}</h1>
@@ -103,3 +103,20 @@
     </nav>
   </article>
 </AppShell>
+
+<style>
+  :global(.heading-anchor) { display: inline-flex; align-items: center; justify-content: center; width: 1em; height: 1em; margin-right: .38rem; padding: 0; border: 0; color: var(--text-subtle); background: transparent; text-decoration: none !important; vertical-align: -.08em; opacity: .68; cursor: pointer; }
+  :global(.heading-anchor:hover),
+  :global(.heading-anchor:focus-visible) { color: var(--gold); opacity: 1; }
+  :global(.heading-anchor > span) { --icon-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M10.6 13.4a4 4 0 0 0 5.7 0l2.1-2.1a4 4 0 0 0-5.7-5.7l-1.2 1.2m1.9 3.8a4 4 0 0 0-5.7 0l-2.1 2.1a4 4 0 0 0 5.7 5.7l1.2-1.2'/%3E%3C/svg%3E"); display: block; width: 100%; height: 100%; background: currentColor; -webkit-mask: var(--icon-mask) center / contain no-repeat; mask: var(--icon-mask) center / contain no-repeat; }
+  :global(.code-block) { min-width: 0; overflow: hidden; margin: var(--space-5) 0; border: 1px solid var(--border); border-left: 3px solid var(--gold-soft); border-radius: var(--radius-md); background: var(--code-background, var(--bg-deep)); }
+  :global(.code-toolbar) { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 2.25rem; padding: .35rem .55rem .35rem .8rem; border-bottom: 1px solid var(--border); background: var(--surface-soft); }
+  :global(.code-language) { color: var(--gold-soft); font: 700 .68rem/1 var(--font-body); letter-spacing: .09em; text-transform: uppercase; }
+  :global(.code-copy) { min-height: 1.65rem; padding: .18rem .55rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-muted); background: var(--surface-raised); cursor: pointer; font: 650 .72rem/1 var(--font-body); }
+  :global(.code-copy:hover),
+  :global(.code-copy:focus-visible) { color: var(--gold); border-color: var(--border-strong); }
+  :global(.code-frame) { --code-line-height: 1.364rem; display: grid; grid-template-columns: auto minmax(0, 1fr); min-width: 0; }
+  :global(.code-line-numbers) { display: flex; flex-direction: column; padding: var(--space-5) .6rem; border-right: 1px solid var(--border); color: var(--text-subtle); background: rgba(0, 0, 0, .08); font: .68rem/var(--code-line-height) var(--font-mono); text-align: right; user-select: none; }
+  :global(.code-frame > pre) { min-width: 0; margin: 0; padding: var(--space-5); border: 0; border-radius: 0; background: transparent; font-size: .88rem; line-height: var(--code-line-height); }
+  :global(.code-frame > pre > code) { display: block; min-width: max-content; line-height: inherit; }
+</style>

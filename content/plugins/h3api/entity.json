@@ -1,0 +1,14 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "plugins.h3api",
+  "kind": "article",
+  "section": "plugins",
+  "slug": "h3api",
+  "status": "published",
+  "sourceRefs": ["h3api:readme"],
+  "keywords": ["H3API", "deprecated", "legacy C++ API", "H3API.hpp", "Heroes III 3.2", "x86"],
+  "questions": ["What is the legacy H3API library?", "How was H3API included in a C++ project?", "Why should new ERA plugins prefer NH3API?"],
+  "previous": "nh3api",
+  "next": null
+}

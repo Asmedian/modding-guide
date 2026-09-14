@@ -19,6 +19,9 @@ export function prepareArticleMarkdown(markdown, section, slug) {
   } else {
     result = result.replace(/\n?<!-- ERA3-GENERATED:START -->[\s\S]*?<!-- ERA3-GENERATED:END -->/gi, '');
   }
+  if (slug === 'syntax') {
+    result = result.replace(/^## Cont\/ingener\.htm \{#ref-cont-ingener\}[\s\S]*?(?=^## (?:Ресиверы: общее|Receivers: General) \{#ref-cont-receiversol\})/m, '');
+  }
   result = result.replace(/<a href="(?:\.\.\/)*#ref-cont-wogteam"[^>]*>([\s\S]*?)<\/a>/gi, '$1');
   return result;
 }
