@@ -67,7 +67,7 @@ test('the background fills the middle column; only its inner content has a width
   const columnRules = [...layout.matchAll(/\.content-column\s*\{([^}]+)\}/g)];
   assert.ok(columnRules.length > 0);
   for (const [, rule] of columnRules) assert.doesNotMatch(rule, /max-width|margin|padding/);
-  assert.match(columnRules[0][1], /background:\s*var\(--content-background,\s*linear-gradient/);
+  assert.match(columnRules[0][1], /background:\s*var\(--content-background,\s*var\(--content-bg\)\)/);
   assert.match(layout, /\.content-inner\s*\{[^}]*max-width:/);
 });
 

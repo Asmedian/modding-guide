@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import test from 'node:test';
 import { prepareContextHtml } from '../../src/lib/reference/context.mjs';
@@ -82,4 +82,30 @@ test('prerendered local images keep intrinsic dimensions and the build enforces 
   assert.match(dimensions, /jpegSizeMarkers/);
   assert.match(verifier, /Image is missing intrinsic width/);
   assert.match(verifier, /Image is missing intrinsic height/);
+});
+
+test('runtime styles use a compact alpha PNG instead of CSS gradients', () => {
+  const sourceFiles = [];
+  const walk = (directory) => {
+    for (const entry of readdirSync(directory, { withFileTypes: true })) {
+      const path = join(directory, entry.name);
+      if (entry.isDirectory()) walk(path);
+      else if (/\.(?:css|html|svelte)$/.test(entry.name)) sourceFiles.push(path);
+    }
+  };
+  walk(join(root, 'src'));
+  for (const file of sourceFiles) {
+    assert.doesNotMatch(readFileSync(file, 'utf8'), /\b(?:repeating-)?(?:linear|radial|conic)-gradient\(/i, file);
+  }
+
+  const template = readFileSync(join(root, 'src/app.html'), 'utf8');
+  assert.match(template, /--paper-grain:url\('%sveltekit\.assets%\/assets\/site\/paper-grain\.png'\) 0 0\/64px 64px repeat/);
+
+  const texturePath = join(root, 'static/assets/site/paper-grain.png');
+  const texture = readFileSync(texturePath);
+  assert.deepEqual([...texture.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+  assert.equal(texture.readUInt32BE(16), 64);
+  assert.equal(texture.readUInt32BE(20), 64);
+  assert.equal(texture[25], 6, 'Paper grain PNG must retain an RGBA alpha channel');
+  assert.ok(statSync(texturePath).size <= 2048, 'Paper grain PNG must stay at or below 2 KiB');
 });

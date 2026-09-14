@@ -364,7 +364,7 @@
       </div>
       <div
         class="motto-card"
-        style={`--motto-image: url('${base}/assets/site/era-phoenix-${theme}.png'); --motto-overlay: ${theme === 'light' ? 'linear-gradient(rgba(255,248,230,.08),rgba(255,248,230,.32))' : 'linear-gradient(rgba(3,10,16,.3),rgba(3,10,16,.7))'}; --motto-color: ${theme === 'light' ? '#4a2606' : 'var(--gold)'}; --motto-text: ${theme === 'light' ? '#24140a' : '#f5ead7'}; --motto-shadow: ${theme === 'light' ? '0 1px 2px #808080' : '0 1px 3px #000'}`}
+        style={`--motto-image: url('${base}/assets/site/era-phoenix-${theme}.png'); --motto-overlay-color: ${theme === 'light' ? 'rgba(255,248,230,.2)' : 'rgba(3,10,16,.5)'}; --motto-color: ${theme === 'light' ? '#4a2606' : 'var(--gold)'}; --motto-text: ${theme === 'light' ? '#24140a' : '#f5ead7'}; --motto-shadow: ${theme === 'light' ? '0 1px 2px #808080' : '0 1px 3px #000'}`}
       >
         <UiIcon name="diamond" />
         <p>{t('home.built')}</p>

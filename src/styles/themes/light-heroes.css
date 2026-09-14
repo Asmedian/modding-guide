@@ -22,60 +22,26 @@
   --danger: #8f2424;
   --shadow-soft: 0 16px 40px rgba(74, 47, 22, 0.18);
 
-  /* Two offset dot fields and faint fibres make a non-repeating-looking
-     paper grain without loading a texture image. */
-  --paper-grain:
-    radial-gradient(circle at 1px 1px, rgba(80, 48, 19, 0.055) 0 0.45px, transparent 0.7px) 0 0 / 4px 4px,
-    radial-gradient(circle at 2px 2px, rgba(255, 252, 240, 0.14) 0 0.4px, transparent 0.72px) 0 0 / 7px 6px,
-    repeating-linear-gradient(12deg, transparent 0 6px, rgba(99, 64, 29, 0.014) 6px 7px, transparent 7px 14px);
-  --body-background:
-    var(--paper-grain),
-    radial-gradient(ellipse at 50% 0, rgba(112, 73, 34, 0.18), transparent 68%),
-    linear-gradient(90deg, #b9a17c, #cab28d 50%, #b9a17c);
-  --site-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #d9c3a0, #cdb38a);
-  --header-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #dfcdaf, #d8c09e);
-  --sidebar-background:
-    var(--paper-grain),
-    radial-gradient(ellipse at 25% 10%, rgba(255, 245, 221, 0.12), transparent 36%),
-    linear-gradient(180deg, #d3bd9b, #c7ad85);
-  --context-background:
-    var(--paper-grain),
-    radial-gradient(ellipse at 70% 30%, rgba(255, 246, 224, 0.11), transparent 38%),
-    linear-gradient(180deg, #d9c4a4, #ceb48e);
-  --content-background:
-    var(--paper-grain),
-    radial-gradient(ellipse at 14% 12%, rgba(115, 73, 31, 0.055), transparent 34%),
-    radial-gradient(ellipse at 84% 76%, rgba(169, 120, 56, 0.05), transparent 40%),
-    linear-gradient(180deg, #eadcc2, #dbc5a6);
-  --surface-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #ecdec5, #e4d2b4);
-  --control-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #efe3cd, #e5d3b6);
-  --control-key-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #fbf3e5, #f2e4cc);
-  --quick-links-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #eee1c9, #e7d5b9);
-  --quick-links-heading-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #dfcaab, #d6bd98);
-  --mobile-panel-background:
-    var(--paper-grain),
-    linear-gradient(180deg, #e4d1b2, #d3ba94);
+  /* The alpha PNG is decoded once and tiled over static parchment colors. */
+  --body-background: var(--paper-grain), #bda47f;
+  --site-background: var(--paper-grain), #d3bb95;
+  --header-background: var(--paper-grain), #dcc7a7;
+  --sidebar-background: var(--paper-grain), #cfb994;
+  --context-background: var(--paper-grain), #d4bc99;
+  --content-background: var(--paper-grain), #e2ceb0;
+  --surface-background: var(--paper-grain), #e8d8bd;
+  --control-background: var(--paper-grain), #eadbc2;
+  --control-key-background: var(--paper-grain), #f7ebd9;
+  --quick-links-background: var(--paper-grain), #eadbc1;
+  --quick-links-heading-background: var(--paper-grain), #dbc4a2;
+  --mobile-panel-background: var(--paper-grain), #dbc6a4;
+  --card-background: #e1cfb2;
+  --code-background: var(--paper-grain), #dbc4a2;
   --frame-shadow: 0 0 0 1px var(--border), 0 0 48px rgba(69, 43, 19, 0.22);
   --column-shadow: 0 0 28px rgba(81, 53, 26, 0.1);
   --heading-shadow: none;
   --dialog-shadow: 0 18px 48px rgba(71, 45, 20, 0.25);
-  --nav-card:
-    var(--paper-grain),
-    linear-gradient(145deg, rgba(235, 218, 188, 0.94), rgba(214, 190, 151, 0.91));
+  --nav-card: var(--paper-grain), #dfcba8;
   --nav-card-border: rgba(111, 76, 40, 0.35);
   --nav-card-divider: rgba(104, 75, 48, 0.28);
   --nav-icon: #885b25;
