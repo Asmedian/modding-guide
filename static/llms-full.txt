@@ -4,16 +4,15 @@
 - The ERA platform: /en/docs/era/ — ERA’s role between Heroes III, mods, resources, and extensions during game startup.
 - Mod compatibility and order: /en/docs/era/compatibility/ — Declare dependencies, priority, and conflicts without relying on accidental load order.
 - Creating your first mod: /en/docs/era/creating-mod/ — Move from an empty directory to an enabled mod with metadata, one resource, and a repeatable test.
-- Installation and workspace: /en/docs/era/installation/ — Prepare a reproducible ERA setup for development without losing a known-good state.
-- Mod structure: /en/docs/era/mod-structure/ — A practical map of Data and Lang directories, archives, and resource precedence.
+- Installing ERA: /en/docs/era/installation/ — Official installation, update, and removal steps for Heroes Launcher and manual setups.
+- Mod structure: /en/docs/era/mod-structure/ — What an ERA mod is and which directories, resources, and files it can contain.
 - Game architecture for mod authors: /en/docs/game/ — The smallest useful model of startup, virtual resources, and caching for diagnosing a content mod.
 - How ERA loads resources: /en/docs/game/resource-loading/ — A practical model of the VFS, archives, redirections, and caching for conflict diagnosis.
 - Resource formats: /en/docs/game/resources/ — A map of important game and ERA formats, their roles, and safe verification steps.
 - Glossary: /en/docs/glossary/ — Agreed Russian and English terminology for the general ERA documentation.
 - LLM content map: /en/docs/llm-map/ — A human-readable page index with links to compact machine-readable representations.
-- Quick Start: /en/docs/quick-start/ — A safe path from a working installation to the first verifiable mod resource.
+- Quick Start: /en/docs/quick-start/ — From an installed ERA game to the first working ERM script in your own mod.
 - Site structure: /en/docs/site-structure/ — How routes, locales, search, sources, and machine-readable representations fit together.
-- Modding tools: /en/docs/tools/ — Choose a program for the format, separate editing from validation, and use the legacy Tools bundle safely.
 - ERA tool catalog: /en/docs/tools/catalog/ — A verified inventory of the bundled Tools programs, grouped by task and risk level.
 - Troubleshooting: /en/docs/troubleshooting/ — A repeatable path from a clean startup to a precise report for a conflict or invalid resource.
 - What Is a Mod?: /en/docs/what-is-a-mod/ — What a Heroes III mod contains, how ERA loads its files, and why changes should remain separate from the original game.
@@ -509,7 +508,7 @@
 - Reading game resolution: /en/erm/un-c/screen-size/ — Reads width and height from the two-byte fields used by the legacy HD implementation.
 - Town building-cost tables: /en/erm/un-c/town-building-cost/ — Reads seven resource costs: common buildings 0..16, special buildings 17..25, dwellings 30..43.
 - Variables, strings and arrays: /en/erm/variables/ — Data types, scope, named variables, flags and array lifetimes.
-- ERA plugins: /en/plugins/ — A source-backed map of native ERA extensions: how they load, which API layers they use, and where binary compatibility becomes your responsibility.
+- ERA plugins: /en/plugins/ — Development, load order, and compatibility.
 - ERA plugin API: /en/plugins/era-api/ — A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.
 - Getting started with ERA plugins: /en/plugins/getting-started/ — Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.
 - H3API: /en/plugins/h3api/ — The deprecated Heroes III 3.2 C++ interface: its purpose, integration modes, and a migration path to NH3API.
@@ -518,16 +517,15 @@
 - Платформа ERA: /ru/docs/era/ — Роль ERA между Heroes III, модами, ресурсами и расширениями во время запуска игры.
 - Совместимость и порядок модов: /ru/docs/era/compatibility/ — Как описывать зависимости, приоритет и конфликты без случайного порядка загрузки.
 - Создание первого мода: /ru/docs/era/creating-mod/ — От пустого каталога до подключённого мода с метаданными, ресурсом и воспроизводимой проверкой.
-- Установка и рабочая среда: /ru/docs/era/installation/ — Как подготовить воспроизводимую ERA-установку для разработки и не потерять рабочее состояние.
-- Структура мода: /ru/docs/era/mod-structure/ — Практическая карта каталогов Data и Lang, архивов и правил приоритета ресурсов.
+- Установка ERA: /ru/docs/era/installation/ — Официальные способы установки, обновления и удаления ERA через Heroes Launcher и вручную.
+- Структура мода: /ru/docs/era/mod-structure/ — Что такое мод ERA и какие каталоги, ресурсы и файлы он может содержать.
 - Устройство игры для автора мода: /ru/docs/game/ — Минимальная модель запуска, виртуальных ресурсов и кэша, достаточная для диагностики контентного мода.
 - Как ERA загружает ресурсы: /ru/docs/game/resource-loading/ — Практическая модель VFS, архивов, перенаправлений и кэша для поиска конфликтов.
 - Форматы ресурсов: /ru/docs/game/resources/ — Карта основных игровых и ERA-форматов, их назначения и безопасной проверки.
 - Глоссарий: /ru/docs/glossary/ — Согласованные термины общей документации ERA на русском и английском.
 - Карта материалов для LLM: /ru/docs/llm-map/ — Человекочитаемый указатель страниц и ссылки на компактные машинные представления.
-- Быстрый старт: /ru/docs/quick-start/ — Безопасная последовательность от рабочей копии игры до первого проверенного ресурса мода.
+- Быстрый старт: /ru/docs/quick-start/ — От установленной ERA до первого работающего ERM-скрипта в собственном моде.
 - Структура сайта: /ru/docs/site-structure/ — Как устроены маршруты, локали, поиск, источники и машинные представления документации.
-- Инструменты моддера: /ru/docs/tools/ — Как выбрать программу под формат, отделить редактирование от проверки и безопасно работать со старым комплектом Tools.
 - Каталог инструментов ERA: /ru/docs/tools/catalog/ — Проверенный список программ из комплекта Tools, сгруппированный по задаче и уровню риска.
 - Диагностика проблем: /ru/docs/troubleshooting/ — Повторяемая схема от чистого запуска до точного отчёта о конфликте или неверном ресурсе.
 - Что такое мод: /ru/docs/what-is-a-mod/ — Из чего состоит мод Heroes III, как ERA подключает его файлы и почему изменения следует хранить отдельно от оригинальной игры.
@@ -1023,7 +1021,7 @@
 - Чтение разрешения игры: /ru/erm/un-c/screen-size/ — Читает ширину и высоту в двухбайтных полях, используемых старой реализацией HD.
 - Таблицы стоимости зданий: /ru/erm/un-c/town-building-cost/ — Чтение семи ресурсов стоимости: обычные здания 0..16, специальные 17..25, жилища 30..43.
 - Переменные, строки и массивы: /ru/erm/variables/ — Типы данных, область действия, именованные переменные, флаги и время жизни массивов.
-- Плагины ERA: /ru/plugins/ — Проверенная по исходникам карта нативных расширений ERA: порядок загрузки, уровни API и границы бинарной совместимости.
+- Плагины ERA: /ru/plugins/ — Разработка, порядок загрузки, совместимости.
 - API плагинов ERA: /ru/plugins/era-api/ — Практическая карта экспортируемых служб ERA: события, локализация, ERM, сохранения, ресурсы, диагностика и управляемые патчи.
 - Начало работы с плагинами ERA: /ru/plugins/getting-started/ — Сборка минимального 32-битного модуля `.era` на C++17 с CMake и NH3API, его установка и диагностика с явными границами совместимости.
 - H3API: /ru/plugins/h3api/ — Устаревшая C++-библиотека описаний Heroes III 3.2: назначение, варианты подключения и путь перехода на NH3API.

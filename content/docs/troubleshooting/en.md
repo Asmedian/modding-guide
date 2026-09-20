@@ -16,21 +16,23 @@ Compare the exact path, size, modification time, and checksum as well as the scr
 
 ## Classify the failure {#classify}
 
-1. **The file was not selected.** Check its name, path, enabled state, priority, and redirections.
-2. **The file was selected but cannot be decoded.** Check format, encoding, dimensions, entry counts, and loader-specific constraints.
-3. **The file was decoded but the effect stayed stale.** Exclude cache and already-created game objects with a full restart.
-4. **The failure depends on another mod.** Find the shared path and test both orders.
-5. **The crash happens before the menu.** Compare logs and revert the last independent change.
+| Error | Description | Example |
+| --- | --- | --- |
+| ERM script error | The game reports the exact file and line containing the error. Correct the syntax indicated by the message. | ![ERA dialog identifying an ERM error and line number](../../../assets/diagnostics/screen-2.png) |
+| Missing resource | The game reports the type and name of a resource it could not load. Check the filename requested by the script and that the resource exists in your mod archives. | ![ResourceManager cannot find a DEF resource](../../../assets/diagnostics/screen-1.png) |
+| No visible change after an edit | Press `F12` to reload text and scripts during the game. Restart the game for other changes. | The old resource still appears after editing it. |
+| Text displays incorrectly | For JSON, check file validity and whether the key used by the code exists in the file. | ![A localization key appears instead of its text in game](../../../assets/diagnostics/screen-3.png) |
+| Game crashes on startup | A replacement text resource may be damaged: check the number of rows and their terminating characters. An invalid plugin or patch inside the mod is another possibility. | The game closes during startup. |
+| Game closes without a notice | A possible stack overflow can result from a function recursively calling itself until the client closes immediately. Check the call chain. | The client exits without an error dialog. |
 
 ## Use the matching tool {#tools}
 
-For archives, make a trial export and re-import with MMArchive. Inspect a DEF in Def Preview before validating the build in Heroes3 Def Tool. Edit tables with Txt Tables Editor or Object TXT Files Editor only after preserving the source encoding and structure. `VfsTest.exe` is present as a separate utility in the installed bundle; verify its exact compatibility with your build on a copy of the game.
+For archives, make a trial export and re-import with MMArchive. Inspect a DEF in Def Preview before validating the build in Heroes3 Def Tool. Edit tables with Txt Tables Editor or Object TXT Files Editor only after preserving the source encoding and structure.
 
 A tool does not replace a controlled game scenario. Successfully opening a file proves only that this one program could read it.
 
 ## Write a useful report {#report}
 
-Include versions, mod list and order, the exact changed path, expected and actual behavior, minimal steps, and the relevant log excerpt. Share a checksum or a small original test file rather than the whole game or a third-party distribution. For a binary patch, always name the EXE version and application method.
+Include versions, mod list and order, the exact changed path, expected and actual behavior, minimal steps, and the relevant log excerpt.
 
 A good report lets another person reproduce the fault without guessing and test one claim per run.
-

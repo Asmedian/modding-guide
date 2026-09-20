@@ -2,7 +2,7 @@
 
 URL: /en/plugins/
 
-A source-backed map of native ERA extensions: how they load, which API layers they use, and where binary compatibility becomes your responsibility.
+Development, load order, and compatibility.
 
 ## What a plugin changes {#role}
 
@@ -20,7 +20,7 @@ Do not place both `Name.era` and `Name.dll` in the directory. ERA checks for the
 
 | Layer | Responsibility |
 | --- | --- |
-| Plugin artifact | A 32-bit native module placed under `EraPlugins`, normally with the `.era` extension |
+| Plugin | A 32-bit native module placed under `EraPlugins`, normally with the `.era` extension |
 | ERA API | Events, localization, ERM integration, savegame sections, resource redirection, diagnostics, and managed patch operations |
 | Patcher x86 | Named patch ownership, high- and low-level hooks, reversible patches, and patch diagnostics |
 | NH3API | C++17 declarations for game structures and functions, the patcher interface, and an optional ERA module |
@@ -37,7 +37,7 @@ The [getting-started guide](./getting-started/) builds a minimal `.era` module t
 
 ## Compatibility is part of the feature {#compatibility}
 
-A plugin should declare at least its supported ERA range, target game executable, required plugins or patches, and known conflicts. A build that works with one executable layout is not automatically compatible with another distribution, HD Mod version, or plugin set.
+It is recommended to state the minimum supported ERA version in plugin code, and the minimum HD Mod version if the plugin depends on it.
 
 Test from a separate game copy. Keep a baseline without the plugin, add one change at a time, and retain ERA's generated debug information with the exact plugin build. Never ask users to replace unrelated binaries just to hide a compatibility failure.
 
@@ -191,7 +191,7 @@ BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID)
 
 This verifies loading and event delivery; it is not a reason to begin patching addresses. Remove the dialog once the lifecycle is confirmed.
 
-## Deploy one artifact {#deploy}
+## Deploy one plugin {#deploy}
 
 Copy the release build to `EraPlugins/MyPlugin.era`. Make sure `MyPlugin.dll` with the same basename is absent: ERA rejects duplicate `.era` and `.dll` variants. Start the same short scenario once without the plugin and once with it.
 

@@ -27,7 +27,7 @@ Every published article links to the source registry. Current ERA source code ha
 
 ## Current scope {#scope}
 
-The general documentation section is published now. ERM scripting and plugin documentation are intentionally excluded and will be added as separate work streams without changing the site foundation.
+General documentation, the ERM reference, and the plugin development section are available. More material is added as sources are verified.
 
 ---
 
@@ -43,17 +43,9 @@ ERA extends the startup and runtime behavior of Heroes III. It initializes its o
 
 This does not mean every file can live anywhere. The resource name, supported format, directory, and load order still decide whether a replacement is found.
 
-## Lifecycle {#lifecycle}
-
-`GameExt.pas` records an internal sequence that includes early initialization, ERA settings, the virtual file system, extension loading, and events before and after WoG. These internal event names help verify the architecture but are not automatically a stable public API promise for ordinary content mods.
-
 ## Virtual resources {#vfs}
 
 The archive manager loads extra PAC files from `Data`, searches registered archives, and applies resource redirections. A separate resource manager caches decoded data and tracks active references. “Where is the file stored?” and “Which resource is the game using?” are therefore related but distinct questions.
-
-## Documentation boundary {#boundary}
-
-The general documentation covers installation, mod structure, resources, and tools. Low-level engine details appear only when they explain observable behavior and are supported by source code. ERM scripting and plugin APIs will be separate sections.
 
 ---
 
@@ -63,13 +55,15 @@ URL: /en/docs/era/compatibility/
 
 Declare dependencies, priority, and conflicts without relying on accidental load order.
 
+ERA loads mods from `list.txt` from top to bottom. A mod lower in the file has higher priority for its resources. Use SD Mod Manager to configure active mods, compatibility, and dependencies.
+
 ## Two directions of order {#priority}
 
 The bundled SD Mod Manager documentation highlights an important distinction: a mod with greater priority supplies a resource first, while “loaded after” describes the opposite direction in the displayed load order. If `Mod B` is loaded after `Mod A`, `Mod B` has greater priority and its file wins when both provide the same name.
 
 Record both facts during diagnosis: the visible order and the expected owner of the exact resource. “My mod is last” is not useful without the manager name and complete list.
 
-## compatibility fields {#fields}
+## Mod Manager compatibility fields {#fields}
 
 | Field | Meaning |
 | --- | --- |
@@ -90,10 +84,6 @@ Do not build a long `load_after` list merely to “always win.” It makes the s
 Test at least four states: base ERA only; ERA plus your mod; your mod plus every required dependency; and your mod with each likely conflicting mod in both permitted orders. Reuse one map and one startup scenario for every state.
 
 If the problem follows order, identify the exact resource name supplied by both mods. If it happens before the main menu, compare clean and conflicting startup logs. Do not change the order, ERA version, and mod contents at the same time.
-
-## Compatibility report {#report}
-
-A useful report includes the ERA and Mod Manager versions, exact mod names and versions, their order, a minimal reproduction, and the relevant log difference. Include the executable version for binary changes. This turns “does not work together” into a reproducible case and supports a precise rule instead of a guess.
 
 ---
 
@@ -155,39 +145,41 @@ Store editable source assets separately from exported game files. A project repo
 
 ---
 
-# Installation and workspace
+# Installing ERA
 
 URL: /en/docs/era/installation/
 
-Prepare a reproducible ERA setup for development without losing a known-good state.
+Official installation, update, and removal steps for Heroes Launcher and manual setups.
 
-## Use a separate copy {#separate-copy}
+## Game installation {#installation}
 
-Use a separate game installation for development. This is editorial workflow advice rather than an engine requirement: its purpose is to protect the setup you play and give you a stable comparison point.
+The current package is available from the [ERA releases](https://github.com/ERA-Projects/era-project-eng/releases/latest). These steps follow the [official installation guide](https://github.com/ERA-Projects/era-project-eng/blob/main/README.md#-game-installation).
 
-Record the ERA version, the distribution source, and the active mod list. When collaborating, those three values are often more useful than a long “it does not start” report.
+### With Heroes Launcher {#launcher-install}
 
-## Establish a baseline {#baseline}
+1. [Download Heroes Launcher](https://github.com/HeroesLauncher/heroeslauncher/releases) and install it outside system directories.
+2. Open its ERA tab and select a working Heroes III version based on Shadow of Death: SoD, Complete, MOP, WoG, or HotA.
+3. Choose the installation language and destination directory, then wait for the download and extraction.
+4. Set the language and resolution under HD Mod Settings. The guide recommends `stretchable 32-bit OpenGL by Verok`; adjust optional tweaks if needed.
+5. Start the game with Play in Heroes Launcher.
 
-1. Start the game without your own mod.
-2. Reach the main menu and load a small test map.
-3. Exit normally.
-4. Keep the resulting logs as a baseline.
+### Manually {#manual-install}
 
-ERA runs several initialization stages before the full game interface is ready. If a clean start is unstable, adding your own resource will only make diagnosis harder.
+1. Prepare a working Heroes III installation based on Shadow of Death (SoD, Complete, MOP, WoG, or HotA).
+2. Create a new directory. Copy every `.dll` from the game root, the `MP3` directory, and the `Data` directory containing `H3bitmap.lod`, `H3sprite.lod`, `Heroes3.snd`, and `VIDEO.VID`. Copy `Maps` if wanted.
+3. Download the [latest ERA release](https://github.com/ERA-Projects/era-project-eng/releases/latest) and extract it into that directory.
+4. Run `Tools/install.bat` to initialize the mod set, or `Tools/Mod Manager/mmanager.cmd` to select it yourself. The `WOG` mod is required.
+5. Configure HD Mod with `HD_Launcher.exe` and launch `h3era HD.exe`.
 
-## Working loop {#workflow}
+## Updating the game {#update}
 
-Keep mod source files separate from temporary editor output. Copy only the intended result into the game directory, or use a repeatable synchronization script. After each small change:
+The [official update guide](https://github.com/ERA-Projects/era-project-eng/blob/main/README.md#-updating-the-game) recommends Heroes Launcher: open the gear menu, select Check for Updates, and wait for installation to finish.
 
-- state the expected effect;
-- run one focused scenario;
-- inspect the log on failure;
-- restore the previous revision if the cause is unclear.
+For a manual update, download the current release. If files were removed from any mods, delete the affected mod directories first. Then extract the new archive over the installed game and replace outdated files.
 
-## Avoid mixed changes {#avoid}
+## Uninstallation {#uninstall}
 
-Do not update ERA, change the active mod set, and edit your resource at the same time. Version differences can affect supported paths and formats — language overrides under `Lang/<language>`, for example, are documented for the ERA 3.9.6 line. Check versioned features against the notes for your actual build.
+In Heroes Launcher, open the gear menu, choose Uninstall, optionally keep the base game files, and confirm. For a manual installation, delete the installed game directory. Both methods are described in the [official README](https://github.com/ERA-Projects/era-project-eng/blob/main/README.md).
 
 ---
 
@@ -195,7 +187,26 @@ Do not update ERA, change the active mod set, and edit your resource at the same
 
 URL: /en/docs/era/mod-structure/
 
-A practical map of Data and Lang directories, archives, and resource precedence.
+What an ERA mod is and which directories, resources, and files it can contain.
+
+## What is a mod? {#definition}
+
+A mod is a self-contained set of files that changes or extends the game. In ERA, each mod lives in its own directory under `Mods`, so the original game resources can remain intact.
+
+## What a mod can contain {#contents}
+
+- `Data` for game resources, archives, and scripts;
+- `Lang` for JSON files with localization text and mod parameters;
+- `MP3` for MP3 music;
+- `Maps` for maps;
+- `Games` for saved games;
+- `EraPlugins` for game plugins and patches;
+- `EraEditor` for map editor plugins and settings;
+- `_HD3_Data` for HD Mod files;
+- `DebugMaps` for plugin debug information;
+- the mod's own manager files, such as `mod.json`, an icon, and `readme.md`.
+
+Add only the directories your mod actually needs.
 
 ## Basic skeleton {#skeleton}
 
@@ -225,8 +236,6 @@ When the result is unexpected, search for a conflict by exact resource name. Che
 2. the same path inside ZIP or PAC;
 3. rules under `Data/Redirections`;
 4. another active mod that provides the same name.
-
-Do not rely on incidental file-system order. Record every precedence rule with a version-specific note or a supporting source location.
 
 ---
 
@@ -320,31 +329,30 @@ A map of important game and ERA formats, their roles, and safe verification step
 | --- | --- |
 | `LOD` | The core Heroes III resource archive. ERA registers several LOD categories for graphics and audio. |
 | `PAC` | An additional archive that ERA discovers under `Data/*.pac` and adds to the load list. |
-| `ZIP` | Used by ERA 3 for specific PNG resources; its internal structure mirrors paths from the game root. |
+| `SND` | An archive of game sounds. |
+| `VID` | An archive of game videos. |
+| `ZIP` | Used by ERA 3 for specific PNG and JSON resources; its internal structure mirrors paths from the game root. |
 
 For early development, prefer a loose file when the loader supports it because it is easier to compare and replace. Package the verified set only after the path and name are known to work.
 
 ## Graphics {#graphics}
 
-`DEF` stores groups of frames for game animations. ERA 3 can replace individual frames with PNG files using `Data/Defs/<name.def>/<group>_<frame>.png`; group and frame indexes start at zero. Some interface PCX resources can be replaced by PNG files under `Data/Pcx`.
+`DEF` stores groups of frames for game animations. ERA 3 can replace individual frames with PNG files using `Data/Defs/<name.def>/<group>_<frame>.png`; group and frame indexes start at zero. Some interface PCX resources can be replaced by PNG files under `Data/Pcx`. ERA also loads new PNG files as standard resources without requiring an original PCX.
 
 Preserve dimensions, transparency semantics, and frame order. A visually valid PNG can still be the wrong resource if its path, group, or index does not match.
 
 ## Text and data {#text-data}
 
 - `TXT` holds classic game tables and strings; row and separator rules depend on the particular file.
-- `ERT` and `ERS` belong to the legacy ERM text and resource ecosystem; use them only with documentation for the consuming mechanism.
-- `JSON` is used for ERA configuration, localization, and redirection. Its schema comes from the consumer, not from the extension itself.
+- `ERT` contains text and resource tables from the old ERM ecosystem. It is not recommended for new mods; use JSON instead.
+- `ERS` is an obsolete format for changing WoG options.
+- `JSON` contains localization text and mod parameters.
 
 Always preserve the encoding, column count, and control sequences expected by the original format.
 
 ## Audio, video, and fonts {#media}
 
-Classic resources include WAV audio, video files, and game fonts. ERA distinguishes archive lookup from media lists; a missing WAV or video redirection may be applied later than ordinary LOD lookup.
-
-## Diagnosis {#diagnostics}
-
-Test one replacement at a time. If a resource is not found, check the name, path, archive, redirection, and mod conflicts in that order. If it is found but rendered incorrectly, inspect the internal format structure.
+Classic resources include WAV audio, `.BIK` and `.SMK` video, and `.FNT` game fonts.
 
 ---
 
@@ -412,43 +420,61 @@ The build lists every published entity for the current locale below, including i
 
 URL: /en/docs/quick-start/
 
-A safe path from a working installation to the first verifiable mod resource.
+From an installed ERA game to the first working ERM script in your own mod.
 
 ## 1. Prepare the environment {#prepare}
 
-Use a separate Heroes III installation with ERA instead of your only playable copy. Keep a known-good state and record the platform version so you can distinguish a project error from behavior that differs between releases.
+If you do not have ERA and the tools yet, start with [Installation](../era/installation/). Use a separate working Heroes III installation with ERA and confirm that the game starts before adding your mod.
 
-Start the game once before adding your own changes. If the clean setup does not work, fix that baseline before continuing with mod development.
+## 2. Create the mod directory {#skeleton}
 
-## 2. Create a minimal mod {#skeleton}
-
-Create a dedicated project directory inside the mods directory. The smallest useful structure depends on your first resource, but separating data and localization early is helpful:
+Create a new directory for your mod named `MyFirstMod` inside `Mods`. Avoid Cyrillic characters and special characters in the directory name.
 
 ```text
 Mods/
 └─ MyFirstMod/
-   ├─ Data/
-   └─ Lang/
+   └─ Data/
+      └─ s/
 ```
 
-Do not edit the original game archives for this first check. A separate directory is much easier to disable, compare, or remove without side effects.
+Do not edit the original game archives: a separate mod directory is easier to disable and test.
 
-## 3. Choose a small test {#first-change}
+## 3. Enable the mod {#enable}
 
-A good first change is one replaceable text or image resource whose exact name and path you know. Change only one thing per launch. This verifies three conditions at once: the mod is active, the path is correct, and the game can read the format.
+Open Mod Manager and enable `MyFirstMod`. Confirm that it appears in the active mod list; otherwise the game will not load its files.
 
-## 4. Verify the result {#verify}
+## 4. Add the first script {#first-change}
 
-Write down the expected effect before starting the game. Check that exact effect, then inspect ERA logs if the launch or replacement fails. If nothing changes:
+Create `example.erm` with this ERM code:
 
-1. verify the exact file name and case;
-2. verify the directory nesting;
-3. check whether another mod replaces the same resource;
-4. temporarily disable unrelated mods and try again.
+```erm
+ZVSE2
+!#IF:M^Hello World!^;
+```
+
+You can also use the game entry event handler. Both variants display the same message:
+
+```erm
+ZVSE2
+!?FU(OnGameEnter);
+!!IF:M^Hello World!^;
+```
+
+Adding a prefix to the filename is recommended, for example `mfm_example.erm` (an abbreviation of the mod name). Files with identical names at identical paths in different mods override one another. Place the file under `Mods/MyFirstMod/Data/s/`.
+
+## 5. If it does not work {#verify}
+
+You can test the example when starting any map; start a new game. Before launching, note the expected result: a “Hello World!” message. If it does not appear:
+
+1. confirm that `MyFirstMod` is enabled in Mod Manager;
+2. check the exact filename and extension;
+3. check the directory nesting: `Mods/MyFirstMod/Data/s/mfm_example.erm` if you used the recommended name;
+4. check whether another mod overrides the same file;
+5. inspect any error message and the [troubleshooting guide](../troubleshooting/).
 
 ## Next step {#next}
 
-Continue with **Mod structure** for the `Data` and `Lang` directories, archives, and precedence rules. Avoid adding several formats or complex tools until one small replacement works reliably.
+Continue with [Mod structure](../era/mod-structure/) to learn what the directories contain and where other resources belong.
 
 ---
 
@@ -479,64 +505,6 @@ A small title and keyword index opens immediately, while Pagefind builds a full-
 ## Traceability {#provenance}
 
 `content/_sources/sources.json` stores a compact provenance registry. Original archives, changelogs, and ERA source snapshots remain external development inputs and never ship with the site.
-
----
-
-# Modding tools
-
-URL: /en/docs/tools/
-
-Choose a program for the format, separate editing from validation, and use the legacy Tools bundle safely.
-
-## Start with the format {#choose}
-
-Choose a tool by an “input → output” pair, not by popularity. Record the source filename and format, expected output, program version, and in-game validation method. If those four items are unknown, running a legacy utility creates more uncertainty than value.
-
-The ERA bundle places current and legacy programs side by side. Several tools may appear to solve the same task: archives have MMArchive and standalone `lod*.exe` programs, while fonts have two Font Editor builds. For a new workflow, prefer the option with understandable bundled help and a reversible operation.
-
-## Workflow by data type {#workflow}
-
-| Task | Primary tool | Independent check |
-| --- | --- | --- |
-| LOD/PAC/VID and related archives | MMArchive | export, re-import, compare, and launch |
-| Inspect a DEF | Def Preview | groups, frames, and DEF type |
-| Build a DEF | Heroes3 Def Tool | reopen and validate in game |
-| TXT tables | Txt Tables Editor | encoding, columns, and delimiters |
-| `object` files | Object TXT Files Editor | one copied table and a test map |
-| Random-map templates | Template Editor | `rmg.txt` import/export and map generation |
-| BIK/SMK | RS Bink Player | playback and frame stepping |
-| Mod set and order | SD Mod Manager | controlled startup and resource ownership |
-
-The [tool catalog](catalog/) contains the exact names of all bundled directories and executables.
-
-## Archives require a round trip {#archives}
-
-MMArchive documents adding files, merging archives, and optimization. Replacement and deletion cause fragmentation; for VID, MMArchive stores extra size information that other tools may not recognize before optimization.
-
-Before a bulk change, export one resource, import it again without an intentional edit, and compare the result. A successful round trip proves only the technical chain—an in-game run is still required.
-
-## Graphics, palettes, and interface {#graphics}
-
-Def Preview provides quick inspection of animation groups. Heroes3 Def Tool builds and edits DEF files, including frames, masks, and shadows. DEFka is supplied separately for creature graphics, and Heroes 3 Dialogs is identified as a WoG custom-dialog editor. Two Font Editor builds are included.
-
-Do not copy parameters merely because two pictures look alike. Dimensions, group index, frame number, palette, and transparency are part of the resource. PngCrush can reduce a PNG but cannot repair an incorrect path or alpha-channel meaning.
-
-## Higher-risk utilities {#risk}
-
-BinMagic, ExeBuilder, EVME, and UN:C to BIN operate on patches, executables, or process memory. Their result depends on an exact EXE version and can damage a file or running process. This site does not yet publish ERM/UN:C instructions: a bundled tool does not prove that an address or recipe applies to the current build.
-
-Use a copy, retain the original checksum, and never apply an unknown patch “just to see.” EVME documentation explicitly warns about memory writes and dump operations.
-
-## Safe process {#safe-process}
-
-1. Copy the source and record its SHA-256.
-2. Perform one operation with one tool.
-3. Store exports separately from editable sources.
-4. Open the result with a second program when the format permits.
-5. Validate one repeatable scenario in a separate game installation.
-6. Only then process a batch.
-
-When bundled help is absent, stop at inventory and find documentation for the exact version. Do not infer command-line switches from an EXE name.
 
 ---
 
@@ -584,9 +552,9 @@ Names below match directories and executables in the installed ERA Tools bundle.
 
 ## Maps and templates {#maps}
 
-**Template Editor 0.99** (`TEditor`) edits random-map generator templates. Its help covers creating and importing templates from `rmg.txt`, zones, connections, existence rules, guards, and `.tpz` project files. Importing built-in templates requires an extracted `rmg.txt` from `h3bitmap.lod`.
+**Map Editor** is the Heroes III map editor.
 
-The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optimize.phc`, and `mapToDbgmap.bat`, but no procedural help. Use it only in a workflow with a confirmed input format.
+**Template Editor 0.99** (`TEditor`) edits random-map generator templates. Its help covers creating and importing templates from `rmg.txt`, zones, connections, existence rules, guards, and `.tpz` project files. Importing built-in templates requires an extracted `rmg.txt` from `h3bitmap.lod`.
 
 ## Video and multimedia {#media}
 
@@ -606,9 +574,7 @@ The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optim
 | **ScriptsToEra260** | A script-conversion directory with a PHP program and a named-function table. Procedural use belongs in the future ERM documentation. |
 | **installmod.exe** | A root-level mod installation utility. No adjacent public help is included; prefer Mod Manager for a controlled workflow. |
 
-## Safe selection rule {#safety}
-
-Choose the format first, then the tool, then a validation method. Preserve the original, perform one operation, compare the output, and move to batch processing only after an in-game test. For utilities without bundled help, the inventory proves their presence but does not justify guessing command-line switches or compatibility.
+The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optimize.phc`, and `mapToDbgmap.bat`, but no procedural help. Use it only in a workflow with a confirmed input format.
 
 ---
 
@@ -632,21 +598,24 @@ Compare the exact path, size, modification time, and checksum as well as the scr
 
 ## Classify the failure {#classify}
 
-1. **The file was not selected.** Check its name, path, enabled state, priority, and redirections.
-2. **The file was selected but cannot be decoded.** Check format, encoding, dimensions, entry counts, and loader-specific constraints.
-3. **The file was decoded but the effect stayed stale.** Exclude cache and already-created game objects with a full restart.
-4. **The failure depends on another mod.** Find the shared path and test both orders.
-5. **The crash happens before the menu.** Compare logs and revert the last independent change.
+| Error | Description | Example |
+| --- | --- | --- |
+| ERM script error | The game reports the exact file and line containing the error. Correct the syntax indicated by the message. | ![ERA dialog identifying an ERM error and line number](../../../assets/diagnostics/screen-2.png) |
+| Missing resource | The game reports the type and name of a resource it could not load. Check the filename requested by the script and that the resource exists in your mod archives. | ![ResourceManager cannot find a DEF resource](../../../assets/diagnostics/screen-1.png) |
+| No visible change after an edit | Press `F12` to reload text and scripts during the game. Restart the game for other changes. | The old resource still appears after editing it. |
+| Text displays incorrectly | For JSON, check file validity and whether the key used by the code exists in the file. | ![A localization key appears instead of its text in game](../../../assets/diagnostics/screen-3.png) |
+| Game crashes on startup | A replacement text resource may be damaged: check the number of rows and their terminating characters. An invalid plugin or patch inside the mod is another possibility. | The game closes during startup. |
+| Game closes without a notice | A possible stack overflow can result from a function recursively calling itself until the client closes immediately. Check the call chain. | The client exits without an error dialog. |
 
 ## Use the matching tool {#tools}
 
-For archives, make a trial export and re-import with MMArchive. Inspect a DEF in Def Preview before validating the build in Heroes3 Def Tool. Edit tables with Txt Tables Editor or Object TXT Files Editor only after preserving the source encoding and structure. `VfsTest.exe` is present as a separate utility in the installed bundle; verify its exact compatibility with your build on a copy of the game.
+For archives, make a trial export and re-import with MMArchive. Inspect a DEF in Def Preview before validating the build in Heroes3 Def Tool. Edit tables with Txt Tables Editor or Object TXT Files Editor only after preserving the source encoding and structure.
 
 A tool does not replace a controlled game scenario. Successfully opening a file proves only that this one program could read it.
 
 ## Write a useful report {#report}
 
-Include versions, mod list and order, the exact changed path, expected and actual behavior, minimal steps, and the relevant log excerpt. Share a checksum or a small original test file rather than the whole game or a third-party distribution. For a binary patch, always name the EXE version and application method.
+Include versions, mod list and order, the exact changed path, expected and actual behavior, minimal steps, and the relevant log excerpt.
 
 A good report lets another person reproduce the fault without guessing and test one claim per run.
 

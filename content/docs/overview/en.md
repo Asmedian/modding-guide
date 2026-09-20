@@ -25,5 +25,4 @@ Every published article links to the source registry. Current ERA source code ha
 
 ## Current scope {#scope}
 
-The general documentation section is published now. ERM scripting and plugin documentation are intentionally excluded and will be added as separate work streams without changing the site foundation.
-
+General documentation, the ERM reference, and the plugin development section are available. More material is added as sources are verified.

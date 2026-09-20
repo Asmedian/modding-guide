@@ -27,6 +27,7 @@
   export let ermTriggers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
 
   $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : 'docs';
+  $: isHome = !activeSlug;
   const topItems = topNavigation.items;
   const githubUrl = topNavigation.github.href;
 
@@ -40,6 +41,7 @@
   let searchComponentRequest: Promise<void> | null = null;
   let searchQuery = '';
   let searchScope: 'everywhere' | 'section' | 'page' = 'everywhere';
+  const copyTimers = new WeakMap<HTMLElement, number>();
   $: if (searchScope === 'page' && !activeSlug) searchScope = 'everywhere';
   afterNavigate(({ type, to }) => {
     searchOpen = false;
@@ -217,10 +219,18 @@
     const copiedLabel = t('code.copied');
     button.setAttribute('aria-label', copiedLabel);
     button.title = copiedLabel;
-    window.setTimeout(() => {
+    if (button.classList.contains('code-copy')) {
+      button.setAttribute('data-copied-label', copiedLabel);
+      button.classList.add('copied');
+    }
+    const previousTimer = copyTimers.get(button);
+    if (previousTimer) window.clearTimeout(previousTimer);
+    copyTimers.set(button, window.setTimeout(() => {
       button.setAttribute('aria-label', originalLabel);
       button.title = originalLabel;
-    }, 1400);
+      button.classList.remove('copied');
+      copyTimers.delete(button);
+    }, 2000));
   }
 
   function resetSettings() {
@@ -300,7 +310,7 @@
   <nav class="topnav" aria-label={t('nav.primary')}>
     {#each topItems as item}
       {#if item.enabled}
-        <a class:active={item.id === activeSection} href={`${base}/${lang}/${item.href}/`}>{t(item.labelKey)}</a>
+        <a class:active={!isHome && item.id === activeSection} href={`${base}/${lang}/${item.href}/`}>{t(item.labelKey)}</a>
       {:else}
         <button type="button" disabled title={t('nav.soon')}>{t(item.labelKey)}</button>
       {/if}
@@ -340,7 +350,7 @@
   <button class="drawer-scrim" type="button" aria-label={t('nav.closeMenu')} on:click={() => (menuOpen = false)}></button>
 {/if}
 
-<div bind:this={siteScroller} class="site-grid" class:erm-grid={activeSection === 'erm'}>
+<div bind:this={siteScroller} class="site-grid" class:erm-grid={activeSection === 'erm'} class:home-grid={isHome}>
   <aside class:open={menuOpen} class="sidebar" aria-label={t(activeSection === 'erm' ? 'nav.ermScripts' : activeSection === 'plugins' ? 'nav.plugins' : 'nav.documentation')}>
     <div class="sidebar-scroll" bind:this={sidebarScroller}>
       <div class="mobile-primary-controls">
@@ -357,7 +367,7 @@
         <div><LanguageMenu {lang} /><button class="icon-button" type="button" aria-label={t('theme.toggle')} on:click={toggleTheme}><UiIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button></div>
       </div>
       {#if activeSection === 'erm'}<ErmAlphabet {lang} entries={ermAlphabet} />{/if}
-      {#each navigation.groups as group}
+      {#each isHome ? [] : navigation.groups as group}
         <details class="nav-group" data-group={group.id} open={!collapsedGroups.includes(group.id)} on:toggle={(event) => updateGroup(group.id, event.currentTarget.open)}>
           <summary>
             <span class="sidebar-group-icon" aria-hidden="true"><UiIcon name={`sidebar-${group.id}`} /></span>

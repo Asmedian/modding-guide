@@ -712,7 +712,7 @@ function decorateCodeBlocks(html: string, lang: 'ru' | 'en') {
     const lineCount = normalizedCode.split('\n').length;
     const lineNumbers = Array.from({ length: lineCount }, (_, index) => `<span>${index + 1}</span>`).join('');
     const language = codeLanguage(attributes, code);
-    return `<div class="code-block"><div class="code-toolbar" data-pagefind-ignore><span class="code-language">${escapeHtml(language)}</span><button class="code-copy" type="button" aria-label="${copyLabel}" title="${copyLabel}">${copyLabel}</button></div><div class="code-frame"><span class="code-line-numbers" aria-hidden="true" data-pagefind-ignore>${lineNumbers}</span>${pre}${codeOpen}${code}${close}</div></div>`;
+    return `<div class="code-block"><div class="code-toolbar" data-pagefind-ignore><span class="code-language">${escapeHtml(language)}</span><button class="code-copy" type="button" aria-label="${copyLabel}" title="${copyLabel}"><span class="code-copy-icon" aria-hidden="true"></span></button></div><div class="code-frame"><span class="code-line-numbers" aria-hidden="true" data-pagefind-ignore>${lineNumbers}</span>${pre}${codeOpen}${code}${close}</div></div>`;
   });
 }
 

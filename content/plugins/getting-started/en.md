@@ -80,7 +80,7 @@ BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID)
 
 This verifies loading and event delivery; it is not a reason to begin patching addresses. Remove the dialog once the lifecycle is confirmed.
 
-## Deploy one artifact {#deploy}
+## Deploy one plugin {#deploy}
 
 Copy the release build to `EraPlugins/MyPlugin.era`. Make sure `MyPlugin.dll` with the same basename is absent: ERA rejects duplicate `.era` and `.dll` variants. Start the same short scenario once without the plugin and once with it.
 

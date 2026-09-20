@@ -122,8 +122,8 @@
       "locale": "en",
       "slug": "era/installation",
       "url": "/en/docs/era/installation/",
-      "title": "Installation and workspace",
-      "summary": "Prepare a reproducible ERA setup for development without losing a known-good state.",
+      "title": "Installing ERA",
+      "summary": "Official installation, update, and removal steps for Heroes Launcher and manual setups.",
       "keywords": [
         "installation",
         "backup",
@@ -135,8 +135,8 @@
         "What should I check before editing game resources?"
       ],
       "sourceRefs": [
-        "era-source:gameext",
-        "era-changelog:3"
+        "era-project-rus:readme",
+        "era-project-eng:readme"
       ]
     },
     {
@@ -147,7 +147,7 @@
       "slug": "era/mod-structure",
       "url": "/en/docs/era/mod-structure/",
       "title": "Mod structure",
-      "summary": "A practical map of Data and Lang directories, archives, and resource precedence.",
+      "summary": "What an ERA mod is and which directories, resources, and files it can contain.",
       "keywords": [
         "Mods",
         "Data",
@@ -316,7 +316,7 @@
       "slug": "quick-start",
       "url": "/en/docs/quick-start/",
       "title": "Quick Start",
-      "summary": "A safe path from a working installation to the first verifiable mod resource.",
+      "summary": "From an installed ERA game to the first working ERM script in your own mod.",
       "keywords": [
         "quick start",
         "setup",
@@ -359,36 +359,6 @@
       ]
     },
     {
-      "id": "docs.tools",
-      "kind": "article",
-      "section": "docs",
-      "locale": "en",
-      "slug": "tools",
-      "url": "/en/docs/tools/",
-      "title": "Modding tools",
-      "summary": "Choose a program for the format, separate editing from validation, and use the legacy Tools bundle safely.",
-      "keywords": [
-        "tools",
-        "map editor",
-        "MMArchive",
-        "DEF Tool",
-        "TXT Tables Editor",
-        "ERM Editor"
-      ],
-      "questions": [
-        "Which tool should I use for a particular ERA resource?",
-        "How can I reduce mistakes when editing binary and text resources?"
-      ],
-      "sourceRefs": [
-        "era-source:lodman",
-        "era-tools:mmarchive-help",
-        "era-tools:defpreview-help",
-        "era-tools:mod-manager-format",
-        "era-tools:def-tool-binary",
-        "era-tools:txt-editor-binary"
-      ]
-    },
-    {
       "id": "docs.tools.catalog",
       "kind": "article",
       "section": "docs",
@@ -404,6 +374,7 @@
         "DEFka",
         "Txt Tables Editor",
         "Object TXT Files Editor",
+        "Map Editor",
         "Template Editor",
         "SD Mod Manager",
         "BinMagic",
@@ -14308,7 +14279,7 @@
       "slug": "",
       "url": "/en/plugins/",
       "title": "ERA plugins",
-      "summary": "A source-backed map of native ERA extensions: how they load, which API layers they use, and where binary compatibility becomes your responsibility.",
+      "summary": "Development, load order, and compatibility.",
       "keywords": [
         "ERA plugin",
         "EraPlugins",
@@ -14562,8 +14533,8 @@
       "locale": "ru",
       "slug": "era/installation",
       "url": "/ru/docs/era/installation/",
-      "title": "Установка и рабочая среда",
-      "summary": "Как подготовить воспроизводимую ERA-установку для разработки и не потерять рабочее состояние.",
+      "title": "Установка ERA",
+      "summary": "Официальные способы установки, обновления и удаления ERA через Heroes Launcher и вручную.",
       "keywords": [
         "installation",
         "backup",
@@ -14575,8 +14546,8 @@
         "What should I check before editing game resources?"
       ],
       "sourceRefs": [
-        "era-source:gameext",
-        "era-changelog:3"
+        "era-project-rus:readme",
+        "era-project-eng:readme"
       ]
     },
     {
@@ -14587,7 +14558,7 @@
       "slug": "era/mod-structure",
       "url": "/ru/docs/era/mod-structure/",
       "title": "Структура мода",
-      "summary": "Практическая карта каталогов Data и Lang, архивов и правил приоритета ресурсов.",
+      "summary": "Что такое мод ERA и какие каталоги, ресурсы и файлы он может содержать.",
       "keywords": [
         "Mods",
         "Data",
@@ -14756,7 +14727,7 @@
       "slug": "quick-start",
       "url": "/ru/docs/quick-start/",
       "title": "Быстрый старт",
-      "summary": "Безопасная последовательность от рабочей копии игры до первого проверенного ресурса мода.",
+      "summary": "От установленной ERA до первого работающего ERM-скрипта в собственном моде.",
       "keywords": [
         "quick start",
         "setup",
@@ -14799,36 +14770,6 @@
       ]
     },
     {
-      "id": "docs.tools",
-      "kind": "article",
-      "section": "docs",
-      "locale": "ru",
-      "slug": "tools",
-      "url": "/ru/docs/tools/",
-      "title": "Инструменты моддера",
-      "summary": "Как выбрать программу под формат, отделить редактирование от проверки и безопасно работать со старым комплектом Tools.",
-      "keywords": [
-        "tools",
-        "map editor",
-        "MMArchive",
-        "DEF Tool",
-        "TXT Tables Editor",
-        "ERM Editor"
-      ],
-      "questions": [
-        "Which tool should I use for a particular ERA resource?",
-        "How can I reduce mistakes when editing binary and text resources?"
-      ],
-      "sourceRefs": [
-        "era-source:lodman",
-        "era-tools:mmarchive-help",
-        "era-tools:defpreview-help",
-        "era-tools:mod-manager-format",
-        "era-tools:def-tool-binary",
-        "era-tools:txt-editor-binary"
-      ]
-    },
-    {
       "id": "docs.tools.catalog",
       "kind": "article",
       "section": "docs",
@@ -14844,6 +14785,7 @@
         "DEFka",
         "Txt Tables Editor",
         "Object TXT Files Editor",
+        "Map Editor",
         "Template Editor",
         "SD Mod Manager",
         "BinMagic",
@@ -28748,7 +28690,7 @@
       "slug": "",
       "url": "/ru/plugins/",
       "title": "Плагины ERA",
-      "summary": "Проверенная по исходникам карта нативных расширений ERA: порядок загрузки, уровни API и границы бинарной совместимости.",
+      "summary": "Разработка, порядок загрузки, совместимости.",
       "keywords": [
         "ERA plugin",
         "EraPlugins",

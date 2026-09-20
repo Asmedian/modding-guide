@@ -40,9 +40,9 @@ Names below match directories and executables in the installed ERA Tools bundle.
 
 ## Maps and templates {#maps}
 
-**Template Editor 0.99** (`TEditor`) edits random-map generator templates. Its help covers creating and importing templates from `rmg.txt`, zones, connections, existence rules, guards, and `.tpz` project files. Importing built-in templates requires an extracted `rmg.txt` from `h3bitmap.lod`.
+**Map Editor** is the Heroes III map editor.
 
-The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optimize.phc`, and `mapToDbgmap.bat`, but no procedural help. Use it only in a workflow with a confirmed input format.
+**Template Editor 0.99** (`TEditor`) edits random-map generator templates. Its help covers creating and importing templates from `rmg.txt`, zones, connections, existence rules, guards, and `.tpz` project files. Importing built-in templates requires an extracted `rmg.txt` from `h3bitmap.lod`.
 
 ## Video and multimedia {#media}
 
@@ -62,7 +62,4 @@ The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optim
 | **ScriptsToEra260** | A script-conversion directory with a PHP program and a named-function table. Procedural use belongs in the future ERM documentation. |
 | **installmod.exe** | A root-level mod installation utility. No adjacent public help is included; prefer Mod Manager for a controlled workflow. |
 
-## Safe selection rule {#safety}
-
-Choose the format first, then the tool, then a validation method. Preserve the original, perform one operation, compare the output, and move to batch processing only after an in-game test. For utilities without bundled help, the inventory proves their presence but does not justify guessing command-line switches or compatibility.
-
+The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optimize.phc`, and `mapToDbgmap.bat`, but no procedural help. Use it only in a workflow with a confirmed input format.

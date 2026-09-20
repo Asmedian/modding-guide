@@ -19,7 +19,7 @@
   const topics = [
     ['platform', 'home.platformTitle', 'home.platformText', 'docs/era'],
     ['resources', 'home.resourcesTitle', 'home.resourcesText', 'docs/game/resources'],
-    ['tools', 'home.toolsTitle', 'home.toolsText', 'docs/tools'],
+    ['tools', 'home.toolsTitle', 'home.toolsText', 'docs/tools/catalog'],
     ['glossary', 'home.glossaryTitle', 'home.glossaryText', 'docs/glossary']
   ] as const;
 </script>
@@ -40,15 +40,6 @@
       <h1>{t('home.title')}</h1>
       <p class="hero-copy">{t('home.intro')}</p>
     </header>
-
-    <section class="info-banner">
-      <span class="info-icon"><UiIcon name="info" /></span>
-      <div>
-        <h2>{t('home.infoTitle')}</h2>
-        <p>{t('home.infoText')}</p>
-      </div>
-      <span class="banner-runes"><UiIcon name="ornament" /></span>
-    </section>
 
     <section class="primary-card">
       <span class="feature-icon amber"><UiIcon name="book" /></span>

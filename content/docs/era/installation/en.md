@@ -1,32 +1,33 @@
 ---
-{"title":"Installation and workspace","summary":"Prepare a reproducible ERA setup for development without losing a known-good state.","translationStatus":"reviewed"}
+{"title":"Installing ERA","summary":"Official installation, update, and removal steps for Heroes Launcher and manual setups.","translationStatus":"reviewed"}
 ---
 
-## Use a separate copy {#separate-copy}
+## Game installation {#installation}
 
-Use a separate game installation for development. This is editorial workflow advice rather than an engine requirement: its purpose is to protect the setup you play and give you a stable comparison point.
+The current package is available from the [ERA releases](https://github.com/ERA-Projects/era-project-eng/releases/latest). These steps follow the [official installation guide](https://github.com/ERA-Projects/era-project-eng/blob/main/README.md#-game-installation).
 
-Record the ERA version, the distribution source, and the active mod list. When collaborating, those three values are often more useful than a long “it does not start” report.
+### With Heroes Launcher {#launcher-install}
 
-## Establish a baseline {#baseline}
+1. [Download Heroes Launcher](https://github.com/HeroesLauncher/heroeslauncher/releases) and install it outside system directories.
+2. Open its ERA tab and select a working Heroes III version based on Shadow of Death: SoD, Complete, MOP, WoG, or HotA.
+3. Choose the installation language and destination directory, then wait for the download and extraction.
+4. Set the language and resolution under HD Mod Settings. The guide recommends `stretchable 32-bit OpenGL by Verok`; adjust optional tweaks if needed.
+5. Start the game with Play in Heroes Launcher.
 
-1. Start the game without your own mod.
-2. Reach the main menu and load a small test map.
-3. Exit normally.
-4. Keep the resulting logs as a baseline.
+### Manually {#manual-install}
 
-ERA runs several initialization stages before the full game interface is ready. If a clean start is unstable, adding your own resource will only make diagnosis harder.
+1. Prepare a working Heroes III installation based on Shadow of Death (SoD, Complete, MOP, WoG, or HotA).
+2. Create a new directory. Copy every `.dll` from the game root, the `MP3` directory, and the `Data` directory containing `H3bitmap.lod`, `H3sprite.lod`, `Heroes3.snd`, and `VIDEO.VID`. Copy `Maps` if wanted.
+3. Download the [latest ERA release](https://github.com/ERA-Projects/era-project-eng/releases/latest) and extract it into that directory.
+4. Run `Tools/install.bat` to initialize the mod set, or `Tools/Mod Manager/mmanager.cmd` to select it yourself. The `WOG` mod is required.
+5. Configure HD Mod with `HD_Launcher.exe` and launch `h3era HD.exe`.
 
-## Working loop {#workflow}
+## Updating the game {#update}
 
-Keep mod source files separate from temporary editor output. Copy only the intended result into the game directory, or use a repeatable synchronization script. After each small change:
+The [official update guide](https://github.com/ERA-Projects/era-project-eng/blob/main/README.md#-updating-the-game) recommends Heroes Launcher: open the gear menu, select Check for Updates, and wait for installation to finish.
 
-- state the expected effect;
-- run one focused scenario;
-- inspect the log on failure;
-- restore the previous revision if the cause is unclear.
+For a manual update, download the current release. If files were removed from any mods, delete the affected mod directories first. Then extract the new archive over the installed game and replace outdated files.
 
-## Avoid mixed changes {#avoid}
+## Uninstallation {#uninstall}
 
-Do not update ERA, change the active mod set, and edit your resource at the same time. Version differences can affect supported paths and formats — language overrides under `Lang/<language>`, for example, are documented for the ERA 3.9.6 line. Check versioned features against the notes for your actual build.
-
+In Heroes Launcher, open the gear menu, choose Uninstall, optionally keep the base game files, and confirm. For a manual installation, delete the installed game directory. Both methods are described in the [official README](https://github.com/ERA-Projects/era-project-eng/blob/main/README.md).

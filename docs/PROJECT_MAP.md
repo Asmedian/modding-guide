@@ -25,7 +25,7 @@ External sources are read only during editorial work. Production depends solely 
 ## Route map
 
 - `/` chooses a saved locale in an inline head script before the body paints; a first visit uses Russian only for a Russian browser locale and English otherwise. With JavaScript disabled, the otherwise empty route exposes direct RU/EN links.
-- `/{lang}/` is the documentation home.
+- `/{lang}/` is the site welcome page. It has no selected top-level section or desktop left sidebar; its main column uses that space.
 - `/{lang}/docs/` is the documentation overview.
 - `/{lang}/docs/{slug}/` is loaded from `content/docs/**/entity.json` plus the selected locale Markdown file.
 - `/{lang}/erm/` and `/{lang}/erm/{slug}/` load the ERM overview and articles from `content/erm`.
@@ -36,6 +36,8 @@ External sources are read only during editorial work. Production depends solely 
 The `[lang=locale]` matcher accepts only `ru` and `en`. HTML routes use trailing slashes; static `.json` reference routes do not. All are prerendered. SvelteKit uses `paths.relative: false` so SSR and client-side language switching use the same configured `BASE_PATH`, without duplicating a repository prefix.
 
 ## Rendering
+
+On the welcome page, `AppShell.svelte` leaves every top-level tab unselected and hides the desktop Docs sidebar. A two-column grid lets the home content fill the freed width. Code-block copy buttons show a local success hint for two seconds.
 
 The entire header and three-column layout share a centered `site-frame` capped by `--site-max: 1920px`. The desktop navigation and contextual-reference columns are deliberately wider, while the middle article remains line-length constrained. Theme surfaces use static colors; the light parchment effect adds a reusable 64×64 alpha PNG instead of runtime CSS gradients. The frame owns the viewport: its header and mobile search row remain outside the independently scrolling three-column content area, so article content always stops below the menu. The header uses intrinsic-width brand/navigation/actions and a shrinkable search control; compact spacing starts at 1440 px, and the mobile layout starts at 1200 px. The search label truncates independently of its icon and keyboard shortcut, while the shortcut hint is omitted on mobile.
 

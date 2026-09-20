@@ -7,9 +7,7 @@
       "labelKey": "nav.startHere",
       "items": [
         { "labelKey": "nav.overview", "slug": "" },
-        { "labelKey": "nav.quickStart", "slug": "docs/quick-start" },
-        { "labelKey": "nav.whatIsMod", "slug": "docs/what-is-a-mod" },
-        { "labelKey": "nav.siteStructure", "slug": "docs/site-structure" }
+        { "labelKey": "nav.quickStart", "slug": "docs/quick-start" }
       ]
     },
     {
@@ -33,13 +31,15 @@
       ]
     },
     { "id": "tools", "labelKey": "nav.tools", "items": [
-      { "labelKey": "nav.toolsOverview", "slug": "docs/tools" },
       { "labelKey": "nav.toolsCatalog", "slug": "docs/tools/catalog" }
     ] },
     { "id": "reference", "labelKey": "nav.reference", "items": [
       { "labelKey": "nav.troubleshooting", "slug": "docs/troubleshooting" },
       { "labelKey": "nav.glossary", "slug": "docs/glossary" }
     ] },
-    { "id": "llm", "labelKey": "nav.llm", "items": [{ "labelKey": "nav.llmMap", "slug": "docs/llm-map" }] }
+    { "id": "llm", "labelKey": "nav.llm", "items": [
+      { "labelKey": "nav.llmMap", "slug": "docs/llm-map" },
+      { "labelKey": "nav.siteStructure", "slug": "docs/site-structure" }
+    ] }
   ]
 }
