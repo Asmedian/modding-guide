@@ -31,6 +31,7 @@
 .topbar > .github-link { flex: 0 0 auto; }
 
 .brand { display: flex; flex: 0 0 auto; align-items: center; gap: var(--space-3); min-width: 0; }
+.brand:hover .brand-guide, .brand:focus-visible .brand-guide { color: var(--gold); }
 .brand-emblem { display: block; flex: 0 0 auto; width: 48px; height: 48px; object-fit: contain; }
 .brand-era { color: var(--gold); font: 700 2rem/1 var(--font-display); }
 .brand-divider { flex: 0 0 1px; width: 1px; height: 38px; margin-inline: 0.15rem; background: var(--gold-soft); box-shadow: 0 0 10px rgba(190, 122, 16, .18); }
@@ -41,6 +42,7 @@
 .topnav button { display: flex; align-items: center; position: relative; padding: 0 var(--space-4); border: 0; color: var(--text); background: transparent; font-weight: 650; white-space: nowrap; }
 .topnav button:disabled { cursor: default; opacity: .72; }
 .topnav a.active { color: var(--gold); }
+.topnav a:hover, .topnav a:focus-visible { color: var(--gold); background: var(--nav-hover); }
 .topnav a.active::after { content: ''; position: absolute; left: var(--space-3); right: var(--space-3); bottom: 0; height: 2px; background: var(--gold); }
 
 .mobile-search-row { display: none; }

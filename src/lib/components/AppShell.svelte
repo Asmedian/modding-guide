@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
   import { browser, dev } from '$app/environment';
   import { afterNavigate, preloadData } from '$app/navigation';
   import { base } from '$app/paths';
@@ -11,7 +11,6 @@
   import { translator, type Locale } from '$lib/i18n';
   import LanguageMenu from '$lib/components/LanguageMenu.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
-  import ErmAlphabet from '$lib/components/ErmAlphabet.svelte';
   import ErmQuickLinks from '$lib/components/ErmQuickLinks.svelte';
   import ContextReference from '$lib/components/ContextReference.svelte';
   import topNavigation from '../../../content/_navigation/top.json';
@@ -25,6 +24,7 @@
   export let ermAlphabet: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }> = [];
   export let ermReceivers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
   export let ermTriggers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
+  export let pageLetters: Array<{ letter: string; id: string }> = [];
 
   $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : 'docs';
   $: isHome = !activeSlug;
@@ -47,6 +47,8 @@
     searchOpen = false;
     menuOpen = false;
     if (type === 'link' && !to?.url.hash) siteScroller?.scrollTo(0, 0);
+    if (to?.url.hash) void restoreFragment(to.url.hash);
+    void tick().then(() => requestAnimationFrame(observeRailLayout));
   });
   let referencePane: ContextReference;
   let referenceExpanded = false;
@@ -54,6 +56,83 @@
   let navigationReady = false;
   let sidebarScroller: HTMLDivElement;
   let siteScroller: HTMLDivElement;
+  let pageRail: HTMLElement | undefined;
+  let railObserver: ResizeObserver | undefined;
+  let observedRail: HTMLElement | undefined;
+  let observedQuickLinks: HTMLDetailsElement | undefined;
+
+  function syncRailLayout() {
+    if (!pageRail || !siteScroller) return;
+    const quickLinks = pageRail.parentElement?.querySelector<HTMLDetailsElement>(':scope > .erm-quick-links');
+    if (!quickLinks) return;
+    if (railObserver && observedQuickLinks !== quickLinks) {
+      if (observedQuickLinks) railObserver.unobserve(observedQuickLinks);
+      railObserver.observe(quickLinks);
+      observedQuickLinks = quickLinks;
+    }
+    const quickHeight = quickLinks.getBoundingClientRect().height;
+    let expandedHeight = quickHeight;
+    if (!quickLinks.open) {
+      const copy = quickLinks.cloneNode(true) as HTMLDetailsElement;
+      copy.open = true;
+      copy.querySelector('.current-summary')?.remove();
+      copy.style.cssText = `position:absolute;visibility:hidden;pointer-events:none;width:${quickLinks.getBoundingClientRect().width}px`;
+      quickLinks.parentElement?.appendChild(copy);
+      expandedHeight = copy.getBoundingClientRect().height;
+      copy.remove();
+    }
+    const gap = 8;
+    const expandedTop = expandedHeight + gap;
+    const compactTop = quickHeight + gap;
+    const railHeight = pageRail.scrollHeight;
+    const top = !quickLinks.open && railHeight + expandedTop + gap > siteScroller.clientHeight ? compactTop : expandedTop;
+    const maxHeight = Math.max(40, siteScroller.clientHeight - top - gap);
+    if (pageRail.style.top !== `${top}px`) pageRail.style.top = `${top}px`;
+    if (pageRail.style.maxHeight !== `${maxHeight}px`) pageRail.style.maxHeight = `${maxHeight}px`;
+  }
+
+  function observeRailLayout() {
+    if (!siteScroller) return;
+    if (!pageRail) {
+      if (observedRail) railObserver?.unobserve(observedRail);
+      if (observedQuickLinks) railObserver?.unobserve(observedQuickLinks);
+      observedRail = undefined;
+      observedQuickLinks = undefined;
+      return;
+    }
+    railObserver ??= new ResizeObserver(syncRailLayout);
+    railObserver.observe(siteScroller);
+    if (observedRail !== pageRail) {
+      if (observedRail) railObserver.unobserve(observedRail);
+      railObserver.observe(pageRail);
+      observedRail = pageRail;
+    }
+    syncRailLayout();
+  }
+
+  async function restoreFragment(hash: string) {
+    await tick();
+    requestAnimationFrame(() => {
+      if (!siteScroller || window.location.hash !== hash) return;
+      let id = '';
+      try { id = decodeURIComponent(hash.slice(1)); } catch { id = hash.slice(1); }
+      const target = document.getElementById(id);
+      if (!target || !siteScroller.contains(target)) return;
+      const quickLinks = siteScroller.querySelector<HTMLDetailsElement>('.content-column > .erm-quick-links');
+      const quickHeight = quickLinks && getComputedStyle(quickLinks).position === 'sticky' ? quickLinks.getBoundingClientRect().height : 0;
+      siteScroller.scrollTop += target.getBoundingClientRect().top - siteScroller.getBoundingClientRect().top - quickHeight - 12;
+    });
+  }
+
+  function handleFragmentClick(event: MouseEvent) {
+    if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const link = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href*="#"]') : null;
+    if (!link || link.target === '_blank') return;
+    const url = new URL(link.href, window.location.href);
+    if (url.origin === window.location.origin && url.pathname === window.location.pathname && url.hash) {
+      void restoreFragment(url.hash);
+    }
+  }
 
   function savePreferences() {
     try {
@@ -248,6 +327,10 @@
   }
 
   onMount(() => {
+    if (window.location.hash) void restoreFragment(window.location.hash);
+    const layoutFrame = requestAnimationFrame(observeRailLayout);
+    const onHashChange = () => { if (window.location.hash) void restoreFragment(window.location.hash); };
+    window.addEventListener('hashchange', onHashChange);
     // Vite compiles server routes on first use. Warm the two top-level article
     // routes behind the already rendered home page so the first dev click is instant.
     if (dev && !activeSlug) {
@@ -278,19 +361,24 @@
       sidebarScroller.scrollTop = sidebarScroll[activeSection] ?? 0;
     });
     window.addEventListener('keydown', handleKeyboard);
+    siteScroller.addEventListener('click', handleFragmentClick);
     document.addEventListener('pointerdown', handleOutsideSearch, true);
     document.addEventListener('click', handleCopy, true);
     document.addEventListener('click', handleReferenceClick, true);
     document.addEventListener('click', sortReferenceTable);
     document.addEventListener('input', convertRadix);
     return () => {
+      cancelAnimationFrame(layoutFrame);
+      railObserver?.disconnect();
       cancelAnimationFrame(readyFrame);
       window.removeEventListener('keydown', handleKeyboard);
+      siteScroller.removeEventListener('click', handleFragmentClick);
       document.removeEventListener('pointerdown', handleOutsideSearch, true);
       document.removeEventListener('click', handleCopy, true);
       document.removeEventListener('click', handleReferenceClick, true);
       document.removeEventListener('click', sortReferenceTable);
       document.removeEventListener('input', convertRadix);
+      window.removeEventListener('hashchange', onHashChange);
     };
   });
 </script>
@@ -366,7 +454,6 @@
         </nav>
         <div><LanguageMenu {lang} /><button class="icon-button" type="button" aria-label={t('theme.toggle')} on:click={toggleTheme}><UiIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button></div>
       </div>
-      {#if activeSection === 'erm'}<ErmAlphabet {lang} entries={ermAlphabet} />{/if}
       {#each isHome ? [] : navigation.groups as group}
         <details class="nav-group" data-group={group.id} open={!collapsedGroups.includes(group.id)} on:toggle={(event) => updateGroup(group.id, event.currentTarget.open)}>
           <summary>
@@ -392,6 +479,13 @@
 
   <main class="content-column">
     {#if activeSection === 'erm'}<ErmQuickLinks {lang} {activeSlug} receivers={ermReceivers} triggers={ermTriggers} />{/if}
+    {#if pageLetters.length}
+      <nav bind:this={pageRail} class="erm-page-rail" aria-label={t('erm.index.letter')}>
+        {#each pageLetters as item}
+          <a href={`#${item.id}`} aria-label={`${t('erm.index.letter')} ${item.letter}`} title={item.letter}>{item.letter}</a>
+        {/each}
+      </nav>
+    {/if}
     <div class="content-inner">
       <slot />
     </div>
@@ -399,7 +493,7 @@
 
   <aside class="context-sidebar" class:reference-expanded={referenceExpanded} aria-label={activeSection === 'erm' ? t('erm.context.title') : t('nav.onThisPage')}>
     {#if activeSection === 'erm'}
-      <ContextReference {lang} bind:this={referencePane} bind:expanded={referenceExpanded} />
+      <ContextReference {lang} entries={ermAlphabet} bind:this={referencePane} bind:expanded={referenceExpanded} />
     {:else}
     <div class="context-sticky">
       <h2>{t('nav.onThisPage')}</h2>

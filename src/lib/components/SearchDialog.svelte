@@ -354,3 +354,7 @@
     </div>
     <p class="search-hint">{t(scope === 'page' ? 'search.pageHint' : 'search.hint')}</p>
   </section>
+
+<style>
+  :global(.search-dialog button:not(:disabled):hover), :global(.search-dialog button:not(:disabled):focus-visible) { color: var(--gold); background: var(--surface-raised); }
+</style>

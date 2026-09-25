@@ -511,7 +511,7 @@
 - ERA plugins: /en/plugins/ — Development, load order, and compatibility.
 - ERA plugin API: /en/plugins/era-api/ — A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.
 - Getting started with ERA plugins: /en/plugins/getting-started/ — Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.
-- H3API: /en/plugins/h3api/ — The deprecated Heroes III 3.2 C++ interface: its purpose, integration modes, and a migration path to NH3API.
+- H3API: /en/plugins/h3api/ — An independent C++ library for Heroes III 3.2: purpose, integration, layout, and compatibility.
 - NH3API: /en/plugins/nh3api/ — The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.
 - Документация ERA: /ru/docs/ — Точка входа в устройство платформы, структуру модов, игровые ресурсы и рабочие инструменты.
 - Платформа ERA: /ru/docs/era/ — Роль ERA между Heroes III, модами, ресурсами и расширениями во время запуска игры.
@@ -1024,5 +1024,5 @@
 - Плагины ERA: /ru/plugins/ — Разработка, порядок загрузки, совместимости.
 - API плагинов ERA: /ru/plugins/era-api/ — Практическая карта экспортируемых служб ERA: события, локализация, ERM, сохранения, ресурсы, диагностика и управляемые патчи.
 - Начало работы с плагинами ERA: /ru/plugins/getting-started/ — Сборка минимального 32-битного модуля `.era` на C++17 с CMake и NH3API, его установка и диагностика с явными границами совместимости.
-- H3API: /ru/plugins/h3api/ — Устаревшая C++-библиотека описаний Heroes III 3.2: назначение, варианты подключения и путь перехода на NH3API.
+- H3API: /ru/plugins/h3api/ — Самостоятельная C++-библиотека для Heroes III 3.2: назначение, подключение, структура и совместимость.
 - NH3API: /ru/plugins/nh3api/ — Интерфейс исполняемого файла на C++17, модули CMake и ERA, поддерживаемые инструменты и границы совместимости, которые обязан фиксировать плагин.

@@ -10,6 +10,7 @@
 
 .ui-icon { display: inline-block; flex: 0 0 auto; width: 1em; height: 1em; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; vertical-align: -.125em; }
 .icon-button { display: grid; place-items: center; width: 42px; height: 42px; padding: 0; cursor: pointer; font-size: 1.3rem; }
+.icon-button:hover, .icon-button:focus-visible, .search-trigger:hover, .search-trigger:focus-visible, .language-menu summary:hover { color: var(--gold); border-color: var(--border-strong); background: var(--surface-raised); }
 .menu-button { display: none; color: var(--gold); background: transparent; border-color: transparent; font-size: 1.8rem; }
 .language-menu { position: relative; }
 .language-menu summary { display: flex; align-items: center; gap: .5rem; min-height: 40px; padding: .4rem .75rem; color: var(--text-muted); cursor: pointer; list-style: none; font-weight: 650; white-space: nowrap; }
@@ -32,6 +33,7 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
 .nav-group h2,
 .context-sticky > h2 { color: var(--gold); font: 700 0.76rem/1.2 var(--font-body); letter-spacing: 0.09em; margin: 0 0 var(--space-2); }
 .nav-group summary { display: grid; grid-template-columns: 2.25rem minmax(0, 1fr) 1.25rem; align-items: center; gap: .65rem; min-height: 3.2rem; padding: .55rem .7rem; list-style: none; cursor: pointer; }
+.nav-group summary:hover, .nav-group summary:focus-visible { background: var(--nav-hover); }
 .nav-group summary::-webkit-details-marker { display: none; }
 .nav-group summary h2 { min-width: 0; margin: 0; color: var(--nav-title); overflow-wrap: anywhere; }
 .sidebar-group-icon { display: grid; place-items: center; width: 2.15rem; height: 2.15rem; color: var(--nav-icon); }
@@ -47,6 +49,7 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
 .ornament span { height: 1px; flex: 1; background: var(--gold-soft); }
 .ornament .ui-icon { width: .8rem; height: .8rem; }
 .reset-button { width: 100%; border: 0; background: transparent; color: var(--text-subtle); cursor: pointer; text-align: left; padding: var(--space-2); font-size: 0.8rem; }
+.reset-button:hover, .reset-button:focus-visible { color: var(--gold); background: var(--nav-hover); }
 
 .toc { display: grid; gap: 0.15rem; margin: var(--space-4) 0; border-left: 1px solid var(--border-strong); }
 .toc a { padding: 0.35rem 0.8rem; color: var(--text-muted); font-size: 0.88rem; }
@@ -83,6 +86,7 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
 .primary-card h2 { margin-bottom: 0.25rem; font-size: 1.55rem; }
 .primary-card p { color: var(--text-muted); margin-bottom: 0; }
 .primary-card > a { display: inline-flex; align-items: center; gap: .65rem; color: var(--gold); font: 600 1.05rem var(--font-display); }
+.primary-card > a:hover, .primary-card > a:focus-visible { color: var(--text); text-decoration: underline; }
 .feature-icon { display: grid; place-items: center; width: 38px; min-width: 38px; color: var(--blue); font-size: 2rem; }
 .feature-icon.amber { color: var(--gold); font-size: 2.5rem; }
 
@@ -93,6 +97,7 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
 .section-title i { height: 1px; background: var(--gold); opacity: .55; }
 .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.25rem; }
 .step-card { position: relative; display: flex; gap: var(--space-4); min-height: 132px; padding: var(--space-4); border-radius: var(--radius-md); }
+.step-card:hover, .step-card:focus-visible, .topic-card:hover, .topic-card:focus-visible { border-color: var(--gold-soft); background: var(--surface-raised); box-shadow: 0 0 0 1px var(--gold-soft); }
 .step-number { display: grid; place-items: center; flex: 0 0 auto; width: 44px; height: 44px; color: var(--gold); border: 2px solid var(--gold); border-radius: 50%; font: 700 1.25rem/1 var(--font-body); font-variant-numeric: lining-nums; text-align: center; }
 .step-card h3,
 .topic-card h3 { margin-bottom: 0.2rem; font-size: 1.08rem; }
@@ -128,6 +133,7 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
 .search-results ul { list-style: none; margin: 0; padding: 0; }
 .search-results a { display: grid; gap: 0.15rem; padding: var(--space-3); border-radius: var(--radius-sm); }
 .search-results a.selected { background: var(--surface-raised); box-shadow: inset 3px 0 0 var(--gold); }
+.search-results a:hover, .search-results a:focus-visible { background: var(--surface-raised); box-shadow: inset 3px 0 0 var(--gold-soft); }
 .search-results small { color: var(--gold-soft); font-size: .67rem; font-weight: 750; letter-spacing: .07em; text-transform: uppercase; }
 .search-results strong { font-family: var(--font-display); font-size: 1.02rem; }
 .search-results a span { color: var(--text-muted); font-size: 0.84rem; }

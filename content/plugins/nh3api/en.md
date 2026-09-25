@@ -68,6 +68,12 @@ Call `Era::ConnectEra` as early as the minimal DLL entry path permits, then regi
 
 The repository documents separate Windows XP-compatible choices, including the `v141_xp` toolset for MSVC. That compiler target is independent of this website's browser baseline and must be tested with the plugin's actual dependencies.
 
+For C++98/11/14, the author points to the separate [v1.1 branch](https://github.com/void2012/NH3API/tree/v1.1). Check before applying the C++17 examples and requirements of v1.2 there.
+
+## Further resources {#resources}
+
+The [NH3API wiki](https://github.com/void2012/NH3API/wiki) covers installation and use; [Awesome-NH3API](https://github.com/void2012/Awesome-NH3API) collects plugin examples. The README also includes a minimal plugin using `GetPatcher()`, a named `PatcherInstance`, and a hook. Only use its demonstration absolute address with a verified executable. Core NH3API can be used without CMake; the ERA III module requires CMake.
+
 ## Patcher workflow {#patcher}
 
 The patcher header instructs a module to acquire `GetPatcher()` once, create a uniquely named `PatcherInstance`, and create patches or hooks through that owner. It exposes high-level hooks, safe/extended low-level hooks, raw writes, apply/undo/destroy operations, blocking, and a patch list dump.
@@ -77,8 +83,6 @@ Use the highest-level hook that preserves the original calling contract. Do not 
 ## Debugging and reproducibility {#debugging}
 
 Add `debugging/nh3api_std.natvis` to a Visual Studio project to inspect NH3API containers. For runtime failures, combine the native debugger with ERA's `GenerateDebugInfo` report and the patcher dump. Record the plugin binary hash, compiler, build type, NH3API commit, ERA version, executable, and active plugin list.
-
-The source snapshot used for this page is commit `454cfe2bf34b54155168c17f9bbd627df596ad7a` from 2026-09-06. Re-check upstream declarations and release notes before adopting a newer revision.
 
 ## License and compatibility boundary {#license}
 

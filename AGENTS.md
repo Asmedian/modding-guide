@@ -8,7 +8,7 @@ Before making changes, read this file, [How to edit the site](docs/EDITING_GUIDE
 - Keep Russian and English complete in the same change. UI copy belongs in `src/lib/i18n/ui.ru.json` and `ui.en.json`; article copy belongs in paired Markdown files.
 - Never translate or normalize technical file names, paths, extensions, codes, or signatures.
 - A `published` or `reviewed` article must have valid `sourceRefs`. Do not infer technical behavior from a name alone.
-- Do not commit the external inputs listed in `.gitignore`: ERA sources, changelogs, old help, forum snapshots, or raw design files outside `design/concepts`.
+- Do not commit the external inputs listed in `.gitignore`: ERA sources, changelogs, old help, forum snapshots, or design files.
 - Preserve Chrome 109, Edge 109, and Firefox 115 as the JavaScript/CSS baseline. Check new APIs and syntax before use.
 - Treat old hardware and constrained networks as a release requirement. Keep navigation preloading on intentional `tap`, never on hover; do not eagerly ship search, Pagefind, generated indexes, or optional reference content. Preserve the production performance budgets enforced by `npm run verify:performance`.
 - Keep user-visible splash screens, route loaders, spinners, and “loading…” placeholders out of the interface. The root locale decision runs in the document head before body paint and retains only a no-JavaScript language fallback.
@@ -58,7 +58,7 @@ Update the corresponding explanation in `docs/PROJECT_MAP.md` when routes, direc
 - Preserve the `content-visibility` enhancement for long articles, while keeping the complete HTML readable in Firefox 115 and without JavaScript.
 - Run `npm run build`; it includes the link/content validator and `verify:performance`, then inspect `reports/performance-budget.json` when a budget fails. Raise a budget only with measured evidence and update this file, `docs/PROJECT_MAP.md`, and the root `PROJECT_PLAN.md` in the same change.
 
-For ERM source scope and verification limits, read [ERM content audit](docs/ERM_CONTENT_AUDIT.md). ERM articles record evidence for every semantic section in `sectionSources`. Preserve source-version distinctions and review notes; historical binary offsets and code reviewed from a snapshot are not evidence of in-game execution.
+ERM articles record evidence for every semantic section in `sectionSources`. Preserve source-version distinctions and review notes; historical binary offsets and code reviewed from a snapshot are not evidence of in-game execution.
 
 Generated files in `src/lib/generated` and `static/llm` must be changed through `npm run prepare:content`, never by hand.
 

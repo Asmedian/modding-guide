@@ -56,6 +56,10 @@
   .symbol-letters { display: flex; flex-wrap: wrap; gap: .25rem; margin-top: 1rem; }
   .symbol-letters button { min-width: 32px; min-height: 38px; padding: .25rem .5rem; border: 1px solid var(--border, #645b45); color: inherit; background: transparent; border-radius: 3px; cursor: pointer; }
   .symbol-letters .active { background: #a38139; color: #14120d; }
+  .symbol-letters button:hover, .symbol-letters button:focus-visible { border-color: var(--gold); color: var(--gold); background: var(--surface-raised); }
+  .symbol-letters button.active:hover, .symbol-letters button.active:focus-visible { color: #14120d; background: #c6a552; }
+  tbody tr:hover { background: var(--surface-raised); }
+  tbody a:hover, tbody a:focus-visible { color: var(--gold); text-decoration: underline; }
   table { width: 100%; border-collapse: collapse; }
   th, td { text-align: left; padding: .65rem; border-bottom: 1px solid var(--border, #645b45); vertical-align: top; }
   td:first-child { min-width: 13rem; }

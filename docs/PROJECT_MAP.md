@@ -19,7 +19,6 @@ External sources are read only during editorial work. Production depends solely 
 - `scripts/content/`: deterministic generation of search and LLM artifacts.
 - `static/`: favicon, robots rules, and machine-readable outputs copied to the site root.
 - `tests/`: dependency-free Node tests for publication rules and navigation.
-- `design/`: approved concept references and implementation decision.
 - `.github/workflows/`: validation and GitHub Pages deployment.
 
 ## Route map
@@ -30,7 +29,7 @@ External sources are read only during editorial work. Production depends solely 
 - `/{lang}/docs/{slug}/` is loaded from `content/docs/**/entity.json` plus the selected locale Markdown file.
 - `/{lang}/erm/` and `/{lang}/erm/{slug}/` load the ERM overview and articles from `content/erm`.
 - `/{lang}/erm/learn/` is deliberately heading-only.
-- `/{lang}/plugins/`, `/{lang}/plugins/getting-started/`, `/{lang}/plugins/era-api/`, `/{lang}/plugins/nh3api/`, and `/{lang}/plugins/h3api/` load the plugin guide from `content/plugins`; the NH3API group also retains a clearly deprecated H3API migration reference.
+- `/{lang}/plugins/`, `/{lang}/plugins/getting-started/`, `/{lang}/plugins/era-api/`, `/{lang}/plugins/nh3api/`, and `/{lang}/plugins/h3api/` load the plugin guide from `content/plugins`; H3API and NH3API have separate navigation groups.
 - `/api/reference/{lang}/{slug}.json` contains a prerendered copy of the article title and body for contextual navigation. `_overview.json` is the overview; these files require no server runtime.
 
 The `[lang=locale]` matcher accepts only `ru` and `en`. HTML routes use trailing slashes; static `.json` reference routes do not. All are prerendered. SvelteKit uses `paths.relative: false` so SSR and client-side language switching use the same configured `BASE_PATH`, without duplicating a repository prefix.
@@ -51,13 +50,13 @@ The “This page” scope stays inside `SearchDialog.svelte`, using the same que
 
 ## ERM interface and content
 
-`ErmAlphabet.svelte` renders all 213 legacy index entries, retaining child indentation. The list scrolls independently beside a fixed vertical alphabet and contains no search control. The Russian rail omits Ё, Й, Ы, Ъ, and Ь; present rail letters without a destination are disabled. `ErmQuickLinks.svelte` renders the 28 trigger families and 76 receiver codes with immediate localized CSS tooltips, places all object receivers in one naturally wrapping sequence, highlights the current receiver/trigger, and persists its expanded state. A collapsed block still identifies the active receiver or trigger.
+`ErmAlphabet.svelte` renders all 213 legacy index entries in the right context column by default, retaining child indentation. The list scrolls independently beside a fixed vertical alphabet and contains no search control. The Russian rail omits Ё, Й, Ы, Ъ, and Ь; present rail letters without a destination are disabled. Receiver and trigger detail pages also display a fixed rail with only the command letters present on that page. `ErmQuickLinks.svelte` renders the 28 trigger families and 76 receiver codes with immediate localized CSS tooltips, places all object receivers in one naturally wrapping sequence, highlights the current receiver/trigger, and persists its expanded state. A collapsed block still identifies the active receiver or trigger.
 
-`ContextReference.svelte` replaces the documentation outline on ERM pages. Central table/constant/global links open there; subsequent internal ERM links continue within the panel. `src/lib/reference/history.mjs` manages independent history, branch replacement, and scroll restoration. `src/lib/reference/context.mjs` prefixes panel IDs and resolves relative links while the static JSON endpoints are prerendered, avoiding a large string rewrite on old clients. Capture-phase handling reserves mouse buttons 4/5 for that independent history only when the button event's composed path is inside the panel, preventing a simultaneous main-page navigation without relying on stale hover state. On small screens the panel opens as a dismissible overlay. It does not use browser history for its internal transitions.
+`ContextReference.svelte` replaces the documentation outline on ERM pages. Its index link returns the right column to the alphabetical menu. Central table/constant/global links open there; subsequent internal ERM links continue within the panel. `src/lib/reference/history.mjs` manages independent history, branch replacement, and scroll restoration. `src/lib/reference/context.mjs` prefixes panel IDs and resolves relative links while the static JSON endpoints are prerendered, avoiding a large string rewrite on old clients. Capture-phase handling reserves mouse buttons 4/5 for that independent history only when the button event's composed path is inside the panel, preventing a simultaneous main-page navigation without relying on stale hover state. On small screens the panel opens as a dismissible overlay. It does not use browser history for its internal transitions.
 
 The same Markdown loader produces the central body and static reference JSON. Context rendering resolves relative links and image paths against the canonical article URL and prefixes IDs to prevent collisions with the central article. Every transferred legacy link targets a canonical route and an exact namespaced source anchor. Table-row anchors support direct links to individual IDs; the table parser preserves ERM pipes inside inline code.
 
-`content/erm/_registry/` holds normalized source coverage, the full legacy link graph, hierarchy, symbols, Framework inventories, forum classifications, asset provenance, and `full-transfer-audit.json`. The audit records source hashes, text slots, code hashes, link occurrences, images, and the rendered text hash for all 223 non-learning pages. `legacy-commands.json` records 544 separate command destinations taken from the source blocks. The old frameset, JavaScript, and page styles do not run on the site. See [ERM content audit](ERM_CONTENT_AUDIT.md) for scope and limits.
+`content/erm/_registry/` holds normalized source coverage, the full legacy link graph, hierarchy, symbols, Framework inventories, forum classifications, asset provenance, and `full-transfer-audit.json`. The audit records source hashes, text slots, code hashes, link occurrences, images, and the rendered text hash for all 223 non-learning pages. `legacy-commands.json` records 544 separate command destinations taken from the source blocks. The old frameset, JavaScript, and page styles do not run on the site.
 
 ## Localization
 

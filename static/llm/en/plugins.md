@@ -24,14 +24,14 @@ Do not place both `Name.era` and `Name.dll` in the directory. ERA checks for the
 | ERA API | Events, localization, ERM integration, savegame sections, resource redirection, diagnostics, and managed patch operations |
 | Patcher x86 | Named patch ownership, high- and low-level hooks, reversible patches, and patch diagnostics |
 | NH3API | C++17 declarations for game structures and functions, the patcher interface, and an optional ERA module |
-| H3API (deprecated) | Historical C++ declarations for the Heroes III 3.2 executable, retained for older plugin maintenance |
+| H3API | Independent C++ library describing the Heroes III 3.2 executable |
 | Mod package | The plugin, its data and translations, compatibility notes, and a reproducible way to identify the build |
 
-These layers are related but not interchangeable. NH3API models the executable and wraps integrations; it does not make every hard-coded address portable. H3API is retained only for maintaining older code. ERA APIs are preferable when an exported service already covers the task.
+NH3API models the executable and wraps integrations; it does not make every hard-coded address portable. H3API is a separate library with its own layout and build requirements. Use ERA APIs when an exported service covers the task.
 
 ## Choose the narrowest interface {#choice}
 
-Start with the [ERA API](./era-api/) for lifecycle events, translations, settings, save data, and resource services. Add [NH3API](./nh3api/) when you need typed C++ access to game structures or the patcher interface. Use the [H3API page](./h3api/) as a reference for deprecated projects, not as the foundation of a new plugin. Keep raw address patches as the last resort and record the exact executable and dependency versions that were tested.
+Start with the [ERA API](./era-api/) for lifecycle events, translations, settings, save data, and resource services. For typed C++ access to game structures, study the independent [H3API](./h3api/) and [NH3API](./nh3api/) libraries and select one for your build environment. Raw address patches require verification against the exact executable and dependency versions.
 
 The [getting-started guide](./getting-started/) builds a minimal `.era` module that registers an ERA handler and postpones real work until `OnAfterWoG`.
 
@@ -218,19 +218,31 @@ Once the clean module works, continue with the [ERA API map](../era-api/) and on
 
 URL: /en/plugins/h3api/
 
-The deprecated Heroes III 3.2 C++ interface: its purpose, integration modes, and a migration path to NH3API.
+An independent C++ library for Heroes III 3.2: purpose, integration, layout, and compatibility.
 
-## Status: deprecated {#status}
+## Independent library {#status}
 
-**This guide marks H3API as deprecated.** The page remains for maintaining existing plugins and understanding older code. Use [NH3API](../nh3api/) for a new ERA plugin: it is the actively documented option here, with dedicated ERA integration, modern CMake, and explicit compatibility boundaries.
+**H3API** is RoseKavalier's independent project for native Heroes III plugins. [NH3API](../nh3api/) has another author, its own codebase, and different C++ requirements. Choose a library based on the target EXE, declarations you need, and a verified build environment.
 
-The original [RoseKavalier/H3API repository](https://github.com/RoseKavalier/H3API) remains a useful historical source. Do not combine H3API and NH3API in one project without carefully checking conflicting declarations and structure layouts.
+Source repository: [RoseKavalier/H3API](https://github.com/RoseKavalier/H3API). When combining H3API and NH3API, check conflicting declarations and structure layouts.
 
 ## Purpose and target {#scope}
 
 H3API is a set of header and source files produced by reverse engineering the Heroes of Might and Magic III version 3.2 executable. It provides C++ descriptions of game structures and functions that were used to build native plugins.
 
-This is a low-level interface to a specific 32-bit program. A matching structure name does not establish compatibility with another executable: verify the target EXE, addresses, sizes, and alignments before using an old plugin.
+This is a low-level interface to a specific 32-bit program. A matching structure name does not establish compatibility with another executable: verify the target EXE, addresses, sizes, and alignments.
+
+## Repository layout {#layout}
+
+| Path | Purpose |
+| --- | --- |
+| `include/H3API.hpp` | Main header for the static library |
+| `include/` | Game types, functions, and constants |
+| `single_header/H3API.hpp` | Amalgamated header for use without building the library |
+| `CMakeLists.txt` | x86 static-library configuration |
+| `doc/` | Additional material |
+
+The code uses the `h3` namespace; game structures generally have an `H3` prefix, while constants and enumerations live in `H3Constants`. The author's structure comments document member offsets and alignment.
 
 ## Integration modes {#integration}
 
@@ -248,7 +260,7 @@ Alternatively, H3API can be built as a static library; the project adds the main
 
 The supplied CMake project selects x86 because Heroes III and the described structures depend on 32-bit sizes and alignment.
 
-## Building an old project {#build}
+## Building {#build}
 
 The README gives this basic CMake sequence:
 
@@ -257,13 +269,13 @@ cmake ..
 cmake --build .. --config Release
 ```
 
-It lists Visual Studio 2008, 2013, 2015, 2017, and 2019 as tested for building the static library. The author recommends Visual Studio 2015 or newer for fuller C++11 support and better optimization. Those statements describe upstream H3API; they do not guarantee that a particular plugin is compatible with current ERA.
+It lists Visual Studio 2008, 2013, 2015, 2017, and 2019 as tested for building the static library. The author recommends Visual Studio 2015 or newer for fuller C++11 support and better optimization. C++11 features in the source are guarded with `_H3API_CPLUSPLUS11_`.
 
-## Moving to NH3API {#migration}
+## Checking compatibility {#migration}
 
-When maintaining an old project, first pin its working H3API revision, compiler, target executable, and baseline build. Migrate in small stages: types and constants, structure access, hooks, and then ERA integration. Compare structure sizes and test on a separate game copy after every stage.
+For each build, record the H3API revision, compiler, target executable, and verified hooks. The README asks contributors to support changes with addresses and examples and to document member offsets and function parameters.
 
-Do not replace includes mechanically: similarly named entities can have different namespaces, contracts, or supported versions. Start with the [NH3API overview](../nh3api/) and prefer the [ERA API](../era-api/) whenever a platform service already solves the task without direct memory access.
+If you study [NH3API](../nh3api/) for a similar task, check contracts, namespaces, and binary layouts: these independent projects do not offer drop-in header replacements. [ERA API](../era-api/) services are integrated separately when your plugin needs them.
 
 ---
 
@@ -339,6 +351,12 @@ Call `Era::ConnectEra` as early as the minimal DLL entry path permits, then regi
 
 The repository documents separate Windows XP-compatible choices, including the `v141_xp` toolset for MSVC. That compiler target is independent of this website's browser baseline and must be tested with the plugin's actual dependencies.
 
+For C++98/11/14, the author points to the separate [v1.1 branch](https://github.com/void2012/NH3API/tree/v1.1). Check before applying the C++17 examples and requirements of v1.2 there.
+
+## Further resources {#resources}
+
+The [NH3API wiki](https://github.com/void2012/NH3API/wiki) covers installation and use; [Awesome-NH3API](https://github.com/void2012/Awesome-NH3API) collects plugin examples. The README also includes a minimal plugin using `GetPatcher()`, a named `PatcherInstance`, and a hook. Only use its demonstration absolute address with a verified executable. Core NH3API can be used without CMake; the ERA III module requires CMake.
+
 ## Patcher workflow {#patcher}
 
 The patcher header instructs a module to acquire `GetPatcher()` once, create a uniquely named `PatcherInstance`, and create patches or hooks through that owner. It exposes high-level hooks, safe/extended low-level hooks, raw writes, apply/undo/destroy operations, blocking, and a patch list dump.
@@ -348,8 +366,6 @@ Use the highest-level hook that preserves the original calling contract. Do not 
 ## Debugging and reproducibility {#debugging}
 
 Add `debugging/nh3api_std.natvis` to a Visual Studio project to inspect NH3API containers. For runtime failures, combine the native debugger with ERA's `GenerateDebugInfo` report and the patcher dump. Record the plugin binary hash, compiler, build type, NH3API commit, ERA version, executable, and active plugin list.
-
-The source snapshot used for this page is commit `454cfe2bf34b54155168c17f9bbd627df596ad7a` from 2026-09-06. Re-check upstream declarations and release notes before adopting a newer revision.
 
 ## License and compatibility boundary {#license}
 

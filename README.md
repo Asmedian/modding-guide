@@ -36,7 +36,7 @@ Before the first deployment, open the repository's **Settings → Pages** and se
 - Plugins: ERA plugin loading and packaging, a CMake/C++17 quick start, the exported ERA API map, and NH3API as an internal plugin-documentation group. The NH3API source is pinned by commit and SHA-256 in the source registry.
 - Deferred: the ERM learning course (its page contains only a heading) and Lua.
 
-See [ERM content audit](docs/ERM_CONTENT_AUDIT.md) for source coverage and validation limits.
+Source coverage and validation limits are recorded in `content/erm/_registry/` and the content tests.
 
 ## Licensing
 

@@ -2,6 +2,7 @@ import type { SymbolEntry } from '$lib/search/symbols';
 import { addImageDimensions } from '$lib/server/image-dimensions';
 import { renderReference, highlightErm, decodeReferenceText } from '$lib/reference/rich.mjs';
 import { prepareArticleMarkdown } from '$lib/content/publication.mjs';
+import legacyCommands from '../../../content/erm/_registry/legacy-commands.json';
 
 export type ContentSection = 'docs' | 'erm' | 'plugins';
 
@@ -32,6 +33,7 @@ export type Article = ArticleMeta & {
   title: string;
   summary: string;
   bodyHtml: string;
+  pageLetters?: Array<{ letter: string; id: string }>;
   sections: Array<{ id: string; label: string }>;
   sources: SourceRecord[];
   symbols?: SymbolEntry[];
@@ -261,7 +263,7 @@ function consolidateReferenceHeading(html: string, title: string, summary: strin
   const firstHeadingIndex = result.search(/<h2 id="[a-z0-9-]+">/i);
   result = result.replace(/<h2 id="([a-z0-9-]+)">([\s\S]*?)<\/h2>\s*/gi, (heading, headingId, headingHtml, offset) => {
     const legacyWrapper = /^(?:ref-rec-|ref-tr-|ref-form-|ref-cont-(?:receivers|triggers))/.test(headingId);
-    const duplicateOfPage = offset === firstHeadingIndex && titleSimilarity(headingHtml, `${title} ${summary}`) >= 0.5;
+    const duplicateOfPage = headingId !== 'ref-cont-main' && offset === firstHeadingIndex && titleSimilarity(headingHtml, `${title} ${summary}`) >= 0.5;
     const obsoleteOverviewLabel = ['ref-cont-abouthelp', 'ref-index', 'ref-titre'].includes(headingId) && /^(?:ERM-скрипты|ERM scripts)$/i.test(title);
     const headingKey = plainText(headingHtml).toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
     const repeatedHeading = sectionHeadings.has(headingKey);
@@ -730,8 +732,24 @@ function decorateHeadings(html: string, lang: 'ru' | 'en') {
   return result;
 }
 
-function decorateArticleHtml(html: string, lang: 'ru' | 'en') {
-  return decorateHeadings(decorateCodeBlocks(html, lang), lang);
+function decorateCommandAnchors(html: string, slug: string, lang: 'ru' | 'en') {
+  if (!/^(?:receivers|triggers)\/[a-z0-9-]+$/.test(slug)) return html;
+  const anchors = slug.startsWith('receivers/')
+    ? new Set(legacyCommands.filter((entry) => entry.slug === slug).map((entry) => entry.anchor))
+    : new Set(Array.from(html.matchAll(new RegExp(`id="(ref-tr-${slug.split('/')[1]}-[a-z])"`, 'g')), (match) => match[1]));
+  const label = lang === 'ru' ? 'Ссылка на команду' : 'Link to command';
+  return html.replace(/<span class="erm-anchor" id="([^"]+)"><\/span>/g, (match, id) => anchors.has(id)
+    ? `${match}<a class="command-anchor" href="#${id}" title="${label}" aria-label="${label}" data-pagefind-ignore>#</a>`
+    : match);
+}
+
+function decorateArticleHtml(html: string, lang: 'ru' | 'en', slug: string) {
+  let result = decorateCommandAnchors(decorateHeadings(decorateCodeBlocks(html, lang), lang), slug, lang);
+  if (slug === 'tables/objects') {
+    const label = lang === 'ru' ? 'Ссылка на объект' : 'Link to object';
+    result = result.replace(/(<tr\b[^>]*\bid="(id-\d+)"[^>]*>\s*<td\b[^>]*>)/g, (_match, cell, id) => `${cell}<a class="object-anchor" href="#${id}" title="${label}" aria-label="${label}" data-pagefind-ignore>#</a> `);
+  }
+  return result;
 }
 
 function directoryKey(path: string) {
@@ -798,7 +816,26 @@ async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'r
     ? applyReferenceCorrections(makeNativeTablesSortable(prefixTableHexValues(consolidated.html)), meta.slug, lang)
     : consolidated.html;
   const articleUrl = `/${lang}/${section}/${meta.slug ? `${meta.slug}/` : ''}`;
-  const decoratedHtml = decorateArticleHtml(finalHtml, lang);
+  const decoratedHtml = decorateArticleHtml(finalHtml, lang, meta.slug);
+  let pageLetters: Article['pageLetters'];
+  if (section === 'erm' && meta.slug.startsWith('receivers/')) {
+    const letters = new Map<string, string>();
+    for (const entry of legacyCommands) {
+      if (entry.slug !== meta.slug || !decoratedHtml.includes(`id="${entry.anchor}"`)) continue;
+      const letter = entry.name.split(':')[1]?.[0]?.toUpperCase();
+      if (letter && /^[A-Z]$/.test(letter) && !letters.has(letter)) letters.set(letter, entry.anchor);
+    }
+    if (letters.size) pageLetters = [...letters].sort(([a], [b]) => a.localeCompare(b)).map(([letter, id]) => ({ letter, id }));
+  } else if (section === 'erm' && meta.slug === 'tables/objects') {
+    const englishBody = lang === 'en' ? body : parseFrontmatter(await markdownLoader(directory, 'en', meta.id)()).body;
+    const letters = new Map<string, string>();
+    for (const match of englishBody.matchAll(/^\| `\d+` \{#(id-\d+)\} \|[^|]*\| (.+?) \|$/gm)) {
+      const name = match[2].replace(/^\[([^\]]+)\]\([^)]+\)/, '$1').trim();
+      const letter = name.match(/^[A-Z]/i)?.[0].toUpperCase();
+      if (letter && !letters.has(letter)) letters.set(letter, match[1]);
+    }
+    pageLetters = [...letters].sort(([a], [b]) => a.localeCompare(b)).map(([letter, id]) => ({ letter, id }));
+  }
   const publishedMeta = { ...meta } as ArticleMeta & { sectionSources?: Record<string, string[]> };
   delete publishedMeta.sectionSources;
   const article: Article = {
@@ -807,6 +844,7 @@ async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'r
     title: frontmatter.title,
     summary: frontmatter.summary,
     bodyHtml: addImageDimensions(decoratedHtml, articleUrl),
+    pageLetters,
     sections: rendered.sections.filter((item) =>
       !consolidated.removedSections.includes(item.id) &&
       !unifiedTable.removedSections.includes(item.id) &&

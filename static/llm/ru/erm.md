@@ -4,15 +4,27 @@ URL: /ru/erm/
 
 События игры, команды ERM и библиотека ERA ERM Framework.
 
-## О справочнике {#ref-cont-abouthelp}
+## ERM-HELP {#ref-cont-main}
 
 :::erm
-<section class="erm-reference" lang="ru">
-<div>
+<section class="erm-reference erm-help-intro" lang="ru">
+<div><div class="erm-align-left erm-paragraph"><strong><u>Введение</u><br>
+ERM</strong> означает <strong>Event Related Model</strong> (событийно-связанный модуль) и
+является дополнением к игре <strong>Герои 3: Дыхание Смерти™</strong>.<br>
+ERM - новая технология, позволяющая динамическое изменение игры в зависимости от
+действий игрока или компьютера.<br>
 
+Вы можете создавать свои скрипты, и данная справка может помочь в этом деле.<br>
+Новичкам рекомендуется пройти <a href="learn/">обучение</a>.
+</div><div class="erm-paragraph">
+В ранних версиях отсутствовала поддержка сетевой игры (только один игрок и
+хот-сит), но теперь WoG полностью поддерживает сетевую игру по TCP/IP.
+Исключения пока что только для некоторых скриптов, но неподдерживаемые скрипты
+отключаются автоматически.<br>
+ </div><span class="erm-anchor" id="ref-cont-main-1"></span><div>
+</div>
 
-
-
+</div>
 <div class="erm-paragraph">В справочнике используется следующая <strong>система обозначений</strong>:<br>
 Если какой-либо параметр отображен как <strong>#</strong>, то его нельзя проверить или получить, можно лишь установить.<br>
 Если какой-либо параметр отображен как <strong>?$</strong>, то он может быть только записан в переменную, установить или проверить его нельзя.<br>
@@ -34,230 +46,16 @@ URL: /ru/erm/
 Например…
 <pre class="erm-example"><code class="language-erm">!!IF:G1/1/0/33/34/35/36/37;		#1
 !!IF:G1/1/0/33/34/35/36/37////////;	#2</code></pre>
-Вариант команды #1 эквивалентен варианту #2, потому что здесь 0 означает "ничего". 
+Вариант команды #1 эквивалентен варианту #2, потому что здесь 0 означает "ничего".
 Дальнейшие параметры просто автоматически устанавливаются на 0.</div>
 
-<div class="erm-paragraph">В некоторых опциях вы можете встретить расширение синтаксиса, с припиской - "без обновления". 
-Это означает, что экран не будет перерисован заново при выполнении команды, что очень полезно для боевых скриптов 
+<div class="erm-paragraph">В некоторых опциях вы можете встретить расширение синтаксиса, с припиской - "без обновления".
+Это означает, что экран не будет перерисован заново при выполнении команды, что очень полезно для боевых скриптов
 (иначе возникают некоторые неполадки в обрисовке) и скриптов, выполняющих множество действий (ускорение действий).</div>
 
-<div class="erm-paragraph">Для просмотра <strong><u>примеров</u></strong> и <strong><u>комментариев</u></strong>, 
+<div class="erm-paragraph">Для просмотра <strong><u>примеров</u></strong> и <strong><u>комментариев</u></strong>,
 кликните на этом слове (такой блок информации раскроется ниже).</div>
-
-
-
-
-</div>
-</section>
-:::
-
-## Ссылки {#ref-cont-links}
-
-:::erm
-<section class="erm-reference" lang="ru">
-<div>
-<h3 class="erm-align-center">Ссылки</h3>
-<dl><strong><ul>
-<li><a href="http://wakeofthegods.strategyplanet.gamespy.com/">Оф. сайт New Life of Heroes</a><br>
-</li><li><a href="http://wforum.heroes35.net">Оф. форум "Новой жизни героев"</a><br>
-</li><li><a href="http://forum.df2.ru">Старый форум</a><br>
-</li><li><a href="http://heroes.obninsk.ru">Файлы Героев WoG 3.58f</a><br>
-</li><li><a href="http://wforum.heroes35.net/files/wog358_sources.rar">Исходный код WoG 3.58f</a>
-</li><li><a href="http://www.dracolich.narod.ru">ERM-помощь</a><br>
-</li><li><a href="http://h3disk.narod.ru/index1.htm">Множество всего для Героев 3.58</a>
-</li></ul></strong></dl></div>
-</section>
-:::
-
-## ERM-HELP {#ref-cont-main}
-
-:::erm
-<section class="erm-reference" lang="ru">
-<div><div class="erm-align-center erm-paragraph"><img src="../../assets/erm/e6c4b5fd05dd22e7.gif" alt="ERM-HELP version 2.10b Версия ERM: 2914 (WoG 3.58f, TE, ERA2)" loading="lazy" decoding="async" class="erm-figure" width="392" height="73"><span class="erm-source-title"><br>
-ERM-HELP</span><br>
-<span>version 2.10b<br>
-<u><strong>Версия ERM: 2914 (WoG 3.58f, TE, ERA2)</strong></u></span></div>
-<div class="erm-align-left erm-paragraph"><strong><u>Введение</u><br>
-ERM</strong> означает <strong>Event Related Model</strong> (событийно-связанный модуль) и 
-является дополнением к игре <strong>Герои 3: Дыхание Смерти™</strong>.<br>
-ERM - новая технология, позволяющая динамическое изменение игры в зависимости от 
-действий игрока или компьютера.<br>
-На данный момент подготовлено 78 официальных скриптов, влияющих на самые разные 
-аспекты игры.<br>
-Вы можете создавать свои скрипты, и данная справка может помочь в этом деле.<br>
-Новичкам рекомендуется почитать <a href="learn/">обучение</a>.
-</div><div class="erm-paragraph">
-В ранних версиях отсутствовала поддержка сетевой игры (только один игрок и 
-хот-сит), но теперь WoG полностью поддерживает сетевую игру по TCP/IP. 
-Исключения пока что только для некоторых скриптов, но неподдерживаемые скрипты 
-отключаются автоматически.<br>
- </div><span class="erm-anchor" id="ref-cont-main-1"></span><div>
-<span class="erm-source-title"><a href="./#ref-cont-abouthelp">О данной справке</a><br>
-<a href="./#ref-cont-links" data-context="true">Ссылки</a></span></div>
-
-</div>
-</section>
-:::
-
-## ERM-HELP {#ref-index}
-
-:::erm
-<section class="erm-reference" lang="ru">
-<div>
-
-
-</div>
-</section>
-:::
-
-## ERM Help {#ref-titre}
-
-:::erm
-<section class="erm-reference" lang="ru">
-<div>
-<div class="table-wrap erm-reference-table"><table width="100%"><tr>
-  <td><span>
-	<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr><td><a href="./#ref-cont-main" title="Главная">Главная</a></td></tr>
-	<tr><td><a href="start/#ref-cont-adv" title="Статьи о ERM, файлов WoG/ERA и не только..">Статьи</a></td></tr>
-	<tr><td><a href="variables/#ref-cont-flags" title="Флаги и переменные">Флаг, перем.</a></td></tr>
-	<tr><td><a href="variables/#ref-cont-usedvar" title="Таблица использованных переменных">Исп. перем.</a></td></tr>
-	<tr><td><a href="index/#ref-cont-list" data-context="true" title="Мини-алфавитный указатель наиболее востребованных опций">Содержание</a></td></tr>
-	</table></div>
-  </span></td>
-  <td><span>
-<span class="erm-anchor" id="ref-titre-1"></span><details class="erm-comment"><summary><img src="../../assets/erm/95e7fab0dd85c3ef.png" alt="Показать коды команд для объектов карты…" loading="lazy" decoding="async" class="erm-figure" title="Показать коды команд для объектов карты…"></summary><div class="erm-comment-body">
-	<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr>
-	<td><a href="receivers/cb/#ref-rec-cb" title="Настройка параметров для Банка существ">CB</a></td>
-	<td><a href="receivers/ch/#ref-rec-ch" title="Настройка параметров Сундуков сокровищ">CH</a></td>
-	<td><a href="receivers/dw/#ref-rec-dw" title="Настройка параметров для внешних Жилищ существ">DW</a></td>
-	<td><a href="receivers/fr/#ref-rec-fr" title="Настройка параметров для Костров на карте">FR</a></td>
-	<td><a href="receivers/gd/#ref-rec-gd" title="Настройка параметров Мистических садов">GD</a></td>
-	<td><a href="receivers/gr/#ref-rec-gr" title="Настройка параметров Гарнизонов">GR</a></td>
-	<td><a href="receivers/kt/#ref-rec-kt" title="Настройка параметров Древа знаний">KT</a></td>
-	<td><a href="receivers/ln/#ref-rec-ln" title="Настройка параметров Навеса (погреба) на карте">LN</a></td>
-	<td><a href="receivers/ml/#ref-rec-ml" title="Настройка параметров Ветряных мельниц">ML</a></td>
-	<td><a href="receivers/mn/#ref-rec-mn" title="Настройка параметров Шахт (Маяка)">MN</a></td>
-	<td><a href="receivers/mt/#ref-rec-mt" title="Настройка параметров Обелисков">MT</a></td>
-	<td><a href="receivers/pa/#ref-rec-pa" title="Настройка параметров Ящика Пандоры на карте">PA</a></td>
-	<td><a href="receivers/pm/#ref-rec-pm" title="Настройка параметров Пирамиды или новых объектов WoG">PM</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/qu/#ref-rec-qu" title="Настройка параметров Хижины Провидца или Стража Границы">QU</a></td>
-	<td><a href="receivers/sc/#ref-rec-sc" title="Настройка параметров Учёного на карте">SC</a></td>
-	<td><a href="receivers/sg/#ref-rec-sg" title="Настройка параметров Знака (Бутыли)">SG</a></td>
-	<td><a href="receivers/sk/#ref-rec-sk" title="Настройка параметров Скелета (трупа) на карте">SK</a></td>
-	<td><a href="receivers/sp/#ref-rec-sp" title="Настройка параметров Магического ручья на карте">SP</a></td>
-	<td><a href="receivers/sr/#ref-rec-sr" title="Настройка параметров Магических святынь">SR</a></td>
-	<td><a href="receivers/st/#ref-rec-st" title="Настройка параметров Камня знаний">ST</a></td>
-	<td><a href="receivers/sw/#ref-rec-sw" title="Установка атрибутов для Лебединого пруда">SW</a></td>
-	<td><a href="receivers/sy/#ref-rec-sy" title="Настройка параметров Верфи на карте">SY</a></td>
-	<td><a href="receivers/ur/#ref-rec-ur" title="Настройка параметров Университетов на карте">UR</a></td>
-	<td><a href="receivers/wg/#ref-rec-wg" title="Настройка параметров для Телеги">WG</a></td>
-	<td><a href="receivers/wh/#ref-rec-wh" title="Настройка параметров Хижины ведьмы">WH</a></td>
-	<td><a href="receivers/wm/#ref-rec-wm" title="Настройка параметров Водяного колеса">WM</a></td>
-	</tr>
-	<tr>
-	<td colspan="6"></td>
-	<td><a href="receivers/wt/#ref-rec-wt" title="Настройка параметров Гробниц воинов">WT</a></td>
-	<td colspan="6"></td>
-	</tr>
-	<tr>
-	<td colspan="13"><img src="../../assets/erm/b1442e85b03bdcaf.gif" alt="blank" loading="lazy" decoding="async" class="erm-figure"></td>
-	</tr>
-	<tr>
-	<td colspan="6"></td>
-	<td><a href="./#ref-titre"><img src="../../assets/erm/4aad318c4c154c76.png" alt="Вернуть основные коды команд…" loading="lazy" decoding="async" class="erm-figure" title="Вернуть основные коды команд…"></a></td>
-	<td colspan="6"></td>
-	</tr></table></div>
-<img src="../../assets/erm/b1442e85b03bdcaf.gif" alt="CB CH DW FR GD GR KT LN ML MN MT PA PM QU SC SG SK SP SR ST SW SY UR WG WH WM WT" loading="lazy" decoding="async" class="erm-figure" width="0" height="50"></div></details>
-<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr>
-	<td><a href="triggers/ae/#ref-tr-ae" title="Триггер снятия и одевания артефакта">AE</a></td>
-	<td><a href="receivers/ai/#ref-rec-ai" title="Контроль движений ИИ">AI</a></td>
-	<td><a href="receivers/ar/#ref-rec-ar" title="Используется для настройки ресурса или артефакта на карте">AR</a></td>
-	<td><a href="receivers/ba/#ref-rec-ba" title="Настройка атрибутов битвы. Обычно используется после триггера !?BA0">BA</a></td>
-	<td><a href="receivers/bf/#ref-rec-bf" title="Позволяет настроить поле битвы (разместить препядствия/объекты, или убрать их)">BF</a></td>
-	<td><a href="receivers/bg/#ref-rec-bg" title="Настройка/получение параметров в бою">BG</a></td>
-	<td><a href="receivers/bh/#ref-rec-bh" title="Боевые параметры: для героя с любой стороны">BH</a></td>
-	<td><a href="receivers/bm/#ref-rec-bm" title="Боевые параметры: для любого отряда монстров (стека), размещение мин на поле боя">BM</a></td>
-	<td><a href="triggers/br/#ref-tr-br" title="Триггер каждого раунда битвы">BR</a></td>
-	<td><a href="receivers/bu/#ref-rec-bu" title="Боевые универсальные команды (закончить бой, вызвать монстра, показать сообщение и пр.)">BU</a></td>
-	<td><a href="receivers/ca/#ref-rec-ca" title="Настройка параметров города (от названия и внешнего вида до построек и героя в гарнизоне)">CA</a></td>
-	<td><a href="receivers/cd/#ref-rec-cd" title="Настройка параметров разрушения замков игроком, зависимостей построек или их запрете, и пр.">CD</a></td>
-	<td><a href="receivers/ce/#ref-rec-ce" title="Используется для изменения параметров городских событий">CE</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/cm/#ref-rec-cm" title="Операции над информацией о кликах мышью">CM</a></td>
-	<td><a href="receivers/co/#ref-rec-co" title="Настройка параметров командиров">CO</a></td>
-	<td><span><span class="erm-tone-accent">DC</span></span></td>
-	<td><a href="receivers/dl/#ref-rec-dl" title="Позволяет настраивать собственные (нестандартные) диалоги">DL</a></td>
-	<td><a href="receivers/do/#ref-rec-do" title="Вызов циклической функции">DO</a></td>
-	<td><a href="receivers/ea/#ref-rec-ea" title="Возможность настройки бонусных линий существ с помощью ERM">EA</a></td>
-	<td><a href="receivers/ex/#ref-rec-ex" title="Поддержка опыта существ">EX</a></td>
-	<td><a href="receivers/fu/#ref-rec-fu" title="Вызов функции, прерывание выполнения кода">FU</a></td>
-	<td><a href="receivers/ge/#ref-rec-ge" title="Используется для изменения параметров глобального события">GE</a></td>
-	<td><a href="triggers/gm/#ref-tr-gm" title="Триггер загрузок и сохранений (автосохраненний)">GM</a></td>
-	<td><a href="receivers/he/#ref-rec-he" title="Настройка параметров героя (от имени и навыков до его войск, артефактов и убийства)">HE</a></td>
-	<td><a href="receivers/hl/#ref-rec-hl" title="Контроль при повышении уровня героя. Нужно использовать в триггере !?HL">HL</a></td>
-	<td><a href="triggers/hm/#ref-tr-hm" title="Триггер движения героя">HM</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/ho/#ref-rec-ho" title="Настройка параметров взаимодействий с героями">HO</a></td>
-	<td><a href="receivers/ht/#ref-rec-ht" title="Настройка подсказок для любых объектов на карте определённого типа">HT</a></td>
-	<td><a href="conditions/#ref-rec-iee" title="Конструкция If-else-endif используется для установки условий без использования новых функций">IEE</a></td>
-	<td><a href="receivers/if/#ref-rec-if" title="Работа с флагами, указания переменных героя; настройка диалогов с игроком, показ сообщений и картинок, расширенных диалогов WoG">IF</a></td>
-	<td><a href="receivers/ip/#ref-rec-ip" title="Поддержка игры по TCP/IP">IP</a></td>
-	<td><a href="receivers/le/#ref-rec-le" title="Настройка параметров локального события на карте">LE</a></td>
-	<td><a href="receivers/ma/#ref-rec-ma" title="Настройка параметров всех существ определённого типа">MA</a></td>
-	<td><a href="receivers/mc/#ref-rec-mc" title="Установка макросов (именных ссылок на ваши данные)">MC</a></td>
-	<td><a href="receivers/mf/#ref-rec-mf" title="Контроль получаемого стеком физического повреждения">MF</a></td>
-	<td><a href="triggers/mg/#ref-tr-mg" title="Триггер колдовства заклинаний на карте приключений игроком">MG</a></td>
-	<td><a href="receivers/mm/#ref-rec-mm" title="Настройка текста в битве или получения позиции мыши на поле боя">MM</a></td>
-	<td><a href="receivers/mo/#ref-rec-mo" title="Настройка параметров монстров в конкретной позиции на карте">MO</a></td>
-	<td><a href="receivers/mp/#ref-rec-mp-era" title="Контроль воспроизведения mp3-трэков">MP</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/mr/#ref-rec-mr" title="Контроль сопротивления магии. Работает только с триггером !?MR">MR</a></td>
-	<td><a href="receivers/mw/#ref-rec-mw" title="Настройка бродячих монстров">MW</a></td>
-	<td><a href="receivers/ob/#ref-rec-ob" title="Настройка параметров объекта в определённых координатах">OB</a></td>
-	<td><a href="receivers/ow/#ref-rec-ow" title="Используется для команд, направленных на определённого игрока, для настройки ресурсов; команд, контролирующих героев и время жизни без замков, и пр.">OW</a></td>
-	<td><a href="triggers/pi/#ref-tr-pi" title="Триггер-инструкция (пост-инструкция)">PI</a></td>
-	<td><a href="receivers/po/#ref-rec-po" title="Используется для работы с числовой информацией для любого квадрата карты">PO</a></td>
-	<td><a href="receivers/qw/#ref-rec-qw" title="Настройка параметров Журнала героя">QW</a></td>
-	<td><a href="loops/#ref-rec-re" title="Новые скоростные циклы высокого уровня: RE/BR/CO">RE</a></td>
-	<td><a href="receivers/rd/#ref-rec-rd" title="Настройка игрового диалога найма существ">RD</a></td>
-	<td><a href="receivers/sn/#ref-rec-sn-era" title="Информация по новым командам в ERA">SN</a></td>
-	<td><a href="receivers/ss/#ref-rec-ss" title="Настройка параметров заклинаний">SS</a></td>
-	<td><a href="triggers/th/#ref-tr-th" title="Триггер входа/выхода в городской холл">TH</a></td>
-	<td><a href="receivers/tl/#ref-rec-tl" title="Мультиплеерный контроллер времени хода.
-Таймер реального времени">TL</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/tm/#ref-rec-tm" title="Эквивалент ERM для временны́х событий в игровых картах (повторение кода через интервал, старт/оканчание действия в конкретную игровую дату)">TM</a></td>
-	<td><a href="receivers/tr/#ref-rec-tr" title="Настройка территорий или изменение проходимости квадратов">TR</a></td>
-	<td><span><span class="erm-tone-accent">VA</span></span></td>
-	<td colspan="3"></td>
-	<td></td>
-	<td colspan="3"></td>
-	<td><a href="receivers/vc/#ref-rec-vc" title="Используется для контроля переменых, функций, таймеров и др., используемых в скрипте">VC</a></td>
-	<td><a href="receivers/vr/#ref-rec-vr" title="Используется для настройки числовых и строковых переменных (настройка, сравнение и матем. и логич. операции с ними)">VR</a></td>
-	<td><a href="receivers/un/#ref-rec-un" title="Универсальная команда влияния на карту и/или игру (от работы с комбо-артефактами и контроля видимости на карте до внешнего вида курсора и непосредственной работы с памятью игры)">UN</a></td>
-	</tr></table></div>
-	<td><span>
-	<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr><td><a href="triggers/#ref-cont-triggers" title="Перечень триггеров ERM">Триггеры</a></td></tr>
-	<tr><td><a href="receivers/#ref-cont-receivers" title="Перечень ресиверов ERM">Ресиверы</a></td></tr>
-	<tr><td><div><a href="receivers/#ref-cont-receiversa" title="Таблица ресивероя для объектов">Др. объекты</a></div></td></tr>
-	<tr><td><a href="triggers/#ref-era-new-events" title="Описание новых триггеров ERA, именованных событий">События</a></td></tr>
-	<tr><td><a href="tables/#ref-cont-form" data-context="true" title="Список таблиц">Таблицы</a></td>
-	</tr></table></div>
-  </span></td>
-  </span></td></tr>
-</table></div>
-<a href="../../assets/erm/eb127b364e491583.eot"></a>
-<a href="../../assets/erm/1b20b818be881cf1.ttf"></a></div>
+<span class="erm-anchor erm-legacy-alias" id="ref-titre-1"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-abouthelp"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-links"></span><span class="erm-anchor erm-legacy-alias" id="ref-index"></span><span class="erm-anchor erm-legacy-alias" id="ref-titre"></span>
 </section>
 :::
 
@@ -12053,289 +11851,17 @@ URL: /ru/erm/index/
 
 Коды команд, имена событий, функции, переменные и константы.
 
-## Ресиверы {#ref-cont-list}
-
 :::erm
-<section class="erm-reference" lang="ru">
-<div>
-
-
-
-<span class="erm-anchor" id="ref-cont-list-text"></span><div>
-<div class="erm-align-center erm-paragraph"><span>Алфавитный 
-указатель</span></div> 
-<pre><span class="erm-anchor" id="ref-cont-list-1"></span><a href="../receivers/un/#ref-rec-un-j5">Автосохранения</a>
-<a href="../receivers/ar/#ref-rec-ar">Артефакт</a>
-	<a href="../receivers/un/#ref-rec-un-a">Доступность</a>
-	<a href="../receivers/un/#ref-rec-un-a2">Комбо-артефакты</a>
-	<a href="../receivers/un/#ref-rec-un-a1">Номер заклинания</a>
-	<a href="../receivers/ar/#ref-rec-ar-v">Номер заклинания (свиток)</a>
-	<a href="../receivers/ar/#ref-rec-ar-x">Охрана</a>
-	<a href="../receivers/un/#ref-rec-un-a1">Параметры артефакта</a>
-	<a href="../receivers/ar/#ref-rec-ar-m">Сообщение</a>
-	<a href="../receivers/un/#ref-rec-un-j7">Торговля артефактами</a>
-
-<span class="erm-anchor" id="ref-cont-list-2"></span><a href="../receivers/cb/#ref-rec-cb">Банк существ</a>
-<a href="../receivers/ba/#ref-rec-ba">Битва</a>
-	<a href="../receivers/bm/#ref-rec-bm-v">Анимация заклинаний</a>
-	<a href="../receivers/ba/#ref-rec-ba-m">Армии в начале боя</a>
-	<a href="../receivers/ba/#ref-rec-ba-q">Быстрая битва</a>
-	<a href="../receivers/bu/#ref-rec-bu-s">Вызвать монстра</a>
-	<a href="../receivers/ba/#ref-rec-ba-h">Герои</a>
-	<a href="../receivers/bg/#ref-rec-bg-a">Действие монстра</a>
-	<a href="../receivers/bh/#ref-rec-bh-m">Доступность колдовства</a>
-	<a href="../receivers/bh/#ref-rec-bh-c">Колдовство заклинания</a>
-	<a href="../receivers/bh/#ref-rec-bh-q">Мины/зыбучие пески</a>
-	<a href="../receivers/bg/#ref-rec-bg-n">Номер активного стека</a>
-	<a href="../receivers/ba/#ref-rec-ba-s">Осада</a>
-	<a href="../receivers/ba/#ref-rec-ba-d">Отмена боя</a>
-	<a href="../receivers/bm/#ref-rec-bm">Параметры монстров</a>
-	<a href="../receivers/bu/#ref-rec-bu-v">Победа</a>
-	<a href="../receivers/un/#ref-rec-un-j11">Поведение мыши на отряде</a>
-	<a href="../receivers/mm/#ref-rec-mm-d">Позиция курсора на поле</a>
-	<a href="../tables/battlefield/#ref-form-bf">Поле боя</a>
-	<a href="../receivers/bu/#ref-rec-bu-g">Почва</a>
-	<a href="../tables/obstacles/#ref-form-obstacles">Препятствия (список)</a>
-	<a href="../receivers/bf/#ref-rec-bf-o">Препятствия (установить)</a>
-	<a href="../receivers/bu/#ref-rec-bu-e">Проверка, «жив» ли монстр</a>
-	<a href="../receivers/bu/#ref-rec-bu-t">Проверка на тактическую фазу</a>
-	<a href="../receivers/bu/#ref-rec-bu-d">Проверка на труп монстра</a>
-	<a href="../receivers/mm/#ref-rec-mm">Сообщение в бою</a>
-	<a href="../receivers/bu/#ref-rec-bu-m">Текст в истории битвы</a>
-	<a href="../receivers/bm/#ref-rec-bm-p">Телепортация</a>
-	<a href="../receivers/bf/#ref-rec-bf-c">Убрать препятствия</a>
-	<a href="../receivers/bg/#ref-rec-bg-d">Установить цель действия</a>
-	<a href="../receivers/ba/#ref-rec-ba-b">Фон битвы</a>
-	<a href="../receivers/ba/#ref-rec-ba-o">Хозяева сражающихся</a>
-<a href="../receivers/he/#ref-rec-he-y">Благословения и проклятья</a>
-<a href="../receivers/mw/#ref-rec-mw">Бродячие монстры</a>
-<a href="../receivers/sg/#ref-rec-sg">Бутылка и знак</a>
-
-<span class="erm-anchor" id="ref-cont-list-3"></span><a href="../receivers/un/#ref-rec-un-v">Версия ERM и WoG/ERA</a>
-<a href="../receivers/sy/#ref-rec-sy">Верфь</a>
-<a href="../receivers/ml/#ref-rec-ml">Ветряная мельница</a>
-<a href="../receivers/wm/#ref-rec-wm">Водяная мельница</a>
-<a href="../receivers/un/#ref-rec-un-g">Вторичный навык: описание</a>
-<a href="../triggers/ob/#ref-tr-ob">Вход в объект</a>
-
-<span class="erm-anchor" id="ref-cont-list-4"></span><a href="../receivers/gr/#ref-rec-gr">Гарнизон</a>
-<a href="../receivers/he/#ref-rec-he">Герой</a>
-	<a href="../receivers/he/#ref-rec-he-a">Артефакты</a>
-	<a href="../receivers/he/#ref-rec-he-b1">Биография</a>
-	<a href="../receivers/he/#ref-rec-he-y">Благословения и проклятья</a>
-	<a href="../receivers/ho/#ref-rec-ho">Взаимодействия</a>
-	<a href="../receivers/he/#ref-rec-he-s">Вторичные навыки</a>
-	<a href="../receivers/he/#ref-rec-he-t">Вызвать битву</a>
-	<a href="../receivers/he/#ref-rec-he-r3">Доступность</a>
-	<a href="../receivers/he/#ref-rec-he-m">Заклинания</a>
-	<a href="../receivers/he/#ref-rec-he-b0">Имя</a>
-	<a href="../receivers/he/#ref-rec-he-b2">Класс</a>
-	<a href="../receivers/he/#ref-rec-he-p">Координаты</a>
-	<a href="../receivers/he/#ref-rec-he-i">Мана</a>
-	<a href="../receivers/he/#ref-rec-he-c">Монстры</a>
-	<a href="../receivers/he/#ref-rec-he-r">Мораль</a>
-	<a href="../receivers/if/#ref-rec-if-w">Настройка <em>w</em>-переменных</a>
-	<a href="../receivers/he/#ref-rec-he-h">Начальная армия</a>
-	<a href="../receivers/he/#ref-rec-he-g">Начальные очки передвижения</a>
-	<a href="../receivers/he/#ref-rec-he-n">Номер</a>
-	<a href="../receivers/he/#ref-rec-he-e">Опыт</a>
-	<a href="../receivers/he/#ref-rec-he-w">Очки движения</a>
-	<a href="../receivers/he/#ref-rec-he-u">Патруль</a>
-	<a href="../receivers/he/#ref-rec-he-f">Первичные параметры</a>
-	<a href="../receivers/ho/#ref-rec-ho-h">Подсказка</a>
-	<a href="../receivers/he/#ref-rec-he-r2">Половая принадлежность</a>
-	<a href="../receivers/he/#ref-rec-he-l">Портрет</a>
-	<a href="../receivers/he/#ref-rec-he-v">Посещённые объекты</a>
-	<a href="../receivers/he/#ref-rec-he-x">Специальность</a>
-	<a href="../receivers/sn/#ref-rec-sn-era-h-spec">Специальность: текст</a>
-	<a href="../receivers/un/#ref-rec-un-g2">Специальность: картинка</a>
-	<a href="../receivers/he/#ref-rec-he-k">Убить</a>
-	<a href="../receivers/he/#ref-rec-he-r1">Удача</a>
-	<a href="../receivers/he/#ref-rec-he-d">Улучшение существ</a>
-	<a href="../receivers/un/#ref-rec-un-j1">Уровень: ограничение</a>
-	<a href="../receivers/hl/#ref-rec-hl">Уровень: получение</a>
-	<a href="../receivers/he/#ref-rec-he-o">Хозяин</a>
-<a href="../receivers/ge/#ref-rec-ge">Глобальное событие</a>
-<a href="../receivers/ca/#ref-rec-ca">Город</a>
-	<a href="../receivers/ca/#ref-rec-ca-i">Внешний вид</a>
-	<a href="../receivers/ca/#ref-rec-ca-m">Гарнизон</a>
-	<a href="../receivers/ca/#ref-rec-ca-h">Герои</a>
-	<a href="../receivers/ca/#ref-rec-ca-g">Гильдия магов</a>
-	<a href="../triggers/th/#ref-tr-th">Городской холл</a>
-	<a href="../receivers/ca/#ref-rec-ca-m">Доступные монстры (не скупленные)</a>
-	<a href="../receivers/un/#ref-rec-un-t">Доступные монстры (для найма)</a>
-	<a href="../receivers/ca/#ref-rec-ca-g">Заклинания</a>
-	<a href="../receivers/ca/#ref-rec-ca-b">Здания</a>
-	<a href="../receivers/ca/#ref-rec-ca-n">Имя</a>
-	<a href="../receivers/ca/#ref-rec-ca-u">Номер на карте</a>
-	<a href="../receivers/cd/#ref-rec-cd">Разрушение</a>
-	<a href="../receivers/ca/#ref-rec-ca-r">Статус построек</a>
-	<a href="../receivers/ca/#ref-rec-ca-t">Тип</a>
-	<a href="../receivers/ca/#ref-rec-ca-o">Хозяин</a>
-<a href="../receivers/wt/#ref-rec-wt">Гробница воина</a>
-
-<span class="erm-anchor" id="ref-cont-list-5"></span><a href="../triggers/hm/#ref-tr-hm">Движения героя</a>
-<a href="../receivers/kt/#ref-rec-kt">Дерево Знаний</a>
-<a href="../receivers/if/#ref-rec-if">Диалоги</a>
-	<a href="../receivers/if/#ref-rec-if-x">Вопрос Сфинкса</a>
-	<a href="../receivers/if/#ref-rec-if-q">Вопросы</a>
-	<a href="../receivers/if/#ref-rec-if-g">Выбор из вариантов</a>
-	<a href="../receivers/if/#ref-rec-if-e">Диалог</a>
-	<a href="../receivers/rd/#ref-rec-rd">Диалог найма существ</a>
-	<a href="../receivers/if/#ref-rec-if-f">Добавить подсказки</a>
-	<a href="../receivers/if/#ref-rec-if-p">Показ картинки (анимации)</a>
-	<a href="../receivers/if/#ref-rec-if-m">Сообщение</a>
-
-<span class="erm-anchor" id="ref-cont-list-7"></span><a href="../receivers/dw/#ref-rec-dw">Жилища существ</a>
-<a href="../receivers/qw/#ref-rec-qw">Журнал</a>
-
-<span class="erm-anchor" id="ref-cont-list-8"></span><a href="../receivers/un/#ref-rec-un-r6">Задержка</a>
-<a href="../triggers/gm/#ref-tr-gm">Загрузка и сохранение</a>
-<a href="../receivers/ss/#ref-rec-ss">Заклинания</a>
-	<a href="../receivers/un/#ref-rec-un-j">Запретить</a>
-	<a href="../triggers/mg/#ref-tr-mg">Колдовство на карте</a> (триггер)
-	<a href="../receivers/ow/#ref-rec-ow-s">Колдовство на карте</a> (выполнить)
-<a href="../receivers/sn/#ref-rec-sn">Звуки</a> (wav)
-	<a href="../receivers/mp/#ref-rec-mp-era">mp3-файлы</a>
-<a href="../receivers/sg/#ref-rec-sg">Знак и бутыль</a>
-
-<span class="erm-anchor" id="ref-cont-list-9"></span><a href="../receivers/ow/#ref-rec-ow">Игрок</a>
-<a href="../receivers/ai/#ref-rec-ai">ИИ</a>
-<a href="../syntax/#ref-cont-receiversol-instr">Инструкции</a>
-<a href="../variables/#ref-cont-usedvar">Использованные переменные</a>
-
-<span class="erm-anchor" id="ref-cont-list-10"></span><a href="../receivers/st/#ref-rec-st">Камень знаний</a>
-<a href="../receivers/un/#ref-rec-un-h">Карта: закрыть участок</a>
-	<a href="../receivers/un/#ref-rec-un-s">Открыть</a>
-	<a href="../receivers/un/#ref-rec-un-l">Переместить взгляд</a>
-	<a href="../receivers/un/#ref-rec-un-x">Размер</a>
-<a href="../tables/bits/#ref-form-16to10" data-context="true">Конвертер HEX-значений</a>
-<a href="../receivers/co/#ref-rec-co">Командиры</a>
-	<a href="../receivers/un/#ref-rec-un-j13">Обнуление</a>
-<a href="../tables/object-control-words/#ref-cont-conwords">Контрольные слова объектов</a>
-<a href="../receivers/fr/#ref-rec-fr">Костёр покинутого лагеря</a>
-<a href="../receivers/un/#ref-rec-un-r5">Курсор</a>
-	<a href="../receivers/un/#ref-rec-un-r7">Показать/скрыть</a>
-
-<span class="erm-anchor" id="ref-cont-list-11"></span><a href="../receivers/sw/#ref-rec-sw">Лебединое озеро</a>
-<a href="../tables/object-control-words/#ref-cont-conwords-logic">Логические битовые операции</a>
-	<a href="../receivers/vr/#ref-rec-vr-and">И</a>
-	<a href="../receivers/vr/#ref-rec-vr-or">ИЛИ</a>
-	<a href="../receivers/vr/#ref-rec-vr-xor">Исключающее ИЛИ</a>
-<a href="../receivers/le/#ref-rec-le">Локальное событие</a>
-
-<span class="erm-anchor" id="ref-cont-list-12"></span><a href="../receivers/mc/#ref-rec-mc">Макросы</a>
-<a href="../receivers/mn/#ref-rec-mn">Маяк</a>
-<a href="../receivers/un/#ref-rec-un-m">Месяц</a>
-<a href="../receivers/gd/#ref-rec-gd">Мистический сад</a>
-<a href="../receivers/ma/#ref-rec-ma">Монстр</a>
-	<a href="../receivers/sn/#ref-rec-sn-era-h-mon">Имя/Описание</a>
-	<a href="../tables/projectiles/#ref-form-weapon" data-context="true">Тип снаряда</a>
-<a href="../receivers/mo/#ref-rec-mo">Монстр на карте</a>
-<a href="../receivers/cm/#ref-rec-cm">Мышь</a>
-
-<span class="erm-anchor" id="ref-cont-list-13"></span><a href="../receivers/ln/#ref-rec-ln">Навес</a>
-<a href="../receivers/un/#ref-rec-un-n">Название</a>
-<a href="../receivers/un/#ref-rec-un-k">Неделя</a>
-
-<span class="erm-anchor" id="ref-cont-list-14"></span><a href="../receivers/mt/#ref-rec-mt">Обелиск</a>
-<a href="../receivers/un/#ref-rec-un-r">Обновление экрана</a>
-<a href="../receivers/ob/#ref-rec-ob">Объект</a>
-	<a href="../tables/wog-object-variants/#ref-form-newobj" data-context="true">Новые WoG-объекты</a>
-	<a href="../receivers/un/#ref-rec-un-u">Подсчёт</a>
-	<a href="../receivers/un/#ref-rec-un-i">Размещение на карте</a>
-	<a href="../receivers/un/#ref-rec-un-o">Удаление с карты</a>
-<a href="../receivers/un/#ref-rec-un-p2">Опции WoG</a>
-<a href="../receivers/ex/#ref-rec-ex">Опыт отрядов</a>
-<a href="../receivers/ea/#ref-rec-ea">Опыт существ</a>
-
-<span class="erm-anchor" id="ref-cont-list-15"></span><a href="../receivers/po/#ref-rec-po">Параметры квадратов</a>
-<a href="../receivers/vr/#ref-rec-vr">Переменные</a>
-<a href="../receivers/pm/#ref-rec-pm">Пирамиды</a>
-<a href="../receivers/un/#ref-rec-un-q">Победа в игре</a>
-<a href="../receivers/ht/#ref-rec-ht">Подсказки</a>
-<a href="../triggers/hl/#ref-tr-hl">Получение уровня героем</a>
-
-<span class="erm-anchor" id="ref-cont-list-16"></span><a href="../syntax/#ref-cont-receiversol">Ресиверы</a>
-<a href="../receivers/ar/#ref-rec-ar">Ресурсы на карте</a>
-<a href="../receivers/ow/#ref-rec-ow-r">Ресурсы у игрока</a>
-
-<span class="erm-anchor" id="ref-cont-list-17"></span><a href="../receivers/sr/#ref-rec-sr">Святыня магии</a>
-<a href="../receivers/ip/#ref-rec-ip">Сетевая игра</a>
-	<a href="../variables/#ref-cont-flags-mp">Флаги контроля</a>
-	<a href="../receivers/un/#ref-rec-un-v2">Проверка в игре</a>
-	<a href="../receivers/ba/#ref-rec-ba-e">Проверка в битве</a>
-	<a href="../receivers/fu/#ref-rec-fu-d">Удалённый вызов ф-ции</a>
-<a href="../receivers/sk/#ref-rec-sk">Скелет</a>
-<a href="../receivers/ce/#ref-rec-ce">Событие в городе</a>
-<a href="../receivers/mr/#ref-rec-mr">Сопротивление магии</a>
-<a href="../receivers/qu/#ref-rec-qu">Страж Границы</a>
-<a href="../receivers/ch/#ref-rec-ch">Сундук сокровищ</a>
-
-<span class="erm-anchor" id="ref-cont-list-18"></span><a href="../receivers/tm/#ref-rec-tm">Таймер</a>
-<a href="../receivers/wg/#ref-rec-wg">Телега</a>
-<a href="../receivers/tr/#ref-rec-tr">Территория</a>
-<a href="../receivers/if/#ref-rec-if-select">Текст (выделение)</a>
-	<a href="../receivers/if/#ref-era-color-text">Цветной текст</a>
-<a href="../triggers/#ref-cont-triggersol">Триггеры</a>
-<a href="../tables/object-control-words/#ref-cont-conwords-t62">Тюрьма, герой</a>
-
-<span class="erm-anchor" id="ref-cont-list-19"></span><a href="../receivers/ur/#ref-rec-ur">Университет</a>
-<a href="../receivers/sc/#ref-rec-sc">Учёный</a>
-
-<span class="erm-anchor" id="ref-cont-list-20"></span><a href="../receivers/mf/#ref-rec-mf">Физический урон</a>
-<a href="../receivers/if/#ref-rec-if-v">Флаги</a>
-<a href="../receivers/fu/#ref-rec-fu">Функция</a>
-	<a href="../receivers/do/#ref-rec-do">Круговая</a>
-
-<span class="erm-anchor" id="ref-cont-list-21"></span><a href="../receivers/wh/#ref-rec-wh">Хижина ведьмы</a>
-<a href="../receivers/qu/#ref-rec-qu">Хижина провидца</a>
-
-<span class="erm-anchor" id="ref-cont-list-22"></span><a href="../loops/#ref-rec-re">Цикл</a>
-
-<span class="erm-anchor" id="ref-cont-list-23"></span><a href="../receivers/un/#ref-rec-un-v3">Чит-коды (проверка)</a>
-	<a href="../receivers/un/#ref-rec-un-cheat">Разрешить/запретить</a>
-
-<span class="erm-anchor" id="ref-cont-list-24"></span><a href="../receivers/mn/#ref-rec-mn">Шахта</a>
-
-<span class="erm-anchor" id="ref-cont-list-26"></span><a href="../compatibility/#ref-era-index">ЭРА</a> (ERA)
-	<a href="../receivers/sn/#ref-rec-sn-era">Новые команды</a>
-	<a href="../triggers/#ref-cont-triggers-era">Триггеры/события</a>
-	<a href="../receivers/sn/#ref-era-api">Функции/процедуры</a>
-
-<span class="erm-anchor" id="ref-cont-list-28"></span><a href="../receivers/pa/#ref-rec-pa">Ящик Пандоры</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
-</div></div>
-</section>
+<section class="erm-reference"><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-text"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-1"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-2"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-3"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-4"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-5"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-7"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-8"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-9"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-10"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-11"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-12"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-13"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-14"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-15"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-16"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-17"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-18"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-19"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-20"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-21"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-22"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-23"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-24"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-26"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-28"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list"></span></section>
 :::
-
-## Поиск по символу {#catalog}
-
-Фильтруйте по коду, имени или букве. Индекс включает подкоманды, события и алиасы, функции Framework, глобальные переменные и каждую константу. Точные имена сохраняются одинаковыми в RU и EN.
 
 ## Тематические каталоги {#references}
 
 [Триггеры](../triggers/) · [Ресиверы](../receivers/) · [Функции](../framework/functions/) · [Глобальные переменные](../framework/globals/) · [Константы](../framework/constants/) · [Таблицы](../tables/)
+
+## Поиск по символу {#catalog}
+
+Фильтруйте по коду, имени или букве. Индекс включает подкоманды, события и алиасы, функции Framework, глобальные переменные и каждую константу. Точные имена сохраняются одинаковыми в RU и EN.
 
 ## Связанные команды и таблицы {#reference-links}
 

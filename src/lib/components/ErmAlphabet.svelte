@@ -1,7 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
-  import UiIcon from '$lib/components/UiIcon.svelte';
   export let lang: Locale;
   export let entries: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }>;
   $: t = translator(lang);
@@ -22,8 +21,7 @@
   }
 </script>
 
-<details class="nav-group erm-alphabet" open>
-  <summary><span class="sidebar-group-icon" aria-hidden="true"><UiIcon name="sidebar-erm-reference" /></span><h2>{t('erm.index.title')}</h2><span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span></summary>
+<div class="erm-alphabet">
   <div class="alphabet-frame">
     <!-- Keyboard users can focus and scroll this independent region. -->
     <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
@@ -43,12 +41,12 @@
       {/each}
     </nav>
   </div>
-  <a class="full-symbol-index" href={`${base}/${lang}/erm/index/`}>{t('erm.index.symbols')} <UiIcon name="arrow-right" /></a>
-</details>
+  <a class="full-symbol-index" href={`${base}/${lang}/erm/index/`}>{t('erm.index.symbols')}</a>
+</div>
 
 <style>
-  .erm-alphabet { margin: 0 0 .15rem; padding-top: 0; border-top: 0; }
-  .alphabet-frame { display: flex; height: clamp(380px, 64vh, 670px); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .erm-alphabet { display: flex; flex-direction: column; min-height: 0; flex: 1; }
+  .alphabet-frame { display: flex; flex: 1; min-height: 0; border-bottom: 1px solid var(--border); }
   .alphabet-scroll { flex: 1; min-width: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: .5rem .25rem; }
   .alphabet-group { margin-bottom: .65rem; }
   .alphabet-group a { display: block; padding: .3rem .45rem; line-height: 1.35; font-size: .9rem; overflow-wrap: anywhere; }
@@ -59,5 +57,6 @@
   .alphabet-rail button { flex: 1; min-height: 0; width: 24px; border: 0; padding: 0; font: 600 .71rem/1 var(--font-body, sans-serif); color: var(--gold); background: transparent; cursor: pointer; }
   .alphabet-rail button:disabled { color: var(--text-muted); opacity: .3; cursor: default; }
   .alphabet-rail button.active { background: var(--gold-soft); color: var(--text); }
+  .alphabet-rail button:not(:disabled):hover, .alphabet-rail button:not(:disabled):focus-visible { background: var(--gold-soft); color: var(--text); }
   .full-symbol-index { display: block; margin-top: .6rem; padding: .3rem .5rem; font-size: .8rem; color: var(--gold); }
 </style>

@@ -71,7 +71,16 @@ for (const entry of manifest.entities) {
     assert.equal(data.title, entry.title, `${entry.id}: contextual title matches`);
     const articlePath = new URL(entry.url, origin).pathname;
     const preparedArticle = prepareContextHtml(html.get(target), articlePath);
-    assert.ok(data.bodyHtml && preparedArticle.includes(data.bodyHtml), `${entry.id}: context has the complete canonical article body`);
+    if (entry.slug === 'index') {
+      const divider = '<h2 id="context-reference-links">';
+      const at = data.bodyHtml.indexOf(divider);
+      assert.ok(at >= 0, `${entry.id}: related links remain after the symbol catalog`);
+      const before = preparedArticle.indexOf(data.bodyHtml.slice(0, at));
+      const after = preparedArticle.indexOf(data.bodyHtml.slice(at));
+      assert.ok(before >= 0 && after > before, `${entry.id}: context has both exact canonical body segments around the symbol catalog`);
+    } else {
+      assert.ok(data.bodyHtml && preparedArticle.includes(data.bodyHtml), `${entry.id}: context has the complete canonical article body`);
+    }
     referenceFiles += 1;
   }
 }

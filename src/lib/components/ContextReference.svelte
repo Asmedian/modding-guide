@@ -4,7 +4,9 @@
   import { translator, type Locale } from '$lib/i18n';
   import { pushReference, moveReference } from '$lib/reference/history.mjs';
   import UiIcon from '$lib/components/UiIcon.svelte';
+  import ErmAlphabet from '$lib/components/ErmAlphabet.svelte';
   export let lang: Locale;
+  export let entries: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }> = [];
   export let expanded = false;
   $: t = translator(lang);
   type Entry = { url: string; title: string; bodyHtml: string; scroll: number };
@@ -19,6 +21,7 @@
   let abort: AbortController | null = null;
   let historyButtonDown = false;
   let pane: HTMLDivElement;
+  let showIndex = true;
   onDestroy(() => { request++; abort?.abort(); });
   function saveScroll() { if (current && scroller) current.scroll = scroller.scrollTop; }
   export async function openReference(href: string) {
@@ -27,7 +30,7 @@
     if (url.origin !== window.location.origin || !url.pathname.startsWith(prefix)) return false;
     const slug = url.pathname.slice(prefix.length).replace(/\/$/, '');
     if (slug === 'learn') return false;
-    saveScroll(); expanded = true; loading = true; failure = ''; pendingUrl = url.href;
+    saveScroll(); expanded = true; showIndex = false; loading = true; failure = ''; pendingUrl = url.href;
     const token = ++request;
     abort?.abort(); abort = new AbortController();
     try {
@@ -49,6 +52,7 @@
     return true;
   }
   async function move(direction: number) {
+    showIndex = false;
     saveScroll(); request++; abort?.abort(); loading = false; failure = '';
     history = moveReference(history, direction);
     await tick();
@@ -62,6 +66,7 @@
     if (url.origin !== window.location.origin || !url.pathname.startsWith(`${base}/${lang}/erm/`) || url.pathname.endsWith('/learn/')) return;
     event.preventDefault(); event.stopPropagation(); void openReference(url.href);
   }
+  function openIndex() { saveScroll(); showIndex = true; expanded = true; }
   function ownMouseHistory(event: MouseEvent) {
     if ((event.button !== 3 && event.button !== 4) || !event.composedPath().includes(pane)) return;
     event.preventDefault();
@@ -89,22 +94,21 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div class="reference-pane" bind:this={pane} on:pointerleave={() => { historyButtonDown = false; }}>
   <div class="reference-toolbar">
-    <h2>{t('erm.context.title')}</h2>
+    <h2><button class="index-switch" type="button" on:click={openIndex} aria-current={showIndex ? 'page' : undefined}>{t('erm.index.title')}</button></h2>
     <div>
       <button type="button" aria-label={t('erm.context.back')} title={t('erm.context.back')} disabled={history.index <= 0} on:click={() => move(-1)}><UiIcon name="arrow-left" /></button>
       <button type="button" aria-label={t('erm.context.forward')} title={t('erm.context.forward')} disabled={history.index >= history.entries.length - 1} on:click={() => move(1)}><UiIcon name="arrow-right" /></button>
-      {#if current}<a href={current.url} title={t('erm.context.open')} aria-label={t('erm.context.open')}><UiIcon name="external" /></a>{/if}
+      {#if current && !showIndex}<a href={current.url} title={t('erm.context.open')} aria-label={t('erm.context.open')}><UiIcon name="external" /></a>{/if}
       <button type="button" class="reference-close" aria-label={t('erm.context.close')} on:click={() => (expanded = false)}><UiIcon name="close" /></button>
     </div>
   </div>
   <div class="reference-scroll" bind:this={scroller}>
-    {#if failure}<p role="alert">{failure}</p><a href={pendingUrl}>{t('erm.context.open')}</a>{/if}
-    {#if current}
+    {#if showIndex}<ErmAlphabet {lang} {entries} />
+    {:else if failure}<p role="alert">{failure}</p><a href={pendingUrl}>{t('erm.context.open')}</a>
+    {:else if current}
       <h3 class="reference-title" bind:this={heading} tabindex="-1">{current.title}</h3>
       <!-- svelte-ignore a11y_click_events_have_key_events a11y_no_static_element_interactions -->
       <div class="article-body reference-body" on:click={follow}>{@html current.bodyHtml}</div>
-    {:else if !loading && !failure}
-      <p class="reference-empty">{t('erm.context.empty')}</p>
     {/if}
   </div>
 </div>
@@ -113,13 +117,15 @@
   .reference-pane { position: sticky; top: 0; height: calc(100vh - var(--header-height)); display: flex; flex-direction: column; min-height: 0; }
   .reference-toolbar { flex-shrink: 0; padding: 1rem; border-bottom: 1px solid var(--border); background: var(--surface-background, var(--surface)); }
   .reference-toolbar h2 { font-size: .82rem; line-height: 1.4; margin: 0 0 .5rem; color: var(--gold); }
+  .reference-toolbar .index-switch { display: inline; min-width: 0; height: auto; padding: 0; border: 0; color: var(--gold); background: transparent; text-align: left; text-decoration: underline; text-underline-offset: .2em; font: inherit; }
+  .reference-toolbar .index-switch:hover, .reference-toolbar .index-switch:focus-visible { color: var(--text); }
   .reference-toolbar > div { display: flex; gap: .4rem; }
   .reference-toolbar button, .reference-toolbar a { min-width: 34px; height: 30px; padding: 0 .4rem; display: grid; place-items: center; border: 1px solid var(--border); border-radius: 3px; color: var(--gold); background: transparent; cursor: pointer; }
   .reference-toolbar button:disabled { opacity: .3; cursor: default; }
+  .reference-toolbar button:not(:disabled):hover, .reference-toolbar button:not(:disabled):focus-visible, .reference-toolbar a:hover, .reference-toolbar a:focus-visible { color: var(--text); border-color: var(--gold-soft); background: var(--gold-soft); }
   .reference-toolbar .reference-close { display: none; margin-left: auto; }
-  .reference-scroll { overflow: auto; overscroll-behavior: contain; padding: 1rem; position: relative; min-height: 0; flex: 1; }
+  .reference-scroll { display: flex; flex-direction: column; overflow: auto; overscroll-behavior: contain; padding: 1rem; position: relative; min-height: 0; flex: 1; }
   .reference-title { font-size: 1.15rem; color: var(--gold); margin: 0 0 1rem; }
-  .reference-empty { font-size: .85rem; color: var(--text-muted); }
   .reference-body { font-size: .83rem; }
   .reference-body :global(h2) { font-size: 1rem; margin-top: 1.4rem; }
   .reference-body :global(h3) { font-size: .92rem; }

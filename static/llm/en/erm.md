@@ -4,15 +4,27 @@ URL: /en/erm/
 
 Game events, ERM commands, and the ERA ERM Framework library.
 
-## About the reference {#ref-cont-abouthelp}
+## ERM-HELP {#ref-cont-main}
 
 :::erm
-<section class="erm-reference" lang="en">
-<div>
+<section class="erm-reference erm-help-intro" lang="en">
+<div><div class="erm-align-left erm-paragraph"><strong><u>Introduction</u><br>
+ERM</strong> means <strong>Event Related Model</strong> (event-related module) and
+is an addition to the game <strong>Heroes 3: Breath of Death™</strong>.<br>
+ERM is a new technology that allows dynamic changes in the game depending on
+actions of the player or computer.<br>
 
+You can create your own scripts, and this help can help in this matter.<br>
+Beginners are advised to complete <a href="learn/">training</a>.
+</div><div class="erm-paragraph">
+Early versions lacked support for online play (only one player and
+hotseat), but WoG now fully supports online play over TCP/IP.
+Exceptions for now are only for some scripts, but unsupported scripts
+turn off automatically.<br>
+ </div><span class="erm-anchor" id="ref-cont-main-1"></span><div>
+</div>
 
-
-
+</div>
 <div class="erm-paragraph">The reference book uses the following <strong>notation system</strong>:<br>
 If any parameter is displayed as <strong>#</strong>, then it cannot be verified or obtained, it can only be installed.<br>
 If any parameter is displayed as <strong>?$</strong>, then it can only be written to a variable; it cannot be set or checked.<br>
@@ -34,230 +46,16 @@ you can simply omit further parameters.<br>
 For example...
 <pre class="erm-example"><code class="language-erm">!!IF:G1/1/0/33/34/35/36/37;		#1
 !!IF:G1/1/0/33/34/35/36/37////////;	#2</code></pre>
-Command option #1 is equivalent to option #2 because here 0 means "nothing". 
+Command option #1 is equivalent to option #2 because here 0 means "nothing".
 Further parameters are simply automatically set to 0.</div>
 
-<div class="erm-paragraph">In some options you may find a syntax extension with the prefix “without updating”. 
-This means that the screen will not be redrawn when a command is executed, which is very useful for combat scripts 
+<div class="erm-paragraph">In some options you may find a syntax extension with the prefix “without updating”.
+This means that the screen will not be redrawn when a command is executed, which is very useful for combat scripts
 (otherwise some problems arise in the rendering) and scripts that perform many actions (acceleration of actions).</div>
 
-<div class="erm-paragraph">To view <strong><u>examples</u></strong> and <strong><u>comments</u></strong>, 
+<div class="erm-paragraph">To view <strong><u>examples</u></strong> and <strong><u>comments</u></strong>,
 Click on this word (this block of information will open below).</div>
-
-
-
-
-</div>
-</section>
-:::
-
-## References {#ref-cont-links}
-
-:::erm
-<section class="erm-reference" lang="en">
-<div>
-<h3 class="erm-align-center">Links</h3>
-<dl><strong><ul>
-<li><a href="http://wakeofthegods.strategyplanet.gamespy.com/">Of. New Life of Heroes website</a><br>
-</li><li><a href="http://wforum.heroes35.net">Of. forum "New Life of Heroes"</a><br>
-</li><li><a href="http://forum.df2.ru">Old forum</a><br>
-</li><li><a href="http://heroes.obninsk.ru">WoG Heroes Files 3.58f</a><br>
-</li><li><a href="http://wforum.heroes35.net/files/wog358_sources.rar">WoG 3.58f source code</a>
-</li><li><a href="http://www.dracolich.narod.ru">ERM assistance</a><br>
-</li><li><a href="http://h3disk.narod.ru/index1.htm">Lots of stuff for Heroes 3.58</a>
-</li></ul></strong></dl></div>
-</section>
-:::
-
-## ERM-HELP {#ref-cont-main}
-
-:::erm
-<section class="erm-reference" lang="en">
-<div><div class="erm-align-center erm-paragraph"><img src="../../assets/erm/e6c4b5fd05dd22e7.gif" alt="ERM-HELP version 2.10b ERM Version: 2914 (WoG 3.58f, TE, ERA2)" loading="lazy" decoding="async" class="erm-figure" width="392" height="73"><span class="erm-source-title"><br>
-ERM-HELP</span><br>
-<span>version 2.10b<br>
-<u><strong>ERM Version: 2914 (WoG 3.58f, TE, ERA2)</strong></u></span></div>
-<div class="erm-align-left erm-paragraph"><strong><u>Introduction</u><br>
-ERM</strong> means <strong>Event Related Model</strong> (event-related module) and 
-is an addition to the game <strong>Heroes 3: Breath of Death™</strong>.<br>
-ERM is a new technology that allows dynamic changes in the game depending on 
-actions of the player or computer.<br>
-At the moment, 78 official scripts have been prepared, affecting a wide variety of 
-aspects of the game.<br>
-You can create your own scripts, and this help can help in this matter.<br>
-Beginners are advised to read <a href="learn/">training</a>.
-</div><div class="erm-paragraph">
-Early versions lacked support for online play (only one player and 
-hotseat), but WoG now fully supports online play over TCP/IP. 
-Exceptions for now are only for some scripts, but unsupported scripts 
-turn off automatically.<br>
- </div><span class="erm-anchor" id="ref-cont-main-1"></span><div>
-<span class="erm-source-title"><a href="./#ref-cont-abouthelp">About this help</a><br>
-<a href="./#ref-cont-links" data-context="true">Links</a></span></div>
-
-</div>
-</section>
-:::
-
-## ERM-HELP {#ref-index}
-
-:::erm
-<section class="erm-reference" lang="en">
-<div>
-
-
-</div>
-</section>
-:::
-
-## ERM Help {#ref-titre}
-
-:::erm
-<section class="erm-reference" lang="en">
-<div>
-<div class="table-wrap erm-reference-table"><table width="100%"><tr>
-  <td><span>
-	<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr><td><a href="./#ref-cont-main" title="Home">Home</a></td></tr>
-	<tr><td><a href="start/#ref-cont-adv" title="Articles about ERM, WoG/ERA files and more..">Articles</a></td></tr>
-	<tr><td><a href="variables/#ref-cont-flags" title="Flags and Variables">Flag, variable</a></td></tr>
-	<tr><td><a href="variables/#ref-cont-usedvar" title="Table of variables used">Spanish AC</a></td></tr>
-	<tr><td><a href="index/#ref-cont-list" data-context="true" title="Mini alphabetical index of the most popular options">Contents</a></td></tr>
-	</table></div>
-  </span></td>
-  <td><span>
-<span class="erm-anchor" id="ref-titre-1"></span><details class="erm-comment"><summary><img src="../../assets/erm/95e7fab0dd85c3ef.png" alt="Show command codes for map objects..." loading="lazy" decoding="async" class="erm-figure" title="Show command codes for map objects..."></summary><div class="erm-comment-body">
-	<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr>
-	<td><a href="receivers/cb/#ref-rec-cb" title="Setting parameters for the Creature Bank">CB</a></td>
-	<td><a href="receivers/ch/#ref-rec-ch" title="Setting Treasure Chest Options">CH</a></td>
-	<td><a href="receivers/dw/#ref-rec-dw" title="Setting parameters for external Creature Dwellings">DW</a></td>
-	<td><a href="receivers/fr/#ref-rec-fr" title="Setting parameters for Campfires on the map">FR</a></td>
-	<td><a href="receivers/gd/#ref-rec-gd" title="Configuring Mystic Gardens Options">GD</a></td>
-	<td><a href="receivers/gr/#ref-rec-gr" title="Setting up Garrisons parameters">GR</a></td>
-	<td><a href="receivers/kt/#ref-rec-kt" title="Configuring Tree of Knowledge settings">KT</a></td>
-	<td><a href="receivers/ln/#ref-rec-ln" title="Setting up the Canopy (cellar) parameters on the map">LN</a></td>
-	<td><a href="receivers/ml/#ref-rec-ml" title="Configuring Windmill Parameters">ML</a></td>
-	<td><a href="receivers/mn/#ref-rec-mn" title="Setting up the parameters of Mines (Beacon)">MN</a></td>
-	<td><a href="receivers/mt/#ref-rec-mt" title="Configuring Obelisk Parameters">MT</a></td>
-	<td><a href="receivers/pa/#ref-rec-pa" title="Configuring Pandora&#x27;s Box settings on the map">PA</a></td>
-	<td><a href="receivers/pm/#ref-rec-pm" title="Setting up Pyramid or new WoG objects">PM</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/qu/#ref-rec-qu" title="Setting the Seer&#x27;s Hut or Border Guard Settings">QU</a></td>
-	<td><a href="receivers/sc/#ref-rec-sc" title="Setting up Scientist parameters on the map">SC</a></td>
-	<td><a href="receivers/sg/#ref-rec-sg" title="Setting the parameters of the Sign (Bottles)">SG</a></td>
-	<td><a href="receivers/sk/#ref-rec-sk" title="Setting the parameters of the Skeleton (corpse) on the map">SK</a></td>
-	<td><a href="receivers/sp/#ref-rec-sp" title="Setting the parameters of the Magic Stream on the map">SP</a></td>
-	<td><a href="receivers/sr/#ref-rec-sr" title="Setting the parameters of Magic Shrines">SR</a></td>
-	<td><a href="receivers/st/#ref-rec-st" title="Setting the parameters of the Knowledge Stone">ST</a></td>
-	<td><a href="receivers/sw/#ref-rec-sw" title="Setting attributes for Swan Pond">SW</a></td>
-	<td><a href="receivers/sy/#ref-rec-sy" title="Setting up Shipyard parameters on the map">SY</a></td>
-	<td><a href="receivers/ur/#ref-rec-ur" title="Setting up Universities on the map">UR</a></td>
-	<td><a href="receivers/wg/#ref-rec-wg" title="Configuring settings for the Cart">WG</a></td>
-	<td><a href="receivers/wh/#ref-rec-wh" title="Configuring Witch&#x27;s Hut Options">WH</a></td>
-	<td><a href="receivers/wm/#ref-rec-wm" title="Setting the Water Wheel Parameters">WM</a></td>
-	</tr>
-	<tr>
-	<td colspan="6"></td>
-	<td><a href="receivers/wt/#ref-rec-wt" title="Configuring Warrior Tombs settings">WT</a></td>
-	<td colspan="6"></td>
-	</tr>
-	<tr>
-	<td colspan="13"><img src="../../assets/erm/b1442e85b03bdcaf.gif" alt="blank" loading="lazy" decoding="async" class="erm-figure"></td>
-	</tr>
-	<tr>
-	<td colspan="6"></td>
-	<td><a href="./#ref-titre"><img src="../../assets/erm/4aad318c4c154c76.png" alt="Return basic command codes..." loading="lazy" decoding="async" class="erm-figure" title="Return basic command codes..."></a></td>
-	<td colspan="6"></td>
-	</tr></table></div>
-<img src="../../assets/erm/b1442e85b03bdcaf.gif" alt="CB CH DW FR GD GR KT LN ML MN MT PA PM QU SC SG SK SP SR ST SW SY UR WG WH WM WT" loading="lazy" decoding="async" class="erm-figure" width="0" height="50"></div></details>
-<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr>
-	<td><a href="triggers/ae/#ref-tr-ae" title="Trigger removing and putting on an artifact">AE</a></td>
-	<td><a href="receivers/ai/#ref-rec-ai" title="AI movement control">AI</a></td>
-	<td><a href="receivers/ar/#ref-rec-ar" title="Used to configure a resource or artifact on the map">AR</a></td>
-	<td><a href="receivers/ba/#ref-rec-ba" title="Setting up battle attributes. Typically used after trigger !?BA0">BA</a></td>
-	<td><a href="receivers/bf/#ref-rec-bf" title="Allows you to customize the battlefield (place obstacles/objects, or remove them)">BF</a></td>
-	<td><a href="receivers/bg/#ref-rec-bg" title="Setting/receiving parameters in battle">BG</a></td>
-	<td><a href="receivers/bh/#ref-rec-bh" title="Combat parameters: for the hero from any side">BH</a></td>
-	<td><a href="receivers/bm/#ref-rec-bm" title="Combat parameters: for any creature squad (stack), placing mines on battlefield">BM</a></td>
-	<td><a href="triggers/br/#ref-tr-br" title="Trigger each battle round">BR</a></td>
-	<td><a href="receivers/bu/#ref-rec-bu" title="Universal combat commands (end battle, summon creature, show message, etc.)">BU</a></td>
-	<td><a href="receivers/ca/#ref-rec-ca" title="Setting up town parameters (from name and appearance to buildings and hero in the garrison)">CA</a></td>
-	<td><a href="receivers/cd/#ref-rec-cd" title="Setting parameters for the destruction of castles by the player, dependencies of buildings or their prohibition, etc.">CD</a></td>
-	<td><a href="receivers/ce/#ref-rec-ce" title="Used to change the parameters of town events">CE</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/cm/#ref-rec-cm" title="Operations on mouse click information">CM</a></td>
-	<td><a href="receivers/co/#ref-rec-co" title="Configuring Commander Options">CO</a></td>
-	<td><span><span class="erm-tone-accent">DC</span></span></td>
-	<td><a href="receivers/dl/#ref-rec-dl" title="Allows you to customize your own (non-standard) dialogs">DL</a></td>
-	<td><a href="receivers/do/#ref-rec-do" title="Calling a cyclic function">DO</a></td>
-	<td><a href="receivers/ea/#ref-rec-ea" title="Ability to customize bonus lines of creatures using ERM">EA</a></td>
-	<td><a href="receivers/ex/#ref-rec-ex" title="Creature experience support">EX</a></td>
-	<td><a href="receivers/fu/#ref-rec-fu" title="Calling a function, interrupting code execution">FU</a></td>
-	<td><a href="receivers/ge/#ref-rec-ge" title="Used to change global event parameters">GE</a></td>
-	<td><a href="triggers/gm/#ref-tr-gm" title="Trigger loads and saves (autosave)">GM</a></td>
-	<td><a href="receivers/he/#ref-rec-he" title="Customizing hero parameters (from name and skills to his troops, artifacts and murder)">HE</a></td>
-	<td><a href="receivers/hl/#ref-rec-hl" title="Control when leveling up the hero. Must be used in trigger !?HL">HL</a></td>
-	<td><a href="triggers/hm/#ref-tr-hm" title="Trigger hero movements">HM</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/ho/#ref-rec-ho" title="Setting parameters for interactions with heroes">HO</a></td>
-	<td><a href="receivers/ht/#ref-rec-ht" title="Setting up hints for any objects on a map of a certain type">HT</a></td>
-	<td><a href="conditions/#ref-rec-iee" title="The If-else-endif construct is used to set conditions without using new functions">IEE</a></td>
-	<td><a href="receivers/if/#ref-rec-if" title="Working with flags, specifying hero variables; setting up dialogues with the player, displaying messages and pictures, extended WoG dialogues">IF</a></td>
-	<td><a href="receivers/ip/#ref-rec-ip" title="Game support via TCP/IP">IP</a></td>
-	<td><a href="receivers/le/#ref-rec-le" title="Configuring local event settings on the map">LE</a></td>
-	<td><a href="receivers/ma/#ref-rec-ma" title="Setting the parameters of all creatures of a certain type">MA</a></td>
-	<td><a href="receivers/mc/#ref-rec-mc" title="Installing macros (named links to your data)">MC</a></td>
-	<td><a href="receivers/mf/#ref-rec-mf" title="Controlling physical damage received by the stack">MF</a></td>
-	<td><a href="triggers/mg/#ref-tr-mg" title="Trigger casting spells on the adventure map by the player">MG</a></td>
-	<td><a href="receivers/mm/#ref-rec-mm" title="Setting battle text or getting mouse position on battlefield">MM</a></td>
-	<td><a href="receivers/mo/#ref-rec-mo" title="Setting the parameters of creatures in a specific position on the map">MO</a></td>
-	<td><a href="receivers/mp/#ref-rec-mp-era" title="Control of playback of mp3 tracks">MP</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/mr/#ref-rec-mr" title="Magic resistance control. Works only with trigger !?MR">MR</a></td>
-	<td><a href="receivers/mw/#ref-rec-mw" title="Setting Up Roaming Creatures">MW</a></td>
-	<td><a href="receivers/ob/#ref-rec-ob" title="Setting object parameters in specific coordinates">OB</a></td>
-	<td><a href="receivers/ow/#ref-rec-ow" title="Used for commands aimed at a specific player to configure resources; commands that control heroes and life time without castles, etc.">OW</a></td>
-	<td><a href="triggers/pi/#ref-tr-pi" title="Trigger-instruction (post-instruction)">PI</a></td>
-	<td><a href="receivers/po/#ref-rec-po" title="Used to work with numerical information for any map square">PO</a></td>
-	<td><a href="receivers/qw/#ref-rec-qw" title="Configuring Hero&#x27;s Journal Options">QW</a></td>
-	<td><a href="loops/#ref-rec-re" title="New high-level speed cycles: RE/BR/CO">RE</a></td>
-	<td><a href="receivers/rd/#ref-rec-rd" title="Setting up the game dialogue for hiring creatures">RD</a></td>
-	<td><a href="receivers/sn/#ref-rec-sn-era" title="Information on new teams in ERA">SN</a></td>
-	<td><a href="receivers/ss/#ref-rec-ss" title="Setting Spell Options">SS</a></td>
-	<td><a href="triggers/th/#ref-tr-th" title="Trigger entrance/exit to the town hall">TH</a></td>
-	<td><a href="receivers/tl/#ref-rec-tl" title="Multiplayer turn time controller.
-Real time timer">TL</a></td>
-	</tr>
-	<tr>
-	<td><a href="receivers/tm/#ref-rec-tm" title="Equivalent to ERM for time events in game cards (code repetition at intervals, start/end of action on a specific game date)">TM</a></td>
-	<td><a href="receivers/tr/#ref-rec-tr" title="Setting up territories or changing the passability of squares">TR</a></td>
-	<td><span><span class="erm-tone-accent">VA</span></span></td>
-	<td colspan="3"></td>
-	<td></td>
-	<td colspan="3"></td>
-	<td><a href="receivers/vc/#ref-rec-vc" title="Used to control variables, functions, timers, etc. used in the script">VC</a></td>
-	<td><a href="receivers/vr/#ref-rec-vr" title="Used to configure numeric and string variables (setting, comparison and mathematical and logical operations with them)">VR</a></td>
-	<td><a href="receivers/un/#ref-rec-un" title="A universal command to influence the map and/or the game (from working with combo artifacts and controlling visibility on the map to the appearance of the cursor and directly working with the game memory)">UN</a></td>
-	</tr></table></div>
-	<td><span>
-	<div class="table-wrap erm-reference-table"><table width="100%">
-	<tr><td><a href="triggers/#ref-cont-triggers" title="List of ERM triggers">Triggers</a></td></tr>
-	<tr><td><a href="receivers/#ref-cont-receivers" title="List of ERM receivers">Receivers</a></td></tr>
-	<tr><td><div><a href="receivers/#ref-cont-receiversa" title="Receiver table for objects">Dr. objects</a></div></td></tr>
-	<tr><td><a href="triggers/#ref-era-new-events" title="Description of new ERA triggers, named events">Events</a></td></tr>
-	<tr><td><a href="tables/#ref-cont-form" data-context="true" title="List of tables">Tables</a></td>
-	</tr></table></div>
-  </span></td>
-  </span></td></tr>
-</table></div>
-<a href="../../assets/erm/eb127b364e491583.eot"></a>
-<a href="../../assets/erm/1b20b818be881cf1.ttf"></a></div>
+<span class="erm-anchor erm-legacy-alias" id="ref-titre-1"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-abouthelp"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-links"></span><span class="erm-anchor erm-legacy-alias" id="ref-index"></span><span class="erm-anchor erm-legacy-alias" id="ref-titre"></span>
 </section>
 :::
 
@@ -12053,289 +11851,17 @@ URL: /en/erm/index/
 
 Command codes, event names, functions, variables and constants.
 
-## Receivers {#ref-cont-list}
-
 :::erm
-<section class="erm-reference" lang="en">
-<div>
-
-
-
-<span class="erm-anchor" id="ref-cont-list-text"></span><div>
-<div class="erm-align-center erm-paragraph"><span>Alphabetical 
-pointer</span></div> 
-<pre><span class="erm-anchor" id="ref-cont-list-1"></span><a href="../receivers/un/#ref-rec-un-j5">Autosave</a>
-<a href="../receivers/ar/#ref-rec-ar">Artifact</a>
-	<a href="../receivers/un/#ref-rec-un-a">Availability</a>
-	<a href="../receivers/un/#ref-rec-un-a2">Combo artifacts</a>
-	<a href="../receivers/un/#ref-rec-un-a1">Spell number</a>
-	<a href="../receivers/ar/#ref-rec-ar-v">Spell number (scroll)</a>
-	<a href="../receivers/ar/#ref-rec-ar-x">Security</a>
-	<a href="../receivers/un/#ref-rec-un-a1">Artifact parameters</a>
-	<a href="../receivers/ar/#ref-rec-ar-m">Message</a>
-	<a href="../receivers/un/#ref-rec-un-j7">Artifact trade</a>
-
-<span class="erm-anchor" id="ref-cont-list-2"></span><a href="../receivers/cb/#ref-rec-cb">Creature Bank</a>
-<a href="../receivers/ba/#ref-rec-ba">Battle</a>
-	<a href="../receivers/bm/#ref-rec-bm-v">Spell Animation</a>
-	<a href="../receivers/ba/#ref-rec-ba-m">Armies at the beginning of the battle</a>
-	<a href="../receivers/ba/#ref-rec-ba-q">Quick battle</a>
-	<a href="../receivers/bu/#ref-rec-bu-s">Summon a creature</a>
-	<a href="../receivers/ba/#ref-rec-ba-h">Heroes</a>
-	<a href="../receivers/bg/#ref-rec-bg-a">Creature Action</a>
-	<a href="../receivers/bh/#ref-rec-bh-m">Witchcraft Availability</a>
-	<a href="../receivers/bh/#ref-rec-bh-c">Witchcraft spells</a>
-	<a href="../receivers/bh/#ref-rec-bh-q">Mines/quicksand</a>
-	<a href="../receivers/bg/#ref-rec-bg-n">Active stack number</a>
-	<a href="../receivers/ba/#ref-rec-ba-s">Siege</a>
-	<a href="../receivers/ba/#ref-rec-ba-d">Cancellation of the fight</a>
-	<a href="../receivers/bm/#ref-rec-bm">Creature parameters</a>
-	<a href="../receivers/bu/#ref-rec-bu-v">Victory</a>
-	<a href="../receivers/un/#ref-rec-un-j11">Mouse behavior on a squad</a>
-	<a href="../receivers/mm/#ref-rec-mm-d">Cursor position on the field</a>
-	<a href="../tables/battlefield/#ref-form-bf">Battlefield</a>
-	<a href="../receivers/bu/#ref-rec-bu-g">Soil</a>
-	<a href="../tables/obstacles/#ref-form-obstacles">Obstacles (list)</a>
-	<a href="../receivers/bf/#ref-rec-bf-o">Obstacles (set)</a>
-	<a href="../receivers/bu/#ref-rec-bu-e">Checking if creature is alive</a>
-	<a href="../receivers/bu/#ref-rec-bu-t">Checking for the tactical phase</a>
-	<a href="../receivers/bu/#ref-rec-bu-d">Check for creature corpse</a>
-	<a href="../receivers/mm/#ref-rec-mm">Message in battle</a>
-	<a href="../receivers/bu/#ref-rec-bu-m">Text in the history of the battle</a>
-	<a href="../receivers/bm/#ref-rec-bm-p">Teleportation</a>
-	<a href="../receivers/bf/#ref-rec-bf-c">Remove obstacles</a>
-	<a href="../receivers/bg/#ref-rec-bg-d">Set the goal of the action</a>
-	<a href="../receivers/ba/#ref-rec-ba-b">Battle background</a>
-	<a href="../receivers/ba/#ref-rec-ba-o">Masters of the combatants</a>
-<a href="../receivers/he/#ref-rec-he-y">Blessings and Curses</a>
-<a href="../receivers/mw/#ref-rec-mw">Stray Creatures</a>
-<a href="../receivers/sg/#ref-rec-sg">Bottle and sign</a>
-
-<span class="erm-anchor" id="ref-cont-list-3"></span><a href="../receivers/un/#ref-rec-un-v">ERM and WoG/ERA version</a>
-<a href="../receivers/sy/#ref-rec-sy">Shipyard</a>
-<a href="../receivers/ml/#ref-rec-ml">Windmill</a>
-<a href="../receivers/wm/#ref-rec-wm">Water Wheel</a>
-<a href="../receivers/un/#ref-rec-un-g">Secondary skill: description</a>
-<a href="../triggers/ob/#ref-tr-ob">Entrance to the facility</a>
-
-<span class="erm-anchor" id="ref-cont-list-4"></span><a href="../receivers/gr/#ref-rec-gr">Garrison</a>
-<a href="../receivers/he/#ref-rec-he">Hero</a>
-	<a href="../receivers/he/#ref-rec-he-a">Artifacts</a>
-	<a href="../receivers/he/#ref-rec-he-b1">Biography</a>
-	<a href="../receivers/he/#ref-rec-he-y">Blessings and Curses</a>
-	<a href="../receivers/ho/#ref-rec-ho">Interactions</a>
-	<a href="../receivers/he/#ref-rec-he-s">Secondary Skills</a>
-	<a href="../receivers/he/#ref-rec-he-t">Call a battle</a>
-	<a href="../receivers/he/#ref-rec-he-r3">Availability</a>
-	<a href="../receivers/he/#ref-rec-he-m">Spells</a>
-	<a href="../receivers/he/#ref-rec-he-b0">Name</a>
-	<a href="../receivers/he/#ref-rec-he-b2">Class</a>
-	<a href="../receivers/he/#ref-rec-he-p">Coordinates</a>
-	<a href="../receivers/he/#ref-rec-he-i">Mana</a>
-	<a href="../receivers/he/#ref-rec-he-c">Creatures</a>
-	<a href="../receivers/he/#ref-rec-he-r">Moral</a>
-	<a href="../receivers/if/#ref-rec-if-w">Settings <em>w</em>-variables</a>
-	<a href="../receivers/he/#ref-rec-he-h">Initial army</a>
-	<a href="../receivers/he/#ref-rec-he-g">Initial movement points</a>
-	<a href="../receivers/he/#ref-rec-he-n">Number</a>
-	<a href="../receivers/he/#ref-rec-he-e">Experience</a>
-	<a href="../receivers/he/#ref-rec-he-w">Movement Points</a>
-	<a href="../receivers/he/#ref-rec-he-u">Patrol</a>
-	<a href="../receivers/he/#ref-rec-he-f">Primary parameters</a>
-	<a href="../receivers/ho/#ref-rec-ho-h">Hint</a>
-	<a href="../receivers/he/#ref-rec-he-r2">Gender</a>
-	<a href="../receivers/he/#ref-rec-he-l">Portrait</a>
-	<a href="../receivers/he/#ref-rec-he-v">Objects visited</a>
-	<a href="../receivers/he/#ref-rec-he-x">Specialty</a>
-	<a href="../receivers/sn/#ref-rec-sn-era-h-spec">Specialty: text</a>
-	<a href="../receivers/un/#ref-rec-un-g2">Specialty: picture</a>
-	<a href="../receivers/he/#ref-rec-he-k">Kill</a>
-	<a href="../receivers/he/#ref-rec-he-r1">Luck</a>
-	<a href="../receivers/he/#ref-rec-he-d">Creature Upgrade</a>
-	<a href="../receivers/un/#ref-rec-un-j1">Level: limit</a>
-	<a href="../receivers/hl/#ref-rec-hl">Level: receiving</a>
-	<a href="../receivers/he/#ref-rec-he-o">Owner</a>
-<a href="../receivers/ge/#ref-rec-ge">Global event</a>
-<a href="../receivers/ca/#ref-rec-ca">Town</a>
-	<a href="../receivers/ca/#ref-rec-ca-i">Appearance</a>
-	<a href="../receivers/ca/#ref-rec-ca-m">Garrison</a>
-	<a href="../receivers/ca/#ref-rec-ca-h">Heroes</a>
-	<a href="../receivers/ca/#ref-rec-ca-g">Mage Guild</a>
-	<a href="../triggers/th/#ref-tr-th">Town Hall</a>
-	<a href="../receivers/ca/#ref-rec-ca-m">Available creatures (not purchased)</a>
-	<a href="../receivers/un/#ref-rec-un-t">Available creatures (for recruitment)</a>
-	<a href="../receivers/ca/#ref-rec-ca-g">Spells</a>
-	<a href="../receivers/ca/#ref-rec-ca-b">Buildings</a>
-	<a href="../receivers/ca/#ref-rec-ca-n">Name</a>
-	<a href="../receivers/ca/#ref-rec-ca-u">Number on the card</a>
-	<a href="../receivers/cd/#ref-rec-cd">Destruction</a>
-	<a href="../receivers/ca/#ref-rec-ca-r">Status of buildings</a>
-	<a href="../receivers/ca/#ref-rec-ca-t">Type</a>
-	<a href="../receivers/ca/#ref-rec-ca-o">Owner</a>
-<a href="../receivers/wt/#ref-rec-wt">Warrior's Tomb</a>
-
-<span class="erm-anchor" id="ref-cont-list-5"></span><a href="../triggers/hm/#ref-tr-hm">Hero Movements</a>
-<a href="../receivers/kt/#ref-rec-kt">Wood Knowledge</a>
-<a href="../receivers/if/#ref-rec-if">Dialogues</a>
-	<a href="../receivers/if/#ref-rec-if-x">Question of the Sphinx</a>
-	<a href="../receivers/if/#ref-rec-if-q">Questions</a>
-	<a href="../receivers/if/#ref-rec-if-g">Select from options</a>
-	<a href="../receivers/if/#ref-rec-if-e">Dialogue</a>
-	<a href="../receivers/rd/#ref-rec-rd">Dialogue for hiring creatures</a>
-	<a href="../receivers/if/#ref-rec-if-f">Add hints</a>
-	<a href="../receivers/if/#ref-rec-if-p">Showing a picture (animation)</a>
-	<a href="../receivers/if/#ref-rec-if-m">Message</a>
-
-<span class="erm-anchor" id="ref-cont-list-7"></span><a href="../receivers/dw/#ref-rec-dw">Creature dwellings</a>
-<a href="../receivers/qw/#ref-rec-qw">Magazine</a>
-
-<span class="erm-anchor" id="ref-cont-list-8"></span><a href="../receivers/un/#ref-rec-un-r6">Delay</a>
-<a href="../triggers/gm/#ref-tr-gm">Loading and saving</a>
-<a href="../receivers/ss/#ref-rec-ss">Spells</a>
-	<a href="../receivers/un/#ref-rec-un-j">Prohibit</a>
-	<a href="../triggers/mg/#ref-tr-mg">Witchcraft on the map</a> (trigger)
-	<a href="../receivers/ow/#ref-rec-ow-s">Witchcraft on the map</a> (execute)
-<a href="../receivers/sn/#ref-rec-sn">Sounds</a> (wav)
-	<a href="../receivers/mp/#ref-rec-mp-era">mp3 files</a>
-<a href="../receivers/sg/#ref-rec-sg">Sign and bottle</a>
-
-<span class="erm-anchor" id="ref-cont-list-9"></span><a href="../receivers/ow/#ref-rec-ow">Player</a>
-<a href="../receivers/ai/#ref-rec-ai">AI</a>
-<a href="../syntax/#ref-cont-receiversol-instr">Instructions</a>
-<a href="../variables/#ref-cont-usedvar">Variables used</a>
-
-<span class="erm-anchor" id="ref-cont-list-10"></span><a href="../receivers/st/#ref-rec-st">Stone of Knowledge</a>
-<a href="../receivers/un/#ref-rec-un-h">Map: close area</a>
-	<a href="../receivers/un/#ref-rec-un-s">Open</a>
-	<a href="../receivers/un/#ref-rec-un-l">Move your gaze</a>
-	<a href="../receivers/un/#ref-rec-un-x">Size</a>
-<a href="../tables/bits/#ref-form-16to10" data-context="true">HEX value converter</a>
-<a href="../receivers/co/#ref-rec-co">Commanders</a>
-	<a href="../receivers/un/#ref-rec-un-j13">Reset</a>
-<a href="../tables/object-control-words/#ref-cont-conwords">Object control words</a>
-<a href="../receivers/fr/#ref-rec-fr">Campfire</a>
-<a href="../receivers/un/#ref-rec-un-r5">Cursor</a>
-	<a href="../receivers/un/#ref-rec-un-r7">Show/hide</a>
-
-<span class="erm-anchor" id="ref-cont-list-11"></span><a href="../receivers/sw/#ref-rec-sw">Swan Pond</a>
-<a href="../tables/object-control-words/#ref-cont-conwords-logic">Logical bit operations</a>
-	<a href="../receivers/vr/#ref-rec-vr-and">And</a>
-	<a href="../receivers/vr/#ref-rec-vr-or">OR</a>
-	<a href="../receivers/vr/#ref-rec-vr-xor">Exclusive OR</a>
-<a href="../receivers/le/#ref-rec-le">Local event</a>
-
-<span class="erm-anchor" id="ref-cont-list-12"></span><a href="../receivers/mc/#ref-rec-mc">Macros</a>
-<a href="../receivers/mn/#ref-rec-mn">Lighthouse</a>
-<a href="../receivers/un/#ref-rec-un-m">month</a>
-<a href="../receivers/gd/#ref-rec-gd">Mystical Garden</a>
-<a href="../receivers/ma/#ref-rec-ma">Creature</a>
-	<a href="../receivers/sn/#ref-rec-sn-era-h-mon">Name/Description</a>
-	<a href="../tables/projectiles/#ref-form-weapon" data-context="true">Projectile type</a>
-<a href="../receivers/mo/#ref-rec-mo">Creature on the map</a>
-<a href="../receivers/cm/#ref-rec-cm">Mouse</a>
-
-<span class="erm-anchor" id="ref-cont-list-13"></span><a href="../receivers/ln/#ref-rec-ln">Lean To</a>
-<a href="../receivers/un/#ref-rec-un-n">Title</a>
-<a href="../receivers/un/#ref-rec-un-k">Week</a>
-
-<span class="erm-anchor" id="ref-cont-list-14"></span><a href="../receivers/mt/#ref-rec-mt">Obelisk</a>
-<a href="../receivers/un/#ref-rec-un-r">Screen update</a>
-<a href="../receivers/ob/#ref-rec-ob">Object</a>
-	<a href="../tables/wog-object-variants/#ref-form-newobj" data-context="true">New WoG objects</a>
-	<a href="../receivers/un/#ref-rec-un-u">Counting</a>
-	<a href="../receivers/un/#ref-rec-un-i">Placement on the map</a>
-	<a href="../receivers/un/#ref-rec-un-o">Removing from the card</a>
-<a href="../receivers/un/#ref-rec-un-p2">WoG Options</a>
-<a href="../receivers/ex/#ref-rec-ex">Unit Experience</a>
-<a href="../receivers/ea/#ref-rec-ea">Creature Experience</a>
-
-<span class="erm-anchor" id="ref-cont-list-15"></span><a href="../receivers/po/#ref-rec-po">Square parameters</a>
-<a href="../receivers/vr/#ref-rec-vr">Variables</a>
-<a href="../receivers/pm/#ref-rec-pm">Pyramids</a>
-<a href="../receivers/un/#ref-rec-un-q">Winning the game</a>
-<a href="../receivers/ht/#ref-rec-ht">Hints</a>
-<a href="../triggers/hl/#ref-tr-hl">Getting a level as a hero</a>
-
-<span class="erm-anchor" id="ref-cont-list-16"></span><a href="../syntax/#ref-cont-receiversol">Receivers</a>
-<a href="../receivers/ar/#ref-rec-ar">Resources on the map</a>
-<a href="../receivers/ow/#ref-rec-ow-r">Player resources</a>
-
-<span class="erm-anchor" id="ref-cont-list-17"></span><a href="../receivers/sr/#ref-rec-sr">Shrine of Magic</a>
-<a href="../receivers/ip/#ref-rec-ip">Network game</a>
-	<a href="../variables/#ref-cont-flags-mp">Control flags</a>
-	<a href="../receivers/un/#ref-rec-un-v2">In-game check</a>
-	<a href="../receivers/ba/#ref-rec-ba-e">Check in battle</a>
-	<a href="../receivers/fu/#ref-rec-fu-d">Remote function call</a>
-<a href="../receivers/sk/#ref-rec-sk">Corpse</a>
-<a href="../receivers/ce/#ref-rec-ce">Event in the town</a>
-<a href="../receivers/mr/#ref-rec-mr">Resistance magic</a>
-<a href="../receivers/qu/#ref-rec-qu">Wight Boundaries</a>
-<a href="../receivers/ch/#ref-rec-ch">Treasure Chest</a>
-
-<span class="erm-anchor" id="ref-cont-list-18"></span><a href="../receivers/tm/#ref-rec-tm">Timer</a>
-<a href="../receivers/wg/#ref-rec-wg">Wagon</a>
-<a href="../receivers/tr/#ref-rec-tr">Territory</a>
-<a href="../receivers/if/#ref-rec-if-select">Text (highlight)</a>
-	<a href="../receivers/if/#ref-era-color-text">Colored text</a>
-<a href="../triggers/#ref-cont-triggersol">Triggers</a>
-<a href="../tables/object-control-words/#ref-cont-conwords-t62">Prison, hero</a>
-
-<span class="erm-anchor" id="ref-cont-list-19"></span><a href="../receivers/ur/#ref-rec-ur">University</a>
-<a href="../receivers/sc/#ref-rec-sc">Scholar</a>
-
-<span class="erm-anchor" id="ref-cont-list-20"></span><a href="../receivers/mf/#ref-rec-mf">Physical Damage</a>
-<a href="../receivers/if/#ref-rec-if-v">Flags</a>
-<a href="../receivers/fu/#ref-rec-fu">Function</a>
-	<a href="../receivers/do/#ref-rec-do">Circular</a>
-
-<span class="erm-anchor" id="ref-cont-list-21"></span><a href="../receivers/wh/#ref-rec-wh">Witch's Hut</a>
-<a href="../receivers/qu/#ref-rec-qu">Seer's Hut</a>
-
-<span class="erm-anchor" id="ref-cont-list-22"></span><a href="../loops/#ref-rec-re">Cycle</a>
-
-<span class="erm-anchor" id="ref-cont-list-23"></span><a href="../receivers/un/#ref-rec-un-v3">Cheat codes (check)</a>
-	<a href="../receivers/un/#ref-rec-un-cheat">Allow/deny</a>
-
-<span class="erm-anchor" id="ref-cont-list-24"></span><a href="../receivers/mn/#ref-rec-mn">Mine</a>
-
-<span class="erm-anchor" id="ref-cont-list-26"></span><a href="../compatibility/#ref-era-index">ERA</a> (ERA)
-	<a href="../receivers/sn/#ref-rec-sn-era">New teams</a>
-	<a href="../triggers/#ref-cont-triggers-era">Triggers/events</a>
-	<a href="../receivers/sn/#ref-era-api">Functions/procedures</a>
-
-<span class="erm-anchor" id="ref-cont-list-28"></span><a href="../receivers/pa/#ref-rec-pa">Pandora's Box</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
-</div></div>
-</section>
+<section class="erm-reference"><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-text"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-1"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-2"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-3"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-4"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-5"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-7"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-8"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-9"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-10"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-11"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-12"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-13"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-14"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-15"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-16"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-17"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-18"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-19"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-20"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-21"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-22"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-23"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-24"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-26"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list-28"></span><span class="erm-anchor erm-legacy-alias" id="ref-cont-list"></span></section>
 :::
-
-## Find a symbol {#catalog}
-
-Filter by code, name or letter. The index includes subcommands, events and aliases, Framework functions, globals and every constant. Exact names are identical in RU and EN.
 
 ## Topic catalogs {#references}
 
 [Triggers](../triggers/) · [Receivers](../receivers/) · [Functions](../framework/functions/) · [Globals](../framework/globals/) · [Constants](../framework/constants/) · [Tables](../tables/)
+
+## Find a symbol {#catalog}
+
+Filter by code, name or letter. The index includes subcommands, events and aliases, Framework functions, globals and every constant. Exact names are identical in RU and EN.
 
 ## Related commands and tables {#reference-links}
 

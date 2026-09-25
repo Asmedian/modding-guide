@@ -149,7 +149,7 @@ for (const locale of locales) for (const section of sections) {
 }
 
 const compactLines = entities.map((entry) => `- ${entry.title}: ${publicUrl(entry.url)} — ${entry.summary}`);
-writeFileSync(join(staticRoot, 'llms.txt'), `# ERA Modding Guide\n\nBilingual static documentation for ERA modding.\n\nCurrent scope: general documentation, the ERM reference, and ERA plugin development with NH3API. The ERM learning course and Lua are deferred.\n\n- Manifest: ${publicUrl('/llm/manifest.json')}\n- Russian documentation: ${publicUrl('/llm/ru/docs.md')}\n- English documentation: ${publicUrl('/llm/en/docs.md')}\n- Russian ERM reference: ${publicUrl('/llm/ru/erm.md')}\n- English ERM reference: ${publicUrl('/llm/en/erm.md')}\n- Russian plugin guide: ${publicUrl('/llm/ru/plugins.md')}\n- English plugin guide: ${publicUrl('/llm/en/plugins.md')}\n`, 'utf8');
+writeFileSync(join(staticRoot, 'llms.txt'), `# ERA Modding Guide\n\nBilingual static documentation for ERA modding.\n\nCurrent scope: general documentation, the ERM reference, and ERA plugin development with H3API and NH3API. The ERM learning course and Lua are deferred.\n\n- Manifest: ${publicUrl('/llm/manifest.json')}\n- Russian documentation: ${publicUrl('/llm/ru/docs.md')}\n- English documentation: ${publicUrl('/llm/en/docs.md')}\n- Russian ERM reference: ${publicUrl('/llm/ru/erm.md')}\n- English ERM reference: ${publicUrl('/llm/en/erm.md')}\n- Russian plugin guide: ${publicUrl('/llm/ru/plugins.md')}\n- English plugin guide: ${publicUrl('/llm/en/plugins.md')}\n`, 'utf8');
 writeFileSync(join(staticRoot, 'llms-full.txt'), `# ERA Modding Guide — full catalog\n\n${compactLines.join('\n')}\n`, 'utf8');
 
 if (siteOrigin) {

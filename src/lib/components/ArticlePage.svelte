@@ -29,6 +29,19 @@
     inLanguage: lang,
     isPartOf: { '@type': 'WebSite', name: 'ERA Modding Guide' }
   });
+  $: pageLetters = (() => {
+    if (article.pageLetters) return article.pageLetters;
+    if (section !== 'erm' || !/^(?:receivers|triggers)\/[a-z0-9-]+$/.test(article.slug)) return [];
+    const prefix = article.slug.startsWith('receivers/') ? 'ref-rec-' : 'ref-tr-';
+    const code = article.slug.split('/')[1];
+    const pattern = new RegExp(`id="(${prefix}${code}-([a-z]))"`, 'g');
+    const found = new Map<string, string>();
+    for (const match of article.bodyHtml.matchAll(pattern)) found.set(match[2].toUpperCase(), match[1]);
+    const familyId = `${prefix}${code}`;
+    if (!found.size && article.bodyHtml.includes(`id="${familyId}"`)) found.set(code[0].toUpperCase(), familyId);
+    return [...found].sort(([a], [b]) => a.localeCompare(b)).map(([letter, id]) => ({ letter, id }));
+  })();
+  $: indexBreak = article.slug === 'index' && section === 'erm' ? article.bodyHtml.indexOf('<h2 id="reference-links">') : -1;
 
 </script>
 
@@ -41,7 +54,7 @@
   <script type="application/ld+json">{structuredData}</script>
 </svelte:head>
 
-<AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')} {ermAlphabet} {ermReceivers} {ermTriggers}>
+<AppShell {lang} {navigation} toc={article.sections} activeSlug={`${section}/${article.slug}`.replace(/\/$/, '')} {ermAlphabet} {ermReceivers} {ermTriggers} {pageLetters}>
   <article class="docs-article" lang={lang} data-pagefind-body={article.slug === 'llm-map' ? undefined : true} data-pagefind-ignore={article.slug === 'llm-map' ? true : undefined} data-locale={lang} data-section={section} data-entity={article.id} data-pagefind-meta="locale[data-locale],topSection[data-section],pageId[data-entity],kind:article" data-pagefind-filter={`topSection:${section}`}>
     <div class="article-ornament" aria-hidden="true"><span></span><UiIcon name="ornament" /><span></span></div>
     <header class="article-header">
@@ -60,9 +73,14 @@
       </details>
     </div>
 
-    <div class="article-body">{@html article.bodyHtml}</div>
-
-    {#if article.symbols}<SymbolCatalog {lang} symbols={article.symbols} />{/if}
+    {#if indexBreak >= 0}
+      <div class="article-body">{@html article.bodyHtml.slice(0, indexBreak)}</div>
+      {#if article.symbols}<SymbolCatalog {lang} symbols={article.symbols} />{/if}
+      <div class="article-body">{@html article.bodyHtml.slice(indexBreak)}</div>
+    {:else}
+      <div class="article-body">{@html article.bodyHtml}</div>
+      {#if article.symbols}<SymbolCatalog {lang} symbols={article.symbols} />{/if}
+    {/if}
 
     {#if article.catalog?.length}
       <section class="llm-catalog" aria-label={t('llm.catalogTitle')}>
@@ -105,6 +123,19 @@
 </AppShell>
 
 <style>
+  :global(.erm-page-rail) { position: sticky; z-index: 8; top: 48px; float: right; display: flex; flex-direction: column; width: 28px; max-height: calc(100vh - var(--header-height) - 56px); margin-bottom: -100%; overflow-y: auto; border: 1px solid var(--border); border-right: 0; border-radius: var(--radius-sm) 0 0 var(--radius-sm); background: var(--surface-background, var(--surface)); box-shadow: var(--shadow-soft); }
+  :global(.erm-page-rail a) { display: grid; place-items: center; min-height: 23px; color: var(--gold); font: 700 .72rem/1 var(--font-body); }
+  :global(.erm-page-rail a:hover), :global(.erm-page-rail a:focus-visible) { color: var(--text); background: var(--gold-soft); }
+  :global(.article-body a:hover), :global(.article-body a:focus-visible) { color: var(--gold); text-decoration-color: currentColor; }
+  :global(.erm-unified-table tbody tr:hover) { background: var(--nav-hover); }
+  :global(.erm-unified-table .object-anchor) { margin-right: .35rem; color: var(--gold-soft); text-decoration: none; opacity: .65; }
+  :global(.erm-unified-table .object-anchor:hover), :global(.erm-unified-table .object-anchor:focus-visible) { color: var(--gold); opacity: 1; }
+  :global(.erm-unified-table th button:hover), :global(.erm-unified-table th button:focus-visible) { color: var(--gold); }
+  :global(.source-panel summary:hover) { background: var(--nav-hover); }
+  :global(.article-pagination a:hover), :global(.article-pagination a:focus-visible) { border-color: var(--gold-soft); background: var(--nav-hover); }
+  :global(.erm-reference .command-anchor) { display: inline-block; margin-right: .35rem; color: var(--gold-soft); font: 700 .8em/1 var(--font-body); text-decoration: none; opacity: .55; }
+  :global(.erm-reference .command-anchor:hover), :global(.erm-reference .command-anchor:focus-visible) { color: var(--gold); opacity: 1; }
+  @media (max-width: 1200px) { :global(.erm-page-rail) { display: none; } }
   :global(.heading-anchor) { display: inline-flex; align-items: center; justify-content: center; width: 1em; height: 1em; margin-right: .38rem; padding: 0; border: 0; color: var(--text-subtle); background: transparent; text-decoration: none !important; vertical-align: -.08em; opacity: .68; cursor: pointer; }
   :global(.heading-anchor:hover),
   :global(.heading-anchor:focus-visible) { color: var(--gold); opacity: 1; }

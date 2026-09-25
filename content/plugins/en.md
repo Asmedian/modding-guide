@@ -22,14 +22,14 @@ Do not place both `Name.era` and `Name.dll` in the directory. ERA checks for the
 | ERA API | Events, localization, ERM integration, savegame sections, resource redirection, diagnostics, and managed patch operations |
 | Patcher x86 | Named patch ownership, high- and low-level hooks, reversible patches, and patch diagnostics |
 | NH3API | C++17 declarations for game structures and functions, the patcher interface, and an optional ERA module |
-| H3API (deprecated) | Historical C++ declarations for the Heroes III 3.2 executable, retained for older plugin maintenance |
+| H3API | Independent C++ library describing the Heroes III 3.2 executable |
 | Mod package | The plugin, its data and translations, compatibility notes, and a reproducible way to identify the build |
 
-These layers are related but not interchangeable. NH3API models the executable and wraps integrations; it does not make every hard-coded address portable. H3API is retained only for maintaining older code. ERA APIs are preferable when an exported service already covers the task.
+NH3API models the executable and wraps integrations; it does not make every hard-coded address portable. H3API is a separate library with its own layout and build requirements. Use ERA APIs when an exported service covers the task.
 
 ## Choose the narrowest interface {#choice}
 
-Start with the [ERA API](./era-api/) for lifecycle events, translations, settings, save data, and resource services. Add [NH3API](./nh3api/) when you need typed C++ access to game structures or the patcher interface. Use the [H3API page](./h3api/) as a reference for deprecated projects, not as the foundation of a new plugin. Keep raw address patches as the last resort and record the exact executable and dependency versions that were tested.
+Start with the [ERA API](./era-api/) for lifecycle events, translations, settings, save data, and resource services. For typed C++ access to game structures, study the independent [H3API](./h3api/) and [NH3API](./nh3api/) libraries and select one for your build environment. Raw address patches require verification against the exact executable and dependency versions.
 
 The [getting-started guide](./getting-started/) builds a minimal `.era` module that registers an ERA handler and postpones real work until `OnAfterWoG`.
 
