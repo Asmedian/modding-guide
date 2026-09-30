@@ -22,31 +22,37 @@ const replacedAssets = new Set(
     .map((entry) => `/${entry.asset}`)
 );
 
-test('Markdown links and fragments resolve across all published sections', () => {
+function assertArticleLinks(base) {
   const failures = [];
   for (const { path, meta } of entities) {
     for (const locale of ['ru', 'en']) {
       const markdown = readFileSync(join(dirname(path), `${locale}.md`), 'utf8').replace(/```[\s\S]*?```/g, '').replace(/<pre\b[^>]*>[\s\S]*?<\/pre>/g, '');
       const anchors = [...markdown.matchAll(/\{#([a-z0-9-]+)\}|\bid="([^"]+)"/g)].map((match) => match[1] || match[2]);
       if (new Set(anchors).size !== anchors.length) failures.push(`${meta.id} (${locale}) has duplicate anchors`);
-      const current = new URL(`https://guide.test/${locale}/${meta.section ?? 'docs'}/${meta.slug ? `${meta.slug}/` : ''}`);
+      const current = new URL(`https://guide.test${base}/${locale}/${meta.section ?? 'docs'}/${meta.slug ? `${meta.slug}/` : ''}`);
       const links = [...markdown.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)].map((match) => ({ href: match[1], image: match.index > 0 && markdown[match.index - 1] === '!' }));
       links.push(...[...markdown.matchAll(/\b(href|src)="([^"]+)"/g)].map((match) => ({ href: match[2].replaceAll('&amp;', '&'), image: match[1] === 'src' })));
       for (const link of links) {
         const href = link.href;
         if (/^(?:https?:|mailto:)/i.test(href)) continue;
         const target = new URL(href, current);
-        if (link.image || target.pathname.startsWith('/assets/')) {
-          if (!existsSync(join(projectRoot, 'static', target.pathname)) && !replacedAssets.has(target.pathname)) {
+        if (target.origin !== current.origin) continue;
+        if (base && !target.pathname.startsWith(`${base}/`)) {
+          failures.push(`${meta.id} (${locale}) escapes BASE_PATH ${base} → ${href}`);
+          continue;
+        }
+        const pathname = target.pathname.slice(base.length);
+        if (link.image || pathname.startsWith('/assets/')) {
+          if (!existsSync(join(projectRoot, 'static', pathname)) && !replacedAssets.has(pathname)) {
             failures.push(`${meta.id} missing image → ${href}`);
           }
           continue;
         }
-        if (/^\/(?:llm\/|llms(?:-full)?\.txt$)/.test(target.pathname)) {
-          if (!existsSync(join(projectRoot, 'static', target.pathname))) failures.push(`${meta.id} missing machine file → ${href}`);
+        if (/^\/(?:llm\/|llms(?:-full)?\.txt$)/.test(pathname)) {
+          if (!existsSync(join(projectRoot, 'static', pathname))) failures.push(`${meta.id} missing machine file → ${href}`);
           continue;
         }
-        const key = target.pathname.replace(/^\/(ru|en)\//, '').replace(/\/$/, '');
+        const key = pathname.replace(/^\/(ru|en)\//, '').replace(/\/$/, '');
         if (key === 'erm/learn') continue;
         const record = records.get(key);
         if (!record) { failures.push(`${meta.id} (${locale}) → ${href}`); continue; }
@@ -58,7 +64,13 @@ test('Markdown links and fragments resolve across all published sections', () =>
     }
   }
   assert.deepEqual(failures, []);
-});
+}
+
+for (const base of ['', '/modding-guide']) {
+  test(`Markdown links and fragments resolve across all published sections (base: ${base || '/'})`, () => {
+    assertArticleLinks(base);
+  });
+}
 
 test('maintainer guides have valid local links and documented directories', () => {
   for (const file of ['AGENTS.md', 'README.md', 'CONTRIBUTING.md', 'docs/EDITING_GUIDE.md', 'docs/PROJECT_MAP.md']) {

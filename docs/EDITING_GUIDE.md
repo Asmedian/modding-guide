@@ -63,7 +63,7 @@ Run `npm run prepare:content`. This regenerates:
 
 It also refreshes anchored search segments. Search snippets are generated from the section containing the match, so do not remove explicit `{#section-id}` anchors. Do not edit generated files directly.
 
-The LLM manifest retains article relationships and `sectionSources`; its source and reference files make source IDs and ERM symbol metadata independently resolvable. Keep all six locale/section bundles linked from the LLM map.
+The LLM manifest retains article relationships and `sectionSources`; its source and reference files make source IDs and ERM symbol metadata independently resolvable. Keep all six locale/section bundles linked from the LLM map. Use article-relative links for machine files (for example, `../../../llms.txt` from `/ru/docs/llm-map/`) so they also resolve beneath a repository deployment base. Content link tests cover both root and subdirectory deployments.
 
 The generated TypeScript search corpus is a deterministic development fallback only. Production search loads Pagefind after the user enters at least two characters; never import `search-index.ts` or `symbol-index.json` eagerly into the application shell. Keep `src/app.html` navigation preloading on `tap` so merely hovering the large reference navigation cannot download another page.
 
