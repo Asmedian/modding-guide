@@ -56,7 +56,7 @@ At the start of the game all flags are set to "0"</div>
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-b"></span><span class="erm-anchor" id="command-b-1-2-p"></span>B#/$1/$2</strong></span><br>
 Setting or changing a single 
-images or animations to show to the team <a href="./#ref-rec-if-p">IF:P</a>.<br>
+images or animations to show to the command <a href="./#ref-rec-if-p">IF:P</a>.<br>
         # – dialogue number (1..100)<br>
         $1 – text variable number, where 
 file/image name written (BMP/GIF/JPG or AVI)<br>
@@ -99,14 +99,13 @@ buttons<br>
 means skip. The full path to the file, including the name (up to 256 characters) can be 
 changed, but remember that it starts processing from <em class="erm-legacy-file">Maps</em>, so you can do this: <strong class="erm-tone-red erm-inline-code">^../data/mypic.bmp^</strong>. The maximum image size is 100*100, but may be smaller 
 (center alignment automatically). Supports formats 
-JPG, BMP. From video - supports small AVIs. Installation information is not 
-is saved when you save the game, so always do the installation before 
+JPG, BMP. From video - supports small AVIs. The image setup is not saved with the game, so configure it before 
 using IF:E</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-e"></span>E$1/$2</strong></span><br>
 Show extended dialog, 
-previously installed by the command 
+previously set by the command 
 <a href="./#ref-rec-if-d">IF:D</a> 
 (possibly <a href="./#ref-rec-if-f">IF:F</a>).<br>
         $1 – number <em>v</em>-variable for 
@@ -118,7 +117,7 @@ The text from the input window will be automatically entered into z1, even if th
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-f"></span>F$1/$2/$3/$4/$5/$6</strong></span><br>
 Adding tooltips text to the selection window 
-in an extended dialogue. Team Expansion <a href="./#ref-rec-if-d">IF:D</a>.<br>
+in an extended dialogue. Command Expansion <a href="./#ref-rec-if-d">IF:D</a>.<br>
         #1 – dialogue number (1..100)<br>
         $2 – number <em>z</em>-variable with text for 
 1st choice<br>
@@ -130,7 +129,7 @@ in an extended dialogue. Team Expansion <a href="./#ref-rec-if-d">IF:D</a>.<br>
 4th choice<br>
         $6 – enable exit button (1) or 
 no (0)<br>
-<strong><u>Comment</u>:</strong> installation information will not be saved when 
+<strong><u>Comment</u>:</strong> this setup is not saved when 
 saving, so always make settings before using the command <a href="./#ref-rec-if-e">
 IF:E</a></div>
 <hr><div class="erm-paragraph">
@@ -198,13 +197,13 @@ Set or get message text<br>
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-n"></span><span class="erm-anchor" id="command-ntype-subtype-n-text"></span>N#1/#2/#3/#4/#5/#6/#7/#8/#9/#10/#11/#12/#13/#14/#15/#16</strong></span><br>
 A message with text and up to 8 pictures of any type available in the game.<br>
-You can see something similar by installing <a href="../ge/#ref-rec-ge">global event</a> with multiple resources<br>
+You can see something similar by setting <a href="../ge/#ref-rec-ge">global event</a> with multiple resources<br>
 <em>The syntax is:</em><br>
 <strong><span class="erm-tone-red">!!IF:N…</span></strong><br>
 The dialogue is not shown, this is only a preparatory phase.<br>
 If you set more than three parameters, the interpreter will understand them as 
 <a href="../../tables/dialog-pictures/#ref-form-picts" data-context="true">type</a> and <a href="../../tables/dialog-pictures/#ref-form-picts" data-context="true">subtype</a> 
-pictures the same way as in the team <a href="./#ref-rec-if-q">IF:Q</a>.<br>
+pictures the same way as in the command <a href="./#ref-rec-if-q">IF:Q</a>.<br>
 You can set up to 8 pictures (16 parameters), but a minimum of 2 pictures (4 parameters).<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-if-13"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-if-show13"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <pre class="erm-example"><code class="language-erm">!!IF:N3/8/10/2/11/3/13/2/17/1000/21/99/22/4;</code></pre>
@@ -346,7 +345,7 @@ Set conditional flag #1 (1..1000) to value #2 (1 or 0)</div>
 Each hero has 200 individual variables.<br>
 They are called w# (# = 1..200)<br>
 They can be used wherever f…t variables are.<br>
-You must install a hero against whom these values will be checked ($ = 
+You must set a hero against whom these values will be checked ($ = 
 <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">0..155</a>, -1 = current)<br>
 Each time you use this command, you access the variables of a specific hero.<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-if-15"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-if-show15"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -379,7 +378,7 @@ See also <a href="../../variables/#ref-cont-flags-var-show">show variables</a> i
 <h4>View title</h4><div class="erm-paragraph">
 Sometimes you will know the number of a creature, artifact, building, secondary skill or 
 spell, but you won’t know its name (especially if generated randomly). B 
-In such situations, use the title view command - <a href="../un/#ref-rec-un-n">UN:N</a>. This team 
+In such situations, use the title view command - <a href="../un/#ref-rec-un-n">UN:N</a>. This command 
 will allow you, by specifying the number, to receive the name (name) recorded in a specific <em>z</em>-a variable that can already be inserted in your dialog.</div>
 
 <h4>Interpretation of values in IF:Q</h4><div class="erm-paragraph">
@@ -470,7 +469,7 @@ There can be up to 8 pictures at the same time, the display parameters of which 
 from four options, and/or show certain pictures or animations, you 
 should use advanced dialog boxes. In general, you need to write down 
 some text in <em>z</em>-variable and then use it to set commands to 
-extended dialog box. To install them, use the commands
+extended dialog box. To set them, use the commands
 <a href="./#ref-rec-if-d">IF:D</a> and <a href="./#ref-rec-if-f">IF:F</a>, and 
 for display - by command <a href="./#ref-rec-if-e">IF:E</a>. Any option below can 
 be connected into a multitasking dialog:</div>
@@ -483,7 +482,7 @@ directories <em class="erm-legacy-file">Heroes3\Maps</em>. Pictures can be BMP, 
 size 100x100 pixels. If the image is smaller, it will be aligned to 
 the center of the free space. If the image is larger, only 100x100 pixels 
 will be shown. For BMP, the top left pixel will be interpreted as 
-transparent. You can mix and change pictures as you wish. Team <a href="./#ref-rec-if-d">
+transparent. You can mix and change pictures as you wish. Command <a href="./#ref-rec-if-d">
 IF:D</a> used to set images for the multitasking dialog box.</div>
 <u>Example 1</u>:
 <pre class="erm-example"><code class="language-erm">!!VRz10:S^The lands you travel to are beautiful.^;
@@ -528,7 +527,7 @@ the checkbox itself, you can correlate the selected option and the picture in it
 shown above. When the dialog appears, no option will be selected. Player 
 can only select one option, selecting another will automatically disable the previous one. 
 After the player clicks OK, you can check which option was selected by 
-the number is remembered in <em>v</em>-variable. Dialogue is installed in the same way as pictures 
+the number is remembered in <em>v</em>-variable. The dialog is configured in the same way as images 
 and animations:
 <a href="./#ref-rec-if-d">IF:D</a> and <a href="./#ref-rec-if-f">IF:F</a> for 
 adding hint text for checkboxes if you want.</div>
@@ -544,9 +543,9 @@ name, or creature, castle building, or skill name. <a href="./#ref-rec-if-d">
 IF:D</a> 
 used to set the text input window.</div>
 <div class="erm-paragraph"><strong class="erm-indent">5. Header text:</strong> text at the top of the dialog box (white) can be 
-install with command <a href="./#ref-rec-if-d">IF:D</a>, and yellow text for 
+set with command <a href="./#ref-rec-if-d">IF:D</a>, and yellow text for 
 checkboxes can be used even if you did not use checkboxes in the dialog.</div>
-<div class="erm-paragraph"><strong class="erm-indent">6. Cancel button:</strong> team <a href="./#ref-rec-if-f">IF:F</a> maybe 
+<div class="erm-paragraph"><strong class="erm-indent">6. Cancel button:</strong> command <a href="./#ref-rec-if-f">IF:F</a> maybe 
 be used to disable or enable the Cancel button (and the <span class="erm-key">Esc</span> on 
 keyboard) for an enhanced multitasking dialog box.</div>
 <u>Example 2</u>:
@@ -583,7 +582,7 @@ installations than multitasking ones (fewer parameters), and have the advantage 
 that can show an image or video of almost any size. Chief 
 disadvantage - you cannot include any text along with the image or 
 video. When you call this dialog, you get a simple message box with 
-image or AVI in the center and the OK button below. The command to install this is 
+image or AVI in the center and the OK button below. The command to set this is 
 messages - <a href="./#ref-rec-if-b">IF:B</a>, and the command to show is <a href="./#ref-rec-if-p">
 IF:P</a>.<br>
 <u>Example</u>:
@@ -591,9 +590,9 @@ IF:P</a>.<br>
 !!IF:B99/1/0;
 !!IF:P99;</code></pre>
 </div><div class="erm-align-center erm-paragraph"><img src="../../../../assets/erm/73da468cd33716b7.jpg" alt="ifb" loading="lazy" decoding="async" class="erm-figure" width="181" height="266"></div><br>
-But some team overlap <a href="./#ref-rec-if-d">IF:D</a> 
+But some command overlap <a href="./#ref-rec-if-d">IF:D</a> 
 (used to set multitasking dialog) - if you are using 
-team <a href="./#ref-rec-if-d">IF:D</a> 
+command <a href="./#ref-rec-if-d">IF:D</a> 
 instead of <a href="./#ref-rec-if-b">IF:B</a>, first picture or AVI in the table 
 parameters will be shown by the command <a href="./#ref-rec-if-p">IF:P</a>, and 
 additional pictures or animations will be ignored.

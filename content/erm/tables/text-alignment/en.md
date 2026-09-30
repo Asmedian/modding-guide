@@ -11,7 +11,7 @@
 <div class="table-wrap erm-reference-table"><table><tr><td width="75%">
 	<div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 	<span class="erm-anchor" id="ref-form-align-n2"></span><tr class="erm-tone-purple erm-strong">
-		<td width="5%">Meaning</td>
+		<td width="5%">Value</td>
 		<td class="erm-align-center" width="130">Alignment</td>
 	</tr>
 	<tr>

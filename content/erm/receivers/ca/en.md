@@ -55,7 +55,7 @@ Set/check/get the hero's number in the garrison of the town or guest<br>
          # = 0 – hero in the town garrison<br>
          # = 1 – hero-guest<br>
          $ - <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero number</a> (-1 = no)<br>
-You can get or install a hero. If you're going to install it, don't forget to put the old one away somewhere.</div>
+You can get or set a hero. If you're going to set it, don't forget to put the old one away somewhere.</div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-ca-i"></span><span class="erm-anchor" id="command-i"></span>I#</strong></span><br>

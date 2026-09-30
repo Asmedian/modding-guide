@@ -32,7 +32,7 @@ Set guard creatures:<br>
 <span class="erm-anchor" id="ref-rec-dw-m"></span><span class="erm-anchor" id="command-m-1-2-3"></span>M#1/$2/$3</strong></span><br>
 Set creatures to hire:<br>
          #1 – slot (0..3) - you can 
-install up to four different creatures in one dwelling<br>
+set up to four different creatures in one dwelling<br>
          #2 –
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a> 
 (-1 – disable slot)<br>
@@ -40,7 +40,7 @@ install up to four different creatures in one dwelling<br>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-dw-o"></span><span class="erm-anchor" id="command-o-o-1"></span>O$</strong></span><br>
-Install 
+Set 
 <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">owner $</a> (no update)<br>
 <em>Extended syntax:</em><span class="erm-tone-red"><strong><br>
 O$/1</strong></span><br>

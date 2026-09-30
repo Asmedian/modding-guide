@@ -10,7 +10,7 @@
 <div class="erm-align-center erm-paragraph">
 <span class="erm-source-title">Trigger <strong>TH</strong> (town hall)</span></div>
 <br>
-<div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-th-red"></span><span class="erm-tone-red">!?TH#;</span> - triggered upon entering the town hall (prefecture, municipality, capitol).<br>
+<div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-th-red"></span><span class="erm-tone-red">!?TH#;</span> - triggered upon entering the town hall (Town Hall, City Hall, or Capitol).<br>
 <span class="erm-tone-red">!?TH0;</span> - triggers when you enter it.<br>
 <span class="erm-tone-red">!?TH1;</span> - triggers when exiting it.</strong></div>
 <div class="erm-paragraph"><strong><u>Comment</u>:</strong><br>

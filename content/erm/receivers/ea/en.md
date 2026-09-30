@@ -59,7 +59,7 @@ level (maximum experience)
 <u></u> </div><span class="erm-anchor" id="ref-rec-ea-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ea-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Some abilities are applied to creatures in battle incorrectly (there is a picture, but no effect). 
 For example: Reduced price of spells (price does not decrease), Champion Bonus (additional damage is calculated, but not dealt). 
-Also possibly Death Glare and Lightning Strike.<br>
+Also possibly Death Stare and Lightning Strike.<br>
 If $2 = 0, then, regardless of other parameters, the line will disappear.
 <pre class="erm-example"><code class="language-erm">; remove bonus line #6 from Sorceresses (193)
 !#EA193:B6/0/////////////;</code></pre></div></details>
@@ -92,7 +92,7 @@ its bonus lines have already been copied.<br>
 0 (bonus lines were not copied). If you then used any command 
 EA: [<a href="./#ref-rec-ea-m">M</a>] [<a href="./#ref-rec-ea-u">U</a>] [<a href="./#ref-rec-ea-l">L</a>] [<a href="./#ref-rec-ea-p">P</a>] 
 [<a href="./#ref-rec-ea-c">C</a>] [<a href="./#ref-rec-ea-b">B</a>] [<a href="./#ref-rec-ea-o">O</a>] not for testing, 
-and to install anything for that specific stack and then check again 
+and to set anything for that specific stack and then check again 
 value EA:D, it will become equal to -1.<br>
 	Normal order:<br>
 	* Check for copying bonus lines using this command;<br>
@@ -127,7 +127,7 @@ Get the line number of a certain bonus, or find the first empty line<br>
 <a href="../../tables/stack-experience-abilities/#ref-form-specexp1" data-context="true">ability number</a><br>
          $2 – line number (-1, 0..13)<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-ea-4"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ea-show4"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">You can only get or check the second parameter, but not 
-install it. Here's the standard view:
+set it. Here's the standard view:
 <pre class="erm-example"><code class="language-erm">!!EA...:F65/?v100;
 This way we will get the number of the line containing the “Attack” bonus (65) of a certain creature.</code></pre>
 If the line is not found, v100 will take the value of the empty line number. 
@@ -168,7 +168,7 @@ set to 1, use M1000
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ea-o"></span><span class="erm-anchor" id="command-o-mode"></span>EA#1:O$/#2;</strong></span><br>
-<em><strong>Can only be used in b</strong></em><strong><em>oh</em></strong><br>
+<em><strong>Can only be used in </strong></em><strong><em>battle</em></strong><br>
 Copy all lines of bonuses and parameters of a creature or stack to battlefield to another 
 creature or stack on battlefield.<br>
          #1 – target stack (<a href="../../tables/creatures/#ref-form-creature" data-context="true">creature</a>)<br>
@@ -177,25 +177,23 @@ creature or stack on battlefield.<br>
 	                   
 0 (normal) - simply copy the original bonuses to the target creature.<br>
 	                   
-1 - if the target stack is battlefield (PB), then the parameters of the source squad 
-will be copied 
-targets and all similar creatures of friendly troops. If the target stack is a regular number 
+1 - if the target stack is on the battlefield, then the parameters of the source stack 
+will be copied to the target and all similar creatures of friendly troops. If the target stack is a regular number 
 creature, nothing will happen.<br>
                    
-2 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target and all 
+2 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target and all 
 similar creatures of enemy troops. If the target stack is a normal creature number, 
 nothing will happen.<br>
 	                   
-3 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target plus 
+3 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target plus 
 to all similar creatures of the attacking side. If the target is a regular creature number, then 
 copy parameters to all similar creatures on the attacking side.<br>
 	                   
-4 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target plus everyone 
-similar creatures of the defending side. If the target is a regular creature number, then 
+4 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target plus all similar creatures of the defending side. If the target is a regular creature number, then 
 copy the parameters to all similar creatures of the defending side.<br>
 	                   
-5 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target plus 
-to all similar creatures to battlefield. If the target is a regular creature number, then 
+5 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target plus 
+to all similar creatures on the battlefield. If the target is a regular creature number, then 
 copy the parameters of the original unit to all target similar creatures.<u><strong></strong><br>
 </u>“Similar creatures” are the same (Gryphons and griffins).
 </div>
@@ -203,7 +201,7 @@ copy the parameters of the original unit to all target similar creatures.<u><str
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 EA#:O$</strong></span><br>
-<em><strong>Can only be used in b</strong></em><strong><em>oh</em></strong><span class="erm-tone-red"><strong></strong></span><br>
+<em><strong>Can only be used in </strong></em><strong><em>battle</em></strong><span class="erm-tone-red"><strong></strong></span><br>
 Copy all bonus lines and parameters<br>
          # – target stack or 
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature</a><br>
@@ -375,7 +373,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 Friendly spells (eg Shield) will be cast as a massive Shield on all allied troops whenever creature attacks an enemy, but if spell does not have a mass effect 
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature you control, but be careful - don't give the ability at level 0, 
 because the game will crash if a clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts for the battle. He cannot move or attack in melee (or be attacked) 
 but if he is a marksman, he can still shoot. You can also give spell Paralysis (74) and Petrification (70).<br>
 <strong>In columns 4..14 you can set:</strong><br>
@@ -441,7 +439,7 @@ Any integer value.</blockquote></div></details></li>
 For other creatures the value = 0, so % will have no effect.<br>
 <strong>In columns 4..14 for (e) you can set:</strong><br>
 Any integer value from 0 to 255.</blockquote></div></details></li>
-<li><span class="erm-anchor" id="ref-cont-stackexpbonus-8"></span><details class="erm-comment"><summary>Death Glare (E) &lt;69&gt;</summary><div class="erm-comment-body">
+<li><span class="erm-anchor" id="ref-cont-stackexpbonus-8"></span><details class="erm-comment"><summary>Death Stare (E) &lt;69&gt;</summary><div class="erm-comment-body">
 <blockquote class="erm-note">
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-stackexpbonus-q1"></span><span class="erm-tone-quote erm-note">[only works for Mighty Gorgons and Nightmares]</span></div>
 If you give a bonus to these creatures, you must set up an entire line with the normal chance to trigger.<br>
@@ -463,11 +461,11 @@ P: &lt;80&gt; Mind Spell Immunity<br>
 E : &lt;69&gt; No melee penalty for shooting creatures.<br>
 I : &lt;73&gt; Immunity to Fire school spells<br>
 D : &lt;68&gt; Double strike. Works for melee and marksmen.<br>
-R: &lt;82&gt; Unresponsive. Enemies do not respond to this creature's attacks<br>
-M : &lt;77&gt; Immune to morality. Creature does not benefit from good or bad morale in battle.<br>
-U : &lt;85&gt; Undead. Unliving creatures can be animated by the Raise Undead spell. "Immune to Mind Spells" and "Immune to Morale" must be set separately.<br>
+R: &lt;82&gt; No enemy retaliation. Enemies do not retaliate against this creature's attacks<br>
+M : &lt;77&gt; Immune to morale. Creature does not benefit from good or bad morale in battle.<br>
+U : &lt;85&gt; Undead. Unliving creatures can be animated by the Animate Dead spell. "Immune to Mind Spells" and "Immune to Morale" must be set separately.<br>
 A : &lt;65&gt; Attacks everyone around. Creature attacks all enemies near it.<br>
-G : &lt;71&gt; Dracon. Creature will receive bonuses from Dragon Blood Vial and similar items.<br>
+G : &lt;71&gt; Dragon. Creature will receive bonuses from Vial of Dragon Blood and similar items.<br>
 <strong>In column 4..14 for (f) you can set:</strong><br>
 0 : No ability. Creature does not have an ability and will be removed if it has one.<br>
 1: has the ability. Creature gains the ability if it didn't have it before.<br>
@@ -503,7 +501,7 @@ Example for Golden Golems (only deal 15% damage), you should set the line:<br>
 116    g    %    85    90    95   …<br>
 Or if you want to lower its resistance, try<br>
 116    g    %    80    85    90   …<br>
-If you don't install this bonus line on a creature that already has its own resistance, it will be used as a normal resistance.<br>
+If you don't set this bonus line on a creature that already has its own resistance, it will be used as a normal resistance.<br>
 <strong>In column 3 for (g) you can set:</strong><br>
 % : &lt;37&gt; Magic resistance percentage</blockquote></div></details></li>
 <li><span class="erm-anchor" id="ref-cont-stackexpbonus-13"></span><details class="erm-comment"><summary>Additional Santa Gremlin Guards (G) &lt;71&gt;</summary><div class="erm-comment-body">
@@ -532,7 +530,7 @@ Means that all creatures of level 2 (-2) “hate” Ifrit Sultans and deal 30% l
 <li><span class="erm-anchor" id="ref-cont-stackexpbonus-15"></span><details class="erm-comment"><summary>No range penalty (i) &lt;105&gt;</summary><div class="erm-comment-body">
 <blockquote class="erm-note"><strong>In column 3 for (i) you can set:</strong><br>
 + ( or = ) : &lt;43&gt; (or &lt;61&gt; ) Give ability No range penalty or not.
-<em class="erm-strong">Note:</em> you cannot take this ability away from creatures that already have it (such as Snipers).<br>
+<em class="erm-strong">Note:</em> you cannot take this ability away from creatures that already have it (such as Sharpshooters).<br>
 <strong>In columns 4..14 for (i) you can set:</strong><br>
 0 (do not give ability)<br>
 1 (give ability)</blockquote></div></details></li>
@@ -548,7 +546,7 @@ Friendly spells (eg Shield) will be cast as a massive Shield on all allied troop
 but if spell does not have a mass effect (for example, Anti-Magic, Magic Mirror, Fire Shield), it will cast a spell on the enemy. 
 Spell Clone (65) will create a clone of an enemy creature under your control, but be careful - do not give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. 
 Roots (72) bind the enemy and prevent him from moving until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Raise Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts in the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. The spells Paralyze (74), Petrify (70) or Blind (62) have little utility with ability j, 
 because their effect is immediately canceled by the attack: use ability (a) on them.<br>
@@ -565,7 +563,7 @@ Friendly spells (eg Shield) will be cast as a massive Shield on all allied troop
 effect (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving, 
 until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Raise Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts in the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. The spells Paralyze (74), Petrify (70) or Blind (62) have little utility with ability j, 
 because their effect is immediately canceled by the attack: use ability (a) on them.<br>
@@ -585,7 +583,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving, 
 until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts for the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. You can also give spell Paralysis (74) and Petrification (70).<br>
 <strong>In columns 4..14 for (k) you can set:</strong><br>
@@ -605,7 +603,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving, 
 until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts for the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. You can also give spell Paralysis (74) and Petrification (70).<br>
 <strong>In columns 4..14 for (K) you can set:</strong><br>
@@ -627,7 +625,7 @@ The summoned stack does not spawn on an obstacle, but can spawn on a dead creatu
 any integer value from 0 to 255. This is the number of creatures that will appear on the summoned stack as a percentage of summoners. 
 So if you set it to 25 and 12 creatures are summoned, the summoner stack will be 3 (25% of 12 = 3).</blockquote></div></details></li>
 <li><span class="erm-anchor" id="ref-cont-stackexpbonus-21"></span><details class="erm-comment"><summary>Evasion (L) &lt;76&gt;</summary><div class="erm-comment-body">
-<blockquote class="erm-note">You can install it in two ways:<br>
+<blockquote class="erm-note">You can set it in two ways:<br>
 1) Fixed evasion with variable chance of triggering<br>
 2) Fixed percentage chance of triggering with variable deviation<br>
 For the first method, the modifier must be between 0 and 99, and this is the percentage of damage minus 1. So, #33 means that the damage will be reduced by 34%. 
@@ -664,7 +662,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. 
 Roots (72) bind the enemy and prevent him from moving until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Raise Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts in the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. The spells Paralyze (74), Petrify (70) or Blind (62) have little utility with the ability (p), 
 because their effect is immediately canceled by the attack: use ability (a) on them.<br>

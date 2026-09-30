@@ -1,6 +1,8 @@
 # Плагины ERA
 
+ID: plugins.overview
 URL: /ru/plugins/
+Source references: era-source:plugin-loader, era-source:era.pas, nh3api:readme, h3api:readme
 
 Разработка, порядок загрузки, совместимости.
 
@@ -45,7 +47,9 @@ NH3API описывает исполняемый файл и оборачива�
 
 # API плагинов ERA
 
+ID: plugins.era-api
 URL: /ru/plugins/era-api/
+Source references: era-source:era.pas, era-source:plugin-exports, era-source:plugin-loader, nh3api:era-header
 
 Практическая карта экспортируемых служб ERA: события, локализация, ERM, сохранения, ресурсы, диагностика и управляемые патчи.
 
@@ -109,7 +113,9 @@ ERA предоставляет операции отката и освобожд
 
 # Начало работы с плагинами ERA
 
+ID: plugins.getting-started
 URL: /ru/plugins/getting-started/
+Source references: era-source:plugin-loader, nh3api:readme, nh3api:cmake, nh3api:era-header, windows-api:dll-best-practices
 
 Сборка минимального 32-битного модуля `.era` на C++17 с CMake и NH3API, его установка и диагностика с явными границами совместимости.
 
@@ -216,7 +222,9 @@ BOOL APIENTRY DllMain(HINSTANCE module, DWORD reason, LPVOID)
 
 # H3API
 
+ID: plugins.h3api
 URL: /ru/plugins/h3api/
+Source references: h3api:readme
 
 Самостоятельная C++-библиотека для Heroes III 3.2: назначение, подключение, структура и совместимость.
 
@@ -281,7 +289,9 @@ cmake --build .. --config Release
 
 # NH3API
 
+ID: plugins.nh3api
 URL: /ru/plugins/nh3api/
+Source references: nh3api:readme, nh3api:cmake, nh3api:era-header, nh3api:era-module-readme, nh3api:patcher-header, nh3api:natvis
 
 Интерфейс исполняемого файла на C++17, модули CMake и ERA, поддерживаемые инструменты и границы совместимости, которые обязан фиксировать плагин.
 

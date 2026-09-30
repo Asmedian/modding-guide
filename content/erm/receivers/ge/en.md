@@ -44,7 +44,7 @@ Disable (#2 = 1) or enable (#2 = 0) event for <a href="../../tables/players/#ref
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ge-e"></span><span class="erm-anchor" id="command-e-n"></span>E$</strong></span><br>
-Install <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>who are allowed to receive the event.<br>
+Set <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>who are allowed to receive the event.<br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-ge-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ge-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">If you use $ starting with d parameter it will be 
 mean like "or", i.e. you can allow players to receive an event, 
 without changing the other players.<br>
@@ -79,7 +79,7 @@ Do not show the message recorded in the event itself</div>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ge-n"></span>N$</strong></span><br>
-Install <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>, which can NOT trigger an event.<br>
+Set <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>, which can NOT trigger an event.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ge-3"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ge-show3"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 If you use $ starting with the parameter d, it will mean like "AND" 
 i.e. you can prevent players from receiving the event without changing other players.<br>

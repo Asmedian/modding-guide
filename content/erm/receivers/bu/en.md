@@ -61,7 +61,7 @@ Receive or check <a href="../../tables/obstacle-flags/#ref-form-obstacles-bit" d
 The command can be used to check obstacle bits on a battlefield hex of interest.<br>
 So, if there is a mine at the position, then we get $ = 9 (1+8)<br>
 <span class="erm-anchor" id="ref-rec-bu-bold"></span><em class="erm-strong">Note:</em> for the Force field for the initial cell (bottom), the game sets the value $=35 (1+2+32), and for the rest - $=34 (2+32). 
-The same goes for all obstacles set by the team. <a href="../bf/#ref-rec-bf-o">BF:O</a>, in which the initial cell will have $=3 (1+2), and all others will have $=2 (when the obstacle occupies more than 1 cell).<br>
+The same goes for all obstacles set by the command. <a href="../bf/#ref-rec-bf-o">BF:O</a>, in which the initial cell will have $=3 (1+2), and all others will have $=2 (when the obstacle occupies more than 1 cell).<br>
 <span class="erm-anchor" id="ref-rec-bu-4"></span><details class="erm-comment"><summary><strong>Additionally</strong><a href="../../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a>(<span class="erm-anchor" id="ref-rec-bu-show4"></span><u class="erm-toggle-label">show</u>)</summary><div class="erm-comment-body">
 When working with obstacles, the BU:O command cannot always help. For example, when you need to check the cells at the gate (during a siege).
 

@@ -19,7 +19,7 @@ pointer</span></div>
 	<a href="../receivers/un/#ref-rec-un-a2">Combo artifacts</a>
 	<a href="../receivers/un/#ref-rec-un-a1">Spell number</a>
 	<a href="../receivers/ar/#ref-rec-ar-v">Spell number (scroll)</a>
-	<a href="../receivers/ar/#ref-rec-ar-x">Security</a>
+	<a href="../receivers/ar/#ref-rec-ar-x">Guards</a>
 	<a href="../receivers/un/#ref-rec-un-a1">Artifact parameters</a>
 	<a href="../receivers/ar/#ref-rec-ar-m">Message</a>
 	<a href="../receivers/un/#ref-rec-un-j7">Artifact trade</a>
@@ -32,15 +32,15 @@ pointer</span></div>
 	<a href="../receivers/bu/#ref-rec-bu-s">Summon a creature</a>
 	<a href="../receivers/ba/#ref-rec-ba-h">Heroes</a>
 	<a href="../receivers/bg/#ref-rec-bg-a">Creature Action</a>
-	<a href="../receivers/bh/#ref-rec-bh-m">Witchcraft Availability</a>
-	<a href="../receivers/bh/#ref-rec-bh-c">Witchcraft spells</a>
+	<a href="../receivers/bh/#ref-rec-bh-m">Spellcasting Availability</a>
+	<a href="../receivers/bh/#ref-rec-bh-c">Spellcasting spells</a>
 	<a href="../receivers/bh/#ref-rec-bh-q">Mines/quicksand</a>
 	<a href="../receivers/bg/#ref-rec-bg-n">Active stack number</a>
 	<a href="../receivers/ba/#ref-rec-ba-s">Siege</a>
 	<a href="../receivers/ba/#ref-rec-ba-d">Cancellation of the fight</a>
 	<a href="../receivers/bm/#ref-rec-bm">Creature parameters</a>
 	<a href="../receivers/bu/#ref-rec-bu-v">Victory</a>
-	<a href="../receivers/un/#ref-rec-un-j11">Mouse behavior on a squad</a>
+	<a href="../receivers/un/#ref-rec-un-j11">Mouse behavior on a stack</a>
 	<a href="../receivers/mm/#ref-rec-mm-d">Cursor position on the field</a>
 	<a href="../tables/battlefield/#ref-form-bf">Battlefield</a>
 	<a href="../receivers/bu/#ref-rec-bu-g">Soil</a>
@@ -142,8 +142,8 @@ pointer</span></div>
 <a href="../triggers/gm/#ref-tr-gm">Loading and saving</a>
 <a href="../receivers/ss/#ref-rec-ss">Spells</a>
 	<a href="../receivers/un/#ref-rec-un-j">Prohibit</a>
-	<a href="../triggers/mg/#ref-tr-mg">Witchcraft on the map</a> (trigger)
-	<a href="../receivers/ow/#ref-rec-ow-s">Witchcraft on the map</a> (execute)
+	<a href="../triggers/mg/#ref-tr-mg">Spellcasting on the map</a> (trigger)
+	<a href="../receivers/ow/#ref-rec-ow-s">Spellcasting on the map</a> (execute)
 <a href="../receivers/sn/#ref-rec-sn">Sounds</a> (wav)
 	<a href="../receivers/mp/#ref-rec-mp-era">mp3 files</a>
 <a href="../receivers/sg/#ref-rec-sg">Sign and bottle</a>
@@ -240,7 +240,7 @@ pointer</span></div>
 <span class="erm-anchor" id="ref-cont-list-21"></span><a href="../receivers/wh/#ref-rec-wh">Witch's Hut</a>
 <a href="../receivers/qu/#ref-rec-qu">Seer's Hut</a>
 
-<span class="erm-anchor" id="ref-cont-list-22"></span><a href="../loops/#ref-rec-re">Cycle</a>
+<span class="erm-anchor" id="ref-cont-list-22"></span><a href="../loops/#ref-rec-re">Loop</a>
 
 <span class="erm-anchor" id="ref-cont-list-23"></span><a href="../receivers/un/#ref-rec-un-v3">Cheat codes (check)</a>
 	<a href="../receivers/un/#ref-rec-un-cheat">Allow/deny</a>
@@ -248,7 +248,7 @@ pointer</span></div>
 <span class="erm-anchor" id="ref-cont-list-24"></span><a href="../receivers/mn/#ref-rec-mn">Mine</a>
 
 <span class="erm-anchor" id="ref-cont-list-26"></span><a href="../compatibility/#ref-era-index">ERA</a> (ERA)
-	<a href="../receivers/sn/#ref-rec-sn-era">New teams</a>
+	<a href="../receivers/sn/#ref-rec-sn-era">New commands</a>
 	<a href="../triggers/#ref-cont-triggers-era">Triggers/events</a>
 	<a href="../receivers/sn/#ref-era-api">Functions/procedures</a>
 

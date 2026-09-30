@@ -27,7 +27,7 @@ For a creature without resistance F=D
 <div class="erm-paragraph"><strong><span class="erm-tone-red">!?MR2;</span> - trigger for resistance to Dwarven style magic.</strong><br>
 Triggered when calculating magic resistance according to the Dwarven style.<br>
 You can use other receivers in addition to !!MR.<br>
-Teams <a href="../../receivers/mr/#ref-rec-mr-n">!!MR:N</a> and <a href="../../receivers/mr/#ref-rec-mr-m">!!MR:M</a> work as before (described in triggers !?MR0 and 
+Commands <a href="../../receivers/mr/#ref-rec-mr-n">!!MR:N</a> and <a href="../../receivers/mr/#ref-rec-mr-m">!!MR:M</a> work as before (described in triggers !?MR0 and 
 !?MR1).<br>
 <a href="../../receivers/mr/#ref-rec-mr-f">!!MR:F</a> used as a percentage (0..100) of the chance to resist the spell.<br>
 <u>Example</u>:

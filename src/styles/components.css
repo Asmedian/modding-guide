@@ -266,3 +266,32 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
   .search-loading::after { content: '...'; animation: none; }
 }
+
+/* Exact integer conversion, available beside both search controls. */
+.radix-widget { position: relative; flex: 0 0 auto; }
+.radix-trigger { min-height: 42px; padding: .45rem .65rem; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--gold); background: var(--control-background, transparent); font: 650 .8rem var(--font-mono); white-space: nowrap; cursor: pointer; }
+.radix-trigger:hover, .radix-trigger:focus-visible, .radix-trigger[aria-expanded="true"] { border-color: var(--border-strong); background: var(--surface-raised); }
+.radix-dropdown { position: absolute; z-index: 100; top: calc(100% + .5rem); right: 0; display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) 42px; align-items: start; gap: .6rem; width: min(350px, calc(100vw - 2rem)); padding: .75rem; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); background: var(--surface-background, var(--surface)); box-shadow: var(--shadow-soft); }
+.radix-switch { display: grid; padding: 2px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--control-background, transparent); cursor: pointer; }
+.radix-switch span { padding: .4rem .25rem; color: var(--text-muted); font: 650 .75rem var(--font-mono); }
+.radix-switch .active { border-radius: 3px; color: var(--gold); background: var(--surface-raised); box-shadow: inset 0 0 0 1px var(--border-strong); }
+.radix-field { min-width: 0; }
+.radix-field input { width: 100%; min-height: 42px; padding: .5rem; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); background: var(--control-background, transparent); font: .9rem var(--font-mono); }
+.radix-field output { display: block; margin-top: .4rem; color: var(--gold); font: .8rem/1.4 var(--font-mono); overflow-wrap: anywhere; }
+.radix-field input[aria-invalid="true"] { border-color: var(--text-muted); }
+.radix-field output.invalid { color: var(--text-muted); font-family: var(--font-body); }
+.radix-copy:disabled { opacity: .4; cursor: default; }
+
+/* ERM code highlighting also appears in Docs and plugin examples. */
+.erm-syntax-trigger { color: #ee9a90; }
+.erm-syntax-receiver { color: #cda7ed; }
+.erm-syntax-instruction { color: #ddc482; }
+.erm-syntax-comment { color: #94af8e; }
+.erm-syntax-string { color: #d99d91; }
+.erm-syntax-variable { color: #95bad5; }
+[data-theme="light"] .erm-syntax-trigger { color: #972b25; }
+[data-theme="light"] .erm-syntax-receiver { color: #733196; }
+[data-theme="light"] .erm-syntax-instruction { color: #725b13; }
+[data-theme="light"] .erm-syntax-comment { color: #46633a; }
+[data-theme="light"] .erm-syntax-string { color: #8b3d2f; }
+[data-theme="light"] .erm-syntax-variable { color: #245887; }

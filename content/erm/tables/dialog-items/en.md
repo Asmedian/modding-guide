@@ -10,7 +10,7 @@
 
 <span class="erm-anchor" id="ref-form-cmi-text"></span><div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Clickable areas</span></div>
-<span class="erm-anchor" id="ref-form-cmi-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/cm/#ref-rec-cm-i">CM:I</a></div>
+<span class="erm-anchor" id="ref-form-cmi-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/cm/#ref-rec-cm-i">CM:I</a></div>
 
 <div class="erm-align-left erm-paragraph"><span class="erm-anchor" id="ref-form-cmi-wt"></span><strong class="erm-legacy-label"><span class="erm-anchor" id="ref-form-cmi-1"></span>Areas on the Adventure Screen</strong></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -176,31 +176,31 @@
 	</tr>
 	<tr>
 		<td>1001</td>
-		<td>Tree meaning</td>
+		<td>Wood amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1002</span></td>
-		<td><span class="erm-tone-red">Mercury meaning</span></td>
+		<td><span class="erm-tone-red">Mercury amount</span></td>
 	</tr>
 	<tr>
 		<td>1003</td>
-		<td>Ore value</td>
+		<td>Ore amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1004</span></td>
-		<td><span class="erm-tone-red">Meaning of sulfur</span></td>
+		<td><span class="erm-tone-red">Sulfur amount</span></td>
 	</tr>
 	<tr>
 		<td>1005</td>
-		<td>The meaning of crystals</td>
+		<td>Crystal amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1006</span></td>
-		<td><span class="erm-tone-red">The meaning of gems</span></td>
+		<td><span class="erm-tone-red">Gem amount</span></td>
 	</tr>
 	<tr>
 		<td>1007</td>
-		<td>Meaning of gold</td>
+		<td>Gold amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1008</span></td>
@@ -503,15 +503,15 @@
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Village government</td>
+		<td>Village Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">11</span></td>
-		<td><span class="erm-tone-red">Prefecture</span></td>
+		<td><span class="erm-tone-red">Town Hall</span></td>
 	</tr>
 	<tr>
 		<td>12</td>
-		<td>Municipality</td>
+		<td>City Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">13</span></td>
@@ -527,18 +527,18 @@
 	</tr>
 	<tr>
 		<td>16</td>
-		<td>Forge</td>
+		<td>Blacksmith</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">17</span></td>
 		<td><span class="erm-tone-red">Special Buildings: Mystic Fountain (Rampart), Veil of Darkness 
 		(Necropolis), Artifact Merchants (Tower, Dungeon and Conflux), Black 
-		move (Stronghold), Cage of the War Gods (Fortress), Lighthouse (Town)</span></td>
+		move (Stronghold), Cage of the War Gods (Fortress), Lighthouse (Castle)</span></td>
 	</tr>
 	<tr>
 		<td>18</td>
 		<td>Creature Horde Buildings: Mining Guild (Rampart), Griffin Bastion 
-		(Town), Mushroom Rings (Dungeon), Opened Graves (Necropolis), 
+		(Castle), Mushroom Rings (Dungeon), Opened Graves (Necropolis), 
 		Incubator (Inferno), Garden of Life (Conflux), Sculptors' Wings (Tower), 
 		Dining room (Stronghold), Captain's quarters (Fortress)</td>
 	</tr>
@@ -550,14 +550,14 @@
 		<td>21</td>
 		<td>Special Buildings: Marks of Fear (Fortress), Necromancy Amplifier 
 		(Necropolis), Lookout Tower (Tower), Whirlpool mana (Dungeon), Stables 
-		(Town), Sulfur clouds (Inferno), Fountain of Fortune (Rampart), Freelancer's Guild 
+		(Castle), Sulfur clouds (Inferno), Fountain of Fortune (Rampart), Freelancer's Guild 
 		(Stronghold), University magic (Conflux).</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">22</span></td>
 		<td><span class="erm-tone-red">Special buildings: Ballista Courtyard (Stronghold), Summoning Portal 
 		(Dungeon), Blood Obelisks (Fortress), Library (Tower), Transformer 
-		Skeletons (Necropolis), Treasury (Rampart), Brotherhood of the Sword (Town), 
+		Skeletons (Necropolis), Treasury (Rampart), Brotherhood of the Sword (Castle), 
 		Town Gate (Inferno), Waterfall (Conflux, inactive!) </span> </td>
 	</tr>
 	<tr>
@@ -1221,7 +1221,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">116</span></td>
-		<td><span class="erm-tone-red">Morality icon</span></td>
+		<td><span class="erm-tone-red">Morale icon</span></td>
 	</tr>
 	<tr>
 		<td>117</td>
@@ -1562,7 +1562,7 @@
 	</tr>
 	<tr>
 		<td>107</td>
-		<td>Morality icon</td>
+		<td>Morale icon</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">109</span></td>
@@ -1819,7 +1819,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">108</span></td>
-		<td><span class="erm-tone-red">Morality icon</span></td>
+		<td><span class="erm-tone-red">Morale icon</span></td>
 	</tr>
 	<tr>
 		<td>110</td>

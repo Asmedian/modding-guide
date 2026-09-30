@@ -32,7 +32,7 @@ Set/check/get an active hero<br>
 <span class="erm-anchor" id="ref-rec-ow-c"></span>C?$</strong></span><br>
 Check/get current player's color<br>
         $ = <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">0..7</a><br>
-You can only check or receive, but not install.<br>
+You can only check or receive, but not set.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ow-5"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ow-show5"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 In a multiplayer game, using a command will give the value of the player who is currently moving, and it does not matter which player initiated the ERM code.</div></details>
 <hr><div class="erm-paragraph">
@@ -51,11 +51,11 @@ If you captured town and lost it, the normal amount configured by this command w
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ow-g"></span><span class="erm-anchor" id="command-g-i-1-2"></span>G$1/$2</strong></span><br>
-Check whether the player is sitting in front of this PC. Multiplayer team.<br>
+Check whether the player is sitting in front of this PC. Multiplayer command.<br>
         $1 – <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">player</a><br>
         $2 – check for player (1 = yes, it’s me; 0 = no, it’s another human player)<br>
 Only makes sense for a multiplayer game. Of course, the main syntax is to get the value, 
-but you can also install it (but we wouldn't recommend trying it :-)<br>
+but you can also set it (but we wouldn't recommend trying it :-)<br>
 <strong><u>Comment</u>:</strong> this command is similar to the action <a href="../../variables/#ref-cont-flags-999">flag 999</a>, but they are not equivalent.<br>
 <u>
 </u>
@@ -176,7 +176,7 @@ Set/check/get resources<br>
         #1 – <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">player</a> (-1 = current)<br>
         #2 – <a href="../../tables/resources/#ref-form-resource" data-context="true">type</a> resource<br>
         $3 – quantity of resource<br>
-<span class="erm-anchor" id="ref-rec-ow-bold"></span><em class="erm-strong">Note:</em> do not try to install resources while the map is loading 
+<span class="erm-anchor" id="ref-rec-ow-bold"></span><em class="erm-strong">Note:</em> do not try to set resources while the map is loading 
 (i.e. instructions or post-instructions), otherwise the game will crash.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -216,7 +216,7 @@ Set/check/get heroes available in the tavern.<br>
          #1 – <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">player</a> (-1 = current)<br>
          $1 – left <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero</a> in the tavern (-1 = no)<br>
          $2 – right <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero</a> in the tavern (-1 = no)<br>
-We cannot guarantee that everything will work correctly if you install one hero for several players.</div>
+We cannot guarantee that everything will work correctly if you set one hero for several players.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ow-w"></span><span class="erm-anchor" id="command-w-w"></span>W#1/$1</strong></span><br>

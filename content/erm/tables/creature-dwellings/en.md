@@ -20,15 +20,15 @@
 	</tr>
 	<tr>
 		<td>56</td>
-		<td>Guard post</td>
+		<td>Guardhouse</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">57</span></td>
-		<td><span class="erm-tone-red">Tower crossbowmen</span></td>
+		<td><span class="erm-tone-red">Archer’s Tower</span></td>
 	</tr>
 	<tr>
 		<td>25</td>
-		<td>Tower griffins</td>
+		<td>Griffin Tower</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">58</span></td>
@@ -40,15 +40,15 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">05</span></td>
-		<td><span class="erm-tone-red">Hippodrome</span></td>
+		<td><span class="erm-tone-red">Training Grounds</span></td>
 	</tr>
 	<tr>
 		<td>08</td>
-		<td>Portal of Fame</td>
+		<td>Portal of Glory</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">80</span></td>
-		<td><span class="erm-tone-red">Portal of Radiance</span></td>
+		<td><span class="erm-tone-red">Portal of Splendor</span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-1"></span>
@@ -60,19 +60,19 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">12</span></td>
-		<td><span class="erm-tone-red">Gnome Cottage</span></td>
+		<td><span class="erm-tone-red">Dwarf Cottage</span></td>
 	</tr>
 	<tr>
 		<td>15</td>
-		<td>Manor</td>
+		<td>Homestead</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">50</span></td>
-		<td><span class="erm-tone-red">Enchanted Creek</span></td>
+		<td><span class="erm-tone-red">Enchanted Spring</span></td>
 	</tr>
 	<tr>
 		<td>45</td>
-		<td>Dendroid Arch</td>
+		<td>Dendroid Arches</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">51</span></td>
@@ -84,7 +84,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">24</span></td>
-		<td><span class="erm-tone-red">Dragon Rocks</span></td>
+		<td><span class="erm-tone-red">Dragon Cliffs</span></td>
 	</tr>
 	<tr>
 		<td>81</td>
@@ -108,7 +108,7 @@
 	</tr>
 	<tr>
 		<td>31</td>
-		<td>Tower mages</td>
+		<td>Mage Tower</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">18</span></td>
@@ -120,11 +120,11 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">44</span></td>
-		<td><span class="erm-tone-red">Transcendental Temple</span></td>
+		<td><span class="erm-tone-red">Cloud Temple</span></td>
 	</tr>
 	<tr>
 		<td>82</td>
-		<td>Temple storm</td>
+		<td>Temple of Storms</td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-3"></span>
@@ -132,11 +132,11 @@
 	</tr>
 	<tr>
 		<td>29</td>
-		<td>Cauldron of Demons</td>
+		<td>Imp Crucible</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">22</span></td>
-		<td><span class="erm-tone-red">Palace of Vices</span></td>
+		<td><span class="erm-tone-red">Hall of Sins</span></td>
 	</tr>
 	<tr>
 		<td>27</td>
@@ -148,7 +148,7 @@
 	</tr>
 	<tr>
 		<td>40</td>
-		<td>Failure</td>
+		<td>Hell Hole</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">14</span></td>
@@ -156,7 +156,7 @@
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Abandoned Palace</td>
+		<td>Forsaken Palace</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">83</span></td>
@@ -172,11 +172,11 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">55</span></td>
-		<td><span class="erm-tone-red">Cemetery</span></td>
+		<td><span class="erm-tone-red">Graveyard</span></td>
 	</tr>
 	<tr>
 		<td>48</td>
-		<td>Refuge of souls</td>
+		<td>Tomb of Souls</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">53</span></td>
@@ -188,11 +188,11 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">03</span></td>
-		<td><span class="erm-tone-red">Palace of Darkness</span></td>
+		<td><span class="erm-tone-red">Hall of Darkness</span></td>
 	</tr>
 	<tr>
 		<td>04</td>
-		<td>Crypt of Dragons</td>
+		<td>Dragon Vault</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">84</span></td>
@@ -204,19 +204,19 @@
 	</tr>
 	<tr>
 		<td>46</td>
-		<td>Corral</td>
+		<td>Warren</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">26</span></td>
-		<td><span class="erm-tone-red">Attic of the Harpies</span></td>
+		<td><span class="erm-tone-red">Harpy Loft</span></td>
 	</tr>
 	<tr>
 		<td>02</td>
-		<td>Eye Stone</td>
+		<td>Pillar of Eyes</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">33</span></td>
-		<td><span class="erm-tone-red">Chapel of Silence</span></td>
+		<td><span class="erm-tone-red">Chapel of Stilled Voices</span></td>
 	</tr>
 	<tr>
 		<td>34</td>
@@ -224,7 +224,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">32</span></td>
-		<td><span class="erm-tone-red">Lair of the Manticores</span></td>
+		<td><span class="erm-tone-red">Manticore Lair</span></td>
 	</tr>
 	<tr>
 		<td>41</td>
@@ -248,7 +248,7 @@
 	</tr>
 	<tr>
 		<td>39</td>
-		<td>Tower orcs</td>
+		<td>Orc Tower</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">38</span></td>
@@ -256,19 +256,19 @@
 	</tr>
 	<tr>
 		<td>42</td>
-		<td>Nest on the rock</td>
+		<td>Cliff Nest</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">09</span></td>
-		<td><span class="erm-tone-red">Cave of the Cyclops</span></td>
+		<td><span class="erm-tone-red">Cyclops Cave</span></td>
 	</tr>
 	<tr>
 		<td>01</td>
-		<td>Beast Cliff</td>
+		<td>Behemoth Crag</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">86</span></td>
-		<td><span class="erm-tone-red">The creature's grave</span></td>
+		<td><span class="erm-tone-red">Behemoth Tomb</span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-7"></span>
@@ -280,19 +280,19 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">30</span></td>
-		<td><span class="erm-tone-red">Lizard Lair</span></td>
+		<td><span class="erm-tone-red">Lizard Den</span></td>
 	</tr>
 	<tr>
 		<td>11</td>
-		<td>Hive of serpents</td>
+		<td>Serpent Fly Hive</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">00</span></td>
-		<td><span class="erm-tone-red">Pit of Basilisks</span></td>
+		<td><span class="erm-tone-red">Basilisk Pit</span></td>
 	</tr>
 	<tr>
 		<td>23</td>
-		<td>Lair of the Gorgons</td>
+		<td>Gorgon Lair</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">49</span></td>
@@ -304,7 +304,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">87</span></td>
-		<td><span class="erm-tone-red">Chaos Pool</span></td>
+		<td><span class="erm-tone-red">Chaos Pond</span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-8"></span>
@@ -320,7 +320,7 @@
 	</tr>
 	<tr>
 		<td>07</td>
-		<td>Air Elementals of Conjugation</td>
+		<td>Air Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">69</span></td>
@@ -328,7 +328,7 @@
 	</tr>
 	<tr>
 		<td>47</td>
-		<td>Water Elementals of Conjugation</td>
+		<td>Water Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">72</span></td>
@@ -336,7 +336,7 @@
 	</tr>
 	<tr>
 		<td>16</td>
-		<td>Fire Elemental Conjugation</td>
+		<td>Fire Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">71</span></td>
@@ -344,23 +344,23 @@
 	</tr>
 	<tr>
 		<td>13</td>
-		<td>Earth Elementals of Conjugation</td>
+		<td>Earth Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">70</span></td>
-		<td><span class="erm-tone-red">Altar of the Earth</span></td>
+		<td><span class="erm-tone-red">Altar of Earth</span></td>
 	</tr>
 	<tr>
 		<td>60</td>
-		<td>Altar of Thoughts</td>
+		<td>Altar of Thought</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">61</span></td>
-		<td><span class="erm-tone-red">Bonfire</span></td>
+		<td><span class="erm-tone-red">Pyre</span></td>
 	</tr>
 	<tr>
 		<td>88</td>
-		<td>Bonfire of the Spirit</td>
+		<td>Spirit Pyre</td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-9"></span>
@@ -392,7 +392,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">67</span></td>
-		<td><span class="erm-tone-red">Tower on a tree (Snipers)</span></td>
+		<td><span class="erm-tone-red">Treetop Tower (Sharpshooters)</span></td>
 	</tr>
 	<tr>
 		<td>79</td>
@@ -424,11 +424,11 @@
 	</tr>
 	<tr>
 		<td>89</td>
-		<td>Rock Cover (Lava Snipers)</td>
+		<td>Rock Shelter (Lava Sharpshooters)</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">90</span></td>
-		<td><span class="erm-tone-red">Snowy Shelter (Tempered Snipers)</span></td>
+		<td><span class="erm-tone-red">Snowy Shelter (Arctic Sharpshooters)</span></td>
 	</tr>
 	<tr>
 		<td>91</td>

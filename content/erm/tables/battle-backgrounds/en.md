@@ -9,7 +9,7 @@
 <div>
 
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Backgrounds in battle</span></div>
-<span class="erm-anchor" id="ref-form-ba-b-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ba/#ref-rec-ba-b">BA:B</a></div>
+<span class="erm-anchor" id="ref-form-ba-b-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ba/#ref-rec-ba-b">BA:B</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-ba-b-n2"></span><tr class="erm-tone-purple erm-strong"><td width="15%">Number</td><td><span class="erm-anchor" id="ref-form-ba-b-step"></span><strong class="erm-indent">Battle background</strong></td></tr>
 <tr><td>-1</td><td><br><span class="erm-indent">Standard<br><br></span></td></tr>

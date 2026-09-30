@@ -150,7 +150,7 @@ str[8] str=(*[<em class="erm-tone-purple erm-legacy-event">67CD08</em>])[subtype
 // 00100000 - 0x14 Sirens
 // 00200000 - 0x15 Warrior's Tomb
 // 00400000 - 0x16 Maximum luck (as <a href="../../receivers/he/#ref-rec-he-r6">HE:R6</a>)
-// 00800000 - 0x17 Maximum morality (as <a href="../../receivers/he/#ref-rec-he-r5">HE:R5</a>)
+// 00800000 - 0x17 Maximum morale (as <a href="../../receivers/he/#ref-rec-he-r5">HE:R5</a>)
 // 01000000 - 0x18 WOGSHADOWFAX (cheat code for 1 million turn points)
 // 02000000 - 0x19 Idol of Fortune (day 7)
 // 04000000 - 0x1A Temple (day 7)

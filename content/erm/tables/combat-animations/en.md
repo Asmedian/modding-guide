@@ -8,7 +8,7 @@
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Spell Def Index Table</span></div>
-<span class="erm-anchor" id="ref-form-defspell-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ss/#ref-rec-ss">SS:X</a><br>
+<span class="erm-anchor" id="ref-form-defspell-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ss/#ref-rec-ss">SS:X</a><br>
 See also <a href="../spells/#ref-form-spell">Spell table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-defspell-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -187,7 +187,7 @@ See also <a href="../spells/#ref-form-spell">Spell table</a></div>
 	<td>cloud of death</td></tr>
 <tr>
 	<td><span class="erm-tone-red">80</span></td>
-	<td><span class="erm-tone-red">death glare</span></td></tr>
+	<td><span class="erm-tone-red">Death Stare</span></td></tr>
 <tr>
 	<td>81</td>
 	<td>Acid breath</td></tr>
@@ -212,7 +212,7 @@ See also <a href="../spells/#ref-form-spell">Spell table</a></div>
 <div>
 <div class="erm-align-left erm-paragraph">
 <span class="erm-source-title">Battle Animation Table</span></div>
-<span class="erm-anchor" id="ref-form-formatanimation-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/bm/#ref-rec-bm-v">BM:V</a></div>
+<span class="erm-anchor" id="ref-form-formatanimation-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/bm/#ref-rec-bm-v">BM:V</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <tr>
 <td width="15%"><strong><span class="erm-tone-purple">Number</span></strong></td>
@@ -460,7 +460,7 @@ appear)</summary><div class="erm-comment-body"><img src="../../../../assets/erm/
 	<td><span class="erm-tone-red"><span class="erm-anchor" id="ref-form-formatanimation-70"></span><details class="erm-comment"><summary>Cure tent</summary><div class="erm-comment-body"><img src="../../../../assets/erm/4b4777eb9f4a5510.gif" alt="tentheal" loading="lazy" decoding="async" class="erm-figure" width="95" height="94"></div></details></span></td></tr>
 <tr>
 	<td>80</td>
-	<td><span class="erm-anchor" id="ref-form-formatanimation-71"></span><details class="erm-comment"><summary>death glare</summary><div class="erm-comment-body"><img src="../../../../assets/erm/1c1c10503194e8c1.gif" alt="deathstare" loading="lazy" decoding="async" class="erm-figure" width="58" height="98"></div></details></td></tr>
+	<td><span class="erm-anchor" id="ref-form-formatanimation-71"></span><details class="erm-comment"><summary>Death Stare</summary><div class="erm-comment-body"><img src="../../../../assets/erm/1c1c10503194e8c1.gif" alt="deathstare" loading="lazy" decoding="async" class="erm-figure" width="58" height="98"></div></details></td></tr>
 <tr>
 	<td><span class="erm-tone-red">81</span></td>
 	<td><span class="erm-tone-red"><details class="erm-comment"><summary>Acid breath</summary><div class="erm-comment-body"><img src="../../../../assets/erm/525a6b30c5c603f2.gif" alt="acid" loading="lazy" decoding="async" class="erm-figure" width="97" height="114"></div></details></span></td></tr>

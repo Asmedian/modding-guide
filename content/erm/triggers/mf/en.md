@@ -23,7 +23,7 @@ But, if in the trigger body !?MF1 is read from memory at address <strong class="
 <tr><td>4455746</td><td>Death Cloud Damage</td></tr>
 <tr><td>4456676</td><td>Spin Attack Damage (hits all enemies around)</td></tr>
 <tr><td>4458589</td><td>Fire Shield Damage</td></tr>
-<tr><td>4460149</td><td>Death Glare Damage</td></tr>
+<tr><td>4460149</td><td>Death Stare Damage</td></tr>
 <tr><td>4460621</td><td>Lightning Bolt</td></tr>
 <tr><td>4461137</td><td>Acid Attack Damage</td></tr>
 <tr><td>4462398</td><td>Melee Damage</td></tr>

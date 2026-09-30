@@ -8,7 +8,7 @@
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph">
 <span class="erm-source-title">Obstacle table on battlefield</span>
-</div><span class="erm-anchor" id="ref-form-obstacles-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/bf/#ref-rec-bf-o">BF:O</a></span>
+</div><span class="erm-anchor" id="ref-form-obstacles-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/bf/#ref-rec-bf-o">BF:O</a></span>
 </div>
 <div class="erm-paragraph">All objects spawn to the right and up from the starting square, never to the left or down. 
 Not all objects block their starting position.<br>

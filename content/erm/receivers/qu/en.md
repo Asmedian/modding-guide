@@ -20,7 +20,7 @@
 <span class="erm-tone-red"><strong>!!QU#:XXXX;</strong></span> 
 - Object-task by coordinates in variables v[#], v[#+1], v[#+2]</div>
 <u></u><span class="erm-anchor" id="ref-rec-qu-1"></span><details class="erm-comment"><summary>Comments (<span class="erm-anchor" id="ref-rec-qu-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-When installing the Seer's Hut on the map (<a href="../../tables/objects/#ref-form-objects-t83" data-context="true">type 83</a>) or 
+When setting the Seer's Hut on the map (<a href="../../tables/objects/#ref-form-objects-t83" data-context="true">type 83</a>) or 
 Border Guard (<a href="../../tables/objects/#ref-form-objects" data-context="true">type 9</a>) using ERM, 
 don't forget to call <a href="./#ref-rec-qu-q">QU:I</a> after the object is created. 
 Otherwise, you will not be able to customize or interact with the object (most likely the game will crash).</div></details>

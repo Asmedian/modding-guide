@@ -18,11 +18,11 @@
 	</tr>
 	<tr>
 		<td>0</td>
-		<td>Prefecture</td>
+		<td>Town Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1</span></td>
-		<td><span class="erm-tone-red">Municipality</span></td>
+		<td><span class="erm-tone-red">City Hall</span></td>
 	</tr>
 	<tr>
 		<td>2</td>
@@ -46,7 +46,7 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">7</span></td>
-		<td><span class="erm-tone-red">Forge</span></td>
+		<td><span class="erm-tone-red">Blacksmith</span></td>
 	</tr>
 	<tr>
 		<td>8</td>
@@ -864,7 +864,7 @@ For convenience, they are distributed in tables for each lock.</td></tr>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">18</span></td>
-		<td><span class="erm-tone-red">Back door</span></td>
+		<td><span class="erm-tone-red">Escape Tunnel</span></td>
 	</tr>
 	<tr>
 		<td>19</td>

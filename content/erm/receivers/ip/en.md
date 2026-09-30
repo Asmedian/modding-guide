@@ -44,9 +44,9 @@ To execute correctly you must do some things:
 !?FU12345;
 !!BMx1:Mx2/x3/x4;
 </code></pre>
-That's all. Working principle: team <a href="../fu/#ref-rec-fu-d">FU:D</a> immediately transmits everything <em>x</em>-parameters to another 
+That's all. Working principle: command <a href="../fu/#ref-rec-fu-d">FU:D</a> immediately transmits everything <em>x</em>-parameters to another 
 computer and call function 12345 there. So the command <span class="erm-anchor" id="ref-rec-ip-erm"></span><span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>v10:M...;</span> will work for 
-one computer and team <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
+one computer and command <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
 you will get the same effect on both sides.<br>
 Note that you can pass the values of some variables with the command <a href="./#ref-rec-ip-v">IP:V</a> and then 
 call <a href="../fu/#ref-rec-fu-d">FU:D</a> for transmission of more than 16 <em>x</em>-parameters to another computer.<br><br></div></details>
@@ -90,7 +90,7 @@ battle, but also on the map. Therefore you must identify the player you are send
 values with this command. It works in the same way as <em>w</em>- hero variables. 
 So, if you set !!IP:D, it will remain so until you (or 
 anyone else) do not change the value. Please note that if you save and 
-then load the game, the host player becomes undefined, so install this 
+then load the game, the host player becomes undefined, so set this 
 command in each trigger that sends data. Also note that if 
 you send to all players (-1), all variables sent and functions called 
 will be launched on all PCs in the game, including yourself. First he will run 

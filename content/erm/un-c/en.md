@@ -112,7 +112,7 @@ Let's take a closer look at the parameters:<br>
 <strong>$3</strong> - this is the parameter itself, which we intend to change in order to achieve some kind of “bun”. This parameter can have either a positive or negative value.<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!UN:C7783293/4/37; Commander Paladin (spell "Cure")</code></pre>
-In the WoG game code at <em class="erm-tone-purple erm-legacy-event">76C37D</em> installed spell No. 25h for the Paladin commander. These addresses have a hexadecimal number system. 
+In the WoG game code at <em class="erm-tone-purple erm-legacy-event">76C37D</em> set spell No. 25h for the Paladin commander. These addresses have a hexadecimal number system. 
 The UN:C command only supports the decimal system. Converting these numbers to decimal is not difficult: 
 turn on a regular Windows calculator, click "View→Programmer", check the "Hex" box, enter "76C37D", 
 after that press "Dec". As a result, the result will be represented by the number 7783293. So we have learned how to convert a hexadecimal number to a decimal ;-)<br>
@@ -486,10 +486,10 @@ P.S. this is the SOD section (which means this problem exists on all versions of
 6 - Left ring / Right ring [locks = 0…2]
 7 - Legs
 8 - Miscellaneous 5…1 [locks = 0…5]
-9 - Ballista (specialty X1)
+9 - Ballista
 10 - Ammo cart
 11 - First aid tent
-12 - Catapult (specialty X1) (figurines, I’m always with you)
+12 - Catapult (figurines, I’m always with you)
 13 - Book of Spells</pre></div></details><br><br>
 
 <pre class="erm-example"><code class="language-erm">; Hiring Heroes

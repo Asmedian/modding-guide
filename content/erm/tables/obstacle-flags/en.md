@@ -8,7 +8,7 @@
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Combat Obstacle Flags</span></div>
-<span class="erm-anchor" id="ref-form-obstacles-bit-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/bu/#ref-rec-bu-o">BU:O</a></div>
+<span class="erm-anchor" id="ref-form-obstacles-bit-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/bu/#ref-rec-bu-o">BU:O</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-obstacles-bit-n2"></span><tr class="erm-tone-purple erm-strong">
 	<td width="35">Bit</td>

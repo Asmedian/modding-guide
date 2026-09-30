@@ -289,7 +289,7 @@ The corresponding named functions (events) known at the time of publication of t
 <ul>
 <li><div class="erm-paragraph"></div><span class="erm-anchor" id="ref-cont-logicevent-1"></span><details class="erm-comment"><summary>Town screen</summary><div class="erm-comment-body">
 <strong class="erm-tone-purple erm-legacy-event">OnTownMouseHint</strong><br>
-AFTER displaying any hint in the town screen, does NOT work in castle screens/town hall/development/taverns/dwellings, etc..<br>
+AFTER displaying any hint in the town screen, does NOT work in castle screens/town hall/marketplace/tavern/dwelling, etc..<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnEnterTownHall</strong> (<a href="th/#ref-tr-th">!?TH0</a>)<br>
 BEFORE entering the town hall from the town screen<br>
@@ -364,7 +364,7 @@ after the meeting of heroes (after the meeting window disappears)</div></details
 <li><div class="erm-paragraph"></div><span class="erm-anchor" id="ref-cont-logicevent-3"></span><details class="erm-comment"><summary>Other screens</summary><div class="erm-comment-body">
 <strong class="erm-tone-purple erm-legacy-event">OnOpenRecruitDlg</strong><br>
 before opening the dialogue for hiring creatures.<br>
-Does NOT trigger when opening a forge<br>
+Does NOT trigger when opening a blacksmith<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnRecruitDlgRecalc</strong><br>
 before opening the dialogue for hiring creatures<br>
@@ -376,7 +376,7 @@ when you press the hire button in the recruitment dialogue, BEFORE closing the d
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnCloseRecruitDlg</strong><br>
 after closing the dialogue for hiring creatures.<br>
-Does NOT trigger when closing the forge<br>
+Does NOT trigger when closing the blacksmith<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnCustomDialogEvent</strong><br>
 BEFORE activating any event in the user <a href="dl/#ref-tr-dl">DL</a>-dialogue</div></details></li>
@@ -453,7 +453,7 @@ Does NOT trigger outside the town hall screen<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnRecruitDlgMouseClick</strong><br>
 any click on the creature recruitment screen.<br>
-Does NOT trigger in the Forge screen<br>
+Does NOT trigger in the Blacksmith screen<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnKingdomOverviewMouseClick</strong><br>
 any click on the Kingdom Overview screen<br>
@@ -528,11 +528,11 @@ Doesn't work for the first player's first day</div></details></li>
 	<strong class="erm-tone-purple erm-legacy-event">OnBattleStackObtainsTurn</strong><br>
 	stack performs special. action, such as ghosts stealing mana<br>
 	stack gets a move and is highlighted with an outline<br>
-	<strong>Hook in <span class="erm-tone-purple erm-legacy-event">4609014</span></strong> [after the regeneration phase; tests for morality, fear; and after installing the active stack]<br>
+	<strong>Hook in <span class="erm-tone-purple erm-legacy-event">4609014</span></strong> [after the regeneration phase; tests for morale, fear; and after selecting the active stack]<br>
 	<strong class="erm-tone-purple erm-legacy-event">OnAfterBattleAction</strong> (<a href="bg/#ref-tr-bg">!?BG1</a>) - does not work for the very first action of the first unit in battle<br>
 	selecting and performing an action</div></details></dd>
 <dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-10"></span><details class="erm-comment"><summary>Move/waiting/defence (<span class="erm-anchor" id="ref-cont-logicevent-show10"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-	animation + sound of squad movement, if movement<br>
+	animation + sound of stack movement, if movement<br>
 	performing unit actions starting from receiving their turn</div></details></dd>
 <dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-11"></span><details class="erm-comment"><summary>Enemy attack (<span class="erm-anchor" id="ref-cont-logicevent-show11"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 	hovering over an enemy<br>
@@ -560,11 +560,11 @@ Doesn't work for the first player's first day</div></details></li>
 	<strong class="erm-tone-purple erm-legacy-event">OnAfterBattle</strong> (<a href="ba/#ref-tr-ba">!?BA1</a>)<br>
 	<strong class="erm-tone-purple erm-legacy-event">OnAfterBattleUniversal</strong> (<a href="ba/#ref-tr-ba">!?BA53</a>)<br>
 	performing unit actions starting from receiving their turn</div></details></dd>
-<dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-12"></span><details class="erm-comment"><summary>AI squad action (without hero) (<span class="erm-anchor" id="ref-cont-logicevent-show12"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
+<dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-12"></span><details class="erm-comment"><summary>AI stack action (without hero) (<span class="erm-anchor" id="ref-cont-logicevent-show12"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 	<strong class="erm-tone-purple erm-legacy-event">OnStackToStackDamage x2/x3</strong> <strong class="erm-tone-text">+</strong> <strong class="erm-tone-purple erm-legacy-event">OnAICalcStackAttackEffect</strong> (triggers for every potential target, even if it is unreachable)<br>
 	<strong class="erm-tone-purple erm-legacy-event">OnAICalcStackAttackEffect</strong><br>
 	<strong class="erm-tone-purple erm-legacy-event">OnBeforeBattleAction</strong> (<a href="bg/#ref-tr-bg">!?BG0</a>)<br>
-	performing the action as for a human squad<br>
+	performing the action as for a human stack<br>
 	performing unit actions starting from receiving their turn</div></details></dd></dl></div></details>
 </li></ul>
 
@@ -776,7 +776,7 @@ Doesn't work for the first player's first day</div></details></li>
 </tr>
 <tr>
 	<td><a href="./#ref-era-new-events-2-13">OnAICalcStackAttackEffect</a></td>
-	<td> AI calculation of attack efficiency by squad</td>
+	<td> AI calculation of attack efficiency by stack</td>
 </tr>
 <tr>
 	<td><a href="./#ref-era-new-events-2-14">OnChat</a></td>
@@ -1033,7 +1033,7 @@ The syntax works for both events is <strong class="erm-inline-code"><span class=
 Stack gets a turn in battle.</div>
 <pre class="erm-tone-quote erm-note"><strong>Parameters:</strong>
  1:  <em>side (0 - left, 1 - right)</em>
- 2:  <em>squad number (0..21)</em></pre>
+ 2:  <em>stack number (0..21)</em></pre>
 <div class="erm-paragraph"><u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!?FU(OnBattleStackObtainsTurn);
 !!SN:X0/0; in battle, only the first stack hero will get the right to move</code></pre></div>
@@ -1042,7 +1042,7 @@ Stack gets a turn in battle.</div>
 <span class="erm-tone-red"><strong>!?FU(OnBattleRegeneratePhase);</strong></span><br>
 Regeneration phase in battle.</div>
 <pre class="erm-tone-quote erm-note"><strong>Parameters:</strong>
- 1:  <em>squad number (0..41)</em>
+ 1:  <em>stack number (0..41)</em>
  2:  <em>pointer to the TBattleMonster structure</em>
  3:  <em>block regeneration? (0 - no, 1 - yes)</em></pre>
 <div class="erm-paragraph">In this event, the regeneration of Nightmare Hydras, Trolls, and Ghosts occurs.<br>
@@ -1175,7 +1175,7 @@ Occurs before the hero screen opens (dark phase).</div>
  1:  <em>hero number</em></pre>
 <div class="erm-paragraph">Event occurs just before the hero screen is rendered for a specific hero: after the event <a href="./#ref-era-new-events-2-4">OnOpenHeroScreen</a> and every time you switch in the same dialogue between the player’s characters. 
 Also, the event occurs when you click on a hero in a tavern and in battle (with special plugins).<br>
-Event can be used to change information/development/of the hero's troops ONLY in the hero's window.</div>
+This event can change the hero's information, skills, or army ONLY in the hero window.</div>
 <hr>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-era-new-events-2-31"></span>
 <span class="erm-tone-red"><strong>!?FU(OnBuildTownBuilding);</strong></span><br>
@@ -1241,7 +1241,7 @@ If the red player chose <code>newgame</code>, then the game will be saved to a f
 <span class="erm-tone-red"><strong>!?MM0</strong></span><br>
 Trigger to control the text in battle.</div>
 <pre class="erm-tone-quote erm-note"><strong>Parameters:</strong>
- 1:  <em>current squad number or -1</em>
+ 1:  <em>current stack number or -1</em>
  2:  <em>number of the enemy unit the cursor is hovering over or -1</em>
  3:  <em>minimum damage</em>
  4:  <em>maximum damage</em></pre>

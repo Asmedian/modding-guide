@@ -12,7 +12,7 @@
 <span class="erm-anchor" id="ref-cont-lib-text"></span><div>
 
 <div class="erm-align-center erm-paragraph"><strong><span class="erm-source-title">Function library UN:C</span></strong></div>
-<div class="erm-align-left erm-paragraph"><span>Team <a href="../receivers/un/#ref-rec-un-c">UN:C</a> works with memory. Using it, you can edit even those areas of heroes 
+<div class="erm-align-left erm-paragraph"><span>Command <a href="../receivers/un/#ref-rec-un-c">UN:C</a> works with memory. Using it, you can edit even those areas of heroes 
 which seemed beyond the reachable. Here are a few useful features that are not standard. Use it!</span></div>
 <div class="erm-align-center erm-paragraph"><span class="erm-source-title"><strong><span class="erm-anchor" id="ref-cont-lib-portal1"></span>Controlling the type of creature hired in the Summoning Portal</strong></span></div>
 <div class="erm-align-left erm-paragraph">
@@ -167,7 +167,7 @@ Using the function:<br>
 translucent)<br>
 For example, translucency is like prayer, resurrection, healing, 
 fear...<br>
-Opaque: Morality, curse, old age, illness, ... <br>
+Opaque: Morale, curse, old age, illness, ... <br>
 <br>
 Any def files work, even from an adventure map, any. Animation 
 plays once and then disappears.<div class="erm-paragraph"><em>Unfortunately the script is now 

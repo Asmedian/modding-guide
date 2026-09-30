@@ -12,11 +12,11 @@
 <div class="erm-paragraph">
 <br>
 <strong><span class="erm-anchor" id="ref-rec-mc-red"></span><span class="erm-tone-red">!!MC#:S@Var@</span> 
-- install a macro.</strong><br>
+- set a macro.</strong><br>
 Used to assign a text name to a variable.<br>
 Applicable to <a href="../../variables/#ref-cont-flags-var-typ">variables</a> f…t, v#, z# and w#.</div>
 <strong></strong><span class="erm-anchor" id="ref-rec-mc-1"></span><details class="erm-comment"><summary>Note (<span class="erm-anchor" id="ref-rec-mc-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-First you must install the macro with the instruction before using the macro name:
+First you must set the macro with the instruction before using the macro name:
 <pre class="erm-example"><code class="language-erm">!#MCv100:S@Var100@;
 The variable v100 now has a second name of “Var100”.</code></pre></div></details>
 <div class="erm-paragraph">The length of a macro name is limited to eight characters. You can use a longer name, but only the first 8 characters will be used to search for the variable.<br>

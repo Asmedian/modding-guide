@@ -14,7 +14,7 @@
 <div class="erm-paragraph">
 <br>
 <strong><span class="erm-anchor" id="ref-rec-po-red"></span><span class="erm-tone-red">!!PO#1/#2/#3:XXXX;</span> </strong>–<strong> set/check 
-square in X Y L.</strong> Used to install or verify information of any 
+square in X Y L.</strong> Used to set or verify information of any 
 square of the card.<br>
 <em>Extended syntax:</em><br>
 <strong><span class="erm-tone-red">!!PO$:XXXX;</span> – X Y L are respectively equal to v[$], v[$+1], v[$+2].</strong><br>

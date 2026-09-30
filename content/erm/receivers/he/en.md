@@ -53,7 +53,7 @@ If there is no artifact, the value of the variable is -1.<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-he-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-he-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"><ul>
 <li>If you use HE:A1 to equip the hero with a artifact that grants any spells (Tome of Magic, Spell Scroll or Speaker's Hat), 
 then they will not be added until the player himself removes and puts back artifact. 
-New team <a href="./#ref-rec-he-a4">HE:A4</a>, added in 3.58, will correctly give spells to the hero.
+New command <a href="./#ref-rec-he-a4">HE:A4</a>, added in 3.58, will correctly give spells to the hero.
 </li><li>If you use the HE:A1 command to equip an artifact, it will be equipped regardless of whether it is blocked or occupied. 
 Again, command HE:A4 will only equip artifacts to slots that are not blocked or occupied.</li></ul></div></details>
 <hr>
@@ -173,7 +173,7 @@ Change Creatures: All Creatures <a href="../../tables/creatures/#ref-form-creatu
 <pre class="erm-example"><code class="language-erm">!!HE-1:C1/0/1/d20; add 20 units to each slot with spearmen (d20) and replace all spearmen (0) with halberdiers (1)</code></pre>
 If you use -1 in $2 or 0 in $3, all creatures of that type will be removed from the hero:
 <pre class="erm-example"><code class="language-erm">!!HE-1:C1/143/-1/0; drive all Thieves out of the army</code></pre>
-You can also get qty ($3). Finding the number allows you to quickly check whether hero has creatures of a given type, without using <a href="../do/#ref-rec-do">cycles</a>. 
+You can also get qty ($3). Finding the number allows you to quickly check whether hero has creatures of a given type, without using <a href="../do/#ref-rec-do">loops</a>. 
 But, if hero has several units, you will receive the number of creatures of this type in the last (!) slot with such creatures.
 <br>For example, active hero has the following army:<br> 
 <img src="../../../../assets/erm/f46ad655a407bf5b.gif" alt="!!HE-1:C1/0/1/d20; add 20 units to each slot with spearmen (d20) and replace all spearmen (0) with halberdiers (1) If you use -1 in $2 or 0 in $3, all creatures" loading="lazy" decoding="async" class="erm-figure" width="466" height="78"><br>
@@ -373,7 +373,7 @@ Set up an army of a recruitable hero.<br>
         $2 – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a> (-1 – no creature)<br>
         $3 – min. number of creatures<br>
         $4 – max. number of creatures (may be $3 for a certain number)<br>
-The team can install an army of a hero that none of the players currently have in the tavern. 
+The command can set an army of a hero that none of the players currently have in the tavern. 
 If he is in a tavern, no changes to his starting army will occur until next week.<br>
 <u>
 </u></div><span class="erm-anchor" id="ref-rec-he-18"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-he-show18"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -400,7 +400,7 @@ Same as HE:K, but without update</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-he-l"></span>L#^Portrait.pcx^</strong></span><br>
-Install hero portrait from external files<br>
+Set hero portrait from external files<br>
         # = 1 – set small portrait – <em class="erm-legacy-file">file.pcx</em><br>
         # = 2 – set a large portrait – <em class="erm-legacy-file">file.pcx</em><br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-he-19"></span><details class="erm-comment"><summary>Comments (<span class="erm-anchor" id="ref-rec-he-show19"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -457,7 +457,7 @@ Restore original portraits<br>
 <pre class="erm-example"><code class="language-erm">!!HE18:L3; return Enova to her native appearance</code></pre></div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>L4/$</strong></span><br>
-Install both portraits from the game from <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero $</a></div>
+Set both portraits from the game from <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero $</a></div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>L5/$1/$2</strong></span><br>
 Set hero portrait from variable<br>
@@ -513,7 +513,7 @@ which will open the destination along with the teleported hero.</li></ul></div><
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-he-r"></span><span class="erm-anchor" id="command-r-refresh"></span>R0/$</strong></span><br>
-Set/check/get hero morality (until next battle)</div>
+Set/check/get hero morale (until next battle)</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-r1"></span><span class="erm-tone-red"><strong>R1/$</strong></span><br>
 Set/check/get the hero's luck (until next battle)</div>
@@ -540,8 +540,8 @@ An example of a command is the button at the bottom right of the hero window.<br
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-r5"></span><span class="erm-tone-red"><strong>R5/$</strong></span><br>
 Set maximum morale<br>
-        $ = 0 – not installed<br>
-        $ = 1 – installed</div>
+        $ = 0 – not set<br>
+        $ = 1 – set</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-r6"></span><span class="erm-tone-red"><strong>R6/$</strong></span><br>
 Set maximum luck<br>
@@ -559,7 +559,7 @@ The command will set or clear the text associated with visiting this object if y
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-ref"></span><span class="erm-tone-red"><strong>R#1/$/#2</strong></span><br>
 Update command (for all commands HE:R)<br>
-        #1 – team number R<br>
+        #1 – command number R<br>
         $ – value<br>
         #2 – update flag<br>
              = 0 – no (default)<br>
@@ -576,7 +576,7 @@ If you only want to show one skill, first change its position to slot 1 and then
 Set/check/get secondary skills<br>
         #1 – <a href="../../tables/secondary-skills/#ref-form-secondaryskill" data-context="true">skill number</a><br>
         $2 – skill level (0 – none, 1 – basic, 2 – advanced, 3 – expert).<br>
-You can install all the secondary skills (28) at once, but only the first 8 will be shown on the hero screen.<br>
+You can set all the secondary skills (28) at once, but only the first 8 will be shown on the hero screen.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-he-45"></span><details class="erm-comment"><summary>Additionally (<span class="erm-anchor" id="ref-rec-he-show45"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Using low level command <a href="../un/#ref-rec-un-c">UN:C</a> We can provide the ability for the hero to programmatically learn all 28 skills:
 <pre class="erm-example"><code class="language-erm">!!UN:C5091278/1/27 C5121386/1/27; [level up]
@@ -595,7 +595,7 @@ You can use three variations of the syntax:
 !!HE#:S#1/#2/1; - set slot #1 to show skill #2</code></pre>
 In the latter case, if other skills occupy this slot, the skill will remain without a slot. 
 You can use this command twice to change the positions of two skills.<br>
-When you install skills with this command, you must follow the following rules:
+When you set skills with this command, you must follow the following rules:
 <span class="erm-anchor" id="ref-rec-he-t0"></span><ul class="erm-margin-top-zero"><li>you can move any two displayed skills to change their positions</li>
 <li>you <em>shouldn't</em> set skill to show if it is below base level (no skill)</li>
 <li>you must set the skills to be shown in a specific order (no empty spaces).</li></ul>
@@ -638,7 +638,7 @@ Change/get hero movement points<br>
          $ – points to change (W0, Wd-10, W?i, W&gt;=100...)<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-he-26"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-he-show26"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 This number is not the number of steps that hero can take, but a significantly larger number (usually between 1500 and 2000, depending on the speed of the troops), 
-the game is installed automatically. It is problematic to calculate the options for soil bonuses and penalties (plus Path Finding, Logistics, Boots of Speed, etc.). 
+is set automatically by the game. It is problematic to calculate the options for soil bonuses and penalties (plus Path Finding, Logistics, Boots of Speed, etc.). 
 On grass with mixed creatures, 1 step is equal to 100 hero movement points.<br>
 In Breath of Death and WoG, computer heroes receive additional movement points at higher difficulty levels. 
 On Expert they get 125 extra points, on Impossible - 75. </div></details>

@@ -7,7 +7,7 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Creature Experience: Spell Immunity</span>
-</div><span class="erm-anchor" id="ref-form-specexp4-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4, when $3=119 (w)<br>
+</div><span class="erm-anchor" id="ref-form-specexp4-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4, when $3=119 (w)<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-specexp4-n2"></span><tr class="erm-tone-purple erm-strong"><td width="5%">Sign</td>

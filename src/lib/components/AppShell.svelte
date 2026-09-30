@@ -11,6 +11,7 @@
   import { translator, type Locale } from '$lib/i18n';
   import LanguageMenu from '$lib/components/LanguageMenu.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
+  import RadixConverter from '$lib/components/RadixConverter.svelte';
   import ErmQuickLinks from '$lib/components/ErmQuickLinks.svelte';
   import ContextReference from '$lib/components/ContextReference.svelte';
   import topNavigation from '../../../content/_navigation/top.json';
@@ -409,6 +410,7 @@
     <span>{t('search.placeholder')}</span>
     <kbd>{t('search.shortcut')}</kbd>
   </button>
+  <RadixConverter {lang} on:open={() => { searchOpen = false; }} />
   <LanguageMenu {lang} />
   <button class="icon-button theme-button" type="button" aria-label={t('theme.toggle')} title={theme === 'dark' ? t('theme.light') : t('theme.dark')} on:click={toggleTheme}>
     <UiIcon name={theme === 'dark' ? 'sun' : 'moon'} />
@@ -432,6 +434,7 @@
     <span>{t('search.placeholder')}</span>
     <kbd>{t('search.shortcut')}</kbd>
   </button>
+  <RadixConverter {lang} on:open={() => { searchOpen = false; }} />
 </div>
 
 {#if menuOpen}

@@ -84,7 +84,7 @@ This command will set the variable v1 to:<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ex-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ex-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 This command will add the original stack to the army slot, along with the combination 
 parameters. All experience will be distributed equally to all soldiers, artifacts 
-are summed up. If you install <strong>warning type</strong> to 1 (default 0), 
+are summed up. If you set <strong>warning type</strong> to 1 (default 0), 
 you won't get a message that these stacks are different.<br>
 <u>Example 1</u>:<br>
 Hero visits the object and its stack 3 is added to stack 1 (they must be the same type):
@@ -136,7 +136,7 @@ Set/check/get artifact and option<br>
 		</tr>
 		<tr>
 			<td class="erm-align-center">5</td>
-			<td> +50% squad experience per battle</td>
+			<td> +50% stack experience per battle</td>
 		</tr>
 		<tr>
 			<td class="erm-align-center">6</td>

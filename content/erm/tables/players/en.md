@@ -117,7 +117,7 @@ All players = 255.</div>
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Player flags</span></div>
-<span class="erm-anchor" id="ref-form-if-flags-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
+<span class="erm-anchor" id="ref-form-if-flags-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
 </div>
 
 <div class="table-wrap erm-reference-table"><table width="100%">

@@ -68,7 +68,7 @@ Main tasks solved by the project:</h3>
 <ul>
 <li> Ability to use third-party plug-ins and patches;</li>
 <li> Correcting errors in the game and the ERM scripting language, simplifying development and debugging, increasing script compatibility;</li>
-<li> ERM Language Extension <a href="../receivers/sn/#ref-rec-sn-era">new teams</a> and <a href="../triggers/#ref-era-new-events">events</a>;</li>
+<li> ERM Language Extension <a href="../receivers/sn/#ref-rec-sn-era">new commands</a> and <a href="../triggers/#ref-era-new-events">events</a>;</li>
 <li> <a href="../receivers/if/#ref-era-color-text">Colored text</a> in game dialogues;</li>
 <li> Simplifying the creation and installation of mods;</li>
 <li> <a href="../receivers/sn/#ref-era-api">Unification</a> and standardization of game engine development.</li>

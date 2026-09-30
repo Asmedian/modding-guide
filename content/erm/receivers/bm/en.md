@@ -90,7 +90,7 @@ Stack does not have a designation for the number of creatures, until it looks li
 Quantity is shown when clicked <span class="erm-anchor" id="ref-rec-bm-vc"></span><img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> in the lower right corner of the picture (where it usually is, in general).<br>
 <strong>-89</strong>: Creature type<br>
 The unit’s parameters become the same as those of the creature whose number is set, but are immediately reduced to the standard parameters of the creature that is being changed. 
-Squad name in menu when clicked <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> essentially changes; when he is beaten, his name remains changed. 
+Stack name in menu when clicked <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> essentially changes; when he is beaten, his name remains changed. 
 When the battle is over, the picture will show the configured stack, not the old one. If you change the type of creature, the battle becomes impossible to win 
 (the logic of the game requires killing the one who attacked, and changing the type of creatures is equivalent to summoning another creature, without destroying the old one (according to the logic of the game again)). 
 This problem renders the option virtually useless.<br>
@@ -144,7 +144,7 @@ The less, the more often. So, a value of 200 will give a continuous animation.<b
 <strong>-1</strong>: Number of active spells (to display the color of the number of creatures).<br>
 [<span class="erm-anchor" id="ref-rec-bm-wt"></span><strong class="erm-legacy-label">0..65</strong>]: working with spells (normal operation of command BM:G)<br>
 <strong>173</strong>: Number of active spells (to display when clicked <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon">).<br>
-<strong>212</strong>: Creature Morality<br>
+<strong>212</strong>: Creature Morale<br>
 <strong>213</strong>: Luck creatures<br>
 Morale and luck are recalculated when the turn is transferred to another creature. Therefore only useful for receiving or checking. 
 If you really need to change, then you can do it either before the attack, or every turn.</div></div></details>
@@ -199,7 +199,7 @@ And if you use <a href="./#ref-rec-bm-c">BG:C</a>to try to “cast” one of the
 76. Cloud of Death<br>
 77. Lightning Bolt<br>
 78. Removing useful spells<br>
-79. Death Glare<br>
+79. Death Stare<br>
 80. Acid breath</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bm-n"></span><span class="erm-tone-red"><strong>N$</strong></span><br>
@@ -232,7 +232,7 @@ This is the number of stack responses remaining until the end of the round. It i
 <span class="erm-anchor" id="ref-rec-bm-s"></span><span class="erm-tone-red"><strong>S$</strong></span><br>
 Creature speed.<br>
 <strong><u>Comment</u>:</strong> the resulting value does not include magical speed effects.</div>
-<div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="./#ref-rec-bm-u6">BM:U6</a></div>
+<div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="./#ref-rec-bm-u6">BM:U6</a></div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bm-t"></span><span class="erm-tone-red"><strong>T$</strong></span><br>
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">Creature type</a></div>
@@ -256,7 +256,7 @@ Also remember that this command does not affect creatures that cast a random spe
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bm-u6"></span><span class="erm-tone-red"><strong>U6/?$</strong></span><a href="../../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a><br>
 Get the real stack speed (all bonuses/penalties are taken into account).</div>
-<div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="./#ref-rec-bm-s">BM:S</a>.
+<div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="./#ref-rec-bm-s">BM:S</a>.
 </div>
 <hr>
 <div class="erm-paragraph">

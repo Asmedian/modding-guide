@@ -115,13 +115,13 @@ See <a href="./#ref-rec-sn" title="Sound playback control (WAV/82M)">description
 <br>All ERA commands can work with the following ERM elements:
 </div><span class="erm-anchor" id="ref-rec-sn-era-t0"></span><ul class="erm-margin-top-zero">
 <li>Positive and negative numbers;</li>
-<li>Installation syntax (without modifier <em>"d"</em>) and receiving (<strong>?</strong>) values;</li>
+<li>Setting syntax (without modifier <em>"d"</em>) and receiving (<strong>?</strong>) values;</li>
 <li>Variables <em>y+</em>, <em>v</em>, <em>w</em>, <em>x</em>, <em>z+</em>, <em>f..t</em>, <em>e</em>;</li>
 <li>Global named variables of the form i^…^ (for numbers) and s^…^ (for strings);</li>
 <li>String literals in the form ^...^ with support for specifiers %Y, %V, %W, %X, %Z, %I(...), %S(...), %T(...), %E with positive indices.</li>
 </ul>
 <div class="erm-paragraph">Also, it is worth noting that, unlike standard <em>z</em>-variables (up to 511 characters long), ERA string literals (^…^ or ^%S(…)^) can be up to 1 million long. characters.</div>
-<div class="erm-paragraph">Moreover, for all teams new receivers ERA (<a href="./#ref-rec-sn-era">SN</a>/<a href="../mp/#ref-rec-mp-era">MP</a>/<a href="../rd/#ref-rec-rd">RD</a>) support implemented:
+<div class="erm-paragraph">Moreover, for all commands new receivers ERA (<a href="./#ref-rec-sn-era">SN</a>/<a href="../mp/#ref-rec-mp-era">MP</a>/<a href="../rd/#ref-rec-rd">RD</a>) support implemented:
 </div><ul class="erm-margin-top-zero"><li>concatenation of string variables (d, where <strong>#</strong> - z-variable or ^text^);</li>
 <li>numerical operations with modifier <em>d</em> (d+, d-, d*, d:);</li>
 <li>set/get operations for named variables (SN:W-keys) of numeric (i^name^) and string (s^name^) types.</li></ul>
@@ -240,10 +240,10 @@ The command should be used directly in the above game windows, because Each game
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-sn-era-g"></span><span class="erm-anchor" id="command-g-label-q"></span><span class="erm-tone-red"><strong>SN:G[name]</strong></span><br>
 Go to a specific command of the current trigger.</div>
 <blockquote class="erm-tone-quote erm-note">Today, the SN:G command is considered obsolete and its use in scripts is highly discouraged!<br>
-Initially, the command was created as an intermediate option for performing fast cycles. 
+Initially, the command was created as an intermediate option for performing fast loops. 
 Now it is preferable to use the link for these purposes <a href="../../conditions/#ref-rec-iee">!!if</a> / <a href="../../loops/#ref-rec-re">!!re</a>.</blockquote>
 <div class="erm-paragraph">To perform transitions, command “shortcuts” (tags) are implemented, which are replaced with the serial number of the receiver inside the current trigger, 
-in front of which they stand (counting starts from 0). All teams are included in the “counter” of teams <span class="erm-anchor" id="ref-rec-sn-era-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!XX</span></strong>-similar receivers. The labels themselves are not assigned a serial number, like a command inside a trigger.<br>
+in front of which they stand (counting starts from 0). All commands are included in the “counter” of commands <span class="erm-anchor" id="ref-rec-sn-era-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!XX</span></strong>-similar receivers. The labels themselves are not assigned a serial number, like a command inside a trigger.<br>
 The usage syntax is as follows:
 </div><dl><dd><span class="erm-anchor" id="ref-rec-sn-era-n2"></span><strong class="erm-tone-purple erm-strong">[label_name]</strong> – use of the label (will be replaced by the number of the receiver for which the label is declared)</dd>
 <dd><strong class="erm-tone-purple erm-strong">[:label_name]</strong> – tag announcement (the current receiver number is remembered and associated with the tag name)</dd></dl>
@@ -283,8 +283,8 @@ Currently the following types of commands SN:H are implemented:
 <li>^<a href="./#ref-rec-sn-era-h-obj">object</a>^</li>
 <li>^<a href="./#ref-rec-sn-era-h-skl">secskill</a>^</li>
 <li>^<a href="./#ref-rec-sn-era-h-spec">spec</a>^</li>
-<li>^<a href="./#ref-rec-sn-era" title="The team is available on ERA3+">art</a>^</li>
-<li>^<a href="./#ref-rec-sn-era" title="The team is available on ERA3+">spell</a>^</li></ul>
+<li>^<a href="./#ref-rec-sn-era" title="The command is available on ERA3+">art</a>^</li>
+<li>^<a href="./#ref-rec-sn-era" title="The command is available on ERA3+">spell</a>^</li></ul>
 <div class="erm-paragraph">Text Retrieval Mode works with all of these types of commands, allowing you to get the actual text/description in <em>z</em>-variables for subsequent output:
 <pre class="erm-example"><code class="language-erm">...
 !!SN:H^monname^/13/2/?z2;	get in z2 description of the archangel</code></pre>
@@ -322,7 +322,7 @@ Set a tooltip for an object of a certain type/subtype.
 <li>object with the specified type and subtype -1</li>
 <li>object with type -1 and specified subtype</li>
 <li>object with type/subtype as -1</li></ol>
-<strong><u>Comment</u>:</strong> the team is different from similar teams <a href="../ob/#ref-rec-ob-h">OB:H</a> and receiver <a href="../ht/#ref-rec-ht">HT</a> that does not require use <em>z</em>-variables.
+<strong><u>Comment</u>:</strong> the command is different from similar commands <a href="../ob/#ref-rec-ob-h">OB:H</a> and receiver <a href="../ht/#ref-rec-ht">HT</a> that does not require use <em>z</em>-variables.
 <div class="erm-paragraph"><u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!VRz1:S^{Icy Lake}
 Be careful, the ice is very thin!^;
@@ -701,16 +701,16 @@ Deleting a variable
 <div class="erm-paragraph">The basic functions and procedures of ERA will be described below. More complete technical documentation is located in the catalog <em class="erm-legacy-file">Game\Tools\Era\</em>, or you can ask specific questions directly at <a href="http://wforum.heroes35.net/forumdisplay.php?fid=182">official forum</a> project.</div>
 <ul>
 <li><span class="erm-anchor" id="ref-era-api-hook"></span><code>PROCEDURE <span class="erm-anchor" id="ref-era-api-red"></span><span class="erm-tone-red"><strong>Hook</strong></span> (HandlerAddr: POINTER; HookType: INTEGER; PatchSize: INTEGER; CodeAddr: POINTER); STDCALL;</code><br>
-A universal function for installing software interceptors in code. The most convenient and automated mode: <code>HookType = HOOKTYPE_BRIDGE</code>, 
+A universal function for installing code hooks in code. The most convenient and automated mode: <code>HookType = HOOKTYPE_BRIDGE</code>, 
 in which a low-level adapter to a high-level function will be generated automatically.<br>
 <u>High-level function example</u>:
 <span class="erm-anchor" id="ref-era-api-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><div class="erm-paragraph"><code>PROCEDURE Hook_X (Context: PHookHandlerArgs): LONGBOOL; STDCALL;</code></div>
-The function returns a flag indicating that the default code overwritten by the interceptor should be executed. This code must not contain jumps, but can contain any commands for working with the stack. 
+The function returns a flag indicating that the default code overwritten by the hook should be executed. This code must not contain jumps, but can contain any commands for working with the stack. 
 A high-level hook can modify registers by accessing the THookHandlerArgs structure. Through it, the return address to the original code can also be changed.</div></li>
 <li><span class="erm-anchor" id="ref-era-api-apihook"></span><code>PROCEDURE <span class="erm-tone-red"><strong>ApiHook</strong></span>; STDCALL;</code><br>
 Determines the minimum patch size independently, as opposed to the function <em class="erm-tone-purple erm-legacy-event">Hook</em>.<br>
 And <em class="erm-tone-purple erm-legacy-event">ApiHook</em>, and <em class="erm-tone-purple erm-legacy-event">Hook</em> functions return the new address of the erased code in bridge mode (<code>BRIDGE</code>), 
-which allows you to also call original functions, bypassing installed interceptors.</li>
+which allows you to also call original functions, bypassing installed hooks.</li>
 <li><span class="erm-anchor" id="ref-era-api-clall"></span><code>PROCEDURE <span class="erm-tone-red"><strong>ClearAllIniCache</strong></span>; STDCALL;</code><br>
 </li>
 <li><span class="erm-anchor" id="ref-era-api-clini"></span><code>PROCEDURE <span class="erm-tone-red"><strong>ClearIniCache</strong></span>; STDCALL;</code><br>

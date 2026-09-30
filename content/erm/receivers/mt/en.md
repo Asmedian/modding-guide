@@ -29,7 +29,7 @@ Using low level command <a href="../un/#ref-rec-un-c">UN:C</a> we can, for examp
 !!VRy1:+2;
 !!UN:Cy1/1/?y5; y5=1 Grail buried, y5=0 Grail dug</code></pre>
 </div></details>
-<span class="erm-anchor" id="ref-rec-mt-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="../un/#ref-rec-un-l1" title="Control of visits to the obelisk">!!UN:L</a></div>
+<span class="erm-anchor" id="ref-rec-mt-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="../un/#ref-rec-un-l1" title="Control of visits to the obelisk">!!UN:L</a></div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>

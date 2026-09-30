@@ -32,7 +32,7 @@
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-hex-n2"></span><tr class="erm-tone-purple erm-strong">
 	<td width="15%">Bit</td>
-	<td>Meaning</td></tr>
+	<td>Value</td></tr>
 <tr>
 	<td>0</td>
 	<td>1</td></tr>

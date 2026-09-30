@@ -224,7 +224,7 @@
 <tr class="erm-tone-red">
 	<td>51</td>
 	<td></td>
-	<td>Luck</td></tr>
+	<td>Fortune</td></tr>
 <tr>
 	<td>52</td>
 	<td></td>
@@ -288,7 +288,7 @@
 <tr class="erm-tone-red">
 	<td>67</td>
 	<td></td>
-	<td>Earth Elemental
+	<td>Summon Earth Elemental
 </td></tr><tr>
 	<td>68</td>
 	<td></td>
@@ -303,7 +303,7 @@
 <tr>
 	<td>70</td>
 	<td></td>
-	<td>Petrification</td></tr>
+	<td>Petrify</td></tr>
 <tr class="erm-tone-red">
 	<td>71</td>
 	<td></td>
@@ -311,7 +311,7 @@
 <tr>
 	<td>72</td>
 	<td></td>
-	<td>Roots</td></tr>
+	<td>Bind</td></tr>
 <tr class="erm-tone-red">
 	<td>73</td>
 	<td></td>
@@ -319,27 +319,27 @@
 <tr>
 	<td>74</td>
 	<td></td>
-	<td>Paralysis</td></tr>
+	<td>Paralyze</td></tr>
 <tr class="erm-tone-red">
 	<td>75</td>
 	<td></td>
-	<td>Old age</td></tr>
+	<td>Age</td></tr>
 <tr>
 	<td>76</td>
 	<td></td>
-	<td>Cloud of Death</td></tr>
+	<td>Death Cloud</td></tr>
 <tr class="erm-tone-red">
 	<td>77</td>
 	<td></td>
-	<td>Lightning Strike</td></tr>
+	<td>Thunderbolt</td></tr>
 <tr>
 	<td>78</td>
 	<td></td>
-	<td>Remove useful spells</td></tr>
+	<td>Dispel Beneficial Spells</td></tr>
 <tr class="erm-tone-red">
 	<td>79</td>
 	<td></td>
-	<td>death glare</td></tr>
+	<td>Death Stare</td></tr>
 <tr>
 	<td>80</td>
 	<td></td>
@@ -570,7 +570,7 @@
 <tr class="erm-tone-red">
 	<td>33</td>
 	<td></td>
-	<td>Luck</td></tr>
+	<td>Fortune</td></tr>
 <tr>
 	<td>34</td>
 	<td></td>
@@ -634,7 +634,7 @@
 <tr class="erm-tone-red">
 	<td>43</td>
 	<td></td>
-	<td>Earth Elemental
+	<td>Summon Earth Elemental
 </td></tr><tr>
 	<td>44</td>
 	<td></td>
@@ -649,7 +649,7 @@
 <tr>
 	<td>46</td>
 	<td></td>
-	<td>Petrification</td></tr>
+	<td>Petrify</td></tr>
 <tr class="erm-tone-red">
 	<td>47</td>
 	<td></td>
@@ -657,7 +657,7 @@
 <tr>
 	<td>48</td>
 	<td></td>
-	<td>Roots</td></tr>
+	<td>Bind</td></tr>
 <tr class="erm-tone-red">
 	<td>49</td>
 	<td></td>
@@ -665,27 +665,27 @@
 <tr>
 	<td>4A</td>
 	<td></td>
-	<td>Paralysis</td></tr>
+	<td>Paralyze</td></tr>
 <tr class="erm-tone-red">
 	<td>4B</td>
 	<td></td>
-	<td>Old age</td></tr>
+	<td>Age</td></tr>
 <tr>
 	<td>4C</td>
 	<td></td>
-	<td>Cloud of Death</td></tr>
+	<td>Death Cloud</td></tr>
 <tr class="erm-tone-red">
 	<td>4D</td>
 	<td></td>
-	<td>Lightning Strike</td></tr>
+	<td>Thunderbolt</td></tr>
 <tr>
 	<td>4E</td>
 	<td></td>
-	<td>Remove useful spells</td></tr>
+	<td>Dispel Beneficial Spells</td></tr>
 <tr class="erm-tone-red">
 	<td>4F</td>
 	<td></td>
-	<td>death glare</td></tr>
+	<td>Death Stare</td></tr>
 <tr>
 	<td>50</td>
 	<td></td>
@@ -773,7 +773,7 @@
 <tr>
 	<td>67</td>
 	<td></td>
-	<td>Earth Elemental</td></tr>
+	<td>Summon Earth Elemental</td></tr>
 <tr class="erm-tone-red">
 	<td>66</td>
 	<td></td>
@@ -869,7 +869,7 @@
 <tr>
 	<td>72</td>
 	<td></td>
-	<td>Roots</td></tr>
+	<td>Bind</td></tr>
 <tr class="erm-tone-red">
 	<td>16</td>
 	<td></td>
@@ -901,7 +901,7 @@
 <tr>
 	<td>76</td>
 	<td></td>
-	<td>Cloud of Death</td></tr>
+	<td>Death Cloud</td></tr>
 <tr class="erm-tone-red">
 	<td>21</td>
 	<td></td>
@@ -921,7 +921,7 @@
 <tr class="erm-tone-red">
 	<td>74</td>
 	<td></td>
-	<td>Paralysis</td></tr>
+	<td>Paralyze</td></tr>
 <tr>
 	<td>50</td>
 	<td></td>
@@ -965,7 +965,7 @@
 <tr>
 	<td>79</td>
 	<td></td>
-	<td>death glare</td></tr>
+	<td>Death Stare</td></tr>
 <tr class="erm-tone-red">
 	<td>35</td>
 	<td></td>
@@ -973,11 +973,11 @@
 <tr>
 	<td>78</td>
 	<td></td>
-	<td>Remove useful spells</td></tr>
+	<td>Dispel Beneficial Spells</td></tr>
 <tr class="erm-tone-red">
 	<td>75</td>
 	<td></td>
-	<td>Old age</td></tr>
+	<td>Age</td></tr>
 <tr>
 	<td>13</td>
 	<td></td>
@@ -1001,11 +1001,11 @@
 <tr class="erm-tone-red">
 	<td>77</td>
 	<td></td>
-	<td>Lightning Strike</td></tr>
+	<td>Thunderbolt</td></tr>
 <tr>
 	<td>51</td>
 	<td></td>
-	<td>Luck</td></tr>
+	<td>Fortune</td></tr>
 <tr class="erm-tone-red">
 	<td>25</td>
 	<td></td>

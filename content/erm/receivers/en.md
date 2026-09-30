@@ -11,7 +11,7 @@
 <h3 class="erm-align-center">Receivers and instructions</h3>
 <span class="erm-anchor" id="ref-cont-receivers-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note erm-paragraph"><span><a href="../syntax/#ref-cont-receiversol">Receivers: general information</a><br>
 <a href="./#ref-cont-receiversa">Receivers for objects</a><br>
-<a href="sn/#ref-rec-sn-era">New ERA teams</a></span></div></div>
+<a href="sn/#ref-rec-sn-era">New ERA commands</a></span></div></div>
 
 <div>
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -169,7 +169,7 @@
 	</tr>
 	<tr>
 		<td><a href="../loops/#ref-rec-re">!!re<span class="erm-anchor" id="ref-cont-receivers-black"></span><em class="erm-tone-text">/</em><wbr>!!br<em class="erm-tone-text">/</em><wbr>!!co</a></td><td class="erm-align-right"><a href="../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-middle erm-inline-icon"></a></td>
-		<td>High speed cycles</td>
+		<td>High speed loops</td>
 	</tr>
 	<tr>
 		<td><a href="rd/#ref-rec-rd">!!RD</a></td><td class="erm-align-right"><a href="../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-middle erm-inline-icon"></a></td>
@@ -197,7 +197,7 @@
 	</tr>
 	<tr>
 		<td><a href="un/#ref-rec-un">!!UN</a></td><td></td>
-		<td>Universal team</td>
+		<td>Universal command</td>
 	</tr>
 	<tr>
 		<td><a href="vc/#ref-rec-vc">!#VC</a></td><td></td>

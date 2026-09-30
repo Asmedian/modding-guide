@@ -17,11 +17,11 @@
 	</tr>
 	<tr>
 		<td>0</td>
-		<td>Cyclops Vault</td>
+		<td>Cyclops Stockpile</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1</span></td>
-		<td><span class="erm-tone-red">Treasury of the Dwarves</span></td>
+		<td><span class="erm-tone-red">Dwarven Treasury</span></td>
 	</tr>
 	<tr>
 		<td>2</td>
@@ -29,19 +29,19 @@
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">3</span></td>
-		<td><span class="erm-tone-red">Sanctuary of Demons</span></td>
+		<td><span class="erm-tone-red">Imp Cache</span></td>
 	</tr>
 	<tr>
 		<td>4</td>
-		<td>Medusa Warehouses</td>
+		<td>Medusa Stores</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">5</span></td>
-		<td><span class="erm-tone-red">Nag Bank</span></td>
+		<td><span class="erm-tone-red">Naga Bank</span></td>
 	</tr>
 	<tr>
 		<td>6</td>
-		<td>Hive Zmiev</td>
+		<td>Dragon Fly Hive</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">7</span></td>
@@ -89,7 +89,7 @@
 	</tr>
 	<tr>
 		<td>18</td>
-		<td>House of the Bat</td>
+		<td>Bat House</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">19</span></td>

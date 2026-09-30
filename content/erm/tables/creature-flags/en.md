@@ -7,13 +7,13 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Flag abilities of creatures</span></div>
-<span class="erm-anchor" id="ref-form-flaggedabilities-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by teams <a href="../../receivers/ma/#ref-rec-ma-x">MA:X</a> and 
+<span class="erm-anchor" id="ref-form-flaggedabilities-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by commands <a href="../../receivers/ma/#ref-rec-ma-x">MA:X</a> and 
 <a href="../../receivers/bm/#ref-rec-bm-f">BM:F</a><br>
 See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-second-center" width="100%">
 	<span class="erm-anchor" id="ref-form-flaggedabilities-n2"></span><tr class="erm-tone-purple erm-strong">
 		<td width="25">#</td>
-		<td width="10%">Meaning</td>
+		<td width="10%">Value</td>
 		<td>Ability</td>
 	</tr>
 	<tr>
@@ -47,13 +47,13 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td><span class="erm-tone-red">5</span></td>		
 		<td><span class="erm-tone-red">32</span></td>
-		<td><span class="erm-tone-red">Catapult (specialty X1). Creature can attack the town walls.</span></td>
+		<td><span class="erm-tone-red">Catapult. Creature can attack the town walls.</span></td>
 	</tr>
 	<tr>
 		<td>6</td>		
 		<td>64</td>
 		<td>Siege weapon. Can't move. Teleporting will result in a crash from the game. 
-		Stack is not required to kill to achieve victory. There is no indication of the number of creatures near the squad.</td>
+		Stack is not required to kill to achieve victory. There is no indication of the number of creatures near the stack.</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">7</span></td>		
@@ -115,7 +115,7 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td>18</td>		
 		<td>262144</td>
-		<td>Undead (all Necropolis creatures, creature with this flag have no morality, 
+		<td>Undead (all Necropolis creatures, creature with this flag have no morale, 
 		takes damage from Destroy Undead and does not take damage from Death Wave).</td>
 	</tr>
 	<tr>
@@ -133,11 +133,11 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 		<td><span class="erm-tone-red">21</span></td>		
 		<td><span class="erm-tone-red">2097152</span></td>
 		<td><span class="erm-tone-red">Stack does not get the right to move during the battle. Once the battle is over, stack will disappear. 
-		Stack does not require killing to achieve victory. There is no indication of the number of creatures near the squad. 
+		Stack does not require killing to achieve victory. There is no indication of the number of creatures near the stack. 
 		Immunity to some spells. This flag is automatically set when creature dies. 
 		If you set this flag yourself, then removing it will resurrect creature. 
 		When receiving damage while in a “dead” state, the number of creatures and health of the last creature on the stack is reduced. 
-		Therefore, after resurrection there can be 0 creatures. But this does not prevent you from installing using
+		Therefore, after resurrection there can be 0 creatures. But this does not prevent you from setting using
 		<a href="../../receivers/bm/#ref-rec-bm-n"><span class="erm-tone-red">BM:N</span></a> as many creatures as needed. 
 		If creature really died, then removing the flag creature will not resurrect, 
 		but can lead to various failures in the AI. Teleports correctly.</span></td>
@@ -176,7 +176,7 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td>28</td>		
 		<td>268435456</td>
-		<td>The flag is displayed to the stack when it has been sacrificed. The squad's body disappears upon death.</td>
+		<td>The flag is displayed to the stack when it has been sacrificed. The stack's body disappears upon death.</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">29</span></td>		
@@ -191,10 +191,10 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td><span class="erm-tone-red">31</span></td>		
 		<td><span class="erm-tone-red">2147483648</span></td>
-		<td><span class="erm-tone-red">Dracon. A unit with this flag is affected by a Vial of Dragon Blood and the influence of the Dragon Hero (Mutare)</span></td>
+		<td><span class="erm-tone-red">Dragon. A unit with this flag is affected by a Vial of Dragon Blood and the influence of the Dragon Hero (Mutare)</span></td>
 	</tr>
 </table></div>
-<div class="erm-paragraph"><span class="erm-anchor" id="ref-form-flaggedabilities-note1"></span><strong>*</strong> - <strong>Flag 29</strong> the squad on battlefield says that the squad has a Bloodlust animation, and therefore DEF needs to be drawn with a palette shifted to red.<br>
+<div class="erm-paragraph"><span class="erm-anchor" id="ref-form-flaggedabilities-note1"></span><strong>*</strong> - <strong>Flag 29</strong> the stack on battlefield says that the stack has a Bloodlust animation, and therefore DEF needs to be drawn with a palette shifted to red.<br>
 At offset 1104 (0x450) in <a href="../combat-stack-structure/#ref-form-combatmon">stack structure</a> is a real number (float, 4 bytes) from 0 to 1.0, which tells how much closer to red the color of each pixel in the HSV color model should be shifted. 
 0 – not at all, 0.8 – 80%, 1.0 – completely red. Brightness and saturation also increase with increasing field value.<br>If the flag is set, then the Petrification or Clone flag is no longer checked during rendering. 
 Therefore, when casting Bloodlust on a clone, the clone itself is temporarily drawn without blue tones.</div>

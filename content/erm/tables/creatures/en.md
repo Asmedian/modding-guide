@@ -160,7 +160,7 @@
 	<td>Cerberus</td></tr>
 <tr>
 	<td>48</td>
-	<td>Demoniac</td></tr>
+	<td>Demon</td></tr>
 <tr class="erm-tone-red">
 	<td>49</td>
 	<td>Horned Demon</td></tr>
@@ -184,7 +184,7 @@
 	<td>Arch Devil</td></tr>
 <tr>
 	<td>56</td>
-	<td><span class="erm-anchor" id="ref-form-creature-4"></span>Corpse</td></tr>
+	<td><span class="erm-anchor" id="ref-form-creature-4"></span>Skeleton</td></tr>
 <tr class="erm-tone-red">
 	<td>57</td>
 	<td>Skeleton Warrior</td></tr>
@@ -451,19 +451,19 @@
 	<td>Troll</td></tr>
 <tr class="erm-tone-red">
 	<td>145</td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr>
 	<td>146</td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr class="erm-tone-red">
 	<td>147</td>
-	<td>First Aid Tent (specialty X1)</td></tr>
+	<td>First Aid Tent</td></tr>
 <tr>
 	<td>148</td>
-	<td>Ammo Cart (specialty X1)</td></tr>
+	<td>Ammo Cart</td></tr>
 <tr class="erm-tone-red">
 	<td>149</td>
-	<td>Arrow Towers (specialty X1)</td></tr>
+	<td>Arrow Towers</td></tr>
 <tr>
 	<td>150</td>
 	<td>SupremeArchangel</td></tr>
@@ -475,7 +475,7 @@
 	<td>Lord of Thunder</td></tr>
 <tr class="erm-tone-red">
 	<td>153</td>
-	<td>Antichrist</td></tr>
+	<td>Hell Baron</td></tr>
 <tr>
 	<td>154</td>
 	<td>Blood Dragon</td></tr>
@@ -770,7 +770,7 @@
 	<td>Cerberus</td></tr>
 <tr>
 	<td>30</td>
-	<td>Demoniac</td></tr>
+	<td>Demon</td></tr>
 <tr class="erm-tone-red">
 	<td>31</td>
 	<td>Horned Demon</td></tr>
@@ -794,7 +794,7 @@
 	<td>Arch Devil</td></tr>
 <tr>
 	<td>38</td>
-	<td><span class="erm-anchor" id="ref-form-creature-hex-4"></span>Corpse</td></tr>
+	<td><span class="erm-anchor" id="ref-form-creature-hex-4"></span>Skeleton</td></tr>
 <tr class="erm-tone-red">
 	<td>39</td>
 	<td>Skeleton Warrior</td></tr>
@@ -1061,19 +1061,19 @@
 	<td>Troll</td></tr>
 <tr class="erm-tone-red">
 	<td>91</td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr>
 	<td>92</td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr class="erm-tone-red">
 	<td>93</td>
-	<td>First Aid Tent (specialty X1)</td></tr>
+	<td>First Aid Tent</td></tr>
 <tr>
 	<td>94</td>
-	<td>Ammo Cart (specialty X1)</td></tr>
+	<td>Ammo Cart</td></tr>
 <tr class="erm-tone-red">
 	<td>95</td>
-	<td>Arrow Towers (specialty X1)</td></tr>
+	<td>Arrow Towers</td></tr>
 <tr>
 	<td>96</td>
 	<td>SupremeArchangel</td></tr>
@@ -1085,7 +1085,7 @@
 	<td>Lord of Thunder</td></tr>
 <tr class="erm-tone-red">
 	<td>99</td>
-	<td>Antichrist</td></tr>
+	<td>Hell Baron</td></tr>
 <tr>
 	<td>9A</td>
 	<td>Blood Dragon</td></tr>

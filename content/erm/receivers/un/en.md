@@ -87,13 +87,13 @@ set/check/get
 </div><span class="erm-anchor" id="ref-rec-un-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"><ul>
 <li>You can use the statement syntax (!#UN:A).</li>
 <li>All combo artifacts are recorded in a special table. This table contains 
-up to 32 entries. So it is possible to install up to 32 combo artifacts. All 
+up to 32 entries. So it is possible to set up to 32 combo artifacts. All 
 standard combos are already written in the table (first 12 lines)</li>
 <li>$ = number of the artifact that will appear during assembly.</li>
 <li>You can check whether the combo artifact table row is empty or not:
 <pre class="erm-example"><code class="language-erm">!!UN:A5/?v100/0/0;</code></pre>
 Get the number of the combo artifact in line 5 of the combo table in v100. Two zeros at the end 
-necessary for the correct operation of the team. In check and get syntax 
+necessary for the correct operation of the command. In check and get syntax 
 additional parameters (zeros) are ignored. An empty combo table row will give 
 value 0. So, if in the example above, v100 = 0, the string is empty and can 
 be used. You can delete the combo-artifact without adding a new one. 
@@ -210,7 +210,7 @@ The command writes/reads directly to RAM addresses:
         #3 – number of bytes
          $ – value</pre>
 <u></u><span class="erm-anchor" id="ref-rec-un-11"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show11"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"> 
-<span class="erm-anchor" id="ref-rec-un-q1"></span><blockquote class="erm-tone-quote erm-note"><strong>Structures</strong> – data arrays in the game memory, for convenient storage of information and reading/writing by program code. Most ERM teams modify data within these structures (tables).</blockquote>
+<span class="erm-anchor" id="ref-rec-un-q1"></span><blockquote class="erm-tone-quote erm-note"><strong>Structures</strong> – data arrays in the game memory, for convenient storage of information and reading/writing by program code. Most ERM commands modify data within these structures (tables).</blockquote>
 UN:C automatically supports moved structures, that is, structures that plugins have moved to another memory location. To do this, you must always specify the beginning of the structure as the base address and the correct offset (add/subtract). The command will substitute a new base address and add an offset.<br>
 The structures are described in <a href="http://wforum.heroes35.net/files/wog358_sources.rar">WoG 3.58f source code</a></div></details>
 <div class="erm-tone-quote erm-note erm-paragraph">See also: <a href="../../un-c/#ref-cont-unc">Working with memory</a>, <a href="../../un-c/#ref-cont-unc-lib">Ready-made solutions using the command</a>, <a href="../../examples/#ref-cont-lib">Library of non-standard functions</a>.</div>
@@ -236,7 +236,7 @@ the game goes to a black screen. If you set the walking ability to
 square-not-water, instead a square with water and floating on it will appear 
 log In its description it will be written "Swamp (can be dug)", and when excavating 
 a swampy hole will appear on it.<br>
-At the moment, the only ERM team that 
+At the moment, the only ERM command that 
 the omitted fourth parameter takes the value 1 (although all others take the value 0).</div></details>
 <hr>
 <div class="erm-paragraph"><span class="erm-tone-red"><strong>
@@ -284,7 +284,7 @@ Set secondary skill text.
 	0 – restore original text</pre>
 <u></u> <span class="erm-anchor" id="ref-rec-un-8"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show8"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 similar to changing the name and description of the artifact.<br>
-You must install <em>z</em>-a variable with the appropriate text (you can 
+You must set <em>z</em>-a variable with the appropriate text (you can 
 use only global ones <em>z</em>-variables z1…z1000). If you change the text 
 used here <em>z</em>-variable, it will immediately become the new skill text. 
 So don't use these variables for other things.<br>
@@ -315,7 +315,7 @@ Change the creature's name.
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-un-g2"></span>G2/#1/#2/#3</strong></span><br>
 Allows you to set the text and image of the hero's specialization.
 </div><pre>        #1 – <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero number</a>
-        #2 – what to install
+        #2 – what to set
 	1 - small picture (visible in the hero meeting window, etc.)
 	2 – description
 	3 – picture
@@ -436,7 +436,7 @@ it will be open to all players and will NOT be canceled after visiting.<br>
 <strong>·</strong> Warrior's Tomb (type=108, subtype=0) - receiver <a href="../wt/#ref-rec-wt">!!WT</a> (when placing artifact not specified)<br>
 <strong>·</strong> Water Wheel (type=109, subtype=0) - receiver <a href="../wm/#ref-rec-wm">!!WM</a> (has no gold when placed)<br>
 <strong>·</strong> Windmill (type=112, subtype=0) - receiver <a href="../ml/#ref-rec-ml">!!ML</a> (does not have a resource when placed)
-<div class="erm-paragraph">These objects will NOT work correctly and may cause game instability, card crashes, or other problems when placed:</div>
+<div class="erm-paragraph">These objects will NOT work correctly and may cause game instability, game crashes, or other problems when placed:</div>
 <div class="erm-paragraph"><strong>·</strong> &lt;blank&gt; (type = 1) - the game will crash when trying to place an object<br>
 <strong>·</strong> Anchor (type = 3) - receiver <a href="../pa/#ref-rec-pa">!!PA</a> (the game will crash when trying to place an object)<br>
 <strong>·</strong> Pandora's Box (type=6) - the game will crash when visiting the object<br>
@@ -551,7 +551,7 @@ Generate a random artifact of a certain level.
         $ – get/check artifact number.</pre>
 <u></u><span class="erm-anchor" id="ref-rec-un-17"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show17"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 The function generates only allowed artifacts. 
-Class 1 artifacts include Grail, Spell Book, Spell Scroll and all combat vehicles.<br>
+Class 1 artifacts include Grail, Spell Book, Spell Scroll and all war machines.<br>
 You can generate artifact from several classes, for example 18 = relics and treasures. 
 Generated artifacts in the same trigger will NOT be repeated.<br>
 <u>Example</u>:
@@ -562,7 +562,7 @@ Set/check/get artifact, sold by the artifact merchant.<br>
          # – slot number (0..6)<br>
          $ – number <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact</a> in slot<br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-un-18"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show18"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-You can install, get or check artifact (“-1” means no artifact).<br>
+You can set, get or check artifact (“-1” means no artifact).<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!UN:J7/3/?v10; - get artifact in slot 3
 !!UN:J7/v5/v20; - install artifact v20 in slot v5</code></pre>
@@ -595,7 +595,7 @@ Flag 1 will be set to true if the file exists, otherwise it will be set to false
 The command copies the path to the heroes folder<br>
          $1 – destination (see. <a href="./#ref-rec-un-j8">UN:J8</a>)<br>
          $2 – number <em>z</em>- a variable where to write it.<br>
-Example: copy the path to z10. Let our Heroes be installed in <em class="erm-legacy-file">C:\HOMM\WOG</em>, team <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!UN</span>:J9/2/10;</strong><br>
+Example: copy the path to z10. Let our Heroes be installed in <em class="erm-legacy-file">C:\HOMM\WOG</em>, command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!UN</span>:J9/2/10;</strong><br>
 We receive the following text in z10:
 <pre class="erm-example"><code class="language-erm">C:\HOMM\WOG</code></pre></div>
 <hr><div class="erm-paragraph">
@@ -607,7 +607,7 @@ This command can be used at any time (write all non-zero variables to a file)</d
 Set/check/get mouse behavior on click <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> on the enemy stack in battle.<br>
        $ = 0 – the window remains on the screen (WoG-style).<br>
        $ = 1 – the window closes when the mouse button is released (SoD-style)<br>
-Team information is saved in the game.</div>
+Command information is saved in the game.</div>
 <hr>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-un-j13"></span><span class="erm-tone-red"><strong>J13/$</strong></span><a href="../../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a><br>
 Resetting commanders (depending on the current state <a href="./#ref-rec-un-p2">WoG options</a> 3 and 6).</div>
@@ -745,7 +745,7 @@ Level 8 will function like any other dwelling in the game, i.e. you must visit t
 and if they are of the 8th level, then they will only be added to the corresponding creatures of the eighth level in the corresponding castle with the corresponding dwelling of the 7th level.</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-un-p2"></span><span class="erm-tone-red"><strong>P#/$</strong></span><br>
-Installing WoG options<br>
+Setting WoG options<br>
          # - option number<br>
          $ - option status<br>
 Some options:<br>
@@ -756,20 +756,20 @@ Some options:<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-un-25"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show25"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">Now, if the card has internal scripts and does not have a command <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/#</strong>, 
 The map launches under WoG 3.56 conditions (without commanders, etc.). But if the card has this command (it doesn't matter 
 <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> or <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/1</strong>), the map is accepted as new and runs under WoG 3.57 conditions 
-(so, all internal features of WoG are installed from the WoG configuration settings file or using the UN:P commands). 
+(so, all internal features of WoG are set from the WoG configuration settings file or using the UN:P commands). 
 The problem with the inability to enable commanders in the instructions has now been fixed <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> when used in a timer trigger.</div></details>
 <div>                   # = 4 – destruction of locks: prohibit (1) or allow (0)<br>
                    # = 5 – WoGify: none (0), all cards in WoG format (1), all cards in any format (2)<br>
                    # = 6 – heroes start with commanders or not (0 – with, 1 – without (must be hired)</div>
 <u></u><span class="erm-anchor" id="ref-rec-un-26"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show26"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">For the commander to be hired in the town for 100 gold, instead of being automatically received by the hero at the beginning of the game, 
-need to use <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the team <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>.</div></details>
+need to use <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>.</div></details>
 <div>                   # = 7 – dwellings accumulate creatures: 0 – no, 1 – yes<br>
                    # = 8 – houses accumulate guards: 0 – no, 1 – yes<br>
                    # = 9 – creation of Sylvan Centaurs: 1 - allowed, 0 - not</div>
 <u></u><span class="erm-anchor" id="ref-rec-un-27"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show27"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-If the option is enabled, Sylvan Centaurs can be created for free by clicking <span class="erm-key">Ctrl</span> + <img src="../../../../assets/erm/6fa667d4a59ddf70.gif" alt="Left mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> by a squad of Captain Centaurs or Noble Elves in the HERO WINDOW (!). 
+If the option is enabled, Sylvan Centaurs can be created for free by clicking <span class="erm-key">Ctrl</span> + <img src="../../../../assets/erm/6fa667d4a59ddf70.gif" alt="Left mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> by a stack of Centaur Captains or Grand Elves in the HERO WINDOW (!). 
 An equal number of Centaurs and Elves will be replaced by an equal number of Sylvan Centaurs.<br>
-That is 10 Noble Elves plus 10 Centaur Captains = 10 Sylvan Centaurs.<br>
+That is 10 Grand Elves plus 10 Centaur Captains = 10 Sylvan Centaurs.<br>
 <em class="erm-strong">Note:</em> Sylvan centaurs do not retain any experience from pre-merging centaurs or elves.</div></details>
 <div>                   # = 10 – left units will join back (1) or not (0)</div>
 <u></u><span class="erm-anchor" id="ref-rec-un-28"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show28"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">If active, units left by right click will rejoin the hero if he attacks them.<br>
@@ -779,8 +779,8 @@ WoGified and non-WoGified WoG maps without scripts will use
 WoG options above.<br>
 Non-WoGified WoG maps with scripts will have disabled commanders 
 default. To enable them you must use <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!UN</span>:P3/0</strong> after the start of the map. 
-Installing this command with instructions - <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> - Will NOT allow commanders on this map.<br>
-To install mercenary commanders for 1000 gold, use the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the team <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>. You can paste both commands on one line:
+Setting this command with instructions - <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> - Will NOT allow commanders on this map.<br>
+To set mercenary commanders for 1000 gold, use the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>. You can paste both commands on one line:
 <pre class="erm-example"><code class="language-erm">!!UN:P6/1 P3/0;</code></pre><br>
                    # = 900 – stack experience: 0 – disabled, 1 – enabled<br>
                    # = 901 – stack experience system: <br>
@@ -898,7 +898,7 @@ Trying to use this command anywhere else will cause the game to crash.</blockquo
 <div>         # = 4 – update the town screen (do not use outside the town screen!)<br>
 
 <span class="erm-anchor" id="ref-rec-un-49"></span><details class="erm-comment"><summary><strong>Comment</strong> (<span class="erm-anchor" id="ref-rec-un-show49"></span><u class="erm-toggle-label">show</u>)</summary><div class="erm-comment-body">Unfortunately, the base ERM does not have a command to update the hero encounter screen.<br>
-However, there is a ready-made solution for <a href="../../compatibility/#ref-era-index">ERA</a> - team <a href="../sn/#ref-rec-sn-era-d">SN:D</a>.</div></details></div>
+However, there is a ready-made solution for <a href="../../compatibility/#ref-era-index">ERA</a> - command <a href="../sn/#ref-rec-sn-era-d">SN:D</a>.</div></details></div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-un-r5"></span><span class="erm-anchor" id="command-r5-r6-r7"></span>R5/$1/$2</strong></span><br>
 Set cursor type<br>
@@ -955,7 +955,7 @@ Set up a recruitable creature in the castle<br>
          #3 – basic (0) or advanced 
 (1)<br>
          $ – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a><br>
-<u></u> </div><span class="erm-anchor" id="ref-rec-un-36"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show36"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">The team works in 
+<u></u> </div><span class="erm-anchor" id="ref-rec-un-36"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show36"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">The command works in 
 	all towns, including AI. You can set the command as an instruction. Remember that you can enhance 
 "importance" of a creature for AI by setting the AI value with the command <a href="../ma/#ref-rec-ma-i">!!MA:I</a>. 
 Additional resources are expected only for level 7 housing.</div></details>

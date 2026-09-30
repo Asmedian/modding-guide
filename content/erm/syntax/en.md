@@ -49,7 +49,7 @@ In the h3wog.exe file, the table of standard creatures is located at $<strong>27
 new creatures – $<strong>31C188</strong>.<br>
 </div></details>
 
-<div class="erm-paragraph"><strong>Table with types of shooting shells</strong> (arrows, etc.) for standard creatures:
+<div class="erm-paragraph"><strong>Table with types of projectiles</strong> (arrows, etc.) for standard creatures:
 
 
 </div><span class="erm-anchor" id="ref-cont-ingener-102"></span><details class="erm-comment"><summary><br>
@@ -209,7 +209,7 @@ Types of values in the table:<br>
 
 </div><span class="erm-anchor" id="ref-cont-ingener-113"></span><details class="erm-comment"><summary><br>
 <span class="erm-anchor" id="ref-cont-ingener-show113"></span><strong class="erm-toggle-label">Show</strong></summary><div class="erm-comment-body">
-<strong>6AAA60</strong> - table of combat vehicles purchased at Castle Forges.<br>
+<strong>6AAA60</strong> - table of war machines purchased at Castle Blacksmiths.<br>
 4 bytes are allocated for each machine, then 4 bytes - FF FF FF FF (total - 8 
 byte). The combat vehicle purchased from Ballista Yard is the same as the Castle.<br>
 <strong>00642EA0</strong> - table of creatures displayed in the forge window.</div></details>
@@ -248,7 +248,7 @@ char *desc[4]; //descriptions<br>
 75DD63 jz L0075DDD2<br>
 75DD65 cmp eax,000000ABh<br>
 75DD6A jz L0075DDD2<br>
-That is, 3 snipers + Arrow Towers (specialty X1) shoot with a straight arrow.</div></details>
+That is, 3 Sharpshooters + Arrow Towers shoot with a straight arrow.</div></details>
 <div class="erm-paragraph">
 <strong>No penalty for obstruction</strong>
 
@@ -480,10 +480,10 @@ The command above is an example of using the advanced dialog box. It has more pa
 but you don't have to fill them all. We use three out of a possible 16. It is for this command that entering 0 means “leave unchanged” 
 but many other commands simply assume a value of zero, which was not always intended.</div>
 
-<h3><span class="erm-anchor" id="ref-cont-receiversol-many"></span>Multi-team</h3>
+<h3><span class="erm-anchor" id="ref-cont-receiversol-many"></span>Multiple commands</h3>
 <div class="erm-paragraph">In most cases, you can put multiple commands after a single receiver header (the part before the colon). 
 Commands do not need to be separated by spaces, but for greater readability it is recommended. In some cases, for example 
-setting and managing variables <a href="../receivers/vr/#ref-rec-vr">VR receiver</a>, multi-teaming does not always work correctly. 
+setting and managing variables <a href="../receivers/vr/#ref-rec-vr">VR receiver</a>, multiple commands does not always work correctly. 
 So, if you use multiple commands, make sure they execute correctly and produce the correct result. 
 If one of your commands shows or sets text, you must put it last. 
 If you paste any other command after the text (as part of a single receiver) you will get an error.<br>
@@ -516,7 +516,7 @@ Namely, the first <em>v</em>-the variable stores the X-coordinate of the object;
 </div><h3><span class="erm-anchor" id="ref-cont-receiversol-instr"></span>Instructions</h3>
 <div class="erm-paragraph">The instructions are identical to the receivers, except that they begin with a combination of exclamation marks and a number (!#) and work only once, 
 when loading the map for the first time. Most receivers also work as instructions, but some (especially object-specific receivers) 
-do not work at all and cause error messages or the card crashes. The instructions are executed once when loading the map, 
+do not work at all and cause error messages or the game crashes. The instructions are executed once when loading the map, 
 in the order of appearance in time events, regardless of triggers, receivers and comments before and after them. 
 You can use instructions to call functions and all normal receivers (non-instructions), being part of the function, will work fine, 
 however, you MUST include the function in a temporary event BEFORE the statement calling it, otherwise it will not work 

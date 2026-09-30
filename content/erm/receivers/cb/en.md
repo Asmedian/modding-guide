@@ -22,13 +22,13 @@ This receiver also works for Decrepit Ship (type 24), Dragon Utopia (type 25), C
 <div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-a"></span><strong><span class="erm-tone-red">A</span></strong><br>
 Bonus – <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact</a><br>
-<span class="erm-tone-red"><strong>A1/$</strong></span> - check/get the number of artifacts in the bonus table (cannot be installed!)<br>
+<span class="erm-tone-red"><strong>A1/$</strong></span> - check/get the number of artifacts in the bonus table (cannot be set!)<br>
 <span class="erm-tone-red"><strong>A2/#/$</strong></span> - set/check/get <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact $</a> in position # (0...) in the bonus table<br>
 <span class="erm-tone-red"><strong>A3/$</strong></span> - add <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact $</a> to the end of the bonus table<br>
 <span class="erm-tone-red"><strong>A4/$</strong></span> - remove artifact in position $ (0...) in the bonus table.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-g"></span><span class="erm-anchor" id="command-g-1-2-3"></span><span class="erm-tone-red"><strong>G#1/$2/$3</strong></span><br>
-Set/check/get <a href="../../tables/creatures/#ref-form-creature" data-context="true">security guards</a> in slot #1 (0..6), type $2 and quantity $3.<br>
+Set/check/get <a href="../../tables/creatures/#ref-form-creature" data-context="true">guards</a> in slot #1 (0..6), type $2 and quantity $3.<br>
 <u></u><br></div><span class="erm-anchor" id="ref-rec-cb-1"></span><details class="erm-comment"><summary>Additionally (<span class="erm-anchor" id="ref-rec-cb-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <div class="erm-paragraph">The creatures are located like this:<br>
 </div><div class="table-wrap erm-reference-table"><table class="erm-table-offset">
@@ -72,7 +72,7 @@ To remove bonus creature, set type to -1 and quantity to 0.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-r"></span><span class="erm-anchor" id="command-r-1-2"></span><span class="erm-tone-red"><strong>R#1/$2</strong></span><br>
 Set/check/get a resource bonus <a href="../../tables/resources/#ref-form-resource" data-context="true">type #1</a> and quantity $2. you 
-you can install all 7 resources.</div>
+you can set all 7 resources.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-t"></span><span class="erm-anchor" id="command-t"></span><span class="erm-tone-red"><strong>T$</strong></span><br>
 Set/check/get whether the bank is visited (1) or not (0).<br>

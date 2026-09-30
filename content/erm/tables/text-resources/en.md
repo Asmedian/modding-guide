@@ -180,7 +180,7 @@ Characters that cannot be represented in the user's OS encoding will be replaced
 
 It is recommended to prefix each key with an abbreviation of the mod or the name of the author, for example "pm." for Phoenix-Fashion.
 <div class="erm-paragraph">Translations can also contain substituted parameters in the form "@parameter name@". Such parameters are replaced with specific values during translation.
-ERA-team <a href="../../receivers/sn/#ref-rec-sn-era-t">!!SN:T</a> This is precisely what is used to obtain a translation using a key.
+ERA-command <a href="../../receivers/sn/#ref-rec-sn-era-t">!!SN:T</a> This is precisely what is used to obtain a translation using a key.
 <pre class="erm-example"><code class="language-erm">!!SN:T(key)/?(z-variable where to write the translation)/(parameter name 1)/(parameter value 1)/(parameter name 2)/(parameter value 2)...;</code></pre></div>
 
 <div class="erm-paragraph"><u>2.47.0</u>: Added the ability to globally redirect resources via JSON files.<br>

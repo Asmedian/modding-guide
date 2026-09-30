@@ -7,7 +7,7 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-center erm-paragraph">
-<span class="erm-source-title">Trigger <strong>MG</strong> (witchcraft on the map)</span></div><br>
+<span class="erm-source-title">Trigger <strong>MG</strong> (spellcasting on the map)</span></div><br>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-mg-red"></span><span class="erm-tone-red">!?MG#;</span> 
 - trigger when casting spells on the map.<br>
 <span class="erm-tone-red">!?MG0;</span> - triggers before application<br>

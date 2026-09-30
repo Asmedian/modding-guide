@@ -73,11 +73,11 @@
 	</tr>
 	<tr>
 		<td>14</td>
-		<td>Catapult (specialty X1)</td>
+		<td>Catapult</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">15</span></td>
-		<td><span class="erm-tone-red">Ballista (specialty X1)</span></td>
+		<td><span class="erm-tone-red">Ballista</span></td>
 	</tr>
 </table></div>
 <div class="erm-paragraph"><strong><u>Comment</u>:</strong> projectile type 16 uses DEF with an empty name (even without the .def extension), 

@@ -1,6 +1,8 @@
 # ERA plugins
 
+ID: plugins.overview
 URL: /en/plugins/
+Source references: era-source:plugin-loader, era-source:era.pas, nh3api:readme, h3api:readme
 
 Development, load order, and compatibility.
 
@@ -45,7 +47,9 @@ Test from a separate game copy. Keep a baseline without the plugin, add one chan
 
 # ERA plugin API
 
+ID: plugins.era-api
 URL: /en/plugins/era-api/
+Source references: era-source:era.pas, era-source:plugin-exports, era-source:plugin-loader, nh3api:era-header
 
 A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.
 
@@ -109,7 +113,9 @@ The [minimal plugin guide](../getting-started/) shows registration and build set
 
 # Getting started with ERA plugins
 
+ID: plugins.getting-started
 URL: /en/plugins/getting-started/
+Source references: era-source:plugin-loader, nh3api:readme, nh3api:cmake, nh3api:era-header, windows-api:dll-best-practices
 
 Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.
 
@@ -216,7 +222,9 @@ Once the clean module works, continue with the [ERA API map](../era-api/) and on
 
 # H3API
 
+ID: plugins.h3api
 URL: /en/plugins/h3api/
+Source references: h3api:readme
 
 An independent C++ library for Heroes III 3.2: purpose, integration, layout, and compatibility.
 
@@ -281,7 +289,9 @@ If you study [NH3API](../nh3api/) for a similar task, check contracts, namespace
 
 # NH3API
 
+ID: plugins.nh3api
 URL: /en/plugins/nh3api/
+Source references: nh3api:readme, nh3api:cmake, nh3api:era-header, nh3api:era-module-readme, nh3api:patcher-header, nh3api:natvis
 
 The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.
 

@@ -1,6 +1,8 @@
 # ERM-скрипты
 
+ID: erm.overview
 URL: /ru/erm/
+Source references: old-help:cont-triggersol.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-abouthelp.htm, old-help:cont-links.htm, old-help:cont-main.htm, old-help:cont-wogteam.htm, old-help:index.htm, old-help:titre.htm
 
 События игры, команды ERM и библиотека ERA ERM Framework.
 
@@ -95,7 +97,9 @@ Framework — библиотека ERM с функциями, константа
 
 # Отладка и совместимость ERM
 
+ID: erm.compatibility
 URL: /ru/erm/compatibility/
+Source references: era-changelog:era-ii-changelog.txt, era-changelog:era-iii-changelog.txt, era-source:erm.pas, era-framework:lib-9999-era---stdlib.erm, old-help:cont-hd.htm, old-help:cont-te.htm, old-help:era-index.htm
 
 Версионные различия, контекст исполнения и проверка скриптов.
 
@@ -254,7 +258,9 @@ ERA 3.9.15 принимает произвольные строки в CA/LE/GE,
 
 # Условия и ветвления
 
+ID: erm.conditions
 URL: /ru/erm/conditions/
+Source references: old-help:cont-triggersol.htm, old-help:cont-flags.htm, old-help:rec-iee.htm, old-help:rec-re.htm, old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 
 Проверки переменных и флагов, AND/OR и блоки if/el/en.
 
@@ -382,7 +388,9 @@ ZVSE2
 
 # Примеры ERM
 
+ID: erm.examples
 URL: /ru/erm/examples/
+Source references: era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-lib.htm
 
 Небольшие образцы с объяснёнными предусловиями и результатом.
 
@@ -596,7 +604,9 @@ Z-переменной.<br>
 
 # SN:E — вызов по адресу
 
+ID: erm.examples.sn-e
 URL: /ru/erm/examples/sn-e/
+Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 
 Получаем адрес GetKeyState из user32.dll, проверяем результат разрешения, вызываем с кодом левого Shift 160. Состояние нажатия читается из бита 15 результата SHORT; пример не меняет состояние игры.
 
@@ -637,7 +647,9 @@ ZVSE2
 
 # SN:F — вызов экспорта
 
+ID: erm.examples.sn-f
 URL: /ru/erm/examples/sn-f/
+Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 
 SN:F находит и кэширует GetKeyState. Результат немедленно переносится из v1 в выходной аргумент, затем v1 восстанавливается. Имена экспортов и ABI нельзя выбирать по внешнему сходству.
 
@@ -673,7 +685,9 @@ ZVSE2
 
 # ERA ERM Framework
 
+ID: erm.framework
 URL: /ru/erm/framework/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 
 Библиотека стандартных функций, контекст событий и именованные константы.
 
@@ -705,7 +719,9 @@ ZVSE2
 
 # Константы ERA ERM Framework
 
+ID: erm.framework.constants
 URL: /ru/erm/framework/constants/
+Source references: era-framework:lib-9999-era---consts.erm, era-framework:lib-9999-era---key-codes.erm, era-framework:lib-9999-era---stdlib.erm
 
 1838 определений: игровые ID, флаги, параметры команд и коды клавиш.
 
@@ -785,7 +801,9 @@ URL: /ru/erm/framework/constants/
 
 # Слоты армии
 
+ID: erm.framework.constants.army-slots
 URL: /ru/erm/framework/constants/army-slots/
+Source references: era-framework:lib-9999-era---consts.erm
 
 9 именованных значений: слоты армии.
 
@@ -815,7 +833,9 @@ URL: /ru/erm/framework/constants/army-slots/
 
 # Модификаторы артефактов
 
+ID: erm.framework.constants.artfiact-modifiers
 URL: /ru/erm/framework/constants/artfiact-modifiers/
+Source references: era-framework:lib-9999-era---consts.erm
 
 1 именованных значений: модификаторы артефактов.
 
@@ -841,7 +861,9 @@ URL: /ru/erm/framework/constants/artfiact-modifiers/
 
 # Артефакты
 
+ID: erm.framework.constants.artifacts
 URL: /ru/erm/framework/constants/artifacts/
+Source references: era-framework:lib-9999-era---consts.erm
 
 177 именованных значений: артефакты.
 
@@ -1043,7 +1065,9 @@ URL: /ru/erm/framework/constants/artifacts/
 
 # Машинные инструкции
 
+ID: erm.framework.constants.assembler
 URL: /ru/erm/framework/constants/assembler/
+Source references: era-framework:lib-9999-era---consts.erm
 
 3 именованных значений: машинные инструкции.
 
@@ -1071,7 +1095,9 @@ URL: /ru/erm/framework/constants/assembler/
 
 # Боевые действия
 
+ID: erm.framework.constants.battle-actions
 URL: /ru/erm/framework/constants/battle-actions/
+Source references: era-framework:lib-9999-era---consts.erm
 
 14 именованных значений: боевые действия.
 
@@ -1106,7 +1132,9 @@ URL: /ru/erm/framework/constants/battle-actions/
 
 # Клетки поля боя
 
+ID: erm.framework.constants.battle-hexes
 URL: /ru/erm/framework/constants/battle-hexes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 3 именованных значений: клетки поля боя.
 
@@ -1130,7 +1158,9 @@ URL: /ru/erm/framework/constants/battle-hexes/
 
 # Маски типов боя
 
+ID: erm.framework.constants.battle-type-flags
 URL: /ru/erm/framework/constants/battle-type-flags/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 именованных значений: маски типов боя.
 
@@ -1161,7 +1191,9 @@ URL: /ru/erm/framework/constants/battle-type-flags/
 
 # Стороны и контекст боя
 
+ID: erm.framework.constants.battle
 URL: /ru/erm/framework/constants/battle/
+Source references: era-framework:lib-9999-era---consts.erm
 
 18 именованных значений: стороны и контекст боя.
 
@@ -1204,7 +1236,9 @@ URL: /ru/erm/framework/constants/battle/
 
 # Битовые маски
 
+ID: erm.framework.constants.bit-masks
 URL: /ru/erm/framework/constants/bit-masks/
+Source references: era-framework:lib-9999-era---consts.erm
 
 32 именованных значений: битовые маски.
 
@@ -1261,7 +1295,9 @@ URL: /ru/erm/framework/constants/bit-masks/
 
 # Размеры в битах
 
+ID: erm.framework.constants.bit-sizes
 URL: /ru/erm/framework/constants/bit-sizes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 именованных значений: размеры в битах.
 
@@ -1291,7 +1327,9 @@ URL: /ru/erm/framework/constants/bit-sizes/
 
 # Номера битов
 
+ID: erm.framework.constants.bits
 URL: /ru/erm/framework/constants/bits/
+Source references: era-framework:lib-9999-era---consts.erm
 
 32 именованных значений: номера битов.
 
@@ -1344,7 +1382,9 @@ URL: /ru/erm/framework/constants/bits/
 
 # Индексы полей BM:G
 
+ID: erm.framework.constants.bm-g-field-offsets
 URL: /ru/erm/framework/constants/bm-g-field-offsets/
+Source references: era-framework:lib-9999-era---consts.erm
 
 14 именованных значений: индексы полей bm:g.
 
@@ -1383,7 +1423,9 @@ URL: /ru/erm/framework/constants/bm-g-field-offsets/
 
 # Соглашения о вызовах
 
+ID: erm.framework.constants.calling-conventions
 URL: /ru/erm/framework/constants/calling-conventions/
+Source references: era-framework:lib-9999-era---consts.erm
 
 11 именованных значений: соглашения о вызовах.
 
@@ -1419,7 +1461,9 @@ URL: /ru/erm/framework/constants/calling-conventions/
 
 # Коды символов
 
+ID: erm.framework.constants.character-codes
 URL: /ru/erm/framework/constants/character-codes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 62 именованных значений: коды символов.
 
@@ -1502,7 +1546,9 @@ URL: /ru/erm/framework/constants/character-codes/
 
 # Типы данных
 
+ID: erm.framework.constants.data-types
 URL: /ru/erm/framework/constants/data-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 21 именованных значений: типы данных.
 
@@ -1548,7 +1594,9 @@ URL: /ru/erm/framework/constants/data-types/
 
 # Действия диалогов
 
+ID: erm.framework.constants.dialog-action-types
 URL: /ru/erm/framework/constants/dialog-action-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 именованных значений: действия диалогов.
 
@@ -1578,7 +1626,9 @@ URL: /ru/erm/framework/constants/dialog-action-types/
 
 # Элементы диалогов
 
+ID: erm.framework.constants.dialog-item-ids
 URL: /ru/erm/framework/constants/dialog-item-ids/
+Source references: era-framework:lib-9999-era---consts.erm
 
 92 именованных значений: элементы диалогов.
 
@@ -1695,7 +1745,9 @@ URL: /ru/erm/framework/constants/dialog-item-ids/
 
 # Диалоги
 
+ID: erm.framework.constants.dialogs
 URL: /ru/erm/framework/constants/dialogs/
+Source references: era-framework:lib-9999-era---consts.erm
 
 18 именованных значений: диалоги.
 
@@ -1738,7 +1790,9 @@ URL: /ru/erm/framework/constants/dialogs/
 
 # События чата
 
+ID: erm.framework.constants.era-chat-event
 URL: /ru/erm/framework/constants/era-chat-event/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 именованных значений: события чата.
 
@@ -1765,7 +1819,9 @@ URL: /ru/erm/framework/constants/era-chat-event/
 
 # Параметры ERM-команд
 
+ID: erm.framework.constants.erm-commands
 URL: /ru/erm/framework/constants/erm-commands/
+Source references: era-framework:lib-9999-era---consts.erm
 
 9 именованных значений: параметры erm-команд.
 
@@ -1799,7 +1855,9 @@ URL: /ru/erm/framework/constants/erm-commands/
 
 # Флаги ERM
 
+ID: erm.framework.constants.erm-flags
 URL: /ru/erm/framework/constants/erm-flags/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 именованных значений: флаги erm.
 
@@ -1824,7 +1882,9 @@ URL: /ru/erm/framework/constants/erm-flags/
 
 # Адреса игровых функций
 
+ID: erm.framework.constants.game-functions
 URL: /ru/erm/framework/constants/game-functions/
+Source references: era-framework:lib-9999-era---consts.erm
 
 2 именованных значений: адреса игровых функций.
 
@@ -1851,7 +1911,9 @@ URL: /ru/erm/framework/constants/game-functions/
 
 # Пределы игровых индексов
 
+ID: erm.framework.constants.game-limits
 URL: /ru/erm/framework/constants/game-limits/
+Source references: era-framework:lib-9999-era---consts.erm
 
 12 именованных значений: пределы игровых индексов.
 
@@ -1888,7 +1950,9 @@ URL: /ru/erm/framework/constants/game-limits/
 
 # Адреса игровых менеджеров
 
+ID: erm.framework.constants.game-managers
 URL: /ru/erm/framework/constants/game-managers/
+Source references: era-framework:lib-9999-era---consts.erm
 
 10 именованных значений: адреса игровых менеджеров.
 
@@ -1927,7 +1991,9 @@ URL: /ru/erm/framework/constants/game-managers/
 
 # Настройки игры
 
+ID: erm.framework.constants.game-settings
 URL: /ru/erm/framework/constants/game-settings/
+Source references: era-framework:lib-9999-era---consts.erm
 
 39 именованных значений: настройки игры.
 
@@ -1987,7 +2053,9 @@ URL: /ru/erm/framework/constants/game-settings/
 
 # Размеры игровых структур
 
+ID: erm.framework.constants.game-structures
 URL: /ru/erm/framework/constants/game-structures/
+Source references: era-framework:lib-9999-era---consts.erm
 
 26 именованных значений: размеры игровых структур.
 
@@ -2042,7 +2110,9 @@ URL: /ru/erm/framework/constants/game-structures/
 
 # Типы игры
 
+ID: erm.framework.constants.game-types
 URL: /ru/erm/framework/constants/game-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 именованных значений: типы игры.
 
@@ -2069,7 +2139,9 @@ URL: /ru/erm/framework/constants/game-types/
 
 # Команды диалогов
 
+ID: erm.framework.constants.h3-dialog-commands
 URL: /ru/erm/framework/constants/h3-dialog-commands/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 именованных значений: команды диалогов.
 
@@ -2099,7 +2171,9 @@ URL: /ru/erm/framework/constants/h3-dialog-commands/
 
 # Изображения в диалогах
 
+ID: erm.framework.constants.h3-dialog-picture-types
 URL: /ru/erm/framework/constants/h3-dialog-picture-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 47 именованных значений: изображения в диалогах.
 
@@ -2171,7 +2245,9 @@ URL: /ru/erm/framework/constants/h3-dialog-picture-types/
 
 # Выравнивание текста
 
+ID: erm.framework.constants.h3-dialog-text-alignment
 URL: /ru/erm/framework/constants/h3-dialog-text-alignment/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 именованных значений: выравнивание текста.
 
@@ -2202,7 +2278,9 @@ URL: /ru/erm/framework/constants/h3-dialog-text-alignment/
 
 # Типы сообщений
 
+ID: erm.framework.constants.h3-message-dialog-types
 URL: /ru/erm/framework/constants/h3-message-dialog-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 именованных значений: типы сообщений.
 
@@ -2228,7 +2306,9 @@ URL: /ru/erm/framework/constants/h3-message-dialog-types/
 
 # Классы артефактов
 
+ID: erm.framework.constants.hero-artifact-levels
 URL: /ru/erm/framework/constants/hero-artifact-levels/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 именованных значений: классы артефактов.
 
@@ -2255,7 +2335,9 @@ URL: /ru/erm/framework/constants/hero-artifact-levels/
 
 # Слоты артефактов героя
 
+ID: erm.framework.constants.hero-artifact-slots
 URL: /ru/erm/framework/constants/hero-artifact-slots/
+Source references: era-framework:lib-9999-era---consts.erm
 
 28 именованных значений: слоты артефактов героя.
 
@@ -2308,7 +2390,9 @@ URL: /ru/erm/framework/constants/hero-artifact-slots/
 
 # Классы героев
 
+ID: erm.framework.constants.hero-classes
 URL: /ru/erm/framework/constants/hero-classes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 20 именованных значений: классы героев.
 
@@ -2349,7 +2433,9 @@ URL: /ru/erm/framework/constants/hero-classes/
 
 # Навыки героев
 
+ID: erm.framework.constants.hero-skills
 URL: /ru/erm/framework/constants/hero-skills/
+Source references: era-framework:lib-9999-era---consts.erm, old-help:form-primaryskill.htm
 
 41 именованных значений: навыки героев.
 
@@ -2437,7 +2523,9 @@ URL: /ru/erm/framework/constants/hero-skills/
 
 # Герои
 
+ID: erm.framework.constants.heroes
 URL: /ru/erm/framework/constants/heroes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 164 именованных значений: герои.
 
@@ -2626,7 +2714,9 @@ URL: /ru/erm/framework/constants/heroes/
 
 # Коды клавиш
 
+ID: erm.framework.constants.key-codes
 URL: /ru/erm/framework/constants/key-codes/
+Source references: era-framework:lib-9999-era---key-codes.erm, old-help:form-keys.htm
 
 171 именованных значений: коды клавиш.
 
@@ -3040,7 +3130,9 @@ URL: /ru/erm/framework/constants/key-codes/
 
 # Агрессивность монстров
 
+ID: erm.framework.constants.monster-aggression-level
 URL: /ru/erm/framework/constants/monster-aggression-level/
+Source references: era-framework:lib-9999-era---consts.erm
 
 10 именованных значений: агрессивность монстров.
 
@@ -3071,7 +3163,9 @@ URL: /ru/erm/framework/constants/monster-aggression-level/
 
 # Флаги существ
 
+ID: erm.framework.constants.monster-flags
 URL: /ru/erm/framework/constants/monster-flags/
+Source references: era-framework:lib-9999-era---consts.erm
 
 32 именованных значений: флаги существ.
 
@@ -3124,7 +3218,9 @@ URL: /ru/erm/framework/constants/monster-flags/
 
 # Существа
 
+ID: erm.framework.constants.monsters
 URL: /ru/erm/framework/constants/monsters/
+Source references: era-framework:lib-9999-era---consts.erm
 
 205 именованных значений: существа.
 
@@ -3354,7 +3450,9 @@ URL: /ru/erm/framework/constants/monsters/
 
 # Действия мыши
 
+ID: erm.framework.constants.mouse-click-subtypes
 URL: /ru/erm/framework/constants/mouse-click-subtypes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 именованных значений: действия мыши.
 
@@ -3383,7 +3481,9 @@ URL: /ru/erm/framework/constants/mouse-click-subtypes/
 
 # Флаги мыши
 
+ID: erm.framework.constants.mouse-clicks
 URL: /ru/erm/framework/constants/mouse-clicks/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 именованных значений: флаги мыши.
 
@@ -3409,7 +3509,9 @@ URL: /ru/erm/framework/constants/mouse-clicks/
 
 # Колесо мыши
 
+ID: erm.framework.constants.mouse-wheel-subtypes
 URL: /ru/erm/framework/constants/mouse-wheel-subtypes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 2 именованных значений: колесо мыши.
 
@@ -3432,7 +3534,9 @@ URL: /ru/erm/framework/constants/mouse-wheel-subtypes/
 
 # Типы объектов
 
+ID: erm.framework.constants.object-types
 URL: /ru/erm/framework/constants/object-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 230 именованных значений: типы объектов.
 
@@ -3687,7 +3791,9 @@ URL: /ru/erm/framework/constants/object-types/
 
 # Маски игроков
 
+ID: erm.framework.constants.player-bits
 URL: /ru/erm/framework/constants/player-bits/
+Source references: era-framework:lib-9999-era---consts.erm
 
 8 именованных значений: маски игроков.
 
@@ -3716,7 +3822,9 @@ URL: /ru/erm/framework/constants/player-bits/
 
 # Игроки
 
+ID: erm.framework.constants.players
 URL: /ru/erm/framework/constants/players/
+Source references: era-framework:lib-9999-era---consts.erm
 
 15 именованных значений: игроки.
 
@@ -3756,7 +3864,9 @@ URL: /ru/erm/framework/constants/players/
 
 # Награды заданий
 
+ID: erm.framework.constants.quest-rewards
 URL: /ru/erm/framework/constants/quest-rewards/
+Source references: era-framework:lib-9999-era---consts.erm
 
 11 именованных значений: награды заданий.
 
@@ -3788,7 +3898,9 @@ URL: /ru/erm/framework/constants/quest-rewards/
 
 # Типы заданий
 
+ID: erm.framework.constants.quest-types
 URL: /ru/erm/framework/constants/quest-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 10 именованных значений: типы заданий.
 
@@ -3823,7 +3935,9 @@ URL: /ru/erm/framework/constants/quest-types/
 
 # Диалоги выбора
 
+ID: erm.framework.constants.radio-dialogs
 URL: /ru/erm/framework/constants/radio-dialogs/
+Source references: era-framework:lib-9999-era---stdlib.erm
 
 3 именованных значений: диалоги выбора.
 
@@ -3851,7 +3965,9 @@ URL: /ru/erm/framework/constants/radio-dialogs/
 
 # Ресурсы
 
+ID: erm.framework.constants.resources
 URL: /ru/erm/framework/constants/resources/
+Source references: era-framework:lib-9999-era---consts.erm
 
 13 именованных значений: ресурсы.
 
@@ -3885,7 +4001,9 @@ URL: /ru/erm/framework/constants/resources/
 
 # Специальные значения
 
+ID: erm.framework.constants.special-enums
 URL: /ru/erm/framework/constants/special-enums/
+Source references: era-framework:lib-9999-era---consts.erm
 
 12 именованных значений: специальные значения.
 
@@ -3922,7 +4040,9 @@ URL: /ru/erm/framework/constants/special-enums/
 
 # Школы магии
 
+ID: erm.framework.constants.spell-schools
 URL: /ru/erm/framework/constants/spell-schools/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 именованных значений: школы магии.
 
@@ -3947,7 +4067,9 @@ URL: /ru/erm/framework/constants/spell-schools/
 
 # Тексты заклинаний для SN:H
 
+ID: erm.framework.constants.spell-texts-for-sn-h
 URL: /ru/erm/framework/constants/spell-texts-for-sn-h/
+Source references: era-framework:lib-9999-era---consts.erm
 
 7 именованных значений: тексты заклинаний для sn:h.
 
@@ -3975,7 +4097,9 @@ URL: /ru/erm/framework/constants/spell-texts-for-sn-h/
 
 # Заклинания
 
+ID: erm.framework.constants.spells
 URL: /ru/erm/framework/constants/spells/
+Source references: era-framework:lib-9999-era---consts.erm
 
 78 именованных значений: заклинания.
 
@@ -4078,7 +4202,9 @@ URL: /ru/erm/framework/constants/spells/
 
 # Опыт отрядов
 
+ID: erm.framework.constants.stack-experience
 URL: /ru/erm/framework/constants/stack-experience/
+Source references: era-framework:lib-9999-era---consts.erm
 
 1 именованных значений: опыт отрядов.
 
@@ -4100,7 +4226,9 @@ URL: /ru/erm/framework/constants/stack-experience/
 
 # Города
 
+ID: erm.framework.constants.towns
 URL: /ru/erm/framework/constants/towns/
+Source references: era-framework:lib-9999-era---consts.erm
 
 15 именованных значений: города.
 
@@ -4136,7 +4264,9 @@ URL: /ru/erm/framework/constants/towns/
 
 # Типы данных UN:C
 
+ID: erm.framework.constants.un-c-data-types
 URL: /ru/erm/framework/constants/un-c-data-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 8 именованных значений: типы данных un:c.
 
@@ -4169,7 +4299,9 @@ URL: /ru/erm/framework/constants/un-c-data-types/
 
 # Логические значения
 
+ID: erm.framework.constants.universal
 URL: /ru/erm/framework/constants/universal/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 именованных значений: логические значения.
 
@@ -4198,7 +4330,9 @@ URL: /ru/erm/framework/constants/universal/
 
 # Адреса памяти
 
+ID: erm.framework.constants.useful-addresses
 URL: /ru/erm/framework/constants/useful-addresses/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 именованных значений: адреса памяти.
 
@@ -4233,7 +4367,9 @@ URL: /ru/erm/framework/constants/useful-addresses/
 
 # Win32 API
 
+ID: erm.framework.constants.win32-api
 URL: /ru/erm/framework/constants/win32-api/
+Source references: era-framework:lib-9999-era---consts.erm
 
 3 именованных значений: win32 api.
 
@@ -4261,7 +4397,9 @@ URL: /ru/erm/framework/constants/win32-api/
 
 # Настройки WoG
 
+ID: erm.framework.constants.wog-options
 URL: /ru/erm/framework/constants/wog-options/
+Source references: era-framework:lib-9999-era---consts.erm
 
 22 именованных значений: настройки wog.
 
@@ -4308,7 +4446,9 @@ URL: /ru/erm/framework/constants/wog-options/
 
 # События Framework
 
+ID: erm.framework.events
 URL: /ru/erm/framework/events/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Дополнительные события, расширенный контекст и порядок завершающих обработчиков.
 
@@ -4420,7 +4560,9 @@ OnEveryDay получает пять аргументов и timer*. Событ�
 
 # Функции Framework
 
+ID: erm.framework.functions
 URL: /ru/erm/framework/functions/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 
 Полный каталог 185 функций и обработчиков с контрактами и ограничениями.
 
@@ -4658,7 +4800,9 @@ URL: /ru/erm/framework/functions/
 
 # ActivateNextStack
 
+ID: erm.framework.functions.activatenextstack
 URL: /ru/erm/framework/functions/activatenextstack/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack
 
 Вызывает выбор следующего стека. В снимке запись результата защищена условием result<>0: выход, заранее равный 0, не обновляется. Инициализируйте выход ненулевым либо используйте исправленную версию.
 
@@ -4696,7 +4840,9 @@ URL: /ru/erm/framework/functions/activatenextstack/
 
 # AddArtToHero
 
+ID: erm.framework.functions.addarttohero
 URL: /ru/erm/framework/functions/addarttohero/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero
 
 Пытается надеть артефакт, затем положить в рюкзак; возвращает успех. Автоматически собирает сборные артефакты и проверяет условия победы.
 
@@ -4737,7 +4883,9 @@ URL: /ru/erm/framework/functions/addarttohero/
 
 # AdvMap_SetHint
 
+ID: erm.framework.functions.advmap-sethint
 URL: /ru/erm/framework/functions/advmap-sethint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint
 
 Немедленно обновляет подсказку карты приключений; выполняется только если корневое окно DLG_ADVMAP. Текст чата может скрыться до следующего ввода.
 
@@ -4779,7 +4927,9 @@ URL: /ru/erm/framework/functions/advmap-sethint/
 
 # AdvMap_SetInfoPanelDef
 
+ID: erm.framework.functions.advmap-setinfopaneldef
 URL: /ru/erm/framework/functions/advmap-setinfopaneldef/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef
 
 Показывает текст и кадр DEF в панели карты на 5000 мс по умолчанию. Временно подменяет два машинных операнда имени DEF и восстанавливает их. Меняет z1/v1; без defName вызывает текстовый вариант.
 
@@ -4824,7 +4974,9 @@ URL: /ru/erm/framework/functions/advmap-setinfopaneldef/
 
 # AdvMap_SetInfoPanelText
 
+ID: erm.framework.functions.advmap-setinfopaneltext
 URL: /ru/erm/framework/functions/advmap-setinfopaneltext/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext
 
 Показывает непустой текст в панели карты на timeToDisplay миллисекунд (по умолчанию 5000). Использует s^temp_text^ и меняет v1.
 
@@ -4863,7 +5015,9 @@ URL: /ru/erm/framework/functions/advmap-setinfopaneltext/
 
 # Array_Clone
 
+ID: erm.framework.functions.array-clone
 URL: /ru/erm/framework/functions/array-clone/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone
 
 Создаёт копию массива в памяти вызывающего триггера и возвращает её ID. Строки копируются как значения.
 
@@ -4906,7 +5060,9 @@ URL: /ru/erm/framework/functions/array-clone/
 
 # Array_Copy
 
+ID: erm.framework.functions.array-copy
 URL: /ru/erm/framework/functions/array-copy/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy
 
 Полностью заменяет dstArray содержимым srcArray, подгоняя размер. Оба массива должны существовать и иметь одинаковый тип.
 
@@ -4945,7 +5101,9 @@ URL: /ru/erm/framework/functions/array-copy/
 
 # Array_CountValue
 
+ID: erm.framework.functions.array-countvalue
 URL: /ru/erm/framework/functions/array-countvalue/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue
 
 Возвращает число совпадений value. Для строк caseInsensitive по умолчанию FALSE; используется lstrcmpA/lstrcmpiA.
 
@@ -4986,7 +5144,9 @@ URL: /ru/erm/framework/functions/array-countvalue/
 
 # Array_CustomSort
 
+ID: erm.framework.functions.array-customsort
 URL: /ru/erm/framework/functions/array-customsort/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort
 
 Стабильная сортировка: callback(value1,value2,state,?result), где результат <0, 0, >0 определяет порядок. Для строк передаются z-индексы. state по умолчанию 0; диапазон включительный, по умолчанию весь массив.
 
@@ -5028,7 +5188,9 @@ URL: /ru/erm/framework/functions/array-customsort/
 
 # Array_EnsureMinSize
 
+ID: erm.framework.functions.array-ensureminsize
 URL: /ru/erm/framework/functions/array-ensureminsize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize
 
 Увеличивает массив до minSize при необходимости и заполняет новые элементы. Никогда не уменьшает размер.
 
@@ -5066,7 +5228,9 @@ URL: /ru/erm/framework/functions/array-ensureminsize/
 
 # Array_Fill
 
+ID: erm.framework.functions.array-fill
 URL: /ru/erm/framework/functions/array-fill/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill
 
 Заполняет целочисленный массив арифметической последовательностью startValue, startValue+step…; step по умолчанию 0. Диапазон включительный, по умолчанию весь массив. Реализация пишет 32-битные значения: строковый массив не передавайте.
 
@@ -5104,7 +5268,9 @@ URL: /ru/erm/framework/functions/array-fill/
 
 # Array_Find
 
+ID: erm.framework.functions.array-find
 URL: /ru/erm/framework/functions/array-find/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find
 
 Вызывает callback(value,?found,listId,customArg) до первого TRUE. Возвращает индекс или -1; строковое value — ERM-строка. found и необязательный customArg по умолчанию 0.
 
@@ -5143,7 +5309,9 @@ URL: /ru/erm/framework/functions/array-find/
 
 # Array_IndexOf
 
+ID: erm.framework.functions.array-indexof
 URL: /ru/erm/framework/functions/array-indexof/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof
 
 Возвращает индекс первого совпадения либо -1. Числа сравниваются точно; для строк можно включить caseInsensitive.
 
@@ -5184,7 +5352,9 @@ URL: /ru/erm/framework/functions/array-indexof/
 
 # Array_Join
 
+ID: erm.framework.functions.array-join
 URL: /ru/erm/framework/functions/array-join/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join
 
 Соединяет элементы целого или строкового массива, разделяя gluePtr (по умолчанию пустой строкой). Возвращает ERM-строку; использует и очищает s^result^ и s^temp^.
 
@@ -5222,7 +5392,9 @@ URL: /ru/erm/framework/functions/array-join/
 
 # Array_Merge
 
+ID: erm.framework.functions.array-merge
 URL: /ru/erm/framework/functions/array-merge/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge
 
 Добавляет содержимое одного или нескольких массивов в dstArray. Все типы должны совпадать; массив-приёмник изменяется.
 
@@ -5280,7 +5452,9 @@ URL: /ru/erm/framework/functions/array-merge/
 
 # Array_Move
 
+ID: erm.framework.functions.array-move
 URL: /ru/erm/framework/functions/array-move/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move
 
 Перемещает length элементов из offset в destInd внутри массива без изменения размера; поддерживает перекрытие, обрезает выход за конец. В снимке destInd объявлен через !#VR вместо !#VA: сверяйте исправление библиотеки перед использованием.
 
@@ -5328,7 +5502,9 @@ URL: /ru/erm/framework/functions/array-move/
 
 # Array_Pop
 
+ID: erm.framework.functions.array-pop
 URL: /ru/erm/framework/functions/array-pop/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop
 
 Удаляет последние элементы; до 15 выходов заполняются от последнего к первому. Без выходов удаляет один элемент. При нехватке элементов возвращает 0 или пустую строку.
 
@@ -5365,7 +5541,9 @@ URL: /ru/erm/framework/functions/array-pop/
 
 # Array_Push
 
+ID: erm.framework.functions.array-push
 URL: /ru/erm/framework/functions/array-push/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push
 
 Добавляет до 15 значений в конец массива, увеличивая размер. Тип значений должен соответствовать массиву. Недействительный массив пропускается.
 
@@ -5402,7 +5580,9 @@ URL: /ru/erm/framework/functions/array-push/
 
 # Array_Resize
 
+ID: erm.framework.functions.array-resize
 URL: /ru/erm/framework/functions/array-resize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize
 
 Изменяет размер массива. Новые элементы получают 0/пустую строку или указанный fillValue; существующие сохраняются, усечённые удаляются.
 
@@ -5440,7 +5620,9 @@ URL: /ru/erm/framework/functions/array-resize/
 
 # Array_Revert
 
+ID: erm.framework.functions.array-revert
 URL: /ru/erm/framework/functions/array-revert/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert
 
 Разворачивает порядок элементов всего массива либо включительного диапазона. По умолчанию 0..size-1; поддерживает числа и строки.
 
@@ -5476,7 +5658,9 @@ URL: /ru/erm/framework/functions/array-revert/
 
 # Array_Shuffle
 
+ID: erm.framework.functions.array-shuffle
 URL: /ru/erm/framework/functions/array-shuffle/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle
 
 Перемешивает элементы на месте через VR:R и перестановки. Строковые указатели переставляются без копирования текста. Для сетевой логики проверяйте синхронизацию генератора.
 
@@ -5514,7 +5698,9 @@ URL: /ru/erm/framework/functions/array-shuffle/
 
 # Array_Slice
 
+ID: erm.framework.functions.array-slice
 URL: /ru/erm/framework/functions/array-slice/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice
 
 Копирует диапазон в новый массив. Отрицательные start/count задают отсчёт от конца/исключение хвоста. Хранение по умолчанию M_TRIGGER_LOCAL. Для пустого или неверного исходного массива возвращает NULL, поэтому проверяйте результат.
 
@@ -5568,7 +5754,9 @@ URL: /ru/erm/framework/functions/array-slice/
 
 # Array_Sort
 
+ID: erm.framework.functions.array-sort
 URL: /ru/erm/framework/functions/array-sort/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort
 
 Сортирует по возрастанию весь массив или включительный диапазон startInd..endInd. По умолчанию 0..size-1; границы обрезаются.
 
@@ -5608,7 +5796,9 @@ URL: /ru/erm/framework/functions/array-sort/
 
 # Array_SortedUnique
 
+ID: erm.framework.functions.array-sortedunique
 URL: /ru/erm/framework/functions/array-sortedunique/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique
 
 Сортирует целочисленный массив и удаляет повторы, уменьшая размер. Строковые массивы отвергаются.
 
@@ -5650,7 +5840,9 @@ URL: /ru/erm/framework/functions/array-sortedunique/
 
 # Array_Splice
 
+ID: erm.framework.functions.array-splice
 URL: /ru/erm/framework/functions/array-splice/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice
 
 Удаляет диапазон и вставляет до 13 значений с изменением размера. Отрицательный startIndex отсчитывается от конца; отсутствие numItemsToDelete удаляет остаток, отрицательное число сохраняет столько элементов в конце. Зависит от Array_Move.
 
@@ -5743,7 +5935,9 @@ URL: /ru/erm/framework/functions/array-splice/
 
 # Battle_RedrawGridShadow
 
+ID: erm.framework.functions.battle-redrawgridshadow
 URL: /ru/erm/framework/functions/battle-redrawgridshadow/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow
 
 Обновляет тень доступного перемещения после изменения скорости. Нужен существующий менеджер боя.
 
@@ -5775,7 +5969,9 @@ URL: /ru/erm/framework/functions/battle-redrawgridshadow/
 
 # BattleStack_MakeActive
 
+ID: erm.framework.functions.battlestack-makeactive
 URL: /ru/erm/framework/functions/battlestack-makeactive/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive
 
 Передаёт ход стеку 0..41 и при необходимости выполняет фазу регенерации. Допустимый индекс сам по себе не гарантирует существование живого стека.
 
@@ -5815,7 +6011,9 @@ URL: /ru/erm/framework/functions/battlestack-makeactive/
 
 # BattleStack_Shoot
 
+ID: erm.framework.functions.battlestack-shoot
 URL: /ru/erm/framework/functions/battlestack-shoot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot
 
 Заставляет attackerStackId стрелять в defenderStackId, временно меняя и восстанавливая позицию цели в структуре атакующего. Проверку существования стеков выполняйте заранее.
 
@@ -5854,7 +6052,9 @@ URL: /ru/erm/framework/functions/battlestack-shoot/
 
 # ChangeArtModAtSlot
 
+ID: erm.framework.functions.changeartmodatslot
 URL: /ru/erm/framework/functions/changeartmodatslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot
 
 Меняет модификатор артефакта в слоту, включая рюкзак. Для свитка модификатор — ID заклинания; для обычного артефакта обычно NO_ART_MOD.
 
@@ -5896,7 +6096,9 @@ URL: /ru/erm/framework/functions/changeartmodatslot/
 
 # ClearEventChainData
 
+ID: erm.framework.functions.cleareventchaindata
 URL: /ru/erm/framework/functions/cleareventchaindata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata
 
 Очищает служебный стек контекста событий и сбрасывает его позицию. Вызывается при чтении сохранения.
 
@@ -5922,7 +6124,9 @@ URL: /ru/erm/framework/functions/cleareventchaindata/
 
 # ClearIniCache
 
+ID: erm.framework.functions.clearinicache
 URL: /ru/erm/framework/functions/clearinicache/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache
 
 Забывает кэш одного INI. Следующее чтение или запись заново загрузит файл с диска. Сам файл не удаляется.
 
@@ -5956,7 +6160,9 @@ URL: /ru/erm/framework/functions/clearinicache/
 
 # ClearScreenLog
 
+ID: erm.framework.functions.clearscreenlog
 URL: /ru/erm/framework/functions/clearscreenlog/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog
 
 Очищает зелёные сообщения экранного журнала.
 
@@ -5984,7 +6190,9 @@ URL: /ru/erm/framework/functions/clearscreenlog/
 
 # CollectMouseEventData
 
+ID: erm.framework.functions.collectmouseeventdata
 URL: /ru/erm/framework/functions/collectmouseeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata
 
 Читает CM в глобальные mouse_ и dlg_action. Действие кнопки выхода нормализуется в обычное отпускание ЛКМ; клавиатурное событие DL записывает код в key.
 
@@ -6014,7 +6222,9 @@ URL: /ru/erm/framework/functions/collectmouseeventdata/
 
 # CompareStrings_Bridge_INTERNAL
 
+ID: erm.framework.functions.comparestrings-bridge-internal
 URL: /ru/erm/framework/functions/comparestrings-bridge-internal/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal
 
 Мост строкового компаратора: преобразует адреса в ERM-строки и вызывает пользовательский callback со state и выходным результатом. Нулевой адрес трактует как пустую строку.
 
@@ -6049,7 +6259,9 @@ URL: /ru/erm/framework/functions/comparestrings-bridge-internal/
 
 # CompareStrings
 
+ID: erm.framework.functions.comparestrings
 URL: /ru/erm/framework/functions/comparestrings/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings
 
 Сравнивает две ERM-строки операторами языка и возвращает -1, 0 или 1.
 
@@ -6083,7 +6295,9 @@ URL: /ru/erm/framework/functions/comparestrings/
 
 # ConstructBitMask
 
+ID: erm.framework.functions.constructbitmask
 URL: /ru/erm/framework/functions/constructbitmask/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask
 
 Объединяет до 15 позиций битов 0..31 в маску; последний аргумент — выход. Повтор позиции не удваивает бит, поскольку применяется OR. Нужны хотя бы позиция и выход.
 
@@ -6131,7 +6345,9 @@ URL: /ru/erm/framework/functions/constructbitmask/
 
 # CreateDir
 
+ID: erm.framework.functions.createdir
 URL: /ru/erm/framework/functions/createdir/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir
 
 Вызывает CreateDirectoryA для одного каталога; результат API не возвращается. Не гарантирует создание отсутствующей цепочки родителей.
 
@@ -6165,7 +6381,9 @@ URL: /ru/erm/framework/functions/createdir/
 
 # DeconstructBitMask
 
+ID: erm.framework.functions.deconstructbitmask
 URL: /ru/erm/framework/functions/deconstructbitmask/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask
 
 Возвращает новый локальный целочисленный массив позиций установленных битов 0..31. Время жизни продлено до вызывающего контекста.
 
@@ -6204,7 +6422,9 @@ URL: /ru/erm/framework/functions/deconstructbitmask/
 
 # DecorateInt
 
+ID: erm.framework.functions.decorateint
 URL: /ru/erm/framework/functions/decorateint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint
 
 Форматирует целое с разделителем тысяч era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS оставляет числа до 9999 без группировки. Выход — строка.
 
@@ -6240,7 +6460,9 @@ URL: /ru/erm/framework/functions/decorateint/
 
 # DeleteFile
 
+ID: erm.framework.functions.deletefile
 URL: /ru/erm/framework/functions/deletefile/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile
 
 Удаляет файл через DeleteFileA; TRUE означает успешное удаление. Не удаляет дерево каталогов.
 
@@ -6279,7 +6501,9 @@ URL: /ru/erm/framework/functions/deletefile/
 
 # DirExists
 
+ID: erm.framework.functions.direxists
 URL: /ru/erm/framework/functions/direxists/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists
 
 Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.
 
@@ -6318,7 +6542,9 @@ URL: /ru/erm/framework/functions/direxists/
 
 # DisableErrors
 
+ID: erm.framework.functions.disableerrors
 URL: /ru/erm/framework/functions/disableerrors/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors
 
 Включает WOG_OPT_MUTE_ERRORS и обнуляет WOG_OPT_LAST_ERROR. Используйте только вокруг контролируемой операции.
 
@@ -6348,7 +6574,9 @@ URL: /ru/erm/framework/functions/disableerrors/
 
 # DL_AlignDlg
 
+ID: erm.framework.functions.dl-aligndlg
 URL: /ru/erm/framework/functions/dl-aligndlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg
 
 Выравнивает созданный DL-диалог по битовой маске TEXT_ALIGN_. CENTER/MIDDLE имеют приоритет над RIGHT/BOTTOM.
 
@@ -6393,7 +6621,9 @@ URL: /ru/erm/framework/functions/dl-aligndlg/
 
 # DL_CenterAtMouse
 
+ID: erm.framework.functions.dl-centeratmouse
 URL: /ru/erm/framework/functions/dl-centeratmouse/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse
 
 Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.
 
@@ -6435,7 +6665,9 @@ URL: /ru/erm/framework/functions/dl-centeratmouse/
 
 # DL_Coords
 
+ID: erm.framework.functions.dl-coords
 URL: /ru/erm/framework/functions/dl-coords/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords
 
 Координаты x/y поддерживают GET, SET и ADD. Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.
 
@@ -6486,7 +6718,9 @@ URL: /ru/erm/framework/functions/dl-coords/
 
 # DL_Destroy
 
+ID: erm.framework.functions.dl-destroy
 URL: /ru/erm/framework/functions/dl-destroy/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy
 
 Уничтожает объект оболочки DL по адресу. Повторно использовать уничтоженный адрес нельзя.
 
@@ -6520,7 +6754,9 @@ URL: /ru/erm/framework/functions/dl-destroy/
 
 # DL_FindById
 
+ID: erm.framework.functions.dl-findbyid
 URL: /ru/erm/framework/functions/dl-findbyid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid
 
 Возвращает адрес оболочки DL-диалога по ID либо NULL. Это не адрес H3Dlg: он хранится в первом поле оболочки. v1 изменяется.
 
@@ -6559,7 +6795,9 @@ URL: /ru/erm/framework/functions/dl-findbyid/
 
 # DL_GetSize
 
+ID: erm.framework.functions.dl-getsize
 URL: /ru/erm/framework/functions/dl-getsize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize
 
 Возвращает ширину и высоту уже созданного DL-диалога; при отсутствии окна сообщает ошибку.
 
@@ -6605,7 +6843,9 @@ URL: /ru/erm/framework/functions/dl-getsize/
 
 # DL_SetPlayerColor
 
+ID: erm.framework.functions.dl-setplayercolor
 URL: /ru/erm/framework/functions/dl-setplayercolor/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor
 
 Меняет цвет рамки DL-диалога. playerId по умолчанию — взаимодействующий игрок; проверяется диапазон PLAYER_FIRST..PLAYER_LAST.
 
@@ -6650,7 +6890,9 @@ URL: /ru/erm/framework/functions/dl-setplayercolor/
 
 # DL_SetSize
 
+ID: erm.framework.functions.dl-setsize
 URL: /ru/erm/framework/functions/dl-setsize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize
 
 Меняет ширину/высоту существующего DL-диалога. Нулевой или пропущенный размер сохраняет соответствующее измерение; элементы автоматически не раскладываются.
 
@@ -6696,7 +6938,9 @@ URL: /ru/erm/framework/functions/dl-setsize/
 
 # DL_ShowPopup
 
+ID: erm.framework.functions.dl-showpopup
 URL: /ru/erm/framework/functions/dl-showpopup/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup
 
 Показывает DL-диалог по ID как ПКМ-подсказку и затем уничтожает его. Перед повторным показом снова нужен DL:N.
 
@@ -6738,7 +6982,9 @@ URL: /ru/erm/framework/functions/dl-showpopup/
 
 # EmptyIniCache
 
+ID: erm.framework.functions.emptyinicache
 URL: /ru/erm/framework/functions/emptyinicache/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache
 
 Заменяет кэш INI пустым содержимым для создания настроек заново. Чтобы записать на диск, нужен SaveIni.
 
@@ -6772,7 +7018,9 @@ URL: /ru/erm/framework/functions/emptyinicache/
 
 # EnableErrors
 
+ID: erm.framework.functions.enableerrors
 URL: /ru/erm/framework/functions/enableerrors/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors
 
 Читает последний флаг ошибки, но в этом снимке снова устанавливает WOG_OPT_MUTE_ERRORS=TRUE. Комментарий обещает включение сообщений, код этого не делает. Для восстановления требуется явный UN:P с FALSE либо исправленная библиотека.
 
@@ -6808,7 +7056,9 @@ URL: /ru/erm/framework/functions/enableerrors/
 
 # EnterMouseEvent
 
+ID: erm.framework.functions.entermouseevent
 URL: /ru/erm/framework/functions/entermouseevent/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent
 
 Сохраняет прежний контекст клавиатуры и мыши, затем читает модификаторы и CM нового события.
 
@@ -6838,7 +7088,9 @@ URL: /ru/erm/framework/functions/entermouseevent/
 
 # EquipArtToSlot
 
+ID: erm.framework.functions.equiparttoslot
 URL: /ru/erm/framework/functions/equiparttoslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot
 
 Надевает артефакт в слот куклы героя либо выбирает слот при NO_ART_SLOT. Возвращает TRUE/FALSE и вызывает OnEquipArt. Не служит записью произвольного слота рюкзака.
 
@@ -6880,7 +7132,9 @@ URL: /ru/erm/framework/functions/equiparttoslot/
 
 # FileExists
 
+ID: erm.framework.functions.fileexists
 URL: /ru/erm/framework/functions/fileexists/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists
 
 Проверяет атрибуты пути и возвращает TRUE только для требуемого вида: FileExists — файл, DirExists — каталог. Ошибка доступа также даёт FALSE.
 
@@ -6919,7 +7173,9 @@ URL: /ru/erm/framework/functions/fileexists/
 
 # FormatQuantity
 
+ID: erm.framework.functions.formatquantity
 URL: /ru/erm/framework/functions/formatquantity/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity
 
 Форматирует количество с локалью и суффиксами K/M/G. maxLen по умолчанию 5 логических символов, maxDigits — 4; поддерживает отрицательные числа.
 
@@ -6960,7 +7216,9 @@ URL: /ru/erm/framework/functions/formatquantity/
 
 # GetArtAtSlot
 
+ID: erm.framework.functions.getartatslot
 URL: /ru/erm/framework/functions/getartatslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot
 
 Возвращает ID артефакта и модификатор по слоту героя; поддерживает рюкзак. Для пустого слота учитывайте NO_ART.
 
@@ -7003,7 +7261,9 @@ URL: /ru/erm/framework/functions/getartatslot/
 
 # GetDegradedMonCandidates
 
+ID: erm.framework.functions.getdegradedmoncandidates
 URL: /ru/erm/framework/functions/getdegradedmoncandidates/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates
 
 Перебирает все поддерживаемые типы и возвращает локальный массив существ, улучшающихся до monId. Кандидатов может быть несколько; полный перебор дорог при расширенном лимите.
 
@@ -7046,7 +7306,9 @@ URL: /ru/erm/framework/functions/getdegradedmoncandidates/
 
 # GetHeroPortraitName
 
+ID: erm.framework.functions.getheroportraitname
 URL: /ru/erm/framework/functions/getheroportraitname/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3062-3080-getheroportraitname
 
 Возвращает актуальные имена малого и большого портретов героя. Читает таблицу структур по ID; диапазон проверяйте до вызова.
 
@@ -7082,7 +7344,9 @@ URL: /ru/erm/framework/functions/getheroportraitname/
 
 # GetHeroPrimarySkillsWithoutArts
 
+ID: erm.framework.functions.getheroprimaryskillswithoutarts
 URL: /ru/erm/framework/functions/getheroprimaryskillswithoutarts/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts
 
 Временно снимает 19 экипированных артефактов, читает HE:F и надевает их обратно. Вызывает OnUnequipArt/OnEquipArt; это операция с побочными событиями, а не чистое чтение.
 
@@ -7126,7 +7390,9 @@ URL: /ru/erm/framework/functions/getheroprimaryskillswithoutarts/
 
 # GetKeyModsState
 
+ID: erm.framework.functions.getkeymodsstate
 URL: /ru/erm/framework/functions/getkeymodsstate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate, windows-api:getkeystate
 
 Опрашивает левые и правые Alt, Ctrl, Shift через GetKeyState и обновляет key_; объединённый флаг равен OR двух сторон.
 
@@ -7160,7 +7426,9 @@ URL: /ru/erm/framework/functions/getkeymodsstate/
 
 # GetMaxArtifactId
 
+ID: erm.framework.functions.getmaxartifactid
 URL: /ru/erm/framework/functions/getmaxartifactid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3199-3208-getmaxartifactid
 
 В этом снимке просто возвращает ART_LAST_WOG. Несмотря на комментарий о расширениях, динамический предел плагинов не запрашивается.
 
@@ -7196,7 +7464,9 @@ URL: /ru/erm/framework/functions/getmaxartifactid/
 
 # GetMaxHeroId
 
+ID: erm.framework.functions.getmaxheroid
 URL: /ru/erm/framework/functions/getmaxheroid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3055-3061-getmaxheroid
 
 Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.
 
@@ -7234,7 +7504,9 @@ URL: /ru/erm/framework/functions/getmaxheroid/
 
 # GetMaxMonsterId
 
+ID: erm.framework.functions.getmaxmonsterid
 URL: /ru/erm/framework/functions/getmaxmonsterid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid
 
 Читает установленный в движке предел и вычитает 1. Последний поддерживаемый ID не означает, что все позиции содержат настроенные игровые сущности.
 
@@ -7272,7 +7544,9 @@ URL: /ru/erm/framework/functions/getmaxmonsterid/
 
 # GetMaxSpellId
 
+ID: erm.framework.functions.getmaxspellid
 URL: /ru/erm/framework/functions/getmaxspellid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3209-3216-getmaxspellid
 
 Возвращает константу SPELL_LAST_WOG, а не динамический предел стороннего расширения заклинаний.
 
@@ -7308,7 +7582,9 @@ URL: /ru/erm/framework/functions/getmaxspellid/
 
 # GetModList
 
+ID: erm.framework.functions.getmodlist
 URL: /ru/erm/framework/functions/getmodlist/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist
 
 Возвращает локальный массив активных модов из VFS. toLower и reverse по умолчанию FALSE. При нулевом числе модов выход не инициализируется; заранее задайте NULL и проверяйте результат.
 
@@ -7354,7 +7630,9 @@ URL: /ru/erm/framework/functions/getmodlist/
 
 # GetProcessGuid
 
+ID: erm.framework.functions.getprocessguid
 URL: /ru/erm/framework/functions/getprocessguid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid
 
 Возвращает строку из 32 символов, уникальную для запуска игрового процесса. Подходит для отличия нового запуска от загрузки сохранения в том же процессе.
 
@@ -7388,7 +7666,9 @@ URL: /ru/erm/framework/functions/getprocessguid/
 
 # GetStrAtAddr
 
+ID: erm.framework.functions.getstrataddr
 URL: /ru/erm/framework/functions/getstrataddr/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr
 
 Копирует строку с нулевым терминатором по адресу strAddr в выходную ERM-строку; NULL даёт пустую. Для ненулевого адреса память должна быть доступна.
 
@@ -7421,7 +7701,9 @@ URL: /ru/erm/framework/functions/getstrataddr/
 
 # GetTextFileString
 
+ID: erm.framework.functions.gettextfilestring
 URL: /ru/erm/framework/functions/gettextfilestring/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring
 
 Читает строку с нулевым индексом из загруженных ресурсов randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent. Имя нормализуется; неизвестное даёт Wrong txt filename!. Индекс строки не проверяется.
 
@@ -7472,7 +7754,9 @@ URL: /ru/erm/framework/functions/gettextfilestring/
 
 # GetTextTableString
 
+ID: erm.framework.functions.gettexttablestring
 URL: /ru/erm/framework/functions/gettexttablestring/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring
 
 Читает ячейку bldgspec, help или znpc00 по rowIndex/colIndex. Несмотря на комментарий «get or set», ветки записи в снимке нет. Проверку индексов обеспечивает вызывающий код.
 
@@ -7517,7 +7801,9 @@ URL: /ru/erm/framework/functions/gettexttablestring/
 
 # GetTimeMsec
 
+ID: erm.framework.functions.gettimemsec
 URL: /ru/erm/framework/functions/gettimemsec/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec
 
 Возвращает миллисекунды с запуска ОС через timeGetTime. 32-битный счётчик переполняется примерно через 49,71 суток; это не игровая дата.
 
@@ -7555,7 +7841,9 @@ URL: /ru/erm/framework/functions/gettimemsec/
 
 # GetUpgradedMonster
 
+ID: erm.framework.functions.getupgradedmonster
 URL: /ru/erm/framework/functions/getupgradedmonster/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3028-3037-getupgradedmonster
 
 Возвращает улучшение типа существа либо NO_MON (-1), если улучшения нет.
 
@@ -7594,7 +7882,9 @@ URL: /ru/erm/framework/functions/getupgradedmonster/
 
 # H3Dlg_CenterAtMouse
 
+ID: erm.framework.functions.h3dlg-centeratmouse
 URL: /ru/erm/framework/functions/h3dlg-centeratmouse/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse
 
 Центрирует существующее окно у курсора. Для H3Dlg передайте адрес, для DL — ID. DL-обёртка не проверяет NULL после поиска: сначала создайте окно.
 
@@ -7632,7 +7922,9 @@ URL: /ru/erm/framework/functions/h3dlg-centeratmouse/
 
 # H3Dlg_Coords
 
+ID: erm.framework.functions.h3dlg-coords
 URL: /ru/erm/framework/functions/h3dlg-coords/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords
 
 Координаты x/y поддерживают GET, SET и ADD. Позиция ограничивается размером экрана и тенью окна. H3Dlg_Coords принимает адрес H3Dlg; DL_Coords — ID уже созданного через DL:N диалога.
 
@@ -7679,7 +7971,9 @@ URL: /ru/erm/framework/functions/h3dlg-coords/
 
 # H3Dlg_DrawItemOnScreen
 
+ID: erm.framework.functions.h3dlg-drawitemonscreen
 URL: /ru/erm/framework/functions/h3dlg-drawitemonscreen/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2152-2166-h3dlg-drawitemonscreen
 
 Выводит на экран элемент по itemId или весь диалог при ALL_ITEMS. Объект H3Dlg должен существовать.
 
@@ -7720,7 +8014,9 @@ URL: /ru/erm/framework/functions/h3dlg-drawitemonscreen/
 
 # H3Dlg_GetCurrentDlg
 
+ID: erm.framework.functions.h3dlg-getcurrentdlg
 URL: /ru/erm/framework/functions/h3dlg-getcurrentdlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2109-2114-h3dlg-getcurrentdlg
 
 Возвращает адрес верхнего диалога или NULL. Адрес не равен его идентификатору DLG_.
 
@@ -7758,7 +8054,9 @@ URL: /ru/erm/framework/functions/h3dlg-getcurrentdlg/
 
 # H3Dlg_GetCurrentDlgId
 
+ID: erm.framework.functions.h3dlg-getcurrentdlgid
 URL: /ru/erm/framework/functions/h3dlg-getcurrentdlgid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid
 
 Возвращает идентификатор верхнего окна из виртуальной таблицы, сопоставимый с DLG_, либо NULL.
 
@@ -7796,7 +8094,9 @@ URL: /ru/erm/framework/functions/h3dlg-getcurrentdlgid/
 
 # H3Dlg_GetRootDlg
 
+ID: erm.framework.functions.h3dlg-getrootdlg
 URL: /ru/erm/framework/functions/h3dlg-getrootdlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg
 
 Возвращает адрес корневого диалога или NULL; обычно это карта приключений.
 
@@ -7834,7 +8134,9 @@ URL: /ru/erm/framework/functions/h3dlg-getrootdlg/
 
 # H3Dlg_ResumeAnimation
 
+ID: erm.framework.functions.h3dlg-resumeanimation
 URL: /ru/erm/framework/functions/h3dlg-resumeanimation/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation
 
 Останавливает/возобновляет анимацию текущих диалогов через машинную функцию. Пары должны быть сбалансированы.
 
@@ -7862,7 +8164,9 @@ URL: /ru/erm/framework/functions/h3dlg-resumeanimation/
 
 # H3Dlg_SendCmdToItem
 
+ID: erm.framework.functions.h3dlg-sendcmdtoitem
 URL: /ru/erm/framework/functions/h3dlg-sendcmdtoitem/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem
 
 Отправляет itemId команду DLG_CMD_; cmdType по умолчанию DLG_CMD_TYPE_DEFAULT. Для SET_TEXT/SET_DEF/SET_PCX param трактуется как строка; остальные команды получают число.
 
@@ -7906,7 +8210,9 @@ URL: /ru/erm/framework/functions/h3dlg-sendcmdtoitem/
 
 # H3Dlg_ShowPopup
 
+ID: erm.framework.functions.h3dlg-showpopup
 URL: /ru/erm/framework/functions/h3dlg-showpopup/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup
 
 Показывает H3-диалог как окно по ПКМ, приостанавливая и возобновляя анимацию. Требует действительный адрес H3Dlg.
 
@@ -7948,7 +8254,9 @@ URL: /ru/erm/framework/functions/h3dlg-showpopup/
 
 # H3Dlg_StopAnimation
 
+ID: erm.framework.functions.h3dlg-stopanimation
 URL: /ru/erm/framework/functions/h3dlg-stopanimation/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation
 
 Останавливает/возобновляет анимацию текущих диалогов через машинную функцию. Пары должны быть сбалансированы.
 
@@ -7976,7 +8284,9 @@ URL: /ru/erm/framework/functions/h3dlg-stopanimation/
 
 # H3Dlg_UpdateItemRange
 
+ID: erm.framework.functions.h3dlg-updateitemrange
 URL: /ru/erm/framework/functions/h3dlg-updateitemrange/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange
 
 Обновляет внутреннее состояние диалога перед перерисовкой. В снимке minItemId/maxItemId не используются: вызывается виртуальный метод с 0/200/200. Не рассчитывайте на обновление только заданного диапазона.
 
@@ -8018,7 +8328,9 @@ URL: /ru/erm/framework/functions/h3dlg-updateitemrange/
 
 # H3Quests_RefreshData
 
+ID: erm.framework.functions.h3quests-refreshdata
 URL: /ru/erm/framework/functions/h3quests-refreshdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata
 
 Обновляет данные заданий после подмены существ/имён. Для задания на уничтожение монстра сверяет реальный тип по координатам; forceRefreshText пересоздаёт тексты всех заданий. Использует внутренние структуры игры.
 
@@ -8056,7 +8368,9 @@ URL: /ru/erm/framework/functions/h3quests-refreshdata/
 
 # Hash32
 
+ID: erm.framework.functions.hash32
 URL: /ru/erm/framework/functions/hash32/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32
 
 Считает 32-битный хеш dataLen байт по адресу data (либо строки). Размер и доступность памяти обеспечивает вызывающий код; криптографические свойства не заявлены.
 
@@ -8092,7 +8406,9 @@ URL: /ru/erm/framework/functions/hash32/
 
 # Interpolate
 
+ID: erm.framework.functions.interpolate
 URL: /ru/erm/framework/functions/interpolate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate
 
 Подставляет текущие значения ERM-переменных в строковый шаблон. Учитывайте момент вызова: шаблон и уже готовый текст имеют разное назначение.
 
@@ -8127,7 +8443,9 @@ URL: /ru/erm/framework/functions/interpolate/
 
 # IntLog2
 
+ID: erm.framework.functions.intlog2
 URL: /ru/erm/framework/functions/intlog2/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2
 
 Возвращает ceil(log2(value)); для value<=0 возвращает 0. Используется, в частности, для номера единственного установленного бита.
 
@@ -8162,7 +8480,9 @@ URL: /ru/erm/framework/functions/intlog2/
 
 # IsDllLoaded
 
+ID: erm.framework.functions.isdllloaded
 URL: /ru/erm/framework/functions/isdllloaded/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded
 
 Проверяет DLL по имени с расширением через GetModuleHandleA. Возвращает TRUE/FALSE и не загружает отсутствующий модуль.
 
@@ -8201,7 +8521,9 @@ URL: /ru/erm/framework/functions/isdllloaded/
 
 # LeaveMouseEvent
 
+ID: erm.framework.functions.leavemouseevent
 URL: /ru/erm/framework/functions/leavemouseevent/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent
 
 Восстанавливает контекст мыши, затем клавиатуры; вызывается завершающими обработчиками.
 
@@ -8231,7 +8553,9 @@ URL: /ru/erm/framework/functions/leavemouseevent/
 
 # LoadIntGlobalsFromJson
 
+ID: erm.framework.functions.loadintglobalsfromjson
 URL: /ru/erm/framework/functions/loadintglobalsfromjson/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson
 
 После JSON-префикса и префикса глобальных переменных принимает до 14 имён. Значение сначала ищется как имя ERM-константы, затем преобразуется в целое; отсутствующий ключ не меняет глобальную переменную.
 
@@ -8271,7 +8595,9 @@ URL: /ru/erm/framework/functions/loadintglobalsfromjson/
 
 # MakeRngSeed
 
+ID: erm.framework.functions.makerngseed
 URL: /ru/erm/framework/functions/makerngseed/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed
 
 Получает детерминированный seed из до 15 целых аргументов; последний аргумент — выход. Одинаковая последовательность входов даёт одинаковый seed.
 
@@ -8309,7 +8635,9 @@ URL: /ru/erm/framework/functions/makerngseed/
 
 # MergeIniWithDefault
 
+ID: erm.framework.functions.mergeiniwithdefault
 URL: /ru/erm/framework/functions/mergeiniwithdefault/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault
 
 Добавляет недостающие ключи из source в кэш target, сохраняя уже заданные значения. Запись на диск выполняется отдельно через SaveIni.
 
@@ -8344,7 +8672,9 @@ URL: /ru/erm/framework/functions/mergeiniwithdefault/
 
 # MonCountToFuzzyText
 
+ID: erm.framework.functions.moncounttofuzzytext
 URL: /ru/erm/framework/functions/moncounttofuzzytext/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext
 
 Возвращает приблизительное количество: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 и K+/M+. Формат задаётся MON_FUZZY_COUNT_; 0 попадает в 1–4, отрицательное число — ошибка.
 
@@ -8390,7 +8720,9 @@ URL: /ru/erm/framework/functions/moncounttofuzzytext/
 
 # NewIntArray
 
+ID: erm.framework.functions.newintarray
 URL: /ru/erm/framework/functions/newintarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray
 
 Создаёт массив целых: P?result, Psize/?result или Psize/fill/?result. После выходного аргумента допустим тип хранения; по умолчанию M_TRIGGER_LOCAL, время жизни продлено до вызывающего контекста. Значение заполнения по умолчанию 0.
 
@@ -8436,7 +8768,9 @@ URL: /ru/erm/framework/functions/newintarray/
 
 # NewStrArray
 
+ID: erm.framework.functions.newstrarray
 URL: /ru/erm/framework/functions/newstrarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray
 
 Создаёт строковый массив с теми же перегрузками, что NewIntArray. Заполнитель — строка, по умолчанию пустая. Возвращается ID массива, а не адрес памяти.
 
@@ -8478,7 +8812,9 @@ URL: /ru/erm/framework/functions/newstrarray/
 
 # OnAdventureMapLeftMouseClick_Quit
 
+ID: erm.framework.functions.onadventuremapleftmouseclick-quit
 URL: /ru/erm/framework/functions/onadventuremapleftmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit
 
 Завершающий обработчик OnAdventureMapLeftMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8508,7 +8844,9 @@ URL: /ru/erm/framework/functions/onadventuremapleftmouseclick-quit/
 
 # OnAdventureMapLeftMouseClick
 
+ID: erm.framework.functions.onadventuremapleftmouseclick
 URL: /ru/erm/framework/functions/onadventuremapleftmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -8538,7 +8876,9 @@ URL: /ru/erm/framework/functions/onadventuremapleftmouseclick/
 
 # OnAdventureMapRightMouseClick_Quit
 
+ID: erm.framework.functions.onadventuremaprightmouseclick-quit
 URL: /ru/erm/framework/functions/onadventuremaprightmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit
 
 Завершающий обработчик OnAdventureMapRightMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8568,7 +8908,9 @@ URL: /ru/erm/framework/functions/onadventuremaprightmouseclick-quit/
 
 # OnAdventureMapRightMouseClick
 
+ID: erm.framework.functions.onadventuremaprightmouseclick
 URL: /ru/erm/framework/functions/onadventuremaprightmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -8598,7 +8940,9 @@ URL: /ru/erm/framework/functions/onadventuremaprightmouseclick/
 
 # OnAfterErmInstructions_Quit
 
+ID: erm.framework.functions.onaftererminstructions-quit
 URL: /ru/erm/framework/functions/onaftererminstructions-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-3-7-onaftererminstructions-quit
 
 Завершающий обработчик OnAfterErmInstructions: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8632,7 +8976,9 @@ URL: /ru/erm/framework/functions/onaftererminstructions-quit/
 
 # OnAfterErmInstructions
 
+ID: erm.framework.functions.onaftererminstructions
 URL: /ru/erm/framework/functions/onaftererminstructions/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions
 
 Создаёт ежедневный таймер Framework и сбрасывает учёт обработанного дня.
 
@@ -8658,7 +9004,9 @@ URL: /ru/erm/framework/functions/onaftererminstructions/
 
 # OnAfterLoadGame_Quit
 
+ID: erm.framework.functions.onafterloadgame-quit
 URL: /ru/erm/framework/functions/onafterloadgame-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-8-12-onafterloadgame-quit
 
 Завершающий обработчик OnAfterLoadGame: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8692,7 +9040,9 @@ URL: /ru/erm/framework/functions/onafterloadgame-quit/
 
 # OnBattleMouseHint_Quit
 
+ID: erm.framework.functions.onbattlemousehint-quit
 URL: /ru/erm/framework/functions/onbattlemousehint-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-64-66-onbattlemousehint-quit
 
 Завершающий обработчик OnBattleMouseHint: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8722,7 +9072,9 @@ URL: /ru/erm/framework/functions/onbattlemousehint-quit/
 
 # OnBattleMouseHint
 
+ID: erm.framework.functions.onbattlemousehint
 URL: /ru/erm/framework/functions/onbattlemousehint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-202-204-onbattlemousehint
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -8752,7 +9104,9 @@ URL: /ru/erm/framework/functions/onbattlemousehint/
 
 # OnBattleReplay
 
+ID: erm.framework.functions.onbattlereplay
 URL: /ru/erm/framework/functions/onbattlereplay/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2905-2913-onbattlereplay
 
 Сбрасывает раунд и действующий стек, перечитывает параметры боя для переигровки.
 
@@ -8786,7 +9140,9 @@ URL: /ru/erm/framework/functions/onbattlereplay/
 
 # OnBattleRound
 
+ID: erm.framework.functions.onbattleround
 URL: /ru/erm/framework/functions/onbattleround/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-266-268-onbattleround
 
 Обновляет battle_round из текущего контекста раунда.
 
@@ -8812,7 +9168,9 @@ URL: /ru/erm/framework/functions/onbattleround/
 
 # OnBattleScreenMouseClick_Quit
 
+ID: erm.framework.functions.onbattlescreenmouseclick-quit
 URL: /ru/erm/framework/functions/onbattlescreenmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-49-51-onbattlescreenmouseclick-quit
 
 Завершающий обработчик OnBattleScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8842,7 +9200,9 @@ URL: /ru/erm/framework/functions/onbattlescreenmouseclick-quit/
 
 # OnBattleScreenMouseClick
 
+ID: erm.framework.functions.onbattlescreenmouseclick
 URL: /ru/erm/framework/functions/onbattlescreenmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-187-189-onbattlescreenmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -8872,7 +9232,9 @@ URL: /ru/erm/framework/functions/onbattlescreenmouseclick/
 
 # OnBattleStackObtainsTurn
 
+ID: erm.framework.functions.onbattlestackobtainsturn
 URL: /ru/erm/framework/functions/onbattlestackobtainsturn/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-275-284-onbattlestackobtainsturn
 
 Переводит side/index в глобальный ID стека, учитывает гипноз при определении текущей стороны.
 
@@ -8909,7 +9271,9 @@ URL: /ru/erm/framework/functions/onbattlestackobtainsturn/
 
 # OnBeforeBattle_Quit
 
+ID: erm.framework.functions.onbeforebattle-quit
 URL: /ru/erm/framework/functions/onbeforebattle-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-74-76-onbeforebattle-quit
 
 Завершающий обработчик OnBeforeBattle: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -8939,7 +9303,9 @@ URL: /ru/erm/framework/functions/onbeforebattle-quit/
 
 # OnBeforeBattle
 
+ID: erm.framework.functions.onbeforebattle
 URL: /ru/erm/framework/functions/onbeforebattle/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-251-254-onbeforebattle
 
 Сбрасывает battle_round в INT_MIN перед настоящим боем.
 
@@ -8973,7 +9339,9 @@ URL: /ru/erm/framework/functions/onbeforebattle/
 
 # OnBeforeBattleAction
 
+ID: erm.framework.functions.onbeforebattleaction
 URL: /ru/erm/framework/functions/onbeforebattleaction/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction
 
 Читает BG:N/Q в battle_acting_stack/side и обновляет флаги видимого/быстрого боя.
 
@@ -9003,7 +9371,9 @@ URL: /ru/erm/framework/functions/onbeforebattleaction/
 
 # OnBeforeBattleStackTurn
 
+ID: erm.framework.functions.onbeforebattlestackturn
 URL: /ru/erm/framework/functions/onbeforebattlestackturn/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn
 
 Записывает activeStack в battle_current_stack.
 
@@ -9035,7 +9405,9 @@ URL: /ru/erm/framework/functions/onbeforebattlestackturn/
 
 # OnBeforeBattleUniversal_Quit
 
+ID: erm.framework.functions.onbeforebattleuniversal-quit
 URL: /ru/erm/framework/functions/onbeforebattleuniversal-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit
 
 Завершающий обработчик OnBeforeBattleUniversal: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9065,7 +9437,9 @@ URL: /ru/erm/framework/functions/onbeforebattleuniversal-quit/
 
 # OnBeforeBattleUniversal
 
+ID: erm.framework.functions.onbeforebattleuniversal
 URL: /ru/erm/framework/functions/onbeforebattleuniversal/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal
 
 Обновляет battle_ и сбрасывает текущий/действующий стек. Возможен теоретический расчёт ИИ без менеджера боя.
 
@@ -9099,7 +9473,9 @@ URL: /ru/erm/framework/functions/onbeforebattleuniversal/
 
 # OnCustomDialogEvent_Quit
 
+ID: erm.framework.functions.oncustomdialogevent-quit
 URL: /ru/erm/framework/functions/oncustomdialogevent-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit
 
 Завершающий обработчик OnCustomDialogEvent: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9129,7 +9505,9 @@ URL: /ru/erm/framework/functions/oncustomdialogevent-quit/
 
 # OnCustomDialogEvent
 
+ID: erm.framework.functions.oncustomdialogevent
 URL: /ru/erm/framework/functions/oncustomdialogevent/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9165,7 +9543,9 @@ URL: /ru/erm/framework/functions/oncustomdialogevent/
 
 # OnEveryDay
 
+ID: erm.framework.functions.oneveryday
 URL: /ru/erm/framework/functions/oneveryday/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday
 
 Дополняет событие аргументами day, weekDay (1..7), once, owner, isAi. once=TRUE только при первом вызове за день, а не для каждого игрока.
 
@@ -9205,7 +9585,9 @@ URL: /ru/erm/framework/functions/oneveryday/
 
 # OnHeroesMeetScreenMouseClick_Quit
 
+ID: erm.framework.functions.onheroesmeetscreenmouseclick-quit
 URL: /ru/erm/framework/functions/onheroesmeetscreenmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit
 
 Завершающий обработчик OnHeroesMeetScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9235,7 +9617,9 @@ URL: /ru/erm/framework/functions/onheroesmeetscreenmouseclick-quit/
 
 # OnHeroesMeetScreenMouseClick
 
+ID: erm.framework.functions.onheroesmeetscreenmouseclick
 URL: /ru/erm/framework/functions/onheroesmeetscreenmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9265,7 +9649,9 @@ URL: /ru/erm/framework/functions/onheroesmeetscreenmouseclick/
 
 # OnHeroScreenMouseClick_Quit
 
+ID: erm.framework.functions.onheroscreenmouseclick-quit
 URL: /ru/erm/framework/functions/onheroscreenmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit
 
 Завершающий обработчик OnHeroScreenMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9295,7 +9681,9 @@ URL: /ru/erm/framework/functions/onheroscreenmouseclick-quit/
 
 # OnHeroScreenMouseClick
 
+ID: erm.framework.functions.onheroscreenmouseclick
 URL: /ru/erm/framework/functions/onheroscreenmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9325,7 +9713,9 @@ URL: /ru/erm/framework/functions/onheroscreenmouseclick/
 
 # OnKeyPressed_Quit
 
+ID: erm.framework.functions.onkeypressed-quit
 URL: /ru/erm/framework/functions/onkeypressed-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit
 
 Завершающий обработчик OnKeyPressed: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9368,7 +9758,9 @@ URL: /ru/erm/framework/functions/onkeypressed-quit/
 
 # OnKeyPressed
 
+ID: erm.framework.functions.onkeypressed
 URL: /ru/erm/framework/functions/onkeypressed/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed
 
 Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.
 
@@ -9406,7 +9798,9 @@ URL: /ru/erm/framework/functions/onkeypressed/
 
 # OnKeyReleased_Quit
 
+ID: erm.framework.functions.onkeyreleased-quit
 URL: /ru/erm/framework/functions/onkeyreleased-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-26-36-onkeyreleased-quit
 
 Завершающий обработчик OnKeyReleased: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9450,7 +9844,9 @@ URL: /ru/erm/framework/functions/onkeyreleased-quit/
 
 # OnKeyReleased
 
+ID: erm.framework.functions.onkeyreleased
 URL: /ru/erm/framework/functions/onkeyreleased/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased
 
 Сохраняет контекст клавиатуры, обновляет key и модификаторы. KeyPressed дополнительно записывает isDown; завершающий обработчик восстанавливает прежнее состояние.
 
@@ -9487,7 +9883,9 @@ URL: /ru/erm/framework/functions/onkeyreleased/
 
 # OnKingdomOverviewMouseClick_Quit
 
+ID: erm.framework.functions.onkingdomoverviewmouseclick-quit
 URL: /ru/erm/framework/functions/onkingdomoverviewmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-61-63-onkingdomoverviewmouseclick-quit
 
 Завершающий обработчик OnKingdomOverviewMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9517,7 +9915,9 @@ URL: /ru/erm/framework/functions/onkingdomoverviewmouseclick-quit/
 
 # OnKingdomOverviewMouseClick
 
+ID: erm.framework.functions.onkingdomoverviewmouseclick
 URL: /ru/erm/framework/functions/onkingdomoverviewmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-199-201-onkingdomoverviewmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9547,7 +9947,9 @@ URL: /ru/erm/framework/functions/onkingdomoverviewmouseclick/
 
 # OnRecruitDlgMouseClick_Quit
 
+ID: erm.framework.functions.onrecruitdlgmouseclick-quit
 URL: /ru/erm/framework/functions/onrecruitdlgmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-55-57-onrecruitdlgmouseclick-quit
 
 Завершающий обработчик OnRecruitDlgMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9577,7 +9979,9 @@ URL: /ru/erm/framework/functions/onrecruitdlgmouseclick-quit/
 
 # OnRecruitDlgMouseClick
 
+ID: erm.framework.functions.onrecruitdlgmouseclick
 URL: /ru/erm/framework/functions/onrecruitdlgmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-193-195-onrecruitdlgmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9607,7 +10011,9 @@ URL: /ru/erm/framework/functions/onrecruitdlgmouseclick/
 
 # OnSavegameRead
 
+ID: erm.framework.functions.onsavegameread
 URL: /ru/erm/framework/functions/onsavegameread/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-145-147-onsavegameread
 
 Очищает служебное состояние цепочек после чтения сохранения.
 
@@ -9637,7 +10043,9 @@ URL: /ru/erm/framework/functions/onsavegameread/
 
 # OnSetupBattlefield
 
+ID: erm.framework.functions.onsetupbattlefield
 URL: /ru/erm/framework/functions/onsetupbattlefield/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-263-265-onsetupbattlefield
 
 Перечитывает battle_ при подготовке поля.
 
@@ -9667,7 +10075,9 @@ URL: /ru/erm/framework/functions/onsetupbattlefield/
 
 # OnStartOrLoad
 
+ID: erm.framework.functions.onstartorload
 URL: /ru/erm/framework/functions/onstartorload/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-292-300-onstartorload
 
 Обновляет maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. Имя maxArtifacId в исходнике без второй t.
 
@@ -9697,7 +10107,9 @@ URL: /ru/erm/framework/functions/onstartorload/
 
 # OnTownHallMouseClick_Quit
 
+ID: erm.framework.functions.ontownhallmouseclick-quit
 URL: /ru/erm/framework/functions/ontownhallmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-58-60-ontownhallmouseclick-quit
 
 Завершающий обработчик OnTownHallMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9727,7 +10139,9 @@ URL: /ru/erm/framework/functions/ontownhallmouseclick-quit/
 
 # OnTownHallMouseClick
 
+ID: erm.framework.functions.ontownhallmouseclick
 URL: /ru/erm/framework/functions/ontownhallmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-196-198-ontownhallmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9757,7 +10171,9 @@ URL: /ru/erm/framework/functions/ontownhallmouseclick/
 
 # OnTownMouseClick_Quit
 
+ID: erm.framework.functions.ontownmouseclick-quit
 URL: /ru/erm/framework/functions/ontownmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit
 
 Завершающий обработчик OnTownMouseClick: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9787,7 +10203,9 @@ URL: /ru/erm/framework/functions/ontownmouseclick-quit/
 
 # OnTownMouseClick
 
+ID: erm.framework.functions.ontownmouseclick
 URL: /ru/erm/framework/functions/ontownmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-178-180-ontownmouseclick
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9817,7 +10235,9 @@ URL: /ru/erm/framework/functions/ontownmouseclick/
 
 # OnTownMouseHint_Quit
 
+ID: erm.framework.functions.ontownmousehint-quit
 URL: /ru/erm/framework/functions/ontownmousehint-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit
 
 Завершающий обработчик OnTownMouseHint: выполняет перечисленные ниже вызовы после основной цепочки. Не вызывайте его вручную: он завершает контекст Framework.
 
@@ -9847,7 +10267,9 @@ URL: /ru/erm/framework/functions/ontownmousehint-quit/
 
 # OnTownMouseHint
 
+ID: erm.framework.functions.ontownmousehint
 URL: /ru/erm/framework/functions/ontownmousehint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint
 
 Подготавливает контекст мыши через EnterMouseEvent. Данные доступны в mouse_; OnCustomDialogEvent дополнительно сохраняет dlg_id.
 
@@ -9877,7 +10299,9 @@ URL: /ru/erm/framework/functions/ontownmousehint/
 
 # PackUnion
 
+ID: erm.framework.functions.packunion
 URL: /ru/erm/framework/functions/packunion/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion
 
 PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.
 
@@ -9923,7 +10347,9 @@ PackUnion принимает пары value/width и последний ?result;
 
 # Pow
 
+ID: erm.framework.functions.pow
 URL: /ru/erm/framework/functions/pow/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow
 
 Возведение в степень. Оба входа и выход — float; результат копируется из e1 через VR:C без числового преобразования.
 
@@ -9959,7 +10385,9 @@ URL: /ru/erm/framework/functions/pow/
 
 # PrepareMessageBoxText
 
+ID: erm.framework.functions.preparemessageboxtext
 URL: /ru/erm/framework/functions/preparemessageboxtext/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext
 
 Передаёт пары имени/подсказки для следующего сообщения в wog native dialogs:PrepareMessageBoxText. В снимке условие l<argsNum пропускает последнюю подсказку при чётном числе аргументов; проверьте версию библиотеки.
 
@@ -9997,7 +10425,9 @@ URL: /ru/erm/framework/functions/preparemessageboxtext/
 
 # PrepareMultiPicDialog
 
+ID: erm.framework.functions.preparemultipicdialog
 URL: /ru/erm/framework/functions/preparemultipicdialog/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog
 
 Настраивает картинки следующего IF:N: без аргументов очищает; принимает пары type/subtype или один ID массива пар. Пропускает NO_PIC_TYPE и отрицательные типы существ; максимум 8 непустых пар. Сам диалог не показывает.
 
@@ -10033,7 +10463,9 @@ URL: /ru/erm/framework/functions/preparemultipicdialog/
 
 # RadioDlg_AddCancelButton
 
+ID: erm.framework.functions.radiodlg-addcancelbutton
 URL: /ru/erm/framework/functions/radiodlg-addcancelbutton/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton
 
 Резервирует одну из 12 позиций под отмену. Если все позиции заняты, удаляет последний пункт и сообщает ошибку один раз. Повторный вызов не добавляет вторую кнопку.
 
@@ -10065,7 +10497,9 @@ URL: /ru/erm/framework/functions/radiodlg-addcancelbutton/
 
 # RadioDlg_AddItem
 
+ID: erm.framework.functions.radiodlg-additem
 URL: /ru/erm/framework/functions/radiodlg-additem/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem
 
 Добавляет подпись, число, метку и необязательный selectItem. Значения по умолчанию: пусто, 0, пусто, FALSE. Пустая подпись отображается как -/-. Вместимость 12, с отменой 11.
 
@@ -10106,7 +10540,9 @@ URL: /ru/erm/framework/functions/radiodlg-additem/
 
 # RadioDlg_AddItems
 
+ID: erm.framework.functions.radiodlg-additems
 URL: /ru/erm/framework/functions/radiodlg-additems/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems
 
 Добавляет до 5 троек caption/value/tag. Неполная последняя тройка игнорируется; автоматического выбора нет.
 
@@ -10144,7 +10580,9 @@ URL: /ru/erm/framework/functions/radiodlg-additems/
 
 # RadioDlg_GetItemTag
 
+ID: erm.framework.functions.radiodlg-getitemtag
 URL: /ru/erm/framework/functions/radiodlg-getitemtag/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag
 
 Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.
 
@@ -10179,7 +10617,9 @@ URL: /ru/erm/framework/functions/radiodlg-getitemtag/
 
 # RadioDlg_GetItemValue
 
+ID: erm.framework.functions.radiodlg-getitemvalue
 URL: /ru/erm/framework/functions/radiodlg-getitemvalue/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue
 
 Возвращает числовое значение/строковую метку по индексу. Неверный индекс вызывает ошибку и возвращает -1; для метки это не пустая строка.
 
@@ -10214,7 +10654,9 @@ URL: /ru/erm/framework/functions/radiodlg-getitemvalue/
 
 # RadioDlg_GetNumItems
 
+ID: erm.framework.functions.radiodlg-getnumitems
 URL: /ru/erm/framework/functions/radiodlg-getnumitems/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems
 
 Возвращает количество содержательных пунктов без кнопки отмены.
 
@@ -10246,7 +10688,9 @@ URL: /ru/erm/framework/functions/radiodlg-getnumitems/
 
 # RadioDlg_Reset
 
+ID: erm.framework.functions.radiodlg-reset
 URL: /ru/erm/framework/functions/radiodlg-reset/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset
 
 Сбрасывает заголовок, элементы, выбор и флаги общего радиодиалога. Вызывайте перед составлением нового диалога.
 
@@ -10276,7 +10720,9 @@ URL: /ru/erm/framework/functions/radiodlg-reset/
 
 # RadioDlg_SelectItem
 
+ID: erm.framework.functions.radiodlg-selectitem
 URL: /ru/erm/framework/functions/radiodlg-selectitem/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem
 
 Выбирает индекс 0..numItems-1; неверный индекс снимает выбор (NO_RADIO_DLG_ITEM).
 
@@ -10312,7 +10758,9 @@ URL: /ru/erm/framework/functions/radiodlg-selectitem/
 
 # RadioDlg_SelectItemByTag
 
+ID: erm.framework.functions.radiodlg-selectitembytag
 URL: /ru/erm/framework/functions/radiodlg-selectitembytag/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag
 
 Выбирает первое совпадение значения/строковой метки. При отсутствии совпадения выбор снимается.
 
@@ -10348,7 +10796,9 @@ URL: /ru/erm/framework/functions/radiodlg-selectitembytag/
 
 # RadioDlg_SelectItemByValue
 
+ID: erm.framework.functions.radiodlg-selectitembyvalue
 URL: /ru/erm/framework/functions/radiodlg-selectitembyvalue/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue
 
 Выбирает первое совпадение значения/строковой метки. При отсутствии совпадения выбор снимается.
 
@@ -10384,7 +10834,9 @@ URL: /ru/erm/framework/functions/radiodlg-selectitembyvalue/
 
 # RadioDlg_SetTitle
 
+ID: erm.framework.functions.radiodlg-settitle
 URL: /ru/erm/framework/functions/radiodlg-settitle/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle
 
 Копирует заголовок в состояние радиодиалога.
 
@@ -10416,7 +10868,9 @@ URL: /ru/erm/framework/functions/radiodlg-settitle/
 
 # RadioDlg_Show
 
+ID: erm.framework.functions.radiodlg-show
 URL: /ru/erm/framework/functions/radiodlg-show/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show
 
 Показывает диалог через IF:G и возвращает ?resultItem/?resultValue/?resultTagPtr. Отмена/пустой список дают -1/-1/пусто. Состояние предварительно копируется, чтобы вложенный диалог не испортил текущие пункты.
 
@@ -10458,7 +10912,9 @@ URL: /ru/erm/framework/functions/radiodlg-show/
 
 # ReadIniInts
 
+ID: erm.framework.functions.readiniints
 URL: /ru/erm/framework/functions/readiniints/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints
 
 После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.
 
@@ -10512,7 +10968,9 @@ URL: /ru/erm/framework/functions/readiniints/
 
 # ReadIniStrings
 
+ID: erm.framework.functions.readinistrings
 URL: /ru/erm/framework/functions/readinistrings/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1697-1735-readinistrings
 
 После пути и секции принимает до 4 троек key/?value/default. Пустая прочитанная строка тоже заменяется default. ReadIniInts преобразует непустой текст в целое; это не отдельная проверка корректности числа.
 
@@ -10566,7 +11024,9 @@ URL: /ru/erm/framework/functions/readinistrings/
 
 # ReadJsonIntArray
 
+ID: erm.framework.functions.readjsonintarray
 URL: /ru/erm/framework/functions/readjsonintarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1778-1806-readjsonintarray
 
 Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.
 
@@ -10610,7 +11070,9 @@ URL: /ru/erm/framework/functions/readjsonintarray/
 
 # ReadJsonStrArray
 
+ID: erm.framework.functions.readjsonstrarray
 URL: /ru/erm/framework/functions/readjsonstrarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray
 
 Читает JSON-ключи prefix.0, prefix.1… до первого отсутствующего. Второй аргумент через ? создаёт локальный массив, иначе существующий очищается и заполняется. ReadJsonIntArray преобразует строки в числа.
 
@@ -10654,7 +11116,9 @@ URL: /ru/erm/framework/functions/readjsonstrarray/
 
 # RestoreEventData
 
+ID: erm.framework.functions.restoreeventdata
 URL: /ru/erm/framework/functions/restoreeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata
 
 Восстанавливает целые значения в переданные через ? аргументы. Проверка savedNumArgs в снимке отсутствует: вместо неё повторена проверка размера буфера. Несовпадение пар сохранения/восстановления недопустимо.
 
@@ -10692,7 +11156,9 @@ URL: /ru/erm/framework/functions/restoreeventdata/
 
 # RestorePrevKeyModsState
 
+ID: erm.framework.functions.restoreprevkeymodsstate
 URL: /ru/erm/framework/functions/restoreprevkeymodsstate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate
 
 Восстанавливает клавишу и модификаторы после вложенного события.
 
@@ -10722,7 +11188,9 @@ URL: /ru/erm/framework/functions/restoreprevkeymodsstate/
 
 # RestorePrevMouseEventData
 
+ID: erm.framework.functions.restoreprevmouseeventdata
 URL: /ru/erm/framework/functions/restoreprevmouseeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata
 
 Сохраняет/восстанавливает десять mouse_ значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.
 
@@ -10752,7 +11220,9 @@ URL: /ru/erm/framework/functions/restoreprevmouseeventdata/
 
 # SaveEventData
 
+ID: erm.framework.functions.saveeventdata
 URL: /ru/erm/framework/functions/saveeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata
 
 Сохраняет переданные целые аргументы в стеке события. RestoreEventData должен получить такое же число выходных аргументов в том же порядке. Вызов без аргументов выходит до RestoreErmTracking.
 
@@ -10786,7 +11256,9 @@ URL: /ru/erm/framework/functions/saveeventdata/
 
 # SaveGame
 
+ID: erm.framework.functions.savegame
 URL: /ru/erm/framework/functions/savegame/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame
 
 Сохраняет игру по имени без расширения. По умолчанию appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Вызывает машинный адрес сохранения и может менять выбранную запись диалога.
 
@@ -10830,7 +11302,9 @@ URL: /ru/erm/framework/functions/savegame/
 
 # SaveIni
 
+ID: erm.framework.functions.saveini
 URL: /ru/erm/framework/functions/saveini/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini
 
 Сохраняет кэш INI на диск, создавая родительские каталоги. Если кэша ещё нет, сначала загружает исходный файл.
 
@@ -10864,7 +11338,9 @@ URL: /ru/erm/framework/functions/saveini/
 
 # SavePrevKeyModsState
 
+ID: erm.framework.functions.saveprevkeymodsstate
 URL: /ru/erm/framework/functions/saveprevkeymodsstate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate
 
 Сохраняет 11 глобальных значений клавиши и модификаторов для вложенного события.
 
@@ -10894,7 +11370,9 @@ URL: /ru/erm/framework/functions/saveprevkeymodsstate/
 
 # SavePrevMouseEventData
 
+ID: erm.framework.functions.saveprevmouseeventdata
 URL: /ru/erm/framework/functions/saveprevmouseeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata
 
 Сохраняет/восстанавливает десять mouse_ значений. mouse_hero_1 и dlg_action в эту пару не включены; нельзя считать весь контекст автоматически восстановленным.
 
@@ -10924,7 +11402,9 @@ URL: /ru/erm/framework/functions/saveprevmouseeventdata/
 
 # ScanDir
 
+ID: erm.framework.functions.scandir
 URL: /ru/erm/framework/functions/scandir/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir
 
 Очищает переданный строковый массив и заполняет именами без . и ... itemsType — SCAN_ (по умолчанию файлы и каталоги), fullPaths — добавлять путь (FALSE). При раннем выходе после FindFirstFileA снимок не восстанавливает v1.
 
@@ -10978,7 +11458,9 @@ URL: /ru/erm/framework/functions/scandir/
 
 # ShowAnimatedDefDlg
 
+ID: erm.framework.functions.showanimateddefdlg
 URL: /ru/erm/framework/functions/showanimateddefdlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg
 
 Показывает сообщение с OK и анимированным DEF. Без имени DEF или при пустом имени использует обычный IF:M1.
 
@@ -11017,7 +11499,9 @@ URL: /ru/erm/framework/functions/showanimateddefdlg/
 
 # SplitMix32
 
+ID: erm.framework.functions.splitmix32
 URL: /ru/erm/framework/functions/splitmix32/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32
 
 P?seed/?result выдаёт int32; P?seed/min/max/?result — число во включительном диапазоне. Seed изменяется и должен передаваться через ?. Не использует состояние обычного VR:R.
 
@@ -11073,7 +11557,9 @@ P?seed/?result выдаёт int32; P?seed/min/max/?result — число во в
 
 # Sqrt
 
+ID: erm.framework.functions.sqrt
 URL: /ru/erm/framework/functions/sqrt/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt
 
 Квадратный корень float. Вход и выход вещественные; e1 изменяется. Отрицательные аргументы не имеют действительного корня.
 
@@ -11108,7 +11594,9 @@ URL: /ru/erm/framework/functions/sqrt/
 
 # StrPos
 
+ID: erm.framework.functions.strpos
 URL: /ru/erm/framework/functions/strpos/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos
 
 Ищет первое вхождение needlePtr в haystackPtr начиная с offset (по умолчанию 0). Возвращает смещение с нуля либо -1.
 
@@ -11145,7 +11633,9 @@ URL: /ru/erm/framework/functions/strpos/
 
 # StrReplace
 
+ID: erm.framework.functions.strreplace
 URL: /ru/erm/framework/functions/strreplace/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace
 
 Заменяет все вхождения patternPtr в sourcePtr на replacementPtr и возвращает строку. Вызывается только внутри триггера.
 
@@ -11182,7 +11672,9 @@ URL: /ru/erm/framework/functions/strreplace/
 
 # StrToLower
 
+ID: erm.framework.functions.strtolower
 URL: /ru/erm/framework/functions/strtolower/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower
 
 Создаёт строку в верхнем/нижнем регистре через CharUpperA/CharLowerA. Это ANSI-преобразование Windows, не универсальная Unicode-нормализация.
 
@@ -11221,7 +11713,9 @@ URL: /ru/erm/framework/functions/strtolower/
 
 # StrToUpper
 
+ID: erm.framework.functions.strtoupper
 URL: /ru/erm/framework/functions/strtoupper/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper
 
 Создаёт строку в верхнем/нижнем регистре через CharUpperA/CharLowerA. Это ANSI-преобразование Windows, не универсальная Unicode-нормализация.
 
@@ -11260,7 +11754,9 @@ URL: /ru/erm/framework/functions/strtoupper/
 
 # Substr
 
+ID: erm.framework.functions.substr
 URL: /ru/erm/framework/functions/substr/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr
 
 Возвращает подстроку: start с нуля, отрицательный start от конца; count — длина, отрицательный count исключает хвост.
 
@@ -11297,7 +11793,9 @@ URL: /ru/erm/framework/functions/substr/
 
 # Tm32Decode
 
+ID: erm.framework.functions.tm32decode
 URL: /ru/erm/framework/functions/tm32decode/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode
 
 Обращает Tm32Encode над 32-битным значением. Меняет f и g.
 
@@ -11330,7 +11828,9 @@ URL: /ru/erm/framework/functions/tm32decode/
 
 # Tm32Encode
 
+ID: erm.framework.functions.tm32encode
 URL: /ru/erm/framework/functions/tm32encode/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode
 
 Обратимое перемешивание 32 бит; выход можно восстановить Tm32Decode. Меняет быстрые переменные f и g. Это не шифрование.
 
@@ -11363,7 +11863,9 @@ URL: /ru/erm/framework/functions/tm32encode/
 
 # Trim
 
+ID: erm.framework.functions.trim
 URL: /ru/erm/framework/functions/trim/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim
 
 Убирает с обоих концов строки пробелы и управляющие байты 0..32; возвращает новую ERM-строку.
 
@@ -11398,7 +11900,9 @@ URL: /ru/erm/framework/functions/trim/
 
 # UnequipArtFromSlot
 
+ID: erm.framework.functions.unequipartfromslot
 URL: /ru/erm/framework/functions/unequipartfromslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot
 
 Снимает артефакт со слота куклы и вызывает OnUnequipArt. Артефактные ID/модификаторы при временном снятии нужно сохранить самостоятельно.
 
@@ -11437,7 +11941,9 @@ URL: /ru/erm/framework/functions/unequipartfromslot/
 
 # UnpackUnion
 
+ID: erm.framework.functions.unpackunion
 URL: /ru/erm/framework/functions/unpackunion/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion
 
 PackUnion принимает пары value/width и последний ?result; UnpackUnion — packedValue и пары ?value/width. Поля идут от младшего бита, общий размер до 32. Проверки граничных ширин 0 и 32 в снимке расходятся с сообщением 1..32: используйте положительные поля меньше 32 и проверяйте общую ширину.
 
@@ -11476,7 +11982,9 @@ PackUnion принимает пары value/width и последний ?result;
 
 # UpdateBattleVars
 
+ID: erm.framework.functions.updatebattlevars
 URL: /ru/erm/framework/functions/updatebattlevars/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars
 
 Перечитывает BA и OW в battle_: герои, владельцы, быстрый/сетевой/видимый бой и признаки сторон. После изменения BA (кроме состава существ) вызовите снова. Для защитника без героя нормализует ID в NO_HERO.
 
@@ -11506,7 +12014,9 @@ URL: /ru/erm/framework/functions/updatebattlevars/
 
 # WriteIniInts
 
+ID: erm.framework.functions.writeiniints
 URL: /ru/erm/framework/functions/writeiniints/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints
 
 После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.
 
@@ -11566,7 +12076,9 @@ URL: /ru/erm/framework/functions/writeiniints/
 
 # WriteIniStrings
 
+ID: erm.framework.functions.writeinistrings
 URL: /ru/erm/framework/functions/writeinistrings/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings
 
 После пути и секции принимает до 7 пар key/value. Записывает только в кэш; требуется SaveIni. Для WriteIniInts значения преобразуются в десятичный текст, для WriteIniStrings передаются строки.
 
@@ -11617,7 +12129,9 @@ URL: /ru/erm/framework/functions/writeinistrings/
 
 # Глобальные переменные Framework
 
+ID: erm.framework.globals
 URL: /ru/erm/framework/globals/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm
 
 Контекст боя, календаря, клавиатуры и мыши; публичные данные и служебное состояние.
 
@@ -11746,7 +12260,9 @@ URL: /ru/erm/framework/globals/
 
 # Функции и параметры
 
+ID: erm.functions
 URL: /ru/erm/functions/
+Source references: old-help:rec-fu.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 Объявление FU, аргументы x, возврат через GET-параметр и локальные переменные.
 
@@ -11790,7 +12306,9 @@ ZVSE2
 
 # ERM Hooker — собственные события
 
+ID: erm.hooker
 URL: /ru/erm/hooker/
+Source references: erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, erm-hooker:author-api-1.0.0
 
 Установка, контекст регистров и удаление хуков исполняемого кода.
 
@@ -11847,7 +12365,9 @@ API описан в [документации Berserker, воспроизвед�
 
 # Указатель команд и символов
 
+ID: erm.index
 URL: /ru/erm/index/
+Source references: era-source:erm.pas, era-framework:lib-9999-era---consts.erm, old-help:cont-list.htm
 
 Коды команд, имена событий, функции, переменные и константы.
 
@@ -11871,7 +12391,9 @@ URL: /ru/erm/index/
 
 # Циклы: re, br, co и DO
 
+ID: erm.loops
 URL: /ru/erm/loops/
+Source references: old-help:rec-re.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 Границы цикла, шаг, вложенность и повторный вызов функции.
 
@@ -12014,7 +12536,9 @@ ZVSE2
 
 # Ресиверы и подкоманды
 
+ID: erm.receivers
 URL: /ru/erm/receivers/
+Source references: old-help:cont-receivers.htm, old-help:cont-receiversa.htm, old-help:cont-receiversol.htm
 
 Алфавитный каталог команд с параметрами, ограничениями и контекстом.
 
@@ -12457,7 +12981,9 @@ URL: /ru/erm/receivers/
 
 # Маршруты ИИ (AI)
 
+ID: erm.receivers.ai
 URL: /ru/erm/receivers/ai/
+Source references: old-help:rec-ai.htm
 
 Ресивер AI: маршруты ии, параметры команд и ограничения.
 
@@ -12555,7 +13081,9 @@ URL: /ru/erm/receivers/ai/
 
 # Артефакты и ресурсы на карте (AR)
 
+ID: erm.receivers.ar
 URL: /ru/erm/receivers/ar/
+Source references: old-help:rec-ar.htm
 
 Ресивер AR: артефакты и ресурсы на карте, параметры команд и ограничения.
 
@@ -12676,7 +13204,9 @@ V$ будет работать корректно, даже если свито�
 
 # Параметры сражения (BA)
 
+ID: erm.receivers.ba
 URL: /ru/erm/receivers/ba/
+Source references: old-help:rec-ba.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер BA: параметры сражения, параметры команд и ограничения.
 
@@ -12821,7 +13351,9 @@ $ = -2, если нет героя (данное значения возможн
 
 # Подготовка поля боя (BF)
 
+ID: erm.receivers.bf
 URL: /ru/erm/receivers/bf/
+Source references: old-help:rec-bf.htm
 
 Ресивер BF: подготовка поля боя, параметры команд и ограничения.
 
@@ -12918,7 +13450,9 @@ M#1/#2/#3/#4/#5/#6/#7/#8/#9/#10/#11(/#12)</span></strong><br>
 
 # Текущее действие в бою (BG)
 
+ID: erm.receivers.bg
 URL: /ru/erm/receivers/bg/
+Source references: old-help:rec-bg.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер BG: текущее действие в бою, параметры команд и ограничения.
 
@@ -13050,7 +13584,9 @@ URL: /ru/erm/receivers/bg/
 
 # Действия героя в бою (BH)
 
+ID: erm.receivers.bh
 URL: /ru/erm/receivers/bh/
+Source references: old-help:rec-bh.htm
 
 Ресивер BH: действия героя в бою, параметры команд и ограничения.
 
@@ -13140,7 +13676,9 @@ URL: /ru/erm/receivers/bh/
 
 # Боевой стек (BM)
 
+ID: erm.receivers.bm
 URL: /ru/erm/receivers/bm/
+Source references: old-help:rec-bm.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер BM: боевой стек, параметры команд и ограничения.
 
@@ -13456,7 +13994,9 @@ URL: /ru/erm/receivers/bm/
 
 # Управление полем боя (BU)
 
+ID: erm.receivers.bu
 URL: /ru/erm/receivers/bu/
+Source references: old-help:rec-bu.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер BU: управление полем боя, параметры команд и ограничения.
 
@@ -13600,7 +14140,9 @@ URL: /ru/erm/receivers/bu/
 
 # Города (CA)
 
+ID: erm.receivers.ca
 URL: /ru/erm/receivers/ca/
+Source references: old-help:rec-ca.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер CA: города, параметры команд и ограничения.
 
@@ -13780,7 +14322,9 @@ N?z#</strong></span><br>
 
 # Хранилища существ (CB)
 
+ID: erm.receivers.cb
 URL: /ru/erm/receivers/cb/
+Source references: old-help:rec-cb.htm
 
 Ресивер CB: хранилища существ, параметры команд и ограничения.
 
@@ -13903,7 +14447,9 @@ $ будет равно 2(синий)+1(красный)+8(зелёный)=11. Э
 
 # Разрушение и зависимости зданий (CD)
 
+ID: erm.receivers.cd
 URL: /ru/erm/receivers/cd/
+Source references: old-help:rec-cd.htm
 
 Ресивер CD: разрушение и зависимости зданий, параметры команд и ограничения.
 
@@ -14048,7 +14594,9 @@ $ – кол-во очков хода героя, тратящихся на ка
 
 # Городские события (CE)
 
+ID: erm.receivers.ce
 URL: /ru/erm/receivers/ce/
+Source references: old-help:rec-ce.htm
 
 Ресивер CE: городские события, параметры команд и ограничения.
 
@@ -14165,7 +14713,9 @@ Ed3 разрешает активирование события красном�
 
 # Сундук сокровищ (CH)
 
+ID: erm.receivers.ch
 URL: /ru/erm/receivers/ch/
+Source references: old-help:rec-ch.htm
 
 Ресивер CH: сундук сокровищ, параметры команд и ограничения.
 
@@ -14236,7 +14786,9 @@ $ – номер <a href="../../tables/artifacts/#ref-form-a1" data-context="tru
 
 # События мыши (CM)
 
+ID: erm.receivers.cm
 URL: /ru/erm/receivers/cm/
+Source references: old-help:rec-cm.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер CM: события мыши, параметры команд и ограничения.
 
@@ -14379,7 +14931,9 @@ URL: /ru/erm/receivers/cm/
 
 # Командиры (CO)
 
+ID: erm.receivers.co
 URL: /ru/erm/receivers/co/
+Source references: old-help:rec-co.htm
 
 Ресивер CO: командиры, параметры команд и ограничения.
 
@@ -14625,7 +15179,9 @@ $ = <br>
 
 # Пользовательские диалоги (DL)
 
+ID: erm.receivers.dl
 URL: /ru/erm/receivers/dl/
+Source references: old-help:rec-dl.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер DL: пользовательские диалоги, параметры команд и ограничения.
 
@@ -15186,7 +15742,9 @@ found the text resourse…</span>.</div>
 
 # Циклические вызовы (DO)
 
+ID: erm.receivers.do
 URL: /ru/erm/receivers/do/
+Source references: old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер DO: циклические вызовы, параметры команд и ограничения.
 
@@ -15353,7 +15911,9 @@ $1, $2 … $16 служат для установки x1..x16. Эти парам
 
 # Жилища существ (DW)
 
+ID: erm.receivers.dw
 URL: /ru/erm/receivers/dw/
+Source references: old-help:rec-dw.htm
 
 Ресивер DW: жилища существ, параметры команд и ограничения.
 
@@ -15439,7 +15999,9 @@ O$/1</strong></span><br>
 
 # Опыт и бонусы существ (EA)
 
+ID: erm.receivers.ea
 URL: /ru/erm/receivers/ea/
+Source references: old-help:rec-ea.htm, old-help:cont-stackexpbonus.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер EA: опыт и бонусы существ, параметры команд и ограничения.
 
@@ -16270,7 +16832,9 @@ w : &lt;119&gt; Иммунитет ко всем заклинаниям Возд
 
 # Опыт армейского отряда (EX)
 
+ID: erm.receivers.ex
 URL: /ru/erm/receivers/ex/
+Source references: old-help:rec-ex.htm
 
 Ресивер EX: опыт армейского отряда, параметры команд и ограничения.
 
@@ -16466,7 +17030,9 @@ URL: /ru/erm/receivers/ex/
 
 # Параметры городской фракции (FC)
 
+ID: erm.receivers.fc
 URL: /ru/erm/receivers/fc/
+Source references: old-help:rec-fc.htm
 
 Ресивер FC: параметры городской фракции, параметры команд и ограничения.
 
@@ -16592,7 +17158,9 @@ URL: /ru/erm/receivers/fc/
 
 # Костёр (FR)
 
+ID: erm.receivers.fr
 URL: /ru/erm/receivers/fr/
+Source references: old-help:rec-fr.htm
 
 Ресивер FR: костёр, параметры команд и ограничения.
 
@@ -16664,7 +17232,9 @@ IF:Q</a>. Но при этом ничего не будет дано герою.
 
 # Вызовы функций (FU)
 
+ID: erm.receivers.fu
 URL: /ru/erm/receivers/fu/
+Source references: old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер FU: вызовы функций, параметры команд и ограничения.
 
@@ -17020,7 +17590,9 @@ L0-1</code></pre></div></details>
 
 # Мистический сад (GD)
 
+ID: erm.receivers.gd
 URL: /ru/erm/receivers/gd/
+Source references: old-help:rec-gd.htm
 
 Ресивер GD: мистический сад, параметры команд и ограничения.
 
@@ -17095,7 +17667,9 @@ URL: /ru/erm/receivers/gd/
 
 # Глобальные события (GE)
 
+ID: erm.receivers.ge
 URL: /ru/erm/receivers/ge/
+Source references: old-help:rec-ge.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер GE: глобальные события, параметры команд и ограничения.
 
@@ -17255,7 +17829,9 @@ URL: /ru/erm/receivers/ge/
 
 # Гарнизон (GR)
 
+ID: erm.receivers.gr
 URL: /ru/erm/receivers/gr/
+Source references: old-help:rec-gr.htm
 
 Ресивер GR: гарнизон, параметры команд и ограничения.
 
@@ -17332,7 +17908,9 @@ URL: /ru/erm/receivers/gr/
 
 # Герои (HE)
 
+ID: erm.receivers.he
 URL: /ru/erm/receivers/he/
+Source references: old-help:rec-he.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер HE: герои, параметры команд и ограничения.
 
@@ -18098,7 +18676,9 @@ $2 - номер слота для блока (-1 = случайный слот).
 
 # Выбор навыков при повышении уровня (HL)
 
+ID: erm.receivers.hl
 URL: /ru/erm/receivers/hl/
+Source references: old-help:rec-hl.htm
 
 Ресивер HL: выбор навыков при повышении уровня, параметры команд и ограничения.
 
@@ -18169,7 +18749,9 @@ URL: /ru/erm/receivers/hl/
 
 # Доступ к герою (HO)
 
+ID: erm.receivers.ho
 URL: /ru/erm/receivers/ho/
+Source references: old-help:rec-ho.htm
 
 Ресивер HO: доступ к герою, параметры команд и ограничения.
 
@@ -18246,7 +18828,9 @@ URL: /ru/erm/receivers/ho/
 
 # Подсказки типов объектов (HT)
 
+ID: erm.receivers.ht
 URL: /ru/erm/receivers/ht/
+Source references: old-help:rec-ht.htm
 
 Ресивер HT: подсказки типов объектов, параметры команд и ограничения.
 
@@ -18379,7 +18963,9 @@ URL: /ru/erm/receivers/ht/
 
 # Флаги, сообщения и выбор (IF)
 
+ID: erm.receivers.if
 URL: /ru/erm/receivers/if/
+Source references: old-help:rec-if.htm, era-changelog:era-iii-changelog.txt, old-help:cont-db.htm, old-help:era-color-text.htm
 
 Ресивер IF: флаги, сообщения и выбор, параметры команд и ограничения.
 
@@ -19081,7 +19667,9 @@ IF:P</a>.<br>
 
 # Сетевая синхронизация (IP)
 
+ID: erm.receivers.ip
 URL: /ru/erm/receivers/ip/
+Source references: old-help:rec-ip.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер IP: сетевая синхронизация, параметры команд и ограничения.
 
@@ -19242,7 +19830,9 @@ URL: /ru/erm/receivers/ip/
 
 # Древо знаний (KT)
 
+ID: erm.receivers.kt
 URL: /ru/erm/receivers/kt/
+Source references: old-help:rec-kt.htm
 
 Ресивер KT: древо знаний, параметры команд и ограничения.
 
@@ -19308,7 +19898,9 @@ URL: /ru/erm/receivers/kt/
 
 # Локальные события (LE)
 
+ID: erm.receivers.le
 URL: /ru/erm/receivers/le/
+Source references: old-help:rec-le.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер LE: локальные события, параметры команд и ограничения.
 
@@ -19531,7 +20123,9 @@ M1/-1 – отменить сообщение (восстановить по у�
 
 # Навес (LN)
 
+ID: erm.receivers.ln
 URL: /ru/erm/receivers/ln/
+Source references: old-help:rec-ln.htm
 
 Ресивер LN: навес, параметры команд и ограничения.
 
@@ -19600,7 +20194,9 @@ URL: /ru/erm/receivers/ln/
 
 # Параметры типов существ (MA)
 
+ID: erm.receivers.ma
 URL: /ru/erm/receivers/ma/
+Source references: old-help:rec-ma.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер MA: параметры типов существ, параметры команд и ограничения.
 
@@ -19769,7 +20365,9 @@ URL: /ru/erm/receivers/ma/
 
 # Макросы классического ERM (MC)
 
+ID: erm.receivers.mc
 URL: /ru/erm/receivers/mc/
+Source references: old-help:rec-mc.htm
 
 Ресивер MC: макросы классического erm, параметры команд и ограничения.
 
@@ -19818,7 +20416,9 @@ URL: /ru/erm/receivers/mc/
 
 # Физический урон (MF)
 
+ID: erm.receivers.mf
 URL: /ru/erm/receivers/mf/
+Source references: old-help:rec-mf.htm
 
 Ресивер MF: физический урон, параметры команд и ограничения.
 
@@ -19916,7 +20516,9 @@ URL: /ru/erm/receivers/mf/
 
 # Ветряная мельница (ML)
 
+ID: erm.receivers.ml
 URL: /ru/erm/receivers/ml/
+Source references: old-help:rec-ml.htm
 
 Ресивер ML: ветряная мельница, параметры команд и ограничения.
 
@@ -19978,7 +20580,9 @@ URL: /ru/erm/receivers/ml/
 
 # Текст боевой подсказки (MM)
 
+ID: erm.receivers.mm
 URL: /ru/erm/receivers/mm/
+Source references: old-help:rec-mm.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер MM: текст боевой подсказки, параметры команд и ограничения.
 
@@ -20054,7 +20658,9 @@ URL: /ru/erm/receivers/mm/
 
 # Шахты (MN)
 
+ID: erm.receivers.mn
 URL: /ru/erm/receivers/mn/
+Source references: old-help:rec-mn.htm
 
 Ресивер MN: шахты, параметры команд и ограничения.
 
@@ -20138,7 +20744,9 @@ URL: /ru/erm/receivers/mn/
 
 # Нейтральные монстры на карте (MO)
 
+ID: erm.receivers.mo
 URL: /ru/erm/receivers/mo/
+Source references: old-help:rec-mo.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер MO: нейтральные монстры на карте, параметры команд и ограничения.
 
@@ -20285,7 +20893,9 @@ M1/-1 – отменить (восстановить по умолчанию) с
 
 # Музыка MP3 (MP)
 
+ID: erm.receivers.mp
 URL: /ru/erm/receivers/mp/
+Source references: old-help:rec-mp.htm, old-help:rec-mp-era.htm
 
 Ресивер MP: музыка mp3, параметры команд и ограничения.
 
@@ -20489,7 +21099,9 @@ $ – номер игрового <a href="../../tables/music/#ref-form-mp3" dat
 
 # Сопротивление заклинаниям (MR)
 
+ID: erm.receivers.mr
 URL: /ru/erm/receivers/mr/
+Source references: old-help:rec-mr.htm
 
 Ресивер MR: сопротивление заклинаниям, параметры команд и ограничения.
 
@@ -20596,7 +21208,9 @@ URL: /ru/erm/receivers/mr/
 
 # Обелиск (MT)
 
+ID: erm.receivers.mt
 URL: /ru/erm/receivers/mt/
+Source references: old-help:rec-mt.htm
 
 Ресивер MT: обелиск, параметры команд и ограничения.
 
@@ -20669,7 +21283,9 @@ URL: /ru/erm/receivers/mt/
 
 # Бродячие монстры (MW)
 
+ID: erm.receivers.mw
 URL: /ru/erm/receivers/mw/
+Source references: old-help:rec-mw.htm
 
 Ресивер MW: бродячие монстры, параметры команд и ограничения.
 
@@ -20797,7 +21413,9 @@ URL: /ru/erm/receivers/mw/
 
 # Объекты карты (OB)
 
+ID: erm.receivers.ob
 URL: /ru/erm/receivers/ob/
+Source references: old-help:rec-ob.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер OB: объекты карты, параметры команд и ограничения.
 
@@ -20956,7 +21574,9 @@ URL: /ru/erm/receivers/ob/
 
 # Игроки (OW)
 
+ID: erm.receivers.ow
 URL: /ru/erm/receivers/ow/
+Source references: old-help:rec-ow.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер OW: игроки, параметры команд и ограничения.
 
@@ -21270,7 +21890,9 @@ URL: /ru/erm/receivers/ow/
 
 # Ящик Пандоры (PA)
 
+ID: erm.receivers.pa
 URL: /ru/erm/receivers/pa/
+Source references: old-help:rec-pa.htm
 
 Ресивер PA: ящик пандоры, параметры команд и ограничения.
 
@@ -21427,7 +22049,9 @@ PA:I вызовет ошибку при попытке добавить объе
 
 # Пирамиды и новые объекты (PM)
 
+ID: erm.receivers.pm
 URL: /ru/erm/receivers/pm/
+Source references: old-help:rec-pm.htm
 
 Ресивер PM: пирамиды и новые объекты, параметры команд и ограничения.
 
@@ -21517,7 +22141,9 @@ URL: /ru/erm/receivers/pm/
 
 # Данные клеток карты (PO)
 
+ID: erm.receivers.po
 URL: /ru/erm/receivers/po/
+Source references: old-help:rec-po.htm
 
 Ресивер PO: данные клеток карты, параметры команд и ограничения.
 
@@ -21677,7 +22303,9 @@ URL: /ru/erm/receivers/po/
 
 # Тюрьма (PR)
 
+ID: erm.receivers.pr
 URL: /ru/erm/receivers/pr/
+Source references: old-help:rec-pr.htm
 
 Ресивер PR: тюрьма, параметры команд и ограничения.
 
@@ -21735,7 +22363,9 @@ URL: /ru/erm/receivers/pr/
 
 # Задания объектов (QU)
 
+ID: erm.receivers.qu
 URL: /ru/erm/receivers/qu/
+Source references: old-help:rec-qu.htm
 
 Ресивер QU: задания объектов, параметры команд и ограничения.
 
@@ -21941,7 +22571,9 @@ URL: /ru/erm/receivers/qu/
 
 # Дополнительный журнал (QW)
 
+ID: erm.receivers.qw
 URL: /ru/erm/receivers/qw/
+Source references: old-help:rec-qw.htm
 
 Ресивер QW: дополнительный журнал, параметры команд и ограничения.
 
@@ -22022,7 +22654,9 @@ URL: /ru/erm/receivers/qw/
 
 # Найм существ (RD)
 
+ID: erm.receivers.rd
 URL: /ru/erm/receivers/rd/
+Source references: old-help:rec-rd.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер RD: найм существ, параметры команд и ограничения.
 
@@ -22256,7 +22890,9 @@ URL: /ru/erm/receivers/rd/
 
 # Учёный (SC)
 
+ID: erm.receivers.sc
 URL: /ru/erm/receivers/sc/
+Source references: old-help:rec-sc.htm
 
 Ресивер SC: учёный, параметры команд и ограничения.
 
@@ -22336,7 +22972,9 @@ URL: /ru/erm/receivers/sc/
 
 # Знак и океанская бутыль (SG)
 
+ID: erm.receivers.sg
 URL: /ru/erm/receivers/sg/
+Source references: old-help:rec-sg.htm
 
 Ресивер SG: знак и океанская бутыль, параметры команд и ограничения.
 
@@ -22403,7 +23041,9 @@ M^…^</strong></span><br>
 
 # Скелет на карте (SK)
 
+ID: erm.receivers.sk
 URL: /ru/erm/receivers/sk/
+Source references: old-help:rec-sk.htm
 
 Ресивер SK: скелет на карте, параметры команд и ограничения.
 
@@ -22474,7 +23114,9 @@ URL: /ru/erm/receivers/sk/
 
 # Средства ERA, память и звук (SN)
 
+ID: erm.receivers.sn
 URL: /ru/erm/receivers/sn/
+Source references: old-help:rec-sn.htm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, old-help:era-api.htm
 
 Ресивер SN: средства era, память и звук, параметры команд и ограничения.
 
@@ -23386,7 +24028,9 @@ RESIZE_ALG_FILL      = 6; // Использовать картинку как п
 
 # Магический источник (SP)
 
+ID: erm.receivers.sp
 URL: /ru/erm/receivers/sp/
+Source references: old-help:rec-sp.htm
 
 Ресивер SP: магический источник, параметры команд и ограничения.
 
@@ -23454,7 +24098,9 @@ URL: /ru/erm/receivers/sp/
 
 # Святыня магии (SR)
 
+ID: erm.receivers.sr
 URL: /ru/erm/receivers/sr/
+Source references: old-help:rec-sr.htm
 
 Ресивер SR: святыня магии, параметры команд и ограничения.
 
@@ -23516,7 +24162,9 @@ URL: /ru/erm/receivers/sr/
 
 # Параметры заклинаний (SS)
 
+ID: erm.receivers.ss
 URL: /ru/erm/receivers/ss/
+Source references: old-help:rec-ss.htm, old-help:cont-sschange.htm
 
 Ресивер SS: параметры заклинаний, параметры команд и ограничения.
 
@@ -23866,7 +24514,9 @@ URL: /ru/erm/receivers/ss/
 
 # Камень знаний (ST)
 
+ID: erm.receivers.st
 URL: /ru/erm/receivers/st/
+Source references: old-help:rec-st.htm
 
 Ресивер ST: камень знаний, параметры команд и ограничения.
 
@@ -23927,7 +24577,9 @@ URL: /ru/erm/receivers/st/
 
 # Лебединое озеро (SW)
 
+ID: erm.receivers.sw
 URL: /ru/erm/receivers/sw/
+Source references: old-help:rec-sw.htm
 
 Ресивер SW: лебединое озеро, параметры команд и ограничения.
 
@@ -23993,7 +24645,9 @@ URL: /ru/erm/receivers/sw/
 
 # Верфь (SY)
 
+ID: erm.receivers.sy
 URL: /ru/erm/receivers/sy/
+Source references: old-help:rec-sy.htm
 
 Ресивер SY: верфь, параметры команд и ограничения.
 
@@ -24063,7 +24717,9 @@ URL: /ru/erm/receivers/sy/
 
 # Лимит времени хода (TL)
 
+ID: erm.receivers.tl
 URL: /ru/erm/receivers/tl/
+Source references: old-help:rec-tl.htm
 
 Ресивер TL: лимит времени хода, параметры команд и ограничения.
 
@@ -24173,7 +24829,9 @@ URL: /ru/erm/receivers/tl/
 
 # Игровые таймеры (TM)
 
+ID: erm.receivers.tm
 URL: /ru/erm/receivers/tm/
+Source references: old-help:rec-tm.htm
 
 Ресивер TM: игровые таймеры, параметры команд и ограничения.
 
@@ -24259,7 +24917,9 @@ URL: /ru/erm/receivers/tm/
 
 # Клетки карты (TR)
 
+ID: erm.receivers.tr
 URL: /ru/erm/receivers/tr/
+Source references: old-help:rec-tr.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер TR: клетки карты, параметры команд и ограничения.
 
@@ -24568,7 +25228,9 @@ E - вход<br>
 
 # Общие игровые операции (UN)
 
+ID: erm.receivers.un
 URL: /ru/erm/receivers/un/
+Source references: old-help:rec-un.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер UN: общие игровые операции, параметры команд и ограничения.
 
@@ -25744,7 +26406,9 @@ v[номер_переменной]/v[номер_переменной+1]/v[ном
 
 # Университет (UR)
 
+ID: erm.receivers.ur
 URL: /ru/erm/receivers/ur/
+Source references: old-help:rec-ur.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер UR: университет, параметры команд и ограничения.
 
@@ -25806,7 +26470,9 @@ URL: /ru/erm/receivers/ur/
 
 # Учёт использования переменных (VC)
 
+ID: erm.receivers.vc
 URL: /ru/erm/receivers/vc/
+Source references: old-help:rec-vc.htm
 
 Ресивер VC: учёт использования переменных, параметры команд и ограничения.
 
@@ -25951,7 +26617,9 @@ Y и N в вашем скрипте.<br>
 
 # Переменные и выражения (VR)
 
+ID: erm.receivers.vr
 URL: /ru/erm/receivers/vr/
+Source references: old-help:rec-vr.htm, era-changelog:era-iii-changelog.txt
 
 Ресивер VR: переменные и выражения, параметры команд и ограничения.
 
@@ -26358,7 +27026,9 @@ z1…z1000. Они могут быть изменены (любая переме
 
 # Телега (WG)
 
+ID: erm.receivers.wg
 URL: /ru/erm/receivers/wg/
+Source references: old-help:rec-wg.htm
 
 Ресивер WG: телега, параметры команд и ограничения.
 
@@ -26437,7 +27107,9 @@ URL: /ru/erm/receivers/wg/
 
 # Хижина ведьмы (WH)
 
+ID: erm.receivers.wh
 URL: /ru/erm/receivers/wh/
+Source references: old-help:rec-wh.htm
 
 Ресивер WH: хижина ведьмы, параметры команд и ограничения.
 
@@ -26499,7 +27171,9 @@ URL: /ru/erm/receivers/wh/
 
 # Водяная мельница (WM)
 
+ID: erm.receivers.wm
 URL: /ru/erm/receivers/wm/
+Source references: old-help:rec-wm.htm
 
 Ресивер WM: водяная мельница, параметры команд и ограничения.
 
@@ -26563,7 +27237,9 @@ URL: /ru/erm/receivers/wm/
 
 # Гробница воина (WT)
 
+ID: erm.receivers.wt
 URL: /ru/erm/receivers/wt/
+Source references: old-help:rec-wt.htm
 
 Ресивер WT: гробница воина, параметры команд и ограничения.
 
@@ -26629,7 +27305,9 @@ URL: /ru/erm/receivers/wt/
 
 # Введение в ERM
 
+ID: erm.start
 URL: /ru/erm/start/
+Source references: old-help:cont-zvse.htm, old-help:cont-triggersol.htm, old-help:tr-pi.htm, old-help:tr-gm.htm, era-changelog:era-iii-changelog.txt, old-help:cont-adv.htm, old-help:cont-mapmakers.htm, old-help:cont-wog.htm
 
 Как скрипт подключается к карте и реагирует на события Heroes III.
 
@@ -26885,7 +27563,9 @@ ZVSE2
 
 # Синтаксис ERM: ZVSE и ZVSE2
 
+ID: erm.syntax
 URL: /ru/erm/syntax/
+Source references: old-help:cont-zvse.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, old-help:cont-ingener.htm
 
 Префиксы команд, параметры, GET/SET, комментарии и препроцессор ERM 2.0.
 
@@ -27087,7 +27767,9 @@ ZVSE2
 
 # Справочные таблицы
 
+ID: erm.tables
 URL: /ru/erm/tables/
+Source references: old-help:cont-form.htm, old-help:form-hex.htm, era-framework:lib-9999-era---consts.erm
 
 ID, флаги, константы, слоты и форматы данных для команд ERM.
 
@@ -27337,7 +28019,9 @@ Hex 0x10 = decimal 16; hex 0xFF = 255. Номер бита 5 означает м
 
 # Слоты артефактов
 
+ID: erm.tables.artifact-slots
 URL: /ru/erm/tables/artifact-slots/
+Source references: old-help:form-ap.htm, old-help:form-ap1.htm, old-help:form-ap2.htm, old-help:form-ap3.htm
 
 Позиция на кукле героя, категория UN:A и слот HE:Y2 используют разные нумерации.
 
@@ -27641,7 +28325,9 @@ URL: /ru/erm/tables/artifact-slots/
 
 # Таблица артефактов
 
+ID: erm.tables.artifacts
 URL: /ru/erm/tables/artifacts/
+Source references: old-help:form-a1.htm, era-framework:lib-9999-era---consts.erm, old-help:form-a1-hex.htm, old-help:form-a3.htm
 
 ID из стандартного набора WoG. Объект карты — тип 5.
 
@@ -30307,7 +30993,9 @@ HEX — шестнадцатеричное представление того �
 
 # Фоны битвы
 
+ID: erm.tables.battle-backgrounds
 URL: /ru/erm/tables/battle-backgrounds/
+Source references: old-help:form-ba-b.htm, old-help:rec-ba.htm
 
 BA:B выбирает фон. -1 оставляет стандартный выбор; 1–25 — варианты из старой справки.
 
@@ -30398,7 +31086,9 @@ BA:B выбирает фон. -1 оставляет стандартный вы�
 
 # Накладные ландшафты BU:G
 
+ID: erm.tables.battle-terrain
 URL: /ru/erm/tables/battle-terrain/
+Source references: old-help:form-bug.htm, old-help:rec-bu.htm
 
 Значение BU:G — отдельный индекс боевого эффекта. Тип соответствующего объекта карты приведён рядом.
 
@@ -30564,7 +31254,9 @@ URL: /ru/erm/tables/battle-terrain/
 
 # Клетки поля боя
 
+ID: erm.tables.battlefield
 URL: /ru/erm/tables/battlefield/
+Source references: old-help:form-bf.htm, old-help:form-bf-s1.htm, old-help:rec-bf.htm
 
 11 рядов по 17 позиций: индексы 0–186. Крайние позиции ряда служебные; проверяйте проходимость выбранной клетки.
 
@@ -30610,7 +31302,9 @@ URL: /ru/erm/tables/battlefield/
 
 # Биты, маски и HEX
 
+ID: erm.tables.bits
 URL: /ru/erm/tables/bits/
+Source references: old-help:form-hex.htm, old-help:form-16to10.htm, old-help:rec-vr.htm
 
 Номер бита начинается с 0; его маска равна 2 в степени номера. Старший бит 32-разрядного знакового ERM-целого соответствует -2147483648. HEX FF = 255; HEX 100 = 256.
 
@@ -30800,7 +31494,9 @@ URL: /ru/erm/tables/bits/
 
 # Благословения и проклятия героя
 
+ID: erm.tables.blessings
 URL: /ru/erm/tables/blessings/
+Source references: old-help:form-bless.htm, old-help:rec-he.htm
 
 ID и смысл параметра силы для HE:Y. У проклятия блокировки слот выбирается по отдельной таблице. Эффекты старого WoG могут зависеть от установленных скриптов.
 
@@ -31166,7 +31862,9 @@ ID и смысл параметра силы для HE:Y. У проклятия 
 
 # Цвета палаток и границ
 
+ID: erm.tables.border-colors
 URL: /ru/erm/tables/border-colors/
+Source references: old-help:form-bg.htm
 
 Палатка — тип 10, страж — 9, ворота — 212. Это нумерация ключей, не цветов игроков.
 
@@ -31250,7 +31948,9 @@ URL: /ru/erm/tables/border-colors/
 
 # Картинки зданий по городам
 
+ID: erm.tables.building-pictures
 URL: /ru/erm/tables/building-pictures/
+Source references: old-help:form-buldingsintowns.htm, old-help:form-picts.htm, old-help:rec-if.htm
 
 Нумерация изображений зданий для диалогов IF:Q.
 
@@ -32818,7 +33518,9 @@ URL: /ru/erm/tables/building-pictures/
 
 # ID городских зданий
 
+ID: erm.tables.buildings
 URL: /ru/erm/tables/buildings/
+Source references: old-help:form-buldings.htm, old-help:rec-ca.htm
 
 Номер здания для CA и бит в массиве построек. Тип города уточняет смысл специальных строений. Картинки зданий IF:Q используют другую нумерацию.
 
@@ -33136,7 +33838,9 @@ URL: /ru/erm/tables/buildings/
 
 # Анимации BM:V
 
+ID: erm.tables.combat-animations
 URL: /ru/erm/tables/combat-animations/
+Source references: old-help:form-formatanimation.htm, old-help:form-defspell.htm
 
 ID визуального эффекта BM:V не совпадает с ID заклинания.
 
@@ -33734,7 +34438,9 @@ ID визуального эффекта BM:V не совпадает с ID за
 
 # Поля боевого отряда
 
+ID: erm.tables.combat-stack-structure
 URL: /ru/erm/tables/combat-stack-structure/
+Source references: old-help:form-combatmon.htm, old-help:rec-bm.htm
 
 Смещения HEX относительно указателя на структуру из старого снимка WoG. Это описание формата, не универсальные адреса для UN:C. Поля с неясным назначением не трактуются как API. Проверяйте размер и расположение структуры в своей сборке.
 
@@ -34154,7 +34860,9 @@ URL: /ru/erm/tables/combat-stack-structure/
 
 # Сборные артефакты
 
+ID: erm.tables.combination-artifacts
 URL: /ru/erm/tables/combination-artifacts/
+Source references: old-help:form-a2.htm, old-help:rec-un.htm
 
 Номер комбинации и ID готового артефакта — разные величины.
 
@@ -34327,7 +35035,9 @@ URL: /ru/erm/tables/combination-artifacts/
 
 # Особые бонусы командира
 
+ID: erm.tables.commander-bonuses
 URL: /ru/erm/tables/commander-bonuses/
+Source references: old-help:form-cobo.htm, old-help:form-commanders.htm
 
 CO использует номера бонусов и их битовые маски; маска = 2 в степени номера.
 
@@ -34461,7 +35171,9 @@ CO использует номера бонусов и их битовые ма�
 
 # Классы командиров
 
+ID: erm.tables.commanders
 URL: /ru/erm/tables/commanders/
+Source references: old-help:form-commanders.htm, old-help:rec-co.htm
 
 Класс командира связан с парой классов героя. Это отдельный индекс, не ID существа-командира.
 
@@ -34560,7 +35272,9 @@ URL: /ru/erm/tables/commanders/
 
 # Хранилища существ
 
+ID: erm.tables.creature-banks
 URL: /ru/erm/tables/creature-banks/
+Source references: old-help:form-cb.htm
 
 Подтипы объекта 16 из WoG. Расширяющие банки моды могут менять этот набор.
 
@@ -34707,7 +35421,9 @@ URL: /ru/erm/tables/creature-banks/
 
 # Жилища существ на карте
 
+ID: erm.tables.creature-dwellings
 URL: /ru/erm/tables/creature-dwellings/
+Source references: old-help:form-creaturedwellings.htm, old-help:rec-dw.htm
 
 Основная таблица — подтипы объекта 17. У объекта 20 подтип 0 — жилище четырёх элементалей, подтип 1 — фабрика четырёх големов.
 
@@ -35307,7 +36023,9 @@ URL: /ru/erm/tables/creature-dwellings/
 
 # Битовые флаги существ
 
+ID: erm.tables.creature-flags
 URL: /ru/erm/tables/creature-flags/
+Source references: old-help:form-flaggedabilities.htm, old-help:rec-ma.htm, old-help:rec-bm.htm
 
 Маска MA:X и BM:F. Для изменения одного свойства сохраняйте остальные биты. Биты боевого состояния нельзя произвольно включать у живого отряда.
 
@@ -35571,7 +36289,9 @@ URL: /ru/erm/tables/creature-flags/
 
 # DEF и звуки существ
 
+ID: erm.tables.creature-resources
 URL: /ru/erm/tables/creature-resources/
+Source references: old-help:form-cr-def-snd.htm, old-help:rec-ma.htm
 
 Имя боевого DEF и префикс звуков для стандартных ID WoG. Полные имена файлов и регистр сохраняются как технические данные.
 
@@ -36601,7 +37321,9 @@ URL: /ru/erm/tables/creature-resources/
 
 # Таблица существ
 
+ID: erm.tables.creatures
 URL: /ru/erm/tables/creatures/
+Source references: old-help:form-creature.htm, era-framework:lib-9999-era---consts.erm, old-help:form-creature-hex.htm
 
 ID из стандартного набора WoG. Объект карты — тип 54.
 
@@ -38046,7 +38768,9 @@ HEX — шестнадцатеричное представление того �
 
 # Курсоры мыши
 
+ID: erm.tables.cursors
 URL: /ru/erm/tables/cursors/
+Source references: old-help:form-mousepointers.htm, old-help:rec-un.htm
 
 Типы 0 — обычные, 1 — карта приключений, 2 — бой, 3 — заклинание, 4 — артефакт.
 
@@ -38391,7 +39115,9 @@ UN:P использует пару тип/подтип. Тип 3 — курсо�
 
 # Области кликов CM:I
 
+ID: erm.tables.dialog-items
 URL: /ru/erm/tables/dialog-items/
+Source references: old-help:form-cmi.htm, old-help:rec-cm.htm
 
 Области карты, города, героя, встречи героев и битвы.
 
@@ -40473,7 +41199,9 @@ CM:I возвращает номер области в текущем окне. 
 
 # Картинки для IF:Q
 
+ID: erm.tables.dialog-pictures
 URL: /ru/erm/tables/dialog-pictures/
+Source references: old-help:form-picts.htm, old-help:rec-if.htm
 
 Тип картинки определяет трактовку следующего параметра. Для города выбирается 22 + тип города.
 
@@ -40615,7 +41343,9 @@ URL: /ru/erm/tables/dialog-pictures/
 
 # Шаблоны диалогов DL
 
+ID: erm.tables.dialog-templates
 URL: /ru/erm/tables/dialog-templates/
+Source references: old-help:rec-dl.htm
 
 Структура текстовой таблицы, элементы и ограничения шаблонов.
 
@@ -40655,7 +41385,9 @@ DEF кнопки должен иметь минимум два кадра: вт�
 
 # Идентификаторы игровых окон
 
+ID: erm.tables.dialog-types
 URL: /ru/erm/tables/dialog-types/
+Source references: old-help:form-gamestate.htm, old-help:era-api.htm, era-source:era.pas, era-framework:lib-end--9999-era---stdlib.erm
 
 Идентификаторы, возвращаемые GetGameState в старом комплекте. Плагины WND и HD могут заменять окно; одинаковый номер может объединять несколько диалогов. Значения привязаны к реализации, а не к порядку строк.
 
@@ -40803,7 +41535,9 @@ URL: /ru/erm/tables/dialog-types/
 
 # Классы героев
 
+ID: erm.tables.hero-classes
 URL: /ru/erm/tables/hero-classes/
+Source references: old-help:form-heroesclasses.htm, era-framework:lib-9999-era---consts.erm
 
 ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
 
@@ -40938,7 +41672,9 @@ HEX — шестнадцатеричное представление того �
 
 # Опыт для уровня героя
 
+ID: erm.tables.hero-levels
 URL: /ru/erm/tables/hero-levels/
+Source references: old-help:form-heroeslevels.htm, old-help:rec-he.htm
 
 Таблица стандартной кривой опыта. После 75-го уровня возможны переполнения и недостижимые промежуточные уровни; не экстраполируйте эту таблицу на модифицированный движок.
 
@@ -41430,7 +42166,9 @@ URL: /ru/erm/tables/hero-levels/
 
 # Поля структуры героя
 
+ID: erm.tables.hero-structure
 URL: /ru/erm/tables/hero-structure/
+Source references: old-help:form-advhero.htm, old-help:rec-he.htm
 
 Смещения HEX относительно указателя на структуру из старого снимка WoG. Это описание формата, не универсальные адреса для UN:C. Поля с неясным назначением не трактуются как API. Проверяйте размер и расположение структуры в своей сборке.
 
@@ -41688,7 +42426,9 @@ str[8] str=(*[<em class="erm-tone-purple erm-legacy-event">67CD08</em>])[ном�
 
 # Посещения и биты героя
 
+ID: erm.tables.hero-visits
 URL: /ru/erm/tables/hero-visits/
+Source references: old-help:form-he-v.htm, old-help:form-he-r.htm
 
 HE:V использует индекс вида посещения, а не тип объекта карты.
 
@@ -41931,7 +42671,9 @@ HE:R7 работает с маской битов, не с этим списко
 
 # Таблица героев
 
+ID: erm.tables.heroes
 URL: /ru/erm/tables/heroes/
+Source references: old-help:form-numberheroes.htm, era-framework:lib-9999-era---consts.erm, old-help:form-numberheroes-hex.htm
 
 ID из стандартного набора WoG. Объект карты — тип 34.
 
@@ -42826,7 +43568,9 @@ HEX — шестнадцатеричное представление того �
 
 # Типы шахт
 
+ID: erm.tables.mines
 URL: /ru/erm/tables/mines/
+Source references: old-help:form-mines.htm
 
 Объект типа 53; подтип не следует путать с ID ресурса.
 
@@ -42909,7 +43653,9 @@ URL: /ru/erm/tables/mines/
 
 # Музыка: ID и имена MP3
 
+ID: erm.tables.music
 URL: /ru/erm/tables/music/
+Source references: old-help:form-mp3.htm, old-help:form-track.htm, old-help:rec-mp.htm, old-help:rec-vr.htm
 
 Стандартные номера 1–58. Диапазон 59–199 в старой системе отведён пользовательским композициям. Пробелы в именах значимы; расширение задавайте по контракту команды.
 
@@ -43441,7 +44187,9 @@ URL: /ru/erm/tables/music/
 
 # Контрольные слова объектов
 
+ID: erm.tables.object-control-words
 URL: /ru/erm/tables/object-control-words/
+Source references: old-help:cont-conwords.htm, old-help:rec-ob.htm, old-help:rec-sk.htm, old-help:rec-mt.htm
 
 32-битное поле OB:C с разной упаковкой для разных типов объектов. Ниже приведены исследованные поля старого WoG; неизвестные биты сохраняйте. Ёмкость поля не означает допустимость всех его значений. Для собственных данных используйте PO.
 
@@ -44167,7 +44915,9 @@ URL: /ru/erm/tables/object-control-words/
 
 # Таблица объектов в игре
 
+ID: erm.tables.objects
 URL: /ru/erm/tables/objects/
+Source references: old-help:form-objects.htm, era-framework:lib-9999-era---consts.erm
 
 ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
 
@@ -45348,7 +46098,9 @@ HEX — шестнадцатеричное представление того �
 
 # Флаги препятствий
 
+ID: erm.tables.obstacle-flags
 URL: /ru/erm/tables/obstacle-flags/
+Source references: old-help:form-obstacles-bit.htm, old-help:form-obstacles.htm
 
 BU:O возвращает комбинацию битов клетки; номер бита и его значение различаются.
 
@@ -45415,7 +46167,9 @@ BU:O возвращает комбинацию битов клетки; номе
 
 # Препятствия на поле боя
 
+ID: erm.tables.obstacles
 URL: /ru/erm/tables/obstacles/
+Source references: old-help:form-obstacles.htm, old-help:rec-bf.htm
 
 ID для BF:O. Форма от стартового гекса распространяется вверх и вправо; сам стартовый гекс может оставаться свободным. Флаги препятствий и схема поля — отдельные справочники.
 
@@ -45916,7 +46670,9 @@ ID для BF:O. Форма от стартового гекса распрост
 
 # Односторонние монолиты
 
+ID: erm.tables.one-way-monoliths
 URL: /ru/erm/tables/one-way-monoliths/
+Source references: old-help:form-one-way-monolith.htm, old-help:form-objects.htm
 
 Подтипы объекта 43. Для односторонних монолитов вход и выход имеют разные типы 43 и 44.
 
@@ -45987,7 +46743,9 @@ URL: /ru/erm/tables/one-way-monoliths/
 
 # Цвета игроков
 
+ID: erm.tables.players
 URL: /ru/erm/tables/players/
+Source references: old-help:form-gamerscolor.htm, era-framework:lib-9999-era---consts.erm, old-help:form-gamerscolor-bit.htm, old-help:form-if-flags.htm
 
 ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
 
@@ -46196,7 +46954,9 @@ HEX — шестнадцатеричное представление того �
 
 # Снаряды и лучи
 
+ID: erm.tables.projectiles
 URL: /ru/erm/tables/projectiles/
+Source references: old-help:form-weapon.htm
 
 Тип изображения выстрела отличается от типа существа и флага стрелка.
 
@@ -46325,7 +47085,9 @@ URL: /ru/erm/tables/projectiles/
 
 # Диалог найма RD
 
+ID: erm.tables.recruitment-dialog
 URL: /ru/erm/tables/recruitment-dialog/
+Source references: old-help:form-rd-s1.htm, old-help:rec-rd.htm
 
 Пример компоновки окна найма: три варианта существа, цена, запас, количество и подтверждение. Настройку окна выполняет RD.
 
@@ -46359,7 +47121,9 @@ URL: /ru/erm/tables/recruitment-dialog/
 
 # Ресурсы
 
+ID: erm.tables.resources
 URL: /ru/erm/tables/resources/
+Source references: old-help:form-resource.htm, era-framework:lib-9999-era---consts.erm
 
 ID из стандартного набора WoG. Объект карты — тип 79.
 
@@ -46443,7 +47207,9 @@ HEX — шестнадцатеричное представление того �
 
 # Картинки вторичных навыков
 
+ID: erm.tables.secondary-skill-pictures
 URL: /ru/erm/tables/secondary-skill-pictures/
+Source references: old-help:form-secondaryskill-if.htm, old-help:rec-if.htm
 
 Номер картинки = 3 × ID навыка + уровень − 1; уровень от 1 до 3.
 
@@ -46778,7 +47544,9 @@ URL: /ru/erm/tables/secondary-skill-pictures/
 
 # Вторичные навыки
 
+ID: erm.tables.secondary-skills
 URL: /ru/erm/tables/secondary-skills/
+Source references: old-help:form-secondaryskill.htm, era-framework:lib-9999-era---consts.erm
 
 ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
 
@@ -46935,7 +47703,9 @@ HEX — шестнадцатеричное представление того �
 
 # Звуки игровых событий
 
+ID: erm.tables.sounds
 URL: /ru/erm/tables/sounds/
+Source references: old-help:form-sound.htm, old-help:rec-sn.htm
 
 Имена WAV/82M из стандартного набора. Наличие конкретного звука проверяется в ресурсах активного комплекта игры.
 
@@ -47063,7 +47833,9 @@ URL: /ru/erm/tables/sounds/
 
 # Специальные земли
 
+ID: erm.tables.special-terrain
 URL: /ru/erm/tables/special-terrain/
+Source references: old-help:form-specterrain.htm
 
 Это номера объектов карты, а не базовой почвы.
 
@@ -47131,7 +47903,9 @@ URL: /ru/erm/tables/special-terrain/
 
 # Картинки специальностей героя
 
+ID: erm.tables.specialty-pictures
 URL: /ru/erm/tables/specialty-pictures/
+Source references: old-help:form-heroesspec.htm, old-help:rec-he.htm, old-help:rec-un.htm
 
 Индекс изображения для UN:G2. Он меняет оформление специальности, а её игровое действие настраивается другими параметрами HE:X. Номера 0–155 соответствуют стандартным героям.
 
@@ -48612,7 +49386,9 @@ URL: /ru/erm/tables/specialty-pictures/
 
 # Таблица заклинаний
 
+ID: erm.tables.spells
 URL: /ru/erm/tables/spells/
+Source references: old-help:form-spell.htm, era-framework:lib-9999-era---consts.erm, old-help:form-spell-hex.htm, old-help:form-spella.htm
 
 ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
 
@@ -49755,7 +50531,9 @@ HEX — шестнадцатеричное представление того �
 
 # Способности от опыта существ
 
+ID: erm.tables.stack-experience-abilities
 URL: /ru/erm/tables/stack-experience-abilities/
+Source references: old-help:form-specexp1.htm, old-help:rec-ea.htm
 
 EA:B: параметр $3 выбирает тип способности. Строчные и прописные буквы имеют разные ASCII-коды.
 
@@ -49982,7 +50760,9 @@ EA:B: параметр $3 выбирает тип способности. Стр
 
 # Флаговые способности EA:B
 
+ID: erm.tables.stack-experience-flags
 URL: /ru/erm/tables/stack-experience-flags/
+Source references: old-help:form-specexp2.htm, old-help:rec-ea.htm
 
 EA:B: значения $4 при $3=102 (символ f). Это ASCII-коды, а не маски MA:X/BM:F.
 
@@ -50067,7 +50847,9 @@ EA:B: значения $4 при $3=102 (символ f). Это ASCII-коды,
 
 # Иммунитеты EA:B
 
+ID: erm.tables.stack-experience-immunities
 URL: /ru/erm/tables/stack-experience-immunities/
+Source references: old-help:form-specexp4.htm, old-help:rec-ea.htm
 
 EA:B: значения $4 при $3=119 (символ w). Код символа и ID заклинания — разные величины.
 
@@ -50240,7 +51022,9 @@ EA:B: значения $4 при $3=119 (символ w). Код символа 
 
 # Модификаторы EA:B
 
+ID: erm.tables.stack-experience-modifiers
 URL: /ru/erm/tables/stack-experience-modifiers/
+Source references: old-help:form-specexp5.htm, old-help:rec-ea.htm
 
 Модификатор $4 определяет, как трактовать значение способности: прибавить, установить или применить процент.
 
@@ -50291,7 +51075,9 @@ URL: /ru/erm/tables/stack-experience-modifiers/
 
 # Заклинания без урона EA:B
 
+ID: erm.tables.stack-experience-spells
 URL: /ru/erm/tables/stack-experience-spells/
+Source references: old-help:form-specexp3.htm, old-help:rec-ea.htm
 
 Значения $4 при $3=99 (c). Здесь используются ID заклинаний.
 
@@ -50375,7 +51161,9 @@ URL: /ru/erm/tables/stack-experience-spells/
 
 # Типы почвы
 
+ID: erm.tables.terrain
 URL: /ru/erm/tables/terrain/
+Source references: old-help:form-terrain.htm, era-framework:lib-9999-era---consts.erm
 
 ID из стандартного набора WoG. Номер относится к этой таблице и не заменяет индекс другой сущности.
 
@@ -50465,7 +51253,9 @@ HEX — шестнадцатеричное представление того �
 
 # Выравнивание текста DL
 
+ID: erm.tables.text-alignment
 URL: /ru/erm/tables/text-alignment/
+Source references: old-help:form-align.htm, old-help:rec-dl.htm
 
 Значения для элемента Text в шаблоне DL: вертикальное и горизонтальное положение внутри прямоугольника.
 
@@ -50544,7 +51334,9 @@ URL: /ru/erm/tables/text-alignment/
 
 # Именованные цвета текста
 
+ID: erm.tables.text-colors
 URL: /ru/erm/tables/text-colors/
+Source references: era-source:rainbow.pas, old-help:form-colors.htm
 
 Палитра Rainbow.pas: имена и RGB без альфа-байта.
 
@@ -51459,7 +52251,9 @@ URL: /ru/erm/tables/text-colors/
 
 # Тексты: ERT, ERS и JSON
 
+ID: erm.tables.text-resources
 URL: /ru/erm/tables/text-resources/
+Source references: old-help:cont-ert.htm, old-help:cont-ers.htm, old-help:cont-json.htm, erm-forum:faq-.html, era-changelog:era-iii-changelog.txt
 
 Внешние тексты, названия настроек и локализация скрипта.
 
@@ -51689,7 +52483,9 @@ h3sprite.lod содержит графические ресурсы, h3bitmap.lo
 
 # Типы городов
 
+ID: erm.tables.towns
 URL: /ru/erm/tables/towns/
+Source references: old-help:form-towns.htm, era-framework:lib-9999-era---consts.erm
 
 ID из стандартного набора WoG. Объект карты — тип 98.
 
@@ -51780,7 +52576,9 @@ HEX — шестнадцатеричное представление того �
 
 # Двусторонние монолиты
 
+ID: erm.tables.two-way-monoliths
 URL: /ru/erm/tables/two-way-monoliths/
+Source references: old-help:form-two-way-monolith.htm, old-help:form-objects.htm
 
 Подтипы объекта 45. Для односторонних монолитов вход и выход имеют разные типы 43 и 44.
 
@@ -51847,7 +52645,9 @@ URL: /ru/erm/tables/two-way-monoliths/
 
 # Игровое видео
 
+ID: erm.tables.videos
 URL: /ru/erm/tables/videos/
+Source references: old-help:form-video.htm, old-help:rec-vr.htm
 
 ID ролика и имя BIK без расширения. Знак + разделяет последовательность фрагментов, а не часть имени файла.
 
@@ -51957,7 +52757,9 @@ ID ролика и имя BIK без расширения. Знак + разде
 
 # Варианты объектов WoG
 
+ID: erm.tables.wog-object-variants
 URL: /ru/erm/tables/wog-object-variants/
+Source references: old-help:form-newobj.htm, old-help:form-objects.htm
 
 Внешний вид, тип и подтип объектов из старого комплекта WoG. Одинаковая картинка не задаёт поведение сама по себе: оно зависит от активного скрипта и настроек объекта.
 
@@ -52490,7 +53292,9 @@ URL: /ru/erm/tables/wog-object-variants/
 
 # Триггеры и события ERM
 
+ID: erm.triggers
 URL: /ru/erm/triggers/
+Source references: era-source:erm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt, old-help:cont-eventslist.htm, old-help:cont-logicevent.htm, old-help:cont-triggers.htm, old-help:cont-triggers-era.htm, old-help:cont-triggersol.htm
 
 28 классических семейств и 104 зарегистрированных события ERA.
 
@@ -53912,7 +54716,9 @@ ERA резервирует для своих нужд функции с номе
 
 # Экипировка артефакта (AE)
 
+ID: erm.triggers.ae
 URL: /ru/erm/triggers/ae/
+Source references: old-help:tr-ae.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 — снятие, 1 — экипировка. Текущий герой владеет артефактом, v998 содержит ID артефакта, v999 — слот.
 
@@ -53985,7 +54791,9 @@ URL: /ru/erm/triggers/ae/
 
 # Начало и завершение боя (BA)
 
+ID: erm.triggers.ba
 URL: /ru/erm/triggers/ba/
+Source references: old-help:tr-ba.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0/1 — начало/конец на стороне атакующего или локально; 50/51 — на ПК защитника; 52/53 — универсальные события обеих сторон. В начале сначала BA0 или BA50, затем BA52; в конце BA1 или BA51, затем BA53.
 
@@ -54060,7 +54868,9 @@ BA срабатывает и для теоретического боя ИИ. Б
 
 # Подготовка поля боя (BF)
 
+ID: erm.triggers.bf
 URL: /ru/erm/triggers/bf/
+Source references: old-help:tr-bf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Момент настройки поля перед боем. Ресивер BF позволяет расставить препятствия.
 
@@ -54113,7 +54923,9 @@ URL: /ru/erm/triggers/bf/
 
 # Действие в бою (BG)
 
+ID: erm.triggers.bg
 URL: /ru/erm/triggers/bg/
+Source references: old-help:tr-bg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 BG0 предваряет действие; BG1 связан с завершением действия и передачей хода. Параметры действия читаются через BG; v997 хранит номер раунда.
 
@@ -54177,7 +54989,9 @@ BG0 предваряет действие; BG1 связан с завершен�
 
 # Раунд боя (BR)
 
+ID: erm.triggers.br
 URL: /ru/erm/triggers/br/
+Source references: old-help:tr-br.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Классический код поддерживает фильтр по номеру раунда: -1 до тактики, 0 первый раунд, 1 второй. v997 — счётчик раунда; ранние фазы проходят при ещё невидимом поле.
 
@@ -54244,7 +55058,9 @@ URL: /ru/erm/triggers/br/
 
 # Клики мыши (CM)
 
+ID: erm.triggers.cm
 URL: /ru/erm/triggers/cm/
+Source references: old-help:tr-cm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 — правая кнопка на карте; 1 город; 2 герой; 3 встреча героев; 4 бой; 5 левая кнопка на карте. Координаты, элемент и действие доступны через CM.
 
@@ -54312,7 +55128,9 @@ CM:P применим к карте приключений/миникарте. �
 
 # События командира (CO)
 
+ID: erm.triggers.co
 URL: /ru/erm/triggers/co/
+Source references: old-help:tr-co.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 перед окном командира, 1 после закрытия, 2 после покупки, 3 после воскрешения. HE-1 и CO-1 относятся к текущему герою и его командиру.
 
@@ -54372,7 +55190,9 @@ URL: /ru/erm/triggers/co/
 
 # Событие пользовательского диалога (DL)
 
+ID: erm.triggers.dl
 URL: /ru/erm/triggers/dl/
+Source references: old-help:tr-dl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Обрабатывает действия элементов пользовательского диалога. Классический контекст: v998 — диалог, v999 — элемент, v1000 — действие.
 
@@ -54437,7 +55257,9 @@ URL: /ru/erm/triggers/dl/
 
 # Обработчик функции (FU)
 
+ID: erm.triggers.fu
 URL: /ru/erm/triggers/fu/
+Source references: old-help:tr-fu.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Тело функции начинается после объявления и вызывается через FU:P или DO:P. Входные и выходные параметры используют x1..x16.
 
@@ -54490,7 +55312,9 @@ URL: /ru/erm/triggers/fu/
 
 # Глобальное событие карты (GE)
 
+ID: erm.triggers.ge
 URL: /ru/erm/triggers/ge/
+Source references: old-help:tr-ge.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Срабатывает для глобального события, текст которого начинается с указанного номера. Пока существует обработчик, этот служебный номер скрывается из сообщения.
 
@@ -54538,7 +55362,9 @@ URL: /ru/erm/triggers/ge/
 
 # Сохранение и загрузка (GM)
 
+ID: erm.triggers.gm
 URL: /ru/erm/triggers/gm/
+Source references: old-help:tr-gm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 после загрузки сохранения, до показа карты; 1 перед сохранением после выбора слота. GM1 срабатывает также для автосохранения.
 
@@ -54605,7 +55431,9 @@ OnSavegameRead/Write предназначены для собственных с
 
 # Посещение героя (HE)
 
+ID: erm.triggers.he
 URL: /ru/erm/triggers/he/
+Source references: old-help:tr-he.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Реагирует на посещение/атаку выбранного героя. Селектор — ID героя.
 
@@ -54649,7 +55477,9 @@ URL: /ru/erm/triggers/he/
 
 # Получение уровня героем (HL)
 
+ID: erm.triggers.hl
 URL: /ru/erm/triggers/hl/
+Source references: old-help:tr-hl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Срабатывает при получении уровня. -1 выбирает всех героев. Общий обработчик HL-1 выполняется раньше обработчика конкретного героя. HL меняет предложенные навыки.
 
@@ -54707,7 +55537,9 @@ URL: /ru/erm/triggers/hl/
 
 # Шаг героя (HM)
 
+ID: erm.triggers.hm
 URL: /ru/erm/triggers/hm/
+Source references: old-help:tr-hm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Срабатывает перед каждым шагом. -1 выбирает всех героев; общий обработчик предшествует обработчику конкретного героя. v998/v999/v1000 содержат координаты текущего героя.
 
@@ -54771,7 +55603,9 @@ URL: /ru/erm/triggers/hm/
 
 # Сетевая передача данных боя (IP)
 
+ID: erm.triggers.ip
 URL: /ru/erm/triggers/ip/
+Source references: old-help:tr-ip.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 перед отправкой начальных данных атакующим, 1 после их получения защитником; 2 перед отправкой итогов, 3 после их получения. IP предоставляет дополнительную синхронизацию.
 
@@ -54857,7 +55691,9 @@ URL: /ru/erm/triggers/ip/
 
 # Посещение локального события (LE)
 
+ID: erm.triggers.le
 URL: /ru/erm/triggers/le/
+Source references: old-help:tr-le.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 X/Y/уровень задают существующее локальное событие карты. !? срабатывает до его стандартных эффектов, !$ — после.
 
@@ -54922,7 +55758,9 @@ X/Y/уровень задают существующее локальное со
 
 # Расчёт физического урона (MF)
 
+ID: erm.triggers.mf
 URL: /ru/erm/triggers/mf/
+Source references: old-help:tr-mf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Срабатывает перед нанесением урона. Через MF можно прочитать цель и изменить итоговый урон.
 
@@ -55004,7 +55842,9 @@ URL: /ru/erm/triggers/mf/
 
 # Магия на карте приключений (MG)
 
+ID: erm.triggers.mg
 URL: /ru/erm/triggers/mg/
+Source references: old-help:tr-mg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 перед открытием книги для выбора заклинания; 1 после попытки колдовства. v997 содержит номер заклинания после MG1.
 
@@ -55067,7 +55907,9 @@ MG1 вызывается и при отмене. Его наличие не до
 
 # Подсказки интерфейса (MM)
 
+ID: erm.triggers.mm
 URL: /ru/erm/triggers/mm/
+Source references: old-help:tr-mm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 подсказка боя, 1 подсказка города, 2 карта приключений. MM меняет текст соответствующего контекста.
 
@@ -55127,7 +55969,9 @@ MM0 не вызывается для каждой стадии выбора це
 
 # Смена музыкальной темы (MP)
 
+ID: erm.triggers.mp
 URL: /ru/erm/triggers/mp/
+Source references: old-help:tr-mp.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Срабатывает при вызове ChangeMp3Theme. MP:S меняет параметры, MP:R управляет стандартной реакцией.
 
@@ -55179,7 +56023,9 @@ URL: /ru/erm/triggers/mp/
 
 # Сопротивление магии (MR)
 
+ID: erm.triggers.mr
 URL: /ru/erm/triggers/mr/
+Source references: old-help:tr-mr.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 до стандартной коррекции урона сопротивлением, 1 после неё. В MR2 параметр MR:F означает процент шанса полного сопротивления по типу гномов.
 
@@ -55259,7 +56105,9 @@ URL: /ru/erm/triggers/mr/
 
 # Бродячие монстры (MW)
 
+ID: erm.triggers.mw
 URL: /ru/erm/triggers/mw/
+Source references: old-help:tr-mw.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 достижение цели/героя, 1 гибель монстра. v997 — ID бродячего монстра. События должны быть включены соответствующими настройками MW.
 
@@ -55315,7 +56163,9 @@ v997 содержит номер убитого бродячего монстр�
 
 # Посещение объекта (OB)
 
+ID: erm.triggers.ob
 URL: /ru/erm/triggers/ob/
+Source references: old-help:tr-ob.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Можно выбрать тип, тип/подтип либо точные координаты входа. Объект должен иметь входную клетку. Монстры, ресурсы и артефакты подходят; герои используют HE.
 
@@ -55404,7 +56254,9 @@ URL: /ru/erm/triggers/ob/
 
 # Подсказка клетки карты (OnAdventureMapTileHint)
 
+ID: erm.triggers.onadventuremaptilehint
 URL: /ru/erm/triggers/onadventuremaptilehint/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1..x3 — координаты объекта; x4/x5 — тип/подтип либо -1; x6..x8 — координаты клетки под курсором. Изменяйте текст через MM, не через числовые аргументы. OnAdvMapTileHint — зарегистрированный алиас того же ID.
 
@@ -55435,7 +56287,9 @@ ID `77040`; регистрация `TRIGGER_ADVMAP_TILE_HINT`. Алиасы: OnA
 
 # После строительства (OnAfterBuildTownBuilding)
 
+ID: erm.triggers.onafterbuildtownbuilding
 URL: /ru/erm/triggers/onafterbuildtownbuilding/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город; x2 — построенное здание. Состояние города уже обновлено. Не выводите факт постройки из одного лишь закрытия городского холла.
 
@@ -55466,7 +56320,9 @@ ID `77052`; регистрация `TRIGGER_AFTER_BUILD_TOWN_BUILDING`. Имя �
 
 # После повышения уровня (OnAfterHeroGainLevel)
 
+ID: erm.triggers.onafterherogainlevel
 URL: /ru/erm/triggers/onafterherogainlevel/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой после повышения, когда диалог закрыт. Для человека и ИИ. Для изменения вариантов навыков используйте HL до завершения выбора.
 
@@ -55497,7 +56353,9 @@ ID `77050`; регистрация `TRIGGER_AFTER_HERO_GAIN_LEVEL`. Имя по�
 
 # После взаимодействия героев (OnAfterHeroInteraction)
 
+ID: erm.triggers.onafterherointeraction
 URL: /ru/erm/triggers/onafterherointeraction/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — инициатор; x2 — целевой герой. Состояние после взаимодействия может отличаться: герой мог погибнуть или сменить владельца.
 
@@ -55527,7 +56385,9 @@ ID `77011`; регистрация `TRIGGER_AFTERHEROINTERACT`. Имя подт�
 
 # После локального события (OnAfterLocalEvent)
 
+ID: erm.triggers.onafterlocalevent
 URL: /ru/erm/triggers/onafterlocalevent/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1/x2/x3 — координаты события. Для человека; срабатывает до соответствующего !$LE. Не предполагайте, что одноразовый объект события остался на карте.
 
@@ -55558,7 +56418,9 @@ ID `77046`; регистрация `TRIGGER_AFTER_LOCAL_EVENT`. Имя подт�
 
 # После расстановки препятствий (OnAfterPlaceBattleObstacles)
 
+ID: erm.triggers.onafterplacebattleobstacles
 URL: /ru/erm/triggers/onafterplacebattleobstacles/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После размещения препятствий. Аргументов нет. Восстанавливается основной генератор случайных чисел ERA; изменения клеток должны учитывать уже созданные препятствия.
 
@@ -55589,7 +56451,9 @@ ID `77055`; регистрация `TRIGGER_AFTER_BATTLE_PLACE_BATTLE_OBSTACLES`
 
 # После сохранения (OnAfterSaveGame)
 
+ID: erm.triggers.onaftersavegame
 URL: /ru/erm/triggers/onaftersavegame/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После завершения сохранения. Аргументов нет. Для записи собственной секции данных используйте OnSavegameWrite.
 
@@ -55619,7 +56483,9 @@ ID `77008`; регистрация `TRIGGER_AFTER_SAVE_GAME`. Имя подтв�
 
 # После тактики (OnAfterTacticsPhase)
 
+ID: erm.triggers.onaftertacticsphase
 URL: /ru/erm/triggers/onaftertacticsphase/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После завершения расстановки. При отсутствии фазы тактики срабатывает вслед за подготовкой показа поля. Аргументов нет.
 
@@ -55649,7 +56515,9 @@ ID `77021`; регистрация `TRIGGER_AFTER_TACTICS_PHASE`. Имя под�
 
 # Оценка атаки ИИ (OnAICalcStackAttackEffect)
 
+ID: erm.triggers.onaicalcstackattackeffect
 URL: /ru/erm/triggers/onaicalcstackattackeffect/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — атакующий стек; x2 — защитник; x3 — изменяемая оценка эффекта; x4 — исходная оценка. Это вычисление привлекательности действия для ИИ, а не нанесение урона.
 
@@ -55680,7 +56548,9 @@ ID `77013`; регистрация `TRIGGER_ONAICALCSTACKATTACKEFFECT`. Имя �
 
 # Завершение боевого действия (OnBattleActionEnd)
 
+ID: erm.triggers.onbattleactionend
 URL: /ru/erm/triggers/onbattleactionend/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Аргументов нет. Порядок: OnBeforeBattleAction → OnBattleActionEnd → OnBattleRound → OnBeforeBattleStackTurn → OnBattleStackObtainsTurn → OnAfterBattleAction. События раунда/стека возникают при соответствующем переходе, не после каждого действия безусловно.
 
@@ -55711,7 +56581,9 @@ ID `77051`; регистрация `TRIGGER_BATTLE_ACTION_END`. Имя подт�
 
 # Поле боя показано (OnBattlefieldVisible)
 
+ID: erm.triggers.onbattlefieldvisible
 URL: /ru/erm/triggers/onbattlefieldvisible/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После запуска темы боя и диалога тактики. Аргументов нет. Это момент видимости, а не гарантия завершения расстановки тактики.
 
@@ -55741,7 +56613,9 @@ ID `77020`; регистрация `TRIGGER_BATTLEFIELD_VISIBLE`. Имя под�
 
 # Фаза регенерации (OnBattleRegeneratePhase)
 
+ID: erm.triggers.onbattleregeneratephase
 URL: /ru/erm/triggers/onbattleregeneratephase/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — стек 0..41; x2 — адрес его структуры; x3 — запрет штатной фазы (0/1, изменяемый). Указатель действует только в текущем бою. Для изменения количества лечения используйте отдельное OnBattleStackRegeneration.
 
@@ -55771,7 +56645,9 @@ ID `77007`; регистрация `TRIGGER_REGENERATE_PHASE`. Имя подтв
 
 # Переигровка боя (OnBattleReplay)
 
+ID: erm.triggers.onbattlereplay
 URL: /ru/erm/triggers/onbattlereplay/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После восстановления состояния для переигровки. Аргументов нет. OnBeforeBattleUniversal повторно не вызывается; восстановите зависящий от боя контекст здесь. Требуется поддержка переигровки в сборке.
 
@@ -55802,7 +56678,9 @@ ID `77043`; регистрация `TRIGGER_BATTLE_REPLAY`. Имя подтве�
 
 # Передача хода стеку (OnBattleStackObtainsTurn)
 
+ID: erm.triggers.onbattlestackobtainsturn
 URL: /ru/erm/triggers/onbattlestackobtainsturn/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — сторона (0/1), x2 — слот стороны (0..20). Глобальный индекс стека = x121+x2. Это передача управления, а не обязательно фаза регенерации; учитывайте ожидание и мораль.
 
@@ -55833,7 +56711,9 @@ ID `77006`; регистрация `TRIGGER_STACK_OBTAINS_TURN`. Имя подт
 
 # Количество регенерации стека (OnBattleStackRegeneration)
 
+ID: erm.triggers.onbattlestackregeneration
 URL: /ru/erm/triggers/onbattlestackregeneration/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — стек 0..41; x2 — изменяемое лечение; x3 — исходное стандартное лечение. Результат ограничивается диапазоном 0..потерянные HP верхнего существа. Событие может дать лечение стеку без штатной регенерации, но не воскрешает погибших существ. Это отдельное событие от OnBattleRegeneratePhase.
 
@@ -55864,7 +56744,9 @@ ID `77056`; регистрация `TRIGGER_BATTLE_STACK_REGENERATION`. Имя �
 
 # Перед показом поля боя (OnBeforeBattlefieldVisible)
 
+ID: erm.triggers.onbeforebattlefieldvisible
 URL: /ru/erm/triggers/onbeforebattlefieldvisible/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Поле ещё затемнено; событие предшествует раннему BR-1. Аргументов нет. Ранние BA/BF не гарантируют готовности структур BM/EA; выбирайте фазу по данным, которые нужно менять.
 
@@ -55895,7 +56777,9 @@ ID `77019`; регистрация `TRIGGER_ONBEFORE_BATTLEFIELD_VISIBLE`. Им�
 
 # Перед переигровкой боя (OnBeforeBattleReplay)
 
+ID: erm.triggers.onbeforebattlereplay
 URL: /ru/erm/triggers/onbeforebattlereplay/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После отказа пользователя от результата, перед сбросом состояния боя. Аргументов нет. Подходит для очистки временных ресурсов предыдущей попытки.
 
@@ -55926,7 +56810,9 @@ ID `77044`; регистрация `TRIGGER_BEFORE_BATTLE_REPLAY`. Имя под
 
 # Перед ходом стека (OnBeforeBattleStackTurn)
 
+ID: erm.triggers.onbeforebattlestackturn
 URL: /ru/erm/triggers/onbeforebattlestackturn/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — активный стек 0..41, изменяемый. Срабатывает до OnBattleRegeneratePhase. Проверяйте допустимость нового стека; это не произвольный вызов атаки.
 
@@ -55957,7 +56843,9 @@ ID `77041`; регистрация `TRIGGER_BEFORE_STACK_TURN`. Имя подт�
 
 # Перед взаимодействием героев (OnBeforeHeroInteraction)
 
+ID: erm.triggers.onbeforeherointeraction
 URL: /ru/erm/triggers/onbeforeherointeraction/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — инициатор, x2 — целевой герой; x3 — разрешение взаимодействия, по умолчанию 1, можно изменить на 0. Охватывает встречу и нападение.
 
@@ -55987,7 +56875,9 @@ ID `77010`; регистрация `TRIGGER_BEFOREHEROINTERACT`. Имя подт
 
 # Перед локальным событием (OnBeforeLocalEvent)
 
+ID: erm.triggers.onbeforelocalevent
 URL: /ru/erm/triggers/onbeforelocalevent/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1/x2/x3 — координаты события. Для человека; срабатывает до соответствующего !?LE.
 
@@ -56018,7 +56908,9 @@ ID `77045`; регистрация `TRIGGER_BEFORE_LOCAL_EVENT`. Имя подт
 
 # Перед расстановкой препятствий (OnBeforePlaceBattleObstacles)
 
+ID: erm.triggers.onbeforeplacebattleobstacles
 URL: /ru/erm/triggers/onbeforeplacebattleobstacles/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После OnBeforeBattlefieldVisible, перед препятствиями. Аргументов нет. Временно используется штатный генератор с seed 110291x+167801y+81569; потребление случайных чисел здесь влияет на расстановку.
 
@@ -56049,7 +56941,9 @@ ID `77054`; регистрация `TRIGGER_BEFORE_BATTLE_PLACE_BATTLE_OBSTACLES
 
 # Строительство здания (OnBuildTownBuilding)
 
+ID: erm.triggers.onbuildtownbuilding
 URL: /ru/erm/triggers/onbuildtownbuilding/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город; x2 — здание. Для человека и ИИ. Для действий после завершённой постройки используйте OnAfterBuildTownBuilding.
 
@@ -56079,7 +56973,9 @@ ID `77031`; регистрация `TRIGGER_BUILD_TOWN_BUILDING`. Имя под�
 
 # Расчёт дохода города (OnCalculateTownIncome)
 
+ID: erm.triggers.oncalculatetownincome
 URL: /ru/erm/triggers/oncalculatetownincome/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город; x2 — доход, изменяемый; x3 — учитывать дополнительные ресурсы силоса. Меняется только возвращаемый доход x2. Событие расчётное: оно не гарантирует фактическую выдачу ресурсов.
 
@@ -56110,7 +57006,9 @@ ID `77042`; регистрация `TRIGGER_CALC_TOWN_INCOME`. Имя подтв
 
 # Игровой чат (OnChat)
 
+ID: erm.triggers.onchat
 URL: /ru/erm/triggers/onchat/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 задаёт стадию: 0 вход (x2 — запрет); 1 ввод (x2 — адрес текста, x3 — действие: 0 очистить, 1 закрыть, 2 штатно); 2 выход. Значения аргументов зависят от стадии; сначала проверяйте x1.
 
@@ -56141,7 +57039,9 @@ ID `77014`; регистрация `TRIGGER_ONCHAT`. Имя подтвержде
 
 # Закрытие окна героя (OnCloseHeroScreen)
 
+ID: erm.triggers.oncloseheroscreen
 URL: /ru/erm/triggers/oncloseheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой, с которого окно было открыто, даже если затем пользователь переключился на другого героя.
 
@@ -56171,7 +57071,9 @@ ID `77005`; регистрация `TRIGGER_CLOSE_HEROSCREEN`. Имя подтв
 
 # Закрытие окна найма (OnCloseRecruitDlg)
 
+ID: erm.triggers.oncloserecruitdlg
 URL: /ru/erm/triggers/oncloserecruitdlg/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Аргументов нет. Данные RD ещё доступны до освобождения окна; сохранённый указатель на диалог после выхода недействителен.
 
@@ -56201,7 +57103,9 @@ ID `77024`; регистрация `TRIGGER_CLOSE_RECRUIT_DLG`. Имя подт�
 
 # Закрытие города (OnCloseTownScreen)
 
+ID: erm.triggers.onclosetownscreen
 URL: /ru/erm/triggers/onclosetownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город, с которого окно было открыто.
 
@@ -56231,7 +57135,9 @@ ID `77033`; регистрация `TRIGGER_CLOSE_TOWN_SCREEN`. Имя подт�
 
 # Выбор улучшения существа (OnDetermineMonInfoDlgUpgrade)
 
+ID: erm.triggers.ondeterminemoninfodlgupgrade
 URL: /ru/erm/triggers/ondeterminemoninfodlgupgrade/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — существо; x2 — улучшенный тип либо -1, изменяемый; x3 — город либо -1; x4 — герой либо -1. Событие относится к доступному улучшению в окне сведений о существе.
 
@@ -56262,7 +57168,9 @@ ID `77039`; регистрация `TRIGGER_DETERMINE_MON_INFO_DLG_UPGRADE`. И�
 
 # Начало игрового дня (OnEveryDay)
 
+ID: erm.triggers.oneveryday
 URL: /ru/erm/triggers/oneveryday/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Движок вызывает событие для каждого игрока до обычных TM, без аргументов. Framework расширяет контракт: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once=TRUE только при первом вызове в данный день. Используйте эти аргументы лишь с подключённым Framework.
 
@@ -56293,7 +57201,9 @@ ID `77018`; регистрация `TRIGGER_DAILY_TIMER`. Имя подтвер�
 
 # Вход в игру (OnGameEnter)
 
+ID: erm.triggers.ongameenter
 URL: /ru/erm/triggers/ongameenter/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После новой игры или загрузки, перед передачей управления на карте. Аргументов нет. Подходит для получения временных адресов и экспортов текущего процесса; не путайте с однократной инициализацией PI.
 
@@ -56324,7 +57234,9 @@ ID `77015`; регистрация `TRIGGER_ONGAMEENTER`. Имя подтвер�
 
 # Выход из игры (OnGameLeave)
 
+ID: erm.triggers.ongameleave
 URL: /ru/erm/triggers/ongameleave/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Перед отключением ERM при выходе из текущей игры. Аргументов нет. Освободите временные ресурсы, срок жизни которых привязан к игровой сессии.
 
@@ -56355,7 +57267,9 @@ ID `77016`; регистрация `TRIGGER_ONGAMELEAVE`. Имя подтвер�
 
 # Нажатие клавиши (OnKeyPressed)
 
+ID: erm.triggers.onkeypressed
 URL: /ru/erm/triggers/onkeypressed/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — код клавиши; x2 — блокировка стандартной реакции (0/1, изменяемый); x3 — isDown, TRUE только при первоначальном нажатии, FALSE при автоповторе. Коды находятся в KEY_ константах Framework.
 
@@ -56386,7 +57300,9 @@ ID `77003`; регистрация `TRIGGER_KEYPRESS`. Имя подтвержд
 
 # Отпускание клавиши (OnKeyReleased)
 
+ID: erm.triggers.onkeyreleased
 URL: /ru/erm/triggers/onkeyreleased/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — код клавиши; x2 — блокировка штатной реакции (0/1, изменяемый). Третий аргумент в контракте движка не заявлен. Не переносите сюда смысл x3 из OnKeyPressed.
 
@@ -56417,7 +57333,9 @@ ID `77053`; регистрация `TRIGGER_KEY_RELEASED`. Имя подтвер
 
 # Клик в обзоре королевства (OnKingdomOverviewMouseClick)
 
+ID: erm.triggers.onkingdomoverviewmouseclick
 URL: /ru/erm/triggers/onkingdomoverviewmouseclick/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Контекст мыши доступен через CM. Событие интерфейсное и локальное; оно не является сетевой синхронизацией действия.
 
@@ -56447,7 +57365,9 @@ ID `77027`; регистрация `TRIGGER_KINGDOM_OVERVIEW_MOUSE_CLICK`. Им�
 
 # Загрузка данных окна героя (OnLoadHeroScreen)
 
+ID: erm.triggers.onloadheroscreen
 URL: /ru/erm/triggers/onloadheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой. Срабатывает после OnOpenHeroScreen и при переключении героя, перед отрисовкой. Другие окна и плагины могут также инициировать загрузку; не считайте событие исключительно ручным открытием.
 
@@ -56477,7 +57397,9 @@ ID `77030`; регистрация `TRIGGER_LOAD_HERO_SCREEN`. Имя подтв
 
 # Поражение в игре (OnLoseGame)
 
+ID: erm.triggers.onlosegame
 URL: /ru/erm/triggers/onlosegame/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Для поражения человека, непосредственно перед OnGameLeave в актуальной реализации. Аргументов нет. Учитывайте отсутствие дальнейшего игрового хода.
 
@@ -56508,7 +57430,9 @@ ID `77048`; регистрация `TRIGGER_LOSE_GAME`. Имя подтверж�
 
 # Открытие окна героя (OnOpenHeroScreen)
 
+ID: erm.triggers.onopenheroscreen
 URL: /ru/erm/triggers/onopenheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой при первом открытии окна. Переключение героя внутри этого окна не повторяет данное событие; используйте OnLoadHeroScreen или OnPreHeroScreen.
 
@@ -56538,7 +57462,9 @@ ID `77004`; регистрация `TRIGGER_OPEN_HEROSCREEN`. Имя подтв�
 
 # Открытие окна найма (OnOpenRecruitDlg)
 
+ID: erm.triggers.onopenrecruitdlg
 URL: /ru/erm/triggers/onopenrecruitdlg/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — активный слот 0..3; x2 — маска флагов (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 — показывать окно (1/0). Аргументы изменяемые. Состояние найма доступно через RD.
 
@@ -56568,7 +57494,9 @@ ID `77023`; регистрация `TRIGGER_OPEN_RECRUIT_DLG`. Имя подтв
 
 # Открытие города (OnOpenTownScreen)
 
+ID: erm.triggers.onopentownscreen
 URL: /ru/erm/triggers/onopentownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город при первом открытии окна.
 
@@ -56598,7 +57526,9 @@ ID `77032`; регистрация `TRIGGER_OPEN_TOWN_SCREEN`. Имя подтв
 
 # После экрана героя (OnPostHeroScreen)
 
+ID: erm.triggers.onpostheroscreen
 URL: /ru/erm/triggers/onpostheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой после ухода с его экрана, включая переключения.
 
@@ -56628,7 +57558,9 @@ ID `77038`; регистрация `TRIGGER_POST_HEROSCREEN`. Имя подтв�
 
 # После экрана города (OnPostTownScreen)
 
+ID: erm.triggers.onposttownscreen
 URL: /ru/erm/triggers/onposttownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город после ухода с его экрана; охватывает закрытие и переключения.
 
@@ -56658,7 +57590,9 @@ ID `77036`; регистрация `TRIGGER_POST_TOWN_SCREEN`. Имя подтв
 
 # Перед экраном героя (OnPreHeroScreen)
 
+ID: erm.triggers.onpreheroscreen
 URL: /ru/erm/triggers/onpreheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой перед отображением, включая переключения.
 
@@ -56688,7 +57622,9 @@ ID `77037`; регистрация `TRIGGER_PRE_HEROSCREEN`. Имя подтве
 
 # Перед экраном города (OnPreTownScreen)
 
+ID: erm.triggers.onpretownscreen
 URL: /ru/erm/triggers/onpretownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — город перед отображением; охватывает открытие и переключения.
 
@@ -56718,7 +57654,9 @@ ID `77035`; регистрация `TRIGGER_PRE_TOWN_SCREEN`. Имя подтв�
 
 # Найм существ (OnRecruitDlgAction)
 
+ID: erm.triggers.onrecruitdlgaction
 URL: /ru/erm/triggers/onrecruitdlgaction/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — количество нанятых существ, только чтение. Через RD можно получить текущую конфигурацию окна.
 
@@ -56748,7 +57686,9 @@ ID `77029`; регистрация `TRIGGER_RECRUIT_DLG_ACTION`. Имя подт
 
 # Клик в окне найма (OnRecruitDlgMouseClick)
 
+ID: erm.triggers.onrecruitdlgmouseclick
 URL: /ru/erm/triggers/onrecruitdlgmouseclick/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Контекст мыши читается через CM, состояние найма — через RD. Для подавления реакции используйте CM:R0, а не только выход из обработчика.
 
@@ -56779,7 +57719,9 @@ ID `77025`; регистрация `TRIGGER_RECRUIT_DLG_MOUSE_CLICK`. Имя п�
 
 # Пересчёт стоимости найма (OnRecruitDlgRecalc)
 
+ID: erm.triggers.onrecruitdlgrecalc
 URL: /ru/erm/triggers/onrecruitdlgrecalc/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — золото за существо; x2 — дополнительный ресурс 0..5 либо -1; x3 — количество этого ресурса за существо. Все три значения изменяемы.
 
@@ -56809,7 +57751,9 @@ ID `77028`; регистрация `TRIGGER_RECRUIT_DLG_RECALC`. Имя подт
 
 # Чтение данных сохранения (OnSavegameRead)
 
+ID: erm.triggers.onsavegameread
 URL: /ru/erm/triggers/onsavegameread/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После восстановления переменных ERM. Аргументов нет. Здесь читают собственные секции; временные указатели прошлого сеанса недействительны.
 
@@ -56840,7 +57784,9 @@ ID `77002`; регистрация `TRIGGER_SAVEGAME_READ`. Имя подтве�
 
 # Запись данных сохранения (OnSavegameWrite)
 
+ID: erm.triggers.onsavegamewrite
 URL: /ru/erm/triggers/onsavegamewrite/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 После записи переменных ERM. Аргументов нет. Здесь записывают собственные секции сохранения; это другая фаза, чем GM1.
 
@@ -56870,7 +57816,9 @@ ID `77001`; регистрация `TRIGGER_SAVEGAME_WRITE`. Имя подтве
 
 # Урон между стеками (OnStackToStackDamage)
 
+ID: erm.triggers.onstacktostackdamage
 URL: /ru/erm/triggers/onstacktostackdamage/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 атакующий и x2 защитник: глобальные индексы либо -1. x3 — исходный итоговый урон (чтение); x4 — изменяемый итоговый урон; x5 — базовый урон; x6 — бонус; x7 — признак стрельбы (не во всех путях определён); x8 — расстояние для теоретического расчёта; x9 — теоретический расчёт (0/1). При x9=1 событие обслуживает прогноз или ИИ: не выдавайте награды, не убивайте стеки и не меняйте состояние игры.
 
@@ -56900,7 +57848,9 @@ ID `77012`; регистрация `TRIGGER_ONSTACKTOSTACKDAMAGE`. Имя под
 
 # Переключение города (OnSwitchTownScreen)
 
+ID: erm.triggers.onswitchtownscreen
 URL: /ru/erm/triggers/onswitchtownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — выбранный город при переключении внутри окна.
 
@@ -56930,7 +57880,9 @@ ID `77034`; регистрация `TRIGGER_SWITCH_TOWN_SCREEN`. Имя подт
 
 # Клик в окне форта (OnTownFortMouseClick)
 
+ID: erm.triggers.ontownfortmouseclick
 URL: /ru/erm/triggers/ontownfortmouseclick/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Контекст CM. В актуальной регистрации имя OnTownFortMouseClick; старое OnTownHallMouseClick переименовано и не зарегистрировано как алиас. Предоставленный Framework всё ещё содержит обработчик старого имени: при переносе проверяйте согласованность версий.
 
@@ -56961,7 +57913,9 @@ ID `77026`; регистрация `TRIGGER_TOWN_FORT_MOUSE_CLICK`. Имя по�
 
 # Перенос героя кампании (OnTransferHero)
 
+ID: erm.triggers.ontransferhero
 URL: /ru/erm/triggers/ontransferhero/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 — герой после переноса, после инструкций ERM и до PI. Может включать неактивных героев кампании; наличие героя не означает присутствие на карте.
 
@@ -56992,7 +57946,9 @@ ID `77049`; регистрация `TRIGGER_TRANSFER_HERO`. Имя подтве�
 
 # Победа в игре (OnWinGame)
 
+ID: erm.triggers.onwingame
 URL: /ru/erm/triggers/onwingame/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Для победы человека, непосредственно перед OnGameLeave в актуальной реализации. Аргументов нет. Старое поведение после OnGameLeave было исправлено.
 
@@ -57023,7 +57979,9 @@ ID `77047`; регистрация `TRIGGER_WIN_GAME`. Имя подтвержд
 
 # После инструкций ERM (PI)
 
+ID: erm.triggers.pi
 URL: /ru/erm/triggers/pi/
+Source references: old-help:tr-pi.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Выполняется после инструкций инициализации новой карты.
 
@@ -57083,7 +58041,9 @@ URL: /ru/erm/triggers/pi/
 
 # Воспроизведение звука (SN)
 
+ID: erm.triggers.sn
 URL: /ru/erm/triggers/sn/
+Source references: old-help:tr-sn.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Перехватывает попытку воспроизвести звуковой эффект WAV/M82. Параметры доступны через SN.
 
@@ -57136,7 +58096,9 @@ URL: /ru/erm/triggers/sn/
 
 # Городской холл (TH)
 
+ID: erm.triggers.th
 URL: /ru/erm/triggers/th/
+Source references: old-help:tr-th.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 вход в городской холл, 1 выход. Можно связать изменения с посещением экрана строительства.
 
@@ -57194,7 +58156,9 @@ URL: /ru/erm/triggers/th/
 
 # Таймер реального времени (TL)
 
+ID: erm.triggers.tl
 URL: /ru/erm/triggers/tl/
+Source references: old-help:tr-tl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Индекс 0 — 1 секунда, 1 — 2 секунды, 2 — 5 секунд, 3 — 10 секунд, 4 — 60 секунд.
 
@@ -57264,7 +58228,9 @@ URL: /ru/erm/triggers/tl/
 
 # Игровой таймер (TM)
 
+ID: erm.triggers.tm
 URL: /ru/erm/triggers/tm/
+Source references: old-help:tr-tm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Срабатывает для таймера 1..100, предварительно настроенного ресивером TM.
 
@@ -57311,7 +58277,9 @@ OnEveryDay вызывается до обычных таймеров и не т�
 
 # UN:C — работа с памятью
 
+ID: erm.un-c
 URL: /ru/erm/un-c/
+Source references: old-help:cont-unc.htm, old-help:cont-unc-lib.htm, erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, era-source:erm.pas
 
 Размеры данных, указатели, переносимые базы и исторические рецепты.
 
@@ -58381,7 +59349,9 @@ The game may fall at any time.^;</code></pre>
 
 # Сила магии внутри боя
 
+ID: erm.un-c.battle-spell-power
 URL: /ru/erm/un-c/battle-spell-power/
+Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html, era-framework:lib-9999-era---consts.erm
 
 Поля силы магии атакующего и защитника находятся в менеджере боя. Этот пример читает их, не меняя постоянные навыки героя.
 
@@ -58418,7 +59388,9 @@ URL: /ru/erm/un-c/battle-spell-power/
 
 # Чтение цвета луча
 
+ID: erm.un-c.beam-color
 URL: /ru/erm/un-c/beam-color/
+Source references: erm-forum:faq-.html
 
 Для чистого h3wog.exe: существа 35..121; 0 зелёный, 1 белый, 2 чёрный.
 
@@ -58454,7 +59426,9 @@ URL: /ru/erm/un-c/beam-color/
 
 # Структура командира
 
+ID: erm.un-c.commander-structure
 URL: /ru/erm/un-c/commander-structure/
+Source references: erm-forum:un-c-page-1.html, old-help:form-commstr.htm
 
 Историческая база 42344640, шаг записи 296 байт. Получение текущего опыта без изменения структуры.
 
@@ -58551,7 +59525,9 @@ inline int Get_NpcSkillPower(_Npc_* npc, int skill_id) {return CALL_2 (int, __th
 
 # Координаты Грааля
 
+ID: erm.un-c.grail-coordinates
 URL: /ru/erm/un-c/grail-coordinates/
+Source references: erm-forum:un-c-page-3.html
 
 Чтение данных Грааля через указатель менеджера игры. Латинские y в примере заменяют случайные кириллические буквы исходного сообщения.
 
@@ -58590,7 +59566,9 @@ URL: /ru/erm/un-c/grail-coordinates/
 
 # Чтение типа снаряда
 
+ID: erm.un-c.projectile-type
 URL: /ru/erm/un-c/projectile-type/
+Source references: erm-forum:faq-.html, old-help:form-weapon.htm
 
 Для чистого h3wog.exe: существа 2..197, таблица по одному байту. Пример только читает значение.
 
@@ -58630,7 +59608,9 @@ URL: /ru/erm/un-c/projectile-type/
 
 # Чтение разрешения игры
 
+ID: erm.un-c.screen-size
 URL: /ru/erm/un-c/screen-size/
+Source references: erm-forum:un-c-page-1.html
 
 Читает ширину и высоту в двухбайтных полях, используемых старой реализацией HD.
 
@@ -58665,7 +59645,9 @@ URL: /ru/erm/un-c/screen-size/
 
 # Таблицы стоимости зданий
 
+ID: erm.un-c.town-building-cost
 URL: /ru/erm/un-c/town-building-cost/
+Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html
 
 Чтение семи ресурсов стоимости: обычные здания 0..16, специальные 17..25, жилища 30..43.
 
@@ -58716,7 +59698,9 @@ URL: /ru/erm/un-c/town-building-cost/
 
 # Переменные, строки и массивы
 
+ID: erm.variables
 URL: /ru/erm/variables/
+Source references: old-help:cont-flags.htm, old-help:cont-usedvar.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm
 
 Типы данных, область действия, именованные переменные, флаги и время жизни массивов.
 

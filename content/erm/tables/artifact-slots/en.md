@@ -65,19 +65,19 @@
 	<td>Miscellaneous 4</td></tr>
 <tr>
 	<td><span class="erm-tone-red">13</span></td>
-	<td><span class="erm-tone-red">Ballista (specialty X1) (combat vehicle 1)</span></td></tr>
+	<td><span class="erm-tone-red">Ballista (war machine 1)</span></td></tr>
 <tr>
 	<td>14</td>
-	<td>Podvoda (combat vehicle 2)</td></tr>
+	<td>Ammo Cart (war machine 2)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">15</span></td>
-	<td><span class="erm-tone-red">Tent (combat vehicle 3)</span></td></tr>
+	<td><span class="erm-tone-red">First Aid First Aid First Aid First Aid First Aid Tent (war machine 3)</span></td></tr>
 <tr>
 	<td>16</td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr>
 	<td><span class="erm-tone-red">17</span></td>
-	<td><span class="erm-tone-red">Book of Spells</span></td></tr>
+	<td><span class="erm-tone-red">Spell Book</span></td></tr>
 <tr>
 	<td>18</td>
 	<td>Miscellaneous 5</td></tr>
@@ -94,7 +94,7 @@
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Artifact positions</span></div>
-<span class="erm-anchor" id="ref-form-ap2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/un/#ref-rec-un-a">UN:A</a><br>
+<span class="erm-anchor" id="ref-form-ap2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/un/#ref-rec-un-a">UN:A</a><br>
 See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -136,16 +136,16 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 	<td>Combat vehicle 1 (ballista)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">11</span></td>
-	<td><span class="erm-tone-red">Combat vehicle 2 (supply)</span></td></tr>
+	<td><span class="erm-tone-red">Combat vehicle 2 (Ammo Cart)</span></td></tr>
 <tr>
 	<td>12</td>
 	<td>Combat vehicle 3 (tent)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">13</span></td>
-	<td><span class="erm-tone-red">Catapult (specialty X1)</span></td></tr>
+	<td><span class="erm-tone-red">Catapult</span></td></tr>
 <tr>
 	<td>14</td>
-	<td>Book of Spells</td></tr>
+	<td>Spell Book</td></tr>
 <tr>
 	<td><span class="erm-tone-red">65</span></td>
 	<td><span class="erm-tone-red">Left ring</span></td></tr>
@@ -183,7 +183,7 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Artifact positions</span></div>
-<span class="erm-anchor" id="ref-form-ap3-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/he/#ref-rec-he-y">HE:Y2</a><br>
+<span class="erm-anchor" id="ref-form-ap3-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/he/#ref-rec-he-y">HE:Y2</a><br>
 See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 	<tr>
@@ -228,11 +228,11 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">9</span></td>
-		<td><span class="erm-tone-red">Combat vehicle 1 (Ballista (specialty X1))</span></td>
+		<td><span class="erm-tone-red">Combat vehicle 1 (Ballista)</span></td>
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Combat vehicle 2 (Podvoda)</td>
+		<td>Combat vehicle 2 (Ammo Cart)</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">11</span></td>
@@ -240,11 +240,11 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 	</tr>
 	<tr>
 		<td>12</td>
-		<td>Catapult (specialty X1) (?)</td>
+		<td>Catapult (?)</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">13</span></td>
-		<td><span class="erm-tone-red">Book of Spells</span></td>
+		<td><span class="erm-tone-red">Spell Book</span></td>
 	</tr>
 	<tr>
 		<td>14 and up</td>

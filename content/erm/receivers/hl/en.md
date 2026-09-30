@@ -16,7 +16,7 @@
 <br><strong><span class="erm-anchor" id="ref-rec-hl-red"></span><span class="erm-tone-red">!!HL:XXXX;</span> - hero level controller.</strong> 
 Allows you to control which skills (<a href="../../framework/constants/hero-skills/#ref-form-primaryskill" data-context="true">primary</a> and 
 <a href="../../tables/secondary-skills/#ref-form-secondaryskill" data-context="true">secondary</a>) will receive hero when gaining a new level. 
-You cannot test or obtain the secondary skills offered, only install them.<br>
+You cannot test or obtain the secondary skills offered, only set them.<br>
 Should only be used after a trigger <a href="../../triggers/hl/#ref-tr-hl">!?HL</a>.</div>
 <hr>
 <div class="erm-paragraph">

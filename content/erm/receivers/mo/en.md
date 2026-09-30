@@ -26,7 +26,7 @@ In both cases, the presence of the creature on the map is not necessary, but the
 You can't set the message to the creature, but you can change the aggressiveness, number, etc. If you try this 
 then you will receive an error message, to avoid this, use option statuses <a href="../un/#ref-rec-un-p904">UN:P904</a>, or values 
 <a href="../ob/#ref-rec-ob-c">OB:C</a> to obtain a check number and process its value. Remember that you can adjust all the parameters of a creature if it is already placed on the map. 
-For all creatures placed by the team <a href="../un/#ref-rec-un-i">UN:I</a>, you can use any command.</div></details>
+For all creatures placed by the command <a href="../un/#ref-rec-un-i">UN:I</a>, you can use any command.</div></details>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -40,7 +40,7 @@ Set/check/get qty. <a href="../../tables/resources/#ref-form-resource" data-cont
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-mo-g"></span><span class="erm-anchor" id="command-g"></span>G$</strong></span><br>
 Set/check/get number of creatures in $.<br>
-<span class="erm-anchor" id="ref-rec-mo-bold"></span><em class="erm-strong">Note:</em> the maximum number of creatures in a squad on the map is 4095 (or 12 bits). With larger values, there is a possibility of data corruption regarding the squad’s aggression.</div>
+<span class="erm-anchor" id="ref-rec-mo-bold"></span><em class="erm-strong">Note:</em> the maximum number of creatures in a stack on the map is 4095 (or 12 bits). With larger values, there is a possibility of data corruption regarding the stack’s aggression.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-mo-m"></span><span class="erm-anchor" id="command-m-text-mz-m1"></span>M^Text^</strong></span><br>

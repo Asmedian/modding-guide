@@ -17,7 +17,7 @@
 <li>Transferring information to the defending player:<br>
  - information about the attacking hero<br>
  - information about the commander of the attacking hero<br>
- - installed <em>v</em>-variables v9001-v10000<br>
+ - set <em>v</em>-variables v9001-v10000<br>
  - all potential changes to creature parameters</li>
 <li>All information sent is accepted by the defending player</li>
 <li>Trigger <strong>!?IP1</strong> enabled for the defending player</li>
@@ -36,7 +36,7 @@
 <li>Transferring information to the attacking player:<br>
  - values of secondary skills of the defending hero (all 28), level and experience<br>
  - information about the commander of the defending hero (in full)<br>
- - installed <em>v</em>-variables v9001-v10000</li>
+ - set <em>v</em>-variables v9001-v10000</li>
 <li>Trigger <a href="../ba/#ref-tr-ba">!?BA1</a> turns on for the defending player</li>
 <li>The attacking player waits for the defender to finish gaining levels</li>
 <li>All information is received by the attacking player</li>

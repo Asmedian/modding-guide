@@ -20,7 +20,7 @@
 First, a hint for a specific object is always searched.<br>
 If it is not found, then it is searched by the type and subtype of any HT (W,V) command<br>
 If not found, then it is searched by type and any subtype.<br>
-The command does not check for object visibility, i.e. you can get a hint text even by clicking on an unknown point with a given description. Use trigger <a href="../../triggers/cm/#ref-tr-cm">!?CM</a> and team <a href="../tr/#ref-rec-tr-v">!!TR:V</a> to eliminate such cases.  
+The command does not check for object visibility, i.e. you can get a hint text even by clicking on an unknown point with a given description. Use trigger <a href="../../triggers/cm/#ref-tr-cm">!?CM</a> and command <a href="../tr/#ref-rec-tr-v">!!TR:V</a> to eliminate such cases.  
 <br>
 <u>Simple example</u> - setting tooltip text for all objects of a certain type and subtype (no changes):
 <pre class="erm-example"><code class="language-erm">ZVSE
@@ -59,7 +59,7 @@ and insert three columns of three types of mushroom buildings on the map with fo
 !?OB63/30;
 !!PO998:Nd1;
 </code></pre></div></details>
-<span class="erm-anchor" id="ref-rec-ht-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="../ob/#ref-rec-ob-h">!!OB:H</a></div>
+<span class="erm-anchor" id="ref-rec-ht-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="../ob/#ref-rec-ob-h">!!OB:H</a></div>
 
 <hr>
 <div class="erm-paragraph">
@@ -75,7 +75,7 @@ Use this method when you need to set a tooltip for an object without changing th
 Set a tooltip for all objects of a certain type and subtype in <em>z</em>-variable (0 = delete)<br>
 For example, you can set a tooltip for an artifact: 
 <span class="erm-anchor" id="ref-rec-ht-erm"></span><span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!HT</strong>5/<a href="../../tables/artifacts/#ref-form-a1" data-context="true" title="... artifact number"><strong>#</strong></a>:T$;</span><br>
-This tooltip will only be used if no other tooltip types are installed.</div>
+This tooltip will only be used if no other tooltip types are set.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ht-v"></span><span class="erm-anchor" id="command-v-1-2-3"></span>V$1/$2/$3</strong></span><br>

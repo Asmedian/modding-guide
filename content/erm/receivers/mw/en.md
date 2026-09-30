@@ -83,7 +83,7 @@ Make the creature wander<br>
         x/y/l – location with an existing creature<br>
         $ – the variable will take the value of the number of the wandering creature. If $ is 0, then 
 stray creature was not created for some reason.<br>
-You can also install the creature via <a href="../mo/#ref-rec-mo">receiver !!MO</a> (by position) after generating a wandering creature through !!MW:P.</div>
+You can also set the creature via <a href="../mo/#ref-rec-mo">receiver !!MO</a> (by position) after generating a wandering creature through !!MW:P.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-mw-p"></span>Px/y/l/#/?$</strong></span><br>

@@ -157,7 +157,7 @@ The syntax is the same as <a href="./#ref-rec-fu-p">FU:P</a>, and, accordingly, 
 the same. To access parameters, use the x# syntax (# = 
 1..16). They can be used anywhere (within a function) like regular ones 
 variables. When you call a function, all parameters that were not 
-installed will be inherited.<br>
+set will be inherited.<br>
 <em>Note:</em> parameter D$1 must be placed in the !!FU call (even if 
 there are no values required to be passed to the function) for the command to work correctly.<br>
 <u>
@@ -177,7 +177,7 @@ To execute correctly you must do some things:
 </code></pre>
 That's all. Operating principle: FU:D transmits everything immediately <em>x</em>-parameters to another 
 computer and call function 12345 there. So the command <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>v10:M...;</span> will work for 
-one computer and team <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
+one computer and command <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
 you will get the same effect on both sides.<br>
 Note that you can pass the values of some variables with the command <a href="../ip/#ref-rec-ip-v">IP:V</a> and then 
 call FU:D to transfer more than 16 <em>x</em>-parameters to another computer.</div></details>
@@ -297,9 +297,9 @@ Provides the ability to query the syntax that was used for a specific function p
 </div><pre>        # – argument index
         $ – syntax type:
 	0 - get: for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:P?y1;</strong>
-	1 - install: for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:P10;</strong>
+	1 - set: for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:P10;</strong>
 	2 - add: applied through the prefix "<em>d</em>", for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:Pd200;</strong></pre>
-<div class="erm-paragraph"><strong><u>Comment</u>:</strong> Using this command, scripters will be able to write functions that will act just like regular ERM commands. For example, one function to get/of installation/adding recruits to creature dwellings.
+<div class="erm-paragraph"><strong><u>Comment</u>:</strong> Using this command, scripters will be able to write functions that will act just like regular ERM commands. For example, one function to get/of setting/adding recruits to creature dwellings.
 </div>
 <hr>
 

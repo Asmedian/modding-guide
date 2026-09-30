@@ -12,7 +12,7 @@
 
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-bg-red"></span><span class="erm-tone-red">!?BG#;</span> 
 - this combat trigger is triggered with every stack or hero action 
-(witchcraft, flight or surrender).<br>
+(spellcasting, retreat, or surrender).<br>
 <span class="erm-tone-red">!?BG1</span>; - triggers when a move is transferred from one creature to another<br>
 <span class="erm-tone-red">!?BG0;</span> - triggers before an action</strong></div>
 <div class="erm-paragraph">Variable <strong>v997</strong> stores the number of the current round:<br>

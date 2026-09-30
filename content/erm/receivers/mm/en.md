@@ -14,7 +14,7 @@
 <div class="erm-paragraph">
 <br>
 <strong><span class="erm-anchor" id="ref-rec-mm-red"></span><span class="erm-tone-red">!!MM:XXXX;</span> 
-- receiver to receive/of installation/checking the text in battle or getting the mouse position on the battlefield.</strong><br>
+- receiver to receive/of setting/checking the text in battle or getting the mouse position on the battlefield.</strong><br>
 <u></u></div><span class="erm-anchor" id="ref-rec-mm-1"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-mm-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <pre class="erm-example"><code class="language-erm">!?MM0;
 !!MM:M?z5;

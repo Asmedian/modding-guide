@@ -47,7 +47,7 @@ You should see the following:
 !!VRv5:Sx1+1-x16;
 !!IF:M^Variable values: x16=%X16 , and v5=%V5^;
 !!VRx16:+7; - jump 8</code></pre>
-Instead of 66 you will get only 9 cycles, with these values:<pre>
+Instead of 66 you will get only 9 loops, with these values:<pre>
 <strong>x16:</strong>	 1	 9	17	25	33	41	49	57	 65
 <strong>v5:</strong>	47	39	31	23	15	 7	-1	-9	-17</pre>
 
@@ -74,11 +74,11 @@ DO1 because the line is inside the FU1 function.
 <div class="erm-tone-quote erm-note"><em class="erm-strong">I have a main function covering all heroes (DO1/0/155/1), 
 but for each hero I have to recognize the creatures in his slots (DO2/0/6/1). How is this possible?</em></div>
 This can be solved by simply “nesting” one function within another.</div></details>
-<div class="erm-tone-quote erm-note erm-paragraph">See also: cycle receivers <a href="../../loops/#ref-rec-re">re/br/co</a></div>
+<div class="erm-tone-quote erm-note erm-paragraph">See also: loop receivers <a href="../../loops/#ref-rec-re">re/br/co</a></div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-do-p"></span><span class="erm-anchor" id="command-p-1-15"></span><strong><span class="erm-tone-red">P$1[/$2/$3/../$16]</span></strong><br>
-$1, $2 … $16 are used to install x1..x16. These parameters can be used anywhere (within the function) 
+$1, $2 … $16 are used to set x1..x16. These parameters can be used anywhere (within the function) 
 instead of using standard variables. When you call another function, all parameters will be inherited.<br>
 The function starts working after specifying the P command, for example:
 <pre class="erm-example"><code class="language-erm">!!DO1/1/15/1:P; - correct
@@ -93,9 +93,9 @@ You can use <em>v</em>, <em>y-</em> or <em>y</em> variables for recording values
 For example:
 <pre class="erm-example"><code class="language-erm">!!FU...:Pv1/v2/v3/?v4;</code></pre>
 Now, if you change the value of the variable x4 inside the function, for example: 
-<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!VR</span>x4:Sx1;</strong>, - the value will be copied to v4 after the end of the cyclic function (cycle). 
+<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!VR</span>x4:Sx1;</strong>, - the value will be copied to v4 after the end of the cyclic function (loop). 
 The value of the variable (v4) itself is not passed to x4 when calling the function; instead, it passes the variable number (in the example x4 will be 4). 
-In a DO receiver, the value of number (4) will be the same for each cycle.<br>
+In a DO receiver, the value of number (4) will be the same for each loop.<br>
 So, if you set it inside the function body, the value will be copied to the destination variable after the loop ends 
 and restored to the variable index at the beginning of the next loop.<br>
 <u></u><span class="erm-anchor" id="ref-rec-do-5"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-do-show5"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -111,7 +111,7 @@ and restored to the variable index at the beginning of the next loop.<br>
 !#IF:M^%Y-1, %Y-2^;
 You will see "0, 0" and then "16, 30"</code></pre></div></details>
 
-<div class="erm-paragraph">Also, you can use the syntax "<strong>=$</strong>" to set the value on each DO cycle. That is, if you change this variable inside the body of the function, the variable will be accepted into the next cycle of the function as changed.<br>
+<div class="erm-paragraph">Also, you can use the syntax "<strong>=$</strong>" to set the value on each DO loop. That is, if you change this variable inside the body of the function, the variable will be accepted into the next loop of the function as changed.<br>
 <em class="erm-strong">Note:</em> use this syntax for cyclic. functions very carefully, otherwise your script will not work as intended, and you will not immediately understand the cause of the error.</div>
 <u></u><span class="erm-anchor" id="ref-rec-do-6"></span><details class="erm-comment"><summary>Examples (<span class="erm-anchor" id="ref-rec-do-show6"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"><div class="erm-paragraph">
 <pre class="erm-example"><code class="language-erm">...
@@ -119,14 +119,14 @@ You will see "0, 0" and then "16, 30"</code></pre></div></details>
 !!DO3...:P=v35;
 !?FU3;
 !!VRv35:Sx1 +1;</code></pre>
-In this case, you will get x1 values ​​of 10, 11, 12, 13... at the start of each cycle.<br>
+In this case, you will get x1 values ​​of 10, 11, 12, 13... at the start of each loop.<br>
 But if you write the code like
 <pre class="erm-example"><code class="language-erm">...
 !!VRv35:S10;
 !!DO3...:Pv35;
 !?FU3;
 !!VRv35:Sx1 +1;</code></pre>
-then x1 will be 10, 10, 10... at the beginning of each cycle.<br>
+then x1 will be 10, 10, 10... at the beginning of each loop.<br>
 You can use several of these variables in a function.</div>
 <div class="erm-paragraph">You can use similar variables (see example below) with the syntax "<strong>?$</strong>" and "<strong>=$</strong>".
 <pre class="erm-example"><code class="language-erm">!?FU2;

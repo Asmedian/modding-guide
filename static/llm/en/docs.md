@@ -1,6 +1,8 @@
 # ERA documentation
 
+ID: docs.overview
 URL: /en/docs/
+Source references: era-source:gameext, era-source:lodman
 
 A starting point for the platform, mod structure, game resources, and practical tools.
 
@@ -33,7 +35,9 @@ General documentation, the ERM reference, and the plugin development section are
 
 # The ERA platform
 
+ID: docs.era
 URL: /en/docs/era/
+Source references: era-source:gameext, era-source:era, era-source:lodman
 
 ERA’s role between Heroes III, mods, resources, and extensions during game startup.
 
@@ -51,7 +55,9 @@ The archive manager loads extra PAC files from `Data`, searches registered archi
 
 # Mod compatibility and order
 
+ID: docs.era.compatibility
 URL: /en/docs/era/compatibility/
+Source references: era-tools:mod-manager-format, era-changelog:3
 
 Declare dependencies, priority, and conflicts without relying on accidental load order.
 
@@ -89,7 +95,9 @@ If the problem follows order, identify the exact resource name supplied by both 
 
 # Creating your first mod
 
+ID: docs.era.creating-mod
 URL: /en/docs/era/creating-mod/
+Source references: era-source:lodman, era-changelog:3, era-tools:mod-manager-format
 
 Move from an empty directory to an enabled mod with metadata, one resource, and a repeatable test.
 
@@ -147,7 +155,9 @@ Store editable source assets separately from exported game files. A project repo
 
 # Installing ERA
 
+ID: docs.era.installation
 URL: /en/docs/era/installation/
+Source references: era-project-rus:readme, era-project-eng:readme
 
 Official installation, update, and removal steps for Heroes Launcher and manual setups.
 
@@ -185,7 +195,9 @@ In Heroes Launcher, open the gear menu, choose Uninstall, optionally keep the ba
 
 # Mod structure
 
+ID: docs.era.mod-structure
 URL: /en/docs/era/mod-structure/
+Source references: era-source:lodman, era-changelog:3
 
 What an ERA mod is and which directories, resources, and files it can contain.
 
@@ -241,7 +253,9 @@ When the result is unexpected, search for a conflict by exact resource name. Che
 
 # Game architecture for mod authors
 
+ID: docs.game
 URL: /en/docs/game/
+Source references: era-source:gameext, era-source:reslib, era-source:lodman
 
 The smallest useful model of startup, virtual resources, and caching for diagnosing a content mod.
 
@@ -271,7 +285,9 @@ If a task requires memory addresses, binary patches, or calls to internal functi
 
 # How ERA loads resources
 
+ID: docs.game.resource-loading
 URL: /en/docs/game/resource-loading/
+Source references: era-source:lodman, era-source:reslib, era-source:gameext, era-changelog:3
 
 A practical model of the VFS, archives, redirections, and caching for conflict diagnosis.
 
@@ -319,7 +335,9 @@ Use this order: confirm the disk file, confirm the mod is enabled, exclude a hig
 
 # Resource formats
 
+ID: docs.game.resources
 URL: /en/docs/game/resources/
+Source references: era-source:lodman, era-source:reslib, era-changelog:3, old-help:index
 
 A map of important game and ERA formats, their roles, and safe verification steps.
 
@@ -358,7 +376,9 @@ Classic resources include WAV audio, `.BIK` and `.SMK` video, and `.FNT` game fo
 
 # Glossary
 
+ID: docs.glossary
 URL: /en/docs/glossary/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib, old-help:index
 
 Agreed Russian and English terminology for the general ERA documentation.
 
@@ -391,24 +411,28 @@ Agreed Russian and English terminology for the general ERA documentation.
 
 # LLM content map
 
+ID: docs.llm-map
 URL: /en/docs/llm-map/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 A human-readable page index with links to compact machine-readable representations.
 
 ## How to use it {#usage}
 
-Begin with `/llms.txt` for a short map, then open `/llm/manifest.json` when you need stable IDs, locales, keywords, questions, and relationships. Full published article text is available in `/llm/ru/docs.md` and `/llm/en/docs.md`.
+Begin with [llms.txt](/llms.txt) for a short map, then open [manifest.json](/llm/manifest.json) for stable IDs, locales, keywords, questions, article relationships, and section-level source references. The map covers all published material: documentation, ERM scripting, and plugin development, including H3API and NH3API. The ERM course and Lua are not yet published; their status is recorded in the manifest.
 
-## Limits {#limits}
-
-ERM scripting and plugins are not part of the current manifest. Do not report their absence as a coverage error: those sections are intentionally deferred. Link technical claims to `sourceRefs` instead of inferring them from a title or keyword alone.
+Full text is available in six files, one per section and language. The ERM files include code examples, tables, links, captions, and the text of expandable comments. Resolve relative links against the canonical article URL listed before its content. Verify technical claims using `sourceRefs` and `sectionSources`; source descriptions, versions, paths, and exact locators are available in [sources.json](/llm/sources.json).
 
 ## Machine-readable files {#machine-files}
 
-- `/llms.txt` — short entry point;
-- `/llms-full.txt` — complete compact catalog;
-- `/llm/manifest.json` — structured entities;
-- `/llm/{lang}/docs.md` — documentation content for each locale.
+- [llms.txt](/llms.txt) — short entry point;
+- [llms-full.txt](/llms-full.txt) — complete catalog for both locales;
+- [manifest.json](/llm/manifest.json) — all published entities, relationships, and section-level sources;
+- [sources.json](/llm/sources.json) — source descriptions, versions, locators, and checksums;
+- [reference.json](/llm/reference.json) — ERM commands, receivers, events, functions, constants, globals, and alphabetical index;
+- documentation: [Russian](/llm/ru/docs.md) · [English](/llm/en/docs.md);
+- ERM scripting: [Russian](/llm/ru/erm.md) · [English](/llm/en/erm.md);
+- plugins: [Russian](/llm/ru/plugins.md) · [English](/llm/en/plugins.md).
 
 ## Generated catalog {#catalog}
 
@@ -418,7 +442,9 @@ The build lists every published entity for the current locale below, including i
 
 # Quick Start
 
+ID: docs.quick-start
 URL: /en/docs/quick-start/
+Source references: era-source:gameext, era-source:lodman, era-changelog:3
 
 From an installed ERA game to the first working ERM script in your own mod.
 
@@ -480,7 +506,9 @@ Continue with [Mod structure](../era/mod-structure/) to learn what the directori
 
 # Site structure
 
+ID: docs.site-structure
 URL: /en/docs/site-structure/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 How routes, locales, search, sources, and machine-readable representations fit together.
 
@@ -510,7 +538,9 @@ A small title and keyword index opens immediately, while Pagefind builds a full-
 
 # ERA tool catalog
 
+ID: docs.tools.catalog
 URL: /en/docs/tools/catalog/
+Source references: era-tools:mmarchive-help, era-tools:defpreview-help, era-tools:binmagic-help, era-tools:evme-help, era-tools:template-editor-help, era-tools:unc-to-bin, era-tools:mod-manager-format, era-tools:rsbink-player-help, era-tools:exe-builder-help, era-tools:def-tool-binary, era-tools:dialogs-editor-binary, era-tools:object-txt-editor-binary, era-tools:txt-editor-binary, era-tools:vfs-test-binary
 
 A verified inventory of the bundled Tools programs, grouped by task and risk level.
 
@@ -580,7 +610,9 @@ The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optim
 
 # Troubleshooting
 
+ID: docs.troubleshooting
 URL: /en/docs/troubleshooting/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib, era-tools:mod-manager-format, era-tools:vfs-test-binary
 
 A repeatable path from a clean startup to a precise report for a conflict or invalid resource.
 
@@ -623,7 +655,9 @@ A good report lets another person reproduce the fault without guessing and test 
 
 # What Is a Mod?
 
+ID: docs.what-is-a-mod
 URL: /en/docs/what-is-a-mod/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 What a Heroes III mod contains, how ERA loads its files, and why changes should remain separate from the original game.
 

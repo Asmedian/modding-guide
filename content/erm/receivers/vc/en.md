@@ -63,7 +63,7 @@ Marked:<br>
 </li><li>Timers: TM1…TM100 <br>
 - marked 't' if trigger was found<br>
 - marked 'r' if receiver or instruction were found</li>
-<li>Functions/cycles: FU1…FU30000, DO1…DO30000<br>
+<li>Functions/loops: FU1…FU30000, DO1…DO30000<br>
 - marked 't' if trigger (the function itself) was found<br>
 - marked 'r' if receiver or an instruction calling the function was found<br>
 - marked 'd' if receiver or the instruction causing the loop was found</li></ol>

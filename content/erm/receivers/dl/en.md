@@ -151,7 +151,7 @@ It will work for active dialogue and on any object.<br>
 which will be executed (called if we are talking about a function) upon exiting the current block of code (usually a function).<br>
 Using examples <span class="erm-anchor" id="ref-rec-dl-n1"></span><strong class="erm-tone-purple erm-strong">Glory</strong> it can be seen that with each dialog event (such as mouse movement) a certain ERM function is called, 
 which controls all other logic. In the function we choose which actions to react to and what to ignore. 
-Team <span class="erm-anchor" id="ref-rec-dl-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">DL</span>:C1</strong> would be a normal function if it closed the dialog and immediately exited the current block of code. 
+Command <span class="erm-anchor" id="ref-rec-dl-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">DL</span>:C1</strong> would be a normal function if it closed the dialog and immediately exited the current block of code. 
 But the code is executed right up to the end of the trigger.</div></div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>

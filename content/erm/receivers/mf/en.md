@@ -20,7 +20,7 @@ You can ignore the damage completely using the E0 command.<br>
 To simulate a magic block ability via ERM, you can use trigger <a href="../../triggers/mf/#ref-tr-mf">!?MF</a>, calculate the chance of the block triggering, 
 cancel damage command <a href="./#ref-rec-mf-e">MF:E0</a>, show block animation with <a href="../bm/#ref-rec-bm-v">BM:V84</a> 
 (and also <a href="../bm/#ref-rec-bm-f">set flag</a> "stack has taken a protective position" for greater realism) 
-and add a corresponding message to the team’s combat sheet <a href="../mm/#ref-rec-mm-s">MM:S</a>.</div></details>
+and add a corresponding message to the command’s combat sheet <a href="../mm/#ref-rec-mm-s">MM:S</a>.</div></details>
 <span class="erm-anchor" id="ref-rec-mf-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: trigger <a href="../../triggers/mf/#ref-tr-mf">!?MF</a></div>
 <hr>
 <div class="erm-paragraph">

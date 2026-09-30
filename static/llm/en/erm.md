@@ -1,6 +1,8 @@
 # ERM scripts
 
+ID: erm.overview
 URL: /en/erm/
+Source references: old-help:cont-triggersol.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-abouthelp.htm, old-help:cont-links.htm, old-help:cont-main.htm, old-help:cont-wogteam.htm, old-help:index.htm, old-help:titre.htm
 
 Game events, ERM commands, and the ERA ERM Framework library.
 
@@ -26,12 +28,12 @@ turn off automatically.<br>
 
 </div>
 <div class="erm-paragraph">The reference book uses the following <strong>notation system</strong>:<br>
-If any parameter is displayed as <strong>#</strong>, then it cannot be verified or obtained, it can only be installed.<br>
+If any parameter is displayed as <strong>#</strong>, then it can only be set; it cannot be checked or retrieved.<br>
 If any parameter is displayed as <strong>?$</strong>, then it can only be written to a variable; it cannot be set or checked.<br>
-If any parameter is displayed as <strong>$</strong>, then it can be installed, verified or retrieved.<br>
+If any parameter is displayed as <strong>$</strong>, then it can be set, checked, or retrieved.<br>
 This is all true unless the command comment states otherwise.</div>
 
-<div class="erm-paragraph"><strong>Install</strong> value - direct recording of the value.<br>
+<div class="erm-paragraph"><strong>Set</strong> value - direct recording of the value.<br>
 <strong>Check</strong> value - checking the value and writing the result to flag 1.<br>
 <strong>Get</strong> value - writing a value to a variable.<br>
 <u>Examples</u>:
@@ -39,10 +41,9 @@ This is all true unless the command comment states otherwise.</div>
 !!OW:R0/6/=9000; - flag 1 will be true if Red has exactly 9000 gold, and false if not.
 !!OW:R0/6/?v1;	 - write the amount of Red gold into the variable v1.</code></pre></div>
 
-<div class="erm-paragraph">If you wish <strong>install</strong> any<strong> parameter</strong> to the value <strong>0</strong>, you can simply not specify anything in place of the number.
+<div class="erm-paragraph">To <strong>set</strong> a<strong> parameter</strong> to <strong>0</strong>, omit its numeric value.
 <pre class="erm-example"><code class="language-erm">;Command !!OW:R/6/9000; is equivalent to the command !!OW:R0/6/9000;</code></pre>
-If a command contains many parameters, and their zero value means “nothing” (for example, for <a href="receivers/if/#ref-rec-if-g">IF:G</a>), you
-you can simply omit further parameters.<br>
+If a command contains many parameters, and their zero value means “nothing” (for example, for <a href="receivers/if/#ref-rec-if-g">IF:G</a>), you can simply omit trailing parameters.<br>
 For example...
 <pre class="erm-example"><code class="language-erm">!!IF:G1/1/0/33/34/35/36/37;		#1
 !!IF:G1/1/0/33/34/35/36/37////////;	#2</code></pre>
@@ -95,7 +96,9 @@ Framework is an ERM library providing functions, constants, and prepared event c
 
 # ERM debugging and compatibility
 
+ID: erm.compatibility
 URL: /en/erm/compatibility/
+Source references: era-changelog:era-ii-changelog.txt, era-changelog:era-iii-changelog.txt, era-source:erm.pas, era-framework:lib-9999-era---stdlib.erm, old-help:cont-hd.htm, old-help:cont-te.htm, old-help:era-index.htm
 
 Version differences, execution context and script validation.
 
@@ -165,7 +168,7 @@ Main tasks solved by the project:</h3>
 <ul>
 <li> Ability to use third-party plug-ins and patches;</li>
 <li> Correcting errors in the game and the ERM scripting language, simplifying development and debugging, increasing script compatibility;</li>
-<li> ERM Language Extension <a href="../receivers/sn/#ref-rec-sn-era">new teams</a> and <a href="../triggers/#ref-era-new-events">events</a>;</li>
+<li> ERM Language Extension <a href="../receivers/sn/#ref-rec-sn-era">new commands</a> and <a href="../triggers/#ref-era-new-events">events</a>;</li>
 <li> <a href="../receivers/if/#ref-era-color-text">Colored text</a> in game dialogues;</li>
 <li> Simplifying the creation and installation of mods;</li>
 <li> <a href="../receivers/sn/#ref-era-api">Unification</a> and standardization of game engine development.</li>
@@ -254,7 +257,9 @@ The archived ERM Help describes historical behavior. The rules below and the ver
 
 # Conditions and branches
 
+ID: erm.conditions
 URL: /en/erm/conditions/
+Source references: old-help:cont-triggersol.htm, old-help:cont-flags.htm, old-help:rec-iee.htm, old-help:rec-re.htm, old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 
 Variable and flag checks, AND/OR conditions, and if/el/en blocks.
 
@@ -382,7 +387,9 @@ ZVSE2
 
 # ERM examples
 
+ID: erm.examples
 URL: /en/erm/examples/
+Source references: era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-lib.htm
 
 Small examples with explained preconditions and results.
 
@@ -396,7 +403,7 @@ Small examples with explained preconditions and results.
 <span class="erm-anchor" id="ref-cont-lib-text"></span><div>
 
 <div class="erm-align-center erm-paragraph"><strong><span class="erm-source-title">Function library UN:C</span></strong></div>
-<div class="erm-align-left erm-paragraph"><span>Team <a href="../receivers/un/#ref-rec-un-c">UN:C</a> works with memory. Using it, you can edit even those areas of heroes 
+<div class="erm-align-left erm-paragraph"><span>Command <a href="../receivers/un/#ref-rec-un-c">UN:C</a> works with memory. Using it, you can edit even those areas of heroes 
 which seemed beyond the reachable. Here are a few useful features that are not standard. Use it!</span></div>
 <div class="erm-align-center erm-paragraph"><span class="erm-source-title"><strong><span class="erm-anchor" id="ref-cont-lib-portal1"></span>Controlling the type of creature hired in the Summoning Portal</strong></span></div>
 <div class="erm-align-left erm-paragraph">
@@ -551,7 +558,7 @@ Using the function:<br>
 translucent)<br>
 For example, translucency is like prayer, resurrection, healing, 
 fear...<br>
-Opaque: Morality, curse, old age, illness, ... <br>
+Opaque: Morale, curse, old age, illness, ... <br>
 <br>
 Any def files work, even from an adventure map, any. Animation 
 plays once and then disappears.<div class="erm-paragraph"><em>Unfortunately the script is now 
@@ -596,7 +603,9 @@ Check new games and loading, repeated invocation and missing objects; for combat
 
 # SN:E — calling by address
 
+ID: erm.examples.sn-e
 URL: /en/erm/examples/sn-e/
+Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 
 Resolve GetKeyState from user32.dll, check the export, then call with left Shift code 160. The pressed state is bit 15 of the SHORT result; the example does not mutate game state.
 
@@ -637,7 +646,9 @@ Call `!!FU(MyMod_ReadShift):P?(pressed:y);`. Requires Windows and ERA. UI handle
 
 # SN:F — calling an export
 
+ID: erm.examples.sn-f
 URL: /en/erm/examples/sn-f/
+Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 
 SN:F resolves and caches GetKeyState. Copy the result from v1 into the output argument immediately, then restore v1. Export names and ABI cannot be selected by superficial similarity.
 
@@ -673,7 +684,9 @@ Call `!!FU(MyMod_ReadShift):P?(pressed:y);`. Requires Windows and ERA. UI handle
 
 # ERA ERM Framework
 
+ID: erm.framework
 URL: /en/erm/framework/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 
 Standard helper library, event context and named constants.
 
@@ -705,7 +718,9 @@ The catalog distinguishes public, internal, event-handler, quit-handler and requ
 
 # ERA ERM Framework constants
 
+ID: erm.framework.constants
 URL: /en/erm/framework/constants/
+Source references: era-framework:lib-9999-era---consts.erm, era-framework:lib-9999-era---key-codes.erm, era-framework:lib-9999-era---stdlib.erm
 
 1838 definitions: game IDs, flags, command parameters, and key codes.
 
@@ -785,7 +800,9 @@ Use `(RES_GOLD)` instead of a numeric resource ID when the Framework constants f
 
 # Army Slots
 
+ID: erm.framework.constants.army-slots
 URL: /en/erm/framework/constants/army-slots/
+Source references: era-framework:lib-9999-era---consts.erm
 
 9 named values: army slots.
 
@@ -815,7 +832,9 @@ The **Army Slots** group from the supplied Framework. Names and values below cor
 
 # Artifact Modifiers
 
+ID: erm.framework.constants.artfiact-modifiers
 URL: /en/erm/framework/constants/artfiact-modifiers/
+Source references: era-framework:lib-9999-era---consts.erm
 
 1 named values: artifact modifiers.
 
@@ -841,7 +860,9 @@ The **Artifact Modifiers** group from the supplied Framework. Names and values b
 
 # Artifacts
 
+ID: erm.framework.constants.artifacts
 URL: /en/erm/framework/constants/artifacts/
+Source references: era-framework:lib-9999-era---consts.erm
 
 177 named values: artifacts.
 
@@ -1043,7 +1064,9 @@ The **Artifacts** group from the supplied Framework. Names and values below corr
 
 # Assembler
 
+ID: erm.framework.constants.assembler
 URL: /en/erm/framework/constants/assembler/
+Source references: era-framework:lib-9999-era---consts.erm
 
 3 named values: assembler.
 
@@ -1071,7 +1094,9 @@ This group contains internal values, offsets, or addresses. They describe the su
 
 # Battle Actions
 
+ID: erm.framework.constants.battle-actions
 URL: /en/erm/framework/constants/battle-actions/
+Source references: era-framework:lib-9999-era---consts.erm
 
 14 named values: battle actions.
 
@@ -1106,7 +1131,9 @@ The **Battle Actions** group from the supplied Framework. Names and values below
 
 # Battle Hexes
 
+ID: erm.framework.constants.battle-hexes
 URL: /en/erm/framework/constants/battle-hexes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 3 named values: battle hexes.
 
@@ -1130,7 +1157,9 @@ The **Battle Hexes** group from the supplied Framework. Names and values below c
 
 # Battle Type Flags
 
+ID: erm.framework.constants.battle-type-flags
 URL: /en/erm/framework/constants/battle-type-flags/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: battle type flags.
 
@@ -1161,7 +1190,9 @@ The **Battle Type Flags** group from the supplied Framework. Names and values be
 
 # Battle
 
+ID: erm.framework.constants.battle
 URL: /en/erm/framework/constants/battle/
+Source references: era-framework:lib-9999-era---consts.erm
 
 18 named values: battle.
 
@@ -1204,7 +1235,9 @@ The **Battle** group from the supplied Framework. Names and values below corresp
 
 # Bit Masks
 
+ID: erm.framework.constants.bit-masks
 URL: /en/erm/framework/constants/bit-masks/
+Source references: era-framework:lib-9999-era---consts.erm
 
 32 named values: bit masks.
 
@@ -1261,7 +1294,9 @@ The **Bit Masks** group from the supplied Framework. Names and values below corr
 
 # Bit Sizes
 
+ID: erm.framework.constants.bit-sizes
 URL: /en/erm/framework/constants/bit-sizes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: bit sizes.
 
@@ -1291,7 +1326,9 @@ The **Bit Sizes** group from the supplied Framework. Names and values below corr
 
 # Bits
 
+ID: erm.framework.constants.bits
 URL: /en/erm/framework/constants/bits/
+Source references: era-framework:lib-9999-era---consts.erm
 
 32 named values: bits.
 
@@ -1344,7 +1381,9 @@ The **Bits** group from the supplied Framework. Names and values below correspon
 
 # Bm:G Field Offsets
 
+ID: erm.framework.constants.bm-g-field-offsets
 URL: /en/erm/framework/constants/bm-g-field-offsets/
+Source references: era-framework:lib-9999-era---consts.erm
 
 14 named values: bm:g field offsets.
 
@@ -1383,7 +1422,9 @@ This group contains internal values, offsets, or addresses. They describe the su
 
 # Calling Conventions
 
+ID: erm.framework.constants.calling-conventions
 URL: /en/erm/framework/constants/calling-conventions/
+Source references: era-framework:lib-9999-era---consts.erm
 
 11 named values: calling conventions.
 
@@ -1419,7 +1460,9 @@ The **Calling Conventions** group from the supplied Framework. Names and values 
 
 # Character Codes
 
+ID: erm.framework.constants.character-codes
 URL: /en/erm/framework/constants/character-codes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 62 named values: character codes.
 
@@ -1502,7 +1545,9 @@ The **Character Codes** group from the supplied Framework. Names and values belo
 
 # Data Types
 
+ID: erm.framework.constants.data-types
 URL: /en/erm/framework/constants/data-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 21 named values: data types.
 
@@ -1548,7 +1593,9 @@ The **Data Types** group from the supplied Framework. Names and values below cor
 
 # Dialog Action Types
 
+ID: erm.framework.constants.dialog-action-types
 URL: /en/erm/framework/constants/dialog-action-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: dialog action types.
 
@@ -1578,7 +1625,9 @@ The **Dialog Action Types** group from the supplied Framework. Names and values 
 
 # Dialog Item Ids
 
+ID: erm.framework.constants.dialog-item-ids
 URL: /en/erm/framework/constants/dialog-item-ids/
+Source references: era-framework:lib-9999-era---consts.erm
 
 92 named values: dialog item ids.
 
@@ -1695,7 +1744,9 @@ The **Dialog Item Ids** group from the supplied Framework. Names and values belo
 
 # Dialogs
 
+ID: erm.framework.constants.dialogs
 URL: /en/erm/framework/constants/dialogs/
+Source references: era-framework:lib-9999-era---consts.erm
 
 18 named values: dialogs.
 
@@ -1738,7 +1789,9 @@ The **Dialogs** group from the supplied Framework. Names and values below corres
 
 # Era Chat Event
 
+ID: erm.framework.constants.era-chat-event
 URL: /en/erm/framework/constants/era-chat-event/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: era chat event.
 
@@ -1765,7 +1818,9 @@ The **Era Chat Event** group from the supplied Framework. Names and values below
 
 # Erm Commands
 
+ID: erm.framework.constants.erm-commands
 URL: /en/erm/framework/constants/erm-commands/
+Source references: era-framework:lib-9999-era---consts.erm
 
 9 named values: erm commands.
 
@@ -1799,7 +1854,9 @@ The **Erm Commands** group from the supplied Framework. Names and values below c
 
 # Erm Flags
 
+ID: erm.framework.constants.erm-flags
 URL: /en/erm/framework/constants/erm-flags/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: erm flags.
 
@@ -1824,7 +1881,9 @@ The **Erm Flags** group from the supplied Framework. Names and values below corr
 
 # Game Functions
 
+ID: erm.framework.constants.game-functions
 URL: /en/erm/framework/constants/game-functions/
+Source references: era-framework:lib-9999-era---consts.erm
 
 2 named values: game functions.
 
@@ -1851,7 +1910,9 @@ This group contains internal values, offsets, or addresses. They describe the su
 
 # Game Limits
 
+ID: erm.framework.constants.game-limits
 URL: /en/erm/framework/constants/game-limits/
+Source references: era-framework:lib-9999-era---consts.erm
 
 12 named values: game limits.
 
@@ -1888,7 +1949,9 @@ The **Game Limits** group from the supplied Framework. Names and values below co
 
 # Game Managers
 
+ID: erm.framework.constants.game-managers
 URL: /en/erm/framework/constants/game-managers/
+Source references: era-framework:lib-9999-era---consts.erm
 
 10 named values: game managers.
 
@@ -1927,7 +1990,9 @@ This group contains internal values, offsets, or addresses. They describe the su
 
 # Game Settings
 
+ID: erm.framework.constants.game-settings
 URL: /en/erm/framework/constants/game-settings/
+Source references: era-framework:lib-9999-era---consts.erm
 
 39 named values: game settings.
 
@@ -1987,7 +2052,9 @@ The **Game Settings** group from the supplied Framework. Names and values below 
 
 # Game Structures
 
+ID: erm.framework.constants.game-structures
 URL: /en/erm/framework/constants/game-structures/
+Source references: era-framework:lib-9999-era---consts.erm
 
 26 named values: game structures.
 
@@ -2042,7 +2109,9 @@ This group contains internal values, offsets, or addresses. They describe the su
 
 # Game Types
 
+ID: erm.framework.constants.game-types
 URL: /en/erm/framework/constants/game-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: game types.
 
@@ -2069,7 +2138,9 @@ The **Game Types** group from the supplied Framework. Names and values below cor
 
 # H3 Dialog Commands
 
+ID: erm.framework.constants.h3-dialog-commands
 URL: /en/erm/framework/constants/h3-dialog-commands/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: h3 dialog commands.
 
@@ -2099,7 +2170,9 @@ The **H3 Dialog Commands** group from the supplied Framework. Names and values b
 
 # H3 Dialog Picture Types
 
+ID: erm.framework.constants.h3-dialog-picture-types
 URL: /en/erm/framework/constants/h3-dialog-picture-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 47 named values: h3 dialog picture types.
 
@@ -2171,7 +2244,9 @@ The **H3 Dialog Picture Types** group from the supplied Framework. Names and val
 
 # H3 Dialog Text Alignment
 
+ID: erm.framework.constants.h3-dialog-text-alignment
 URL: /en/erm/framework/constants/h3-dialog-text-alignment/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: h3 dialog text alignment.
 
@@ -2202,7 +2277,9 @@ The **H3 Dialog Text Alignment** group from the supplied Framework. Names and va
 
 # H3 Message Dialog Types
 
+ID: erm.framework.constants.h3-message-dialog-types
 URL: /en/erm/framework/constants/h3-message-dialog-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: h3 message dialog types.
 
@@ -2228,7 +2305,9 @@ The **H3 Message Dialog Types** group from the supplied Framework. Names and val
 
 # Hero Artifact Levels
 
+ID: erm.framework.constants.hero-artifact-levels
 URL: /en/erm/framework/constants/hero-artifact-levels/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: hero artifact levels.
 
@@ -2255,7 +2334,9 @@ The **Hero Artifact Levels** group from the supplied Framework. Names and values
 
 # Hero Artifact Slots
 
+ID: erm.framework.constants.hero-artifact-slots
 URL: /en/erm/framework/constants/hero-artifact-slots/
+Source references: era-framework:lib-9999-era---consts.erm
 
 28 named values: hero artifact slots.
 
@@ -2308,7 +2389,9 @@ The **Hero Artifact Slots** group from the supplied Framework. Names and values 
 
 # Hero Classes
 
+ID: erm.framework.constants.hero-classes
 URL: /en/erm/framework/constants/hero-classes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 20 named values: hero classes.
 
@@ -2349,7 +2432,9 @@ The **Hero Classes** group from the supplied Framework. Names and values below c
 
 # Hero Skills
 
+ID: erm.framework.constants.hero-skills
 URL: /en/erm/framework/constants/hero-skills/
+Source references: era-framework:lib-9999-era---consts.erm, old-help:form-primaryskill.htm
 
 41 named values: hero skills.
 
@@ -2437,7 +2522,9 @@ The **Hero Skills** group from the supplied Framework. Names and values below co
 
 # Heroes
 
+ID: erm.framework.constants.heroes
 URL: /en/erm/framework/constants/heroes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 164 named values: heroes.
 
@@ -2626,7 +2713,9 @@ The **Heroes** group from the supplied Framework. Names and values below corresp
 
 # Key Codes
 
+ID: erm.framework.constants.key-codes
 URL: /en/erm/framework/constants/key-codes/
+Source references: era-framework:lib-9999-era---key-codes.erm, old-help:form-keys.htm
 
 171 named values: key codes.
 
@@ -3040,7 +3129,9 @@ The **Key Codes** group from the supplied Framework. Names and values below corr
 
 # Monster Aggression Level
 
+ID: erm.framework.constants.monster-aggression-level
 URL: /en/erm/framework/constants/monster-aggression-level/
+Source references: era-framework:lib-9999-era---consts.erm
 
 10 named values: monster aggression level.
 
@@ -3071,7 +3162,9 @@ The **Monster Aggression Level** group from the supplied Framework. Names and va
 
 # Monster Flags
 
+ID: erm.framework.constants.monster-flags
 URL: /en/erm/framework/constants/monster-flags/
+Source references: era-framework:lib-9999-era---consts.erm
 
 32 named values: monster flags.
 
@@ -3124,7 +3217,9 @@ The **Monster Flags** group from the supplied Framework. Names and values below 
 
 # Monsters
 
+ID: erm.framework.constants.monsters
 URL: /en/erm/framework/constants/monsters/
+Source references: era-framework:lib-9999-era---consts.erm
 
 205 named values: monsters.
 
@@ -3354,7 +3449,9 @@ The **Monsters** group from the supplied Framework. Names and values below corre
 
 # Mouse Click Subtypes
 
+ID: erm.framework.constants.mouse-click-subtypes
 URL: /en/erm/framework/constants/mouse-click-subtypes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: mouse click subtypes.
 
@@ -3383,7 +3480,9 @@ The **Mouse Click Subtypes** group from the supplied Framework. Names and values
 
 # Mouse Clicks
 
+ID: erm.framework.constants.mouse-clicks
 URL: /en/erm/framework/constants/mouse-clicks/
+Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: mouse clicks.
 
@@ -3409,7 +3508,9 @@ The **Mouse Clicks** group from the supplied Framework. Names and values below c
 
 # Mouse Wheel Subtypes
 
+ID: erm.framework.constants.mouse-wheel-subtypes
 URL: /en/erm/framework/constants/mouse-wheel-subtypes/
+Source references: era-framework:lib-9999-era---consts.erm
 
 2 named values: mouse wheel subtypes.
 
@@ -3432,7 +3533,9 @@ The **Mouse Wheel Subtypes** group from the supplied Framework. Names and values
 
 # Object Types
 
+ID: erm.framework.constants.object-types
 URL: /en/erm/framework/constants/object-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 230 named values: object types.
 
@@ -3687,7 +3790,9 @@ The **Object Types** group from the supplied Framework. Names and values below c
 
 # Player Bits
 
+ID: erm.framework.constants.player-bits
 URL: /en/erm/framework/constants/player-bits/
+Source references: era-framework:lib-9999-era---consts.erm
 
 8 named values: player bits.
 
@@ -3716,7 +3821,9 @@ The **Player Bits** group from the supplied Framework. Names and values below co
 
 # Players
 
+ID: erm.framework.constants.players
 URL: /en/erm/framework/constants/players/
+Source references: era-framework:lib-9999-era---consts.erm
 
 15 named values: players.
 
@@ -3756,7 +3863,9 @@ The **Players** group from the supplied Framework. Names and values below corres
 
 # Quest Rewards
 
+ID: erm.framework.constants.quest-rewards
 URL: /en/erm/framework/constants/quest-rewards/
+Source references: era-framework:lib-9999-era---consts.erm
 
 11 named values: quest rewards.
 
@@ -3788,7 +3897,9 @@ The **Quest Rewards** group from the supplied Framework. Names and values below 
 
 # Quest Types
 
+ID: erm.framework.constants.quest-types
 URL: /en/erm/framework/constants/quest-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 10 named values: quest types.
 
@@ -3823,7 +3934,9 @@ The **Quest Types** group from the supplied Framework. Names and values below co
 
 # Radio Dialogs
 
+ID: erm.framework.constants.radio-dialogs
 URL: /en/erm/framework/constants/radio-dialogs/
+Source references: era-framework:lib-9999-era---stdlib.erm
 
 3 named values: radio dialogs.
 
@@ -3851,7 +3964,9 @@ The **Radio Dialogs** group from the supplied Framework. Names and values below 
 
 # Resources
 
+ID: erm.framework.constants.resources
 URL: /en/erm/framework/constants/resources/
+Source references: era-framework:lib-9999-era---consts.erm
 
 13 named values: resources.
 
@@ -3885,7 +4000,9 @@ The **Resources** group from the supplied Framework. Names and values below corr
 
 # Special Enums
 
+ID: erm.framework.constants.special-enums
 URL: /en/erm/framework/constants/special-enums/
+Source references: era-framework:lib-9999-era---consts.erm
 
 12 named values: special enums.
 
@@ -3922,7 +4039,9 @@ The **Special Enums** group from the supplied Framework. Names and values below 
 
 # Spell Schools
 
+ID: erm.framework.constants.spell-schools
 URL: /en/erm/framework/constants/spell-schools/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: spell schools.
 
@@ -3947,7 +4066,9 @@ The **Spell Schools** group from the supplied Framework. Names and values below 
 
 # Spell Texts For Sn H
 
+ID: erm.framework.constants.spell-texts-for-sn-h
 URL: /en/erm/framework/constants/spell-texts-for-sn-h/
+Source references: era-framework:lib-9999-era---consts.erm
 
 7 named values: spell texts for sn h.
 
@@ -3975,7 +4096,9 @@ The **Spell Texts For Sn H** group from the supplied Framework. Names and values
 
 # Spells
 
+ID: erm.framework.constants.spells
 URL: /en/erm/framework/constants/spells/
+Source references: era-framework:lib-9999-era---consts.erm
 
 78 named values: spells.
 
@@ -4078,7 +4201,9 @@ The **Spells** group from the supplied Framework. Names and values below corresp
 
 # Stack Experience
 
+ID: erm.framework.constants.stack-experience
 URL: /en/erm/framework/constants/stack-experience/
+Source references: era-framework:lib-9999-era---consts.erm
 
 1 named values: stack experience.
 
@@ -4100,7 +4225,9 @@ The **Stack Experience** group from the supplied Framework. Names and values bel
 
 # Towns
 
+ID: erm.framework.constants.towns
 URL: /en/erm/framework/constants/towns/
+Source references: era-framework:lib-9999-era---consts.erm
 
 15 named values: towns.
 
@@ -4136,7 +4263,9 @@ The **Towns** group from the supplied Framework. Names and values below correspo
 
 # Un:C Data Types
 
+ID: erm.framework.constants.un-c-data-types
 URL: /en/erm/framework/constants/un-c-data-types/
+Source references: era-framework:lib-9999-era---consts.erm
 
 8 named values: un:c data types.
 
@@ -4169,7 +4298,9 @@ The **Un:C Data Types** group from the supplied Framework. Names and values belo
 
 # Universal
 
+ID: erm.framework.constants.universal
 URL: /en/erm/framework/constants/universal/
+Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: universal.
 
@@ -4198,7 +4329,9 @@ The **Universal** group from the supplied Framework. Names and values below corr
 
 # Useful Addresses
 
+ID: erm.framework.constants.useful-addresses
 URL: /en/erm/framework/constants/useful-addresses/
+Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: useful addresses.
 
@@ -4233,7 +4366,9 @@ This group contains internal values, offsets, or addresses. They describe the su
 
 # Win32 Api
 
+ID: erm.framework.constants.win32-api
 URL: /en/erm/framework/constants/win32-api/
+Source references: era-framework:lib-9999-era---consts.erm
 
 3 named values: win32 api.
 
@@ -4261,7 +4396,9 @@ The **Win32 Api** group from the supplied Framework. Names and values below corr
 
 # Wog Options
 
+ID: erm.framework.constants.wog-options
 URL: /en/erm/framework/constants/wog-options/
+Source references: era-framework:lib-9999-era---consts.erm
 
 22 named values: wog options.
 
@@ -4308,7 +4445,9 @@ The **Wog Options** group from the supplied Framework. Names and values below co
 
 # Framework events
 
+ID: erm.framework.events
 URL: /en/erm/framework/events/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Additional events, extended context, and final-handler ordering.
 
@@ -4420,7 +4559,9 @@ OnEveryDay gains five arguments and timer* globals. Keyboard and mouse events ga
 
 # Framework functions
 
+ID: erm.framework.functions
 URL: /en/erm/framework/functions/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 
 Complete catalog of 185 functions and handlers, with contracts and limitations.
 
@@ -4658,7 +4799,9 @@ All 185 function declarations were examined as complete bodies from both stdlib 
 
 # ActivateNextStack
 
+ID: erm.framework.functions.activatenextstack
 URL: /en/erm/framework/functions/activatenextstack/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack
 
 Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version.
 
@@ -4696,7 +4839,9 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 
 # AddArtToHero
 
+ID: erm.framework.functions.addarttohero
 URL: /en/erm/framework/functions/addarttohero/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero
 
 Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions.
 
@@ -4737,7 +4882,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3155�
 
 # AdvMap_SetHint
 
+ID: erm.framework.functions.advmap-sethint
 URL: /en/erm/framework/functions/advmap-sethint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint
 
 Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input.
 
@@ -4779,7 +4926,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2363�
 
 # AdvMap_SetInfoPanelDef
 
+ID: erm.framework.functions.advmap-setinfopaneldef
 URL: /en/erm/framework/functions/advmap-setinfopaneldef/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef
 
 Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant.
 
@@ -4824,7 +4973,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2404�
 
 # AdvMap_SetInfoPanelText
 
+ID: erm.framework.functions.advmap-setinfopaneltext
 URL: /en/erm/framework/functions/advmap-setinfopaneltext/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext
 
 Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1.
 
@@ -4863,7 +5014,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2377�
 
 # Array_Clone
 
+ID: erm.framework.functions.array-clone
 URL: /en/erm/framework/functions/array-clone/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone
 
 Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values.
 
@@ -4906,7 +5059,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 619�
 
 # Array_Copy
 
+ID: erm.framework.functions.array-copy
 URL: /en/erm/framework/functions/array-copy/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy
 
 Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type.
 
@@ -4945,7 +5100,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 587�
 
 # Array_CountValue
 
+ID: erm.framework.functions.array-countvalue
 URL: /en/erm/framework/functions/array-countvalue/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue
 
 Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA.
 
@@ -4986,7 +5143,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1054�
 
 # Array_CustomSort
 
+ID: erm.framework.functions.array-customsort
 URL: /en/erm/framework/functions/array-customsort/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort
 
 Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array.
 
@@ -5028,7 +5187,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 835�
 
 # Array_EnsureMinSize
 
+ID: erm.framework.functions.array-ensureminsize
 URL: /en/erm/framework/functions/array-ensureminsize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize
 
 Grows an array to minSize when needed and fills new items. Never shrinks it.
 
@@ -5066,7 +5227,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1041�
 
 # Array_Fill
 
+ID: erm.framework.functions.array-fill
 URL: /en/erm/framework/functions/array-fill/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill
 
 Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array.
 
@@ -5104,7 +5267,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 982�
 
 # Array_Find
 
+ID: erm.framework.functions.array-find
 URL: /en/erm/framework/functions/array-find/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find
 
 Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0.
 
@@ -5143,7 +5308,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1124�
 
 # Array_IndexOf
 
+ID: erm.framework.functions.array-indexof
 URL: /en/erm/framework/functions/array-indexof/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof
 
 Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive.
 
@@ -5184,7 +5351,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1085�
 
 # Array_Join
 
+ID: erm.framework.functions.array-join
 URL: /en/erm/framework/functions/array-join/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join
 
 Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^.
 
@@ -5222,7 +5391,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 744�
 
 # Array_Merge
 
+ID: erm.framework.functions.array-merge
 URL: /en/erm/framework/functions/array-merge/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge
 
 Appends one or more arrays to dstArray. All element types must match; the destination is modified.
 
@@ -5280,7 +5451,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 631�
 
 # Array_Move
 
+ID: erm.framework.functions.array-move
 URL: /en/erm/framework/functions/array-move/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move
 
 Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use.
 
@@ -5328,7 +5501,9 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 
 # Array_Pop
 
+ID: erm.framework.functions.array-pop
 URL: /en/erm/framework/functions/array-pop/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop
 
 Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings.
 
@@ -5365,7 +5540,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 401�
 
 # Array_Push
 
+ID: erm.framework.functions.array-push
 URL: /en/erm/framework/functions/array-push/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push
 
 Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped.
 
@@ -5402,7 +5579,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 376�
 
 # Array_Resize
 
+ID: erm.framework.functions.array-resize
 URL: /en/erm/framework/functions/array-resize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize
 
 Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed.
 
@@ -5440,7 +5619,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1011�
 
 # Array_Revert
 
+ID: erm.framework.functions.array-revert
 URL: /en/erm/framework/functions/array-revert/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert
 
 Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings.
 
@@ -5476,7 +5657,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 956�
 
 # Array_Shuffle
 
+ID: erm.framework.functions.array-shuffle
 URL: /en/erm/framework/functions/array-shuffle/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle
 
 Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic.
 
@@ -5514,7 +5697,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 934�
 
 # Array_Slice
 
+ID: erm.framework.functions.array-slice
 URL: /en/erm/framework/functions/array-slice/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice
 
 Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.
 
@@ -5568,7 +5753,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 689�
 
 # Array_Sort
 
+ID: erm.framework.functions.array-sort
 URL: /en/erm/framework/functions/array-sort/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort
 
 Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped.
 
@@ -5608,7 +5795,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 781�
 
 # Array_SortedUnique
 
+ID: erm.framework.functions.array-sortedunique
 URL: /en/erm/framework/functions/array-sortedunique/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique
 
 Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected.
 
@@ -5650,7 +5839,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 890�
 
 # Array_Splice
 
+ID: erm.framework.functions.array-splice
 URL: /en/erm/framework/functions/array-splice/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice
 
 Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move.
 
@@ -5743,7 +5934,9 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 
 # Battle_RedrawGridShadow
 
+ID: erm.framework.functions.battle-redrawgridshadow
 URL: /en/erm/framework/functions/battle-redrawgridshadow/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow
 
 Refreshes movement-range shading after a speed change. Requires an existing combat manager.
 
@@ -5775,7 +5968,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2799�
 
 # BattleStack_MakeActive
 
+ID: erm.framework.functions.battlestack-makeactive
 URL: /en/erm/framework/functions/battlestack-makeactive/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive
 
 Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists.
 
@@ -5815,7 +6010,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2817�
 
 # BattleStack_Shoot
 
+ID: erm.framework.functions.battlestack-shoot
 URL: /en/erm/framework/functions/battlestack-shoot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot
 
 Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first.
 
@@ -5854,7 +6051,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2804�
 
 # ChangeArtModAtSlot
 
+ID: erm.framework.functions.changeartmodatslot
 URL: /en/erm/framework/functions/changeartmodatslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot
 
 Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD.
 
@@ -5896,7 +6095,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3134�
 
 # ClearEventChainData
 
+ID: erm.framework.functions.cleareventchaindata
 URL: /en/erm/framework/functions/cleareventchaindata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata
 
 Clears the internal event-context stack and its position when loading a save.
 
@@ -5922,7 +6123,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 12�
 
 # ClearIniCache
 
+ID: erm.framework.functions.clearinicache
 URL: /en/erm/framework/functions/clearinicache/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache
 
 Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file.
 
@@ -5956,7 +6159,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1589�
 
 # ClearScreenLog
 
+ID: erm.framework.functions.clearscreenlog
 URL: /en/erm/framework/functions/clearscreenlog/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog
 
 Clears green on-screen log messages.
 
@@ -5984,7 +6189,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2357�
 
 # CollectMouseEventData
 
+ID: erm.framework.functions.collectmouseeventdata
 URL: /en/erm/framework/functions/collectmouseeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata
 
 Copies CM context to mouse_ and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key.
 
@@ -6014,7 +6221,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 129
 
 # CompareStrings_Bridge_INTERNAL
 
+ID: erm.framework.functions.comparestrings-bridge-internal
 URL: /en/erm/framework/functions/comparestrings-bridge-internal/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal
 
 String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string.
 
@@ -6049,7 +6258,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 813
 
 # CompareStrings
 
+ID: erm.framework.functions.comparestrings
 URL: /en/erm/framework/functions/comparestrings/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings
 
 Compares two ERM strings with language operators and returns -1, 0, or 1.
 
@@ -6083,7 +6294,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1431�
 
 # ConstructBitMask
 
+ID: erm.framework.functions.constructbitmask
 URL: /en/erm/framework/functions/constructbitmask/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask
 
 Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.
 
@@ -6131,7 +6344,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1194�
 
 # CreateDir
 
+ID: erm.framework.functions.createdir
 URL: /en/erm/framework/functions/createdir/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir
 
 Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.
 
@@ -6165,7 +6380,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1605�
 
 # DeconstructBitMask
 
+ID: erm.framework.functions.deconstructbitmask
 URL: /en/erm/framework/functions/deconstructbitmask/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask
 
 Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context.
 
@@ -6204,7 +6421,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1224�
 
 # DecorateInt
 
+ID: erm.framework.functions.decorateint
 URL: /en/erm/framework/functions/decorateint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint
 
 Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string.
 
@@ -6240,7 +6459,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1521�
 
 # DeleteFile
 
+ID: erm.framework.functions.deletefile
 URL: /en/erm/framework/functions/deletefile/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile
 
 Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees.
 
@@ -6279,7 +6500,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1578�
 
 # DirExists
 
+ID: erm.framework.functions.direxists
 URL: /en/erm/framework/functions/direxists/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists
 
 Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.
 
@@ -6318,7 +6541,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1566�
 
 # DisableErrors
 
+ID: erm.framework.functions.disableerrors
 URL: /en/erm/framework/functions/disableerrors/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors
 
 Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation.
 
@@ -6348,7 +6573,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2010�
 
 # DL_AlignDlg
 
+ID: erm.framework.functions.dl-aligndlg
 URL: /en/erm/framework/functions/dl-aligndlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg
 
 Aligns an existing DL dialog using TEXT_ALIGN_ bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM.
 
@@ -6393,7 +6620,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2290�
 
 # DL_CenterAtMouse
 
+ID: erm.framework.functions.dl-centeratmouse
 URL: /en/erm/framework/functions/dl-centeratmouse/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse
 
 Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.
 
@@ -6435,7 +6664,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2215�
 
 # DL_Coords
 
+ID: erm.framework.functions.dl-coords
 URL: /en/erm/framework/functions/dl-coords/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords
 
 Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.
 
@@ -6486,7 +6717,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2223�
 
 # DL_Destroy
 
+ID: erm.framework.functions.dl-destroy
 URL: /en/erm/framework/functions/dl-destroy/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy
 
 Destroys a DL wrapper by address. Do not reuse the destroyed address.
 
@@ -6520,7 +6753,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2192�
 
 # DL_FindById
 
+ID: erm.framework.functions.dl-findbyid
 URL: /en/erm/framework/functions/dl-findbyid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid
 
 Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1.
 
@@ -6559,7 +6794,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2184�
 
 # DL_GetSize
 
+ID: erm.framework.functions.dl-getsize
 URL: /en/erm/framework/functions/dl-getsize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize
 
 Returns the width and height of an existing DL dialog; reports an error if absent.
 
@@ -6605,7 +6842,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2256�
 
 # DL_SetPlayerColor
 
+ID: erm.framework.functions.dl-setplayercolor
 URL: /en/erm/framework/functions/dl-setplayercolor/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor
 
 Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.
 
@@ -6650,7 +6889,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2332�
 
 # DL_SetSize
 
+ID: erm.framework.functions.dl-setsize
 URL: /en/erm/framework/functions/dl-setsize/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize
 
 Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged.
 
@@ -6696,7 +6937,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2273�
 
 # DL_ShowPopup
 
+ID: erm.framework.functions.dl-showpopup
 URL: /en/erm/framework/functions/dl-showpopup/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup
 
 Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.
 
@@ -6738,7 +6981,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2198�
 
 # EmptyIniCache
 
+ID: erm.framework.functions.emptyinicache
 URL: /en/erm/framework/functions/emptyinicache/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache
 
 Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.
 
@@ -6772,7 +7017,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1597�
 
 # EnableErrors
 
+ID: erm.framework.functions.enableerrors
 URL: /en/erm/framework/functions/enableerrors/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors
 
 Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library.
 
@@ -6808,7 +7055,9 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 
 # EnterMouseEvent
 
+ID: erm.framework.functions.entermouseevent
 URL: /en/erm/framework/functions/entermouseevent/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent
 
 Saves previous keyboard/mouse context, then reads modifiers and CM for the new event.
 
@@ -6838,7 +7087,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 165
 
 # EquipArtToSlot
 
+ID: erm.framework.functions.equiparttoslot
 URL: /en/erm/framework/functions/equiparttoslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot
 
 Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots.
 
@@ -6880,7 +7131,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3170�
 
 # FileExists
 
+ID: erm.framework.functions.fileexists
 URL: /en/erm/framework/functions/fileexists/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists
 
 Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.
 
@@ -6919,7 +7172,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1554�
 
 # FormatQuantity
 
+ID: erm.framework.functions.formatquantity
 URL: /en/erm/framework/functions/formatquantity/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity
 
 Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported.
 
@@ -6960,7 +7215,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1533�
 
 # GetArtAtSlot
 
+ID: erm.framework.functions.getartatslot
 URL: /en/erm/framework/functions/getartatslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot
 
 Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot.
 
@@ -7003,7 +7260,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3111�
 
 # GetDegradedMonCandidates
 
+ID: erm.framework.functions.getdegradedmoncandidates
 URL: /en/erm/framework/functions/getdegradedmoncandidates/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates
 
 Scans all supported types and returns a local array of creatures upgrading to monId. Multiple candidates are possible; a full scan is expensive with extended limits.
 
@@ -7046,7 +7305,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3038�
 
 # GetHeroPortraitName
 
+ID: erm.framework.functions.getheroportraitname
 URL: /en/erm/framework/functions/getheroportraitname/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3062-3080-getheroportraitname
 
 Returns current small/large portrait filenames for a hero. Reads the structure table by ID; validate the range first.
 
@@ -7082,7 +7343,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3062�
 
 # GetHeroPrimarySkillsWithoutArts
 
+ID: erm.framework.functions.getheroprimaryskillswithoutarts
 URL: /en/erm/framework/functions/getheroprimaryskillswithoutarts/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts
 
 Temporarily removes 19 equipped artifacts, reads HE:F, then re-equips them. Fires OnUnequipArt/OnEquipArt; this operation has event side effects.
 
@@ -7126,7 +7389,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3081�
 
 # GetKeyModsState
 
+ID: erm.framework.functions.getkeymodsstate
 URL: /en/erm/framework/functions/getkeymodsstate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate, windows-api:getkeystate
 
 Polls left/right Alt, Ctrl and Shift with GetKeyState and updates key_; each combined flag is the OR of both sides.
 
@@ -7160,7 +7425,9 @@ Source discrepancy: the implementation tests GetKeyState with `d>>7`, whereas Wi
 
 # GetMaxArtifactId
 
+ID: erm.framework.functions.getmaxartifactid
 URL: /en/erm/framework/functions/getmaxartifactid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3199-3208-getmaxartifactid
 
 This snapshot simply returns ART_LAST_WOG. Despite its comment about extensions, it does not query a dynamic plugin limit.
 
@@ -7196,7 +7463,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3199�
 
 # GetMaxHeroId
 
+ID: erm.framework.functions.getmaxheroid
 URL: /en/erm/framework/functions/getmaxheroid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3055-3061-getmaxheroid
 
 Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity.
 
@@ -7234,7 +7503,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3055�
 
 # GetMaxMonsterId
 
+ID: erm.framework.functions.getmaxmonsterid
 URL: /en/erm/framework/functions/getmaxmonsterid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid
 
 Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity.
 
@@ -7272,7 +7543,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3020�
 
 # GetMaxSpellId
 
+ID: erm.framework.functions.getmaxspellid
 URL: /en/erm/framework/functions/getmaxspellid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3209-3216-getmaxspellid
 
 Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin.
 
@@ -7308,7 +7581,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3209�
 
 # GetModList
 
+ID: erm.framework.functions.getmodlist
 URL: /en/erm/framework/functions/getmodlist/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist
 
 Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it.
 
@@ -7354,7 +7629,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1932�
 
 # GetProcessGuid
 
+ID: erm.framework.functions.getprocessguid
 URL: /en/erm/framework/functions/getprocessguid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid
 
 Returns a 32-character identifier for this game-process run. Distinguishes a restart from loading a save in the same process.
 
@@ -7388,7 +7665,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2926�
 
 # GetStrAtAddr
 
+ID: erm.framework.functions.getstrataddr
 URL: /en/erm/framework/functions/getstrataddr/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr
 
 Copies a null-terminated string at strAddr into an output ERM string; NULL yields empty text. Non-null memory must be readable.
 
@@ -7421,7 +7700,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1421�
 
 # GetTextFileString
 
+ID: erm.framework.functions.gettextfilestring
 URL: /en/erm/framework/functions/gettextfilestring/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring
 
 Reads a zero-based row from loaded randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent resources. Normalizes the name; unknown names return Wrong txt filename!. Does not validate row bounds.
 
@@ -7472,7 +7753,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3217�
 
 # GetTextTableString
 
+ID: erm.framework.functions.gettexttablestring
 URL: /en/erm/framework/functions/gettexttablestring/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring
 
 Reads a bldgspec, help, or znpc00 cell by rowIndex/colIndex. Despite the “get or set” comment, this snapshot has no write branch. The caller must validate indices.
 
@@ -7517,7 +7800,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3285�
 
 # GetTimeMsec
 
+ID: erm.framework.functions.gettimemsec
 URL: /en/erm/framework/functions/gettimemsec/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec
 
 Returns milliseconds since OS startup via timeGetTime. The 32-bit counter wraps after about 49.71 days; it is not the in-game date.
 
@@ -7555,7 +7840,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2914�
 
 # GetUpgradedMonster
 
+ID: erm.framework.functions.getupgradedmonster
 URL: /en/erm/framework/functions/getupgradedmonster/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3028-3037-getupgradedmonster
 
 Returns the creature upgrade or NO_MON (-1) when absent.
 
@@ -7594,7 +7881,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3028�
 
 # H3Dlg_CenterAtMouse
 
+ID: erm.framework.functions.h3dlg-centeratmouse
 URL: /en/erm/framework/functions/h3dlg-centeratmouse/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse
 
 Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.
 
@@ -7632,7 +7921,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2088�
 
 # H3Dlg_Coords
 
+ID: erm.framework.functions.h3dlg-coords
 URL: /en/erm/framework/functions/h3dlg-coords/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords
 
 Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.
 
@@ -7679,7 +7970,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2038�
 
 # H3Dlg_DrawItemOnScreen
 
+ID: erm.framework.functions.h3dlg-drawitemonscreen
 URL: /en/erm/framework/functions/h3dlg-drawitemonscreen/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2152-2166-h3dlg-drawitemonscreen
 
 Draws itemId or the entire dialog for ALL_ITEMS. The H3Dlg object must exist.
 
@@ -7720,7 +8013,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2152�
 
 # H3Dlg_GetCurrentDlg
 
+ID: erm.framework.functions.h3dlg-getcurrentdlg
 URL: /en/erm/framework/functions/h3dlg-getcurrentdlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2109-2114-h3dlg-getcurrentdlg
 
 Returns the topmost dialog address or NULL. This address is not its DLG_ identifier.
 
@@ -7758,7 +8053,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2109�
 
 # H3Dlg_GetCurrentDlgId
 
+ID: erm.framework.functions.h3dlg-getcurrentdlgid
 URL: /en/erm/framework/functions/h3dlg-getcurrentdlgid/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid
 
 Returns the top dialog identifier from its virtual table, comparable to DLG_, or NULL.
 
@@ -7796,7 +8093,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2115�
 
 # H3Dlg_GetRootDlg
 
+ID: erm.framework.functions.h3dlg-getrootdlg
 URL: /en/erm/framework/functions/h3dlg-getrootdlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg
 
 Returns the root dialog address or NULL; usually the adventure map.
 
@@ -7834,7 +8133,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2103�
 
 # H3Dlg_ResumeAnimation
 
+ID: erm.framework.functions.h3dlg-resumeanimation
 URL: /en/erm/framework/functions/h3dlg-resumeanimation/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation
 
 Stops/resumes current dialog animation through native functions. Keep calls balanced.
 
@@ -7862,7 +8163,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2026�
 
 # H3Dlg_SendCmdToItem
 
+ID: erm.framework.functions.h3dlg-sendcmdtoitem
 URL: /en/erm/framework/functions/h3dlg-sendcmdtoitem/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem
 
 Sends a DLG_CMD_ to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number.
 
@@ -7906,7 +8209,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2126�
 
 # H3Dlg_ShowPopup
 
+ID: erm.framework.functions.h3dlg-showpopup
 URL: /en/erm/framework/functions/h3dlg-showpopup/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup
 
 Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address.
 
@@ -7948,7 +8253,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2030�
 
 # H3Dlg_StopAnimation
 
+ID: erm.framework.functions.h3dlg-stopanimation
 URL: /en/erm/framework/functions/h3dlg-stopanimation/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation
 
 Stops/resumes current dialog animation through native functions. Keep calls balanced.
 
@@ -7976,7 +8283,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2022�
 
 # H3Dlg_UpdateItemRange
 
+ID: erm.framework.functions.h3dlg-updateitemrange
 URL: /en/erm/framework/functions/h3dlg-updateitemrange/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange
 
 Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates.
 
@@ -8018,7 +8327,9 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 
 # H3Quests_RefreshData
 
+ID: erm.framework.functions.h3quests-refreshdata
 URL: /en/erm/framework/functions/h3quests-refreshdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata
 
 Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures.
 
@@ -8056,7 +8367,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3321�
 
 # Hash32
 
+ID: erm.framework.functions.hash32
 URL: /en/erm/framework/functions/hash32/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32
 
 Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised.
 
@@ -8092,7 +8405,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1350�
 
 # Interpolate
 
+ID: erm.framework.functions.interpolate
 URL: /en/erm/framework/functions/interpolate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate
 
 Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs.
 
@@ -8127,7 +8442,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1511�
 
 # IntLog2
 
+ID: erm.framework.functions.intlog2
 URL: /en/erm/framework/functions/intlog2/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2
 
 Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit.
 
@@ -8162,7 +8479,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1180�
 
 # IsDllLoaded
 
+ID: erm.framework.functions.isdllloaded
 URL: /en/erm/framework/functions/isdllloaded/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded
 
 Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module.
 
@@ -8201,7 +8520,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2936�
 
 # LeaveMouseEvent
 
+ID: erm.framework.functions.leavemouseevent
 URL: /en/erm/framework/functions/leavemouseevent/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent
 
 Restores mouse context followed by keyboard context from the final handlers.
 
@@ -8231,7 +8552,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 171
 
 # LoadIntGlobalsFromJson
 
+ID: erm.framework.functions.loadintglobalsfromjson
 URL: /en/erm/framework/functions/loadintglobalsfromjson/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson
 
 Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged.
 
@@ -8271,7 +8594,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1835�
 
 # MakeRngSeed
 
+ID: erm.framework.functions.makerngseed
 URL: /en/erm/framework/functions/makerngseed/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed
 
 Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed.
 
@@ -8309,7 +8634,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1361�
 
 # MergeIniWithDefault
 
+ID: erm.framework.functions.mergeiniwithdefault
 URL: /en/erm/framework/functions/mergeiniwithdefault/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault
 
 Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni.
 
@@ -8344,7 +8671,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1621�
 
 # MonCountToFuzzyText
 
+ID: erm.framework.functions.moncounttofuzzytext
 URL: /en/erm/framework/functions/moncounttofuzzytext/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext
 
 Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_ selects formatting; 0 falls into 1–4 and negative input is an error.
 
@@ -8390,7 +8719,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2950�
 
 # NewIntArray
 
+ID: erm.framework.functions.newintarray
 URL: /en/erm/framework/functions/newintarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray
 
 Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0.
 
@@ -8436,7 +8767,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 301�
 
 # NewStrArray
 
+ID: erm.framework.functions.newstrarray
 URL: /en/erm/framework/functions/newstrarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray
 
 Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address.
 
@@ -8478,7 +8811,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 337�
 
 # OnAdventureMapLeftMouseClick_Quit
 
+ID: erm.framework.functions.onadventuremapleftmouseclick-quit
 URL: /en/erm/framework/functions/onadventuremapleftmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit
 
 Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8508,7 +8843,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnAdventureMapLeftMouseClick
 
+ID: erm.framework.functions.onadventuremapleftmouseclick
 URL: /en/erm/framework/functions/onadventuremapleftmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -8538,7 +8875,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnAdventureMapRightMouseClick_Quit
 
+ID: erm.framework.functions.onadventuremaprightmouseclick-quit
 URL: /en/erm/framework/functions/onadventuremaprightmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit
 
 Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8568,7 +8907,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnAdventureMapRightMouseClick
 
+ID: erm.framework.functions.onadventuremaprightmouseclick
 URL: /en/erm/framework/functions/onadventuremaprightmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -8598,7 +8939,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnAfterErmInstructions_Quit
 
+ID: erm.framework.functions.onaftererminstructions-quit
 URL: /en/erm/framework/functions/onaftererminstructions-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-3-7-onaftererminstructions-quit
 
 Final handler for OnAfterErmInstructions: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8632,7 +8975,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnAfterErmInstructions
 
+ID: erm.framework.functions.onaftererminstructions
 URL: /en/erm/framework/functions/onaftererminstructions/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions
 
 Creates the Framework daily timer and resets last-day tracking.
 
@@ -8658,7 +9003,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnAfterLoadGame_Quit
 
+ID: erm.framework.functions.onafterloadgame-quit
 URL: /en/erm/framework/functions/onafterloadgame-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-8-12-onafterloadgame-quit
 
 Final handler for OnAfterLoadGame: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8692,7 +9039,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnBattleMouseHint_Quit
 
+ID: erm.framework.functions.onbattlemousehint-quit
 URL: /en/erm/framework/functions/onbattlemousehint-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-64-66-onbattlemousehint-quit
 
 Final handler for OnBattleMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8722,7 +9071,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnBattleMouseHint
 
+ID: erm.framework.functions.onbattlemousehint
 URL: /en/erm/framework/functions/onbattlemousehint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-202-204-onbattlemousehint
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -8752,7 +9103,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBattleReplay
 
+ID: erm.framework.functions.onbattlereplay
 URL: /en/erm/framework/functions/onbattlereplay/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2905-2913-onbattlereplay
 
 Resets round/acting stack and refreshes combat parameters for replay.
 
@@ -8786,7 +9139,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBattleRound
 
+ID: erm.framework.functions.onbattleround
 URL: /en/erm/framework/functions/onbattleround/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-266-268-onbattleround
 
 Updates battle_round from the current round context.
 
@@ -8812,7 +9167,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBattleScreenMouseClick_Quit
 
+ID: erm.framework.functions.onbattlescreenmouseclick-quit
 URL: /en/erm/framework/functions/onbattlescreenmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-49-51-onbattlescreenmouseclick-quit
 
 Final handler for OnBattleScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8842,7 +9199,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnBattleScreenMouseClick
 
+ID: erm.framework.functions.onbattlescreenmouseclick
 URL: /en/erm/framework/functions/onbattlescreenmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-187-189-onbattlescreenmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -8872,7 +9231,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBattleStackObtainsTurn
 
+ID: erm.framework.functions.onbattlestackobtainsturn
 URL: /en/erm/framework/functions/onbattlestackobtainsturn/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-275-284-onbattlestackobtainsturn
 
 Converts side/index to a global stack ID and accounts for hypnosis when determining the current side.
 
@@ -8909,7 +9270,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBeforeBattle_Quit
 
+ID: erm.framework.functions.onbeforebattle-quit
 URL: /en/erm/framework/functions/onbeforebattle-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-74-76-onbeforebattle-quit
 
 Final handler for OnBeforeBattle: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -8939,7 +9302,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnBeforeBattle
 
+ID: erm.framework.functions.onbeforebattle
 URL: /en/erm/framework/functions/onbeforebattle/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-251-254-onbeforebattle
 
 Resets battle_round to INT_MIN before actual combat.
 
@@ -8973,7 +9338,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBeforeBattleAction
 
+ID: erm.framework.functions.onbeforebattleaction
 URL: /en/erm/framework/functions/onbeforebattleaction/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction
 
 Reads BG:N/Q into battle_acting_stack/side and updates visible/quick combat flags.
 
@@ -9003,7 +9370,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBeforeBattleStackTurn
 
+ID: erm.framework.functions.onbeforebattlestackturn
 URL: /en/erm/framework/functions/onbeforebattlestackturn/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn
 
 Stores activeStack in battle_current_stack.
 
@@ -9035,7 +9404,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnBeforeBattleUniversal_Quit
 
+ID: erm.framework.functions.onbeforebattleuniversal-quit
 URL: /en/erm/framework/functions/onbeforebattleuniversal-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit
 
 Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9065,7 +9436,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnBeforeBattleUniversal
 
+ID: erm.framework.functions.onbeforebattleuniversal
 URL: /en/erm/framework/functions/onbeforebattleuniversal/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal
 
 Refreshes battle_ and resets current/acting stack context. May run in theoretical AI combat with no combat manager.
 
@@ -9099,7 +9472,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnCustomDialogEvent_Quit
 
+ID: erm.framework.functions.oncustomdialogevent-quit
 URL: /en/erm/framework/functions/oncustomdialogevent-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit
 
 Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9129,7 +9504,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnCustomDialogEvent
 
+ID: erm.framework.functions.oncustomdialogevent
 URL: /en/erm/framework/functions/oncustomdialogevent/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9165,7 +9542,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnEveryDay
 
+ID: erm.framework.functions.oneveryday
 URL: /en/erm/framework/functions/oneveryday/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday
 
 Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player.
 
@@ -9205,7 +9584,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnHeroesMeetScreenMouseClick_Quit
 
+ID: erm.framework.functions.onheroesmeetscreenmouseclick-quit
 URL: /en/erm/framework/functions/onheroesmeetscreenmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit
 
 Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9235,7 +9616,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnHeroesMeetScreenMouseClick
 
+ID: erm.framework.functions.onheroesmeetscreenmouseclick
 URL: /en/erm/framework/functions/onheroesmeetscreenmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9265,7 +9648,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnHeroScreenMouseClick_Quit
 
+ID: erm.framework.functions.onheroscreenmouseclick-quit
 URL: /en/erm/framework/functions/onheroscreenmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit
 
 Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9295,7 +9680,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnHeroScreenMouseClick
 
+ID: erm.framework.functions.onheroscreenmouseclick
 URL: /en/erm/framework/functions/onheroscreenmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9325,7 +9712,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnKeyPressed_Quit
 
+ID: erm.framework.functions.onkeypressed-quit
 URL: /en/erm/framework/functions/onkeypressed-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit
 
 Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9368,7 +9757,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnKeyPressed
 
+ID: erm.framework.functions.onkeypressed
 URL: /en/erm/framework/functions/onkeypressed/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed
 
 Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.
 
@@ -9406,7 +9797,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnKeyReleased_Quit
 
+ID: erm.framework.functions.onkeyreleased-quit
 URL: /en/erm/framework/functions/onkeyreleased-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-26-36-onkeyreleased-quit
 
 Final handler for OnKeyReleased: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9450,7 +9843,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnKeyReleased
 
+ID: erm.framework.functions.onkeyreleased
 URL: /en/erm/framework/functions/onkeyreleased/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased
 
 Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.
 
@@ -9487,7 +9882,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnKingdomOverviewMouseClick_Quit
 
+ID: erm.framework.functions.onkingdomoverviewmouseclick-quit
 URL: /en/erm/framework/functions/onkingdomoverviewmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-61-63-onkingdomoverviewmouseclick-quit
 
 Final handler for OnKingdomOverviewMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9517,7 +9914,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnKingdomOverviewMouseClick
 
+ID: erm.framework.functions.onkingdomoverviewmouseclick
 URL: /en/erm/framework/functions/onkingdomoverviewmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-199-201-onkingdomoverviewmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9547,7 +9946,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnRecruitDlgMouseClick_Quit
 
+ID: erm.framework.functions.onrecruitdlgmouseclick-quit
 URL: /en/erm/framework/functions/onrecruitdlgmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-55-57-onrecruitdlgmouseclick-quit
 
 Final handler for OnRecruitDlgMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9577,7 +9978,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnRecruitDlgMouseClick
 
+ID: erm.framework.functions.onrecruitdlgmouseclick
 URL: /en/erm/framework/functions/onrecruitdlgmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-193-195-onrecruitdlgmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9607,7 +10010,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnSavegameRead
 
+ID: erm.framework.functions.onsavegameread
 URL: /en/erm/framework/functions/onsavegameread/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-145-147-onsavegameread
 
 Clears event-chain state after save data is read.
 
@@ -9637,7 +10042,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnSetupBattlefield
 
+ID: erm.framework.functions.onsetupbattlefield
 URL: /en/erm/framework/functions/onsetupbattlefield/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-263-265-onsetupbattlefield
 
 Refreshes battle_ during battlefield setup.
 
@@ -9667,7 +10074,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnStartOrLoad
 
+ID: erm.framework.functions.onstartorload
 URL: /en/erm/framework/functions/onstartorload/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-292-300-onstartorload
 
 Updates maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. The source spells maxArtifacId without the second t.
 
@@ -9697,7 +10106,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnTownHallMouseClick_Quit
 
+ID: erm.framework.functions.ontownhallmouseclick-quit
 URL: /en/erm/framework/functions/ontownhallmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-58-60-ontownhallmouseclick-quit
 
 Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9727,7 +10138,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnTownHallMouseClick
 
+ID: erm.framework.functions.ontownhallmouseclick
 URL: /en/erm/framework/functions/ontownhallmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-196-198-ontownhallmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9757,7 +10170,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnTownMouseClick_Quit
 
+ID: erm.framework.functions.ontownmouseclick-quit
 URL: /en/erm/framework/functions/ontownmouseclick-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit
 
 Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9787,7 +10202,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnTownMouseClick
 
+ID: erm.framework.functions.ontownmouseclick
 URL: /en/erm/framework/functions/ontownmouseclick/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-178-180-ontownmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9817,7 +10234,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # OnTownMouseHint_Quit
 
+ID: erm.framework.functions.ontownmousehint-quit
 URL: /en/erm/framework/functions/ontownmousehint-quit/
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit
 
 Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
 
@@ -9847,7 +10266,9 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 
 # OnTownMouseHint
 
+ID: erm.framework.functions.ontownmousehint
 URL: /en/erm/framework/functions/ontownmousehint/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
 
@@ -9877,7 +10298,9 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 # PackUnion
 
+ID: erm.framework.functions.packunion
 URL: /en/erm/framework/functions/packunion/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion
 
 PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
 
@@ -9923,7 +10346,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1241�
 
 # Pow
 
+ID: erm.framework.functions.pow
 URL: /en/erm/framework/functions/pow/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow
 
 Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion.
 
@@ -9959,7 +10384,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1166�
 
 # PrepareMessageBoxText
 
+ID: erm.framework.functions.preparemessageboxtext
 URL: /en/erm/framework/functions/preparemessageboxtext/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext
 
 Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version.
 
@@ -9997,7 +10424,9 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 
 # PrepareMultiPicDialog
 
+ID: erm.framework.functions.preparemultipicdialog
 URL: /en/erm/framework/functions/preparemultipicdialog/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog
 
 Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog.
 
@@ -10033,7 +10462,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2679�
 
 # RadioDlg_AddCancelButton
 
+ID: erm.framework.functions.radiodlg-addcancelbutton
 URL: /en/erm/framework/functions/radiodlg-addcancelbutton/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton
 
 Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button.
 
@@ -10065,7 +10496,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2474�
 
 # RadioDlg_AddItem
 
+ID: erm.framework.functions.radiodlg-additem
 URL: /en/erm/framework/functions/radiodlg-additem/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem
 
 Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel.
 
@@ -10106,7 +10539,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2532�
 
 # RadioDlg_AddItems
 
+ID: erm.framework.functions.radiodlg-additems
 URL: /en/erm/framework/functions/radiodlg-additems/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems
 
 Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected.
 
@@ -10144,7 +10579,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2561�
 
 # RadioDlg_GetItemTag
 
+ID: erm.framework.functions.radiodlg-getitemtag
 URL: /en/erm/framework/functions/radiodlg-getitemtag/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag
 
 Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
 
@@ -10179,7 +10616,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2597�
 
 # RadioDlg_GetItemValue
 
+ID: erm.framework.functions.radiodlg-getitemvalue
 URL: /en/erm/framework/functions/radiodlg-getitemvalue/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue
 
 Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
 
@@ -10214,7 +10653,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2584�
 
 # RadioDlg_GetNumItems
 
+ID: erm.framework.functions.radiodlg-getnumitems
 URL: /en/erm/framework/functions/radiodlg-getnumitems/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems
 
 Returns the item count excluding Cancel.
 
@@ -10246,7 +10687,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2578�
 
 # RadioDlg_Reset
 
+ID: erm.framework.functions.radiodlg-reset
 URL: /en/erm/framework/functions/radiodlg-reset/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset
 
 Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.
 
@@ -10276,7 +10719,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2456�
 
 # RadioDlg_SelectItem
 
+ID: erm.framework.functions.radiodlg-selectitem
 URL: /en/erm/framework/functions/radiodlg-selectitem/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem
 
 Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.
 
@@ -10312,7 +10757,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2490�
 
 # RadioDlg_SelectItemByTag
 
+ID: erm.framework.functions.radiodlg-selectitembytag
 URL: /en/erm/framework/functions/radiodlg-selectitembytag/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag
 
 Selects the first matching value/string tag. Clears selection if no match exists.
 
@@ -10348,7 +10795,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2514�
 
 # RadioDlg_SelectItemByValue
 
+ID: erm.framework.functions.radiodlg-selectitembyvalue
 URL: /en/erm/framework/functions/radiodlg-selectitembyvalue/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue
 
 Selects the first matching value/string tag. Clears selection if no match exists.
 
@@ -10384,7 +10833,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2497�
 
 # RadioDlg_SetTitle
 
+ID: erm.framework.functions.radiodlg-settitle
 URL: /en/erm/framework/functions/radiodlg-settitle/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle
 
 Copies the title into radio-dialog state.
 
@@ -10416,7 +10867,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2468�
 
 # RadioDlg_Show
 
+ID: erm.framework.functions.radiodlg-show
 URL: /en/erm/framework/functions/radiodlg-show/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show
 
 Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items.
 
@@ -10458,7 +10911,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2612�
 
 # ReadIniInts
 
+ID: erm.framework.functions.readiniints
 URL: /en/erm/framework/functions/readiniints/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints
 
 Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.
 
@@ -10512,7 +10967,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1736�
 
 # ReadIniStrings
 
+ID: erm.framework.functions.readinistrings
 URL: /en/erm/framework/functions/readinistrings/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1697-1735-readinistrings
 
 Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.
 
@@ -10566,7 +11023,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1697�
 
 # ReadJsonIntArray
 
+ID: erm.framework.functions.readjsonintarray
 URL: /en/erm/framework/functions/readjsonintarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1778-1806-readjsonintarray
 
 Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.
 
@@ -10610,7 +11069,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1778�
 
 # ReadJsonStrArray
 
+ID: erm.framework.functions.readjsonstrarray
 URL: /en/erm/framework/functions/readjsonstrarray/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray
 
 Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.
 
@@ -10654,7 +11115,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1807�
 
 # RestoreEventData
 
+ID: erm.framework.functions.restoreeventdata
 URL: /en/erm/framework/functions/restoreeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata
 
 Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly.
 
@@ -10692,7 +11155,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 47�
 
 # RestorePrevKeyModsState
 
+ID: erm.framework.functions.restoreprevkeymodsstate
 URL: /en/erm/framework/functions/restoreprevkeymodsstate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate
 
 Restores key and modifier globals after a nested event.
 
@@ -10722,7 +11187,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 91�
 
 # RestorePrevMouseEventData
 
+ID: erm.framework.functions.restoreprevmouseeventdata
 URL: /en/erm/framework/functions/restoreprevmouseeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata
 
 Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
 
@@ -10752,7 +11219,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 142
 
 # SaveEventData
 
+ID: erm.framework.functions.saveeventdata
 URL: /en/erm/framework/functions/saveeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata
 
 Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.
 
@@ -10786,7 +11255,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 16�
 
 # SaveGame
 
+ID: erm.framework.functions.savegame
 URL: /en/erm/framework/functions/savegame/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame
 
 Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.
 
@@ -10830,7 +11301,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1987�
 
 # SaveIni
 
+ID: erm.framework.functions.saveini
 URL: /en/erm/framework/functions/saveini/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini
 
 Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.
 
@@ -10864,7 +11337,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1613�
 
 # SavePrevKeyModsState
 
+ID: erm.framework.functions.saveprevkeymodsstate
 URL: /en/erm/framework/functions/saveprevkeymodsstate/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate
 
 Saves 11 key and modifier globals for a nested event.
 
@@ -10894,7 +11369,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 88�
 
 # SavePrevMouseEventData
 
+ID: erm.framework.functions.saveprevmouseeventdata
 URL: /en/erm/framework/functions/saveprevmouseeventdata/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata
 
 Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
 
@@ -10924,7 +11401,9 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 139
 
 # ScanDir
 
+ID: erm.framework.functions.scandir
 URL: /en/erm/framework/functions/scandir/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir
 
 Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_ (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot.
 
@@ -10978,7 +11457,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1870�
 
 # ShowAnimatedDefDlg
 
+ID: erm.framework.functions.showanimateddefdlg
 URL: /en/erm/framework/functions/showanimateddefdlg/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg
 
 Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1.
 
@@ -11017,7 +11498,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2756�
 
 # SplitMix32
 
+ID: erm.framework.functions.splitmix32
 URL: /en/erm/framework/functions/splitmix32/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32
 
 P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state.
 
@@ -11073,7 +11556,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1376�
 
 # Sqrt
 
+ID: erm.framework.functions.sqrt
 URL: /en/erm/framework/functions/sqrt/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt
 
 Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root.
 
@@ -11108,7 +11593,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1173�
 
 # StrPos
 
+ID: erm.framework.functions.strpos
 URL: /en/erm/framework/functions/strpos/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos
 
 Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1.
 
@@ -11145,7 +11632,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1486�
 
 # StrReplace
 
+ID: erm.framework.functions.strreplace
 URL: /en/erm/framework/functions/strreplace/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace
 
 Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger.
 
@@ -11182,7 +11671,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1498�
 
 # StrToLower
 
+ID: erm.framework.functions.strtolower
 URL: /en/erm/framework/functions/strtolower/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower
 
 Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.
 
@@ -11221,7 +11712,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1458�
 
 # StrToUpper
 
+ID: erm.framework.functions.strtoupper
 URL: /en/erm/framework/functions/strtoupper/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper
 
 Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.
 
@@ -11260,7 +11753,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1443�
 
 # Substr
 
+ID: erm.framework.functions.substr
 URL: /en/erm/framework/functions/substr/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr
 
 Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative.
 
@@ -11297,7 +11792,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1473�
 
 # Tm32Decode
 
+ID: erm.framework.functions.tm32decode
 URL: /en/erm/framework/functions/tm32decode/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode
 
 Inverts Tm32Encode for a 32-bit value. Changes f and g.
 
@@ -11330,7 +11827,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1342�
 
 # Tm32Encode
 
+ID: erm.framework.functions.tm32encode
 URL: /en/erm/framework/functions/tm32encode/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode
 
 Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption.
 
@@ -11363,7 +11862,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1334�
 
 # Trim
 
+ID: erm.framework.functions.trim
 URL: /en/erm/framework/functions/trim/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim
 
 Trims spaces and control bytes 0..32 from both ends; returns a new ERM string.
 
@@ -11398,7 +11899,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1411�
 
 # UnequipArtFromSlot
 
+ID: erm.framework.functions.unequipartfromslot
 URL: /en/erm/framework/functions/unequipartfromslot/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot
 
 Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment.
 
@@ -11437,7 +11940,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3191�
 
 # UnpackUnion
 
+ID: erm.framework.functions.unpackunion
 URL: /en/erm/framework/functions/unpackunion/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion
 
 PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
 
@@ -11476,7 +11981,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1295�
 
 # UpdateBattleVars
 
+ID: erm.framework.functions.updatebattlevars
 URL: /en/erm/framework/functions/updatebattlevars/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars
 
 Refreshes BA/OW data in battle_: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO.
 
@@ -11506,7 +12013,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2848�
 
 # WriteIniInts
 
+ID: erm.framework.functions.writeiniints
 URL: /en/erm/framework/functions/writeiniints/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints
 
 Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.
 
@@ -11566,7 +12075,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1630�
 
 # WriteIniStrings
 
+ID: erm.framework.functions.writeinistrings
 URL: /en/erm/framework/functions/writeinistrings/
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings
 
 Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.
 
@@ -11617,7 +12128,9 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1663�
 
 # Framework globals
 
+ID: erm.framework.globals
 URL: /en/erm/framework/globals/
+Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm
 
 Combat, calendar, keyboard and mouse context; public data and internal state.
 
@@ -11746,7 +12259,9 @@ The names `i^umt_randomizationIntervalDays^` and `i^umt_playAltThemesSequently^`
 
 # Functions and parameters
 
+ID: erm.functions
 URL: /en/erm/functions/
+Source references: old-help:rec-fu.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 FU declarations, x arguments, returning through GET arguments, and local variables.
 
@@ -11790,7 +12305,9 @@ Local `y` variables belong to a call. A nested function must not treat the calle
 
 # ERM Hooker — custom events
 
+ID: erm.hooker
 URL: /en/erm/hooker/
+Source references: erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, erm-hooker:author-api-1.0.0
 
 Installing hooks, register context and removing code hooks.
 
@@ -11847,7 +12364,9 @@ The API is documented in [Berserker’s documentation reproduced in this post](h
 
 # Command and symbol index
 
+ID: erm.index
 URL: /en/erm/index/
+Source references: era-source:erm.pas, era-framework:lib-9999-era---consts.erm, old-help:cont-list.htm
 
 Command codes, event names, functions, variables and constants.
 
@@ -11871,7 +12390,9 @@ Filter by code, name or letter. The index includes subcommands, events and alias
 
 # Loops: re, br, co, and DO
 
+ID: erm.loops
 URL: /en/erm/loops/
+Source references: old-help:rec-re.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 Loop bounds, steps, nesting, and repeated function calls.
 
@@ -11881,8 +12402,8 @@ Loop bounds, steps, nesting, and repeated function calls.
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-center erm-paragraph"><span class="erm-source-title">Receivers <strong>RE</strong>/<strong>BR</strong>/<strong>CO</strong></span><a href="../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a><br>
-<span>(repeat – interrupt – continue)</span></div>
-<div class="erm-paragraph"><br>ERA made it possible, among other things, to use high-speed cycles through new receivers to write ERM scripts: <a href="./#ref-rec-re">!!re</a>, <a href="./#ref-rec-re-br-co">!!br</a>, <a href="./#ref-rec-re-br-co">!!co</a>.</div>
+<span>(repeat – break – continue)</span></div>
+<div class="erm-paragraph"><br>ERA provides fast, high-level loops through these ERM receivers: <a href="./#ref-rec-re">!!re</a>, <a href="./#ref-rec-re-br-co">!!br</a>, <a href="./#ref-rec-re-br-co">!!co</a>.</div>
 <hr>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-rec-re-red"></span><span class="erm-tone-red">!!re $1[/#2/#3/#4]:;<br>
    …<br>
@@ -11891,7 +12412,7 @@ Repeats a block of code. Only the first argument ($1) is required.
 </div><pre>         $1 – loop counter variable (any numeric local or global variable)
          #2 – initial counter value (optional). Default: value of the loop counter variable.
          #3 – final counter value (optional). Default: initial value of the loop counter.
-         #4 – cycle step (optional). Default: 1 if set to #3, otherwise 0.</pre>
+         #4 – loop step (optional). Default: 1 if #3 is supplied, otherwise 0.</pre>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">; An endless loop of annoying messages:
 !!re i:;
@@ -11902,8 +12423,8 @@ First, the loop counter variable is initialized.<br>
 Values #2 and #3 are remembered for the entire loop and will not be evaluated on each iteration (repeat).<br>
 The step determines what value needs to be added to the counter variable after each iteration. 
 It also defines the type of iteration stopping condition.<br>
-The positive step checks if the value is $1&gt;#3.<br>
-The negative step checks whether the value $1&lt;#3.
+A positive step stops the loop when $1&gt;#3.<br>
+A negative step stops the loop when $1&lt;#3.
 <pre class="erm-example"><code class="language-erm">; Disband the current hero's army
 !!re i/0/6:;
   !!HE-1:C0/i/-1/0;
@@ -11919,7 +12440,7 @@ The negative step checks whether the value $1&lt;#3.
 <li>On <strong><span class="erm-tone-red">!!re</span></strong> ("<em>repeat</em>" – repeat) checks whether the counter has gone beyond the final value #3? If yes, then execution is transferred to the corresponding block !!en.</li>
 <li>Counter on <strong><span class="erm-tone-red">!!en</span></strong> is incremented, and if the stopping condition is not met, the next receiver after the nearest !!re will be executed.</li>
 <li><strong><span class="erm-tone-red">!!co</span></strong> ("<em>continue</em>" – continue) with the condition (optional) immediately goes to the loop receiver !!en, which, in turn, will be executed in accordance with the operating logic.</li>
-<li><strong><span class="erm-tone-red">!!br</span></strong> ("<em>break</em>" – abort) with the condition (optional) immediately goes beyond the receiver cycle !!en.</li>
+<li><strong><span class="erm-tone-red">!!br</span></strong> ("<em>break</em>" – abort) with an optional condition immediately exits past the matching !!en.</li>
 </ul>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">; Show the number of the 1st empty hero slot, if found
@@ -11949,9 +12470,9 @@ Maximum allowed 16 nested blocks <a href="../conditions/#ref-rec-iee">!!if</a> /
   !!br&amp;exit condition:; this is WHILE...DO
   ...
 !!en:;</code></pre></div>
-<div class="erm-paragraph">For cycle control receivers <a href="./#ref-rec-re-br-co">!!br</a> / <a href="./#ref-rec-re-br-co">!!co</a> There is support for loop levels.<br>
-<span class="erm-anchor" id="ref-rec-re-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 1:;</strong> equivalent <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span>:;</strong> and means to interrupt the current (most nested) loop.<br>
-<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 2:;</strong> will interrupt the cycle to a higher level, and <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 3:;</strong> – even higher in level, etc. ...<br>
+<div class="erm-paragraph">The loop control receivers <a href="./#ref-rec-re-br-co">!!br</a> / <a href="./#ref-rec-re-br-co">!!co</a> support nested loop levels.<br>
+<span class="erm-anchor" id="ref-rec-re-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 1:;</strong> is is is is is equivalent to to to to to <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span>:;</strong> and means to interrupt the current (most nested) loop.<br>
+<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 2:;</strong> exits the loop one level above, and <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 3:;</strong> – even higher in level, etc. ...<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!re i/0/6:; 2nd level cycle
   !!re j/0/4:; 1st level cycle
@@ -12014,7 +12535,9 @@ Since ERA 3.0.4, the fifth argument in `!!re counter/start/stop/step/stop_modifi
 
 # Receivers and subcommands
 
+ID: erm.receivers
 URL: /en/erm/receivers/
+Source references: old-help:cont-receivers.htm, old-help:cont-receiversa.htm, old-help:cont-receiversol.htm
 
 Alphabetical command catalog with parameters, limitations and context.
 
@@ -12027,7 +12550,7 @@ Alphabetical command catalog with parameters, limitations and context.
 <h3 class="erm-align-center">Receivers and instructions</h3>
 <span class="erm-anchor" id="ref-cont-receivers-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note erm-paragraph"><span><a href="../syntax/#ref-cont-receiversol">Receivers: general information</a><br>
 <a href="./#ref-cont-receiversa">Receivers for objects</a><br>
-<a href="sn/#ref-rec-sn-era">New ERA teams</a></span></div></div>
+<a href="sn/#ref-rec-sn-era">New ERA commands</a></span></div></div>
 
 <div>
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -12185,7 +12708,7 @@ Alphabetical command catalog with parameters, limitations and context.
 	</tr>
 	<tr>
 		<td><a href="../loops/#ref-rec-re">!!re<span class="erm-anchor" id="ref-cont-receivers-black"></span><em class="erm-tone-text">/</em><wbr>!!br<em class="erm-tone-text">/</em><wbr>!!co</a></td><td class="erm-align-right"><a href="../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-middle erm-inline-icon"></a></td>
-		<td>High speed cycles</td>
+		<td>High speed loops</td>
 	</tr>
 	<tr>
 		<td><a href="rd/#ref-rec-rd">!!RD</a></td><td class="erm-align-right"><a href="../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-middle erm-inline-icon"></a></td>
@@ -12213,7 +12736,7 @@ Alphabetical command catalog with parameters, limitations and context.
 	</tr>
 	<tr>
 		<td><a href="un/#ref-rec-un">!!UN</a></td><td></td>
-		<td>Universal team</td>
+		<td>Universal command</td>
 	</tr>
 	<tr>
 		<td><a href="vc/#ref-rec-vc">!#VC</a></td><td></td>
@@ -12457,7 +12980,9 @@ Lowercase `if/el/en` and `re/br/co` are documented in [conditions](../conditions
 
 # AI destinations (AI)
 
+ID: erm.receivers.ai
 URL: /en/erm/receivers/ai/
+Source references: old-help:rec-ai.htm
 
 AI receiver: ai destinations, command parameters, and limitations.
 
@@ -12555,7 +13080,9 @@ Therefore, it is better to assign a specific hero to avoid chaos.</li></ol></div
 
 # Map artifacts and resources (AR)
 
+ID: erm.receivers.ar
 URL: /en/erm/receivers/ar/
+Source references: old-help:rec-ar.htm
 
 AR receiver: map artifacts and resources, command parameters, and limitations.
 
@@ -12582,13 +13109,13 @@ Artifacts and resources are numbered separately.</div>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-ar-1"></span><details class="erm-comment"><summary>Important note (<span class="erm-anchor" id="ref-rec-ar-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Most of these commands will not affect artifact or the heap 
 resources, if it does not have certain settings made in the Map Editor. This 
-can be a simple setup of security for a resource or artifact. If artifact 
+can be a simple setup of guards for a resource or artifact. If artifact 
 or resource does not have any special setting, a message about 
 ERM error. You can use error output option statuses with commands 
 <a href="../un/#ref-rec-un-p904">UN:P904 P905</a>, to avoid problems; you can also use the command <a href="../ob/#ref-rec-ob-c">
 OB:C</a> to obtain a check number and process its value (but the command 
 V$ will work correctly even if the scroll or resource does not have 
-any installation).</div></details>
+any setting).</div></details>
 <hr>
 <div class="erm-paragraph">
 <strong><span class="erm-tone-red">
@@ -12597,7 +13124,7 @@ Set/check/get creatures - guards <br>
          #1 – position (0..6)  <br>
          $2 – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a><br>
          $3 – number of creatures<br>
-The team cannot turn on guards, it can only place them. Use 
+The command cannot turn on guards, it can only place them. Use 
 option <a href="./#ref-rec-ar-x">X</a> to turn on.</div>
 <hr>
 <div class="erm-paragraph">
@@ -12634,13 +13161,12 @@ resource)<br>
 3 – Leadership is required to pick up an artifact<br>
 4 – Offer to buy artifact for 2500 coins and 3 wood<br>
 5 – Offer to buy artifact for 3000 coins and 5 wood<br>
-6 – The artifact has security (another way to turn it on)<br>
+6 – The artifact has guards (another way to turn it on)<br>
 All values greater than 6 make artifact unraveable.</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ar-x"></span><span class="erm-anchor" id="command-x"></span>X#</strong></span><br>
-Enable guards if # is non-zero, otherwise disable. Checks for 
-there are no security guards.</div>
+Enable guards if # is non-zero, otherwise disable. The command does not check whether guards exist.</div>
 <hr>
 
 
@@ -12676,7 +13202,9 @@ there are no security guards.</div>
 
 # Battle configuration (BA)
 
+ID: erm.receivers.ba
 URL: /en/erm/receivers/ba/
+Source references: old-help:rec-ba.htm, era-changelog:era-iii-changelog.txt
 
 BA receiver: battle configuration, command parameters, and limitations.
 
@@ -12717,7 +13245,7 @@ Even in a human player battle, the battle manager is not fully defined in the !?
 Receiver BH must be used in the corresponding trigger section or later.</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-ba-b"></span><span class="erm-anchor" id="command-b"></span>B#</strong></span><br>
-Install <a href="../../tables/battle-backgrounds/#ref-form-ba-b" data-context="true">background #</a> battlefields.<br>
+Set <a href="../../tables/battle-backgrounds/#ref-form-ba-b" data-context="true">background #</a> battlefields.<br>
 <strong><br><span class="erm-anchor" id="ref-rec-ba-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ba-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Background 21 is a clean field; I'm guessing there was supposed to be a background for the Battle of Tailwind, but it wasn't completed.<br>
 Background 24 (ship-to-ship battle) does not change the cells of the space between ships to impassable if the battle is not carried out on the water and not against a ship. 
@@ -12735,7 +13263,7 @@ Cancel or resolve battle<br>
 Check for MP battle:<br>
          $ is the battle status:<br>
             = 2 – AI battle against an inactive Human (on a remote computer)<br>
-            = 1 – person per person (2 computers)<br>
+            = 1 – human versus human (2 computers)<br>
             = 0 – if this is any other battle (on this computer)<br>
 <strong></strong><br></div><span class="erm-anchor" id="ref-rec-ba-3"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ba-show3"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Use this command to disable scripts that do not support MP battles.<br>
@@ -12821,7 +13349,9 @@ You can set the parameter, but it won't change anything.</div>
 
 # Battlefield setup (BF)
 
+ID: erm.receivers.bf
 URL: /en/erm/receivers/bf/
+Source references: old-help:rec-bf.htm
 
 BF receiver: battlefield setup, command parameters, and limitations.
 
@@ -12841,7 +13371,7 @@ because Preparation of the battlefield begins before the battle, although the pl
 <strong></strong><br></div><span class="erm-anchor" id="ref-rec-bf-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-bf-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 We also noticed that <a href="../vr/#ref-rec-vr-r">VR:R</a> doesn't work inside the BF trigger, or rather plays the same series of numbers for every battle. 
 The first number generated in a battle is always the same number generated in any other battle. 
-Although, the team <a href="../vr/#ref-rec-vr-t">VR:T</a> works great, but obviously can only be used once in the !?BF trigger.<br>
+Although, the command <a href="../vr/#ref-rec-vr-t">VR:T</a> works great, but obviously can only be used once in the !?BF trigger.<br>
 <strong>Reply from <span class="erm-anchor" id="ref-rec-bf-n1"></span><strong class="erm-tone-purple erm-strong">Slava Salnikov</strong> aka <strong class="erm-tone-purple erm-strong">ZVS</strong>:</strong><br>
 I think this is done on purpose so that you can use the same battle pattern every time you load the map. 
 But there is a way around this:<br>
@@ -12918,7 +13448,9 @@ Place a separate object<br>
 
 # Current battle action (BG)
 
+ID: erm.receivers.bg
 URL: /en/erm/receivers/bg/
+Source references: old-help:rec-bg.htm, era-changelog:era-iii-changelog.txt
 
 BG receiver: current battle action, command parameters, and limitations.
 
@@ -12951,9 +13483,9 @@ steps to cancel)<br>
              6 – go and attack<br>
              7 – shoot<br>
              8 – wait<br>
-             9 – wall attack (Catapult (specialty X1), Cyclops)<br>
+             9 – wall attack (Catapult, Cyclops)<br>
              10 – creature casts spell (Fairytale dragon)<br>
-             11 – First aid tent (treatment)<br>
+             11 – First Aid Tent (healing)<br>
              12 – no action (can be used as a waste of a unit’s turn)<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-bg-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-bg-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Attacking castle towers is considered normal shooting. You can check the shooting towers via <a href="../mf/#ref-rec-mf-w">MF:W</a>.<br>
@@ -12979,7 +13511,7 @@ If used in a trigger <a href="../../triggers/bg/#ref-tr-bg">!?BG1</a>, returns t
 Current walking side: left (0) or right (1). Only receive or check.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bg-s"></span><span class="erm-anchor" id="command-s"></span><span class="erm-tone-red"><strong>S$</strong></span><br>
-Number of the person being conjured <a href="../../tables/spells/#ref-form-spell" data-context="true">spells</a><br>
+ID of the spell being cast <a href="../../tables/spells/#ref-form-spell" data-context="true">spells</a><br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-bg-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-bg-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 If creature casts spell before an action (Sorcerers or Trolls (regeneration)), it goes <a href="../../triggers/#ref-era-new-events-2-7">before the trigger</a>.<br>
 If creature comes up to attack, then this option allows you to get the cell number where he will attack from. 
@@ -12991,7 +13523,7 @@ The number of the spell cast by creature is always -1.
 !!BG:A10; casts creature
 !!BG:S?v1; the value in v1 will always be -1</code></pre>
 
-An example of how you can force a creature with spell to conjure it:
+Example: force a creature with a spell to cast it:
 <pre class="erm-example"><code class="language-erm">!!BG:A10 S-1 Dx1; At position x1 there should be an object on which magic is cast</code></pre>
 </div></details>
 <hr>
@@ -13050,7 +13582,9 @@ An example of how you can force a creature with spell to conjure it:
 
 # Battle hero actions (BH)
 
+ID: erm.receivers.bh
 URL: /en/erm/receivers/bh/
+Source references: old-help:rec-bh.htm
 
 BH receiver: battle hero actions, command parameters, and limitations.
 
@@ -13140,7 +13674,9 @@ The position will be checked automatically for the presence of an obstacle (if t
 
 # Battle stack (BM)
 
+ID: erm.receivers.bm
 URL: /en/erm/receivers/bm/
+Source references: old-help:rec-bm.htm, era-changelog:era-iii-changelog.txt
 
 BM receiver: battle stack, command parameters, and limitations.
 
@@ -13232,7 +13768,7 @@ Stack does not have a designation for the number of creatures, until it looks li
 Quantity is shown when clicked <span class="erm-anchor" id="ref-rec-bm-vc"></span><img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> in the lower right corner of the picture (where it usually is, in general).<br>
 <strong>-89</strong>: Creature type<br>
 The unit’s parameters become the same as those of the creature whose number is set, but are immediately reduced to the standard parameters of the creature that is being changed. 
-Squad name in menu when clicked <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> essentially changes; when he is beaten, his name remains changed. 
+Stack name in menu when clicked <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> essentially changes; when he is beaten, his name remains changed. 
 When the battle is over, the picture will show the configured stack, not the old one. If you change the type of creature, the battle becomes impossible to win 
 (the logic of the game requires killing the one who attacked, and changing the type of creatures is equivalent to summoning another creature, without destroying the old one (according to the logic of the game again)). 
 This problem renders the option virtually useless.<br>
@@ -13286,7 +13822,7 @@ The less, the more often. So, a value of 200 will give a continuous animation.<b
 <strong>-1</strong>: Number of active spells (to display the color of the number of creatures).<br>
 [<span class="erm-anchor" id="ref-rec-bm-wt"></span><strong class="erm-legacy-label">0..65</strong>]: working with spells (normal operation of command BM:G)<br>
 <strong>173</strong>: Number of active spells (to display when clicked <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon">).<br>
-<strong>212</strong>: Creature Morality<br>
+<strong>212</strong>: Creature Morale<br>
 <strong>213</strong>: Luck creatures<br>
 Morale and luck are recalculated when the turn is transferred to another creature. Therefore only useful for receiving or checking. 
 If you really need to change, then you can do it either before the attack, or every turn.</div></div></details>
@@ -13341,7 +13877,7 @@ And if you use <a href="./#ref-rec-bm-c">BG:C</a>to try to “cast” one of the
 76. Cloud of Death<br>
 77. Lightning Bolt<br>
 78. Removing useful spells<br>
-79. Death Glare<br>
+79. Death Stare<br>
 80. Acid breath</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bm-n"></span><span class="erm-tone-red"><strong>N$</strong></span><br>
@@ -13374,7 +13910,7 @@ This is the number of stack responses remaining until the end of the round. It i
 <span class="erm-anchor" id="ref-rec-bm-s"></span><span class="erm-tone-red"><strong>S$</strong></span><br>
 Creature speed.<br>
 <strong><u>Comment</u>:</strong> the resulting value does not include magical speed effects.</div>
-<div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="./#ref-rec-bm-u6">BM:U6</a></div>
+<div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="./#ref-rec-bm-u6">BM:U6</a></div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bm-t"></span><span class="erm-tone-red"><strong>T$</strong></span><br>
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">Creature type</a></div>
@@ -13398,7 +13934,7 @@ Also remember that this command does not affect creatures that cast a random spe
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bm-u6"></span><span class="erm-tone-red"><strong>U6/?$</strong></span><a href="../../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a><br>
 Get the real stack speed (all bonuses/penalties are taken into account).</div>
-<div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="./#ref-rec-bm-s">BM:S</a>.
+<div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="./#ref-rec-bm-s">BM:S</a>.
 </div>
 <hr>
 <div class="erm-paragraph">
@@ -13456,7 +13992,9 @@ The command returns the memory address <a href="../../tables/combat-stack-struct
 
 # Battlefield operations (BU)
 
+ID: erm.receivers.bu
 URL: /en/erm/receivers/bu/
+Source references: old-help:rec-bu.htm, era-changelog:era-iii-changelog.txt
 
 BU receiver: battlefield operations, command parameters, and limitations.
 
@@ -13519,7 +14057,7 @@ Receive or check <a href="../../tables/obstacle-flags/#ref-form-obstacles-bit" d
 The command can be used to check obstacle bits on a battlefield hex of interest.<br>
 So, if there is a mine at the position, then we get $ = 9 (1+8)<br>
 <span class="erm-anchor" id="ref-rec-bu-bold"></span><em class="erm-strong">Note:</em> for the Force field for the initial cell (bottom), the game sets the value $=35 (1+2+32), and for the rest - $=34 (2+32). 
-The same goes for all obstacles set by the team. <a href="../bf/#ref-rec-bf-o">BF:O</a>, in which the initial cell will have $=3 (1+2), and all others will have $=2 (when the obstacle occupies more than 1 cell).<br>
+The same goes for all obstacles set by the command. <a href="../bf/#ref-rec-bf-o">BF:O</a>, in which the initial cell will have $=3 (1+2), and all others will have $=2 (when the obstacle occupies more than 1 cell).<br>
 <span class="erm-anchor" id="ref-rec-bu-4"></span><details class="erm-comment"><summary><strong>Additionally</strong><a href="../../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a>(<span class="erm-anchor" id="ref-rec-bu-show4"></span><u class="erm-toggle-label">show</u>)</summary><div class="erm-comment-body">
 When working with obstacles, the BU:O command cannot always help. For example, when you need to check the cells at the gate (during a siege).
 
@@ -13600,7 +14138,9 @@ Win the battle<br>
 
 # Towns (CA)
 
+ID: erm.receivers.ca
 URL: /en/erm/receivers/ca/
+Source references: old-help:rec-ca.htm, era-changelog:era-iii-changelog.txt
 
 CA receiver: towns, command parameters, and limitations.
 
@@ -13657,7 +14197,7 @@ Set/check/get the hero's number in the garrison of the town or guest<br>
          # = 0 – hero in the town garrison<br>
          # = 1 – hero-guest<br>
          $ - <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero number</a> (-1 = no)<br>
-You can get or install a hero. If you're going to install it, don't forget to put the old one away somewhere.</div>
+You can get or set a hero. If you're going to set it, don't forget to put the old one away somewhere.</div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-ca-i"></span><span class="erm-anchor" id="command-i"></span>I#</strong></span><br>
@@ -13780,7 +14320,9 @@ You can set the value, but we wouldn't recommend it ;)</div>
 
 # Creature banks (CB)
 
+ID: erm.receivers.cb
 URL: /en/erm/receivers/cb/
+Source references: old-help:rec-cb.htm
 
 CB receiver: creature banks, command parameters, and limitations.
 
@@ -13804,13 +14346,13 @@ This receiver also works for Decrepit Ship (type 24), Dragon Utopia (type 25), C
 <div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-a"></span><strong><span class="erm-tone-red">A</span></strong><br>
 Bonus – <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact</a><br>
-<span class="erm-tone-red"><strong>A1/$</strong></span> - check/get the number of artifacts in the bonus table (cannot be installed!)<br>
+<span class="erm-tone-red"><strong>A1/$</strong></span> - check/get the number of artifacts in the bonus table (cannot be set!)<br>
 <span class="erm-tone-red"><strong>A2/#/$</strong></span> - set/check/get <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact $</a> in position # (0...) in the bonus table<br>
 <span class="erm-tone-red"><strong>A3/$</strong></span> - add <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact $</a> to the end of the bonus table<br>
 <span class="erm-tone-red"><strong>A4/$</strong></span> - remove artifact in position $ (0...) in the bonus table.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-g"></span><span class="erm-anchor" id="command-g-1-2-3"></span><span class="erm-tone-red"><strong>G#1/$2/$3</strong></span><br>
-Set/check/get <a href="../../tables/creatures/#ref-form-creature" data-context="true">security guards</a> in slot #1 (0..6), type $2 and quantity $3.<br>
+Set/check/get <a href="../../tables/creatures/#ref-form-creature" data-context="true">guards</a> in slot #1 (0..6), type $2 and quantity $3.<br>
 <u></u><br></div><span class="erm-anchor" id="ref-rec-cb-1"></span><details class="erm-comment"><summary>Additionally (<span class="erm-anchor" id="ref-rec-cb-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <div class="erm-paragraph">The creatures are located like this:<br>
 </div><div class="table-wrap erm-reference-table"><table class="erm-table-offset">
@@ -13854,7 +14396,7 @@ To remove bonus creature, set type to -1 and quantity to 0.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-r"></span><span class="erm-anchor" id="command-r-1-2"></span><span class="erm-tone-red"><strong>R#1/$2</strong></span><br>
 Set/check/get a resource bonus <a href="../../tables/resources/#ref-form-resource" data-context="true">type #1</a> and quantity $2. you 
-you can install all 7 resources.</div>
+you can set all 7 resources.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-cb-t"></span><span class="erm-anchor" id="command-t"></span><span class="erm-tone-red"><strong>T$</strong></span><br>
 Set/check/get whether the bank is visited (1) or not (0).<br>
@@ -13903,7 +14445,9 @@ but did not attack, its bits will still be included in the value edited by this 
 
 # Town demolition and building dependencies (CD)
 
+ID: erm.receivers.cd
 URL: /en/erm/receivers/cd/
+Source references: old-help:rec-cd.htm
 
 CD receiver: town demolition and building dependencies, command parameters, and limitations.
 
@@ -14048,7 +14592,9 @@ be carried out on the ground, which is located at the entrance to town.</div>
 
 # Town events (CE)
 
+ID: erm.receivers.ce
 URL: /en/erm/receivers/ce/
+Source references: old-help:rec-ce.htm
 
 CE receiver: town events, command parameters, and limitations.
 
@@ -14165,7 +14711,9 @@ Build building # (<a href="../../tables/building-pictures/#ref-form-buldingsinto
 
 # Treasure chest (CH)
 
+ID: erm.receivers.ch
 URL: /en/erm/receivers/ch/
+Source references: old-help:rec-ch.htm
 
 CH receiver: treasure chest, command parameters, and limitations.
 
@@ -14236,7 +14784,9 @@ Content Type:<br>
 
 # Mouse-event context (CM)
 
+ID: erm.receivers.cm
 URL: /en/erm/receivers/cm/
+Source references: old-help:rec-cm.htm, era-changelog:era-iii-changelog.txt
 
 CM receiver: mouse-event context, command parameters, and limitations.
 
@@ -14379,7 +14929,9 @@ Action type (usually 512)</div>
 
 # Commanders (CO)
 
+ID: erm.receivers.co
 URL: /en/erm/receivers/co/
+Source references: old-help:rec-co.htm
 
 CO receiver: commanders, command parameters, and limitations.
 
@@ -14400,7 +14952,7 @@ CO receiver: commanders, command parameters, and limitations.
          # = -2 – apply to all commanders<br>
          # = -1 – apply to the current commander (for the current hero)<br>
          # ≥ 0 – apply to a specific commander (corresponding to the hero number)</div>
-<span class="erm-anchor" id="ref-rec-co-q1"></span><div class="erm-tone-quote erm-note erm-paragraph"><u>See also</u>: trigger <a href="../../triggers/co/#ref-tr-co">!?CO</a>, <a href="../../un-c/commander-structure/#ref-form-commstr" data-context="true">Commander structure</a>, team <a href="../un/#ref-rec-un-j13">!!UN:J13</a>.</div>
+<span class="erm-anchor" id="ref-rec-co-q1"></span><div class="erm-tone-quote erm-note erm-paragraph"><u>See also</u>: trigger <a href="../../triggers/co/#ref-tr-co">!?CO</a>, <a href="../../un-c/commander-structure/#ref-form-commstr" data-context="true">Commander structure</a>, command <a href="../un/#ref-rec-un-j13">!!UN:J13</a>.</div>
 <div class="erm-paragraph"><u></u></div><span class="erm-anchor" id="ref-rec-co-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-co-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 All commanders placed on the map using ERM have the same secondary and primary skills (but abilities vary depending on their type). 
 In fact, this is one Commander with different capabilities. If you have not set any parameters for these commanders, they will have the standard parameters for the start of the game. 
@@ -14625,7 +15177,9 @@ You may be able to donate later."
 
 # Custom dialogs (DL)
 
+ID: erm.receivers.dl
 URL: /en/erm/receivers/dl/
+Source references: old-help:rec-dl.htm, era-changelog:era-iii-changelog.txt
 
 DL receiver: custom dialogs, command parameters, and limitations.
 
@@ -14778,7 +15332,7 @@ It will work for active dialogue and on any object.<br>
 which will be executed (called if we are talking about a function) upon exiting the current block of code (usually a function).<br>
 Using examples <span class="erm-anchor" id="ref-rec-dl-n1"></span><strong class="erm-tone-purple erm-strong">Glory</strong> it can be seen that with each dialog event (such as mouse movement) a certain ERM function is called, 
 which controls all other logic. In the function we choose which actions to react to and what to ignore. 
-Team <span class="erm-anchor" id="ref-rec-dl-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">DL</span>:C1</strong> would be a normal function if it closed the dialog and immediately exited the current block of code. 
+Command <span class="erm-anchor" id="ref-rec-dl-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">DL</span>:C1</strong> would be a normal function if it closed the dialog and immediately exited the current block of code. 
 But the code is executed right up to the end of the trigger.</div></div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -15186,7 +15740,9 @@ Black: -9, -7, -5, -3, -1, 23</em></div></details></td>
 
 # Repeated function calls (DO)
 
+ID: erm.receivers.do
 URL: /en/erm/receivers/do/
+Source references: old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 DO receiver: repeated function calls, command parameters, and limitations.
 
@@ -15235,7 +15791,7 @@ You should see the following:
 !!VRv5:Sx1+1-x16;
 !!IF:M^Variable values: x16=%X16 , and v5=%V5^;
 !!VRx16:+7; - jump 8</code></pre>
-Instead of 66 you will get only 9 cycles, with these values:<pre>
+Instead of 66 you will get only 9 loops, with these values:<pre>
 <strong>x16:</strong>	 1	 9	17	25	33	41	49	57	 65
 <strong>v5:</strong>	47	39	31	23	15	 7	-1	-9	-17</pre>
 
@@ -15262,11 +15818,11 @@ DO1 because the line is inside the FU1 function.
 <div class="erm-tone-quote erm-note"><em class="erm-strong">I have a main function covering all heroes (DO1/0/155/1), 
 but for each hero I have to recognize the creatures in his slots (DO2/0/6/1). How is this possible?</em></div>
 This can be solved by simply “nesting” one function within another.</div></details>
-<div class="erm-tone-quote erm-note erm-paragraph">See also: cycle receivers <a href="../../loops/#ref-rec-re">re/br/co</a></div>
+<div class="erm-tone-quote erm-note erm-paragraph">See also: loop receivers <a href="../../loops/#ref-rec-re">re/br/co</a></div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-do-p"></span><span class="erm-anchor" id="command-p-1-15"></span><strong><span class="erm-tone-red">P$1[/$2/$3/../$16]</span></strong><br>
-$1, $2 … $16 are used to install x1..x16. These parameters can be used anywhere (within the function) 
+$1, $2 … $16 are used to set x1..x16. These parameters can be used anywhere (within the function) 
 instead of using standard variables. When you call another function, all parameters will be inherited.<br>
 The function starts working after specifying the P command, for example:
 <pre class="erm-example"><code class="language-erm">!!DO1/1/15/1:P; - correct
@@ -15281,9 +15837,9 @@ You can use <em>v</em>, <em>y-</em> or <em>y</em> variables for recording values
 For example:
 <pre class="erm-example"><code class="language-erm">!!FU...:Pv1/v2/v3/?v4;</code></pre>
 Now, if you change the value of the variable x4 inside the function, for example: 
-<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!VR</span>x4:Sx1;</strong>, - the value will be copied to v4 after the end of the cyclic function (cycle). 
+<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!VR</span>x4:Sx1;</strong>, - the value will be copied to v4 after the end of the cyclic function (loop). 
 The value of the variable (v4) itself is not passed to x4 when calling the function; instead, it passes the variable number (in the example x4 will be 4). 
-In a DO receiver, the value of number (4) will be the same for each cycle.<br>
+In a DO receiver, the value of number (4) will be the same for each loop.<br>
 So, if you set it inside the function body, the value will be copied to the destination variable after the loop ends 
 and restored to the variable index at the beginning of the next loop.<br>
 <u></u><span class="erm-anchor" id="ref-rec-do-5"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-do-show5"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -15299,7 +15855,7 @@ and restored to the variable index at the beginning of the next loop.<br>
 !#IF:M^%Y-1, %Y-2^;
 You will see "0, 0" and then "16, 30"</code></pre></div></details>
 
-<div class="erm-paragraph">Also, you can use the syntax "<strong>=$</strong>" to set the value on each DO cycle. That is, if you change this variable inside the body of the function, the variable will be accepted into the next cycle of the function as changed.<br>
+<div class="erm-paragraph">Also, you can use the syntax "<strong>=$</strong>" to set the value on each DO loop. That is, if you change this variable inside the body of the function, the variable will be accepted into the next loop of the function as changed.<br>
 <em class="erm-strong">Note:</em> use this syntax for cyclic. functions very carefully, otherwise your script will not work as intended, and you will not immediately understand the cause of the error.</div>
 <u></u><span class="erm-anchor" id="ref-rec-do-6"></span><details class="erm-comment"><summary>Examples (<span class="erm-anchor" id="ref-rec-do-show6"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"><div class="erm-paragraph">
 <pre class="erm-example"><code class="language-erm">...
@@ -15307,14 +15863,14 @@ You will see "0, 0" and then "16, 30"</code></pre></div></details>
 !!DO3...:P=v35;
 !?FU3;
 !!VRv35:Sx1 +1;</code></pre>
-In this case, you will get x1 values ​​of 10, 11, 12, 13... at the start of each cycle.<br>
+In this case, you will get x1 values ​​of 10, 11, 12, 13... at the start of each loop.<br>
 But if you write the code like
 <pre class="erm-example"><code class="language-erm">...
 !!VRv35:S10;
 !!DO3...:Pv35;
 !?FU3;
 !!VRv35:Sx1 +1;</code></pre>
-then x1 will be 10, 10, 10... at the beginning of each cycle.<br>
+then x1 will be 10, 10, 10... at the beginning of each loop.<br>
 You can use several of these variables in a function.</div>
 <div class="erm-paragraph">You can use similar variables (see example below) with the syntax "<strong>?$</strong>" and "<strong>=$</strong>".
 <pre class="erm-example"><code class="language-erm">!?FU2;
@@ -15353,7 +15909,9 @@ You will see 33, 50, 67...</code></pre></div>
 
 # Creature dwellings (DW)
 
+ID: erm.receivers.dw
 URL: /en/erm/receivers/dw/
+Source references: old-help:rec-dw.htm
 
 DW receiver: creature dwellings, command parameters, and limitations.
 
@@ -15387,7 +15945,7 @@ Set guard creatures:<br>
 <span class="erm-anchor" id="ref-rec-dw-m"></span><span class="erm-anchor" id="command-m-1-2-3"></span>M#1/$2/$3</strong></span><br>
 Set creatures to hire:<br>
          #1 – slot (0..3) - you can 
-install up to four different creatures in one dwelling<br>
+set up to four different creatures in one dwelling<br>
          #2 –
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a> 
 (-1 – disable slot)<br>
@@ -15395,7 +15953,7 @@ install up to four different creatures in one dwelling<br>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-dw-o"></span><span class="erm-anchor" id="command-o-o-1"></span>O$</strong></span><br>
-Install 
+Set 
 <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">owner $</a> (no update)<br>
 <em>Extended syntax:</em><span class="erm-tone-red"><strong><br>
 O$/1</strong></span><br>
@@ -15439,7 +15997,9 @@ Transfer control to another player, $ – <a href="../../tables/players/#ref-for
 
 # Creature experience and bonuses (EA)
 
+ID: erm.receivers.ea
 URL: /en/erm/receivers/ea/
+Source references: old-help:rec-ea.htm, old-help:cont-stackexpbonus.htm, era-changelog:era-iii-changelog.txt
 
 EA receiver: creature experience and bonuses, command parameters, and limitations.
 
@@ -15500,7 +16060,7 @@ level (maximum experience)
 <u></u> </div><span class="erm-anchor" id="ref-rec-ea-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ea-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Some abilities are applied to creatures in battle incorrectly (there is a picture, but no effect). 
 For example: Reduced price of spells (price does not decrease), Champion Bonus (additional damage is calculated, but not dealt). 
-Also possibly Death Glare and Lightning Strike.<br>
+Also possibly Death Stare and Lightning Strike.<br>
 If $2 = 0, then, regardless of other parameters, the line will disappear.
 <pre class="erm-example"><code class="language-erm">; remove bonus line #6 from Sorceresses (193)
 !#EA193:B6/0/////////////;</code></pre></div></details>
@@ -15533,7 +16093,7 @@ its bonus lines have already been copied.<br>
 0 (bonus lines were not copied). If you then used any command 
 EA: [<a href="./#ref-rec-ea-m">M</a>] [<a href="./#ref-rec-ea-u">U</a>] [<a href="./#ref-rec-ea-l">L</a>] [<a href="./#ref-rec-ea-p">P</a>] 
 [<a href="./#ref-rec-ea-c">C</a>] [<a href="./#ref-rec-ea-b">B</a>] [<a href="./#ref-rec-ea-o">O</a>] not for testing, 
-and to install anything for that specific stack and then check again 
+and to set anything for that specific stack and then check again 
 value EA:D, it will become equal to -1.<br>
 	Normal order:<br>
 	* Check for copying bonus lines using this command;<br>
@@ -15568,7 +16128,7 @@ Get the line number of a certain bonus, or find the first empty line<br>
 <a href="../../tables/stack-experience-abilities/#ref-form-specexp1" data-context="true">ability number</a><br>
          $2 – line number (-1, 0..13)<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-ea-4"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ea-show4"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">You can only get or check the second parameter, but not 
-install it. Here's the standard view:
+set it. Here's the standard view:
 <pre class="erm-example"><code class="language-erm">!!EA...:F65/?v100;
 This way we will get the number of the line containing the “Attack” bonus (65) of a certain creature.</code></pre>
 If the line is not found, v100 will take the value of the empty line number. 
@@ -15609,7 +16169,7 @@ set to 1, use M1000
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ea-o"></span><span class="erm-anchor" id="command-o-mode"></span>EA#1:O$/#2;</strong></span><br>
-<em><strong>Can only be used in b</strong></em><strong><em>oh</em></strong><br>
+<em><strong>Can only be used in </strong></em><strong><em>battle</em></strong><br>
 Copy all lines of bonuses and parameters of a creature or stack to battlefield to another 
 creature or stack on battlefield.<br>
          #1 – target stack (<a href="../../tables/creatures/#ref-form-creature" data-context="true">creature</a>)<br>
@@ -15618,25 +16178,23 @@ creature or stack on battlefield.<br>
 	                   
 0 (normal) - simply copy the original bonuses to the target creature.<br>
 	                   
-1 - if the target stack is battlefield (PB), then the parameters of the source squad 
-will be copied 
-targets and all similar creatures of friendly troops. If the target stack is a regular number 
+1 - if the target stack is on the battlefield, then the parameters of the source stack 
+will be copied to the target and all similar creatures of friendly troops. If the target stack is a regular number 
 creature, nothing will happen.<br>
                    
-2 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target and all 
+2 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target and all 
 similar creatures of enemy troops. If the target stack is a normal creature number, 
 nothing will happen.<br>
 	                   
-3 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target plus 
+3 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target plus 
 to all similar creatures of the attacking side. If the target is a regular creature number, then 
 copy parameters to all similar creatures on the attacking side.<br>
 	                   
-4 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target plus everyone 
-similar creatures of the defending side. If the target is a regular creature number, then 
+4 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target plus all similar creatures of the defending side. If the target is a regular creature number, then 
 copy the parameters to all similar creatures of the defending side.<br>
 	                   
-5 - if the target stack is on the PB, then the parameters of the original squad will be copied to the target plus 
-to all similar creatures to battlefield. If the target is a regular creature number, then 
+5 - if the target stack is on the battlefield, then the parameters of the original stack will be copied to the target plus 
+to all similar creatures on the battlefield. If the target is a regular creature number, then 
 copy the parameters of the original unit to all target similar creatures.<u><strong></strong><br>
 </u>“Similar creatures” are the same (Gryphons and griffins).
 </div>
@@ -15644,7 +16202,7 @@ copy the parameters of the original unit to all target similar creatures.<u><str
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 EA#:O$</strong></span><br>
-<em><strong>Can only be used in b</strong></em><strong><em>oh</em></strong><span class="erm-tone-red"><strong></strong></span><br>
+<em><strong>Can only be used in </strong></em><strong><em>battle</em></strong><span class="erm-tone-red"><strong></strong></span><br>
 Copy all bonus lines and parameters<br>
          # – target stack or 
 <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature</a><br>
@@ -15816,7 +16374,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 Friendly spells (eg Shield) will be cast as a massive Shield on all allied troops whenever creature attacks an enemy, but if spell does not have a mass effect 
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature you control, but be careful - don't give the ability at level 0, 
 because the game will crash if a clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts for the battle. He cannot move or attack in melee (or be attacked) 
 but if he is a marksman, he can still shoot. You can also give spell Paralysis (74) and Petrification (70).<br>
 <strong>In columns 4..14 you can set:</strong><br>
@@ -15882,7 +16440,7 @@ Any integer value.</blockquote></div></details></li>
 For other creatures the value = 0, so % will have no effect.<br>
 <strong>In columns 4..14 for (e) you can set:</strong><br>
 Any integer value from 0 to 255.</blockquote></div></details></li>
-<li><span class="erm-anchor" id="ref-cont-stackexpbonus-8"></span><details class="erm-comment"><summary>Death Glare (E) &lt;69&gt;</summary><div class="erm-comment-body">
+<li><span class="erm-anchor" id="ref-cont-stackexpbonus-8"></span><details class="erm-comment"><summary>Death Stare (E) &lt;69&gt;</summary><div class="erm-comment-body">
 <blockquote class="erm-note">
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-stackexpbonus-q1"></span><span class="erm-tone-quote erm-note">[only works for Mighty Gorgons and Nightmares]</span></div>
 If you give a bonus to these creatures, you must set up an entire line with the normal chance to trigger.<br>
@@ -15904,11 +16462,11 @@ P: &lt;80&gt; Mind Spell Immunity<br>
 E : &lt;69&gt; No melee penalty for shooting creatures.<br>
 I : &lt;73&gt; Immunity to Fire school spells<br>
 D : &lt;68&gt; Double strike. Works for melee and marksmen.<br>
-R: &lt;82&gt; Unresponsive. Enemies do not respond to this creature's attacks<br>
-M : &lt;77&gt; Immune to morality. Creature does not benefit from good or bad morale in battle.<br>
-U : &lt;85&gt; Undead. Unliving creatures can be animated by the Raise Undead spell. "Immune to Mind Spells" and "Immune to Morale" must be set separately.<br>
+R: &lt;82&gt; No enemy retaliation. Enemies do not retaliate against this creature's attacks<br>
+M : &lt;77&gt; Immune to morale. Creature does not benefit from good or bad morale in battle.<br>
+U : &lt;85&gt; Undead. Unliving creatures can be animated by the Animate Dead spell. "Immune to Mind Spells" and "Immune to Morale" must be set separately.<br>
 A : &lt;65&gt; Attacks everyone around. Creature attacks all enemies near it.<br>
-G : &lt;71&gt; Dracon. Creature will receive bonuses from Dragon Blood Vial and similar items.<br>
+G : &lt;71&gt; Dragon. Creature will receive bonuses from Vial of Dragon Blood and similar items.<br>
 <strong>In column 4..14 for (f) you can set:</strong><br>
 0 : No ability. Creature does not have an ability and will be removed if it has one.<br>
 1: has the ability. Creature gains the ability if it didn't have it before.<br>
@@ -15944,7 +16502,7 @@ Example for Golden Golems (only deal 15% damage), you should set the line:<br>
 116    g    %    85    90    95   …<br>
 Or if you want to lower its resistance, try<br>
 116    g    %    80    85    90   …<br>
-If you don't install this bonus line on a creature that already has its own resistance, it will be used as a normal resistance.<br>
+If you don't set this bonus line on a creature that already has its own resistance, it will be used as a normal resistance.<br>
 <strong>In column 3 for (g) you can set:</strong><br>
 % : &lt;37&gt; Magic resistance percentage</blockquote></div></details></li>
 <li><span class="erm-anchor" id="ref-cont-stackexpbonus-13"></span><details class="erm-comment"><summary>Additional Santa Gremlin Guards (G) &lt;71&gt;</summary><div class="erm-comment-body">
@@ -15973,7 +16531,7 @@ Means that all creatures of level 2 (-2) “hate” Ifrit Sultans and deal 30% l
 <li><span class="erm-anchor" id="ref-cont-stackexpbonus-15"></span><details class="erm-comment"><summary>No range penalty (i) &lt;105&gt;</summary><div class="erm-comment-body">
 <blockquote class="erm-note"><strong>In column 3 for (i) you can set:</strong><br>
 + ( or = ) : &lt;43&gt; (or &lt;61&gt; ) Give ability No range penalty or not.
-<em class="erm-strong">Note:</em> you cannot take this ability away from creatures that already have it (such as Snipers).<br>
+<em class="erm-strong">Note:</em> you cannot take this ability away from creatures that already have it (such as Sharpshooters).<br>
 <strong>In columns 4..14 for (i) you can set:</strong><br>
 0 (do not give ability)<br>
 1 (give ability)</blockquote></div></details></li>
@@ -15989,7 +16547,7 @@ Friendly spells (eg Shield) will be cast as a massive Shield on all allied troop
 but if spell does not have a mass effect (for example, Anti-Magic, Magic Mirror, Fire Shield), it will cast a spell on the enemy. 
 Spell Clone (65) will create a clone of an enemy creature under your control, but be careful - do not give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. 
 Roots (72) bind the enemy and prevent him from moving until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Raise Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts in the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. The spells Paralyze (74), Petrify (70) or Blind (62) have little utility with ability j, 
 because their effect is immediately canceled by the attack: use ability (a) on them.<br>
@@ -16006,7 +16564,7 @@ Friendly spells (eg Shield) will be cast as a massive Shield on all allied troop
 effect (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving, 
 until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Raise Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts in the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. The spells Paralyze (74), Petrify (70) or Blind (62) have little utility with ability j, 
 because their effect is immediately canceled by the attack: use ability (a) on them.<br>
@@ -16026,7 +16584,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving, 
 until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts for the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. You can also give spell Paralysis (74) and Petrification (70).<br>
 <strong>In columns 4..14 for (k) you can set:</strong><br>
@@ -16046,7 +16604,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. Roots (72) bind the enemy and prevent him from moving, 
 until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or have no effect include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts for the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. You can also give spell Paralysis (74) and Petrification (70).<br>
 <strong>In columns 4..14 for (K) you can set:</strong><br>
@@ -16068,7 +16626,7 @@ The summoned stack does not spawn on an obstacle, but can spawn on a dead creatu
 any integer value from 0 to 255. This is the number of creatures that will appear on the summoned stack as a percentage of summoners. 
 So if you set it to 25 and 12 creatures are summoned, the summoner stack will be 3 (25% of 12 = 3).</blockquote></div></details></li>
 <li><span class="erm-anchor" id="ref-cont-stackexpbonus-21"></span><details class="erm-comment"><summary>Evasion (L) &lt;76&gt;</summary><div class="erm-comment-body">
-<blockquote class="erm-note">You can install it in two ways:<br>
+<blockquote class="erm-note">You can set it in two ways:<br>
 1) Fixed evasion with variable chance of triggering<br>
 2) Fixed percentage chance of triggering with variable deviation<br>
 For the first method, the modifier must be between 0 and 99, and this is the percentage of damage minus 1. So, #33 means that the damage will be reduced by 34%. 
@@ -16105,7 +16663,7 @@ Almost all combat spells are available for this ability, including Quicksand, Fi
 (for example, Anti-Magic, Magic Mirror, Fire Shield), he will cast a spell on the enemy. Spell Clone (65) will create a clone of an enemy creature under your control, 
 but be careful - don't give the ability at level 0, because the game will crash if the clone is cast from the side without a hero. 
 Roots (72) bind the enemy and prevent him from moving until the binder moves away from the target or dies.<br>
-Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Raise Undead, Sacrifice, Death Cloud, Titan Thunder and Death Glare. 
+Spells that cannot be cast and will cause the game to crash or not work include: Resurrection, Animate Dead, Sacrifice, Death Cloud, Titan Thunder and Death Stare. 
 Teleport works, but makes the battle unwinnable for that player - the target stack "disappears" but still counts in the battle. He cannot move or attack in melee 
 (or be attacked), but if he is a shooter, he can still shoot. The spells Paralyze (74), Petrify (70) or Blind (62) have little utility with the ability (p), 
 because their effect is immediately canceled by the attack: use ability (a) on them.<br>
@@ -16270,7 +16828,9 @@ Any integer value from 0 to 255.</blockquote></div></details></li>
 
 # Army stack experience (EX)
 
+ID: erm.receivers.ex
 URL: /en/erm/receivers/ex/
+Source references: old-help:rec-ex.htm
 
 EX receiver: army stack experience, command parameters, and limitations.
 
@@ -16356,7 +16916,7 @@ This command will set the variable v1 to:<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ex-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ex-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 This command will add the original stack to the army slot, along with the combination 
 parameters. All experience will be distributed equally to all soldiers, artifacts 
-are summed up. If you install <strong>warning type</strong> to 1 (default 0), 
+are summed up. If you set <strong>warning type</strong> to 1 (default 0), 
 you won't get a message that these stacks are different.<br>
 <u>Example 1</u>:<br>
 Hero visits the object and its stack 3 is added to stack 1 (they must be the same type):
@@ -16408,7 +16968,7 @@ Set/check/get artifact and option<br>
 		</tr>
 		<tr>
 			<td class="erm-align-center">5</td>
-			<td> +50% squad experience per battle</td>
+			<td> +50% stack experience per battle</td>
 		</tr>
 		<tr>
 			<td class="erm-align-center">6</td>
@@ -16466,7 +17026,9 @@ Set/check/get creature type<br>
 
 # Town-faction parameters (FC)
 
+ID: erm.receivers.fc
 URL: /en/erm/receivers/fc/
+Source references: old-help:rec-fc.htm
 
 FC receiver: town-faction parameters, command parameters, and limitations.
 
@@ -16489,11 +17051,11 @@ This receiver was conceived not so much for changing town templates, but for wor
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-b0"></span><span class="erm-anchor" id="command-b0-b1"></span>B0/$</strong></span><br>
-Set/check/get creature, purchased at the forge.</div>
+Set/check/get creature, purchased at the blacksmith.</div>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-b1"></span>B1/$</strong></span><br>
-Set/check/get the essence of shown in the forge.<br>
+Set/check/get the essence of shown in the blacksmith.<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!FC0:B0/7 B1/7; You can buy a Crusader in the Castle forge</code></pre></div>
 <hr>
@@ -16516,7 +17078,7 @@ Set/check/get the priority of displaying buildings.<br>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-h"></span><span class="erm-anchor" id="command-h-1-2"></span>H#/$1/$2</strong></span><br>
-Setting the parameters of the “Horde #” structure ($1 - unimproved creature, $2 – improved creature).<br>
+Setting the parameters of the “Horde #” structure ($1 - unupgraded creature, $2 – upgraded creature).<br>
          # = 0 – increase in horde structure 1<br>
          # = 1 - increase in horde structure 2<br>
          # = 2 – level of creatures in the horde structure 1<br>
@@ -16527,7 +17089,7 @@ Setting the parameters of the “Horde #” structure ($1 - unimproved creature,
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-h4"></span>H4/$1/$2/$3</strong></span><br>
-Type of simple $2 and improved $3 creatures in a $1 (1/2) horde structure.</div>
+Type of simple $2 and upgraded $3 creatures in a $1 (1/2) horde structure.</div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -16592,7 +17154,9 @@ Set/check/to obtain the native soil of the fraction (0..9).</div>
 
 # Campfire (FR)
 
+ID: erm.receivers.fr
 URL: /en/erm/receivers/fr/
+Source references: old-help:rec-fr.htm
 
 FR receiver: campfire, command parameters, and limitations.
 
@@ -16664,7 +17228,9 @@ IF:Q</a>. But nothing will be given to the hero.</div>
 
 # Function calls (FU)
 
+ID: erm.receivers.fu
 URL: /en/erm/receivers/fu/
+Source references: old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 
 FU receiver: function calls, command parameters, and limitations.
 
@@ -16823,7 +17389,7 @@ The syntax is the same as <a href="./#ref-rec-fu-p">FU:P</a>, and, accordingly, 
 the same. To access parameters, use the x# syntax (# = 
 1..16). They can be used anywhere (within a function) like regular ones 
 variables. When you call a function, all parameters that were not 
-installed will be inherited.<br>
+set will be inherited.<br>
 <em>Note:</em> parameter D$1 must be placed in the !!FU call (even if 
 there are no values required to be passed to the function) for the command to work correctly.<br>
 <u>
@@ -16843,7 +17409,7 @@ To execute correctly you must do some things:
 </code></pre>
 That's all. Operating principle: FU:D transmits everything immediately <em>x</em>-parameters to another 
 computer and call function 12345 there. So the command <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>v10:M...;</span> will work for 
-one computer and team <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
+one computer and command <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
 you will get the same effect on both sides.<br>
 Note that you can pass the values of some variables with the command <a href="../ip/#ref-rec-ip-v">IP:V</a> and then 
 call FU:D to transfer more than 16 <em>x</em>-parameters to another computer.</div></details>
@@ -16963,9 +17529,9 @@ Provides the ability to query the syntax that was used for a specific function p
 </div><pre>        # – argument index
         $ – syntax type:
 	0 - get: for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:P?y1;</strong>
-	1 - install: for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:P10;</strong>
+	1 - set: for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:P10;</strong>
 	2 - add: applied through the prefix "<em>d</em>", for example <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!FU</span>..:Pd200;</strong></pre>
-<div class="erm-paragraph"><strong><u>Comment</u>:</strong> Using this command, scripters will be able to write functions that will act just like regular ERM commands. For example, one function to get/of installation/adding recruits to creature dwellings.
+<div class="erm-paragraph"><strong><u>Comment</u>:</strong> Using this command, scripters will be able to write functions that will act just like regular ERM commands. For example, one function to get/of setting/adding recruits to creature dwellings.
 </div>
 <hr>
 
@@ -17020,7 +17586,9 @@ Provides the ability to query the syntax that was used for a specific function p
 
 # Mystical garden (GD)
 
+ID: erm.receivers.gd
 URL: /en/erm/receivers/gd/
+Source references: old-help:rec-gd.htm
 
 GD receiver: mystical garden, command parameters, and limitations.
 
@@ -17095,7 +17663,9 @@ Flag for resource availability in the garden: <br>
 
 # Global events (GE)
 
+ID: erm.receivers.ge
 URL: /en/erm/receivers/ge/
+Source references: old-help:rec-ge.htm, era-changelog:era-iii-changelog.txt
 
 GE receiver: global events, command parameters, and limitations.
 
@@ -17141,7 +17711,7 @@ Disable (#2 = 1) or enable (#2 = 0) event for <a href="../../tables/players/#ref
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ge-e"></span><span class="erm-anchor" id="command-e-n"></span>E$</strong></span><br>
-Install <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>who are allowed to receive the event.<br>
+Set <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>who are allowed to receive the event.<br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-ge-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ge-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">If you use $ starting with d parameter it will be 
 mean like "or", i.e. you can allow players to receive an event, 
 without changing the other players.<br>
@@ -17176,7 +17746,7 @@ Do not show the message recorded in the event itself</div>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ge-n"></span>N$</strong></span><br>
-Install <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>, which can NOT trigger an event.<br>
+Set <a href="../../tables/players/#ref-form-gamerscolor-bit" data-context="true">players</a>, which can NOT trigger an event.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ge-3"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ge-show3"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 If you use $ starting with the parameter d, it will mean like "AND" 
 i.e. you can prevent players from receiving the event without changing other players.<br>
@@ -17255,7 +17825,9 @@ Set/check/get the interval between appearances on $.</div>
 
 # Garrison (GR)
 
+ID: erm.receivers.gr
 URL: /en/erm/receivers/gr/
+Source references: old-help:rec-gr.htm
 
 GR receiver: garrison, command parameters, and limitations.
 
@@ -17332,7 +17904,9 @@ Set/check/get a host (<a href="../../tables/players/#ref-form-gamerscolor" data-
 
 # Heroes (HE)
 
+ID: erm.receivers.he
 URL: /en/erm/receivers/he/
+Source references: old-help:rec-he.htm, era-changelog:era-iii-changelog.txt
 
 HE receiver: heroes, command parameters, and limitations.
 
@@ -17387,7 +17961,7 @@ If there is no artifact, the value of the variable is -1.<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-he-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-he-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"><ul>
 <li>If you use HE:A1 to equip the hero with a artifact that grants any spells (Tome of Magic, Spell Scroll or Speaker's Hat), 
 then they will not be added until the player himself removes and puts back artifact. 
-New team <a href="./#ref-rec-he-a4">HE:A4</a>, added in 3.58, will correctly give spells to the hero.
+New command <a href="./#ref-rec-he-a4">HE:A4</a>, added in 3.58, will correctly give spells to the hero.
 </li><li>If you use the HE:A1 command to equip an artifact, it will be equipped regardless of whether it is blocked or occupied. 
 Again, command HE:A4 will only equip artifacts to slots that are not blocked or occupied.</li></ul></div></details>
 <hr>
@@ -17507,7 +18081,7 @@ Change Creatures: All Creatures <a href="../../tables/creatures/#ref-form-creatu
 <pre class="erm-example"><code class="language-erm">!!HE-1:C1/0/1/d20; add 20 units to each slot with spearmen (d20) and replace all spearmen (0) with halberdiers (1)</code></pre>
 If you use -1 in $2 or 0 in $3, all creatures of that type will be removed from the hero:
 <pre class="erm-example"><code class="language-erm">!!HE-1:C1/143/-1/0; drive all Thieves out of the army</code></pre>
-You can also get qty ($3). Finding the number allows you to quickly check whether hero has creatures of a given type, without using <a href="../do/#ref-rec-do">cycles</a>. 
+You can also get qty ($3). Finding the number allows you to quickly check whether hero has creatures of a given type, without using <a href="../do/#ref-rec-do">loops</a>. 
 But, if hero has several units, you will receive the number of creatures of this type in the last (!) slot with such creatures.
 <br>For example, active hero has the following army:<br> 
 <img src="../../../../assets/erm/f46ad655a407bf5b.gif" alt="!!HE-1:C1/0/1/d20; add 20 units to each slot with spearmen (d20) and replace all spearmen (0) with halberdiers (1) If you use -1 in $2 or 0 in $3, all creatures" loading="lazy" decoding="async" class="erm-figure" width="466" height="78"><br>
@@ -17707,7 +18281,7 @@ Set up an army of a recruitable hero.<br>
         $2 – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a> (-1 – no creature)<br>
         $3 – min. number of creatures<br>
         $4 – max. number of creatures (may be $3 for a certain number)<br>
-The team can install an army of a hero that none of the players currently have in the tavern. 
+The command can set an army of a hero that none of the players currently have in the tavern. 
 If he is in a tavern, no changes to his starting army will occur until next week.<br>
 <u>
 </u></div><span class="erm-anchor" id="ref-rec-he-18"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-he-show18"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -17734,7 +18308,7 @@ Same as HE:K, but without update</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-he-l"></span>L#^Portrait.pcx^</strong></span><br>
-Install hero portrait from external files<br>
+Set hero portrait from external files<br>
         # = 1 – set small portrait – <em class="erm-legacy-file">file.pcx</em><br>
         # = 2 – set a large portrait – <em class="erm-legacy-file">file.pcx</em><br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-he-19"></span><details class="erm-comment"><summary>Comments (<span class="erm-anchor" id="ref-rec-he-show19"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -17791,7 +18365,7 @@ Restore original portraits<br>
 <pre class="erm-example"><code class="language-erm">!!HE18:L3; return Enova to her native appearance</code></pre></div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>L4/$</strong></span><br>
-Install both portraits from the game from <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero $</a></div>
+Set both portraits from the game from <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero $</a></div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>L5/$1/$2</strong></span><br>
 Set hero portrait from variable<br>
@@ -17847,7 +18421,7 @@ which will open the destination along with the teleported hero.</li></ul></div><
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-he-r"></span><span class="erm-anchor" id="command-r-refresh"></span>R0/$</strong></span><br>
-Set/check/get hero morality (until next battle)</div>
+Set/check/get hero morale (until next battle)</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-r1"></span><span class="erm-tone-red"><strong>R1/$</strong></span><br>
 Set/check/get the hero's luck (until next battle)</div>
@@ -17874,8 +18448,8 @@ An example of a command is the button at the bottom right of the hero window.<br
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-r5"></span><span class="erm-tone-red"><strong>R5/$</strong></span><br>
 Set maximum morale<br>
-        $ = 0 – not installed<br>
-        $ = 1 – installed</div>
+        $ = 0 – not set<br>
+        $ = 1 – set</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-r6"></span><span class="erm-tone-red"><strong>R6/$</strong></span><br>
 Set maximum luck<br>
@@ -17893,7 +18467,7 @@ The command will set or clear the text associated with visiting this object if y
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-he-ref"></span><span class="erm-tone-red"><strong>R#1/$/#2</strong></span><br>
 Update command (for all commands HE:R)<br>
-        #1 – team number R<br>
+        #1 – command number R<br>
         $ – value<br>
         #2 – update flag<br>
              = 0 – no (default)<br>
@@ -17910,7 +18484,7 @@ If you only want to show one skill, first change its position to slot 1 and then
 Set/check/get secondary skills<br>
         #1 – <a href="../../tables/secondary-skills/#ref-form-secondaryskill" data-context="true">skill number</a><br>
         $2 – skill level (0 – none, 1 – basic, 2 – advanced, 3 – expert).<br>
-You can install all the secondary skills (28) at once, but only the first 8 will be shown on the hero screen.<br>
+You can set all the secondary skills (28) at once, but only the first 8 will be shown on the hero screen.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-he-45"></span><details class="erm-comment"><summary>Additionally (<span class="erm-anchor" id="ref-rec-he-show45"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Using low level command <a href="../un/#ref-rec-un-c">UN:C</a> We can provide the ability for the hero to programmatically learn all 28 skills:
 <pre class="erm-example"><code class="language-erm">!!UN:C5091278/1/27 C5121386/1/27; [level up]
@@ -17929,7 +18503,7 @@ You can use three variations of the syntax:
 !!HE#:S#1/#2/1; - set slot #1 to show skill #2</code></pre>
 In the latter case, if other skills occupy this slot, the skill will remain without a slot. 
 You can use this command twice to change the positions of two skills.<br>
-When you install skills with this command, you must follow the following rules:
+When you set skills with this command, you must follow the following rules:
 <span class="erm-anchor" id="ref-rec-he-t0"></span><ul class="erm-margin-top-zero"><li>you can move any two displayed skills to change their positions</li>
 <li>you <em>shouldn't</em> set skill to show if it is below base level (no skill)</li>
 <li>you must set the skills to be shown in a specific order (no empty spaces).</li></ul>
@@ -17972,7 +18546,7 @@ Change/get hero movement points<br>
          $ – points to change (W0, Wd-10, W?i, W&gt;=100...)<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-he-26"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-he-show26"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 This number is not the number of steps that hero can take, but a significantly larger number (usually between 1500 and 2000, depending on the speed of the troops), 
-the game is installed automatically. It is problematic to calculate the options for soil bonuses and penalties (plus Path Finding, Logistics, Boots of Speed, etc.). 
+is set automatically by the game. It is problematic to calculate the options for soil bonuses and penalties (plus Path Finding, Logistics, Boots of Speed, etc.). 
 On grass with mixed creatures, 1 step is equal to 100 hero movement points.<br>
 In Breath of Death and WoG, computer heroes receive additional movement points at higher difficulty levels. 
 On Expert they get 125 extra points, on Impossible - 75. </div></details>
@@ -18098,7 +18672,9 @@ The command returns the memory address <a href="../../tables/hero-structure/#ref
 
 # Level-up skill selection (HL)
 
+ID: erm.receivers.hl
 URL: /en/erm/receivers/hl/
+Source references: old-help:rec-hl.htm
 
 HL receiver: level-up skill selection, command parameters, and limitations.
 
@@ -18116,7 +18692,7 @@ HL receiver: level-up skill selection, command parameters, and limitations.
 <br><strong><span class="erm-anchor" id="ref-rec-hl-red"></span><span class="erm-tone-red">!!HL:XXXX;</span> - hero level controller.</strong> 
 Allows you to control which skills (<a href="../../framework/constants/hero-skills/#ref-form-primaryskill" data-context="true">primary</a> and 
 <a href="../../tables/secondary-skills/#ref-form-secondaryskill" data-context="true">secondary</a>) will receive hero when gaining a new level. 
-You cannot test or obtain the secondary skills offered, only install them.<br>
+You cannot test or obtain the secondary skills offered, only set them.<br>
 Should only be used after a trigger <a href="../../triggers/hl/#ref-tr-hl">!?HL</a>.</div>
 <hr>
 <div class="erm-paragraph">
@@ -18169,7 +18745,9 @@ Receiver only works after a trigger <a href="../../triggers/hl/#ref-tr-hl">!?HL<
 
 # Hero interaction permissions (HO)
 
+ID: erm.receivers.ho
 URL: /en/erm/receivers/ho/
+Source references: old-help:rec-ho.htm
 
 HO receiver: hero interaction permissions, command parameters, and limitations.
 
@@ -18246,7 +18824,9 @@ Prevent all heroes from attacking (enemy hero) or visiting (allied hero) this he
 
 # Object-type hints (HT)
 
+ID: erm.receivers.ht
 URL: /en/erm/receivers/ht/
+Source references: old-help:rec-ht.htm
 
 HT receiver: object-type hints, command parameters, and limitations.
 
@@ -18268,7 +18848,7 @@ HT receiver: object-type hints, command parameters, and limitations.
 First, a hint for a specific object is always searched.<br>
 If it is not found, then it is searched by the type and subtype of any HT (W,V) command<br>
 If not found, then it is searched by type and any subtype.<br>
-The command does not check for object visibility, i.e. you can get a hint text even by clicking on an unknown point with a given description. Use trigger <a href="../../triggers/cm/#ref-tr-cm">!?CM</a> and team <a href="../tr/#ref-rec-tr-v">!!TR:V</a> to eliminate such cases.  
+The command does not check for object visibility, i.e. you can get a hint text even by clicking on an unknown point with a given description. Use trigger <a href="../../triggers/cm/#ref-tr-cm">!?CM</a> and command <a href="../tr/#ref-rec-tr-v">!!TR:V</a> to eliminate such cases.  
 <br>
 <u>Simple example</u> - setting tooltip text for all objects of a certain type and subtype (no changes):
 <pre class="erm-example"><code class="language-erm">ZVSE
@@ -18307,7 +18887,7 @@ and insert three columns of three types of mushroom buildings on the map with fo
 !?OB63/30;
 !!PO998:Nd1;
 </code></pre></div></details>
-<span class="erm-anchor" id="ref-rec-ht-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="../ob/#ref-rec-ob-h">!!OB:H</a></div>
+<span class="erm-anchor" id="ref-rec-ht-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="../ob/#ref-rec-ob-h">!!OB:H</a></div>
 
 <hr>
 <div class="erm-paragraph">
@@ -18323,7 +18903,7 @@ Use this method when you need to set a tooltip for an object without changing th
 Set a tooltip for all objects of a certain type and subtype in <em>z</em>-variable (0 = delete)<br>
 For example, you can set a tooltip for an artifact: 
 <span class="erm-anchor" id="ref-rec-ht-erm"></span><span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!HT</strong>5/<a href="../../tables/artifacts/#ref-form-a1" data-context="true" title="... artifact number"><strong>#</strong></a>:T$;</span><br>
-This tooltip will only be used if no other tooltip types are installed.</div>
+This tooltip will only be used if no other tooltip types are set.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ht-v"></span><span class="erm-anchor" id="command-v-1-2-3"></span>V$1/$2/$3</strong></span><br>
@@ -18379,7 +18959,9 @@ Use this command when you want to change the object's tooltip for each hero who 
 
 # Flags, messages and choices (IF)
 
+ID: erm.receivers.if
 URL: /en/erm/receivers/if/
+Source references: old-help:rec-if.htm, era-changelog:era-iii-changelog.txt, old-help:cont-db.htm, old-help:era-color-text.htm
 
 IF receiver: flags, messages and choices, command parameters, and limitations.
 
@@ -18437,7 +19019,7 @@ At the start of the game all flags are set to "0"</div>
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-b"></span><span class="erm-anchor" id="command-b-1-2-p"></span>B#/$1/$2</strong></span><br>
 Setting or changing a single 
-images or animations to show to the team <a href="./#ref-rec-if-p">IF:P</a>.<br>
+images or animations to show to the command <a href="./#ref-rec-if-p">IF:P</a>.<br>
         # – dialogue number (1..100)<br>
         $1 – text variable number, where 
 file/image name written (BMP/GIF/JPG or AVI)<br>
@@ -18480,14 +19062,13 @@ buttons<br>
 means skip. The full path to the file, including the name (up to 256 characters) can be 
 changed, but remember that it starts processing from <em class="erm-legacy-file">Maps</em>, so you can do this: <strong class="erm-tone-red erm-inline-code">^../data/mypic.bmp^</strong>. The maximum image size is 100*100, but may be smaller 
 (center alignment automatically). Supports formats 
-JPG, BMP. From video - supports small AVIs. Installation information is not 
-is saved when you save the game, so always do the installation before 
+JPG, BMP. From video - supports small AVIs. The image setup is not saved with the game, so configure it before 
 using IF:E</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-e"></span>E$1/$2</strong></span><br>
 Show extended dialog, 
-previously installed by the command 
+previously set by the command 
 <a href="./#ref-rec-if-d">IF:D</a> 
 (possibly <a href="./#ref-rec-if-f">IF:F</a>).<br>
         $1 – number <em>v</em>-variable for 
@@ -18499,7 +19080,7 @@ The text from the input window will be automatically entered into z1, even if th
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-f"></span>F$1/$2/$3/$4/$5/$6</strong></span><br>
 Adding tooltips text to the selection window 
-in an extended dialogue. Team Expansion <a href="./#ref-rec-if-d">IF:D</a>.<br>
+in an extended dialogue. Command Expansion <a href="./#ref-rec-if-d">IF:D</a>.<br>
         #1 – dialogue number (1..100)<br>
         $2 – number <em>z</em>-variable with text for 
 1st choice<br>
@@ -18511,7 +19092,7 @@ in an extended dialogue. Team Expansion <a href="./#ref-rec-if-d">IF:D</a>.<br>
 4th choice<br>
         $6 – enable exit button (1) or 
 no (0)<br>
-<strong><u>Comment</u>:</strong> installation information will not be saved when 
+<strong><u>Comment</u>:</strong> this setup is not saved when 
 saving, so always make settings before using the command <a href="./#ref-rec-if-e">
 IF:E</a></div>
 <hr><div class="erm-paragraph">
@@ -18579,13 +19160,13 @@ Set or get message text<br>
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-if-n"></span><span class="erm-anchor" id="command-ntype-subtype-n-text"></span>N#1/#2/#3/#4/#5/#6/#7/#8/#9/#10/#11/#12/#13/#14/#15/#16</strong></span><br>
 A message with text and up to 8 pictures of any type available in the game.<br>
-You can see something similar by installing <a href="../ge/#ref-rec-ge">global event</a> with multiple resources<br>
+You can see something similar by setting <a href="../ge/#ref-rec-ge">global event</a> with multiple resources<br>
 <em>The syntax is:</em><br>
 <strong><span class="erm-tone-red">!!IF:N…</span></strong><br>
 The dialogue is not shown, this is only a preparatory phase.<br>
 If you set more than three parameters, the interpreter will understand them as 
 <a href="../../tables/dialog-pictures/#ref-form-picts" data-context="true">type</a> and <a href="../../tables/dialog-pictures/#ref-form-picts" data-context="true">subtype</a> 
-pictures the same way as in the team <a href="./#ref-rec-if-q">IF:Q</a>.<br>
+pictures the same way as in the command <a href="./#ref-rec-if-q">IF:Q</a>.<br>
 You can set up to 8 pictures (16 parameters), but a minimum of 2 pictures (4 parameters).<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-if-13"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-if-show13"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <pre class="erm-example"><code class="language-erm">!!IF:N3/8/10/2/11/3/13/2/17/1000/21/99/22/4;</code></pre>
@@ -18727,7 +19308,7 @@ Set conditional flag #1 (1..1000) to value #2 (1 or 0)</div>
 Each hero has 200 individual variables.<br>
 They are called w# (# = 1..200)<br>
 They can be used wherever f…t variables are.<br>
-You must install a hero against whom these values will be checked ($ = 
+You must set a hero against whom these values will be checked ($ = 
 <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">0..155</a>, -1 = current)<br>
 Each time you use this command, you access the variables of a specific hero.<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-if-15"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-if-show15"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -18760,7 +19341,7 @@ See also <a href="../../variables/#ref-cont-flags-var-show">show variables</a> i
 <h4>View title</h4><div class="erm-paragraph">
 Sometimes you will know the number of a creature, artifact, building, secondary skill or 
 spell, but you won’t know its name (especially if generated randomly). B 
-In such situations, use the title view command - <a href="../un/#ref-rec-un-n">UN:N</a>. This team 
+In such situations, use the title view command - <a href="../un/#ref-rec-un-n">UN:N</a>. This command 
 will allow you, by specifying the number, to receive the name (name) recorded in a specific <em>z</em>-a variable that can already be inserted in your dialog.</div>
 
 <h4>Interpretation of values in IF:Q</h4><div class="erm-paragraph">
@@ -18851,7 +19432,7 @@ There can be up to 8 pictures at the same time, the display parameters of which 
 from four options, and/or show certain pictures or animations, you 
 should use advanced dialog boxes. In general, you need to write down 
 some text in <em>z</em>-variable and then use it to set commands to 
-extended dialog box. To install them, use the commands
+extended dialog box. To set them, use the commands
 <a href="./#ref-rec-if-d">IF:D</a> and <a href="./#ref-rec-if-f">IF:F</a>, and 
 for display - by command <a href="./#ref-rec-if-e">IF:E</a>. Any option below can 
 be connected into a multitasking dialog:</div>
@@ -18864,7 +19445,7 @@ directories <em class="erm-legacy-file">Heroes3\Maps</em>. Pictures can be BMP, 
 size 100x100 pixels. If the image is smaller, it will be aligned to 
 the center of the free space. If the image is larger, only 100x100 pixels 
 will be shown. For BMP, the top left pixel will be interpreted as 
-transparent. You can mix and change pictures as you wish. Team <a href="./#ref-rec-if-d">
+transparent. You can mix and change pictures as you wish. Command <a href="./#ref-rec-if-d">
 IF:D</a> used to set images for the multitasking dialog box.</div>
 <u>Example 1</u>:
 <pre class="erm-example"><code class="language-erm">!!VRz10:S^The lands you travel to are beautiful.^;
@@ -18909,7 +19490,7 @@ the checkbox itself, you can correlate the selected option and the picture in it
 shown above. When the dialog appears, no option will be selected. Player 
 can only select one option, selecting another will automatically disable the previous one. 
 After the player clicks OK, you can check which option was selected by 
-the number is remembered in <em>v</em>-variable. Dialogue is installed in the same way as pictures 
+the number is remembered in <em>v</em>-variable. The dialog is configured in the same way as images 
 and animations:
 <a href="./#ref-rec-if-d">IF:D</a> and <a href="./#ref-rec-if-f">IF:F</a> for 
 adding hint text for checkboxes if you want.</div>
@@ -18925,9 +19506,9 @@ name, or creature, castle building, or skill name. <a href="./#ref-rec-if-d">
 IF:D</a> 
 used to set the text input window.</div>
 <div class="erm-paragraph"><strong class="erm-indent">5. Header text:</strong> text at the top of the dialog box (white) can be 
-install with command <a href="./#ref-rec-if-d">IF:D</a>, and yellow text for 
+set with command <a href="./#ref-rec-if-d">IF:D</a>, and yellow text for 
 checkboxes can be used even if you did not use checkboxes in the dialog.</div>
-<div class="erm-paragraph"><strong class="erm-indent">6. Cancel button:</strong> team <a href="./#ref-rec-if-f">IF:F</a> maybe 
+<div class="erm-paragraph"><strong class="erm-indent">6. Cancel button:</strong> command <a href="./#ref-rec-if-f">IF:F</a> maybe 
 be used to disable or enable the Cancel button (and the <span class="erm-key">Esc</span> on 
 keyboard) for an enhanced multitasking dialog box.</div>
 <u>Example 2</u>:
@@ -18964,7 +19545,7 @@ installations than multitasking ones (fewer parameters), and have the advantage 
 that can show an image or video of almost any size. Chief 
 disadvantage - you cannot include any text along with the image or 
 video. When you call this dialog, you get a simple message box with 
-image or AVI in the center and the OK button below. The command to install this is 
+image or AVI in the center and the OK button below. The command to set this is 
 messages - <a href="./#ref-rec-if-b">IF:B</a>, and the command to show is <a href="./#ref-rec-if-p">
 IF:P</a>.<br>
 <u>Example</u>:
@@ -18972,9 +19553,9 @@ IF:P</a>.<br>
 !!IF:B99/1/0;
 !!IF:P99;</code></pre>
 </div><div class="erm-align-center erm-paragraph"><img src="../../../../assets/erm/73da468cd33716b7.jpg" alt="ifb" loading="lazy" decoding="async" class="erm-figure" width="181" height="266"></div><br>
-But some team overlap <a href="./#ref-rec-if-d">IF:D</a> 
+But some command overlap <a href="./#ref-rec-if-d">IF:D</a> 
 (used to set multitasking dialog) - if you are using 
-team <a href="./#ref-rec-if-d">IF:D</a> 
+command <a href="./#ref-rec-if-d">IF:D</a> 
 instead of <a href="./#ref-rec-if-b">IF:B</a>, first picture or AVI in the table 
 parameters will be shown by the command <a href="./#ref-rec-if-p">IF:P</a>, and 
 additional pictures or animations will be ignored.
@@ -19081,7 +19662,9 @@ and also for them there is a list of short synonyms of colors:
 
 # Network synchronization (IP)
 
+ID: erm.receivers.ip
 URL: /en/erm/receivers/ip/
+Source references: old-help:rec-ip.htm, era-changelog:era-iii-changelog.txt
 
 IP receiver: network synchronization, command parameters, and limitations.
 
@@ -19127,9 +19710,9 @@ To execute correctly you must do some things:
 !?FU12345;
 !!BMx1:Mx2/x3/x4;
 </code></pre>
-That's all. Working principle: team <a href="../fu/#ref-rec-fu-d">FU:D</a> immediately transmits everything <em>x</em>-parameters to another 
+That's all. Working principle: command <a href="../fu/#ref-rec-fu-d">FU:D</a> immediately transmits everything <em>x</em>-parameters to another 
 computer and call function 12345 there. So the command <span class="erm-anchor" id="ref-rec-ip-erm"></span><span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>v10:M...;</span> will work for 
-one computer and team <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
+one computer and command <span class="erm-inline-code"><strong class="erm-tone-purple erm-legacy-strong">!!BM</strong>x1:M...;</span> on the other. If you do it right 
 you will get the same effect on both sides.<br>
 Note that you can pass the values of some variables with the command <a href="./#ref-rec-ip-v">IP:V</a> and then 
 call <a href="../fu/#ref-rec-fu-d">FU:D</a> for transmission of more than 16 <em>x</em>-parameters to another computer.<br><br></div></details>
@@ -19173,7 +19756,7 @@ battle, but also on the map. Therefore you must identify the player you are send
 values with this command. It works in the same way as <em>w</em>- hero variables. 
 So, if you set !!IP:D, it will remain so until you (or 
 anyone else) do not change the value. Please note that if you save and 
-then load the game, the host player becomes undefined, so install this 
+then load the game, the host player becomes undefined, so set this 
 command in each trigger that sends data. Also note that if 
 you send to all players (-1), all variables sent and functions called 
 will be launched on all PCs in the game, including yourself. First he will run 
@@ -19242,7 +19825,9 @@ transfers</div>
 
 # Tree of knowledge (KT)
 
+ID: erm.receivers.kt
 URL: /en/erm/receivers/kt/
+Source references: old-help:rec-kt.htm
 
 KT receiver: tree of knowledge, command parameters, and limitations.
 
@@ -19308,7 +19893,9 @@ Payment type<br>
 
 # Local map events (LE)
 
+ID: erm.receivers.le
 URL: /en/erm/receivers/le/
+Source references: old-help:rec-le.htm, era-changelog:era-iii-changelog.txt
 
 LE receiver: local map events, command parameters, and limitations.
 
@@ -19357,7 +19944,7 @@ Artifact Bonus<br>
 <span class="erm-tone-red"><strong>B4/$</strong></span> 
 - remove artifact at position $ in the bonus table<br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-le-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-le-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-There is, of course, a team <a href="./#ref-rec-le-a">LE:A</a>, but with its help you can only CHANGE artifacts in the bonus table. This new command allows you to install, 
+There is, of course, a command <a href="./#ref-rec-le-a">LE:A</a>, but with its help you can only CHANGE artifacts in the bonus table. This new command allows you to set, 
 add and remove artifact from local events and Pandora's Boxes.<br>
 You can make a virtually unlimited artifact table for any local event or Pandora's Box.<br>
 You cannot set the scroll as artifact, the game will “understand” this is not correct and will crash.</div></details>
@@ -19386,7 +19973,7 @@ Set/check/get four
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-le-g"></span>G#1/$2/$3</strong></span><br>
 Set/check/get
-	<a href="../../tables/creatures/#ref-form-creature" data-context="true">security guards</a> in position #1 (0..6) type $2 and quantity $3<br>
+	<a href="../../tables/creatures/#ref-form-creature" data-context="true">guards</a> in position #1 (0..6) type $2 and quantity $3<br>
 The command only sets up the guards, but does not turn them on.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -19531,7 +20118,9 @@ Activate guards if # is not zero, otherwise turn them off.</div>
 
 # Lean-to (LN)
 
+ID: erm.receivers.ln
 URL: /en/erm/receivers/ln/
+Source references: old-help:rec-ln.htm
 
 LN receiver: lean-to, command parameters, and limitations.
 
@@ -19600,7 +20189,9 @@ Canopy number (0..31)</div>
 
 # Creature-type attributes (MA)
 
+ID: erm.receivers.ma
 URL: /en/erm/receivers/ma/
+Source references: old-help:rec-ma.htm, era-changelog:era-iii-changelog.txt
 
 MA receiver: creature-type attributes, command parameters, and limitations.
 
@@ -19701,25 +20292,25 @@ you will achieve a change in growth after building the Bastion.</div>
          $ = -2 – no improvement<br>
          $ = -1 – use normal enhancement<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ma-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ma-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-You can install your own set of improvements ;-) For example, like this:
+You can set your own set of improvements ;-) For example, like this:
 <pre class="erm-example"><code class="language-erm">!#MA:U0/1 U1/2 U2/3 U3/4...</code></pre>
 It looks great and you can upgrade them all. If you set the circular 
 improving two creatures, the player will be able to choose the better creature. You can 
 use <a href="../do/#ref-rec-do">circular function</a> (this is faster) to go through all creatures and 
-installation of improvements for each (in the next creature).<br>
+setting of improvements for each (in the next creature).<br>
 In a town, you can only improve what you can usually improve there. Yes, you 
-you can install the Spearmen improvement in another creature, but you can improve them 
-only in the Castle or Hill Fort. If you install the Halberdier upgrade in 
+you can set the Spearmen improvement in another creature, but you can improve them 
+only in the Castle or Hill Fort. If you set the Halberdier upgrade in 
 other creature, you can improve them only in the fort on the hill, since further 
 upgrades for them are not allowed in towns.<br>
-<span class="erm-anchor" id="ref-rec-ma-bold"></span><em class="erm-strong">Note:</em> using the command <span class="erm-anchor" id="ref-rec-ma-erm"></span><strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!!MA</span>:U#/-2;</strong> causes any creature when installed will be upgraded into a Spearman (fixed in <a href="../../compatibility/#ref-era-index">ERA</a>).</div></details>
+<span class="erm-anchor" id="ref-rec-ma-bold"></span><em class="erm-strong">Note:</em> using the command <span class="erm-anchor" id="ref-rec-ma-erm"></span><strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!!MA</span>:U#/-2;</strong> causes any creature when set will be upgraded into a Spearman (fixed in <a href="../../compatibility/#ref-era-index">ERA</a>).</div></details>
 <hr>
 <div><span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-ma-v"></span><span class="erm-anchor" id="command-v"></span>V#/$</strong></span><br>
 Minimum quantity <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature #</a> at the beginning of the game the map is equal to $
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ma-x"></span><span class="erm-anchor" id="command-x"></span>X#/$</strong></span><br>
-Install <a href="../../tables/creature-flags/#ref-form-flaggedabilities" data-context="true">$ flag</a> <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature #</a>.<br> 
+Set <a href="../../tables/creature-flags/#ref-form-flaggedabilities" data-context="true">$ flag</a> <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature #</a>.<br> 
 When working with flags, check their meanings very carefully (see. <a href="../vr/#ref-rec-vr-and">bit operations</a>).<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-ma-2"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-ma-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <pre class="erm-example"><code class="language-erm">; Give a flag to a creature
@@ -19769,7 +20360,9 @@ When working with flags, check their meanings very carefully (see. <a href="../v
 
 # Classic ERM macros (MC)
 
+ID: erm.receivers.mc
 URL: /en/erm/receivers/mc/
+Source references: old-help:rec-mc.htm
 
 MC receiver: classic erm macros, command parameters, and limitations.
 
@@ -19783,11 +20376,11 @@ MC receiver: classic erm macros, command parameters, and limitations.
 <div class="erm-paragraph">
 <br>
 <strong><span class="erm-anchor" id="ref-rec-mc-red"></span><span class="erm-tone-red">!!MC#:S@Var@</span> 
-- install a macro.</strong><br>
+- set a macro.</strong><br>
 Used to assign a text name to a variable.<br>
 Applicable to <a href="../../variables/#ref-cont-flags-var-typ">variables</a> f…t, v#, z# and w#.</div>
 <strong></strong><span class="erm-anchor" id="ref-rec-mc-1"></span><details class="erm-comment"><summary>Note (<span class="erm-anchor" id="ref-rec-mc-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-First you must install the macro with the instruction before using the macro name:
+First you must set the macro with the instruction before using the macro name:
 <pre class="erm-example"><code class="language-erm">!#MCv100:S@Var100@;
 The variable v100 now has a second name of “Var100”.</code></pre></div></details>
 <div class="erm-paragraph">The length of a macro name is limited to eight characters. You can use a longer name, but only the first 8 characters will be used to search for the variable.<br>
@@ -19818,7 +20411,9 @@ To use macro names in a message they are as follows: <strong>$$</strong> and the
 
 # Physical damage (MF)
 
+ID: erm.receivers.mf
 URL: /en/erm/receivers/mf/
+Source references: old-help:rec-mf.htm
 
 MF receiver: physical damage, command parameters, and limitations.
 
@@ -19840,7 +20435,7 @@ You can ignore the damage completely using the E0 command.<br>
 To simulate a magic block ability via ERM, you can use trigger <a href="../../triggers/mf/#ref-tr-mf">!?MF</a>, calculate the chance of the block triggering, 
 cancel damage command <a href="./#ref-rec-mf-e">MF:E0</a>, show block animation with <a href="../bm/#ref-rec-bm-v">BM:V84</a> 
 (and also <a href="../bm/#ref-rec-bm-f">set flag</a> "stack has taken a protective position" for greater realism) 
-and add a corresponding message to the team’s combat sheet <a href="../mm/#ref-rec-mm-s">MM:S</a>.</div></details>
+and add a corresponding message to the command’s combat sheet <a href="../mm/#ref-rec-mm-s">MM:S</a>.</div></details>
 <span class="erm-anchor" id="ref-rec-mf-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: trigger <a href="../../triggers/mf/#ref-tr-mf">!?MF</a></div>
 <hr>
 <div class="erm-paragraph">
@@ -19916,7 +20511,9 @@ Check/get attack type:<br>
 
 # Windmill (ML)
 
+ID: erm.receivers.ml
 URL: /en/erm/receivers/ml/
+Source references: old-help:rec-ml.htm
 
 ML receiver: windmill, command parameters, and limitations.
 
@@ -19978,7 +20575,9 @@ Resource type and quantity<br>
 
 # Battle hint text (MM)
 
+ID: erm.receivers.mm
 URL: /en/erm/receivers/mm/
+Source references: old-help:rec-mm.htm, era-changelog:era-iii-changelog.txt
 
 MM receiver: battle hint text, command parameters, and limitations.
 
@@ -19994,7 +20593,7 @@ MM receiver: battle hint text, command parameters, and limitations.
 <div class="erm-paragraph">
 <br>
 <strong><span class="erm-anchor" id="ref-rec-mm-red"></span><span class="erm-tone-red">!!MM:XXXX;</span> 
-- receiver to receive/of installation/checking the text in battle or getting the mouse position on the battlefield.</strong><br>
+- receiver to receive/of setting/checking the text in battle or getting the mouse position on the battlefield.</strong><br>
 <u></u></div><span class="erm-anchor" id="ref-rec-mm-1"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-mm-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <pre class="erm-example"><code class="language-erm">!?MM0;
 !!MM:M?z5;
@@ -20054,7 +20653,9 @@ Add message from text variable to battle text</div>
 
 # Mines (MN)
 
+ID: erm.receivers.mn
 URL: /en/erm/receivers/mn/
+Source references: old-help:rec-mn.htm
 
 MN receiver: mines, command parameters, and limitations.
 
@@ -20072,7 +20673,7 @@ MN receiver: mines, command parameters, and limitations.
 - mine in X Y L.</strong> Mines - <a href="../../tables/mines/#ref-form-mines" data-context="true">type 53</a>, <a href="../../tables/objects/#ref-form-objects" data-context="true">type 220</a>.<em><br>
 Note:</em> The Lighthouse and the Mine (including the Abandoned Mine) have the same <a href="../../tables/object-control-words/#ref-cont-conwords-t42">control words</a>, 
 and the Beacon can be edited via !!MN. Its resource (MN:R) has the number 100. If you set the number 0..6, then the Lighthouse will begin to bring resources, 
-like a mine :)  The lighthouse guards are ignored.<br>It is also interesting to change the security of an abandoned mine - 
+like a mine :)  The lighthouse guards are ignored.<br>It is also interesting to change the guards of an abandoned mine - 
 after the standard message about troglodytes, a fight will occur with the specified creatures in the specified numbers. 
 If the guards are removed, the mine is taken without a fight.</div>
 <hr>
@@ -20138,7 +20739,9 @@ Same as MN:R$, but without updating</div>
 
 # Neutral map monsters (MO)
 
+ID: erm.receivers.mo
 URL: /en/erm/receivers/mo/
+Source references: old-help:rec-mo.htm, era-changelog:era-iii-changelog.txt
 
 MO receiver: neutral map monsters, command parameters, and limitations.
 
@@ -20166,7 +20769,7 @@ In both cases, the presence of the creature on the map is not necessary, but the
 You can't set the message to the creature, but you can change the aggressiveness, number, etc. If you try this 
 then you will receive an error message, to avoid this, use option statuses <a href="../un/#ref-rec-un-p904">UN:P904</a>, or values 
 <a href="../ob/#ref-rec-ob-c">OB:C</a> to obtain a check number and process its value. Remember that you can adjust all the parameters of a creature if it is already placed on the map. 
-For all creatures placed by the team <a href="../un/#ref-rec-un-i">UN:I</a>, you can use any command.</div></details>
+For all creatures placed by the command <a href="../un/#ref-rec-un-i">UN:I</a>, you can use any command.</div></details>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -20180,7 +20783,7 @@ Set/check/get qty. <a href="../../tables/resources/#ref-form-resource" data-cont
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-mo-g"></span><span class="erm-anchor" id="command-g"></span>G$</strong></span><br>
 Set/check/get number of creatures in $.<br>
-<span class="erm-anchor" id="ref-rec-mo-bold"></span><em class="erm-strong">Note:</em> the maximum number of creatures in a squad on the map is 4095 (or 12 bits). With larger values, there is a possibility of data corruption regarding the squad’s aggression.</div>
+<span class="erm-anchor" id="ref-rec-mo-bold"></span><em class="erm-strong">Note:</em> the maximum number of creatures in a stack on the map is 4095 (or 12 bits). With larger values, there is a possibility of data corruption regarding the stack’s aggression.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-mo-m"></span><span class="erm-anchor" id="command-m-text-mz-m1"></span>M^Text^</strong></span><br>
@@ -20285,7 +20888,9 @@ Set/check/get whether creature can escape.<br>
 
 # MP3 music (MP)
 
+ID: erm.receivers.mp
 URL: /en/erm/receivers/mp/
+Source references: old-help:rec-mp.htm, old-help:rec-mp-era.htm
 
 MP receiver: mp3 music, command parameters, and limitations.
 
@@ -20303,7 +20908,7 @@ MP receiver: mp3 music, command parameters, and limitations.
 <br>
 <strong><span class="erm-anchor" id="ref-rec-mp-red"></span><span class="erm-tone-red">!!MP:XXXX;</span> 
 </strong>–<strong> mp3 - control.</strong><br>
-Used to install your own mp3 file for playback in the game.<br>
+Used to set your own mp3 file for playback in the game.<br>
 This command can only be used within a trigger body <a href="../../triggers/mp/#ref-tr-mp">!?MP</a>.</div>
 <hr>
 <div class="erm-paragraph">
@@ -20489,7 +21094,9 @@ Set/get settings for trigger <a href="../../triggers/mp/#ref-tr-mp">!?MP</a>
 
 # Spell resistance (MR)
 
+ID: erm.receivers.mr
 URL: /en/erm/receivers/mr/
+Source references: old-help:rec-mr.htm
 
 MR receiver: spell resistance, command parameters, and limitations.
 
@@ -20596,7 +21203,9 @@ But the base damage is calculated before the trigger works, so changing the spel
 
 # Obelisk (MT)
 
+ID: erm.receivers.mt
 URL: /en/erm/receivers/mt/
+Source references: old-help:rec-mt.htm
 
 MT receiver: obelisk, command parameters, and limitations.
 
@@ -20627,7 +21236,7 @@ Using low level command <a href="../un/#ref-rec-un-c">UN:C</a> we can, for examp
 !!VRy1:+2;
 !!UN:Cy1/1/?y5; y5=1 Grail buried, y5=0 Grail dug</code></pre>
 </div></details>
-<span class="erm-anchor" id="ref-rec-mt-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: team <a href="../un/#ref-rec-un-l1" title="Control of visits to the obelisk">!!UN:L</a></div>
+<span class="erm-anchor" id="ref-rec-mt-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: command <a href="../un/#ref-rec-un-l1" title="Control of visits to the obelisk">!!UN:L</a></div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -20669,7 +21278,9 @@ Obelisk number (0...)</div>
 
 # Wandering monsters (MW)
 
+ID: erm.receivers.mw
 URL: /en/erm/receivers/mw/
+Source references: old-help:rec-mw.htm
 
 MW receiver: wandering monsters, command parameters, and limitations.
 
@@ -20754,7 +21365,7 @@ Make the creature wander<br>
         x/y/l – location with an existing creature<br>
         $ – the variable will take the value of the number of the wandering creature. If $ is 0, then 
 stray creature was not created for some reason.<br>
-You can also install the creature via <a href="../mo/#ref-rec-mo">receiver !!MO</a> (by position) after generating a wandering creature through !!MW:P.</div>
+You can also set the creature via <a href="../mo/#ref-rec-mo">receiver !!MO</a> (by position) after generating a wandering creature through !!MW:P.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-mw-p"></span>Px/y/l/#/?$</strong></span><br>
@@ -20797,7 +21408,9 @@ For this command, the roaming creature number (!!MW#) is not needed, because he 
 
 # Map objects (OB)
 
+ID: erm.receivers.ob
 URL: /en/erm/receivers/ob/
+Source references: old-help:rec-ob.htm, era-changelog:era-iii-changelog.txt
 
 OB receiver: map objects, command parameters, and limitations.
 
@@ -20953,7 +21566,9 @@ Set/check/get <a href="../../tables/objects/#ref-form-objects" data-context="tru
 
 # Players (OW)
 
+ID: erm.receivers.ow
 URL: /en/erm/receivers/ow/
+Source references: old-help:rec-ow.htm, era-changelog:era-iii-changelog.txt
 
 OW receiver: players, command parameters, and limitations.
 
@@ -20987,7 +21602,7 @@ Set/check/get an active hero<br>
 <span class="erm-anchor" id="ref-rec-ow-c"></span>C?$</strong></span><br>
 Check/get current player's color<br>
         $ = <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">0..7</a><br>
-You can only check or receive, but not install.<br>
+You can only check or receive, but not set.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ow-5"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ow-show5"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 In a multiplayer game, using a command will give the value of the player who is currently moving, and it does not matter which player initiated the ERM code.</div></details>
 <hr><div class="erm-paragraph">
@@ -21006,11 +21621,11 @@ If you captured town and lost it, the normal amount configured by this command w
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ow-g"></span><span class="erm-anchor" id="command-g-i-1-2"></span>G$1/$2</strong></span><br>
-Check whether the player is sitting in front of this PC. Multiplayer team.<br>
+Check whether the player is sitting in front of this PC. Multiplayer command.<br>
         $1 – <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">player</a><br>
         $2 – check for player (1 = yes, it’s me; 0 = no, it’s another human player)<br>
 Only makes sense for a multiplayer game. Of course, the main syntax is to get the value, 
-but you can also install it (but we wouldn't recommend trying it :-)<br>
+but you can also set it (but we wouldn't recommend trying it :-)<br>
 <strong><u>Comment</u>:</strong> this command is similar to the action <a href="../../variables/#ref-cont-flags-999">flag 999</a>, but they are not equivalent.<br>
 <u>
 </u>
@@ -21131,7 +21746,7 @@ Set/check/get resources<br>
         #1 – <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">player</a> (-1 = current)<br>
         #2 – <a href="../../tables/resources/#ref-form-resource" data-context="true">type</a> resource<br>
         $3 – quantity of resource<br>
-<span class="erm-anchor" id="ref-rec-ow-bold"></span><em class="erm-strong">Note:</em> do not try to install resources while the map is loading 
+<span class="erm-anchor" id="ref-rec-ow-bold"></span><em class="erm-strong">Note:</em> do not try to set resources while the map is loading 
 (i.e. instructions or post-instructions), otherwise the game will crash.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
@@ -21171,7 +21786,7 @@ Set/check/get heroes available in the tavern.<br>
          #1 – <a href="../../tables/players/#ref-form-gamerscolor" data-context="true">player</a> (-1 = current)<br>
          $1 – left <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero</a> in the tavern (-1 = no)<br>
          $2 – right <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero</a> in the tavern (-1 = no)<br>
-We cannot guarantee that everything will work correctly if you install one hero for several players.</div>
+We cannot guarantee that everything will work correctly if you set one hero for several players.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ow-w"></span><span class="erm-anchor" id="command-w-w"></span>W#1/$1</strong></span><br>
@@ -21267,7 +21882,9 @@ Set/check/get the town number from the player's town table #1<br>
 
 # Pandora box (PA)
 
+ID: erm.receivers.pa
 URL: /en/erm/receivers/pa/
+Source references: old-help:rec-pa.htm
 
 PA receiver: pandora box, command parameters, and limitations.
 
@@ -21289,7 +21906,7 @@ PA receiver: pandora box, command parameters, and limitations.
 - Pandora's Box by coordinates in variables v[#], v[#+1], v[#+2]</div>
 <div class="erm-paragraph">The PA receiver can be used to configure Events.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-pa-1"></span><details class="erm-comment"><summary>Comments (<span class="erm-anchor" id="ref-rec-pa-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-When installing a Pandora's Box or Event on a card using ERM, be sure to call <a href="./#ref-rec-pa-i">PA:I</a> after the object is created. 
+When setting a Pandora's Box or Event on a card using ERM, be sure to call <a href="./#ref-rec-pa-i">PA:I</a> after the object is created. 
 Otherwise, you will not be able to customize or interact with the object (most likely the game will crash).</div></details>
 <span class="erm-anchor" id="ref-rec-pa-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: receiver <a href="../le/#ref-rec-le">!!LE</a></div>
 <hr>
@@ -21320,7 +21937,7 @@ Set/check/get the number of guards<br>
          #1 – position (0..6)<br>
          $2 – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a><br>
          $3 – quantity<br>
-<strong><u>Comments</u>:</strong> Security is turned on and off manually.</div>
+<strong><u>Comments</u>:</strong> Guards is turned on and off manually.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-pa-i"></span><span class="erm-anchor" id="command-i"></span><span class="erm-tone-red"><strong>I</strong></span><br>
 Initialize Pandora's Box.<br>
@@ -21383,9 +22000,9 @@ Set/check/get availability <a href="../../tables/spells/#ref-form-spell" data-co
 Set/check/get lucky in $.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-pa-x"></span><span class="erm-anchor" id="command-x"></span><span class="erm-tone-red"><strong>X$</strong></span><br>
-Set/check/get whether security is enabled:<br>
-      $ = 0 – security is disabled;<br>
-      everything else – security is on</div>
+Set/check/get whether guards is enabled:<br>
+      $ = 0 – guards is disabled;<br>
+      everything else – guards is on</div>
 
 <hr>
 
@@ -21424,7 +22041,9 @@ Set/check/get whether security is enabled:<br>
 
 # Pyramids and new objects (PM)
 
+ID: erm.receivers.pm
 URL: /en/erm/receivers/pm/
+Source references: old-help:rec-pm.htm
 
 PM receiver: pyramids and new objects, command parameters, and limitations.
 
@@ -21514,7 +22133,9 @@ You can set this bit and wait for the AI to arrive.</div></details>
 
 # Map-cell data (PO)
 
+ID: erm.receivers.po
 URL: /en/erm/receivers/po/
+Source references: old-help:rec-po.htm
 
 PO receiver: map-cell data, command parameters, and limitations.
 
@@ -21530,7 +22151,7 @@ PO receiver: map-cell data, command parameters, and limitations.
 <div class="erm-paragraph">
 <br>
 <strong><span class="erm-anchor" id="ref-rec-po-red"></span><span class="erm-tone-red">!!PO#1/#2/#3:XXXX;</span> </strong>–<strong> set/check 
-square in X Y L.</strong> Used to install or verify information of any 
+square in X Y L.</strong> Used to set or verify information of any 
 square of the card.<br>
 <em>Extended syntax:</em><br>
 <strong><span class="erm-tone-red">!!PO$:XXXX;</span> – X Y L are respectively equal to v[$], v[$+1], v[$+2].</strong><br>
@@ -21674,7 +22295,9 @@ Now let's return them from v100...
 
 # Prison (PR)
 
+ID: erm.receivers.pr
 URL: /en/erm/receivers/pr/
+Source references: old-help:rec-pr.htm
 
 PR receiver: prison, command parameters, and limitations.
 
@@ -21732,7 +22355,9 @@ Set/check/get the hero's number in custody.</div>
 
 # Object quests (QU)
 
+ID: erm.receivers.qu
 URL: /en/erm/receivers/qu/
+Source references: old-help:rec-qu.htm
 
 QU receiver: object quests, command parameters, and limitations.
 
@@ -21754,7 +22379,7 @@ QU receiver: object quests, command parameters, and limitations.
 <span class="erm-tone-red"><strong>!!QU#:XXXX;</strong></span> 
 - Object-task by coordinates in variables v[#], v[#+1], v[#+2]</div>
 <u></u><span class="erm-anchor" id="ref-rec-qu-1"></span><details class="erm-comment"><summary>Comments (<span class="erm-anchor" id="ref-rec-qu-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-When installing the Seer's Hut on the map (<a href="../../tables/objects/#ref-form-objects-t83" data-context="true">type 83</a>) or 
+When setting the Seer's Hut on the map (<a href="../../tables/objects/#ref-form-objects-t83" data-context="true">type 83</a>) or 
 Border Guard (<a href="../../tables/objects/#ref-form-objects" data-context="true">type 9</a>) using ERM, 
 don't forget to call <a href="./#ref-rec-qu-q">QU:I</a> after the object is created. 
 Otherwise, you will not be able to customize or interact with the object (most likely the game will crash).</div></details>
@@ -21938,7 +22563,9 @@ Set/check/get, whether visited <a href="../../tables/players/#ref-form-gamerscol
 
 # Supplementary quest log (QW)
 
+ID: erm.receivers.qw
 URL: /en/erm/receivers/qw/
+Source references: old-help:rec-qw.htm
 
 QW receiver: supplementary quest log, command parameters, and limitations.
 
@@ -22019,7 +22646,9 @@ text<br>
 
 # Creature recruitment (RD)
 
+ID: erm.receivers.rd
 URL: /en/erm/receivers/rd/
+Source references: old-help:rec-rd.htm, era-changelog:era-iii-changelog.txt
 
 RD receiver: creature recruitment, command parameters, and limitations.
 
@@ -22156,7 +22785,7 @@ In the hiring dialog, you can shift all slots by a specified number of positions
 If a slot goes beyond the boolean values (0..3), it disappears.<br>
 The shift is performed while saving all settings (type, quantity, source)<br>
 <strong></strong><br></div><span class="erm-anchor" id="ref-rec-rd-15"></span><details class="erm-comment"><summary>Examples (<span class="erm-anchor" id="ref-rec-rd-show15"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-<u>Example 1</u>. We have 0..1 slots with ordinary and improved creatures (the source is not important):<br>
+<u>Example 1</u>. We have 0..1 slots with ordinary and upgraded creatures (the source is not important):<br>
 <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature A</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature B</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">slot is empty</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">slot is empty</strong><br>
 It is necessary to prepare two custom slots with Angels/Archangels in them.
 <pre class="erm-example"><code class="language-erm">!!RD:S2;
@@ -22164,7 +22793,7 @@ It is necessary to prepare two custom slots with Angels/Archangels in them.
 We get the following:<br>
 <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">2 angels</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">2 Archangels</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature A</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature B</strong>.<br>
 <br>
-<u>Example 2</u>. Remove the 1st slot with improved creatures and leave only unimproved ones.
+<u>Example 2</u>. Remove the 1st slot with upgraded creatures and leave only unupgraded ones.
 <pre class="erm-example"><code class="language-erm">!!RD:C0/?t/?t/?y2; in y2 source value for the 1st slot, t - temporary fast variable
 !!VRy2:%14; We calculate the housing identifier 0..13. If improved, then y2&gt;=7 
 !!RD&amp;y2&gt;=7:S-1; shift 1 slot to the left if the 1st slot has a source of improved housing in the town</code></pre></div></details>
@@ -22253,7 +22882,9 @@ All values are updated in real time.
 
 # Scholar (SC)
 
+ID: erm.receivers.sc
 URL: /en/erm/receivers/sc/
+Source references: old-help:rec-sc.htm
 
 SC receiver: scholar, command parameters, and limitations.
 
@@ -22333,7 +22964,9 @@ Bonus type:<br>
 
 # Sign and ocean bottle (SG)
 
+ID: erm.receivers.sg
 URL: /en/erm/receivers/sg/
+Source references: old-help:rec-sg.htm
 
 SG receiver: sign and ocean bottle, command parameters, and limitations.
 
@@ -22400,7 +23033,9 @@ Restore plain text (default).</div>
 
 # Map skeleton (SK)
 
+ID: erm.receivers.sk
 URL: /en/erm/receivers/sk/
+Source references: old-help:rec-sk.htm
 
 SK receiver: map skeleton, command parameters, and limitations.
 
@@ -22471,7 +23106,9 @@ Is there artifact or not? <br>
 
 # ERA services, memory and sound (SN)
 
+ID: erm.receivers.sn
 URL: /en/erm/receivers/sn/
+Source references: old-help:rec-sn.htm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, old-help:era-api.htm
 
 SN receiver: era services, memory and sound, command parameters, and limitations.
 
@@ -22588,13 +23225,13 @@ See <a href="./#ref-rec-sn" title="Sound playback control (WAV/82M)">description
 <br>All ERA commands can work with the following ERM elements:
 </div><span class="erm-anchor" id="ref-rec-sn-era-t0"></span><ul class="erm-margin-top-zero">
 <li>Positive and negative numbers;</li>
-<li>Installation syntax (without modifier <em>"d"</em>) and receiving (<strong>?</strong>) values;</li>
+<li>Setting syntax (without modifier <em>"d"</em>) and receiving (<strong>?</strong>) values;</li>
 <li>Variables <em>y+</em>, <em>v</em>, <em>w</em>, <em>x</em>, <em>z+</em>, <em>f..t</em>, <em>e</em>;</li>
 <li>Global named variables of the form i^…^ (for numbers) and s^…^ (for strings);</li>
 <li>String literals in the form ^...^ with support for specifiers %Y, %V, %W, %X, %Z, %I(...), %S(...), %T(...), %E with positive indices.</li>
 </ul>
 <div class="erm-paragraph">Also, it is worth noting that, unlike standard <em>z</em>-variables (up to 511 characters long), ERA string literals (^…^ or ^%S(…)^) can be up to 1 million long. characters.</div>
-<div class="erm-paragraph">Moreover, for all teams new receivers ERA (<a href="./#ref-rec-sn-era">SN</a>/<a href="../mp/#ref-rec-mp-era">MP</a>/<a href="../rd/#ref-rec-rd">RD</a>) support implemented:
+<div class="erm-paragraph">Moreover, for all commands new receivers ERA (<a href="./#ref-rec-sn-era">SN</a>/<a href="../mp/#ref-rec-mp-era">MP</a>/<a href="../rd/#ref-rec-rd">RD</a>) support implemented:
 </div><ul class="erm-margin-top-zero"><li>concatenation of string variables (d, where <strong>#</strong> - z-variable or ^text^);</li>
 <li>numerical operations with modifier <em>d</em> (d+, d-, d*, d:);</li>
 <li>set/get operations for named variables (SN:W-keys) of numeric (i^name^) and string (s^name^) types.</li></ul>
@@ -22713,10 +23350,10 @@ The command should be used directly in the above game windows, because Each game
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-sn-era-g"></span><span class="erm-anchor" id="command-g-label-q"></span><span class="erm-tone-red"><strong>SN:G[name]</strong></span><br>
 Go to a specific command of the current trigger.</div>
 <blockquote class="erm-tone-quote erm-note">Today, the SN:G command is considered obsolete and its use in scripts is highly discouraged!<br>
-Initially, the command was created as an intermediate option for performing fast cycles. 
+Initially, the command was created as an intermediate option for performing fast loops. 
 Now it is preferable to use the link for these purposes <a href="../../conditions/#ref-rec-iee">!!if</a> / <a href="../../loops/#ref-rec-re">!!re</a>.</blockquote>
 <div class="erm-paragraph">To perform transitions, command “shortcuts” (tags) are implemented, which are replaced with the serial number of the receiver inside the current trigger, 
-in front of which they stand (counting starts from 0). All teams are included in the “counter” of teams <span class="erm-anchor" id="ref-rec-sn-era-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!XX</span></strong>-similar receivers. The labels themselves are not assigned a serial number, like a command inside a trigger.<br>
+in front of which they stand (counting starts from 0). All commands are included in the “counter” of commands <span class="erm-anchor" id="ref-rec-sn-era-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!XX</span></strong>-similar receivers. The labels themselves are not assigned a serial number, like a command inside a trigger.<br>
 The usage syntax is as follows:
 </div><dl><dd><span class="erm-anchor" id="ref-rec-sn-era-n2"></span><strong class="erm-tone-purple erm-strong">[label_name]</strong> – use of the label (will be replaced by the number of the receiver for which the label is declared)</dd>
 <dd><strong class="erm-tone-purple erm-strong">[:label_name]</strong> – tag announcement (the current receiver number is remembered and associated with the tag name)</dd></dl>
@@ -22756,8 +23393,8 @@ Currently the following types of commands SN:H are implemented:
 <li>^<a href="./#ref-rec-sn-era-h-obj">object</a>^</li>
 <li>^<a href="./#ref-rec-sn-era-h-skl">secskill</a>^</li>
 <li>^<a href="./#ref-rec-sn-era-h-spec">spec</a>^</li>
-<li>^<a href="./#ref-rec-sn-era" title="The team is available on ERA3+">art</a>^</li>
-<li>^<a href="./#ref-rec-sn-era" title="The team is available on ERA3+">spell</a>^</li></ul>
+<li>^<a href="./#ref-rec-sn-era" title="The command is available on ERA3+">art</a>^</li>
+<li>^<a href="./#ref-rec-sn-era" title="The command is available on ERA3+">spell</a>^</li></ul>
 <div class="erm-paragraph">Text Retrieval Mode works with all of these types of commands, allowing you to get the actual text/description in <em>z</em>-variables for subsequent output:
 <pre class="erm-example"><code class="language-erm">...
 !!SN:H^monname^/13/2/?z2;	get in z2 description of the archangel</code></pre>
@@ -22795,7 +23432,7 @@ Set a tooltip for an object of a certain type/subtype.
 <li>object with the specified type and subtype -1</li>
 <li>object with type -1 and specified subtype</li>
 <li>object with type/subtype as -1</li></ol>
-<strong><u>Comment</u>:</strong> the team is different from similar teams <a href="../ob/#ref-rec-ob-h">OB:H</a> and receiver <a href="../ht/#ref-rec-ht">HT</a> that does not require use <em>z</em>-variables.
+<strong><u>Comment</u>:</strong> the command is different from similar commands <a href="../ob/#ref-rec-ob-h">OB:H</a> and receiver <a href="../ht/#ref-rec-ht">HT</a> that does not require use <em>z</em>-variables.
 <div class="erm-paragraph"><u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!VRz1:S^{Icy Lake}
 Be careful, the ice is very thin!^;
@@ -23174,16 +23811,16 @@ Deleting a variable
 <div class="erm-paragraph">The basic functions and procedures of ERA will be described below. More complete technical documentation is located in the catalog <em class="erm-legacy-file">Game\Tools\Era\</em>, or you can ask specific questions directly at <a href="http://wforum.heroes35.net/forumdisplay.php?fid=182">official forum</a> project.</div>
 <ul>
 <li><span class="erm-anchor" id="ref-era-api-hook"></span><code>PROCEDURE <span class="erm-anchor" id="ref-era-api-red"></span><span class="erm-tone-red"><strong>Hook</strong></span> (HandlerAddr: POINTER; HookType: INTEGER; PatchSize: INTEGER; CodeAddr: POINTER); STDCALL;</code><br>
-A universal function for installing software interceptors in code. The most convenient and automated mode: <code>HookType = HOOKTYPE_BRIDGE</code>, 
+A universal function for installing code hooks in code. The most convenient and automated mode: <code>HookType = HOOKTYPE_BRIDGE</code>, 
 in which a low-level adapter to a high-level function will be generated automatically.<br>
 <u>High-level function example</u>:
 <span class="erm-anchor" id="ref-era-api-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><div class="erm-paragraph"><code>PROCEDURE Hook_X (Context: PHookHandlerArgs): LONGBOOL; STDCALL;</code></div>
-The function returns a flag indicating that the default code overwritten by the interceptor should be executed. This code must not contain jumps, but can contain any commands for working with the stack. 
+The function returns a flag indicating that the default code overwritten by the hook should be executed. This code must not contain jumps, but can contain any commands for working with the stack. 
 A high-level hook can modify registers by accessing the THookHandlerArgs structure. Through it, the return address to the original code can also be changed.</div></li>
 <li><span class="erm-anchor" id="ref-era-api-apihook"></span><code>PROCEDURE <span class="erm-tone-red"><strong>ApiHook</strong></span>; STDCALL;</code><br>
 Determines the minimum patch size independently, as opposed to the function <em class="erm-tone-purple erm-legacy-event">Hook</em>.<br>
 And <em class="erm-tone-purple erm-legacy-event">ApiHook</em>, and <em class="erm-tone-purple erm-legacy-event">Hook</em> functions return the new address of the erased code in bridge mode (<code>BRIDGE</code>), 
-which allows you to also call original functions, bypassing installed interceptors.</li>
+which allows you to also call original functions, bypassing installed hooks.</li>
 <li><span class="erm-anchor" id="ref-era-api-clall"></span><code>PROCEDURE <span class="erm-tone-red"><strong>ClearAllIniCache</strong></span>; STDCALL;</code><br>
 </li>
 <li><span class="erm-anchor" id="ref-era-api-clini"></span><code>PROCEDURE <span class="erm-tone-red"><strong>ClearIniCache</strong></span>; STDCALL;</code><br>
@@ -23383,7 +24020,9 @@ Performs a secure copy of a block of memory from a source to a destination.</li>
 
 # Magic spring (SP)
 
+ID: erm.receivers.sp
 URL: /en/erm/receivers/sp/
+Source references: old-help:rec-sp.htm
 
 SP receiver: magic spring, command parameters, and limitations.
 
@@ -23451,7 +24090,9 @@ Full or empty<br>
 
 # Shrine of magic (SR)
 
+ID: erm.receivers.sr
 URL: /en/erm/receivers/sr/
+Source references: old-help:rec-sr.htm
 
 SR receiver: shrine of magic, command parameters, and limitations.
 
@@ -23513,7 +24154,9 @@ any shrine</div>
 
 # Spell attributes (SS)
 
+ID: erm.receivers.ss
 URL: /en/erm/receivers/ss/
+Source references: old-help:rec-ss.htm, old-help:cont-sschange.htm
 
 SS receiver: spell attributes, command parameters, and limitations.
 
@@ -23538,7 +24181,7 @@ See comment <a href="./#ref-rec-ss-co">below</a>.</div>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-ss-c"></span><span class="erm-anchor" id="command-c-e-i"></span><span class="erm-tone-red"><strong>C#/$</strong></span><br>
 Set/check/get the mana amount.<br>
         # – level (0..3, depends on knowledge of the school of magic)<br>
-        $ – amount of mana for witchcraft.</div>
+        $ – amount of mana for spellcasting.</div>
 <hr>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-ss-d"></span><span class="erm-tone-red"><strong>D#/$</strong></span><br>
 Set/check/get description from<br>
@@ -23570,7 +24213,7 @@ Set/check/get flags.<br>
 <tr><td>512</td><td>spell with damage</td></tr>
 <tr><td>1024</td><td>spell mind</td></tr>
 <tr><td>2048</td><td>friendly and has masses. impact</td></tr>
-<tr><td>4096</td><td>cannot be applied to combat vehicles</td></tr>
+<tr><td>4096</td><td>cannot be applied to war machines</td></tr>
 <tr><td>8192</td><td>spell from artifact</td></tr>
 <tr><td>16384</td><td>protecting spell</td></tr>
 <tr><td>32768</td><td>AI (Meteor Shower, Magic Arrow, Ice Bolt, Lightning Bolt, 
@@ -23863,7 +24506,9 @@ This method will allow you to avoid mistakes and give you the opportunity to lev
 
 # Learning stone (ST)
 
+ID: erm.receivers.st
 URL: /en/erm/receivers/st/
+Source references: old-help:rec-st.htm
 
 ST receiver: learning stone, command parameters, and limitations.
 
@@ -23924,7 +24569,9 @@ Knowledge stone number (0..31)
 
 # Swan pond (SW)
 
+ID: erm.receivers.sw
 URL: /en/erm/receivers/sw/
+Source references: old-help:rec-sw.htm
 
 SW receiver: swan pond, command parameters, and limitations.
 
@@ -23990,7 +24637,9 @@ Pond number (0..31)</div>
 
 # Shipyard (SY)
 
+ID: erm.receivers.sy
 URL: /en/erm/receivers/sy/
+Source references: old-help:rec-sy.htm
 
 SY receiver: shipyard, command parameters, and limitations.
 
@@ -24060,7 +24709,9 @@ shipyard, then these parameters are ignored and the boat is built in the nearest
 
 # Turn time limit (TL)
 
+ID: erm.receivers.tl
 URL: /en/erm/receivers/tl/
+Source references: old-help:rec-tl.htm
 
 TL receiver: turn time limit, command parameters, and limitations.
 
@@ -24170,7 +24821,9 @@ As long as the "pause time" is not 0, the move continues.</div>
 
 # Game timers (TM)
 
+ID: erm.receivers.tm
 URL: /en/erm/receivers/tm/
+Source references: old-help:rec-tm.htm
 
 TM receiver: game timers, command parameters, and limitations.
 
@@ -24256,7 +24909,9 @@ Timer for red, brown and green player = 8 + 4 + 1 = 13 (0 will disable the timer
 
 # Map tiles (TR)
 
+ID: erm.receivers.tr
 URL: /en/erm/receivers/tr/
+Source references: old-help:rec-tr.htm, era-changelog:era-iii-changelog.txt
 
 TR receiver: map tiles, command parameters, and limitations.
 
@@ -24565,7 +25220,9 @@ creature can only be attacked directly (usually the attack radius is one cell, b
 
 # General game operations (UN)
 
+ID: erm.receivers.un
 URL: /en/erm/receivers/un/
+Source references: old-help:rec-un.htm, era-changelog:era-iii-changelog.txt
 
 UN receiver: general game operations, command parameters, and limitations.
 
@@ -24654,13 +25311,13 @@ set/check/get
 </div><span class="erm-anchor" id="ref-rec-un-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"><ul>
 <li>You can use the statement syntax (!#UN:A).</li>
 <li>All combo artifacts are recorded in a special table. This table contains 
-up to 32 entries. So it is possible to install up to 32 combo artifacts. All 
+up to 32 entries. So it is possible to set up to 32 combo artifacts. All 
 standard combos are already written in the table (first 12 lines)</li>
 <li>$ = number of the artifact that will appear during assembly.</li>
 <li>You can check whether the combo artifact table row is empty or not:
 <pre class="erm-example"><code class="language-erm">!!UN:A5/?v100/0/0;</code></pre>
 Get the number of the combo artifact in line 5 of the combo table in v100. Two zeros at the end 
-necessary for the correct operation of the team. In check and get syntax 
+necessary for the correct operation of the command. In check and get syntax 
 additional parameters (zeros) are ignored. An empty combo table row will give 
 value 0. So, if in the example above, v100 = 0, the string is empty and can 
 be used. You can delete the combo-artifact without adding a new one. 
@@ -24777,7 +25434,7 @@ The command writes/reads directly to RAM addresses:
         #3 – number of bytes
          $ – value</pre>
 <u></u><span class="erm-anchor" id="ref-rec-un-11"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show11"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body"> 
-<span class="erm-anchor" id="ref-rec-un-q1"></span><blockquote class="erm-tone-quote erm-note"><strong>Structures</strong> – data arrays in the game memory, for convenient storage of information and reading/writing by program code. Most ERM teams modify data within these structures (tables).</blockquote>
+<span class="erm-anchor" id="ref-rec-un-q1"></span><blockquote class="erm-tone-quote erm-note"><strong>Structures</strong> – data arrays in the game memory, for convenient storage of information and reading/writing by program code. Most ERM commands modify data within these structures (tables).</blockquote>
 UN:C automatically supports moved structures, that is, structures that plugins have moved to another memory location. To do this, you must always specify the beginning of the structure as the base address and the correct offset (add/subtract). The command will substitute a new base address and add an offset.<br>
 The structures are described in <a href="http://wforum.heroes35.net/files/wog358_sources.rar">WoG 3.58f source code</a></div></details>
 <div class="erm-tone-quote erm-note erm-paragraph">See also: <a href="../../un-c/#ref-cont-unc">Working with memory</a>, <a href="../../un-c/#ref-cont-unc-lib">Ready-made solutions using the command</a>, <a href="../../examples/#ref-cont-lib">Library of non-standard functions</a>.</div>
@@ -24803,7 +25460,7 @@ the game goes to a black screen. If you set the walking ability to
 square-not-water, instead a square with water and floating on it will appear 
 log In its description it will be written "Swamp (can be dug)", and when excavating 
 a swampy hole will appear on it.<br>
-At the moment, the only ERM team that 
+At the moment, the only ERM command that 
 the omitted fourth parameter takes the value 1 (although all others take the value 0).</div></details>
 <hr>
 <div class="erm-paragraph"><span class="erm-tone-red"><strong>
@@ -24851,7 +25508,7 @@ Set secondary skill text.
 	0 – restore original text</pre>
 <u></u> <span class="erm-anchor" id="ref-rec-un-8"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show8"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 similar to changing the name and description of the artifact.<br>
-You must install <em>z</em>-a variable with the appropriate text (you can 
+You must set <em>z</em>-a variable with the appropriate text (you can 
 use only global ones <em>z</em>-variables z1…z1000). If you change the text 
 used here <em>z</em>-variable, it will immediately become the new skill text. 
 So don't use these variables for other things.<br>
@@ -24882,7 +25539,7 @@ Change the creature's name.
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-un-g2"></span>G2/#1/#2/#3</strong></span><br>
 Allows you to set the text and image of the hero's specialization.
 </div><pre>        #1 – <a href="../../tables/heroes/#ref-form-numberheroes" data-context="true">hero number</a>
-        #2 – what to install
+        #2 – what to set
 	1 - small picture (visible in the hero meeting window, etc.)
 	2 – description
 	3 – picture
@@ -25003,7 +25660,7 @@ it will be open to all players and will NOT be canceled after visiting.<br>
 <strong>·</strong> Warrior's Tomb (type=108, subtype=0) - receiver <a href="../wt/#ref-rec-wt">!!WT</a> (when placing artifact not specified)<br>
 <strong>·</strong> Water Wheel (type=109, subtype=0) - receiver <a href="../wm/#ref-rec-wm">!!WM</a> (has no gold when placed)<br>
 <strong>·</strong> Windmill (type=112, subtype=0) - receiver <a href="../ml/#ref-rec-ml">!!ML</a> (does not have a resource when placed)
-<div class="erm-paragraph">These objects will NOT work correctly and may cause game instability, card crashes, or other problems when placed:</div>
+<div class="erm-paragraph">These objects will NOT work correctly and may cause game instability, game crashes, or other problems when placed:</div>
 <div class="erm-paragraph"><strong>·</strong> &lt;blank&gt; (type = 1) - the game will crash when trying to place an object<br>
 <strong>·</strong> Anchor (type = 3) - receiver <a href="../pa/#ref-rec-pa">!!PA</a> (the game will crash when trying to place an object)<br>
 <strong>·</strong> Pandora's Box (type=6) - the game will crash when visiting the object<br>
@@ -25118,7 +25775,7 @@ Generate a random artifact of a certain level.
         $ – get/check artifact number.</pre>
 <u></u><span class="erm-anchor" id="ref-rec-un-17"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show17"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 The function generates only allowed artifacts. 
-Class 1 artifacts include Grail, Spell Book, Spell Scroll and all combat vehicles.<br>
+Class 1 artifacts include Grail, Spell Book, Spell Scroll and all war machines.<br>
 You can generate artifact from several classes, for example 18 = relics and treasures. 
 Generated artifacts in the same trigger will NOT be repeated.<br>
 <u>Example</u>:
@@ -25129,7 +25786,7 @@ Set/check/get artifact, sold by the artifact merchant.<br>
          # – slot number (0..6)<br>
          $ – number <a href="../../tables/artifacts/#ref-form-a1" data-context="true">artifact</a> in slot<br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-un-18"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show18"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-You can install, get or check artifact (“-1” means no artifact).<br>
+You can set, get or check artifact (“-1” means no artifact).<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!UN:J7/3/?v10; - get artifact in slot 3
 !!UN:J7/v5/v20; - install artifact v20 in slot v5</code></pre>
@@ -25162,7 +25819,7 @@ Flag 1 will be set to true if the file exists, otherwise it will be set to false
 The command copies the path to the heroes folder<br>
          $1 – destination (see. <a href="./#ref-rec-un-j8">UN:J8</a>)<br>
          $2 – number <em>z</em>- a variable where to write it.<br>
-Example: copy the path to z10. Let our Heroes be installed in <em class="erm-legacy-file">C:\HOMM\WOG</em>, team <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!UN</span>:J9/2/10;</strong><br>
+Example: copy the path to z10. Let our Heroes be installed in <em class="erm-legacy-file">C:\HOMM\WOG</em>, command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!UN</span>:J9/2/10;</strong><br>
 We receive the following text in z10:
 <pre class="erm-example"><code class="language-erm">C:\HOMM\WOG</code></pre></div>
 <hr><div class="erm-paragraph">
@@ -25174,7 +25831,7 @@ This command can be used at any time (write all non-zero variables to a file)</d
 Set/check/get mouse behavior on click <img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> on the enemy stack in battle.<br>
        $ = 0 – the window remains on the screen (WoG-style).<br>
        $ = 1 – the window closes when the mouse button is released (SoD-style)<br>
-Team information is saved in the game.</div>
+Command information is saved in the game.</div>
 <hr>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-un-j13"></span><span class="erm-tone-red"><strong>J13/$</strong></span><a href="../../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a><br>
 Resetting commanders (depending on the current state <a href="./#ref-rec-un-p2">WoG options</a> 3 and 6).</div>
@@ -25312,7 +25969,7 @@ Level 8 will function like any other dwelling in the game, i.e. you must visit t
 and if they are of the 8th level, then they will only be added to the corresponding creatures of the eighth level in the corresponding castle with the corresponding dwelling of the 7th level.</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-un-p2"></span><span class="erm-tone-red"><strong>P#/$</strong></span><br>
-Installing WoG options<br>
+Setting WoG options<br>
          # - option number<br>
          $ - option status<br>
 Some options:<br>
@@ -25323,20 +25980,20 @@ Some options:<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-un-25"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show25"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">Now, if the card has internal scripts and does not have a command <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/#</strong>, 
 The map launches under WoG 3.56 conditions (without commanders, etc.). But if the card has this command (it doesn't matter 
 <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> or <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/1</strong>), the map is accepted as new and runs under WoG 3.57 conditions 
-(so, all internal features of WoG are installed from the WoG configuration settings file or using the UN:P commands). 
+(so, all internal features of WoG are set from the WoG configuration settings file or using the UN:P commands). 
 The problem with the inability to enable commanders in the instructions has now been fixed <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> when used in a timer trigger.</div></details>
 <div>                   # = 4 – destruction of locks: prohibit (1) or allow (0)<br>
                    # = 5 – WoGify: none (0), all cards in WoG format (1), all cards in any format (2)<br>
                    # = 6 – heroes start with commanders or not (0 – with, 1 – without (must be hired)</div>
 <u></u><span class="erm-anchor" id="ref-rec-un-26"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show26"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">For the commander to be hired in the town for 100 gold, instead of being automatically received by the hero at the beginning of the game, 
-need to use <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the team <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>.</div></details>
+need to use <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>.</div></details>
 <div>                   # = 7 – dwellings accumulate creatures: 0 – no, 1 – yes<br>
                    # = 8 – houses accumulate guards: 0 – no, 1 – yes<br>
                    # = 9 – creation of Sylvan Centaurs: 1 - allowed, 0 - not</div>
 <u></u><span class="erm-anchor" id="ref-rec-un-27"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show27"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-If the option is enabled, Sylvan Centaurs can be created for free by clicking <span class="erm-key">Ctrl</span> + <img src="../../../../assets/erm/6fa667d4a59ddf70.gif" alt="Left mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> by a squad of Captain Centaurs or Noble Elves in the HERO WINDOW (!). 
+If the option is enabled, Sylvan Centaurs can be created for free by clicking <span class="erm-key">Ctrl</span> + <img src="../../../../assets/erm/6fa667d4a59ddf70.gif" alt="Left mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon"> by a stack of Centaur Captains or Grand Elves in the HERO WINDOW (!). 
 An equal number of Centaurs and Elves will be replaced by an equal number of Sylvan Centaurs.<br>
-That is 10 Noble Elves plus 10 Centaur Captains = 10 Sylvan Centaurs.<br>
+That is 10 Grand Elves plus 10 Centaur Captains = 10 Sylvan Centaurs.<br>
 <em class="erm-strong">Note:</em> Sylvan centaurs do not retain any experience from pre-merging centaurs or elves.</div></details>
 <div>                   # = 10 – left units will join back (1) or not (0)</div>
 <u></u><span class="erm-anchor" id="ref-rec-un-28"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show28"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">If active, units left by right click will rejoin the hero if he attacks them.<br>
@@ -25346,8 +26003,8 @@ WoGified and non-WoGified WoG maps without scripts will use
 WoG options above.<br>
 Non-WoGified WoG maps with scripts will have disabled commanders 
 default. To enable them you must use <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!UN</span>:P3/0</strong> after the start of the map. 
-Installing this command with instructions - <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> - Will NOT allow commanders on this map.<br>
-To install mercenary commanders for 1000 gold, use the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the team <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>. You can paste both commands on one line:
+Setting this command with instructions - <strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!#UN</span>:P3/0</strong> - Will NOT allow commanders on this map.<br>
+To set mercenary commanders for 1000 gold, use the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P6/1</strong> in front of the command <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">UN</span>:P3/0</strong>. You can paste both commands on one line:
 <pre class="erm-example"><code class="language-erm">!!UN:P6/1 P3/0;</code></pre><br>
                    # = 900 – stack experience: 0 – disabled, 1 – enabled<br>
                    # = 901 – stack experience system: <br>
@@ -25465,7 +26122,7 @@ Trying to use this command anywhere else will cause the game to crash.</blockquo
 <div>         # = 4 – update the town screen (do not use outside the town screen!)<br>
 
 <span class="erm-anchor" id="ref-rec-un-49"></span><details class="erm-comment"><summary><strong>Comment</strong> (<span class="erm-anchor" id="ref-rec-un-show49"></span><u class="erm-toggle-label">show</u>)</summary><div class="erm-comment-body">Unfortunately, the base ERM does not have a command to update the hero encounter screen.<br>
-However, there is a ready-made solution for <a href="../../compatibility/#ref-era-index">ERA</a> - team <a href="../sn/#ref-rec-sn-era-d">SN:D</a>.</div></details></div>
+However, there is a ready-made solution for <a href="../../compatibility/#ref-era-index">ERA</a> - command <a href="../sn/#ref-rec-sn-era-d">SN:D</a>.</div></details></div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-un-r5"></span><span class="erm-anchor" id="command-r5-r6-r7"></span>R5/$1/$2</strong></span><br>
 Set cursor type<br>
@@ -25522,7 +26179,7 @@ Set up a recruitable creature in the castle<br>
          #3 – basic (0) or advanced 
 (1)<br>
          $ – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a><br>
-<u></u> </div><span class="erm-anchor" id="ref-rec-un-36"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show36"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">The team works in 
+<u></u> </div><span class="erm-anchor" id="ref-rec-un-36"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-un-show36"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">The command works in 
 	all towns, including AI. You can set the command as an instruction. Remember that you can enhance 
 "importance" of a creature for AI by setting the AI value with the command <a href="../ma/#ref-rec-ma-i">!!MA:I</a>. 
 Additional resources are expected only for level 7 housing.</div></details>
@@ -25741,7 +26398,9 @@ You can only check or receive.<br>
 
 # University (UR)
 
+ID: erm.receivers.ur
 URL: /en/erm/receivers/ur/
+Source references: old-help:rec-ur.htm, era-changelog:era-iii-changelog.txt
 
 UR receiver: university, command parameters, and limitations.
 
@@ -25803,7 +26462,9 @@ number of the first skill, etc.</div>
 
 # Variable-usage logging (VC)
 
+ID: erm.receivers.vc
 URL: /en/erm/receivers/vc/
+Source references: old-help:rec-vc.htm
 
 VC receiver: variable-usage logging, command parameters, and limitations.
 
@@ -25868,7 +26529,7 @@ Marked:<br>
 </li><li>Timers: TM1…TM100 <br>
 - marked 't' if trigger was found<br>
 - marked 'r' if receiver or instruction were found</li>
-<li>Functions/cycles: FU1…FU30000, DO1…DO30000<br>
+<li>Functions/loops: FU1…FU30000, DO1…DO30000<br>
 - marked 't' if trigger (the function itself) was found<br>
 - marked 'r' if receiver or an instruction calling the function was found<br>
 - marked 'd' if receiver or the instruction causing the loop was found</li></ol>
@@ -25948,7 +26609,9 @@ Start section checking</div>
 
 # Variables and expressions (VR)
 
+ID: erm.receivers.vr
 URL: /en/erm/receivers/vr/
+Source references: old-help:rec-vr.htm, era-changelog:era-iii-changelog.txt
 
 VR receiver: variables and expressions, command parameters, and limitations.
 
@@ -25966,7 +26629,7 @@ VR receiver: variables and expressions, command parameters, and limitations.
 <div class="erm-paragraph"><br>
 <strong><span class="erm-anchor" id="ref-rec-vr-red"></span><span class="erm-tone-red">!!VR@:XXXX;</span> 
 	- variable management.</strong> Used to manipulate variables 
-(installation, comparison, mathematical operations).</div>
+(setting, comparison, mathematical operations).</div>
 <span class="erm-anchor" id="ref-rec-vr-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: <a href="./#ref-rec-vr-string">commands over <em>z</em>-variables</a>, <a href="./#ref-rec-vr-addstring">connection <em>z</em>-variables</a>, 
 <a href="../../variables/#ref-cont-flags-var-show">variables in messages</a>, <a href="../../variables/#ref-cont-flags">flags and variables</a></div>
 
@@ -25979,7 +26642,7 @@ Set/check <em>v</em>-variables<br>
          $2 – set/check <em>v</em>-variable (@+1)<br>
   <span class="erm-anchor" id="ref-rec-vr-step"></span><em class="erm-indent">…</em><br>
   <em class="erm-indent">…</em><br>
-         $16 – install/test <em>v</em>-variable (@+15)<br>
+         $16 – set/test <em>v</em>-variable (@+15)<br>
 The command supports up to 16 parameters.<br>
 <span class="erm-anchor" id="ref-rec-vr-bold"></span><em class="erm-strong">Note:</em> in <a href="../../compatibility/#ref-era-index">ERA</a> support added <em>v</em>, <em>y</em>, <em>x</em> and <em>w</em>-variables.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-vr-1"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-vr-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
@@ -26355,7 +27018,9 @@ Concatenate the text variable z# with a specific text (appends to the end)</div>
 
 # Wagon (WG)
 
+ID: erm.receivers.wg
 URL: /en/erm/receivers/wg/
+Source references: old-help:rec-wg.htm
 
 WG receiver: wagon, command parameters, and limitations.
 
@@ -26434,7 +27099,9 @@ Is there a bonus or not:<br>
 
 # Witch hut (WH)
 
+ID: erm.receivers.wh
 URL: /en/erm/receivers/wh/
+Source references: old-help:rec-wh.htm
 
 WH receiver: witch hut, command parameters, and limitations.
 
@@ -26496,7 +27163,9 @@ Set/check/get a skill (<a href="../../tables/secondary-skills/#ref-form-secondar
 
 # Water wheel (WM)
 
+ID: erm.receivers.wm
 URL: /en/erm/receivers/wm/
+Source references: old-help:rec-wm.htm
 
 WM receiver: water wheel, command parameters, and limitations.
 
@@ -26560,7 +27229,9 @@ When $=0, the mill is considered visited.</div>
 
 # Warrior tomb (WT)
 
+ID: erm.receivers.wt
 URL: /en/erm/receivers/wt/
+Source references: old-help:rec-wt.htm
 
 WT receiver: warrior tomb, command parameters, and limitations.
 
@@ -26626,7 +27297,9 @@ Yes artifact (1) or not (0)</div>
 
 # Introduction to ERM
 
+ID: erm.start
 URL: /en/erm/start/
+Source references: old-help:cont-zvse.htm, old-help:cont-triggersol.htm, old-help:tr-pi.htm, old-help:tr-gm.htm, era-changelog:era-iii-changelog.txt, old-help:cont-adv.htm, old-help:cont-mapmakers.htm, old-help:cont-wog.htm
 
 How a script is loaded and responds to Heroes III events.
 
@@ -26882,7 +27555,9 @@ Use a separate test map and check new-game initialization, save/load, and repeat
 
 # ERM syntax: ZVSE and ZVSE2
 
+ID: erm.syntax
 URL: /en/erm/syntax/
+Source references: old-help:cont-zvse.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, old-help:cont-ingener.htm
 
 Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor.
 
@@ -26956,10 +27631,10 @@ The command above is an example of using the advanced dialog box. It has more pa
 but you don't have to fill them all. We use three out of a possible 16. It is for this command that entering 0 means “leave unchanged” 
 but many other commands simply assume a value of zero, which was not always intended.</div>
 
-<h3><span class="erm-anchor" id="ref-cont-receiversol-many"></span>Multi-team</h3>
+<h3><span class="erm-anchor" id="ref-cont-receiversol-many"></span>Multiple commands</h3>
 <div class="erm-paragraph">In most cases, you can put multiple commands after a single receiver header (the part before the colon). 
 Commands do not need to be separated by spaces, but for greater readability it is recommended. In some cases, for example 
-setting and managing variables <a href="../receivers/vr/#ref-rec-vr">VR receiver</a>, multi-teaming does not always work correctly. 
+setting and managing variables <a href="../receivers/vr/#ref-rec-vr">VR receiver</a>, multiple commands does not always work correctly. 
 So, if you use multiple commands, make sure they execute correctly and produce the correct result. 
 If one of your commands shows or sets text, you must put it last. 
 If you paste any other command after the text (as part of a single receiver) you will get an error.<br>
@@ -26992,7 +27667,7 @@ Namely, the first <em>v</em>-the variable stores the X-coordinate of the object;
 </div><h3><span class="erm-anchor" id="ref-cont-receiversol-instr"></span>Instructions</h3>
 <div class="erm-paragraph">The instructions are identical to the receivers, except that they begin with a combination of exclamation marks and a number (!#) and work only once, 
 when loading the map for the first time. Most receivers also work as instructions, but some (especially object-specific receivers) 
-do not work at all and cause error messages or the card crashes. The instructions are executed once when loading the map, 
+do not work at all and cause error messages or the game crashes. The instructions are executed once when loading the map, 
 in the order of appearance in time events, regardless of triggers, receivers and comments before and after them. 
 You can use instructions to call functions and all normal receivers (non-instructions), being part of the function, will work fine, 
 however, you MUST include the function in a temporary event BEFORE the statement calling it, otherwise it will not work 
@@ -27084,7 +27759,9 @@ String literals use `^...^`. Ordinary text between a terminated command and the 
 
 # Reference tables
 
+ID: erm.tables
 URL: /en/erm/tables/
+Source references: old-help:cont-form.htm, old-help:form-hex.htm, era-framework:lib-9999-era---consts.erm
 
 IDs, flags, constants, slots and data formats for ERM commands.
 
@@ -27334,7 +28011,9 @@ Hex 0x10 = decimal 16; hex 0xFF = 255. Bit index 5 means mask 32. Combine indepe
 
 # Artifact slots
 
+ID: erm.tables.artifact-slots
 URL: /en/erm/tables/artifact-slots/
+Source references: old-help:form-ap.htm, old-help:form-ap1.htm, old-help:form-ap2.htm, old-help:form-ap3.htm
 
 Hero doll positions, UN:A categories and HE:Y2 slots use different numbering.
 
@@ -27401,19 +28080,19 @@ Hero doll positions, UN:A categories and HE:Y2 slots use different numbering.
 	<td>Miscellaneous 4</td></tr>
 <tr>
 	<td><span class="erm-tone-red">13</span></td>
-	<td><span class="erm-tone-red">Ballista (specialty X1) (combat vehicle 1)</span></td></tr>
+	<td><span class="erm-tone-red">Ballista (war machine 1)</span></td></tr>
 <tr>
 	<td>14</td>
-	<td>Podvoda (combat vehicle 2)</td></tr>
+	<td>Ammo Cart (war machine 2)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">15</span></td>
-	<td><span class="erm-tone-red">Tent (combat vehicle 3)</span></td></tr>
+	<td><span class="erm-tone-red">First Aid First Aid First Aid First Aid First Aid Tent (war machine 3)</span></td></tr>
 <tr>
 	<td>16</td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr>
 	<td><span class="erm-tone-red">17</span></td>
-	<td><span class="erm-tone-red">Book of Spells</span></td></tr>
+	<td><span class="erm-tone-red">Spell Book</span></td></tr>
 <tr>
 	<td>18</td>
 	<td>Miscellaneous 5</td></tr>
@@ -27430,7 +28109,7 @@ Hero doll positions, UN:A categories and HE:Y2 slots use different numbering.
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Artifact positions</span></div>
-<span class="erm-anchor" id="ref-form-ap2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/un/#ref-rec-un-a">UN:A</a><br>
+<span class="erm-anchor" id="ref-form-ap2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/un/#ref-rec-un-a">UN:A</a><br>
 See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -27472,16 +28151,16 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 	<td>Combat vehicle 1 (ballista)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">11</span></td>
-	<td><span class="erm-tone-red">Combat vehicle 2 (supply)</span></td></tr>
+	<td><span class="erm-tone-red">Combat vehicle 2 (Ammo Cart)</span></td></tr>
 <tr>
 	<td>12</td>
 	<td>Combat vehicle 3 (tent)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">13</span></td>
-	<td><span class="erm-tone-red">Catapult (specialty X1)</span></td></tr>
+	<td><span class="erm-tone-red">Catapult</span></td></tr>
 <tr>
 	<td>14</td>
-	<td>Book of Spells</td></tr>
+	<td>Spell Book</td></tr>
 <tr>
 	<td><span class="erm-tone-red">65</span></td>
 	<td><span class="erm-tone-red">Left ring</span></td></tr>
@@ -27519,7 +28198,7 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Artifact positions</span></div>
-<span class="erm-anchor" id="ref-form-ap3-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/he/#ref-rec-he-y">HE:Y2</a><br>
+<span class="erm-anchor" id="ref-form-ap3-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/he/#ref-rec-he-y">HE:Y2</a><br>
 See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 	<tr>
@@ -27564,11 +28243,11 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">9</span></td>
-		<td><span class="erm-tone-red">Combat vehicle 1 (Ballista (specialty X1))</span></td>
+		<td><span class="erm-tone-red">Combat vehicle 1 (Ballista)</span></td>
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Combat vehicle 2 (Podvoda)</td>
+		<td>Combat vehicle 2 (Ammo Cart)</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">11</span></td>
@@ -27576,11 +28255,11 @@ See also <a href="../artifacts/#ref-form-a1">Artifact table</a></div>
 	</tr>
 	<tr>
 		<td>12</td>
-		<td>Catapult (specialty X1) (?)</td>
+		<td>Catapult (?)</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">13</span></td>
-		<td><span class="erm-tone-red">Book of Spells</span></td>
+		<td><span class="erm-tone-red">Spell Book</span></td>
 	</tr>
 	<tr>
 		<td>14 and up</td>
@@ -27638,7 +28317,9 @@ For UN:A: 0 backpack only, 1..6 head/shoulders/neck/right hand/left hand/torso, 
 
 # Artifact table
 
+ID: erm.tables.artifacts
 URL: /en/erm/tables/artifacts/
+Source references: old-help:form-a1.htm, era-framework:lib-9999-era---consts.erm, old-help:form-a1-hex.htm, old-help:form-a3.htm
 
 IDs from the standard WoG set. Adventure-map object: type 5.
 
@@ -27676,12 +28357,12 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 	<tr class="erm-tone-red">
 		<td>3</td>
 		<td><img src="../../../../assets/erm/2e1312f3116ad6cc.gif" alt="art003" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Catapult (specialty X1)</td>
+		<td>Catapult</td>
 	</tr>
 	<tr>
 		<td>4</td>
 		<td><img src="../../../../assets/erm/b474e56705e31f58.gif" alt="art004" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Ballista (specialty X1)</td>
+		<td>Ballista</td>
 	</tr>
 	<tr class="erm-tone-red">
 		<td>5</td>
@@ -28557,12 +29238,12 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 	<tr class="erm-tone-red">
 		<td>03</td>
 		<td><img src="../../../../assets/erm/2e1312f3116ad6cc.gif" alt="art003" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Catapult (specialty X1)</td>
+		<td>Catapult</td>
 	</tr>
 	<tr>
 		<td>04</td>
 		<td><img src="../../../../assets/erm/b474e56705e31f58.gif" alt="art004" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Ballista (specialty X1)</td>
+		<td>Ballista</td>
 	</tr>
 	<tr class="erm-tone-red">
 		<td>05</td>
@@ -29439,7 +30120,7 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 <tr class="erm-tone-red">
 	<td>4</td>
 	<td></td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr>
 	<td>64</td>
 	<td></td>
@@ -29579,7 +30260,7 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 <tr>
 	<td>3</td>
 	<td></td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr class="erm-tone-red">
 	<td>46</td>
 	<td></td>
@@ -30304,7 +30985,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Battle backgrounds
 
+ID: erm.tables.battle-backgrounds
 URL: /en/erm/tables/battle-backgrounds/
+Source references: old-help:form-ba-b.htm, old-help:rec-ba.htm
 
 BA:B selects the battle background. -1 keeps the default selection; 1–25 are the legacy variants.
 
@@ -30315,7 +30998,7 @@ BA:B selects the battle background. -1 keeps the default selection; 1–25 are t
 <div>
 
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Backgrounds in battle</span></div>
-<span class="erm-anchor" id="ref-form-ba-b-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ba/#ref-rec-ba-b">BA:B</a></div>
+<span class="erm-anchor" id="ref-form-ba-b-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ba/#ref-rec-ba-b">BA:B</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-ba-b-n2"></span><tr class="erm-tone-purple erm-strong"><td width="15%">Number</td><td><span class="erm-anchor" id="ref-form-ba-b-step"></span><strong class="erm-indent">Battle background</strong></td></tr>
 <tr><td>-1</td><td><br><span class="erm-indent">Standard<br><br></span></td></tr>
@@ -30395,7 +31078,9 @@ BA:B selects the battle background. -1 keeps the default selection; 1–25 are t
 
 # BU:G special battle terrain
 
+ID: erm.tables.battle-terrain
 URL: /en/erm/tables/battle-terrain/
+Source references: old-help:form-bug.htm, old-help:rec-bu.htm
 
 BU:G uses a separate index for the combat effect. The corresponding map object type is listed alongside it.
 
@@ -30405,7 +31090,7 @@ BU:G uses a separate index for the combat effect. The corresponding map object t
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Table of overhead terrains (their bonuses in battle)</span></div>
-<span class="erm-anchor" id="ref-form-bug-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/bu/#ref-rec-bu-g">BU:G</a></div>
+<span class="erm-anchor" id="ref-form-bug-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/bu/#ref-rec-bu-g">BU:G</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 	<span class="erm-anchor" id="ref-form-bug-n2"></span><tr class="erm-tone-purple erm-align-center erm-strong">
 		<td>  #  </td>
@@ -30451,7 +31136,7 @@ BU:G uses a separate index for the combat effect. The corresponding map object t
 		<td><small>21</small></td>
 	</tr>
 	<tr>
-		<td colspan="2"><small>Prohibition of using schools of magic, except for 1st level spells. Neutralizes any morality</small></td>
+		<td colspan="2"><small>Prohibition of using schools of magic, except for 1st level spells. Neutralizes any morale</small></td>
 	</tr>
 	<tr class="erm-align-center">
 		<td class="erm-align-center" rowspan="2">3</td>
@@ -30561,7 +31246,9 @@ BU:G uses a separate index for the combat effect. The corresponding map object t
 
 # Battlefield hexes
 
+ID: erm.tables.battlefield
 URL: /en/erm/tables/battlefield/
+Source references: old-help:form-bf.htm, old-help:form-bf-s1.htm, old-help:rec-bf.htm
 
 11 rows of 17 positions: indices 0–186. Edge positions are reserved; check whether the chosen hex is usable.
 
@@ -30607,7 +31294,9 @@ Battlefield grid: cells 0–186, 11 rows of 17 cells.
 
 # Bits, masks and hexadecimal
 
+ID: erm.tables.bits
 URL: /en/erm/tables/bits/
+Source references: old-help:form-hex.htm, old-help:form-16to10.htm, old-help:rec-vr.htm
 
 Bit indices start at 0; each mask is 2 raised to its index. The high bit of a signed 32-bit ERM integer corresponds to -2147483648. Hex FF = 255; hex 100 = 256.
 
@@ -30641,7 +31330,7 @@ Bit indices start at 0; each mask is 2 raised to its index. The high bit of a si
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-hex-n2"></span><tr class="erm-tone-purple erm-strong">
 	<td width="15%">Bit</td>
-	<td>Meaning</td></tr>
+	<td>Value</td></tr>
 <tr>
 	<td>0</td>
 	<td>1</td></tr>
@@ -30797,7 +31486,9 @@ Bit indices start at 0; each mask is 2 raised to its index. The high bit of a si
 
 # Hero blessings and curses
 
+ID: erm.tables.blessings
 URL: /en/erm/tables/blessings/
+Source references: old-help:form-bless.htm, old-help:rec-he.htm
 
 HE:Y IDs and power parameter meanings. Slot-locking curses use a separate slot table. Legacy WoG effects may depend on installed scripts.
 
@@ -31163,7 +31854,9 @@ HE:Y IDs and power parameter meanings. Slot-locking curses use a [separate slot 
 
 # Tent and border colors
 
+ID: erm.tables.border-colors
 URL: /en/erm/tables/border-colors/
+Source references: old-help:form-bg.htm
 
 Tent is type 10, guard 9, gate 212. These are key colors, not player colors.
 
@@ -31247,7 +31940,9 @@ Tent is type 10, guard 9, gate 212. These are key colors, not player colors.
 
 # Building pictures by town
 
+ID: erm.tables.building-pictures
 URL: /en/erm/tables/building-pictures/
+Source references: old-help:form-buldingsintowns.htm, old-help:form-picts.htm, old-help:rec-if.htm
 
 Town building picture indices for IF:Q dialogs.
 
@@ -31267,11 +31962,11 @@ Town building picture indices for IF:Q dialogs.
 	</tr>
 	<tr>
 		<td>0</td>
-		<td>Prefecture</td>
+		<td>Town Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1</span></td>
-		<td><span class="erm-tone-red">Municipality</span></td>
+		<td><span class="erm-tone-red">City Hall</span></td>
 	</tr>
 	<tr>
 		<td>2</td>
@@ -31295,7 +31990,7 @@ Town building picture indices for IF:Q dialogs.
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">7</span></td>
-		<td><span class="erm-tone-red">Forge</span></td>
+		<td><span class="erm-tone-red">Blacksmith</span></td>
 	</tr>
 	<tr>
 		<td>8</td>
@@ -32113,7 +32808,7 @@ For convenience, they are distributed in tables for each lock.</td></tr>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">18</span></td>
-		<td><span class="erm-tone-red">Back door</span></td>
+		<td><span class="erm-tone-red">Escape Tunnel</span></td>
 	</tr>
 	<tr>
 		<td>19</td>
@@ -32815,7 +33510,9 @@ For IF:Q, picture type is 22 + [town type](../towns/), and subtype is the number
 
 # Town building IDs
 
+ID: erm.tables.buildings
 URL: /en/erm/tables/buildings/
+Source references: old-help:form-buldings.htm, old-help:rec-ca.htm
 
 Building ID for CA and bit in the building array. Town type determines special buildings. IF:Q building pictures use a different numbering system.
 
@@ -32887,17 +33584,17 @@ Building ID for CA and bit in the building array. Town type determines special b
 	<tr>
 		<td>04</td>
 		<td>10</td>
-		<td>Village government</td>
+		<td>Village Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">08</span></td>
 		<td><span class="erm-tone-red">11</span></td>
-		<td><span class="erm-tone-red">Prefecture</span></td>
+		<td><span class="erm-tone-red">Town Hall</span></td>
 	</tr>
 	<tr>
 		<td>16</td>
 		<td>12</td>
-		<td>Municipality</td>
+		<td>City Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">32</span></td>
@@ -32918,7 +33615,7 @@ Building ID for CA and bit in the building array. Town type determines special b
 		<td class="erm-align-center" rowspan="8">2</td>
 		<td>01</td>
 		<td>16</td>
-		<td>Forge</td>
+		<td>Blacksmith</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">02</span></td>
@@ -32929,7 +33626,7 @@ Building ID for CA and bit in the building array. Town type determines special b
 	<tr>
 		<td>04</td>
 		<td>18</td>
-		<td>Horde build for unimproved creatures: Griffins, Dwarves, Stones 
+		<td>Horde build for unupgraded creatures: Griffins, Dwarves, Stones 
 		Gargoyles, Imps, Skeletons, Troglodytes, Goblins, Gnolls, Little Fairies</td>
 	</tr>
 	<tr>
@@ -33133,7 +33830,9 @@ Building ID for CA and bit in the building array. [Town type](../towns/) determi
 
 # BM:V animations
 
+ID: erm.tables.combat-animations
 URL: /en/erm/tables/combat-animations/
+Source references: old-help:form-formatanimation.htm, old-help:form-defspell.htm
 
 A BM:V visual-effect ID is distinct from a spell ID.
 
@@ -33143,7 +33842,7 @@ A BM:V visual-effect ID is distinct from a spell ID.
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Spell Def Index Table</span></div>
-<span class="erm-anchor" id="ref-form-defspell-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ss/#ref-rec-ss">SS:X</a><br>
+<span class="erm-anchor" id="ref-form-defspell-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ss/#ref-rec-ss">SS:X</a><br>
 See also <a href="../spells/#ref-form-spell">Spell table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-defspell-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -33322,7 +34021,7 @@ See also <a href="../spells/#ref-form-spell">Spell table</a></div>
 	<td>cloud of death</td></tr>
 <tr>
 	<td><span class="erm-tone-red">80</span></td>
-	<td><span class="erm-tone-red">death glare</span></td></tr>
+	<td><span class="erm-tone-red">Death Stare</span></td></tr>
 <tr>
 	<td>81</td>
 	<td>Acid breath</td></tr>
@@ -33347,7 +34046,7 @@ See also <a href="../spells/#ref-form-spell">Spell table</a></div>
 <div>
 <div class="erm-align-left erm-paragraph">
 <span class="erm-source-title">Battle Animation Table</span></div>
-<span class="erm-anchor" id="ref-form-formatanimation-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/bm/#ref-rec-bm-v">BM:V</a></div>
+<span class="erm-anchor" id="ref-form-formatanimation-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/bm/#ref-rec-bm-v">BM:V</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <tr>
 <td width="15%"><strong><span class="erm-tone-purple">Number</span></strong></td>
@@ -33595,7 +34294,7 @@ appear)</summary><div class="erm-comment-body"><img src="../../../../assets/erm/
 	<td><span class="erm-tone-red"><span class="erm-anchor" id="ref-form-formatanimation-70"></span><details class="erm-comment"><summary>Cure tent</summary><div class="erm-comment-body"><img src="../../../../assets/erm/4b4777eb9f4a5510.gif" alt="tentheal" loading="lazy" decoding="async" class="erm-figure" width="95" height="94"></div></details></span></td></tr>
 <tr>
 	<td>80</td>
-	<td><span class="erm-anchor" id="ref-form-formatanimation-71"></span><details class="erm-comment"><summary>death glare</summary><div class="erm-comment-body"><img src="../../../../assets/erm/1c1c10503194e8c1.gif" alt="deathstare" loading="lazy" decoding="async" class="erm-figure" width="58" height="98"></div></details></td></tr>
+	<td><span class="erm-anchor" id="ref-form-formatanimation-71"></span><details class="erm-comment"><summary>Death Stare</summary><div class="erm-comment-body"><img src="../../../../assets/erm/1c1c10503194e8c1.gif" alt="deathstare" loading="lazy" decoding="async" class="erm-figure" width="58" height="98"></div></details></td></tr>
 <tr>
 	<td><span class="erm-tone-red">81</span></td>
 	<td><span class="erm-tone-red"><details class="erm-comment"><summary>Acid breath</summary><div class="erm-comment-body"><img src="../../../../assets/erm/525a6b30c5c603f2.gif" alt="acid" loading="lazy" decoding="async" class="erm-figure" width="97" height="114"></div></details></span></td></tr>
@@ -33731,7 +34430,9 @@ Animation does not cast a spell. 12 is tied to the upper-left battlefield; 43/44
 
 # Combat stack fields
 
+ID: erm.tables.combat-stack-structure
 URL: /en/erm/tables/combat-stack-structure/
+Source references: old-help:form-combatmon.htm, old-help:rec-bm.htm
 
 Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.
 
@@ -33776,7 +34477,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
    // <strong class="erm-tone-red">+5C</strong> dd? hero slot number (0..6), -1 → will be deleted after the battle
    // <strong class="erm-tone-red">+60</strong> dd? strength at the beginning of the battle
    // <strong class="erm-tone-red">+64</strong> dd? base speed with bonuses of land, specialists, etc. (<a href="../../receivers/bm/#ref-rec-bm-u6">BM:U6</a>)
-   // <strong class="erm-tone-red">+6C</strong> dd? full health (Spanish as a basis for treatment)
+   // <strong class="erm-tone-red">+6C</strong> dd? full health (used as the basis for healing)
    // <strong class="erm-tone-red">+70</strong> dd <em class="erm-tone-purple erm-legacy-event">44150F</em> <em class="erm-tone-purple erm-legacy-event">441744</em> (dropped Luck)
    // loaded copy of H3CreatureInfo
    // <strong class="erm-tone-red">+74</strong> dd creature faction (-1 for advanced elementals)
@@ -33801,7 +34502,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 // 00004000 - 0x0E ??? IMMUNITY TO FIRE SPELLS
 // 00008000 - 0x0F shoots twice
 // 00010000 - 0x10 attack without response
-// 00020000 - 0x11 ... not subject to low morality (?)
+// 00020000 - 0x11 ... not subject to low morale (?)
 // Creatures 32,33,56-69,112-117,120,121,123,125,127,129,141,145-149
 // 00040000 - 0x12 evil spirits
 // 00080000 - 0x13 hits all nearby enemies
@@ -33834,7 +34535,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
    // <strong class="erm-tone-red">+DC</strong> dd = number of spells (0 = none) FOR RESURRECTION INCREASE
    // Stack state flags dd ?
    // <strong class="erm-tone-red">+E8</strong> db = 1, you need to hit with a Fire Shield (ifrits do not display it)
-   // <strong class="erm-tone-red">+E9</strong> db = 1, if at least someone in the squad died
+   // <strong class="erm-tone-red">+E9</strong> db = 1, if at least someone in the stack died
    // <strong class="erm-tone-red">+EA</strong> db = 1 if the entire stack was killed
    // <strong class="erm-tone-red">+EC</strong> dd = number of the creature's current spell. round (0x50 Acid Breath)
    // <strong class="erm-tone-red">+F0</strong> db = 1 before attacking it <em class="erm-tone-purple erm-legacy-event">441434</em>, <em class="erm-tone-purple erm-legacy-event">44016F</em>
@@ -33939,7 +34640,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 // <strong class="erm-tone-red">+2C8</strong> dd = Cloud of Death
 // <strong class="erm-tone-red">+2CC</strong> dd = Lightning Strike
 // <strong class="erm-tone-red">+2D0</strong> dd = Remove useful spells
-// <strong class="erm-tone-red">+2D4</strong> dd = Death Glare
+// <strong class="erm-tone-red">+2D4</strong> dd = Death Stare
 // <strong class="erm-tone-red">+2D8</strong> dd = Acid breath</blockquote></div></details>
    // <strong class="erm-tone-red">+2DC</strong> dd*? <span class="erm-anchor" id="ref-form-combatmon-3"></span><details class="erm-comment"><summary>spell power</summary><div class="erm-comment-body"><blockquote class="erm-margin-top-zero erm-note">
 // <strong class="erm-tone-red">+2DC</strong> dd = Summon Boat
@@ -34023,7 +34724,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 // <strong class="erm-tone-red">+40C</strong> dd = Cloud of Death
 // <strong class="erm-tone-red">+410</strong> dd = Lightning Strike
 // <strong class="erm-tone-red">+414</strong> dd = Remove useful spells
-// <strong class="erm-tone-red">+418</strong> dd = Death Glare
+// <strong class="erm-tone-red">+418</strong> dd = Death Stare
 // <strong class="erm-tone-red">+41C</strong> dd = Acid breath</blockquote></div></details>
    // <strong class="erm-tone-red">+420</strong> dd Spell Influence Queue
    // <strong class="erm-tone-red">+44C</strong> dd Number of active spells (to display when clicked <span class="erm-anchor" id="ref-form-combatmon-vc"></span><img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon">)
@@ -34151,7 +34852,9 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 
 # Combination artifacts
 
+ID: erm.tables.combination-artifacts
 URL: /en/erm/tables/combination-artifacts/
+Source references: old-help:form-a2.htm, old-help:rec-un.htm
 
 Combination index and assembled artifact ID are different values.
 
@@ -34324,7 +35027,9 @@ UN:A controls components and availability. Do not grant combination index 0 as a
 
 # Commander special bonuses
 
+ID: erm.tables.commander-bonuses
 URL: /en/erm/tables/commander-bonuses/
+Source references: old-help:form-cobo.htm, old-help:form-commanders.htm
 
 CO uses bonus indices and bit masks; mask = 2 to the power of the index.
 
@@ -34404,7 +35109,7 @@ CO uses bonus indices and bit masks; mask = 2 to the power of the index.
 	<tr>
 		<td>4096</td>
 		<td>12</td>
-		<td>Damage + Magic Power = death glare</td>
+		<td>Damage + Magic Power = Death Stare</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">8192</span></td>
@@ -34458,7 +35163,9 @@ CO uses bonus indices and bit masks; mask = 2 to the power of the index.
 
 # Commander classes
 
+ID: erm.tables.commanders
 URL: /en/erm/tables/commanders/
+Source references: old-help:form-commanders.htm, old-help:rec-co.htm
 
 Commander class corresponds to a pair of hero classes. This index differs from a commander creature ID.
 
@@ -34557,7 +35264,9 @@ Commander class corresponds to a pair of hero classes. This index differs from a
 
 # Creature banks
 
+ID: erm.tables.creature-banks
 URL: /en/erm/tables/creature-banks/
+Source references: old-help:form-cb.htm
 
 Subtypes of WoG object 16. Mods that expand creature banks may change this set.
 
@@ -34576,11 +35285,11 @@ Subtypes of WoG object 16. Mods that expand creature banks may change this set.
 	</tr>
 	<tr>
 		<td>0</td>
-		<td>Cyclops Vault</td>
+		<td>Cyclops Stockpile</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1</span></td>
-		<td><span class="erm-tone-red">Treasury of the Dwarves</span></td>
+		<td><span class="erm-tone-red">Dwarven Treasury</span></td>
 	</tr>
 	<tr>
 		<td>2</td>
@@ -34588,19 +35297,19 @@ Subtypes of WoG object 16. Mods that expand creature banks may change this set.
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">3</span></td>
-		<td><span class="erm-tone-red">Sanctuary of Demons</span></td>
+		<td><span class="erm-tone-red">Imp Cache</span></td>
 	</tr>
 	<tr>
 		<td>4</td>
-		<td>Medusa Warehouses</td>
+		<td>Medusa Stores</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">5</span></td>
-		<td><span class="erm-tone-red">Nag Bank</span></td>
+		<td><span class="erm-tone-red">Naga Bank</span></td>
 	</tr>
 	<tr>
 		<td>6</td>
-		<td>Hive Zmiev</td>
+		<td>Dragon Fly Hive</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">7</span></td>
@@ -34648,7 +35357,7 @@ Subtypes of WoG object 16. Mods that expand creature banks may change this set.
 	</tr>
 	<tr>
 		<td>18</td>
-		<td>House of the Bat</td>
+		<td>Bat House</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">19</span></td>
@@ -34704,7 +35413,9 @@ Subtypes of WoG [object 16](../objects/#id-16). Mods that expand creature banks 
 
 # Creature dwellings on the map
 
+ID: erm.tables.creature-dwellings
 URL: /en/erm/tables/creature-dwellings/
+Source references: old-help:form-creaturedwellings.htm, old-help:rec-dw.htm
 
 The main table lists subtypes of object 17. For object 20, subtype 0 is the four-elemental dwelling and subtype 1 the four-golem factory.
 
@@ -34726,15 +35437,15 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>56</td>
-		<td>Guard post</td>
+		<td>Guardhouse</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">57</span></td>
-		<td><span class="erm-tone-red">Tower crossbowmen</span></td>
+		<td><span class="erm-tone-red">Archer’s Tower</span></td>
 	</tr>
 	<tr>
 		<td>25</td>
-		<td>Tower griffins</td>
+		<td>Griffin Tower</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">58</span></td>
@@ -34746,15 +35457,15 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">05</span></td>
-		<td><span class="erm-tone-red">Hippodrome</span></td>
+		<td><span class="erm-tone-red">Training Grounds</span></td>
 	</tr>
 	<tr>
 		<td>08</td>
-		<td>Portal of Fame</td>
+		<td>Portal of Glory</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">80</span></td>
-		<td><span class="erm-tone-red">Portal of Radiance</span></td>
+		<td><span class="erm-tone-red">Portal of Splendor</span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-1"></span>
@@ -34766,19 +35477,19 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">12</span></td>
-		<td><span class="erm-tone-red">Gnome Cottage</span></td>
+		<td><span class="erm-tone-red">Dwarf Cottage</span></td>
 	</tr>
 	<tr>
 		<td>15</td>
-		<td>Manor</td>
+		<td>Homestead</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">50</span></td>
-		<td><span class="erm-tone-red">Enchanted Creek</span></td>
+		<td><span class="erm-tone-red">Enchanted Spring</span></td>
 	</tr>
 	<tr>
 		<td>45</td>
-		<td>Dendroid Arch</td>
+		<td>Dendroid Arches</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">51</span></td>
@@ -34790,7 +35501,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">24</span></td>
-		<td><span class="erm-tone-red">Dragon Rocks</span></td>
+		<td><span class="erm-tone-red">Dragon Cliffs</span></td>
 	</tr>
 	<tr>
 		<td>81</td>
@@ -34814,7 +35525,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>31</td>
-		<td>Tower mages</td>
+		<td>Mage Tower</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">18</span></td>
@@ -34826,11 +35537,11 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">44</span></td>
-		<td><span class="erm-tone-red">Transcendental Temple</span></td>
+		<td><span class="erm-tone-red">Cloud Temple</span></td>
 	</tr>
 	<tr>
 		<td>82</td>
-		<td>Temple storm</td>
+		<td>Temple of Storms</td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-3"></span>
@@ -34838,11 +35549,11 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>29</td>
-		<td>Cauldron of Demons</td>
+		<td>Imp Crucible</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">22</span></td>
-		<td><span class="erm-tone-red">Palace of Vices</span></td>
+		<td><span class="erm-tone-red">Hall of Sins</span></td>
 	</tr>
 	<tr>
 		<td>27</td>
@@ -34854,7 +35565,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>40</td>
-		<td>Failure</td>
+		<td>Hell Hole</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">14</span></td>
@@ -34862,7 +35573,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Abandoned Palace</td>
+		<td>Forsaken Palace</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">83</span></td>
@@ -34878,11 +35589,11 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">55</span></td>
-		<td><span class="erm-tone-red">Cemetery</span></td>
+		<td><span class="erm-tone-red">Graveyard</span></td>
 	</tr>
 	<tr>
 		<td>48</td>
-		<td>Refuge of souls</td>
+		<td>Tomb of Souls</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">53</span></td>
@@ -34894,11 +35605,11 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">03</span></td>
-		<td><span class="erm-tone-red">Palace of Darkness</span></td>
+		<td><span class="erm-tone-red">Hall of Darkness</span></td>
 	</tr>
 	<tr>
 		<td>04</td>
-		<td>Crypt of Dragons</td>
+		<td>Dragon Vault</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">84</span></td>
@@ -34910,19 +35621,19 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>46</td>
-		<td>Corral</td>
+		<td>Warren</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">26</span></td>
-		<td><span class="erm-tone-red">Attic of the Harpies</span></td>
+		<td><span class="erm-tone-red">Harpy Loft</span></td>
 	</tr>
 	<tr>
 		<td>02</td>
-		<td>Eye Stone</td>
+		<td>Pillar of Eyes</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">33</span></td>
-		<td><span class="erm-tone-red">Chapel of Silence</span></td>
+		<td><span class="erm-tone-red">Chapel of Stilled Voices</span></td>
 	</tr>
 	<tr>
 		<td>34</td>
@@ -34930,7 +35641,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">32</span></td>
-		<td><span class="erm-tone-red">Lair of the Manticores</span></td>
+		<td><span class="erm-tone-red">Manticore Lair</span></td>
 	</tr>
 	<tr>
 		<td>41</td>
@@ -34954,7 +35665,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>39</td>
-		<td>Tower orcs</td>
+		<td>Orc Tower</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">38</span></td>
@@ -34962,19 +35673,19 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>42</td>
-		<td>Nest on the rock</td>
+		<td>Cliff Nest</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">09</span></td>
-		<td><span class="erm-tone-red">Cave of the Cyclops</span></td>
+		<td><span class="erm-tone-red">Cyclops Cave</span></td>
 	</tr>
 	<tr>
 		<td>01</td>
-		<td>Beast Cliff</td>
+		<td>Behemoth Crag</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">86</span></td>
-		<td><span class="erm-tone-red">The creature's grave</span></td>
+		<td><span class="erm-tone-red">Behemoth Tomb</span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-7"></span>
@@ -34986,19 +35697,19 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">30</span></td>
-		<td><span class="erm-tone-red">Lizard Lair</span></td>
+		<td><span class="erm-tone-red">Lizard Den</span></td>
 	</tr>
 	<tr>
 		<td>11</td>
-		<td>Hive of serpents</td>
+		<td>Serpent Fly Hive</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">00</span></td>
-		<td><span class="erm-tone-red">Pit of Basilisks</span></td>
+		<td><span class="erm-tone-red">Basilisk Pit</span></td>
 	</tr>
 	<tr>
 		<td>23</td>
-		<td>Lair of the Gorgons</td>
+		<td>Gorgon Lair</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">49</span></td>
@@ -35010,7 +35721,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">87</span></td>
-		<td><span class="erm-tone-red">Chaos Pool</span></td>
+		<td><span class="erm-tone-red">Chaos Pond</span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-8"></span>
@@ -35026,7 +35737,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>07</td>
-		<td>Air Elementals of Conjugation</td>
+		<td>Air Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">69</span></td>
@@ -35034,7 +35745,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>47</td>
-		<td>Water Elementals of Conjugation</td>
+		<td>Water Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">72</span></td>
@@ -35042,7 +35753,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>16</td>
-		<td>Fire Elemental Conjugation</td>
+		<td>Fire Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">71</span></td>
@@ -35050,23 +35761,23 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>13</td>
-		<td>Earth Elementals of Conjugation</td>
+		<td>Earth Elemental Conflux</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">70</span></td>
-		<td><span class="erm-tone-red">Altar of the Earth</span></td>
+		<td><span class="erm-tone-red">Altar of Earth</span></td>
 	</tr>
 	<tr>
 		<td>60</td>
-		<td>Altar of Thoughts</td>
+		<td>Altar of Thought</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">61</span></td>
-		<td><span class="erm-tone-red">Bonfire</span></td>
+		<td><span class="erm-tone-red">Pyre</span></td>
 	</tr>
 	<tr>
 		<td>88</td>
-		<td>Bonfire of the Spirit</td>
+		<td>Spirit Pyre</td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="erm-anchor" id="ref-form-creaturedwellings-9"></span>
@@ -35098,7 +35809,7 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">67</span></td>
-		<td><span class="erm-tone-red">Tower on a tree (Snipers)</span></td>
+		<td><span class="erm-tone-red">Treetop Tower (Sharpshooters)</span></td>
 	</tr>
 	<tr>
 		<td>79</td>
@@ -35130,11 +35841,11 @@ The main table lists subtypes of object 17. For object 20, subtype 0 is the four
 	</tr>
 	<tr>
 		<td>89</td>
-		<td>Rock Cover (Lava Snipers)</td>
+		<td>Rock Shelter (Lava Sharpshooters)</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">90</span></td>
-		<td><span class="erm-tone-red">Snowy Shelter (Tempered Snipers)</span></td>
+		<td><span class="erm-tone-red">Snowy Shelter (Arctic Sharpshooters)</span></td>
 	</tr>
 	<tr>
 		<td>91</td>
@@ -35304,7 +36015,9 @@ The main table lists subtypes of [object 17](../objects/#id-17). For [object 20]
 
 # Creature bit flags
 
+ID: erm.tables.creature-flags
 URL: /en/erm/tables/creature-flags/
+Source references: old-help:form-flaggedabilities.htm, old-help:rec-ma.htm, old-help:rec-bm.htm
 
 MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack.
 
@@ -35313,13 +36026,13 @@ MA:X and BM:F masks. Preserve other bits when changing one property. Combat-stat
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Flag abilities of creatures</span></div>
-<span class="erm-anchor" id="ref-form-flaggedabilities-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by teams <a href="../../receivers/ma/#ref-rec-ma-x">MA:X</a> and 
+<span class="erm-anchor" id="ref-form-flaggedabilities-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by commands <a href="../../receivers/ma/#ref-rec-ma-x">MA:X</a> and 
 <a href="../../receivers/bm/#ref-rec-bm-f">BM:F</a><br>
 See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-second-center" width="100%">
 	<span class="erm-anchor" id="ref-form-flaggedabilities-n2"></span><tr class="erm-tone-purple erm-strong">
 		<td width="25">#</td>
-		<td width="10%">Meaning</td>
+		<td width="10%">Value</td>
 		<td>Ability</td>
 	</tr>
 	<tr>
@@ -35353,13 +36066,13 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td><span class="erm-tone-red">5</span></td>		
 		<td><span class="erm-tone-red">32</span></td>
-		<td><span class="erm-tone-red">Catapult (specialty X1). Creature can attack the town walls.</span></td>
+		<td><span class="erm-tone-red">Catapult. Creature can attack the town walls.</span></td>
 	</tr>
 	<tr>
 		<td>6</td>		
 		<td>64</td>
 		<td>Siege weapon. Can't move. Teleporting will result in a crash from the game. 
-		Stack is not required to kill to achieve victory. There is no indication of the number of creatures near the squad.</td>
+		Stack is not required to kill to achieve victory. There is no indication of the number of creatures near the stack.</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">7</span></td>		
@@ -35421,7 +36134,7 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td>18</td>		
 		<td>262144</td>
-		<td>Undead (all Necropolis creatures, creature with this flag have no morality, 
+		<td>Undead (all Necropolis creatures, creature with this flag have no morale, 
 		takes damage from Destroy Undead and does not take damage from Death Wave).</td>
 	</tr>
 	<tr>
@@ -35439,11 +36152,11 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 		<td><span class="erm-tone-red">21</span></td>		
 		<td><span class="erm-tone-red">2097152</span></td>
 		<td><span class="erm-tone-red">Stack does not get the right to move during the battle. Once the battle is over, stack will disappear. 
-		Stack does not require killing to achieve victory. There is no indication of the number of creatures near the squad. 
+		Stack does not require killing to achieve victory. There is no indication of the number of creatures near the stack. 
 		Immunity to some spells. This flag is automatically set when creature dies. 
 		If you set this flag yourself, then removing it will resurrect creature. 
 		When receiving damage while in a “dead” state, the number of creatures and health of the last creature on the stack is reduced. 
-		Therefore, after resurrection there can be 0 creatures. But this does not prevent you from installing using
+		Therefore, after resurrection there can be 0 creatures. But this does not prevent you from setting using
 		<a href="../../receivers/bm/#ref-rec-bm-n"><span class="erm-tone-red">BM:N</span></a> as many creatures as needed. 
 		If creature really died, then removing the flag creature will not resurrect, 
 		but can lead to various failures in the AI. Teleports correctly.</span></td>
@@ -35482,7 +36195,7 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td>28</td>		
 		<td>268435456</td>
-		<td>The flag is displayed to the stack when it has been sacrificed. The squad's body disappears upon death.</td>
+		<td>The flag is displayed to the stack when it has been sacrificed. The stack's body disappears upon death.</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">29</span></td>		
@@ -35497,10 +36210,10 @@ See also: <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<tr>
 		<td><span class="erm-tone-red">31</span></td>		
 		<td><span class="erm-tone-red">2147483648</span></td>
-		<td><span class="erm-tone-red">Dracon. A unit with this flag is affected by a Vial of Dragon Blood and the influence of the Dragon Hero (Mutare)</span></td>
+		<td><span class="erm-tone-red">Dragon. A unit with this flag is affected by a Vial of Dragon Blood and the influence of the Dragon Hero (Mutare)</span></td>
 	</tr>
 </table></div>
-<div class="erm-paragraph"><span class="erm-anchor" id="ref-form-flaggedabilities-note1"></span><strong>*</strong> - <strong>Flag 29</strong> the squad on battlefield says that the squad has a Bloodlust animation, and therefore DEF needs to be drawn with a palette shifted to red.<br>
+<div class="erm-paragraph"><span class="erm-anchor" id="ref-form-flaggedabilities-note1"></span><strong>*</strong> - <strong>Flag 29</strong> the stack on battlefield says that the stack has a Bloodlust animation, and therefore DEF needs to be drawn with a palette shifted to red.<br>
 At offset 1104 (0x450) in <a href="../combat-stack-structure/#ref-form-combatmon">stack structure</a> is a real number (float, 4 bytes) from 0 to 1.0, which tells how much closer to red the color of each pixel in the HSV color model should be shifted. 
 0 – not at all, 0.8 – 80%, 1.0 – completely red. Brightness and saturation also increase with increasing field value.<br>If the flag is set, then the Petrification or Clone flag is no longer checked during rendering. 
 Therefore, when casting Bloodlust on a clone, the clone itself is temporarily drawn without blue tones.</div>
@@ -35568,7 +36281,9 @@ MA:X and BM:F masks. Preserve other bits when changing one property. Combat-stat
 
 # Creature DEF and sound resources
 
+ID: erm.tables.creature-resources
 URL: /en/erm/tables/creature-resources/
+Source references: old-help:form-cr-def-snd.htm, old-help:rec-ma.htm
 
 Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource names and casing are technical data.
 
@@ -36598,7 +37313,9 @@ Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource 
 
 # Creature table
 
+ID: erm.tables.creatures
 URL: /en/erm/tables/creatures/
+Source references: old-help:form-creature.htm, era-framework:lib-9999-era---consts.erm, old-help:form-creature-hex.htm
 
 IDs from the standard WoG set. Adventure-map object: type 54.
 
@@ -36760,7 +37477,7 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Cerberus</td></tr>
 <tr>
 	<td>48</td>
-	<td>Demoniac</td></tr>
+	<td>Demon</td></tr>
 <tr class="erm-tone-red">
 	<td>49</td>
 	<td>Horned Demon</td></tr>
@@ -36784,7 +37501,7 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Arch Devil</td></tr>
 <tr>
 	<td>56</td>
-	<td><span class="erm-anchor" id="ref-form-creature-4"></span>Corpse</td></tr>
+	<td><span class="erm-anchor" id="ref-form-creature-4"></span>Skeleton</td></tr>
 <tr class="erm-tone-red">
 	<td>57</td>
 	<td>Skeleton Warrior</td></tr>
@@ -37051,19 +37768,19 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Troll</td></tr>
 <tr class="erm-tone-red">
 	<td>145</td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr>
 	<td>146</td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr class="erm-tone-red">
 	<td>147</td>
-	<td>First Aid Tent (specialty X1)</td></tr>
+	<td>First Aid Tent</td></tr>
 <tr>
 	<td>148</td>
-	<td>Ammo Cart (specialty X1)</td></tr>
+	<td>Ammo Cart</td></tr>
 <tr class="erm-tone-red">
 	<td>149</td>
-	<td>Arrow Towers (specialty X1)</td></tr>
+	<td>Arrow Towers</td></tr>
 <tr>
 	<td>150</td>
 	<td>SupremeArchangel</td></tr>
@@ -37075,7 +37792,7 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Lord of Thunder</td></tr>
 <tr class="erm-tone-red">
 	<td>153</td>
-	<td>Antichrist</td></tr>
+	<td>Hell Baron</td></tr>
 <tr>
 	<td>154</td>
 	<td>Blood Dragon</td></tr>
@@ -37370,7 +38087,7 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Cerberus</td></tr>
 <tr>
 	<td>30</td>
-	<td>Demoniac</td></tr>
+	<td>Demon</td></tr>
 <tr class="erm-tone-red">
 	<td>31</td>
 	<td>Horned Demon</td></tr>
@@ -37394,7 +38111,7 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Arch Devil</td></tr>
 <tr>
 	<td>38</td>
-	<td><span class="erm-anchor" id="ref-form-creature-hex-4"></span>Corpse</td></tr>
+	<td><span class="erm-anchor" id="ref-form-creature-hex-4"></span>Skeleton</td></tr>
 <tr class="erm-tone-red">
 	<td>39</td>
 	<td>Skeleton Warrior</td></tr>
@@ -37661,19 +38378,19 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Troll</td></tr>
 <tr class="erm-tone-red">
 	<td>91</td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr>
 	<td>92</td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr class="erm-tone-red">
 	<td>93</td>
-	<td>First Aid Tent (specialty X1)</td></tr>
+	<td>First Aid Tent</td></tr>
 <tr>
 	<td>94</td>
-	<td>Ammo Cart (specialty X1)</td></tr>
+	<td>Ammo Cart</td></tr>
 <tr class="erm-tone-red">
 	<td>95</td>
-	<td>Arrow Towers (specialty X1)</td></tr>
+	<td>Arrow Towers</td></tr>
 <tr>
 	<td>96</td>
 	<td>SupremeArchangel</td></tr>
@@ -37685,7 +38402,7 @@ IDs from the standard WoG set. Adventure-map object: type 54.
 	<td>Lord of Thunder</td></tr>
 <tr class="erm-tone-red">
 	<td>99</td>
-	<td>Antichrist</td></tr>
+	<td>Hell Baron</td></tr>
 <tr>
 	<td>9A</td>
 	<td>Blood Dragon</td></tr>
@@ -38043,7 +38760,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Mouse cursors
 
+ID: erm.tables.cursors
 URL: /en/erm/tables/cursors/
+Source references: old-help:form-mousepointers.htm, old-help:rec-un.htm
 
 Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact.
 
@@ -38388,7 +39107,9 @@ UN:P uses a type/subtype pair. Type 3 is the spell cursor with no meaningful sub
 
 # CM:I click areas
 
+ID: erm.tables.dialog-items
 URL: /en/erm/tables/dialog-items/
+Source references: old-help:form-cmi.htm, old-help:rec-cm.htm
 
 Adventure, town, hero, hero exchange and combat click areas.
 
@@ -38400,7 +39121,7 @@ Adventure, town, hero, hero exchange and combat click areas.
 
 <span class="erm-anchor" id="ref-form-cmi-text"></span><div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Clickable areas</span></div>
-<span class="erm-anchor" id="ref-form-cmi-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/cm/#ref-rec-cm-i">CM:I</a></div>
+<span class="erm-anchor" id="ref-form-cmi-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/cm/#ref-rec-cm-i">CM:I</a></div>
 
 <div class="erm-align-left erm-paragraph"><span class="erm-anchor" id="ref-form-cmi-wt"></span><strong class="erm-legacy-label"><span class="erm-anchor" id="ref-form-cmi-1"></span>Areas on the Adventure Screen</strong></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -38566,31 +39287,31 @@ Adventure, town, hero, hero exchange and combat click areas.
 	</tr>
 	<tr>
 		<td>1001</td>
-		<td>Tree meaning</td>
+		<td>Wood amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1002</span></td>
-		<td><span class="erm-tone-red">Mercury meaning</span></td>
+		<td><span class="erm-tone-red">Mercury amount</span></td>
 	</tr>
 	<tr>
 		<td>1003</td>
-		<td>Ore value</td>
+		<td>Ore amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1004</span></td>
-		<td><span class="erm-tone-red">Meaning of sulfur</span></td>
+		<td><span class="erm-tone-red">Sulfur amount</span></td>
 	</tr>
 	<tr>
 		<td>1005</td>
-		<td>The meaning of crystals</td>
+		<td>Crystal amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1006</span></td>
-		<td><span class="erm-tone-red">The meaning of gems</span></td>
+		<td><span class="erm-tone-red">Gem amount</span></td>
 	</tr>
 	<tr>
 		<td>1007</td>
-		<td>Meaning of gold</td>
+		<td>Gold amount</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">1008</span></td>
@@ -38893,15 +39614,15 @@ Adventure, town, hero, hero exchange and combat click areas.
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Village government</td>
+		<td>Village Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">11</span></td>
-		<td><span class="erm-tone-red">Prefecture</span></td>
+		<td><span class="erm-tone-red">Town Hall</span></td>
 	</tr>
 	<tr>
 		<td>12</td>
-		<td>Municipality</td>
+		<td>City Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">13</span></td>
@@ -38917,18 +39638,18 @@ Adventure, town, hero, hero exchange and combat click areas.
 	</tr>
 	<tr>
 		<td>16</td>
-		<td>Forge</td>
+		<td>Blacksmith</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">17</span></td>
 		<td><span class="erm-tone-red">Special Buildings: Mystic Fountain (Rampart), Veil of Darkness 
 		(Necropolis), Artifact Merchants (Tower, Dungeon and Conflux), Black 
-		move (Stronghold), Cage of the War Gods (Fortress), Lighthouse (Town)</span></td>
+		move (Stronghold), Cage of the War Gods (Fortress), Lighthouse (Castle)</span></td>
 	</tr>
 	<tr>
 		<td>18</td>
 		<td>Creature Horde Buildings: Mining Guild (Rampart), Griffin Bastion 
-		(Town), Mushroom Rings (Dungeon), Opened Graves (Necropolis), 
+		(Castle), Mushroom Rings (Dungeon), Opened Graves (Necropolis), 
 		Incubator (Inferno), Garden of Life (Conflux), Sculptors' Wings (Tower), 
 		Dining room (Stronghold), Captain's quarters (Fortress)</td>
 	</tr>
@@ -38940,14 +39661,14 @@ Adventure, town, hero, hero exchange and combat click areas.
 		<td>21</td>
 		<td>Special Buildings: Marks of Fear (Fortress), Necromancy Amplifier 
 		(Necropolis), Lookout Tower (Tower), Whirlpool mana (Dungeon), Stables 
-		(Town), Sulfur clouds (Inferno), Fountain of Fortune (Rampart), Freelancer's Guild 
+		(Castle), Sulfur clouds (Inferno), Fountain of Fortune (Rampart), Freelancer's Guild 
 		(Stronghold), University magic (Conflux).</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">22</span></td>
 		<td><span class="erm-tone-red">Special buildings: Ballista Courtyard (Stronghold), Summoning Portal 
 		(Dungeon), Blood Obelisks (Fortress), Library (Tower), Transformer 
-		Skeletons (Necropolis), Treasury (Rampart), Brotherhood of the Sword (Town), 
+		Skeletons (Necropolis), Treasury (Rampart), Brotherhood of the Sword (Castle), 
 		Town Gate (Inferno), Waterfall (Conflux, inactive!) </span> </td>
 	</tr>
 	<tr>
@@ -39611,7 +40332,7 @@ Adventure, town, hero, hero exchange and combat click areas.
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">116</span></td>
-		<td><span class="erm-tone-red">Morality icon</span></td>
+		<td><span class="erm-tone-red">Morale icon</span></td>
 	</tr>
 	<tr>
 		<td>117</td>
@@ -39952,7 +40673,7 @@ Adventure, town, hero, hero exchange and combat click areas.
 	</tr>
 	<tr>
 		<td>107</td>
-		<td>Morality icon</td>
+		<td>Morale icon</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">109</span></td>
@@ -40209,7 +40930,7 @@ Adventure, town, hero, hero exchange and combat click areas.
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">108</span></td>
-		<td><span class="erm-tone-red">Morality icon</span></td>
+		<td><span class="erm-tone-red">Morale icon</span></td>
 	</tr>
 	<tr>
 		<td>110</td>
@@ -40470,7 +41191,9 @@ CM:I returns an item ID in the active screen. The same ID can identify different
 
 # IF:Q picture types
 
+ID: erm.tables.dialog-pictures
 URL: /en/erm/tables/dialog-pictures/
+Source references: old-help:form-picts.htm, old-help:rec-if.htm
 
 The picture type determines the meaning of the next parameter. Town pictures use 22 + town type.
 
@@ -40479,7 +41202,7 @@ The picture type determines the meaning of the next parameter. Town pictures use
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Types of pictures</span></div>
-<span class="erm-anchor" id="ref-form-picts-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
+<span class="erm-anchor" id="ref-form-picts-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
 </div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-second-center" width="100%">
 	<span class="erm-anchor" id="ref-form-picts-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -40535,7 +41258,7 @@ The picture type determines the meaning of the next parameter. Town pictures use
 	<tr>
 		<td>Moral<br><small>negative</small></td>
 		<td>16</td>
-		<td>- morality</td>
+		<td>- morale</td>
 	</tr>
 	<tr>
 		<td>Experience</td>
@@ -40612,7 +41335,9 @@ The picture type determines the meaning of the next parameter. Town pictures use
 
 # DL dialog templates
 
+ID: erm.tables.dialog-templates
 URL: /en/erm/tables/dialog-templates/
+Source references: old-help:rec-dl.htm
 
 Text-table structure, element fields and template limitations.
 
@@ -40652,7 +41377,9 @@ Button DEFs need at least two frames; the second is used while pressed/disabled.
 
 # Game dialog identifiers
 
+ID: erm.tables.dialog-types
 URL: /en/erm/tables/dialog-types/
+Source references: old-help:form-gamestate.htm, old-help:era-api.htm, era-source:era.pas, era-framework:lib-end--9999-era---stdlib.erm
 
 Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order.
 
@@ -40709,7 +41436,7 @@ Identifiers returned by GetGameState in the legacy installation. WND and HD plug
 <tr><td class="erm-tone-purple erm-legacy-event">6081760</td><td>council chamber</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">6119232</td><td>information about the construction</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">6147920</td><td>fort/town</td></tr>
-<tr><td class="erm-tone-purple erm-legacy-event">6102528</td><td>forge</td></tr>
+<tr><td class="erm-tone-purple erm-legacy-event">6102528</td><td>blacksmith</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">5661104</td><td>skeleton converter</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">6193120</td><td>artifact dealer (selling)</td></tr>
 <tr>
@@ -40800,7 +41527,9 @@ Identifiers returned by GetGameState in the legacy installation. WND and HD plug
 
 # Hero classes
 
+ID: erm.tables.hero-classes
 URL: /en/erm/tables/hero-classes/
+Source references: old-help:form-heroesclasses.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
 
@@ -40858,11 +41587,11 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Warlock</td>
+		<td>Overlord</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">11</span></td>
-		<td><span class="erm-tone-red">Overlord</span></td>
+		<td><span class="erm-tone-red">Warlock</span></td>
 	</tr>
 	<tr>
 		<td>12</td>
@@ -40935,7 +41664,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Hero experience thresholds
 
+ID: erm.tables.hero-levels
 URL: /en/erm/tables/hero-levels/
+Source references: old-help:form-heroeslevels.htm, old-help:rec-he.htm
 
 Standard experience curve. Beyond level 75, overflow and unreachable intermediate levels can occur; do not extrapolate this table to a modified engine.
 
@@ -41427,7 +42158,9 @@ Standard experience curve. Beyond level 75, overflow and unreachable intermediat
 
 # Hero structure fields
 
+ID: erm.tables.hero-structure
 URL: /en/erm/tables/hero-structure/
+Source references: old-help:form-advhero.htm, old-help:rec-he.htm
 
 Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.
 
@@ -41579,7 +42312,7 @@ str[8] str=(*[<em class="erm-tone-purple erm-legacy-event">67CD08</em>])[subtype
 // 00100000 - 0x14 Sirens
 // 00200000 - 0x15 Warrior's Tomb
 // 00400000 - 0x16 Maximum luck (as <a href="../../receivers/he/#ref-rec-he-r6">HE:R6</a>)
-// 00800000 - 0x17 Maximum morality (as <a href="../../receivers/he/#ref-rec-he-r5">HE:R5</a>)
+// 00800000 - 0x17 Maximum morale (as <a href="../../receivers/he/#ref-rec-he-r5">HE:R5</a>)
 // 01000000 - 0x18 WOGSHADOWFAX (cheat code for 1 million turn points)
 // 02000000 - 0x19 Idol of Fortune (day 7)
 // 04000000 - 0x1A Temple (day 7)
@@ -41685,7 +42418,9 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 
 # Hero visits and bits
 
+ID: erm.tables.hero-visits
 URL: /en/erm/tables/hero-visits/
+Source references: old-help:form-he-v.htm, old-help:form-he-r.htm
 
 HE:V uses a visit-kind index, not the adventure-map object type.
 
@@ -41694,7 +42429,7 @@ HE:V uses a visit-kind index, not the adventure-map object type.
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Bits of the visited object</span></div>
-<span class="erm-anchor" id="ref-form-he-r-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/he/#ref-rec-he-r7">HE:R7</a><br>
+<span class="erm-anchor" id="ref-form-he-r-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/he/#ref-rec-he-r7">HE:R7</a><br>
 See also <a href="../objects/#ref-form-objects">Object table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-he-r-n2"></span><tr class="erm-tone-purple erm-strong">		
@@ -41756,7 +42491,7 @@ See also <a href="../objects/#ref-form-objects">Object table</a></div>
 	<td>???</td></tr>
 <tr>
 	<td class="erm-align-center">18</td>
-	<td>In a boat (install only if hero is on the water, otherwise the game will crash)</td></tr>
+	<td>In a boat (set only if hero is on the water, otherwise the game will crash)</td></tr>
 <tr>
 	<td class="erm-align-center">19</td>
 	<td>???</td></tr>
@@ -41805,7 +42540,7 @@ See also <a href="../objects/#ref-form-objects">Object table</a></div>
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Object Types</span></div>
-<span class="erm-anchor" id="ref-form-he-v-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V</a></div>
+<span class="erm-anchor" id="ref-form-he-v-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 	<tr>
 		<td width="15%"><span class="erm-tone-purple"><strong>Number</strong></span></td>
@@ -41928,7 +42663,9 @@ HE:R7 uses a bit mask, not this list. Bit 18 means being in a boat; setting it o
 
 # Hero table
 
+ID: erm.tables.heroes
 URL: /en/erm/tables/heroes/
+Source references: old-help:form-numberheroes.htm, era-framework:lib-9999-era---consts.erm, old-help:form-numberheroes-hex.htm
 
 IDs from the standard WoG set. Adventure-map object: type 34.
 
@@ -42823,7 +43560,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Mine types
 
+ID: erm.tables.mines
 URL: /en/erm/tables/mines/
+Source references: old-help:form-mines.htm
 
 Object type 53; its subtype is separate from the resource ID.
 
@@ -42906,7 +43645,9 @@ Object [type 53](../objects/#id-53); its subtype is separate from the [resource 
 
 # Music: IDs and MP3 names
 
+ID: erm.tables.music
 URL: /en/erm/tables/music/
+Source references: old-help:form-mp3.htm, old-help:form-track.htm, old-help:rec-mp.htm, old-help:rec-vr.htm
 
 Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions.
 
@@ -43438,7 +44179,9 @@ Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. 
 
 # Object control words
 
+ID: erm.tables.object-control-words
 URL: /en/erm/tables/object-control-words/
+Source references: old-help:cont-conwords.htm, old-help:rec-ob.htm, old-help:rec-sk.htm, old-help:rec-mt.htm
 
 The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data.
 
@@ -43677,7 +44420,7 @@ Several parameters are written to control word:<br>
    3 – leadership required,<br>
    4 – 2500 gold and 3 wood,<br>
    5 – 3000 gold and 5 wood,<br>
-   6 – security is turned on (regardless of the value <a href="../../receivers/ar/#ref-rec-ar-x">AR:X</a>), </div>
+   6 – guards is turned on (regardless of the value <a href="../../receivers/ar/#ref-rec-ar-x">AR:X</a>), </div>
 <span class="erm-anchor" id="ref-cont-conwords-6"></span><details class="erm-comment"><summary><strong>more details</strong> (<span class="erm-anchor" id="ref-cont-conwords-show6"></span><u class="erm-toggle-label">show</u>)</summary><div class="erm-comment-body">
 <span class="erm-anchor" id="ref-cont-conwords-q2"></span><blockquote class="erm-tone-quote erm-note"><strong>Addition</strong> from <strong class="erm-tone-purple erm-strong">XEPOMAHT</strong>'a: for this type of artifact selection, the flag, number of creatures and their number are encoded in the control word. 
 <pre>The format is (bit by bit):
@@ -43687,7 +44430,7 @@ Several parameters are written to control word:<br>
 <strong class="erm-legacy-label">17..28</strong>: number of creatures (0..4096)
 <strong class="erm-legacy-label">29..31</strong>: not used</pre></blockquote></div></details>
 <div class="erm-paragraph">   values greater than 6 – artifact is not raised.<br>
-In the absence of security, a battle with zero Cerberus tries to start, which is automatically won (unearthed <code class="erm-tone-purple erm-strong">feanor</code>).
+In the absence of guards, a battle with zero Cerberus tries to start, which is automatically won (unearthed <code class="erm-tone-purple erm-strong">feanor</code>).
 Somewhere in the help for the SoD map editor it is written that at the beginning of the game 10-15% of artifacts are selected and a certain price is set for them. Or something like that.<br>
 <strong class="erm-legacy-label">Bits 15-18</strong>: <span class="erm-anchor" id="ref-cont-conwords-dred"></span><del class="erm-tone-red"><span class="erm-tone-accent">Apparently they don't mean anything. Usually it's 0.</span></del></div>
 <blockquote class="erm-tone-quote erm-note"><strong>Note</strong> from <strong class="erm-tone-purple erm-strong">XEPOMAHT</strong>'a: <strong class="erm-legacy-label">bits 15-18</strong> actually contain the resource type (for artifact selection type values equal to 4 or 5), 
@@ -43704,7 +44447,7 @@ accessed by commands <a href="../../receivers/ar/#ref-rec-ar">AR</a>:G M X.<b
 <div class="erm-paragraph"><img src="../../../../assets/erm/aca11ff49be06851.png" alt="Type 12. Campfire Bits 0-3:resource type (0..15). Matches the first parameter of the command FR:B. Interestingly, although resources are numbered 0 to 7 (3 bits" loading="lazy" decoding="async" class="erm-figure">
 <span class="erm-anchor" id="ref-cont-conwords-t12"></span><a href="../objects/#ref-form-objects" data-context="true">Type 12</a>. <strong>Campfire</strong><br>
 <strong class="erm-legacy-label">Bits 0-3</strong>:resource type (0..15). Matches the first parameter of the command <a href="../../receivers/fr/#ref-rec-fr-b">FR:B</a>. Interestingly, although resources are numbered 0 to 7 (3 bits), the 4th bit is not ignored. 
-By setting values from 8 to 15, we can receive in the message instead of a resource picture pictures of artifacts, spells, flags, luck and morality - numbering, as in <a href="../dialog-pictures/#ref-form-picts" data-context="true">IF:Q</a>. 
+By setting values from 8 to 15, we can receive in the message instead of a resource picture pictures of artifacts, spells, flags, luck and morale - numbering, as in <a href="../dialog-pictures/#ref-form-picts" data-context="true">IF:Q</a>. 
 Of course, artifacts and other things are not actually added to the hero, but they can be added using ERM. The second parameter for images is the number of resources.<br>
 <strong class="erm-legacy-label">Bits 4-19</strong>: quantity of resource. Can be negative: -32768 to +32767. Matches the second parameter <a href="../../receivers/fr/#ref-rec-fr-b">FR:B</a>.<br>
 <strong class="erm-legacy-label">Bits 20-31</strong> are ignored and are usually empty.</div>
@@ -43722,7 +44465,7 @@ Perhaps there should have been information about player visits here.)<br>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-conwords-t16"></span><a href="../creature-banks/#ref-form-cb" data-context="true">Type 16</a>. <strong>Creature Bank</strong><br>
 <strong class="erm-legacy-label">Bits 0-4</strong> are ignored and usually filled.<br>
 <strong class="erm-legacy-label">Bits 5-12</strong> contain information about players' visits (<a href="../players/#ref-form-gamerscolor-bit" data-context="true">bit by bit</a>), which corresponds to <a href="../../receivers/cb/#ref-rec-cb-v">CB:V</a>. 
-If visited, security is displayed in the tooltip.<br>
+If visited, guards is displayed in the tooltip.<br>
 <strong class="erm-legacy-label">Bits 13-24</strong> contain a personal number (from 0 to 4095) referring to <a href="../../receivers/cb/#ref-rec-cb">CB</a>:A G M R.<br>
 <strong class="erm-legacy-label">Bit 25</strong> contains whether the guards have been killed or not yet, and is edited by the command <a href="../../receivers/cb/#ref-rec-cb-t">CB:T</a>.<br>
 <strong class="erm-legacy-label">Bits 26-31</strong> are ignored and usually filled.</div>
@@ -43739,11 +44482,11 @@ If visited, security is displayed in the tooltip.<br>
 <strong class="erm-legacy-label">Bits 17-31</strong> are ignored and usually filled.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/0237688e6f8182a3.png" alt="Type 23. Marletto Tower Just like Arena, bits 0-4 – number, the rest are ignored and are usually empty. The hero&#x27;s visit to the Marletto Tower is edited by the " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t23"></span><a href="../objects/#ref-form-objects" data-context="true">Type 23</a>. <strong>Marletto Tower</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>, <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. The hero's visit to the Marletto Tower is edited by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V1</a>.</div>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>, <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. The hero's visit to the Marletto Tower is edited by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V1</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/54d228cc45ee2857.png" alt="Type 24. Derelict Ship The structure of the control word is completely identical to type 16. It&#x27;s interesting that while it&#x27;s common to visit a decrepit ship an" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t24"></span><a href="../objects/#ref-form-objects" data-context="true">Type 24</a>. <strong>Derelict Ship</strong><br>
 The structure of the control word is completely identical to <a href="./#ref-cont-conwords-t16">type 16</a>. It's interesting that while it's common to visit a decrepit ship and give up the battle, after doing so, unlike the creature bank, 
-Security information does not appear in the ship tooltip. And if you install <a href="../../receivers/cb/#ref-rec-cb-v">CB:V</a> on "visited" for the current player, this information will appear.
+Guards information does not appear in the ship tooltip. And if you set <a href="../../receivers/cb/#ref-rec-cb-v">CB:V</a> on "visited" for the current player, this information will appear.
 </div><div><img src="../../../../assets/erm/0520ec5e013dcdf9.png" alt="avsutop0" loading="lazy" decoding="async" class="erm-figure"></div>
 
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-conwords-t25"></span><a href="../objects/#ref-form-objects" data-context="true">Type 25</a>. <strong>Dragon Utopia</strong><br>
@@ -43809,7 +44552,7 @@ Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/95da127f363ccd46.png" alt="Type 42. Lighthouse Bits 0-25: personal number (0..67108863). The number refers to the same data area as the Mine, and the Beacon is edited by the commands MN. " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t42"></span><a href="../objects/#ref-form-objects" data-context="true">Type 42</a>. <strong>Lighthouse</strong><br>
 <strong class="erm-legacy-label">Bits 0-25</strong>: personal number (0..67108863). The number refers to the same data area as the Mine, and the Beacon is edited by the commands <a href="../../receivers/mn/#ref-rec-mn">MN</a>. 
-The resource type for it is 100, but if you put something else, the Lighthouse keeper will start diligently mining this “something”. Security is ignored. (Thanks for this information <code class="erm-tone-purple erm-strong">sergroj</code>`u.)<br>
+The resource type for it is 100, but if you put something else, the Lighthouse keeper will start diligently mining this “something”. Guards is ignored. (Thanks for this information <code class="erm-tone-purple erm-strong">sergroj</code>`u.)<br>
 <strong class="erm-legacy-label">Bits 26-31</strong> are ignored (as are the guards).</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/8998e813e1280f6d.png" alt="Type 44. Exit monolith Control word represents the monolith number. Each subtype is numbered separately. It is not known what it affects, so it is difficult to " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t44"></span><a href="../one-way-monoliths/#ref-form-one-way-monolith" data-context="true">Type 44</a>. <strong>Exit monolith</strong><br>
@@ -43822,7 +44565,7 @@ Thus, if you give two monoliths the same number, they will not teleport into eac
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/84b3c6f9903ac7b7.png" alt="Type 47. School of Magic Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero visited the School of Magic is determined " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t47"></span><a href="../objects/#ref-form-objects" data-context="true">Type 47</a>. <strong>School of Magic</strong><br>
 Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty.<br>
-Whether hero visited the School of Magic is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V8</a>.</div>
+Whether hero visited the School of Magic is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V8</a>.</div>
 
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-conwords-t48"></span><a href="../objects/#ref-form-objects" data-context="true">Type 48</a>. <strong>Magic Spring</strong><br><img src="../../../../assets/erm/a5df2be0a0679eea.png" alt="Type 48. Magic Spring Bits 0-4: source number (0..31) – SP:N. Why it is needed is unclear. Bit 5 ignored and usually filled. Bit 6: visited (1) or not (0) – SP:" loading="lazy" decoding="async" class="erm-figure">
 <strong class="erm-legacy-label">Bits 0-4</strong>: source number (0..31) – <a href="../../receivers/sp/#ref-rec-sp-n">SP:N</a>. Why it is needed is unclear.<br>
@@ -43830,8 +44573,8 @@ Whether hero visited the School of Magic is determined by the team <a href="../
 <strong class="erm-legacy-label">Bit 6</strong>: visited (1) or not (0) – <a href="../../receivers/sp/#ref-rec-sp-s">SP:S</a>.<br>
 <strong class="erm-legacy-label">Bits 7-31</strong> are ignored and usually filled.</div>
 
-<div class="erm-paragraph"><img src="../../../../assets/erm/c866a86ce59e1abf.png" alt="Type 51. Mercenary Camp Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the team " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t51"></span><a href="../objects/#ref-form-objects" data-context="true">Type 51</a>. <strong>Mercenary Camp</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V3</a>.</div>
+<div class="erm-paragraph"><img src="../../../../assets/erm/c866a86ce59e1abf.png" alt="Type 51. Mercenary Camp Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the command " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t51"></span><a href="../objects/#ref-form-objects" data-context="true">Type 51</a>. <strong>Mercenary Camp</strong><br>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V3</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/ab197513f5a6c9a4.png" alt="Type 53. Mine Bits 0-25: personal number (0..67108863) with all commands MN. Please note that the Mines are numbered in parallel with Lighthouses, as one type. " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t53"></span><a href="../mines/#ref-form-mines" data-context="true">Type 53</a>. <strong>Mine</strong><br>
 <strong class="erm-legacy-label">Bits 0-25</strong>: personal number (0..67108863) with all commands <a href="../../receivers/mn/#ref-rec-mn">MN</a>. Please note that the Mines are numbered in parallel with <a href="./#ref-cont-conwords-t42">Lighthouses</a>, as one type.<br>
@@ -43897,7 +44640,7 @@ Control word is designed exactly the same as the <a href="./#ref-cont-conwords-t
 3..7 – Scholar does not give anything and smoothly disappears without a message. This can be used in the same way as the similar property <a href="./#ref-cont-conwords-t29">Wreckage</a>.<br>
 <strong class="erm-legacy-label">Bits 3-5</strong>: primary skill type (0..7) – <a href="../../receivers/sc/#ref-rec-sc-p">SC:P</a>. If you set from 4 to 7, the primary skills do not change, but Scholar, judging by the pictures, 
 teaches you how to build level 2 Mage Guilds in the Dungeon, Citadel, Fortress and Conjugation, respectively.<br>
-<strong class="erm-legacy-label">Bits 6-12</strong>: secondary skill number (0..127) – <a href="../../receivers/sk/#ref-rec-sk-s" title="Original Skeleton links say SC; the Skeleton receiver is SK.">SC:S</a>. If you put the incorrect spell and install <a href="../../receivers/sc/#ref-rec-sc-t">SC:T1</a>, the game crashes when visiting.<br>
+<strong class="erm-legacy-label">Bits 6-12</strong>: secondary skill number (0..127) – <a href="../../receivers/sk/#ref-rec-sk-s" title="Original Skeleton links say SC; the Skeleton receiver is SK.">SC:S</a>. If you put the incorrect spell and set <a href="../../receivers/sc/#ref-rec-sc-t">SC:T1</a>, the game crashes when visiting.<br>
 <strong class="erm-legacy-label">Bits 13-22</strong>: spell number (0..1023) – <a href="../../receivers/sc/#ref-rec-sc-l">SC:L</a>. If you put an incorrect, already studied or unlearned spell by this hero, primary skill will be studied.<br>
 <strong class="erm-legacy-label">Bit 23</strong> ignored and usually empty.<br>
 <strong class="erm-legacy-label">Bits 24-31</strong> are ignored and usually filled.</div>
@@ -43970,7 +44713,7 @@ Town will not be highlighted (the very beginning of the sentence) if it is not y
 </li></ol>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/8c8c6c4c74f49479.png" alt="Type 100. Stone of Knowledge Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero has visited the Stone is determined by" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t100"></span><a href="../objects/#ref-form-objects" data-context="true">Type 100</a>. <strong>Stone of Knowledge</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero has visited the Stone is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V0</a>.</div>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero has visited the Stone is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V0</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/0e23e7cd429987cb.png" alt="Type 101. Treasure Chest Bits 0-9: artifact number (0..1023) – CH:A. Bit 10: bonus type (0 – gold, 1 – artifact) – CH:S. Bits 11-14: indicator of the amount of " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t101"></span><a href="../objects/#ref-form-objects" data-context="true">Type 101</a>. <strong>Treasure Chest</strong><br>
 <strong class="erm-legacy-label">Bits 0-9</strong>: artifact number (0..1023) – <a href="../../receivers/ch/#ref-rec-ch-a">CH:A</a>.<br>
@@ -43982,7 +44725,7 @@ Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy
 <strong class="erm-legacy-label">Bits 0-4</strong>: Tree number (0..31) – <a href="../../receivers/kt/#ref-rec-kt-n">KT:N</a>. Whether hero has visited the Tree is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V5</a>.<br>
 <strong class="erm-legacy-label">Bits 5-12</strong>: information about players visiting (<a href="../players/#ref-form-gamerscolor-bit" data-context="true">bit by bit</a>). A player who visits the Tree sees in the tooltip the type of level he receives.<br>
 <strong class="erm-legacy-label">Bits 13-15</strong>: level gain type (0..3) – <a href="../../receivers/kt/#ref-rec-kt-s">KT:S</a>. If you set the selection type to 3, the game freezes when visiting the Tree, 
-and in the tooltip (if you put in bits 5-12 that Wood has already been visited) it says that the Tree is nothing more than an improved generator of level 4 creatures.<br>
+and in the tooltip (if you put in bits 5-12 that Wood has already been visited) it says that the Tree is nothing more than an upgraded generator of level 4 creatures.<br>
 <strong class="erm-legacy-label">Bits 16-31</strong> are ignored and usually filled.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/1c4a71943621227a.png" alt="Type 103. Gate of the Underworld Bits 0-29: personal Gate number (0..1073741823). The number refers to the data area where the coordinates of the target gates o" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t103"></span><a href="../objects/#ref-form-objects" data-context="true">Type 103</a>. <strong>Gate of the Underworld</strong><br>
@@ -44006,7 +44749,7 @@ nor any changes to the University prompt when these bits are populated.<br>
 <strong class="erm-legacy-label">Bits 29-31</strong> are ignored and usually filled.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/ed174f90f0cc1eec.png" alt="Type 107. School of War Just like Arena: bits 0-4: – number, the rest are ignored and are usually empty. Whether hero visited the School is determined by the te" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t107"></span><a href="../objects/#ref-form-objects" data-context="true">Type 107</a>. <strong>School of War</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong>: – number, the rest are ignored and are usually empty. Whether hero visited the School is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V9</a>.</div>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong>: – number, the rest are ignored and are usually empty. Whether hero visited the School is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V9</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/c88d56c26956009d.png" alt="Type 108. Warrior&#x27;s Tomb Bit 0: is there artifact – WT:S. Bits 1-4 are ignored and usually filled. Bits 5-12: which players visited the grave (bit by bit). Bits" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t108"></span><a href="../objects/#ref-form-objects" data-context="true">Type 108</a>. <strong>Warrior's Tomb</strong><br>
 <strong class="erm-legacy-label">Bit 0</strong>: is there artifact – <a href="../../receivers/wt/#ref-rec-wt-s">WT:S</a>.<br>
@@ -44164,7 +44907,9 @@ The 32-bit OB:C field has a different layout for each object type. These are ins
 
 # Game object table
 
+ID: erm.tables.objects
 URL: /en/erm/tables/objects/
+Source references: old-help:form-objects.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
 
@@ -45345,7 +46090,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Obstacle flags
 
+ID: erm.tables.obstacle-flags
 URL: /en/erm/tables/obstacle-flags/
+Source references: old-help:form-obstacles-bit.htm, old-help:form-obstacles.htm
 
 BU:O returns a combination of cell flags; bit position differs from bit value.
 
@@ -45355,7 +46102,7 @@ BU:O returns a combination of cell flags; bit position differs from bit value.
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Combat Obstacle Flags</span></div>
-<span class="erm-anchor" id="ref-form-obstacles-bit-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/bu/#ref-rec-bu-o">BU:O</a></div>
+<span class="erm-anchor" id="ref-form-obstacles-bit-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/bu/#ref-rec-bu-o">BU:O</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-obstacles-bit-n2"></span><tr class="erm-tone-purple erm-strong">
 	<td width="35">Bit</td>
@@ -45412,7 +46159,9 @@ BU:O returns a combination of cell flags; bit position differs from bit value.
 
 # Battlefield obstacles
 
+ID: erm.tables.obstacles
 URL: /en/erm/tables/obstacles/
+Source references: old-help:form-obstacles.htm, old-help:rec-bf.htm
 
 IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex may remain free. See obstacle flags and the battlefield grid.
 
@@ -45422,7 +46171,7 @@ IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph">
 <span class="erm-source-title">Obstacle table on battlefield</span>
-</div><span class="erm-anchor" id="ref-form-obstacles-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/bf/#ref-rec-bf-o">BF:O</a></span>
+</div><span class="erm-anchor" id="ref-form-obstacles-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/bf/#ref-rec-bf-o">BF:O</a></span>
 </div>
 <div class="erm-paragraph">All objects spawn to the right and up from the starting square, never to the left or down. 
 Not all objects block their starting position.<br>
@@ -45913,7 +46662,9 @@ IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex
 
 # One-way monoliths
 
+ID: erm.tables.one-way-monoliths
 URL: /en/erm/tables/one-way-monoliths/
+Source references: old-help:form-one-way-monolith.htm, old-help:form-objects.htm
 
 Subtypes of object 43. One-way entrances and exits use different types, 43 and 44.
 
@@ -45984,7 +46735,9 @@ Subtypes of [object 43](../objects/#id-43). One-way entrances and exits use diff
 
 # Player colors
 
+ID: erm.tables.players
 URL: /en/erm/tables/players/
+Source references: old-help:form-gamerscolor.htm, era-framework:lib-9999-era---consts.erm, old-help:form-gamerscolor-bit.htm, old-help:form-if-flags.htm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
 
@@ -46103,7 +46856,7 @@ All players = 255.</div>
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Player flags</span></div>
-<span class="erm-anchor" id="ref-form-if-flags-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
+<span class="erm-anchor" id="ref-form-if-flags-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
 </div>
 
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -46193,7 +46946,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Projectiles and beams
 
+ID: erm.tables.projectiles
 URL: /en/erm/tables/projectiles/
+Source references: old-help:form-weapon.htm
 
 A projectile image type differs from creature type and shooter flags.
 
@@ -46268,11 +47023,11 @@ A projectile image type differs from creature type and shooter flags.
 	</tr>
 	<tr>
 		<td>14</td>
-		<td>Catapult (specialty X1)</td>
+		<td>Catapult</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">15</span></td>
-		<td><span class="erm-tone-red">Ballista (specialty X1)</span></td>
+		<td><span class="erm-tone-red">Ballista</span></td>
 	</tr>
 </table></div>
 <div class="erm-paragraph"><strong><u>Comment</u>:</strong> projectile type 16 uses DEF with an empty name (even without the .def extension), 
@@ -46322,7 +47077,9 @@ Historical type 16 looks for an empty-name DEF and crashes when it is missing. B
 
 # RD recruitment dialog
 
+ID: erm.tables.recruitment-dialog
 URL: /en/erm/tables/recruitment-dialog/
+Source references: old-help:form-rd-s1.htm, old-help:rec-rd.htm
 
 Recruitment dialog layout: three creature variants, price, stock, quantity and confirmation. Configure this dialog with RD.
 
@@ -46356,7 +47113,9 @@ Recruitment dialog layout: three creature variants, price, stock, quantity and c
 
 # Resources
 
+ID: erm.tables.resources
 URL: /en/erm/tables/resources/
+Source references: old-help:form-resource.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. Adventure-map object: type 79.
 
@@ -46440,7 +47199,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Secondary skill pictures
 
+ID: erm.tables.secondary-skill-pictures
 URL: /en/erm/tables/secondary-skill-pictures/
+Source references: old-help:form-secondaryskill-if.htm, old-help:rec-if.htm
 
 Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.
 
@@ -46450,7 +47211,7 @@ Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Secondary Skills Table</span>
-</div><span class="erm-anchor" id="ref-form-secondaryskill-if-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
+</div><span class="erm-anchor" id="ref-form-secondaryskill-if-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
 </div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-secondaryskill-if-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -46775,7 +47536,9 @@ Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.
 
 # Secondary skills
 
+ID: erm.tables.secondary-skills
 URL: /en/erm/tables/secondary-skills/
+Source references: old-help:form-secondaryskill.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
 
@@ -46887,10 +47650,10 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 
 | ID | HEX | Name |
 | --- | --- | --- |
-| `0` {#id-0} | `0` | Attack |
-| `1` {#id-1} | `1` | Defense |
-| `2` {#id-2} | `2` | Power |
-| `3` {#id-3} | `3` | Knowledge |
+| `0` {#id-0} | `0` | Pathfinding |
+| `1` {#id-1} | `1` | Archery |
+| `2` {#id-2} | `2` | Logistics |
+| `3` {#id-3} | `3` | Scouting |
 | `4` {#id-4} | `4` | Diplomacy |
 | `5` {#id-5} | `5` | Navigation |
 | `6` {#id-6} | `6` | Leadership |
@@ -46932,7 +47695,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Game event sounds
 
+ID: erm.tables.sounds
 URL: /en/erm/tables/sounds/
+Source references: old-help:form-sound.htm, old-help:rec-sn.htm
 
 WAV/82M resource names from the standard set. Check that the active installation includes the requested sound.
 
@@ -47060,7 +47825,9 @@ WAV/82M resource names from the standard set. Check that the active installation
 
 # Special terrain objects
 
+ID: erm.tables.special-terrain
 URL: /en/erm/tables/special-terrain/
+Source references: old-help:form-specterrain.htm
 
 These are map object IDs, not basic terrain IDs.
 
@@ -47128,7 +47895,9 @@ These are [map object IDs](../objects/), not basic [terrain IDs](../terrain/).
 
 # Hero specialty pictures
 
+ID: erm.tables.specialty-pictures
 URL: /en/erm/tables/specialty-pictures/
+Source references: old-help:form-heroesspec.htm, old-help:rec-he.htm, old-help:rec-un.htm
 
 Image index for UN:G2. It changes the specialty picture; other HE:X parameters control gameplay behavior. Entries 0–155 correspond to standard heroes.
 
@@ -47139,7 +47908,7 @@ Image index for UN:G2. It changes the specialty picture; other HE:X parameters c
 <div>
 <span class="erm-anchor" id="ref-form-heroesspec-text"></span><div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Pictures of heroes' specialties</span></div>
-<span class="erm-anchor" id="ref-form-heroesspec-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/un/#ref-rec-un-g2">UN:G2</a></span><br>
+<span class="erm-anchor" id="ref-form-heroesspec-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/un/#ref-rec-un-g2">UN:G2</a></span><br>
 See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -47166,7 +47935,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Swordsmen (Sorsha)</span></td></tr>
 <tr>
 	<td>6</td>
-	<td>Ballista (specialty X1) (Christian)</td></tr>
+	<td>Ballista (Christian)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">7</span></td>
 	<td><span class="erm-tone-red">Cavalrymen (Tyris)</span></td></tr>
@@ -47256,7 +48025,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Armorer (Nella)</span></td></tr>
 <tr>
 	<td>36</td>
-	<td>Ballista (specialty X1) (Torosar)</td></tr>
+	<td>Ballista (Torosar)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">37</span></td>
 	<td><span class="erm-tone-red">Naga (Fafner)</span></td></tr>
@@ -47310,7 +48079,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Gogi (Calh)</span></td></tr>
 <tr>
 	<td>54</td>
-	<td>Ballista (specialty X1) (Pyre)</td></tr>
+	<td>Ballista (Pyre)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">55</span></td>
 	<td><span class="erm-tone-red">Spawns of Evil (Nymus)</span></td></tr>
@@ -47391,7 +48160,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Harpies (Lorelei)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">81</span></td>
-	<td><span class="erm-tone-red">Ballista (specialty X1) (Arlach)</span></td></tr>
+	<td><span class="erm-tone-red">Ballista (Arlach)</span></td></tr>
 <tr>
 	<td>82</td>
 	<td>Minotaurs (Dace)</td></tr>
@@ -47439,7 +48208,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Cyclops (Yog)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">97</span></td>
-	<td><span class="erm-tone-red">Ballista (specialty X1) (Gurnisson)</span></td></tr>
+	<td><span class="erm-tone-red">Ballista (Gurnisson)</span></td></tr>
 <tr>
 	<td>98</td>
 	<td>Orcs (Jabarkas)</td></tr>
@@ -47502,7 +48271,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Serpents (Korbac)</span></td></tr>
 <tr>
 	<td>118</td>
-	<td>Ballista (specialty X1) (Gerwulf)</td></tr>
+	<td>Ballista (Gerwulf)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">119</span></td>
 	<td><span class="erm-tone-red">Wyverns (Bronhild)</span></td></tr>
@@ -47591,10 +48360,10 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Swordsmen (Catherine)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">147</span></td>
-	<td><span class="erm-tone-red">Sorcerers (Dracon)</span></td></tr>
+	<td><span class="erm-tone-red">Enchanters (Dracon)</span></td></tr>
 <tr>
 	<td>148</td>
-	<td>Snipers (Gelu) </td></tr>
+	<td>Sharpshooters (Gelu) </td></tr>
 <tr>
 	<td><span class="erm-tone-red">149</span></td>
 	<td><span class="erm-tone-red">Ancient Creatures (Kilgor)</span></td></tr>
@@ -47662,7 +48431,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Battle Dwarf</span></td></tr>
 <tr>
 	<td>170</td>
-	<td>Noble Elf</td></tr>
+	<td>Grand Elf</td></tr>
 <tr>
 	<td><span class="erm-tone-red">171</span></td>
 	<td><span class="erm-tone-red">Silver Pegasus</span></td></tr>
@@ -47749,7 +48518,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Bone Dragon</td></tr>
 <tr>
 	<td><span class="erm-tone-red">199</span></td>
-	<td><span class="erm-tone-red">Dracon-ghost</span></td></tr>
+	<td><span class="erm-tone-red">Ghost Dragon</span></td></tr>
 <tr>
 	<td>200</td>
 	<td>Hellish troglodyte</td></tr>
@@ -47893,7 +48662,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Troll</td></tr>
 <tr>
 	<td><span class="erm-tone-red">247</span></td>
-	<td><span class="erm-tone-red">Catapult (specialty X1)</span></td></tr>
+	<td><span class="erm-tone-red">Catapult</span></td></tr>
 <tr>
 	<td>248</td>
 	<td>First aid tent</td></tr>
@@ -47917,7 +48686,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Blood Dragon</td></tr>
 <tr>
 	<td><span class="erm-tone-red">255</span></td>
-	<td><span class="erm-tone-red">Dracon darkness</span></td></tr>
+	<td><span class="erm-tone-red">Darkness Dragon</span></td></tr>
 <tr>
 	<td>256</td>
 	<td>Behemoth-ghost</td></tr>
@@ -48034,7 +48803,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Artillery</span></td></tr>
 <tr>
 	<td>294</td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr>
 	<td><span class="erm-tone-red">295</span></td>
 	<td><span class="erm-tone-red">Diplomacy</span></td></tr>
@@ -48609,7 +49378,9 @@ Image index for UN:G2. It changes the specialty picture; other HE:X parameters c
 
 # Spell table
 
+ID: erm.tables.spells
 URL: /en/erm/tables/spells/
+Source references: old-help:form-spell.htm, era-framework:lib-9999-era---consts.erm, old-help:form-spell-hex.htm, old-help:form-spella.htm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
 
@@ -48835,7 +49606,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr class="erm-tone-red">
 	<td>51</td>
 	<td></td>
-	<td>Luck</td></tr>
+	<td>Fortune</td></tr>
 <tr>
 	<td>52</td>
 	<td></td>
@@ -48899,7 +49670,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr class="erm-tone-red">
 	<td>67</td>
 	<td></td>
-	<td>Earth Elemental
+	<td>Summon Earth Elemental
 </td></tr><tr>
 	<td>68</td>
 	<td></td>
@@ -48914,7 +49685,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>70</td>
 	<td></td>
-	<td>Petrification</td></tr>
+	<td>Petrify</td></tr>
 <tr class="erm-tone-red">
 	<td>71</td>
 	<td></td>
@@ -48922,7 +49693,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>72</td>
 	<td></td>
-	<td>Roots</td></tr>
+	<td>Bind</td></tr>
 <tr class="erm-tone-red">
 	<td>73</td>
 	<td></td>
@@ -48930,27 +49701,27 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>74</td>
 	<td></td>
-	<td>Paralysis</td></tr>
+	<td>Paralyze</td></tr>
 <tr class="erm-tone-red">
 	<td>75</td>
 	<td></td>
-	<td>Old age</td></tr>
+	<td>Age</td></tr>
 <tr>
 	<td>76</td>
 	<td></td>
-	<td>Cloud of Death</td></tr>
+	<td>Death Cloud</td></tr>
 <tr class="erm-tone-red">
 	<td>77</td>
 	<td></td>
-	<td>Lightning Strike</td></tr>
+	<td>Thunderbolt</td></tr>
 <tr>
 	<td>78</td>
 	<td></td>
-	<td>Remove useful spells</td></tr>
+	<td>Dispel Beneficial Spells</td></tr>
 <tr class="erm-tone-red">
 	<td>79</td>
 	<td></td>
-	<td>death glare</td></tr>
+	<td>Death Stare</td></tr>
 <tr>
 	<td>80</td>
 	<td></td>
@@ -49181,7 +49952,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr class="erm-tone-red">
 	<td>33</td>
 	<td></td>
-	<td>Luck</td></tr>
+	<td>Fortune</td></tr>
 <tr>
 	<td>34</td>
 	<td></td>
@@ -49245,7 +50016,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr class="erm-tone-red">
 	<td>43</td>
 	<td></td>
-	<td>Earth Elemental
+	<td>Summon Earth Elemental
 </td></tr><tr>
 	<td>44</td>
 	<td></td>
@@ -49260,7 +50031,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>46</td>
 	<td></td>
-	<td>Petrification</td></tr>
+	<td>Petrify</td></tr>
 <tr class="erm-tone-red">
 	<td>47</td>
 	<td></td>
@@ -49268,7 +50039,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>48</td>
 	<td></td>
-	<td>Roots</td></tr>
+	<td>Bind</td></tr>
 <tr class="erm-tone-red">
 	<td>49</td>
 	<td></td>
@@ -49276,27 +50047,27 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>4A</td>
 	<td></td>
-	<td>Paralysis</td></tr>
+	<td>Paralyze</td></tr>
 <tr class="erm-tone-red">
 	<td>4B</td>
 	<td></td>
-	<td>Old age</td></tr>
+	<td>Age</td></tr>
 <tr>
 	<td>4C</td>
 	<td></td>
-	<td>Cloud of Death</td></tr>
+	<td>Death Cloud</td></tr>
 <tr class="erm-tone-red">
 	<td>4D</td>
 	<td></td>
-	<td>Lightning Strike</td></tr>
+	<td>Thunderbolt</td></tr>
 <tr>
 	<td>4E</td>
 	<td></td>
-	<td>Remove useful spells</td></tr>
+	<td>Dispel Beneficial Spells</td></tr>
 <tr class="erm-tone-red">
 	<td>4F</td>
 	<td></td>
-	<td>death glare</td></tr>
+	<td>Death Stare</td></tr>
 <tr>
 	<td>50</td>
 	<td></td>
@@ -49384,7 +50155,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>67</td>
 	<td></td>
-	<td>Earth Elemental</td></tr>
+	<td>Summon Earth Elemental</td></tr>
 <tr class="erm-tone-red">
 	<td>66</td>
 	<td></td>
@@ -49480,7 +50251,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>72</td>
 	<td></td>
-	<td>Roots</td></tr>
+	<td>Bind</td></tr>
 <tr class="erm-tone-red">
 	<td>16</td>
 	<td></td>
@@ -49512,7 +50283,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>76</td>
 	<td></td>
-	<td>Cloud of Death</td></tr>
+	<td>Death Cloud</td></tr>
 <tr class="erm-tone-red">
 	<td>21</td>
 	<td></td>
@@ -49532,7 +50303,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr class="erm-tone-red">
 	<td>74</td>
 	<td></td>
-	<td>Paralysis</td></tr>
+	<td>Paralyze</td></tr>
 <tr>
 	<td>50</td>
 	<td></td>
@@ -49576,7 +50347,7 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>79</td>
 	<td></td>
-	<td>death glare</td></tr>
+	<td>Death Stare</td></tr>
 <tr class="erm-tone-red">
 	<td>35</td>
 	<td></td>
@@ -49584,11 +50355,11 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr>
 	<td>78</td>
 	<td></td>
-	<td>Remove useful spells</td></tr>
+	<td>Dispel Beneficial Spells</td></tr>
 <tr class="erm-tone-red">
 	<td>75</td>
 	<td></td>
-	<td>Old age</td></tr>
+	<td>Age</td></tr>
 <tr>
 	<td>13</td>
 	<td></td>
@@ -49612,11 +50383,11 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 <tr class="erm-tone-red">
 	<td>77</td>
 	<td></td>
-	<td>Lightning Strike</td></tr>
+	<td>Thunderbolt</td></tr>
 <tr>
 	<td>51</td>
 	<td></td>
-	<td>Luck</td></tr>
+	<td>Fortune</td></tr>
 <tr class="erm-tone-red">
 	<td>25</td>
 	<td></td>
@@ -49752,7 +50523,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Stack experience abilities
 
+ID: erm.tables.stack-experience-abilities
 URL: /en/erm/tables/stack-experience-abilities/
+Source references: old-help:form-specexp1.htm, old-help:rec-ea.htm
 
 EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes.
 
@@ -49762,12 +50535,12 @@ EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Table of creature abilities when leveling up</span>
-</div><span class="erm-anchor" id="ref-form-specexp1-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $3<br>
+</div><span class="erm-anchor" id="ref-form-specexp1-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $3<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-specexp1-n2"></span><tr class="erm-tone-purple erm-strong">
 	<td width="5%">Letter</td>
-	<td width="50%">Meaning</td>
+	<td width="50%">Value</td>
 	<td>Code</td></tr>
 <tr>
 	<td>A</td>
@@ -49979,7 +50752,9 @@ EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have
 
 # EA:B flag abilities
 
+ID: erm.tables.stack-experience-flags
 URL: /en/erm/tables/stack-experience-flags/
+Source references: old-help:form-specexp2.htm, old-help:rec-ea.htm
 
 EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:F masks.
 
@@ -49988,7 +50763,7 @@ EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Flag abilities</span>
-</div><span class="erm-anchor" id="ref-form-specexp2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4 when $3=102 (f)<br>
+</div><span class="erm-anchor" id="ref-form-specexp2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4 when $3=102 (f)<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-specexp2-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -50064,7 +50839,9 @@ EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:
 
 # EA:B spell immunities
 
+ID: erm.tables.stack-experience-immunities
 URL: /en/erm/tables/stack-experience-immunities/
+Source references: old-help:form-specexp4.htm, old-help:rec-ea.htm
 
 EA:B values of $4 when $3=119 (character w). Character codes differ from spell IDs.
 
@@ -50073,7 +50850,7 @@ EA:B values of $4 when $3=119 (character w). Character codes differ from spell I
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Creature Experience: Spell Immunity</span>
-</div><span class="erm-anchor" id="ref-form-specexp4-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4, when $3=119 (w)<br>
+</div><span class="erm-anchor" id="ref-form-specexp4-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4, when $3=119 (w)<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-specexp4-n2"></span><tr class="erm-tone-purple erm-strong"><td width="5%">Sign</td>
@@ -50237,7 +51014,9 @@ EA:B values of $4 when $3=119 (character w). Character codes differ from spell I
 
 # EA:B modifiers
 
+ID: erm.tables.stack-experience-modifiers
 URL: /en/erm/tables/stack-experience-modifiers/
+Source references: old-help:form-specexp5.htm, old-help:rec-ea.htm
 
 Modifier $4 determines whether an ability value is added, assigned or interpreted as a percentage.
 
@@ -50246,7 +51025,7 @@ Modifier $4 determines whether an ability value is added, assigned or interprete
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Creature Experience: Standard Modifications</span>
-</div><span class="erm-anchor" id="ref-form-specexp5-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4<br>
+</div><span class="erm-anchor" id="ref-form-specexp5-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-specexp5-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -50255,7 +51034,7 @@ See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<td>+</td><td>Add</td><td>43</td></tr>
 <tr>
 	<td><span class="erm-tone-red">=</span></td>
-	<td><span class="erm-tone-red">Install</span></td>
+	<td><span class="erm-tone-red">Set</span></td>
 	<td><span class="erm-tone-red">61</span></td></tr>
 <tr>
 	<td>%</td><td>Interest</td><td>37</td></tr></table></div>
@@ -50288,7 +51067,9 @@ Modifier $4 determines whether an ability value is added, assigned or interprete
 
 # EA:B non-damaging spells
 
+ID: erm.tables.stack-experience-spells
 URL: /en/erm/tables/stack-experience-spells/
+Source references: old-help:form-specexp3.htm, old-help:rec-ea.htm
 
 Values of $4 when $3=99 (c). These are spell IDs.
 
@@ -50297,7 +51078,7 @@ Values of $4 when $3=99 (c). These are spell IDs.
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Creature Experience: Non-Damage Spells</span>
-</div><span class="erm-anchor" id="ref-form-specexp3-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4 when $3=99 (c)<br>
+</div><span class="erm-anchor" id="ref-form-specexp3-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4 when $3=99 (c)<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-specexp3-n2"></span><tr class="erm-tone-purple erm-strong"><td width="50%">Title</td>
@@ -50372,7 +51153,9 @@ Values of $4 when $3=99 (c). These are spell IDs.
 
 # Terrain types
 
+ID: erm.tables.terrain
 URL: /en/erm/tables/terrain/
+Source references: old-help:form-terrain.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
 
@@ -50462,7 +51245,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # DL text alignment
 
+ID: erm.tables.text-alignment
 URL: /en/erm/tables/text-alignment/
+Source references: old-help:form-align.htm, old-help:rec-dl.htm
 
 DL template Text values select vertical and horizontal positioning inside the item rectangle.
 
@@ -50475,7 +51260,7 @@ DL template Text values select vertical and horizontal positioning inside the it
 <div class="table-wrap erm-reference-table"><table><tr><td width="75%">
 	<div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 	<span class="erm-anchor" id="ref-form-align-n2"></span><tr class="erm-tone-purple erm-strong">
-		<td width="5%">Meaning</td>
+		<td width="5%">Value</td>
 		<td class="erm-align-center" width="130">Alignment</td>
 	</tr>
 	<tr>
@@ -50541,7 +51326,9 @@ DL template Text values select vertical and horizontal positioning inside the it
 
 # Named text colors
 
+ID: erm.tables.text-colors
 URL: /en/erm/tables/text-colors/
+Source references: era-source:rainbow.pas, old-help:form-colors.htm
 
 Rainbow.pas color names and RGB values without the alpha byte.
 
@@ -51456,7 +52243,9 @@ Use `{~Red}text{~}` markup. Short names b/y/w/o/p/a alias Blue/Yellow/White/Oran
 
 # Text resources: ERT, ERS and JSON
 
+ID: erm.tables.text-resources
 URL: /en/erm/tables/text-resources/
+Source references: old-help:cont-ert.htm, old-help:cont-ers.htm, old-help:cont-json.htm, erm-forum:faq-.html, era-changelog:era-iii-changelog.txt
 
 External text, option labels and script localization.
 
@@ -51638,7 +52427,7 @@ Characters that cannot be represented in the user's OS encoding will be replaced
 
 It is recommended to prefix each key with an abbreviation of the mod or the name of the author, for example "pm." for Phoenix-Fashion.
 <div class="erm-paragraph">Translations can also contain substituted parameters in the form "@parameter name@". Such parameters are replaced with specific values during translation.
-ERA-team <a href="../../receivers/sn/#ref-rec-sn-era-t">!!SN:T</a> This is precisely what is used to obtain a translation using a key.
+ERA-command <a href="../../receivers/sn/#ref-rec-sn-era-t">!!SN:T</a> This is precisely what is used to obtain a translation using a key.
 <pre class="erm-example"><code class="language-erm">!!SN:T(key)/?(z-variable where to write the translation)/(parameter name 1)/(parameter value 1)/(parameter name 2)/(parameter value 2)...;</code></pre></div>
 
 <div class="erm-paragraph"><u>2.47.0</u>: Added the ability to globally redirect resources via JSON files.<br>
@@ -51686,7 +52475,9 @@ h3sprite.lod contains graphic resources; h3bitmap.lod contains bitmap images and
 
 # Town types
 
+ID: erm.tables.towns
 URL: /en/erm/tables/towns/
+Source references: old-help:form-towns.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. Adventure-map object: type 98.
 
@@ -51777,7 +52568,9 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 
 # Two-way monoliths
 
+ID: erm.tables.two-way-monoliths
 URL: /en/erm/tables/two-way-monoliths/
+Source references: old-help:form-two-way-monolith.htm, old-help:form-objects.htm
 
 Subtypes of object 45. One-way entrances and exits use different types, 43 and 44.
 
@@ -51844,7 +52637,9 @@ Subtypes of [object 45](../objects/#id-45). One-way entrances and exits use diff
 
 # Game videos
 
+ID: erm.tables.videos
 URL: /en/erm/tables/videos/
+Source references: old-help:form-video.htm, old-help:rec-vr.htm
 
 Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is not part of a filename.
 
@@ -51954,7 +52749,9 @@ Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is no
 
 # WoG object variants
 
+ID: erm.tables.wog-object-variants
 URL: /en/erm/tables/wog-object-variants/
+Source references: old-help:form-newobj.htm, old-help:form-objects.htm
 
 Appearance, type and subtype in the legacy WoG set. A picture does not define behavior by itself; active scripts and object settings do.
 
@@ -52487,7 +53284,9 @@ Appearance, type and subtype in the legacy WoG set. A picture does not define be
 
 # ERM triggers and events
 
+ID: erm.triggers
 URL: /en/erm/triggers/
+Source references: era-source:erm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt, old-help:cont-eventslist.htm, old-help:cont-logicevent.htm, old-help:cont-triggers.htm, old-help:cont-triggers-era.htm, old-help:cont-triggersol.htm
 
 28 classic families and 104 registered ERA events.
 
@@ -52778,7 +53577,7 @@ The corresponding named functions (events) known at the time of publication of t
 <ul>
 <li><div class="erm-paragraph"></div><span class="erm-anchor" id="ref-cont-logicevent-1"></span><details class="erm-comment"><summary>Town screen</summary><div class="erm-comment-body">
 <strong class="erm-tone-purple erm-legacy-event">OnTownMouseHint</strong><br>
-AFTER displaying any hint in the town screen, does NOT work in castle screens/town hall/development/taverns/dwellings, etc..<br>
+AFTER displaying any hint in the town screen, does NOT work in castle screens/town hall/marketplace/tavern/dwelling, etc..<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnEnterTownHall</strong> (<a href="th/#ref-tr-th">!?TH0</a>)<br>
 BEFORE entering the town hall from the town screen<br>
@@ -52853,7 +53652,7 @@ after the meeting of heroes (after the meeting window disappears)</div></details
 <li><div class="erm-paragraph"></div><span class="erm-anchor" id="ref-cont-logicevent-3"></span><details class="erm-comment"><summary>Other screens</summary><div class="erm-comment-body">
 <strong class="erm-tone-purple erm-legacy-event">OnOpenRecruitDlg</strong><br>
 before opening the dialogue for hiring creatures.<br>
-Does NOT trigger when opening a forge<br>
+Does NOT trigger when opening a blacksmith<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnRecruitDlgRecalc</strong><br>
 before opening the dialogue for hiring creatures<br>
@@ -52865,7 +53664,7 @@ when you press the hire button in the recruitment dialogue, BEFORE closing the d
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnCloseRecruitDlg</strong><br>
 after closing the dialogue for hiring creatures.<br>
-Does NOT trigger when closing the forge<br>
+Does NOT trigger when closing the blacksmith<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnCustomDialogEvent</strong><br>
 BEFORE activating any event in the user <a href="dl/#ref-tr-dl">DL</a>-dialogue</div></details></li>
@@ -52942,7 +53741,7 @@ Does NOT trigger outside the town hall screen<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnRecruitDlgMouseClick</strong><br>
 any click on the creature recruitment screen.<br>
-Does NOT trigger in the Forge screen<br>
+Does NOT trigger in the Blacksmith screen<br>
 <br>
 <strong class="erm-tone-purple erm-legacy-event">OnKingdomOverviewMouseClick</strong><br>
 any click on the Kingdom Overview screen<br>
@@ -53017,11 +53816,11 @@ Doesn't work for the first player's first day</div></details></li>
 	<strong class="erm-tone-purple erm-legacy-event">OnBattleStackObtainsTurn</strong><br>
 	stack performs special. action, such as ghosts stealing mana<br>
 	stack gets a move and is highlighted with an outline<br>
-	<strong>Hook in <span class="erm-tone-purple erm-legacy-event">4609014</span></strong> [after the regeneration phase; tests for morality, fear; and after installing the active stack]<br>
+	<strong>Hook in <span class="erm-tone-purple erm-legacy-event">4609014</span></strong> [after the regeneration phase; tests for morale, fear; and after selecting the active stack]<br>
 	<strong class="erm-tone-purple erm-legacy-event">OnAfterBattleAction</strong> (<a href="bg/#ref-tr-bg">!?BG1</a>) - does not work for the very first action of the first unit in battle<br>
 	selecting and performing an action</div></details></dd>
 <dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-10"></span><details class="erm-comment"><summary>Move/waiting/defence (<span class="erm-anchor" id="ref-cont-logicevent-show10"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-	animation + sound of squad movement, if movement<br>
+	animation + sound of stack movement, if movement<br>
 	performing unit actions starting from receiving their turn</div></details></dd>
 <dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-11"></span><details class="erm-comment"><summary>Enemy attack (<span class="erm-anchor" id="ref-cont-logicevent-show11"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 	hovering over an enemy<br>
@@ -53049,11 +53848,11 @@ Doesn't work for the first player's first day</div></details></li>
 	<strong class="erm-tone-purple erm-legacy-event">OnAfterBattle</strong> (<a href="ba/#ref-tr-ba">!?BA1</a>)<br>
 	<strong class="erm-tone-purple erm-legacy-event">OnAfterBattleUniversal</strong> (<a href="ba/#ref-tr-ba">!?BA53</a>)<br>
 	performing unit actions starting from receiving their turn</div></details></dd>
-<dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-12"></span><details class="erm-comment"><summary>AI squad action (without hero) (<span class="erm-anchor" id="ref-cont-logicevent-show12"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
+<dd><strong></strong><span class="erm-anchor" id="ref-cont-logicevent-12"></span><details class="erm-comment"><summary>AI stack action (without hero) (<span class="erm-anchor" id="ref-cont-logicevent-show12"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 	<strong class="erm-tone-purple erm-legacy-event">OnStackToStackDamage x2/x3</strong> <strong class="erm-tone-text">+</strong> <strong class="erm-tone-purple erm-legacy-event">OnAICalcStackAttackEffect</strong> (triggers for every potential target, even if it is unreachable)<br>
 	<strong class="erm-tone-purple erm-legacy-event">OnAICalcStackAttackEffect</strong><br>
 	<strong class="erm-tone-purple erm-legacy-event">OnBeforeBattleAction</strong> (<a href="bg/#ref-tr-bg">!?BG0</a>)<br>
-	performing the action as for a human squad<br>
+	performing the action as for a human stack<br>
 	performing unit actions starting from receiving their turn</div></details></dd></dl></div></details>
 </li></ul>
 
@@ -53265,7 +54064,7 @@ Doesn't work for the first player's first day</div></details></li>
 </tr>
 <tr>
 	<td><a href="./#ref-era-new-events-2-13">OnAICalcStackAttackEffect</a></td>
-	<td> AI calculation of attack efficiency by squad</td>
+	<td> AI calculation of attack efficiency by stack</td>
 </tr>
 <tr>
 	<td><a href="./#ref-era-new-events-2-14">OnChat</a></td>
@@ -53522,7 +54321,7 @@ The syntax works for both events is <strong class="erm-inline-code"><span class=
 Stack gets a turn in battle.</div>
 <pre class="erm-tone-quote erm-note"><strong>Parameters:</strong>
  1:  <em>side (0 - left, 1 - right)</em>
- 2:  <em>squad number (0..21)</em></pre>
+ 2:  <em>stack number (0..21)</em></pre>
 <div class="erm-paragraph"><u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!?FU(OnBattleStackObtainsTurn);
 !!SN:X0/0; in battle, only the first stack hero will get the right to move</code></pre></div>
@@ -53531,7 +54330,7 @@ Stack gets a turn in battle.</div>
 <span class="erm-tone-red"><strong>!?FU(OnBattleRegeneratePhase);</strong></span><br>
 Regeneration phase in battle.</div>
 <pre class="erm-tone-quote erm-note"><strong>Parameters:</strong>
- 1:  <em>squad number (0..41)</em>
+ 1:  <em>stack number (0..41)</em>
  2:  <em>pointer to the TBattleMonster structure</em>
  3:  <em>block regeneration? (0 - no, 1 - yes)</em></pre>
 <div class="erm-paragraph">In this event, the regeneration of Nightmare Hydras, Trolls, and Ghosts occurs.<br>
@@ -53664,7 +54463,7 @@ Occurs before the hero screen opens (dark phase).</div>
  1:  <em>hero number</em></pre>
 <div class="erm-paragraph">Event occurs just before the hero screen is rendered for a specific hero: after the event <a href="./#ref-era-new-events-2-4">OnOpenHeroScreen</a> and every time you switch in the same dialogue between the player’s characters. 
 Also, the event occurs when you click on a hero in a tavern and in battle (with special plugins).<br>
-Event can be used to change information/development/of the hero's troops ONLY in the hero's window.</div>
+This event can change the hero's information, skills, or army ONLY in the hero window.</div>
 <hr>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-era-new-events-2-31"></span>
 <span class="erm-tone-red"><strong>!?FU(OnBuildTownBuilding);</strong></span><br>
@@ -53730,7 +54529,7 @@ If the red player chose <code>newgame</code>, then the game will be saved to a f
 <span class="erm-tone-red"><strong>!?MM0</strong></span><br>
 Trigger to control the text in battle.</div>
 <pre class="erm-tone-quote erm-note"><strong>Parameters:</strong>
- 1:  <em>current squad number or -1</em>
+ 1:  <em>current stack number or -1</em>
  2:  <em>number of the enemy unit the cursor is hovering over or -1</em>
  3:  <em>minimum damage</em>
  4:  <em>maximum damage</em></pre>
@@ -53909,7 +54708,9 @@ New map: instructions → PI / OnAfterErmInstructions → OnGameEnter. Load: dat
 
 # Artifact equipment (AE)
 
+ID: erm.triggers.ae
 URL: /en/erm/triggers/ae/
+Source references: old-help:tr-ae.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 unequips; 1 equips. The current hero owns the artifact, v998 is the artifact ID, and v999 its slot.
 
@@ -53982,7 +54783,9 @@ Rearranging backpack items is not equipment. Replacing one artifact with another
 
 # Battle start and completion (BA)
 
+ID: erm.triggers.ba
 URL: /en/erm/triggers/ba/
+Source references: old-help:tr-ba.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0/1 start/end on the attacking or local computer; 50/51 on the defender’s computer; 52/53 are universal events on both sides. Start order is BA0 or BA50, then BA52; end order is BA1 or BA51, then BA53.
 
@@ -54057,7 +54860,9 @@ BA also fires for theoretical AI battles. Battle stacks are not ready at the sta
 
 # Battlefield setup (BF)
 
+ID: erm.triggers.bf
 URL: /en/erm/triggers/bf/
+Source references: old-help:tr-bf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 The battlefield-configuration point before combat. BF can place obstacles.
 
@@ -54110,7 +54915,9 @@ Legacy Help excludes battles without a human. Do not call BU:R to redraw at this
 
 # Battle actions (BG)
 
+ID: erm.triggers.bg
 URL: /en/erm/triggers/bg/
+Source references: old-help:tr-bg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 BG0 precedes an action; BG1 is associated with action completion and passing control. Read action parameters through BG; v997 stores the round.
 
@@ -54124,7 +54931,7 @@ BG0 precedes an action; BG1 is associated with action completion and passing con
 
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-bg-red"></span><span class="erm-tone-red">!?BG#;</span> 
 - this combat trigger is triggered with every stack or hero action 
-(witchcraft, flight or surrender).<br>
+(spellcasting, retreat, or surrender).<br>
 <span class="erm-tone-red">!?BG1</span>; - triggers when a move is transferred from one creature to another<br>
 <span class="erm-tone-red">!?BG0;</span> - triggers before an action</strong></div>
 <div class="erm-paragraph">Variable <strong>v997</strong> stores the number of the current round:<br>
@@ -54174,7 +54981,9 @@ BG:N during BG1 may already refer to the next stack. OnBattleActionEnd provides 
 
 # Battle rounds (BR)
 
+ID: erm.triggers.br
 URL: /en/erm/triggers/br/
+Source references: old-help:tr-br.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 The classic code accepts a round selector: -1 before tactics, 0 first round, 1 second. v997 is the round counter; early phases run before the field is visible.
 
@@ -54241,7 +55050,9 @@ The supplied Erm.pas registers OnCombatRound and OnBattleRound for the same even
 
 # Mouse clicks (CM)
 
+ID: erm.triggers.cm
 URL: /en/erm/triggers/cm/
+Source references: old-help:tr-cm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 adventure-map right click; 1 town; 2 hero; 3 hero meeting; 4 battle; 5 adventure-map left click. CM provides coordinates, item, and action.
 
@@ -54309,7 +55120,9 @@ CM:P applies to the adventure map/minimap. Cancel the default reaction with CM:R
 
 # Commander events (CO)
 
+ID: erm.triggers.co
 URL: /en/erm/triggers/co/
+Source references: old-help:tr-co.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 before the commander window, 1 after closing, 2 after purchase, 3 after resurrection. HE-1 and CO-1 access the current hero and commander.
 
@@ -54369,7 +55182,9 @@ Do not confuse this trigger or the CO receiver with lowercase co, which continue
 
 # Custom dialog events (DL)
 
+ID: erm.triggers.dl
 URL: /en/erm/triggers/dl/
+Source references: old-help:tr-dl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Handles custom-dialog item actions. Classic context: v998 is dialog ID, v999 item ID, v1000 action.
 
@@ -54434,7 +55249,9 @@ Check your dialog ID before changing items. Available actions and keyboard suppo
 
 # Function handler (FU)
 
+ID: erm.triggers.fu
 URL: /en/erm/triggers/fu/
+Source references: old-help:tr-fu.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 The function body follows its declaration and is invoked with FU:P or DO:P. Inputs and outputs use x1..x16.
 
@@ -54487,7 +55304,9 @@ Reusing a name adds handlers rather than an independent overload. Use a unique m
 
 # Global map event (GE)
 
+ID: erm.triggers.ge
 URL: /en/erm/triggers/ge/
+Source references: old-help:tr-ge.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists.
 
@@ -54535,7 +55354,9 @@ The number comes from the start of the event text, not its title or editor row p
 
 # Saving and loading (GM)
 
+ID: erm.triggers.gm
 URL: /en/erm/triggers/gm/
+Source references: old-help:tr-gm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves.
 
@@ -54602,7 +55423,9 @@ OnSavegameRead/Write have different timing and are intended for custom data sect
 
 # Visiting a hero (HE)
 
+ID: erm.triggers.he
 URL: /en/erm/triggers/he/
+Source references: old-help:tr-he.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Responds to visiting or attacking the selected hero. The selector is a hero ID.
 
@@ -54646,7 +55469,9 @@ Use OnBeforeHeroInteraction and OnAfterHeroInteraction for detailed interaction 
 
 # Hero level-up (HL)
 
+ID: erm.triggers.hl
 URL: /en/erm/triggers/hl/
+Source references: old-help:tr-hl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills.
 
@@ -54704,7 +55529,9 @@ Distinguish the skill-selection point from OnAfterHeroGainLevel after the level-
 
 # Hero movement (HM)
 
+ID: erm.triggers.hm
 URL: /en/erm/triggers/hm/
+Source references: old-help:tr-hm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero’s coordinates.
 
@@ -54768,7 +55595,9 @@ The legacy trigger cannot cancel movement. It fires frequently; do not open a di
 
 # Network battle data transfer (IP)
 
+ID: erm.triggers.ip
 URL: /en/erm/triggers/ip/
+Source references: old-help:tr-ip.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 before the attacker sends initial data, 1 after the defender receives it; 2 before results are sent, 3 after receiving them. IP provides additional synchronization.
 
@@ -54787,7 +55616,7 @@ URL: /en/erm/triggers/ip/
 <li>Transferring information to the defending player:<br>
  - information about the attacking hero<br>
  - information about the commander of the attacking hero<br>
- - installed <em>v</em>-variables v9001-v10000<br>
+ - set <em>v</em>-variables v9001-v10000<br>
  - all potential changes to creature parameters</li>
 <li>All information sent is accepted by the defending player</li>
 <li>Trigger <strong>!?IP1</strong> enabled for the defending player</li>
@@ -54806,7 +55635,7 @@ URL: /en/erm/triggers/ip/
 <li>Transferring information to the attacking player:<br>
  - values of secondary skills of the defending hero (all 28), level and experience<br>
  - information about the commander of the defending hero (in full)<br>
- - installed <em>v</em>-variables v9001-v10000</li>
+ - set <em>v</em>-variables v9001-v10000</li>
 <li>Trigger <a href="../ba/#ref-tr-ba">!?BA1</a> turns on for the defending player</li>
 <li>The attacking player waits for the defender to finish gaining levels</li>
 <li>All information is received by the attacking player</li>
@@ -54854,7 +55683,9 @@ Context depends on side and battle result. Local player clicks are not automatic
 
 # Local-event visit (LE)
 
+ID: erm.triggers.le
 URL: /en/erm/triggers/le/
+Source references: old-help:tr-le.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards.
 
@@ -54919,7 +55750,9 @@ The event must exist at the location. A one-shot event may disappear after visit
 
 # Physical damage calculation (MF)
 
+ID: erm.triggers.mf
 URL: /en/erm/triggers/mf/
+Source references: old-help:tr-mf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires before damage is dealt. MF reads the target and changes final damage.
 
@@ -54944,7 +55777,7 @@ But, if in the trigger body !?MF1 is read from memory at address <strong class="
 <tr><td>4455746</td><td>Death Cloud Damage</td></tr>
 <tr><td>4456676</td><td>Spin Attack Damage (hits all enemies around)</td></tr>
 <tr><td>4458589</td><td>Fire Shield Damage</td></tr>
-<tr><td>4460149</td><td>Death Glare Damage</td></tr>
+<tr><td>4460149</td><td>Death Stare Damage</td></tr>
 <tr><td>4460621</td><td>Lightning Bolt</td></tr>
 <tr><td>4461137</td><td>Acid Attack Damage</td></tr>
 <tr><td>4462398</td><td>Melee Damage</td></tr>
@@ -55001,7 +55834,9 @@ MF0 and MF without a number are invalid. The event covers more than ordinary att
 
 # Adventure-map magic (MG)
 
+ID: erm.triggers.mg
 URL: /en/erm/triggers/mg/
+Source references: old-help:tr-mg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 before opening the spellbook to select a spell; 1 after the casting attempt. v997 contains the spell ID after MG1.
 
@@ -55010,7 +55845,7 @@ URL: /en/erm/triggers/mg/
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-center erm-paragraph">
-<span class="erm-source-title">Trigger <strong>MG</strong> (witchcraft on the map)</span></div><br>
+<span class="erm-source-title">Trigger <strong>MG</strong> (spellcasting on the map)</span></div><br>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-mg-red"></span><span class="erm-tone-red">!?MG#;</span> 
 - trigger when casting spells on the map.<br>
 <span class="erm-tone-red">!?MG0;</span> - triggers before application<br>
@@ -55064,7 +55899,9 @@ MG1 also fires on cancellation. Its occurrence does not prove successful casting
 
 # Interface hints (MM)
 
+ID: erm.triggers.mm
 URL: /en/erm/triggers/mm/
+Source references: old-help:tr-mm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 battle hints, 1 town hints, 2 adventure map. MM modifies text in the relevant context.
 
@@ -55124,7 +55961,9 @@ MM0 does not fire for every spell-target selection stage. MM1 can fire on mouse 
 
 # Music theme changes (MP)
 
+ID: erm.triggers.mp
 URL: /en/erm/triggers/mp/
+Source references: old-help:tr-mp.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires when ChangeMp3Theme is called. MP:S changes parameters; MP:R controls the default reaction.
 
@@ -55176,7 +56015,9 @@ This is an MP3 music event; SN covers sound effects. Guard against re-entry when
 
 # Magic resistance (MR)
 
+ID: erm.triggers.mr
 URL: /en/erm/triggers/mr/
+Source references: old-help:tr-mr.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 precedes standard damage correction for resistance; 1 follows it. In MR2, MR:F means a percentage chance of dwarf-style full resistance.
 
@@ -55205,7 +56046,7 @@ For a creature without resistance F=D
 <div class="erm-paragraph"><strong><span class="erm-tone-red">!?MR2;</span> - trigger for resistance to Dwarven style magic.</strong><br>
 Triggered when calculating magic resistance according to the Dwarven style.<br>
 You can use other receivers in addition to !!MR.<br>
-Teams <a href="../../receivers/mr/#ref-rec-mr-n">!!MR:N</a> and <a href="../../receivers/mr/#ref-rec-mr-m">!!MR:M</a> work as before (described in triggers !?MR0 and 
+Commands <a href="../../receivers/mr/#ref-rec-mr-n">!!MR:N</a> and <a href="../../receivers/mr/#ref-rec-mr-m">!!MR:M</a> work as before (described in triggers !?MR0 and 
 !?MR1).<br>
 <a href="../../receivers/mr/#ref-rec-mr-f">!!MR:F</a> used as a percentage (0..100) of the chance to resist the spell.<br>
 <u>Example</u>:
@@ -55256,7 +56097,9 @@ F is damage in MR0/1 but a percentage in MR2. Anti-Magic and some mass spells by
 
 # Wandering monsters (MW)
 
+ID: erm.triggers.mw
 URL: /en/erm/triggers/mw/
+Source references: old-help:tr-mw.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 reaching a destination/hero, 1 monster death. v997 is the wandering-monster ID. Corresponding MW settings must enable these events.
 
@@ -55312,7 +56155,9 @@ The classic implementation fires on the next turn after arrival or death, not im
 
 # Object visits (OB)
 
+ID: erm.triggers.ob
 URL: /en/erm/triggers/ob/
+Source references: old-help:tr-ob.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Select an object type, type/subtype, or exact entrance coordinates. The object must have an entrance cell. Monsters, resources, and artifacts qualify; heroes use HE.
 
@@ -55401,7 +56246,9 @@ The !$OB post-trigger runs after the default reaction. The three forms do not si
 
 # Adventure-map tile hint (OnAdventureMapTileHint)
 
+ID: erm.triggers.onadventuremaptilehint
 URL: /en/erm/triggers/onadventuremaptilehint/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1..x3 are object coordinates; x4/x5 type/subtype or -1; x6..x8 hovered tile coordinates. Change text through MM, not numeric arguments. OnAdvMapTileHint is a registered alias for the same ID.
 
@@ -55432,7 +56279,9 @@ ID `77040`; registered as `TRIGGER_ADVMAP_TILE_HINT`. Aliases: OnAdvMapTileHint.
 
 # After construction (OnAfterBuildTownBuilding)
 
+ID: erm.triggers.onafterbuildtownbuilding
 URL: /en/erm/triggers/onafterbuildtownbuilding/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is town; x2 constructed building. Town state has been updated. Closing the town hall alone does not imply construction.
 
@@ -55463,7 +56312,9 @@ ID `77052`; registered as `TRIGGER_AFTER_BUILD_TOWN_BUILDING`. The name is confi
 
 # After a hero level-up (OnAfterHeroGainLevel)
 
+ID: erm.triggers.onafterherogainlevel
 URL: /en/erm/triggers/onafterherogainlevel/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is hero after leveling up, once the dialog closes. Applies to humans and AI. Use HL before selection completes to change offered skills.
 
@@ -55494,7 +56345,9 @@ ID `77050`; registered as `TRIGGER_AFTER_HERO_GAIN_LEVEL`. The name is confirmed
 
 # After hero interaction (OnAfterHeroInteraction)
 
+ID: erm.triggers.onafterherointeraction
 URL: /en/erm/triggers/onafterherointeraction/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the initiator; x2 the target hero. State may have changed during interaction: a hero may have died or changed owner.
 
@@ -55524,7 +56377,9 @@ ID `77011`; registered as `TRIGGER_AFTERHEROINTERACT`. The name is confirmed by 
 
 # After a local event (OnAfterLocalEvent)
 
+ID: erm.triggers.onafterlocalevent
 URL: /en/erm/triggers/onafterlocalevent/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1/x2/x3 are event coordinates. For humans; fires before the corresponding !$LE. Do not assume a one-shot event object remains on the map.
 
@@ -55555,7 +56410,9 @@ ID `77046`; registered as `TRIGGER_AFTER_LOCAL_EVENT`. The name is confirmed by 
 
 # After placing battle obstacles (OnAfterPlaceBattleObstacles)
 
+ID: erm.triggers.onafterplacebattleobstacles
 URL: /en/erm/triggers/onafterplacebattleobstacles/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After obstacle placement. No arguments. ERA restores its main RNG; cell changes must account for obstacles already placed.
 
@@ -55586,7 +56443,9 @@ ID `77055`; registered as `TRIGGER_AFTER_BATTLE_PLACE_BATTLE_OBSTACLES`. The nam
 
 # After saving (OnAfterSaveGame)
 
+ID: erm.triggers.onaftersavegame
 URL: /en/erm/triggers/onaftersavegame/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After save completion. No arguments. Use OnSavegameWrite to write a custom data section.
 
@@ -55616,7 +56475,9 @@ ID `77008`; registered as `TRIGGER_AFTER_SAVE_GAME`. The name is confirmed by th
 
 # After tactics (OnAfterTacticsPhase)
 
+ID: erm.triggers.onaftertacticsphase
 URL: /en/erm/triggers/onaftertacticsphase/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After tactical placement ends. When there is no tactics phase, it follows preparation for battlefield display. No arguments.
 
@@ -55646,7 +56507,9 @@ ID `77021`; registered as `TRIGGER_AFTER_TACTICS_PHASE`. The name is confirmed b
 
 # AI attack evaluation (OnAICalcStackAttackEffect)
 
+ID: erm.triggers.onaicalcstackattackeffect
 URL: /en/erm/triggers/onaicalcstackattackeffect/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is attacking stack; x2 defender; x3 mutable effect score; x4 original score. This evaluates an action for AI rather than dealing damage.
 
@@ -55677,7 +56540,9 @@ ID `77013`; registered as `TRIGGER_ONAICALCSTACKATTACKEFFECT`. The name is confi
 
 # Battle action completion (OnBattleActionEnd)
 
+ID: erm.triggers.onbattleactionend
 URL: /en/erm/triggers/onbattleactionend/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 No arguments. Order: OnBeforeBattleAction → OnBattleActionEnd → OnBattleRound → OnBeforeBattleStackTurn → OnBattleStackObtainsTurn → OnAfterBattleAction. Round/stack events occur on the relevant transition, not unconditionally after every action.
 
@@ -55708,7 +56573,9 @@ ID `77051`; registered as `TRIGGER_BATTLE_ACTION_END`. The name is confirmed by 
 
 # Battlefield becomes visible (OnBattlefieldVisible)
 
+ID: erm.triggers.onbattlefieldvisible
 URL: /en/erm/triggers/onbattlefieldvisible/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After the battle theme starts and the tactics dialog. No arguments. This marks visibility, not necessarily the end of tactical placement.
 
@@ -55738,7 +56605,9 @@ ID `77020`; registered as `TRIGGER_BATTLEFIELD_VISIBLE`. The name is confirmed b
 
 # Regeneration phase (OnBattleRegeneratePhase)
 
+ID: erm.triggers.onbattleregeneratephase
 URL: /en/erm/triggers/onbattleregeneratephase/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount.
 
@@ -55768,7 +56637,9 @@ ID `77007`; registered as `TRIGGER_REGENERATE_PHASE`. The name is confirmed by t
 
 # Battle replay (OnBattleReplay)
 
+ID: erm.triggers.onbattlereplay
 URL: /en/erm/triggers/onbattlereplay/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After battle state is reset for replay. No arguments. OnBeforeBattleUniversal does not run again; rebuild combat-dependent context here. Requires replay support in the installed build.
 
@@ -55799,7 +56670,9 @@ ID `77043`; registered as `TRIGGER_BATTLE_REPLAY`. The name is confirmed by the 
 
 # Passing control to a stack (OnBattleStackObtainsTurn)
 
+ID: erm.triggers.onbattlestackobtainsturn
 URL: /en/erm/triggers/onbattlestackobtainsturn/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale.
 
@@ -55830,7 +56703,9 @@ ID `77006`; registered as `TRIGGER_STACK_OBTAINS_TURN`. The name is confirmed by
 
 # Stack regeneration amount (OnBattleStackRegeneration)
 
+ID: erm.triggers.onbattlestackregeneration
 URL: /en/erm/triggers/onbattlestackregeneration/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase.
 
@@ -55861,7 +56736,9 @@ ID `77056`; registered as `TRIGGER_BATTLE_STACK_REGENERATION`. The name is confi
 
 # Before showing the battlefield (OnBeforeBattlefieldVisible)
 
+ID: erm.triggers.onbeforebattlefieldvisible
 URL: /en/erm/triggers/onbeforebattlefieldvisible/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 The field is still dark; the event precedes early BR-1. No arguments. Early BA/BF do not guarantee BM/EA structures are ready; choose the phase required by your data.
 
@@ -55892,7 +56769,9 @@ ID `77019`; registered as `TRIGGER_ONBEFORE_BATTLEFIELD_VISIBLE`. The name is co
 
 # Before battle replay (OnBeforeBattleReplay)
 
+ID: erm.triggers.onbeforebattlereplay
 URL: /en/erm/triggers/onbeforebattlereplay/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After the user rejects the result, before battle state is reset. No arguments. Suitable for releasing temporary resources from the previous attempt.
 
@@ -55923,7 +56802,9 @@ ID `77044`; registered as `TRIGGER_BEFORE_BATTLE_REPLAY`. The name is confirmed 
 
 # Before a stack turn (OnBeforeBattleStackTurn)
 
+ID: erm.triggers.onbeforebattlestackturn
 URL: /en/erm/triggers/onbeforebattlestackturn/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation.
 
@@ -55954,7 +56835,9 @@ ID `77041`; registered as `TRIGGER_BEFORE_STACK_TURN`. The name is confirmed by 
 
 # Before hero interaction (OnBeforeHeroInteraction)
 
+ID: erm.triggers.onbeforeherointeraction
 URL: /en/erm/triggers/onbeforeherointeraction/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the initiator, x2 the target hero; x3 allows interaction, defaults to 1 and can be set to 0. Covers meetings and attacks.
 
@@ -55984,7 +56867,9 @@ ID `77010`; registered as `TRIGGER_BEFOREHEROINTERACT`. The name is confirmed by
 
 # Before a local event (OnBeforeLocalEvent)
 
+ID: erm.triggers.onbeforelocalevent
 URL: /en/erm/triggers/onbeforelocalevent/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1/x2/x3 are event coordinates. For humans; fires before the corresponding !?LE.
 
@@ -56015,7 +56900,9 @@ ID `77045`; registered as `TRIGGER_BEFORE_LOCAL_EVENT`. The name is confirmed by
 
 # Before placing battle obstacles (OnBeforePlaceBattleObstacles)
 
+ID: erm.triggers.onbeforeplacebattleobstacles
 URL: /en/erm/triggers/onbeforeplacebattleobstacles/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement.
 
@@ -56046,7 +56933,9 @@ ID `77054`; registered as `TRIGGER_BEFORE_BATTLE_PLACE_BATTLE_OBSTACLES`. The na
 
 # Building a town structure (OnBuildTownBuilding)
 
+ID: erm.triggers.onbuildtownbuilding
 URL: /en/erm/triggers/onbuildtownbuilding/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is town; x2 building. Applies to humans and AI. Use OnAfterBuildTownBuilding for actions after construction is complete.
 
@@ -56076,7 +56965,9 @@ ID `77031`; registered as `TRIGGER_BUILD_TOWN_BUILDING`. The name is confirmed b
 
 # Calculating town income (OnCalculateTownIncome)
 
+ID: erm.triggers.oncalculatetownincome
 URL: /en/erm/triggers/oncalculatetownincome/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is town; x2 income, mutable; x3 includes additional silo resources. Only returned income x2 is changed. This is a calculation event and does not guarantee resources are being paid.
 
@@ -56107,7 +56998,9 @@ ID `77042`; registered as `TRIGGER_CALC_TOWN_INCOME`. The name is confirmed by t
 
 # Game chat (OnChat)
 
+ID: erm.triggers.onchat
 URL: /en/erm/triggers/onchat/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 selects the stage: 0 enter (x2 blocks entry); 1 input (x2 text pointer, x3 action: 0 clear, 1 close, 2 default); 2 leave. Argument meanings depend on stage; check x1 first.
 
@@ -56138,7 +57031,9 @@ ID `77014`; registered as `TRIGGER_ONCHAT`. The name is confirmed by the supplie
 
 # Closing the hero screen (OnCloseHeroScreen)
 
+ID: erm.triggers.oncloseheroscreen
 URL: /en/erm/triggers/oncloseheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero used to open the window, even if the user subsequently switched heroes.
 
@@ -56168,7 +57063,9 @@ ID `77005`; registered as `TRIGGER_CLOSE_HEROSCREEN`. The name is confirmed by t
 
 # Closing recruitment (OnCloseRecruitDlg)
 
+ID: erm.triggers.oncloserecruitdlg
 URL: /en/erm/triggers/oncloserecruitdlg/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 No arguments. RD data remains available before the dialog is freed; a retained dialog pointer is invalid afterwards.
 
@@ -56198,7 +57095,9 @@ ID `77024`; registered as `TRIGGER_CLOSE_RECRUIT_DLG`. The name is confirmed by 
 
 # Closing a town (OnCloseTownScreen)
 
+ID: erm.triggers.onclosetownscreen
 URL: /en/erm/triggers/onclosetownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town used to open the window.
 
@@ -56228,7 +57127,9 @@ ID `77033`; registered as `TRIGGER_CLOSE_TOWN_SCREEN`. The name is confirmed by 
 
 # Choosing a creature upgrade (OnDetermineMonInfoDlgUpgrade)
 
+ID: erm.triggers.ondeterminemoninfodlgupgrade
 URL: /en/erm/triggers/ondeterminemoninfodlgupgrade/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is creature; x2 upgraded type or -1, mutable; x3 town or -1; x4 hero or -1. This controls the upgrade available in the creature-info dialog.
 
@@ -56259,7 +57160,9 @@ ID `77039`; registered as `TRIGGER_DETERMINE_MON_INFO_DLG_UPGRADE`. The name is 
 
 # Start of a game day (OnEveryDay)
 
+ID: erm.triggers.oneveryday
 URL: /en/erm/triggers/oneveryday/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 The engine fires this for each player before ordinary TM, without arguments. Framework extends the contract: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once is TRUE only on the first call that day. Use these arguments only with Framework loaded.
 
@@ -56290,7 +57193,9 @@ ID `77018`; registered as `TRIGGER_DAILY_TIMER`. The name is confirmed by the su
 
 # Entering the game (OnGameEnter)
 
+ID: erm.triggers.ongameenter
 URL: /en/erm/triggers/ongameenter/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After starting or loading a game, before adventure-map control. No arguments. Suitable for obtaining process-local pointers and exports; distinguish it from one-time PI initialization.
 
@@ -56321,7 +57226,9 @@ ID `77015`; registered as `TRIGGER_ONGAMEENTER`. The name is confirmed by the su
 
 # Leaving the game (OnGameLeave)
 
+ID: erm.triggers.ongameleave
 URL: /en/erm/triggers/ongameleave/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Before ERM is disabled when leaving the current game. No arguments. Release temporary resources tied to the game session.
 
@@ -56352,7 +57259,9 @@ ID `77016`; registered as `TRIGGER_ONGAMELEAVE`. The name is confirmed by the su
 
 # Key press (OnKeyPressed)
 
+ID: erm.triggers.onkeypressed
 URL: /en/erm/triggers/onkeypressed/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the key code; x2 blocks the default action (0/1, mutable); x3 is isDown, TRUE only on the initial press and FALSE on auto-repeat. See Framework KEY_ constants.
 
@@ -56383,7 +57292,9 @@ ID `77003`; registered as `TRIGGER_KEYPRESS`. The name is confirmed by the suppl
 
 # Key release (OnKeyReleased)
 
+ID: erm.triggers.onkeyreleased
 URL: /en/erm/triggers/onkeyreleased/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is key code; x2 blocks the default reaction (0/1, mutable). The engine contract does not declare a third argument. Do not copy the meaning of OnKeyPressed x3 here.
 
@@ -56414,7 +57325,9 @@ ID `77053`; registered as `TRIGGER_KEY_RELEASED`. The name is confirmed by the s
 
 # Kingdom overview mouse click (OnKingdomOverviewMouseClick)
 
+ID: erm.triggers.onkingdomoverviewmouseclick
 URL: /en/erm/triggers/onkingdomoverviewmouseclick/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 CM provides mouse context. This is a local UI event, not multiplayer action synchronization.
 
@@ -56444,7 +57357,9 @@ ID `77027`; registered as `TRIGGER_KINGDOM_OVERVIEW_MOUSE_CLICK`. The name is co
 
 # Loading hero-screen data (OnLoadHeroScreen)
 
+ID: erm.triggers.onloadheroscreen
 URL: /en/erm/triggers/onloadheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is hero. Fires after OnOpenHeroScreen and when switching heroes, before rendering. Other windows and plugins may also trigger loading; do not assume it only means manual opening.
 
@@ -56474,7 +57389,9 @@ ID `77030`; registered as `TRIGGER_LOAD_HERO_SCREEN`. The name is confirmed by t
 
 # Losing the game (OnLoseGame)
 
+ID: erm.triggers.onlosegame
 URL: /en/erm/triggers/onlosegame/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 For a human defeat, immediately before OnGameLeave in the current implementation. No arguments. Do not expect a subsequent game turn.
 
@@ -56505,7 +57422,9 @@ ID `77048`; registered as `TRIGGER_LOSE_GAME`. The name is confirmed by the supp
 
 # Opening the hero screen (OnOpenHeroScreen)
 
+ID: erm.triggers.onopenheroscreen
 URL: /en/erm/triggers/onopenheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero when the window first opens. Switching heroes inside the window does not repeat this event; use OnLoadHeroScreen or OnPreHeroScreen.
 
@@ -56535,7 +57454,9 @@ ID `77004`; registered as `TRIGGER_OPEN_HEROSCREEN`. The name is confirmed by th
 
 # Opening recruitment (OnOpenRecruitDlg)
 
+ID: erm.triggers.onopenrecruitdlg
 URL: /en/erm/triggers/onopenrecruitdlg/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is active slot 0..3; x2 flags (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 show dialog (1/0). Arguments are mutable. RD provides recruitment state.
 
@@ -56565,7 +57486,9 @@ ID `77023`; registered as `TRIGGER_OPEN_RECRUIT_DLG`. The name is confirmed by t
 
 # Opening a town (OnOpenTownScreen)
 
+ID: erm.triggers.onopentownscreen
 URL: /en/erm/triggers/onopentownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town when the window first opens.
 
@@ -56595,7 +57518,9 @@ ID `77032`; registered as `TRIGGER_OPEN_TOWN_SCREEN`. The name is confirmed by t
 
 # After a hero screen (OnPostHeroScreen)
 
+ID: erm.triggers.onpostheroscreen
 URL: /en/erm/triggers/onpostheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero after leaving their screen, including switches.
 
@@ -56625,7 +57550,9 @@ ID `77038`; registered as `TRIGGER_POST_HEROSCREEN`. The name is confirmed by th
 
 # After a town screen (OnPostTownScreen)
 
+ID: erm.triggers.onposttownscreen
 URL: /en/erm/triggers/onposttownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town after leaving its screen; covers closing and switching.
 
@@ -56655,7 +57582,9 @@ ID `77036`; registered as `TRIGGER_POST_TOWN_SCREEN`. The name is confirmed by t
 
 # Before a hero screen (OnPreHeroScreen)
 
+ID: erm.triggers.onpreheroscreen
 URL: /en/erm/triggers/onpreheroscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero before display, including switches.
 
@@ -56685,7 +57614,9 @@ ID `77037`; registered as `TRIGGER_PRE_HEROSCREEN`. The name is confirmed by the
 
 # Before a town screen (OnPreTownScreen)
 
+ID: erm.triggers.onpretownscreen
 URL: /en/erm/triggers/onpretownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town before display; covers opening and switching.
 
@@ -56715,7 +57646,9 @@ ID `77035`; registered as `TRIGGER_PRE_TOWN_SCREEN`. The name is confirmed by th
 
 # Recruitment action (OnRecruitDlgAction)
 
+ID: erm.triggers.onrecruitdlgaction
 URL: /en/erm/triggers/onrecruitdlgaction/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the number of creatures recruited, read-only. RD provides the current dialog configuration.
 
@@ -56745,7 +57678,9 @@ ID `77029`; registered as `TRIGGER_RECRUIT_DLG_ACTION`. The name is confirmed by
 
 # Recruitment mouse click (OnRecruitDlgMouseClick)
 
+ID: erm.triggers.onrecruitdlgmouseclick
 URL: /en/erm/triggers/onrecruitdlgmouseclick/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Read mouse context through CM and recruitment state through RD. Use CM:R0 to suppress the default reaction, rather than merely leaving the handler.
 
@@ -56776,7 +57711,9 @@ ID `77025`; registered as `TRIGGER_RECRUIT_DLG_MOUSE_CLICK`. The name is confirm
 
 # Recalculating recruitment cost (OnRecruitDlgRecalc)
 
+ID: erm.triggers.onrecruitdlgrecalc
 URL: /en/erm/triggers/onrecruitdlgrecalc/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is gold per creature; x2 extra resource 0..5 or -1; x3 amount of that resource per creature. All three values are mutable.
 
@@ -56806,7 +57743,9 @@ ID `77028`; registered as `TRIGGER_RECRUIT_DLG_RECALC`. The name is confirmed by
 
 # Reading save data (OnSavegameRead)
 
+ID: erm.triggers.onsavegameread
 URL: /en/erm/triggers/onsavegameread/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After ERM variables are restored. No arguments. Read custom sections here; pointers from the previous session are invalid.
 
@@ -56837,7 +57776,9 @@ ID `77002`; registered as `TRIGGER_SAVEGAME_READ`. The name is confirmed by the 
 
 # Writing save data (OnSavegameWrite)
 
+ID: erm.triggers.onsavegamewrite
 URL: /en/erm/triggers/onsavegamewrite/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After ERM variables are written. No arguments. Write custom save sections here; this is a different phase from GM1.
 
@@ -56867,7 +57808,9 @@ ID `77001`; registered as `TRIGGER_SAVEGAME_WRITE`. The name is confirmed by the
 
 # Stack-to-stack damage (OnStackToStackDamage)
 
+ID: erm.triggers.onstacktostackdamage
 URL: /en/erm/triggers/onstacktostackdamage/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state.
 
@@ -56897,7 +57840,9 @@ ID `77012`; registered as `TRIGGER_ONSTACKTOSTACKDAMAGE`. The name is confirmed 
 
 # Switching towns (OnSwitchTownScreen)
 
+ID: erm.triggers.onswitchtownscreen
 URL: /en/erm/triggers/onswitchtownscreen/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the selected town when switching inside the window.
 
@@ -56927,7 +57872,9 @@ ID `77034`; registered as `TRIGGER_SWITCH_TOWN_SCREEN`. The name is confirmed by
 
 # Town fort mouse click (OnTownFortMouseClick)
 
+ID: erm.triggers.ontownfortmouseclick
 URL: /en/erm/triggers/ontownfortmouseclick/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 CM context. Current registration uses OnTownFortMouseClick; the old OnTownHallMouseClick was renamed and is not registered as an alias. The supplied Framework still handles the old name: check version alignment when porting.
 
@@ -56958,7 +57905,9 @@ ID `77026`; registered as `TRIGGER_TOWN_FORT_MOUSE_CLICK`. The name is confirmed
 
 # Transferring a campaign hero (OnTransferHero)
 
+ID: erm.triggers.ontransferhero
 URL: /en/erm/triggers/ontransferhero/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the transferred hero, after ERM instructions and before PI. May include inactive campaign heroes; existence does not imply presence on the map.
 
@@ -56989,7 +57938,9 @@ ID `77049`; registered as `TRIGGER_TRANSFER_HERO`. The name is confirmed by the 
 
 # Winning the game (OnWinGame)
 
+ID: erm.triggers.onwingame
 URL: /en/erm/triggers/onwingame/
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 For a human victory, immediately before OnGameLeave in the current implementation. No arguments. Earlier behavior after OnGameLeave was fixed.
 
@@ -57020,7 +57971,9 @@ ID `77047`; registered as `TRIGGER_WIN_GAME`. The name is confirmed by the suppl
 
 # After ERM instructions (PI)
 
+ID: erm.triggers.pi
 URL: /en/erm/triggers/pi/
+Source references: old-help:tr-pi.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Runs after initialization instructions for a new map.
 
@@ -57080,7 +58033,9 @@ Does not fire when loading a save. Temporary resources need a load handler for r
 
 # Sound playback (SN)
 
+ID: erm.triggers.sn
 URL: /en/erm/triggers/sn/
+Source references: old-help:tr-sn.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Intercepts an attempt to play a WAV/M82 sound effect. SN provides the playback parameters.
 
@@ -57133,7 +58088,9 @@ MP3 uses the separate MP event. This handler may fire frequently and from differ
 
 # Town hall (TH)
 
+ID: erm.triggers.th
 URL: /en/erm/triggers/th/
+Source references: old-help:tr-th.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 enters the town hall; 1 leaves it. Changes can be associated with visiting the construction screen.
 
@@ -57145,7 +58102,7 @@ URL: /en/erm/triggers/th/
 <div class="erm-align-center erm-paragraph">
 <span class="erm-source-title">Trigger <strong>TH</strong> (town hall)</span></div>
 <br>
-<div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-th-red"></span><span class="erm-tone-red">!?TH#;</span> - triggered upon entering the town hall (prefecture, municipality, capitol).<br>
+<div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-tr-th-red"></span><span class="erm-tone-red">!?TH#;</span> - triggered upon entering the town hall (Town Hall, City Hall, or Capitol).<br>
 <span class="erm-tone-red">!?TH0;</span> - triggers when you enter it.<br>
 <span class="erm-tone-red">!?TH1;</span> - triggers when exiting it.</strong></div>
 <div class="erm-paragraph"><strong><u>Comment</u>:</strong><br>
@@ -57191,7 +58148,9 @@ Leaving the hall does not mean a building was constructed. Use OnBuildTownBuildi
 
 # Real-time timer (TL)
 
+ID: erm.triggers.tl
 URL: /en/erm/triggers/tl/
+Source references: old-help:tr-tl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Index 0 means 1 second, 1 means 2 seconds, 2 means 5 seconds, 3 means 10 seconds, and 4 means 60 seconds.
 
@@ -57261,7 +58220,9 @@ These are not game days. Do not treat wall-clock timing as an automatically sync
 
 # Game timer (TM)
 
+ID: erm.triggers.tm
 URL: /en/erm/triggers/tm/
+Source references: old-help:tr-tm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires for timer 1..100 previously configured with the TM receiver.
 
@@ -57308,7 +58269,9 @@ OnEveryDay fires before regular timers and needs no TM setup. Declaring !?TM doe
 
 # UN:C — memory access
 
+ID: erm.un-c
 URL: /en/erm/un-c/
+Source references: old-help:cont-unc.htm, old-help:cont-unc-lib.htm, erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, era-source:erm.pas
 
 Data widths, pointers, relocatable bases and historical recipes.
 
@@ -57422,7 +58385,7 @@ Let's take a closer look at the parameters:<br>
 <strong>$3</strong> - this is the parameter itself, which we intend to change in order to achieve some kind of “bun”. This parameter can have either a positive or negative value.<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!UN:C7783293/4/37; Commander Paladin (spell "Cure")</code></pre>
-In the WoG game code at <em class="erm-tone-purple erm-legacy-event">76C37D</em> installed spell No. 25h for the Paladin commander. These addresses have a hexadecimal number system. 
+In the WoG game code at <em class="erm-tone-purple erm-legacy-event">76C37D</em> set spell No. 25h for the Paladin commander. These addresses have a hexadecimal number system. 
 The UN:C command only supports the decimal system. Converting these numbers to decimal is not difficult: 
 turn on a regular Windows calculator, click "View→Programmer", check the "Hex" box, enter "76C37D", 
 after that press "Dec". As a result, the result will be represented by the number 7783293. So we have learned how to convert a hexadecimal number to a decimal ;-)<br>
@@ -57796,10 +58759,10 @@ P.S. this is the SOD section (which means this problem exists on all versions of
 6 - Left ring / Right ring [locks = 0…2]
 7 - Legs
 8 - Miscellaneous 5…1 [locks = 0…5]
-9 - Ballista (specialty X1)
+9 - Ballista
 10 - Ammo cart
 11 - First aid tent
-12 - Catapult (specialty X1) (figurines, I’m always with you)
+12 - Catapult (figurines, I’m always with you)
 13 - Book of Spells</pre></div></details><br><br>
 
 <pre class="erm-example"><code class="language-erm">; Hiring Heroes
@@ -58378,7 +59341,9 @@ Cards are rewritten historical recipes with attribution and source-based address
 
 # Spell power inside combat
 
+ID: erm.un-c.battle-spell-power
 URL: /en/erm/un-c/battle-spell-power/
+Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html, era-framework:lib-9999-era---consts.erm
 
 Attacker and defender spell-power fields live in the combat manager. This example reads them without changing permanent hero skills.
 
@@ -58415,7 +59380,9 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 
 # Reading beam color
 
+ID: erm.un-c.beam-color
 URL: /en/erm/un-c/beam-color/
+Source references: erm-forum:faq-.html
 
 For unmodified h3wog.exe: creatures 35..121; 0 green, 1 white, 2 black.
 
@@ -58451,7 +59418,9 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 
 # Commander structure
 
+ID: erm.un-c.commander-structure
 URL: /en/erm/un-c/commander-structure/
+Source references: erm-forum:un-c-page-1.html, old-help:form-commstr.htm
 
 Historical base 42344640, record stride 296 bytes. Reads current experience without modifying the structure.
 
@@ -58548,7 +59517,9 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 
 # Grail coordinates
 
+ID: erm.un-c.grail-coordinates
 URL: /en/erm/un-c/grail-coordinates/
+Source references: erm-forum:un-c-page-3.html
 
 Reads Grail data through the game-manager pointer. Latin y variables replace accidental Cyrillic lookalikes in the original post.
 
@@ -58587,7 +59558,9 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 
 # Reading projectile type
 
+ID: erm.un-c.projectile-type
 URL: /en/erm/un-c/projectile-type/
+Source references: erm-forum:faq-.html, old-help:form-weapon.htm
 
 For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value.
 
@@ -58627,7 +59600,9 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 
 # Reading game resolution
 
+ID: erm.un-c.screen-size
 URL: /en/erm/un-c/screen-size/
+Source references: erm-forum:un-c-page-1.html
 
 Reads width and height from the two-byte fields used by the legacy HD implementation.
 
@@ -58662,7 +59637,9 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 
 # Town building-cost tables
 
+ID: erm.un-c.town-building-cost
 URL: /en/erm/un-c/town-building-cost/
+Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html
 
 Reads seven resource costs: common buildings 0..16, special buildings 17..25, dwellings 30..43.
 
@@ -58713,7 +59690,9 @@ This example skips positions 26–29: the Grail and reserved positions are outsi
 
 # Variables, strings and arrays
 
+ID: erm.variables
 URL: /en/erm/variables/
+Source references: old-help:cont-flags.htm, old-help:cont-usedvar.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm
 
 Data types, scope, named variables, flags and array lifetimes.
 
@@ -58731,8 +59710,8 @@ Data types, scope, named variables, flags and array lifetimes.
 ERM scripts can be written without using flags and variables, but this will be a purely local approach.</div>
 
 <h3><span class="erm-anchor" id="ref-cont-flags-fl"></span>Conditional flags</h3>
-<div class="erm-paragraph">A flag is a conditional lever that has a True (1) or False (0) position. Like binary numbers, they have only two meanings. 
-At the beginning, all flags are set to False (0). The value 1 (True) is usually called "installed", 0 (false) - "not installed".</div>
+<div class="erm-paragraph">A flag is a Boolean variable with two possible values: True (1) and False (0). 
+At the beginning, all flags are set to False (0). The value 1 (True) is usually called "set", 0 (false) - "clear".</div>
 
 <h4><span class="erm-anchor" id="ref-cont-flags-fl-set"></span>Setting flags</h4>
 <div class="erm-paragraph">There are 1000 conditional flags in ERM and each of them has its own number from 1 to 1000. 
@@ -58786,7 +59765,7 @@ if there is no local event there (in the location defined by the LE command) (re
 = 1 (true) if this is an online battle.</div>
 <div class="erm-paragraph">If <strong>flag 997</strong>=1, then <strong>flag 998</strong>=0, AI is attacking a human player on another computer.<br>
 Note that the battle only starts on one PC, but that PC is remote from the current active player.<br>
-Flag <strong>998=1</strong>, if the battle is Man on Man. Here we have a real multiplayer battle.</div>
+Flag <strong>998=1</strong>, if the battle is human versus human. This identifies a multiplayer battle.</div>
 <div class="erm-paragraph">You can use both flags in BA0 or BA50 triggers, for example:
 <pre class="erm-example"><code class="language-erm">!?BA0&amp;997/998; The script will work if it is a Human vs. Human battle (multiplayer)
 ...</code></pre></div>
@@ -58831,7 +59810,7 @@ The rest must be compared by writing to a variable, because they are evaluated i
 In most cases, variables are used instead of any number. Also, the contents of the variables (set values) 
 can be changed at any time by simply setting a new value. There are several other different types of variables that can be used for different tasks in a script.</div>
 <div class="erm-paragraph">If a command parameter is shown as $, this means that this value can be written to a variable. If the parameter is shown as #, it means 
-that it can only be installed, but not read. And if it is shown as ?$, this means that the parameter can be read, but not set.</div>
+that it can only be set, but not read. And if it is shown as ?$, this means that the parameter can be read, but not set.</div>
 
 <h4><span class="erm-anchor" id="ref-cont-flags-var-typ"></span>Variable types and their possible values</h4>
 <div class="erm-paragraph">a - not yet used<br>
@@ -58873,7 +59852,7 @@ or a type or subtype of any object. To set a value through this path, a question
 <pre class="erm-example"><code class="language-erm">!!OW:R3/4/?v12;</code></pre></div>
 <div class="erm-paragraph">The third way to set a variable is by internal reference. Some ERM commands require a number <em>v</em> or <em>z</em>-a variable, not a letter. 
 In this case, instead of using a question mark, you simply enter the parameter number and the value of the command for that variable 
-(for example, if a team needs a number for <em>v</em>-variable, you set the value 17, which will be set to the variable v17).</div>
+(for example, if a command needs a number for <em>v</em>-variable, you set the value 17, which will be set to the variable v17).</div>
 
 <h4><span class="erm-anchor" id="ref-cont-flags-var-us"></span>Using Variables Instead of Numbers</h4>
 <div class="erm-paragraph">Since you can set the values of variables, you can use those variables instead of numbers in your code. Almost anywhere you can just enter a number, 
@@ -58924,12 +59903,12 @@ The complete condition will be: (c1 AND c2 AND c3) OR c4 OR c5 OR c6<br>
 but certain commands require a number <em>v</em>-a variable to record the result. Both types are used to write integer values.</div>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-cont-flags-w"></span>Hero Variables (w1..w200)</strong> store the same type of information as <em>v</em>-variables, but they are unique for each hero, 
 That is two different heroes can have different values ​​written in their w1 variables (or w2, w10 or more... up to w200). 
-To install or test one or more <em>w</em>-variables, you must first set the number of the hero whose value will be taken with the command IF:W.<br>
-For example, if you want to install or test w5 hero 27 (Jem), you must first insert<pre class="erm-example"><code class="language-erm">!!IF:W27;</code></pre>in front of the receiver(s) operating with the variable w5.<br>
+To set or test one or more <em>w</em>-variables, you must first set the number of the hero whose value will be taken with the command IF:W.<br>
+For example, to set or check w5 for hero 27 (Gem), you must first insert<pre class="erm-example"><code class="language-erm">!!IF:W27;</code></pre>in front of the receiver(s) operating with the variable w5.<br>
 For the current hero, use -1 instead of a number. Yes,<pre class="erm-example"><code class="language-erm">!!IF:W-1;</code></pre>
 means that the next calls to the w variables are for the current hero (before using another command IF:W)<br>
 See also: <a href="../receivers/if/#ref-rec-if-w">IF:W</a>, <a href="../receivers/vr/#ref-rec-vr">receiver VR</a><br>
-</div><blockquote class="erm-tone-quote erm-note"><strong>Exception:</strong> team <a href="../receivers/ht/#ref-rec-ht-w">!!HT:W</a>, where only the first 100 can be used <em>w</em>-variables.</blockquote>
+</div><blockquote class="erm-tone-quote erm-note"><strong>Exception:</strong> command <a href="../receivers/ht/#ref-rec-ht-w">!!HT:W</a>, where only the first 100 can be used <em>w</em>-variables.</blockquote>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-cont-flags-x"></span>Variables - function parameters (x1..x16)</strong> also store the same value types as the variables v and w (numeric). 
 But these variables exist only inside functions (code after the function trigger) and pass values ​​into the function using the P command (P - parameters). 
 See <a href="../receivers/fu/#ref-rec-fu">receiverFU</a> for detailed information about functions. If you call a function from another function, any <em>x</em>-variables that were not set (as new parameters), 
@@ -58991,7 +59970,7 @@ Just like regular ones <em>z</em>-variables, they are limited to 512 characters.
 
 <h4><span class="erm-anchor" id="ref-cont-flags-var-spec"></span>Special Variables</h4>
 <div class="erm-paragraph">There are several variables in ERM that have special meaning. Like flags 1 and 1000, special variables can be set as you wish at any time, 
-but this is not recommended, because there is a risk that other teams may use them.</div>
+but this is not recommended, because there is a risk that other commands may use them.</div>
 <div class="erm-paragraph"><strong>Variable v1</strong> used to record the result of some commands. This is not a common occurrence, you can use it in your scripts to store an expression, 
 but for a short time; in other words, do not set a value to the variable v1 if you want to keep its value unchanged for a long time.</div>
 <div class="erm-paragraph"><strong>Variable z1</strong> used to record text entered by the player in the extended dialog window. If you are not using advanced dialog boxes, 
@@ -59099,7 +60078,7 @@ resetting them to 0, and after executing the last receiver, restores them back.<
 <h3><span class="erm-anchor" id="ref-cont-flags-add"></span>Additional examples:</h3>
 <span class="erm-anchor" id="ref-cont-flags-q1"></span><div class="erm-tone-quote erm-note erm-paragraph"><em class="erm-strong">How to use hero variables?</em></div>
 <div class="erm-paragraph">To use <em>w</em>-variables, you must first use the command !!IF for the hero you want to change or learn from (use -1 for the current hero). 
-By using this command, everything <em>w</em>-variables are further searched for the specified hero until you change the hero. Use this command before installation, 
+By using this command, all <em>w</em>-variables refer to the selected hero until you change the hero. Use this command before setting, 
 testing or inspection <em>w</em>-variables. So if you need to use <em>w</em>-hero variables #147 (Dracon), the command will be as follows:
 <pre class="erm-example"><code class="language-erm">!!IF:W147;</code></pre>
 Then you can set the w1 variable exactly like you would any other variable (see example below).</div>
@@ -59422,7 +60401,7 @@ Other variables can be used elsewhere, but will clutter up the code.<br>
 <strong>Author:</strong> Bruno<br>
 <strong>WoG option number:</strong> 110<br>
 <strong>Object:</strong> type 63, subtype: 14 (Mushrooms Air), 18 (Mushrooms Water), 23 (Mushrooms Earth) and 29 (Mushrooms Fire) (<a href="../tables/wog-object-variants/#ref-form-newobj-10" data-context="true">see</a>)<br>
-<strong>Variables:</strong> v1-v3 for local use,<br>w20-w27 to record the skills of the heroes who visited the mushroom,<br>
+<strong>Variables:</strong> v1-v3 for local use,<br>w20-w27 to record the skills of heroes who visited the mushroom,<br>
 z11-z17 and z159 for help texts<br>
 <strong>Functions:</strong> FU10-FU11</div></details>
 <br>
@@ -59704,7 +60683,7 @@ and also S and V3 for mines (V3 is used for compatibility with the future Mithri
 <strong>Flags:</strong> (1, 9, 10), 172, 410, 870-874<br>
 <strong>Timers:</strong> TM99<br>
 <strong>Functions:</strong> FU709, FU8170-FU8189<br>
-PO:N numbers are installed at the entrances to mines, water mills and windmills.</div></details>
+PO:N numbers are set at the entrances to mines, water mills and windmills.</div></details>
 <br>
 ⇒ <span class="erm-tone-purple">CHANGED CREATURES</span>, <span class="erm-tone-red">script37.erm</span> ()<span class="erm-anchor" id="ref-cont-usedvar-38"></span><details class="erm-comment"><summary>show</summary><div class="erm-comment-body">
 <strong>Author:</strong> Steven<br>
@@ -59920,7 +60899,7 @@ Objects: type 63, subtype 22 (<a href="../tables/wog-object-variants/#ref-form-n
 ⇒ <span class="erm-tone-purple">LANDSCAPE PASSABILITY</span>, <span class="erm-tone-red">script63.erm</span> ()<span class="erm-anchor" id="ref-cont-usedvar-65"></span><details class="erm-comment"><summary>show</summary><div class="erm-comment-body">
 <strong>Author:</strong> Timothy<br>
 <strong>WoG option number:</strong> 63<br>
-<strong>Object:</strong> temporary installation of signs (type 91)<br>
+<strong>Object:</strong> temporary setting of signs (type 91)<br>
 <strong>PO Numbers:</strong> B0, B1 (trees)<br>
 <strong>Constant Variables:</strong> v1270, v1272-v1275, w79<br>
 <strong>Temporary Variables:</strong> v1-v4, z1<br>
@@ -60014,7 +60993,7 @@ z1-z3, z78-z90 temporarily, w81-w83 (note: also used by Robert's War Machines sc
 <strong>Author:</strong> Bonizag<br>
 <strong>WoG option number:</strong> 73<br>
 <strong>Object:</strong> expanded creature stacks (Object 54)<br>
-<strong>PO Numbers:</strong> H, O (Combat Vehicle Factory), T (Towns)<br>
+<strong>PO Numbers:</strong> H, O (War machine Factory), T (Towns)<br>
 <strong>Variables:</strong> v847, v850-v859, v862-v880, v883 for long-term storage, v1-v3, v7800-v7956 temporary,<br>
 z1-z3, z78-z90 temporary, w81-w83 (note: also used by Robert's War Machines script)<br>
 <strong>Flags:</strong> 781, 783-790 for long-term storage, 2,3,4 temporary<br>

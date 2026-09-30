@@ -26,6 +26,7 @@
 }
 
 .topbar > .search-trigger { flex: 0 1 430px; width: 430px; min-width: 0; }
+.topbar > .radix-widget,
 .topbar > .language-menu,
 .topbar > .icon-button,
 .topbar > .github-link { flex: 0 0 auto; }
@@ -105,11 +106,12 @@
   .topbar { justify-content: space-between; padding: 0 var(--space-5); }
   .topnav,
   .topbar > .search-trigger,
+  .topbar > .radix-widget,
   .topbar > .language-menu,
   .theme-button,
   .github-link { display: none; }
-  .mobile-search-row { display: block; flex: 0 0 auto; padding: var(--space-3) var(--space-5); position: relative; z-index: 45; background: var(--header-background, var(--surface-glass)); border-bottom: 1px solid var(--border); }
-  .mobile-search-row .search-trigger { width: 100%; min-height: 48px; }
+  .mobile-search-row { display: flex; align-items: center; gap: var(--space-3); flex: 0 0 auto; padding: var(--space-3) var(--space-5); position: relative; z-index: 45; background: var(--header-background, var(--surface-glass)); border-bottom: 1px solid var(--border); }
+  .mobile-search-row .search-trigger { flex: 1; min-height: 48px; }
   .mobile-search-row .search-trigger kbd { display: none; }
   .erm-grid .article-body [id] { scroll-margin-top: 1.5rem; }
   .site-grid { display: block; }

@@ -16,7 +16,7 @@
 - mine in X Y L.</strong> Mines - <a href="../../tables/mines/#ref-form-mines" data-context="true">type 53</a>, <a href="../../tables/objects/#ref-form-objects" data-context="true">type 220</a>.<em><br>
 Note:</em> The Lighthouse and the Mine (including the Abandoned Mine) have the same <a href="../../tables/object-control-words/#ref-cont-conwords-t42">control words</a>, 
 and the Beacon can be edited via !!MN. Its resource (MN:R) has the number 100. If you set the number 0..6, then the Lighthouse will begin to bring resources, 
-like a mine :)  The lighthouse guards are ignored.<br>It is also interesting to change the security of an abandoned mine - 
+like a mine :)  The lighthouse guards are ignored.<br>It is also interesting to change the guards of an abandoned mine - 
 after the standard message about troglodytes, a fight will occur with the specified creatures in the specified numbers. 
 If the guards are removed, the mine is taken without a fight.</div>
 <hr>

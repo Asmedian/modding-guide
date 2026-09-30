@@ -43,7 +43,7 @@
    // <strong class="erm-tone-red">+5C</strong> dd? hero slot number (0..6), -1 → will be deleted after the battle
    // <strong class="erm-tone-red">+60</strong> dd? strength at the beginning of the battle
    // <strong class="erm-tone-red">+64</strong> dd? base speed with bonuses of land, specialists, etc. (<a href="../../receivers/bm/#ref-rec-bm-u6">BM:U6</a>)
-   // <strong class="erm-tone-red">+6C</strong> dd? full health (Spanish as a basis for treatment)
+   // <strong class="erm-tone-red">+6C</strong> dd? full health (used as the basis for healing)
    // <strong class="erm-tone-red">+70</strong> dd <em class="erm-tone-purple erm-legacy-event">44150F</em> <em class="erm-tone-purple erm-legacy-event">441744</em> (dropped Luck)
    // loaded copy of H3CreatureInfo
    // <strong class="erm-tone-red">+74</strong> dd creature faction (-1 for advanced elementals)
@@ -68,7 +68,7 @@
 // 00004000 - 0x0E ??? IMMUNITY TO FIRE SPELLS
 // 00008000 - 0x0F shoots twice
 // 00010000 - 0x10 attack without response
-// 00020000 - 0x11 ... not subject to low morality (?)
+// 00020000 - 0x11 ... not subject to low morale (?)
 // Creatures 32,33,56-69,112-117,120,121,123,125,127,129,141,145-149
 // 00040000 - 0x12 evil spirits
 // 00080000 - 0x13 hits all nearby enemies
@@ -101,7 +101,7 @@
    // <strong class="erm-tone-red">+DC</strong> dd = number of spells (0 = none) FOR RESURRECTION INCREASE
    // Stack state flags dd ?
    // <strong class="erm-tone-red">+E8</strong> db = 1, you need to hit with a Fire Shield (ifrits do not display it)
-   // <strong class="erm-tone-red">+E9</strong> db = 1, if at least someone in the squad died
+   // <strong class="erm-tone-red">+E9</strong> db = 1, if at least someone in the stack died
    // <strong class="erm-tone-red">+EA</strong> db = 1 if the entire stack was killed
    // <strong class="erm-tone-red">+EC</strong> dd = number of the creature's current spell. round (0x50 Acid Breath)
    // <strong class="erm-tone-red">+F0</strong> db = 1 before attacking it <em class="erm-tone-purple erm-legacy-event">441434</em>, <em class="erm-tone-purple erm-legacy-event">44016F</em>
@@ -206,7 +206,7 @@
 // <strong class="erm-tone-red">+2C8</strong> dd = Cloud of Death
 // <strong class="erm-tone-red">+2CC</strong> dd = Lightning Strike
 // <strong class="erm-tone-red">+2D0</strong> dd = Remove useful spells
-// <strong class="erm-tone-red">+2D4</strong> dd = Death Glare
+// <strong class="erm-tone-red">+2D4</strong> dd = Death Stare
 // <strong class="erm-tone-red">+2D8</strong> dd = Acid breath</blockquote></div></details>
    // <strong class="erm-tone-red">+2DC</strong> dd*? <span class="erm-anchor" id="ref-form-combatmon-3"></span><details class="erm-comment"><summary>spell power</summary><div class="erm-comment-body"><blockquote class="erm-margin-top-zero erm-note">
 // <strong class="erm-tone-red">+2DC</strong> dd = Summon Boat
@@ -290,7 +290,7 @@
 // <strong class="erm-tone-red">+40C</strong> dd = Cloud of Death
 // <strong class="erm-tone-red">+410</strong> dd = Lightning Strike
 // <strong class="erm-tone-red">+414</strong> dd = Remove useful spells
-// <strong class="erm-tone-red">+418</strong> dd = Death Glare
+// <strong class="erm-tone-red">+418</strong> dd = Death Stare
 // <strong class="erm-tone-red">+41C</strong> dd = Acid breath</blockquote></div></details>
    // <strong class="erm-tone-red">+420</strong> dd Spell Influence Queue
    // <strong class="erm-tone-red">+44C</strong> dd Number of active spells (to display when clicked <span class="erm-anchor" id="ref-form-combatmon-vc"></span><img src="../../../../assets/erm/c199f8a8094f5607.gif" alt="Right mouse button" loading="lazy" decoding="async" class="erm-figure erm-inline-icon">)

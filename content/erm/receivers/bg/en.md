@@ -31,9 +31,9 @@ steps to cancel)<br>
              6 – go and attack<br>
              7 – shoot<br>
              8 – wait<br>
-             9 – wall attack (Catapult (specialty X1), Cyclops)<br>
+             9 – wall attack (Catapult, Cyclops)<br>
              10 – creature casts spell (Fairytale dragon)<br>
-             11 – First aid tent (treatment)<br>
+             11 – First Aid Tent (healing)<br>
              12 – no action (can be used as a waste of a unit’s turn)<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-bg-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-bg-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Attacking castle towers is considered normal shooting. You can check the shooting towers via <a href="../mf/#ref-rec-mf-w">MF:W</a>.<br>
@@ -59,7 +59,7 @@ If used in a trigger <a href="../../triggers/bg/#ref-tr-bg">!?BG1</a>, returns t
 Current walking side: left (0) or right (1). Only receive or check.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-bg-s"></span><span class="erm-anchor" id="command-s"></span><span class="erm-tone-red"><strong>S$</strong></span><br>
-Number of the person being conjured <a href="../../tables/spells/#ref-form-spell" data-context="true">spells</a><br>
+ID of the spell being cast <a href="../../tables/spells/#ref-form-spell" data-context="true">spells</a><br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-bg-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-bg-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 If creature casts spell before an action (Sorcerers or Trolls (regeneration)), it goes <a href="../../triggers/#ref-era-new-events-2-7">before the trigger</a>.<br>
 If creature comes up to attack, then this option allows you to get the cell number where he will attack from. 
@@ -71,7 +71,7 @@ The number of the spell cast by creature is always -1.
 !!BG:A10; casts creature
 !!BG:S?v1; the value in v1 will always be -1</code></pre>
 
-An example of how you can force a creature with spell to conjure it:
+Example: force a creature with a spell to cast it:
 <pre class="erm-example"><code class="language-erm">!!BG:A10 S-1 Dx1; At position x1 there should be an object on which magic is cast</code></pre>
 </div></details>
 <hr>

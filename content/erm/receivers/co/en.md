@@ -19,7 +19,7 @@
          # = -2 – apply to all commanders<br>
          # = -1 – apply to the current commander (for the current hero)<br>
          # ≥ 0 – apply to a specific commander (corresponding to the hero number)</div>
-<span class="erm-anchor" id="ref-rec-co-q1"></span><div class="erm-tone-quote erm-note erm-paragraph"><u>See also</u>: trigger <a href="../../triggers/co/#ref-tr-co">!?CO</a>, <a href="../../un-c/commander-structure/#ref-form-commstr" data-context="true">Commander structure</a>, team <a href="../un/#ref-rec-un-j13">!!UN:J13</a>.</div>
+<span class="erm-anchor" id="ref-rec-co-q1"></span><div class="erm-tone-quote erm-note erm-paragraph"><u>See also</u>: trigger <a href="../../triggers/co/#ref-tr-co">!?CO</a>, <a href="../../un-c/commander-structure/#ref-form-commstr" data-context="true">Commander structure</a>, command <a href="../un/#ref-rec-un-j13">!!UN:J13</a>.</div>
 <div class="erm-paragraph"><u></u></div><span class="erm-anchor" id="ref-rec-co-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-co-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 All commanders placed on the map using ERM have the same secondary and primary skills (but abilities vary depending on their type). 
 In fact, this is one Commander with different capabilities. If you have not set any parameters for these commanders, they will have the standard parameters for the start of the game. 

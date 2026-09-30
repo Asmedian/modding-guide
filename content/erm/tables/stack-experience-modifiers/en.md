@@ -7,7 +7,7 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Creature Experience: Standard Modifications</span>
-</div><span class="erm-anchor" id="ref-form-specexp5-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4<br>
+</div><span class="erm-anchor" id="ref-form-specexp5-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-specexp5-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -16,7 +16,7 @@ See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 	<td>+</td><td>Add</td><td>43</td></tr>
 <tr>
 	<td><span class="erm-tone-red">=</span></td>
-	<td><span class="erm-tone-red">Install</span></td>
+	<td><span class="erm-tone-red">Set</span></td>
 	<td><span class="erm-tone-red">61</span></td></tr>
 <tr>
 	<td>%</td><td>Interest</td><td>37</td></tr></table></div>

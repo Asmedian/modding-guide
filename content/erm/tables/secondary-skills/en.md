@@ -110,10 +110,10 @@ IDs from the standard WoG set. These numbers identify entries in this table, not
 
 | ID | HEX | Name |
 | --- | --- | --- |
-| `0` {#id-0} | `0` | Attack |
-| `1` {#id-1} | `1` | Defense |
-| `2` {#id-2} | `2` | Power |
-| `3` {#id-3} | `3` | Knowledge |
+| `0` {#id-0} | `0` | Pathfinding |
+| `1` {#id-1} | `1` | Archery |
+| `2` {#id-2} | `2` | Logistics |
+| `3` {#id-3} | `3` | Scouting |
 | `4` {#id-4} | `4` | Diplomacy |
 | `5` {#id-5} | `5` | Navigation |
 | `6` {#id-6} | `6` | Leadership |

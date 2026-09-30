@@ -7,7 +7,7 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Bits of the visited object</span></div>
-<span class="erm-anchor" id="ref-form-he-r-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/he/#ref-rec-he-r7">HE:R7</a><br>
+<span class="erm-anchor" id="ref-form-he-r-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/he/#ref-rec-he-r7">HE:R7</a><br>
 See also <a href="../objects/#ref-form-objects">Object table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-he-r-n2"></span><tr class="erm-tone-purple erm-strong">		
@@ -69,7 +69,7 @@ See also <a href="../objects/#ref-form-objects">Object table</a></div>
 	<td>???</td></tr>
 <tr>
 	<td class="erm-align-center">18</td>
-	<td>In a boat (install only if hero is on the water, otherwise the game will crash)</td></tr>
+	<td>In a boat (set only if hero is on the water, otherwise the game will crash)</td></tr>
 <tr>
 	<td class="erm-align-center">19</td>
 	<td>???</td></tr>
@@ -118,7 +118,7 @@ See also <a href="../objects/#ref-form-objects">Object table</a></div>
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Object Types</span></div>
-<span class="erm-anchor" id="ref-form-he-v-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V</a></div>
+<span class="erm-anchor" id="ref-form-he-v-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 	<tr>
 		<td width="15%"><span class="erm-tone-purple"><strong>Number</strong></span></td>

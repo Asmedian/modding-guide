@@ -47,7 +47,7 @@ Artifact Bonus<br>
 <span class="erm-tone-red"><strong>B4/$</strong></span> 
 - remove artifact at position $ in the bonus table<br>
 <u></u> </div><span class="erm-anchor" id="ref-rec-le-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-le-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-There is, of course, a team <a href="./#ref-rec-le-a">LE:A</a>, but with its help you can only CHANGE artifacts in the bonus table. This new command allows you to install, 
+There is, of course, a command <a href="./#ref-rec-le-a">LE:A</a>, but with its help you can only CHANGE artifacts in the bonus table. This new command allows you to set, 
 add and remove artifact from local events and Pandora's Boxes.<br>
 You can make a virtually unlimited artifact table for any local event or Pandora's Box.<br>
 You cannot set the scroll as artifact, the game will “understand” this is not correct and will crash.</div></details>
@@ -76,7 +76,7 @@ Set/check/get four
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-le-g"></span>G#1/$2/$3</strong></span><br>
 Set/check/get
-	<a href="../../tables/creatures/#ref-form-creature" data-context="true">security guards</a> in position #1 (0..6) type $2 and quantity $3<br>
+	<a href="../../tables/creatures/#ref-form-creature" data-context="true">guards</a> in position #1 (0..6) type $2 and quantity $3<br>
 The command only sets up the guards, but does not turn them on.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>

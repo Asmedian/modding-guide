@@ -7,7 +7,7 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Types of pictures</span></div>
-<span class="erm-anchor" id="ref-form-picts-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
+<span class="erm-anchor" id="ref-form-picts-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/if/#ref-rec-if-q">IF:Q</a></span>
 </div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-second-center" width="100%">
 	<span class="erm-anchor" id="ref-form-picts-n2"></span><tr class="erm-tone-purple erm-strong">
@@ -63,7 +63,7 @@
 	<tr>
 		<td>Moral<br><small>negative</small></td>
 		<td>16</td>
-		<td>- morality</td>
+		<td>- morale</td>
 	</tr>
 	<tr>
 		<td>Experience</td>

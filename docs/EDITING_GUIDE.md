@@ -57,11 +57,13 @@ Run `npm run prepare:content`. This regenerates:
 
 - `src/lib/generated/search-index.ts`;
 - `src/lib/generated/symbol-index.json`;
-- `static/llm/manifest.json`;
+- `static/llm/manifest.json`, `sources.json`, and `reference.json`;
 - `static/llm/{ru,en}/{docs,erm,plugins}.md`;
 - `static/llms.txt` and `static/llms-full.txt`.
 
 It also refreshes anchored search segments. Search snippets are generated from the section containing the match, so do not remove explicit `{#section-id}` anchors. Do not edit generated files directly.
+
+The LLM manifest retains article relationships and `sectionSources`; its source and reference files make source IDs and ERM symbol metadata independently resolvable. Keep all six locale/section bundles linked from the LLM map.
 
 The generated TypeScript search corpus is a deterministic development fallback only. Production search loads Pagefind after the user enters at least two characters; never import `search-index.ts` or `symbol-index.json` eagerly into the application shell. Keep `src/app.html` navigation preloading on `tap` so merely hovering the large reference navigation cannot download another page.
 

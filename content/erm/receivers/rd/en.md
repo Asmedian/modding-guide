@@ -135,7 +135,7 @@ In the hiring dialog, you can shift all slots by a specified number of positions
 If a slot goes beyond the boolean values (0..3), it disappears.<br>
 The shift is performed while saving all settings (type, quantity, source)<br>
 <strong></strong><br></div><span class="erm-anchor" id="ref-rec-rd-15"></span><details class="erm-comment"><summary>Examples (<span class="erm-anchor" id="ref-rec-rd-show15"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-<u>Example 1</u>. We have 0..1 slots with ordinary and improved creatures (the source is not important):<br>
+<u>Example 1</u>. We have 0..1 slots with ordinary and upgraded creatures (the source is not important):<br>
 <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature A</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature B</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">slot is empty</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">slot is empty</strong><br>
 It is necessary to prepare two custom slots with Angels/Archangels in them.
 <pre class="erm-example"><code class="language-erm">!!RD:S2;
@@ -143,7 +143,7 @@ It is necessary to prepare two custom slots with Angels/Archangels in them.
 We get the following:<br>
 <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">2 angels</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">2 Archangels</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature A</strong> <strong class="erm-tone-purple erm-legacy-code-box erm-inline-code">creature B</strong>.<br>
 <br>
-<u>Example 2</u>. Remove the 1st slot with improved creatures and leave only unimproved ones.
+<u>Example 2</u>. Remove the 1st slot with upgraded creatures and leave only unupgraded ones.
 <pre class="erm-example"><code class="language-erm">!!RD:C0/?t/?t/?y2; in y2 source value for the 1st slot, t - temporary fast variable
 !!VRy2:%14; We calculate the housing identifier 0..13. If improved, then y2&gt;=7 
 !!RD&amp;y2&gt;=7:S-1; shift 1 slot to the left if the 1st slot has a source of improved housing in the town</code></pre></div></details>

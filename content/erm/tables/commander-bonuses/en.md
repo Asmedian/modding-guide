@@ -78,7 +78,7 @@
 	<tr>
 		<td>4096</td>
 		<td>12</td>
-		<td>Damage + Magic Power = death glare</td>
+		<td>Damage + Magic Power = Death Stare</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">8192</span></td>

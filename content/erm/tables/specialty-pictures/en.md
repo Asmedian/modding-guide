@@ -9,7 +9,7 @@
 <div>
 <span class="erm-anchor" id="ref-form-heroesspec-text"></span><div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Pictures of heroes' specialties</span></div>
-<span class="erm-anchor" id="ref-form-heroesspec-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the team <a href="../../receivers/un/#ref-rec-un-g2">UN:G2</a></span><br>
+<span class="erm-anchor" id="ref-form-heroesspec-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note"><span>Used by the command <a href="../../receivers/un/#ref-rec-un-g2">UN:G2</a></span><br>
 See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 
 <div class="table-wrap erm-reference-table"><table width="100%">
@@ -36,7 +36,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Swordsmen (Sorsha)</span></td></tr>
 <tr>
 	<td>6</td>
-	<td>Ballista (specialty X1) (Christian)</td></tr>
+	<td>Ballista (Christian)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">7</span></td>
 	<td><span class="erm-tone-red">Cavalrymen (Tyris)</span></td></tr>
@@ -126,7 +126,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Armorer (Nella)</span></td></tr>
 <tr>
 	<td>36</td>
-	<td>Ballista (specialty X1) (Torosar)</td></tr>
+	<td>Ballista (Torosar)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">37</span></td>
 	<td><span class="erm-tone-red">Naga (Fafner)</span></td></tr>
@@ -180,7 +180,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Gogi (Calh)</span></td></tr>
 <tr>
 	<td>54</td>
-	<td>Ballista (specialty X1) (Pyre)</td></tr>
+	<td>Ballista (Pyre)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">55</span></td>
 	<td><span class="erm-tone-red">Spawns of Evil (Nymus)</span></td></tr>
@@ -261,7 +261,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Harpies (Lorelei)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">81</span></td>
-	<td><span class="erm-tone-red">Ballista (specialty X1) (Arlach)</span></td></tr>
+	<td><span class="erm-tone-red">Ballista (Arlach)</span></td></tr>
 <tr>
 	<td>82</td>
 	<td>Minotaurs (Dace)</td></tr>
@@ -309,7 +309,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Cyclops (Yog)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">97</span></td>
-	<td><span class="erm-tone-red">Ballista (specialty X1) (Gurnisson)</span></td></tr>
+	<td><span class="erm-tone-red">Ballista (Gurnisson)</span></td></tr>
 <tr>
 	<td>98</td>
 	<td>Orcs (Jabarkas)</td></tr>
@@ -372,7 +372,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Serpents (Korbac)</span></td></tr>
 <tr>
 	<td>118</td>
-	<td>Ballista (specialty X1) (Gerwulf)</td></tr>
+	<td>Ballista (Gerwulf)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">119</span></td>
 	<td><span class="erm-tone-red">Wyverns (Bronhild)</span></td></tr>
@@ -461,10 +461,10 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Swordsmen (Catherine)</td></tr>
 <tr>
 	<td><span class="erm-tone-red">147</span></td>
-	<td><span class="erm-tone-red">Sorcerers (Dracon)</span></td></tr>
+	<td><span class="erm-tone-red">Enchanters (Dracon)</span></td></tr>
 <tr>
 	<td>148</td>
-	<td>Snipers (Gelu) </td></tr>
+	<td>Sharpshooters (Gelu) </td></tr>
 <tr>
 	<td><span class="erm-tone-red">149</span></td>
 	<td><span class="erm-tone-red">Ancient Creatures (Kilgor)</span></td></tr>
@@ -532,7 +532,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Battle Dwarf</span></td></tr>
 <tr>
 	<td>170</td>
-	<td>Noble Elf</td></tr>
+	<td>Grand Elf</td></tr>
 <tr>
 	<td><span class="erm-tone-red">171</span></td>
 	<td><span class="erm-tone-red">Silver Pegasus</span></td></tr>
@@ -619,7 +619,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Bone Dragon</td></tr>
 <tr>
 	<td><span class="erm-tone-red">199</span></td>
-	<td><span class="erm-tone-red">Dracon-ghost</span></td></tr>
+	<td><span class="erm-tone-red">Ghost Dragon</span></td></tr>
 <tr>
 	<td>200</td>
 	<td>Hellish troglodyte</td></tr>
@@ -763,7 +763,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Troll</td></tr>
 <tr>
 	<td><span class="erm-tone-red">247</span></td>
-	<td><span class="erm-tone-red">Catapult (specialty X1)</span></td></tr>
+	<td><span class="erm-tone-red">Catapult</span></td></tr>
 <tr>
 	<td>248</td>
 	<td>First aid tent</td></tr>
@@ -787,7 +787,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td>Blood Dragon</td></tr>
 <tr>
 	<td><span class="erm-tone-red">255</span></td>
-	<td><span class="erm-tone-red">Dracon darkness</span></td></tr>
+	<td><span class="erm-tone-red">Darkness Dragon</span></td></tr>
 <tr>
 	<td>256</td>
 	<td>Behemoth-ghost</td></tr>
@@ -904,7 +904,7 @@ See also <a href="../heroes/#ref-form-numberheroes">Hero table</a></div>
 	<td><span class="erm-tone-red">Artillery</span></td></tr>
 <tr>
 	<td>294</td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr>
 	<td><span class="erm-tone-red">295</span></td>
 	<td><span class="erm-tone-red">Diplomacy</span></td></tr>

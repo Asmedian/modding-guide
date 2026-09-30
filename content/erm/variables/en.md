@@ -16,8 +16,8 @@
 ERM scripts can be written without using flags and variables, but this will be a purely local approach.</div>
 
 <h3><span class="erm-anchor" id="ref-cont-flags-fl"></span>Conditional flags</h3>
-<div class="erm-paragraph">A flag is a conditional lever that has a True (1) or False (0) position. Like binary numbers, they have only two meanings. 
-At the beginning, all flags are set to False (0). The value 1 (True) is usually called "installed", 0 (false) - "not installed".</div>
+<div class="erm-paragraph">A flag is a Boolean variable with two possible values: True (1) and False (0). 
+At the beginning, all flags are set to False (0). The value 1 (True) is usually called "set", 0 (false) - "clear".</div>
 
 <h4><span class="erm-anchor" id="ref-cont-flags-fl-set"></span>Setting flags</h4>
 <div class="erm-paragraph">There are 1000 conditional flags in ERM and each of them has its own number from 1 to 1000. 
@@ -71,7 +71,7 @@ if there is no local event there (in the location defined by the LE command) (re
 = 1 (true) if this is an online battle.</div>
 <div class="erm-paragraph">If <strong>flag 997</strong>=1, then <strong>flag 998</strong>=0, AI is attacking a human player on another computer.<br>
 Note that the battle only starts on one PC, but that PC is remote from the current active player.<br>
-Flag <strong>998=1</strong>, if the battle is Man on Man. Here we have a real multiplayer battle.</div>
+Flag <strong>998=1</strong>, if the battle is human versus human. This identifies a multiplayer battle.</div>
 <div class="erm-paragraph">You can use both flags in BA0 or BA50 triggers, for example:
 <pre class="erm-example"><code class="language-erm">!?BA0&amp;997/998; The script will work if it is a Human vs. Human battle (multiplayer)
 ...</code></pre></div>
@@ -116,7 +116,7 @@ The rest must be compared by writing to a variable, because they are evaluated i
 In most cases, variables are used instead of any number. Also, the contents of the variables (set values) 
 can be changed at any time by simply setting a new value. There are several other different types of variables that can be used for different tasks in a script.</div>
 <div class="erm-paragraph">If a command parameter is shown as $, this means that this value can be written to a variable. If the parameter is shown as #, it means 
-that it can only be installed, but not read. And if it is shown as ?$, this means that the parameter can be read, but not set.</div>
+that it can only be set, but not read. And if it is shown as ?$, this means that the parameter can be read, but not set.</div>
 
 <h4><span class="erm-anchor" id="ref-cont-flags-var-typ"></span>Variable types and their possible values</h4>
 <div class="erm-paragraph">a - not yet used<br>
@@ -158,7 +158,7 @@ or a type or subtype of any object. To set a value through this path, a question
 <pre class="erm-example"><code class="language-erm">!!OW:R3/4/?v12;</code></pre></div>
 <div class="erm-paragraph">The third way to set a variable is by internal reference. Some ERM commands require a number <em>v</em> or <em>z</em>-a variable, not a letter. 
 In this case, instead of using a question mark, you simply enter the parameter number and the value of the command for that variable 
-(for example, if a team needs a number for <em>v</em>-variable, you set the value 17, which will be set to the variable v17).</div>
+(for example, if a command needs a number for <em>v</em>-variable, you set the value 17, which will be set to the variable v17).</div>
 
 <h4><span class="erm-anchor" id="ref-cont-flags-var-us"></span>Using Variables Instead of Numbers</h4>
 <div class="erm-paragraph">Since you can set the values of variables, you can use those variables instead of numbers in your code. Almost anywhere you can just enter a number, 
@@ -209,12 +209,12 @@ The complete condition will be: (c1 AND c2 AND c3) OR c4 OR c5 OR c6<br>
 but certain commands require a number <em>v</em>-a variable to record the result. Both types are used to write integer values.</div>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-cont-flags-w"></span>Hero Variables (w1..w200)</strong> store the same type of information as <em>v</em>-variables, but they are unique for each hero, 
 That is two different heroes can have different values ​​written in their w1 variables (or w2, w10 or more... up to w200). 
-To install or test one or more <em>w</em>-variables, you must first set the number of the hero whose value will be taken with the command IF:W.<br>
-For example, if you want to install or test w5 hero 27 (Jem), you must first insert<pre class="erm-example"><code class="language-erm">!!IF:W27;</code></pre>in front of the receiver(s) operating with the variable w5.<br>
+To set or test one or more <em>w</em>-variables, you must first set the number of the hero whose value will be taken with the command IF:W.<br>
+For example, to set or check w5 for hero 27 (Gem), you must first insert<pre class="erm-example"><code class="language-erm">!!IF:W27;</code></pre>in front of the receiver(s) operating with the variable w5.<br>
 For the current hero, use -1 instead of a number. Yes,<pre class="erm-example"><code class="language-erm">!!IF:W-1;</code></pre>
 means that the next calls to the w variables are for the current hero (before using another command IF:W)<br>
 See also: <a href="../receivers/if/#ref-rec-if-w">IF:W</a>, <a href="../receivers/vr/#ref-rec-vr">receiver VR</a><br>
-</div><blockquote class="erm-tone-quote erm-note"><strong>Exception:</strong> team <a href="../receivers/ht/#ref-rec-ht-w">!!HT:W</a>, where only the first 100 can be used <em>w</em>-variables.</blockquote>
+</div><blockquote class="erm-tone-quote erm-note"><strong>Exception:</strong> command <a href="../receivers/ht/#ref-rec-ht-w">!!HT:W</a>, where only the first 100 can be used <em>w</em>-variables.</blockquote>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-cont-flags-x"></span>Variables - function parameters (x1..x16)</strong> also store the same value types as the variables v and w (numeric). 
 But these variables exist only inside functions (code after the function trigger) and pass values ​​into the function using the P command (P - parameters). 
 See <a href="../receivers/fu/#ref-rec-fu">receiverFU</a> for detailed information about functions. If you call a function from another function, any <em>x</em>-variables that were not set (as new parameters), 
@@ -276,7 +276,7 @@ Just like regular ones <em>z</em>-variables, they are limited to 512 characters.
 
 <h4><span class="erm-anchor" id="ref-cont-flags-var-spec"></span>Special Variables</h4>
 <div class="erm-paragraph">There are several variables in ERM that have special meaning. Like flags 1 and 1000, special variables can be set as you wish at any time, 
-but this is not recommended, because there is a risk that other teams may use them.</div>
+but this is not recommended, because there is a risk that other commands may use them.</div>
 <div class="erm-paragraph"><strong>Variable v1</strong> used to record the result of some commands. This is not a common occurrence, you can use it in your scripts to store an expression, 
 but for a short time; in other words, do not set a value to the variable v1 if you want to keep its value unchanged for a long time.</div>
 <div class="erm-paragraph"><strong>Variable z1</strong> used to record text entered by the player in the extended dialog window. If you are not using advanced dialog boxes, 
@@ -384,7 +384,7 @@ resetting them to 0, and after executing the last receiver, restores them back.<
 <h3><span class="erm-anchor" id="ref-cont-flags-add"></span>Additional examples:</h3>
 <span class="erm-anchor" id="ref-cont-flags-q1"></span><div class="erm-tone-quote erm-note erm-paragraph"><em class="erm-strong">How to use hero variables?</em></div>
 <div class="erm-paragraph">To use <em>w</em>-variables, you must first use the command !!IF for the hero you want to change or learn from (use -1 for the current hero). 
-By using this command, everything <em>w</em>-variables are further searched for the specified hero until you change the hero. Use this command before installation, 
+By using this command, all <em>w</em>-variables refer to the selected hero until you change the hero. Use this command before setting, 
 testing or inspection <em>w</em>-variables. So if you need to use <em>w</em>-hero variables #147 (Dracon), the command will be as follows:
 <pre class="erm-example"><code class="language-erm">!!IF:W147;</code></pre>
 Then you can set the w1 variable exactly like you would any other variable (see example below).</div>
@@ -707,7 +707,7 @@ Other variables can be used elsewhere, but will clutter up the code.<br>
 <strong>Author:</strong> Bruno<br>
 <strong>WoG option number:</strong> 110<br>
 <strong>Object:</strong> type 63, subtype: 14 (Mushrooms Air), 18 (Mushrooms Water), 23 (Mushrooms Earth) and 29 (Mushrooms Fire) (<a href="../tables/wog-object-variants/#ref-form-newobj-10" data-context="true">see</a>)<br>
-<strong>Variables:</strong> v1-v3 for local use,<br>w20-w27 to record the skills of the heroes who visited the mushroom,<br>
+<strong>Variables:</strong> v1-v3 for local use,<br>w20-w27 to record the skills of heroes who visited the mushroom,<br>
 z11-z17 and z159 for help texts<br>
 <strong>Functions:</strong> FU10-FU11</div></details>
 <br>
@@ -989,7 +989,7 @@ and also S and V3 for mines (V3 is used for compatibility with the future Mithri
 <strong>Flags:</strong> (1, 9, 10), 172, 410, 870-874<br>
 <strong>Timers:</strong> TM99<br>
 <strong>Functions:</strong> FU709, FU8170-FU8189<br>
-PO:N numbers are installed at the entrances to mines, water mills and windmills.</div></details>
+PO:N numbers are set at the entrances to mines, water mills and windmills.</div></details>
 <br>
 ⇒ <span class="erm-tone-purple">CHANGED CREATURES</span>, <span class="erm-tone-red">script37.erm</span> ()<span class="erm-anchor" id="ref-cont-usedvar-38"></span><details class="erm-comment"><summary>show</summary><div class="erm-comment-body">
 <strong>Author:</strong> Steven<br>
@@ -1205,7 +1205,7 @@ Objects: type 63, subtype 22 (<a href="../tables/wog-object-variants/#ref-form-n
 ⇒ <span class="erm-tone-purple">LANDSCAPE PASSABILITY</span>, <span class="erm-tone-red">script63.erm</span> ()<span class="erm-anchor" id="ref-cont-usedvar-65"></span><details class="erm-comment"><summary>show</summary><div class="erm-comment-body">
 <strong>Author:</strong> Timothy<br>
 <strong>WoG option number:</strong> 63<br>
-<strong>Object:</strong> temporary installation of signs (type 91)<br>
+<strong>Object:</strong> temporary setting of signs (type 91)<br>
 <strong>PO Numbers:</strong> B0, B1 (trees)<br>
 <strong>Constant Variables:</strong> v1270, v1272-v1275, w79<br>
 <strong>Temporary Variables:</strong> v1-v4, z1<br>
@@ -1299,7 +1299,7 @@ z1-z3, z78-z90 temporarily, w81-w83 (note: also used by Robert's War Machines sc
 <strong>Author:</strong> Bonizag<br>
 <strong>WoG option number:</strong> 73<br>
 <strong>Object:</strong> expanded creature stacks (Object 54)<br>
-<strong>PO Numbers:</strong> H, O (Combat Vehicle Factory), T (Towns)<br>
+<strong>PO Numbers:</strong> H, O (War machine Factory), T (Towns)<br>
 <strong>Variables:</strong> v847, v850-v859, v862-v880, v883 for long-term storage, v1-v3, v7800-v7956 temporary,<br>
 z1-z3, z78-z90 temporary, w81-w83 (note: also used by Robert's War Machines script)<br>
 <strong>Flags:</strong> 781, 783-790 for long-term storage, 2,3,4 temporary<br>

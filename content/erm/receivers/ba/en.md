@@ -39,7 +39,7 @@ Even in a human player battle, the battle manager is not fully defined in the !?
 Receiver BH must be used in the corresponding trigger section or later.</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-ba-b"></span><span class="erm-anchor" id="command-b"></span>B#</strong></span><br>
-Install <a href="../../tables/battle-backgrounds/#ref-form-ba-b" data-context="true">background #</a> battlefields.<br>
+Set <a href="../../tables/battle-backgrounds/#ref-form-ba-b" data-context="true">background #</a> battlefields.<br>
 <strong><br><span class="erm-anchor" id="ref-rec-ba-2"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ba-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Background 21 is a clean field; I'm guessing there was supposed to be a background for the Battle of Tailwind, but it wasn't completed.<br>
 Background 24 (ship-to-ship battle) does not change the cells of the space between ships to impassable if the battle is not carried out on the water and not against a ship. 
@@ -57,7 +57,7 @@ Cancel or resolve battle<br>
 Check for MP battle:<br>
          $ is the battle status:<br>
             = 2 – AI battle against an inactive Human (on a remote computer)<br>
-            = 1 – person per person (2 computers)<br>
+            = 1 – human versus human (2 computers)<br>
             = 0 – if this is any other battle (on this computer)<br>
 <strong></strong><br></div><span class="erm-anchor" id="ref-rec-ba-3"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ba-show3"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Use this command to disable scripts that do not support MP battles.<br>

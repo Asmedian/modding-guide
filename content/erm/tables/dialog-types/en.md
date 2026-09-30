@@ -55,7 +55,7 @@
 <tr><td class="erm-tone-purple erm-legacy-event">6081760</td><td>council chamber</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">6119232</td><td>information about the construction</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">6147920</td><td>fort/town</td></tr>
-<tr><td class="erm-tone-purple erm-legacy-event">6102528</td><td>forge</td></tr>
+<tr><td class="erm-tone-purple erm-legacy-event">6102528</td><td>blacksmith</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">5661104</td><td>skeleton converter</td></tr>
 <tr><td class="erm-tone-purple erm-legacy-event">6193120</td><td>artifact dealer (selling)</td></tr>
 <tr>

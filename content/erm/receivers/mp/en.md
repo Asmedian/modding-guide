@@ -16,7 +16,7 @@
 <br>
 <strong><span class="erm-anchor" id="ref-rec-mp-red"></span><span class="erm-tone-red">!!MP:XXXX;</span> 
 </strong>–<strong> mp3 - control.</strong><br>
-Used to install your own mp3 file for playback in the game.<br>
+Used to set your own mp3 file for playback in the game.<br>
 This command can only be used within a trigger body <a href="../../triggers/mp/#ref-tr-mp">!?MP</a>.</div>
 <hr>
 <div class="erm-paragraph">

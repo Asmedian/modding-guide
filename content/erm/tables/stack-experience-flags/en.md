@@ -7,7 +7,7 @@
 :::erm
 <section class="erm-reference" lang="en">
 <div><div class="erm-align-left erm-paragraph"><span class="erm-source-title">Flag abilities</span>
-</div><span class="erm-anchor" id="ref-form-specexp2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4 when $3=102 (f)<br>
+</div><span class="erm-anchor" id="ref-form-specexp2-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $4 when $3=102 (f)<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 <span class="erm-anchor" id="ref-form-specexp2-n2"></span><tr class="erm-tone-purple erm-strong">

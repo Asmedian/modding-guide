@@ -86,17 +86,8 @@
 .erm-reference .erm-color-gold { color: #ffd700; }
 .erm-reference .erm-color-red { color: #ff0000; }
 .erm-reference .erm-color-white { color: #ffffff; }
-.erm-syntax-trigger { color: #ee9a90; }
-.erm-syntax-receiver { color: #cda7ed; }
-.erm-syntax-instruction { color: #ddc482; }
-.erm-syntax-comment { color: #94af8e; }
-.erm-syntax-string { color: #d99d91; }
-.erm-syntax-variable { color: #95bad5; }
-[data-theme="light"] .erm-syntax-trigger { color: #972b25; }
-[data-theme="light"] .erm-syntax-receiver { color: #733196; }
-[data-theme="light"] .erm-syntax-instruction { color: #725b13; }
-[data-theme="light"] .erm-syntax-comment { color: #46633a; }
-[data-theme="light"] .erm-syntax-string { color: #8b3d2f; }
-[data-theme="light"] .erm-syntax-variable { color: #245887; }
 .erm-radix-input, .erm-table-search { width: 16rem; max-width: 100%; padding: .45rem; border: 1px solid var(--border); color: var(--text); background: var(--bg); font: inherit; }
 .erm-radix-result { font-family: var(--font-mono); color: var(--gold); }
+
+.erm-reference .erm-parameters { margin: .75rem 0; padding: .75rem 1rem; border-left: 2px solid var(--border-strong); background: var(--surface-raised); font-family: var(--font-body); white-space: normal; overflow-wrap: anywhere; }
+.erm-reference .erm-parameters > div + div { margin-top: .4rem; }

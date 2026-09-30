@@ -8,8 +8,8 @@
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-center erm-paragraph"><span class="erm-source-title">Receivers <strong>RE</strong>/<strong>BR</strong>/<strong>CO</strong></span><a href="../compatibility/#ref-era-index" title="Works only with ERA.."><img src="../../../assets/erm/08fd1e857e3607b5.gif" alt="ERA" loading="lazy" decoding="async" class="erm-figure erm-image-top erm-inline-icon"></a><br>
-<span>(repeat – interrupt – continue)</span></div>
-<div class="erm-paragraph"><br>ERA made it possible, among other things, to use high-speed cycles through new receivers to write ERM scripts: <a href="./#ref-rec-re">!!re</a>, <a href="./#ref-rec-re-br-co">!!br</a>, <a href="./#ref-rec-re-br-co">!!co</a>.</div>
+<span>(repeat – break – continue)</span></div>
+<div class="erm-paragraph"><br>ERA provides fast, high-level loops through these ERM receivers: <a href="./#ref-rec-re">!!re</a>, <a href="./#ref-rec-re-br-co">!!br</a>, <a href="./#ref-rec-re-br-co">!!co</a>.</div>
 <hr>
 <div class="erm-paragraph"><strong><span class="erm-anchor" id="ref-rec-re-red"></span><span class="erm-tone-red">!!re $1[/#2/#3/#4]:;<br>
    …<br>
@@ -18,7 +18,7 @@ Repeats a block of code. Only the first argument ($1) is required.
 </div><pre>         $1 – loop counter variable (any numeric local or global variable)
          #2 – initial counter value (optional). Default: value of the loop counter variable.
          #3 – final counter value (optional). Default: initial value of the loop counter.
-         #4 – cycle step (optional). Default: 1 if set to #3, otherwise 0.</pre>
+         #4 – loop step (optional). Default: 1 if #3 is supplied, otherwise 0.</pre>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">; An endless loop of annoying messages:
 !!re i:;
@@ -29,8 +29,8 @@ First, the loop counter variable is initialized.<br>
 Values #2 and #3 are remembered for the entire loop and will not be evaluated on each iteration (repeat).<br>
 The step determines what value needs to be added to the counter variable after each iteration. 
 It also defines the type of iteration stopping condition.<br>
-The positive step checks if the value is $1&gt;#3.<br>
-The negative step checks whether the value $1&lt;#3.
+A positive step stops the loop when $1&gt;#3.<br>
+A negative step stops the loop when $1&lt;#3.
 <pre class="erm-example"><code class="language-erm">; Disband the current hero's army
 !!re i/0/6:;
   !!HE-1:C0/i/-1/0;
@@ -46,7 +46,7 @@ The negative step checks whether the value $1&lt;#3.
 <li>On <strong><span class="erm-tone-red">!!re</span></strong> ("<em>repeat</em>" – repeat) checks whether the counter has gone beyond the final value #3? If yes, then execution is transferred to the corresponding block !!en.</li>
 <li>Counter on <strong><span class="erm-tone-red">!!en</span></strong> is incremented, and if the stopping condition is not met, the next receiver after the nearest !!re will be executed.</li>
 <li><strong><span class="erm-tone-red">!!co</span></strong> ("<em>continue</em>" – continue) with the condition (optional) immediately goes to the loop receiver !!en, which, in turn, will be executed in accordance with the operating logic.</li>
-<li><strong><span class="erm-tone-red">!!br</span></strong> ("<em>break</em>" – abort) with the condition (optional) immediately goes beyond the receiver cycle !!en.</li>
+<li><strong><span class="erm-tone-red">!!br</span></strong> ("<em>break</em>" – abort) with an optional condition immediately exits past the matching !!en.</li>
 </ul>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">; Show the number of the 1st empty hero slot, if found
@@ -76,9 +76,9 @@ Maximum allowed 16 nested blocks <a href="../conditions/#ref-rec-iee">!!if</a> /
   !!br&amp;exit condition:; this is WHILE...DO
   ...
 !!en:;</code></pre></div>
-<div class="erm-paragraph">For cycle control receivers <a href="./#ref-rec-re-br-co">!!br</a> / <a href="./#ref-rec-re-br-co">!!co</a> There is support for loop levels.<br>
-<span class="erm-anchor" id="ref-rec-re-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 1:;</strong> equivalent <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span>:;</strong> and means to interrupt the current (most nested) loop.<br>
-<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 2:;</strong> will interrupt the cycle to a higher level, and <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 3:;</strong> – even higher in level, etc. ...<br>
+<div class="erm-paragraph">The loop control receivers <a href="./#ref-rec-re-br-co">!!br</a> / <a href="./#ref-rec-re-br-co">!!co</a> support nested loop levels.<br>
+<span class="erm-anchor" id="ref-rec-re-erm"></span><strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 1:;</strong> is is is is is equivalent to to to to to <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span>:;</strong> and means to interrupt the current (most nested) loop.<br>
+<strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 2:;</strong> exits the loop one level above, and <strong class="erm-inline-code"><span class="erm-tone-purple erm-legacy-strong">!!br</span> 3:;</strong> – even higher in level, etc. ...<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!re i/0/6:; 2nd level cycle
   !!re j/0/4:; 1st level cycle

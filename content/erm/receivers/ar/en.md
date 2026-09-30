@@ -25,13 +25,13 @@ Artifacts and resources are numbered separately.</div>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-ar-1"></span><details class="erm-comment"><summary>Important note (<span class="erm-anchor" id="ref-rec-ar-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 Most of these commands will not affect artifact or the heap 
 resources, if it does not have certain settings made in the Map Editor. This 
-can be a simple setup of security for a resource or artifact. If artifact 
+can be a simple setup of guards for a resource or artifact. If artifact 
 or resource does not have any special setting, a message about 
 ERM error. You can use error output option statuses with commands 
 <a href="../un/#ref-rec-un-p904">UN:P904 P905</a>, to avoid problems; you can also use the command <a href="../ob/#ref-rec-ob-c">
 OB:C</a> to obtain a check number and process its value (but the command 
 V$ will work correctly even if the scroll or resource does not have 
-any installation).</div></details>
+any setting).</div></details>
 <hr>
 <div class="erm-paragraph">
 <strong><span class="erm-tone-red">
@@ -40,7 +40,7 @@ Set/check/get creatures - guards <br>
          #1 – position (0..6)  <br>
          $2 – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a><br>
          $3 – number of creatures<br>
-The team cannot turn on guards, it can only place them. Use 
+The command cannot turn on guards, it can only place them. Use 
 option <a href="./#ref-rec-ar-x">X</a> to turn on.</div>
 <hr>
 <div class="erm-paragraph">
@@ -77,13 +77,12 @@ resource)<br>
 3 – Leadership is required to pick up an artifact<br>
 4 – Offer to buy artifact for 2500 coins and 3 wood<br>
 5 – Offer to buy artifact for 3000 coins and 5 wood<br>
-6 – The artifact has security (another way to turn it on)<br>
+6 – The artifact has guards (another way to turn it on)<br>
 All values greater than 6 make artifact unraveable.</div></details>
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ar-x"></span><span class="erm-anchor" id="command-x"></span>X#</strong></span><br>
-Enable guards if # is non-zero, otherwise disable. Checks for 
-there are no security guards.</div>
+Enable guards if # is non-zero, otherwise disable. The command does not check whether guards exist.</div>
 <hr>
 
 

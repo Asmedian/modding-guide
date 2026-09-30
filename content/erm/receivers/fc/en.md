@@ -21,11 +21,11 @@ This receiver was conceived not so much for changing town templates, but for wor
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-b0"></span><span class="erm-anchor" id="command-b0-b1"></span>B0/$</strong></span><br>
-Set/check/get creature, purchased at the forge.</div>
+Set/check/get creature, purchased at the blacksmith.</div>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-b1"></span>B1/$</strong></span><br>
-Set/check/get the essence of shown in the forge.<br>
+Set/check/get the essence of shown in the blacksmith.<br>
 <u>Example</u>:
 <pre class="erm-example"><code class="language-erm">!!FC0:B0/7 B1/7; You can buy a Crusader in the Castle forge</code></pre></div>
 <hr>
@@ -48,7 +48,7 @@ Set/check/get the priority of displaying buildings.<br>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-h"></span><span class="erm-anchor" id="command-h-1-2"></span>H#/$1/$2</strong></span><br>
-Setting the parameters of the “Horde #” structure ($1 - unimproved creature, $2 – improved creature).<br>
+Setting the parameters of the “Horde #” structure ($1 - unupgraded creature, $2 – upgraded creature).<br>
          # = 0 – increase in horde structure 1<br>
          # = 1 - increase in horde structure 2<br>
          # = 2 – level of creatures in the horde structure 1<br>
@@ -59,7 +59,7 @@ Setting the parameters of the “Horde #” structure ($1 - unimproved creature,
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-fc-h4"></span>H4/$1/$2/$3</strong></span><br>
-Type of simple $2 and improved $3 creatures in a $1 (1/2) horde structure.</div>
+Type of simple $2 and upgraded $3 creatures in a $1 (1/2) horde structure.</div>
 <hr>
 <div class="erm-paragraph">
 <span class="erm-tone-red"><strong>

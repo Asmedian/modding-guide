@@ -8,7 +8,7 @@
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Table of overhead terrains (their bonuses in battle)</span></div>
-<span class="erm-anchor" id="ref-form-bug-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/bu/#ref-rec-bu-g">BU:G</a></div>
+<span class="erm-anchor" id="ref-form-bug-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/bu/#ref-rec-bu-g">BU:G</a></div>
 <div class="table-wrap erm-reference-table"><table width="100%">
 	<span class="erm-anchor" id="ref-form-bug-n2"></span><tr class="erm-tone-purple erm-align-center erm-strong">
 		<td>  #  </td>
@@ -54,7 +54,7 @@
 		<td><small>21</small></td>
 	</tr>
 	<tr>
-		<td colspan="2"><small>Prohibition of using schools of magic, except for 1st level spells. Neutralizes any morality</small></td>
+		<td colspan="2"><small>Prohibition of using schools of magic, except for 1st level spells. Neutralizes any morale</small></td>
 	</tr>
 	<tr class="erm-align-center">
 		<td class="erm-align-center" rowspan="2">3</td>

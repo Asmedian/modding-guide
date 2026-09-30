@@ -70,17 +70,17 @@
 	<tr>
 		<td>04</td>
 		<td>10</td>
-		<td>Village government</td>
+		<td>Village Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">08</span></td>
 		<td><span class="erm-tone-red">11</span></td>
-		<td><span class="erm-tone-red">Prefecture</span></td>
+		<td><span class="erm-tone-red">Town Hall</span></td>
 	</tr>
 	<tr>
 		<td>16</td>
 		<td>12</td>
-		<td>Municipality</td>
+		<td>City Hall</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">32</span></td>
@@ -101,7 +101,7 @@
 		<td class="erm-align-center" rowspan="8">2</td>
 		<td>01</td>
 		<td>16</td>
-		<td>Forge</td>
+		<td>Blacksmith</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">02</span></td>
@@ -112,7 +112,7 @@
 	<tr>
 		<td>04</td>
 		<td>18</td>
-		<td>Horde build for unimproved creatures: Griffins, Dwarves, Stones 
+		<td>Horde build for unupgraded creatures: Griffins, Dwarves, Stones 
 		Gargoyles, Imps, Skeletons, Troglodytes, Goblins, Gnolls, Little Fairies</td>
 	</tr>
 	<tr>

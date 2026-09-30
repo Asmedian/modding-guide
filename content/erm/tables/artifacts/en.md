@@ -36,12 +36,12 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 	<tr class="erm-tone-red">
 		<td>3</td>
 		<td><img src="../../../../assets/erm/2e1312f3116ad6cc.gif" alt="art003" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Catapult (specialty X1)</td>
+		<td>Catapult</td>
 	</tr>
 	<tr>
 		<td>4</td>
 		<td><img src="../../../../assets/erm/b474e56705e31f58.gif" alt="art004" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Ballista (specialty X1)</td>
+		<td>Ballista</td>
 	</tr>
 	<tr class="erm-tone-red">
 		<td>5</td>
@@ -917,12 +917,12 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 	<tr class="erm-tone-red">
 		<td>03</td>
 		<td><img src="../../../../assets/erm/2e1312f3116ad6cc.gif" alt="art003" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Catapult (specialty X1)</td>
+		<td>Catapult</td>
 	</tr>
 	<tr>
 		<td>04</td>
 		<td><img src="../../../../assets/erm/b474e56705e31f58.gif" alt="art004" loading="lazy" decoding="async" class="erm-figure"></td>
-		<td>Ballista (specialty X1)</td>
+		<td>Ballista</td>
 	</tr>
 	<tr class="erm-tone-red">
 		<td>05</td>
@@ -1799,7 +1799,7 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 <tr class="erm-tone-red">
 	<td>4</td>
 	<td></td>
-	<td>Ballista (specialty X1)</td></tr>
+	<td>Ballista</td></tr>
 <tr>
 	<td>64</td>
 	<td></td>
@@ -1939,7 +1939,7 @@ Artifact - <a href="../objects/#ref-form-objects">type 5</a><br>
 <tr>
 	<td>3</td>
 	<td></td>
-	<td>Catapult (specialty X1)</td></tr>
+	<td>Catapult</td></tr>
 <tr class="erm-tone-red">
 	<td>46</td>
 	<td></td>

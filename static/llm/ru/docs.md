@@ -1,6 +1,8 @@
 # Документация ERA
 
+ID: docs.overview
 URL: /ru/docs/
+Source references: era-source:gameext, era-source:lodman
 
 Точка входа в устройство платформы, структуру модов, игровые ресурсы и рабочие инструменты.
 
@@ -33,7 +35,9 @@ URL: /ru/docs/
 
 # Платформа ERA
 
+ID: docs.era
 URL: /ru/docs/era/
+Source references: era-source:gameext, era-source:era, era-source:lodman
 
 Роль ERA между Heroes III, модами, ресурсами и расширениями во время запуска игры.
 
@@ -51,7 +55,9 @@ ERA расширяет процесс запуска и работы Heroes III:
 
 # Совместимость и порядок модов
 
+ID: docs.era.compatibility
 URL: /ru/docs/era/compatibility/
+Source references: era-tools:mod-manager-format, era-changelog:3
 
 Как описывать зависимости, приоритет и конфликты без случайного порядка загрузки.
 
@@ -89,7 +95,9 @@ ERA загружает моды по списку `list.txt` сверху вни
 
 # Создание первого мода
 
+ID: docs.era.creating-mod
 URL: /ru/docs/era/creating-mod/
+Source references: era-source:lodman, era-changelog:3, era-tools:mod-manager-format
 
 От пустого каталога до подключённого мода с метаданными, ресурсом и воспроизводимой проверкой.
 
@@ -147,7 +155,9 @@ ERA регистрирует поддерживаемые источники и�
 
 # Установка ERA
 
+ID: docs.era.installation
 URL: /ru/docs/era/installation/
+Source references: era-project-rus:readme, era-project-eng:readme
 
 Официальные способы установки, обновления и удаления ERA через Heroes Launcher и вручную.
 
@@ -185,7 +195,9 @@ URL: /ru/docs/era/installation/
 
 # Структура мода
 
+ID: docs.era.mod-structure
 URL: /ru/docs/era/mod-structure/
+Source references: era-source:lodman, era-changelog:3
 
 Что такое мод ERA и какие каталоги, ресурсы и файлы он может содержать.
 
@@ -241,7 +253,9 @@ Mods/MyMod/
 
 # Устройство игры для автора мода
 
+ID: docs.game
 URL: /ru/docs/game/
+Source references: era-source:gameext, era-source:reslib, era-source:lodman
 
 Минимальная модель запуска, виртуальных ресурсов и кэша, достаточная для диагностики контентного мода.
 
@@ -271,7 +285,9 @@ URL: /ru/docs/game/
 
 # Как ERA загружает ресурсы
 
+ID: docs.game.resource-loading
 URL: /ru/docs/game/resource-loading/
+Source references: era-source:lodman, era-source:reslib, era-source:gameext, era-changelog:3
 
 Практическая модель VFS, архивов, перенаправлений и кэша для поиска конфликтов.
 
@@ -319,7 +335,9 @@ URL: /ru/docs/game/resource-loading/
 
 # Форматы ресурсов
 
+ID: docs.game.resources
 URL: /ru/docs/game/resources/
+Source references: era-source:lodman, era-source:reslib, era-changelog:3, old-help:index
 
 Карта основных игровых и ERA-форматов, их назначения и безопасной проверки.
 
@@ -358,7 +376,9 @@ URL: /ru/docs/game/resources/
 
 # Глоссарий
 
+ID: docs.glossary
 URL: /ru/docs/glossary/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib, old-help:index
 
 Согласованные термины общей документации ERA на русском и английском.
 
@@ -391,24 +411,28 @@ URL: /ru/docs/glossary/
 
 # Карта материалов для LLM
 
+ID: docs.llm-map
 URL: /ru/docs/llm-map/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 Человекочитаемый указатель страниц и ссылки на компактные машинные представления.
 
 ## Как использовать {#usage}
 
-Начните с `/llms.txt` для краткой карты, затем откройте `/llm/manifest.json`, если нужны стабильные ID, локали, ключевые слова, вопросы и связи. Полный текст опубликованных статей доступен в `/llm/ru/docs.md` и `/llm/en/docs.md`.
+Начните с [llms.txt](/llms.txt) для краткой карты, затем откройте [manifest.json](/llm/manifest.json), если нужны стабильные ID, локали, ключевые слова, вопросы, связи между статьями и источники отдельных разделов. Карта охватывает все опубликованные материалы: документацию, ERM-скрипты и разработку плагинов, включая H3API и NH3API. Курс ERM и Lua ещё не опубликованы; их состояние указано в manifest.
 
-## Ограничения {#limits}
-
-ERM-скрипты и плагины не входят в текущий manifest. Не выводите их отсутствие как ошибку покрытия: эти разделы намеренно отложены. Техническое утверждение следует связывать с `sourceRefs`, а не выводить только из заголовка или ключевого слова.
+Полные тексты доступны в шести файлах — по одному для каждого раздела и языка. ERM-примеры, таблицы, ссылки, подписи и текст раскрываемых комментариев входят в эти файлы. Относительные ссылки в тексте разрешаются от канонического URL статьи, указанного перед её содержимым. Технические утверждения проверяйте по `sourceRefs` и `sectionSources`; описание, версия, путь и точный локатор источника доступны в [sources.json](/llm/sources.json).
 
 ## Машинные файлы {#machine-files}
 
-- `/llms.txt` — короткая точка входа;
-- `/llms-full.txt` — полный компактный каталог;
-- `/llm/manifest.json` — структурированные сущности;
-- `/llm/{lang}/docs.md` — содержимое документации по локали.
+- [llms.txt](/llms.txt) — короткая точка входа;
+- [llms-full.txt](/llms-full.txt) — полный каталог обеих локалей;
+- [manifest.json](/llm/manifest.json) — все опубликованные сущности, связи и источники разделов;
+- [sources.json](/llm/sources.json) — реестр источников, версий, локаторов и контрольных сумм;
+- [reference.json](/llm/reference.json) — команды, ресиверы, события, функции, константы, глобальные переменные и алфавитный указатель ERM;
+- документация: [русский](/llm/ru/docs.md) · [English](/llm/en/docs.md);
+- ERM-скрипты: [русский](/llm/ru/erm.md) · [English](/llm/en/erm.md);
+- плагины: [русский](/llm/ru/plugins.md) · [English](/llm/en/plugins.md).
 
 ## Автоматический каталог {#catalog}
 
@@ -418,7 +442,9 @@ ERM-скрипты и плагины не входят в текущий manifes
 
 # Быстрый старт
 
+ID: docs.quick-start
 URL: /ru/docs/quick-start/
+Source references: era-source:gameext, era-source:lodman, era-changelog:3
 
 От установленной ERA до первого работающего ERM-скрипта в собственном моде.
 
@@ -480,7 +506,9 @@ ZVSE2
 
 # Структура сайта
 
+ID: docs.site-structure
 URL: /ru/docs/site-structure/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 Как устроены маршруты, локали, поиск, источники и машинные представления документации.
 
@@ -510,7 +538,9 @@ URL: /ru/docs/site-structure/
 
 # Каталог инструментов ERA
 
+ID: docs.tools.catalog
 URL: /ru/docs/tools/catalog/
+Source references: era-tools:mmarchive-help, era-tools:defpreview-help, era-tools:binmagic-help, era-tools:evme-help, era-tools:template-editor-help, era-tools:unc-to-bin, era-tools:mod-manager-format, era-tools:rsbink-player-help, era-tools:exe-builder-help, era-tools:def-tool-binary, era-tools:dialogs-editor-binary, era-tools:object-txt-editor-binary, era-tools:txt-editor-binary, era-tools:vfs-test-binary
 
 Проверенный список программ из комплекта Tools, сгруппированный по задаче и уровню риска.
 
@@ -580,7 +610,9 @@ URL: /ru/docs/tools/catalog/
 
 # Диагностика проблем
 
+ID: docs.troubleshooting
 URL: /ru/docs/troubleshooting/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib, era-tools:mod-manager-format, era-tools:vfs-test-binary
 
 Повторяемая схема от чистого запуска до точного отчёта о конфликте или неверном ресурсе.
 
@@ -623,7 +655,9 @@ URL: /ru/docs/troubleshooting/
 
 # Что такое мод
 
+ID: docs.what-is-a-mod
 URL: /ru/docs/what-is-a-mod/
+Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 Из чего состоит мод Heroes III, как ERA подключает его файлы и почему изменения следует хранить отдельно от оригинальной игры.
 

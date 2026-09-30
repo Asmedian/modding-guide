@@ -23,7 +23,7 @@ See comment <a href="./#ref-rec-ss-co">below</a>.</div>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-ss-c"></span><span class="erm-anchor" id="command-c-e-i"></span><span class="erm-tone-red"><strong>C#/$</strong></span><br>
 Set/check/get the mana amount.<br>
         # – level (0..3, depends on knowledge of the school of magic)<br>
-        $ – amount of mana for witchcraft.</div>
+        $ – amount of mana for spellcasting.</div>
 <hr>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-rec-ss-d"></span><span class="erm-tone-red"><strong>D#/$</strong></span><br>
 Set/check/get description from<br>
@@ -55,7 +55,7 @@ Set/check/get flags.<br>
 <tr><td>512</td><td>spell with damage</td></tr>
 <tr><td>1024</td><td>spell mind</td></tr>
 <tr><td>2048</td><td>friendly and has masses. impact</td></tr>
-<tr><td>4096</td><td>cannot be applied to combat vehicles</td></tr>
+<tr><td>4096</td><td>cannot be applied to war machines</td></tr>
 <tr><td>8192</td><td>spell from artifact</td></tr>
 <tr><td>16384</td><td>protecting spell</td></tr>
 <tr><td>32768</td><td>AI (Meteor Shower, Magic Arrow, Ice Bolt, Lightning Bolt, 

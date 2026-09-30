@@ -1,11 +1,11 @@
 /** Native rich reference blocks. No legacy JavaScript or page styles are run. */
+import { convertInteger } from './radix.mjs';
 const tags = new Set('section div span p h2 h3 h4 strong em u del small sup sub br hr wbr pre code ul ol li dl dt dd table caption thead tbody tr th td a img details summary blockquote label input output'.split(' '));
 const attributes = new Set('class id href src alt title lang width height colspan rowspan start open loading decoding data-context data-erm-radix data-erm-table-search type value inputmode aria-label placeholder'.split(' '));
 
 /** @param {string} value */
 export function hexToDecimal(value) {
-  const match = value.trim().match(/^([+-]?)(?:0x)?([0-9a-f]+)$/i);
-  return match ? ((match[1] === '-' ? -1n : 1n) * BigInt(`0x${match[2]}`)).toString() : '—';
+  return convertInteger(value, 'hex') ?? '—';
 }
 
 /** @param {string} value */
@@ -61,6 +61,14 @@ export function renderReference(html) {
     '<details class="erm-index-disclosure"><summary><span>$1</span></summary><pre>$2\n</pre></details>'
   );
   const disclosures = indexDisclosure.replace(/<details class="erm-comment"><summary>((?:(?!erm-toggle-label)[\s\S])*?)<\/summary>/g, '<details class="erm-comment erm-inline-comment"><summary>$1</summary>');
-  const highlighted = disclosures.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
+  // Parameter descriptions are prose, even where the old help used indented PRE.
+  // Preserve true code and diagrams; wrap each description as ordinary site text.
+  const parameters = disclosures.replace(/<pre>([\s\S]*?)<\/pre>/g, (whole, body) => {
+    const text = String(body).replace(/<[^>]*>/g, '').trim();
+    if (!/^(?:[$#](?:[0-9]+|\s*[–=-])|[xхyv]\d+\s*[–=-]|XX\s*[–=-]|@\s*[–=-]|-?\d+\s*[–=-])/i.test(text) || /<code\b/.test(body)) return whole;
+    const lines = String(body).trim().split(/\r?\n/).map((line) => line.replace(/^[ \t]+/, ''));
+    return `<div class="erm-parameters">${lines.map((line) => `<div>${line}</div>`).join('')}</div>`;
+  });
+  const highlighted = parameters.replace(/(<pre\b[^>]*><code class="language-erm">)([\s\S]*?)(<\/code><\/pre>)/g, (_, before, code, after) => before + highlightErm(code) + after);
   return addCommandWrapOpportunities(highlighted);
 }

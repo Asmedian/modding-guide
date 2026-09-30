@@ -99,25 +99,25 @@ you will achieve a change in growth after building the Bastion.</div>
          $ = -2 – no improvement<br>
          $ = -1 – use normal enhancement<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-ma-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-ma-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-You can install your own set of improvements ;-) For example, like this:
+You can set your own set of improvements ;-) For example, like this:
 <pre class="erm-example"><code class="language-erm">!#MA:U0/1 U1/2 U2/3 U3/4...</code></pre>
 It looks great and you can upgrade them all. If you set the circular 
 improving two creatures, the player will be able to choose the better creature. You can 
 use <a href="../do/#ref-rec-do">circular function</a> (this is faster) to go through all creatures and 
-installation of improvements for each (in the next creature).<br>
+setting of improvements for each (in the next creature).<br>
 In a town, you can only improve what you can usually improve there. Yes, you 
-you can install the Spearmen improvement in another creature, but you can improve them 
-only in the Castle or Hill Fort. If you install the Halberdier upgrade in 
+you can set the Spearmen improvement in another creature, but you can improve them 
+only in the Castle or Hill Fort. If you set the Halberdier upgrade in 
 other creature, you can improve them only in the fort on the hill, since further 
 upgrades for them are not allowed in towns.<br>
-<span class="erm-anchor" id="ref-rec-ma-bold"></span><em class="erm-strong">Note:</em> using the command <span class="erm-anchor" id="ref-rec-ma-erm"></span><strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!!MA</span>:U#/-2;</strong> causes any creature when installed will be upgraded into a Spearman (fixed in <a href="../../compatibility/#ref-era-index">ERA</a>).</div></details>
+<span class="erm-anchor" id="ref-rec-ma-bold"></span><em class="erm-strong">Note:</em> using the command <span class="erm-anchor" id="ref-rec-ma-erm"></span><strong class="erm-inline-code"><span class="erm-tone-gold erm-legacy-strong">!!MA</span>:U#/-2;</strong> causes any creature when set will be upgraded into a Spearman (fixed in <a href="../../compatibility/#ref-era-index">ERA</a>).</div></details>
 <hr>
 <div><span class="erm-tone-red"><strong><span class="erm-anchor" id="ref-rec-ma-v"></span><span class="erm-anchor" id="command-v"></span>V#/$</strong></span><br>
 Minimum quantity <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature #</a> at the beginning of the game the map is equal to $
 <hr><div class="erm-paragraph">
 <span class="erm-tone-red"><strong>
 <span class="erm-anchor" id="ref-rec-ma-x"></span><span class="erm-anchor" id="command-x"></span>X#/$</strong></span><br>
-Install <a href="../../tables/creature-flags/#ref-form-flaggedabilities" data-context="true">$ flag</a> <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature #</a>.<br> 
+Set <a href="../../tables/creature-flags/#ref-form-flaggedabilities" data-context="true">$ flag</a> <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature #</a>.<br> 
 When working with flags, check their meanings very carefully (see. <a href="../vr/#ref-rec-vr-and">bit operations</a>).<br>
 <strong></strong></div><span class="erm-anchor" id="ref-rec-ma-2"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-ma-show2"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 <pre class="erm-example"><code class="language-erm">; Give a flag to a creature

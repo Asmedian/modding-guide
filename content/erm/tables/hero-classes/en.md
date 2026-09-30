@@ -56,11 +56,11 @@
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>Warlock</td>
+		<td>Overlord</td>
 	</tr>
 	<tr>
 		<td><span class="erm-tone-red">11</span></td>
-		<td><span class="erm-tone-red">Overlord</span></td>
+		<td><span class="erm-tone-red">Warlock</span></td>
 	</tr>
 	<tr>
 		<td>12</td>

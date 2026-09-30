@@ -16,7 +16,7 @@
 <div class="erm-paragraph"><br>
 <strong><span class="erm-anchor" id="ref-rec-vr-red"></span><span class="erm-tone-red">!!VR@:XXXX;</span> 
 	- variable management.</strong> Used to manipulate variables 
-(installation, comparison, mathematical operations).</div>
+(setting, comparison, mathematical operations).</div>
 <span class="erm-anchor" id="ref-rec-vr-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: <a href="./#ref-rec-vr-string">commands over <em>z</em>-variables</a>, <a href="./#ref-rec-vr-addstring">connection <em>z</em>-variables</a>, 
 <a href="../../variables/#ref-cont-flags-var-show">variables in messages</a>, <a href="../../variables/#ref-cont-flags">flags and variables</a></div>
 
@@ -29,7 +29,7 @@ Set/check <em>v</em>-variables<br>
          $2 – set/check <em>v</em>-variable (@+1)<br>
   <span class="erm-anchor" id="ref-rec-vr-step"></span><em class="erm-indent">…</em><br>
   <em class="erm-indent">…</em><br>
-         $16 – install/test <em>v</em>-variable (@+15)<br>
+         $16 – set/test <em>v</em>-variable (@+15)<br>
 The command supports up to 16 parameters.<br>
 <span class="erm-anchor" id="ref-rec-vr-bold"></span><em class="erm-strong">Note:</em> in <a href="../../compatibility/#ref-era-index">ERA</a> support added <em>v</em>, <em>y</em>, <em>x</em> and <em>w</em>-variables.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-vr-1"></span><details class="erm-comment"><summary>Example (<span class="erm-anchor" id="ref-rec-vr-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">

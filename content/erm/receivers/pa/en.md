@@ -20,7 +20,7 @@
 - Pandora's Box by coordinates in variables v[#], v[#+1], v[#+2]</div>
 <div class="erm-paragraph">The PA receiver can be used to configure Events.<br>
 <u></u></div><span class="erm-anchor" id="ref-rec-pa-1"></span><details class="erm-comment"><summary>Comments (<span class="erm-anchor" id="ref-rec-pa-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
-When installing a Pandora's Box or Event on a card using ERM, be sure to call <a href="./#ref-rec-pa-i">PA:I</a> after the object is created. 
+When setting a Pandora's Box or Event on a card using ERM, be sure to call <a href="./#ref-rec-pa-i">PA:I</a> after the object is created. 
 Otherwise, you will not be able to customize or interact with the object (most likely the game will crash).</div></details>
 <span class="erm-anchor" id="ref-rec-pa-q1"></span><div class="erm-tone-quote erm-note erm-paragraph">See also: receiver <a href="../le/#ref-rec-le">!!LE</a></div>
 <hr>
@@ -51,7 +51,7 @@ Set/check/get the number of guards<br>
          #1 – position (0..6)<br>
          $2 – <a href="../../tables/creatures/#ref-form-creature" data-context="true">creature type</a><br>
          $3 – quantity<br>
-<strong><u>Comments</u>:</strong> Security is turned on and off manually.</div>
+<strong><u>Comments</u>:</strong> Guards is turned on and off manually.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-pa-i"></span><span class="erm-anchor" id="command-i"></span><span class="erm-tone-red"><strong>I</strong></span><br>
 Initialize Pandora's Box.<br>
@@ -114,9 +114,9 @@ Set/check/get availability <a href="../../tables/spells/#ref-form-spell" data-co
 Set/check/get lucky in $.</div>
 <hr><div class="erm-paragraph">
 <span class="erm-anchor" id="ref-rec-pa-x"></span><span class="erm-anchor" id="command-x"></span><span class="erm-tone-red"><strong>X$</strong></span><br>
-Set/check/get whether security is enabled:<br>
-      $ = 0 – security is disabled;<br>
-      everything else – security is on</div>
+Set/check/get whether guards is enabled:<br>
+      $ = 0 – guards is disabled;<br>
+      everything else – guards is on</div>
 
 <hr>
 

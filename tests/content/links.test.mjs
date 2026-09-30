@@ -42,6 +42,10 @@ test('Markdown links and fragments resolve across all published sections', () =>
           }
           continue;
         }
+        if (/^\/(?:llm\/|llms(?:-full)?\.txt$)/.test(target.pathname)) {
+          if (!existsSync(join(projectRoot, 'static', target.pathname))) failures.push(`${meta.id} missing machine file → ${href}`);
+          continue;
+        }
         const key = target.pathname.replace(/^\/(ru|en)\//, '').replace(/\/$/, '');
         if (key === 'erm/learn') continue;
         const record = records.get(key);

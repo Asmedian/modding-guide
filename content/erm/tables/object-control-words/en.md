@@ -237,7 +237,7 @@ Several parameters are written to control word:<br>
    3 – leadership required,<br>
    4 – 2500 gold and 3 wood,<br>
    5 – 3000 gold and 5 wood,<br>
-   6 – security is turned on (regardless of the value <a href="../../receivers/ar/#ref-rec-ar-x">AR:X</a>), </div>
+   6 – guards is turned on (regardless of the value <a href="../../receivers/ar/#ref-rec-ar-x">AR:X</a>), </div>
 <span class="erm-anchor" id="ref-cont-conwords-6"></span><details class="erm-comment"><summary><strong>more details</strong> (<span class="erm-anchor" id="ref-cont-conwords-show6"></span><u class="erm-toggle-label">show</u>)</summary><div class="erm-comment-body">
 <span class="erm-anchor" id="ref-cont-conwords-q2"></span><blockquote class="erm-tone-quote erm-note"><strong>Addition</strong> from <strong class="erm-tone-purple erm-strong">XEPOMAHT</strong>'a: for this type of artifact selection, the flag, number of creatures and their number are encoded in the control word. 
 <pre>The format is (bit by bit):
@@ -247,7 +247,7 @@ Several parameters are written to control word:<br>
 <strong class="erm-legacy-label">17..28</strong>: number of creatures (0..4096)
 <strong class="erm-legacy-label">29..31</strong>: not used</pre></blockquote></div></details>
 <div class="erm-paragraph">   values greater than 6 – artifact is not raised.<br>
-In the absence of security, a battle with zero Cerberus tries to start, which is automatically won (unearthed <code class="erm-tone-purple erm-strong">feanor</code>).
+In the absence of guards, a battle with zero Cerberus tries to start, which is automatically won (unearthed <code class="erm-tone-purple erm-strong">feanor</code>).
 Somewhere in the help for the SoD map editor it is written that at the beginning of the game 10-15% of artifacts are selected and a certain price is set for them. Or something like that.<br>
 <strong class="erm-legacy-label">Bits 15-18</strong>: <span class="erm-anchor" id="ref-cont-conwords-dred"></span><del class="erm-tone-red"><span class="erm-tone-accent">Apparently they don't mean anything. Usually it's 0.</span></del></div>
 <blockquote class="erm-tone-quote erm-note"><strong>Note</strong> from <strong class="erm-tone-purple erm-strong">XEPOMAHT</strong>'a: <strong class="erm-legacy-label">bits 15-18</strong> actually contain the resource type (for artifact selection type values equal to 4 or 5), 
@@ -264,7 +264,7 @@ accessed by commands <a href="../../receivers/ar/#ref-rec-ar">AR</a>:G M X.<b
 <div class="erm-paragraph"><img src="../../../../assets/erm/aca11ff49be06851.png" alt="Type 12. Campfire Bits 0-3:resource type (0..15). Matches the first parameter of the command FR:B. Interestingly, although resources are numbered 0 to 7 (3 bits" loading="lazy" decoding="async" class="erm-figure">
 <span class="erm-anchor" id="ref-cont-conwords-t12"></span><a href="../objects/#ref-form-objects" data-context="true">Type 12</a>. <strong>Campfire</strong><br>
 <strong class="erm-legacy-label">Bits 0-3</strong>:resource type (0..15). Matches the first parameter of the command <a href="../../receivers/fr/#ref-rec-fr-b">FR:B</a>. Interestingly, although resources are numbered 0 to 7 (3 bits), the 4th bit is not ignored. 
-By setting values from 8 to 15, we can receive in the message instead of a resource picture pictures of artifacts, spells, flags, luck and morality - numbering, as in <a href="../dialog-pictures/#ref-form-picts" data-context="true">IF:Q</a>. 
+By setting values from 8 to 15, we can receive in the message instead of a resource picture pictures of artifacts, spells, flags, luck and morale - numbering, as in <a href="../dialog-pictures/#ref-form-picts" data-context="true">IF:Q</a>. 
 Of course, artifacts and other things are not actually added to the hero, but they can be added using ERM. The second parameter for images is the number of resources.<br>
 <strong class="erm-legacy-label">Bits 4-19</strong>: quantity of resource. Can be negative: -32768 to +32767. Matches the second parameter <a href="../../receivers/fr/#ref-rec-fr-b">FR:B</a>.<br>
 <strong class="erm-legacy-label">Bits 20-31</strong> are ignored and are usually empty.</div>
@@ -282,7 +282,7 @@ Perhaps there should have been information about player visits here.)<br>
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-conwords-t16"></span><a href="../creature-banks/#ref-form-cb" data-context="true">Type 16</a>. <strong>Creature Bank</strong><br>
 <strong class="erm-legacy-label">Bits 0-4</strong> are ignored and usually filled.<br>
 <strong class="erm-legacy-label">Bits 5-12</strong> contain information about players' visits (<a href="../players/#ref-form-gamerscolor-bit" data-context="true">bit by bit</a>), which corresponds to <a href="../../receivers/cb/#ref-rec-cb-v">CB:V</a>. 
-If visited, security is displayed in the tooltip.<br>
+If visited, guards is displayed in the tooltip.<br>
 <strong class="erm-legacy-label">Bits 13-24</strong> contain a personal number (from 0 to 4095) referring to <a href="../../receivers/cb/#ref-rec-cb">CB</a>:A G M R.<br>
 <strong class="erm-legacy-label">Bit 25</strong> contains whether the guards have been killed or not yet, and is edited by the command <a href="../../receivers/cb/#ref-rec-cb-t">CB:T</a>.<br>
 <strong class="erm-legacy-label">Bits 26-31</strong> are ignored and usually filled.</div>
@@ -299,11 +299,11 @@ If visited, security is displayed in the tooltip.<br>
 <strong class="erm-legacy-label">Bits 17-31</strong> are ignored and usually filled.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/0237688e6f8182a3.png" alt="Type 23. Marletto Tower Just like Arena, bits 0-4 – number, the rest are ignored and are usually empty. The hero&#x27;s visit to the Marletto Tower is edited by the " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t23"></span><a href="../objects/#ref-form-objects" data-context="true">Type 23</a>. <strong>Marletto Tower</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>, <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. The hero's visit to the Marletto Tower is edited by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V1</a>.</div>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>, <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. The hero's visit to the Marletto Tower is edited by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V1</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/54d228cc45ee2857.png" alt="Type 24. Derelict Ship The structure of the control word is completely identical to type 16. It&#x27;s interesting that while it&#x27;s common to visit a decrepit ship an" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t24"></span><a href="../objects/#ref-form-objects" data-context="true">Type 24</a>. <strong>Derelict Ship</strong><br>
 The structure of the control word is completely identical to <a href="./#ref-cont-conwords-t16">type 16</a>. It's interesting that while it's common to visit a decrepit ship and give up the battle, after doing so, unlike the creature bank, 
-Security information does not appear in the ship tooltip. And if you install <a href="../../receivers/cb/#ref-rec-cb-v">CB:V</a> on "visited" for the current player, this information will appear.
+Guards information does not appear in the ship tooltip. And if you set <a href="../../receivers/cb/#ref-rec-cb-v">CB:V</a> on "visited" for the current player, this information will appear.
 </div><div><img src="../../../../assets/erm/0520ec5e013dcdf9.png" alt="avsutop0" loading="lazy" decoding="async" class="erm-figure"></div>
 
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-conwords-t25"></span><a href="../objects/#ref-form-objects" data-context="true">Type 25</a>. <strong>Dragon Utopia</strong><br>
@@ -369,7 +369,7 @@ Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/95da127f363ccd46.png" alt="Type 42. Lighthouse Bits 0-25: personal number (0..67108863). The number refers to the same data area as the Mine, and the Beacon is edited by the commands MN. " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t42"></span><a href="../objects/#ref-form-objects" data-context="true">Type 42</a>. <strong>Lighthouse</strong><br>
 <strong class="erm-legacy-label">Bits 0-25</strong>: personal number (0..67108863). The number refers to the same data area as the Mine, and the Beacon is edited by the commands <a href="../../receivers/mn/#ref-rec-mn">MN</a>. 
-The resource type for it is 100, but if you put something else, the Lighthouse keeper will start diligently mining this “something”. Security is ignored. (Thanks for this information <code class="erm-tone-purple erm-strong">sergroj</code>`u.)<br>
+The resource type for it is 100, but if you put something else, the Lighthouse keeper will start diligently mining this “something”. Guards is ignored. (Thanks for this information <code class="erm-tone-purple erm-strong">sergroj</code>`u.)<br>
 <strong class="erm-legacy-label">Bits 26-31</strong> are ignored (as are the guards).</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/8998e813e1280f6d.png" alt="Type 44. Exit monolith Control word represents the monolith number. Each subtype is numbered separately. It is not known what it affects, so it is difficult to " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t44"></span><a href="../one-way-monoliths/#ref-form-one-way-monolith" data-context="true">Type 44</a>. <strong>Exit monolith</strong><br>
@@ -382,7 +382,7 @@ Thus, if you give two monoliths the same number, they will not teleport into eac
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/84b3c6f9903ac7b7.png" alt="Type 47. School of Magic Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero visited the School of Magic is determined " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t47"></span><a href="../objects/#ref-form-objects" data-context="true">Type 47</a>. <strong>School of Magic</strong><br>
 Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty.<br>
-Whether hero visited the School of Magic is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V8</a>.</div>
+Whether hero visited the School of Magic is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V8</a>.</div>
 
 <div class="erm-paragraph"><span class="erm-anchor" id="ref-cont-conwords-t48"></span><a href="../objects/#ref-form-objects" data-context="true">Type 48</a>. <strong>Magic Spring</strong><br><img src="../../../../assets/erm/a5df2be0a0679eea.png" alt="Type 48. Magic Spring Bits 0-4: source number (0..31) – SP:N. Why it is needed is unclear. Bit 5 ignored and usually filled. Bit 6: visited (1) or not (0) – SP:" loading="lazy" decoding="async" class="erm-figure">
 <strong class="erm-legacy-label">Bits 0-4</strong>: source number (0..31) – <a href="../../receivers/sp/#ref-rec-sp-n">SP:N</a>. Why it is needed is unclear.<br>
@@ -390,8 +390,8 @@ Whether hero visited the School of Magic is determined by the team <a href="../
 <strong class="erm-legacy-label">Bit 6</strong>: visited (1) or not (0) – <a href="../../receivers/sp/#ref-rec-sp-s">SP:S</a>.<br>
 <strong class="erm-legacy-label">Bits 7-31</strong> are ignored and usually filled.</div>
 
-<div class="erm-paragraph"><img src="../../../../assets/erm/c866a86ce59e1abf.png" alt="Type 51. Mercenary Camp Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the team " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t51"></span><a href="../objects/#ref-form-objects" data-context="true">Type 51</a>. <strong>Mercenary Camp</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V3</a>.</div>
+<div class="erm-paragraph"><img src="../../../../assets/erm/c866a86ce59e1abf.png" alt="Type 51. Mercenary Camp Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the command " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t51"></span><a href="../objects/#ref-form-objects" data-context="true">Type 51</a>. <strong>Mercenary Camp</strong><br>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero visited the Camp is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V3</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/ab197513f5a6c9a4.png" alt="Type 53. Mine Bits 0-25: personal number (0..67108863) with all commands MN. Please note that the Mines are numbered in parallel with Lighthouses, as one type. " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t53"></span><a href="../mines/#ref-form-mines" data-context="true">Type 53</a>. <strong>Mine</strong><br>
 <strong class="erm-legacy-label">Bits 0-25</strong>: personal number (0..67108863) with all commands <a href="../../receivers/mn/#ref-rec-mn">MN</a>. Please note that the Mines are numbered in parallel with <a href="./#ref-cont-conwords-t42">Lighthouses</a>, as one type.<br>
@@ -457,7 +457,7 @@ Control word is designed exactly the same as the <a href="./#ref-cont-conwords-t
 3..7 – Scholar does not give anything and smoothly disappears without a message. This can be used in the same way as the similar property <a href="./#ref-cont-conwords-t29">Wreckage</a>.<br>
 <strong class="erm-legacy-label">Bits 3-5</strong>: primary skill type (0..7) – <a href="../../receivers/sc/#ref-rec-sc-p">SC:P</a>. If you set from 4 to 7, the primary skills do not change, but Scholar, judging by the pictures, 
 teaches you how to build level 2 Mage Guilds in the Dungeon, Citadel, Fortress and Conjugation, respectively.<br>
-<strong class="erm-legacy-label">Bits 6-12</strong>: secondary skill number (0..127) – <a href="../../receivers/sk/#ref-rec-sk-s" title="Original Skeleton links say SC; the Skeleton receiver is SK.">SC:S</a>. If you put the incorrect spell and install <a href="../../receivers/sc/#ref-rec-sc-t">SC:T1</a>, the game crashes when visiting.<br>
+<strong class="erm-legacy-label">Bits 6-12</strong>: secondary skill number (0..127) – <a href="../../receivers/sk/#ref-rec-sk-s" title="Original Skeleton links say SC; the Skeleton receiver is SK.">SC:S</a>. If you put the incorrect spell and set <a href="../../receivers/sc/#ref-rec-sc-t">SC:T1</a>, the game crashes when visiting.<br>
 <strong class="erm-legacy-label">Bits 13-22</strong>: spell number (0..1023) – <a href="../../receivers/sc/#ref-rec-sc-l">SC:L</a>. If you put an incorrect, already studied or unlearned spell by this hero, primary skill will be studied.<br>
 <strong class="erm-legacy-label">Bit 23</strong> ignored and usually empty.<br>
 <strong class="erm-legacy-label">Bits 24-31</strong> are ignored and usually filled.</div>
@@ -530,7 +530,7 @@ Town will not be highlighted (the very beginning of the sentence) if it is not y
 </li></ol>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/8c8c6c4c74f49479.png" alt="Type 100. Stone of Knowledge Just like Arena: bits 0-4 – number, the rest are ignored and are usually empty. Whether hero has visited the Stone is determined by" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t100"></span><a href="../objects/#ref-form-objects" data-context="true">Type 100</a>. <strong>Stone of Knowledge</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero has visited the Stone is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V0</a>.</div>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong> – number, the rest are ignored and are usually empty. Whether hero has visited the Stone is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V0</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/0e23e7cd429987cb.png" alt="Type 101. Treasure Chest Bits 0-9: artifact number (0..1023) – CH:A. Bit 10: bonus type (0 – gold, 1 – artifact) – CH:S. Bits 11-14: indicator of the amount of " loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t101"></span><a href="../objects/#ref-form-objects" data-context="true">Type 101</a>. <strong>Treasure Chest</strong><br>
 <strong class="erm-legacy-label">Bits 0-9</strong>: artifact number (0..1023) – <a href="../../receivers/ch/#ref-rec-ch-a">CH:A</a>.<br>
@@ -542,7 +542,7 @@ Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy
 <strong class="erm-legacy-label">Bits 0-4</strong>: Tree number (0..31) – <a href="../../receivers/kt/#ref-rec-kt-n">KT:N</a>. Whether hero has visited the Tree is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V5</a>.<br>
 <strong class="erm-legacy-label">Bits 5-12</strong>: information about players visiting (<a href="../players/#ref-form-gamerscolor-bit" data-context="true">bit by bit</a>). A player who visits the Tree sees in the tooltip the type of level he receives.<br>
 <strong class="erm-legacy-label">Bits 13-15</strong>: level gain type (0..3) – <a href="../../receivers/kt/#ref-rec-kt-s">KT:S</a>. If you set the selection type to 3, the game freezes when visiting the Tree, 
-and in the tooltip (if you put in bits 5-12 that Wood has already been visited) it says that the Tree is nothing more than an improved generator of level 4 creatures.<br>
+and in the tooltip (if you put in bits 5-12 that Wood has already been visited) it says that the Tree is nothing more than an upgraded generator of level 4 creatures.<br>
 <strong class="erm-legacy-label">Bits 16-31</strong> are ignored and usually filled.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/1c4a71943621227a.png" alt="Type 103. Gate of the Underworld Bits 0-29: personal Gate number (0..1073741823). The number refers to the data area where the coordinates of the target gates o" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t103"></span><a href="../objects/#ref-form-objects" data-context="true">Type 103</a>. <strong>Gate of the Underworld</strong><br>
@@ -566,7 +566,7 @@ nor any changes to the University prompt when these bits are populated.<br>
 <strong class="erm-legacy-label">Bits 29-31</strong> are ignored and usually filled.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/ed174f90f0cc1eec.png" alt="Type 107. School of War Just like Arena: bits 0-4: – number, the rest are ignored and are usually empty. Whether hero visited the School is determined by the te" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t107"></span><a href="../objects/#ref-form-objects" data-context="true">Type 107</a>. <strong>School of War</strong><br>
-Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong>: – number, the rest are ignored and are usually empty. Whether hero visited the School is determined by the team <a href="../../receivers/he/#ref-rec-he-v">HE:V9</a>.</div>
+Just like <a href="./#ref-cont-conwords-t4">Arena</a>: <strong class="erm-legacy-label">bits 0-4</strong>: – number, the rest are ignored and are usually empty. Whether hero visited the School is determined by the command <a href="../../receivers/he/#ref-rec-he-v">HE:V9</a>.</div>
 
 <div class="erm-paragraph"><img src="../../../../assets/erm/c88d56c26956009d.png" alt="Type 108. Warrior&#x27;s Tomb Bit 0: is there artifact – WT:S. Bits 1-4 are ignored and usually filled. Bits 5-12: which players visited the grave (bit by bit). Bits" loading="lazy" decoding="async" class="erm-figure"><span class="erm-anchor" id="ref-cont-conwords-t108"></span><a href="../objects/#ref-form-objects" data-context="true">Type 108</a>. <strong>Warrior's Tomb</strong><br>
 <strong class="erm-legacy-label">Bit 0</strong>: is there artifact – <a href="../../receivers/wt/#ref-rec-wt-s">WT:S</a>.<br>

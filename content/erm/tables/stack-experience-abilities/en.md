@@ -8,12 +8,12 @@
 <section class="erm-reference" lang="en">
 <div>
 <div class="erm-align-left erm-paragraph"><span class="erm-source-title">Table of creature abilities when leveling up</span>
-</div><span class="erm-anchor" id="ref-form-specexp1-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the team <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $3<br>
+</div><span class="erm-anchor" id="ref-form-specexp1-q1"></span><div class="erm-tone-quote erm-legacy-code erm-note">Used by the command <a href="../../receivers/ea/#ref-rec-ea-b">EA:B</a> for parameter $3<br>
 See also <a href="../creatures/#ref-form-creature">Creature table</a></div>
 <div class="table-wrap erm-reference-table"><table class="erm-table-first-center" width="100%">
 <span class="erm-anchor" id="ref-form-specexp1-n2"></span><tr class="erm-tone-purple erm-strong">
 	<td width="5%">Letter</td>
-	<td width="50%">Meaning</td>
+	<td width="50%">Value</td>
 	<td>Code</td></tr>
 <tr>
 	<td>A</td>

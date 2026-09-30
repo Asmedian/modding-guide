@@ -21,12 +21,12 @@ Please leave comments and any errors you find at <a href="http://wforum.heroes35
  </div>
 
 <div class="erm-paragraph">The reference book uses the following <strong>notation system</strong>:<br>
-If any parameter is displayed as <strong>#</strong>, then it cannot be verified or obtained, it can only be installed.<br>
+If any parameter is displayed as <strong>#</strong>, then it can only be set; it cannot be checked or retrieved.<br>
 If any parameter is displayed as <strong>?$</strong>, then it can only be written to a variable; it cannot be set or checked.<br>
-If any parameter is displayed as <strong>$</strong>, then it can be installed, verified or retrieved.<br>
+If any parameter is displayed as <strong>$</strong>, then it can be set, checked, or retrieved.<br>
 This is all true unless the command comment states otherwise.</div>
 
-<div class="erm-paragraph"><strong>Install</strong> value - direct recording of the value.<br>
+<div class="erm-paragraph"><strong>Set</strong> value - direct recording of the value.<br>
 <strong>Check</strong> value - checking the value and writing the result to flag 1.<br>
 <strong>Get</strong> value - writing a value to a variable.<br>
 <u>Examples</u>:
@@ -34,10 +34,9 @@ This is all true unless the command comment states otherwise.</div>
 !!OW:R0/6/=9000; - flag 1 will be true if Red has exactly 9000 gold, and false if not.
 !!OW:R0/6/?v1;	 - write the amount of Red gold into the variable v1.</code></pre></div>
 
-<div class="erm-paragraph">If you wish <strong>install</strong> any<strong> parameter</strong> to the value <strong>0</strong>, you can simply not specify anything in place of the number.
+<div class="erm-paragraph">To <strong>set</strong> a<strong> parameter</strong> to <strong>0</strong>, omit its numeric value.
 <pre class="erm-example"><code class="language-erm">;Command !!OW:R/6/9000; is equivalent to the command !!OW:R0/6/9000;</code></pre>
-If a command contains many parameters, and their zero value means “nothing” (for example, for <a href="receivers/if/#ref-rec-if-g">IF:G</a>), you
-you can simply omit further parameters.<br>
+If a command contains many parameters, and their zero value means “nothing” (for example, for <a href="receivers/if/#ref-rec-if-g">IF:G</a>), you can simply omit trailing parameters.<br>
 For example...
 <pre class="erm-example"><code class="language-erm">!!IF:G1/1/0/33/34/35/36/37;		#1
 !!IF:G1/1/0/33/34/35/36/37////////;	#2</code></pre>
@@ -140,7 +139,7 @@ Click on this word (this block of information will open below).</div>
 * Improved (hopefully :) ) list of tables</div>
 
 <div class="erm-paragraph"><strong>Version 2.8.1c</strong><br>
-* Fixed incorrect page (squad experience) of the previous version<br>
+* Fixed incorrect page (stack experience) of the previous version<br>
 * Screenshots in training UN:C from Deacon are made of higher quality with less weight.<br>
 * In the Lite version, graphics from IF, BF, QW and curse tables have been removed, and some animations have been replaced with static frames</div>
 
@@ -211,7 +210,7 @@ Minor bugs fixed, some tables organized, information added</div>
 Bugs from the previous version have been fixed</div>
 
 <div class="erm-paragraph"><strong>Version 2.4</strong><br>
-Added TE teams</div>
+Added TE commands</div>
 
 <div class="erm-paragraph"><strong>Version 2.3</strong><br>
 Added creature experience table<br>
@@ -219,7 +218,7 @@ Added description of the memory write command (UN:C)<br>
 Design changes</div>
 
 <div class="erm-paragraph"><strong>Version 2.2</strong><br>
-Added new information about teams</div>
+Added new information about commands</div>
 
 <div class="erm-paragraph"><strong>Version 2.1.1</strong><br>
 Added information about some commands</div>
@@ -434,7 +433,7 @@ Xerobull
 	<tr><td><a href="./#ref-cont-main" title="Home">Home</a></td></tr>
 	<tr><td><a href="start/#ref-cont-adv" title="Articles about ERM, WoG/ERA files and more..">Articles</a></td></tr>
 	<tr><td><a href="variables/#ref-cont-flags" title="Flags and Variables">Flag, variable</a></td></tr>
-	<tr><td><a href="variables/#ref-cont-usedvar" title="Table of variables used">Spanish AC</a></td></tr>
+	<tr><td><a href="variables/#ref-cont-usedvar" title="Table of variables used">Variables used</a></td></tr>
 	<tr><td><a href="index/#ref-cont-list" data-context="true" title="Mini alphabetical index of the most popular options">Contents</a></td></tr>
 	</table></div>
   </span></td>
@@ -494,7 +493,7 @@ Xerobull
 	<td><a href="receivers/bf/#ref-rec-bf" title="Allows you to customize the battlefield (place obstacles/objects, or remove them)">BF</a></td>
 	<td><a href="receivers/bg/#ref-rec-bg" title="Setting/receiving parameters in battle">BG</a></td>
 	<td><a href="receivers/bh/#ref-rec-bh" title="Combat parameters: for the hero from any side">BH</a></td>
-	<td><a href="receivers/bm/#ref-rec-bm" title="Combat parameters: for any creature squad (stack), placing mines on battlefield">BM</a></td>
+	<td><a href="receivers/bm/#ref-rec-bm" title="Combat parameters: for any creature stack (stack), placing mines on battlefield">BM</a></td>
 	<td><a href="triggers/br/#ref-tr-br" title="Trigger each battle round">BR</a></td>
 	<td><a href="receivers/bu/#ref-rec-bu" title="Universal combat commands (end battle, summon creature, show message, etc.)">BU</a></td>
 	<td><a href="receivers/ca/#ref-rec-ca" title="Setting up town parameters (from name and appearance to buildings and hero in the garrison)">CA</a></td>
@@ -524,7 +523,7 @@ Xerobull
 	<td><a href="receivers/ip/#ref-rec-ip" title="Game support via TCP/IP">IP</a></td>
 	<td><a href="receivers/le/#ref-rec-le" title="Configuring local event settings on the map">LE</a></td>
 	<td><a href="receivers/ma/#ref-rec-ma" title="Setting the parameters of all creatures of a certain type">MA</a></td>
-	<td><a href="receivers/mc/#ref-rec-mc" title="Installing macros (named links to your data)">MC</a></td>
+	<td><a href="receivers/mc/#ref-rec-mc" title="Setting macros (named links to your data)">MC</a></td>
 	<td><a href="receivers/mf/#ref-rec-mf" title="Controlling physical damage received by the stack">MF</a></td>
 	<td><a href="triggers/mg/#ref-tr-mg" title="Trigger casting spells on the adventure map by the player">MG</a></td>
 	<td><a href="receivers/mm/#ref-rec-mm" title="Setting battle text or getting mouse position on battlefield">MM</a></td>
@@ -539,9 +538,9 @@ Xerobull
 	<td><a href="triggers/pi/#ref-tr-pi" title="Trigger-instruction (post-instruction)">PI</a></td>
 	<td><a href="receivers/po/#ref-rec-po" title="Used to work with numerical information for any map square">PO</a></td>
 	<td><a href="receivers/qw/#ref-rec-qw" title="Configuring Hero&#x27;s Journal Options">QW</a></td>
-	<td><a href="loops/#ref-rec-re" title="New high-level speed cycles: RE/BR/CO">RE</a></td>
+	<td><a href="loops/#ref-rec-re" title="New high-level speed loops: RE/BR/CO">RE</a></td>
 	<td><a href="receivers/rd/#ref-rec-rd" title="Setting up the game dialogue for hiring creatures">RD</a></td>
-	<td><a href="receivers/sn/#ref-rec-sn-era" title="Information on new teams in ERA">SN</a></td>
+	<td><a href="receivers/sn/#ref-rec-sn-era" title="Information on new commands in ERA">SN</a></td>
 	<td><a href="receivers/ss/#ref-rec-ss" title="Setting Spell Options">SS</a></td>
 	<td><a href="triggers/th/#ref-tr-th" title="Trigger entrance/exit to the town hall">TH</a></td>
 	<td><a href="receivers/tl/#ref-rec-tl" title="Multiplayer turn time controller.

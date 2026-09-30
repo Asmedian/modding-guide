@@ -18,7 +18,7 @@ because Preparation of the battlefield begins before the battle, although the pl
 <strong></strong><br></div><span class="erm-anchor" id="ref-rec-bf-1"></span><details class="erm-comment"><summary>Comment (<span class="erm-anchor" id="ref-rec-bf-show1"></span><strong class="erm-toggle-label">show</strong>)</summary><div class="erm-comment-body">
 We also noticed that <a href="../vr/#ref-rec-vr-r">VR:R</a> doesn't work inside the BF trigger, or rather plays the same series of numbers for every battle. 
 The first number generated in a battle is always the same number generated in any other battle. 
-Although, the team <a href="../vr/#ref-rec-vr-t">VR:T</a> works great, but obviously can only be used once in the !?BF trigger.<br>
+Although, the command <a href="../vr/#ref-rec-vr-t">VR:T</a> works great, but obviously can only be used once in the !?BF trigger.<br>
 <strong>Reply from <span class="erm-anchor" id="ref-rec-bf-n1"></span><strong class="erm-tone-purple erm-strong">Slava Salnikov</strong> aka <strong class="erm-tone-purple erm-strong">ZVS</strong>:</strong><br>
 I think this is done on purpose so that you can use the same battle pattern every time you load the map. 
 But there is a way around this:<br>
