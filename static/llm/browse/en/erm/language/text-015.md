@@ -1,7 +1,7 @@
 # UN:C — memory access
 
 ID: erm.un-c
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/
+URL: /en/erm/un-c/
 Part: 3/3
 Source references: old-help:cont-unc.htm, old-help:cont-unc-lib.htm, erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, era-source:erm.pas
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -175,7 +175,7 @@ Cards are rewritten historical recipes with attribution and source-based address
 # Spell power inside combat
 
 ID: erm.un-c.battle-spell-power
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/battle-spell-power/
+URL: /en/erm/un-c/battle-spell-power/
 Part: 1/1
 Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -214,7 +214,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Reading beam color
 
 ID: erm.un-c.beam-color
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/beam-color/
+URL: /en/erm/un-c/beam-color/
 Part: 1/1
 Source references: erm-forum:faq-.html
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -252,7 +252,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Commander structure
 
 ID: erm.un-c.commander-structure
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/commander-structure/
+URL: /en/erm/un-c/commander-structure/
 Part: 1/1
 Source references: erm-forum:un-c-page-1.html, old-help:form-commstr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -351,7 +351,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Grail coordinates
 
 ID: erm.un-c.grail-coordinates
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/grail-coordinates/
+URL: /en/erm/un-c/grail-coordinates/
 Part: 1/1
 Source references: erm-forum:un-c-page-3.html
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -392,7 +392,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Reading projectile type
 
 ID: erm.un-c.projectile-type
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/projectile-type/
+URL: /en/erm/un-c/projectile-type/
 Part: 1/1
 Source references: erm-forum:faq-.html, old-help:form-weapon.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -434,7 +434,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Reading game resolution
 
 ID: erm.un-c.screen-size
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/screen-size/
+URL: /en/erm/un-c/screen-size/
 Part: 1/1
 Source references: erm-forum:un-c-page-1.html
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

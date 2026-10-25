@@ -1,147 +1,7 @@
-# NewStrArray
-
-ID: erm.framework.functions.newstrarray
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/newstrarray/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.newstrarray 1 -->
-## Purpose {#purpose}
-
-Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address.
-
-## Call contract {#signature}
-
-```erm
-!!FU(NewStrArray):P?(result:y);
-!!FU(NewStrArray):P(size)/?(result:y);
-!!FU(NewStrArray):P(size)/(fill)/?(result:y)/(storage);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `arg1` | input |
-| x2 | `arg2` | input |
-| x3 | `arg3` | input |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `ExtendArrayLifetime`.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 337–375, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[ARG_SYNTAX_GET](../../constants/erm-commands/#const-arg-syntax-get) · [M_AUTO_ID](../../constants/erm-commands/#const-m-auto-id) · [M_STR](../../constants/erm-commands/#const-m-str) · [M_TRIGGER_LOCAL](../../constants/erm-commands/#const-m-trigger-local)
-<!-- llm:end erm.framework.functions.newstrarray 1 -->
-
-# OnAdventureMapLeftMouseClick_Quit
-
-ID: erm.framework.functions.onadventuremapleftmouseclick-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremapleftmouseclick-quit/
-Part: 1/1
-Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onadventuremapleftmouseclick-quit 1 -->
-## Purpose {#purpose}
-
-Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnAdventureMapLeftMouseClick_Quit);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[LeaveMouseEvent](../leavemouseevent/)
-
-## Version and status {#provenance}
-
-Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 52–54, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onadventuremapleftmouseclick-quit 1 -->
-
-# OnAdventureMapLeftMouseClick
-
-ID: erm.framework.functions.onadventuremapleftmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremapleftmouseclick/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onadventuremapleftmouseclick 1 -->
-## Purpose {#purpose}
-
-Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnAdventureMapLeftMouseClick);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[EnterMouseEvent](../entermouseevent/)
-
-## Version and status {#provenance}
-
-Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 190–192, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onadventuremapleftmouseclick 1 -->
-
-# OnAdventureMapRightMouseClick_Quit
-
-ID: erm.framework.functions.onadventuremaprightmouseclick-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremaprightmouseclick-quit/
-Part: 1/1
-Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onadventuremaprightmouseclick-quit 1 -->
-## Purpose {#purpose}
-
-Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnAdventureMapRightMouseClick_Quit);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[LeaveMouseEvent](../leavemouseevent/)
-
-## Version and status {#provenance}
-
-Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 37–39, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onadventuremaprightmouseclick-quit 1 -->
-
 # OnAdventureMapRightMouseClick
 
 ID: erm.framework.functions.onadventuremaprightmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremaprightmouseclick/
+URL: /en/erm/framework/functions/onadventuremaprightmouseclick/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -173,7 +33,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnAfterErmInstructions_Quit
 
 ID: erm.framework.functions.onaftererminstructions-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onaftererminstructions-quit/
+URL: /en/erm/framework/functions/onaftererminstructions-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-3-7-onaftererminstructions-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -209,7 +69,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnAfterErmInstructions
 
 ID: erm.framework.functions.onaftererminstructions
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onaftererminstructions/
+URL: /en/erm/framework/functions/onaftererminstructions/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -237,7 +97,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnAfterLoadGame_Quit
 
 ID: erm.framework.functions.onafterloadgame-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onafterloadgame-quit/
+URL: /en/erm/framework/functions/onafterloadgame-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-8-12-onafterloadgame-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -273,7 +133,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBattleMouseHint_Quit
 
 ID: erm.framework.functions.onbattlemousehint-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlemousehint-quit/
+URL: /en/erm/framework/functions/onbattlemousehint-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-64-66-onbattlemousehint-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -305,7 +165,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBattleMouseHint
 
 ID: erm.framework.functions.onbattlemousehint
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlemousehint/
+URL: /en/erm/framework/functions/onbattlemousehint/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-202-204-onbattlemousehint
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -337,7 +197,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleReplay
 
 ID: erm.framework.functions.onbattlereplay
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlereplay/
+URL: /en/erm/framework/functions/onbattlereplay/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2905-2913-onbattlereplay
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -373,7 +233,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleRound
 
 ID: erm.framework.functions.onbattleround
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattleround/
+URL: /en/erm/framework/functions/onbattleround/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-266-268-onbattleround
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -401,7 +261,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleScreenMouseClick_Quit
 
 ID: erm.framework.functions.onbattlescreenmouseclick-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlescreenmouseclick-quit/
+URL: /en/erm/framework/functions/onbattlescreenmouseclick-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-49-51-onbattlescreenmouseclick-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -433,7 +293,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBattleScreenMouseClick
 
 ID: erm.framework.functions.onbattlescreenmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlescreenmouseclick/
+URL: /en/erm/framework/functions/onbattlescreenmouseclick/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-187-189-onbattlescreenmouseclick
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -465,7 +325,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleStackObtainsTurn
 
 ID: erm.framework.functions.onbattlestackobtainsturn
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlestackobtainsturn/
+URL: /en/erm/framework/functions/onbattlestackobtainsturn/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-275-284-onbattlestackobtainsturn
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -504,7 +364,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBeforeBattle_Quit
 
 ID: erm.framework.functions.onbeforebattle-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattle-quit/
+URL: /en/erm/framework/functions/onbeforebattle-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-74-76-onbeforebattle-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -536,7 +396,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBeforeBattle
 
 ID: erm.framework.functions.onbeforebattle
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattle/
+URL: /en/erm/framework/functions/onbeforebattle/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-251-254-onbeforebattle
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -572,7 +432,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBeforeBattleAction
 
 ID: erm.framework.functions.onbeforebattleaction
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleaction/
+URL: /en/erm/framework/functions/onbeforebattleaction/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -600,4 +460,176 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 
 [TRUE](../../constants/universal/#const-true)
 <!-- llm:end erm.framework.functions.onbeforebattleaction 1 -->
+
+# OnBeforeBattleStackTurn
+
+ID: erm.framework.functions.onbeforebattlestackturn
+URL: /en/erm/framework/functions/onbeforebattlestackturn/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.onbeforebattlestackturn 1 -->
+## Purpose {#purpose}
+
+Stores activeStack in battle_current_stack.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnBeforeBattleStackTurn);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `activeStack` | input |
+
+## State and dependencies {#context}
+
+Named globals: [i^battle_current_stack^](../../globals/#global-i-battle-current-stack) · [i^battle_current_side^](../../globals/#global-i-battle-current-side) · [i^battle_isActingSideUiUser^](../../globals/#global-i-battle-isactingsideuiuser).
+
+## Version and status {#provenance}
+
+Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 269–274, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.onbeforebattlestackturn 1 -->
+
+# OnBeforeBattleUniversal_Quit
+
+ID: erm.framework.functions.onbeforebattleuniversal-quit
+URL: /en/erm/framework/functions/onbeforebattleuniversal-quit/
+Part: 1/1
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.onbeforebattleuniversal-quit 1 -->
+## Purpose {#purpose}
+
+Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnBeforeBattleUniversal_Quit);
+```
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+## Related functions {#calls}
+
+[UpdateBattleVars](../updatebattlevars/)
+
+## Version and status {#provenance}
+
+Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 77–83, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.onbeforebattleuniversal-quit 1 -->
+
+# OnBeforeBattleUniversal
+
+ID: erm.framework.functions.onbeforebattleuniversal
+URL: /en/erm/framework/functions/onbeforebattleuniversal/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.onbeforebattleuniversal 1 -->
+## Purpose {#purpose}
+
+Refreshes battle_* and resets current/acting stack context. May run in theoretical AI combat with no combat manager.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnBeforeBattleUniversal);
+```
+
+## State and dependencies {#context}
+
+Named globals: [i^battle_round^](../../globals/#global-i-battle-round) · [i^battle_current_stack^](../../globals/#global-i-battle-current-stack) · [i^battle_current_side^](../../globals/#global-i-battle-current-side) · [i^battle_acting_stack^](../../globals/#global-i-battle-acting-stack) · [i^battle_acting_side^](../../globals/#global-i-battle-acting-side).
+
+## Related functions {#calls}
+
+[UpdateBattleVars](../updatebattlevars/)
+
+## Version and status {#provenance}
+
+Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 255–262, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[BATTLE_LEFT](../../constants/battle/#const-battle-left) · [INT_MIN](../../constants/data-types/#const-int-min) · [NO_STACK](../../constants/battle/#const-no-stack)
+<!-- llm:end erm.framework.functions.onbeforebattleuniversal 1 -->
+
+# OnCustomDialogEvent_Quit
+
+ID: erm.framework.functions.oncustomdialogevent-quit
+URL: /en/erm/framework/functions/oncustomdialogevent-quit/
+Part: 1/1
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.oncustomdialogevent-quit 1 -->
+## Purpose {#purpose}
+
+Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnCustomDialogEvent_Quit);
+```
+
+## State and dependencies {#context}
+
+Named globals: [i^dlg_id^](../../globals/#global-i-dlg-id).
+
+## Related functions {#calls}
+
+[LeaveMouseEvent](../leavemouseevent/) · [RestoreEventData](../restoreeventdata/)
+
+## Version and status {#provenance}
+
+Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 70–73, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.oncustomdialogevent-quit 1 -->
+
+# OnCustomDialogEvent
+
+ID: erm.framework.functions.oncustomdialogevent
+URL: /en/erm/framework/functions/oncustomdialogevent/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.oncustomdialogevent 1 -->
+## Purpose {#purpose}
+
+Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnCustomDialogEvent);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `dlgId` | input |
+
+## State and dependencies {#context}
+
+Named globals: [i^dlg_id^](../../globals/#global-i-dlg-id).
+
+## Related functions {#calls}
+
+[EnterMouseEvent](../entermouseevent/) · [SaveEventData](../saveeventdata/)
+
+## Version and status {#provenance}
+
+Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 208–213, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.oncustomdialogevent 1 -->
 

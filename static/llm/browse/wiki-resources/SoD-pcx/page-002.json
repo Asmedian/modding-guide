@@ -2,140 +2,17 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3bitmap.lod/AdvOpts.pcx",
-      "name": "AdvOpts.pcx",
-      "archive": "H3bitmap.lod",
-      "edition": "SoD",
-      "bytes": 112623,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/AdvOpts.pcx",
-      "kind": "pcx",
-      "width": 289,
-      "height": 387,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/AdvOpts.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/AdvOpts.pcx.webp",
-      "previewWidth": 119,
-      "previewHeight": 160,
-      "anchor": "file-ecad91a460c9",
-      "sha256": "6e049de674355c0066df1bb404e6f28670ac2aafa3f6933b68f0fbc192f1e3c8",
-      "destinations": [
-        {
-          "category": [
-            "Main (in game)",
-            "Shared by all players",
-            "Towns and adventure map",
-            "Game windows",
-            "Game menu items",
-            "Adventure Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/"
-        }
-      ]
-    },
-    {
-      "id": "H3bitmap.lod/aishield.pcx",
-      "name": "aishield.pcx",
-      "archive": "H3bitmap.lod",
-      "edition": "SoD",
-      "bytes": 21516,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/aishield.pcx",
-      "kind": "pcx",
-      "width": 144,
-      "height": 144,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/aishield.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/aishield.pcx.webp",
-      "previewWidth": 144,
-      "previewHeight": 144,
-      "anchor": "file-45ddd907903f",
-      "sha256": "63357c3219aa73bcf18e7da59d3114e3ff6b5d32db29199506c82d2200075812",
-      "destinations": [
-        {
-          "category": [
-            "Main (in game)",
-            "Shared by all players",
-            "Towns and adventure map",
-            "Game screens",
-            "Town and adventure map",
-            "Adventure screen and logo"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/"
-        }
-      ]
-    },
-    {
-      "id": "H3bitmap.lod/AltarArt.pcx",
-      "name": "AltarArt.pcx",
-      "archive": "H3bitmap.lod",
-      "edition": "SoD",
-      "bytes": 358375,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/AltarArt.pcx",
-      "kind": "pcx",
-      "width": 601,
-      "height": 595,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/AltarArt.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/AltarArt.pcx.webp",
-      "previewWidth": 162,
-      "previewHeight": 160,
-      "anchor": "file-f64e97a42a88",
-      "sha256": "d8919f3fbaec9a7091797aaf03f05e7924b2f907c5619179ad50b38a06257265",
-      "destinations": [
-        {
-          "category": [
-            "Main (in game)",
-            "Shared by all players",
-            "Towns and adventure map",
-            "Game screens",
-            "Town and adventure map",
-            "Altar of Sacrifice screens",
-            "Sacrificing artifacts",
-            "RoE and AB campaigns only"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/"
-        }
-      ]
-    },
-    {
-      "id": "H3bitmap.lod/AltarMon.pcx",
-      "name": "AltarMon.pcx",
-      "archive": "H3bitmap.lod",
-      "edition": "SoD",
-      "bytes": 358375,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/AltarMon.pcx",
-      "kind": "pcx",
-      "width": 601,
-      "height": 595,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/AltarMon.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/AltarMon.pcx.webp",
-      "previewWidth": 162,
-      "previewHeight": 160,
-      "anchor": "file-1072dd88446e",
-      "sha256": "92f93bcf068bfbda898b0bb1b7421aa4eb13a4765f5ea5b9d96b4226c4c0eec1",
-      "destinations": [
-        {
-          "category": [
-            "Main (in game)",
-            "Shared by all players",
-            "Towns and adventure map",
-            "Game screens",
-            "Town and adventure map",
-            "Altar of Sacrifice screens",
-            "Sacrificing creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/"
-        }
-      ]
-    },
-    {
       "id": "H3bitmap.lod/AltrArt2.pcx",
       "name": "AltrArt2.pcx",
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 358375,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/AltrArt2.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/AltrArt2.pcx",
       "kind": "pcx",
       "width": 601,
       "height": 595,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/AltrArt2.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/AltrArt2.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/AltrArt2.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/AltrArt2.pcx.webp",
       "previewWidth": 162,
       "previewHeight": 160,
       "anchor": "file-945c328a4e6b",
@@ -152,7 +29,7 @@
             "Sacrificing artifacts",
             "All other uses"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/"
+          "en": "/en/wiki/bitmap/0/4/"
         }
       ]
     },
@@ -162,12 +39,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 227676,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/APHLFTBK.PCX",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/APHLFTBK.PCX",
       "kind": "pcx",
       "width": 652,
       "height": 348,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/APHLFTBK.PCX.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/APHLFTBK.PCX.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/APHLFTBK.PCX.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/APHLFTBK.PCX.webp",
       "previewWidth": 240,
       "previewHeight": 128,
       "anchor": "file-9b3641bae088",
@@ -181,7 +58,7 @@
             "Game panels",
             "Hill Fort panel"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/"
+          "en": "/en/wiki/bitmap/0/4/"
         }
       ]
     },
@@ -191,12 +68,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 12883,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/APHLFTRT.PCX",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/APHLFTRT.PCX",
       "kind": "pcx",
       "width": 637,
       "height": 19,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/APHLFTRT.PCX.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/APHLFTRT.PCX.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/APHLFTRT.PCX.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/APHLFTRT.PCX.webp",
       "previewWidth": 240,
       "previewHeight": 7,
       "anchor": "file-3001429a7b5f",
@@ -208,7 +85,7 @@
             "Shared by all players",
             "Unsorted fragments"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/page-2/"
+          "en": "/en/wiki/bitmap/0/4/page-2/"
         }
       ]
     },
@@ -218,12 +95,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 1440012,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/Ar_Bg.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/Ar_Bg.pcx",
       "kind": "pcx",
       "width": 800,
       "height": 600,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/Ar_Bg.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/Ar_Bg.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/Ar_Bg.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/Ar_Bg.pcx.webp",
       "previewWidth": 213,
       "previewHeight": 160,
       "anchor": "file-d8785438e621",
@@ -235,7 +112,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/"
+          "en": "/en/wiki/bitmap/0/1/"
         }
       ]
     },
@@ -245,12 +122,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoBl.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoBl.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoBl.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoBl.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoBl.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoBl.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-7b79a5bd03e6",
@@ -262,7 +139,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -272,12 +149,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoBr.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoBr.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoBr.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoBr.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoBr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoBr.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-7f2680175932",
@@ -289,7 +166,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -299,12 +176,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoGr.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoGr.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoGr.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoGr.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoGr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoGr.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-40ac2936241c",
@@ -316,7 +193,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -326,12 +203,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoOr.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoOr.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoOr.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoOr.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoOr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoOr.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-e471b49100d3",
@@ -343,7 +220,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -353,12 +230,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoPi.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoPi.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoPi.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoPi.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoPi.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoPi.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-23d843455f45",
@@ -370,7 +247,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -380,12 +257,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoRe.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoRe.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoRe.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoRe.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoRe.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoRe.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-59434fda4b05",
@@ -397,7 +274,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -407,12 +284,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoTe.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoTe.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoTe.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoTe.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoTe.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoTe.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-de49d52270a6",
@@ -424,7 +301,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -434,12 +311,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_CoVi.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_CoVi.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_CoVi.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoVi.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_CoVi.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_CoVi.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-c60517a5da63",
@@ -451,7 +328,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -461,12 +338,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnBl.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnBl.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnBl.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnBl.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnBl.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnBl.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-e0a478696d57",
@@ -478,7 +355,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -488,12 +365,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnBr.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnBr.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnBr.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnBr.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnBr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnBr.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-25f2d9815196",
@@ -505,7 +382,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -515,12 +392,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnGr.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnGr.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnGr.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnGr.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnGr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnGr.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-114985d699a5",
@@ -532,7 +409,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -542,12 +419,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnOr.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnOr.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnOr.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnOr.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnOr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnOr.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-72095e6499ca",
@@ -559,7 +436,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -569,12 +446,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnPi.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnPi.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnPi.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnPi.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnPi.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnPi.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-a85c5f382a6f",
@@ -586,7 +463,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -596,12 +473,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnRe.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnRe.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnRe.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnRe.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnRe.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnRe.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-964971719ad5",
@@ -613,7 +490,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -623,12 +500,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnTe.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnTe.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnTe.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnTe.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnTe.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnTe.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-0441d3e6e1dc",
@@ -640,7 +517,7 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     },
@@ -650,12 +527,12 @@
       "archive": "H3bitmap.lod",
       "edition": "SoD",
       "bytes": 5004,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/original/ArA_EnVi.pcx",
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_EnVi.pcx",
       "kind": "pcx",
       "width": 48,
       "height": 88,
-      "image": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/display/ArA_EnVi.pcx.png",
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnVi.pcx.webp",
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_EnVi.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_EnVi.pcx.webp",
       "previewWidth": 48,
       "previewHeight": 88,
       "anchor": "file-541e1beb0f82",
@@ -667,7 +544,277 @@
             "Armageddon's Blade",
             "Armageddon's Blade"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/"
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeBl.pcx",
+      "name": "ArA_SeBl.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeBl.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeBl.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeBl.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-f4d992e3c4a6",
+      "sha256": "ec75ea2afbc7d322834a6799213ef440a67b3fd3e2b4787da347832b16277567",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeBr.pcx",
+      "name": "ArA_SeBr.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeBr.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeBr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeBr.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-e2c09d924fb5",
+      "sha256": "23acd500a1d74ab15077e1135519d574825ae85a9557138b86a985d839e43a46",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeGr.pcx",
+      "name": "ArA_SeGr.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeGr.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeGr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeGr.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-854788d33222",
+      "sha256": "a6c5c79a611adf6f704619b08d45248c0b01ceb21279ac294e6cce80d372c5a9",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeOr.pcx",
+      "name": "ArA_SeOr.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeOr.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeOr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeOr.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-021e0b1eda45",
+      "sha256": "808ba957ba45bb3431d75490715c0c63452f4b4643102b9cc290dc0902bc0a5e",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SePi.pcx",
+      "name": "ArA_SePi.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SePi.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SePi.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SePi.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-1e37d20807b5",
+      "sha256": "777d7dc94adfcd237c2fe12d33dc9a55a707cfa8db90711009d389178fdb96b4",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeRe.pcx",
+      "name": "ArA_SeRe.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeRe.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeRe.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeRe.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-c02e84f9d4ef",
+      "sha256": "b49ec129b61cc624b4cbd1d444ae80bf7cfa35f5cf54238299b107a6c5b76ac9",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeTe.pcx",
+      "name": "ArA_SeTe.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeTe.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeTe.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeTe.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-86fe91e98da3",
+      "sha256": "8929f283b9dc899f183959968898be56398938a17e200e3b10ae2bc7dabbc8e0",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArA_SeVi.pcx",
+      "name": "ArA_SeVi.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 5004,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArA_SeVi.pcx",
+      "kind": "pcx",
+      "width": 48,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArA_SeVi.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArA_SeVi.pcx.webp",
+      "previewWidth": 48,
+      "previewHeight": 88,
+      "anchor": "file-7289d92830e5",
+      "sha256": "676854468644b93808fedbda511c02550421090808aab772434a0aa6e2f41d36",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArB_CoBl.pcx",
+      "name": "ArB_CoBl.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 9228,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArB_CoBl.pcx",
+      "kind": "pcx",
+      "width": 96,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArB_CoBl.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArB_CoBl.pcx.webp",
+      "previewWidth": 96,
+      "previewHeight": 88,
+      "anchor": "file-7f32d100840b",
+      "sha256": "de9cca9b26266efbcc938cb9225e3c2db0c71c6908cda7ca832b3dfb60ec0626",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3bitmap.lod/ArB_CoBr.pcx",
+      "name": "ArB_CoBr.pcx",
+      "archive": "H3bitmap.lod",
+      "edition": "SoD",
+      "bytes": 9228,
+      "original": "/assets/wiki/sod/h3bitmap-lod/original/ArB_CoBr.pcx",
+      "kind": "pcx",
+      "width": 96,
+      "height": 88,
+      "image": "/assets/wiki/sod/h3bitmap-lod/display/ArB_CoBr.pcx.png",
+      "preview": "/assets/wiki/sod/h3bitmap-lod/preview/ArB_CoBr.pcx.webp",
+      "previewWidth": 96,
+      "previewHeight": 88,
+      "anchor": "file-1bfdc92be54a",
+      "sha256": "023f5e4c565b284018d64af306f6b7e9f4983713ad1cf3485a8112f48086c05b",
+      "destinations": [
+        {
+          "category": [
+            "Region maps",
+            "Armageddon's Blade",
+            "Armageddon's Blade"
+          ],
+          "en": "/en/wiki/bitmap/0/1/page-10/"
         }
       ]
     }

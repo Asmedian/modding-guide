@@ -1,7 +1,7 @@
 # Battlefield operations (BU)
 
 ID: erm.receivers.bu
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bu/
+URL: /en/erm/receivers/bu/
 Part: 1/1
 Source references: old-help:rec-bu.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -147,7 +147,7 @@ Win the battle<br>
 # Towns (CA)
 
 ID: erm.receivers.ca
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ca/
+URL: /en/erm/receivers/ca/
 Part: 1/1
 Source references: old-help:rec-ca.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

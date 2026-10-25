@@ -1,7 +1,7 @@
 # Creature table
 
 ID: erm.tables.creatures
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/creatures/
+URL: /en/erm/tables/creatures/
 Part: 2/2
 Source references: old-help:form-creature.htm, era-framework:lib-9999-era---consts.erm, old-help:form-creature-hex.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

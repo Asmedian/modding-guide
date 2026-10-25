@@ -1,199 +1,7 @@
-# OnRecruitDlgMouseClick
-
-ID: erm.framework.functions.onrecruitdlgmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onrecruitdlgmouseclick/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-193-195-onrecruitdlgmouseclick
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onrecruitdlgmouseclick 1 -->
-## Purpose {#purpose}
-
-Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnRecruitDlgMouseClick);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[EnterMouseEvent](../entermouseevent/)
-
-## Version and status {#provenance}
-
-Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 193–195, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onrecruitdlgmouseclick 1 -->
-
-# OnSavegameRead
-
-ID: erm.framework.functions.onsavegameread
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onsavegameread/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-145-147-onsavegameread
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onsavegameread 1 -->
-## Purpose {#purpose}
-
-Clears event-chain state after save data is read.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnSavegameRead);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[ClearEventChainData](../cleareventchaindata/)
-
-## Version and status {#provenance}
-
-Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 145–147, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onsavegameread 1 -->
-
-# OnSetupBattlefield
-
-ID: erm.framework.functions.onsetupbattlefield
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onsetupbattlefield/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-263-265-onsetupbattlefield
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onsetupbattlefield 1 -->
-## Purpose {#purpose}
-
-Refreshes battle_* during battlefield setup.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnSetupBattlefield);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[UpdateBattleVars](../updatebattlevars/)
-
-## Version and status {#provenance}
-
-Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 263–265, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onsetupbattlefield 1 -->
-
-# OnStartOrLoad
-
-ID: erm.framework.functions.onstartorload
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onstartorload/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-292-300-onstartorload
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.onstartorload 1 -->
-## Purpose {#purpose}
-
-Updates maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. The source spells maxArtifacId without the second t.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnStartOrLoad);
-```
-
-## State and dependencies {#context}
-
-Named globals: [i^maxArtifacId^](../../globals/#global-i-maxartifacid) · [i^maxHeroId^](../../globals/#global-i-maxheroid) · [i^maxMonsterId^](../../globals/#global-i-maxmonsterid) · [i^maxSpellId^](../../globals/#global-i-maxspellid).
-
-## Related functions {#calls}
-
-[GetMaxArtifactId](../getmaxartifactid/) · [GetMaxHeroId](../getmaxheroid/) · [GetMaxMonsterId](../getmaxmonsterid/) · [GetMaxSpellId](../getmaxspellid/)
-
-## Version and status {#provenance}
-
-Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 292–300, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.onstartorload 1 -->
-
-# OnTownHallMouseClick_Quit
-
-ID: erm.framework.functions.ontownhallmouseclick-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownhallmouseclick-quit/
-Part: 1/1
-Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-58-60-ontownhallmouseclick-quit
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.ontownhallmouseclick-quit 1 -->
-## Purpose {#purpose}
-
-Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnTownHallMouseClick_Quit);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[LeaveMouseEvent](../leavemouseevent/)
-
-## Version and status {#provenance}
-
-Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 58–60, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.ontownhallmouseclick-quit 1 -->
-
-# OnTownHallMouseClick
-
-ID: erm.framework.functions.ontownhallmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownhallmouseclick/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-196-198-ontownhallmouseclick
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.ontownhallmouseclick 1 -->
-## Purpose {#purpose}
-
-Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id.
-
-## Call contract {#signature}
-
-```erm
-!?FU(OnTownHallMouseClick);
-```
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Related functions {#calls}
-
-[EnterMouseEvent](../entermouseevent/)
-
-## Version and status {#provenance}
-
-Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 196–198, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.ontownhallmouseclick 1 -->
-
 # OnTownMouseClick_Quit
 
 ID: erm.framework.functions.ontownmouseclick-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick-quit/
+URL: /en/erm/framework/functions/ontownmouseclick-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -225,7 +33,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnTownMouseClick
 
 ID: erm.framework.functions.ontownmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick/
+URL: /en/erm/framework/functions/ontownmouseclick/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-178-180-ontownmouseclick
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -257,7 +65,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnTownMouseHint_Quit
 
 ID: erm.framework.functions.ontownmousehint-quit
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint-quit/
+URL: /en/erm/framework/functions/ontownmousehint-quit/
 Part: 1/1
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -289,7 +97,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnTownMouseHint
 
 ID: erm.framework.functions.ontownmousehint
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint/
+URL: /en/erm/framework/functions/ontownmousehint/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -321,7 +129,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # PackUnion
 
 ID: erm.framework.functions.packunion
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/packunion/
+URL: /en/erm/framework/functions/packunion/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -369,7 +177,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1241�
 # Pow
 
 ID: erm.framework.functions.pow
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/pow/
+URL: /en/erm/framework/functions/pow/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -407,7 +215,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1166�
 # PrepareMessageBoxText
 
 ID: erm.framework.functions.preparemessageboxtext
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemessageboxtext/
+URL: /en/erm/framework/functions/preparemessageboxtext/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -447,7 +255,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # PrepareMultiPicDialog
 
 ID: erm.framework.functions.preparemultipicdialog
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemultipicdialog/
+URL: /en/erm/framework/functions/preparemultipicdialog/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -485,7 +293,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2679�
 # RadioDlg_AddCancelButton
 
 ID: erm.framework.functions.radiodlg-addcancelbutton
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-addcancelbutton/
+URL: /en/erm/framework/functions/radiodlg-addcancelbutton/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -519,7 +327,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2474�
 # RadioDlg_AddItem
 
 ID: erm.framework.functions.radiodlg-additem
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additem/
+URL: /en/erm/framework/functions/radiodlg-additem/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -562,7 +370,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2532�
 # RadioDlg_AddItems
 
 ID: erm.framework.functions.radiodlg-additems
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additems/
+URL: /en/erm/framework/functions/radiodlg-additems/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -602,7 +410,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2561�
 # RadioDlg_GetItemTag
 
 ID: erm.framework.functions.radiodlg-getitemtag
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemtag/
+URL: /en/erm/framework/functions/radiodlg-getitemtag/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -635,4 +443,183 @@ Export calls: `ShowErmError`.
 
 Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2597–2611, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
 <!-- llm:end erm.framework.functions.radiodlg-getitemtag 1 -->
+
+# RadioDlg_GetItemValue
+
+ID: erm.framework.functions.radiodlg-getitemvalue
+URL: /en/erm/framework/functions/radiodlg-getitemvalue/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.radiodlg-getitemvalue 1 -->
+## Purpose {#purpose}
+
+Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
+
+## Call contract {#signature}
+
+```erm
+!!FU(RadioDlg_GetItemValue):P(itemInd)/(result);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `itemInd` | input |
+| x2 | `result` | output / mutable |
+
+## State and dependencies {#context}
+
+Named globals: [i^radioDlg_values^](../../globals/#global-i-radiodlg-values) · [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems).
+
+Export calls: `ShowErmError`.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2584–2596, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.radiodlg-getitemvalue 1 -->
+
+# RadioDlg_GetNumItems
+
+ID: erm.framework.functions.radiodlg-getnumitems
+URL: /en/erm/framework/functions/radiodlg-getnumitems/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.radiodlg-getnumitems 1 -->
+## Purpose {#purpose}
+
+Returns the item count excluding Cancel.
+
+## Call contract {#signature}
+
+```erm
+!!FU(RadioDlg_GetNumItems):P(result);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `result` | output / mutable |
+
+## State and dependencies {#context}
+
+Named globals: [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems).
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2578–2583, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.radiodlg-getnumitems 1 -->
+
+# RadioDlg_Reset
+
+ID: erm.framework.functions.radiodlg-reset
+URL: /en/erm/framework/functions/radiodlg-reset/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.radiodlg-reset 1 -->
+## Purpose {#purpose}
+
+Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.
+
+## Call contract {#signature}
+
+```erm
+!!FU(RadioDlg_Reset):P;
+```
+
+## State and dependencies {#context}
+
+Named globals: [i^radioDlg_captions^](../../globals/#global-i-radiodlg-captions) · [i^radioDlg_tags^](../../globals/#global-i-radiodlg-tags) · [i^radioDlg_values^](../../globals/#global-i-radiodlg-values) · [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems) · [i^radioDlg_selectedItemInd^](../../globals/#global-i-radiodlg-selecteditemind) · [i^radioDlg_flags^](../../globals/#global-i-radiodlg-flags) · [i^radioDlg_freeSpaceAlerted^](../../globals/#global-i-radiodlg-freespacealerted) · [s^radioDlg_title^](../../globals/#global-s-radiodlg-title).
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2456–2467, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[FALSE](../../constants/universal/#const-false) · [NO_RADIO_DLG_ITEM](../../constants/radio-dialogs/#const-no-radio-dlg-item) · [RADIO_DLG_MAX_ITEMS](../../constants/radio-dialogs/#const-radio-dlg-max-items)
+<!-- llm:end erm.framework.functions.radiodlg-reset 1 -->
+
+# RadioDlg_SelectItem
+
+ID: erm.framework.functions.radiodlg-selectitem
+URL: /en/erm/framework/functions/radiodlg-selectitem/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.radiodlg-selectitem 1 -->
+## Purpose {#purpose}
+
+Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.
+
+## Call contract {#signature}
+
+```erm
+!!FU(RadioDlg_SelectItem):P(itemInd);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `itemInd` | input |
+
+## State and dependencies {#context}
+
+Named globals: [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems) · [i^radioDlg_selectedItemInd^](../../globals/#global-i-radiodlg-selecteditemind).
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2490–2496, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[NO_RADIO_DLG_ITEM](../../constants/radio-dialogs/#const-no-radio-dlg-item)
+<!-- llm:end erm.framework.functions.radiodlg-selectitem 1 -->
+
+# RadioDlg_SelectItemByTag
+
+ID: erm.framework.functions.radiodlg-selectitembytag
+URL: /en/erm/framework/functions/radiodlg-selectitembytag/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.radiodlg-selectitembytag 1 -->
+## Purpose {#purpose}
+
+Selects the first matching value/string tag. Clears selection if no match exists.
+
+## Call contract {#signature}
+
+```erm
+!!FU(RadioDlg_SelectItemByTag):P(itemTagPtr);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `itemTagPtr` | input |
+
+## State and dependencies {#context}
+
+Named globals: [i^radioDlg_tags^](../../globals/#global-i-radiodlg-tags) · [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems) · [i^radioDlg_selectedItemInd^](../../globals/#global-i-radiodlg-selecteditemind) · [s^temp^](../../globals/#global-s-temp).
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2514–2531, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[NO_RADIO_DLG_ITEM](../../constants/radio-dialogs/#const-no-radio-dlg-item)
+<!-- llm:end erm.framework.functions.radiodlg-selectitembytag 1 -->
 

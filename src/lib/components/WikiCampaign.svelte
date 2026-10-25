@@ -30,7 +30,6 @@
     <dl class="wiki-campaign-stats"><div><dt>{t('wiki.mapSize')}</dt><dd>{scenario.mapSize}×{scenario.mapSize}</dd></div><div><dt>{t('wiki.players')}</dt><dd>{scenario.playerCount}</dd></div><div><dt>{t('wiki.objects')}</dt><dd>{scenario.objects}</dd></div><div><dt>{t('wiki.towns')}</dt><dd>{scenario.towns}</dd></div><div><dt>{t('wiki.monsters')}</dt><dd>{scenario.monsters}</dd></div></dl>
     {#if scenario.victory}<p>{t('wiki.victory')}: {scenario.victory.name}</p>{/if}
     {#if scenario.loss}<p>{t('wiki.loss')}: {scenario.loss.name}</p>{/if}
-    {#if scenario.original}<a href={`${base}${scenario.original}`} download>{t('wiki.exportMap')}</a>{/if}
   {:else}
     <h3 class="wiki-heading">{campaign.name}<small class="wiki-edition">SoD</small></h3>
     <p class="wiki-campaign-description"><WikiH3Text text={campaign.description} /></p>
@@ -53,7 +52,7 @@
           {#if item.description}<details><summary>{t('wiki.description')}</summary><p class="wiki-campaign-description"><WikiH3Text text={item.description} /></p></details>{/if}
           {#if item.prologText}<details><summary>{t('wiki.prologue')}</summary><p class="wiki-campaign-description"><WikiH3Text text={item.prologText} /></p></details>{/if}
           {#if item.epilogText}<details><summary>{t('wiki.epilogue')}</summary><p class="wiki-campaign-description"><WikiH3Text text={item.epilogText} /></p></details>{/if}
-          <div class="wiki-scenario-actions"><button class="wiki-raised-button" on:click={()=>{selected=i;level=0;}}>{t('wiki.openMap')}</button>{#if item.original}<a href={`${base}${item.original}`} download>{t('wiki.exportMap')}</a>{/if}</div>
+          <div class="wiki-scenario-actions"><button class="wiki-raised-button" on:click={()=>{selected=i;level=0;}}>{t('wiki.openMap')}</button></div>
         </section>
       {/each}
     </div>

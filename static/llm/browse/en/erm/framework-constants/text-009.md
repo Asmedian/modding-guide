@@ -1,7 +1,7 @@
 # Spell Schools
 
 ID: erm.framework.constants.spell-schools
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-schools/
+URL: /en/erm/framework/constants/spell-schools/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -28,7 +28,7 @@ The **Spell Schools** group from the supplied Framework. Names and values below 
 # Spell Texts For Sn H
 
 ID: erm.framework.constants.spell-texts-for-sn-h
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/
+URL: /en/erm/framework/constants/spell-texts-for-sn-h/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -58,7 +58,7 @@ The **Spell Texts For Sn H** group from the supplied Framework. Names and values
 # Spells
 
 ID: erm.framework.constants.spells
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/
+URL: /en/erm/framework/constants/spells/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -163,7 +163,7 @@ The **Spells** group from the supplied Framework. Names and values below corresp
 # Stack Experience
 
 ID: erm.framework.constants.stack-experience
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/stack-experience/
+URL: /en/erm/framework/constants/stack-experience/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -187,7 +187,7 @@ The **Stack Experience** group from the supplied Framework. Names and values bel
 # Towns
 
 ID: erm.framework.constants.towns
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/towns/
+URL: /en/erm/framework/constants/towns/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -225,7 +225,7 @@ The **Towns** group from the supplied Framework. Names and values below correspo
 # Un:C Data Types
 
 ID: erm.framework.constants.un-c-data-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/un-c-data-types/
+URL: /en/erm/framework/constants/un-c-data-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -260,7 +260,7 @@ The **Un:C Data Types** group from the supplied Framework. Names and values belo
 # Universal
 
 ID: erm.framework.constants.universal
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/universal/
+URL: /en/erm/framework/constants/universal/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -291,7 +291,7 @@ The **Universal** group from the supplied Framework. Names and values below corr
 # Useful Addresses
 
 ID: erm.framework.constants.useful-addresses
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/
+URL: /en/erm/framework/constants/useful-addresses/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -328,7 +328,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Win32 Api
 
 ID: erm.framework.constants.win32-api
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/win32-api/
+URL: /en/erm/framework/constants/win32-api/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -358,7 +358,7 @@ The **Win32 Api** group from the supplied Framework. Names and values below corr
 # Wog Options
 
 ID: erm.framework.constants.wog-options
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/wog-options/
+URL: /en/erm/framework/constants/wog-options/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

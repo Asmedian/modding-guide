@@ -1,7 +1,7 @@
 # Variables, strings and arrays
 
 ID: erm.variables
-URL: https://asmedian.github.io/modding-guide/en/erm/variables/
+URL: /en/erm/variables/
 Part: 5/5
 Source references: old-help:cont-flags.htm, old-help:cont-usedvar.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

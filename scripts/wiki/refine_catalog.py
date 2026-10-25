@@ -10,7 +10,7 @@ import re
 from collections import OrderedDict
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
-from formats import archive_entries, pcx_image, def_header, def_frame
+from formats import archive_entries, pcx_image, def_header, def_frame, def_group_summary
 from import_resources import auxiliary_image
 
 
@@ -45,7 +45,7 @@ def create_resource(root, archive, name, data):
     elif kind == 'def':
         typ, w, h, groups = def_header(data)
         image = def_frame(data, groups[0]['frames'][0][1])
-        item.update(type=typ, groups=len(groups), frames=sum(len(g['frames']) for g in groups))
+        item.update(type=typ, groups=len(groups), frames=sum(len(g['frames']) for g in groups), frameGroups=def_group_summary(groups))
     elif kind == 'fnt':
         h = data[5]
         widths = [struct.unpack_from('<I', data, 36+i*12)[0] for i in range(256)]

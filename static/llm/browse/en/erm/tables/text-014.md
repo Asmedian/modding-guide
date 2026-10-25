@@ -1,7 +1,7 @@
 # BM:V animations
 
 ID: erm.tables.combat-animations
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/combat-animations/
+URL: /en/erm/tables/combat-animations/
 Part: 2/2
 Source references: old-help:form-formatanimation.htm, old-help:form-defspell.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -239,7 +239,7 @@ Animation does not cast a spell. 12 is tied to the upper-left battlefield; 43/44
 # Combat stack fields
 
 ID: erm.tables.combat-stack-structure
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/combat-stack-structure/
+URL: /en/erm/tables/combat-stack-structure/
 Part: 1/2
 Source references: old-help:form-combatmon.htm, old-help:rec-bm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

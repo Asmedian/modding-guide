@@ -1,7 +1,7 @@
 # Game videos
 
 ID: erm.tables.videos
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/videos/
+URL: /en/erm/tables/videos/
 Part: 1/1
 Source references: old-help:form-video.htm, old-help:rec-vr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

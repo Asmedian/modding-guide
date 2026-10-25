@@ -1,7 +1,7 @@
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-34
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-34/
+URL: /en/wiki/bitmap/0/1/page-34/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -106,7 +106,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-35
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-35/
+URL: /en/wiki/bitmap/0/1/page-35/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -342,7 +342,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-36
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-36/
+URL: /en/wiki/bitmap/0/1/page-36/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

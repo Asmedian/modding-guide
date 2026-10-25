@@ -1,7 +1,7 @@
 # Artifact equipment (AE)
 
 ID: erm.triggers.ae
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ae/
+URL: /en/erm/triggers/ae/
 Part: 1/1
 Source references: old-help:tr-ae.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -76,7 +76,7 @@ Rearranging backpack items is not equipment. Replacing one artifact with another
 # Battle start and completion (BA)
 
 ID: erm.triggers.ba
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ba/
+URL: /en/erm/triggers/ba/
 Part: 1/1
 Source references: old-help:tr-ba.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -153,7 +153,7 @@ BA also fires for theoretical AI battles. Battle stacks are not ready at the sta
 # Battlefield setup (BF)
 
 ID: erm.triggers.bf
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/bf/
+URL: /en/erm/triggers/bf/
 Part: 1/1
 Source references: old-help:tr-bf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -208,7 +208,7 @@ Legacy Help excludes battles without a human. Do not call BU:R to redraw at this
 # Battle actions (BG)
 
 ID: erm.triggers.bg
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/bg/
+URL: /en/erm/triggers/bg/
 Part: 1/1
 Source references: old-help:tr-bg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -274,7 +274,7 @@ BG:N during BG1 may already refer to the next stack. OnBattleActionEnd provides 
 # Battle rounds (BR)
 
 ID: erm.triggers.br
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/br/
+URL: /en/erm/triggers/br/
 Part: 1/1
 Source references: old-help:tr-br.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -343,7 +343,7 @@ The supplied Erm.pas registers OnCombatRound and OnBattleRound for the same even
 # Mouse clicks (CM)
 
 ID: erm.triggers.cm
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/cm/
+URL: /en/erm/triggers/cm/
 Part: 1/1
 Source references: old-help:tr-cm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -413,7 +413,7 @@ CM:P applies to the adventure map/minimap. Cancel the default reaction with CM:R
 # Commander events (CO)
 
 ID: erm.triggers.co
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/co/
+URL: /en/erm/triggers/co/
 Part: 1/1
 Source references: old-help:tr-co.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -475,7 +475,7 @@ Do not confuse this trigger or the CO receiver with lowercase co, which continue
 # Custom dialog events (DL)
 
 ID: erm.triggers.dl
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/dl/
+URL: /en/erm/triggers/dl/
 Part: 1/1
 Source references: old-help:tr-dl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

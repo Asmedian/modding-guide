@@ -7,7 +7,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/oncalculatetownincome",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/oncalculatetownincome/",
+      "url": "/en/erm/triggers/oncalculatetownincome/",
       "title": "Calculating town income (OnCalculateTownIncome)",
       "summary": "x1 is town; x2 income, mutable; x3 includes additional silo resources. Only returned income x2 is changed. This is a calculation event and does not guarantee resources are being paid.",
       "keywords": [
@@ -69,7 +69,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -88,7 +88,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ondeterminemoninfodlgupgrade",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ondeterminemoninfodlgupgrade/",
+      "url": "/en/erm/triggers/ondeterminemoninfodlgupgrade/",
       "title": "Choosing a creature upgrade (OnDetermineMonInfoDlgUpgrade)",
       "summary": "x1 is creature; x2 upgraded type or -1, mutable; x3 town or -1; x4 hero or -1. This controls the upgrade available in the creature-info dialog.",
       "keywords": [
@@ -150,7 +150,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -169,7 +169,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onclosetownscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onclosetownscreen/",
+      "url": "/en/erm/triggers/onclosetownscreen/",
       "title": "Closing a town (OnCloseTownScreen)",
       "summary": "x1 is the town used to open the window.",
       "keywords": [
@@ -228,7 +228,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -247,7 +247,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/oncloserecruitdlg",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/oncloserecruitdlg/",
+      "url": "/en/erm/triggers/oncloserecruitdlg/",
       "title": "Closing recruitment (OnCloseRecruitDlg)",
       "summary": "No arguments. RD data remains available before the dialog is freed; a retained dialog pointer is invalid afterwards.",
       "keywords": [
@@ -306,7 +306,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -325,7 +325,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/oncloseheroscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/oncloseheroscreen/",
+      "url": "/en/erm/triggers/oncloseheroscreen/",
       "title": "Closing the hero screen (OnCloseHeroScreen)",
       "summary": "x1 is the hero used to open the window, even if the user subsequently switched heroes.",
       "keywords": [
@@ -384,7 +384,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -403,7 +403,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/co",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/co/",
+      "url": "/en/erm/triggers/co/",
       "title": "Commander events (CO)",
       "summary": "0 before the commander window, 1 after closing, 2 after purchase, 3 after resurrection. HE-1 and CO-1 access the current hero and commander.",
       "keywords": [
@@ -462,7 +462,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-co",
           "toAnchor": "reference-links",
           "headings": [
@@ -483,7 +483,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/dl",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/dl/",
+      "url": "/en/erm/triggers/dl/",
       "title": "Custom dialog events (DL)",
       "summary": "Handles custom-dialog item actions. Classic context: v998 is dialog ID, v999 item ID, v1000 action.",
       "keywords": [
@@ -542,7 +542,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-dl",
           "toAnchor": "reference-links",
           "headings": [
@@ -563,7 +563,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ongameenter",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ongameenter/",
+      "url": "/en/erm/triggers/ongameenter/",
       "title": "Entering the game (OnGameEnter)",
       "summary": "After starting or loading a game, before adventure-map control. No arguments. Suitable for obtaining process-local pointers and exports; distinguish it from one-time PI initialization.",
       "keywords": [
@@ -625,7 +625,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -644,7 +644,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/fu",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/fu/",
+      "url": "/en/erm/triggers/fu/",
       "title": "Function handler (FU)",
       "summary": "The function body follows its declaration and is invoked with FU:P or DO:P. Inputs and outputs use x1..x16.",
       "keywords": [
@@ -697,7 +697,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-fu",
           "toAnchor": "reference-links",
           "headings": [
@@ -717,7 +717,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onchat",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onchat/",
+      "url": "/en/erm/triggers/onchat/",
       "title": "Game chat (OnChat)",
       "summary": "x1 selects the stage: 0 enter (x2 blocks entry); 1 input (x2 text pointer, x3 action: 0 clear, 1 close, 2 default); 2 leave. Argument meanings depend on stage; check x1 first.",
       "keywords": [
@@ -779,7 +779,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [

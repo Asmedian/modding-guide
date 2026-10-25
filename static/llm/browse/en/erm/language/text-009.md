@@ -1,7 +1,7 @@
 # ERM triggers and events
 
 ID: erm.triggers
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/
+URL: /en/erm/triggers/
 Part: 1/4
 Source references: era-source:erm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt, old-help:cont-eventslist.htm, old-help:cont-logicevent.htm, old-help:cont-triggers.htm, old-help:cont-triggers-era.htm, old-help:cont-triggersol.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

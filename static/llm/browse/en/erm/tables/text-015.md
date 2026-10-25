@@ -1,7 +1,7 @@
 # Combat stack fields
 
 ID: erm.tables.combat-stack-structure
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/combat-stack-structure/
+URL: /en/erm/tables/combat-stack-structure/
 Part: 2/2
 Source references: old-help:form-combatmon.htm, old-help:rec-bm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

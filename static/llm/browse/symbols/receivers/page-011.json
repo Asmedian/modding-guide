@@ -2,26 +2,250 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "IP:D",
+      "name": "MA:P",
       "kind": "command",
-      "slug": "receivers/ip",
-      "anchor": "ref-rec-ip-d",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-p",
       "aliases": [
-        "!!IP:D"
+        "!!MA:P"
+      ],
+      "label": "P#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-p"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:R",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-r",
+      "aliases": [
+        "!!MA:R"
+      ],
+      "label": "R#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:S",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-s",
+      "aliases": [
+        "!!MA:S"
+      ],
+      "label": "S#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:U",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-u",
+      "aliases": [
+        "!!MA:U"
+      ],
+      "label": "U#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-u"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:V",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-v",
+      "aliases": [
+        "!!MA:V"
+      ],
+      "label": "V#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-v"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:X",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-x",
+      "aliases": [
+        "!!MA:X"
+      ],
+      "label": "X#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-x"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MC",
+      "kind": "receiver",
+      "slug": "receivers/mc",
+      "anchor": "",
+      "aliases": [
+        "!!MC"
+      ],
+      "label": "Classic ERM macros (MC)",
+      "destinations": {
+        "en": "/en/erm/receivers/mc/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mc",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MC",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MF",
+      "kind": "receiver",
+      "slug": "receivers/mf",
+      "anchor": "",
+      "aliases": [
+        "!!MF"
+      ],
+      "label": "Physical damage (MF)",
+      "destinations": {
+        "en": "/en/erm/receivers/mf/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mf",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MF",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MF:D",
+      "kind": "command",
+      "slug": "receivers/mf",
+      "anchor": "ref-rec-mf-d",
+      "aliases": [
+        "!!MF:D"
       ],
       "label": "D$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/#ref-rec-ip-d"
+        "en": "/en/erm/receivers/mf/#ref-rec-mf-d"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-ip",
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mf",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver IP",
+              "Receiver MF",
               "Related reference",
               "Related commands and tables"
             ]
@@ -30,368 +254,26 @@
       }
     },
     {
-      "name": "IP:F",
+      "name": "MF:E",
       "kind": "command",
-      "slug": "receivers/ip",
-      "anchor": "ref-rec-ip-f",
+      "slug": "receivers/mf",
+      "anchor": "ref-rec-mf-e",
       "aliases": [
-        "!!IP:F"
-      ],
-      "label": "F$1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/#ref-rec-ip-f"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-ip",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver IP",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IP:R",
-      "kind": "command",
-      "slug": "receivers/ip",
-      "anchor": "ref-rec-ip-r",
-      "aliases": [
-        "!!IP:R"
-      ],
-      "label": "R",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/#ref-rec-ip-r"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-ip",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver IP",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IP:V",
-      "kind": "command",
-      "slug": "receivers/ip",
-      "anchor": "ref-rec-ip-v",
-      "aliases": [
-        "!!IP:V"
-      ],
-      "label": "V$1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/#ref-rec-ip-v"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-ip",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver IP",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IP:W",
-      "kind": "command",
-      "slug": "receivers/ip",
-      "anchor": "ref-rec-ip-w",
-      "aliases": [
-        "!!IP:W"
-      ],
-      "label": "W$1/$2/$3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/#ref-rec-ip-w"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-ip",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver IP",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "KT",
-      "kind": "receiver",
-      "slug": "receivers/kt",
-      "anchor": "",
-      "aliases": [
-        "!!KT"
-      ],
-      "label": "Tree of knowledge (KT)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/kt/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-kt",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver KT",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "KT:N",
-      "kind": "command",
-      "slug": "receivers/kt",
-      "anchor": "ref-rec-kt-n",
-      "aliases": [
-        "!!KT:N"
-      ],
-      "label": "N$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/kt/#ref-rec-kt-n"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-kt",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver KT",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "KT:S",
-      "kind": "command",
-      "slug": "receivers/kt",
-      "anchor": "ref-rec-kt-s",
-      "aliases": [
-        "!!KT:S"
-      ],
-      "label": "S$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/kt/#ref-rec-kt-s"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-kt",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver KT",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE",
-      "kind": "receiver",
-      "slug": "receivers/le",
-      "anchor": "",
-      "aliases": [
-        "!!LE"
-      ],
-      "label": "Local map events (LE)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:A",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-a",
-      "aliases": [
-        "!!LE:A"
-      ],
-      "label": "A#1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-a"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:B",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-b",
-      "aliases": [
-        "!!LE:B"
-      ],
-      "label": "B",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-b"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:C",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-c",
-      "aliases": [
-        "!!LE:C"
-      ],
-      "label": "C#1/$2/$3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-c"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:D",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-d",
-      "aliases": [
-        "!!LE:D"
-      ],
-      "label": "D#1/#2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-d"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:E",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-e",
-      "aliases": [
-        "!!LE:E"
+        "!!MF:E"
       ],
       "label": "E$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-e"
+        "en": "/en/erm/receivers/mf/#ref-rec-mf-e"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mf",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
+              "Receiver MF",
               "Related reference",
               "Related commands and tables"
             ]
@@ -400,27 +282,26 @@
       }
     },
     {
-      "name": "LE:F",
+      "name": "MF:F",
       "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-f",
+      "slug": "receivers/mf",
+      "anchor": "ref-rec-mf-f",
       "aliases": [
-        "!!LE:F"
+        "!!MF:F"
       ],
-      "label": "F$1/$2/$3/$4",
+      "label": "F$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-f"
+        "en": "/en/erm/receivers/mf/#ref-rec-mf-f"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mf",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
+              "Receiver MF",
               "Related reference",
               "Related commands and tables"
             ]
@@ -429,401 +310,26 @@
       }
     },
     {
-      "name": "LE:G",
+      "name": "MF:N",
       "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-g",
+      "slug": "receivers/mf",
+      "anchor": "ref-rec-mf-n",
       "aliases": [
-        "!!LE:G"
-      ],
-      "label": "G#1/$2/$3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-g"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:I",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-i",
-      "aliases": [
-        "!!LE:I"
-      ],
-      "label": "I#",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-i"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:L",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-l",
-      "aliases": [
-        "!!LE:L"
-      ],
-      "label": "L#",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-l"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:M",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-m",
-      "aliases": [
-        "!!LE:M"
-      ],
-      "label": "M^текст^",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-m"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:N",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-n",
-      "aliases": [
-        "!!LE:N"
-      ],
-      "label": "N#1/$2/$3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-n"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:O",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-o",
-      "aliases": [
-        "!!LE:O"
-      ],
-      "label": "O$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-o"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:P",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-p",
-      "aliases": [
-        "!!LE:P"
-      ],
-      "label": "P$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-p"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:R",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-r",
-      "aliases": [
-        "!!LE:R"
-      ],
-      "label": "R#1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-r"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:S",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-s",
-      "aliases": [
-        "!!LE:S"
-      ],
-      "label": "S#1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-s"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:U",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-u",
-      "aliases": [
-        "!!LE:U"
-      ],
-      "label": "U$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-u"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LE:X",
-      "kind": "command",
-      "slug": "receivers/le",
-      "anchor": "ref-rec-le-x",
-      "aliases": [
-        "!!LE:X"
-      ],
-      "label": "X#",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/le/#ref-rec-le-x"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
-            "fromAnchor": "ref-rec-le",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LE",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LN",
-      "kind": "receiver",
-      "slug": "receivers/ln",
-      "anchor": "",
-      "aliases": [
-        "!!LN"
-      ],
-      "label": "Lean-to (LN)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ln/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ln",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LN",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LN:B",
-      "kind": "command",
-      "slug": "receivers/ln",
-      "anchor": "ref-rec-ln-b",
-      "aliases": [
-        "!!LN:B"
-      ],
-      "label": "B$1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ln/#ref-rec-ln-b"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ln",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver LN",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "LN:N",
-      "kind": "command",
-      "slug": "receivers/ln",
-      "anchor": "ref-rec-ln-n",
-      "aliases": [
-        "!!LN:N"
+        "!!MF:N"
       ],
       "label": "N$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ln/#ref-rec-ln-n"
+        "en": "/en/erm/receivers/mf/#ref-rec-mf-n"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ln",
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mf",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver LN",
+              "Receiver MF",
               "Related reference",
               "Related commands and tables"
             ]
@@ -832,26 +338,54 @@
       }
     },
     {
-      "name": "MA",
+      "name": "MF:W",
+      "kind": "command",
+      "slug": "receivers/mf",
+      "anchor": "ref-rec-mf-w",
+      "aliases": [
+        "!!MF:W"
+      ],
+      "label": "W$",
+      "destinations": {
+        "en": "/en/erm/receivers/mf/#ref-rec-mf-w"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-mf",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MF",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ML",
       "kind": "receiver",
-      "slug": "receivers/ma",
+      "slug": "receivers/ml",
       "anchor": "",
       "aliases": [
-        "!!MA"
+        "!!ML"
       ],
-      "label": "Creature-type attributes (MA)",
+      "label": "Windmill (ML)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/"
+        "en": "/en/erm/receivers/ml/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ma",
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ml",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver MA",
+              "Receiver ML",
               "Related reference",
               "Related commands and tables"
             ]
@@ -860,26 +394,26 @@
       }
     },
     {
-      "name": "MA:A",
+      "name": "ML:B",
       "kind": "command",
-      "slug": "receivers/ma",
-      "anchor": "ref-rec-ma-a",
+      "slug": "receivers/ml",
+      "anchor": "ref-rec-ml-b",
       "aliases": [
-        "!!MA:A"
+        "!!ML:B"
       ],
-      "label": "A#/$",
+      "label": "B$1/$2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/#ref-rec-ma-a"
+        "en": "/en/erm/receivers/ml/#ref-rec-ml-b"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ma",
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ml",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver MA",
+              "Receiver ML",
               "Related reference",
               "Related commands and tables"
             ]
@@ -888,26 +422,26 @@
       }
     },
     {
-      "name": "MA:B",
-      "kind": "command",
-      "slug": "receivers/ma",
-      "anchor": "ref-rec-ma-b",
+      "name": "MM",
+      "kind": "receiver",
+      "slug": "receivers/mm",
+      "anchor": "",
       "aliases": [
-        "!!MA:B"
+        "!!MM"
       ],
-      "label": "B#/$",
+      "label": "Battle hint text (MM)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/#ref-rec-ma-b"
+        "en": "/en/erm/receivers/mm/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ma",
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mm",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver MA",
+              "Receiver MM",
               "Related reference",
               "Related commands and tables"
             ]
@@ -916,26 +450,26 @@
       }
     },
     {
-      "name": "MA:C",
+      "name": "MM:D",
       "kind": "command",
-      "slug": "receivers/ma",
-      "anchor": "ref-rec-ma-c",
+      "slug": "receivers/mm",
+      "anchor": "ref-rec-mm-d",
       "aliases": [
-        "!!MA:C"
+        "!!MM:D"
       ],
-      "label": "C#1/#2/$",
+      "label": "D$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/#ref-rec-ma-c"
+        "en": "/en/erm/receivers/mm/#ref-rec-mm-d"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ma",
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mm",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver MA",
+              "Receiver MM",
               "Related reference",
               "Related commands and tables"
             ]
@@ -944,26 +478,647 @@
       }
     },
     {
-      "name": "MA:D",
+      "name": "MM:M",
       "kind": "command",
-      "slug": "receivers/ma",
-      "anchor": "ref-rec-ma-d",
+      "slug": "receivers/mm",
+      "anchor": "ref-rec-mm-m",
       "aliases": [
-        "!!MA:D"
+        "!!MM:M"
       ],
-      "label": "D#/$",
+      "label": "Mz#",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/#ref-rec-ma-d"
+        "en": "/en/erm/receivers/mm/#ref-rec-mm-m"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
-            "fromAnchor": "ref-rec-ma",
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mm",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver MA",
+              "Receiver MM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MM:S",
+      "kind": "command",
+      "slug": "receivers/mm",
+      "anchor": "ref-rec-mm-s",
+      "aliases": [
+        "!!MM:S"
+      ],
+      "label": "Sz#",
+      "destinations": {
+        "en": "/en/erm/receivers/mm/#ref-rec-mm-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MN",
+      "kind": "receiver",
+      "slug": "receivers/mn",
+      "anchor": "",
+      "aliases": [
+        "!!MN"
+      ],
+      "label": "Mines (MN)",
+      "destinations": {
+        "en": "/en/erm/receivers/mn/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mn",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MN:M",
+      "kind": "command",
+      "slug": "receivers/mn",
+      "anchor": "ref-rec-mn-m",
+      "aliases": [
+        "!!MN:M"
+      ],
+      "label": "M#1/$2/$3",
+      "destinations": {
+        "en": "/en/erm/receivers/mn/#ref-rec-mn-m"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mn",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MN:O",
+      "kind": "command",
+      "slug": "receivers/mn",
+      "anchor": "ref-rec-mn-o",
+      "aliases": [
+        "!!MN:O"
+      ],
+      "label": "O$",
+      "destinations": {
+        "en": "/en/erm/receivers/mn/#ref-rec-mn-o"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mn",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MN:R",
+      "kind": "command",
+      "slug": "receivers/mn",
+      "anchor": "ref-rec-mn-r",
+      "aliases": [
+        "!!MN:R"
+      ],
+      "label": "R$",
+      "destinations": {
+        "en": "/en/erm/receivers/mn/#ref-rec-mn-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mn",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO",
+      "kind": "receiver",
+      "slug": "receivers/mo",
+      "anchor": "",
+      "aliases": [
+        "!!MO"
+      ],
+      "label": "Neutral map monsters (MO)",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:A",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-a",
+      "aliases": [
+        "!!MO:A"
+      ],
+      "label": "A$",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-a"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:B",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-b",
+      "aliases": [
+        "!!MO:B"
+      ],
+      "label": "B#1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:G",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-g",
+      "aliases": [
+        "!!MO:G"
+      ],
+      "label": "G$",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-g"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:M",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-m",
+      "aliases": [
+        "!!MO:M"
+      ],
+      "label": "M^Текст^",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-m"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:O",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-o",
+      "aliases": [
+        "!!MO:O"
+      ],
+      "label": "O#",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-o"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:R",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-r",
+      "aliases": [
+        "!!MO:R"
+      ],
+      "label": "R$/#",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MO:U",
+      "kind": "command",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo-u",
+      "aliases": [
+        "!!MO:U"
+      ],
+      "label": "U#",
+      "destinations": {
+        "en": "/en/erm/receivers/mo/#ref-rec-mo-u"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-024.md",
+            "fromAnchor": "ref-rec-mo",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MO",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MP",
+      "kind": "receiver",
+      "slug": "receivers/mp",
+      "anchor": "",
+      "aliases": [
+        "!!MP"
+      ],
+      "label": "MP3 music (MP)",
+      "destinations": {
+        "en": "/en/erm/receivers/mp/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mp",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MP",
+              "Receiver MP",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MP:C",
+      "kind": "command",
+      "slug": "receivers/mp",
+      "anchor": "ref-rec-mp-era-c",
+      "aliases": [
+        "!!MP:C"
+      ],
+      "label": "C?z#C?s^имя^",
+      "destinations": {
+        "en": "/en/erm/receivers/mp/#ref-rec-mp-era-c"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mp",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MP",
+              "Receiver MP",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MP:P",
+      "kind": "command",
+      "slug": "receivers/mp",
+      "anchor": "ref-rec-mp-era-p",
+      "aliases": [
+        "!!MP:P"
+      ],
+      "label": "Pz#/#1/#2P^имя^/#1/#2",
+      "destinations": {
+        "en": "/en/erm/receivers/mp/#ref-rec-mp-era-p"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mp",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MP",
+              "Receiver MP",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MP:R",
+      "kind": "command",
+      "slug": "receivers/mp",
+      "anchor": "ref-rec-mp-era-r",
+      "aliases": [
+        "!!MP:R"
+      ],
+      "label": "R$",
+      "destinations": {
+        "en": "/en/erm/receivers/mp/#ref-rec-mp-era-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mp",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MP",
+              "Receiver MP",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MP:S",
+      "kind": "command",
+      "slug": "receivers/mp",
+      "anchor": "ref-rec-mp-era-s",
+      "aliases": [
+        "!!MP:S"
+      ],
+      "label": "S?z#/#1/#2S?^имя^/#1/#2",
+      "destinations": {
+        "en": "/en/erm/receivers/mp/#ref-rec-mp-era-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mp",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MP",
+              "Receiver MP",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MR",
+      "kind": "receiver",
+      "slug": "receivers/mr",
+      "anchor": "",
+      "aliases": [
+        "!!MR"
+      ],
+      "label": "Spell resistance (MR)",
+      "destinations": {
+        "en": "/en/erm/receivers/mr/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mr",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MR",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MR:D",
+      "kind": "command",
+      "slug": "receivers/mr",
+      "anchor": "ref-rec-mr-d",
+      "aliases": [
+        "!!MR:D"
+      ],
+      "label": "D$",
+      "destinations": {
+        "en": "/en/erm/receivers/mr/#ref-rec-mr-d"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mr",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MR",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MR:F",
+      "kind": "command",
+      "slug": "receivers/mr",
+      "anchor": "ref-rec-mr-f",
+      "aliases": [
+        "!!MR:F"
+      ],
+      "label": "F$",
+      "destinations": {
+        "en": "/en/erm/receivers/mr/#ref-rec-mr-f"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mr",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MR",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MR:M",
+      "kind": "command",
+      "slug": "receivers/mr",
+      "anchor": "ref-rec-mr-m",
+      "aliases": [
+        "!!MR:M"
+      ],
+      "label": "M$",
+      "destinations": {
+        "en": "/en/erm/receivers/mr/#ref-rec-mr-m"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-025.md",
+            "fromAnchor": "ref-rec-mr",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MR",
               "Related reference",
               "Related commands and tables"
             ]

@@ -2,154 +2,20 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "NO_TOWN",
-      "kind": "constant",
-      "slug": "framework/constants/towns",
-      "anchor": "const-no-town",
-      "aliases": [],
-      "label": "NO_TOWN = -1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/towns/#const-no-town"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "NULL",
-      "kind": "constant",
-      "slug": "framework/constants/universal",
-      "anchor": "const-null",
-      "aliases": [],
-      "label": "NULL = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/universal/#const-null"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "NUM_PLAYERS",
-      "kind": "constant",
-      "slug": "framework/constants/game-limits",
-      "anchor": "const-num-players",
-      "aliases": [],
-      "label": "NUM_PLAYERS = 8",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-num-players"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "NUM_PRIMARY_SKILLS",
-      "kind": "constant",
-      "slug": "framework/constants/game-limits",
-      "anchor": "const-num-primary-skills",
-      "aliases": [],
-      "label": "NUM_PRIMARY_SKILLS = 4",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-num-primary-skills"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "NUM_SECONDARY_SKILLS",
-      "kind": "constant",
-      "slug": "framework/constants/game-limits",
-      "anchor": "const-num-secondary-skills",
-      "aliases": [],
-      "label": "NUM_SECONDARY_SKILLS = 28",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-num-secondary-skills"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "OBJ_ALTAR_OF_SACRIFICE",
+      "name": "OBJ_RANDOM_MONSTER_1",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-altar-of-sacrifice",
+      "anchor": "const-obj-random-monster-1",
       "aliases": [],
-      "label": "OBJ_ALTAR_OF_SACRIFICE = 2",
+      "label": "OBJ_RANDOM_MONSTER_1 = 72",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-altar-of-sacrifice"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-1"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -163,20 +29,20 @@
       }
     },
     {
-      "name": "OBJ_ANCHOR_POINT",
+      "name": "OBJ_RANDOM_MONSTER_2",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-anchor-point",
+      "anchor": "const-obj-random-monster-2",
       "aliases": [],
-      "label": "OBJ_ANCHOR_POINT = 3",
+      "label": "OBJ_RANDOM_MONSTER_2 = 73",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-anchor-point"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -190,20 +56,20 @@
       }
     },
     {
-      "name": "OBJ_ARENA",
+      "name": "OBJ_RANDOM_MONSTER_3",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-arena",
+      "anchor": "const-obj-random-monster-3",
       "aliases": [],
-      "label": "OBJ_ARENA = 4",
+      "label": "OBJ_RANDOM_MONSTER_3 = 74",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-arena"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-3"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -217,20 +83,20 @@
       }
     },
     {
-      "name": "OBJ_ARTIFACT",
+      "name": "OBJ_RANDOM_MONSTER_4",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-artifact",
+      "anchor": "const-obj-random-monster-4",
       "aliases": [],
-      "label": "OBJ_ARTIFACT = 5",
+      "label": "OBJ_RANDOM_MONSTER_4 = 75",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-artifact"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-4"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -244,20 +110,20 @@
       }
     },
     {
-      "name": "OBJ_BLACK_MARKET",
+      "name": "OBJ_RANDOM_MONSTER_5",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-black-market",
+      "anchor": "const-obj-random-monster-5",
       "aliases": [],
-      "label": "OBJ_BLACK_MARKET = 7",
+      "label": "OBJ_RANDOM_MONSTER_5 = 162",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-black-market"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-5"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -271,20 +137,20 @@
       }
     },
     {
-      "name": "OBJ_BLANK_1",
+      "name": "OBJ_RANDOM_MONSTER_6",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-blank-1",
+      "anchor": "const-obj-random-monster-6",
       "aliases": [],
-      "label": "OBJ_BLANK_1 = 1",
+      "label": "OBJ_RANDOM_MONSTER_6 = 163",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-1"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-6"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -298,20 +164,20 @@
       }
     },
     {
-      "name": "OBJ_BLANK_2",
+      "name": "OBJ_RANDOM_MONSTER_7",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-blank-2",
+      "anchor": "const-obj-random-monster-7",
       "aliases": [],
-      "label": "OBJ_BLANK_2 = 50",
+      "label": "OBJ_RANDOM_MONSTER_7 = 164",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-2"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-monster-7"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -325,20 +191,20 @@
       }
     },
     {
-      "name": "OBJ_BLANK_3",
+      "name": "OBJ_RANDOM_RELIC",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-blank-3",
+      "anchor": "const-obj-random-relic",
       "aliases": [],
-      "label": "OBJ_BLANK_3 = 217",
+      "label": "OBJ_RANDOM_RELIC = 69",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-3"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-relic"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -352,20 +218,20 @@
       }
     },
     {
-      "name": "OBJ_BLANK_4",
+      "name": "OBJ_RANDOM_RESOURCE",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-blank-4",
+      "anchor": "const-obj-random-resource",
       "aliases": [],
-      "label": "OBJ_BLANK_4 = 218",
+      "label": "OBJ_RANDOM_RESOURCE = 76",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-4"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-resource"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -379,20 +245,20 @@
       }
     },
     {
-      "name": "OBJ_BOAT",
+      "name": "OBJ_RANDOM_TOWN",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-boat",
+      "anchor": "const-obj-random-town",
       "aliases": [],
-      "label": "OBJ_BOAT = 8",
+      "label": "OBJ_RANDOM_TOWN = 77",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-boat"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-town"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -406,20 +272,20 @@
       }
     },
     {
-      "name": "OBJ_BORDER_GATE",
+      "name": "OBJ_RANDOM_TREASURE_ARTIFACT",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-border-gate",
+      "anchor": "const-obj-random-treasure-artifact",
       "aliases": [],
-      "label": "OBJ_BORDER_GATE = 212",
+      "label": "OBJ_RANDOM_TREASURE_ARTIFACT = 66",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-border-gate"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-random-treasure-artifact"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -433,20 +299,20 @@
       }
     },
     {
-      "name": "OBJ_BORDERGUARD",
+      "name": "OBJ_REDWOOD_OBSERVATORY",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-borderguard",
+      "anchor": "const-obj-redwood-observatory",
       "aliases": [],
-      "label": "OBJ_BORDERGUARD = 9",
+      "label": "OBJ_REDWOOD_OBSERVATORY = 58",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-borderguard"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-redwood-observatory"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -460,20 +326,20 @@
       }
     },
     {
-      "name": "OBJ_BRUSH",
+      "name": "OBJ_REEF",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-brush",
+      "anchor": "const-obj-reef",
       "aliases": [],
-      "label": "OBJ_BRUSH = 114",
+      "label": "OBJ_REEF = 161",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-brush"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-reef"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -487,20 +353,20 @@
       }
     },
     {
-      "name": "OBJ_BRUSH_2",
+      "name": "OBJ_REEF_2",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-brush-2",
+      "anchor": "const-obj-reef-2",
       "aliases": [],
-      "label": "OBJ_BRUSH_2 = 165",
+      "label": "OBJ_REEF_2 = 205",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-brush-2"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-reef-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -514,20 +380,20 @@
       }
     },
     {
-      "name": "OBJ_BUOY",
+      "name": "OBJ_REFUGEE_CAMP",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-buoy",
+      "anchor": "const-obj-refugee-camp",
       "aliases": [],
-      "label": "OBJ_BUOY = 11",
+      "label": "OBJ_REFUGEE_CAMP = 78",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-buoy"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-refugee-camp"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -541,20 +407,20 @@
       }
     },
     {
-      "name": "OBJ_BUSH",
+      "name": "OBJ_RESOURCE",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-bush",
+      "anchor": "const-obj-resource",
       "aliases": [],
-      "label": "OBJ_BUSH = 115",
+      "label": "OBJ_RESOURCE = 79",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-bush"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-resource"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -568,20 +434,20 @@
       }
     },
     {
-      "name": "OBJ_BUSH_2",
+      "name": "OBJ_RIVER_DELTA",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-bush-2",
+      "anchor": "const-obj-river-delta",
       "aliases": [],
-      "label": "OBJ_BUSH_2 = 166",
+      "label": "OBJ_RIVER_DELTA = 143",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-bush-2"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-river-delta"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -595,20 +461,20 @@
       }
     },
     {
-      "name": "OBJ_CACTUS",
+      "name": "OBJ_RIVER_DELTA_2",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-cactus",
+      "anchor": "const-obj-river-delta-2",
       "aliases": [],
-      "label": "OBJ_CACTUS = 116",
+      "label": "OBJ_RIVER_DELTA_2 = 190",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cactus"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-river-delta-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -622,20 +488,20 @@
       }
     },
     {
-      "name": "OBJ_CACTUS_2",
+      "name": "OBJ_ROCK",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-cactus-2",
+      "anchor": "const-obj-rock",
       "aliases": [],
-      "label": "OBJ_CACTUS_2 = 167",
+      "label": "OBJ_ROCK = 147",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cactus-2"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-rock"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -649,20 +515,20 @@
       }
     },
     {
-      "name": "OBJ_CAMPFIRE",
+      "name": "OBJ_ROCK_2",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-campfire",
+      "anchor": "const-obj-rock-2",
       "aliases": [],
-      "label": "OBJ_CAMPFIRE = 12",
+      "label": "OBJ_ROCK_2 = 191",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-campfire"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-rock-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -676,20 +542,20 @@
       }
     },
     {
-      "name": "OBJ_CANYON",
+      "name": "OBJ_ROCKLANDS",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-canyon",
+      "anchor": "const-obj-rocklands",
       "aliases": [],
-      "label": "OBJ_CANYON = 117",
+      "label": "OBJ_ROCKLANDS = 231",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-canyon"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-rocklands"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -703,20 +569,20 @@
       }
     },
     {
-      "name": "OBJ_CANYON_2",
+      "name": "OBJ_ROUGH_HILLS",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-canyon-2",
+      "anchor": "const-obj-rough-hills",
       "aliases": [],
-      "label": "OBJ_CANYON_2 = 168",
+      "label": "OBJ_ROUGH_HILLS = 209",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-canyon-2"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-rough-hills"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -730,20 +596,20 @@
       }
     },
     {
-      "name": "OBJ_CARTOGRAPHER",
+      "name": "OBJ_SANCTUARY",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-cartographer",
+      "anchor": "const-obj-sanctuary",
       "aliases": [],
-      "label": "OBJ_CARTOGRAPHER = 13",
+      "label": "OBJ_SANCTUARY = 80",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cartographer"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-sanctuary"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -757,20 +623,20 @@
       }
     },
     {
-      "name": "OBJ_CLOVER_FIELD",
+      "name": "OBJ_SAND_DUNE",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-clover-field",
+      "anchor": "const-obj-sand-dune",
       "aliases": [],
-      "label": "OBJ_CLOVER_FIELD = 222",
+      "label": "OBJ_SAND_DUNE = 148",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-clover-field"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-sand-dune"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -784,20 +650,20 @@
       }
     },
     {
-      "name": "OBJ_CORPSE",
+      "name": "OBJ_SAND_DUNE_2",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-corpse",
+      "anchor": "const-obj-sand-dune-2",
       "aliases": [],
-      "label": "OBJ_CORPSE = 22",
+      "label": "OBJ_SAND_DUNE_2 = 192",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-corpse"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-sand-dune-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -811,20 +677,20 @@
       }
     },
     {
-      "name": "OBJ_COVER_OF_DARKNESS",
+      "name": "OBJ_SAND_PIT",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-cover-of-darkness",
+      "anchor": "const-obj-sand-pit",
       "aliases": [],
-      "label": "OBJ_COVER_OF_DARKNESS = 15",
+      "label": "OBJ_SAND_PIT = 149",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cover-of-darkness"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-sand-pit"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -838,20 +704,20 @@
       }
     },
     {
-      "name": "OBJ_CRATER",
+      "name": "OBJ_SAND_PIT_2",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-crater",
+      "anchor": "const-obj-sand-pit-2",
       "aliases": [],
-      "label": "OBJ_CRATER = 118",
+      "label": "OBJ_SAND_PIT_2 = 193",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-crater"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-sand-pit-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -865,20 +731,236 @@
       }
     },
     {
-      "name": "OBJ_CRATER_2",
+      "name": "OBJ_SCHOLAR",
       "kind": "constant",
       "slug": "framework/constants/object-types",
-      "anchor": "const-obj-crater-2",
+      "anchor": "const-obj-scholar",
       "aliases": [],
-      "label": "OBJ_CRATER_2 = 169",
+      "label": "OBJ_SCHOLAR = 81",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-crater-2"
+        "en": "/en/erm/framework/constants/object-types/#const-obj-scholar"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SCHOOL_OF_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-school-of-magic",
+      "aliases": [],
+      "label": "OBJ_SCHOOL_OF_MAGIC = 47",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-school-of-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SCHOOL_OF_WAR",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-school-of-war",
+      "aliases": [],
+      "label": "OBJ_SCHOOL_OF_WAR = 107",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-school-of-war"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SEA_CHEST",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-sea-chest",
+      "aliases": [],
+      "label": "OBJ_SEA_CHEST = 82",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-sea-chest"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SEERS_HUT",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-seers-hut",
+      "aliases": [],
+      "label": "OBJ_SEERS_HUT = 83",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-seers-hut"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SHIPWRECK",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-shipwreck",
+      "aliases": [],
+      "label": "OBJ_SHIPWRECK = 85",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-shipwreck"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SHIPWRECK_SURVIVOR",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-shipwreck-survivor",
+      "aliases": [],
+      "label": "OBJ_SHIPWRECK_SURVIVOR = 86",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-shipwreck-survivor"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SHIPYARD",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-shipyard",
+      "aliases": [],
+      "label": "OBJ_SHIPYARD = 87",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-shipyard"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_SHRINE_OF_MAGIC_GESTURE",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-shrine-of-magic-gesture",
+      "aliases": [],
+      "label": "OBJ_SHRINE_OF_MAGIC_GESTURE = 89",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-obj-shrine-of-magic-gesture"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

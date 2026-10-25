@@ -1,7 +1,7 @@
 # Array_Copy
 
 ID: erm.framework.functions.array-copy
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-copy/
+URL: /en/erm/framework/functions/array-copy/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -42,7 +42,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 587â€
 # Array_CountValue
 
 ID: erm.framework.functions.array-countvalue
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-countvalue/
+URL: /en/erm/framework/functions/array-countvalue/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -85,7 +85,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1054â
 # Array_CustomSort
 
 ID: erm.framework.functions.array-customsort
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-customsort/
+URL: /en/erm/framework/functions/array-customsort/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -129,7 +129,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 835â€
 # Array_EnsureMinSize
 
 ID: erm.framework.functions.array-ensureminsize
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-ensureminsize/
+URL: /en/erm/framework/functions/array-ensureminsize/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -169,7 +169,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1041â
 # Array_Fill
 
 ID: erm.framework.functions.array-fill
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-fill/
+URL: /en/erm/framework/functions/array-fill/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -209,7 +209,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 982â€
 # Array_Find
 
 ID: erm.framework.functions.array-find
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-find/
+URL: /en/erm/framework/functions/array-find/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -250,7 +250,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1124â
 # Array_IndexOf
 
 ID: erm.framework.functions.array-indexof
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-indexof/
+URL: /en/erm/framework/functions/array-indexof/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -293,7 +293,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1085â
 # Array_Join
 
 ID: erm.framework.functions.array-join
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-join/
+URL: /en/erm/framework/functions/array-join/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -333,7 +333,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 744â€
 # Array_Merge
 
 ID: erm.framework.functions.array-merge
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-merge/
+URL: /en/erm/framework/functions/array-merge/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -393,7 +393,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 631â€
 # Array_Move
 
 ID: erm.framework.functions.array-move
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-move/
+URL: /en/erm/framework/functions/array-move/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -443,7 +443,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # Array_Pop
 
 ID: erm.framework.functions.array-pop
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-pop/
+URL: /en/erm/framework/functions/array-pop/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -482,7 +482,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 401â€
 # Array_Push
 
 ID: erm.framework.functions.array-push
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-push/
+URL: /en/erm/framework/functions/array-push/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -521,7 +521,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 376â€
 # Array_Resize
 
 ID: erm.framework.functions.array-resize
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-resize/
+URL: /en/erm/framework/functions/array-resize/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -561,7 +561,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1011â
 # Array_Revert
 
 ID: erm.framework.functions.array-revert
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-revert/
+URL: /en/erm/framework/functions/array-revert/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -599,7 +599,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 956â€
 # Array_Shuffle
 
 ID: erm.framework.functions.array-shuffle
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-shuffle/
+URL: /en/erm/framework/functions/array-shuffle/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -635,4 +635,60 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 934â€
 
 [M_INT](../../constants/erm-commands/#const-m-int) Â· [SIZEOF_INT](../../constants/data-types/#const-sizeof-int) Â· [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
 <!-- llm:end erm.framework.functions.array-shuffle 1 -->
+
+# Array_Slice
+
+ID: erm.framework.functions.array-slice
+URL: /en/erm/framework/functions/array-slice/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.array-slice 1 -->
+## Purpose {#purpose}
+
+Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.
+
+## Call contract {#signature}
+
+```erm
+!!FU(Array_Slice):P(list)/(start)/(count)/(result)/(arrayStorageType);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `list` | input |
+| x2 | `start` | input |
+| x3 | `count` | output / mutable |
+| x4 | `result` | output / mutable |
+| x5 | `arrayStorageType` | output / mutable |
+
+## State and dependencies {#context}
+
+Named globals: â€”.
+  !!FU:E;
+!!en;
+
+!!VR(listSize:y):S-1;
+!!SN:M(list)/?(listSize)/?(listItemsType:y)/d/?(listAddr:y);
+!!FU&(listSize)<=0:E;
+
+!!VR(arrayStorageType)&(numArgs)<(@arrayStorageType):S(M_TRIGGER_LOCAL);
+!!SN:M(M_AUTO_ID)/0/(listItemsType)/(arrayStorageType)/?(result);
+!!SN&(arrayStorageType)=(M_TRIGGER_LOCAL):F^`.
+
+Export calls: `ExtendArrayLifetime`, `ShowErmError`.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 689â€“743, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[DUMMY](../../constants/universal/#const-dummy) Â· [INT_MAX](../../constants/data-types/#const-int-max) Â· [M_AUTO_ID](../../constants/erm-commands/#const-m-auto-id) Â· [M_INT](../../constants/erm-commands/#const-m-int) Â· [M_TRIGGER_LOCAL](../../constants/erm-commands/#const-m-trigger-local) Â· [NULL](../../constants/universal/#const-null) Â· [SIZEOF_INT](../../constants/data-types/#const-sizeof-int) Â· [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
+<!-- llm:end erm.framework.functions.array-slice 1 -->
 

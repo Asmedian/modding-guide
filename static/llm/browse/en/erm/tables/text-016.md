@@ -1,7 +1,7 @@
 # Combination artifacts
 
 ID: erm.tables.combination-artifacts
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/combination-artifacts/
+URL: /en/erm/tables/combination-artifacts/
 Part: 1/1
 Source references: old-help:form-a2.htm, old-help:rec-un.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -176,7 +176,7 @@ UN:A controls components and availability. Do not grant combination index 0 as a
 # Commander special bonuses
 
 ID: erm.tables.commander-bonuses
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/commander-bonuses/
+URL: /en/erm/tables/commander-bonuses/
 Part: 1/1
 Source references: old-help:form-cobo.htm, old-help:form-commanders.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

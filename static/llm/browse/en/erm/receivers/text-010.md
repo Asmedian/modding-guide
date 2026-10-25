@@ -1,7 +1,7 @@
 # Creature experience and bonuses (EA)
 
 ID: erm.receivers.ea
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ea/
+URL: /en/erm/receivers/ea/
 Part: 1/3
 Source references: old-help:rec-ea.htm, old-help:cont-stackexpbonus.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

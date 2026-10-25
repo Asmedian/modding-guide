@@ -4,6 +4,7 @@ export type WikiResource = {
   bytes: number; original: string; anchor: string; sha256: string; preview?: string; image?: string; media?: string;
   width?: number; height?: number; previewWidth?: number; previewHeight?: number;
   duration?: number; type?: number; groups?: number; frames?: number; hex?: string;
+  frameGroups?: Array<{id:number;frames:number}>;
   fontHeight?:number; palette?:WikiPalette; details?:string;
   mask?:WikiResource;
   campaign?:{name:string;description:string;version:string;scenarioCount:number;mapCount:number};

@@ -2,540 +2,20 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "HERO_CLASS_ALCHEMIST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-alchemist",
-      "aliases": [],
-      "label": "HERO_CLASS_ALCHEMIST = 4",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-alchemist"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_BARBARIAN",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-barbarian",
-      "aliases": [],
-      "label": "HERO_CLASS_BARBARIAN = 12",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-barbarian"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_BATTLE_MAGE",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-battle-mage",
-      "aliases": [],
-      "label": "HERO_CLASS_BATTLE_MAGE = 13",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-battle-mage"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_BEASTMASTER",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-beastmaster",
-      "aliases": [],
-      "label": "HERO_CLASS_BEASTMASTER = 14",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-beastmaster"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_CLERIC",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-cleric",
-      "aliases": [],
-      "label": "HERO_CLASS_CLERIC = 1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-cleric"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_DEATH_KNIGHT",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-death-knight",
-      "aliases": [],
-      "label": "HERO_CLASS_DEATH_KNIGHT = 8",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-death-knight"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_DEMONIAC",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-demoniac",
-      "aliases": [],
-      "label": "HERO_CLASS_DEMONIAC = 6",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-demoniac"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_DRUID",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-druid",
-      "aliases": [],
-      "label": "HERO_CLASS_DRUID = 3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-druid"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_ELEMENTALIST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-elementalist",
-      "aliases": [],
-      "label": "HERO_CLASS_ELEMENTALIST = 17",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-elementalist"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-first",
-      "aliases": [],
-      "label": "HERO_CLASS_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_HERETIC",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-heretic",
-      "aliases": [],
-      "label": "HERO_CLASS_HERETIC = 7",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-heretic"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_KNIGHT",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-knight",
-      "aliases": [],
-      "label": "HERO_CLASS_KNIGHT = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-knight"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-last",
-      "aliases": [],
-      "label": "HERO_CLASS_LAST = (HERO_CLASS_ELEMENTALIST)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_NECROMANCER",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-necromancer",
-      "aliases": [],
-      "label": "HERO_CLASS_NECROMANCER = 9",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-necromancer"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_OVERLORD",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-overlord",
-      "aliases": [],
-      "label": "HERO_CLASS_OVERLORD = 10",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-overlord"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_PLANESWALKER",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-planeswalker",
-      "aliases": [],
-      "label": "HERO_CLASS_PLANESWALKER = 16",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-planeswalker"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_RANGER",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-ranger",
-      "aliases": [],
-      "label": "HERO_CLASS_RANGER = 2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-ranger"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_WARLOCK",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-warlock",
-      "aliases": [],
-      "label": "HERO_CLASS_WARLOCK = 11",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-warlock"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_WITCH",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-witch",
-      "aliases": [],
-      "label": "HERO_CLASS_WITCH = 15",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-witch"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLASS_WIZARD",
-      "kind": "constant",
-      "slug": "framework/constants/hero-classes",
-      "anchor": "const-hero-class-wizard",
-      "aliases": [],
-      "label": "HERO_CLASS_WIZARD = 5",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/#const-hero-class-wizard"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "HERO_CLAVIUS",
+      "name": "HERO_JENOVA",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-clavius",
+      "anchor": "const-hero-jenova",
       "aliases": [],
-      "label": "HERO_CLAVIUS = 70",
+      "label": "HERO_JENOVA = 18",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-clavius"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-jenova"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -549,20 +29,20 @@
       }
     },
     {
-      "name": "HERO_CORONIUS",
+      "name": "HERO_JOSEPHINE",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-coronius",
+      "anchor": "const-hero-josephine",
       "aliases": [],
-      "label": "HERO_CORONIUS = 24",
+      "label": "HERO_JOSEPHINE = 34",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-coronius"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-josephine"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -576,20 +56,20 @@
       }
     },
     {
-      "name": "HERO_CRAG_HACK",
+      "name": "HERO_KALT",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-crag-hack",
+      "anchor": "const-hero-kalt",
       "aliases": [],
-      "label": "HERO_CRAG_HACK = 102",
+      "label": "HERO_KALT = 135",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-crag-hack"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-kalt"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -603,20 +83,20 @@
       }
     },
     {
-      "name": "HERO_CUTHBERT",
+      "name": "HERO_KILGOR",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-cuthbert",
+      "anchor": "const-hero-kilgor",
       "aliases": [],
-      "label": "HERO_CUTHBERT = 10",
+      "label": "HERO_KILGOR = 149",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-cuthbert"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-kilgor"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -630,20 +110,20 @@
       }
     },
     {
-      "name": "HERO_CYRA",
+      "name": "HERO_KORBAC",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-cyra",
+      "anchor": "const-hero-korbac",
       "aliases": [],
-      "label": "HERO_CYRA = 46",
+      "label": "HERO_KORBAC = 117",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-cyra"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-korbac"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -657,20 +137,20 @@
       }
     },
     {
-      "name": "HERO_DACE",
+      "name": "HERO_KRELLION",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-dace",
+      "anchor": "const-hero-krellion",
       "aliases": [],
-      "label": "HERO_DACE = 82",
+      "label": "HERO_KRELLION = 101",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-dace"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-krellion"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -684,20 +164,20 @@
       }
     },
     {
-      "name": "HERO_DAMACON",
+      "name": "HERO_KYRRE",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-damacon",
+      "anchor": "const-hero-kyrre",
       "aliases": [],
-      "label": "HERO_DAMACON = 84",
+      "label": "HERO_KYRRE = 23",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-damacon"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-kyrre"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -711,20 +191,20 @@
       }
     },
     {
-      "name": "HERO_DAREMYTH",
+      "name": "HERO_LABETHA",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-daremyth",
+      "anchor": "const-hero-labetha",
       "aliases": [],
-      "label": "HERO_DAREMYTH = 43",
+      "label": "HERO_LABETHA = 139",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-daremyth"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-labetha"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -738,20 +218,20 @@
       }
     },
     {
-      "name": "HERO_DARKSTORN",
+      "name": "HERO_LACUS",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-darkstorn",
+      "anchor": "const-hero-lacus",
       "aliases": [],
-      "label": "HERO_DARKSTORN = 95",
+      "label": "HERO_LACUS = 131",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-darkstorn"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-lacus"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -765,20 +245,20 @@
       }
     },
     {
-      "name": "HERO_DEEMER",
+      "name": "HERO_LAST_WOG",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-deemer",
+      "anchor": "const-hero-last-wog",
       "aliases": [],
-      "label": "HERO_DEEMER = 93",
+      "label": "HERO_LAST_WOG = 155",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-deemer"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-last-wog"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -792,20 +272,20 @@
       }
     },
     {
-      "name": "HERO_DEFENDER",
+      "name": "HERO_LORD_HAART",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-defender",
+      "anchor": "const-hero-lord-haart",
       "aliases": [],
-      "label": "HERO_DEFENDER = -20",
+      "label": "HERO_LORD_HAART = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-defender"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-lord-haart"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -819,20 +299,20 @@
       }
     },
     {
-      "name": "HERO_DESSA",
+      "name": "HERO_LORD_HAART_2",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-dessa",
+      "anchor": "const-hero-lord-haart-2",
       "aliases": [],
-      "label": "HERO_DESSA = 106",
+      "label": "HERO_LORD_HAART_2 = 150",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-dessa"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-lord-haart-2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -846,20 +326,668 @@
       }
     },
     {
-      "name": "HERO_DRACON",
+      "name": "HERO_LORELEI",
       "kind": "constant",
       "slug": "framework/constants/heroes",
-      "anchor": "const-hero-dracon",
+      "anchor": "const-hero-lorelei",
       "aliases": [],
-      "label": "HERO_DRACON = 147",
+      "label": "HERO_LORELEI = 80",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-dracon"
+        "en": "/en/erm/framework/constants/heroes/#const-hero-lorelei"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_LOYNIS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-loynis",
+      "aliases": [],
+      "label": "HERO_LOYNIS = 14",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-loynis"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_LUNA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-luna",
+      "aliases": [],
+      "label": "HERO_LUNA = 136",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-luna"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MALCOM",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-malcom",
+      "aliases": [],
+      "label": "HERO_MALCOM = 28",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-malcom"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MALEKITH",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-malekith",
+      "aliases": [],
+      "label": "HERO_MALEKITH = 90",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-malekith"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MARIUS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-marius",
+      "aliases": [],
+      "label": "HERO_MARIUS = 50",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-marius"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MELODIA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-melodia",
+      "aliases": [],
+      "label": "HERO_MELODIA = 29",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-melodia"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MEPHALA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-mephala",
+      "aliases": [],
+      "label": "HERO_MEPHALA = 16",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-mephala"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MERIST",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-merist",
+      "aliases": [],
+      "label": "HERO_MERIST = 124",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-merist"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MIRLANDA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-mirlanda",
+      "aliases": [],
+      "label": "HERO_MIRLANDA = 120",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-mirlanda"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MOANDOR",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-moandor",
+      "aliases": [],
+      "label": "HERO_MOANDOR = 66",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-moandor"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MONERE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-monere",
+      "aliases": [],
+      "label": "HERO_MONERE = 132",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-monere"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MUTARE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-mutare",
+      "aliases": [],
+      "label": "HERO_MUTARE = 151",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-mutare"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_MUTARE_DRAKE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-mutare-drake",
+      "aliases": [],
+      "label": "HERO_MUTARE_DRAKE = 153",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-mutare-drake"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_NAGASH",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-nagash",
+      "aliases": [],
+      "label": "HERO_NAGASH = 79",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-nagash"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_NEELA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-neela",
+      "aliases": [],
+      "label": "HERO_NEELA = 35",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-neela"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_NIMBUS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-nimbus",
+      "aliases": [],
+      "label": "HERO_NIMBUS = 75",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-nimbus"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_NYMUS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-nymus",
+      "aliases": [],
+      "label": "HERO_NYMUS = 55",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-nymus"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_OCTAVIA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-octavia",
+      "aliases": [],
+      "label": "HERO_OCTAVIA = 52",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-octavia"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_OLEMA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-olema",
+      "aliases": [],
+      "label": "HERO_OLEMA = 59",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-olema"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ORIS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-oris",
+      "aliases": [],
+      "label": "HERO_ORIS = 110",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-oris"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ORRIN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-orrin",
+      "aliases": [],
+      "label": "HERO_ORRIN = 0",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-orrin"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_PASIS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-pasis",
+      "aliases": [],
+      "label": "HERO_PASIS = 128",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-pasis"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_PIQUEDRAM",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-piquedram",
+      "aliases": [],
+      "label": "HERO_PIQUEDRAM = 32",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-piquedram"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_PYRE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-pyre",
+      "aliases": [],
+      "label": "HERO_PYRE = 54",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-hero-pyre"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "MON_GNOLL_MARAUDER",
+      "name": "MON_ZOMBIE",
       "kind": "constant",
       "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gnoll-marauder",
+      "anchor": "const-mon-zombie",
       "aliases": [],
-      "label": "MON_GNOLL_MARAUDER = 99",
+      "label": "MON_ZOMBIE = 59",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gnoll-marauder"
+        "en": "/en/erm/framework/constants/monsters/#const-mon-zombie"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -29,20 +29,20 @@
       }
     },
     {
-      "name": "MON_GOBLIN",
+      "name": "MONS_PER_TOWN",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-goblin",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-mons-per-town",
       "aliases": [],
-      "label": "MON_GOBLIN = 84",
+      "label": "MONS_PER_TOWN = 14",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-goblin"
+        "en": "/en/erm/framework/constants/game-limits/#const-mons-per-town"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -56,20 +56,20 @@
       }
     },
     {
-      "name": "MON_GOG",
+      "name": "MOUSE_EXIT_BTN_LMB_RELEASED",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gog",
+      "slug": "framework/constants/mouse-click-subtypes",
+      "anchor": "const-mouse-exit-btn-lmb-released",
       "aliases": [],
-      "label": "MON_GOG = 44",
+      "label": "MOUSE_EXIT_BTN_LMB_RELEASED = 10",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gog"
+        "en": "/en/erm/framework/constants/mouse-click-subtypes/#const-mouse-exit-btn-lmb-released"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -83,20 +83,124 @@
       }
     },
     {
-      "name": "MON_GOLD_DRAGON",
+      "name": "MOUSE_FLAG_ALT",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gold-dragon",
+      "slug": "framework/constants/mouse-clicks",
+      "anchor": "const-mouse-flag-alt",
       "aliases": [],
-      "label": "MON_GOLD_DRAGON = 27",
+      "label": "MOUSE_FLAG_ALT = 32",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gold-dragon"
+        "en": "/en/erm/framework/constants/mouse-clicks/#const-mouse-flag-alt"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOUSE_FLAG_CTRL",
+      "kind": "constant",
+      "slug": "framework/constants/mouse-clicks",
+      "anchor": "const-mouse-flag-ctrl",
+      "aliases": [],
+      "label": "MOUSE_FLAG_CTRL = 4",
+      "destinations": {
+        "en": "/en/erm/framework/constants/mouse-clicks/#const-mouse-flag-ctrl"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOUSE_FLAG_RMB",
+      "kind": "constant",
+      "slug": "framework/constants/mouse-clicks",
+      "anchor": "const-mouse-flag-rmb",
+      "aliases": [],
+      "label": "MOUSE_FLAG_RMB = 512",
+      "destinations": {
+        "en": "/en/erm/framework/constants/mouse-clicks/#const-mouse-flag-rmb"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOUSE_FLAG_SHIFT",
+      "kind": "constant",
+      "slug": "framework/constants/mouse-clicks",
+      "anchor": "const-mouse-flag-shift",
+      "aliases": [],
+      "label": "MOUSE_FLAG_SHIFT = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/mouse-clicks/#const-mouse-flag-shift"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOUSE_LMB_PRESSED",
+      "kind": "constant",
+      "slug": "framework/constants/mouse-click-subtypes",
+      "anchor": "const-mouse-lmb-pressed",
+      "aliases": [],
+      "label": "MOUSE_LMB_PRESSED = 12",
+      "destinations": {
+        "en": "/en/erm/framework/constants/mouse-click-subtypes/#const-mouse-lmb-pressed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -110,20 +214,20 @@
       }
     },
     {
-      "name": "MON_GOLD_GOLEM",
+      "name": "MOUSE_LMB_RELEASED",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gold-golem",
+      "slug": "framework/constants/mouse-click-subtypes",
+      "anchor": "const-mouse-lmb-released",
       "aliases": [],
-      "label": "MON_GOLD_GOLEM = 116",
+      "label": "MOUSE_LMB_RELEASED = 13",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gold-golem"
+        "en": "/en/erm/framework/constants/mouse-click-subtypes/#const-mouse-lmb-released"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -137,20 +241,48 @@
       }
     },
     {
-      "name": "MON_GORGON",
+      "name": "MOUSE_MANAGER",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gorgon",
+      "slug": "framework/constants/game-managers",
+      "anchor": "const-mouse-manager",
       "aliases": [],
-      "label": "MON_GORGON = 102",
+      "label": "MOUSE_MANAGER = 6918832",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gorgon"
+        "en": "/en/erm/framework/constants/game-managers/#const-mouse-manager"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOUSE_RMB_PRESSED",
+      "kind": "constant",
+      "slug": "framework/constants/mouse-click-subtypes",
+      "anchor": "const-mouse-rmb-pressed",
+      "aliases": [],
+      "label": "MOUSE_RMB_PRESSED = 14",
+      "destinations": {
+        "en": "/en/erm/framework/constants/mouse-click-subtypes/#const-mouse-rmb-pressed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -164,20 +296,202 @@
       }
     },
     {
-      "name": "MON_GORYNYCH",
+      "name": "MOUSE_WHEEL_DOWN",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gorynych",
+      "slug": "framework/constants/mouse-wheel-subtypes",
+      "anchor": "const-mouse-wheel-down",
       "aliases": [],
-      "label": "MON_GORYNYCH = 168",
+      "label": "MOUSE_WHEEL_DOWN = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gorynych"
+        "en": "/en/erm/framework/constants/mouse-wheel-subtypes/#const-mouse-wheel-down"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOUSE_WHEEL_UP",
+      "kind": "constant",
+      "slug": "framework/constants/mouse-wheel-subtypes",
+      "anchor": "const-mouse-wheel-up",
+      "aliases": [],
+      "label": "MOUSE_WHEEL_UP = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/mouse-wheel-subtypes/#const-mouse-wheel-up"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSG_TYPE_CHOOSE_PIC",
+      "kind": "constant",
+      "slug": "framework/constants/h3-message-dialog-types",
+      "anchor": "const-msg-type-choose-pic",
+      "aliases": [],
+      "label": "MSG_TYPE_CHOOSE_PIC = 7",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-message-dialog-types/#const-msg-type-choose-pic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSG_TYPE_CHOOSE_PIC_OR_CANCEL",
+      "kind": "constant",
+      "slug": "framework/constants/h3-message-dialog-types",
+      "anchor": "const-msg-type-choose-pic-or-cancel",
+      "aliases": [],
+      "label": "MSG_TYPE_CHOOSE_PIC_OR_CANCEL = 10",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-message-dialog-types/#const-msg-type-choose-pic-or-cancel"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSG_TYPE_MES",
+      "kind": "constant",
+      "slug": "framework/constants/h3-message-dialog-types",
+      "anchor": "const-msg-type-mes",
+      "aliases": [],
+      "label": "MSG_TYPE_MES = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-message-dialog-types/#const-msg-type-mes"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSG_TYPE_POPUP",
+      "kind": "constant",
+      "slug": "framework/constants/h3-message-dialog-types",
+      "anchor": "const-msg-type-popup",
+      "aliases": [],
+      "label": "MSG_TYPE_POPUP = 4",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-message-dialog-types/#const-msg-type-popup"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSG_TYPE_QUESTION",
+      "kind": "constant",
+      "slug": "framework/constants/h3-message-dialog-types",
+      "anchor": "const-msg-type-question",
+      "aliases": [],
+      "label": "MSG_TYPE_QUESTION = 2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-message-dialog-types/#const-msg-type-question"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NO_ART",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-no-art",
+      "aliases": [],
+      "label": "NO_ART = -1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-no-art"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -191,20 +505,20 @@
       }
     },
     {
-      "name": "MON_GRAND_ELF",
+      "name": "NO_ART_MOD",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-grand-elf",
+      "slug": "framework/constants/artfiact-modifiers",
+      "anchor": "const-no-art-mod",
       "aliases": [],
-      "label": "MON_GRAND_ELF = 19",
+      "label": "NO_ART_MOD = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-grand-elf"
+        "en": "/en/erm/framework/constants/artfiact-modifiers/#const-no-art-mod"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -218,20 +532,20 @@
       }
     },
     {
-      "name": "MON_GREATER_BASILISK",
+      "name": "NO_ART_SLOT",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-greater-basilisk",
+      "slug": "framework/constants/hero-artifact-slots",
+      "anchor": "const-no-art-slot",
       "aliases": [],
-      "label": "MON_GREATER_BASILISK = 107",
+      "label": "NO_ART_SLOT = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-greater-basilisk"
+        "en": "/en/erm/framework/constants/hero-artifact-slots/#const-no-art-slot"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -245,20 +559,46 @@
       }
     },
     {
-      "name": "MON_GREEN_DRAGON",
+      "name": "NO_BATTLE_ACTION",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-green-dragon",
+      "slug": "framework/constants/battle-actions",
+      "anchor": "const-no-battle-action",
       "aliases": [],
-      "label": "MON_GREEN_DRAGON = 26",
+      "label": "NO_BATTLE_ACTION = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-green-dragon"
+        "en": "/en/erm/framework/constants/battle-actions/#const-no-battle-action"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NO_DEFENDING_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-no-defending-hero",
+      "aliases": [],
+      "label": "NO_DEFENDING_HERO = -2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-no-defending-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -272,20 +612,20 @@
       }
     },
     {
-      "name": "MON_GREMLIN",
+      "name": "NO_HERO",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-gremlin",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-no-hero",
       "aliases": [],
-      "label": "MON_GREMLIN = 28",
+      "label": "NO_HERO = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-gremlin"
+        "en": "/en/erm/framework/constants/heroes/#const-no-hero"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -299,20 +639,20 @@
       }
     },
     {
-      "name": "MON_GRIFFIN",
+      "name": "NO_MON",
       "kind": "constant",
       "slug": "framework/constants/monsters",
-      "anchor": "const-mon-griffin",
+      "anchor": "const-no-mon",
       "aliases": [],
-      "label": "MON_GRIFFIN = 4",
+      "label": "NO_MON = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-griffin"
+        "en": "/en/erm/framework/constants/monsters/#const-no-mon"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -326,20 +666,46 @@
       }
     },
     {
-      "name": "MON_HALBERDIER",
+      "name": "NO_MOUSE_FLAGS",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-halberdier",
+      "slug": "framework/constants/mouse-clicks",
+      "anchor": "const-no-mouse-flags",
       "aliases": [],
-      "label": "MON_HALBERDIER = 1",
+      "label": "NO_MOUSE_FLAGS = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-halberdier"
+        "en": "/en/erm/framework/constants/mouse-clicks/#const-no-mouse-flags"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NO_OBJ",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-no-obj",
+      "aliases": [],
+      "label": "NO_OBJ = -1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/object-types/#const-no-obj"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -353,20 +719,20 @@
       }
     },
     {
-      "name": "MON_HALFLING",
+      "name": "NO_OWNER",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-halfling",
+      "slug": "framework/constants/players",
+      "anchor": "const-no-owner",
       "aliases": [],
-      "label": "MON_HALFLING = 138",
+      "label": "NO_OWNER = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-halfling"
+        "en": "/en/erm/framework/constants/players/#const-no-owner"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -380,20 +746,20 @@
       }
     },
     {
-      "name": "MON_HARPY",
+      "name": "NO_PIC_TYPE",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-harpy",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-no-pic-type",
       "aliases": [],
-      "label": "MON_HARPY = 72",
+      "label": "NO_PIC_TYPE = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-harpy"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-no-pic-type"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -407,20 +773,20 @@
       }
     },
     {
-      "name": "MON_HARPY_HAG",
+      "name": "NO_PLAYER",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-harpy-hag",
+      "slug": "framework/constants/players",
+      "anchor": "const-no-player",
       "aliases": [],
-      "label": "MON_HARPY_HAG = 73",
+      "label": "NO_PLAYER = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-harpy-hag"
+        "en": "/en/erm/framework/constants/players/#const-no-player"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -434,20 +800,20 @@
       }
     },
     {
-      "name": "MON_HELL_BARON",
+      "name": "NO_RADIO_DLG_ITEM",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hell-baron",
+      "slug": "framework/constants/radio-dialogs",
+      "anchor": "const-no-radio-dlg-item",
       "aliases": [],
-      "label": "MON_HELL_BARON = 153",
+      "label": "NO_RADIO_DLG_ITEM = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hell-baron"
+        "en": "/en/erm/framework/constants/radio-dialogs/#const-no-radio-dlg-item"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -461,20 +827,73 @@
       }
     },
     {
-      "name": "MON_HELL_HOUND",
+      "name": "NO_RES",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hell-hound",
+      "slug": "framework/constants/resources",
+      "anchor": "const-no-res",
       "aliases": [],
-      "label": "MON_HELL_HOUND = 46",
+      "label": "NO_RES = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hell-hound"
+        "en": "/en/erm/framework/constants/resources/#const-no-res"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NO_SKILL",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-no-skill",
+      "aliases": [],
+      "label": "NO_SKILL = -1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/hero-skills/#const-no-skill"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NO_SPELL",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-no-spell",
+      "aliases": [],
+      "label": "NO_SPELL = -1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-no-spell"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -488,20 +907,20 @@
       }
     },
     {
-      "name": "MON_HELL_HYDRA",
+      "name": "NO_STACK",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hell-hydra",
+      "slug": "framework/constants/battle",
+      "anchor": "const-no-stack",
       "aliases": [],
-      "label": "MON_HELL_HYDRA = 157",
+      "label": "NO_STACK = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hell-hydra"
+        "en": "/en/erm/framework/constants/battle/#const-no-stack"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -515,371 +934,46 @@
       }
     },
     {
-      "name": "MON_HELL_STEED",
+      "name": "NO_TOWN",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hell-steed",
+      "slug": "framework/constants/towns",
+      "anchor": "const-no-town",
       "aliases": [],
-      "label": "MON_HELL_STEED = 195",
+      "label": "NO_TOWN = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hell-steed"
+        "en": "/en/erm/framework/constants/towns/#const-no-town"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "MON_HIEROPHANT_A",
+      "name": "NULL",
       "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hierophant-a",
+      "slug": "framework/constants/universal",
+      "anchor": "const-null",
       "aliases": [],
-      "label": "MON_HIEROPHANT_A = 175",
+      "label": "NULL = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hierophant-a"
+        "en": "/en/erm/framework/constants/universal/#const-null"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_HIEROPHANT_D",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hierophant-d",
-      "aliases": [],
-      "label": "MON_HIEROPHANT_D = 184",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hierophant-d"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_HOBGOBLIN",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hobgoblin",
-      "aliases": [],
-      "label": "MON_HOBGOBLIN = 85",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hobgoblin"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_HORNED_DEMON",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-horned-demon",
-      "aliases": [],
-      "label": "MON_HORNED_DEMON = 49",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-horned-demon"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_HYDRA",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-hydra",
-      "aliases": [],
-      "label": "MON_HYDRA = 110",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-hydra"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_ICE_ELEMENTAL",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-ice-elemental",
-      "aliases": [],
-      "label": "MON_ICE_ELEMENTAL = 123",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-ice-elemental"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_IMP",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-imp",
-      "aliases": [],
-      "label": "MON_IMP = 42",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-imp"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_INFERNAL_TROGLODYTE",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-infernal-troglodyte",
-      "aliases": [],
-      "label": "MON_INFERNAL_TROGLODYTE = 71",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-infernal-troglodyte"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_IRON_GOLEM",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-iron-golem",
-      "aliases": [],
-      "label": "MON_IRON_GOLEM = 33",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-iron-golem"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_LAST_WOG",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-last-wog",
-      "aliases": [],
-      "label": "MON_LAST_WOG = 196",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-last-wog"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_LAVA_SHARPSHOOTER",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-lava-sharpshooter",
-      "aliases": [],
-      "label": "MON_LAVA_SHARPSHOOTER = 171",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-lava-sharpshooter"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_LICH",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-lich",
-      "aliases": [],
-      "label": "MON_LICH = 64",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-lich"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MON_LIZARD_WARRIOR",
-      "kind": "constant",
-      "slug": "framework/constants/monsters",
-      "anchor": "const-mon-lizard-warrior",
-      "aliases": [],
-      "label": "MON_LIZARD_WARRIOR = 101",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-mon-lizard-warrior"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

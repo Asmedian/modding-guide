@@ -1,7 +1,7 @@
 # General game operations (UN)
 
 ID: erm.receivers.un
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/un/
+URL: /en/erm/receivers/un/
 Part: 1/4
 Source references: old-help:rec-un.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

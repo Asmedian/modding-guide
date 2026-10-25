@@ -1,186 +1,7 @@
-# RadioDlg_GetItemValue
-
-ID: erm.framework.functions.radiodlg-getitemvalue
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemvalue/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.radiodlg-getitemvalue 1 -->
-## Purpose {#purpose}
-
-Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
-
-## Call contract {#signature}
-
-```erm
-!!FU(RadioDlg_GetItemValue):P(itemInd)/(result);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `itemInd` | input |
-| x2 | `result` | output / mutable |
-
-## State and dependencies {#context}
-
-Named globals: [i^radioDlg_values^](../../globals/#global-i-radiodlg-values) · [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems).
-
-Export calls: `ShowErmError`.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2584–2596, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.radiodlg-getitemvalue 1 -->
-
-# RadioDlg_GetNumItems
-
-ID: erm.framework.functions.radiodlg-getnumitems
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getnumitems/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.radiodlg-getnumitems 1 -->
-## Purpose {#purpose}
-
-Returns the item count excluding Cancel.
-
-## Call contract {#signature}
-
-```erm
-!!FU(RadioDlg_GetNumItems):P(result);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `result` | output / mutable |
-
-## State and dependencies {#context}
-
-Named globals: [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems).
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2578–2583, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.radiodlg-getnumitems 1 -->
-
-# RadioDlg_Reset
-
-ID: erm.framework.functions.radiodlg-reset
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-reset/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.radiodlg-reset 1 -->
-## Purpose {#purpose}
-
-Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.
-
-## Call contract {#signature}
-
-```erm
-!!FU(RadioDlg_Reset):P;
-```
-
-## State and dependencies {#context}
-
-Named globals: [i^radioDlg_captions^](../../globals/#global-i-radiodlg-captions) · [i^radioDlg_tags^](../../globals/#global-i-radiodlg-tags) · [i^radioDlg_values^](../../globals/#global-i-radiodlg-values) · [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems) · [i^radioDlg_selectedItemInd^](../../globals/#global-i-radiodlg-selecteditemind) · [i^radioDlg_flags^](../../globals/#global-i-radiodlg-flags) · [i^radioDlg_freeSpaceAlerted^](../../globals/#global-i-radiodlg-freespacealerted) · [s^radioDlg_title^](../../globals/#global-s-radiodlg-title).
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2456–2467, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[FALSE](../../constants/universal/#const-false) · [NO_RADIO_DLG_ITEM](../../constants/radio-dialogs/#const-no-radio-dlg-item) · [RADIO_DLG_MAX_ITEMS](../../constants/radio-dialogs/#const-radio-dlg-max-items)
-<!-- llm:end erm.framework.functions.radiodlg-reset 1 -->
-
-# RadioDlg_SelectItem
-
-ID: erm.framework.functions.radiodlg-selectitem
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitem/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.radiodlg-selectitem 1 -->
-## Purpose {#purpose}
-
-Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.
-
-## Call contract {#signature}
-
-```erm
-!!FU(RadioDlg_SelectItem):P(itemInd);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `itemInd` | input |
-
-## State and dependencies {#context}
-
-Named globals: [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems) · [i^radioDlg_selectedItemInd^](../../globals/#global-i-radiodlg-selecteditemind).
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2490–2496, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[NO_RADIO_DLG_ITEM](../../constants/radio-dialogs/#const-no-radio-dlg-item)
-<!-- llm:end erm.framework.functions.radiodlg-selectitem 1 -->
-
-# RadioDlg_SelectItemByTag
-
-ID: erm.framework.functions.radiodlg-selectitembytag
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitembytag/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.radiodlg-selectitembytag 1 -->
-## Purpose {#purpose}
-
-Selects the first matching value/string tag. Clears selection if no match exists.
-
-## Call contract {#signature}
-
-```erm
-!!FU(RadioDlg_SelectItemByTag):P(itemTagPtr);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `itemTagPtr` | input |
-
-## State and dependencies {#context}
-
-Named globals: [i^radioDlg_tags^](../../globals/#global-i-radiodlg-tags) · [i^radioDlg_numItems^](../../globals/#global-i-radiodlg-numitems) · [i^radioDlg_selectedItemInd^](../../globals/#global-i-radiodlg-selecteditemind) · [s^temp^](../../globals/#global-s-temp).
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2514–2531, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[NO_RADIO_DLG_ITEM](../../constants/radio-dialogs/#const-no-radio-dlg-item)
-<!-- llm:end erm.framework.functions.radiodlg-selectitembytag 1 -->
-
 # RadioDlg_SelectItemByValue
 
 ID: erm.framework.functions.radiodlg-selectitembyvalue
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitembyvalue/
+URL: /en/erm/framework/functions/radiodlg-selectitembyvalue/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -218,7 +39,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2497�
 # RadioDlg_SetTitle
 
 ID: erm.framework.functions.radiodlg-settitle
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-settitle/
+URL: /en/erm/framework/functions/radiodlg-settitle/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -252,7 +73,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2468�
 # RadioDlg_Show
 
 ID: erm.framework.functions.radiodlg-show
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-show/
+URL: /en/erm/framework/functions/radiodlg-show/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -296,7 +117,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2612�
 # ReadIniInts
 
 ID: erm.framework.functions.readiniints
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readiniints/
+URL: /en/erm/framework/functions/readiniints/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -352,7 +173,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1736�
 # ReadIniStrings
 
 ID: erm.framework.functions.readinistrings
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readinistrings/
+URL: /en/erm/framework/functions/readinistrings/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1697-1735-readinistrings
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -408,7 +229,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1697�
 # ReadJsonIntArray
 
 ID: erm.framework.functions.readjsonintarray
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readjsonintarray/
+URL: /en/erm/framework/functions/readjsonintarray/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1778-1806-readjsonintarray
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -454,7 +275,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1778�
 # ReadJsonStrArray
 
 ID: erm.framework.functions.readjsonstrarray
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readjsonstrarray/
+URL: /en/erm/framework/functions/readjsonstrarray/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -500,7 +321,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1807�
 # RestoreEventData
 
 ID: erm.framework.functions.restoreeventdata
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreeventdata/
+URL: /en/erm/framework/functions/restoreeventdata/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -540,7 +361,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 47�
 # RestorePrevKeyModsState
 
 ID: erm.framework.functions.restoreprevkeymodsstate
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevkeymodsstate/
+URL: /en/erm/framework/functions/restoreprevkeymodsstate/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -572,7 +393,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 91�
 # RestorePrevMouseEventData
 
 ID: erm.framework.functions.restoreprevmouseeventdata
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevmouseeventdata/
+URL: /en/erm/framework/functions/restoreprevmouseeventdata/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -600,4 +421,186 @@ Named globals: [i^mouse_x^](../../globals/#global-i-mouse-x) · [i^mouse_y^](../
 
 Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 142–144, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
 <!-- llm:end erm.framework.functions.restoreprevmouseeventdata 1 -->
+
+# SaveEventData
+
+ID: erm.framework.functions.saveeventdata
+URL: /en/erm/framework/functions/saveeventdata/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.saveeventdata 1 -->
+## Purpose {#purpose}
+
+Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.
+
+## Call contract {#signature}
+
+```erm
+!!FU(SaveEventData):P(firstArg);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `firstArg` | input |
+
+## State and dependencies {#context}
+
+Named globals: [i^savedEventData^](../../globals/#global-i-savedeventdata) · [i^savedEventDataPos^](../../globals/#global-i-savedeventdatapos).
+
+Export calls: `DisableErmTracking`, `RestoreErmTracking`.
+
+## Version and status {#provenance}
+
+Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 16–46, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.saveeventdata 1 -->
+
+# SaveGame
+
+ID: erm.framework.functions.savegame
+URL: /en/erm/framework/functions/savegame/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.savegame 1 -->
+## Purpose {#purpose}
+
+Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.
+
+## Call contract {#signature}
+
+```erm
+!!FU(SaveGame):P(fileNamePtr)/(appendExtension)/(compressFile)/(saveToData)/(markInList);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `fileNamePtr` | input |
+| x2 | `appendExtension` | output / mutable |
+| x3 | `compressFile` | output / mutable |
+| x4 | `saveToData` | input |
+| x5 | `markInList` | output / mutable |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `lstrcpyA`.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1987–2009, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[ADDR_MARKED_SAVEGAME_NAME](../../constants/useful-addresses/#const-addr-marked-savegame-name) · [CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall) · [FALSE](../../constants/universal/#const-false) · [GAME_MANAGER](../../constants/game-managers/#const-game-manager) · [TRUE](../../constants/universal/#const-true) · [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
+<!-- llm:end erm.framework.functions.savegame 1 -->
+
+# SaveIni
+
+ID: erm.framework.functions.saveini
+URL: /en/erm/framework/functions/saveini/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.saveini 1 -->
+## Purpose {#purpose}
+
+Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.
+
+## Call contract {#signature}
+
+```erm
+!!FU(SaveIni):P(filePathPtr);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `filePathPtr` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `SaveIni`.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1613–1620, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.saveini 1 -->
+
+# SavePrevKeyModsState
+
+ID: erm.framework.functions.saveprevkeymodsstate
+URL: /en/erm/framework/functions/saveprevkeymodsstate/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.saveprevkeymodsstate 1 -->
+## Purpose {#purpose}
+
+Saves 11 key and modifier globals for a nested event.
+
+## Call contract {#signature}
+
+```erm
+!!FU(SavePrevKeyModsState):P;
+```
+
+## State and dependencies {#context}
+
+Named globals: [i^key^](../../globals/#global-i-key) · [i^key_down^](../../globals/#global-i-key-down) · [i^key_leftAlt^](../../globals/#global-i-key-leftalt) · [i^key_rightAlt^](../../globals/#global-i-key-rightalt) · [i^key_alt^](../../globals/#global-i-key-alt) · [i^key_leftCtrl^](../../globals/#global-i-key-leftctrl) · [i^key_rightCtrl^](../../globals/#global-i-key-rightctrl) · [i^key_ctrl^](../../globals/#global-i-key-ctrl) · [i^key_leftShift^](../../globals/#global-i-key-leftshift) · [i^key_rightShift^](../../globals/#global-i-key-rightshift) · [i^key_shift^](../../globals/#global-i-key-shift).
+
+## Related functions {#calls}
+
+[SaveEventData](../saveeventdata/)
+
+## Version and status {#provenance}
+
+Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 88–90, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.saveprevkeymodsstate 1 -->
+
+# SavePrevMouseEventData
+
+ID: erm.framework.functions.saveprevmouseeventdata
+URL: /en/erm/framework/functions/saveprevmouseeventdata/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.saveprevmouseeventdata 1 -->
+## Purpose {#purpose}
+
+Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
+
+## Call contract {#signature}
+
+```erm
+!!FU(SavePrevMouseEventData):P;
+```
+
+## State and dependencies {#context}
+
+Named globals: [i^mouse_x^](../../globals/#global-i-mouse-x) · [i^mouse_y^](../../globals/#global-i-mouse-y) · [i^mouse_battleHex^](../../globals/#global-i-mouse-battlehex) · [i^mouse_flags^](../../globals/#global-i-mouse-flags) · [i^mouse_hero_0^](../../globals/#global-i-mouse-hero-0) · [i^mouse_item^](../../globals/#global-i-mouse-item) · [i^mouse_mapX^](../../globals/#global-i-mouse-mapx) · [i^mouse_mapY^](../../globals/#global-i-mouse-mapy) · [i^mouse_mapZ^](../../globals/#global-i-mouse-mapz) · [i^mouse_action^](../../globals/#global-i-mouse-action).
+
+## Related functions {#calls}
+
+[SaveEventData](../saveeventdata/)
+
+## Version and status {#provenance}
+
+Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 139–141, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.saveprevmouseeventdata 1 -->
 

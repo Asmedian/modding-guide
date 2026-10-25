@@ -1,7 +1,7 @@
 # Function calls (FU)
 
 ID: erm.receivers.fu
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/fu/
+URL: /en/erm/receivers/fu/
 Part: 1/1
 Source references: old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -359,7 +359,7 @@ Provides the ability to query the syntax that was used for a specific function p
 # Mystical garden (GD)
 
 ID: erm.receivers.gd
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/gd/
+URL: /en/erm/receivers/gd/
 Part: 1/1
 Source references: old-help:rec-gd.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

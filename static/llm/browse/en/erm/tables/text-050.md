@@ -1,7 +1,7 @@
 # Text resources: ERT, ERS and JSON
 
 ID: erm.tables.text-resources
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/text-resources/
+URL: /en/erm/tables/text-resources/
 Part: 1/1
 Source references: old-help:cont-ert.htm, old-help:cont-ers.htm, old-help:cont-json.htm, erm-forum:faq-.html, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -233,7 +233,7 @@ h3sprite.lod contains graphic resources; h3bitmap.lod contains bitmap images and
 # Town types
 
 ID: erm.tables.towns
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/towns/
+URL: /en/erm/tables/towns/
 Part: 1/1
 Source references: old-help:form-towns.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -326,7 +326,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Two-way monoliths
 
 ID: erm.tables.two-way-monoliths
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/two-way-monoliths/
+URL: /en/erm/tables/two-way-monoliths/
 Part: 1/1
 Source references: old-help:form-two-way-monolith.htm, old-help:form-objects.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

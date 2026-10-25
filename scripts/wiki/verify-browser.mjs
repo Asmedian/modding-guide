@@ -90,7 +90,18 @@ try {
   requests.length=0;await page.goto(url(`/ru/wiki/${creature.slug}/`));await page.locator('.wiki-table').first().waitFor();noFullMedia();
   const defButton=page.locator('button.wiki-preview').first();const defName=await defButton.locator('img').getAttribute('alt');
   await page.waitForLoadState('networkidle');
-  await defButton.click();await page.locator('.wiki-frame-grid canvas').first().waitFor();
+  let releaseDef;
+  const defReady=new Promise(resolve=>{releaseDef=resolve;});
+  await page.route('**/original/'+defName,async route=>{await defReady;await route.continue();});
+  await defButton.click();await page.locator('.wiki-def-groups button').first().waitFor();
+  assert.ok(await page.locator('.wiki-def-groups button').count()>1);
+  assert.equal(await page.locator('.wiki-frame-grid canvas').count(),0,'groups are visible before DEF bytes and images arrive');
+  await page.locator('.wiki-def-groups button').nth(2).click();
+  releaseDef();
+  await page.locator('.wiki-frame-grid canvas').first().waitFor();
+  await page.unroute('**/original/'+defName);
+  assert.ok((await page.locator('.wiki-def-body h3').innerText()).includes('Standing'),'group selection survives DEF loading');
+  await page.locator('.wiki-def-groups button').first().click();
   assert.equal(await page.locator('dialog[open]').count(),1);
   assert.equal(requests.filter(u=>u.endsWith('/original/'+defName)).length,1);
   assert.ok((await page.locator('.wiki-def-groups').innerText()).includes('Moving'));
@@ -104,10 +115,22 @@ try {
   await page.locator('.wiki-def-groups button').nth(2).click();
   assert.ok((await page.locator('.wiki-def-body h3').innerText()).includes('Standing'));
   assert.equal(await page.locator('.wiki-def-play').getAttribute('aria-label'),'Пауза');
+  for(const viewport of [{width:1440,height:1000},{width:1440,height:500},{width:900,height:680}]){
+    await page.setViewportSize(viewport);
+    const bounds=await page.locator('.wiki-def-layout').evaluate(el=>{
+      const layout=el.getBoundingClientRect(),groups=el.querySelector('.wiki-def-groups').getBoundingClientRect(),body=el.querySelector('.wiki-def-body').getBoundingClientRect();
+      return {layout:layout.height,groups:groups.height,body:body.height};
+    });
+    assert.ok(Math.abs(bounds.groups-bounds.layout)<1,JSON.stringify({viewport,bounds}));
+    assert.ok(Math.abs(bounds.body-bounds.groups)<1);
+  }
+  await page.setViewportSize({width:390,height:844});
+  assert.equal(await page.locator('.wiki-def-groups').evaluate(el=>getComputedStyle(el).flexDirection),'row');
+  assert.ok(await page.locator('.wiki-def-groups').evaluate(el=>el.scrollWidth>el.clientWidth));
   await page.setViewportSize({width:1440,height:500});
   const headerY=await page.locator('.wiki-dialog-header').evaluate(el=>el.getBoundingClientRect().top);
-  await page.locator('.wiki-dialog-content').evaluate(el=>el.scrollTop=el.scrollHeight);
-  assert.ok(await page.locator('.wiki-dialog-content').evaluate(el=>el.scrollTop>0));
+  await page.locator('.wiki-def-body').evaluate(el=>el.scrollTop=el.scrollHeight);
+  assert.ok(await page.locator('.wiki-def-body').evaluate(el=>el.scrollTop>0));
   assert.equal(await page.locator('.wiki-dialog-header').evaluate(el=>el.getBoundingClientRect().top),headerY);
   await page.screenshot({path:join(root,'reports/wiki-def-popup.png')});
   await page.keyboard.press('Escape');assert.equal(await page.locator('dialog').count(),0);
@@ -124,15 +147,15 @@ try {
   await page.mouse.click(5,5);await page.locator('dialog').waitFor({state:'detached'});
   results.masks='Matching masks expand in their DEF row and popup; backdrop closes DEF popup';
   await page.goto(url('/ru/wiki/sprite/2/0/'));await page.evaluate(()=>document.documentElement.dataset.theme='light');
-  assert.equal(await page.locator('.wiki-spell-surface').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(40, 50, 60)');
+  assert.equal(await page.locator('.wiki-spell-surface').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgba(0, 0, 0, 0)');
 
   await page.goto(url('/ru/wiki/bitmap/2/'));await page.locator('.wiki-font-surface').first().waitFor();
   assert.equal(await page.locator('.wiki-section').count(),9);
   await page.evaluate(()=>document.documentElement.dataset.theme='light');
-  assert.equal(await page.locator('.wiki-font-surface').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(13, 17, 23)');
+  assert.equal(await page.locator('.wiki-font-surface').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(150, 112, 68)');
   await page.screenshot({path:join(root,'reports/wiki-fonts.png')});
   assert.equal(await page.locator('.wiki-font-table td:nth-child(2)').first().evaluate(el=>getComputedStyle(el).textAlign),'center');
-  results.fonts='Single direct menu entry, nine inner sections, native-size indexed sheets, centered metadata and dark surfaces in the light theme';
+  results.fonts='Single direct menu entry, nine inner sections, native-size indexed sheets, centered metadata and #967044 surfaces in the light theme';
   await page.goto(url('/ru/wiki/bitmap/4/'));await page.waitForLoadState('networkidle');await page.locator('button.wiki-preview').first().click();
   await page.locator('.wiki-palette-grid button').first().waitFor();
   assert.equal(await page.locator('.wiki-palette-toolbar button[aria-pressed="true"]').first().innerText(),'1×');
@@ -149,11 +172,12 @@ try {
   assert.equal(requests.filter(u=>u.endsWith('/campaign.json')).length,0);
   await page.locator('.wiki-campaign-summary button').first().click();await page.locator('.wiki-scenario-card').first().waitFor();
   assert.equal(await page.locator('.wiki-scenario-card').count(),3);
+  assert.equal(await page.locator('.wiki-campaign-view a[download]').count(),0);
   assert.ok((await page.locator('.wiki-campaign-description').first().innerText()).length>30);
   await page.screenshot({path:join(root,'reports/wiki-campaign.png')});
   await page.locator('.wiki-scenario-actions button').first().click();await page.locator('.wiki-campaign-map').waitFor();
-  assert.ok((await page.locator('.wiki-campaign-view a[download]').getAttribute('href')).endsWith('.h3m'));
-  await page.keyboard.press('Escape');results.campaigns='Lazy campaign details, descriptions, scenario cards, minimaps, map view and H3M downloads';
+  assert.equal(await page.locator('.wiki-campaign-view a[download]').count(),0);
+  await page.keyboard.press('Escape');results.campaigns='Lazy campaign details, descriptions, scenario cards, object minimaps and map view without download controls';
 
   requests.length=0;await page.goto(url('/ru/wiki/sounds/'));await page.locator('.wiki-player').first().waitFor();noFullMedia();
   await page.waitForLoadState('networkidle');
@@ -219,6 +243,36 @@ try {
   assert.ok(await page.locator('.wiki-popup-image').evaluate(el=>el.scrollWidth>el.clientWidth));
   await page.screenshot({path:join(root,'reports/wiki-font-popup-mobile.png')});await page.keyboard.press('Escape');
   results.fonts+='; mobile font sheet scrolls inside its popup without document overflow';
+  for(const viewport of [{width:1440,height:900},{width:390,height:844}]){
+    await page.setViewportSize(viewport);
+    for(const path of ['/ru/','/en/docs/','/ru/wiki/','/en/erm/syntax/','/ru/plugins/getting-started/']){
+      await page.goto(url(path));await page.waitForLoadState('networkidle');
+      assert.equal(await page.locator('.scroll-top').count(),0,'arrow is hidden at the top');
+      const overflows=await page.locator('.content-column').evaluate(el=>el.scrollHeight>el.clientHeight);
+      if(overflows){
+        await page.locator('.content-column').evaluate(el=>el.scrollTop=el.scrollHeight);
+        await page.locator('.scroll-top').waitFor();
+        assert.ok(await page.locator('.scroll-top').evaluate(el=>{
+          const button=el.getBoundingClientRect(),column=el.parentElement.querySelector('.content-column').getBoundingClientRect();
+          return button.left>=column.left&&button.right<=column.right&&button.bottom<=column.bottom;
+        }),'arrow stays inside the right edge of the article column');
+        await page.emulateMedia({reducedMotion:'reduce'});
+        await page.locator('.scroll-top').click();
+        await page.waitForFunction(()=>document.querySelector('.content-column').scrollTop===0);
+        await page.locator('.scroll-top').waitFor({state:'detached'});
+      }
+    }
+  }
+  await page.setViewportSize({width:1440,height:2000});
+  await page.goto(url('/ru/'));await page.waitForLoadState('networkidle');
+  assert.ok(await page.locator('.content-column').evaluate(el=>el.scrollHeight===el.clientHeight));
+  assert.equal(await page.locator('.scroll-top').count(),0,'arrow is absent on a page without scrolling');
+  for(const lang of ['ru','en']){
+    await page.goto(url(`/${lang}/wiki/`));await page.locator('.wiki-catalog').waitFor();
+    assert.equal(await page.locator('.wiki-card').count(),8);
+    assert.equal(await page.locator('#resources,#machine').count(),0);
+  }
+  results.scrollTop='All five top-level page types, desktop/mobile, reduced motion, hidden at top and on short pages';
   const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();
   await staticPage.goto(url(`/ru/wiki/${towns.slug}/`));assert.ok(await staticPage.locator('.wiki-table tbody tr').count()>0);
   assert.ok(await staticPage.locator('.wiki-outline a').count()>1);

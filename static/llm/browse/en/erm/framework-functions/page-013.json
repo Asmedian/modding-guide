@@ -2,416 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.framework.functions.ontownmouseclick-quit",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/ontownmouseclick-quit",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick-quit/",
-      "title": "OnTownMouseClick_Quit",
-      "summary": "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
-      "keywords": [
-        "OnTownMouseClick_Quit",
-        "FU(OnTownMouseClick_Quit)",
-        "quit-handler",
-        "events"
-      ],
-      "questions": [
-        "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
-        ],
-        "signature": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
-        ],
-        "context": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
-        ],
-        "calls": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
-        ],
-        "provenance": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "State and dependencies",
-            "Related functions",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.ontownmousehint",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/ontownmousehint",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint/",
-      "title": "OnTownMouseHint",
-      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
-      "keywords": [
-        "OnTownMouseHint",
-        "FU(OnTownMouseHint)",
-        "event-handler",
-        "events"
-      ],
-      "questions": [
-        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
-        ],
-        "calls": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "State and dependencies",
-            "Related functions",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.ontownmousehint-quit",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/ontownmousehint-quit",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint-quit/",
-      "title": "OnTownMouseHint_Quit",
-      "summary": "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
-      "keywords": [
-        "OnTownMouseHint_Quit",
-        "FU(OnTownMouseHint_Quit)",
-        "quit-handler",
-        "events"
-      ],
-      "questions": [
-        "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
-        ],
-        "signature": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
-        ],
-        "context": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
-        ],
-        "calls": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
-        ],
-        "provenance": [
-          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "State and dependencies",
-            "Related functions",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.packunion",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/packunion",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/packunion/",
-      "title": "PackUnion",
-      "summary": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.",
-      "keywords": [
-        "PackUnion",
-        "FU(PackUnion)",
-        "public",
-        "math"
-      ],
-      "questions": [
-        "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-        ],
-        "constants": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "constants",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Version and status",
-            "Constants used"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.pow",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/pow",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/pow/",
-      "title": "Pow",
-      "summary": "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion.",
-      "keywords": [
-        "Pow",
-        "FU(Pow)",
-        "public",
-        "math"
-      ],
-      "questions": [
-        "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.preparemessageboxtext",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/preparemessageboxtext",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemessageboxtext/",
-      "title": "PrepareMessageBoxText",
-      "summary": "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version.",
-      "keywords": [
-        "PrepareMessageBoxText",
-        "FU(PrepareMessageBoxText)",
-        "requires-review",
-        "dialogs"
-      ],
-      "questions": [
-        "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-        ],
-        "calls": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Related functions",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.preparemultipicdialog",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/preparemultipicdialog",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemultipicdialog/",
-      "title": "PrepareMultiPicDialog",
-      "summary": "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog.",
-      "keywords": [
-        "PrepareMultiPicDialog",
-        "FU(PrepareMultiPicDialog)",
-        "public",
-        "dialogs"
-      ],
-      "questions": [
-        "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-        ],
-        "constants": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "constants",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Version and status",
-            "Constants used"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.framework.functions.radiodlg-addcancelbutton",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/radiodlg-addcancelbutton",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-addcancelbutton/",
+      "url": "/en/erm/framework/functions/radiodlg-addcancelbutton/",
       "title": "RadioDlg_AddCancelButton",
       "summary": "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button.",
       "keywords": [
@@ -448,7 +44,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -467,7 +63,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/radiodlg-additem",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additem/",
+      "url": "/en/erm/framework/functions/radiodlg-additem/",
       "title": "RadioDlg_AddItem",
       "summary": "Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel.",
       "keywords": [
@@ -507,7 +103,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -527,7 +123,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/radiodlg-additems",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additems/",
+      "url": "/en/erm/framework/functions/radiodlg-additems/",
       "title": "RadioDlg_AddItems",
       "summary": "Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected.",
       "keywords": [
@@ -567,7 +163,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -587,7 +183,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/radiodlg-getitemtag",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemtag/",
+      "url": "/en/erm/framework/functions/radiodlg-getitemtag/",
       "title": "RadioDlg_GetItemTag",
       "summary": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.",
       "keywords": [
@@ -624,7 +220,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -643,7 +239,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/radiodlg-getitemvalue",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemvalue/",
+      "url": "/en/erm/framework/functions/radiodlg-getitemvalue/",
       "title": "RadioDlg_GetItemValue",
       "summary": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.",
       "keywords": [
@@ -680,7 +276,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -689,6 +285,418 @@
             "Parameter order",
             "State and dependencies",
             "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-getnumitems",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-getnumitems",
+      "url": "/en/erm/framework/functions/radiodlg-getnumitems/",
+      "title": "RadioDlg_GetNumItems",
+      "summary": "Returns the item count excluding Cancel.",
+      "keywords": [
+        "RadioDlg_GetNumItems",
+        "FU(RadioDlg_GetNumItems)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns the item count excluding Cancel."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-reset",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-reset",
+      "url": "/en/erm/framework/functions/radiodlg-reset/",
+      "title": "RadioDlg_Reset",
+      "summary": "Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.",
+      "keywords": [
+        "RadioDlg_Reset",
+        "FU(RadioDlg_Reset)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-selectitem",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-selectitem",
+      "url": "/en/erm/framework/functions/radiodlg-selectitem/",
+      "title": "RadioDlg_SelectItem",
+      "summary": "Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.",
+      "keywords": [
+        "RadioDlg_SelectItem",
+        "FU(RadioDlg_SelectItem)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-selectitembytag",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-selectitembytag",
+      "url": "/en/erm/framework/functions/radiodlg-selectitembytag/",
+      "title": "RadioDlg_SelectItemByTag",
+      "summary": "Selects the first matching value/string tag. Clears selection if no match exists.",
+      "keywords": [
+        "RadioDlg_SelectItemByTag",
+        "FU(RadioDlg_SelectItemByTag)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Selects the first matching value/string tag. Clears selection if no match exists."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-selectitembyvalue",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-selectitembyvalue",
+      "url": "/en/erm/framework/functions/radiodlg-selectitembyvalue/",
+      "title": "RadioDlg_SelectItemByValue",
+      "summary": "Selects the first matching value/string tag. Clears selection if no match exists.",
+      "keywords": [
+        "RadioDlg_SelectItemByValue",
+        "FU(RadioDlg_SelectItemByValue)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Selects the first matching value/string tag. Clears selection if no match exists."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-settitle",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-settitle",
+      "url": "/en/erm/framework/functions/radiodlg-settitle/",
+      "title": "RadioDlg_SetTitle",
+      "summary": "Copies the title into radio-dialog state.",
+      "keywords": [
+        "RadioDlg_SetTitle",
+        "FU(RadioDlg_SetTitle)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Copies the title into radio-dialog state."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-show",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-show",
+      "url": "/en/erm/framework/functions/radiodlg-show/",
+      "title": "RadioDlg_Show",
+      "summary": "Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items.",
+      "keywords": [
+        "RadioDlg_Show",
+        "FU(RadioDlg_Show)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
           ]
         }
       ]

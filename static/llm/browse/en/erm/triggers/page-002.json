@@ -7,7 +7,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onaftersavegame",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onaftersavegame/",
+      "url": "/en/erm/triggers/onaftersavegame/",
       "title": "After saving (OnAfterSaveGame)",
       "summary": "After save completion. No arguments. Use OnSavegameWrite to write a custom data section.",
       "keywords": [
@@ -66,7 +66,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -85,7 +85,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onaftertacticsphase",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onaftertacticsphase/",
+      "url": "/en/erm/triggers/onaftertacticsphase/",
       "title": "After tactics (OnAfterTacticsPhase)",
       "summary": "After tactical placement ends. When there is no tactics phase, it follows preparation for battlefield display. No arguments.",
       "keywords": [
@@ -144,7 +144,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -163,7 +163,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onaicalcstackattackeffect",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onaicalcstackattackeffect/",
+      "url": "/en/erm/triggers/onaicalcstackattackeffect/",
       "title": "AI attack evaluation (OnAICalcStackAttackEffect)",
       "summary": "x1 is attacking stack; x2 defender; x3 mutable effect score; x4 original score. This evaluates an action for AI rather than dealing damage.",
       "keywords": [
@@ -225,7 +225,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -244,7 +244,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ae",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ae/",
+      "url": "/en/erm/triggers/ae/",
       "title": "Artifact equipment (AE)",
       "summary": "0 unequips; 1 equips. The current hero owns the artifact, v998 is the artifact ID, and v999 its slot.",
       "keywords": [
@@ -301,7 +301,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-ae",
           "toAnchor": "reference-links",
           "headings": [
@@ -322,7 +322,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbattleactionend",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleactionend/",
+      "url": "/en/erm/triggers/onbattleactionend/",
       "title": "Battle action completion (OnBattleActionEnd)",
       "summary": "No arguments. Order: OnBeforeBattleAction → OnBattleActionEnd → OnBattleRound → OnBeforeBattleStackTurn → OnBattleStackObtainsTurn → OnAfterBattleAction. Round/stack events occur on the relevant transition, not unconditionally after every action.",
       "keywords": [
@@ -384,7 +384,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -403,7 +403,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/bg",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/bg/",
+      "url": "/en/erm/triggers/bg/",
       "title": "Battle actions (BG)",
       "summary": "BG0 precedes an action; BG1 is associated with action completion and passing control. Read action parameters through BG; v997 stores the round.",
       "keywords": [
@@ -460,7 +460,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-bg",
           "toAnchor": "reference-links",
           "headings": [
@@ -481,7 +481,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbattlereplay",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlereplay/",
+      "url": "/en/erm/triggers/onbattlereplay/",
       "title": "Battle replay (OnBattleReplay)",
       "summary": "After battle state is reset for replay. No arguments. OnBeforeBattleUniversal does not run again; rebuild combat-dependent context here. Requires replay support in the installed build.",
       "keywords": [
@@ -543,7 +543,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -562,7 +562,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/br",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/br/",
+      "url": "/en/erm/triggers/br/",
       "title": "Battle rounds (BR)",
       "summary": "The classic code accepts a round selector: -1 before tactics, 0 first round, 1 second. v997 is the round counter; early phases run before the field is visible.",
       "keywords": [
@@ -622,7 +622,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-br",
           "toAnchor": "reference-links",
           "headings": [
@@ -643,7 +643,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ba",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ba/",
+      "url": "/en/erm/triggers/ba/",
       "title": "Battle start and completion (BA)",
       "summary": "0/1 start/end on the attacking or local computer; 50/51 on the defender’s computer; 52/53 are universal events on both sides. Start order is BA0 or BA50, then BA52; end order is BA1 or BA51, then BA53.",
       "keywords": [
@@ -704,7 +704,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-ba",
           "toAnchor": "reference-links",
           "headings": [
@@ -725,7 +725,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbattlefieldvisible",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlefieldvisible/",
+      "url": "/en/erm/triggers/onbattlefieldvisible/",
       "title": "Battlefield becomes visible (OnBattlefieldVisible)",
       "summary": "After the battle theme starts and the tactics dialog. No arguments. This marks visibility, not necessarily the end of tactical placement.",
       "keywords": [
@@ -784,7 +784,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [

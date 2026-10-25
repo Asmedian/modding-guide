@@ -1,189 +1,7 @@
-# SaveEventData
-
-ID: erm.framework.functions.saveeventdata
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveeventdata/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.saveeventdata 1 -->
-## Purpose {#purpose}
-
-Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.
-
-## Call contract {#signature}
-
-```erm
-!!FU(SaveEventData):P(firstArg);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `firstArg` | input |
-
-## State and dependencies {#context}
-
-Named globals: [i^savedEventData^](../../globals/#global-i-savedeventdata) · [i^savedEventDataPos^](../../globals/#global-i-savedeventdatapos).
-
-Export calls: `DisableErmTracking`, `RestoreErmTracking`.
-
-## Version and status {#provenance}
-
-Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 16–46, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.saveeventdata 1 -->
-
-# SaveGame
-
-ID: erm.framework.functions.savegame
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/savegame/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.savegame 1 -->
-## Purpose {#purpose}
-
-Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.
-
-## Call contract {#signature}
-
-```erm
-!!FU(SaveGame):P(fileNamePtr)/(appendExtension)/(compressFile)/(saveToData)/(markInList);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `fileNamePtr` | input |
-| x2 | `appendExtension` | output / mutable |
-| x3 | `compressFile` | output / mutable |
-| x4 | `saveToData` | input |
-| x5 | `markInList` | output / mutable |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `lstrcpyA`.
-
-The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1987–2009, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[ADDR_MARKED_SAVEGAME_NAME](../../constants/useful-addresses/#const-addr-marked-savegame-name) · [CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall) · [FALSE](../../constants/universal/#const-false) · [GAME_MANAGER](../../constants/game-managers/#const-game-manager) · [TRUE](../../constants/universal/#const-true) · [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
-<!-- llm:end erm.framework.functions.savegame 1 -->
-
-# SaveIni
-
-ID: erm.framework.functions.saveini
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveini/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.saveini 1 -->
-## Purpose {#purpose}
-
-Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.
-
-## Call contract {#signature}
-
-```erm
-!!FU(SaveIni):P(filePathPtr);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `filePathPtr` | input |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `SaveIni`.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1613–1620, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.saveini 1 -->
-
-# SavePrevKeyModsState
-
-ID: erm.framework.functions.saveprevkeymodsstate
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevkeymodsstate/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.saveprevkeymodsstate 1 -->
-## Purpose {#purpose}
-
-Saves 11 key and modifier globals for a nested event.
-
-## Call contract {#signature}
-
-```erm
-!!FU(SavePrevKeyModsState):P;
-```
-
-## State and dependencies {#context}
-
-Named globals: [i^key^](../../globals/#global-i-key) · [i^key_down^](../../globals/#global-i-key-down) · [i^key_leftAlt^](../../globals/#global-i-key-leftalt) · [i^key_rightAlt^](../../globals/#global-i-key-rightalt) · [i^key_alt^](../../globals/#global-i-key-alt) · [i^key_leftCtrl^](../../globals/#global-i-key-leftctrl) · [i^key_rightCtrl^](../../globals/#global-i-key-rightctrl) · [i^key_ctrl^](../../globals/#global-i-key-ctrl) · [i^key_leftShift^](../../globals/#global-i-key-leftshift) · [i^key_rightShift^](../../globals/#global-i-key-rightshift) · [i^key_shift^](../../globals/#global-i-key-shift).
-
-## Related functions {#calls}
-
-[SaveEventData](../saveeventdata/)
-
-## Version and status {#provenance}
-
-Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 88–90, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.saveprevkeymodsstate 1 -->
-
-# SavePrevMouseEventData
-
-ID: erm.framework.functions.saveprevmouseeventdata
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevmouseeventdata/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.saveprevmouseeventdata 1 -->
-## Purpose {#purpose}
-
-Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
-
-## Call contract {#signature}
-
-```erm
-!!FU(SavePrevMouseEventData):P;
-```
-
-## State and dependencies {#context}
-
-Named globals: [i^mouse_x^](../../globals/#global-i-mouse-x) · [i^mouse_y^](../../globals/#global-i-mouse-y) · [i^mouse_battleHex^](../../globals/#global-i-mouse-battlehex) · [i^mouse_flags^](../../globals/#global-i-mouse-flags) · [i^mouse_hero_0^](../../globals/#global-i-mouse-hero-0) · [i^mouse_item^](../../globals/#global-i-mouse-item) · [i^mouse_mapX^](../../globals/#global-i-mouse-mapx) · [i^mouse_mapY^](../../globals/#global-i-mouse-mapy) · [i^mouse_mapZ^](../../globals/#global-i-mouse-mapz) · [i^mouse_action^](../../globals/#global-i-mouse-action).
-
-## Related functions {#calls}
-
-[SaveEventData](../saveeventdata/)
-
-## Version and status {#provenance}
-
-Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 139–141, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.saveprevmouseeventdata 1 -->
-
 # ScanDir
 
 ID: erm.framework.functions.scandir
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/scandir/
+URL: /en/erm/framework/functions/scandir/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -239,7 +57,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1870�
 # ShowAnimatedDefDlg
 
 ID: erm.framework.functions.showanimateddefdlg
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/showanimateddefdlg/
+URL: /en/erm/framework/functions/showanimateddefdlg/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -280,7 +98,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2756�
 # SplitMix32
 
 ID: erm.framework.functions.splitmix32
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/splitmix32/
+URL: /en/erm/framework/functions/splitmix32/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -338,7 +156,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1376�
 # Sqrt
 
 ID: erm.framework.functions.sqrt
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/sqrt/
+URL: /en/erm/framework/functions/sqrt/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -375,7 +193,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1173�
 # StrPos
 
 ID: erm.framework.functions.strpos
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strpos/
+URL: /en/erm/framework/functions/strpos/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -414,7 +232,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1486�
 # StrReplace
 
 ID: erm.framework.functions.strreplace
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strreplace/
+URL: /en/erm/framework/functions/strreplace/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -453,7 +271,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1498�
 # StrToLower
 
 ID: erm.framework.functions.strtolower
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtolower/
+URL: /en/erm/framework/functions/strtolower/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -494,7 +312,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1458�
 # StrToUpper
 
 ID: erm.framework.functions.strtoupper
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtoupper/
+URL: /en/erm/framework/functions/strtoupper/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -535,7 +353,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1443�
 # Substr
 
 ID: erm.framework.functions.substr
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/substr/
+URL: /en/erm/framework/functions/substr/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -574,7 +392,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1473�
 # Tm32Decode
 
 ID: erm.framework.functions.tm32decode
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/tm32decode/
+URL: /en/erm/framework/functions/tm32decode/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -609,7 +427,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1342�
 # Tm32Encode
 
 ID: erm.framework.functions.tm32encode
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/tm32encode/
+URL: /en/erm/framework/functions/tm32encode/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -640,4 +458,155 @@ The body does not access named global variables.
 
 Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1334–1341, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
 <!-- llm:end erm.framework.functions.tm32encode 1 -->
+
+# Trim
+
+ID: erm.framework.functions.trim
+URL: /en/erm/framework/functions/trim/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.trim 1 -->
+## Purpose {#purpose}
+
+Trims spaces and control bytes 0..32 from both ends; returns a new ERM string.
+
+## Call contract {#signature}
+
+```erm
+!!FU(Trim):P(strPtr)/(resultPtr);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `strPtr` | input |
+| x2 | `resultPtr` | output / mutable |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `Erm_StrTrim`.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1411–1420, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.trim 1 -->
+
+# UnequipArtFromSlot
+
+ID: erm.framework.functions.unequipartfromslot
+URL: /en/erm/framework/functions/unequipartfromslot/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.unequipartfromslot 1 -->
+## Purpose {#purpose}
+
+Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment.
+
+## Call contract {#signature}
+
+```erm
+!!FU(UnequipArtFromSlot):P(hero)/(slot);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `hero` | input |
+| x2 | `slot` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3191–3198, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall)
+<!-- llm:end erm.framework.functions.unequipartfromslot 1 -->
+
+# UnpackUnion
+
+ID: erm.framework.functions.unpackunion
+URL: /en/erm/framework/functions/unpackunion/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.unpackunion 1 -->
+## Purpose {#purpose}
+
+PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
+
+## Call contract {#signature}
+
+```erm
+!!FU(UnpackUnion):P(packedValue)/(firstFieldArg);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `packedValue` | input |
+| x2 | `firstFieldArg` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `ShowErmError`.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1295–1333, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[BITS_IN_INT32](../../constants/bit-sizes/#const-bits-in-int32)
+<!-- llm:end erm.framework.functions.unpackunion 1 -->
+
+# UpdateBattleVars
+
+ID: erm.framework.functions.updatebattlevars
+URL: /en/erm/framework/functions/updatebattlevars/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.updatebattlevars 1 -->
+## Purpose {#purpose}
+
+Refreshes BA/OW data in battle_*: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO.
+
+## Call contract {#signature}
+
+```erm
+!!FU(UpdateBattleVars):P;
+```
+
+## State and dependencies {#context}
+
+Named globals: [i^battle_x^](../../globals/#global-i-battle-x) · [i^battle_y^](../../globals/#global-i-battle-y) · [i^battle_z^](../../globals/#global-i-battle-z) · [i^battle_hero_vs_hero^](../../globals/#global-i-battle-hero-vs-hero) · [i^battle_hasHuman^](../../globals/#global-i-battle-hashuman) · [i^battle_humanOnly^](../../globals/#global-i-battle-humanonly) · [i^battle_aiOnly^](../../globals/#global-i-battle-aionly) · [i^battle_isQuick^](../../globals/#global-i-battle-isquick) · [i^battle_isVisible^](../../globals/#global-i-battle-isvisible) · [i^battle_isNetwork^](../../globals/#global-i-battle-isnetwork) · [i^battle_type^](../../globals/#global-i-battle-type) · [i^battle_owner_0^](../../globals/#global-i-battle-owner-0) · [i^battle_hero_0^](../../globals/#global-i-battle-hero-0) · [i^battle_ai_0^](../../globals/#global-i-battle-ai-0) · [i^battle_human_0^](../../globals/#global-i-battle-human-0) · [i^battle_remote_0^](../../globals/#global-i-battle-remote-0) · [i^battle_local_0^](../../globals/#global-i-battle-local-0) · [i^battle_localHuman_0^](../../globals/#global-i-battle-localhuman-0) · [i^battle_owner_1^](../../globals/#global-i-battle-owner-1) · [i^battle_hero_1^](../../globals/#global-i-battle-hero-1) · [i^battle_ai_1^](../../globals/#global-i-battle-ai-1) · [i^battle_human_1^](../../globals/#global-i-battle-human-1) · [i^battle_remote_1^](../../globals/#global-i-battle-remote-1) · [i^battle_local_1^](../../globals/#global-i-battle-local-1) · [i^battle_localHuman_1^](../../globals/#global-i-battle-localhuman-1).
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2848–2904, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[BATTLE_TYPE_FLAG_LEFT_HAS_HERO](../../constants/battle-type-flags/#const-battle-type-flag-left-has-hero) · [BATTLE_TYPE_FLAG_LEFT_HAS_OWNER](../../constants/battle-type-flags/#const-battle-type-flag-left-has-owner) · [BATTLE_TYPE_FLAG_LEFT_IS_HUMAN](../../constants/battle-type-flags/#const-battle-type-flag-left-is-human) · [BATTLE_TYPE_FLAG_RIGHT_HAS_HERO](../../constants/battle-type-flags/#const-battle-type-flag-right-has-hero) · [BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER](../../constants/battle-type-flags/#const-battle-type-flag-right-has-owner) · [BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN](../../constants/battle-type-flags/#const-battle-type-flag-right-is-human) · [FALSE](../../constants/universal/#const-false) · [HERO_FIRST](../../constants/heroes/#const-hero-first) · [NO_DEFENDING_HERO](../../constants/heroes/#const-no-defending-hero) · [NO_HERO](../../constants/heroes/#const-no-hero) · [NO_OWNER](../../constants/players/#const-no-owner) · [TRUE](../../constants/universal/#const-true)
+<!-- llm:end erm.framework.functions.updatebattlevars 1 -->
 

@@ -1,7 +1,7 @@
 # Dialog Item Ids
 
 ID: erm.framework.constants.dialog-item-ids
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-item-ids/
+URL: /en/erm/framework/constants/dialog-item-ids/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -120,7 +120,7 @@ The **Dialog Item Ids** group from the supplied Framework. Names and values belo
 # Dialogs
 
 ID: erm.framework.constants.dialogs
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/
+URL: /en/erm/framework/constants/dialogs/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -165,7 +165,7 @@ The **Dialogs** group from the supplied Framework. Names and values below corres
 # Era Chat Event
 
 ID: erm.framework.constants.era-chat-event
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/
+URL: /en/erm/framework/constants/era-chat-event/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -194,7 +194,7 @@ The **Era Chat Event** group from the supplied Framework. Names and values below
 # Erm Commands
 
 ID: erm.framework.constants.erm-commands
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/
+URL: /en/erm/framework/constants/erm-commands/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -230,7 +230,7 @@ The **Erm Commands** group from the supplied Framework. Names and values below c
 # Erm Flags
 
 ID: erm.framework.constants.erm-flags
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-flags/
+URL: /en/erm/framework/constants/erm-flags/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -257,7 +257,7 @@ The **Erm Flags** group from the supplied Framework. Names and values below corr
 # Game Functions
 
 ID: erm.framework.constants.game-functions
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-functions/
+URL: /en/erm/framework/constants/game-functions/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -286,7 +286,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Game Limits
 
 ID: erm.framework.constants.game-limits
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/
+URL: /en/erm/framework/constants/game-limits/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -325,7 +325,7 @@ The **Game Limits** group from the supplied Framework. Names and values below co
 # Game Managers
 
 ID: erm.framework.constants.game-managers
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/
+URL: /en/erm/framework/constants/game-managers/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

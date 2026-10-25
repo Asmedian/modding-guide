@@ -1,7 +1,7 @@
 # Map objects
 
 ID: wiki.sprite.2.2.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-11/
+URL: /en/wiki/sprite/2/2/page-11/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -162,7 +162,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Map objects
 
 ID: wiki.sprite.2.2.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-12/
+URL: /en/wiki/sprite/2/2/page-12/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,7 +1,7 @@
 # Custom dialogs (DL)
 
 ID: erm.receivers.dl
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/dl/
+URL: /en/erm/receivers/dl/
 Part: 1/2
 Source references: old-help:rec-dl.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

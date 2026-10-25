@@ -1,7 +1,7 @@
 # Town events (CE)
 
 ID: erm.receivers.ce
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ce/
+URL: /en/erm/receivers/ce/
 Part: 1/1
 Source references: old-help:rec-ce.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -120,7 +120,7 @@ Build building # (<a href="../../tables/building-pictures/#ref-form-buldingsinto
 # Treasure chest (CH)
 
 ID: erm.receivers.ch
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ch/
+URL: /en/erm/receivers/ch/
 Part: 1/1
 Source references: old-help:rec-ch.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -193,7 +193,7 @@ Content Type:<br>
 # Mouse-event context (CM)
 
 ID: erm.receivers.cm
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/cm/
+URL: /en/erm/receivers/cm/
 Part: 1/1
 Source references: old-help:rec-cm.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

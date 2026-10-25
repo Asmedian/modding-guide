@@ -1,7 +1,7 @@
 # EA:B modifiers
 
 ID: erm.tables.stack-experience-modifiers
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-modifiers/
+URL: /en/erm/tables/stack-experience-modifiers/
 Part: 1/1
 Source references: old-help:form-specexp5.htm, old-help:rec-ea.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -54,7 +54,7 @@ Modifier $4 determines whether an ability value is added, assigned or interprete
 # EA:B non-damaging spells
 
 ID: erm.tables.stack-experience-spells
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-spells/
+URL: /en/erm/tables/stack-experience-spells/
 Part: 1/1
 Source references: old-help:form-specexp3.htm, old-help:rec-ea.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -140,7 +140,7 @@ Values of $4 when $3=99 (c). These are spell IDs.
 # Terrain types
 
 ID: erm.tables.terrain
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/terrain/
+URL: /en/erm/tables/terrain/
 Part: 1/1
 Source references: old-help:form-terrain.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -232,7 +232,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # DL text alignment
 
 ID: erm.tables.text-alignment
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/text-alignment/
+URL: /en/erm/tables/text-alignment/
 Part: 1/1
 Source references: old-help:form-align.htm, old-help:rec-dl.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

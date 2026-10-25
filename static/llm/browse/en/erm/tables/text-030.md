@@ -1,7 +1,7 @@
 # Hero visits and bits
 
 ID: erm.tables.hero-visits
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-visits/
+URL: /en/erm/tables/hero-visits/
 Part: 1/1
 Source references: old-help:form-he-v.htm, old-help:form-he-r.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

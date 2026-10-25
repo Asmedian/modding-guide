@@ -2,786 +2,1028 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/TBCSUP_6.def",
-      "name": "TBCSUP_6.def",
+      "id": "H3sprite.lod/SMCata.def",
+      "name": "SMCata.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 22439,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBCSUP_6.def",
+      "bytes": 178985,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SMCata.def",
       "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 286,
-      "height": 116,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBCSUP_6.def.webp",
-      "previewWidth": 240,
-      "previewHeight": 97,
-      "anchor": "file-382426663650",
-      "sha256": "f7bfe15589ae757b13cc44feacdf17c0e8fff3ab55127c66b1b8be0717a5d706",
+      "type": 66,
+      "groups": 7,
+      "frames": 65,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SMCata.def.webp",
+      "previewWidth": 116,
+      "previewHeight": 91,
+      "anchor": "file-eac3b2f73be8",
+      "sha256": "7fb1cd6fa20ac29baaec0149a5770924e8707503c5f0ae712db7f29ee0744abb",
+      "frameGroups": [
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 8
+        },
+        {
+          "id": 4,
+          "frames": 8
+        },
+        {
+          "id": 5,
+          "frames": 9
+        },
+        {
+          "id": 14,
+          "frames": 13
+        },
+        {
+          "id": 15,
+          "frames": 13
+        },
+        {
+          "id": 16,
+          "frames": 13
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Castle"
+            "Neutral creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-5/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnBlak.def",
-      "name": "TBDnBlak.def",
+      "id": "H3sprite.lod/SMCatx.def",
+      "name": "SMCatx.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 6374,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnBlak.def",
+      "bytes": 3605,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SMCatx.def",
       "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 88,
-      "height": 94,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnBlak.def.webp",
-      "previewWidth": 88,
-      "previewHeight": 94,
-      "anchor": "file-abdda5f95f4d",
-      "sha256": "47de691fd5008d996108ecdc20a5dec899099d164e409da1a0ec9f341e0a005d",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnCas2.def",
-      "name": "TBDnCas2.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 28686,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnCas2.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 198,
-      "height": 244,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnCas2.def.webp",
-      "previewWidth": 130,
-      "previewHeight": 160,
-      "anchor": "file-72a710bffcb3",
-      "sha256": "5f0810e85655f18ba4693cddbd5f6bd61cbaff8a361edcaf3aedc5ab6612f0e4",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnCas3.def",
-      "name": "TBDnCas3.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 28686,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnCas3.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 198,
-      "height": 244,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnCas3.def.webp",
-      "previewWidth": 130,
-      "previewHeight": 160,
-      "anchor": "file-c5319188311c",
-      "sha256": "9badfcf162124da64596745142134d7acffe32ea644e73c92dbe71a9827486b0",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnCstl.def",
-      "name": "TBDnCstl.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 24474,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnCstl.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 198,
-      "height": 164,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnCstl.def.webp",
-      "previewWidth": 193,
-      "previewHeight": 160,
-      "anchor": "file-16b494c64f1b",
-      "sha256": "ed00516f37d61b688c2c57286673728b5cf0e71d3be9c9cf552974692170977f",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnDw_0.def",
-      "name": "TBDnDw_0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 49512,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_0.def",
-      "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
       "frames": 8,
-      "width": 148,
+      "width": 30,
+      "height": 22,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SMCatx.def.webp",
+      "previewWidth": 14,
+      "previewHeight": 16,
+      "anchor": "file-3852f033ec52",
+      "sha256": "9f9575d7d25c05159cd26a0808764e5881e65bb6aee6e0bf7b3c499e11a727b1",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Projectile animations"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/SMtent.def",
+      "name": "SMtent.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 107378,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SMtent.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 4,
+      "frames": 30,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SMtent.def.webp",
+      "previewWidth": 83,
+      "previewHeight": 121,
+      "anchor": "file-71370b66ff2c",
+      "sha256": "219e4b7ac2c52c5d912d2d8951675ca7ec603e41ca73e8693d89f1284997951d",
+      "frameGroups": [
+        {
+          "id": 2,
+          "frames": 6
+        },
+        {
+          "id": 3,
+          "frames": 9
+        },
+        {
+          "id": 4,
+          "frames": 9
+        },
+        {
+          "id": 5,
+          "frames": 6
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Neutral creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Snowtl.def",
+      "name": "Snowtl.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 85567,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Snowtl.def",
+      "kind": "def",
+      "type": 69,
+      "groups": 1,
+      "frames": 79,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Snowtl.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 32,
+      "anchor": "file-377ba74b3d6d",
+      "sha256": "8847f345c97def23e6047342218c7cab7379aa311ba39b96f0794e392569129c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 79
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Terrain"
+          ],
+          "en": "/en/wiki/sprite/2/4/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/SOLOAD.DEF",
+      "name": "SOLOAD.DEF",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 11074,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SOLOAD.DEF",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 2,
+      "width": 100,
       "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_0.def.webp",
-      "previewWidth": 147,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SOLOAD.DEF.webp",
+      "previewWidth": 100,
       "previewHeight": 48,
-      "anchor": "file-1e04faac9baa",
-      "sha256": "f3aa3cdc20ab40c9650674c0a2000055da8e1888545016692b1d2c2876794da2",
+      "anchor": "file-8d5d48706328",
+      "sha256": "c9248d24f83011806f907f44d083f143a110a248e1832c153e0f57c678977510",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Buttons",
+            "System Options menu"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
+          "en": "/en/wiki/sprite/2/6/page-3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnDw_1.def",
-      "name": "TBDnDw_1.def",
+      "id": "H3sprite.lod/SOMAIN.DEF",
+      "name": "SOMAIN.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 8417,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_1.def",
+      "bytes": 11074,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SOMAIN.DEF",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 1,
-      "width": 80,
-      "height": 88,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_1.def.webp",
-      "previewWidth": 80,
-      "previewHeight": 88,
-      "anchor": "file-b0b5e4904281",
-      "sha256": "e28dba9f0fba2ff071f66dfd3a3b06ce92bc588c9d116cd6438ce1b5e0f3f1e7",
+      "frames": 2,
+      "width": 100,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SOMAIN.DEF.webp",
+      "previewWidth": 100,
+      "previewHeight": 48,
+      "anchor": "file-682e0cb377c3",
+      "sha256": "7f5a0d4b4a6f10ae6b97d81413886280897c335e13e1b9e2186fa09b17d57e9b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Buttons",
+            "System Options menu"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
+          "en": "/en/wiki/sprite/2/6/page-3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnDw_2.def",
-      "name": "TBDnDw_2.def",
+      "id": "H3sprite.lod/SOQUIT.DEF",
+      "name": "SOQUIT.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 49760,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_2.def",
+      "bytes": 11074,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SOQUIT.DEF",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 10,
-      "width": 102,
-      "height": 66,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_2.def.webp",
-      "previewWidth": 102,
-      "previewHeight": 66,
-      "anchor": "file-71fddfb6e055",
-      "sha256": "6fe82b877c1ea93df39bdaf0d1ed6da67d3274ab71443ae084ac5647d45ed01c",
+      "frames": 2,
+      "width": 100,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SOQUIT.DEF.webp",
+      "previewWidth": 100,
+      "previewHeight": 48,
+      "anchor": "file-d9e29be87595",
+      "sha256": "5a55e206a6ac6eefcd8184dd1828dca4faeb018534a60444ab19e970efe8d001",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Buttons",
+            "System Options menu"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
+          "en": "/en/wiki/sprite/2/6/page-3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnDw_3.def",
-      "name": "TBDnDw_3.def",
+      "id": "H3sprite.lod/SORETRN.DEF",
+      "name": "SORETRN.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 10089,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_3.def",
+      "bytes": 11074,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SORETRN.DEF",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 1,
-      "width": 104,
-      "height": 84,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_3.def.webp",
-      "previewWidth": 104,
-      "previewHeight": 84,
-      "anchor": "file-034dce2ff536",
-      "sha256": "f3390331aaadd5c00e91a84418b060bfe0b1e652fc99404de5fccb2772fffbf1",
+      "frames": 2,
+      "width": 100,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SORETRN.DEF.webp",
+      "previewWidth": 100,
+      "previewHeight": 48,
+      "anchor": "file-a3b1fcdee437",
+      "sha256": "a7a3baf6bde85049aac52da760d7fd869ab4572e48bf93ce98aa356b29426c56",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Buttons",
+            "System Options menu"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
+          "en": "/en/wiki/sprite/2/6/page-3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnDw_4.def",
-      "name": "TBDnDw_4.def",
+      "id": "H3sprite.lod/SORSTRT.DEF",
+      "name": "SORSTRT.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 5873,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_4.def",
+      "bytes": 11074,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SORSTRT.DEF",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 1,
-      "width": 96,
-      "height": 60,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_4.def.webp",
-      "previewWidth": 96,
-      "previewHeight": 60,
-      "anchor": "file-9106c7c09e18",
-      "sha256": "d768e41b93963e699a4eaa99fcfb82352e9e75abd3fbdf5687004fa7cbb19ba4",
+      "frames": 2,
+      "width": 100,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SORSTRT.DEF.webp",
+      "previewWidth": 100,
+      "previewHeight": 48,
+      "anchor": "file-01fd7e62d004",
+      "sha256": "b08ca77fd83e4123a1759265447a1f4c78d5c50cedb51ac329bf88da8e77ca34",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Buttons",
+            "System Options menu"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
+          "en": "/en/wiki/sprite/2/6/page-3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnDw_5.def",
-      "name": "TBDnDw_5.def",
+      "id": "H3sprite.lod/SOSAVE.DEF",
+      "name": "SOSAVE.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 13206,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_5.def",
+      "bytes": 11074,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SOSAVE.DEF",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 1,
-      "width": 158,
-      "height": 88,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_5.def.webp",
-      "previewWidth": 158,
-      "previewHeight": 88,
-      "anchor": "file-68473100f5d3",
-      "sha256": "ffc5829258aea8324ecca68252204347a401c7bf01b24f346323c1723b8b097b",
+      "frames": 2,
+      "width": 100,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SOSAVE.DEF.webp",
+      "previewWidth": 100,
+      "previewHeight": 48,
+      "anchor": "file-dfcd9f91c612",
+      "sha256": "5ecbb385a1ed4be50366a165f287f618926a3b43c9b975941ade3d00d75430b3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Buttons",
+            "System Options menu"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
+          "en": "/en/wiki/sprite/2/6/page-3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnDw_6.def",
-      "name": "TBDnDw_6.def",
+      "id": "H3sprite.lod/Sp01_.def",
+      "name": "Sp01_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 77178,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnDw_6.def",
+      "bytes": 101891,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp01_.def",
       "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 10,
-      "width": 250,
-      "height": 90,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnDw_6.def.webp",
-      "previewWidth": 240,
-      "previewHeight": 86,
-      "anchor": "file-bce41076061b",
-      "sha256": "ae8a1158c5ebb926d783fa47c11d8849cf7b66b9b6ad38153d7f0a1a25180361",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnExt0.def",
-      "name": "TBDnExt0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 103780,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnExt0.def",
-      "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
       "frames": 20,
-      "width": 144,
-      "height": 34,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnExt0.def.webp",
-      "previewWidth": 144,
-      "previewHeight": 34,
-      "anchor": "file-800b54e9b10c",
-      "sha256": "d48adb20368a6219ceeab6889a05c9901d7720217e1a0066e2fc9ce79b1830c2",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnExt1.def",
-      "name": "TBDnExt1.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 74989,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnExt1.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 10,
-      "width": 100,
-      "height": 100,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnExt1.def.webp",
-      "previewWidth": 100,
-      "previewHeight": 100,
-      "anchor": "file-162ee96bf930",
-      "sha256": "8d5c3b236e19f8e9f6c3052514fe6f4f25124f2d29801eaa399da4e72458760f",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnExt2.def",
-      "name": "TBDnExt2.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8320,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnExt2.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 134,
-      "height": 76,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnExt2.def.webp",
-      "previewWidth": 133,
-      "previewHeight": 75,
-      "anchor": "file-ac485f447d84",
-      "sha256": "9dc445a038cb222114813bb839eb6b266ed5345fa1346917feaa5c9b7afeb8fc",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnHal2.def",
-      "name": "TBDnHal2.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9859,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHal2.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 178,
-      "height": 74,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHal2.def.webp",
-      "previewWidth": 177,
-      "previewHeight": 74,
-      "anchor": "file-bc16e9c8279a",
-      "sha256": "091309f181940ac70e7b1ed7b4efb0ae0744401ed2903adca980a48ebfad4f04",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnHal3.def",
-      "name": "TBDnHal3.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 10520,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHal3.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 178,
-      "height": 74,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHal3.def.webp",
-      "previewWidth": 177,
-      "previewHeight": 74,
-      "anchor": "file-36697d2abafe",
-      "sha256": "758415a77e4c2cc6754fcd8cf24e8a674a8975e0dc0f457f6ad36dc1ed20f8ab",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnHal4.def",
-      "name": "TBDnHal4.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 12377,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHal4.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 178,
+      "width": 96,
       "height": 94,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHal4.def.webp",
-      "previewWidth": 177,
-      "previewHeight": 94,
-      "anchor": "file-b0ab52e35815",
-      "sha256": "091d7fef5a8400f0c3453e8b01082eb257c38e9254fc5efcfa839bfed37b780e",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp01_.def.webp",
+      "previewWidth": 56,
+      "previewHeight": 84,
+      "anchor": "file-5302b90eefbe",
+      "sha256": "486a34e6227116fdb2dc1336fd7822a116e4b94dd3c841ed610bcccc666c8538",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnHall.def",
-      "name": "TBDnHall.def",
+      "id": "H3sprite.lod/Sp02_.def",
+      "name": "Sp02_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 8438,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHall.def",
+      "bytes": 50967,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp02_.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 1,
-      "width": 178,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHall.def.webp",
-      "previewWidth": 177,
-      "previewHeight": 63,
-      "anchor": "file-e87315650e02",
-      "sha256": "3d50b3942017837ec00483f05c482f5afff0136692b72b089cd318d15e8d03cf",
+      "frames": 27,
+      "width": 74,
+      "height": 49,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp02_.def.webp",
+      "previewWidth": 64,
+      "previewHeight": 13,
+      "anchor": "file-3fc18c6618f1",
+      "sha256": "b7e428c0c631a31ca547d6e3ac8e7f84d70a77a1718edb7528de36155790f9de",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 27
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnHoly.def",
-      "name": "TBDnHoly.def",
+      "id": "H3sprite.lod/Sp03_.def",
+      "name": "Sp03_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 19127,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHoly.def",
+      "bytes": 39349,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp03_.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 1,
-      "width": 238,
-      "height": 186,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHoly.def.webp",
-      "previewWidth": 205,
-      "previewHeight": 160,
-      "anchor": "file-28bcfa70da94",
-      "sha256": "bcd35e5eb5875ab86d49ebf7bd2fc0578d5865be20dc1bbeb6bc2955b61517c3",
+      "frames": 20,
+      "width": 101,
+      "height": 118,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp03_.def.webp",
+      "previewWidth": 74,
+      "previewHeight": 54,
+      "anchor": "file-83d6b714f7bb",
+      "sha256": "b031dcefbeb759e6116c8bab9069e16c6212b671af8dc53a35cd106bba157248",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnHrd1.def",
-      "name": "TBDnHrd1.def",
+      "id": "H3sprite.lod/Sp04_.def",
+      "name": "Sp04_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 49936,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHrd1.def",
+      "bytes": 265999,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp04_.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 8,
-      "width": 148,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHrd1.def.webp",
-      "previewWidth": 147,
-      "previewHeight": 48,
-      "anchor": "file-2911cb58b0f3",
-      "sha256": "c291c6fbe1ae7915c019f089d1a5c4af857fc2000a3710c55c2d0df51dd452fd",
+      "frames": 20,
+      "width": 142,
+      "height": 139,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp04_.def.webp",
+      "previewWidth": 128,
+      "previewHeight": 127,
+      "anchor": "file-9b25463f117b",
+      "sha256": "26229ce0db9cffdb4199a09689e52fb222c2bc8f75597e138641a27cc1463091",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnHrd2.def",
-      "name": "TBDnHrd2.def",
+      "id": "H3sprite.lod/Sp05_.def",
+      "name": "Sp05_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 61856,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnHrd2.def",
+      "bytes": 66393,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp05_.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 8,
-      "width": 148,
-      "height": 74,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnHrd2.def.webp",
-      "previewWidth": 147,
-      "previewHeight": 73,
-      "anchor": "file-0a2336c2cc3d",
-      "sha256": "b1694126178f7d11142e51bf6274c29c12f8630926e1a08f7b28a57f44e88132",
+      "frames": 19,
+      "width": 72,
+      "height": 97,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp05_.def.webp",
+      "previewWidth": 52,
+      "previewHeight": 34,
+      "anchor": "file-8528c9674485",
+      "sha256": "c96baa2a01d987324707e62c0fe9376ac58e00ce171040fd94fd0fc53f356cd3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 19
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnMag2.def",
-      "name": "TBDnMag2.def",
+      "id": "H3sprite.lod/Sp06_.def",
+      "name": "Sp06_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 10437,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnMag2.def",
+      "bytes": 170034,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp06_.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 1,
-      "width": 88,
-      "height": 102,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnMag2.def.webp",
-      "previewWidth": 88,
-      "previewHeight": 102,
-      "anchor": "file-9d529e9808f4",
-      "sha256": "b2cff17105edfbc6518daee9f811806b8649491ff0a43da866657c28249d48a8",
+      "frames": 20,
+      "width": 95,
+      "height": 93,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp06_.def.webp",
+      "previewWidth": 89,
+      "previewHeight": 89,
+      "anchor": "file-a4f8531c3973",
+      "sha256": "bbaf16a95e134033babd358bc9a2d8d99b2b234927560cc49932074c5efdff20",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnMag3.def",
-      "name": "TBDnMag3.def",
+      "id": "H3sprite.lod/Sp07_A.def",
+      "name": "Sp07_A.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 12317,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnMag3.def",
+      "bytes": 63656,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp07_A.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 1,
-      "width": 88,
-      "height": 122,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnMag3.def.webp",
-      "previewWidth": 88,
-      "previewHeight": 122,
-      "anchor": "file-a7c9d1e62794",
-      "sha256": "a451b8446a6871229142aa0abefd3b02e0d9e4ac0391fe93f1ddaf5a73315bf7",
+      "frames": 12,
+      "width": 108,
+      "height": 131,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp07_A.def.webp",
+      "previewWidth": 101,
+      "previewHeight": 105,
+      "anchor": "file-215607abc9ff",
+      "sha256": "a7f03e2c416829c144f0590ea61d46f4c806b1b98bd71664614f860615ccd97e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 12
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnMag4.def",
-      "name": "TBDnMag4.def",
+      "id": "H3sprite.lod/Sp07_B.def",
+      "name": "Sp07_B.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 13821,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnMag4.def",
+      "bytes": 63633,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp07_B.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 1,
-      "width": 88,
-      "height": 138,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnMag4.def.webp",
-      "previewWidth": 88,
-      "previewHeight": 138,
-      "anchor": "file-1e57bfd7f01d",
-      "sha256": "5b0807bdbb7076051458692e4fb6a9365cdbbbf3040a42d7f9a949919b6ea8bb",
+      "frames": 12,
+      "width": 113,
+      "height": 132,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp07_B.def.webp",
+      "previewWidth": 21,
+      "previewHeight": 22,
+      "anchor": "file-b8aa6ae3ef2b",
+      "sha256": "fd7e4b0ffd59e5efb41130dbb57d029d0608b587c7dfc6b32afba295d4105957",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 12
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Creature spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/TBDnMag5.def",
-      "name": "TBDnMag5.def",
+      "id": "H3sprite.lod/Sp08_.def",
+      "name": "Sp08_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 18145,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnMag5.def",
+      "bytes": 59588,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp08_.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 1,
-      "width": 88,
-      "height": 184,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnMag5.def.webp",
+      "frames": 20,
+      "width": 90,
+      "height": 94,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp08_.def.webp",
+      "previewWidth": 84,
+      "previewHeight": 88,
+      "anchor": "file-589fd04fde70",
+      "sha256": "72eec6c9d00f576b65d68d819af18ff23f8ecc21300866c0184620feac030929",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Creature spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Sp09_.def",
+      "name": "Sp09_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 61292,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp09_.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 20,
+      "width": 91,
+      "height": 86,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp09_.def.webp",
+      "previewWidth": 71,
+      "previewHeight": 59,
+      "anchor": "file-9ec204af21a4",
+      "sha256": "8fdb14b65326f7b2dcc198006fceb8c72b41768fe9dc2fd3c43f8c98afc2639c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Creature spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Sp10_.def",
+      "name": "Sp10_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 130341,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp10_.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 27,
+      "width": 86,
+      "height": 120,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp10_.def.webp",
       "previewWidth": 77,
+      "previewHeight": 25,
+      "anchor": "file-3dd92471e5bf",
+      "sha256": "16a3821233e8b986565f933a669883cd3c2ef3365a55c6e0ed05e959308683ab",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 27
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Creature spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Sp11_.def",
+      "name": "Sp11_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 201617,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp11_.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 20,
+      "width": 124,
+      "height": 148,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp11_.def.webp",
+      "previewWidth": 111,
+      "previewHeight": 142,
+      "anchor": "file-a7053cbcc6ad",
+      "sha256": "d17a6011caa515d5a4b9f04ef635e1a4117edf5bd38ede2b83f354e122d5ba35",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Creature spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Sp12_.def",
+      "name": "Sp12_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 170154,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Sp12_.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 20,
+      "width": 95,
+      "height": 94,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Sp12_.def.webp",
+      "previewWidth": 89,
+      "previewHeight": 89,
+      "anchor": "file-a051e33afa79",
+      "sha256": "3bc39002e223211bc996df4e616da94c3127dc306678259e607f45bb2de44859",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 20
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Creature spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/sp13_.def",
+      "name": "sp13_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 35820,
+      "sha256": "429e26bec725ec1804f450cc1c3e6051aaecfc03285cf9a287d0f7c3ec5816e2",
+      "anchor": "file-04fb9e9ebb98",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/sp13_.def",
+      "type": 64,
+      "groups": 1,
+      "frames": 19,
+      "width": 117,
+      "height": 91,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/sp13_.def.webp",
+      "previewWidth": 84,
+      "previewHeight": 9,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 19
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-12/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/SpellBon.def",
+      "name": "SpellBon.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 291009,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SpellBon.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 70,
+      "width": 58,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SpellBon.def.webp",
+      "previewWidth": 58,
+      "previewHeight": 64,
+      "anchor": "file-4e912e7cce37",
+      "sha256": "87531c623cbd60b91bcbf41067782f57eed0e919b6cca3a666db97573b11d829",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 70
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Icons",
+            "Spells"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/SpellInt.def",
+      "name": "SpellInt.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 158256,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SpellInt.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 79,
+      "width": 48,
+      "height": 36,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SpellInt.def.webp",
+      "previewWidth": 48,
+      "previewHeight": 36,
+      "anchor": "file-543acfdcc553",
+      "sha256": "4f95256d5bc35e1ec3a61a8d94a3827416ffb3a04b4242f805c3e91c2ac82d47",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 79
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Icons",
+            "Spells"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/spells.def",
+      "name": "spells.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 202964,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/spells.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 70,
+      "width": 78,
+      "height": 65,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/spells.def.webp",
+      "previewWidth": 65,
+      "previewHeight": 50,
+      "anchor": "file-00b2dcf9479c",
+      "sha256": "a33697d204514cbb5921c8eb468365b19ef73180a21ae69ee620a850e51f1b4e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 70
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Icons",
+            "Spells"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/SpellScr.def",
+      "name": "SpellScr.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 388815,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SpellScr.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 71,
+      "width": 83,
+      "height": 61,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SpellScr.def.webp",
+      "previewWidth": 83,
+      "previewHeight": 61,
+      "anchor": "file-b0f8b2fe43c1",
+      "sha256": "e9b25c71b91b494d53621eb685baf98c7a357136c2d13b503cf5652ab8e6122b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 71
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Icons",
+            "Spells"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/SPELTAB.def",
+      "name": "SPELTAB.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 68408,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/SPELTAB.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 5,
+      "width": 83,
+      "height": 294,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/SPELTAB.def.webp",
+      "previewWidth": 46,
       "previewHeight": 160,
-      "anchor": "file-ebabafb7d8af",
-      "sha256": "d2f571203bff9021cecac255266a66bb3b35bf5aa098d3abf80aef3ce3fd2884",
-      "destinations": [
+      "anchor": "file-768a59f0469c",
+      "sha256": "9224403c2ca029c779bee6eeea35db5b4e6dd904defff464d7279258b555d4f3",
+      "frameGroups": [
         {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "id": 0,
+          "frames": 5
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnMage.def",
-      "name": "TBDnMage.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8369,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnMage.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 88,
-      "height": 80,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnMage.def.webp",
-      "previewWidth": 88,
-      "previewHeight": 80,
-      "anchor": "file-5d7c43497eb4",
-      "sha256": "6a401d0fd02888e76da10bf3fbb9c167e1baeb2935842cfb0988b7186ec42e33",
+      ],
       "destinations": [
         {
           "category": [
-            "Town buildings",
-            "Dungeon"
+            "Interface",
+            "General",
+            "Icons",
+            "Spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/TBDnMark.def",
-      "name": "TBDnMark.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8799,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/TBDnMark.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 190,
-      "height": 56,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/TBDnMark.def.webp",
-      "previewWidth": 190,
-      "previewHeight": 56,
-      "anchor": "file-e5dee4c63942",
-      "sha256": "524b58cb4875a804c04bc024f357f9e1964f451648fb460b0c593cf98e793d0a",
-      "destinations": [
-        {
-          "category": [
-            "Town buildings",
-            "Dungeon"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     }

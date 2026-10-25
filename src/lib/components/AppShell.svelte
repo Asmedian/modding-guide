@@ -11,6 +11,7 @@
   import { translator, type Locale } from '$lib/i18n';
   import LanguageMenu from '$lib/components/LanguageMenu.svelte';
   import UiIcon from '$lib/components/UiIcon.svelte';
+  import ScrollToTop from '$lib/components/ScrollToTop.svelte';
   import RadixConverter from '$lib/components/RadixConverter.svelte';
   import ErmQuickLinks from '$lib/components/ErmQuickLinks.svelte';
   import ContextReference from '$lib/components/ContextReference.svelte';
@@ -503,6 +504,7 @@
       <slot />
     </div>
   </main>
+  <ScrollToTop target={siteScroller} {lang} />
 
   <aside class="context-sidebar" class:reference-expanded={referenceExpanded} aria-label={activeSection === 'erm' ? t('erm.context.title') : t('nav.onThisPage')}>
     {#if activeSection === 'erm'}

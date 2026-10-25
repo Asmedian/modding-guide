@@ -1,7 +1,7 @@
 # Town elements
 
 ID: wiki.bitmap.0.0.page-19
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-19/
+URL: /en/wiki/bitmap/0/0/page-19/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -189,7 +189,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Town elements
 
 ID: wiki.bitmap.0.0.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-2/
+URL: /en/wiki/bitmap/0/0/page-2/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -294,7 +294,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Town elements
 
 ID: wiki.bitmap.0.0.page-20
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-20/
+URL: /en/wiki/bitmap/0/0/page-20/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

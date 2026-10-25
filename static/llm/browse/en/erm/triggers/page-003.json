@@ -7,7 +7,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/bf",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/bf/",
+      "url": "/en/erm/triggers/bf/",
       "title": "Battlefield setup (BF)",
       "summary": "The battlefield-configuration point before combat. BF can place obstacles.",
       "keywords": [
@@ -63,7 +63,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-bf",
           "toAnchor": "reference-links",
           "headings": [
@@ -84,7 +84,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onpreheroscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onpreheroscreen/",
+      "url": "/en/erm/triggers/onpreheroscreen/",
       "title": "Before a hero screen (OnPreHeroScreen)",
       "summary": "x1 is the hero before display, including switches.",
       "keywords": [
@@ -143,7 +143,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -162,7 +162,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbeforelocalevent",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforelocalevent/",
+      "url": "/en/erm/triggers/onbeforelocalevent/",
       "title": "Before a local event (OnBeforeLocalEvent)",
       "summary": "x1/x2/x3 are event coordinates. For humans; fires before the corresponding !?LE.",
       "keywords": [
@@ -224,7 +224,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -243,7 +243,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbeforebattlestackturn",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlestackturn/",
+      "url": "/en/erm/triggers/onbeforebattlestackturn/",
       "title": "Before a stack turn (OnBeforeBattleStackTurn)",
       "summary": "x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation.",
       "keywords": [
@@ -305,7 +305,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -324,7 +324,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onpretownscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onpretownscreen/",
+      "url": "/en/erm/triggers/onpretownscreen/",
       "title": "Before a town screen (OnPreTownScreen)",
       "summary": "x1 is the town before display; covers opening and switching.",
       "keywords": [
@@ -383,7 +383,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -402,7 +402,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbeforebattlereplay",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlereplay/",
+      "url": "/en/erm/triggers/onbeforebattlereplay/",
       "title": "Before battle replay (OnBeforeBattleReplay)",
       "summary": "After the user rejects the result, before battle state is reset. No arguments. Suitable for releasing temporary resources from the previous attempt.",
       "keywords": [
@@ -464,7 +464,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -483,7 +483,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbeforeherointeraction",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeherointeraction/",
+      "url": "/en/erm/triggers/onbeforeherointeraction/",
       "title": "Before hero interaction (OnBeforeHeroInteraction)",
       "summary": "x1 is the initiator, x2 the target hero; x3 allows interaction, defaults to 1 and can be set to 0. Covers meetings and attacks.",
       "keywords": [
@@ -542,7 +542,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -561,7 +561,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbeforeplacebattleobstacles",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeplacebattleobstacles/",
+      "url": "/en/erm/triggers/onbeforeplacebattleobstacles/",
       "title": "Before placing battle obstacles (OnBeforePlaceBattleObstacles)",
       "summary": "After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement.",
       "keywords": [
@@ -623,7 +623,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -642,7 +642,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbeforebattlefieldvisible",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlefieldvisible/",
+      "url": "/en/erm/triggers/onbeforebattlefieldvisible/",
       "title": "Before showing the battlefield (OnBeforeBattlefieldVisible)",
       "summary": "The field is still dark; the event precedes early BR-1. No arguments. Early BA/BF do not guarantee BM/EA structures are ready; choose the phase required by your data.",
       "keywords": [
@@ -704,7 +704,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -723,7 +723,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbuildtownbuilding",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbuildtownbuilding/",
+      "url": "/en/erm/triggers/onbuildtownbuilding/",
       "title": "Building a town structure (OnBuildTownBuilding)",
       "summary": "x1 is town; x2 building. Applies to humans and AI. Use OnAfterBuildTownBuilding for actions after construction is complete.",
       "keywords": [
@@ -782,7 +782,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [

@@ -1,7 +1,7 @@
 # Videos
 
 ID: wiki.videos
-URL: https://asmedian.github.io/modding-guide/en/wiki/videos/
+URL: /en/wiki/videos/
 Part: 1/1
 Source references: wiki-sod:VIDEO.VID
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

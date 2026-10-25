@@ -1,7 +1,7 @@
 # Hero Skills
 
 ID: erm.framework.constants.hero-skills
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/
+URL: /en/erm/framework/constants/hero-skills/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm, old-help:form-primaryskill.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -91,7 +91,7 @@ The **Hero Skills** group from the supplied Framework. Names and values below co
 # Heroes
 
 ID: erm.framework.constants.heroes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/
+URL: /en/erm/framework/constants/heroes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

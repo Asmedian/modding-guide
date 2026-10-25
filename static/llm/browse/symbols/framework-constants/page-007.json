@@ -2,600 +2,6 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "ART_SLOT_AMMO_CART",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-ammo-cart",
-      "aliases": [],
-      "label": "ART_SLOT_AMMO_CART = 14",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-ammo-cart"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_BACKPACK_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-backpack-first",
-      "aliases": [],
-      "label": "ART_SLOT_BACKPACK_FIRST = 19",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-backpack-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_BACKPACK_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-backpack-last",
-      "aliases": [],
-      "label": "ART_SLOT_BACKPACK_LAST = 82",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-backpack-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_BALLISTA",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-ballista",
-      "aliases": [],
-      "label": "ART_SLOT_BALLISTA = 13",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-ballista"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_CATAPULT",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-catapult",
-      "aliases": [],
-      "label": "ART_SLOT_CATAPULT = 16",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-catapult"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_EQUIPPED_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-equipped-first",
-      "aliases": [],
-      "label": "ART_SLOT_EQUIPPED_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-equipped-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_EQUIPPED_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-equipped-last",
-      "aliases": [],
-      "label": "ART_SLOT_EQUIPPED_LAST = (ART_SLOT_MISC_5)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-equipped-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_FEET",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-feet",
-      "aliases": [],
-      "label": "ART_SLOT_FEET = 8",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-feet"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-first",
-      "aliases": [],
-      "label": "ART_SLOT_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_FIRST_AID_TENT",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-first-aid-tent",
-      "aliases": [],
-      "label": "ART_SLOT_FIRST_AID_TENT = 15",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-first-aid-tent"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_HEAD",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-head",
-      "aliases": [],
-      "label": "ART_SLOT_HEAD = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-head"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-last",
-      "aliases": [],
-      "label": "ART_SLOT_LAST = (ART_SLOT_BACKPACK_LAST)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_LEFT_HAND",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-left-hand",
-      "aliases": [],
-      "label": "ART_SLOT_LEFT_HAND = 4",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-left-hand"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_LEFT_RING",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-left-ring",
-      "aliases": [],
-      "label": "ART_SLOT_LEFT_RING = 7",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-left-ring"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_MISC_1",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-misc-1",
-      "aliases": [],
-      "label": "ART_SLOT_MISC_1 = 9",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-misc-1"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_MISC_2",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-misc-2",
-      "aliases": [],
-      "label": "ART_SLOT_MISC_2 = 10",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-misc-2"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_MISC_3",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-misc-3",
-      "aliases": [],
-      "label": "ART_SLOT_MISC_3 = 11",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-misc-3"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_MISC_4",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-misc-4",
-      "aliases": [],
-      "label": "ART_SLOT_MISC_4 = 12",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-misc-4"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_MISC_5",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-misc-5",
-      "aliases": [],
-      "label": "ART_SLOT_MISC_5 = 18",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-misc-5"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_NECK",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-neck",
-      "aliases": [],
-      "label": "ART_SLOT_NECK = 2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-neck"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_RIGHT_HAND",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-right-hand",
-      "aliases": [],
-      "label": "ART_SLOT_RIGHT_HAND = 3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-right-hand"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ART_SLOT_RIGHT_RING",
-      "kind": "constant",
-      "slug": "framework/constants/hero-artifact-slots",
-      "anchor": "const-art-slot-right-ring",
-      "aliases": [],
-      "label": "ART_SLOT_RIGHT_RING = 6",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-right-ring"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "ART_SLOT_SHOULDERS",
       "kind": "constant",
       "slug": "framework/constants/hero-artifact-slots",
@@ -603,13 +9,13 @@
       "aliases": [],
       "label": "ART_SLOT_SHOULDERS = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-shoulders"
+        "en": "/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-shoulders"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -630,13 +36,13 @@
       "aliases": [],
       "label": "ART_SLOT_SPELL_BOOK = 17",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-spell-book"
+        "en": "/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-spell-book"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -657,13 +63,13 @@
       "aliases": [],
       "label": "ART_SLOT_TORSO = 5",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-torso"
+        "en": "/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-torso"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -684,13 +90,13 @@
       "aliases": [],
       "label": "ART_SLOT_WAR_MACHINE_FIRST = 13",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-war-machine-first"
+        "en": "/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-war-machine-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -711,13 +117,13 @@
       "aliases": [],
       "label": "ART_SLOT_WAR_MACHINE_LAST = 16",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-war-machine-last"
+        "en": "/en/erm/framework/constants/hero-artifact-slots/#const-art-slot-war-machine-last"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -738,13 +144,13 @@
       "aliases": [],
       "label": "ART_SPECULUM = 52",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/#const-art-speculum"
+        "en": "/en/erm/framework/constants/artifacts/#const-art-speculum"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -765,13 +171,13 @@
       "aliases": [],
       "label": "ART_SPELL_BOOK = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/#const-art-spell-book"
+        "en": "/en/erm/framework/constants/artifacts/#const-art-spell-book"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -792,13 +198,13 @@
       "aliases": [],
       "label": "ART_SPELL_SCROLL = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/#const-art-spell-scroll"
+        "en": "/en/erm/framework/constants/artifacts/#const-art-spell-scroll"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -819,13 +225,715 @@
       "aliases": [],
       "label": "ART_SPELLBINDERS_HAT = 124",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/#const-art-spellbinders-hat"
+        "en": "/en/erm/framework/constants/artifacts/#const-art-spellbinders-hat"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SPHERE_OF_PERMANENCE",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-sphere-of-permanence",
+      "aliases": [],
+      "label": "ART_SPHERE_OF_PERMANENCE = 92",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-sphere-of-permanence"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SPIRIT_OF_OPPRESSION",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-spirit-of-oppression",
+      "aliases": [],
+      "label": "ART_SPIRIT_OF_OPPRESSION = 84",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-spirit-of-oppression"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SPYGLASS",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-spyglass",
+      "aliases": [],
+      "label": "ART_SPYGLASS = 53",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-spyglass"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_STATESMANS_MEDAL",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-statesmans-medal",
+      "aliases": [],
+      "label": "ART_STATESMANS_MEDAL = 66",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-statesmans-medal"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_STATUE_OF_LEGION",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-statue-of-legion",
+      "aliases": [],
+      "label": "ART_STATUE_OF_LEGION = 133",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-statue-of-legion"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_STILL_EYE_OF_THE_DRAGON",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-still-eye-of-the-dragon",
+      "aliases": [],
+      "label": "ART_STILL_EYE_OF_THE_DRAGON = 45",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-still-eye-of-the-dragon"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_STOIC_WATCHMAN",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-stoic-watchman",
+      "aliases": [],
+      "label": "ART_STOIC_WATCHMAN = 64",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-stoic-watchman"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SURCOAT_OF_COUNTERPOISE",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-surcoat-of-counterpoise",
+      "aliases": [],
+      "label": "ART_SURCOAT_OF_COUNTERPOISE = 58",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-surcoat-of-counterpoise"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SWORD_OF_HELLFIRE",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-sword-of-hellfire",
+      "aliases": [],
+      "label": "ART_SWORD_OF_HELLFIRE = 11",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-sword-of-hellfire"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SWORD_OF_JUDGEMENT",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-sword-of-judgement",
+      "aliases": [],
+      "label": "ART_SWORD_OF_JUDGEMENT = 35",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-sword-of-judgement"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_SWORD_OF_SHARPNESS",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-sword-of-sharpness",
+      "aliases": [],
+      "label": "ART_SWORD_OF_SHARPNESS = 148",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-sword-of-sharpness"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TALISMAN_OF_MANA",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-talisman-of-mana",
+      "aliases": [],
+      "label": "ART_TALISMAN_OF_MANA = 74",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-talisman-of-mana"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TARG_OF_THE_RAMPAGING_OGRE",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-targ-of-the-rampaging-ogre",
+      "aliases": [],
+      "label": "ART_TARG_OF_THE_RAMPAGING_OGRE = 16",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-targ-of-the-rampaging-ogre"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_THUNDER_HELMET",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-thunder-helmet",
+      "aliases": [],
+      "label": "ART_THUNDER_HELMET = 24",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-thunder-helmet"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TITANS_CUIRASS",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-titans-cuirass",
+      "aliases": [],
+      "label": "ART_TITANS_CUIRASS = 30",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-titans-cuirass"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TITANS_GLADIUS",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-titans-gladius",
+      "aliases": [],
+      "label": "ART_TITANS_GLADIUS = 12",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-titans-gladius"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TITANS_THUNDER",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-titans-thunder",
+      "aliases": [],
+      "label": "ART_TITANS_THUNDER = 135",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-titans-thunder"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TOME_OF_AIR_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-tome-of-air-magic",
+      "aliases": [],
+      "label": "ART_TOME_OF_AIR_MAGIC = 87",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-tome-of-air-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TOME_OF_EARTH_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-tome-of-earth-magic",
+      "aliases": [],
+      "label": "ART_TOME_OF_EARTH_MAGIC = 89",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-tome-of-earth-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TOME_OF_FIRE_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-tome-of-fire-magic",
+      "aliases": [],
+      "label": "ART_TOME_OF_FIRE_MAGIC = 86",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-tome-of-fire-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TOME_OF_WATER_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-tome-of-water-magic",
+      "aliases": [],
+      "label": "ART_TOME_OF_WATER_MAGIC = 88",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-tome-of-water-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TORSO_OF_LEGION",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-torso-of-legion",
+      "aliases": [],
+      "label": "ART_TORSO_OF_LEGION = 120",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-torso-of-legion"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_TUNIC_OF_THE_CYCLOPS_KING",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-tunic-of-the-cyclops-king",
+      "aliases": [],
+      "label": "ART_TUNIC_OF_THE_CYCLOPS_KING = 28",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-tunic-of-the-cyclops-king"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_VAMPIRES_COWL",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-vampires-cowl",
+      "aliases": [],
+      "label": "ART_VAMPIRES_COWL = 55",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-vampires-cowl"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_VIAL_OF_DRAGON_BLOOD",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-vial-of-dragon-blood",
+      "aliases": [],
+      "label": "ART_VIAL_OF_DRAGON_BLOOD = 127",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-vial-of-dragon-blood"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ART_VIAL_OF_LIFEBLOOD",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-art-vial-of-lifeblood",
+      "aliases": [],
+      "label": "ART_VIAL_OF_LIFEBLOOD = 96",
+      "destinations": {
+        "en": "/en/erm/framework/constants/artifacts/#const-art-vial-of-lifeblood"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

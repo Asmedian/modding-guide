@@ -2,87 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.tables.dialog-types",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "tables/dialog-types",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-types/",
-      "title": "Game dialog identifiers",
-      "summary": "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order.",
-      "keywords": [
-        "Game dialog identifiers"
-      ],
-      "questions": [
-        "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order."
-      ],
-      "sourceRefs": [
-        "old-help:form-gamestate.htm",
-        "old-help:era-api.htm",
-        "era-source:era.pas",
-        "era-framework:lib-end--9999-era---stdlib.erm"
-      ],
-      "sectionSources": {
-        "meaning": [
-          "old-help:form-gamestate.htm",
-          "old-help:era-api.htm",
-          "era-source:era.pas",
-          "era-framework:lib-end--9999-era---stdlib.erm"
-        ],
-        "values": [
-          "old-help:form-gamestate.htm",
-          "old-help:era-api.htm",
-          "era-source:era.pas",
-          "era-framework:lib-end--9999-era---stdlib.erm"
-        ],
-        "related": [
-          "old-help:form-gamestate.htm",
-          "old-help:era-api.htm",
-          "era-source:era.pas",
-          "era-framework:lib-end--9999-era---stdlib.erm"
-        ],
-        "reference-links": [
-          "old-help:form-gamestate.htm",
-          "old-help:era-api.htm",
-          "era-source:era.pas",
-          "era-framework:lib-end--9999-era---stdlib.erm"
-        ],
-        "api": [
-          "old-help:form-gamestate.htm",
-          "old-help:era-api.htm",
-          "era-source:era.pas",
-          "era-framework:lib-end--9999-era---stdlib.erm"
-        ],
-        "ref-form-gamestate": [
-          "old-help:form-gamestate.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
-          "fromAnchor": "ref-form-gamestate",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Dialog Game IDs",
-            "Purpose",
-            "Values",
-            "API contract",
-            "Related commands and tables",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.tables.sounds",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "tables/sounds",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/sounds/",
+      "url": "/en/erm/tables/sounds/",
       "title": "Game event sounds",
       "summary": "WAV/82M resource names from the standard set. Check that the active installation includes the requested sound.",
       "keywords": [
@@ -121,7 +46,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-042.md",
+          "url": "/llm/browse/en/erm/tables/text-042.md",
           "fromAnchor": "ref-form-sound",
           "toAnchor": "reference-links",
           "headings": [
@@ -140,7 +65,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/objects",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/objects/",
+      "url": "/en/erm/tables/objects/",
       "title": "Game object table",
       "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
       "keywords": [
@@ -184,7 +109,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-037.md",
+          "url": "/llm/browse/en/erm/tables/text-037.md",
           "fromAnchor": "ref-form-objects",
           "toAnchor": "id-51",
           "headings": [
@@ -195,7 +120,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-038.md",
+          "url": "/llm/browse/en/erm/tables/text-038.md",
           "fromAnchor": "id-52",
           "toAnchor": "reference-links",
           "headings": [
@@ -212,7 +137,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/videos",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/videos/",
+      "url": "/en/erm/tables/videos/",
       "title": "Game videos",
       "summary": "Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is not part of a filename.",
       "keywords": [
@@ -251,7 +176,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-051.md",
+          "url": "/llm/browse/en/erm/tables/text-051.md",
           "fromAnchor": "ref-form-video",
           "toAnchor": "reference-links",
           "headings": [
@@ -270,7 +195,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/blessings",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/blessings/",
+      "url": "/en/erm/tables/blessings/",
       "title": "Hero blessings and curses",
       "summary": "HE:Y IDs and power parameter meanings. Slot-locking curses use a separate slot table. Legacy WoG effects may depend on installed scripts.",
       "keywords": [
@@ -309,7 +234,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-008.md",
+          "url": "/llm/browse/en/erm/tables/text-008.md",
           "fromAnchor": "ref-form-bless",
           "toAnchor": "reference-links",
           "headings": [
@@ -328,7 +253,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/hero-classes",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-classes/",
+      "url": "/en/erm/tables/hero-classes/",
       "title": "Hero classes",
       "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
       "keywords": [
@@ -372,7 +297,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-028.md",
+          "url": "/llm/browse/en/erm/tables/text-028.md",
           "fromAnchor": "ref-form-heroesclasses",
           "toAnchor": "reference-links",
           "headings": [
@@ -392,7 +317,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/hero-levels",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-levels/",
+      "url": "/en/erm/tables/hero-levels/",
       "title": "Hero experience thresholds",
       "summary": "Standard experience curve. Beyond level 75, overflow and unreachable intermediate levels can occur; do not extrapolate this table to a modified engine.",
       "keywords": [
@@ -431,7 +356,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-028.md",
+          "url": "/llm/browse/en/erm/tables/text-028.md",
           "fromAnchor": "ref-form-heroeslevels",
           "toAnchor": "reference-links",
           "headings": [
@@ -450,7 +375,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/specialty-pictures",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/specialty-pictures/",
+      "url": "/en/erm/tables/specialty-pictures/",
       "title": "Hero specialty pictures",
       "summary": "Image index for UN:G2. It changes the specialty picture; other HE:X parameters control gameplay behavior. Entries 0–155 correspond to standard heroes.",
       "keywords": [
@@ -494,7 +419,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-043.md",
+          "url": "/llm/browse/en/erm/tables/text-043.md",
           "fromAnchor": "ref-form-heroesspec",
           "toAnchor": "ref-form-heroesspec-2",
           "headings": [
@@ -503,7 +428,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-044.md",
+          "url": "/llm/browse/en/erm/tables/text-044.md",
           "fromAnchor": "ref-form-heroesspec-3",
           "toAnchor": "id-328",
           "headings": [
@@ -513,7 +438,7 @@
         },
         {
           "part": 3,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-045.md",
+          "url": "/llm/browse/en/erm/tables/text-045.md",
           "fromAnchor": "id-329",
           "toAnchor": "reference-links",
           "headings": [
@@ -529,7 +454,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/hero-structure",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-structure/",
+      "url": "/en/erm/tables/hero-structure/",
       "title": "Hero structure fields",
       "summary": "Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.",
       "keywords": [
@@ -568,7 +493,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-029.md",
+          "url": "/llm/browse/en/erm/tables/text-029.md",
           "fromAnchor": "ref-form-advhero",
           "toAnchor": "reference-links",
           "headings": [
@@ -587,7 +512,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/heroes",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/heroes/",
+      "url": "/en/erm/tables/heroes/",
       "title": "Hero table",
       "summary": "IDs from the standard WoG set. Adventure-map object: type 34.",
       "keywords": [
@@ -636,7 +561,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-031.md",
+          "url": "/llm/browse/en/erm/tables/text-031.md",
           "fromAnchor": "ref-form-numberheroes",
           "toAnchor": "reference-links",
           "headings": [
@@ -657,7 +582,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/hero-visits",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-visits/",
+      "url": "/en/erm/tables/hero-visits/",
       "title": "Hero visits and bits",
       "summary": "HE:V uses a visit-kind index, not the adventure-map object type.",
       "keywords": [
@@ -707,7 +632,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-030.md",
+          "url": "/llm/browse/en/erm/tables/text-030.md",
           "fromAnchor": "ref-form-he-r",
           "toAnchor": "reference-links",
           "headings": [
@@ -729,7 +654,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/dialog-pictures",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-pictures/",
+      "url": "/en/erm/tables/dialog-pictures/",
       "title": "IF:Q picture types",
       "summary": "The picture type determines the meaning of the next parameter. Town pictures use 22 + town type.",
       "keywords": [
@@ -768,7 +693,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
+          "url": "/llm/browse/en/erm/tables/text-027.md",
           "fromAnchor": "ref-form-picts",
           "toAnchor": "reference-links",
           "headings": [
@@ -787,7 +712,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/mines",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/mines/",
+      "url": "/en/erm/tables/mines/",
       "title": "Mine types",
       "summary": "Object type 53; its subtype is separate from the resource ID.",
       "keywords": [
@@ -821,11 +746,153 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-032.md",
+          "url": "/llm/browse/en/erm/tables/text-032.md",
           "fromAnchor": "ref-form-mines",
           "toAnchor": "reference-links",
           "headings": [
             "Mines",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.cursors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/cursors",
+      "url": "/en/erm/tables/cursors/",
+      "title": "Mouse cursors",
+      "summary": "Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact.",
+      "keywords": [
+        "Mouse cursors"
+      ],
+      "questions": [
+        "Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact."
+      ],
+      "sourceRefs": [
+        "old-help:form-mousepointers.htm",
+        "old-help:rec-un.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "c0": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "c1": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "c2": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "reference-links": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "ref-form-mousepointers": [
+          "old-help:form-mousepointers.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/tables/text-023.md",
+          "fromAnchor": "ref-form-mousepointers",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Cursors",
+            "Type and subtype",
+            "Cursor type 0",
+            "Cursor type 1",
+            "Cursor type 2",
+            "Related commands and tables"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "/llm/browse/en/erm/tables/text-024.md",
+          "fromAnchor": null,
+          "toAnchor": null,
+          "headings": []
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.music",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/music",
+      "url": "/en/erm/tables/music/",
+      "title": "Music: IDs and MP3 names",
+      "summary": "Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions.",
+      "keywords": [
+        "Music: IDs and MP3 names"
+      ],
+      "questions": [
+        "Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions."
+      ],
+      "sourceRefs": [
+        "old-help:form-mp3.htm",
+        "old-help:form-track.htm",
+        "old-help:rec-mp.htm",
+        "old-help:rec-vr.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "values": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "related": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "reference-links": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "ref-form-mp3": [
+          "old-help:form-mp3.htm"
+        ],
+        "ref-form-track": [
+          "old-help:form-track.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/tables/text-032.md",
+          "fromAnchor": "ref-form-mp3",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table 2 MP3-files",
+            "Table 2 MP3-files",
             "Purpose",
             "Values",
             "Related commands and tables",

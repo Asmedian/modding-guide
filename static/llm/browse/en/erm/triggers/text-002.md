@@ -1,7 +1,7 @@
 # Function handler (FU)
 
 ID: erm.triggers.fu
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/fu/
+URL: /en/erm/triggers/fu/
 Part: 1/1
 Source references: old-help:tr-fu.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -56,7 +56,7 @@ Reusing a name adds handlers rather than an independent overload. Use a unique m
 # Global map event (GE)
 
 ID: erm.triggers.ge
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ge/
+URL: /en/erm/triggers/ge/
 Part: 1/1
 Source references: old-help:tr-ge.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -106,7 +106,7 @@ The number comes from the start of the event text, not its title or editor row p
 # Saving and loading (GM)
 
 ID: erm.triggers.gm
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/gm/
+URL: /en/erm/triggers/gm/
 Part: 1/1
 Source references: old-help:tr-gm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -175,7 +175,7 @@ OnSavegameRead/Write have different timing and are intended for custom data sect
 # Visiting a hero (HE)
 
 ID: erm.triggers.he
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/he/
+URL: /en/erm/triggers/he/
 Part: 1/1
 Source references: old-help:tr-he.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -221,7 +221,7 @@ Use OnBeforeHeroInteraction and OnAfterHeroInteraction for detailed interaction 
 # Hero level-up (HL)
 
 ID: erm.triggers.hl
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/hl/
+URL: /en/erm/triggers/hl/
 Part: 1/1
 Source references: old-help:tr-hl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -281,7 +281,7 @@ Distinguish the skill-selection point from OnAfterHeroGainLevel after the level-
 # Hero movement (HM)
 
 ID: erm.triggers.hm
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/hm/
+URL: /en/erm/triggers/hm/
 Part: 1/1
 Source references: old-help:tr-hm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -347,7 +347,7 @@ The legacy trigger cannot cancel movement. It fires frequently; do not open a di
 # Network battle data transfer (IP)
 
 ID: erm.triggers.ip
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ip/
+URL: /en/erm/triggers/ip/
 Part: 1/1
 Source references: old-help:tr-ip.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -435,7 +435,7 @@ Context depends on side and battle result. Local player clicks are not automatic
 # Local-event visit (LE)
 
 ID: erm.triggers.le
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/le/
+URL: /en/erm/triggers/le/
 Part: 1/1
 Source references: old-help:tr-le.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -502,7 +502,7 @@ The event must exist at the location. A one-shot event may disappear after visit
 # Physical damage calculation (MF)
 
 ID: erm.triggers.mf
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mf/
+URL: /en/erm/triggers/mf/
 Part: 1/1
 Source references: old-help:tr-mf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

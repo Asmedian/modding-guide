@@ -1,7 +1,7 @@
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-9
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-9/
+URL: /en/wiki/sprite/2/6/page-9/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -106,7 +106,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Hero battle animations
 
 ID: wiki.sprite.2.7
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/7/
+URL: /en/wiki/sprite/2/7/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

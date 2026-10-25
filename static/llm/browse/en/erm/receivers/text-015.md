@@ -1,7 +1,7 @@
 # Global events (GE)
 
 ID: erm.receivers.ge
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ge/
+URL: /en/erm/receivers/ge/
 Part: 1/1
 Source references: old-help:rec-ge.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -163,7 +163,7 @@ Set/check/get the interval between appearances on $.</div>
 # Garrison (GR)
 
 ID: erm.receivers.gr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/gr/
+URL: /en/erm/receivers/gr/
 Part: 1/1
 Source references: old-help:rec-gr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

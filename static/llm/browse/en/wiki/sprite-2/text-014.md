@@ -1,7 +1,7 @@
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-5/
+URL: /en/wiki/sprite/2/6/page-5/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -124,7 +124,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-6
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-6/
+URL: /en/wiki/sprite/2/6/page-6/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -229,7 +229,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-7
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/
+URL: /en/wiki/sprite/2/6/page-7/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -334,7 +334,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-8
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/
+URL: /en/wiki/sprite/2/6/page-8/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

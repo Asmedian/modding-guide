@@ -1,7 +1,7 @@
 # Mine types
 
 ID: erm.tables.mines
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/mines/
+URL: /en/erm/tables/mines/
 Part: 1/1
 Source references: old-help:form-mines.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -86,7 +86,7 @@ Object [type 53](../objects/#id-53); its subtype is separate from the [resource 
 # Music: IDs and MP3 names
 
 ID: erm.tables.music
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/music/
+URL: /en/erm/tables/music/
 Part: 1/1
 Source references: old-help:form-mp3.htm, old-help:form-track.htm, old-help:rec-mp.htm, old-help:rec-vr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

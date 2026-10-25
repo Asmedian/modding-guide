@@ -1,93 +1,7 @@
-# GetMaxSpellId
-
-ID: erm.framework.functions.getmaxspellid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxspellid/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-3209-3216-getmaxspellid
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.getmaxspellid 1 -->
-## Purpose {#purpose}
-
-Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin.
-
-## Call contract {#signature}
-
-```erm
-!!FU(GetMaxSpellId):P(result);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `result` | output / mutable |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3209â€“3216, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[SPELL_LAST_WOG](../../constants/spells/#const-spell-last-wog)
-<!-- llm:end erm.framework.functions.getmaxspellid 1 -->
-
-# GetModList
-
-ID: erm.framework.functions.getmodlist
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmodlist/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.getmodlist 1 -->
-## Purpose {#purpose}
-
-Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it.
-
-## Call contract {#signature}
-
-```erm
-!!FU(GetModList):P(arrayId)/(toLower)/(reverse);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `arrayId` | output / mutable |
-| x2 | `toLower` | output / mutable |
-| x3 | `reverse` | output / mutable |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `ExtendArrayLifetime`, `ShowErmError`.
-
-The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
-
-## Related functions {#calls}
-
-[Array_Revert](../array-revert/) Â· [NewStrArray](../newstrarray/) Â· [StrToLower](../strtolower/) Â· [Substr](../substr/)
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1932â€“1986, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[CALLCONV_STDCALL](../../constants/calling-conventions/#const-callconv-stdcall) Â· [FALSE](../../constants/universal/#const-false) Â· [SIZEOF_INT](../../constants/data-types/#const-sizeof-int)
-<!-- llm:end erm.framework.functions.getmodlist 1 -->
-
 # GetProcessGuid
 
 ID: erm.framework.functions.getprocessguid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getprocessguid/
+URL: /en/erm/framework/functions/getprocessguid/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -123,7 +37,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2926â
 # GetStrAtAddr
 
 ID: erm.framework.functions.getstrataddr
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getstrataddr/
+URL: /en/erm/framework/functions/getstrataddr/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -158,7 +72,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1421â
 # GetTextFileString
 
 ID: erm.framework.functions.gettextfilestring
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/gettextfilestring/
+URL: /en/erm/framework/functions/gettextfilestring/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -211,7 +125,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3217â
 # GetTextTableString
 
 ID: erm.framework.functions.gettexttablestring
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/gettexttablestring/
+URL: /en/erm/framework/functions/gettexttablestring/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -258,7 +172,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3285â
 # GetTimeMsec
 
 ID: erm.framework.functions.gettimemsec
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/gettimemsec/
+URL: /en/erm/framework/functions/gettimemsec/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -298,7 +212,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2914â
 # GetUpgradedMonster
 
 ID: erm.framework.functions.getupgradedmonster
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getupgradedmonster/
+URL: /en/erm/framework/functions/getupgradedmonster/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3028-3037-getupgradedmonster
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -339,7 +253,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3028â
 # H3Dlg_CenterAtMouse
 
 ID: erm.framework.functions.h3dlg-centeratmouse
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-centeratmouse/
+URL: /en/erm/framework/functions/h3dlg-centeratmouse/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -379,7 +293,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2088â
 # H3Dlg_Coords
 
 ID: erm.framework.functions.h3dlg-coords
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-coords/
+URL: /en/erm/framework/functions/h3dlg-coords/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -428,7 +342,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2038â
 # H3Dlg_DrawItemOnScreen
 
 ID: erm.framework.functions.h3dlg-drawitemonscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-drawitemonscreen/
+URL: /en/erm/framework/functions/h3dlg-drawitemonscreen/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2152-2166-h3dlg-drawitemonscreen
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -471,7 +385,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2152â
 # H3Dlg_GetCurrentDlg
 
 ID: erm.framework.functions.h3dlg-getcurrentdlg
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getcurrentdlg/
+URL: /en/erm/framework/functions/h3dlg-getcurrentdlg/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2109-2114-h3dlg-getcurrentdlg
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -511,7 +425,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2109â
 # H3Dlg_GetCurrentDlgId
 
 ID: erm.framework.functions.h3dlg-getcurrentdlgid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getcurrentdlgid/
+URL: /en/erm/framework/functions/h3dlg-getcurrentdlgid/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -551,7 +465,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2115â
 # H3Dlg_GetRootDlg
 
 ID: erm.framework.functions.h3dlg-getrootdlg
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getrootdlg/
+URL: /en/erm/framework/functions/h3dlg-getrootdlg/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -591,7 +505,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2103â
 # H3Dlg_ResumeAnimation
 
 ID: erm.framework.functions.h3dlg-resumeanimation
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-resumeanimation/
+URL: /en/erm/framework/functions/h3dlg-resumeanimation/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -617,4 +531,94 @@ The implementation accesses memory or native functions directly. Use a compatibl
 
 Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2026â€“2029, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
 <!-- llm:end erm.framework.functions.h3dlg-resumeanimation 1 -->
+
+# H3Dlg_SendCmdToItem
+
+ID: erm.framework.functions.h3dlg-sendcmdtoitem
+URL: /en/erm/framework/functions/h3dlg-sendcmdtoitem/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.h3dlg-sendcmdtoitem 1 -->
+## Purpose {#purpose}
+
+Sends a DLG_CMD_* to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number.
+
+## Call contract {#signature}
+
+```erm
+!!FU(H3Dlg_SendCmdToItem):P(h3Dlg)/(itemId)/(cmdSubtype)/(param)/(cmdType);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `h3Dlg` | input |
+| x2 | `itemId` | input |
+| x3 | `cmdSubtype` | input |
+| x4 | `param` | input |
+| x5 | `cmdType` | output / mutable |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `ShowErmError`.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2126â€“2151, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall) Â· [DLG_CMD_SET_DEF](../../constants/h3-dialog-commands/#const-dlg-cmd-set-def) Â· [DLG_CMD_SET_PCX](../../constants/h3-dialog-commands/#const-dlg-cmd-set-pcx) Â· [DLG_CMD_SET_TEXT](../../constants/h3-dialog-commands/#const-dlg-cmd-set-text) Â· [DLG_CMD_TYPE_DEFAULT](../../constants/h3-dialog-commands/#const-dlg-cmd-type-default) Â· [NULL](../../constants/universal/#const-null)
+<!-- llm:end erm.framework.functions.h3dlg-sendcmdtoitem 1 -->
+
+# H3Dlg_ShowPopup
+
+ID: erm.framework.functions.h3dlg-showpopup
+URL: /en/erm/framework/functions/h3dlg-showpopup/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.h3dlg-showpopup 1 -->
+## Purpose {#purpose}
+
+Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address.
+
+## Call contract {#signature}
+
+```erm
+!!FU(H3Dlg_ShowPopup):P(h3Dlg);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `h3Dlg` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Related functions {#calls}
+
+[H3Dlg_ResumeAnimation](../h3dlg-resumeanimation/) Â· [H3Dlg_StopAnimation](../h3dlg-stopanimation/)
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2030â€“2037, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall)
+<!-- llm:end erm.framework.functions.h3dlg-showpopup 1 -->
 

@@ -2,26 +2,48 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "TM:E",
+      "name": "UN:P2",
       "kind": "command",
-      "slug": "receivers/tm",
-      "anchor": "ref-rec-tm-e",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-p2",
       "aliases": [
-        "!!TM:E"
+        "!!UN:P2"
       ],
-      "label": "E$",
+      "label": "P#/$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tm/#ref-rec-tm-e"
+        "en": "/en/erm/receivers/un/#ref-rec-un-p2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-036.md",
-            "fromAnchor": "ref-rec-tm",
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TM",
               "Related reference",
               "Related commands and tables"
             ]
@@ -30,26 +52,754 @@
       }
     },
     {
-      "name": "TM:S",
+      "name": "UN:Q",
       "kind": "command",
-      "slug": "receivers/tm",
-      "anchor": "ref-rec-tm-s",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-q",
       "aliases": [
-        "!!TM:S"
+        "!!UN:Q"
+      ],
+      "label": "Q#",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-q"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:R",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r",
+      "aliases": [
+        "!!UN:R"
+      ],
+      "label": "R#",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:R5",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r5",
+      "aliases": [
+        "!!UN:R5"
+      ],
+      "label": "R5/$1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-r5"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:R6",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r6",
+      "aliases": [
+        "!!UN:R6"
+      ],
+      "label": "R6/$",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-r6"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:R7",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r7",
+      "aliases": [
+        "!!UN:R7"
+      ],
+      "label": "R7/$1/$2 R7/$1",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-r7"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:S",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-s",
+      "aliases": [
+        "!!UN:S"
+      ],
+      "label": "S#1/#2/#3/#4/#5",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:T",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-t",
+      "aliases": [
+        "!!UN:T"
+      ],
+      "label": "T#1/#2/#3/$",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-t"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:U",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-u",
+      "aliases": [
+        "!!UN:U"
+      ],
+      "label": "U#1/#2/?$",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-u"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:U1",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-u1",
+      "aliases": [
+        "!!UN:U1"
+      ],
+      "label": "U#1/#2/#3/#4",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-u1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:V",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-v",
+      "aliases": [
+        "!!UN:V"
+      ],
+      "label": "V?$1/?$2",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-v"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:V2",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-v2",
+      "aliases": [
+        "!!UN:V2"
+      ],
+      "label": "V?$1/?$2/?$3/?$4/?$5",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-v2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:V3",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-v3",
+      "aliases": [
+        "!!UN:V3"
+      ],
+      "label": "V?$1/?$2/$?3/?$4/?$5/?$6/?$7",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-v3"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:W",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-w",
+      "aliases": [
+        "!!UN:W"
+      ],
+      "label": "W#1/#2/#3/#4/#5",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-w"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UN:X",
+      "kind": "command",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-x",
+      "aliases": [
+        "!!UN:X"
+      ],
+      "label": "X?$1/?$2",
+      "destinations": {
+        "en": "/en/erm/receivers/un/#ref-rec-un-x"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-038.md",
+            "fromAnchor": "ref-rec-un",
+            "toAnchor": "ref-rec-un-g2",
+            "headings": [
+              "Receiver UN"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-039.md",
+            "fromAnchor": "ref-rec-un-h",
+            "toAnchor": "ref-rec-un-j9",
+            "headings": []
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-040.md",
+            "fromAnchor": "ref-rec-un-j10",
+            "toAnchor": "ref-rec-un-r",
+            "headings": []
+          },
+          {
+            "part": 4,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-un-44",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UR",
+      "kind": "receiver",
+      "slug": "receivers/ur",
+      "anchor": "",
+      "aliases": [
+        "!!UR"
+      ],
+      "label": "University (UR)",
+      "destinations": {
+        "en": "/en/erm/receivers/ur/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-ur",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver UR",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UR:S",
+      "kind": "command",
+      "slug": "receivers/ur",
+      "anchor": "ref-rec-ur-s",
+      "aliases": [
+        "!!UR:S"
       ],
       "label": "S$1/$2/$3/$4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tm/#ref-rec-tm-s"
+        "en": "/en/erm/receivers/ur/#ref-rec-ur-s"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-036.md",
-            "fromAnchor": "ref-rec-tm",
+            "url": "/llm/browse/en/erm/receivers/text-041.md",
+            "fromAnchor": "ref-rec-ur",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TM",
+              "Receiver UR",
               "Related reference",
               "Related commands and tables"
             ]
@@ -58,27 +808,26 @@
       }
     },
     {
-      "name": "TR",
+      "name": "VC",
       "kind": "receiver",
-      "slug": "receivers/tr",
+      "slug": "receivers/vc",
       "anchor": "",
       "aliases": [
-        "!!TR"
+        "!!VC"
       ],
-      "label": "Map tiles (TR)",
+      "label": "Variable-usage logging (VC)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/"
+        "en": "/en/erm/receivers/vc/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
-            "fromAnchor": "ref-rec-tr",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TR",
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }
@@ -86,27 +835,26 @@
       }
     },
     {
-      "name": "TR:E",
+      "name": "VC:B",
       "kind": "command",
-      "slug": "receivers/tr",
-      "anchor": "ref-rec-tr-e",
+      "slug": "receivers/vc",
+      "anchor": "ref-rec-vc-b",
       "aliases": [
-        "!!TR:E"
+        "!!VC:B"
       ],
-      "label": "E$",
+      "label": "B",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/#ref-rec-tr-e"
+        "en": "/en/erm/receivers/vc/#ref-rec-vc-b"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
-            "fromAnchor": "ref-rec-tr",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TR",
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }
@@ -114,27 +862,26 @@
       }
     },
     {
-      "name": "TR:G",
+      "name": "VC:C",
       "kind": "command",
-      "slug": "receivers/tr",
-      "anchor": "ref-rec-tr-g",
+      "slug": "receivers/vc",
+      "anchor": "ref-rec-vc-c",
       "aliases": [
-        "!!TR:G"
+        "!!VC:C"
       ],
-      "label": "G?$",
+      "label": "C",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/#ref-rec-tr-g"
+        "en": "/en/erm/receivers/vc/#ref-rec-vc-c"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
-            "fromAnchor": "ref-rec-tr",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TR",
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }
@@ -142,27 +889,26 @@
       }
     },
     {
-      "name": "TR:P",
+      "name": "VC:E",
       "kind": "command",
-      "slug": "receivers/tr",
-      "anchor": "ref-rec-tr-p",
+      "slug": "receivers/vc",
+      "anchor": "ref-rec-vc-e",
       "aliases": [
-        "!!TR:P"
+        "!!VC:E"
       ],
-      "label": "P$",
+      "label": "E",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/#ref-rec-tr-p"
+        "en": "/en/erm/receivers/vc/#ref-rec-vc-e"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
-            "fromAnchor": "ref-rec-tr",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TR",
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }
@@ -170,27 +916,26 @@
       }
     },
     {
-      "name": "TR:T",
+      "name": "VC:N",
       "kind": "command",
-      "slug": "receivers/tr",
-      "anchor": "ref-rec-tr-t",
+      "slug": "receivers/vc",
+      "anchor": "ref-rec-vc-n",
       "aliases": [
-        "!!TR:T"
+        "!!VC:N"
       ],
-      "label": "T$1/$2/$3/$4/$5/$6/$7/$8",
+      "label": "N",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/#ref-rec-tr-t"
+        "en": "/en/erm/receivers/vc/#ref-rec-vc-n"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
-            "fromAnchor": "ref-rec-tr",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TR",
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }
@@ -198,27 +943,26 @@
       }
     },
     {
-      "name": "TR:V",
+      "name": "VC:W",
       "kind": "command",
-      "slug": "receivers/tr",
-      "anchor": "ref-rec-tr-v",
+      "slug": "receivers/vc",
+      "anchor": "ref-rec-vc-w",
       "aliases": [
-        "!!TR:V"
+        "!!VC:W"
       ],
-      "label": "V$",
+      "label": "W",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/#ref-rec-tr-v"
+        "en": "/en/erm/receivers/vc/#ref-rec-vc-w"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
-            "fromAnchor": "ref-rec-tr",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver TR",
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }
@@ -226,649 +970,26 @@
       }
     },
     {
-      "name": "UN",
-      "kind": "receiver",
-      "slug": "receivers/un",
-      "anchor": "",
-      "aliases": [
-        "!!UN"
-      ],
-      "label": "General game operations (UN)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:A",
+      "name": "VC:Y",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-a",
+      "slug": "receivers/vc",
+      "anchor": "ref-rec-vc-y",
       "aliases": [
-        "!!UN:A"
+        "!!VC:Y"
       ],
-      "label": "A#/$",
+      "label": "Y",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-a"
+        "en": "/en/erm/receivers/vc/#ref-rec-vc-y"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-042.md",
+            "fromAnchor": "ref-rec-vc",
             "toAnchor": "reference-links",
             "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:A1",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-a1",
-      "aliases": [
-        "!!UN:A1"
-      ],
-      "label": "A#1/#2/$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-a1"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:A2",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-a2",
-      "aliases": [
-        "!!UN:A2"
-      ],
-      "label": "A#/$/#1/#2[/#3/#4/#5/#6/#7/#8/#9/#10/#11/#12/#13/#14]",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-a2"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:B",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-b",
-      "aliases": [
-        "!!UN:B"
-      ],
-      "label": "B#/$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-b"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:C",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-c",
-      "aliases": [
-        "!!UN:C"
-      ],
-      "label": "C#1/#2/$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-c"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:C1",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-c1",
-      "aliases": [
-        "!!UN:C1"
-      ],
-      "label": "C#1/#2/#3/$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-c1"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:D",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-d",
-      "aliases": [
-        "!!UN:D"
-      ],
-      "label": "D#1/#2/#3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-d"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:E",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-e",
-      "aliases": [
-        "!!UN:E"
-      ],
-      "label": "E#1/#2/#3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-e"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:F",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-f",
-      "aliases": [
-        "!!UN:F"
-      ],
-      "label": "F$1/$2/$3/$4/$5",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-f"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:G",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-g",
-      "aliases": [
-        "!!UN:G"
-      ],
-      "label": "G0/#1/#2/#3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-g"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:G1",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-g1",
-      "aliases": [
-        "!!UN:G1"
-      ],
-      "label": "G1/#1/#2/$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-g1"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "UN:G2",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-g2",
-      "aliases": [
-        "!!UN:G2"
-      ],
-      "label": "G2/#1/#2/#3",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-g2"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Related reference",
+              "Instruction VC",
               "Related commands and tables"
             ]
           }

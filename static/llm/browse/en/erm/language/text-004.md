@@ -1,7 +1,7 @@
 # Learning ERM
 
 ID: erm.learn
-URL: https://asmedian.github.io/modding-guide/en/erm/learn/
+URL: /en/erm/learn/
 Part: 1/1
 Source references: era-source:gameext, era-source:reslib
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -45,7 +45,7 @@ Replace the text in square brackets with your requirements.
 # Loops: re, br, co, and DO
 
 ID: erm.loops
-URL: https://asmedian.github.io/modding-guide/en/erm/loops/
+URL: /en/erm/loops/
 Part: 1/1
 Source references: old-help:rec-re.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

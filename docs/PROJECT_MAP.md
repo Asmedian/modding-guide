@@ -124,11 +124,19 @@ WAV PCM and H.264/AAC MP4 derivatives preserve sound rates and video frame
 counts/rates. DEF carries no frame timing; its preview interval is adjustable.
 Campaign summaries are prepared offline using the supplied Explorer parser.
 Their lazy popup includes descriptions, scenario cards, minimaps, aggregate
-statistics and individual H3M downloads. XMI/IFR retain byte previews. TXT is skipped.
+statistics and map views without download controls. Original H3M files remain in
+the resource catalog. Minimap rendering uses the H3M object block/visit masks,
+player ownership across the blocked footprint, and colors 8/9 from the source
+terrain DEF palettes; terrain reflection flags do not indicate passability.
+XMI/IFR retain byte previews. TXT is skipped.
 
 `WikiPage.svelte` owns one shared active audio/video player, with 50% initial
 volume. Inactive controls are disabled except Play; navigation aborts playback.
-`WikiDefPopup.svelte` shows frame groups and original names, aborts fetches on
+`WikiDefPopup.svelte` immediately shows frame groups/counts from compact
+`frameGroups` metadata prepared by `scripts/wiki/enrich_def_groups.py`, before
+fetching or decoding the DEF. The selected group is preserved during loading.
+Its group list fills the popup height and scrolls independently of the frame
+body; narrow screens use a horizontal group rail. It shows original names, aborts fetches on
 close, and releases animation/cache resources. No full media or DEF decoder is
 requested until activation. `resource-placements.json` retains the user's editorial
 placements. `scripts/wiki/refine_catalog.py` applies them after import, pairs DEF/MSK
@@ -142,7 +150,7 @@ and localized destinations. Use `npm run prepare:content` for generated files.
 
 `WikiResourcePopup.svelte` opens images in a modal; only its external-link
 button opens a new tab. Fonts use native-size indexed glyph sheets on a dark
-surface in both themes. Palettes retain source colors/flags and expose swatch
+surface in the dark theme and `#967044` in the light theme. Palettes retain source colors/flags and expose swatch
 and HEX/RGB table views. DEF playback starts on open and group selection at
 100ms by default. `WikiPagination.svelte` appears above and below multi-page
 catalogs, with at most five numbered links and an ellipsis before the final
@@ -176,4 +184,10 @@ Shared scrollbar tokens adapt track, thumb and hover colors to dark and light th
 LLM exports use English only, including article metadata, registry labels, Wiki categories and canonical destinations. Do not generate `static/llm/ru/` or `static/llm/browse/ru/`. The generator removes obsolete Russian mirrors. Keep the ordinary site and its publication checks bilingual; the English LLM manifest is not the inventory for Russian HTML. Preserve original filenames, IDs, paths, hashes and code literals. Learning pages always link to `/en/docs/llm-map/`.
 
 Wiki interaction ownership: `WikiPage.svelte` uses a `resourceCell` action to delegate a primary click on free cell space to its existing native preview/play button. Buttons, links, form controls, native media controls and text selections retain their own behavior. The preview button remains the keyboard and popup focus-return target. `.wiki-resource-action` marks actionable cells; hover highlights their preview (or the active video/play control), while the cell background stays unchanged. Shared Wiki styles cover links, pagination, disclosures, media controls, DEF groups/frames and palette swatches in both themes. DEF popup Play is exactly 60x30 CSS pixels and the frame-interval input is centered. Run `node scripts/content/verify-wiki-interactions.mjs` against the built artifact to check seven resource kinds, native control ownership, popup focus, hover states and these dimensions. Reports/screenshots are written under ignored `reports/wiki-interactions/`.
+
+`ScrollToTop.svelte` observes the central `.content-column` and its inner content
+on every page. A right-hand arrow appears after scrolling down on overflowing
+pages, returns that scroller to the top, and honors reduced-motion preferences.
+It sits outside the scrolling content and adapts to the reference-column width
+and mobile layout. Scroll and resize observers are released when the shell closes.
 ERM quick-link hints do not participate in layout until requested. `ErmQuickLinks.svelte` measures and clamps the visible pseudo-element horizontally within the quick-link block on mouse entry, keyboard focus and viewport resize. Native `title` hints cover no-JavaScript reading; custom hints stay disabled at phone widths. Never restore permanently laid-out invisible tooltip boxes: they enlarge `.content-column.scrollWidth`. Keep horizontal scrolling local to wide code/table wrappers. `node scripts/content/verify-erm-overflow.mjs` checks six ERM pages in both languages at seven viewport widths, every quick-link hint at 1440px, focus/resize behavior, native fallback hints and usable local scrollers.

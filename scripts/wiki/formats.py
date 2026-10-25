@@ -64,6 +64,13 @@ def def_header(data):
     return typ, width, height, groups
 
 
+def def_group_summary(groups):
+    counts = {}
+    for group in groups:
+        counts[group['id']] = counts.get(group['id'], 0) + len(group['frames'])
+    return [{'id': gid, 'frames': count} for gid, count in sorted(counts.items())]
+
+
 def def_frame(data, offset):
     from PIL import Image
     _, fmt, fw, fh, w, h, x, y = struct.unpack_from('<6I2i', data, offset)

@@ -2,808 +2,1336 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/iam000.def",
-      "name": "iam000.def",
+      "id": "H3sprite.lod/CSGOLE.def",
+      "name": "CSGOLE.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam000.def",
+      "bytes": 147861,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSGOLE.def",
       "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam000.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-854be2f313e1",
-      "sha256": "1625fcd5d48ce81009a36e6957bbb438df870f8fa22e23f48252a5020e603313",
+      "type": 66,
+      "groups": 15,
+      "frames": 81,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSGOLE.def.webp",
+      "previewWidth": 42,
+      "previewHeight": 78,
+      "anchor": "file-08eb1a5f9343",
+      "sha256": "b2c7b78af9991745b07479bb9b3a45f50f98ec6279ceba771dd2e8cd11bf77a8",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        },
+        {
+          "id": 1,
+          "frames": 5
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 8
+        },
+        {
+          "id": 5,
+          "frames": 9
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
+            "Tower creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/iam001.def",
-      "name": "iam001.def",
+      "id": "H3sprite.lod/CSGRCK.def",
+      "name": "CSGRCK.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam001.def",
+      "bytes": 27110,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSGRCK.def",
       "kind": "def",
-      "type": 71,
+      "type": 64,
       "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam001.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-935cab32bac5",
-      "sha256": "c74fb3d3a87cacd0cf380a7a3d151f92ec4013057bfc7d192178fbfc999d9109",
-      "destinations": [
+      "frames": 10,
+      "width": 180,
+      "height": 230,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSGRCK.def.webp",
+      "previewWidth": 29,
+      "previewHeight": 24,
+      "anchor": "file-ca88a8bfd6fc",
+      "sha256": "ffcb2bb73732837df9526abe3218400493a7cf447eba54f94ab5bf8b51034d42",
+      "frameGroups": [
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "id": 0,
+          "frames": 10
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam002.def",
-      "name": "iam002.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam002.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam002.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-0a6f5f2978f8",
-      "sha256": "3864d61d5f1a81e571bdb75972e79ff92df5d6cf16ee8a6b9ce084dce9d5ac2f",
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam003.def",
-      "name": "iam003.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam003.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam003.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-d5de005efe70",
-      "sha256": "5e0382fad6f5fc09eb434000dffe2582f35b8d8375e73c20b780dc138e9947cb",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam004.def",
-      "name": "iam004.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam004.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam004.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-725c9d713f61",
-      "sha256": "36b53320ba60494adcd24b73b32f4208ad7a3d9d6577edf378fff2580717e318",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam005.def",
-      "name": "iam005.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam005.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam005.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-f431d6b39abe",
-      "sha256": "fe962d2a905b63099931b46872c5fb6f45a712f287d8608cf3a2f432b5295afb",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam006.def",
-      "name": "iam006.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam006.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam006.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-8404e84405a9",
-      "sha256": "09cc04534e0462d78aaaeff42f6697a7cae608fea5ea4a50733168907fec6924",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam007.def",
-      "name": "iam007.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam007.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam007.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-a6ccc4a07f85",
-      "sha256": "9bdbccd43a6e7a71dff47df5ccd5ecd859adeb5ce8bbe2b81ea6e78473d8393e",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam008.def",
-      "name": "iam008.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam008.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam008.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-698433e8bcb1",
-      "sha256": "6ec10ce66bff60174b383aa6b77122ad145dee4073648bd9c95d6cd75ca45ca3",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam009.def",
-      "name": "iam009.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam009.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam009.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-6474eb73925a",
-      "sha256": "15e6a8fec147f8747b30df33036e0ce1222ad0cbb9ce4fbe033d61969115ef61",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam010.def",
-      "name": "iam010.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam010.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam010.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-d3835d2248af",
-      "sha256": "940e132609a4ee29b6998e6a3e38205c8ed295451d9f056ca79a3383e2910ec3",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam011.def",
-      "name": "iam011.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5860,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam011.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam011.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-17293c64e4b1",
-      "sha256": "6383fed4999686067f85d4a8708e4b732df51fd09742f47536abfc75a6043eb4",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam012.def",
-      "name": "iam012.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5476,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam012.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam012.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 16,
-      "anchor": "file-28673c1d30db",
-      "sha256": "fcbb7884f7a568eb93822c8296aa1806844a42f2c89c6476662a0055b56b8e53",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam013.def",
-      "name": "iam013.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5476,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam013.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam013.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 16,
-      "anchor": "file-aea78ec0ed12",
-      "sha256": "f0325a0909dbfd3bad559c37dfff88870beab69252e33fac57d5ec61db4f296e",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam014.def",
-      "name": "iam014.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 4452,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam014.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 48,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam014.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 16,
-      "anchor": "file-4f7e48eb96dc",
-      "sha256": "18d160f4044878b4609c3a8a536b1e6ff4575f99b85630b5bf67663541e873b8",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/iam015.def",
-      "name": "iam015.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 4452,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iam015.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 48,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iam015.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 16,
-      "anchor": "file-4e09aab8fbec",
-      "sha256": "a0c73ac230acb863a2d93db445c7f9f7a741cbecbe80fe01506105b870c8307f",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main game window"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/IBUY30.def",
-      "name": "IBUY30.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9396,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/IBUY30.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 30,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/IBUY30.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 30,
-      "anchor": "file-7965ea544de4",
-      "sha256": "e75cd9c851894adc193e1793c83c3fdfec87482b82d11fabdb7c9582beafdd21",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
             "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/IBY6432.DEF",
-      "name": "IBY6432.DEF",
+      "id": "H3sprite.lod/Csharp.def",
+      "name": "Csharp.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/IBY6432.DEF",
+      "bytes": 232063,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Csharp.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 18,
+      "frames": 119,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Csharp.def.webp",
+      "previewWidth": 68,
+      "previewHeight": 78,
+      "anchor": "file-796fb4135e86",
+      "sha256": "3df42e77636e4a4e9e195153a7089d938c07a8e7924f59b15adb744ba65a9863",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 9
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 9
+        },
+        {
+          "id": 5,
+          "frames": 7
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 8
+        },
+        {
+          "id": 14,
+          "frames": 12
+        },
+        {
+          "id": 15,
+          "frames": 12
+        },
+        {
+          "id": 16,
+          "frames": 12
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Neutral creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CSKELE.def",
+      "name": "CSKELE.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 153673,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSKELE.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 15,
+      "frames": 86,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSKELE.def.webp",
+      "previewWidth": 68,
+      "previewHeight": 71,
+      "anchor": "file-7faeb1e81de7",
+      "sha256": "3cb2a3ad4a4faaec0cc38c0cb38a71a7c2e67e93ac88ba9d389f5157e302df78",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 11
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 6
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 8
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Necropolis creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CSprite.def",
+      "name": "CSprite.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 196442,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSprite.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 15,
+      "frames": 90,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSprite.def.webp",
+      "previewWidth": 59,
+      "previewHeight": 83,
+      "anchor": "file-00b67bfffa65",
+      "sha256": "5f98db69a2c691a08445785db42598ee4f4fa3869d00e12e0e94de25387c7f8a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        },
+        {
+          "id": 1,
+          "frames": 9
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 8
+        },
+        {
+          "id": 4,
+          "frames": 9
+        },
+        {
+          "id": 5,
+          "frames": 6
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 10
+        },
+        {
+          "id": 12,
+          "frames": 10
+        },
+        {
+          "id": 13,
+          "frames": 10
+        },
+        {
+          "id": 20,
+          "frames": 3
+        },
+        {
+          "id": 21,
+          "frames": 3
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Conflux creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CSSarm.def",
+      "name": "CSSarm.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 73534,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSSarm.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
       "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/IBY6432.DEF.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-3c080785a7cd",
-      "sha256": "d0ae5232550a8b3a7d7f12f67abd4179a9a4b28700ed770647ef8f528bfedfd0",
+      "width": 305,
+      "height": 119,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSSarm.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 93,
+      "anchor": "file-537de16987f1",
+      "sha256": "151eb02e73a8a55925f81ed6d8cca859dca72dbdd5d7706a2c6cce21326384aa",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
             "Buttons",
-            "Other"
+            "Main menu",
+            "Main"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/iCANCEL.def",
-      "name": "iCANCEL.def",
+      "id": "H3sprite.lod/CSScus.def",
+      "name": "CSScus.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 9396,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/iCANCEL.def",
+      "bytes": 44584,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSScus.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
       "frames": 4,
-      "width": 64,
-      "height": 30,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/iCANCEL.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 30,
-      "anchor": "file-3b5ce252eedf",
-      "sha256": "3cc41a19216d7755c9d0879559dbeaba67eed785a42a2102103129e114dbdca5",
+      "width": 169,
+      "height": 110,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSScus.def.webp",
+      "previewWidth": 168,
+      "previewHeight": 110,
+      "anchor": "file-f678b7a438fa",
+      "sha256": "3617b91afbf21099caf4df752108b69e7758a5d580bc1d71bfecc9744bb8fe25",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
             "Buttons",
-            "Other"
+            "Main menu",
+            "Main"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/icedelt1.def",
-      "name": "icedelt1.def",
+      "id": "H3sprite.lod/CSSexit.def",
+      "name": "CSSexit.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 66080,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icedelt1.def",
+      "bytes": 36637,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSSexit.def",
       "kind": "def",
-      "type": 67,
+      "type": 71,
       "groups": 1,
-      "frames": 12,
-      "width": 96,
-      "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icedelt1.def.webp",
-      "previewWidth": 83,
-      "previewHeight": 95,
-      "anchor": "file-738b4e644ae5",
-      "sha256": "f2fe7fd55cdb086db43e494ec14bee5c4098f7aa63cf40b8323e9d7fd046daa4",
-      "maskId": "H3sprite.lod/icedelt1.msk",
+      "frames": 4,
+      "width": 126,
+      "height": 108,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSSexit.def.webp",
+      "previewWidth": 118,
+      "previewHeight": 108,
+      "anchor": "file-1f6ffd921b8b",
+      "sha256": "d4b775a12ed7662fbb5079e57a78c731ae6ff4f5bf926d5904b5bf2d66ab3e68",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Landscape objects",
-            "River deltas"
+            "Interface",
+            "General",
+            "Buttons",
+            "Main menu",
+            "Main"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-9/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/icedelt2.def",
-      "name": "icedelt2.def",
+      "id": "H3sprite.lod/CSSroe.def",
+      "name": "CSSroe.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 63116,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icedelt2.def",
+      "bytes": 79939,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSSroe.def",
       "kind": "def",
-      "type": 67,
+      "type": 71,
       "groups": 1,
-      "frames": 12,
-      "width": 96,
-      "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icedelt2.def.webp",
-      "previewWidth": 95,
+      "frames": 4,
+      "width": 287,
+      "height": 130,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSSroe.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 114,
+      "anchor": "file-5acc19b066c5",
+      "sha256": "45627126da34d5a8b048742646b89605c014189ae5300c66c5fe27eaf90529f7",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Main menu",
+            "Main"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CSSsod.def",
+      "name": "CSSsod.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 53605,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSSsod.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 201,
+      "height": 119,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSSsod.def.webp",
+      "previewWidth": 190,
+      "previewHeight": 116,
+      "anchor": "file-e5ae437fcd6e",
+      "sha256": "eb2b860e6f038d899e1ae155cc9a86d4a441133ffb7aaa3ab3416613bb318aa5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Main menu",
+            "Main"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Cstone.def",
+      "name": "Cstone.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 307825,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cstone.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 18,
+      "frames": 105,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cstone.def.webp",
+      "previewWidth": 55,
+      "previewHeight": 92,
+      "anchor": "file-fc8f0be16139",
+      "sha256": "8949651e8105fca032810e0a231876c73907a0c03515f3032235383f238b3823",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 9
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 6
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 17,
+          "frames": 8
+        },
+        {
+          "id": 18,
+          "frames": 8
+        },
+        {
+          "id": 19,
+          "frames": 8
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Conflux creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Cstorm.def",
+      "name": "Cstorm.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 320760,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cstorm.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 21,
+      "frames": 109,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cstorm.def.webp",
+      "previewWidth": 75,
+      "previewHeight": 93,
+      "anchor": "file-e28371988792",
+      "sha256": "8bde01ff3e06427923394074b1839e8586b57c58dfcef44f132076f66e069743",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        },
+        {
+          "id": 1,
+          "frames": 5
+        },
+        {
+          "id": 2,
+          "frames": 10
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 9
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 6
+        },
+        {
+          "id": 12,
+          "frames": 6
+        },
+        {
+          "id": 13,
+          "frames": 6
+        },
+        {
+          "id": 14,
+          "frames": 6
+        },
+        {
+          "id": 15,
+          "frames": 6
+        },
+        {
+          "id": 16,
+          "frames": 6
+        },
+        {
+          "id": 17,
+          "frames": 6
+        },
+        {
+          "id": 18,
+          "frames": 6
+        },
+        {
+          "id": 19,
+          "frames": 6
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Conflux creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CSULTA.def",
+      "name": "CSULTA.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 218001,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CSULTA.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 18,
+      "frames": 94,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CSULTA.def.webp",
+      "previewWidth": 60,
+      "previewHeight": 77,
+      "anchor": "file-5253ded87996",
+      "sha256": "fd115a740052281c425518652573206207de867eb5b14a1b667e506b2787f4b6",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        },
+        {
+          "id": 1,
+          "frames": 6
+        },
+        {
+          "id": 2,
+          "frames": 7
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 7
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 17,
+          "frames": 7
+        },
+        {
+          "id": 18,
+          "frames": 7
+        },
+        {
+          "id": 19,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Tower creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Csword.def",
+      "name": "Csword.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 157957,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Csword.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 15,
+      "frames": 80,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Csword.def.webp",
+      "previewWidth": 71,
       "previewHeight": 81,
-      "anchor": "file-0199e7741ba2",
-      "sha256": "c20bb86b1f0dc812a69e3603e2aa542b4cfc51303174feb73fd7cec482740681",
-      "maskId": "H3sprite.lod/icedelt2.msk",
+      "anchor": "file-b8dd74182d18",
+      "sha256": "f1b3ba4a5bf31ca76f2ebd56d219e0d56551d66939c55efae9eecc79a2395da3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 8
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 6
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Landscape objects",
-            "River deltas"
+            "Castle creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-9/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/icedelt3.def",
-      "name": "icedelt3.def",
+      "id": "H3sprite.lod/CTBIRD.def",
+      "name": "CTBIRD.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 61280,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icedelt3.def",
+      "bytes": 569887,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CTBIRD.def",
       "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 12,
-      "width": 96,
-      "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icedelt3.def.webp",
-      "previewWidth": 96,
-      "previewHeight": 81,
-      "anchor": "file-e8a40cc698a4",
-      "sha256": "b7052490f00e788d2a2f6443e4246488a4f1a259066d3468ed431cb029ae6036",
-      "maskId": "H3sprite.lod/icedelt3.msk",
+      "type": 66,
+      "groups": 15,
+      "frames": 92,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CTBIRD.def.webp",
+      "previewWidth": 158,
+      "previewHeight": 90,
+      "anchor": "file-c26319980360",
+      "sha256": "aa2d468ce13b35e134802ee38a92d0ba5b35c1e8f224a726a907eaae71c6eb90",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        },
+        {
+          "id": 1,
+          "frames": 8
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 9
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 9
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 20,
+          "frames": 4
+        },
+        {
+          "id": 21,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Landscape objects",
-            "River deltas"
+            "Stronghold creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-9/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/icedelt4.def",
-      "name": "icedelt4.def",
+      "id": "H3sprite.lod/CTHDEM.def",
+      "name": "CTHDEM.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 66776,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icedelt4.def",
+      "bytes": 216351,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CTHDEM.def",
       "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 12,
-      "width": 96,
-      "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icedelt4.def.webp",
-      "previewWidth": 84,
+      "type": 66,
+      "groups": 15,
+      "frames": 83,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CTHDEM.def.webp",
+      "previewWidth": 80,
       "previewHeight": 95,
-      "anchor": "file-16c21b345bbc",
-      "sha256": "905d5399f1ac1893dbcec84f508651b7847b5f817275e8a9741266d1888178fa",
-      "maskId": "H3sprite.lod/icedelt4.msk",
+      "anchor": "file-6a7a152c387a",
+      "sha256": "0d184adf30293012287dda2aefb2d5271a8692ee5f67ef053006fdefe387db49",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 9
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 10
+        },
+        {
+          "id": 5,
+          "frames": 9
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Landscape objects",
-            "River deltas"
+            "Inferno creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-9/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/icm001.def",
-      "name": "icm001.def",
+      "id": "H3sprite.lod/CTREE.def",
+      "name": "CTREE.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 8772,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icm001.def",
+      "bytes": 226905,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CTREE.def",
       "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 48,
-      "height": 36,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icm001.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 36,
-      "anchor": "file-501b3b7367b9",
-      "sha256": "e84c4f581af5cac3caf34c62c4b2b7aa0f9e8adeb7f11a37f4273ba37556ae59",
+      "type": 66,
+      "groups": 14,
+      "frames": 85,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CTREE.def.webp",
+      "previewWidth": 65,
+      "previewHeight": 102,
+      "anchor": "file-7acd0a6b567f",
+      "sha256": "754ab0d558e15ca7ff90025f835761695dee54e063d2cdb56eb5fd064a6f39d0",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        },
+        {
+          "id": 1,
+          "frames": 9
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 10
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Battle"
+            "Rampart creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/icm002.def",
-      "name": "icm002.def",
+      "id": "H3sprite.lod/Ctrogl.def",
+      "name": "Ctrogl.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 8772,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icm002.def",
+      "bytes": 162723,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Ctrogl.def",
       "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 48,
-      "height": 36,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icm002.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 36,
-      "anchor": "file-715223e63e12",
-      "sha256": "355f19064b421879ce43f475f7dbf090f0e170207fa2c0b235979cc57469d952",
-      "destinations": [
+      "type": 66,
+      "groups": 13,
+      "frames": 71,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Ctrogl.def.webp",
+      "previewWidth": 77,
+      "previewHeight": 64,
+      "anchor": "file-fe9da6ee9a99",
+      "sha256": "a13006c7da6d6dd5326e3e506af4fb863da5ffcbd1529d08acd078129b16ca3f",
+      "frameGroups": [
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Battle"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 7
+        },
+        {
+          "id": 2,
+          "frames": 4
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 6
+        },
+        {
+          "id": 5,
+          "frames": 7
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 10
+        },
+        {
+          "id": 13,
+          "frames": 8
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/icm003.def",
-      "name": "icm003.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8772,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icm003.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 48,
-      "height": 36,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icm003.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 36,
-      "anchor": "file-780c89d20b50",
-      "sha256": "31439ac99ff71226df3e3aa39f6f40bbfeb4fd0ca01b04d93033590008faca10",
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Battle"
+            "Dungeon creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/icm004.def",
-      "name": "icm004.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8772,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/icm004.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 48,
-      "height": 36,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/icm004.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 36,
-      "anchor": "file-4fab72f88e37",
-      "sha256": "c0056924510d5b6577766835b35b25bafbbe1b36d15e8083c00a061e8b8fac58",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Battle"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     }

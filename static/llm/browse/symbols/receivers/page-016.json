@@ -2,26 +2,48 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "SC:T",
+      "name": "SN:X",
       "kind": "command",
-      "slug": "receivers/sc",
-      "anchor": "ref-rec-sc-t",
+      "slug": "receivers/sn",
+      "anchor": "ref-rec-sn-era-x",
       "aliases": [
-        "!!SC:T"
+        "!!SN:X"
       ],
-      "label": "T$",
+      "label": "SN:X",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sc/#ref-rec-sc-t"
+        "en": "/en/erm/receivers/sn/#ref-rec-sn-era-x"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-030.md",
-            "fromAnchor": "ref-rec-sc",
+            "url": "/llm/browse/en/erm/receivers/text-032.md",
+            "fromAnchor": "ref-rec-sn",
+            "toAnchor": "ref-rec-sn-era-h-spec",
+            "headings": [
+              "Receiver !!SN",
+              "Receiver SN: New instructions"
+            ]
+          },
+          {
+            "part": 2,
+            "url": "/llm/browse/en/erm/receivers/text-033.md",
+            "fromAnchor": "ref-rec-sn-era-i",
+            "toAnchor": "ref-era-api-clini",
+            "headings": [
+              "Working with additional memory",
+              "Working with associative memory",
+              "Description API ERA",
+              "Description of exported ERA functions"
+            ]
+          },
+          {
+            "part": 3,
+            "url": "/llm/browse/en/erm/receivers/text-034.md",
+            "fromAnchor": "ref-era-api-execerm",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver SC",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -30,26 +52,26 @@
       }
     },
     {
-      "name": "SG",
+      "name": "SP",
       "kind": "receiver",
-      "slug": "receivers/sg",
+      "slug": "receivers/sp",
       "anchor": "",
       "aliases": [
-        "!!SG"
+        "!!SP"
       ],
-      "label": "Sign and ocean bottle (SG)",
+      "label": "Magic spring (SP)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sg/"
+        "en": "/en/erm/receivers/sp/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-030.md",
-            "fromAnchor": "ref-rec-sg",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sp",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver SG",
+              "Receiver SP",
               "Related reference",
               "Related commands and tables"
             ]
@@ -58,110 +80,26 @@
       }
     },
     {
-      "name": "SG:M",
+      "name": "SP:N",
       "kind": "command",
-      "slug": "receivers/sg",
-      "anchor": "ref-rec-sg-m",
+      "slug": "receivers/sp",
+      "anchor": "ref-rec-sp-n",
       "aliases": [
-        "!!SG:M"
-      ],
-      "label": "M# M^…^",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sg/#ref-rec-sg-m"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-030.md",
-            "fromAnchor": "ref-rec-sg",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver SG",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SK",
-      "kind": "receiver",
-      "slug": "receivers/sk",
-      "anchor": "",
-      "aliases": [
-        "!!SK"
-      ],
-      "label": "Map skeleton (SK)",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sk/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-031.md",
-            "fromAnchor": "ref-rec-sk",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver SK",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SK:A",
-      "kind": "command",
-      "slug": "receivers/sk",
-      "anchor": "ref-rec-sk-a",
-      "aliases": [
-        "!!SK:A"
-      ],
-      "label": "A$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sk/#ref-rec-sk-a"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-031.md",
-            "fromAnchor": "ref-rec-sk",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Receiver SK",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SK:N",
-      "kind": "command",
-      "slug": "receivers/sk",
-      "anchor": "ref-rec-sk-n",
-      "aliases": [
-        "!!SK:N"
+        "!!SP:N"
       ],
       "label": "N$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sk/#ref-rec-sk-n"
+        "en": "/en/erm/receivers/sp/#ref-rec-sp-n"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-031.md",
-            "fromAnchor": "ref-rec-sk",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sp",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver SK",
+              "Receiver SP",
               "Related reference",
               "Related commands and tables"
             ]
@@ -170,26 +108,26 @@
       }
     },
     {
-      "name": "SK:S",
+      "name": "SP:S",
       "kind": "command",
-      "slug": "receivers/sk",
-      "anchor": "ref-rec-sk-s",
+      "slug": "receivers/sp",
+      "anchor": "ref-rec-sp-s",
       "aliases": [
-        "!!SK:S"
+        "!!SP:S"
       ],
       "label": "S$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sk/#ref-rec-sk-s"
+        "en": "/en/erm/receivers/sp/#ref-rec-sp-s"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-031.md",
-            "fromAnchor": "ref-rec-sk",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sp",
             "toAnchor": "reference-links",
             "headings": [
-              "Receiver SK",
+              "Receiver SP",
               "Related reference",
               "Related commands and tables"
             ]
@@ -198,48 +136,26 @@
       }
     },
     {
-      "name": "SN",
+      "name": "SR",
       "kind": "receiver",
-      "slug": "receivers/sn",
+      "slug": "receivers/sr",
       "anchor": "",
       "aliases": [
-        "!!SN"
+        "!!SR"
       ],
-      "label": "ERA services, memory and sound (SN)",
+      "label": "Shrine of magic (SR)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/"
+        "en": "/en/erm/receivers/sr/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sr",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SR",
               "Related reference",
               "Related commands and tables"
             ]
@@ -248,48 +164,26 @@
       }
     },
     {
-      "name": "SN:A",
+      "name": "SR:S",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-a",
+      "slug": "receivers/sr",
+      "anchor": "ref-rec-sr-s",
       "aliases": [
-        "!!SN:A"
+        "!!SR:S"
       ],
-      "label": "SN:A",
+      "label": "S$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-a"
+        "en": "/en/erm/receivers/sr/#ref-rec-sr-s"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sr",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SR",
               "Related reference",
               "Related commands and tables"
             ]
@@ -298,48 +192,28 @@
       }
     },
     {
-      "name": "SN:D",
-      "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-d",
+      "name": "SS",
+      "kind": "receiver",
+      "slug": "receivers/ss",
+      "anchor": "",
       "aliases": [
-        "!!SN:D"
+        "!!SS"
       ],
-      "label": "SN:D",
+      "label": "Spell attributes (SS)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-d"
+        "en": "/en/erm/receivers/ss/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -348,48 +222,28 @@
       }
     },
     {
-      "name": "SN:E",
+      "name": "SS:A",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-e",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-a",
       "aliases": [
-        "!!SN:E"
+        "!!SS:A"
       ],
-      "label": "SN:E",
+      "label": "A$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-e"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-a"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -398,48 +252,28 @@
       }
     },
     {
-      "name": "SN:F",
+      "name": "SS:C",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-f",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-c",
       "aliases": [
-        "!!SN:F"
+        "!!SS:C"
       ],
-      "label": "SN:F",
+      "label": "C#/$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-f"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-c"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -448,48 +282,28 @@
       }
     },
     {
-      "name": "SN:G",
+      "name": "SS:D",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-g",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-d",
       "aliases": [
-        "!!SN:G"
+        "!!SS:D"
       ],
-      "label": "SN:G[имя]",
+      "label": "D#/$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-g"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-d"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -498,48 +312,28 @@
       }
     },
     {
-      "name": "SN:H",
+      "name": "SS:E",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-h",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-e",
       "aliases": [
-        "!!SN:H"
+        "!!SS:E"
       ],
-      "label": "SN:H^xxx^…",
+      "label": "E#/$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-h"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-e"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -548,48 +342,28 @@
       }
     },
     {
-      "name": "SN:I",
+      "name": "SS:F",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-i",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-f",
       "aliases": [
-        "!!SN:I"
+        "!!SS:F"
       ],
-      "label": "SN:I",
+      "label": "F$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-i"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-f"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -598,48 +372,28 @@
       }
     },
     {
-      "name": "SN:K1",
+      "name": "SS:H",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-k1",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-h",
       "aliases": [
-        "!!SN:K1"
+        "!!SS:H"
       ],
-      "label": "SN:K…",
+      "label": "H#/$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-k1"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-h"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -648,48 +402,28 @@
       }
     },
     {
-      "name": "SN:K2",
+      "name": "SS:I",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-k2",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-i",
       "aliases": [
-        "!!SN:K2"
+        "!!SS:I"
       ],
-      "label": "K#1/#2/$3",
+      "label": "I#/$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-k2"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-i"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -698,48 +432,28 @@
       }
     },
     {
-      "name": "SN:K3",
+      "name": "SS:L",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-k3",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-l",
       "aliases": [
-        "!!SN:K3"
+        "!!SS:L"
       ],
-      "label": "K#1/#2/#3/#4",
+      "label": "L$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-k3"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-l"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -748,48 +462,28 @@
       }
     },
     {
-      "name": "SN:L",
+      "name": "SS:N",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-l",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-n",
       "aliases": [
-        "!!SN:L"
+        "!!SS:N"
       ],
-      "label": "SN:L",
+      "label": "N$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-l"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-n"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
               "Related reference",
               "Related commands and tables"
             ]
@@ -798,48 +492,596 @@
       }
     },
     {
-      "name": "SN:M",
+      "name": "SS:O",
       "kind": "command",
-      "slug": "receivers/sn",
-      "anchor": "ref-rec-sn-era-m",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-o",
       "aliases": [
-        "!!SN:M"
+        "!!SS:O"
       ],
-      "label": "M",
+      "label": "O$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/#ref-rec-sn-era-m"
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-o"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
-            "fromAnchor": "ref-rec-sn",
-            "toAnchor": "ref-rec-sn-era-h-spec",
-            "headings": [
-              "Receiver !!SN",
-              "Receiver SN: New instructions"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
-            "fromAnchor": "ref-rec-sn-era-i",
-            "toAnchor": "ref-era-api-clini",
-            "headings": [
-              "Working with additional memory",
-              "Working with associative memory",
-              "Description API ERA",
-              "Description of exported ERA functions"
-            ]
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
-            "fromAnchor": "ref-era-api-execerm",
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
             "toAnchor": "reference-links",
             "headings": [
-              "Notes on modern ERA versions",
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SS:P",
+      "kind": "command",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-p",
+      "aliases": [
+        "!!SS:P"
+      ],
+      "label": "P$",
+      "destinations": {
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-p"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SS:S",
+      "kind": "command",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-s",
+      "aliases": [
+        "!!SS:S"
+      ],
+      "label": "S$",
+      "destinations": {
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SS:W",
+      "kind": "command",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-w",
+      "aliases": [
+        "!!SS:W"
+      ],
+      "label": "W$",
+      "destinations": {
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-w"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SS:X",
+      "kind": "command",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss-x",
+      "aliases": [
+        "!!SS:X"
+      ],
+      "label": "X$",
+      "destinations": {
+        "en": "/en/erm/receivers/ss/#ref-rec-ss-x"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-ss",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SS",
+              "Secondary Skills",
+              "Changing Secondary Skills",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ST",
+      "kind": "receiver",
+      "slug": "receivers/st",
+      "anchor": "",
+      "aliases": [
+        "!!ST"
+      ],
+      "label": "Learning stone (ST)",
+      "destinations": {
+        "en": "/en/erm/receivers/st/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-st",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver ST",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ST:N",
+      "kind": "command",
+      "slug": "receivers/st",
+      "anchor": "ref-rec-st-n",
+      "aliases": [
+        "!!ST:N"
+      ],
+      "label": "N$",
+      "destinations": {
+        "en": "/en/erm/receivers/st/#ref-rec-st-n"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-st",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver ST",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SW",
+      "kind": "receiver",
+      "slug": "receivers/sw",
+      "anchor": "",
+      "aliases": [
+        "!!SW"
+      ],
+      "label": "Swan pond (SW)",
+      "destinations": {
+        "en": "/en/erm/receivers/sw/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sw",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SW",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SW:B",
+      "kind": "command",
+      "slug": "receivers/sw",
+      "anchor": "ref-rec-sw-b",
+      "aliases": [
+        "!!SW:B"
+      ],
+      "label": "B$",
+      "destinations": {
+        "en": "/en/erm/receivers/sw/#ref-rec-sw-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sw",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SW",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SW:N",
+      "kind": "command",
+      "slug": "receivers/sw",
+      "anchor": "ref-rec-sw-n",
+      "aliases": [
+        "!!SW:N"
+      ],
+      "label": "N$",
+      "destinations": {
+        "en": "/en/erm/receivers/sw/#ref-rec-sw-n"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sw",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SW",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SY",
+      "kind": "receiver",
+      "slug": "receivers/sy",
+      "anchor": "",
+      "aliases": [
+        "!!SY"
+      ],
+      "label": "Shipyard (SY)",
+      "destinations": {
+        "en": "/en/erm/receivers/sy/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sy",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SY",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SY:O",
+      "kind": "command",
+      "slug": "receivers/sy",
+      "anchor": "ref-rec-sy-o",
+      "aliases": [
+        "!!SY:O"
+      ],
+      "label": "O$",
+      "destinations": {
+        "en": "/en/erm/receivers/sy/#ref-rec-sy-o"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sy",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SY",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SY:P",
+      "kind": "command",
+      "slug": "receivers/sy",
+      "anchor": "ref-rec-sy-p",
+      "aliases": [
+        "!!SY:P"
+      ],
+      "label": "P$1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/sy/#ref-rec-sy-p"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-035.md",
+            "fromAnchor": "ref-rec-sy",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver SY",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TL",
+      "kind": "receiver",
+      "slug": "receivers/tl",
+      "anchor": "",
+      "aliases": [
+        "!!TL"
+      ],
+      "label": "Turn time limit (TL)",
+      "destinations": {
+        "en": "/en/erm/receivers/tl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TL",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TL:C",
+      "kind": "command",
+      "slug": "receivers/tl",
+      "anchor": "ref-rec-tl-c",
+      "aliases": [
+        "!!TL:C"
+      ],
+      "label": "C#",
+      "destinations": {
+        "en": "/en/erm/receivers/tl/#ref-rec-tl-c"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TL",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TL:E",
+      "kind": "command",
+      "slug": "receivers/tl",
+      "anchor": "ref-rec-tl-e",
+      "aliases": [
+        "!!TL:E"
+      ],
+      "label": "E$",
+      "destinations": {
+        "en": "/en/erm/receivers/tl/#ref-rec-tl-e"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TL",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TL:T",
+      "kind": "command",
+      "slug": "receivers/tl",
+      "anchor": "ref-rec-tl-t",
+      "aliases": [
+        "!!TL:T"
+      ],
+      "label": "T#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/tl/#ref-rec-tl-t"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TL",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TM",
+      "kind": "receiver",
+      "slug": "receivers/tm",
+      "anchor": "",
+      "aliases": [
+        "!!TM"
+      ],
+      "label": "Game timers (TM)",
+      "destinations": {
+        "en": "/en/erm/receivers/tm/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TM:D",
+      "kind": "command",
+      "slug": "receivers/tm",
+      "anchor": "ref-rec-tm-d",
+      "aliases": [
+        "!!TM:D"
+      ],
+      "label": "D$",
+      "destinations": {
+        "en": "/en/erm/receivers/tm/#ref-rec-tm-d"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TM:E",
+      "kind": "command",
+      "slug": "receivers/tm",
+      "anchor": "ref-rec-tm-e",
+      "aliases": [
+        "!!TM:E"
+      ],
+      "label": "E$",
+      "destinations": {
+        "en": "/en/erm/receivers/tm/#ref-rec-tm-e"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TM:S",
+      "kind": "command",
+      "slug": "receivers/tm",
+      "anchor": "ref-rec-tm-s",
+      "aliases": [
+        "!!TM:S"
+      ],
+      "label": "S$1/$2/$3/$4",
+      "destinations": {
+        "en": "/en/erm/receivers/tm/#ref-rec-tm-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-036.md",
+            "fromAnchor": "ref-rec-tm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TM",
               "Related reference",
               "Related commands and tables"
             ]

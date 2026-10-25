@@ -1,7 +1,7 @@
 # Sounds
 
 ID: wiki.sounds.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-10/
+URL: /en/wiki/sounds/page-10/
 Part: 1/1
 Source references: wiki-sod:Heroes3.snd
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -7,7 +7,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/tm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/tm/",
+      "url": "/en/erm/triggers/tm/",
       "title": "Game timer (TM)",
       "summary": "Fires for timer 1..100 previously configured with the TM receiver.",
       "keywords": [
@@ -57,7 +57,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-008.md",
           "fromAnchor": "ref-tr-tm",
           "toAnchor": "reference-links",
           "headings": [
@@ -77,7 +77,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ge",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ge/",
+      "url": "/en/erm/triggers/ge/",
       "title": "Global map event (GE)",
       "summary": "Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists.",
       "keywords": [
@@ -127,7 +127,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-ge",
           "toAnchor": "reference-links",
           "headings": [
@@ -147,7 +147,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/hl",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/hl/",
+      "url": "/en/erm/triggers/hl/",
       "title": "Hero level-up (HL)",
       "summary": "Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills.",
       "keywords": [
@@ -203,7 +203,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-hl",
           "toAnchor": "reference-links",
           "headings": [
@@ -224,7 +224,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/hm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/hm/",
+      "url": "/en/erm/triggers/hm/",
       "title": "Hero movement (HM)",
       "summary": "Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero’s coordinates.",
       "keywords": [
@@ -283,7 +283,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-hm",
           "toAnchor": "reference-links",
           "headings": [
@@ -304,7 +304,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/mm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mm/",
+      "url": "/en/erm/triggers/mm/",
       "title": "Interface hints (MM)",
       "summary": "0 battle hints, 1 town hints, 2 adventure map. MM modifies text in the relevant context.",
       "keywords": [
@@ -361,7 +361,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+          "url": "/llm/browse/en/erm/triggers/text-003.md",
           "fromAnchor": "ref-tr-mm",
           "toAnchor": "reference-links",
           "headings": [
@@ -382,7 +382,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onkeypressed",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onkeypressed/",
+      "url": "/en/erm/triggers/onkeypressed/",
       "title": "Key press (OnKeyPressed)",
       "summary": "x1 is the key code; x2 blocks the default action (0/1, mutable); x3 is isDown, TRUE only on the initial press and FALSE on auto-repeat. See Framework KEY_ constants.",
       "keywords": [
@@ -444,7 +444,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -463,7 +463,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onkeyreleased",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onkeyreleased/",
+      "url": "/en/erm/triggers/onkeyreleased/",
       "title": "Key release (OnKeyReleased)",
       "summary": "x1 is key code; x2 blocks the default reaction (0/1, mutable). The engine contract does not declare a third argument. Do not copy the meaning of OnKeyPressed x3 here.",
       "keywords": [
@@ -525,7 +525,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -544,7 +544,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onkingdomoverviewmouseclick",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onkingdomoverviewmouseclick/",
+      "url": "/en/erm/triggers/onkingdomoverviewmouseclick/",
       "title": "Kingdom overview mouse click (OnKingdomOverviewMouseClick)",
       "summary": "CM provides mouse context. This is a local UI event, not multiplayer action synchronization.",
       "keywords": [
@@ -603,7 +603,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -622,7 +622,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ongameleave",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ongameleave/",
+      "url": "/en/erm/triggers/ongameleave/",
       "title": "Leaving the game (OnGameLeave)",
       "summary": "Before ERM is disabled when leaving the current game. No arguments. Release temporary resources tied to the game session.",
       "keywords": [
@@ -684,7 +684,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -703,7 +703,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onloadheroscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onloadheroscreen/",
+      "url": "/en/erm/triggers/onloadheroscreen/",
       "title": "Loading hero-screen data (OnLoadHeroScreen)",
       "summary": "x1 is hero. Fires after OnOpenHeroScreen and when switching heroes, before rendering. Other windows and plugins may also trigger loading; do not assume it only means manual opening.",
       "keywords": [
@@ -762,7 +762,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -770,6 +770,79 @@
             "Declaration",
             "Identity and compatibility",
             "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.le",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/le",
+      "url": "/en/erm/triggers/le/",
+      "title": "Local-event visit (LE)",
+      "summary": "X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards.",
+      "keywords": [
+        "LE",
+        "!?LE"
+      ],
+      "questions": [
+        "X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards."
+      ],
+      "sourceRefs": [
+        "old-help:tr-le.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-le.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-le.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-le.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-le.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-le.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-le": [
+          "old-help:tr-le.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
+          "fromAnchor": "ref-tr-le",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger LE",
+            "When it fires",
+            "Declaration",
+            "Limitations and ordering",
+            "Related reference",
             "Related commands and tables"
           ]
         }

@@ -63984,19 +63984,8 @@ export const searchIndex = [
       "wiki-sod:homm3-explorer-main.zip",
       "wiki-sod:h3deftool-groups"
     ],
-    "text": "SoD resources Categories come from H3bitmap.lf and H3sprite.lf ; resources are extracted from H3bitmap.lod , H3sprite.lod , Heroes3.snd and VIDEO.VID . SoD identifies the source edition of every section. TXT files are deferred. Pages show separate small WebP previews. A full DEF, sound or video is downloaded only after activation. Only one media player is active at a time, with an initial volume of 50%. DEF files open as groups with their original frame names. Sound sample rates and sample order are preserved; video frame rates and frame counts are preserved. DEF files contain no timing; the adjustable preview interval defaults to 100 ms. Fonts use a glyph sheet and palettes a color grid. The “Show object mask” button opens the mask beside its matching DEF. Campaigns open with descriptions, scenarios, minimaps and H3M downloads. XMI and IFR retain byte previews. Machine catalog Complete filenames, categories, sources, previews and page destinations: wiki-resources.json. LLM text catalog: English.",
-    "segments": [
-      {
-        "id": "resources",
-        "heading": "SoD resources",
-        "text": "Categories come from H3bitmap.lf and H3sprite.lf ; resources are extracted from H3bitmap.lod , H3sprite.lod , Heroes3.snd and VIDEO.VID . SoD identifies the source edition of every section. TXT files are deferred. Pages show separate small WebP previews. A full DEF, sound or video is downloaded only after activation. Only one media player is active at a time, with an initial volume of 50%. DEF files open as groups with their original frame names. Sound sample rates and sample order are preserved; video frame rates and frame counts are preserved. DEF files contain no timing; the adjustable preview interval defaults to 100 ms. Fonts use a glyph sheet and palettes a color grid. The “Show object mask” button opens the mask beside its matching DEF. Campaigns open with descriptions, scenarios, minimaps and H3M downloads. XMI and IFR retain byte previews."
-      },
-      {
-        "id": "machine",
-        "heading": "Machine catalog",
-        "text": "Complete filenames, categories, sources, previews and page destinations: wiki-resources.json. LLM text catalog: English."
-      }
-    ]
+    "text": "",
+    "segments": []
   },
   {
     "id": "wiki.bitmap.0.0",
@@ -184276,19 +184265,8 @@ export const searchIndex = [
       "wiki-sod:homm3-explorer-main.zip",
       "wiki-sod:h3deftool-groups"
     ],
-    "text": "Ресурсы SoD Категории взяты из H3bitmap.lf и H3sprite.lf ; ресурсы извлечены из H3bitmap.lod , H3sprite.lod , Heroes3.snd и VIDEO.VID . Метка SoD обозначает происхождение каждого раздела. TXT пока пропущены. На страницах показаны отдельные малые WebP-превью. Полный DEF, звук или видео загружается только после нажатия. Одновременно активен один проигрыватель; его начальная громкость — 50%. DEF открывается по группам с исходными названиями кадров. Для звуков сохранены частота дискретизации и порядок отсчётов, для видео — частота и число кадров. DEF не содержит таймингов; регулируемый интервал предпросмотра по умолчанию — 100 мс. Шрифты показаны таблицей глифов, палитры — сеткой цветов. Маски открываются кнопкой «Показать маску объекта» рядом с соответствующим DEF. Кампании открываются с описаниями, сценариями, мини-картами и экспортом H3M. Для XMI и IFR доступен байтовый просмотр. Машинный каталог Полный список файлов, категорий, источников, превью и страниц: wiki-resources.json. Текстовый каталог для LLM: English.",
-    "segments": [
-      {
-        "id": "resources",
-        "heading": "Ресурсы SoD",
-        "text": "Категории взяты из H3bitmap.lf и H3sprite.lf ; ресурсы извлечены из H3bitmap.lod , H3sprite.lod , Heroes3.snd и VIDEO.VID . Метка SoD обозначает происхождение каждого раздела. TXT пока пропущены. На страницах показаны отдельные малые WebP-превью. Полный DEF, звук или видео загружается только после нажатия. Одновременно активен один проигрыватель; его начальная громкость — 50%. DEF открывается по группам с исходными названиями кадров. Для звуков сохранены частота дискретизации и порядок отсчётов, для видео — частота и число кадров. DEF не содержит таймингов; регулируемый интервал предпросмотра по умолчанию — 100 мс. Шрифты показаны таблицей глифов, палитры — сеткой цветов. Маски открываются кнопкой «Показать маску объекта» рядом с соответствующим DEF. Кампании открываются с описаниями, сценариями, мини-картами и экспортом H3M. Для XMI и IFR доступен байтовый просмотр."
-      },
-      {
-        "id": "machine",
-        "heading": "Машинный каталог",
-        "text": "Полный список файлов, категорий, источников, превью и страниц: wiki-resources.json. Текстовый каталог для LLM: English."
-      }
-    ]
+    "text": "",
+    "segments": []
   },
   {
     "id": "wiki.bitmap.0.0",

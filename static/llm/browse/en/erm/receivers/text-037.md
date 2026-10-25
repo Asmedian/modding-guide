@@ -1,7 +1,7 @@
 # Map tiles (TR)
 
 ID: erm.receivers.tr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/tr/
+URL: /en/erm/receivers/tr/
 Part: 1/1
 Source references: old-help:rec-tr.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

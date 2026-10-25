@@ -2670,7 +2670,7 @@ const H3Map = (() => {
     // ----------------------------------------------------------------
     // Minimap rendering
     // ----------------------------------------------------------------
-    function renderMinimap(map, level = 0, displaySize = 256) {
+    function renderMinimap(map, level = 0, displaySize = 256, terrainColors = TERRAIN_COLORS) {
         if (!map.terrain || !map.terrain[level]) return null;
 
         const size = map.mapSize;
@@ -2684,16 +2684,29 @@ const H3Map = (() => {
         if (!imgData || !imgData.data) return null;
         const pixels = imgData.data;
 
-        // Build object ownership map for towns/mines/heroes
-        const ownerMap = new Map(); // "x,y" -> ownerIdx
-        if (map.objects) {
-            for (const obj of map.objects) {
-                if (obj.owner !== undefined && obj.owner < 8 && obj.z === level) {
-                    if (obj.objClass === OBJ.TOWN || obj.objClass === OBJ.RANDOM_TOWN ||
-                        obj.objClass === OBJ.MINE || obj.objClass === OBJ.HERO ||
-                        obj.objClass === OBJ.RANDOM_HERO) {
-                        ownerMap.set(`${obj.x},${obj.y}`, obj.owner);
+        // H3M templates store 8x6 masks, anchored at the object's bottom-right
+        // tile. A zero block bit means blocked; visit bits have the opposite sense.
+        // Format reference: VCMI lib/mapObjects/ObjectTemplate.cpp, readMap.
+        const blocked = new Uint8Array(size * size);
+        const visitable = new Uint8Array(size * size);
+        const owners = new Int8Array(size * size).fill(-1);
+        for (const obj of map.objects || []) {
+            if (obj.z !== level) continue;
+            const template = map.objectTemplates?.[obj.templateIdx];
+            if (!template) continue;
+            for (let row = 0; row < 6; row++) {
+                for (let bit = 0; bit < 8; bit++) {
+                    const x = obj.x + bit - 7;
+                    const y = obj.y + row - 5;
+                    if (x < 0 || y < 0 || x >= size || y >= size) continue;
+                    const index = y * size + x;
+                    const isBlocked = (template.blockMask[row] & (1 << bit)) === 0;
+                    if (isBlocked) {
+                        blocked[index] = 1;
+                        if (obj.owner >= 0 && obj.owner < 8) owners[index] = obj.owner;
+                        else if (obj.owner === 255 || obj.owner === 0xffffffff) owners[index] = 8;
                     }
+                    if (template.visitMask[row] & (1 << bit)) visitable[index] = 1;
                 }
             }
         }
@@ -2704,23 +2717,19 @@ const H3Map = (() => {
                 let r, g, b;
 
                 // Check for owned object at this tile
-                const ownerKey = `${x},${y}`;
-                if (ownerMap.has(ownerKey)) {
-                    const color = PLAYER_COLORS[ownerMap.get(ownerKey)];
+                const index = y * size + x;
+                if (owners[index] >= 0) {
+                    const color = PLAYER_COLORS[owners[index]] || NEUTRAL_COLOR;
                     [r, g, b] = color;
                 } else {
                     const tIdx = tile.terrain;
-                    const colors = TERRAIN_COLORS[tIdx] || TERRAIN_COLORS[0];
-                    const isBlocked = (tile.flags & 0x01) !== 0;
+                    const colors = terrainColors[tIdx] || TERRAIN_COLORS[tIdx] || TERRAIN_COLORS[0];
+                    // Terrain flags describe sprite transforms, not passability.
+                    const isBlocked = blocked[index] && !visitable[index];
                     if (isBlocked) {
                         r = colors[3]; g = colors[4]; b = colors[5];
                     } else {
                         r = colors[0]; g = colors[1]; b = colors[2];
-                    }
-                    if (tile.road > 0) {
-                        r = Math.min(255, r + 20);
-                        g = Math.min(255, g + 15);
-                        b = Math.min(255, b + 10);
                     }
                 }
 

@@ -1,7 +1,7 @@
 # H3API
 
 ID: plugins.h3api
-URL: https://asmedian.github.io/modding-guide/en/plugins/h3api/
+URL: /en/plugins/h3api/
 Part: 1/1
 Source references: h3api:readme
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

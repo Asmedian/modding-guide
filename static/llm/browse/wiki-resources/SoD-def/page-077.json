@@ -2,506 +2,734 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/SCNRSTAR.def",
-      "name": "SCNRSTAR.def",
+      "id": "H3sprite.lod/ObSnS05.def",
+      "name": "ObSnS05.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 15067,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SCNRSTAR.def",
+      "bytes": 2692,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSnS05.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 11,
+      "frames": 1,
+      "width": 94,
+      "height": 49,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSnS05.def.webp",
+      "previewWidth": 55,
+      "previewHeight": 45,
+      "anchor": "file-d262d21f4ab8",
+      "sha256": "76e14f552a6f965c287b792466992bdfd2d396a2f72305e3e66d11e48dbbb725",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSnS06.def",
+      "name": "ObSnS06.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3887,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSnS06.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 128,
+      "height": 93,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSnS06.def.webp",
+      "previewWidth": 83,
+      "previewHeight": 64,
+      "anchor": "file-b4d0ecd99d16",
+      "sha256": "93c093d81a4d091dcec7a5c068efe0180936857cd9cab1e181ef3e24a88af09f",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSnS07.def",
+      "name": "ObSnS07.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3367,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSnS07.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 74,
+      "height": 50,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSnS07.def.webp",
+      "previewWidth": 59,
+      "previewHeight": 47,
+      "anchor": "file-0a7fb4cd195a",
+      "sha256": "6444fdb621651601550ff9c3afee98baf70fa057a147244d77f58dca4455a427",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSnS08.def",
+      "name": "ObSnS08.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 5300,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSnS08.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 121,
+      "height": 94,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSnS08.def.webp",
+      "previewWidth": 110,
+      "previewHeight": 62,
+      "anchor": "file-05e8d73567d1",
+      "sha256": "d683d838b971b3873fa76ca3b0f9123ea20162f277b3d7ff0b61afcd583e55df",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/OBSNS09.DEF",
+      "name": "OBSNS09.DEF",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 18473,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OBSNS09.DEF",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 283,
+      "height": 92,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OBSNS09.DEF.webp",
+      "previewWidth": 240,
+      "previewHeight": 78,
+      "anchor": "file-018045aea71e",
+      "sha256": "0b80e24a9bcfb2bbcd7b2ad05f28ca2097e2322c24c2176a207a60ef29d4390e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/OBSNS10.DEF",
+      "name": "OBSNS10.DEF",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 16322,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OBSNS10.DEF",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 212,
+      "height": 213,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OBSNS10.DEF.webp",
+      "previewWidth": 151,
+      "previewHeight": 160,
+      "anchor": "file-e0d91cea580d",
+      "sha256": "732cb2bc602870538036ed016e727cd9d9a5f25759a6f0ef607542d6160babf5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSuS01.def",
+      "name": "ObSuS01.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9802,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSuS01.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 131,
+      "height": 128,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSuS01.def.webp",
+      "previewWidth": 129,
+      "previewHeight": 116,
+      "anchor": "file-0571e85da42e",
+      "sha256": "3a3b84dc1a85c2ba66f8d6c2f29a4dd820e3372ea35d62e2252cfa8cc51cd61b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSuS02.def",
+      "name": "ObSuS02.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 6942,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSuS02.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 119,
+      "height": 85,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSuS02.def.webp",
+      "previewWidth": 113,
+      "previewHeight": 73,
+      "anchor": "file-82009997f206",
+      "sha256": "47930dbda27a4d058bf30abeff6f7af271bdfdf5190773bf8d133f930b1889de",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSuS11b.def",
+      "name": "ObSuS11b.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 14490,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSuS11b.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 173,
+      "height": 137,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSuS11b.def.webp",
+      "previewWidth": 170,
+      "previewHeight": 119,
+      "anchor": "file-0bdcb7224557",
+      "sha256": "f15673ea10715781f1a83b5d3517c953154d2dfa0529b6dd2e11bec7c8b54187",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSwS01.def",
+      "name": "ObSwS01.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3821,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSwS01.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 61,
+      "height": 92,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSwS01.def.webp",
+      "previewWidth": 54,
+      "previewHeight": 88,
+      "anchor": "file-97ebde52f503",
+      "sha256": "14d99bc38658b7ab8f030d6d63765cbdfaac3e3ec30bdfe8fd32d9e3b22989ba",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSwS02.def",
+      "name": "ObSwS02.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 19811,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSwS02.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 353,
+      "height": 110,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSwS02.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 51,
+      "anchor": "file-95c3b663a1ea",
+      "sha256": "4c3bf67f70dc39c1269676b3b0a13ce1975eb3ed6bd62e1c6f2df551b88a4d49",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSwS03.def",
+      "name": "ObSwS03.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2763,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSwS03.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 78,
+      "height": 42,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSwS03.def.webp",
+      "previewWidth": 64,
+      "previewHeight": 35,
+      "anchor": "file-6cfab2a70808",
+      "sha256": "90c22bef83ef1a2941a7f221ba1d79ed794fb4931d7fb194117c280aba57927e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSwS04.def",
+      "name": "ObSwS04.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4651,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSwS04.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 136,
+      "height": 45,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSwS04.def.webp",
+      "previewWidth": 136,
+      "previewHeight": 35,
+      "anchor": "file-e1a0c30241ab",
+      "sha256": "10840182cbae077a226a471ffb3b7f6a6e0cf694e75c5eb29066f4e61ff7df1d",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSwS11b.def",
+      "name": "ObSwS11b.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 18013,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSwS11b.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 211,
+      "height": 142,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSwS11b.def.webp",
+      "previewWidth": 188,
+      "previewHeight": 117,
+      "anchor": "file-2f6d1ea5e68b",
+      "sha256": "a19f5aad94a3f2cfddd2af65ffaa34d1f578af07eb11d26a237d59825095350a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObSwS13a.def",
+      "name": "ObSwS13a.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 8276,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObSwS13a.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 162,
+      "height": 86,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObSwS13a.def.webp",
+      "previewWidth": 162,
+      "previewHeight": 86,
+      "anchor": "file-54afa82c055e",
+      "sha256": "294c1b6a8f0b80be30ee0506e93c0888c9f4d7be96e47a42a9b4e256c6ec5831",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/OVARTSLT.def",
+      "name": "OVARTSLT.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 14546,
+      "sha256": "9a99c79275d51cd5c39abf7389090f52d0c9f983187ba25bbec2ee4fd7d7c858",
+      "anchor": "file-155dcf1573de",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVARTSLT.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 18,
+      "width": 42,
+      "height": 18,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVARTSLT.def.webp",
+      "previewWidth": 42,
+      "previewHeight": 18,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 18
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/OVBUTN1.def",
+      "name": "OVBUTN1.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9685,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVBUTN1.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 5,
       "width": 48,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SCNRSTAR.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVBUTN1.def.webp",
       "previewWidth": 48,
       "previewHeight": 32,
-      "anchor": "file-60b86d284266",
-      "sha256": "db622f2f6221339712d1440d4963a4b64fb493af66248d6475791d4fd1d80e22",
-      "destinations": [
+      "anchor": "file-363a1bfe2e95",
+      "sha256": "cbce61f15a61017f7be9be6b5b2475704b57c6de727b6c45958141394dea01ee",
+      "frameGroups": [
         {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Resources"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "id": 0,
+          "frames": 5
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SCNRVICT.def",
-      "name": "SCNRVICT.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 10214,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SCNRVICT.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 12,
-      "width": 32,
-      "height": 24,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SCNRVICT.def.webp",
-      "previewWidth": 29,
-      "previewHeight": 21,
-      "anchor": "file-4df15dba9cf4",
-      "sha256": "1e023a6358a0cbf78c6b7f2c51172f6e3602bb5a5f556eb33fb97de07d8f7f42",
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Icons",
+            "Buttons",
             "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-4/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/ScnrVL.def",
-      "name": "ScnrVL.def",
+      "id": "H3sprite.lod/OVBUTN2.def",
+      "name": "OVBUTN2.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
+      "bytes": 2805,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVBUTN2.def",
       "kind": "def",
-      "bytes": 10992,
-      "sha256": "943c8dc94b39f6ec91db121bf73616f1694f58e2bd34de7b6d1cf854dfe27a71",
-      "anchor": "file-a1a8e8109946",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/ScnrVL.def",
       "type": 71,
       "groups": 1,
-      "frames": 13,
-      "width": 32,
-      "height": 24,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/ScnrVL.def.webp",
-      "previewWidth": 29,
-      "previewHeight": 21,
+      "frames": 5,
+      "width": 16,
+      "height": 16,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVBUTN2.def.webp",
+      "previewWidth": 16,
+      "previewHeight": 16,
+      "anchor": "file-9d9b1fa8974a",
+      "sha256": "08fe89d9b81e9bfc7ff163fcdf0ce29ff02b7e9825e56617e5657c3ef8798795",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 5
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Other files"
+            "Interface",
+            "General",
+            "Buttons",
+            "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
+          "en": "/en/wiki/sprite/2/6/page-4/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SCRNHRL.def",
-      "name": "SCRNHRL.def",
+      "id": "H3sprite.lod/OVBUTN3.def",
+      "name": "OVBUTN3.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
+      "bytes": 6436,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVBUTN3.def",
       "kind": "def",
-      "bytes": 3440,
-      "sha256": "22427a3be802b535d063fa221a3feba0690c999a368e895fc536b2de93aeb0d6",
-      "anchor": "file-e826bc9d9d3e",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SCRNHRL.def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 10,
-      "height": 44,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SCRNHRL.def.webp",
-      "previewWidth": 10,
-      "previewHeight": 44,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SCRNHRR.def",
-      "name": "SCRNHRR.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 3440,
-      "sha256": "eb52d8d48e164d12ff9b1623d976920d128ef9d4a2125ddcd2270b22b8df5b10",
-      "anchor": "file-873141f0b848",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SCRNHRR.def",
       "type": 71,
       "groups": 1,
       "frames": 4,
-      "width": 10,
-      "height": 44,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SCRNHRR.def.webp",
-      "previewWidth": 10,
-      "previewHeight": 44,
+      "width": 108,
+      "height": 16,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVBUTN3.def.webp",
+      "previewWidth": 108,
+      "previewHeight": 16,
+      "anchor": "file-c885a7f49f34",
+      "sha256": "5194e233d4dbdee1c8c607d8a1d8f3cbe4ca8a9e8458f6ed87c1ea7b1e85247c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Other"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-4/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/OVBUTN4.def",
+      "name": "OVBUTN4.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 10840,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVBUTN4.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 8,
+      "width": 61,
+      "height": 18,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVBUTN4.def.webp",
+      "previewWidth": 61,
+      "previewHeight": 18,
+      "anchor": "file-eed0e37ae13a",
+      "sha256": "87caddf1b5c63c4d0a522dfb4a57ecc325bff47c7dd5af818fea661d4772aa55",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Other"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-4/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/OVBUTN5.def",
+      "name": "OVBUTN5.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 6452,
+      "sha256": "b6d87235212ed2c55e9992acccf3c8531f07f3183bbc1f0ab69fc8a496b7f13f",
+      "anchor": "file-d8d923f0472c",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVBUTN5.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 16,
+      "height": 62,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVBUTN5.def.webp",
+      "previewWidth": 16,
+      "previewHeight": 62,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/ScSelC.def",
-      "name": "ScSelC.def",
+      "id": "H3sprite.lod/OVBUTN6.def",
+      "name": "OVBUTN6.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 2295,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/ScSelC.def",
+      "bytes": 6131,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVBUTN6.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
       "frames": 3,
-      "width": 32,
-      "height": 24,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/ScSelC.def.webp",
-      "previewWidth": 19,
-      "previewHeight": 19,
-      "anchor": "file-7a632fab938f",
-      "sha256": "97b40f2cbc0a941b2d373c80b701fb690f90eb60fe5638e309928b01e4922193",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SCSMBUT.DEF",
-      "name": "SCSMBUT.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 7596,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SCSMBUT.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SCSMBUT.DEF.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-439fedbb9254",
-      "sha256": "d5c947c482760f311061b6a5984afe7df4c059bb2f0b572a45d6ff10d9528b4e",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SCXLBUT.DEF",
-      "name": "SCXLBUT.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 7596,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SCXLBUT.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SCXLBUT.DEF.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-3013c3464f4b",
-      "sha256": "05b4c484d8762b15fe37f7fdce53343494300ee44c6a77141208a37c3e8f4182",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SECSK32.def",
-      "name": "SECSK32.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 108359,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SECSK32.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 87,
-      "width": 32,
+      "width": 48,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SECSK32.def.webp",
-      "previewWidth": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVBUTN6.def.webp",
+      "previewWidth": 48,
       "previewHeight": 32,
-      "anchor": "file-2e81e0d5ee66",
-      "sha256": "e56aeeaa81e36d08aaeb86b296ef9903b7f3100ecd81e11c6df8922937afd213",
-      "destinations": [
+      "anchor": "file-a479e9db92bd",
+      "sha256": "b54227dc6dff37bda090ad759c1446c525c5d7aaf1fcb2af062b26a8d93865ed",
+      "frameGroups": [
         {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Secondary skills"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "id": 0,
+          "frames": 3
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SECSK82.DEF",
-      "name": "SECSK82.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 700639,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SECSK82.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 87,
-      "width": 82,
-      "height": 93,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SECSK82.DEF.webp",
-      "previewWidth": 82,
-      "previewHeight": 93,
-      "anchor": "file-63e6b719911a",
-      "sha256": "a04c3bc1871fca84e66692e19cda5b77ecd67d524ebb86bd8564dbc5b6578892",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Secondary skills"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Secskill.def",
-      "name": "Secskill.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 191999,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Secskill.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 87,
-      "width": 44,
-      "height": 44,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Secskill.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 44,
-      "anchor": "file-0ccbf0a7701a",
-      "sha256": "298f31e75e045fcb1195d870efbed8d7f5ecb81bab18e0ffc89ccc6a81c91aee",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Secondary skills"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SGEXPL.def",
-      "name": "SGEXPL.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 98146,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SGEXPL.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 10,
-      "width": 254,
-      "height": 203,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SGEXPL.def.webp",
-      "previewWidth": 39,
-      "previewHeight": 39,
-      "anchor": "file-7ab8ac049be9",
-      "sha256": "c7fa8763102337ba0bad69582c4a039e7e604c3cacae0a4dd81de412578cb2eb",
-      "destinations": [
-        {
-          "category": [
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SGTWMTA.def",
-      "name": "SGTWMTA.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 7393,
-      "sha256": "ebf06379918753b4436bf9b84e85f18432cb089f1eeae3736e0e54769138b1ea",
-      "anchor": "file-f3bfd6adab08",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SGTWMTA.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 1,
-      "width": 320,
-      "height": 320,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SGTWMTA.def.webp",
-      "previewWidth": 87,
-      "previewHeight": 57,
-      "destinations": [
-        {
-          "category": [
-            "Battlefield obstacles"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SGTWMTB.def",
-      "name": "SGTWMTB.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 58796,
-      "sha256": "c3256609ec1f611e83f7d1d5832a394a135aaa8676a083037db3657268c9db6d",
-      "anchor": "file-7b4499678a9d",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SGTWMTB.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 11,
-      "width": 320,
-      "height": 320,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SGTWMTB.def.webp",
-      "previewWidth": 24,
-      "previewHeight": 30,
-      "destinations": [
-        {
-          "category": [
-            "Battlefield obstacles"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/slidback.def",
-      "name": "slidback.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 7929,
-      "sha256": "31585a6024d4820095c3acc13694900aebb90be3183fc8e54753611624de3507",
-      "anchor": "file-66f31e25b2ac",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/slidback.def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 230,
-      "height": 30,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/slidback.def.webp",
-      "previewWidth": 230,
-      "previewHeight": 30,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-12/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SLIDBUH.def",
-      "name": "SLIDBUH.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 2805,
-      "sha256": "8ab75ef4426cf2e35447812b0bb5c67cf23c0f5b5a818681c61636ca9e11b654",
-      "anchor": "file-fe851a4105b5",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SLIDBUH.def",
-      "type": 71,
-      "groups": 1,
-      "frames": 5,
-      "width": 16,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SLIDBUH.def.webp",
-      "previewWidth": 16,
-      "previewHeight": 16,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SLIDBUV.def",
-      "name": "SLIDBUV.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 2805,
-      "sha256": "18ca5b4300f92a190d9be0aa77bcb066571c4389475503a8f4a1be6a19257467",
-      "anchor": "file-3c9503c7f120",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SLIDBUV.def",
-      "type": 71,
-      "groups": 1,
-      "frames": 5,
-      "width": 16,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SLIDBUV.def.webp",
-      "previewWidth": 16,
-      "previewHeight": 16,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SLIDEBUH.def",
-      "name": "SLIDEBUH.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 2805,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SLIDEBUH.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 5,
-      "width": 16,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SLIDEBUH.def.webp",
-      "previewWidth": 16,
-      "previewHeight": 16,
-      "anchor": "file-e6fb121326d9",
-      "sha256": "8ab75ef4426cf2e35447812b0bb5c67cf23c0f5b5a818681c61636ca9e11b654",
+      ],
       "destinations": [
         {
           "category": [
@@ -510,283 +738,276 @@
             "Buttons",
             "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
+          "en": "/en/wiki/sprite/2/6/page-4/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SLIDEBUV.def",
-      "name": "SLIDEBUV.def",
+      "id": "H3sprite.lod/OVMINES.def",
+      "name": "OVMINES.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 2805,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SLIDEBUV.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 5,
-      "width": 16,
-      "height": 16,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SLIDEBUV.def.webp",
-      "previewWidth": 16,
-      "previewHeight": 16,
-      "anchor": "file-9421f50c191c",
-      "sha256": "18ca5b4300f92a190d9be0aa77bcb066571c4389475503a8f4a1be6a19257467",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/slidknob.def",
-      "name": "slidknob.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 1929,
-      "sha256": "4f77f31659003b50615a9105e1258d788daf075651b4f669a4d1a289c7725a0c",
-      "anchor": "file-477d8cdf83ae",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/slidknob.def",
-      "type": 71,
-      "groups": 1,
-      "frames": 1,
-      "width": 30,
-      "height": 30,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/slidknob.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 30,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-12/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SMALRES.def",
-      "name": "SMALRES.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 3856,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SMALRES.def",
+      "bytes": 18821,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVMINES.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
       "frames": 7,
-      "width": 20,
-      "height": 18,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SMALRES.def.webp",
-      "previewWidth": 20,
-      "previewHeight": 18,
-      "anchor": "file-dd49563a22aa",
-      "sha256": "4584208247f6b4f88226704fd23c4c39add8f001ab8df0177f6f6d201eaedcb8",
+      "width": 68,
+      "height": 54,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVMINES.def.webp",
+      "previewWidth": 68,
+      "previewHeight": 34,
+      "anchor": "file-f694d2d18005",
+      "sha256": "ca6b8b3d84d02c9e4728a54cabc7b031cd93be335ff279c031f4b97cfa9d252a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Icons",
+            "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/smbal.def",
-      "name": "smbal.def",
+      "id": "H3sprite.lod/OVSLOT.def",
+      "name": "OVSLOT.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 237513,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/smbal.def",
+      "bytes": 563318,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVSLOT.def",
       "kind": "def",
-      "type": 66,
-      "groups": 7,
-      "frames": 57,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/smbal.def.webp",
-      "previewWidth": 101,
-      "previewHeight": 76,
-      "anchor": "file-0613ae2fadab",
-      "sha256": "8d22e52333dc8a6d51dfbe5dcaeea24b5a4a03a0370d9e6c53b0dbe55823b535",
+      "type": 71,
+      "groups": 1,
+      "frames": 7,
+      "width": 701,
+      "height": 114,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVSLOT.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 39,
+      "anchor": "file-485dc9f9897f",
+      "sha256": "44e2f3c75b957a8323082e1590e56794df863fca24c0c7ede9c608387502ad6c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Neutral creatures"
+            "Interface",
+            "General",
+            "Main game panels"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SMBALX.def",
-      "name": "SMBALX.def",
+      "id": "H3sprite.lod/OVTITLE.def",
+      "name": "OVTITLE.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 6936,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SMBALX.def",
+      "kind": "def",
+      "bytes": 32738,
+      "sha256": "9313afc778503f3d241fb22cd7ee2ec9679cc0f084ae45284d27a67e474ca552",
+      "anchor": "file-6fec826d7be8",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/OVTITLE.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 2,
+      "width": 784,
+      "height": 20,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/OVTITLE.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 6,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/PCYCLBX.def",
+      "name": "PCYCLBX.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 10027,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PCYCLBX.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 10,
+      "width": 33,
+      "height": 33,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PCYCLBX.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 29,
+      "anchor": "file-c3bfcf02c703",
+      "sha256": "95d18d496dab525b1972e2f3c7ad2d717e83681a65bb170f3d66ad49be3aa738",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 10
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Projectile animations"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/PELFX.def",
+      "name": "PELFX.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3219,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PELFX.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
       "frames": 9,
-      "width": 60,
-      "height": 57,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SMBALX.def.webp",
-      "previewWidth": 12,
-      "previewHeight": 55,
-      "anchor": "file-a503db27b2e7",
-      "sha256": "96ad7567d87ccd8ef76e5a33b43c24685609867a2c7dd48cdc0424c44f6fb1f2",
+      "width": 30,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PELFX.def.webp",
+      "previewWidth": 4,
+      "previewHeight": 30,
+      "anchor": "file-c44a6ecccb59",
+      "sha256": "57bfc8c9dd65e26076848acb41e001e60bb7d37cb5f7e71944c986ebdcaa630b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SMCart.def",
-      "name": "SMCart.def",
+      "id": "H3sprite.lod/Phalf.def",
+      "name": "Phalf.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 60430,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SMCart.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 4,
-      "frames": 31,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SMCart.def.webp",
-      "previewWidth": 51,
-      "previewHeight": 68,
-      "anchor": "file-ef8be4ecb7b2",
-      "sha256": "3c5185d3ac67cf0643b49c46818ff6c12b7dc61e61563ce19e207bfada303e80",
-      "destinations": [
-        {
-          "category": [
-            "Neutral creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SMCata.def",
-      "name": "SMCata.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 178985,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SMCata.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 7,
-      "frames": 65,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SMCata.def.webp",
-      "previewWidth": 116,
-      "previewHeight": 91,
-      "anchor": "file-eac3b2f73be8",
-      "sha256": "7fb1cd6fa20ac29baaec0149a5770924e8707503c5f0ae712db7f29ee0744abb",
-      "destinations": [
-        {
-          "category": [
-            "Neutral creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SMCatx.def",
-      "name": "SMCatx.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 3605,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SMCatx.def",
+      "bytes": 966,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Phalf.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 8,
-      "width": 30,
-      "height": 22,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SMCatx.def.webp",
-      "previewWidth": 14,
-      "previewHeight": 16,
-      "anchor": "file-3852f033ec52",
-      "sha256": "9f9575d7d25c05159cd26a0808764e5881e65bb6aee6e0bf7b3c499e11a727b1",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Phalf.def.webp",
+      "previewWidth": 8,
+      "previewHeight": 8,
+      "anchor": "file-c0bc97daafd7",
+      "sha256": "014bcacbf1ec71b9b667c649ff3390af7d37edccf7a4ee54596fd84d46e68bff",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SMtent.def",
-      "name": "SMtent.def",
+      "id": "H3sprite.lod/Picee.def",
+      "name": "Picee.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 107378,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SMtent.def",
+      "bytes": 3975,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Picee.def",
       "kind": "def",
-      "type": 66,
-      "groups": 4,
-      "frames": 30,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SMtent.def.webp",
-      "previewWidth": 83,
-      "previewHeight": 121,
-      "anchor": "file-71370b66ff2c",
-      "sha256": "219e4b7ac2c52c5d912d2d8951675ca7ec603e41ca73e8693d89f1284997951d",
-      "destinations": [
-        {
-          "category": [
-            "Neutral creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Snowtl.def",
-      "name": "Snowtl.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 85567,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Snowtl.def",
-      "kind": "def",
-      "type": 69,
+      "type": 64,
       "groups": 1,
-      "frames": 79,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Snowtl.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-377ba74b3d6d",
-      "sha256": "8847f345c97def23e6047342218c7cab7379aa311ba39b96f0794e392569129c",
+      "frames": 9,
+      "width": 30,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Picee.def.webp",
+      "previewWidth": 7,
+      "previewHeight": 30,
+      "anchor": "file-5c8e33afead4",
+      "sha256": "80ad3c0b22c2dc34cb2c27756c1435d7938151ceafe574368428996512db5356",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Terrain"
+            "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/4/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/PLCBOWX.def",
+      "name": "PLCBOWX.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3219,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PLCBOWX.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 9,
+      "width": 30,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PLCBOWX.def.webp",
+      "previewWidth": 4,
+      "previewHeight": 30,
+      "anchor": "file-83e1745ec736",
+      "sha256": "f2f44309eb2a58bd2ce47f8a957edcb915744244b7a4b0591cb2774fd84d2ac4",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Projectile animations"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     }

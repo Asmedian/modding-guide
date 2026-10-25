@@ -1,7 +1,7 @@
 # Game object table
 
 ID: erm.tables.objects
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/objects/
+URL: /en/erm/tables/objects/
 Part: 2/2
 Source references: old-help:form-objects.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -197,7 +197,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Obstacle flags
 
 ID: erm.tables.obstacle-flags
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/obstacle-flags/
+URL: /en/erm/tables/obstacle-flags/
 Part: 1/1
 Source references: old-help:form-obstacles-bit.htm, old-help:form-obstacles.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

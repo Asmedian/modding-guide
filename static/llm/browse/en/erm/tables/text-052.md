@@ -1,7 +1,7 @@
 # WoG object variants
 
 ID: erm.tables.wog-object-variants
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/wog-object-variants/
+URL: /en/erm/tables/wog-object-variants/
 Part: 1/2
 Source references: old-help:form-newobj.htm, old-help:form-objects.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

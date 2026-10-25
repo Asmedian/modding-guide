@@ -2,72 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.framework.functions.array-find",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/array-find",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-find/",
-      "title": "Array_Find",
-      "summary": "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0.",
-      "keywords": [
-        "Array_Find",
-        "FU(Array_Find)",
-        "public",
-        "arrays"
-      ],
-      "questions": [
-        "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-        ],
-        "constants": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "constants",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Version and status",
-            "Constants used"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.framework.functions.array-indexof",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-indexof",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-indexof/",
+      "url": "/en/erm/framework/functions/array-indexof/",
       "title": "Array_IndexOf",
       "summary": "Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive.",
       "keywords": [
@@ -107,7 +47,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -127,7 +67,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-join",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-join/",
+      "url": "/en/erm/framework/functions/array-join/",
       "title": "Array_Join",
       "summary": "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^.",
       "keywords": [
@@ -167,7 +107,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -187,7 +127,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-merge",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-merge/",
+      "url": "/en/erm/framework/functions/array-merge/",
       "title": "Array_Merge",
       "summary": "Appends one or more arrays to dstArray. All element types must match; the destination is modified.",
       "keywords": [
@@ -227,7 +167,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -247,7 +187,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-move",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-move/",
+      "url": "/en/erm/framework/functions/array-move/",
       "title": "Array_Move",
       "summary": "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use.",
       "keywords": [
@@ -287,7 +227,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -307,7 +247,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-pop",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-pop/",
+      "url": "/en/erm/framework/functions/array-pop/",
       "title": "Array_Pop",
       "summary": "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings.",
       "keywords": [
@@ -347,7 +287,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -367,7 +307,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-push",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-push/",
+      "url": "/en/erm/framework/functions/array-push/",
       "title": "Array_Push",
       "summary": "Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped.",
       "keywords": [
@@ -407,7 +347,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -427,7 +367,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-resize",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-resize/",
+      "url": "/en/erm/framework/functions/array-resize/",
       "title": "Array_Resize",
       "summary": "Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed.",
       "keywords": [
@@ -467,7 +407,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -487,7 +427,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-revert",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-revert/",
+      "url": "/en/erm/framework/functions/array-revert/",
       "title": "Array_Revert",
       "summary": "Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings.",
       "keywords": [
@@ -524,7 +464,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -543,7 +483,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-shuffle",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-shuffle/",
+      "url": "/en/erm/framework/functions/array-shuffle/",
       "title": "Array_Shuffle",
       "summary": "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic.",
       "keywords": [
@@ -583,7 +523,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -603,7 +543,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-slice",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-slice/",
+      "url": "/en/erm/framework/functions/array-slice/",
       "title": "Array_Slice",
       "summary": "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.",
       "keywords": [
@@ -643,7 +583,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-003.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -663,7 +603,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/array-sort",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sort/",
+      "url": "/en/erm/framework/functions/array-sort/",
       "title": "Array_Sort",
       "summary": "Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped.",
       "keywords": [
@@ -703,7 +643,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-004.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -711,6 +651,70 @@
             "Call contract",
             "Parameter order",
             "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-sortedunique",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-sortedunique",
+      "url": "/en/erm/framework/functions/array-sortedunique/",
+      "title": "Array_SortedUnique",
+      "summary": "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected.",
+      "keywords": [
+        "Array_SortedUnique",
+        "FU(Array_SortedUnique)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
             "Version and status",
             "Constants used"
           ]

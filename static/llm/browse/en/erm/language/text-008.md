@@ -1,7 +1,7 @@
 # Reference tables
 
 ID: erm.tables
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/
+URL: /en/erm/tables/
 Part: 1/1
 Source references: old-help:cont-form.htm, old-help:form-hex.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

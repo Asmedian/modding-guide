@@ -2,81 +2,29 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/AVLSH7D0.def",
-      "name": "AVLSH7D0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 2354,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSH7D0.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSH7D0.def.webp",
-      "previewWidth": 62,
-      "previewHeight": 32,
-      "anchor": "file-891297da6c1d",
-      "sha256": "14b1f1bf00ef73a643589983db3059731e188f08ef6790aed4a83c414101ba3f",
-      "maskId": "H3sprite.lod/AVLSH7D0.msk",
-      "destinations": [
-        {
-          "category": [
-            "Landscape objects",
-            "Flowers and plants"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-7/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVLSH7R0.def",
-      "name": "AVLSH7R0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1605,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSH7R0.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSH7R0.def.webp",
-      "previewWidth": 31,
-      "previewHeight": 30,
-      "anchor": "file-b9d2f88cb884",
-      "sha256": "69f95274e3bff2dff7700a4d7006e7823d52925b1667292cc38f5f2a1a1db0ea",
-      "maskId": "H3sprite.lod/AVLSH7R0.msk",
-      "destinations": [
-        {
-          "category": [
-            "Landscape objects",
-            "Flowers and plants"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-7/"
-        }
-      ]
-    },
-    {
       "id": "H3sprite.lod/AVLSH8D0.def",
       "name": "AVLSH8D0.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 1710,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSH8D0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSH8D0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 32,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSH8D0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSH8D0.def.webp",
       "previewWidth": 32,
       "previewHeight": 31,
       "anchor": "file-30d8f2880be3",
       "sha256": "c98671d6b00a9f734450574bb0d3c19fc7839d6aacc173702b14e49f02b656c0",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSH8D0.msk",
       "destinations": [
         {
@@ -84,7 +32,7 @@
             "Landscape objects",
             "Flowers and plants"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-7/"
+          "en": "/en/wiki/sprite/2/2/page-7/"
         }
       ]
     },
@@ -94,18 +42,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 1619,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSH8R0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSH8R0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 32,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSH8R0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSH8R0.def.webp",
       "previewWidth": 32,
       "previewHeight": 30,
       "anchor": "file-3d2219efe51d",
       "sha256": "454b5f73ce33d4358682f8e2f6d52ffae8864cc37a5686ad980569e16faaa12d",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSH8R0.msk",
       "destinations": [
         {
@@ -113,7 +67,7 @@
             "Landscape objects",
             "Flowers and plants"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-7/"
+          "en": "/en/wiki/sprite/2/2/page-7/"
         }
       ]
     },
@@ -123,18 +77,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 2100,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSH9R0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSH9R0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSH9R0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSH9R0.def.webp",
       "previewWidth": 61,
       "previewHeight": 32,
       "anchor": "file-1ca028f8a912",
       "sha256": "31a4563afd1ec2941ba17843a1534a6e08e5d6ce19e4c9b3975deea72c724b82",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSH9R0.msk",
       "destinations": [
         {
@@ -142,7 +102,7 @@
             "Landscape objects",
             "Flowers and plants"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-7/"
+          "en": "/en/wiki/sprite/2/2/page-7/"
         }
       ]
     },
@@ -152,18 +112,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 1295,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLskul0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLskul0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 32,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLskul0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLskul0.def.webp",
       "previewWidth": 29,
       "previewHeight": 30,
       "anchor": "file-4b12e389bf2b",
       "sha256": "a6ae0ecb4621283ca3498b0203bdc55c3d55c44a3276fbf957f73fe5a0fd929c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLskul0.msk",
       "destinations": [
         {
@@ -171,7 +137,7 @@
             "Landscape objects",
             "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-9/"
+          "en": "/en/wiki/sprite/2/2/page-9/"
         }
       ]
     },
@@ -181,18 +147,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 2297,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/avlsntr0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/avlsntr0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/avlsntr0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/avlsntr0.def.webp",
       "previewWidth": 38,
       "previewHeight": 50,
       "anchor": "file-26a2c3503473",
       "sha256": "931a5f413dacaf1d6adb764426c89eabae796b8374fad13cec83035368f0a485",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/avlsntr0.msk",
       "destinations": [
         {
@@ -200,7 +172,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -210,18 +182,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 1965,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/avlsntr1.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/avlsntr1.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/avlsntr1.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/avlsntr1.def.webp",
       "previewWidth": 32,
       "previewHeight": 49,
       "anchor": "file-71dae65ef90d",
       "sha256": "685982d8b271d63340c3fcd2154ce8df4cefe559e480e395146fa61f86252923",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/avlsntr1.msk",
       "destinations": [
         {
@@ -229,7 +207,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -239,18 +217,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 6953,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/avlsntr2.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/avlsntr2.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/avlsntr2.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/avlsntr2.def.webp",
       "previewWidth": 108,
       "previewHeight": 80,
       "anchor": "file-c30b8f6215d9",
       "sha256": "bbd80bb80ea691dd2bd1dce1daa8a4121f61b72763cc25f121f4a9a36779150c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/avlsntr2.msk",
       "destinations": [
         {
@@ -258,7 +242,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -268,18 +252,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 7292,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/avlsntr3.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/avlsntr3.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/avlsntr3.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/avlsntr3.def.webp",
       "previewWidth": 115,
       "previewHeight": 80,
       "anchor": "file-1e7ee005523a",
       "sha256": "5a0af33e0dad551e89b143a043e20265e15af46489d9f1b1a63867d1e2cefc67",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/avlsntr3.msk",
       "destinations": [
         {
@@ -287,7 +277,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -297,18 +287,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 6838,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/avlsntr4.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/avlsntr4.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/avlsntr4.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/avlsntr4.def.webp",
       "previewWidth": 104,
       "previewHeight": 81,
       "anchor": "file-75a07c4ecd1e",
       "sha256": "9b0ccaf18005c681ef6a20c76dc02db7bdf0b3c0913546eebf6220e99033df5b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/avlsntr4.msk",
       "destinations": [
         {
@@ -316,7 +312,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -326,18 +322,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 7119,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/avlsntr5.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/avlsntr5.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/avlsntr5.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/avlsntr5.def.webp",
       "previewWidth": 103,
       "previewHeight": 79,
       "anchor": "file-a6aa19094df0",
       "sha256": "f429a62e104491c384c334b63ed57968e9ce860a12055f2cc9b222fb23a55688",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/avlsntr5.msk",
       "destinations": [
         {
@@ -345,7 +347,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -355,18 +357,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 10577,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSNTR6.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSNTR6.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 128,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSNTR6.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSNTR6.def.webp",
       "previewWidth": 115,
       "previewHeight": 111,
       "anchor": "file-b4956e0bc15e",
       "sha256": "eb8d7a8436e75168e473cc23590be4ca7c3e433e04b808db4722816394a6babf",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSNTR6.msk",
       "destinations": [
         {
@@ -374,7 +382,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -384,18 +392,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 10040,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSNTR7.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSNTR7.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 128,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSNTR7.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSNTR7.def.webp",
       "previewWidth": 102,
       "previewHeight": 111,
       "anchor": "file-988a569ddf9b",
       "sha256": "e2531b44a5e6ad35de4bfa59fe6f84156a37c6125b951202e483a7e9465fda10",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSNTR7.msk",
       "destinations": [
         {
@@ -403,7 +417,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -413,18 +427,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 3728,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLspit0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLspit0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 96,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLspit0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLspit0.def.webp",
       "previewWidth": 96,
       "previewHeight": 32,
       "anchor": "file-6ad56dceeb67",
       "sha256": "8c2e607323117f97e3337057072485f0937a42445e6ee0e7b20c320294cf1165",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLspit0.msk",
       "destinations": [
         {
@@ -432,7 +452,7 @@
             "Landscape objects",
             "Craters, ravines and burrows"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-3/"
+          "en": "/en/wiki/sprite/2/2/page-3/"
         }
       ]
     },
@@ -442,18 +462,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 2244,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR0.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR0.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR0.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR0.def.webp",
       "previewWidth": 44,
       "previewHeight": 48,
       "anchor": "file-8ae483d70822",
       "sha256": "a2e44aa64ec4084c45f8ffb631716599f06673dc0e9995cdbfb8239c05375065",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR0.msk",
       "destinations": [
         {
@@ -461,7 +487,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -471,18 +497,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 2120,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR1.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR1.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR1.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR1.def.webp",
       "previewWidth": 48,
       "previewHeight": 44,
       "anchor": "file-3da67a9b960c",
       "sha256": "611f299cf40a6c10df8983cbbe76c27741c3a373efb33c52bf1c170d4730f818",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR1.msk",
       "destinations": [
         {
@@ -490,7 +522,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -500,18 +532,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 2111,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR2.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR2.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR2.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR2.def.webp",
       "previewWidth": 47,
       "previewHeight": 41,
       "anchor": "file-8c4dc6f7999e",
       "sha256": "9a0bcd63753e467c5029d44914cd9cab5147699f716ea265d209368499c83629",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR2.msk",
       "destinations": [
         {
@@ -519,7 +557,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -529,18 +567,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 7115,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR3.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR3.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR3.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR3.def.webp",
       "previewWidth": 114,
       "previewHeight": 81,
       "anchor": "file-62a628b995a2",
       "sha256": "e9e523f07605d3e19b080f2df381b31f6e98908ea22b7f8ab29aed1f86d049dd",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR3.msk",
       "destinations": [
         {
@@ -548,7 +592,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -558,18 +602,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 7266,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR4.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR4.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR4.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR4.def.webp",
       "previewWidth": 109,
       "previewHeight": 81,
       "anchor": "file-6c41592dc985",
       "sha256": "9dd17f70a29de48cb359da44a3de83e46f164dc67b3fe31df66bcdf47e3a4e2b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR4.msk",
       "destinations": [
         {
@@ -577,7 +627,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -587,18 +637,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 6797,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR5.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR5.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR5.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR5.def.webp",
       "previewWidth": 108,
       "previewHeight": 80,
       "anchor": "file-056d68f006b8",
       "sha256": "d39cb41d4f2119323c79ca6ce4060ae88301c085543c035bbd050f9dc209dfb3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR5.msk",
       "destinations": [
         {
@@ -606,7 +662,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -616,18 +672,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 6798,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR6.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR6.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 96,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR6.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR6.def.webp",
       "previewWidth": 102,
       "previewHeight": 81,
       "anchor": "file-0cfdcd73f011",
       "sha256": "2ae1a703fa05e2f8f31738833808fdb2c2301b0f9e5487312569e1ad7c882fb3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR6.msk",
       "destinations": [
         {
@@ -635,7 +697,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -645,18 +707,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 10168,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR7.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR7.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 128,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR7.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR7.def.webp",
       "previewWidth": 107,
       "previewHeight": 111,
       "anchor": "file-ca4728e1f202",
       "sha256": "4bfe1bce6c9d533562226f9580b66aa705de3261d6501dbe92358719d4fd47a9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR7.msk",
       "destinations": [
         {
@@ -664,7 +732,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -674,18 +742,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 10600,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLSPTR8.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLSPTR8.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 128,
       "height": 128,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR8.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLSPTR8.def.webp",
       "previewWidth": 113,
       "previewHeight": 112,
       "anchor": "file-eb49225ede8a",
       "sha256": "c57327b5eab32cfb1ec3ad0fc665b9bae137a48447eadee0061250cd717fdf45",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLSPTR8.msk",
       "destinations": [
         {
@@ -693,7 +767,7 @@
             "Landscape objects",
             "Trees"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/"
+          "en": "/en/wiki/sprite/2/2/"
         }
       ]
     },
@@ -703,18 +777,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 2228,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLstg10.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLstg10.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLstg10.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLstg10.def.webp",
       "previewWidth": 62,
       "previewHeight": 30,
       "anchor": "file-65c2125d8025",
       "sha256": "2997618eee8856fa9a9bf130160d22a5e7514d3534e66d0e477b8ea8822537f9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLstg10.msk",
       "destinations": [
         {
@@ -722,7 +802,7 @@
             "Landscape objects",
             "Hills, dunes and rocks"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-5/"
+          "en": "/en/wiki/sprite/2/2/page-5/"
         }
       ]
     },
@@ -735,22 +815,28 @@
       "bytes": 1777,
       "sha256": "41f8bf2b5f8eaa766f14d3f50d9d302765bb6c83a8cd8359a9b898fae77be92e",
       "anchor": "file-9ca855b1a52d",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLstg11.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLstg11.def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 32,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLstg11.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLstg11.def.webp",
       "previewWidth": 32,
       "previewHeight": 50,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLstg11.msk",
       "destinations": [
         {
           "category": [
             "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-20/"
+          "en": "/en/wiki/sprite/2/2/page-20/"
         }
       ]
     },
@@ -760,18 +846,24 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 1572,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVLstg20.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLstg20.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 32,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVLstg20.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLstg20.def.webp",
       "previewWidth": 29,
       "previewHeight": 31,
       "anchor": "file-a8bf01504f01",
       "sha256": "962565410c0278027724f770e91df7df65ed30fc4e2755cd9f242610fc47aae4",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVLstg20.msk",
       "destinations": [
         {
@@ -779,7 +871,112 @@
             "Landscape objects",
             "Hills, dunes and rocks"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-5/"
+          "en": "/en/wiki/sprite/2/2/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVLstg30.def",
+      "name": "AVLstg30.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1586,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLstg30.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLstg30.def.webp",
+      "previewWidth": 29,
+      "previewHeight": 32,
+      "anchor": "file-d47ceeacfdf5",
+      "sha256": "e4c0a7bca3c1b28f8d2bd7a6a2a0f662e97002b73b1ef416ee414396964d43e7",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVLstg30.msk",
+      "destinations": [
+        {
+          "category": [
+            "Landscape objects",
+            "Hills, dunes and rocks"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVLstg40.def",
+      "name": "AVLstg40.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1532,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLstg40.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLstg40.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 30,
+      "anchor": "file-539652cb5793",
+      "sha256": "f859a2aaa3b71bbea4f0e06d386950daea5a25c4f3bd32b84dfdb41ee10a59b4",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVLstg40.msk",
+      "destinations": [
+        {
+          "category": [
+            "Landscape objects",
+            "Hills, dunes and rocks"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVLstg50.def",
+      "name": "AVLstg50.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1592,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVLstg50.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVLstg50.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 31,
+      "anchor": "file-a793f09544a2",
+      "sha256": "3dedaa28d1b7c76cb416e8dd5576af69ef51c6e203b9272322081517c525577a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVLstg50.msk",
+      "destinations": [
+        {
+          "category": [
+            "Landscape objects",
+            "Hills, dunes and rocks"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-5/"
         }
       ]
     }

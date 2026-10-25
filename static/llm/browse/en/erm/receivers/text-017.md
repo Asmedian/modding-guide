@@ -1,7 +1,7 @@
 # Heroes (HE)
 
 ID: erm.receivers.he
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/he/
+URL: /en/erm/receivers/he/
 Part: 2/3
 Source references: old-help:rec-he.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -2,785 +2,1168 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/C11SPE0.def",
-      "name": "C11SPE0.def",
+      "id": "H3sprite.lod/C20SPX.DEF",
+      "name": "C20SPX.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 84937,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C11SPE0.def",
+      "bytes": 58728,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/C20SPX.DEF",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 16,
+      "frames": 14,
+      "width": 133,
+      "height": 116,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/C20SPX.DEF.webp",
+      "previewWidth": 15,
+      "previewHeight": 16,
+      "anchor": "file-97ba94162d20",
+      "sha256": "fbd6faaef95ba1e5add901eaa73d00ef495096a364bf347cd55e5519f61516de",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 14
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Hero spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/C20SPX0.def",
+      "name": "C20SPX0.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 32324,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/C20SPX0.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 14,
+      "width": 123,
+      "height": 47,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/C20SPX0.def.webp",
+      "previewWidth": 119,
+      "previewHeight": 38,
+      "anchor": "file-15eab0b156c8",
+      "sha256": "95d4817d9896aaabed306b3fca1310f39017a4e4b9585ff8a81f0fa179332843",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 14
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Hero spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/C20SPX1.def",
+      "name": "C20SPX1.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 35372,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/C20SPX1.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 15,
+      "width": 123,
+      "height": 59,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/C20SPX1.def.webp",
+      "previewWidth": 113,
+      "previewHeight": 53,
+      "anchor": "file-f4edc0aa5a7d",
+      "sha256": "a9d8932ca484a95a7dfe0c7fc1abbe5b901b1997ffc8f43072847439dd62e4ca",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 15
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Hero spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/C20SPX2.def",
+      "name": "C20SPX2.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 38263,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/C20SPX2.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 15,
+      "width": 112,
+      "height": 87,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/C20SPX2.def.webp",
+      "previewWidth": 102,
+      "previewHeight": 78,
+      "anchor": "file-6c5780913ab9",
+      "sha256": "7d60a33be992efc7f8723b67c7caaf8951a75485ccc02d8edfae8319557e736b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 15
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Hero spells"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/C20SPX3.def",
+      "name": "C20SPX3.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 41165,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/C20SPX3.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 15,
       "width": 82,
-      "height": 100,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C11SPE0.def.webp",
-      "previewWidth": 71,
-      "previewHeight": 63,
-      "anchor": "file-2f1a9e3c1af7",
-      "sha256": "e4941b9cc0f46565c9ef72da1ef294bd400ab872be963dbbe0e1ad29c82a6443",
+      "height": 109,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/C20SPX3.def.webp",
+      "previewWidth": 75,
+      "previewHeight": 101,
+      "anchor": "file-11a3a3c52cf1",
+      "sha256": "c2e561769731a15b6198a410cfcdec32f59f1a7bdf2753929e16f51a699375eb",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 15
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Hero spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C11SPF0.def",
-      "name": "C11SPF0.def",
+      "id": "H3sprite.lod/C20SPX4.def",
+      "name": "C20SPX4.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 72934,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C11SPF0.def",
+      "bytes": 42410,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/C20SPX4.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
       "frames": 15,
-      "width": 100,
-      "height": 100,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C11SPF0.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 78,
-      "anchor": "file-2a8bfda4b26f",
-      "sha256": "c51fbd5b99160aa4a5df91c73ea2aee5526f8afe15fe555a98ec12f78bdb7a1d",
+      "width": 50,
+      "height": 119,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/C20SPX4.def.webp",
+      "previewWidth": 39,
+      "previewHeight": 113,
+      "anchor": "file-dad0098baf24",
+      "sha256": "ef96e86f8a2b91f17eca43474134d0ea1a02dbf7dfe45c3a3834c10c9752eff5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 15
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Hero spells"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C11SPW0.def",
-      "name": "C11SPW0.def",
+      "id": "H3sprite.lod/CABEHE.def",
+      "name": "CABEHE.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 64735,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C11SPW0.def",
+      "bytes": 460525,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CABEHE.def",
       "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 16,
-      "width": 76,
-      "height": 99,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C11SPW0.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 34,
-      "anchor": "file-73c42731ff96",
-      "sha256": "1c1d5d3f9957ff954b42b1ad22eb4c5d50239bc4b8028d655062f67e4b28e0e8",
+      "type": 66,
+      "groups": 15,
+      "frames": 84,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CABEHE.def.webp",
+      "previewWidth": 116,
+      "previewHeight": 110,
+      "anchor": "file-d032bb5a720b",
+      "sha256": "7f69d9981d838505499ca26f570637ca3b2d5681eaa0c64196a1b90a571d8b35",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        },
+        {
+          "id": 1,
+          "frames": 10
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 7
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Stronghold creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C12SPA0.def",
-      "name": "C12SPA0.def",
+      "id": "H3sprite.lod/CADEVL.def",
+      "name": "CADEVL.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 73742,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C12SPA0.def",
+      "bytes": 425972,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CADEVL.def",
       "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 20,
-      "width": 76,
-      "height": 75,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C12SPA0.def.webp",
-      "previewWidth": 70,
-      "previewHeight": 67,
-      "anchor": "file-fc9708dbab8e",
-      "sha256": "880c2025acefe9be6f21b450e1b33ff7f942ad531513762c0396e03ae10311c6",
+      "type": 66,
+      "groups": 15,
+      "frames": 103,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CADEVL.def.webp",
+      "previewWidth": 43,
+      "previewHeight": 117,
+      "anchor": "file-fa9aa710a6d1",
+      "sha256": "9f3900673ead754763c25de82cb290d28d340f525c7583d7151c509eff5915e0",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 13
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 8
+        },
+        {
+          "id": 20,
+          "frames": 14
+        },
+        {
+          "id": 21,
+          "frames": 10
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Inferno creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C12SPE0.def",
-      "name": "C12SPE0.def",
+      "id": "H3sprite.lod/CaDrgn.def",
+      "name": "CaDrgn.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 169718,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C12SPE0.def",
+      "bytes": 849182,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CaDrgn.def",
       "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 20,
-      "width": 98,
-      "height": 95,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C12SPE0.def.webp",
-      "previewWidth": 89,
-      "previewHeight": 90,
-      "anchor": "file-f526b4d1d909",
-      "sha256": "49c17723cc565e111fb855e643deb9a1357c62dca68d12a6e35bab8900422f8a",
+      "type": 66,
+      "groups": 18,
+      "frames": 125,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CaDrgn.def.webp",
+      "previewWidth": 178,
+      "previewHeight": 106,
+      "anchor": "file-eb03d98daf11",
+      "sha256": "6df1b7fd83649d7ce119b42f069c912269ec90b72b72259b4a62f1c442b72fc1",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        },
+        {
+          "id": 1,
+          "frames": 8
+        },
+        {
+          "id": 2,
+          "frames": 12
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 7
+        },
+        {
+          "id": 5,
+          "frames": 9
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 11
+        },
+        {
+          "id": 12,
+          "frames": 10
+        },
+        {
+          "id": 13,
+          "frames": 10
+        },
+        {
+          "id": 17,
+          "frames": 11
+        },
+        {
+          "id": 18,
+          "frames": 10
+        },
+        {
+          "id": 19,
+          "frames": 8
+        },
+        {
+          "id": 20,
+          "frames": 4
+        },
+        {
+          "id": 21,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Neutral creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C12SPF0.def",
-      "name": "C12SPF0.def",
+      "id": "H3sprite.lod/CAELEM.def",
+      "name": "CAELEM.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 54124,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C12SPF0.def",
+      "bytes": 269186,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAELEM.def",
       "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 13,
-      "width": 114,
-      "height": 108,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C12SPF0.def.webp",
-      "previewWidth": 90,
-      "previewHeight": 70,
-      "anchor": "file-97ef86246805",
-      "sha256": "683eb0998e16545efef4c1defcfdcbbbdbbf34428612d513884a15d1794b55d0",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C12SPF1.def",
-      "name": "C12SPF1.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 142423,
-      "sha256": "a8aca048eba2246c9d2e09bc12c09016e97746da75c13a4e7e80f9c84a1d4996",
-      "anchor": "file-39397bf077ae",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C12SPF1.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 20,
-      "width": 98,
-      "height": 95,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C12SPF1.def.webp",
-      "previewWidth": 87,
+      "type": 66,
+      "groups": 15,
+      "frames": 79,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAELEM.def.webp",
+      "previewWidth": 92,
       "previewHeight": 88,
+      "anchor": "file-7a632a311783",
+      "sha256": "985995b40af3986b8beac32ea4d957f580f129e7d31aea229b3943c20dd4f7b2",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        },
+        {
+          "id": 1,
+          "frames": 6
+        },
+        {
+          "id": 2,
+          "frames": 6
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 10
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Conflux creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CALIZA.def",
+      "name": "CALIZA.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 270699,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CALIZA.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 18,
+      "frames": 119,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CALIZA.def.webp",
+      "previewWidth": 59,
+      "previewHeight": 80,
+      "anchor": "file-09004ec6518a",
+      "sha256": "84fcb8cfce5892a0dcee082c647aec3fa78abefe3ee2d7cd2d8eca8b23433a14",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 10
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 10
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 9
+        },
+        {
+          "id": 12,
+          "frames": 9
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 14,
+          "frames": 10
+        },
+        {
+          "id": 15,
+          "frames": 10
+        },
+        {
+          "id": 16,
+          "frames": 10
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 3
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Fortress creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CAMAGE.def",
+      "name": "CAMAGE.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 299576,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMAGE.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 18,
+      "frames": 133,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMAGE.def.webp",
+      "previewWidth": 63,
+      "previewHeight": 84,
+      "anchor": "file-f039e838cb03",
+      "sha256": "0fd126c360ec31a7718f8f4bd30fd3546a35b03e136dbb76504b6c0ad4b098ff",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 11
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 10
+        },
+        {
+          "id": 12,
+          "frames": 10
+        },
+        {
+          "id": 13,
+          "frames": 10
+        },
+        {
+          "id": 14,
+          "frames": 13
+        },
+        {
+          "id": 15,
+          "frames": 13
+        },
+        {
+          "id": 16,
+          "frames": 13
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Tower creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CamCusL.def",
+      "name": "CamCusL.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 37284,
+      "sha256": "76bdb2f35c1549886335883e586242c58944c644614320f44eced1d9a9113ae4",
+      "anchor": "file-638ec3e88900",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CamCusL.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 316,
+      "height": 28,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CamCusL.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 21,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C13SPA0.def",
-      "name": "C13SPA0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 78808,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C13SPA0.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 16,
-      "width": 80,
-      "height": 100,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C13SPA0.def.webp",
-      "previewWidth": 67,
-      "previewHeight": 75,
-      "anchor": "file-52f060741fce",
-      "sha256": "7676f295f876d70f765b21b78a50e3a39723f7090b8534ddc29609c29a45e6d1",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C13SPE0.def",
-      "name": "C13SPE0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 40448,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C13SPE0.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 16,
-      "width": 56,
-      "height": 73,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C13SPE0.def.webp",
-      "previewWidth": 41,
-      "previewHeight": 63,
-      "anchor": "file-6e4e49b64b18",
-      "sha256": "6c42a99d35bc0b114e2bb4cd7edb2bd7ce19a6d2c3a0684e3ef37f0ea1ac5a51",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C13SPF.DEF",
-      "name": "C13SPF.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 127431,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C13SPF.DEF",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 13,
-      "width": 142,
-      "height": 155,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C13SPF.DEF.webp",
-      "previewWidth": 57,
-      "previewHeight": 65,
-      "anchor": "file-7507cc345d55",
-      "sha256": "251b03415e8dd334c350a728b6ee1b901fdfc55b96b5b149d3dc5b596f6e297a",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C13SPF0.def",
-      "name": "C13SPF0.def",
+      "id": "H3sprite.lod/CamCusM.def",
+      "name": "CamCusM.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "kind": "def",
-      "bytes": 164670,
-      "sha256": "d180c0fdc0271125812e886daaab5d9398194a4e0a67fff75eed6540739aa656",
-      "anchor": "file-0b23b3bb3e4f",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C13SPF0.def",
-      "type": 64,
+      "bytes": 5140,
+      "sha256": "f7f1bccdf5ca7edcb97b2b2abe615a16f0d571e9d71669cc7a4a3a1b1ba82977",
+      "anchor": "file-a63c9df5d6e4",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CamCusM.def",
+      "type": 71,
       "groups": 1,
-      "frames": 19,
-      "width": 119,
-      "height": 151,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C13SPF0.def.webp",
+      "frames": 4,
+      "width": 31,
+      "height": 28,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CamCusM.def.webp",
       "previewWidth": 31,
-      "previewHeight": 35,
+      "previewHeight": 28,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C13SPW0.def",
-      "name": "C13SPW0.def",
+      "id": "H3sprite.lod/CAMPCAN.def",
+      "name": "CAMPCAN.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 57937,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C13SPW0.def",
       "kind": "def",
-      "type": 64,
+      "bytes": 6658,
+      "sha256": "af17341d90336622695a12f8d8ba21382f7d92c4de3915ebb60bb29213fa7d0d",
+      "anchor": "file-5f93ecb5c07e",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMPCAN.def",
+      "type": 71,
       "groups": 1,
-      "frames": 18,
-      "width": 80,
-      "height": 100,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C13SPW0.def.webp",
-      "previewWidth": 56,
-      "previewHeight": 72,
-      "anchor": "file-505c91b857b2",
-      "sha256": "a03edce40c09420af13ed5403f25f5ec5eb695e4b24ea9982bbbaf798e93e72f",
+      "frames": 2,
+      "width": 66,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMPCAN.def.webp",
+      "previewWidth": 66,
+      "previewHeight": 40,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C14SPA0.def",
-      "name": "C14SPA0.def",
+      "id": "H3sprite.lod/CAMPCHK.def",
+      "name": "CAMPCHK.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 71065,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C14SPA0.def",
       "kind": "def",
-      "type": 64,
+      "bytes": 6658,
+      "sha256": "f7d7f5f293c6c906aeca79c1fe771b545069e630d1b0497157c9a0fb83169c17",
+      "anchor": "file-3a9bcb94d6db",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMPCHK.def",
+      "type": 71,
       "groups": 1,
-      "frames": 15,
-      "width": 84,
-      "height": 89,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C14SPA0.def.webp",
-      "previewWidth": 75,
-      "previewHeight": 77,
-      "anchor": "file-3908d571f049",
-      "sha256": "a0d482362fe6628607641cfaff8d6b1a5eee1b4bac21d43b8b7cbd9f8833b26e",
+      "frames": 2,
+      "width": 66,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMPCHK.def.webp",
+      "previewWidth": 66,
+      "previewHeight": 40,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C14SPE0.def",
-      "name": "C14SPE0.def",
+      "id": "H3sprite.lod/CAMPCN.def",
+      "name": "CAMPCN.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 106487,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C14SPE0.def",
       "kind": "def",
-      "type": 64,
+      "bytes": 22338,
+      "sha256": "bd7d2f11f571c65651257c7bda047a149d10a527781156d9289ce013296a84cd",
+      "anchor": "file-e5add4642b0d",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMPCN.def",
+      "type": 71,
       "groups": 1,
-      "frames": 20,
-      "width": 90,
-      "height": 125,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C14SPE0.def.webp",
-      "previewWidth": 79,
-      "previewHeight": 41,
-      "anchor": "file-63cc9c8569d3",
-      "sha256": "634a1f394aa5ac4b5ae729fbf8c4969a5ed635cbc490441ee2b3ccdc2c1f5966",
+      "frames": 2,
+      "width": 260,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMPCN.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 37,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C15SPA0.def",
-      "name": "C15SPA0.def",
+      "id": "H3sprite.lod/CAMPLD.def",
+      "name": "CAMPLD.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 76554,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPA0.def",
       "kind": "def",
-      "type": 64,
+      "bytes": 22338,
+      "sha256": "abac8d5f1e29412bf5296742e060387e124d49eff16b6588a12974253e559e47",
+      "anchor": "file-4ec64e9f4f6b",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMPLD.def",
+      "type": 71,
       "groups": 1,
-      "frames": 15,
-      "width": 113,
-      "height": 106,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPA0.def.webp",
-      "previewWidth": 79,
-      "previewHeight": 97,
-      "anchor": "file-d40de16df5d7",
-      "sha256": "4d88b63b0da6695a128eddd143af33de84468fd93dad46333d58bfe8be23404a",
+      "frames": 2,
+      "width": 260,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMPLD.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 37,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Hero spells"
+            "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C15SPE0.def",
-      "name": "C15SPE0.def",
+      "id": "H3sprite.lod/CAMPRST.def",
+      "name": "CAMPRST.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 14272,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE0.def",
       "kind": "def",
-      "type": 64,
+      "bytes": 14338,
+      "sha256": "9354e0332ee550fa16ba4bb233c8ccf1cea38476f6a92cd0f84277100718dd1b",
+      "anchor": "file-f722ebe16847",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMPRST.def",
+      "type": 71,
       "groups": 1,
-      "frames": 3,
+      "frames": 2,
+      "width": 162,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMPRST.def.webp",
+      "previewWidth": 162,
+      "previewHeight": 40,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CampStar.def",
+      "name": "CampStar.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 23706,
+      "sha256": "1d08194c23b493b3290c0c38fdaeffa220986f4226ad02a078fd45c5a8e78ce6",
+      "anchor": "file-546e648148c0",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CampStar.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 10,
       "width": 61,
-      "height": 136,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE0.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 104,
-      "anchor": "file-18ffdc16ac0d",
-      "sha256": "d7435e50c19840b4b839565aed2ec81846d5fee38e8509b3c8946195c7ffc8be",
-      "destinations": [
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CampStar.def.webp",
+      "previewWidth": 61,
+      "previewHeight": 48,
+      "frameGroups": [
         {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "id": 0,
+          "frames": 10
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE1.def",
-      "name": "C15SPE1.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 34045,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE1.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 9,
-      "width": 61,
-      "height": 136,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE1.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 103,
-      "anchor": "file-0042f222959c",
-      "sha256": "7081d0f8516950a0c3758eaffb19ebb3366b2038b461e76e3324bb583df7c4e7",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE10.def",
-      "name": "C15SPE10.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 42224,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE10.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 9,
-      "width": 60,
-      "height": 178,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE10.def.webp",
-      "previewWidth": 37,
-      "previewHeight": 128,
-      "anchor": "file-7e690e47be7c",
-      "sha256": "34a0073989520d07a5758996b5672d95290f3bdcda739b4624416f1127adf321",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE11.def",
-      "name": "C15SPE11.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 17509,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE11.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 3,
-      "width": 60,
-      "height": 178,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE11.def.webp",
-      "previewWidth": 37,
-      "previewHeight": 128,
-      "anchor": "file-6b35763df524",
-      "sha256": "1a4e682b2c0c66ee3a602681a07274d13a5a6f1d79ee2130841334690627a07b",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE2.def",
-      "name": "C15SPE2.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 14637,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE2.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 3,
-      "width": 61,
-      "height": 136,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE2.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 103,
-      "anchor": "file-4e36a064fa49",
-      "sha256": "69f7a1733920e9eaac861bb809ce99b716d8ef5ce5dfd5fd56ea9917187518ba",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE3.def",
-      "name": "C15SPE3.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 61757,
-      "sha256": "2493573ee8d2f3f9604b4808ebb87a7f0799fe9799552f9c9e094bc8204bd278",
-      "anchor": "file-7305b6093ea1",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE3.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 15,
-      "width": 60,
-      "height": 178,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE3.def.webp",
-      "previewWidth": 35,
-      "previewHeight": 115,
+      ],
       "destinations": [
         {
           "category": [
             "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C15SPE4.def",
-      "name": "C15SPE4.def",
+      "id": "H3sprite.lod/CAMPVID.def",
+      "name": "CAMPVID.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "kind": "def",
-      "bytes": 34045,
-      "sha256": "75a83f4a61d6737190c2ea7e898008466ad1f01f56a1b2054dba6e5aaa2d1727",
-      "anchor": "file-4606b193682e",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE4.def",
-      "type": 64,
+      "bytes": 5098,
+      "sha256": "ae334c748b882bd856d35004b4b3b36c0892d0132fb58cd209876c453e411e68",
+      "anchor": "file-698c06078e70",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CAMPVID.def",
+      "type": 71,
       "groups": 1,
-      "frames": 9,
-      "width": 55,
-      "height": 115,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE4.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 103,
+      "frames": 2,
+      "width": 64,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CAMPVID.def.webp",
+      "previewWidth": 64,
+      "previewHeight": 30,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Other files"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/C15SPE5.def",
-      "name": "C15SPE5.def",
+      "id": "H3sprite.lod/cangel.def",
+      "name": "cangel.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
+      "bytes": 272287,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/cangel.def",
       "kind": "def",
-      "bytes": 14637,
-      "sha256": "3bf127034aec9a0a145493e7ca55acd4a77b677754ff4223c0992f47139f546e",
-      "anchor": "file-d516909413e6",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE5.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 3,
-      "width": 55,
-      "height": 115,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE5.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 103,
-      "destinations": [
+      "type": 66,
+      "groups": 18,
+      "frames": 98,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/cangel.def.webp",
+      "previewWidth": 106,
+      "previewHeight": 102,
+      "anchor": "file-df91ff6bf97f",
+      "sha256": "a804ed3408a60e333021ca0d1aae140e152515ac31229f90f64c16ba547152ba",
+      "frameGroups": [
         {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 10
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 10
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 6
+        },
+        {
+          "id": 12,
+          "frames": 6
+        },
+        {
+          "id": 13,
+          "frames": 6
+        },
+        {
+          "id": 14,
+          "frames": 6
+        },
+        {
+          "id": 15,
+          "frames": 6
+        },
+        {
+          "id": 16,
+          "frames": 6
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 3
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE6.def",
-      "name": "C15SPE6.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 16914,
-      "sha256": "40eabe5386e6ae92d5f148dec726f6344eea2c2020a91298118cb1b939832b43",
-      "anchor": "file-b49929cd8af5",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE6.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 3,
-      "width": 48,
-      "height": 143,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE6.def.webp",
-      "previewWidth": 37,
-      "previewHeight": 128,
+      ],
       "destinations": [
         {
           "category": [
-            "Other files"
+            "Castle creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE7.def",
-      "name": "C15SPE7.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 42224,
-      "sha256": "b4cb3b5e8752e10cd3834064b7d748aa14cf46ebc0cacb8973c793a652f226ac",
-      "anchor": "file-4ea3d40c3de0",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE7.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 9,
-      "width": 48,
-      "height": 143,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE7.def.webp",
-      "previewWidth": 37,
-      "previewHeight": 128,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE8.def",
-      "name": "C15SPE8.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 17509,
-      "sha256": "ee1e87c36ce4e51009e69a7ce6270d3f828bbdb7652595afe6f30e86ef2f9f90",
-      "anchor": "file-2be49d0a702f",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE8.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 3,
-      "width": 48,
-      "height": 143,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE8.def.webp",
-      "previewWidth": 37,
-      "previewHeight": 128,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C15SPE9.def",
-      "name": "C15SPE9.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 16914,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C15SPE9.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 3,
-      "width": 60,
-      "height": 178,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C15SPE9.def.webp",
-      "previewWidth": 37,
-      "previewHeight": 128,
-      "anchor": "file-2748a7953b0b",
-      "sha256": "6db77a20eefe87abc538845917d53adb78b267772d477e1d9bb9f274aad5c178",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C16SPE.DEF",
-      "name": "C16SPE.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 70206,
-      "sha256": "2a4e3b0aecbaf746f48f21b8f429bd1e47179a9de0d82991f1ac17b6ad3ed466",
-      "anchor": "file-d564f94ec5c7",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C16SPE.DEF",
-      "type": 64,
-      "groups": 1,
-      "frames": 22,
-      "width": 89,
-      "height": 83,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C16SPE.DEF.webp",
-      "previewWidth": 74,
-      "previewHeight": 72,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/C16SPE0.def",
-      "name": "C16SPE0.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 78819,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/C16SPE0.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 22,
-      "width": 89,
-      "height": 83,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/C16SPE0.def.webp",
-      "previewWidth": 75,
-      "previewHeight": 78,
-      "anchor": "file-234637d05c29",
-      "sha256": "1f560fd3dda32e2c8235964e99ba5eccb7c90a2babb97b8212f1d20595d8e52a",
-      "destinations": [
-        {
-          "category": [
-            "Hero spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     }

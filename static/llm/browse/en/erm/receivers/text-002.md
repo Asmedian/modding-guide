@@ -1,7 +1,7 @@
 # Battlefield setup (BF)
 
 ID: erm.receivers.bf
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bf/
+URL: /en/erm/receivers/bf/
 Part: 1/1
 Source references: old-help:rec-bf.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -100,7 +100,7 @@ Place a separate object<br>
 # Current battle action (BG)
 
 ID: erm.receivers.bg
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bg/
+URL: /en/erm/receivers/bg/
 Part: 1/1
 Source references: old-help:rec-bg.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -234,7 +234,7 @@ Example: force a creature with a spell to cast it:
 # Battle hero actions (BH)
 
 ID: erm.receivers.bh
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bh/
+URL: /en/erm/receivers/bh/
 Part: 1/1
 Source references: old-help:rec-bh.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

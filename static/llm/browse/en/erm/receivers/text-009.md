@@ -1,7 +1,7 @@
 # Custom dialogs (DL)
 
 ID: erm.receivers.dl
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/dl/
+URL: /en/erm/receivers/dl/
 Part: 2/2
 Source references: old-help:rec-dl.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -180,7 +180,7 @@ Black: -9, -7, -5, -3, -1, 23</em></div></details></td>
 # Repeated function calls (DO)
 
 ID: erm.receivers.do
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/do/
+URL: /en/erm/receivers/do/
 Part: 1/1
 Source references: old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -349,7 +349,7 @@ You will see 33, 50, 67...</code></pre></div>
 # Creature dwellings (DW)
 
 ID: erm.receivers.dw
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/dw/
+URL: /en/erm/receivers/dw/
 Part: 1/1
 Source references: old-help:rec-dw.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

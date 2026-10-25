@@ -1,7 +1,7 @@
 # CM:I click areas
 
 ID: erm.tables.dialog-items
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-items/
+URL: /en/erm/tables/dialog-items/
 Part: 2/3
 Source references: old-help:form-cmi.htm, old-help:rec-cm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

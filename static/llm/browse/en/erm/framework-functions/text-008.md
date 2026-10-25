@@ -1,97 +1,7 @@
-# H3Dlg_SendCmdToItem
-
-ID: erm.framework.functions.h3dlg-sendcmdtoitem
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-sendcmdtoitem/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.h3dlg-sendcmdtoitem 1 -->
-## Purpose {#purpose}
-
-Sends a DLG_CMD_* to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number.
-
-## Call contract {#signature}
-
-```erm
-!!FU(H3Dlg_SendCmdToItem):P(h3Dlg)/(itemId)/(cmdSubtype)/(param)/(cmdType);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `h3Dlg` | input |
-| x2 | `itemId` | input |
-| x3 | `cmdSubtype` | input |
-| x4 | `param` | input |
-| x5 | `cmdType` | output / mutable |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `ShowErmError`.
-
-The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2126â€“2151, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall) Â· [DLG_CMD_SET_DEF](../../constants/h3-dialog-commands/#const-dlg-cmd-set-def) Â· [DLG_CMD_SET_PCX](../../constants/h3-dialog-commands/#const-dlg-cmd-set-pcx) Â· [DLG_CMD_SET_TEXT](../../constants/h3-dialog-commands/#const-dlg-cmd-set-text) Â· [DLG_CMD_TYPE_DEFAULT](../../constants/h3-dialog-commands/#const-dlg-cmd-type-default) Â· [NULL](../../constants/universal/#const-null)
-<!-- llm:end erm.framework.functions.h3dlg-sendcmdtoitem 1 -->
-
-# H3Dlg_ShowPopup
-
-ID: erm.framework.functions.h3dlg-showpopup
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-showpopup/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.h3dlg-showpopup 1 -->
-## Purpose {#purpose}
-
-Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address.
-
-## Call contract {#signature}
-
-```erm
-!!FU(H3Dlg_ShowPopup):P(h3Dlg);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `h3Dlg` | input |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
-
-## Related functions {#calls}
-
-[H3Dlg_ResumeAnimation](../h3dlg-resumeanimation/) Â· [H3Dlg_StopAnimation](../h3dlg-stopanimation/)
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2030â€“2037, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[CALLCONV_THISCALL](../../constants/calling-conventions/#const-callconv-thiscall)
-<!-- llm:end erm.framework.functions.h3dlg-showpopup 1 -->
-
 # H3Dlg_StopAnimation
 
 ID: erm.framework.functions.h3dlg-stopanimation
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-stopanimation/
+URL: /en/erm/framework/functions/h3dlg-stopanimation/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -121,7 +31,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2022â
 # H3Dlg_UpdateItemRange
 
 ID: erm.framework.functions.h3dlg-updateitemrange
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-updateitemrange/
+URL: /en/erm/framework/functions/h3dlg-updateitemrange/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -165,7 +75,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # H3Quests_RefreshData
 
 ID: erm.framework.functions.h3quests-refreshdata
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3quests-refreshdata/
+URL: /en/erm/framework/functions/h3quests-refreshdata/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -205,7 +115,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3321â
 # Hash32
 
 ID: erm.framework.functions.hash32
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/hash32/
+URL: /en/erm/framework/functions/hash32/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -243,7 +153,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1350â
 # Interpolate
 
 ID: erm.framework.functions.interpolate
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/interpolate/
+URL: /en/erm/framework/functions/interpolate/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -280,7 +190,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1511â
 # IntLog2
 
 ID: erm.framework.functions.intlog2
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/intlog2/
+URL: /en/erm/framework/functions/intlog2/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -317,7 +227,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1180â
 # IsDllLoaded
 
 ID: erm.framework.functions.isdllloaded
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/isdllloaded/
+URL: /en/erm/framework/functions/isdllloaded/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -358,7 +268,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2936â
 # LeaveMouseEvent
 
 ID: erm.framework.functions.leavemouseevent
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/leavemouseevent/
+URL: /en/erm/framework/functions/leavemouseevent/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -390,7 +300,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 171
 # LoadIntGlobalsFromJson
 
 ID: erm.framework.functions.loadintglobalsfromjson
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/loadintglobalsfromjson/
+URL: /en/erm/framework/functions/loadintglobalsfromjson/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -432,7 +342,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1835â
 # MakeRngSeed
 
 ID: erm.framework.functions.makerngseed
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/makerngseed/
+URL: /en/erm/framework/functions/makerngseed/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -472,7 +382,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1361â
 # MergeIniWithDefault
 
 ID: erm.framework.functions.mergeiniwithdefault
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/mergeiniwithdefault/
+URL: /en/erm/framework/functions/mergeiniwithdefault/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -509,7 +419,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1621â
 # MonCountToFuzzyText
 
 ID: erm.framework.functions.moncounttofuzzytext
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/moncounttofuzzytext/
+URL: /en/erm/framework/functions/moncounttofuzzytext/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -557,7 +467,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2950â
 # NewIntArray
 
 ID: erm.framework.functions.newintarray
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/newintarray/
+URL: /en/erm/framework/functions/newintarray/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -601,4 +511,144 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 301â€
 
 [ARG_SYNTAX_GET](../../constants/erm-commands/#const-arg-syntax-get) Â· [M_AUTO_ID](../../constants/erm-commands/#const-m-auto-id) Â· [M_INT](../../constants/erm-commands/#const-m-int) Â· [M_TRIGGER_LOCAL](../../constants/erm-commands/#const-m-trigger-local)
 <!-- llm:end erm.framework.functions.newintarray 1 -->
+
+# NewStrArray
+
+ID: erm.framework.functions.newstrarray
+URL: /en/erm/framework/functions/newstrarray/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.newstrarray 1 -->
+## Purpose {#purpose}
+
+Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address.
+
+## Call contract {#signature}
+
+```erm
+!!FU(NewStrArray):P?(result:y);
+!!FU(NewStrArray):P(size)/?(result:y);
+!!FU(NewStrArray):P(size)/(fill)/?(result:y)/(storage);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `arg1` | input |
+| x2 | `arg2` | input |
+| x3 | `arg3` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `ExtendArrayLifetime`.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 337â€“375, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[ARG_SYNTAX_GET](../../constants/erm-commands/#const-arg-syntax-get) Â· [M_AUTO_ID](../../constants/erm-commands/#const-m-auto-id) Â· [M_STR](../../constants/erm-commands/#const-m-str) Â· [M_TRIGGER_LOCAL](../../constants/erm-commands/#const-m-trigger-local)
+<!-- llm:end erm.framework.functions.newstrarray 1 -->
+
+# OnAdventureMapLeftMouseClick_Quit
+
+ID: erm.framework.functions.onadventuremapleftmouseclick-quit
+URL: /en/erm/framework/functions/onadventuremapleftmouseclick-quit/
+Part: 1/1
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.onadventuremapleftmouseclick-quit 1 -->
+## Purpose {#purpose}
+
+Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnAdventureMapLeftMouseClick_Quit);
+```
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+## Related functions {#calls}
+
+[LeaveMouseEvent](../leavemouseevent/)
+
+## Version and status {#provenance}
+
+Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 52â€“54, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.onadventuremapleftmouseclick-quit 1 -->
+
+# OnAdventureMapLeftMouseClick
+
+ID: erm.framework.functions.onadventuremapleftmouseclick
+URL: /en/erm/framework/functions/onadventuremapleftmouseclick/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.onadventuremapleftmouseclick 1 -->
+## Purpose {#purpose}
+
+Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnAdventureMapLeftMouseClick);
+```
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+## Related functions {#calls}
+
+[EnterMouseEvent](../entermouseevent/)
+
+## Version and status {#provenance}
+
+Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, lines 190â€“192, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.onadventuremapleftmouseclick 1 -->
+
+# OnAdventureMapRightMouseClick_Quit
+
+ID: erm.framework.functions.onadventuremaprightmouseclick-quit
+URL: /en/erm/framework/functions/onadventuremaprightmouseclick-quit/
+Part: 1/1
+Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.onadventuremaprightmouseclick-quit 1 -->
+## Purpose {#purpose}
+
+Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
+
+## Call contract {#signature}
+
+```erm
+!?FU(OnAdventureMapRightMouseClick_Quit);
+```
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+## Related functions {#calls}
+
+[LeaveMouseEvent](../leavemouseevent/)
+
+## Version and status {#provenance}
+
+Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, lines 37â€“39, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.onadventuremaprightmouseclick-quit 1 -->
 

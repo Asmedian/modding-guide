@@ -1,7 +1,7 @@
 # Passing control to a stack (OnBattleStackObtainsTurn)
 
 ID: erm.triggers.onbattlestackobtainsturn
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackobtainsturn/
+URL: /en/erm/triggers/onbattlestackobtainsturn/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -34,7 +34,7 @@ ID `77006`; registered as `TRIGGER_STACK_OBTAINS_TURN`. The name is confirmed by
 # Stack regeneration amount (OnBattleStackRegeneration)
 
 ID: erm.triggers.onbattlestackregeneration
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackregeneration/
+URL: /en/erm/triggers/onbattlestackregeneration/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -67,7 +67,7 @@ ID `77056`; registered as `TRIGGER_BATTLE_STACK_REGENERATION`. The name is confi
 # Before showing the battlefield (OnBeforeBattlefieldVisible)
 
 ID: erm.triggers.onbeforebattlefieldvisible
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlefieldvisible/
+URL: /en/erm/triggers/onbeforebattlefieldvisible/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -100,7 +100,7 @@ ID `77019`; registered as `TRIGGER_ONBEFORE_BATTLEFIELD_VISIBLE`. The name is co
 # Before battle replay (OnBeforeBattleReplay)
 
 ID: erm.triggers.onbeforebattlereplay
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlereplay/
+URL: /en/erm/triggers/onbeforebattlereplay/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -133,7 +133,7 @@ ID `77044`; registered as `TRIGGER_BEFORE_BATTLE_REPLAY`. The name is confirmed 
 # Before a stack turn (OnBeforeBattleStackTurn)
 
 ID: erm.triggers.onbeforebattlestackturn
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlestackturn/
+URL: /en/erm/triggers/onbeforebattlestackturn/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -166,7 +166,7 @@ ID `77041`; registered as `TRIGGER_BEFORE_STACK_TURN`. The name is confirmed by 
 # Before hero interaction (OnBeforeHeroInteraction)
 
 ID: erm.triggers.onbeforeherointeraction
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeherointeraction/
+URL: /en/erm/triggers/onbeforeherointeraction/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -198,7 +198,7 @@ ID `77010`; registered as `TRIGGER_BEFOREHEROINTERACT`. The name is confirmed by
 # Before a local event (OnBeforeLocalEvent)
 
 ID: erm.triggers.onbeforelocalevent
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforelocalevent/
+URL: /en/erm/triggers/onbeforelocalevent/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -231,7 +231,7 @@ ID `77045`; registered as `TRIGGER_BEFORE_LOCAL_EVENT`. The name is confirmed by
 # Before placing battle obstacles (OnBeforePlaceBattleObstacles)
 
 ID: erm.triggers.onbeforeplacebattleobstacles
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeplacebattleobstacles/
+URL: /en/erm/triggers/onbeforeplacebattleobstacles/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -264,7 +264,7 @@ ID `77054`; registered as `TRIGGER_BEFORE_BATTLE_PLACE_BATTLE_OBSTACLES`. The na
 # Building a town structure (OnBuildTownBuilding)
 
 ID: erm.triggers.onbuildtownbuilding
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbuildtownbuilding/
+URL: /en/erm/triggers/onbuildtownbuilding/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -296,7 +296,7 @@ ID `77031`; registered as `TRIGGER_BUILD_TOWN_BUILDING`. The name is confirmed b
 # Calculating town income (OnCalculateTownIncome)
 
 ID: erm.triggers.oncalculatetownincome
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/oncalculatetownincome/
+URL: /en/erm/triggers/oncalculatetownincome/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -329,7 +329,7 @@ ID `77042`; registered as `TRIGGER_CALC_TOWN_INCOME`. The name is confirmed by t
 # Game chat (OnChat)
 
 ID: erm.triggers.onchat
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onchat/
+URL: /en/erm/triggers/onchat/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -362,7 +362,7 @@ ID `77014`; registered as `TRIGGER_ONCHAT`. The name is confirmed by the supplie
 # Closing the hero screen (OnCloseHeroScreen)
 
 ID: erm.triggers.oncloseheroscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/oncloseheroscreen/
+URL: /en/erm/triggers/oncloseheroscreen/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

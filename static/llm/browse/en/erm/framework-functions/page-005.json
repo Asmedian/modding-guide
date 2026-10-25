@@ -2,140 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.framework.functions.dl-getsize",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/dl-getsize",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-getsize/",
-      "title": "DL_GetSize",
-      "summary": "Returns the width and height of an existing DL dialog; reports an error if absent.",
-      "keywords": [
-        "DL_GetSize",
-        "FU(DL_GetSize)",
-        "public",
-        "dialogs"
-      ],
-      "questions": [
-        "Returns the width and height of an existing DL dialog; reports an error if absent."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ],
-        "calls": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ],
-        "constants": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "constants",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Related functions",
-            "Version and status",
-            "Constants used"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.dl-setplayercolor",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/dl-setplayercolor",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setplayercolor/",
-      "title": "DL_SetPlayerColor",
-      "summary": "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.",
-      "keywords": [
-        "DL_SetPlayerColor",
-        "FU(DL_SetPlayerColor)",
-        "public",
-        "dialogs"
-      ],
-      "questions": [
-        "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ],
-        "calls": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ],
-        "constants": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "constants",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Related functions",
-            "Version and status",
-            "Constants used"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.framework.functions.dl-setsize",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-setsize",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setsize/",
+      "url": "/en/erm/framework/functions/dl-setsize/",
       "title": "DL_SetSize",
       "summary": "Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged.",
       "keywords": [
@@ -178,7 +50,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -199,7 +71,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-showpopup",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-showpopup/",
+      "url": "/en/erm/framework/functions/dl-showpopup/",
       "title": "DL_ShowPopup",
       "summary": "Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.",
       "keywords": [
@@ -242,7 +114,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -263,7 +135,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/emptyinicache",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/emptyinicache/",
+      "url": "/en/erm/framework/functions/emptyinicache/",
       "title": "EmptyIniCache",
       "summary": "Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.",
       "keywords": [
@@ -300,7 +172,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -319,7 +191,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/enableerrors",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/enableerrors/",
+      "url": "/en/erm/framework/functions/enableerrors/",
       "title": "EnableErrors",
       "summary": "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library.",
       "keywords": [
@@ -359,7 +231,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-006.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -379,7 +251,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/entermouseevent",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/entermouseevent/",
+      "url": "/en/erm/framework/functions/entermouseevent/",
       "title": "EnterMouseEvent",
       "summary": "Saves previous keyboard/mouse context, then reads modifiers and CM for the new event.",
       "keywords": [
@@ -415,7 +287,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-006.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -434,7 +306,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/equiparttoslot",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/equiparttoslot/",
+      "url": "/en/erm/framework/functions/equiparttoslot/",
       "title": "EquipArtToSlot",
       "summary": "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots.",
       "keywords": [
@@ -474,7 +346,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-006.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -494,7 +366,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/fileexists",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/fileexists/",
+      "url": "/en/erm/framework/functions/fileexists/",
       "title": "FileExists",
       "summary": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.",
       "keywords": [
@@ -534,7 +406,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-006.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -554,7 +426,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/formatquantity",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/formatquantity/",
+      "url": "/en/erm/framework/functions/formatquantity/",
       "title": "FormatQuantity",
       "summary": "Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported.",
       "keywords": [
@@ -594,7 +466,300 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions",
+      "url": "/en/erm/framework/functions/",
+      "title": "Framework functions",
+      "summary": "Complete catalog of 185 functions and handlers, with contracts and limitations.",
+      "keywords": [
+        "ClearEventChainData",
+        "SaveEventData",
+        "RestoreEventData",
+        "SavePrevKeyModsState",
+        "RestorePrevKeyModsState",
+        "GetKeyModsState",
+        "CollectMouseEventData",
+        "SavePrevMouseEventData",
+        "RestorePrevMouseEventData",
+        "EnterMouseEvent",
+        "LeaveMouseEvent",
+        "CompareStrings_Bridge_INTERNAL",
+        "NewIntArray",
+        "NewStrArray",
+        "Array_Push",
+        "Array_Pop",
+        "Array_Move",
+        "Array_Splice",
+        "Array_Copy",
+        "Array_Clone",
+        "Array_Merge",
+        "Array_Slice",
+        "Array_Join",
+        "Array_Sort",
+        "Array_CustomSort",
+        "Array_SortedUnique",
+        "Array_Shuffle",
+        "Array_Revert",
+        "Array_Fill",
+        "Array_Resize",
+        "Array_EnsureMinSize",
+        "Array_CountValue",
+        "Array_IndexOf",
+        "Array_Find",
+        "Pow",
+        "Sqrt",
+        "IntLog2",
+        "ConstructBitMask",
+        "DeconstructBitMask",
+        "PackUnion",
+        "UnpackUnion",
+        "Tm32Encode",
+        "Tm32Decode",
+        "Hash32",
+        "MakeRngSeed",
+        "SplitMix32",
+        "Trim",
+        "GetStrAtAddr",
+        "CompareStrings",
+        "StrToUpper",
+        "StrToLower",
+        "Substr",
+        "StrPos",
+        "StrReplace",
+        "Interpolate",
+        "DecorateInt",
+        "FormatQuantity",
+        "FileExists",
+        "DirExists",
+        "DeleteFile",
+        "ClearIniCache",
+        "EmptyIniCache",
+        "CreateDir",
+        "SaveIni",
+        "MergeIniWithDefault",
+        "WriteIniInts",
+        "WriteIniStrings",
+        "ReadIniInts",
+        "ReadIniStrings",
+        "ReadJsonIntArray",
+        "ReadJsonStrArray",
+        "LoadIntGlobalsFromJson",
+        "ScanDir",
+        "GetModList",
+        "SaveGame",
+        "DisableErrors",
+        "EnableErrors",
+        "H3Dlg_StopAnimation",
+        "H3Dlg_ResumeAnimation",
+        "H3Dlg_ShowPopup",
+        "H3Dlg_Coords",
+        "DL_Coords",
+        "H3Dlg_CenterAtMouse",
+        "DL_CenterAtMouse",
+        "H3Dlg_GetRootDlg",
+        "H3Dlg_GetCurrentDlg",
+        "H3Dlg_GetCurrentDlgId",
+        "H3Dlg_SendCmdToItem",
+        "H3Dlg_DrawItemOnScreen",
+        "H3Dlg_UpdateItemRange",
+        "DL_FindById",
+        "DL_Destroy",
+        "DL_ShowPopup",
+        "DL_GetSize",
+        "DL_SetSize",
+        "DL_AlignDlg",
+        "DL_SetPlayerColor",
+        "ClearScreenLog",
+        "AdvMap_SetHint",
+        "AdvMap_SetInfoPanelText",
+        "AdvMap_SetInfoPanelDef",
+        "RadioDlg_Reset",
+        "RadioDlg_SetTitle",
+        "RadioDlg_AddCancelButton",
+        "RadioDlg_SelectItem",
+        "RadioDlg_SelectItemByValue",
+        "RadioDlg_SelectItemByTag",
+        "RadioDlg_AddItem",
+        "RadioDlg_AddItems",
+        "RadioDlg_GetNumItems",
+        "RadioDlg_GetItemValue",
+        "RadioDlg_GetItemTag",
+        "RadioDlg_Show",
+        "PrepareMultiPicDialog",
+        "ShowAnimatedDefDlg",
+        "PrepareMessageBoxText",
+        "Battle_RedrawGridShadow",
+        "BattleStack_Shoot",
+        "BattleStack_MakeActive",
+        "ActivateNextStack",
+        "UpdateBattleVars",
+        "GetTimeMsec",
+        "GetProcessGuid",
+        "IsDllLoaded",
+        "MonCountToFuzzyText",
+        "GetMaxMonsterId",
+        "GetMaxHeroId",
+        "GetUpgradedMonster",
+        "GetDegradedMonCandidates",
+        "GetHeroPortraitName",
+        "GetHeroPrimarySkillsWithoutArts",
+        "GetArtAtSlot",
+        "ChangeArtModAtSlot",
+        "AddArtToHero",
+        "EquipArtToSlot",
+        "UnequipArtFromSlot",
+        "GetMaxArtifactId",
+        "GetMaxSpellId",
+        "GetTextFileString",
+        "GetTextTableString",
+        "H3Quests_RefreshData",
+        "Framework",
+        "stdlib"
+      ],
+      "questions": [
+        "Complete catalog of 185 functions and handlers, with contracts and limitations."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm",
+        "era-framework:lib-end--9999-era---stdlib.erm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "contract": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "internal": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "events": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "arrays": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "math": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "strings": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "files": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "game": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "dialogs": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-001.md",
+          "fromAnchor": "contract",
+          "toAnchor": "game",
+          "headings": [
+            "Reading the reference",
+            "Internal functions",
+            "Event handlers",
+            "Arrays",
+            "Numbers, bits and randomness",
+            "Strings",
+            "Files, INI and JSON",
+            "Game operations"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "dialogs",
+          "toAnchor": "dialogs",
+          "headings": [
+            "Dialogs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.getartatslot",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/getartatslot",
+      "url": "/en/erm/framework/functions/getartatslot/",
+      "title": "GetArtAtSlot",
+      "summary": "Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot.",
+      "keywords": [
+        "GetArtAtSlot",
+        "FU(GetArtAtSlot)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-006.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [

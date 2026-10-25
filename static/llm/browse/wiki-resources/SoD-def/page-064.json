@@ -2,805 +2,1291 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/Crgrif.def",
-      "name": "Crgrif.def",
+      "id": "H3sprite.lod/CMCORE.def",
+      "name": "CMCORE.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 364981,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Crgrif.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 91,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Crgrif.def.webp",
-      "previewWidth": 118,
-      "previewHeight": 95,
-      "anchor": "file-52ff7bf3814c",
-      "sha256": "e80ca08a4291bb760a84de3dfb99b74fa6a832266b2913c3ba9fd76556d5b9c6",
-      "destinations": [
-        {
-          "category": [
-            "Castle creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CROC.def",
-      "name": "CROC.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 553737,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CROC.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 91,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CROC.def.webp",
-      "previewWidth": 159,
-      "previewHeight": 88,
-      "anchor": "file-a3f304f4c6c3",
-      "sha256": "c50f4590ff5a75bdf08613294db5eabbe184d16d3fe96b2675660b9511274c29",
-      "destinations": [
-        {
-          "category": [
-            "Stronghold creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Crogue.def",
-      "name": "Crogue.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 252285,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Crogue.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 12,
-      "frames": 87,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Crogue.def.webp",
-      "previewWidth": 53,
-      "previewHeight": 82,
-      "anchor": "file-02f3c5cd19d3",
-      "sha256": "88cf9f2ca22fd4e39ffede96f0df8680c73b80350f915bbccef95b6c44348d58",
-      "destinations": [
-        {
-          "category": [
-            "Neutral creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CRsDgn.def",
-      "name": "CRsDgn.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 695817,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CRsDgn.def",
+      "bytes": 456017,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CMCORE.def",
       "kind": "def",
       "type": 66,
       "groups": 18,
-      "frames": 141,
+      "frames": 113,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CRsDgn.def.webp",
-      "previewWidth": 161,
-      "previewHeight": 105,
-      "anchor": "file-05c3a93b8548",
-      "sha256": "8ef20c4c042a33148b49756d44723a102b6f20ce5fb4c48e029b4c3907b53ed6",
-      "destinations": [
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CMCORE.def.webp",
+      "previewWidth": 103,
+      "previewHeight": 117,
+      "anchor": "file-7d206723e853",
+      "sha256": "aa77457cdcbf9c2b81b2b133a8bd285d97f5341a772789e9a0908e0c696f8ffe",
+      "frameGroups": [
         {
-          "category": [
-            "Neutral creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Crspell.def",
-      "name": "Crspell.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 17255,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Crspell.def",
-      "kind": "def",
-      "type": 70,
-      "groups": 1,
-      "frames": 20,
-      "width": 36,
-      "height": 36,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Crspell.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 28,
-      "anchor": "file-476628b6340e",
-      "sha256": "42519a61fd378660bee007290a2ac88d97b572af6913194730ea76fe180c1a94",
-      "destinations": [
+          "id": 0,
+          "frames": 6
+        },
         {
-          "category": [
-            "Cursors"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/5/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSGOLE.def",
-      "name": "CSGOLE.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 147861,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSGOLE.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 81,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSGOLE.def.webp",
-      "previewWidth": 42,
-      "previewHeight": 78,
-      "anchor": "file-08eb1a5f9343",
-      "sha256": "b2c7b78af9991745b07479bb9b3a45f50f98ec6279ceba771dd2e8cd11bf77a8",
-      "destinations": [
+          "id": 1,
+          "frames": 8
+        },
         {
-          "category": [
-            "Tower creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSGRCK.def",
-      "name": "CSGRCK.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 27110,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSGRCK.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 10,
-      "width": 180,
-      "height": 230,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSGRCK.def.webp",
-      "previewWidth": 29,
-      "previewHeight": 24,
-      "anchor": "file-ca88a8bfd6fc",
-      "sha256": "ffcb2bb73732837df9526abe3218400493a7cf447eba54f94ab5bf8b51034d42",
-      "destinations": [
+          "id": 2,
+          "frames": 8
+        },
         {
-          "category": [
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Csharp.def",
-      "name": "Csharp.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 232063,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Csharp.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 18,
-      "frames": 119,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Csharp.def.webp",
-      "previewWidth": 68,
-      "previewHeight": 78,
-      "anchor": "file-796fb4135e86",
-      "sha256": "3df42e77636e4a4e9e195153a7089d938c07a8e7924f59b15adb744ba65a9863",
-      "destinations": [
+          "id": 3,
+          "frames": 6
+        },
         {
-          "category": [
-            "Neutral creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSKELE.def",
-      "name": "CSKELE.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 153673,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSKELE.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 86,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSKELE.def.webp",
-      "previewWidth": 68,
-      "previewHeight": 71,
-      "anchor": "file-7faeb1e81de7",
-      "sha256": "3cb2a3ad4a4faaec0cc38c0cb38a71a7c2e67e93ac88ba9d389f5157e302df78",
-      "destinations": [
+          "id": 4,
+          "frames": 11
+        },
         {
-          "category": [
-            "Necropolis creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSprite.def",
-      "name": "CSprite.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 196442,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSprite.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 90,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSprite.def.webp",
-      "previewWidth": 59,
-      "previewHeight": 83,
-      "anchor": "file-00b67bfffa65",
-      "sha256": "5f98db69a2c691a08445785db42598ee4f4fa3869d00e12e0e94de25387c7f8a",
-      "destinations": [
+          "id": 5,
+          "frames": 8
+        },
         {
-          "category": [
-            "Conflux creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSSarm.def",
-      "name": "CSSarm.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 73534,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSSarm.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 305,
-      "height": 119,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSSarm.def.webp",
-      "previewWidth": 240,
-      "previewHeight": 93,
-      "anchor": "file-537de16987f1",
-      "sha256": "151eb02e73a8a55925f81ed6d8cca859dca72dbdd5d7706a2c6cce21326384aa",
-      "destinations": [
+          "id": 7,
+          "frames": 3
+        },
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main menu",
-            "Main"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSScus.def",
-      "name": "CSScus.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 44584,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSScus.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 169,
-      "height": 110,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSScus.def.webp",
-      "previewWidth": 168,
-      "previewHeight": 110,
-      "anchor": "file-f678b7a438fa",
-      "sha256": "3617b91afbf21099caf4df752108b69e7758a5d580bc1d71bfecc9744bb8fe25",
-      "destinations": [
+          "id": 8,
+          "frames": 3
+        },
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main menu",
-            "Main"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSSexit.def",
-      "name": "CSSexit.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 36637,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSSexit.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 126,
-      "height": 108,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSSexit.def.webp",
-      "previewWidth": 118,
-      "previewHeight": 108,
-      "anchor": "file-1f6ffd921b8b",
-      "sha256": "d4b775a12ed7662fbb5079e57a78c731ae6ff4f5bf926d5904b5bf2d66ab3e68",
-      "destinations": [
+          "id": 9,
+          "frames": 3
+        },
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main menu",
-            "Main"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSSroe.def",
-      "name": "CSSroe.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 79939,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSSroe.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 287,
-      "height": 130,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSSroe.def.webp",
-      "previewWidth": 240,
-      "previewHeight": 114,
-      "anchor": "file-5acc19b066c5",
-      "sha256": "45627126da34d5a8b048742646b89605c014189ae5300c66c5fe27eaf90529f7",
-      "destinations": [
+          "id": 10,
+          "frames": 3
+        },
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main menu",
-            "Main"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSSsod.def",
-      "name": "CSSsod.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 53605,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSSsod.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 201,
-      "height": 119,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSSsod.def.webp",
-      "previewWidth": 190,
-      "previewHeight": 116,
-      "anchor": "file-e5ae437fcd6e",
-      "sha256": "eb2b860e6f038d899e1ae155cc9a86d4a441133ffb7aaa3ab3416613bb318aa5",
-      "destinations": [
+          "id": 11,
+          "frames": 8
+        },
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Main menu",
-            "Main"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Cstone.def",
-      "name": "Cstone.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 307825,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Cstone.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 18,
-      "frames": 105,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Cstone.def.webp",
-      "previewWidth": 55,
-      "previewHeight": 92,
-      "anchor": "file-fc8f0be16139",
-      "sha256": "8949651e8105fca032810e0a231876c73907a0c03515f3032235383f238b3823",
-      "destinations": [
+          "id": 12,
+          "frames": 8
+        },
         {
-          "category": [
-            "Conflux creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Cstorm.def",
-      "name": "Cstorm.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 320760,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Cstorm.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 21,
-      "frames": 109,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Cstorm.def.webp",
-      "previewWidth": 75,
-      "previewHeight": 93,
-      "anchor": "file-e28371988792",
-      "sha256": "8bde01ff3e06427923394074b1839e8586b57c58dfcef44f132076f66e069743",
-      "destinations": [
+          "id": 13,
+          "frames": 8
+        },
         {
-          "category": [
-            "Conflux creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CSULTA.def",
-      "name": "CSULTA.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 218001,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CSULTA.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 18,
-      "frames": 94,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CSULTA.def.webp",
-      "previewWidth": 60,
-      "previewHeight": 77,
-      "anchor": "file-5253ded87996",
-      "sha256": "fd115a740052281c425518652573206207de867eb5b14a1b667e506b2787f4b6",
-      "destinations": [
+          "id": 17,
+          "frames": 8
+        },
         {
-          "category": [
-            "Tower creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Csword.def",
-      "name": "Csword.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 157957,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Csword.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 80,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Csword.def.webp",
-      "previewWidth": 71,
-      "previewHeight": 81,
-      "anchor": "file-b8dd74182d18",
-      "sha256": "f1b3ba4a5bf31ca76f2ebd56d219e0d56551d66939c55efae9eecc79a2395da3",
-      "destinations": [
+          "id": 18,
+          "frames": 8
+        },
         {
-          "category": [
-            "Castle creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CTBIRD.def",
-      "name": "CTBIRD.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 569887,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CTBIRD.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 92,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CTBIRD.def.webp",
-      "previewWidth": 158,
-      "previewHeight": 90,
-      "anchor": "file-c26319980360",
-      "sha256": "aa2d468ce13b35e134802ee38a92d0ba5b35c1e8f224a726a907eaae71c6eb90",
-      "destinations": [
+          "id": 19,
+          "frames": 8
+        },
         {
-          "category": [
-            "Stronghold creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CTHDEM.def",
-      "name": "CTHDEM.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 216351,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CTHDEM.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 15,
-      "frames": 83,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CTHDEM.def.webp",
-      "previewWidth": 80,
-      "previewHeight": 95,
-      "anchor": "file-6a7a152c387a",
-      "sha256": "0d184adf30293012287dda2aefb2d5271a8692ee5f67ef053006fdefe387db49",
-      "destinations": [
+          "id": 20,
+          "frames": 3
+        },
         {
-          "category": [
-            "Inferno creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
+          "id": 21,
+          "frames": 3
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/CTREE.def",
-      "name": "CTREE.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 226905,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CTREE.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 14,
-      "frames": 85,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CTREE.def.webp",
-      "previewWidth": 65,
-      "previewHeight": 102,
-      "anchor": "file-7acd0a6b567f",
-      "sha256": "754ab0d558e15ca7ff90025f835761695dee54e063d2cdb56eb5fd064a6f39d0",
-      "destinations": [
-        {
-          "category": [
-            "Rampart creatures"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Ctrogl.def",
-      "name": "Ctrogl.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 162723,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Ctrogl.def",
-      "kind": "def",
-      "type": 66,
-      "groups": 13,
-      "frames": 71,
-      "width": 450,
-      "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Ctrogl.def.webp",
-      "previewWidth": 77,
-      "previewHeight": 64,
-      "anchor": "file-fe9da6ee9a99",
-      "sha256": "a13006c7da6d6dd5326e3e506af4fb863da5ffcbd1529d08acd078129b16ca3f",
+      ],
       "destinations": [
         {
           "category": [
             "Dungeon creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/Ctroll.def",
-      "name": "Ctroll.def",
+      "id": "H3sprite.lod/Cmeduq.def",
+      "name": "Cmeduq.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 259192,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Ctroll.def",
+      "bytes": 396451,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cmeduq.def",
       "kind": "def",
       "type": 66,
-      "groups": 15,
+      "groups": 18,
+      "frames": 122,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cmeduq.def.webp",
+      "previewWidth": 110,
+      "previewHeight": 92,
+      "anchor": "file-6fa8d5306a52",
+      "sha256": "4339b6624529ebdea24ea0117dbb61f3345a24827caa6b047665d0cac4ff907b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 10
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 10
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 10
+        },
+        {
+          "id": 12,
+          "frames": 10
+        },
+        {
+          "id": 13,
+          "frames": 10
+        },
+        {
+          "id": 14,
+          "frames": 10
+        },
+        {
+          "id": 15,
+          "frames": 10
+        },
+        {
+          "id": 16,
+          "frames": 10
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Dungeon creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Cmedus.def",
+      "name": "Cmedus.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 304618,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cmedus.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 18,
+      "frames": 125,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cmedus.def.webp",
+      "previewWidth": 94,
+      "previewHeight": 87,
+      "anchor": "file-28c340a24a6e",
+      "sha256": "9f3a2931afe31ed632a26ad005c208670f8c07419eedc6f8d0e9d33c5ff2a2e9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 10
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 10
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 11
+        },
+        {
+          "id": 12,
+          "frames": 11
+        },
+        {
+          "id": 13,
+          "frames": 11
+        },
+        {
+          "id": 14,
+          "frames": 10
+        },
+        {
+          "id": 15,
+          "frames": 10
+        },
+        {
+          "id": 16,
+          "frames": 10
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 3
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Dungeon creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CMFLAGL.def",
+      "name": "CMFLAGL.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2562,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CMFLAGL.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 6,
+      "width": 17,
+      "height": 15,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CMFLAGL.def.webp",
+      "previewWidth": 11,
+      "previewHeight": 13,
+      "anchor": "file-a260fe3147f9",
+      "sha256": "04d2c5c044141fce916bae21295dec56900e2f3453f49e3a1e328b11496513c3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CMFLAGR.def",
+      "name": "CMFLAGR.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2562,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CMFLAGR.def",
+      "kind": "def",
+      "type": 64,
+      "groups": 1,
+      "frames": 6,
+      "width": 17,
+      "height": 15,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CMFLAGR.def.webp",
+      "previewWidth": 11,
+      "previewHeight": 13,
+      "anchor": "file-5c1db129ae1f",
+      "sha256": "ffa921fc5c0debf1333b6ce596436dd0826708aa050f3e88c1990c40038fe177",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Cminok.def",
+      "name": "Cminok.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 224972,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cminok.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 16,
+      "frames": 107,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cminok.def.webp",
+      "previewWidth": 51,
+      "previewHeight": 93,
+      "anchor": "file-7282a48ae71f",
+      "sha256": "d74d510f7e3a3952abe3480c316ba6b31bbd20eb7d55c26b0c74783edbbdf7f8",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 6
+        },
+        {
+          "id": 2,
+          "frames": 10
+        },
+        {
+          "id": 3,
+          "frames": 8
+        },
+        {
+          "id": 4,
+          "frames": 8
+        },
+        {
+          "id": 5,
+          "frames": 7
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 17,
+          "frames": 8
+        },
+        {
+          "id": 18,
+          "frames": 8
+        },
+        {
+          "id": 19,
+          "frames": 8
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Dungeon creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CMINOT.def",
+      "name": "CMINOT.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 184516,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CMINOT.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 13,
       "frames": 83,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Ctroll.def.webp",
-      "previewWidth": 54,
-      "previewHeight": 88,
-      "anchor": "file-a70bab62150b",
-      "sha256": "af998771ace43462a6f94310f46c681e7dc471d89faf5a6f8f9ae7f0e9b3d5cc",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CMINOT.def.webp",
+      "previewWidth": 51,
+      "previewHeight": 91,
+      "anchor": "file-f2d2782166d4",
+      "sha256": "9304b26af4a98bfd456efcaa1cf5b18d928a0aa4bc0366223877ceac9115bc38",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 6
+        },
+        {
+          "id": 2,
+          "frames": 10
+        },
+        {
+          "id": 3,
+          "frames": 8
+        },
+        {
+          "id": 4,
+          "frames": 8
+        },
+        {
+          "id": 5,
+          "frames": 7
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 9
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Dungeon creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CMLMINE.def",
+      "name": "CMLMINE.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 1283,
+      "sha256": "35b73608fa3caba8fde367458e98083c34061ac9e0769d85a51b5a40569c6b7a",
+      "anchor": "file-87fa099a9a37",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CMLMINE.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 44,
+      "height": 52,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CMLMINE.def.webp",
+      "previewWidth": 41,
+      "previewHeight": 10,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Cmonkk.def",
+      "name": "Cmonkk.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 146604,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cmonkk.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 17,
+      "frames": 113,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cmonkk.def.webp",
+      "previewWidth": 36,
+      "previewHeight": 78,
+      "anchor": "file-85b39660e3e1",
+      "sha256": "d11b9cce2da77a8df59e1a274a678cc653031311974f0ba0165f7f89d790fe9f",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        },
+        {
+          "id": 1,
+          "frames": 10
+        },
+        {
+          "id": 2,
+          "frames": 6
+        },
+        {
+          "id": 3,
+          "frames": 8
+        },
+        {
+          "id": 4,
+          "frames": 7
+        },
+        {
+          "id": 5,
+          "frames": 11
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 9
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 14,
+          "frames": 10
+        },
+        {
+          "id": 15,
+          "frames": 10
+        },
+        {
+          "id": 16,
+          "frames": 9
+        },
+        {
+          "id": 20,
+          "frames": 2
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Castle creatures"
+          ],
+          "en": "/en/wiki/sprite/2/1/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/cmpscan.def",
+      "name": "cmpscan.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 44848,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/cmpscan.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 132,
+      "height": 106,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/cmpscan.def.webp",
+      "previewWidth": 132,
+      "previewHeight": 106,
+      "anchor": "file-97bc8abed309",
+      "sha256": "990f343ba29815eb5999e974204b95129d8795ec06d6cd5d152270044a4efd2d",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Main menu",
+            "Secondary"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/CMQSAND.def",
+      "name": "CMQSAND.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 2339,
+      "sha256": "effdc7c1af492b99b407b0d1ce742c86ce5e921a36ad404147ee0bc9fd026837",
+      "anchor": "file-671c2a8b0680",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CMQSAND.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 44,
+      "height": 52,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CMQSAND.def.webp",
+      "previewWidth": 41,
+      "previewHeight": 40,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/0/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/Cmummy.def",
+      "name": "Cmummy.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 290794,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cmummy.def",
+      "kind": "def",
+      "type": 66,
+      "groups": 15,
+      "frames": 82,
+      "width": 450,
+      "height": 400,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cmummy.def.webp",
+      "previewWidth": 48,
+      "previewHeight": 111,
+      "anchor": "file-551613c918ca",
+      "sha256": "3d9190284e3219c68f2cfde2d4f9b04ce21808c017023f19a3d3b8a230ae8007",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 8
+        },
+        {
+          "id": 2,
+          "frames": 6
+        },
+        {
+          "id": 3,
+          "frames": 8
+        },
+        {
+          "id": 4,
+          "frames": 8
+        },
+        {
+          "id": 5,
+          "frames": 10
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 8
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 8
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Neutral creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/CUNICO.def",
-      "name": "CUNICO.def",
+      "id": "H3sprite.lod/CNAGA.def",
+      "name": "CNAGA.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 264117,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CUNICO.def",
+      "bytes": 247266,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CNAGA.def",
       "kind": "def",
       "type": 66,
       "groups": 15,
-      "frames": 89,
+      "frames": 87,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CUNICO.def.webp",
-      "previewWidth": 110,
-      "previewHeight": 93,
-      "anchor": "file-3cdb5bf10b60",
-      "sha256": "30f873a67242a5fe0b15e3cf4b1a3b67d4d9616f5954073e0c5a42aaa9a9e2ff",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CNAGA.def.webp",
+      "previewWidth": 98,
+      "previewHeight": 86,
+      "anchor": "file-70caee05f214",
+      "sha256": "adaa5f8872bdfb574ded612605098ca4dabd2c3a62ea6808e1fc2bb7069a73f4",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 8
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 9
+        },
+        {
+          "id": 12,
+          "frames": 8
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Rampart creatures"
+            "Tower creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/CUWLFR.def",
-      "name": "CUWLFR.def",
+      "id": "H3sprite.lod/CNAGAG.def",
+      "name": "CNAGAG.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 298746,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CUWLFR.def",
+      "bytes": 282024,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CNAGAG.def",
       "kind": "def",
       "type": 66,
       "groups": 15,
-      "frames": 80,
+      "frames": 88,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CUWLFR.def.webp",
-      "previewWidth": 107,
-      "previewHeight": 92,
-      "anchor": "file-5854045d3a51",
-      "sha256": "3b1cefce7fe181167d2fecdf37d627296dd7bc800fc8d63c93f5e688c731ad87",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CNAGAG.def.webp",
+      "previewWidth": 137,
+      "previewHeight": 100,
+      "anchor": "file-5821529b1bc4",
+      "sha256": "0b9b2e60ca91b34408491e1a76f86e5f79da19ba34d2f9add46051f82f06aeb5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        },
+        {
+          "id": 1,
+          "frames": 8
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 2
+        },
+        {
+          "id": 8,
+          "frames": 2
+        },
+        {
+          "id": 9,
+          "frames": 2
+        },
+        {
+          "id": 10,
+          "frames": 2
+        },
+        {
+          "id": 11,
+          "frames": 9
+        },
+        {
+          "id": 12,
+          "frames": 9
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 20,
+          "frames": 2
+        },
+        {
+          "id": 21,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Stronghold creatures"
+            "Tower creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/CVAMP.def",
-      "name": "CVAMP.def",
+      "id": "H3sprite.lod/CNDRGN.def",
+      "name": "CNDRGN.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 182330,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CVAMP.def",
+      "bytes": 589725,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CNDRGN.def",
       "kind": "def",
       "type": 66,
       "groups": 15,
-      "frames": 90,
+      "frames": 84,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CVAMP.def.webp",
-      "previewWidth": 52,
-      "previewHeight": 68,
-      "anchor": "file-f9f70080ddee",
-      "sha256": "5d0d2c832aa0e9d6cf1757d281d242b300cbfb89120e9462dc1726452a9ef476",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CNDRGN.def.webp",
+      "previewWidth": 176,
+      "previewHeight": 160,
+      "anchor": "file-9ae4b548eaf8",
+      "sha256": "58135b0772daff477ca118434052631255fd6e8de89d405529fa7b068f23bf3a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        },
+        {
+          "id": 1,
+          "frames": 5
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 6
+        },
+        {
+          "id": 4,
+          "frames": 11
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 3
+        },
+        {
+          "id": 21,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Necropolis creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/CWELEM.def",
-      "name": "CWELEM.def",
+      "id": "H3sprite.lod/Cnomad.def",
+      "name": "Cnomad.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 318465,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CWELEM.def",
+      "bytes": 397453,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/Cnomad.def",
       "kind": "def",
       "type": 66,
       "groups": 15,
-      "frames": 92,
+      "frames": 94,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CWELEM.def.webp",
-      "previewWidth": 124,
-      "previewHeight": 96,
-      "anchor": "file-8c1a8e084002",
-      "sha256": "144cd3671b32012ca73702d139dec2a92e82963547eb6567e84cc297ea5fd8d0",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/Cnomad.def.webp",
+      "previewWidth": 85,
+      "previewHeight": 90,
+      "anchor": "file-e7a8af389cf2",
+      "sha256": "1e71f2b026bef2366b222b4b563574ffffe116597f762cee6b4a2248eb1e2a6b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        },
+        {
+          "id": 1,
+          "frames": 7
+        },
+        {
+          "id": 2,
+          "frames": 12
+        },
+        {
+          "id": 3,
+          "frames": 9
+        },
+        {
+          "id": 4,
+          "frames": 8
+        },
+        {
+          "id": 5,
+          "frames": 10
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 9
+        },
+        {
+          "id": 12,
+          "frames": 9
+        },
+        {
+          "id": 13,
+          "frames": 9
+        },
+        {
+          "id": 20,
+          "frames": 1
+        },
+        {
+          "id": 21,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Conflux creatures"
+            "Neutral creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/"
+          "en": "/en/wiki/sprite/2/1/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/CWIGHT.def",
-      "name": "CWIGHT.def",
+      "id": "H3sprite.lod/CNOSFE.def",
+      "name": "CNOSFE.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 152667,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/CWIGHT.def",
+      "bytes": 243410,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/CNOSFE.def",
       "kind": "def",
       "type": 66,
       "groups": 18,
-      "frames": 102,
+      "frames": 111,
       "width": 450,
       "height": 400,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/CWIGHT.def.webp",
-      "previewWidth": 40,
-      "previewHeight": 83,
-      "anchor": "file-40a3c513d2c7",
-      "sha256": "211ff3e4d786b50fdd3666b2f8b2e80ef44a455b47eb4f9560a562a305b52bdb",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/CNOSFE.def.webp",
+      "previewWidth": 52,
+      "previewHeight": 68,
+      "anchor": "file-c3dd093227d8",
+      "sha256": "7f3fe9079b255ad09ded551a82017580087905f0e6f4484aad90b357b84a0cfa",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        },
+        {
+          "id": 1,
+          "frames": 9
+        },
+        {
+          "id": 2,
+          "frames": 8
+        },
+        {
+          "id": 3,
+          "frames": 7
+        },
+        {
+          "id": 4,
+          "frames": 9
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 3
+        },
+        {
+          "id": 8,
+          "frames": 3
+        },
+        {
+          "id": 9,
+          "frames": 3
+        },
+        {
+          "id": 10,
+          "frames": 3
+        },
+        {
+          "id": 11,
+          "frames": 7
+        },
+        {
+          "id": 12,
+          "frames": 7
+        },
+        {
+          "id": 13,
+          "frames": 7
+        },
+        {
+          "id": 17,
+          "frames": 7
+        },
+        {
+          "id": 18,
+          "frames": 7
+        },
+        {
+          "id": 19,
+          "frames": 7
+        },
+        {
+          "id": 20,
+          "frames": 5
+        },
+        {
+          "id": 21,
+          "frames": 5
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Necropolis creatures"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/"
+          "en": "/en/wiki/sprite/2/1/"
         }
       ]
     }

@@ -1,7 +1,7 @@
 # ERM scripts
 
 ID: erm.overview
-URL: https://asmedian.github.io/modding-guide/en/erm/
+URL: /en/erm/
 Part: 1/1
 Source references: old-help:cont-triggersol.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-abouthelp.htm, old-help:cont-links.htm, old-help:cont-main.htm, old-help:cont-wogteam.htm, old-help:index.htm, old-help:titre.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -97,7 +97,7 @@ Framework is an ERM library providing functions, constants, and prepared event c
 # ERM debugging and compatibility
 
 ID: erm.compatibility
-URL: https://asmedian.github.io/modding-guide/en/erm/compatibility/
+URL: /en/erm/compatibility/
 Part: 1/1
 Source references: era-changelog:era-ii-changelog.txt, era-changelog:era-iii-changelog.txt, era-source:erm.pas, era-framework:lib-9999-era---stdlib.erm, old-help:cont-hd.htm, old-help:cont-te.htm, old-help:era-index.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

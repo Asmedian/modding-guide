@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "RECRUIT_MANAGER",
+      "name": "SWAP_MANAGER",
       "kind": "constant",
       "slug": "framework/constants/game-managers",
-      "anchor": "const-recruit-manager",
+      "anchor": "const-swap-manager",
       "aliases": [],
-      "label": "RECRUIT_MANAGER = 6990524",
+      "label": "SWAP_MANAGER = 6962576",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/#const-recruit-manager"
+        "en": "/en/erm/framework/constants/game-managers/#const-swap-manager"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -30,20 +30,182 @@
       }
     },
     {
-      "name": "RES_CRYSTAL",
+      "name": "TEXT_ALIGN_BOTTOM",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-crystal",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "anchor": "const-text-align-bottom",
       "aliases": [],
-      "label": "RES_CRYSTAL = 4",
+      "label": "TEXT_ALIGN_BOTTOM = 8",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-crystal"
+        "en": "/en/erm/framework/constants/h3-dialog-text-alignment/#const-text-align-bottom"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TEXT_ALIGN_CENTER",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "anchor": "const-text-align-center",
+      "aliases": [],
+      "label": "TEXT_ALIGN_CENTER = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-dialog-text-alignment/#const-text-align-center"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TEXT_ALIGN_LEFT",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "anchor": "const-text-align-left",
+      "aliases": [],
+      "label": "TEXT_ALIGN_LEFT = 0",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-dialog-text-alignment/#const-text-align-left"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TEXT_ALIGN_MIDDLE",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "anchor": "const-text-align-middle",
+      "aliases": [],
+      "label": "TEXT_ALIGN_MIDDLE = 4",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-dialog-text-alignment/#const-text-align-middle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TEXT_ALIGN_RIGHT",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "anchor": "const-text-align-right",
+      "aliases": [],
+      "label": "TEXT_ALIGN_RIGHT = 2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-dialog-text-alignment/#const-text-align-right"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TEXT_ALIGN_TOP",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "anchor": "const-text-align-top",
+      "aliases": [],
+      "label": "TEXT_ALIGN_TOP = 0",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-dialog-text-alignment/#const-text-align-top"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TOWN_CASTLE",
+      "kind": "constant",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-castle",
+      "aliases": [],
+      "label": "TOWN_CASTLE = 0",
+      "destinations": {
+        "en": "/en/erm/framework/constants/towns/#const-town-castle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -56,20 +218,20 @@
       }
     },
     {
-      "name": "RES_FIRST",
+      "name": "TOWN_CONFLUX",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-first",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-conflux",
       "aliases": [],
-      "label": "RES_FIRST = 0",
+      "label": "TOWN_CONFLUX = 8",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-first"
+        "en": "/en/erm/framework/constants/towns/#const-town-conflux"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -82,20 +244,20 @@
       }
     },
     {
-      "name": "RES_GEMS",
+      "name": "TOWN_DUNGEON",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-gems",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-dungeon",
       "aliases": [],
-      "label": "RES_GEMS = 5",
+      "label": "TOWN_DUNGEON = 5",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-gems"
+        "en": "/en/erm/framework/constants/towns/#const-town-dungeon"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -108,20 +270,20 @@
       }
     },
     {
-      "name": "RES_GOLD",
+      "name": "TOWN_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-gold",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-first",
       "aliases": [],
-      "label": "RES_GOLD = 6",
+      "label": "TOWN_FIRST = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-gold"
+        "en": "/en/erm/framework/constants/towns/#const-town-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -134,20 +296,20 @@
       }
     },
     {
-      "name": "RES_LAST_SOD",
+      "name": "TOWN_FORTRESS",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-last-sod",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-fortress",
       "aliases": [],
-      "label": "RES_LAST_SOD = 6",
+      "label": "TOWN_FORTRESS = 7",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-last-sod"
+        "en": "/en/erm/framework/constants/towns/#const-town-fortress"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -160,20 +322,20 @@
       }
     },
     {
-      "name": "RES_LAST_WOG",
+      "name": "TOWN_INFERNO",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-last-wog",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-inferno",
       "aliases": [],
-      "label": "RES_LAST_WOG = 7",
+      "label": "TOWN_INFERNO = 3",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-last-wog"
+        "en": "/en/erm/framework/constants/towns/#const-town-inferno"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -186,20 +348,20 @@
       }
     },
     {
-      "name": "RES_MERCURY",
+      "name": "TOWN_LAST_WOG",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-mercury",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-last-wog",
       "aliases": [],
-      "label": "RES_MERCURY = 1",
+      "label": "TOWN_LAST_WOG = 8",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-mercury"
+        "en": "/en/erm/framework/constants/towns/#const-town-last-wog"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -212,20 +374,48 @@
       }
     },
     {
-      "name": "RES_MITHRIL",
+      "name": "TOWN_MANAGER",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-mithril",
+      "slug": "framework/constants/game-managers",
+      "anchor": "const-town-manager",
       "aliases": [],
-      "label": "RES_MITHRIL = 7",
+      "label": "TOWN_MANAGER = 6919500",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-mithril"
+        "en": "/en/erm/framework/constants/game-managers/#const-town-manager"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TOWN_NECROPOLIS",
+      "kind": "constant",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-necropolis",
+      "aliases": [],
+      "label": "TOWN_NECROPOLIS = 4",
+      "destinations": {
+        "en": "/en/erm/framework/constants/towns/#const-town-necropolis"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -238,20 +428,20 @@
       }
     },
     {
-      "name": "RES_ORE",
+      "name": "TOWN_RAMPART",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-ore",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-rampart",
       "aliases": [],
-      "label": "RES_ORE = 2",
+      "label": "TOWN_RAMPART = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-ore"
+        "en": "/en/erm/framework/constants/towns/#const-town-rampart"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -264,20 +454,20 @@
       }
     },
     {
-      "name": "RES_SULFUR",
+      "name": "TOWN_STRONGHOLD",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-sulfur",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-stronghold",
       "aliases": [],
-      "label": "RES_SULFUR = 3",
+      "label": "TOWN_STRONGHOLD = 6",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-sulfur"
+        "en": "/en/erm/framework/constants/towns/#const-town-stronghold"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -290,20 +480,20 @@
       }
     },
     {
-      "name": "RES_WOOD",
+      "name": "TOWN_TOWER",
       "kind": "constant",
-      "slug": "framework/constants/resources",
-      "anchor": "const-res-wood",
+      "slug": "framework/constants/towns",
+      "anchor": "const-town-tower",
       "aliases": [],
-      "label": "RES_WOOD = 0",
+      "label": "TOWN_TOWER = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-res-wood"
+        "en": "/en/erm/framework/constants/towns/#const-town-tower"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -316,20 +506,20 @@
       }
     },
     {
-      "name": "SCAN_DIRS_ONLY",
+      "name": "TRUE",
       "kind": "constant",
-      "slug": "framework/constants/special-enums",
-      "anchor": "const-scan-dirs-only",
+      "slug": "framework/constants/universal",
+      "anchor": "const-true",
       "aliases": [],
-      "label": "SCAN_DIRS_ONLY = 2",
+      "label": "TRUE = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/special-enums/#const-scan-dirs-only"
+        "en": "/en/erm/framework/constants/universal/#const-true"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -343,20 +533,20 @@
       }
     },
     {
-      "name": "SCAN_FILES_AND_DIRS",
+      "name": "UNC_INT",
       "kind": "constant",
-      "slug": "framework/constants/special-enums",
-      "anchor": "const-scan-files-and-dirs",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-int",
       "aliases": [],
-      "label": "SCAN_FILES_AND_DIRS = 0",
+      "label": "UNC_INT = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/special-enums/#const-scan-files-and-dirs"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-int"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -370,20 +560,20 @@
       }
     },
     {
-      "name": "SCAN_FILES_ONLY",
+      "name": "UNC_INT16",
       "kind": "constant",
-      "slug": "framework/constants/special-enums",
-      "anchor": "const-scan-files-only",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-int16",
       "aliases": [],
-      "label": "SCAN_FILES_ONLY = 1",
+      "label": "UNC_INT16 = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/special-enums/#const-scan-files-only"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-int16"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -397,20 +587,20 @@
       }
     },
     {
-      "name": "SCAN_RETURN_FULL_PATHS",
+      "name": "UNC_INT32",
       "kind": "constant",
-      "slug": "framework/constants/special-enums",
-      "anchor": "const-scan-return-full-paths",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-int32",
       "aliases": [],
-      "label": "SCAN_RETURN_FULL_PATHS = (TRUE)",
+      "label": "UNC_INT32 = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/special-enums/#const-scan-return-full-paths"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-int32"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -424,74 +614,20 @@
       }
     },
     {
-      "name": "SEC_SKILL_FIRST",
+      "name": "UNC_INT8",
       "kind": "constant",
-      "slug": "framework/constants/hero-skills",
-      "anchor": "const-sec-skill-first",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-int8",
       "aliases": [],
-      "label": "SEC_SKILL_FIRST = 0",
+      "label": "UNC_INT8 = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-sec-skill-first"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-int8"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
-            "fromAnchor": "ref-form-primaryskill",
-            "toAnchor": "related",
-            "headings": [
-              "Primary Skills Table",
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SEC_SKILL_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/hero-skills",
-      "anchor": "const-sec-skill-last",
-      "aliases": [],
-      "label": "SEC_SKILL_LAST = 27",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-sec-skill-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
-            "fromAnchor": "ref-form-primaryskill",
-            "toAnchor": "related",
-            "headings": [
-              "Primary Skills Table",
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SIZEOF_BATTLE_STACK_STRUCT",
-      "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-battle-stack-struct",
-      "aliases": [],
-      "label": "SIZEOF_BATTLE_STACK_STRUCT = 1352",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-battle-stack-struct"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -505,20 +641,20 @@
       }
     },
     {
-      "name": "SIZEOF_BYTE",
+      "name": "UNC_UINT",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-byte",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-uint",
       "aliases": [],
-      "label": "SIZEOF_BYTE = 1",
+      "label": "UNC_UINT = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-byte"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-uint"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -532,20 +668,20 @@
       }
     },
     {
-      "name": "SIZEOF_COMMANDER_STRUCT",
+      "name": "UNC_UINT16",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-commander-struct",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-uint16",
       "aliases": [],
-      "label": "SIZEOF_COMMANDER_STRUCT = 296",
+      "label": "UNC_UINT16 = -2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-commander-struct"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-uint16"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -559,20 +695,20 @@
       }
     },
     {
-      "name": "SIZEOF_DWORD",
+      "name": "UNC_UINT32",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-dword",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-uint32",
       "aliases": [],
-      "label": "SIZEOF_DWORD = 4",
+      "label": "UNC_UINT32 = -4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-dword"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-uint32"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -586,20 +722,20 @@
       }
     },
     {
-      "name": "SIZEOF_INT",
+      "name": "UNC_UINT8",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-int",
+      "slug": "framework/constants/un-c-data-types",
+      "anchor": "const-unc-uint8",
       "aliases": [],
-      "label": "SIZEOF_INT = 4",
+      "label": "UNC_UINT8 = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-int"
+        "en": "/en/erm/framework/constants/un-c-data-types/#const-unc-uint8"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -613,20 +749,20 @@
       }
     },
     {
-      "name": "SIZEOF_INT16",
+      "name": "WEEKS_IN_MONTH",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-int16",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-weeks-in-month",
       "aliases": [],
-      "label": "SIZEOF_INT16 = 2",
+      "label": "WEEKS_IN_MONTH = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-int16"
+        "en": "/en/erm/framework/constants/game-limits/#const-weeks-in-month"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -640,20 +776,48 @@
       }
     },
     {
-      "name": "SIZEOF_INT32",
+      "name": "WND_MANAGER",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-int32",
+      "slug": "framework/constants/game-managers",
+      "anchor": "const-wnd-manager",
       "aliases": [],
-      "label": "SIZEOF_INT32 = 4",
+      "label": "WND_MANAGER = 6918864",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-int32"
+        "en": "/en/erm/framework/constants/game-managers/#const-wnd-manager"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WOG_OPT_COMMANDERS_NEED_HIRING",
+      "kind": "constant",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-wog-opt-commanders-need-hiring",
+      "aliases": [],
+      "label": "WOG_OPT_COMMANDERS_NEED_HIRING = 6",
+      "destinations": {
+        "en": "/en/erm/framework/constants/wog-options/#const-wog-opt-commanders-need-hiring"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -667,20 +831,20 @@
       }
     },
     {
-      "name": "SIZEOF_INT8",
+      "name": "WOG_OPT_CREATURE_DWELLINGS_ACCUMULATE_CREATURES",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-int8",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-wog-opt-creature-dwellings-accumulate-creatures",
       "aliases": [],
-      "label": "SIZEOF_INT8 = 1",
+      "label": "WOG_OPT_CREATURE_DWELLINGS_ACCUMULATE_CREATURES = 7",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-int8"
+        "en": "/en/erm/framework/constants/wog-options/#const-wog-opt-creature-dwellings-accumulate-creatures"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -694,20 +858,20 @@
       }
     },
     {
-      "name": "SIZEOF_PTR",
+      "name": "WOG_OPT_CREATURE_DWELLINGS_ACCUMULATE_GUARDS",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-ptr",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-wog-opt-creature-dwellings-accumulate-guards",
       "aliases": [],
-      "label": "SIZEOF_PTR = 4",
+      "label": "WOG_OPT_CREATURE_DWELLINGS_ACCUMULATE_GUARDS = 8",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-ptr"
+        "en": "/en/erm/framework/constants/wog-options/#const-wog-opt-creature-dwellings-accumulate-guards"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -721,20 +885,20 @@
       }
     },
     {
-      "name": "SIZEOF_SPELL_STRUCT",
+      "name": "WOG_OPT_DISABLE_CHEATING",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-spell-struct",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-wog-opt-disable-cheating",
       "aliases": [],
-      "label": "SIZEOF_SPELL_STRUCT = 136",
+      "label": "WOG_OPT_DISABLE_CHEATING = 903",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-spell-struct"
+        "en": "/en/erm/framework/constants/wog-options/#const-wog-opt-disable-cheating"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -748,20 +912,20 @@
       }
     },
     {
-      "name": "SIZEOF_UINT16",
+      "name": "WOG_OPT_DISABLE_COMMANDERS",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-uint16",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-wog-opt-disable-commanders",
       "aliases": [],
-      "label": "SIZEOF_UINT16 = 2",
+      "label": "WOG_OPT_DISABLE_COMMANDERS = 3",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-uint16"
+        "en": "/en/erm/framework/constants/wog-options/#const-wog-opt-disable-commanders"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -775,101 +939,20 @@
       }
     },
     {
-      "name": "SIZEOF_UINT32",
+      "name": "WOG_OPT_DISABLE_STACK_EXP_FROM_BATTLES",
       "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-uint32",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-wog-opt-disable-stack-exp-from-battles",
       "aliases": [],
-      "label": "SIZEOF_UINT32 = 4",
+      "label": "WOG_OPT_DISABLE_STACK_EXP_FROM_BATTLES = 906",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-uint32"
+        "en": "/en/erm/framework/constants/wog-options/#const-wog-opt-disable-stack-exp-from-battles"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SIZEOF_UINT8",
-      "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-uint8",
-      "aliases": [],
-      "label": "SIZEOF_UINT8 = 1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-uint8"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SIZEOF_WIN32_FIND_DATA",
-      "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-win32-find-data",
-      "aliases": [],
-      "label": "SIZEOF_WIN32_FIND_DATA = 320",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-win32-find-data"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "SIZEOF_WIN32_FIND_DATA_IN_INTS",
-      "kind": "constant",
-      "slug": "framework/constants/data-types",
-      "anchor": "const-sizeof-win32-find-data-in-ints",
-      "aliases": [],
-      "label": "SIZEOF_WIN32_FIND_DATA_IN_INTS = 80",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-win32-find-data-in-ints"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

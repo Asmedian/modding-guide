@@ -1,7 +1,7 @@
 # Spell and projectile animations
 
 ID: wiki.sprite.2.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/
+URL: /en/wiki/sprite/2/0/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -90,7 +90,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Spell and projectile animations
 
 ID: wiki.sprite.2.0.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/
+URL: /en/wiki/sprite/2/0/page-2/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -206,7 +206,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Creature battle animations
 
 ID: wiki.sprite.2.1
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/
+URL: /en/wiki/sprite/2/1/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -330,7 +330,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Creature battle animations
 
 ID: wiki.sprite.2.1.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/
+URL: /en/wiki/sprite/2/1/page-2/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -447,7 +447,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Creature battle animations
 
 ID: wiki.sprite.2.1.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-3/
+URL: /en/wiki/sprite/2/1/page-3/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -61,7 +61,8 @@ WAV PCM and H.264/AAC MP4 derivatives preserve sound rates and video frame
 counts/rates. DEF carries no frame timing; its preview interval is adjustable.
 Campaign summaries are prepared offline using the supplied Explorer parser.
 Their lazy popup includes descriptions, scenario cards, minimaps, aggregate
-statistics and individual H3M downloads. XMI/IFR retain byte previews. TXT is skipped.
+statistics and map views without download controls. Minimap previews include H3M
+object footprints and player ownership. XMI/IFR retain byte previews. TXT is skipped.
 
 `WikiPage.svelte` owns one shared active audio/video player, with 50% initial
 volume. Inactive controls are disabled except Play; navigation aborts playback.
@@ -76,7 +77,7 @@ and localized destinations. Use `npm run prepare:content` for generated files.
 
 `WikiResourcePopup.svelte` opens images in a modal; only its external-link
 button opens a new tab. Fonts use native-size indexed glyph sheets on a dark
-surface in both themes. Palettes retain source colors/flags and expose swatch
+surface in the dark theme and `#967044` in the light theme. Palettes retain source colors/flags and expose swatch
 and HEX/RGB table views. DEF playback starts on open and group selection at
 100ms by default. `WikiPagination.svelte` appears above and below multi-page
 catalogs, with at most five numbered links and an ellipsis before the final

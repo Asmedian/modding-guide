@@ -1,7 +1,7 @@
 # Fonts (*.fnt)
 
 ID: wiki.bitmap.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/
+URL: /en/wiki/bitmap/2/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -83,7 +83,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Menus and main dialogs
 
 ID: wiki.bitmap.2.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/0/
+URL: /en/wiki/bitmap/2/0/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -101,7 +101,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Scenario overview and creature statistics
 
 ID: wiki.bitmap.2.1
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/1/
+URL: /en/wiki/bitmap/2/1/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -119,7 +119,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Credits
 
 ID: wiki.bitmap.2.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/2/
+URL: /en/wiki/bitmap/2/2/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -137,7 +137,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Campaign prologue and epilogue
 
 ID: wiki.bitmap.2.3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/3/
+URL: /en/wiki/bitmap/2/3/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -155,7 +155,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Quick creature information in battle
 
 ID: wiki.bitmap.2.4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/4/
+URL: /en/wiki/bitmap/2/4/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -173,7 +173,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # View World option
 
 ID: wiki.bitmap.2.5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/5/
+URL: /en/wiki/bitmap/2/5/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -191,7 +191,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Final score screen
 
 ID: wiki.bitmap.2.6
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/6/
+URL: /en/wiki/bitmap/2/6/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -209,7 +209,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Creature counts (digits only)
 
 ID: wiki.bitmap.2.7
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/7/
+URL: /en/wiki/bitmap/2/7/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

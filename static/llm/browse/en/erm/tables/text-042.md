@@ -1,7 +1,7 @@
 # Game event sounds
 
 ID: erm.tables.sounds
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/sounds/
+URL: /en/erm/tables/sounds/
 Part: 1/1
 Source references: old-help:form-sound.htm, old-help:rec-sn.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -131,7 +131,7 @@ WAV/82M resource names from the standard set. Check that the active installation
 # Special terrain objects
 
 ID: erm.tables.special-terrain
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/special-terrain/
+URL: /en/erm/tables/special-terrain/
 Part: 1/1
 Source references: old-help:form-specterrain.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

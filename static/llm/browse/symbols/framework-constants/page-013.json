@@ -2,25 +2,107 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "CHAT_EVENT_RESULT_DEFAULT",
+      "name": "FILE_ATTRIBUTE_DIRECTORY",
       "kind": "constant",
-      "slug": "framework/constants/era-chat-event",
-      "anchor": "const-chat-event-result-default",
+      "slug": "framework/constants/win32-api",
+      "anchor": "const-file-attribute-directory",
       "aliases": [],
-      "label": "CHAT_EVENT_RESULT_DEFAULT = 2",
+      "label": "FILE_ATTRIBUTE_DIRECTORY = 16",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-result-default"
+        "en": "/en/erm/framework/constants/win32-api/#const-file-attribute-directory"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FIRST_NON_TACTICS_ROUND",
+      "kind": "constant",
+      "slug": "framework/constants/battle",
+      "anchor": "const-first-non-tactics-round",
+      "aliases": [],
+      "label": "FIRST_NON_TACTICS_ROUND = 0",
+      "destinations": {
+        "en": "/en/erm/framework/constants/battle/#const-first-non-tactics-round"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FIRST_TACTICS_ROUND",
+      "kind": "constant",
+      "slug": "framework/constants/battle",
+      "anchor": "const-first-tactics-round",
+      "aliases": [],
+      "label": "FIRST_TACTICS_ROUND = -1000000000",
+      "destinations": {
+        "en": "/en/erm/framework/constants/battle/#const-first-tactics-round"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FUNC_MEM_ALLOC",
+      "kind": "constant",
+      "slug": "framework/constants/game-functions",
+      "anchor": "const-func-mem-alloc",
+      "aliases": [],
+      "label": "FUNC_MEM_ALLOC = 6386834",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-functions/#const-func-mem-alloc"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
+              "Implementation dependency",
               "All groups"
             ]
           }
@@ -28,25 +110,26 @@
       }
     },
     {
-      "name": "CHAT_EVENT_TYPE_ENTER",
+      "name": "FUNC_MEM_FREE",
       "kind": "constant",
-      "slug": "framework/constants/era-chat-event",
-      "anchor": "const-chat-event-type-enter",
+      "slug": "framework/constants/game-functions",
+      "anchor": "const-func-mem-free",
       "aliases": [],
-      "label": "CHAT_EVENT_TYPE_ENTER = 0",
+      "label": "FUNC_MEM_FREE = 6336752",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-type-enter"
+        "en": "/en/erm/framework/constants/game-functions/#const-func-mem-free"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
+              "Implementation dependency",
               "All groups"
             ]
           }
@@ -54,72 +137,20 @@
       }
     },
     {
-      "name": "CHAT_EVENT_TYPE_INPUT",
-      "kind": "constant",
-      "slug": "framework/constants/era-chat-event",
-      "anchor": "const-chat-event-type-input",
-      "aliases": [],
-      "label": "CHAT_EVENT_TYPE_INPUT = 1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-type-input"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "CHAT_EVENT_TYPE_LEAVE",
-      "kind": "constant",
-      "slug": "framework/constants/era-chat-event",
-      "anchor": "const-chat-event-type-leave",
-      "aliases": [],
-      "label": "CHAT_EVENT_TYPE_LEAVE = 2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-type-leave"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "COMBAT_MANAGER",
+      "name": "GAME_MANAGER",
       "kind": "constant",
       "slug": "framework/constants/game-managers",
-      "anchor": "const-combat-manager",
+      "anchor": "const-game-manager",
       "aliases": [],
-      "label": "COMBAT_MANAGER = 6919200",
+      "label": "GAME_MANAGER = 6919480",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/#const-combat-manager"
+        "en": "/en/erm/framework/constants/game-managers/#const-game-manager"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -134,101 +165,20 @@
       }
     },
     {
-      "name": "CURRENT_HERO",
+      "name": "GAME_SETTING_ANIMATE_SPELLBOOK",
       "kind": "constant",
-      "slug": "framework/constants/heroes",
-      "anchor": "const-current-hero",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-animate-spellbook",
       "aliases": [],
-      "label": "CURRENT_HERO = -1",
+      "label": "GAME_SETTING_ANIMATE_SPELLBOOK = 6916056",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-current-hero"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-animate-spellbook"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "CURRENT_OBJ",
-      "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-current-obj",
-      "aliases": [],
-      "label": "CURRENT_OBJ = 998",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-current-obj"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "CURRENT_PLAYER",
-      "kind": "constant",
-      "slug": "framework/constants/players",
-      "anchor": "const-current-player",
-      "aliases": [],
-      "label": "CURRENT_PLAYER = -1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-current-player"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "CURRENT_TOWN",
-      "kind": "constant",
-      "slug": "framework/constants/towns",
-      "anchor": "const-current-town",
-      "aliases": [],
-      "label": "CURRENT_TOWN = -1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/towns/#const-current-town"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "related",
             "headings": [
@@ -241,621 +191,728 @@
       }
     },
     {
-      "name": "DAYS_IN_MONTH",
+      "name": "GAME_SETTING_APP_PATH",
       "kind": "constant",
-      "slug": "framework/constants/game-limits",
-      "anchor": "const-days-in-month",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-app-path",
       "aliases": [],
-      "label": "DAYS_IN_MONTH = 28",
+      "label": "GAME_SETTING_APP_PATH = 6915604",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-days-in-month"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-app-path"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DAYS_IN_WEEK",
+      "name": "GAME_SETTING_AUTOSAVE",
       "kind": "constant",
-      "slug": "framework/constants/game-limits",
-      "anchor": "const-days-in-week",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-autosave",
       "aliases": [],
-      "label": "DAYS_IN_WEEK = 7",
+      "label": "GAME_SETTING_AUTOSAVE = 6916032",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-days-in-week"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-autosave"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_ACTION_HOVER",
+      "name": "GAME_SETTING_BINK_VIDEO",
       "kind": "constant",
-      "slug": "framework/constants/dialog-action-types",
-      "anchor": "const-dlg-action-hover",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-bink-video",
       "aliases": [],
-      "label": "DLG_ACTION_HOVER = 4",
+      "label": "GAME_SETTING_BINK_VIDEO = 6916088",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-hover"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-bink-video"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_ACTION_INDLG_CLICK",
+      "name": "GAME_SETTING_BLACKOUT_COMPUTER",
       "kind": "constant",
-      "slug": "framework/constants/dialog-action-types",
-      "anchor": "const-dlg-action-indlg-click",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-blackout-computer",
       "aliases": [],
-      "label": "DLG_ACTION_INDLG_CLICK = 512",
+      "label": "GAME_SETTING_BLACKOUT_COMPUTER = 6916064",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-indlg-click"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-blackout-computer"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_ACTION_KEY_PRESSED",
+      "name": "GAME_SETTING_CD_DRIVE",
       "kind": "constant",
-      "slug": "framework/constants/dialog-action-types",
-      "anchor": "const-dlg-action-key-pressed",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-cd-drive",
       "aliases": [],
-      "label": "DLG_ACTION_KEY_PRESSED = 256",
+      "label": "GAME_SETTING_CD_DRIVE = 6916232",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-key-pressed"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-cd-drive"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_ACTION_MOUSE_WHEEL",
+      "name": "GAME_SETTING_COMBAT_ARMY_INFO_LEVEL",
       "kind": "constant",
-      "slug": "framework/constants/dialog-action-types",
-      "anchor": "const-dlg-action-mouse-wheel",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-army-info-level",
       "aliases": [],
-      "label": "DLG_ACTION_MOUSE_WHEEL = 522",
+      "label": "GAME_SETTING_COMBAT_ARMY_INFO_LEVEL = 6916120",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-mouse-wheel"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-army-info-level"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_ACTION_OUTDLG_CLICK",
+      "name": "GAME_SETTING_COMBAT_AUTO_CREATURES",
       "kind": "constant",
-      "slug": "framework/constants/dialog-action-types",
-      "anchor": "const-dlg-action-outdlg-click",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-auto-creatures",
       "aliases": [],
-      "label": "DLG_ACTION_OUTDLG_CLICK = 8",
+      "label": "GAME_SETTING_COMBAT_AUTO_CREATURES = 6916068",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-outdlg-click"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-auto-creatures"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_ADVMAP",
+      "name": "GAME_SETTING_COMBAT_AUTO_SPELLS",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-advmap",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-auto-spells",
       "aliases": [],
-      "label": "DLG_ADVMAP = 4205280",
+      "label": "GAME_SETTING_COMBAT_AUTO_SPELLS = 6916072",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-advmap"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-auto-spells"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_BATTLE",
+      "name": "GAME_SETTING_COMBAT_BALLISTA",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-battle",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-ballista",
       "aliases": [],
-      "label": "DLG_BATTLE = 4662240",
+      "label": "GAME_SETTING_COMBAT_BALLISTA = 6916080",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-battle"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-ballista"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_BOX_SHADOW_WIDTH",
+      "name": "GAME_SETTING_COMBAT_CATAPULT",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-box-shadow-width",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-catapult",
       "aliases": [],
-      "label": "DLG_BOX_SHADOW_WIDTH = 8",
+      "label": "GAME_SETTING_COMBAT_CATAPULT = 6916076",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-box-shadow-width"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-catapult"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_CMD_SET_DEF",
+      "name": "GAME_SETTING_COMBAT_FIRST_AID_TENT",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-commands",
-      "anchor": "const-dlg-cmd-set-def",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-first-aid-tent",
       "aliases": [],
-      "label": "DLG_CMD_SET_DEF = 9",
+      "label": "GAME_SETTING_COMBAT_FIRST_AID_TENT = 6916084",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-def"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-first-aid-tent"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_CMD_SET_DEF_FRAME",
+      "name": "GAME_SETTING_COMBAT_SHADE_LEVEL",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-commands",
-      "anchor": "const-dlg-cmd-set-def-frame",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-shade-level",
       "aliases": [],
-      "label": "DLG_CMD_SET_DEF_FRAME = 4",
+      "label": "GAME_SETTING_COMBAT_SHADE_LEVEL = 6916116",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-def-frame"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-shade-level"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_CMD_SET_PCX",
+      "name": "GAME_SETTING_COMBAT_SPEED",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-commands",
-      "anchor": "const-dlg-cmd-set-pcx",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-speed",
       "aliases": [],
-      "label": "DLG_CMD_SET_PCX = 11",
+      "label": "GAME_SETTING_COMBAT_SPEED = 6916156",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-pcx"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-combat-speed"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_CMD_SET_TEXT",
+      "name": "GAME_SETTING_COMP_WALK_SPEED",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-commands",
-      "anchor": "const-dlg-cmd-set-text",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-comp-walk-speed",
       "aliases": [],
-      "label": "DLG_CMD_SET_TEXT = 3",
+      "label": "GAME_SETTING_COMP_WALK_SPEED = 6916008",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-text"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-comp-walk-speed"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_CMD_TYPE_DEFAULT",
+      "name": "GAME_SETTING_FIRST_TIME",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-commands",
-      "anchor": "const-dlg-cmd-type-default",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-first-time",
       "aliases": [],
-      "label": "DLG_CMD_TYPE_DEFAULT = 512",
+      "label": "GAME_SETTING_FIRST_TIME = 6919540",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-type-default"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-first-time"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_HERO_MEETING_SCREEN",
+      "name": "GAME_SETTING_LAST_MUSIC_VOLUME",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-hero-meeting-screen",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-last-music-volume",
       "aliases": [],
-      "label": "DLG_HERO_MEETING_SCREEN = 5957344",
+      "label": "GAME_SETTING_LAST_MUSIC_VOLUME = 6916024",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-hero-meeting-screen"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-last-music-volume"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_HERO_SCREEN",
+      "name": "GAME_SETTING_LAST_SOUND_VOLUME",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-hero-screen",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-last-sound-volume",
       "aliases": [],
-      "label": "DLG_HERO_SCREEN = 5117840",
+      "label": "GAME_SETTING_LAST_SOUND_VOLUME = 6916028",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-hero-screen"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-last-sound-volume"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_NO_SELECTION",
+      "name": "GAME_SETTING_MAIN_GAME_FULL_SCREEN",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-no-selection",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-full-screen",
       "aliases": [],
-      "label": "DLG_NO_SELECTION = -1",
+      "label": "GAME_SETTING_MAIN_GAME_FULL_SCREEN = 6916104",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-no-selection"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-main-game-full-screen"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_RESULT_CANCEL",
+      "name": "GAME_SETTING_MAIN_GAME_SHOW_MENU",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-result-cancel",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-show-menu",
       "aliases": [],
-      "label": "DLG_RESULT_CANCEL = -1",
+      "label": "GAME_SETTING_MAIN_GAME_SHOW_MENU = 6916092",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-cancel"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-main-game-show-menu"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_RESULT_PIC_1",
+      "name": "GAME_SETTING_MAIN_GAME_X",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-result-pic-1",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-x",
       "aliases": [],
-      "label": "DLG_RESULT_PIC_1 = 0",
+      "label": "GAME_SETTING_MAIN_GAME_X = 6916096",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-1"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-main-game-x"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_RESULT_PIC_2",
+      "name": "GAME_SETTING_MAIN_GAME_Y",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-result-pic-2",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-y",
       "aliases": [],
-      "label": "DLG_RESULT_PIC_2 = 1",
+      "label": "GAME_SETTING_MAIN_GAME_Y = 6916100",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-2"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-main-game-y"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_RESULT_PIC_3",
+      "name": "GAME_SETTING_MOVE_REMINDER",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-result-pic-3",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-move-reminder",
       "aliases": [],
-      "label": "DLG_RESULT_PIC_3 = 2",
+      "label": "GAME_SETTING_MOVE_REMINDER = 6916040",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-3"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-move-reminder"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "DLG_RESULT_PIC_4",
+      "name": "GAME_SETTING_MUSIC_VOLUME",
       "kind": "constant",
-      "slug": "framework/constants/dialogs",
-      "anchor": "const-dlg-result-pic-4",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-music-volume",
       "aliases": [],
-      "label": "DLG_RESULT_PIC_4 = 3",
+      "label": "GAME_SETTING_MUSIC_VOLUME = 6916016",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-4"
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-music-volume"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_NETWORK_DEF_NAME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-network-def-name",
+      "aliases": [],
+      "label": "GAME_SETTING_NETWORK_DEF_NAME = 6916199",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-network-def-name"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_QUICK_COMBAT",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-quick-combat",
+      "aliases": [],
+      "label": "GAME_SETTING_QUICK_COMBAT = 6916044",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-quick-combat"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_COMBAT_GRID",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-combat-grid",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_COMBAT_GRID = 6916108",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-show-combat-grid"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-combat-mouse-hex",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX = 6916112",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-show-combat-mouse-hex"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_INTRO",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-intro",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_INTRO = 6919184",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-settings/#const-game-setting-show-intro"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
             ]
           }
         ]

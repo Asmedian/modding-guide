@@ -1,7 +1,7 @@
 # Hero structure fields
 
 ID: erm.tables.hero-structure
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-structure/
+URL: /en/erm/tables/hero-structure/
 Part: 1/1
 Source references: old-help:form-advhero.htm, old-help:rec-he.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

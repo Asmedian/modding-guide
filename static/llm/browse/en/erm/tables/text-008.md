@@ -1,7 +1,7 @@
 # Hero blessings and curses
 
 ID: erm.tables.blessings
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/blessings/
+URL: /en/erm/tables/blessings/
 Part: 1/1
 Source references: old-help:form-bless.htm, old-help:rec-he.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,7 +1,7 @@
 # Framework events
 
 ID: erm.framework.events
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/events/
+URL: /en/erm/framework/events/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,7 +1,7 @@
 # Battle stack (BM)
 
 ID: erm.receivers.bm
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bm/
+URL: /en/erm/receivers/bm/
 Part: 1/1
 Source references: old-help:rec-bm.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

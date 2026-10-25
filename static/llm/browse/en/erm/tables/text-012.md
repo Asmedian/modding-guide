@@ -1,7 +1,7 @@
 # Town building IDs
 
 ID: erm.tables.buildings
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/buildings/
+URL: /en/erm/tables/buildings/
 Part: 1/1
 Source references: old-help:form-buldings.htm, old-help:rec-ca.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

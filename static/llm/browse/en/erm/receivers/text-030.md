@@ -1,7 +1,7 @@
 # Creature recruitment (RD)
 
 ID: erm.receivers.rd
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/rd/
+URL: /en/erm/receivers/rd/
 Part: 1/1
 Source references: old-help:rec-rd.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -237,7 +237,7 @@ All values are updated in real time.
 # Scholar (SC)
 
 ID: erm.receivers.sc
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sc/
+URL: /en/erm/receivers/sc/
 Part: 1/1
 Source references: old-help:rec-sc.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -319,7 +319,7 @@ Bonus type:<br>
 # Sign and ocean bottle (SG)
 
 ID: erm.receivers.sg
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sg/
+URL: /en/erm/receivers/sg/
 Part: 1/1
 Source references: old-help:rec-sg.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

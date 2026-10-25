@@ -1,7 +1,7 @@
 # Network synchronization (IP)
 
 ID: erm.receivers.ip
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ip/
+URL: /en/erm/receivers/ip/
 Part: 1/1
 Source references: old-help:rec-ip.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -164,7 +164,7 @@ transfers</div>
 # Tree of knowledge (KT)
 
 ID: erm.receivers.kt
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/kt/
+URL: /en/erm/receivers/kt/
 Part: 1/1
 Source references: old-help:rec-kt.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -232,7 +232,7 @@ Payment type<br>
 # Local map events (LE)
 
 ID: erm.receivers.le
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/le/
+URL: /en/erm/receivers/le/
 Part: 1/1
 Source references: old-help:rec-le.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

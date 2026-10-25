@@ -2,800 +2,1027 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/SOLOAD.DEF",
-      "name": "SOLOAD.DEF",
+      "id": "H3sprite.lod/PLICH.def",
+      "name": "PLICH.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 11074,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SOLOAD.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 2,
-      "width": 100,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SOLOAD.DEF.webp",
-      "previewWidth": 100,
-      "previewHeight": 48,
-      "anchor": "file-8d5d48706328",
-      "sha256": "c9248d24f83011806f907f44d083f143a110a248e1832c153e0f57c678977510",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "System Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SOMAIN.DEF",
-      "name": "SOMAIN.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 11074,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SOMAIN.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 2,
-      "width": 100,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SOMAIN.DEF.webp",
-      "previewWidth": 100,
-      "previewHeight": 48,
-      "anchor": "file-682e0cb377c3",
-      "sha256": "7f5a0d4b4a6f10ae6b97d81413886280897c335e13e1b9e2186fa09b17d57e9b",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "System Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SOQUIT.DEF",
-      "name": "SOQUIT.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 11074,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SOQUIT.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 2,
-      "width": 100,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SOQUIT.DEF.webp",
-      "previewWidth": 100,
-      "previewHeight": 48,
-      "anchor": "file-d9e29be87595",
-      "sha256": "5a55e206a6ac6eefcd8184dd1828dca4faeb018534a60444ab19e970efe8d001",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "System Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SORETRN.DEF",
-      "name": "SORETRN.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 11074,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SORETRN.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 2,
-      "width": 100,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SORETRN.DEF.webp",
-      "previewWidth": 100,
-      "previewHeight": 48,
-      "anchor": "file-a3b1fcdee437",
-      "sha256": "a7a3baf6bde85049aac52da760d7fd869ab4572e48bf93ce98aa356b29426c56",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "System Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SORSTRT.DEF",
-      "name": "SORSTRT.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 11074,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SORSTRT.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 2,
-      "width": 100,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SORSTRT.DEF.webp",
-      "previewWidth": 100,
-      "previewHeight": 48,
-      "anchor": "file-01fd7e62d004",
-      "sha256": "b08ca77fd83e4123a1759265447a1f4c78d5c50cedb51ac329bf88da8e77ca34",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "System Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SOSAVE.DEF",
-      "name": "SOSAVE.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 11074,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SOSAVE.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 2,
-      "width": 100,
-      "height": 48,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SOSAVE.DEF.webp",
-      "previewWidth": 100,
-      "previewHeight": 48,
-      "anchor": "file-dfcd9f91c612",
-      "sha256": "5ecbb385a1ed4be50366a165f287f618926a3b43c9b975941ade3d00d75430b3",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "System Options menu"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp01_.def",
-      "name": "Sp01_.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 101891,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp01_.def",
+      "bytes": 7105,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PLICH.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 20,
-      "width": 96,
-      "height": 94,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp01_.def.webp",
-      "previewWidth": 56,
-      "previewHeight": 84,
-      "anchor": "file-5302b90eefbe",
-      "sha256": "486a34e6227116fdb2dc1336fd7822a116e4b94dd3c841ed610bcccc666c8538",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp02_.def",
-      "name": "Sp02_.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 50967,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp02_.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 27,
-      "width": 74,
-      "height": 49,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp02_.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 13,
-      "anchor": "file-3fc18c6618f1",
-      "sha256": "b7e428c0c631a31ca547d6e3ac8e7f84d70a77a1718edb7528de36155790f9de",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp03_.def",
-      "name": "Sp03_.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 39349,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp03_.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 20,
-      "width": 101,
-      "height": 118,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp03_.def.webp",
-      "previewWidth": 74,
-      "previewHeight": 54,
-      "anchor": "file-83d6b714f7bb",
-      "sha256": "b031dcefbeb759e6116c8bab9069e16c6212b671af8dc53a35cd106bba157248",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp04_.def",
-      "name": "Sp04_.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 265999,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp04_.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 20,
-      "width": 142,
-      "height": 139,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp04_.def.webp",
-      "previewWidth": 128,
-      "previewHeight": 127,
-      "anchor": "file-9b25463f117b",
-      "sha256": "26229ce0db9cffdb4199a09689e52fb222c2bc8f75597e138641a27cc1463091",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp05_.def",
-      "name": "Sp05_.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 66393,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp05_.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 19,
-      "width": 72,
-      "height": 97,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp05_.def.webp",
-      "previewWidth": 52,
-      "previewHeight": 34,
-      "anchor": "file-8528c9674485",
-      "sha256": "c96baa2a01d987324707e62c0fe9376ac58e00ce171040fd94fd0fc53f356cd3",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp06_.def",
-      "name": "Sp06_.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 170034,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp06_.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 20,
-      "width": 95,
-      "height": 93,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp06_.def.webp",
-      "previewWidth": 89,
-      "previewHeight": 89,
-      "anchor": "file-a4f8531c3973",
-      "sha256": "bbaf16a95e134033babd358bc9a2d8d99b2b234927560cc49932074c5efdff20",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp07_A.def",
-      "name": "Sp07_A.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 63656,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp07_A.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 12,
-      "width": 108,
-      "height": 131,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp07_A.def.webp",
-      "previewWidth": 101,
-      "previewHeight": 105,
-      "anchor": "file-215607abc9ff",
-      "sha256": "a7f03e2c416829c144f0590ea61d46f4c806b1b98bd71664614f860615ccd97e",
-      "destinations": [
-        {
-          "category": [
-            "Creature spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Sp07_B.def",
-      "name": "Sp07_B.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 63633,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp07_B.def",
-      "kind": "def",
-      "type": 64,
-      "groups": 1,
-      "frames": 12,
-      "width": 113,
-      "height": 132,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp07_B.def.webp",
+      "frames": 9,
+      "width": 35,
+      "height": 35,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PLICH.def.webp",
       "previewWidth": 21,
-      "previewHeight": 22,
-      "anchor": "file-b8aa6ae3ef2b",
-      "sha256": "fd7e4b0ffd59e5efb41130dbb57d029d0608b587c7dfc6b32afba295d4105957",
+      "previewHeight": 32,
+      "anchor": "file-19a40359506f",
+      "sha256": "7f727a9cbf1351e065c89dc3ea8095136efe9a7329da5396f9e28c15d0e4bc15",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Creature spells"
+            "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/Sp08_.def",
-      "name": "Sp08_.def",
+      "id": "H3sprite.lod/PMAGEX.def",
+      "name": "PMAGEX.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 59588,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp08_.def",
+      "bytes": 9725,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PMAGEX.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 20,
-      "width": 90,
-      "height": 94,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp08_.def.webp",
-      "previewWidth": 84,
-      "previewHeight": 88,
-      "anchor": "file-589fd04fde70",
-      "sha256": "72eec6c9d00f576b65d68d819af18ff23f8ecc21300866c0184620feac030929",
+      "frames": 9,
+      "width": 30,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PMAGEX.def.webp",
+      "previewWidth": 25,
+      "previewHeight": 30,
+      "anchor": "file-183a8f8e139e",
+      "sha256": "62ee09b3ae81ff363f87c2b2b735fce5c69833777059420112ad594a9d449961",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Creature spells"
+            "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/Sp09_.def",
-      "name": "Sp09_.def",
+      "id": "H3sprite.lod/PMEDUSX.def",
+      "name": "PMEDUSX.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 61292,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp09_.def",
+      "bytes": 3219,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PMEDUSX.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 20,
-      "width": 91,
-      "height": 86,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp09_.def.webp",
-      "previewWidth": 71,
-      "previewHeight": 59,
-      "anchor": "file-9ec204af21a4",
-      "sha256": "8fdb14b65326f7b2dcc198006fceb8c72b41768fe9dc2fd3c43f8c98afc2639c",
+      "frames": 9,
+      "width": 30,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PMEDUSX.def.webp",
+      "previewWidth": 4,
+      "previewHeight": 30,
+      "anchor": "file-0c31c53f7522",
+      "sha256": "65b7824263bb0809d4b06d837d3d736ef8b2ff0affe3e718168d0778cce484a7",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Creature spells"
+            "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/Sp10_.def",
-      "name": "Sp10_.def",
+      "id": "H3sprite.lod/poof.def",
+      "name": "poof.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 130341,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp10_.def",
+      "bytes": 43372,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/poof.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 27,
-      "width": 86,
-      "height": 120,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp10_.def.webp",
-      "previewWidth": 77,
-      "previewHeight": 25,
-      "anchor": "file-3dd92471e5bf",
-      "sha256": "16a3821233e8b986565f933a669883cd3c2ef3365a55c6e0ed05e959308683ab",
+      "frames": 15,
+      "width": 76,
+      "height": 124,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/poof.def.webp",
+      "previewWidth": 17,
+      "previewHeight": 19,
+      "anchor": "file-e37584b9f24b",
+      "sha256": "8e5667a3f8661f97e78e6cfd44472e0eb1299cca66246ae2d51dafcbe207daaa",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 15
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Creature spells"
+            "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/Sp11_.def",
-      "name": "Sp11_.def",
+      "id": "H3sprite.lod/porchx.def",
+      "name": "porchx.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 201617,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp11_.def",
+      "bytes": 6132,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/porchx.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 20,
-      "width": 124,
-      "height": 148,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp11_.def.webp",
-      "previewWidth": 111,
-      "previewHeight": 142,
-      "anchor": "file-a7053cbcc6ad",
-      "sha256": "d17a6011caa515d5a4b9f04ef635e1a4117edf5bd38ede2b83f354e122d5ba35",
+      "frames": 9,
+      "width": 40,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/porchx.def.webp",
+      "previewWidth": 14,
+      "previewHeight": 38,
+      "anchor": "file-b32f730eaf4b",
+      "sha256": "39a45f916fa3ecaa4bcea9a7155ecebdc98670fadb660a0c719cc1d6f79942f5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Creature spells"
+            "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/Sp12_.def",
-      "name": "Sp12_.def",
+      "id": "H3sprite.lod/PPLIZAX.def",
+      "name": "PPLIZAX.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 170154,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Sp12_.def",
+      "bytes": 3219,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PPLIZAX.def",
       "kind": "def",
       "type": 64,
       "groups": 1,
-      "frames": 20,
-      "width": 95,
-      "height": 94,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Sp12_.def.webp",
-      "previewWidth": 89,
-      "previewHeight": 89,
-      "anchor": "file-a051e33afa79",
-      "sha256": "3bc39002e223211bc996df4e616da94c3127dc306678259e607f45bb2de44859",
+      "frames": 9,
+      "width": 30,
+      "height": 30,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PPLIZAX.def.webp",
+      "previewWidth": 4,
+      "previewHeight": 30,
+      "anchor": "file-f2607322c090",
+      "sha256": "06513d45687d61a08e622d835a8ed9a59ac2e99d68c9c20fb80bef7ef425f6f9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 9
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Creature spells"
+            "Projectile animations"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/"
+          "en": "/en/wiki/sprite/2/0/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/sp13_.def",
-      "name": "sp13_.def",
+      "id": "H3sprite.lod/PRSTRIPS.DEF",
+      "name": "PRSTRIPS.DEF",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "kind": "def",
-      "bytes": 35820,
-      "sha256": "429e26bec725ec1804f450cc1c3e6051aaecfc03285cf9a287d0f7c3ec5816e2",
-      "anchor": "file-04fb9e9ebb98",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/sp13_.def",
-      "type": 64,
-      "groups": 1,
-      "frames": 19,
-      "width": 117,
-      "height": 91,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/sp13_.def.webp",
-      "previewWidth": 84,
-      "previewHeight": 9,
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-12/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SpellBon.def",
-      "name": "SpellBon.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 291009,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SpellBon.def",
+      "bytes": 273303,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PRSTRIPS.DEF",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 70,
+      "frames": 7,
+      "width": 66,
+      "height": 540,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PRSTRIPS.DEF.webp",
+      "previewWidth": 20,
+      "previewHeight": 160,
+      "anchor": "file-d862d5deab44",
+      "sha256": "ed54db75ffb527df2e2314583eb238c3138fd6da011bfab093f65247a0e66879",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 7
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Main game panels"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/PSKIL32.def",
+      "name": "PSKIL32.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 8390,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PSKIL32.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 6,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PSKIL32.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 32,
+      "anchor": "file-02296d0b7100",
+      "sha256": "61e99efe20645670fb73c0545dfbb19d4e9cc9ebc55aa2ea81648bef4b9b644c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Icons",
+            "Primary skills"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/PSKIL42.def",
+      "name": "PSKIL42.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 13190,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PSKIL42.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 6,
+      "width": 42,
+      "height": 42,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PSKIL42.def.webp",
+      "previewWidth": 42,
+      "previewHeight": 42,
+      "anchor": "file-7a27bebca789",
+      "sha256": "be8ffa69f0676fe1d556574f9b64739011aa47064ea52a72063cbfbf3b6778d9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Icons",
+            "Primary skills"
+          ],
+          "en": "/en/wiki/sprite/2/6/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/PSkilBon.DEF",
+      "name": "PSkilBon.DEF",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 17380,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PSkilBon.DEF",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
       "width": 58,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SpellBon.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PSkilBon.DEF.webp",
       "previewWidth": 58,
       "previewHeight": 64,
-      "anchor": "file-4e912e7cce37",
-      "sha256": "87531c623cbd60b91bcbf41067782f57eed0e919b6cca3a666db97573b11d829",
+      "anchor": "file-7c16fd385c21",
+      "sha256": "c7570b46a071c0e362b12151c7968458b3567949189e0ae5dc2df7c6ec846492",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
             "Icons",
-            "Spells"
+            "Primary skills"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SpellInt.def",
-      "name": "SpellInt.def",
+      "id": "H3sprite.lod/PSKILL.def",
+      "name": "PSKILL.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 158256,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SpellInt.def",
+      "bytes": 50198,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/PSKILL.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 79,
-      "width": 48,
-      "height": 36,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SpellInt.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 36,
-      "anchor": "file-543acfdcc553",
-      "sha256": "4f95256d5bc35e1ec3a61a8d94a3827416ffb3a04b4242f805c3e91c2ac82d47",
+      "frames": 6,
+      "width": 82,
+      "height": 93,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/PSKILL.def.webp",
+      "previewWidth": 82,
+      "previewHeight": 93,
+      "anchor": "file-b84bf89d172b",
+      "sha256": "944aea06ad5bb9c106f8e3e4bc004a79c989e78e906fabcbde301ee8d4f8c065",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 6
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
             "Icons",
-            "Spells"
+            "Primary skills"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/spells.def",
-      "name": "spells.def",
+      "id": "H3sprite.lod/QLexit.def",
+      "name": "QLexit.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 202964,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/spells.def",
+      "bytes": 3330,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/QLexit.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 70,
-      "width": 78,
-      "height": 65,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/spells.def.webp",
-      "previewWidth": 65,
-      "previewHeight": 50,
-      "anchor": "file-00b2dcf9479c",
-      "sha256": "a33697d204514cbb5921c8eb468365b19ef73180a21ae69ee620a850e51f1b4e",
+      "frames": 2,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/QLexit.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 32,
+      "anchor": "file-49a6c6f2588c",
+      "sha256": "7cf4db526784e16b40c14744071c6f6d030ba53fb4f830e45b76b13f941ba159",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 2
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Icons",
-            "Spells"
+            "Buttons",
+            "Other"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-4/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SpellScr.def",
-      "name": "SpellScr.def",
+      "id": "H3sprite.lod/RADAR.def",
+      "name": "RADAR.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 388815,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SpellScr.def",
+      "bytes": 12950,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RADAR.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 71,
+      "frames": 14,
+      "width": 148,
+      "height": 132,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RADAR.def.webp",
+      "previewWidth": 2,
+      "previewHeight": 2,
+      "anchor": "file-7d5167c78812",
+      "sha256": "d0be3d1152aab91a4fbbcee10466f5b58cf6531250c353730b765980c720f156",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 14
+        }
+      ],
+      "maskId": "H3sprite.lod/RADAR.msk",
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Other"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-4/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanIsld.def",
+      "name": "RanIsld.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9604,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanIsld.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 84,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanIsld.def.webp",
+      "previewWidth": 84,
+      "previewHeight": 32,
+      "anchor": "file-b01c641a7ba7",
+      "sha256": "479721eec047589d562e1422776a1af7efa4911997767d3d4a4b152ee644fb59",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNone.def",
+      "name": "RanNone.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9508,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNone.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
       "width": 83,
-      "height": 61,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SpellScr.def.webp",
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNone.def.webp",
       "previewWidth": 83,
-      "previewHeight": 61,
-      "anchor": "file-b0f8b2fe43c1",
-      "sha256": "e9b25c71b91b494d53621eb685baf98c7a357136c2d13b503cf5652ab8e6122b",
+      "previewHeight": 32,
+      "anchor": "file-cefab35bf9f8",
+      "sha256": "7285750cca7f19ec05e5f21512444fa7be972f905a93d0e19949ead8b5e3aa4d",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Icons",
-            "Spells"
+            "Buttons",
+            "Scenario selection buttons"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SPELTAB.def",
-      "name": "SPELTAB.def",
+      "id": "H3sprite.lod/RanNorm.def",
+      "name": "RanNorm.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 68408,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SPELTAB.def",
+      "bytes": 6611,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNorm.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 5,
+      "frames": 3,
       "width": 83,
-      "height": 294,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SPELTAB.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 160,
-      "anchor": "file-768a59f0469c",
-      "sha256": "9224403c2ca029c779bee6eeea35db5b4e6dd904defff464d7279258b555d4f3",
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNorm.def.webp",
+      "previewWidth": 83,
+      "previewHeight": 32,
+      "anchor": "file-71dd50e050e2",
+      "sha256": "a59b62cb1ca5140f6acc6b15b7161c7538c732a5898394a5ff795830714a430c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 3
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Icons",
-            "Spells"
+            "Buttons",
+            "Scenario selection buttons"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SpLevA.def",
-      "name": "SpLevA.def",
+      "id": "H3sprite.lod/RanNum0.def",
+      "name": "RanNum0.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4310,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SpLevA.def",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum0.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
       "frames": 4,
-      "width": 78,
-      "height": 65,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SpLevA.def.webp",
-      "previewWidth": 22,
-      "previewHeight": 16,
-      "anchor": "file-aad26ca7965e",
-      "sha256": "d0864a913c19c75cd715e11b278f9cdf4447e1711d5ca94d73676c27df16c786",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Spells"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/SpLevE.def",
-      "name": "SpLevE.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 5599,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SpLevE.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 78,
-      "height": 65,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SpLevE.def.webp",
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum0.def.webp",
       "previewWidth": 30,
-      "previewHeight": 19,
-      "anchor": "file-9106740c0b43",
-      "sha256": "772cdee37391ff3bb6f2aff7c4fdb631e127720a9e277f1998324ed0b04178f0",
+      "previewHeight": 32,
+      "anchor": "file-62679c534315",
+      "sha256": "eec76e63458e9d2293098a29dc79ae67266315bff7e4235906d057619b209da9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Icons",
-            "Spells"
+            "Buttons",
+            "Scenario selection buttons"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-2/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/SpLevF.def",
-      "name": "SpLevF.def",
+      "id": "H3sprite.lod/RanNum1.def",
+      "name": "RanNum1.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4628,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/SpLevF.def",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum1.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
       "frames": 4,
-      "width": 78,
-      "height": 65,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/SpLevF.def.webp",
-      "previewWidth": 21,
-      "previewHeight": 15,
-      "anchor": "file-a95bb7971ffc",
-      "sha256": "d0ea8182207432871acd5c37c5f60bc4f97df9eb6b6e629e4c345e077a77dd3c",
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum1.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-3559054f65ba",
+      "sha256": "5d98bbcb3eb85f050badbe8059430f0175ac57ce2093c220052d05c99f5c7a6b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
       "destinations": [
         {
           "category": [
             "Interface",
             "General",
-            "Icons",
-            "Spells"
+            "Buttons",
+            "Scenario selection buttons"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum2.def",
+      "name": "RanNum2.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum2.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum2.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-85d82c7d25ed",
+      "sha256": "2d6c37ddea8eb3968bf4689cc54dbc4202871b5cba6643be08fd2799ae60a2a5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum3.def",
+      "name": "RanNum3.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum3.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum3.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-84d73be54285",
+      "sha256": "d4e9252a488dc874dff9691491dc35cd1228f68a245ef0eb8571fc283572c392",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum4.def",
+      "name": "RanNum4.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum4.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum4.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-bc22e8b75b88",
+      "sha256": "33351bcca1c6b7d36596884ddfebe1ca44efb09eb99b73f98c39eb85c729449a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum5.def",
+      "name": "RanNum5.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum5.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum5.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-d706167aa1b0",
+      "sha256": "eea124c39d19f9f5351722c22a06f49d06d841edbe1b2e20bf714949bd027525",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum6.def",
+      "name": "RanNum6.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum6.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum6.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-58d702906184",
+      "sha256": "2949269d6ed082a7c7cd7c95c34ab0dc082dd6f0507860170bf788fbd6f0d3c0",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum7.def",
+      "name": "RanNum7.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum7.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum7.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-b8a0efe2f4f9",
+      "sha256": "8fc640116b74138a9389740c433eb5a439104d73398b28fe358f056f469cacb6",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanNum8.def",
+      "name": "RanNum8.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4420,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanNum8.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 30,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanNum8.def.webp",
+      "previewWidth": 30,
+      "previewHeight": 32,
+      "anchor": "file-8d395362ea1d",
+      "sha256": "1c721d9a820f8d187c5d2daaa12f09dab2f7e03437b99790a6cad6104ed59f9e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanRand.def",
+      "name": "RanRand.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 6820,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanRand.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 55,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanRand.def.webp",
+      "previewWidth": 55,
+      "previewHeight": 32,
+      "anchor": "file-b8f6bf42170f",
+      "sha256": "3fa7392ea3fe8bcf23fea8e2e749bbc1663e8cb38bdf87517c26c85361cb8234",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanShow.def",
+      "name": "RanShow.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 42364,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanShow.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 337,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanShow.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 28,
+      "anchor": "file-c159364add7d",
+      "sha256": "fa58913159a24ad09c97cc44b337f6ade0ad31fa50e0495e0bef01c326a003ea",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanSizL.def",
+      "name": "RanSizL.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 5914,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanSizL.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 44,
+      "height": 33,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanSizL.def.webp",
+      "previewWidth": 44,
+      "previewHeight": 33,
+      "anchor": "file-cde839be85ab",
+      "sha256": "d20756135dd08f482761e3fbe12c83cf43ed63c3a8254b9232400098be726275",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/RanSizM.def",
+      "name": "RanSizM.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 5914,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/RanSizM.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 4,
+      "width": 44,
+      "height": 33,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/RanSizM.def.webp",
+      "previewWidth": 44,
+      "previewHeight": 33,
+      "anchor": "file-ab04527b90b2",
+      "sha256": "7fe94f7ca2ab179745d2a5503ce13565b0caec0b571691bfd51de021d756f0a8",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 4
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Interface",
+            "General",
+            "Buttons",
+            "Scenario selection buttons"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-2/"
         }
       ]
     }

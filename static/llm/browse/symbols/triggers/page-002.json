@@ -2,108 +2,6 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "OnAfterBattleBeforeDataSend",
-      "kind": "event",
-      "slug": "triggers/ip",
-      "anchor": "",
-      "aliases": [
-        "30332",
-        "IP2",
-        "!?IP2"
-      ],
-      "label": "OnAfterBattleBeforeDataSend",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ip/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
-            "fromAnchor": "ref-tr-ip",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Trigger IP",
-              "When it fires",
-              "Declaration",
-              "ERA names and aliases",
-              "Limitations and ordering",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "OnAfterBattleForThisPcDefender",
-      "kind": "event",
-      "slug": "triggers/ba",
-      "anchor": "",
-      "aliases": [
-        "30351",
-        "BA51",
-        "!?BA51"
-      ],
-      "label": "OnAfterBattleForThisPcDefender",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ba/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
-            "fromAnchor": "ref-tr-ba",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Trigger BA",
-              "When it fires",
-              "Declaration",
-              "ERA names and aliases",
-              "Limitations and ordering",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "OnAfterBattleUniversal",
-      "kind": "event",
-      "slug": "triggers/ba",
-      "anchor": "",
-      "aliases": [
-        "30353",
-        "BA53",
-        "!?BA53"
-      ],
-      "label": "OnAfterBattleUniversal",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ba/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
-            "fromAnchor": "ref-tr-ba",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Trigger BA",
-              "When it fires",
-              "Declaration",
-              "ERA names and aliases",
-              "Limitations and ordering",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "OnAfterBuildTownBuilding",
       "kind": "event",
       "slug": "triggers/onafterbuildtownbuilding",
@@ -113,13 +11,13 @@
       ],
       "label": "OnAfterBuildTownBuilding",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onafterbuildtownbuilding/"
+        "en": "/en/erm/triggers/onafterbuildtownbuilding/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -145,13 +43,13 @@
       ],
       "label": "OnAfterCommanderBuy",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/co/"
+        "en": "/en/erm/triggers/co/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
             "fromAnchor": "ref-tr-co",
             "toAnchor": "reference-links",
             "headings": [
@@ -179,13 +77,13 @@
       ],
       "label": "OnAfterCommanderResurrect",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/co/"
+        "en": "/en/erm/triggers/co/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
             "fromAnchor": "ref-tr-co",
             "toAnchor": "reference-links",
             "headings": [
@@ -213,13 +111,13 @@
       ],
       "label": "OnAfterErmInstructions",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/pi/"
+        "en": "/en/erm/triggers/pi/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "url": "/llm/browse/en/erm/triggers/text-008.md",
             "fromAnchor": "ref-tr-pi",
             "toAnchor": "related",
             "headings": [
@@ -244,13 +142,13 @@
       ],
       "label": "OnAfterHeroGainLevel",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onafterherogainlevel/"
+        "en": "/en/erm/triggers/onafterherogainlevel/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -274,13 +172,13 @@
       ],
       "label": "OnAfterHeroInteraction",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onafterherointeraction/"
+        "en": "/en/erm/triggers/onafterherointeraction/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -306,13 +204,13 @@
       ],
       "label": "OnAfterLoadGame",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/gm/"
+        "en": "/en/erm/triggers/gm/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+            "url": "/llm/browse/en/erm/triggers/text-002.md",
             "fromAnchor": "ref-tr-gm",
             "toAnchor": "reference-links",
             "headings": [
@@ -338,13 +236,13 @@
       ],
       "label": "OnAfterLocalEvent",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onafterlocalevent/"
+        "en": "/en/erm/triggers/onafterlocalevent/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -368,13 +266,13 @@
       ],
       "label": "OnAfterPlaceBattleObstacles",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onafterplacebattleobstacles/"
+        "en": "/en/erm/triggers/onafterplacebattleobstacles/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -398,13 +296,13 @@
       ],
       "label": "OnAfterSaveGame",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onaftersavegame/"
+        "en": "/en/erm/triggers/onaftersavegame/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -428,13 +326,13 @@
       ],
       "label": "OnAfterTacticsPhase",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onaftertacticsphase/"
+        "en": "/en/erm/triggers/onaftertacticsphase/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -458,13 +356,13 @@
       ],
       "label": "OnAICalcStackAttackEffect",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onaicalcstackattackeffect/"
+        "en": "/en/erm/triggers/onaicalcstackattackeffect/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -488,13 +386,13 @@
       ],
       "label": "OnBattleActionEnd",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleactionend/"
+        "en": "/en/erm/triggers/onbattleactionend/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -518,13 +416,13 @@
       ],
       "label": "OnBattlefieldVisible",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlefieldvisible/"
+        "en": "/en/erm/triggers/onbattlefieldvisible/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -550,13 +448,13 @@
       ],
       "label": "OnBattleMouseHint",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/mm/"
+        "en": "/en/erm/triggers/mm/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+            "url": "/llm/browse/en/erm/triggers/text-003.md",
             "fromAnchor": "ref-tr-mm",
             "toAnchor": "reference-links",
             "headings": [
@@ -582,13 +480,13 @@
       ],
       "label": "OnBattleRegeneratePhase",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleregeneratephase/"
+        "en": "/en/erm/triggers/onbattleregeneratephase/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -612,13 +510,13 @@
       ],
       "label": "OnBattleReplay",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlereplay/"
+        "en": "/en/erm/triggers/onbattlereplay/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+            "url": "/llm/browse/en/erm/triggers/text-004.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -645,13 +543,13 @@
       ],
       "label": "OnBattleRound",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/br/"
+        "en": "/en/erm/triggers/br/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
             "fromAnchor": "ref-tr-br",
             "toAnchor": "reference-links",
             "headings": [
@@ -679,13 +577,13 @@
       ],
       "label": "OnBattleScreenMouseClick",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/cm/"
+        "en": "/en/erm/triggers/cm/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
             "fromAnchor": "ref-tr-cm",
             "toAnchor": "reference-links",
             "headings": [
@@ -711,13 +609,13 @@
       ],
       "label": "OnBattleStackObtainsTurn",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackobtainsturn/"
+        "en": "/en/erm/triggers/onbattlestackobtainsturn/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -741,13 +639,13 @@
       ],
       "label": "OnBattleStackRegeneration",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackregeneration/"
+        "en": "/en/erm/triggers/onbattlestackregeneration/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
             "fromAnchor": "event",
             "toAnchor": "reference-links",
             "headings": [
@@ -773,13 +671,13 @@
       ],
       "label": "OnBeforeAdventureMagic",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/mg/"
+        "en": "/en/erm/triggers/mg/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+            "url": "/llm/browse/en/erm/triggers/text-003.md",
             "fromAnchor": "ref-tr-mg",
             "toAnchor": "related",
             "headings": [
@@ -806,13 +704,13 @@
       ],
       "label": "OnBeforeBattle",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ba/"
+        "en": "/en/erm/triggers/ba/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
             "fromAnchor": "ref-tr-ba",
             "toAnchor": "reference-links",
             "headings": [
@@ -840,13 +738,13 @@
       ],
       "label": "OnBeforeBattleAction",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/bg/"
+        "en": "/en/erm/triggers/bg/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
             "fromAnchor": "ref-tr-bg",
             "toAnchor": "reference-links",
             "headings": [
@@ -874,13 +772,13 @@
       ],
       "label": "OnBeforeBattleAfterDataReceived",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ip/"
+        "en": "/en/erm/triggers/ip/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+            "url": "/llm/browse/en/erm/triggers/text-002.md",
             "fromAnchor": "ref-tr-ip",
             "toAnchor": "reference-links",
             "headings": [
@@ -908,13 +806,13 @@
       ],
       "label": "OnBeforeBattleBeforeDataSend",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ip/"
+        "en": "/en/erm/triggers/ip/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+            "url": "/llm/browse/en/erm/triggers/text-002.md",
             "fromAnchor": "ref-tr-ip",
             "toAnchor": "reference-links",
             "headings": [
@@ -924,6 +822,224 @@
               "ERA names and aliases",
               "Limitations and ordering",
               "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattlefieldVisible",
+      "kind": "event",
+      "slug": "triggers/onbeforebattlefieldvisible",
+      "anchor": "",
+      "aliases": [
+        "77019"
+      ],
+      "label": "OnBeforeBattlefieldVisible",
+      "destinations": {
+        "en": "/en/erm/triggers/onbeforebattlefieldvisible/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleForThisPcDefender",
+      "kind": "event",
+      "slug": "triggers/ba",
+      "anchor": "",
+      "aliases": [
+        "30350",
+        "BA50",
+        "!?BA50"
+      ],
+      "label": "OnBeforeBattleForThisPcDefender",
+      "destinations": {
+        "en": "/en/erm/triggers/ba/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-ba",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger BA",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleReplay",
+      "kind": "event",
+      "slug": "triggers/onbeforebattlereplay",
+      "anchor": "",
+      "aliases": [
+        "77044"
+      ],
+      "label": "OnBeforeBattleReplay",
+      "destinations": {
+        "en": "/en/erm/triggers/onbeforebattlereplay/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleStackTurn",
+      "kind": "event",
+      "slug": "triggers/onbeforebattlestackturn",
+      "anchor": "",
+      "aliases": [
+        "77041"
+      ],
+      "label": "OnBeforeBattleStackTurn",
+      "destinations": {
+        "en": "/en/erm/triggers/onbeforebattlestackturn/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleUniversal",
+      "kind": "event",
+      "slug": "triggers/ba",
+      "anchor": "",
+      "aliases": [
+        "30352",
+        "BA52",
+        "!?BA52"
+      ],
+      "label": "OnBeforeBattleUniversal",
+      "destinations": {
+        "en": "/en/erm/triggers/ba/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-ba",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger BA",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeHeroInteraction",
+      "kind": "event",
+      "slug": "triggers/onbeforeherointeraction",
+      "anchor": "",
+      "aliases": [
+        "77010"
+      ],
+      "label": "OnBeforeHeroInteraction",
+      "destinations": {
+        "en": "/en/erm/triggers/onbeforeherointeraction/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeLocalEvent",
+      "kind": "event",
+      "slug": "triggers/onbeforelocalevent",
+      "anchor": "",
+      "aliases": [
+        "77045"
+      ],
+      "label": "OnBeforeLocalEvent",
+      "destinations": {
+        "en": "/en/erm/triggers/onbeforelocalevent/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
               "Related commands and tables"
             ]
           }

@@ -1,7 +1,7 @@
 # Hero table
 
 ID: erm.tables.heroes
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/heroes/
+URL: /en/erm/tables/heroes/
 Part: 1/1
 Source references: old-help:form-numberheroes.htm, era-framework:lib-9999-era---consts.erm, old-help:form-numberheroes-hex.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

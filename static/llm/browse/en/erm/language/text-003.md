@@ -1,7 +1,7 @@
 # SN:F — calling an export
 
 ID: erm.examples.sn-f
-URL: https://asmedian.github.io/modding-guide/en/erm/examples/sn-f/
+URL: /en/erm/examples/sn-f/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -39,7 +39,7 @@ Call `!!FU(MyMod_ReadShift):P?(pressed:y);`. Requires Windows and ERA. UI handle
 # ERA ERM Framework
 
 ID: erm.framework
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/
+URL: /en/erm/framework/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -73,7 +73,7 @@ The catalog distinguishes public, internal, event-handler, quit-handler and requ
 # Functions and parameters
 
 ID: erm.functions
-URL: https://asmedian.github.io/modding-guide/en/erm/functions/
+URL: /en/erm/functions/
 Part: 1/1
 Source references: old-help:rec-fu.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -119,7 +119,7 @@ Local `y` variables belong to a call. A nested function must not treat the calle
 # ERM Hooker — custom events
 
 ID: erm.hooker
-URL: https://asmedian.github.io/modding-guide/en/erm/hooker/
+URL: /en/erm/hooker/
 Part: 1/1
 Source references: erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, erm-hooker:author-api-1.0.0
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -178,7 +178,7 @@ The API is documented in [Berserker’s documentation reproduced in this post](h
 # Command and symbol index
 
 ID: erm.index
-URL: https://asmedian.github.io/modding-guide/en/erm/index/
+URL: /en/erm/index/
 Part: 1/1
 Source references: era-source:erm.pas, era-framework:lib-9999-era---consts.erm, old-help:cont-list.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

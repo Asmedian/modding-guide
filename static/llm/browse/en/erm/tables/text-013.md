@@ -1,7 +1,7 @@
 # BM:V animations
 
 ID: erm.tables.combat-animations
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/combat-animations/
+URL: /en/erm/tables/combat-animations/
 Part: 1/2
 Source references: old-help:form-formatanimation.htm, old-help:form-defspell.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

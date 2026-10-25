@@ -1,7 +1,7 @@
 # Secondary skill pictures
 
 ID: erm.tables.secondary-skill-pictures
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skill-pictures/
+URL: /en/erm/tables/secondary-skill-pictures/
 Part: 1/1
 Source references: old-help:form-secondaryskill-if.htm, old-help:rec-if.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -338,7 +338,7 @@ Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.
 # Secondary skills
 
 ID: erm.tables.secondary-skills
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skills/
+URL: /en/erm/tables/secondary-skills/
 Part: 1/1
 Source references: old-help:form-secondaryskill.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

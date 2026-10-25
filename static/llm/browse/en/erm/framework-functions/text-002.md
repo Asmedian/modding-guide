@@ -1,7 +1,7 @@
 # Framework functions
 
 ID: erm.framework.functions
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/
+URL: /en/erm/framework/functions/
 Part: 2/2
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -79,7 +79,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # ActivateNextStack
 
 ID: erm.framework.functions.activatenextstack
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/activatenextstack/
+URL: /en/erm/framework/functions/activatenextstack/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -119,7 +119,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # AddArtToHero
 
 ID: erm.framework.functions.addarttohero
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/addarttohero/
+URL: /en/erm/framework/functions/addarttohero/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -162,7 +162,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3155â
 # AdvMap_SetHint
 
 ID: erm.framework.functions.advmap-sethint
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-sethint/
+URL: /en/erm/framework/functions/advmap-sethint/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -206,7 +206,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2363â
 # AdvMap_SetInfoPanelDef
 
 ID: erm.framework.functions.advmap-setinfopaneldef
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneldef/
+URL: /en/erm/framework/functions/advmap-setinfopaneldef/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -253,7 +253,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2404â
 # AdvMap_SetInfoPanelText
 
 ID: erm.framework.functions.advmap-setinfopaneltext
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneltext/
+URL: /en/erm/framework/functions/advmap-setinfopaneltext/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -294,7 +294,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2377â
 # Array_Clone
 
 ID: erm.framework.functions.array-clone
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-clone/
+URL: /en/erm/framework/functions/array-clone/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

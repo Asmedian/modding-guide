@@ -1,7 +1,7 @@
 # Conditions and branches
 
 ID: erm.conditions
-URL: https://asmedian.github.io/modding-guide/en/erm/conditions/
+URL: /en/erm/conditions/
 Part: 1/1
 Source references: old-help:cont-triggersol.htm, old-help:cont-flags.htm, old-help:rec-iee.htm, old-help:rec-re.htm, old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -131,7 +131,7 @@ ZVSE2
 # ERM examples
 
 ID: erm.examples
-URL: https://asmedian.github.io/modding-guide/en/erm/examples/
+URL: /en/erm/examples/
 Part: 1/1
 Source references: era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-lib.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -347,7 +347,7 @@ Check new games and loading, repeated invocation and missing objects; for combat
 # SN:E — calling by address
 
 ID: erm.examples.sn-e
-URL: https://asmedian.github.io/modding-guide/en/erm/examples/sn-e/
+URL: /en/erm/examples/sn-e/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

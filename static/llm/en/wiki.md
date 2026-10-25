@@ -1,29 +1,19 @@
 # Wiki
 
 ID: wiki.overview
-URL: https://asmedian.github.io/modding-guide/en/wiki/
+URL: /en/wiki/
 Source references: wiki-sod:H3bitmap.lod, wiki-sod:H3bitmap.lf, wiki-sod:H3sprite.lod, wiki-sod:H3sprite.lf, wiki-sod:Heroes3.snd, wiki-sod:VIDEO.VID, wiki-sod:H3DefTool_portable_creature_packer.zip, wiki-sod:homm3-explorer-main.zip, wiki-sod:h3deftool-groups
 
 Heroes III resources: SoD images, DEF animations, sounds and videos.
 
-## SoD resources {#resources}
 
-Categories come from `H3bitmap.lf` and `H3sprite.lf`; resources are extracted from `H3bitmap.lod`, `H3sprite.lod`, `Heroes3.snd` and `VIDEO.VID`. **SoD** identifies the source edition of every section. TXT files are deferred.
-
-Pages show separate small WebP previews. A full DEF, sound or video is downloaded only after activation. Only one media player is active at a time, with an initial volume of 50%. DEF files open as groups with their original frame names. Sound sample rates and sample order are preserved; video frame rates and frame counts are preserved. DEF files contain no timing; the adjustable preview interval defaults to 100 ms.
-
-Fonts use a glyph sheet and palettes a color grid. The “Show object mask” button opens the mask beside its matching DEF. Campaigns open with descriptions, scenarios, minimaps and H3M downloads. XMI and IFR retain byte previews.
-
-## Machine catalog {#machine}
-
-Complete filenames, categories, sources, previews and page destinations: [wiki-resources.json](../../llm/wiki-resources.json). LLM text catalog: [English](../../llm/en/wiki.md).
 
 ---
 
 # Town elements
 
 ID: wiki.bitmap.0.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/
+URL: /en/wiki/bitmap/0/0/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/20
@@ -121,7 +111,7 @@ SoD · H3bitmap.lod · 1/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-10/
+URL: /en/wiki/bitmap/0/0/page-10/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 10/20
@@ -351,7 +341,7 @@ SoD · H3bitmap.lod · 10/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-11/
+URL: /en/wiki/bitmap/0/0/page-11/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 11/20
@@ -456,7 +446,7 @@ SoD · H3bitmap.lod · 11/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-12/
+URL: /en/wiki/bitmap/0/0/page-12/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 12/20
@@ -554,7 +544,7 @@ SoD · H3bitmap.lod · 12/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-13
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-13/
+URL: /en/wiki/bitmap/0/0/page-13/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 13/20
@@ -659,7 +649,7 @@ SoD · H3bitmap.lod · 13/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-14
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-14/
+URL: /en/wiki/bitmap/0/0/page-14/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 14/20
@@ -757,7 +747,7 @@ SoD · H3bitmap.lod · 14/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-15
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-15/
+URL: /en/wiki/bitmap/0/0/page-15/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 15/20
@@ -862,7 +852,7 @@ SoD · H3bitmap.lod · 15/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-16
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-16/
+URL: /en/wiki/bitmap/0/0/page-16/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 16/20
@@ -969,7 +959,7 @@ SoD · H3bitmap.lod · 16/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-17
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-17/
+URL: /en/wiki/bitmap/0/0/page-17/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 17/20
@@ -1081,7 +1071,7 @@ SoD · H3bitmap.lod · 17/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-18
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-18/
+URL: /en/wiki/bitmap/0/0/page-18/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 18/20
@@ -1186,7 +1176,7 @@ SoD · H3bitmap.lod · 18/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-19
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-19/
+URL: /en/wiki/bitmap/0/0/page-19/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 19/20
@@ -1374,7 +1364,7 @@ SoD · H3bitmap.lod · 19/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-2/
+URL: /en/wiki/bitmap/0/0/page-2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 2/20
@@ -1479,7 +1469,7 @@ SoD · H3bitmap.lod · 2/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-20
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-20/
+URL: /en/wiki/bitmap/0/0/page-20/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 20/20
@@ -1692,7 +1682,7 @@ SoD · H3bitmap.lod · 20/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-3/
+URL: /en/wiki/bitmap/0/0/page-3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 3/20
@@ -1797,7 +1787,7 @@ SoD · H3bitmap.lod · 3/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-4/
+URL: /en/wiki/bitmap/0/0/page-4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 4/20
@@ -1902,7 +1892,7 @@ SoD · H3bitmap.lod · 4/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-5/
+URL: /en/wiki/bitmap/0/0/page-5/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 5/20
@@ -2009,7 +1999,7 @@ SoD · H3bitmap.lod · 5/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-6
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-6/
+URL: /en/wiki/bitmap/0/0/page-6/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 6/20
@@ -2114,7 +2104,7 @@ SoD · H3bitmap.lod · 6/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-7
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-7/
+URL: /en/wiki/bitmap/0/0/page-7/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 7/20
@@ -2219,7 +2209,7 @@ SoD · H3bitmap.lod · 7/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-8
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-8/
+URL: /en/wiki/bitmap/0/0/page-8/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 8/20
@@ -2324,7 +2314,7 @@ SoD · H3bitmap.lod · 8/20
 # Town elements
 
 ID: wiki.bitmap.0.0.page-9
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/0/page-9/
+URL: /en/wiki/bitmap/0/0/page-9/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 9/20
@@ -2429,7 +2419,7 @@ SoD · H3bitmap.lod · 9/20
 # Campaign elements
 
 ID: wiki.bitmap.0.1
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/
+URL: /en/wiki/bitmap/0/1/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/39
@@ -2670,7 +2660,7 @@ SoD · H3bitmap.lod · 1/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-10/
+URL: /en/wiki/bitmap/0/1/page-10/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 10/39
@@ -2772,7 +2762,7 @@ SoD · H3bitmap.lod · 10/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-11/
+URL: /en/wiki/bitmap/0/1/page-11/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 11/39
@@ -2865,7 +2855,7 @@ SoD · H3bitmap.lod · 11/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-12/
+URL: /en/wiki/bitmap/0/1/page-12/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 12/39
@@ -2965,7 +2955,7 @@ SoD · H3bitmap.lod · 12/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-13
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-13/
+URL: /en/wiki/bitmap/0/1/page-13/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 13/39
@@ -3058,7 +3048,7 @@ SoD · H3bitmap.lod · 13/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-14
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-14/
+URL: /en/wiki/bitmap/0/1/page-14/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 14/39
@@ -3158,7 +3148,7 @@ SoD · H3bitmap.lod · 14/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-15
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-15/
+URL: /en/wiki/bitmap/0/1/page-15/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 15/39
@@ -3258,7 +3248,7 @@ SoD · H3bitmap.lod · 15/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-16
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-16/
+URL: /en/wiki/bitmap/0/1/page-16/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 16/39
@@ -3358,7 +3348,7 @@ SoD · H3bitmap.lod · 16/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-17
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-17/
+URL: /en/wiki/bitmap/0/1/page-17/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 17/39
@@ -3458,7 +3448,7 @@ SoD · H3bitmap.lod · 17/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-18
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-18/
+URL: /en/wiki/bitmap/0/1/page-18/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 18/39
@@ -3551,7 +3541,7 @@ SoD · H3bitmap.lod · 18/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-19
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-19/
+URL: /en/wiki/bitmap/0/1/page-19/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 19/39
@@ -3653,7 +3643,7 @@ SoD · H3bitmap.lod · 19/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-2/
+URL: /en/wiki/bitmap/0/1/page-2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 2/39
@@ -3753,7 +3743,7 @@ SoD · H3bitmap.lod · 2/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-20
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-20/
+URL: /en/wiki/bitmap/0/1/page-20/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 20/39
@@ -3853,7 +3843,7 @@ SoD · H3bitmap.lod · 20/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-21
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-21/
+URL: /en/wiki/bitmap/0/1/page-21/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 21/39
@@ -3953,7 +3943,7 @@ SoD · H3bitmap.lod · 21/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-22
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-22/
+URL: /en/wiki/bitmap/0/1/page-22/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 22/39
@@ -4046,7 +4036,7 @@ SoD · H3bitmap.lod · 22/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-23
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-23/
+URL: /en/wiki/bitmap/0/1/page-23/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 23/39
@@ -4146,7 +4136,7 @@ SoD · H3bitmap.lod · 23/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-24
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-24/
+URL: /en/wiki/bitmap/0/1/page-24/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 24/39
@@ -4246,7 +4236,7 @@ SoD · H3bitmap.lod · 24/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-25
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-25/
+URL: /en/wiki/bitmap/0/1/page-25/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 25/39
@@ -4339,7 +4329,7 @@ SoD · H3bitmap.lod · 25/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-26
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-26/
+URL: /en/wiki/bitmap/0/1/page-26/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 26/39
@@ -4439,7 +4429,7 @@ SoD · H3bitmap.lod · 26/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-27
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-27/
+URL: /en/wiki/bitmap/0/1/page-27/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 27/39
@@ -4532,7 +4522,7 @@ SoD · H3bitmap.lod · 27/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-28
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-28/
+URL: /en/wiki/bitmap/0/1/page-28/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 28/39
@@ -4625,7 +4615,7 @@ SoD · H3bitmap.lod · 28/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-29
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-29/
+URL: /en/wiki/bitmap/0/1/page-29/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 29/39
@@ -4718,7 +4708,7 @@ SoD · H3bitmap.lod · 29/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-3/
+URL: /en/wiki/bitmap/0/1/page-3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 3/39
@@ -4811,7 +4801,7 @@ SoD · H3bitmap.lod · 3/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-30
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-30/
+URL: /en/wiki/bitmap/0/1/page-30/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 30/39
@@ -4911,7 +4901,7 @@ SoD · H3bitmap.lod · 30/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-31
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-31/
+URL: /en/wiki/bitmap/0/1/page-31/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 31/39
@@ -5013,7 +5003,7 @@ SoD · H3bitmap.lod · 31/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-32
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-32/
+URL: /en/wiki/bitmap/0/1/page-32/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 32/39
@@ -5125,7 +5115,7 @@ SoD · H3bitmap.lod · 32/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-33
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-33/
+URL: /en/wiki/bitmap/0/1/page-33/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 33/39
@@ -5230,7 +5220,7 @@ SoD · H3bitmap.lod · 33/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-34
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-34/
+URL: /en/wiki/bitmap/0/1/page-34/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 34/39
@@ -5335,7 +5325,7 @@ SoD · H3bitmap.lod · 34/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-35
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-35/
+URL: /en/wiki/bitmap/0/1/page-35/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 35/39
@@ -5571,7 +5561,7 @@ SoD · H3bitmap.lod · 35/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-36
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-36/
+URL: /en/wiki/bitmap/0/1/page-36/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 36/39
@@ -5766,7 +5756,7 @@ SoD · H3bitmap.lod · 36/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-37
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-37/
+URL: /en/wiki/bitmap/0/1/page-37/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 37/39
@@ -5880,7 +5870,7 @@ SoD · H3bitmap.lod · 37/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-38
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-38/
+URL: /en/wiki/bitmap/0/1/page-38/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 38/39
@@ -5969,7 +5959,7 @@ SoD · H3bitmap.lod · 38/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-39
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-39/
+URL: /en/wiki/bitmap/0/1/page-39/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 39/39
@@ -6017,7 +6007,7 @@ SoD · H3bitmap.lod · 39/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-4/
+URL: /en/wiki/bitmap/0/1/page-4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 4/39
@@ -6117,7 +6107,7 @@ SoD · H3bitmap.lod · 4/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-5/
+URL: /en/wiki/bitmap/0/1/page-5/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 5/39
@@ -6217,7 +6207,7 @@ SoD · H3bitmap.lod · 5/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-6
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-6/
+URL: /en/wiki/bitmap/0/1/page-6/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 6/39
@@ -6317,7 +6307,7 @@ SoD · H3bitmap.lod · 6/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-7
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-7/
+URL: /en/wiki/bitmap/0/1/page-7/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 7/39
@@ -6410,7 +6400,7 @@ SoD · H3bitmap.lod · 7/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-8
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-8/
+URL: /en/wiki/bitmap/0/1/page-8/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 8/39
@@ -6510,7 +6500,7 @@ SoD · H3bitmap.lod · 8/39
 # Campaign elements
 
 ID: wiki.bitmap.0.1.page-9
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/1/page-9/
+URL: /en/wiki/bitmap/0/1/page-9/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 9/39
@@ -6610,7 +6600,7 @@ SoD · H3bitmap.lod · 9/39
 # Battlefields
 
 ID: wiki.bitmap.0.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/2/
+URL: /en/wiki/bitmap/0/2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/2
@@ -6713,7 +6703,7 @@ SoD · H3bitmap.lod · 1/2
 # Battlefields
 
 ID: wiki.bitmap.0.2.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/2/page-2/
+URL: /en/wiki/bitmap/0/2/page-2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 2/2
@@ -6753,7 +6743,7 @@ SoD · H3bitmap.lod · 2/2
 # Hero portraits
 
 ID: wiki.bitmap.0.3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/
+URL: /en/wiki/bitmap/0/3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/5
@@ -6910,7 +6900,7 @@ SoD · H3bitmap.lod · 1/5
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-2/
+URL: /en/wiki/bitmap/0/3/page-2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 2/5
@@ -7067,7 +7057,7 @@ SoD · H3bitmap.lod · 2/5
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-3/
+URL: /en/wiki/bitmap/0/3/page-3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 3/5
@@ -7217,7 +7207,7 @@ SoD · H3bitmap.lod · 3/5
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-4/
+URL: /en/wiki/bitmap/0/3/page-4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 4/5
@@ -7381,7 +7371,7 @@ SoD · H3bitmap.lod · 4/5
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-5/
+URL: /en/wiki/bitmap/0/3/page-5/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 5/5
@@ -7463,7 +7453,7 @@ SoD · H3bitmap.lod · 5/5
 # Interface
 
 ID: wiki.bitmap.0.4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/
+URL: /en/wiki/bitmap/0/4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/3
@@ -8032,7 +8022,7 @@ SoD · H3bitmap.lod · 1/3
 # Interface
 
 ID: wiki.bitmap.0.4.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/page-2/
+URL: /en/wiki/bitmap/0/4/page-2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 2/3
@@ -8465,7 +8455,7 @@ SoD · H3bitmap.lod · 2/3
 # Interface
 
 ID: wiki.bitmap.0.4.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/4/page-3/
+URL: /en/wiki/bitmap/0/4/page-3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 3/3
@@ -8641,7 +8631,7 @@ SoD · H3bitmap.lod · 3/3
 # Fonts (*.fnt)
 
 ID: wiki.bitmap.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/
+URL: /en/wiki/bitmap/2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8723,7 +8713,7 @@ SoD · H3bitmap.lod · 1/1
 # Menus and main dialogs
 
 ID: wiki.bitmap.2.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/0/
+URL: /en/wiki/bitmap/2/0/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8741,7 +8731,7 @@ SoD · H3bitmap.lod · 1/1
 # Scenario overview and creature statistics
 
 ID: wiki.bitmap.2.1
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/1/
+URL: /en/wiki/bitmap/2/1/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8759,7 +8749,7 @@ SoD · H3bitmap.lod · 1/1
 # Credits
 
 ID: wiki.bitmap.2.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/2/
+URL: /en/wiki/bitmap/2/2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8777,7 +8767,7 @@ SoD · H3bitmap.lod · 1/1
 # Campaign prologue and epilogue
 
 ID: wiki.bitmap.2.3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/3/
+URL: /en/wiki/bitmap/2/3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8795,7 +8785,7 @@ SoD · H3bitmap.lod · 1/1
 # Quick creature information in battle
 
 ID: wiki.bitmap.2.4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/4/
+URL: /en/wiki/bitmap/2/4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8813,7 +8803,7 @@ SoD · H3bitmap.lod · 1/1
 # View World option
 
 ID: wiki.bitmap.2.5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/5/
+URL: /en/wiki/bitmap/2/5/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8831,7 +8821,7 @@ SoD · H3bitmap.lod · 1/1
 # Final score screen
 
 ID: wiki.bitmap.2.6
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/6/
+URL: /en/wiki/bitmap/2/6/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8849,7 +8839,7 @@ SoD · H3bitmap.lod · 1/1
 # Creature counts (digits only)
 
 ID: wiki.bitmap.2.7
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/2/7/
+URL: /en/wiki/bitmap/2/7/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8867,7 +8857,7 @@ SoD · H3bitmap.lod · 1/1
 # Restoration of Erathia
 
 ID: wiki.bitmap.3.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/3/0/
+URL: /en/wiki/bitmap/3/0/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8933,7 +8923,7 @@ SoD · H3bitmap.lod · 1/1
 # The Shadow of Death
 
 ID: wiki.bitmap.3.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/3/2/
+URL: /en/wiki/bitmap/3/2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -8999,7 +8989,7 @@ SoD · H3bitmap.lod · 1/1
 # Palettes (*.pal)
 
 ID: wiki.bitmap.4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/4/
+URL: /en/wiki/bitmap/4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -9019,7 +9009,7 @@ SoD · H3bitmap.lod · 1/1
 # Other files
 
 ID: wiki.bitmap.5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/5/
+URL: /en/wiki/bitmap/5/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod, wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3bitmap.lod · 1/1
@@ -9049,7 +9039,7 @@ SoD · H3bitmap.lod · 1/1
 # Sounds
 
 ID: wiki.sounds
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/
+URL: /en/wiki/sounds/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 1/15
@@ -9138,7 +9128,7 @@ SoD · Heroes3.snd · 1/15
 # Sounds
 
 ID: wiki.sounds.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-10/
+URL: /en/wiki/sounds/page-10/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 10/15
@@ -9227,7 +9217,7 @@ SoD · Heroes3.snd · 10/15
 # Sounds
 
 ID: wiki.sounds.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-11/
+URL: /en/wiki/sounds/page-11/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 11/15
@@ -9316,7 +9306,7 @@ SoD · Heroes3.snd · 11/15
 # Sounds
 
 ID: wiki.sounds.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-12/
+URL: /en/wiki/sounds/page-12/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 12/15
@@ -9405,7 +9395,7 @@ SoD · Heroes3.snd · 12/15
 # Sounds
 
 ID: wiki.sounds.page-13
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-13/
+URL: /en/wiki/sounds/page-13/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 13/15
@@ -9494,7 +9484,7 @@ SoD · Heroes3.snd · 13/15
 # Sounds
 
 ID: wiki.sounds.page-14
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-14/
+URL: /en/wiki/sounds/page-14/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 14/15
@@ -9583,7 +9573,7 @@ SoD · Heroes3.snd · 14/15
 # Sounds
 
 ID: wiki.sounds.page-15
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-15/
+URL: /en/wiki/sounds/page-15/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 15/15
@@ -9606,7 +9596,7 @@ SoD · Heroes3.snd · 15/15
 # Sounds
 
 ID: wiki.sounds.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-2/
+URL: /en/wiki/sounds/page-2/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 2/15
@@ -9695,7 +9685,7 @@ SoD · Heroes3.snd · 2/15
 # Sounds
 
 ID: wiki.sounds.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-3/
+URL: /en/wiki/sounds/page-3/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 3/15
@@ -9784,7 +9774,7 @@ SoD · Heroes3.snd · 3/15
 # Sounds
 
 ID: wiki.sounds.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-4/
+URL: /en/wiki/sounds/page-4/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 4/15
@@ -9873,7 +9863,7 @@ SoD · Heroes3.snd · 4/15
 # Sounds
 
 ID: wiki.sounds.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/
+URL: /en/wiki/sounds/page-5/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 5/15
@@ -9962,7 +9952,7 @@ SoD · Heroes3.snd · 5/15
 # Sounds
 
 ID: wiki.sounds.page-6
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-6/
+URL: /en/wiki/sounds/page-6/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 6/15
@@ -10051,7 +10041,7 @@ SoD · Heroes3.snd · 6/15
 # Sounds
 
 ID: wiki.sounds.page-7
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-7/
+URL: /en/wiki/sounds/page-7/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 7/15
@@ -10140,7 +10130,7 @@ SoD · Heroes3.snd · 7/15
 # Sounds
 
 ID: wiki.sounds.page-8
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-8/
+URL: /en/wiki/sounds/page-8/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 8/15
@@ -10229,7 +10219,7 @@ SoD · Heroes3.snd · 8/15
 # Sounds
 
 ID: wiki.sounds.page-9
-URL: https://asmedian.github.io/modding-guide/en/wiki/sounds/page-9/
+URL: /en/wiki/sounds/page-9/
 Source references: wiki-sod:Heroes3.snd
 
 SoD · Heroes3.snd · 9/15
@@ -10318,7 +10308,7 @@ SoD · Heroes3.snd · 9/15
 # Spell and projectile animations
 
 ID: wiki.sprite.2.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/
+URL: /en/wiki/sprite/2/0/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/2
@@ -10407,7 +10397,7 @@ SoD · H3sprite.lod · 1/2
 # Spell and projectile animations
 
 ID: wiki.sprite.2.0.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/0/page-2/
+URL: /en/wiki/sprite/2/0/page-2/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 2/2
@@ -10523,7 +10513,7 @@ SoD · H3sprite.lod · 2/2
 # Creature battle animations
 
 ID: wiki.sprite.2.1
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/
+URL: /en/wiki/sprite/2/1/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/3
@@ -10647,7 +10637,7 @@ SoD · H3sprite.lod · 1/3
 # Creature battle animations
 
 ID: wiki.sprite.2.1.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-2/
+URL: /en/wiki/sprite/2/1/page-2/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 2/3
@@ -10764,7 +10754,7 @@ SoD · H3sprite.lod · 2/3
 # Creature battle animations
 
 ID: wiki.sprite.2.1.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/1/page-3/
+URL: /en/wiki/sprite/2/1/page-3/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 3/3
@@ -10782,7 +10772,7 @@ SoD · H3sprite.lod · 3/3
 # Map objects
 
 ID: wiki.sprite.2.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/
+URL: /en/wiki/sprite/2/2/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/20
@@ -10945,7 +10935,7 @@ SoD · H3sprite.lod · 1/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-10/
+URL: /en/wiki/sprite/2/2/page-10/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 10/20
@@ -11106,7 +11096,7 @@ SoD · H3sprite.lod · 10/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-11/
+URL: /en/wiki/sprite/2/2/page-11/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 11/20
@@ -11267,7 +11257,7 @@ SoD · H3sprite.lod · 11/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-12/
+URL: /en/wiki/sprite/2/2/page-12/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 12/20
@@ -11428,7 +11418,7 @@ SoD · H3sprite.lod · 12/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-13
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-13/
+URL: /en/wiki/sprite/2/2/page-13/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 13/20
@@ -11603,7 +11593,7 @@ SoD · H3sprite.lod · 13/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-14
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-14/
+URL: /en/wiki/sprite/2/2/page-14/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 14/20
@@ -11771,7 +11761,7 @@ SoD · H3sprite.lod · 14/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-15
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-15/
+URL: /en/wiki/sprite/2/2/page-15/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 15/20
@@ -11932,7 +11922,7 @@ SoD · H3sprite.lod · 15/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-16
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-16/
+URL: /en/wiki/sprite/2/2/page-16/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 16/20
@@ -12100,7 +12090,7 @@ SoD · H3sprite.lod · 16/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-17
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/
+URL: /en/wiki/sprite/2/2/page-17/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 17/20
@@ -12268,7 +12258,7 @@ SoD · H3sprite.lod · 17/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-18
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-18/
+URL: /en/wiki/sprite/2/2/page-18/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 18/20
@@ -12429,7 +12419,7 @@ SoD · H3sprite.lod · 18/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-19
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-19/
+URL: /en/wiki/sprite/2/2/page-19/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 19/20
@@ -12618,7 +12608,7 @@ SoD · H3sprite.lod · 19/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-2/
+URL: /en/wiki/sprite/2/2/page-2/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 2/20
@@ -12788,7 +12778,7 @@ SoD · H3sprite.lod · 2/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-20
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-20/
+URL: /en/wiki/sprite/2/2/page-20/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 20/20
@@ -12827,7 +12817,7 @@ SoD · H3sprite.lod · 20/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-3/
+URL: /en/wiki/sprite/2/2/page-3/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 3/20
@@ -13004,7 +12994,7 @@ SoD · H3sprite.lod · 3/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-4/
+URL: /en/wiki/sprite/2/2/page-4/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 4/20
@@ -13167,7 +13157,7 @@ SoD · H3sprite.lod · 4/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-5/
+URL: /en/wiki/sprite/2/2/page-5/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 5/20
@@ -13330,7 +13320,7 @@ SoD · H3sprite.lod · 5/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-6
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-6/
+URL: /en/wiki/sprite/2/2/page-6/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 6/20
@@ -13500,7 +13490,7 @@ SoD · H3sprite.lod · 6/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-7
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-7/
+URL: /en/wiki/sprite/2/2/page-7/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 7/20
@@ -13693,7 +13683,7 @@ SoD · H3sprite.lod · 7/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-8
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-8/
+URL: /en/wiki/sprite/2/2/page-8/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 8/20
@@ -13877,7 +13867,7 @@ SoD · H3sprite.lod · 8/20
 # Map objects
 
 ID: wiki.sprite.2.2.page-9
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-9/
+URL: /en/wiki/sprite/2/2/page-9/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 9/20
@@ -14061,7 +14051,7 @@ SoD · H3sprite.lod · 9/20
 # Heroes, boats and flags (map objects)
 
 ID: wiki.sprite.2.3
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/3/
+URL: /en/wiki/sprite/2/3/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/1
@@ -14380,7 +14370,7 @@ SoD · H3sprite.lod · 1/1
 # Terrain, rivers, roads and arrows
 
 ID: wiki.sprite.2.4
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/4/
+URL: /en/wiki/sprite/2/4/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/1
@@ -14453,7 +14443,7 @@ SoD · H3sprite.lod · 1/1
 # Cursors
 
 ID: wiki.sprite.2.5
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/5/
+URL: /en/wiki/sprite/2/5/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/1
@@ -14474,7 +14464,7 @@ SoD · H3sprite.lod · 1/1
 # Game interface and buildings
 
 ID: wiki.sprite.2.6
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/
+URL: /en/wiki/sprite/2/6/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/12
@@ -14708,7 +14698,7 @@ SoD · H3sprite.lod · 1/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-10/
+URL: /en/wiki/sprite/2/6/page-10/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 10/12
@@ -14797,7 +14787,7 @@ SoD · H3sprite.lod · 10/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/
+URL: /en/wiki/sprite/2/6/page-11/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 11/12
@@ -14894,7 +14884,7 @@ SoD · H3sprite.lod · 11/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-12/
+URL: /en/wiki/sprite/2/6/page-12/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 12/12
@@ -14918,7 +14908,7 @@ SoD · H3sprite.lod · 12/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/
+URL: /en/wiki/sprite/2/6/page-2/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 2/12
@@ -15029,7 +15019,7 @@ SoD · H3sprite.lod · 2/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/
+URL: /en/wiki/sprite/2/6/page-3/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 3/12
@@ -15173,7 +15163,7 @@ SoD · H3sprite.lod · 3/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/
+URL: /en/wiki/sprite/2/6/page-4/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 4/12
@@ -15343,7 +15333,7 @@ SoD · H3sprite.lod · 4/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-5/
+URL: /en/wiki/sprite/2/6/page-5/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 5/12
@@ -15466,7 +15456,7 @@ SoD · H3sprite.lod · 5/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-6
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-6/
+URL: /en/wiki/sprite/2/6/page-6/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 6/12
@@ -15571,7 +15561,7 @@ SoD · H3sprite.lod · 6/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-7
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-7/
+URL: /en/wiki/sprite/2/6/page-7/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 7/12
@@ -15676,7 +15666,7 @@ SoD · H3sprite.lod · 7/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-8
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-8/
+URL: /en/wiki/sprite/2/6/page-8/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 8/12
@@ -15781,7 +15771,7 @@ SoD · H3sprite.lod · 8/12
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-9
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-9/
+URL: /en/wiki/sprite/2/6/page-9/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 9/12
@@ -15886,7 +15876,7 @@ SoD · H3sprite.lod · 9/12
 # Hero battle animations
 
 ID: wiki.sprite.2.7
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/7/
+URL: /en/wiki/sprite/2/7/
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 
 SoD · H3sprite.lod · 1/1
@@ -15977,7 +15967,7 @@ SoD · H3sprite.lod · 1/1
 # Videos
 
 ID: wiki.videos
-URL: https://asmedian.github.io/modding-guide/en/wiki/videos/
+URL: /en/wiki/videos/
 Source references: wiki-sod:VIDEO.VID
 
 SoD · VIDEO.VID · 1/1

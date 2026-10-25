@@ -2,770 +2,914 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "Heroes3.snd/EVLIDFND",
-      "name": "EVLIDFND",
+      "id": "Heroes3.snd/GBASMOVE",
+      "name": "GBASMOVE",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 8984,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/EVLIDFND",
+      "bytes": 8752,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBASMOVE",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/EVLIDFND.wav",
-      "duration": 0.8035374149659864,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBASMOVE.wav",
+      "duration": 0.78281179138322,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-8c6de863e13e",
-      "sha256": "33b1bb141fb8b067486b368337ec0e6eef62cc84418b4e50c68c77aeb8696acb",
-      "samples": 17718,
+      "anchor": "file-848e2b65185b",
+      "sha256": "fef4ffef3ed836ff4861e47494ec986d65ae0bc59194eacb871a900a8973ed62",
+      "samples": 17261,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/EVLIKILL",
-      "name": "EVLIKILL",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 7632,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/EVLIKILL",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/EVLIKILL.wav",
-      "duration": 0.6820408163265306,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-5400b01b60d4",
-      "sha256": "f3d29692fd3d74715fb9584982bb322810114bc042726573052b8495be4ad572",
-      "samples": 15039,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/EVLIMOVE",
-      "name": "EVLIMOVE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 24420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/EVLIMOVE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/EVLIMOVE.wav",
-      "duration": 2.1942857142857144,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-04b61e57db45",
-      "sha256": "9ba113124c33da71e70539b86a8232ed87e9bc9c55314a9ddff532327e974f47",
-      "samples": 48384,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/EVLISHOT",
-      "name": "EVLISHOT",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 7312,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/EVLISHOT",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/EVLISHOT.wav",
-      "duration": 0.6529705215419501,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-ca397f1064ea",
-      "sha256": "3997c8355c98a4220d3de824c826dee8e4253c23ccfd6d5723464dadb64338b4",
-      "samples": 14398,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/EVLIWNCE",
-      "name": "EVLIWNCE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 7472,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/EVLIWNCE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/EVLIWNCE.wav",
-      "duration": 0.6674829931972789,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-a914cc007f0a",
-      "sha256": "aae1ba02ee4c4ca0b8e6142a95237e93d7a6b575bbe25108eb69cd710de7f84c",
-      "samples": 14718,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/EXPERNCE",
-      "name": "EXPERNCE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 38728,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/EXPERNCE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/EXPERNCE.wav",
-      "duration": 3.4829478458049885,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-e5ac8989facc",
-      "sha256": "10a4cd1f61af929fff3a81296778126ba48444b2c38611aa420037d03e067c34",
-      "samples": 76799,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERATTK",
-      "name": "FAERATTK",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 10568,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERATTK",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERATTK.wav",
-      "duration": 0.9462131519274376,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-e0119cc7b6cd",
-      "sha256": "b35714df9f4aba1d92503f52edf7e6e9733e8d3fece0c7958c1ad95547aaa296",
-      "samples": 20864,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERDFND",
-      "name": "FAERDFND",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 8504,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERDFND",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERDFND.wav",
-      "duration": 0.7604535147392291,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-64776e9e1a6c",
-      "sha256": "acff56ab6a79c57561c525e43d1c0d29186c633dc5d831284b6222b9d843389e",
-      "samples": 16768,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERIE",
-      "name": "FAERIE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 44132,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERIE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERIE.wav",
-      "duration": 3.969795918367347,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-481d29b486b5",
-      "sha256": "d1f1dcfc2bb408cf2a673d03dd500eef740c708783d73a0854f31e35fe997901",
-      "samples": 87534,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERKILL",
-      "name": "FAERKILL",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 10052,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERKILL",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERKILL.wav",
-      "duration": 0.8997732426303855,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-c6b670e3cc24",
-      "sha256": "c36c901070d61294ddc75332aa5361204a0829cc8749c7cd6e6690e131b14f5b",
-      "samples": 19840,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERMOVE",
-      "name": "FAERMOVE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 9932,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERMOVE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERMOVE.wav",
-      "duration": 0.888843537414966,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-f781f19074c0",
-      "sha256": "fd36e0cf0c09e861a49eb0ed0ef331e9ad6d1ae66a3c9c7ae751c5880fe602c6",
-      "samples": 19599,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERSHOT",
-      "name": "FAERSHOT",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 19172,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERSHOT",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERSHOT.wav",
-      "duration": 1.7211337868480725,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-ef9ee1c3fa07",
-      "sha256": "081cc8eeb8b24e7ee7b48f3d6db5aa42e22e0bf0c91190723831fdd62561c9df",
-      "samples": 37951,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAERWNCE",
-      "name": "FAERWNCE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 8568,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAERWNCE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAERWNCE.wav",
-      "duration": 0.7662585034013606,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-1a77e254fb80",
-      "sha256": "b66f8a16f322bb90dff7074efe0a20f6e2df4dfe8efaa25efb3369e09fc62a27",
-      "samples": 16896,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAIDKILL",
-      "name": "FAIDKILL",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 7836,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAIDKILL",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAIDKILL.wav",
-      "duration": 0.6999546485260771,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-e5db03fea43e",
-      "sha256": "842426fca12a452cee7acb08a124f23a5faeefa04e2b7bb60f943c1af7db7147",
-      "samples": 15434,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FAIDWNCE",
-      "name": "FAIDWNCE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 10052,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FAIDWNCE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FAIDWNCE.wav",
-      "duration": 0.8999546485260771,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-45a6f7957ef2",
-      "sha256": "a69a76f062749a552b1cde0a3f8627ca9874d82bbc78df50287695d0fcc3ff69",
-      "samples": 19844,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FDFLATTK",
-      "name": "FDFLATTK",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 7956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FDFLATTK",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FDFLATTK.wav",
-      "duration": 0.7111111111111111,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-25921872a7c5",
-      "sha256": "81f2a8366f2ad69b2caca7da795623b740ef009c20a01d7b367808e4c656ae79",
-      "samples": 15680,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FDFLDFND",
-      "name": "FDFLDFND",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 6984,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FDFLDFND",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FDFLDFND.wav",
-      "duration": 0.6234467120181406,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-be402324e941",
-      "sha256": "a459eaf6b7728f972c007c4504e51164a20d8fb23a7a3bf829031deeed53d686",
-      "samples": 13747,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FDFLKILL",
-      "name": "FDFLKILL",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 9184,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FDFLKILL",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FDFLKILL.wav",
-      "duration": 0.8215419501133787,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-12ebcb82e3a6",
-      "sha256": "024d39beda0ee5faec6f55ede61e608cd01d234937cf90ae05eec0fbd130a5c1",
-      "samples": 18115,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FDFLMOVE",
-      "name": "FDFLMOVE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 6724,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FDFLMOVE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FDFLMOVE.wav",
-      "duration": 0.599954648526077,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-27279de6ca98",
-      "sha256": "bc751c3f246903e398da6c717d2faa5a783b5a51d4ebb4c0fbf4c9d54b1638f3",
-      "samples": 13229,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FDFLSHOT",
-      "name": "FDFLSHOT",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 9600,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FDFLSHOT",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FDFLSHOT.wav",
-      "duration": 0.8591383219954648,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-a7bb9e9428a2",
-      "sha256": "1c836c92486d881655ccc7e1b6f8a5c21e6beaa7aa7bea9aeba926bed7f20fd3",
-      "samples": 18944,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FDFLWNCE",
-      "name": "FDFLWNCE",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 7924,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FDFLWNCE",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FDFLWNCE.wav",
-      "duration": 0.7082086167800453,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-47708e4eb332",
-      "sha256": "d7d042db84e0e68804a3a827b14a2d79b433e8961c00deffebcdcf1ab4050cc6",
-      "samples": 15616,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FEAR",
-      "name": "FEAR",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 37340,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FEAR",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FEAR.wav",
-      "duration": 3.358140589569161,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-b27417813257",
-      "sha256": "074f1a8d369489e994a3cba9f99800946ef9f366ff0363b90457dacf5858c833",
-      "samples": 74047,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FELMATTK",
-      "name": "FELMATTK",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 19528,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FELMATTK",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FELMATTK.wav",
-      "duration": 1.7531065759637188,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-df69514238da",
-      "sha256": "7e31bb0981530891fd4dd14127275ffb6d1fe65bf6f75bc6d46321a77cf7424d",
-      "samples": 38656,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FELMDFND",
-      "name": "FELMDFND",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 14156,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FELMDFND",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FELMDFND.wav",
-      "duration": 1.269342403628118,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-0109d1e69ccb",
-      "sha256": "5e82084b316dde547d428785bce0c4bf06b612f6246cd181775f36c416dd8f3f",
-      "samples": 27989,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FELMKILL",
-      "name": "FELMKILL",
-      "archive": "Heroes3.snd",
-      "edition": "SoD",
-      "bytes": 10568,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FELMKILL",
-      "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FELMKILL.wav",
-      "duration": 0.9461678004535148,
-      "sampleRate": 22050,
-      "channels": 1,
-      "anchor": "file-c03f17d48261",
-      "sha256": "b89840d0ca2b9b3302aab5fe14b00e2127862d6bf9f2bc0f8a9734f42cda65db",
-      "samples": 20863,
-      "destinations": [
-        {
-          "category": [
-            "Sounds"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "Heroes3.snd/FELMMOVE",
-      "name": "FELMMOVE",
+      "id": "Heroes3.snd/GBASWNCE",
+      "name": "GBASWNCE",
       "archive": "Heroes3.snd",
       "edition": "SoD",
       "bytes": 6700,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FELMMOVE",
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBASWNCE",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FELMMOVE.wav",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBASWNCE.wav",
       "duration": 0.5979138321995465,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-49326b4abcfb",
-      "sha256": "59f8db973ea10fc90e73c7e8716bcd78a10ef9697b8abf64f2910f23e8806475",
+      "anchor": "file-ff655559ea8e",
+      "sha256": "a94482e967589274df05615053fba3f246083a0cef5d517aca2345a9682a5b72",
       "samples": 13184,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/FELMWNCE",
-      "name": "FELMWNCE",
+      "id": "Heroes3.snd/GBLNATTK",
+      "name": "GBLNATTK",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 6508,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FELMWNCE",
+      "bytes": 9664,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBLNATTK",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FELMWNCE.wav",
-      "duration": 0.580453514739229,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBLNATTK.wav",
+      "duration": 0.8649433106575963,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-523a4200d8a3",
-      "sha256": "8ca3b29c45ba27777b84d8566b760aae43939f48d4ae14fb67f91fbdf5722baf",
-      "samples": 12799,
+      "anchor": "file-8ccb28bb5968",
+      "sha256": "fb149e9470c578f3bd1cabca71aef3e244a7724f2d42a661afe781ccb33180e1",
+      "samples": 19072,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/FIRBATTK",
-      "name": "FIRBATTK",
+      "id": "Heroes3.snd/GBLNDFND",
+      "name": "GBLNDFND",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 33056,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FIRBATTK",
+      "bytes": 7456,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBLNDFND",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FIRBATTK.wav",
-      "duration": 2.972154195011338,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBLNDFND.wav",
+      "duration": 0.6660770975056689,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-36fb124672b7",
-      "sha256": "1e27b864368459380eb5f89397eaa68e1afa20004627b4d8b3fff49dbf3d0ca8",
-      "samples": 65536,
+      "anchor": "file-d6f382d02ebc",
+      "sha256": "ccf5944a4c40da17ce145a1a6e3822100b933262074232a4c4aa7e1c3346c3fa",
+      "samples": 14687,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/FIRBDFND",
-      "name": "FIRBDFND",
+      "id": "Heroes3.snd/GBLNKILL",
+      "name": "GBLNKILL",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 27216,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FIRBDFND",
+      "bytes": 11404,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBLNKILL",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FIRBDFND.wav",
-      "duration": 2.4458503401360545,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBLNKILL.wav",
+      "duration": 1.0216326530612245,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-bd1a681bbd87",
-      "sha256": "bfc948b4301cd9406343848e9b48e09ed0eb03356bb5873ed20e78f6e2e55833",
-      "samples": 53931,
+      "anchor": "file-d4d70b2e98d1",
+      "sha256": "adfbe61861c58757cb4e4d0ef081bc0cf7f42f1d5b5643595362f8f02f4d87b5",
+      "samples": 22527,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/FIRBKILL",
-      "name": "FIRBKILL",
+      "id": "Heroes3.snd/GBLNMOVE",
+      "name": "GBLNMOVE",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 27216,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FIRBKILL",
+      "bytes": 11316,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBLNMOVE",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FIRBKILL.wav",
-      "duration": 2.4458049886621316,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBLNMOVE.wav",
+      "duration": 1.013922902494331,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-a4394eb4c02a",
-      "sha256": "2e06969a908343b713c523565ce61da85dc2f2cea4f463d1494f0f8b1f5eac83",
-      "samples": 53930,
+      "anchor": "file-5f042d3da44a",
+      "sha256": "f039ecb30460ee777f3f8040c591061942fedbb5f4b918ed4b680581cfe32983",
+      "samples": 22357,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/FIRBMOVE",
-      "name": "FIRBMOVE",
+      "id": "Heroes3.snd/GBLNWNCE",
+      "name": "GBLNWNCE",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 14864,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FIRBMOVE",
+      "bytes": 6152,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GBLNWNCE",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FIRBMOVE.wav",
-      "duration": 1.3332879818594103,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GBLNWNCE.wav",
+      "duration": 0.5485714285714286,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-bc8bf6ee743f",
-      "sha256": "5039b3097da2377a7aafc7eba7178a345ff7a5bdc14b4c354b25a557e010c482",
-      "samples": 29399,
+      "anchor": "file-5b9d7f603898",
+      "sha256": "7ab20c210e329a28ee20d96c52cb13375e0cdafdafd0b8867f14d50cc183213a",
+      "samples": 12096,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
         }
       ]
     },
     {
-      "id": "Heroes3.snd/FIRBWNCE",
-      "name": "FIRBWNCE",
+      "id": "Heroes3.snd/GELFATTK",
+      "name": "GELFATTK",
       "archive": "Heroes3.snd",
       "edition": "SoD",
-      "bytes": 15112,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/original/FIRBWNCE",
+      "bytes": 13488,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GELFATTK",
       "kind": "audio",
-      "media": "https://asmedian.github.io/modding-guide/assets/wiki/sod/heroes3-snd/display/FIRBWNCE.wav",
-      "duration": 1.3554648526077098,
+      "media": "/assets/wiki/sod/heroes3-snd/display/GELFATTK.wav",
+      "duration": 1.209342403628118,
       "sampleRate": 22050,
       "channels": 1,
-      "anchor": "file-2c7f3518d8b5",
-      "sha256": "3ab667c804f2ae37c99bfbd2d10d227aee08595abecb458980bc12a856d27434",
-      "samples": 29888,
+      "anchor": "file-121d0ff17df4",
+      "sha256": "12cb785a6e31a86852f54507bf2935a0ffea219f87dcafc985169bbfc012238f",
+      "samples": 26666,
       "destinations": [
         {
           "category": [
             "Sounds"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sounds/page-5/"
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GELFDFND",
+      "name": "GELFDFND",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8728,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GELFDFND",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GELFDFND.wav",
+      "duration": 0.7807256235827664,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-97b8607e54f8",
+      "sha256": "c01368649235a139a68d6d83977b2238a535eab211b50901c1d920b66b745757",
+      "samples": 17215,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GELFKILL",
+      "name": "GELFKILL",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8632,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GELFKILL",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GELFKILL.wav",
+      "duration": 0.7720181405895692,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-e975fa3cd3ec",
+      "sha256": "fe23768c7c8edce3698767f162ffb7ee261eecfca70c570f0833c17313842f21",
+      "samples": 17023,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GELFMOVE",
+      "name": "GELFMOVE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8956,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GELFMOVE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GELFMOVE.wav",
+      "duration": 0.8010430839002267,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-55d188bab814",
+      "sha256": "46dc47fc04be922c72e8c3864abed8fd6edef6f6af17e4f0fd573c4233ea9378",
+      "samples": 17663,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GELFSHOT",
+      "name": "GELFSHOT",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8956,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GELFSHOT",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GELFSHOT.wav",
+      "duration": 0.8010430839002267,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-f08ece2fe1c4",
+      "sha256": "2beb6c416b86014ab3bd0c0670180df884db35b4304344c92c173db668d4515b",
+      "samples": 17663,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GELFWNCE",
+      "name": "GELFWNCE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 4444,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GELFWNCE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GELFWNCE.wav",
+      "duration": 0.3946938775510204,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-53016ee6a08f",
+      "sha256": "a751dced0288cfdd527b467821c647f6a307b00033906d18253c1682a2e2b584",
+      "samples": 8703,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GENIATTK",
+      "name": "GENIATTK",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 11836,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GENIATTK",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GENIATTK.wav",
+      "duration": 1.0607256235827665,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-2b09032b886a",
+      "sha256": "90b7a1126e6a4e45a7f0e4c8fc37dfcf678d978eeca7611ad0fac8512d282cf1",
+      "samples": 23389,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GENIDFND",
+      "name": "GENIDFND",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8504,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GENIDFND",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GENIDFND.wav",
+      "duration": 0.7604535147392291,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-bfc4d600d4da",
+      "sha256": "799744a70ce6d88b035b8ea855e46e4407890567959ccb65b7418da3e88f29e8",
+      "samples": 16768,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GENIE",
+      "name": "GENIE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 41112,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GENIE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GENIE.wav",
+      "duration": 3.6976417233560093,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-9f8e35884a75",
+      "sha256": "a59043618e70e218a21bd4cc1ef36f6febcfdc1fd53fdf2bd9fda9e70c2dfb3b",
+      "samples": 81533,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GENIKILL",
+      "name": "GENIKILL",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 9948,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GENIKILL",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GENIKILL.wav",
+      "duration": 0.8904308390022676,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-961c3ff85829",
+      "sha256": "353ce783a43b219f50e9c80528d87e4784382eb7dca1d20b34be6753a238f07d",
+      "samples": 19634,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GENIMOVE",
+      "name": "GENIMOVE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 5732,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GENIMOVE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GENIMOVE.wav",
+      "duration": 0.5104308390022676,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-61c535d76a0b",
+      "sha256": "faf586dac15d6b2d1da8a7d796a93313fc9598cafa004a08f9ef18778b585c2c",
+      "samples": 11255,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-5/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GENIWNCE",
+      "name": "GENIWNCE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8680,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GENIWNCE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GENIWNCE.wav",
+      "duration": 0.7764172335600907,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-646971fcfaeb",
+      "sha256": "24095cec69f77c5a4cc869e407dd4de8c0f875a9d7805f69c4d4bd92738c69ee",
+      "samples": 17120,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GETPROTECTION",
+      "name": "GETPROTECTION",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 69724,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GETPROTECTION",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GETPROTECTION.wav",
+      "duration": 6.274965986394558,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-c35864e2ebfb",
+      "sha256": "bee40e923ebce3fddd93044d7bf0247b454903a8c4cf378c2b8c22d552ca66b3",
+      "samples": 138363,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GGLMATTK",
+      "name": "GGLMATTK",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8140,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GGLMATTK",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GGLMATTK.wav",
+      "duration": 0.7275283446712019,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-a8bc8c9331db",
+      "sha256": "c85c410c0b0f8c17e5a4d747d1307025e09208eb2fbb18622e6fb4c7ebc8dcce",
+      "samples": 16042,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GGLMDFND",
+      "name": "GGLMDFND",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 9536,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GGLMDFND",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GGLMDFND.wav",
+      "duration": 0.8533333333333334,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-f8cc64fb8559",
+      "sha256": "37fbdd09c2aec9d2ea3c3030920d4ff450654c3f0e40aa0f0d93c7e5fcbc3d51",
+      "samples": 18816,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GGLMKILL",
+      "name": "GGLMKILL",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 12240,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GGLMKILL",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GGLMKILL.wav",
+      "duration": 1.0970975056689343,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-863be3bcaf43",
+      "sha256": "e16d758b388dacad7fad6cc64c24d24926ec7d1fd3c380bdabada5e54bb92a43",
+      "samples": 24191,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GGLMMOVE",
+      "name": "GGLMMOVE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 10680,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GGLMMOVE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GGLMMOVE.wav",
+      "duration": 0.9563718820861677,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-325c998fdc98",
+      "sha256": "2dd2fea8cae4b1537400032fffed2045e804796911eac1d54679caff8be44fbe",
+      "samples": 21088,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GGLMWNCE",
+      "name": "GGLMWNCE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 7460,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GGLMWNCE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GGLMWNCE.wav",
+      "duration": 0.6663492063492064,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-652a5224964f",
+      "sha256": "00d8f4014b3223439cbfd1ce95f6ce062a5b4b585e8e1c1bcfc4c2b262660f2b",
+      "samples": 14693,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GHDRATTK",
+      "name": "GHDRATTK",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 7728,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GHDRATTK",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GHDRATTK.wav",
+      "duration": 0.6907482993197279,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-03176479eec0",
+      "sha256": "7ef8371801ccc63a5272b657898f6ceccdb24d7c47dee9cfcacbe7854f2ad3da",
+      "samples": 15231,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GHDRDFND",
+      "name": "GHDRDFND",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 10860,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GHDRDFND",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GHDRDFND.wav",
+      "duration": 0.9722902494331066,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-c08355ed8e6f",
+      "sha256": "109fe82c843748de4d03a306fdf41e7672ff9f4488e01207c1143122ebaefd32",
+      "samples": 21439,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GHDRKILL",
+      "name": "GHDRKILL",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 13820,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GHDRKILL",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GHDRKILL.wav",
+      "duration": 1.239455782312925,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-28d13f89a7ab",
+      "sha256": "9679cf6aa75bc14b219234c3c078b5e89451fe41b468ec337c7ff2c7613c5315",
+      "samples": 27330,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GHDRMOVE",
+      "name": "GHDRMOVE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 6704,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GHDRMOVE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GHDRMOVE.wav",
+      "duration": 0.5984580498866213,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-d2e905560f0b",
+      "sha256": "59ea6ccc58f3197a5b042dfafd2d323c4b96d47e9769e36a313a6399bcee9dfc",
+      "samples": 13196,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GHDRWNCE",
+      "name": "GHDRWNCE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 6248,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GHDRWNCE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GHDRWNCE.wav",
+      "duration": 0.5570975056689342,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-2a6807685877",
+      "sha256": "7673bc96b2c2fbb11cea640f09a0789dbd1fa4952cf668ec0beb0ab40cbd6fed",
+      "samples": 12284,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNLMATTK",
+      "name": "GNLMATTK",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 9104,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNLMATTK",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNLMATTK.wav",
+      "duration": 0.8144671201814059,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-2ddfe53f7b72",
+      "sha256": "ce35f787fd2e0ee79547dd3d7d7e9b5392f12c62ce46c4103d5201413e4ff2ff",
+      "samples": 17959,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNLMDFND",
+      "name": "GNLMDFND",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 12380,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNLMDFND",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNLMDFND.wav",
+      "duration": 1.1093877551020408,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-e0119831724b",
+      "sha256": "cf9b3457e49e2c3b30d83cf225f11437609ba1b2e12a8df18cb9161f7a86cc8d",
+      "samples": 24462,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNLMKILL",
+      "name": "GNLMKILL",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 10892,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNLMKILL",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNLMKILL.wav",
+      "duration": 0.9751927437641723,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-c7d7f9adcde8",
+      "sha256": "bfb40b3a8b8c8e940b849e771d240f0a78fb8de83d5d6fa7b6fc39838e912535",
+      "samples": 21503,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNLMMOVE",
+      "name": "GNLMMOVE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 8892,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNLMMOVE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNLMMOVE.wav",
+      "duration": 0.7952380952380952,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-631cccfd5dbb",
+      "sha256": "33f6c110a8056d466a1f09129a0ae3d3397b851939af91e329b988426de371e3",
+      "samples": 17535,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNLMWNCE",
+      "name": "GNLMWNCE",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 6572,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNLMWNCE",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNLMWNCE.wav",
+      "duration": 0.5863492063492064,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-78a4d83d4da6",
+      "sha256": "77cc853cb1360d36427b96ea9bc361e0ec780f50aaf71bea3bb212fd0274f72f",
+      "samples": 12929,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNOLATTK",
+      "name": "GNOLATTK",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 9104,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNOLATTK",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNOLATTK.wav",
+      "duration": 0.8144671201814059,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-1efa3ee31a53",
+      "sha256": "ce35f787fd2e0ee79547dd3d7d7e9b5392f12c62ce46c4103d5201413e4ff2ff",
+      "samples": 17959,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNOLDFND",
+      "name": "GNOLDFND",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 12380,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNOLDFND",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNOLDFND.wav",
+      "duration": 1.1093877551020408,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-18214d578972",
+      "sha256": "cf9b3457e49e2c3b30d83cf225f11437609ba1b2e12a8df18cb9161f7a86cc8d",
+      "samples": 24462,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
+        }
+      ]
+    },
+    {
+      "id": "Heroes3.snd/GNOLKILL",
+      "name": "GNOLKILL",
+      "archive": "Heroes3.snd",
+      "edition": "SoD",
+      "bytes": 10892,
+      "original": "/assets/wiki/sod/heroes3-snd/original/GNOLKILL",
+      "kind": "audio",
+      "media": "/assets/wiki/sod/heroes3-snd/display/GNOLKILL.wav",
+      "duration": 0.9751927437641723,
+      "sampleRate": 22050,
+      "channels": 1,
+      "anchor": "file-c161b9c92370",
+      "sha256": "bfb40b3a8b8c8e940b849e771d240f0a78fb8de83d5d6fa7b6fc39838e912535",
+      "samples": 21503,
+      "destinations": [
+        {
+          "category": [
+            "Sounds"
+          ],
+          "en": "/en/wiki/sounds/page-6/"
         }
       ]
     }

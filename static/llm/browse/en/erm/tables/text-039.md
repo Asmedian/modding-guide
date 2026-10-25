@@ -1,7 +1,7 @@
 # Battlefield obstacles
 
 ID: erm.tables.obstacles
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/obstacles/
+URL: /en/erm/tables/obstacles/
 Part: 1/1
 Source references: old-help:form-obstacles.htm, old-help:rec-bf.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,87 +1,7 @@
-# DL_ShowPopup
-
-ID: erm.framework.functions.dl-showpopup
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-showpopup/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.dl-showpopup 1 -->
-## Purpose {#purpose}
-
-Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.
-
-## Call contract {#signature}
-
-```erm
-!!FU(DL_ShowPopup):P(dlgId);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `dlgId` | input |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
-
-## Related functions {#calls}
-
-[DL_Destroy](../dl-destroy/) Â· [DL_FindById](../dl-findbyid/) Â· [H3Dlg_ShowPopup](../h3dlg-showpopup/)
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2198â€“2214, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-
-## Constants used {#constants}
-
-[NULL](../../constants/universal/#const-null) Â· [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
-<!-- llm:end erm.framework.functions.dl-showpopup 1 -->
-
-# EmptyIniCache
-
-ID: erm.framework.functions.emptyinicache
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/emptyinicache/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.emptyinicache 1 -->
-## Purpose {#purpose}
-
-Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.
-
-## Call contract {#signature}
-
-```erm
-!!FU(EmptyIniCache):P(filePathPtr);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `filePathPtr` | input |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `EmptyIniCache`.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1597â€“1604, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.emptyinicache 1 -->
-
 # EnableErrors
 
 ID: erm.framework.functions.enableerrors
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/enableerrors/
+URL: /en/erm/framework/functions/enableerrors/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -119,7 +39,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # EnterMouseEvent
 
 ID: erm.framework.functions.entermouseevent
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/entermouseevent/
+URL: /en/erm/framework/functions/entermouseevent/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -151,7 +71,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 165
 # EquipArtToSlot
 
 ID: erm.framework.functions.equiparttoslot
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/equiparttoslot/
+URL: /en/erm/framework/functions/equiparttoslot/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -195,7 +115,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3170â
 # FileExists
 
 ID: erm.framework.functions.fileexists
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/fileexists/
+URL: /en/erm/framework/functions/fileexists/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -236,7 +156,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1554â
 # FormatQuantity
 
 ID: erm.framework.functions.formatquantity
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/formatquantity/
+URL: /en/erm/framework/functions/formatquantity/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -279,7 +199,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1533â
 # GetArtAtSlot
 
 ID: erm.framework.functions.getartatslot
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getartatslot/
+URL: /en/erm/framework/functions/getartatslot/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -324,7 +244,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3111â
 # GetDegradedMonCandidates
 
 ID: erm.framework.functions.getdegradedmoncandidates
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getdegradedmoncandidates/
+URL: /en/erm/framework/functions/getdegradedmoncandidates/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -369,7 +289,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3038â
 # GetHeroPortraitName
 
 ID: erm.framework.functions.getheroportraitname
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getheroportraitname/
+URL: /en/erm/framework/functions/getheroportraitname/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3062-3080-getheroportraitname
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -407,7 +327,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3062â
 # GetHeroPrimarySkillsWithoutArts
 
 ID: erm.framework.functions.getheroprimaryskillswithoutarts
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getheroprimaryskillswithoutarts/
+URL: /en/erm/framework/functions/getheroprimaryskillswithoutarts/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -453,7 +373,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3081â
 # GetKeyModsState
 
 ID: erm.framework.functions.getkeymodsstate
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getkeymodsstate/
+URL: /en/erm/framework/functions/getkeymodsstate/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate, windows-api:getkeystate
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -489,7 +409,7 @@ Source discrepancy: the implementation tests GetKeyState with `d>>7`, whereas Wi
 # GetMaxArtifactId
 
 ID: erm.framework.functions.getmaxartifactid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxartifactid/
+URL: /en/erm/framework/functions/getmaxartifactid/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3199-3208-getmaxartifactid
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -527,7 +447,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3199â
 # GetMaxHeroId
 
 ID: erm.framework.functions.getmaxheroid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxheroid/
+URL: /en/erm/framework/functions/getmaxheroid/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3055-3061-getmaxheroid
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -567,7 +487,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3055â
 # GetMaxMonsterId
 
 ID: erm.framework.functions.getmaxmonsterid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxmonsterid/
+URL: /en/erm/framework/functions/getmaxmonsterid/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -603,4 +523,90 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3020â
 
 [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
 <!-- llm:end erm.framework.functions.getmaxmonsterid 1 -->
+
+# GetMaxSpellId
+
+ID: erm.framework.functions.getmaxspellid
+URL: /en/erm/framework/functions/getmaxspellid/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-3209-3216-getmaxspellid
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.getmaxspellid 1 -->
+## Purpose {#purpose}
+
+Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin.
+
+## Call contract {#signature}
+
+```erm
+!!FU(GetMaxSpellId):P(result);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `result` | output / mutable |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3209â€“3216, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[SPELL_LAST_WOG](../../constants/spells/#const-spell-last-wog)
+<!-- llm:end erm.framework.functions.getmaxspellid 1 -->
+
+# GetModList
+
+ID: erm.framework.functions.getmodlist
+URL: /en/erm/framework/functions/getmodlist/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.getmodlist 1 -->
+## Purpose {#purpose}
+
+Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it.
+
+## Call contract {#signature}
+
+```erm
+!!FU(GetModList):P(arrayId)/(toLower)/(reverse);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `arrayId` | output / mutable |
+| x2 | `toLower` | output / mutable |
+| x3 | `reverse` | output / mutable |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `ExtendArrayLifetime`, `ShowErmError`.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Related functions {#calls}
+
+[Array_Revert](../array-revert/) Â· [NewStrArray](../newstrarray/) Â· [StrToLower](../strtolower/) Â· [Substr](../substr/)
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1932â€“1986, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[CALLCONV_STDCALL](../../constants/calling-conventions/#const-callconv-stdcall) Â· [FALSE](../../constants/universal/#const-false) Â· [SIZEOF_INT](../../constants/data-types/#const-sizeof-int)
+<!-- llm:end erm.framework.functions.getmodlist 1 -->
 

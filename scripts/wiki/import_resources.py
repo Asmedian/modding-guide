@@ -13,7 +13,7 @@ import subprocess
 import tempfile
 import wave
 from PIL import Image, ImageDraw
-from formats import archive_entries, lf_tree, def_header, def_frame, pcx_image
+from formats import archive_entries, lf_tree, def_header, def_frame, pcx_image, def_group_summary
 from labels import label
 
 LIMIT = 72
@@ -89,7 +89,7 @@ def main():
         elif ext == '.def':
             typ,w,h,groups = def_header(data)
             image = def_frame(data,groups[0]['frames'][0][1])
-            entry.update({'type':typ,'groups':len(groups),'frames':sum(len(g['frames']) for g in groups)})
+            entry.update({'type':typ,'groups':len(groups),'frames':sum(len(g['frames']) for g in groups),'frameGroups':def_group_summary(groups)})
         elif kind in ('snd','vid'):
             entry['kind'] = 'audio' if kind == 'snd' else 'video'
             display = path/'display'/(name+('.wav' if kind == 'snd' else '.mp4'))

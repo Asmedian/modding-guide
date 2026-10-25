@@ -1,7 +1,7 @@
 # Building pictures by town
 
 ID: erm.tables.building-pictures
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/building-pictures/
+URL: /en/erm/tables/building-pictures/
 Part: 2/2
 Source references: old-help:form-buldingsintowns.htm, old-help:form-picts.htm, old-help:rec-if.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

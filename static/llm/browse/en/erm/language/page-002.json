@@ -2,111 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.syntax",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "syntax",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/syntax/",
-      "title": "ERM syntax: ZVSE and ZVSE2",
-      "summary": "Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor.",
-      "keywords": [
-        "ERM syntax: ZVSE and ZVSE2"
-      ],
-      "questions": [
-        "Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor."
-      ],
-      "sourceRefs": [
-        "old-help:cont-zvse.htm",
-        "old-help:cont-receiversol.htm",
-        "era-changelog:era-iii-changelog.txt",
-        "old-help:cont-ingener.htm"
-      ],
-      "sectionSources": {
-        "header": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "prefixes": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "anatomy": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "access": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "declarations": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "comments": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "reference-links": [
-          "old-help:cont-zvse.htm",
-          "old-help:cont-receiversol.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "ref-cont-ingener": [
-          "old-help:cont-ingener.htm"
-        ],
-        "ref-cont-receiversol": [
-          "old-help:cont-receiversol.htm"
-        ],
-        "ref-cont-zvse": [
-          "old-help:cont-zvse.htm"
-        ],
-        "era3-updates": [
-          "era-changelog:era-iii-changelog.txt"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-007.md",
-          "fromAnchor": "ref-cont-receiversol",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Receivers: General",
-            "Receivers",
-            "Introduction",
-            "How to use receivers",
-            "Receiver syntax",
-            "Related syntax",
-            "Current date syntax",
-            "Empty parameters",
-            "Multiple commands",
-            "Adding comments to your code",
-            "Using variables in receivers",
-            "Instructions",
-            "ZVSE",
-            "ZVSE",
-            "Header and language mode",
-            "Four prefixes"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.triggers",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "triggers",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/",
+      "url": "/en/erm/triggers/",
       "title": "ERM triggers and events",
       "summary": "28 classic families and 104 registered ERA events.",
       "keywords": [
@@ -288,7 +189,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-009.md",
+          "url": "/llm/browse/en/erm/language/text-009.md",
           "fromAnchor": "ref-cont-eventslist",
           "toAnchor": "ref-cont-logicevent-show7",
           "headings": [
@@ -299,7 +200,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-010.md",
+          "url": "/llm/browse/en/erm/language/text-010.md",
           "fromAnchor": "ref-cont-logicevent-8",
           "toAnchor": "ref-era-new-events-show1",
           "headings": [
@@ -321,7 +222,7 @@
         },
         {
           "part": 3,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-011.md",
+          "url": "/llm/browse/en/erm/language/text-011.md",
           "fromAnchor": "ref-era-new-events-2-1",
           "toAnchor": "era",
           "headings": [
@@ -333,7 +234,7 @@
         },
         {
           "part": 4,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-012.md",
+          "url": "/llm/browse/en/erm/language/text-012.md",
           "fromAnchor": "families",
           "toAnchor": "reference-links",
           "headings": [
@@ -350,7 +251,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "functions",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/functions/",
+      "url": "/en/erm/functions/",
       "title": "Functions and parameters",
       "summary": "FU declarations, x arguments, returning through GET arguments, and local variables.",
       "keywords": [
@@ -401,7 +302,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-003.md",
+          "url": "/llm/browse/en/erm/language/text-003.md",
           "fromAnchor": "call",
           "toAnchor": "reference-links",
           "headings": [
@@ -421,7 +322,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "un-c/grail-coordinates",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/grail-coordinates/",
+      "url": "/en/erm/un-c/grail-coordinates/",
       "title": "Grail coordinates",
       "summary": "Reads Grail data through the game-manager pointer. Latin y variables replace accidental Cyrillic lookalikes in the original post.",
       "keywords": [
@@ -461,7 +362,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "url": "/llm/browse/en/erm/language/text-015.md",
           "fromAnchor": "purpose",
           "toAnchor": "sources",
           "headings": [
@@ -480,7 +381,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "start",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/start/",
+      "url": "/en/erm/start/",
       "title": "Introduction to ERM",
       "summary": "How a script is loaded and responds to Heroes III events.",
       "keywords": [
@@ -560,7 +461,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-006.md",
+          "url": "/llm/browse/en/erm/language/text-006.md",
           "fromAnchor": "ref-cont-adv",
           "toAnchor": "reference-links",
           "headings": [
@@ -588,7 +489,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "learn",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/learn/",
+      "url": "/en/erm/learn/",
       "title": "Learning ERM",
       "summary": "Learn ERM with AI: give the model the reference map, describe your task and test the result in the game.",
       "keywords": [
@@ -623,7 +524,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-004.md",
+          "url": "/llm/browse/en/erm/language/text-004.md",
           "fromAnchor": "ai",
           "toAnchor": "examples",
           "headings": [
@@ -640,7 +541,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "loops",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/loops/",
+      "url": "/en/erm/loops/",
       "title": "Loops: re, br, co, and DO",
       "summary": "Loop bounds, steps, nesting, and repeated function calls.",
       "keywords": [
@@ -697,7 +598,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-004.md",
+          "url": "/llm/browse/en/erm/language/text-004.md",
           "fromAnchor": "ref-rec-re",
           "toAnchor": "reference-links",
           "headings": [
@@ -719,7 +620,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "un-c/beam-color",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/beam-color/",
+      "url": "/en/erm/un-c/beam-color/",
       "title": "Reading beam color",
       "summary": "For unmodified h3wog.exe: creatures 35..121; 0 green, 1 white, 2 black.",
       "keywords": [
@@ -755,7 +656,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "url": "/llm/browse/en/erm/language/text-015.md",
           "fromAnchor": "purpose",
           "toAnchor": "sources",
           "headings": [
@@ -774,7 +675,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "un-c/screen-size",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/screen-size/",
+      "url": "/en/erm/un-c/screen-size/",
       "title": "Reading game resolution",
       "summary": "Reads width and height from the two-byte fields used by the legacy HD implementation.",
       "keywords": [
@@ -811,7 +712,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "url": "/llm/browse/en/erm/language/text-015.md",
           "fromAnchor": "purpose",
           "toAnchor": "sources",
           "headings": [
@@ -820,6 +721,216 @@
             "Version and limitations",
             "Addresses and offsets",
             "Provenance and related commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.projectile-type",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/projectile-type",
+      "url": "/en/erm/un-c/projectile-type/",
+      "title": "Reading projectile type",
+      "summary": "For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value.",
+      "keywords": [
+        "projectile-type",
+        "UN:C",
+        "7961526"
+      ],
+      "questions": [
+        "For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value."
+      ],
+      "sourceRefs": [
+        "erm-forum:faq-.html",
+        "old-help:form-weapon.htm"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "code": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "limits": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "addresses": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "sources": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "reference-links": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers",
+      "url": "/en/erm/receivers/",
+      "title": "Receivers and subcommands",
+      "summary": "Alphabetical command catalog with parameters, limitations and context.",
+      "keywords": [
+        "AI",
+        "AR",
+        "BA",
+        "BF",
+        "BG",
+        "BH",
+        "BM",
+        "BU",
+        "CA",
+        "CB",
+        "CD",
+        "CE",
+        "CH",
+        "CM",
+        "CO",
+        "DL",
+        "DO",
+        "DW",
+        "EA",
+        "EX",
+        "FC",
+        "FR",
+        "FU",
+        "GD",
+        "GE",
+        "GR",
+        "HE",
+        "HL",
+        "HO",
+        "HT",
+        "IF",
+        "IP",
+        "KT",
+        "LE",
+        "LN",
+        "MA",
+        "MC",
+        "MF",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MR",
+        "MT",
+        "MW",
+        "OB",
+        "OW",
+        "PA",
+        "PM",
+        "PO",
+        "PR",
+        "QU",
+        "QW",
+        "RD",
+        "SC",
+        "SG",
+        "SK",
+        "SN",
+        "SP",
+        "SR",
+        "SS",
+        "ST",
+        "SW",
+        "SY",
+        "TL",
+        "TM",
+        "TR",
+        "UN",
+        "UR",
+        "VC",
+        "VR",
+        "WG",
+        "WH",
+        "WM",
+        "WT"
+      ],
+      "questions": [
+        "Alphabetical command catalog with parameters, limitations and context."
+      ],
+      "sourceRefs": [
+        "old-help:cont-receivers.htm",
+        "old-help:cont-receiversa.htm",
+        "old-help:cont-receiversol.htm"
+      ],
+      "sectionSources": {
+        "use": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "catalog": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "control": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "reference-links": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "ref-cont-receivers": [
+          "old-help:cont-receivers.htm"
+        ],
+        "ref-cont-receiversa": [
+          "old-help:cont-receiversa.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/language/text-005.md",
+          "fromAnchor": "ref-cont-receivers",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receivers",
+            "Receivers and instructions",
+            "Receivers",
+            "Receivers and instructions for objects",
+            "Reading signatures",
+            "Complete catalog",
+            "Control-flow commands",
+            "Related commands and tables"
           ]
         }
       ]

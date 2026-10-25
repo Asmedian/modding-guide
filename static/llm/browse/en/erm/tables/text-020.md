@@ -1,7 +1,7 @@
 # Creature DEF and sound resources
 
 ID: erm.tables.creature-resources
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-resources/
+URL: /en/erm/tables/creature-resources/
 Part: 2/2
 Source references: old-help:form-cr-def-snd.htm, old-help:rec-ma.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

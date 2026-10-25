@@ -118,6 +118,7 @@ test('Wiki original bytes, preview paths and decoded DEF frame lengths are intac
     if (resource.kind==='def') {
       const def=DefFile.open(new Uint8Array(data));
       assert.equal(def.getGroups().length,resource.groups,resource.name);
+      assert.deepEqual(resource.frameGroups,def.getGroups().map(id=>({id,frames:def.getFrameCount(id)})),resource.name);
       assert.equal(def.rawData.length,resource.frames,resource.name);
       for (const frame of def.rawData) if (frame.image) assert.equal(frame.image.pixeldata.length,frame.image.width*frame.image.height,`${resource.name}/${frame.name}`);
     }

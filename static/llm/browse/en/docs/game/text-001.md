@@ -1,7 +1,7 @@
 # How ERA loads resources
 
 ID: docs.game.resource-loading
-URL: https://asmedian.github.io/modding-guide/en/docs/game/resource-loading/
+URL: /en/docs/game/resource-loading/
 Part: 1/1
 Source references: era-source:lodman, era-source:reslib, era-source:gameext, era-changelog:3
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -51,7 +51,7 @@ Use this order: confirm the disk file, confirm the mod is enabled, exclude a hig
 # Resource formats
 
 ID: docs.game.resources
-URL: https://asmedian.github.io/modding-guide/en/docs/game/resources/
+URL: /en/docs/game/resources/
 Part: 1/1
 Source references: era-source:lodman, era-source:reslib, era-changelog:3, old-help:index
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

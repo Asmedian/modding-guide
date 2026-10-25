@@ -18,7 +18,7 @@
   $: lang = article.lang;
   $: t = translator(lang);
   $: canonical = `${base}/${lang}/wiki/${article.slug ? article.slug+'/' : ''}`;
-  $: toc = catalogPage ? catalogPage.sections.map((section,i) => ({id:`group-${i}`,label:section.path.map(p=>p[lang]).join(' / ')})) : article.sections;
+  $: toc = catalogPage ? catalogPage.sections.map((section,i) => ({id:`group-${i}`,label:section.path.map(p=>p[lang]).join(' / ')})) : catalog ? catalog.roots.map((root,i)=>({id:`catalog-${i}`,label:root.title[lang]})) : article.sections;
   let active: WikiResource | null = null;
   let audio: HTMLAudioElement;
   let video: HTMLVideoElement;
@@ -117,8 +117,8 @@
     {#if catalog}
       <div class="article-body">{@html article.bodyHtml}</div>
       <div class="wiki-catalog">
-        {#each catalog.roots as root}
-          <section class="wiki-card">
+        {#each catalog.roots as root,i}
+          <section class="wiki-card" id={`catalog-${i}`}>
             <h2 class="wiki-heading">{#if root.href}<a href={`${base}/${lang}/${root.href}/`}>{root.title[lang]}</a><small class="wiki-edition">SoD</small>{:else}{root.title[lang]}{/if}</h2>
             <p>{root.count} {t('wiki.resources')}</p>
             {#each root.items as item}<a class="wiki-card-link" href={`${base}/${lang}/${item.slug}/`}>{t(item.labelKey)}<small class="wiki-edition">SoD</small></a>{/each}

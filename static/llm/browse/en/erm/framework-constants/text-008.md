@@ -1,7 +1,7 @@
 # Object Types
 
 ID: erm.framework.constants.object-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/
+URL: /en/erm/framework/constants/object-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -258,7 +258,7 @@ The **Object Types** group from the supplied Framework. Names and values below c
 # Player Bits
 
 ID: erm.framework.constants.player-bits
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/
+URL: /en/erm/framework/constants/player-bits/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -289,7 +289,7 @@ The **Player Bits** group from the supplied Framework. Names and values below co
 # Players
 
 ID: erm.framework.constants.players
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/
+URL: /en/erm/framework/constants/players/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -331,7 +331,7 @@ The **Players** group from the supplied Framework. Names and values below corres
 # Quest Rewards
 
 ID: erm.framework.constants.quest-rewards
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/
+URL: /en/erm/framework/constants/quest-rewards/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -365,7 +365,7 @@ The **Quest Rewards** group from the supplied Framework. Names and values below 
 # Quest Types
 
 ID: erm.framework.constants.quest-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/
+URL: /en/erm/framework/constants/quest-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -402,7 +402,7 @@ The **Quest Types** group from the supplied Framework. Names and values below co
 # Radio Dialogs
 
 ID: erm.framework.constants.radio-dialogs
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/radio-dialogs/
+URL: /en/erm/framework/constants/radio-dialogs/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -432,7 +432,7 @@ The **Radio Dialogs** group from the supplied Framework. Names and values below 
 # Resources
 
 ID: erm.framework.constants.resources
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/
+URL: /en/erm/framework/constants/resources/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -468,7 +468,7 @@ The **Resources** group from the supplied Framework. Names and values below corr
 # Special Enums
 
 ID: erm.framework.constants.special-enums
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/special-enums/
+URL: /en/erm/framework/constants/special-enums/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

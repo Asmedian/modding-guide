@@ -1,7 +1,7 @@
 # Bits, masks and hexadecimal
 
 ID: erm.tables.bits
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/bits/
+URL: /en/erm/tables/bits/
 Part: 1/1
 Source references: old-help:form-hex.htm, old-help:form-16to10.htm, old-help:rec-vr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

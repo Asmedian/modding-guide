@@ -1,7 +1,7 @@
 # Pandora box (PA)
 
 ID: erm.receivers.pa
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/pa/
+URL: /en/erm/receivers/pa/
 Part: 1/1
 Source references: old-help:rec-pa.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -160,7 +160,7 @@ Set/check/get whether guards is enabled:<br>
 # Pyramids and new objects (PM)
 
 ID: erm.receivers.pm
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/pm/
+URL: /en/erm/receivers/pm/
 Part: 1/1
 Source references: old-help:rec-pm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -252,7 +252,7 @@ You can set this bit and wait for the AI to arrive.</div></details>
 # Map-cell data (PO)
 
 ID: erm.receivers.po
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/po/
+URL: /en/erm/receivers/po/
 Part: 1/1
 Source references: old-help:rec-po.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -414,7 +414,7 @@ Now let's return them from v100...
 # Prison (PR)
 
 ID: erm.receivers.pr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/pr/
+URL: /en/erm/receivers/pr/
 Part: 1/1
 Source references: old-help:rec-pr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -2,761 +2,1108 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "IF:B",
+      "name": "IP:W",
       "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-b",
-      "aliases": [
-        "!!IF:B"
-      ],
-      "label": "B#/$1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-b"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:D",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-d",
-      "aliases": [
-        "!!IF:D"
-      ],
-      "label": "D#/$1/$2/$3/$4/$5/$6/$7/$8/$9/$10/$11/$12/$13/$14/$15",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-d"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:E",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-e",
-      "aliases": [
-        "!!IF:E"
-      ],
-      "label": "E$1/$2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-e"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:F",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-f",
-      "aliases": [
-        "!!IF:F"
-      ],
-      "label": "F$1/$2/$3/$4/$5/$6",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-f"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:G",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-g",
-      "aliases": [
-        "!!IF:G"
-      ],
-      "label": "G#1/#2/#3/#4/#5/#6/#7/#8/#9/#10/#11/#12/#13/#14/#15/#16",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-g"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:L",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-l",
-      "aliases": [
-        "!!IF:L"
-      ],
-      "label": "L^Текст^",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-l"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:M",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-m",
-      "aliases": [
-        "!!IF:M"
-      ],
-      "label": "M^Текст^",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-m"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:N",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-n",
-      "aliases": [
-        "!!IF:N"
-      ],
-      "label": "N#1/#2/#3/#4/#5/#6/#7/#8/#9/#10/#11/#12/#13/#14/#15/#16",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-n"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:P",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-p",
-      "aliases": [
-        "!!IF:P"
-      ],
-      "label": "P#",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-p"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:Q",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-q",
-      "aliases": [
-        "!!IF:Q"
-      ],
-      "label": "Q#^Вопрос^",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-q"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:R",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-r",
-      "aliases": [
-        "!!IF:R"
-      ],
-      "label": "Rxxxxxxxxxx",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-r"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:S",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-s",
-      "aliases": [
-        "!!IF:S"
-      ],
-      "label": "Sxxxxxxxxxx",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-s"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:V",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-v",
-      "aliases": [
-        "!!IF:V"
-      ],
-      "label": "V#1/#2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-v"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:W",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-w",
-      "aliases": [
-        "!!IF:W"
-      ],
-      "label": "W$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-w"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IF:X",
-      "kind": "command",
-      "slug": "receivers/if",
-      "anchor": "ref-rec-if-x",
-      "aliases": [
-        "!!IF:X"
-      ],
-      "label": "X$",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/#ref-rec-if-x"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
-            "fromAnchor": "ref-rec-if",
-            "toAnchor": "command-w-x",
-            "headings": [
-              "Receiver IF"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
-            "fromAnchor": "ref-rec-if-15",
-            "toAnchor": "reference-links",
-            "headings": [
-              "Additional information for the IF receiver",
-              "View title",
-              "Interpretation of values in IF:Q",
-              "Dialogs",
-              "Dialog boxes (receiver IF)",
-              "Types of Dialog Boxes",
-              "Using Standard Dialog Boxes",
-              "Using the Advanced Dialog #1 - Multitasking Dialog",
-              "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
-              "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
-              "Color text",
-              "Colored text",
-              "Notes on modern ERA versions",
-              "Related reference",
-              "Related commands and tables"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IP",
-      "kind": "receiver",
       "slug": "receivers/ip",
-      "anchor": "",
+      "anchor": "ref-rec-ip-w",
       "aliases": [
-        "!!IP"
+        "!!IP:W"
       ],
-      "label": "Network synchronization (IP)",
+      "label": "W$1/$2/$3",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/"
+        "en": "/en/erm/receivers/ip/#ref-rec-ip-w"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
             "fromAnchor": "ref-rec-ip",
             "toAnchor": "reference-links",
             "headings": [
               "Receiver IP",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "KT",
+      "kind": "receiver",
+      "slug": "receivers/kt",
+      "anchor": "",
+      "aliases": [
+        "!!KT"
+      ],
+      "label": "Tree of knowledge (KT)",
+      "destinations": {
+        "en": "/en/erm/receivers/kt/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-kt",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver KT",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "KT:N",
+      "kind": "command",
+      "slug": "receivers/kt",
+      "anchor": "ref-rec-kt-n",
+      "aliases": [
+        "!!KT:N"
+      ],
+      "label": "N$",
+      "destinations": {
+        "en": "/en/erm/receivers/kt/#ref-rec-kt-n"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-kt",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver KT",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "KT:S",
+      "kind": "command",
+      "slug": "receivers/kt",
+      "anchor": "ref-rec-kt-s",
+      "aliases": [
+        "!!KT:S"
+      ],
+      "label": "S$",
+      "destinations": {
+        "en": "/en/erm/receivers/kt/#ref-rec-kt-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-kt",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver KT",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE",
+      "kind": "receiver",
+      "slug": "receivers/le",
+      "anchor": "",
+      "aliases": [
+        "!!LE"
+      ],
+      "label": "Local map events (LE)",
+      "destinations": {
+        "en": "/en/erm/receivers/le/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:A",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-a",
+      "aliases": [
+        "!!LE:A"
+      ],
+      "label": "A#1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-a"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:B",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-b",
+      "aliases": [
+        "!!LE:B"
+      ],
+      "label": "B",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:C",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-c",
+      "aliases": [
+        "!!LE:C"
+      ],
+      "label": "C#1/$2/$3",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-c"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:D",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-d",
+      "aliases": [
+        "!!LE:D"
+      ],
+      "label": "D#1/#2",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-d"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:E",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-e",
+      "aliases": [
+        "!!LE:E"
+      ],
+      "label": "E$",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-e"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:F",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-f",
+      "aliases": [
+        "!!LE:F"
+      ],
+      "label": "F$1/$2/$3/$4",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-f"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:G",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-g",
+      "aliases": [
+        "!!LE:G"
+      ],
+      "label": "G#1/$2/$3",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-g"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:I",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-i",
+      "aliases": [
+        "!!LE:I"
+      ],
+      "label": "I#",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-i"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:L",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-l",
+      "aliases": [
+        "!!LE:L"
+      ],
+      "label": "L#",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-l"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:M",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-m",
+      "aliases": [
+        "!!LE:M"
+      ],
+      "label": "M^текст^",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-m"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:N",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-n",
+      "aliases": [
+        "!!LE:N"
+      ],
+      "label": "N#1/$2/$3",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-n"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:O",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-o",
+      "aliases": [
+        "!!LE:O"
+      ],
+      "label": "O$",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-o"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:P",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-p",
+      "aliases": [
+        "!!LE:P"
+      ],
+      "label": "P$",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-p"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:R",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-r",
+      "aliases": [
+        "!!LE:R"
+      ],
+      "label": "R#1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:S",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-s",
+      "aliases": [
+        "!!LE:S"
+      ],
+      "label": "S#1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:U",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-u",
+      "aliases": [
+        "!!LE:U"
+      ],
+      "label": "U$",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-u"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LE:X",
+      "kind": "command",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le-x",
+      "aliases": [
+        "!!LE:X"
+      ],
+      "label": "X#",
+      "destinations": {
+        "en": "/en/erm/receivers/le/#ref-rec-le-x"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-022.md",
+            "fromAnchor": "ref-rec-le",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LE",
+              "Notes on modern ERA versions",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LN",
+      "kind": "receiver",
+      "slug": "receivers/ln",
+      "anchor": "",
+      "aliases": [
+        "!!LN"
+      ],
+      "label": "Lean-to (LN)",
+      "destinations": {
+        "en": "/en/erm/receivers/ln/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ln",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LN:B",
+      "kind": "command",
+      "slug": "receivers/ln",
+      "anchor": "ref-rec-ln-b",
+      "aliases": [
+        "!!LN:B"
+      ],
+      "label": "B$1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/ln/#ref-rec-ln-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ln",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LN:N",
+      "kind": "command",
+      "slug": "receivers/ln",
+      "anchor": "ref-rec-ln-n",
+      "aliases": [
+        "!!LN:N"
+      ],
+      "label": "N$",
+      "destinations": {
+        "en": "/en/erm/receivers/ln/#ref-rec-ln-n"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ln",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver LN",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA",
+      "kind": "receiver",
+      "slug": "receivers/ma",
+      "anchor": "",
+      "aliases": [
+        "!!MA"
+      ],
+      "label": "Creature-type attributes (MA)",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:A",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-a",
+      "aliases": [
+        "!!MA:A"
+      ],
+      "label": "A#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-a"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:B",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-b",
+      "aliases": [
+        "!!MA:B"
+      ],
+      "label": "B#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:C",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-c",
+      "aliases": [
+        "!!MA:C"
+      ],
+      "label": "C#1/#2/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-c"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:D",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-d",
+      "aliases": [
+        "!!MA:D"
+      ],
+      "label": "D#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-d"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:E",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-e",
+      "aliases": [
+        "!!MA:E"
+      ],
+      "label": "E#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-e"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:F",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-f",
+      "aliases": [
+        "!!MA:F"
+      ],
+      "label": "F#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-f"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:G",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-g",
+      "aliases": [
+        "!!MA:G"
+      ],
+      "label": "G#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-g"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:H",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-h",
+      "aliases": [
+        "!!MA:H"
+      ],
+      "label": "H#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-h"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:I",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-i",
+      "aliases": [
+        "!!MA:I"
+      ],
+      "label": "I#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-i"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:L",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-l",
+      "aliases": [
+        "!!MA:L"
+      ],
+      "label": "L#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-l"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:M",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-m",
+      "aliases": [
+        "!!MA:M"
+      ],
+      "label": "M#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-m"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:N",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-n",
+      "aliases": [
+        "!!MA:N"
+      ],
+      "label": "N#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-n"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MA:O",
+      "kind": "command",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma-o",
+      "aliases": [
+        "!!MA:O"
+      ],
+      "label": "O#/$",
+      "destinations": {
+        "en": "/en/erm/receivers/ma/#ref-rec-ma-o"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-023.md",
+            "fromAnchor": "ref-rec-ma",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver MA",
               "Related reference",
               "Related commands and tables"
             ]

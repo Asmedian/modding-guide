@@ -1,7 +1,7 @@
 # After construction (OnAfterBuildTownBuilding)
 
 ID: erm.triggers.onafterbuildtownbuilding
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterbuildtownbuilding/
+URL: /en/erm/triggers/onafterbuildtownbuilding/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -34,7 +34,7 @@ ID `77052`; registered as `TRIGGER_AFTER_BUILD_TOWN_BUILDING`. The name is confi
 # After a hero level-up (OnAfterHeroGainLevel)
 
 ID: erm.triggers.onafterherogainlevel
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterherogainlevel/
+URL: /en/erm/triggers/onafterherogainlevel/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -67,7 +67,7 @@ ID `77050`; registered as `TRIGGER_AFTER_HERO_GAIN_LEVEL`. The name is confirmed
 # After hero interaction (OnAfterHeroInteraction)
 
 ID: erm.triggers.onafterherointeraction
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterherointeraction/
+URL: /en/erm/triggers/onafterherointeraction/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -99,7 +99,7 @@ ID `77011`; registered as `TRIGGER_AFTERHEROINTERACT`. The name is confirmed by 
 # After a local event (OnAfterLocalEvent)
 
 ID: erm.triggers.onafterlocalevent
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterlocalevent/
+URL: /en/erm/triggers/onafterlocalevent/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -132,7 +132,7 @@ ID `77046`; registered as `TRIGGER_AFTER_LOCAL_EVENT`. The name is confirmed by 
 # After placing battle obstacles (OnAfterPlaceBattleObstacles)
 
 ID: erm.triggers.onafterplacebattleobstacles
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterplacebattleobstacles/
+URL: /en/erm/triggers/onafterplacebattleobstacles/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -165,7 +165,7 @@ ID `77055`; registered as `TRIGGER_AFTER_BATTLE_PLACE_BATTLE_OBSTACLES`. The nam
 # After saving (OnAfterSaveGame)
 
 ID: erm.triggers.onaftersavegame
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onaftersavegame/
+URL: /en/erm/triggers/onaftersavegame/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -197,7 +197,7 @@ ID `77008`; registered as `TRIGGER_AFTER_SAVE_GAME`. The name is confirmed by th
 # After tactics (OnAfterTacticsPhase)
 
 ID: erm.triggers.onaftertacticsphase
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onaftertacticsphase/
+URL: /en/erm/triggers/onaftertacticsphase/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -229,7 +229,7 @@ ID `77021`; registered as `TRIGGER_AFTER_TACTICS_PHASE`. The name is confirmed b
 # AI attack evaluation (OnAICalcStackAttackEffect)
 
 ID: erm.triggers.onaicalcstackattackeffect
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onaicalcstackattackeffect/
+URL: /en/erm/triggers/onaicalcstackattackeffect/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -262,7 +262,7 @@ ID `77013`; registered as `TRIGGER_ONAICALCSTACKATTACKEFFECT`. The name is confi
 # Battle action completion (OnBattleActionEnd)
 
 ID: erm.triggers.onbattleactionend
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleactionend/
+URL: /en/erm/triggers/onbattleactionend/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -295,7 +295,7 @@ ID `77051`; registered as `TRIGGER_BATTLE_ACTION_END`. The name is confirmed by 
 # Battlefield becomes visible (OnBattlefieldVisible)
 
 ID: erm.triggers.onbattlefieldvisible
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlefieldvisible/
+URL: /en/erm/triggers/onbattlefieldvisible/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -327,7 +327,7 @@ ID `77020`; registered as `TRIGGER_BATTLEFIELD_VISIBLE`. The name is confirmed b
 # Regeneration phase (OnBattleRegeneratePhase)
 
 ID: erm.triggers.onbattleregeneratephase
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleregeneratephase/
+URL: /en/erm/triggers/onbattleregeneratephase/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -359,7 +359,7 @@ ID `77007`; registered as `TRIGGER_REGENERATE_PHASE`. The name is confirmed by t
 # Battle replay (OnBattleReplay)
 
 ID: erm.triggers.onbattlereplay
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlereplay/
+URL: /en/erm/triggers/onbattlereplay/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

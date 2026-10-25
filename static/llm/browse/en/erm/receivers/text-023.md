@@ -1,7 +1,7 @@
 # Lean-to (LN)
 
 ID: erm.receivers.ln
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ln/
+URL: /en/erm/receivers/ln/
 Part: 1/1
 Source references: old-help:rec-ln.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -72,7 +72,7 @@ Canopy number (0..31)</div>
 # Creature-type attributes (MA)
 
 ID: erm.receivers.ma
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ma/
+URL: /en/erm/receivers/ma/
 Part: 1/1
 Source references: old-help:rec-ma.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -243,7 +243,7 @@ When working with flags, check their meanings very carefully (see. <a href="../v
 # Classic ERM macros (MC)
 
 ID: erm.receivers.mc
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mc/
+URL: /en/erm/receivers/mc/
 Part: 1/1
 Source references: old-help:rec-mc.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -294,7 +294,7 @@ To use macro names in a message they are as follows: <strong>$$</strong> and the
 # Physical damage (MF)
 
 ID: erm.receivers.mf
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mf/
+URL: /en/erm/receivers/mf/
 Part: 1/1
 Source references: old-help:rec-mf.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -394,7 +394,7 @@ Check/get attack type:<br>
 # Windmill (ML)
 
 ID: erm.receivers.ml
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ml/
+URL: /en/erm/receivers/ml/
 Part: 1/1
 Source references: old-help:rec-ml.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

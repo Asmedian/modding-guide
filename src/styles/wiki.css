@@ -51,6 +51,7 @@
 .wiki-page-number.current { color: var(--gold); border-color: var(--border-strong); background: var(--surface-soft); }
 span.wiki-page-arrow { opacity: .35; }
 .wiki-font-surface { background: #0d1117; padding: .5rem; border-radius: 4px; overflow: auto; max-width: 100%; }
+:root[data-theme='light'] .wiki-font-surface { background: #967044; }
 .wiki-font-preview { max-width: none; }
 .wiki-font-preview img { max-width: none; }
 .wiki-popup-image { display: flex; justify-content: center; padding: 1rem; margin: 1rem 0; overflow: auto; }
@@ -111,8 +112,12 @@ span.wiki-page-arrow { opacity: .35; }
 .wiki-outline ul { list-style: none; margin: 0; padding: 0; }
 .wiki-outline li { margin: .3rem 0; padding-left: calc(var(--wiki-depth) * 1.2rem); font-size: .85rem; }
 .wiki-outline li[style='--wiki-depth:0'] { margin-top: .7rem; font-weight: 600; }
-.wiki-def-layout { display: grid; grid-template-columns: 180px minmax(0,1fr); gap: 1rem; margin: 1rem 0; }
-.wiki-def-groups { display: flex; flex-direction: column; align-self: start; max-height: 60vh; overflow-y: auto; }
+.wiki-def-dialog { height: 90vh; }
+.wiki-def-dialog .wiki-dialog-content { display: flex; flex-direction: column; flex: 1; padding-top: 1rem; overflow: hidden; }
+.wiki-def-layout { display: grid; flex: 1; min-width: 0; min-height: 0; grid-template-columns: 180px minmax(0,1fr); gap: 1rem; }
+.wiki-def-groups { display: flex; flex-direction: column; min-height: 0; overflow-y: auto; overscroll-behavior: contain; background: var(--surface); border: 1px solid var(--border); }
+.wiki-def-groups button { flex-shrink: 0; }
+.wiki-def-body { min-width: 0; min-height: 0; overflow: auto; overscroll-behavior: contain; }
 .wiki-def-groups button { position: relative; text-align: left; padding: .6rem .6rem 1.1rem; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
 .wiki-def-groups .wiki-edition { right: .6rem; bottom: .3rem; }
 .wiki-def-groups small { display: block; color: var(--text-subtle); }
@@ -155,7 +160,7 @@ span.wiki-page-arrow { opacity: .35; }
   .wiki-catalog { grid-template-columns: 1fr; }
   .wiki-table td, .wiki-table th { padding: .45rem; }
   .wiki-table th:first-child { width: 55%; }
-  .wiki-def-layout { grid-template-columns: 1fr; }
-  .wiki-def-groups { flex-direction: row; max-height: none; overflow-x: auto; }
+  .wiki-def-layout { grid-template-columns: 1fr; grid-template-rows: auto minmax(0,1fr); }
+  .wiki-def-groups { flex-direction: row; overflow-x: auto; }
   .wiki-def-groups button { min-width: 110px; }
 }

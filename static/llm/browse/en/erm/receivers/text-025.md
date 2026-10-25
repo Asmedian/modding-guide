@@ -1,7 +1,7 @@
 # MP3 music (MP)
 
 ID: erm.receivers.mp
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mp/
+URL: /en/erm/receivers/mp/
 Part: 1/1
 Source references: old-help:rec-mp.htm, old-help:rec-mp-era.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -207,7 +207,7 @@ Set/get settings for trigger <a href="../../triggers/mp/#ref-tr-mp">!?MP</a>
 # Spell resistance (MR)
 
 ID: erm.receivers.mr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mr/
+URL: /en/erm/receivers/mr/
 Part: 1/1
 Source references: old-help:rec-mr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -316,7 +316,7 @@ But the base damage is calculated before the trigger works, so changing the spel
 # Obelisk (MT)
 
 ID: erm.receivers.mt
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mt/
+URL: /en/erm/receivers/mt/
 Part: 1/1
 Source references: old-help:rec-mt.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,7 +1,7 @@
 # NH3API
 
 ID: plugins.nh3api
-URL: https://asmedian.github.io/modding-guide/en/plugins/nh3api/
+URL: /en/plugins/nh3api/
 Part: 1/1
 Source references: nh3api:readme, nh3api:cmake, nh3api:era-header, nh3api:era-module-readme, nh3api:patcher-header, nh3api:natvis
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

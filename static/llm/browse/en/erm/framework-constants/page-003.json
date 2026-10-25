@@ -2,95 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.framework.constants.game-settings",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/constants/game-settings",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/",
-      "title": "Game Settings",
-      "summary": "39 named values: game settings.",
-      "keywords": [
-        "GAME_SETTING_SHOW_INTRO",
-        "GAME_SETTING_MUSIC_VOLUME",
-        "GAME_SETTING_SOUND_VOLUME",
-        "GAME_SETTING_LAST_MUSIC_VOLUME",
-        "GAME_SETTING_LAST_SOUND_VOLUME",
-        "GAME_SETTING_WALK_SPEED",
-        "GAME_SETTING_COMP_WALK_SPEED",
-        "GAME_SETTING_SHOW_ROUTE",
-        "GAME_SETTING_MOVE_REMINDER",
-        "GAME_SETTING_QUICK_COMBAT",
-        "GAME_SETTING_VIDEO_SUBTITLES",
-        "GAME_SETTING_TOWN_OUTLINES",
-        "GAME_SETTING_ANIMATE_SPELLBOOK",
-        "GAME_SETTING_WINDOW_SCROLL_SPEED",
-        "GAME_SETTING_BLACKOUT_COMPUTER",
-        "GAME_SETTING_FIRST_TIME",
-        "GAME_SETTING_TEST_DECOMP",
-        "GAME_SETTING_TEST_READ",
-        "GAME_SETTING_TEST_BLIT",
-        "GAME_SETTING_BINK_VIDEO",
-        "GAME_SETTING_UNIQUE_SYSTEM_ID",
-        "GAME_SETTING_NETWORK_DEF_NAME",
-        "GAME_SETTING_AUTOSAVE",
-        "GAME_SETTING_SHOW_COMBAT_GRID",
-        "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX",
-        "GAME_SETTING_COMBAT_SHADE_LEVEL",
-        "GAME_SETTING_COMBAT_ARMY_INFO_LEVEL",
-        "GAME_SETTING_COMBAT_AUTO_CREATURES",
-        "GAME_SETTING_COMBAT_AUTO_SPELLS",
-        "GAME_SETTING_COMBAT_CATAPULT",
-        "GAME_SETTING_COMBAT_BALLISTA",
-        "GAME_SETTING_COMBAT_FIRST_AID_TENT",
-        "GAME_SETTING_COMBAT_SPEED",
-        "GAME_SETTING_MAIN_GAME_SHOW_MENU",
-        "GAME_SETTING_MAIN_GAME_X",
-        "GAME_SETTING_MAIN_GAME_Y",
-        "GAME_SETTING_MAIN_GAME_FULL_SCREEN",
-        "GAME_SETTING_APP_PATH",
-        "GAME_SETTING_CD_DRIVE"
-      ],
-      "questions": [
-        "39 named values: game settings."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---consts.erm"
-      ],
-      "sectionSources": {
-        "meaning": [
-          "era-framework:lib-9999-era---consts.erm"
-        ],
-        "values": [
-          "era-framework:lib-9999-era---consts.erm"
-        ],
-        "related": [
-          "era-framework:lib-9999-era---consts.erm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
-          "fromAnchor": "meaning",
-          "toAnchor": "related",
-          "headings": [
-            "Purpose",
-            "Values",
-            "All groups"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.framework.constants.game-structures",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/game-structures",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-structures/",
+      "url": "/en/erm/framework/constants/game-structures/",
       "title": "Game Structures",
       "summary": "26 named values: game structures.",
       "keywords": [
@@ -149,7 +66,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -168,7 +85,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/game-types",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/",
+      "url": "/en/erm/framework/constants/game-types/",
       "title": "Game Types",
       "summary": "6 named values: game types.",
       "keywords": [
@@ -201,7 +118,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -218,7 +135,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/h3-dialog-commands",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/",
+      "url": "/en/erm/framework/constants/h3-dialog-commands/",
       "title": "H3 Dialog Commands",
       "summary": "5 named values: h3 dialog commands.",
       "keywords": [
@@ -253,7 +170,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -271,7 +188,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/h3-dialog-picture-types",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/",
+      "url": "/en/erm/framework/constants/h3-dialog-picture-types/",
       "title": "H3 Dialog Picture Types",
       "summary": "47 named values: h3 dialog picture types.",
       "keywords": [
@@ -348,7 +265,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -366,7 +283,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/h3-dialog-text-alignment",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-text-alignment/",
+      "url": "/en/erm/framework/constants/h3-dialog-text-alignment/",
       "title": "H3 Dialog Text Alignment",
       "summary": "6 named values: h3 dialog text alignment.",
       "keywords": [
@@ -402,7 +319,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -420,7 +337,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/h3-message-dialog-types",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-message-dialog-types/",
+      "url": "/en/erm/framework/constants/h3-message-dialog-types/",
       "title": "H3 Message Dialog Types",
       "summary": "5 named values: h3 message dialog types.",
       "keywords": [
@@ -452,7 +369,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -469,7 +386,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/hero-artifact-levels",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-levels/",
+      "url": "/en/erm/framework/constants/hero-artifact-levels/",
       "title": "Hero Artifact Levels",
       "summary": "6 named values: hero artifact levels.",
       "keywords": [
@@ -502,7 +419,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -519,7 +436,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/hero-artifact-slots",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/",
+      "url": "/en/erm/framework/constants/hero-artifact-slots/",
       "title": "Hero Artifact Slots",
       "summary": "28 named values: hero artifact slots.",
       "keywords": [
@@ -577,7 +494,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -595,7 +512,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/hero-classes",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/",
+      "url": "/en/erm/framework/constants/hero-classes/",
       "title": "Hero Classes",
       "summary": "20 named values: hero classes.",
       "keywords": [
@@ -642,7 +559,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -659,7 +576,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/hero-skills",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/",
+      "url": "/en/erm/framework/constants/hero-skills/",
       "title": "Hero Skills",
       "summary": "41 named values: hero skills.",
       "keywords": [
@@ -731,7 +648,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-005.md",
           "fromAnchor": "ref-form-primaryskill",
           "toAnchor": "related",
           "headings": [
@@ -739,6 +656,218 @@
             "Purpose",
             "Values",
             "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.heroes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/heroes",
+      "url": "/en/erm/framework/constants/heroes/",
+      "title": "Heroes",
+      "summary": "164 named values: heroes.",
+      "keywords": [
+        "NO_HERO",
+        "ANY_HERO",
+        "NO_DEFENDING_HERO",
+        "CURRENT_HERO",
+        "HERO_ATTACKER",
+        "HERO_DEFENDER",
+        "HERO_FIRST",
+        "HERO_ORRIN",
+        "HERO_VALESKA",
+        "HERO_EDRIC",
+        "HERO_SYLVIA",
+        "HERO_LORD_HAART",
+        "HERO_SORSHA",
+        "HERO_CHRISTIAN",
+        "HERO_TYRIS",
+        "HERO_RION",
+        "HERO_ADELA",
+        "HERO_CUTHBERT",
+        "HERO_ADELAIDE",
+        "HERO_INGHAM",
+        "HERO_SANYA",
+        "HERO_LOYNIS",
+        "HERO_CAITLIN",
+        "HERO_MEPHALA",
+        "HERO_UFRETIN",
+        "HERO_JENOVA",
+        "HERO_RYLAND",
+        "HERO_THORGRIM",
+        "HERO_IVOR",
+        "HERO_CLANCY",
+        "HERO_KYRRE",
+        "HERO_CORONIUS",
+        "HERO_ULAND",
+        "HERO_ELLESHAR",
+        "HERO_GEM",
+        "HERO_MALCOM",
+        "HERO_MELODIA",
+        "HERO_ALAGAR",
+        "HERO_AERIS",
+        "HERO_PIQUEDRAM",
+        "HERO_THANE",
+        "HERO_JOSEPHINE",
+        "HERO_NEELA",
+        "HERO_TOROSAR",
+        "HERO_FAFNER",
+        "HERO_RISSA",
+        "HERO_IONA",
+        "HERO_ASTRAL",
+        "HERO_HALON",
+        "HERO_SERENA",
+        "HERO_DAREMYTH",
+        "HERO_THEODORUS",
+        "HERO_SOLMYR",
+        "HERO_CYRA",
+        "HERO_AINE",
+        "HERO_FIONA",
+        "HERO_RASHKA",
+        "HERO_MARIUS",
+        "HERO_IGNATIUS",
+        "HERO_OCTAVIA",
+        "HERO_CALH",
+        "HERO_PYRE",
+        "HERO_NYMUS",
+        "HERO_AYDEN",
+        "HERO_XYRON",
+        "HERO_AXSIS",
+        "HERO_OLEMA",
+        "HERO_CALID",
+        "HERO_ASH",
+        "HERO_ZYDAR",
+        "HERO_XARFAX",
+        "HERO_STRAKER",
+        "HERO_VOKIAL",
+        "HERO_MOANDOR",
+        "HERO_CHARNA",
+        "HERO_TAMIKA",
+        "HERO_ISRA",
+        "HERO_CLAVIUS",
+        "HERO_GALTHRAN",
+        "HERO_SEPTIENNA",
+        "HERO_AISLINN",
+        "HERO_SANDRO",
+        "HERO_NIMBUS",
+        "HERO_THANT",
+        "HERO_XSI",
+        "HERO_VIDOMINA",
+        "HERO_NAGASH",
+        "HERO_LORELEI",
+        "HERO_ARLACH",
+        "HERO_DACE",
+        "HERO_AJIT",
+        "HERO_DAMACON",
+        "HERO_GUNNAR",
+        "HERO_SYNCA",
+        "HERO_SHAKTI",
+        "HERO_ALAMAR",
+        "HERO_JAEGAR",
+        "HERO_MALEKITH",
+        "HERO_JEDDITE",
+        "HERO_GEON",
+        "HERO_DEEMER",
+        "HERO_SEPHINROTH",
+        "HERO_DARKSTORN",
+        "HERO_YOG",
+        "HERO_GURNISSON",
+        "HERO_JABARKAS",
+        "HERO_SHIVA",
+        "HERO_GRETCHIN",
+        "HERO_KRELLION",
+        "HERO_CRAG_HACK",
+        "HERO_TYRAXOR",
+        "HERO_GIRD",
+        "HERO_VEY",
+        "HERO_DESSA",
+        "HERO_TEREK",
+        "HERO_ZUBIN",
+        "HERO_GUNDULA",
+        "HERO_ORIS",
+        "HERO_SAURUG",
+        "HERO_BRON",
+        "HERO_DRAKON",
+        "HERO_WYSTAN",
+        "HERO_TAZAR",
+        "HERO_ALKIN",
+        "HERO_KORBAC",
+        "HERO_GERWULF",
+        "HERO_BROGHILD",
+        "HERO_MIRLANDA",
+        "HERO_ROSIC",
+        "HERO_VOY",
+        "HERO_VERDISH",
+        "HERO_MERIST",
+        "HERO_STYG",
+        "HERO_ANDRA",
+        "HERO_TIVA",
+        "HERO_PASIS",
+        "HERO_THUNAR",
+        "HERO_IGNISSA",
+        "HERO_LACUS",
+        "HERO_MONERE",
+        "HERO_ERDAMON",
+        "HERO_FIUR",
+        "HERO_KALT",
+        "HERO_LUNA",
+        "HERO_BRISSA",
+        "HERO_CIELE",
+        "HERO_LABETHA",
+        "HERO_INTEUS",
+        "HERO_AENAIN",
+        "HERO_GELARE",
+        "HERO_GRINDAN",
+        "HERO_SIR_MULLICH",
+        "HERO_ADRIENNE",
+        "HERO_CATHERINE",
+        "HERO_DRACON",
+        "HERO_GELU",
+        "HERO_KILGOR",
+        "HERO_LORD_HAART_2",
+        "HERO_MUTARE",
+        "HERO_ROLAND",
+        "HERO_MUTARE_DRAKE",
+        "HERO_BORAGUS",
+        "HERO_XERON",
+        "HERO_LAST_WOG"
+      ],
+      "questions": [
+        "164 named values: heroes."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
           ]
         }
       ]

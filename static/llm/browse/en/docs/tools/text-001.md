@@ -1,7 +1,7 @@
 # ERA tool catalog
 
 ID: docs.tools.catalog
-URL: https://asmedian.github.io/modding-guide/en/docs/tools/catalog/
+URL: /en/docs/tools/catalog/
 Part: 1/1
 Source references: era-tools:mmarchive-help, era-tools:defpreview-help, era-tools:binmagic-help, era-tools:evme-help, era-tools:template-editor-help, era-tools:unc-to-bin, era-tools:mod-manager-format, era-tools:rsbink-player-help, era-tools:exe-builder-help, era-tools:def-tool-binary, era-tools:dialogs-editor-binary, era-tools:object-txt-editor-binary, era-tools:txt-editor-binary, era-tools:vfs-test-binary
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

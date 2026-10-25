@@ -1,7 +1,7 @@
 # Introduction to ERM
 
 ID: erm.start
-URL: https://asmedian.github.io/modding-guide/en/erm/start/
+URL: /en/erm/start/
 Part: 1/1
 Source references: old-help:cont-zvse.htm, old-help:cont-triggersol.htm, old-help:tr-pi.htm, old-help:tr-gm.htm, era-changelog:era-iii-changelog.txt, old-help:cont-adv.htm, old-help:cont-mapmakers.htm, old-help:cont-wog.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,7 +1,7 @@
 # Artifact slots
 
 ID: erm.tables.artifact-slots
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/artifact-slots/
+URL: /en/erm/tables/artifact-slots/
 Part: 1/1
 Source references: old-help:form-ap.htm, old-help:form-ap1.htm, old-help:form-ap2.htm, old-help:form-ap3.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

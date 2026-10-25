@@ -2,66 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.tables.combination-artifacts",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "tables/combination-artifacts",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/combination-artifacts/",
-      "title": "Combination artifacts",
-      "summary": "Combination index and assembled artifact ID are different values.",
-      "keywords": [
-        "combination",
-        "UN:A2"
-      ],
-      "questions": [
-        "Combination index and assembled artifact ID are different values."
-      ],
-      "sourceRefs": [
-        "old-help:form-a2.htm",
-        "old-help:rec-un.htm"
-      ],
-      "sectionSources": {
-        "values": [
-          "old-help:form-a2.htm",
-          "old-help:rec-un.htm"
-        ],
-        "use": [
-          "old-help:form-a2.htm",
-          "old-help:rec-un.htm"
-        ],
-        "reference-links": [
-          "old-help:form-a2.htm",
-          "old-help:rec-un.htm"
-        ],
-        "ref-form-a2": [
-          "old-help:form-a2.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-016.md",
-          "fromAnchor": "ref-form-a2",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Combo artifacts",
-            "Combination indices",
-            "Checking components",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.tables.commanders",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "tables/commanders",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/commanders/",
+      "url": "/en/erm/tables/commanders/",
       "title": "Commander classes",
       "summary": "Commander class corresponds to a pair of hero classes. This index differs from a commander creature ID.",
       "keywords": [
@@ -100,7 +46,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-017.md",
+          "url": "/llm/browse/en/erm/tables/text-017.md",
           "fromAnchor": "ref-form-commanders",
           "toAnchor": "reference-links",
           "headings": [
@@ -119,7 +65,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/commander-bonuses",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/commander-bonuses/",
+      "url": "/en/erm/tables/commander-bonuses/",
       "title": "Commander special bonuses",
       "summary": "CO uses bonus indices and bit masks; mask = 2 to the power of the index.",
       "keywords": [
@@ -159,7 +105,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-016.md",
+          "url": "/llm/browse/en/erm/tables/text-016.md",
           "fromAnchor": "ref-form-cobo",
           "toAnchor": "reference-links",
           "headings": [
@@ -178,7 +124,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/creature-banks",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-banks/",
+      "url": "/en/erm/tables/creature-banks/",
       "title": "Creature banks",
       "summary": "Subtypes of WoG object 16. Mods that expand creature banks may change this set.",
       "keywords": [
@@ -212,7 +158,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-017.md",
+          "url": "/llm/browse/en/erm/tables/text-017.md",
           "fromAnchor": "ref-form-cb",
           "toAnchor": "reference-links",
           "headings": [
@@ -231,7 +177,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/creature-flags",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-flags/",
+      "url": "/en/erm/tables/creature-flags/",
       "title": "Creature bit flags",
       "summary": "MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack.",
       "keywords": [
@@ -275,7 +221,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-018.md",
+          "url": "/llm/browse/en/erm/tables/text-018.md",
           "fromAnchor": "ref-form-flaggedabilities",
           "toAnchor": "reference-links",
           "headings": [
@@ -294,7 +240,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/creature-resources",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-resources/",
+      "url": "/en/erm/tables/creature-resources/",
       "title": "Creature DEF and sound resources",
       "summary": "Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource names and casing are technical data.",
       "keywords": [
@@ -333,7 +279,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-019.md",
+          "url": "/llm/browse/en/erm/tables/text-019.md",
           "fromAnchor": "ref-form-cr-def-snd",
           "toAnchor": "id-20",
           "headings": [
@@ -344,7 +290,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-020.md",
+          "url": "/llm/browse/en/erm/tables/text-020.md",
           "fromAnchor": "id-21",
           "toAnchor": "reference-links",
           "headings": [
@@ -360,7 +306,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/creature-dwellings",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-dwellings/",
+      "url": "/en/erm/tables/creature-dwellings/",
       "title": "Creature dwellings on the map",
       "summary": "The main table lists subtypes of object 17. For object 20, subtype 0 is the four-elemental dwelling and subtype 1 the four-golem factory.",
       "keywords": [
@@ -399,7 +345,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-017.md",
+          "url": "/llm/browse/en/erm/tables/text-017.md",
           "fromAnchor": "ref-form-creaturedwellings",
           "toAnchor": "reference-links",
           "headings": [
@@ -418,7 +364,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/creatures",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creatures/",
+      "url": "/en/erm/tables/creatures/",
       "title": "Creature table",
       "summary": "IDs from the standard WoG set. Adventure-map object: type 54.",
       "keywords": [
@@ -467,7 +413,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-021.md",
+          "url": "/llm/browse/en/erm/tables/text-021.md",
           "fromAnchor": "ref-form-creature",
           "toAnchor": "meaning",
           "headings": [
@@ -478,7 +424,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-022.md",
+          "url": "/llm/browse/en/erm/tables/text-022.md",
           "fromAnchor": "values",
           "toAnchor": "reference-links",
           "headings": [
@@ -496,7 +442,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/dialog-templates",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-templates/",
+      "url": "/en/erm/tables/dialog-templates/",
       "title": "DL dialog templates",
       "summary": "Text-table structure, element fields and template limitations.",
       "keywords": [
@@ -531,7 +477,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
+          "url": "/llm/browse/en/erm/tables/text-027.md",
           "fromAnchor": "format",
           "toAnchor": "reference-links",
           "headings": [
@@ -550,7 +496,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/text-alignment",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/text-alignment/",
+      "url": "/en/erm/tables/text-alignment/",
       "title": "DL text alignment",
       "summary": "DL template Text values select vertical and horizontal positioning inside the item rectangle.",
       "keywords": [
@@ -589,7 +535,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "url": "/llm/browse/en/erm/tables/text-048.md",
           "fromAnchor": "ref-form-align",
           "toAnchor": "reference-links",
           "headings": [
@@ -608,7 +554,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/stack-experience-flags",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-flags/",
+      "url": "/en/erm/tables/stack-experience-flags/",
       "title": "EA:B flag abilities",
       "summary": "EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:F masks.",
       "keywords": [
@@ -647,7 +593,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-047.md",
+          "url": "/llm/browse/en/erm/tables/text-047.md",
           "fromAnchor": "ref-form-specexp2",
           "toAnchor": "reference-links",
           "headings": [
@@ -666,7 +612,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/stack-experience-modifiers",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-modifiers/",
+      "url": "/en/erm/tables/stack-experience-modifiers/",
       "title": "EA:B modifiers",
       "summary": "Modifier $4 determines whether an ability value is added, assigned or interpreted as a percentage.",
       "keywords": [
@@ -705,7 +651,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "url": "/llm/browse/en/erm/tables/text-048.md",
           "fromAnchor": "ref-form-specexp5",
           "toAnchor": "reference-links",
           "headings": [
@@ -724,7 +670,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/stack-experience-spells",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-spells/",
+      "url": "/en/erm/tables/stack-experience-spells/",
       "title": "EA:B non-damaging spells",
       "summary": "Values of $4 when $3=99 (c). These are spell IDs.",
       "keywords": [
@@ -763,7 +709,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "url": "/llm/browse/en/erm/tables/text-048.md",
           "fromAnchor": "ref-form-specexp3",
           "toAnchor": "reference-links",
           "headings": [
@@ -782,7 +728,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/stack-experience-immunities",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-immunities/",
+      "url": "/en/erm/tables/stack-experience-immunities/",
       "title": "EA:B spell immunities",
       "summary": "EA:B values of $4 when $3=119 (character w). Character codes differ from spell IDs.",
       "keywords": [
@@ -821,13 +767,88 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-047.md",
+          "url": "/llm/browse/en/erm/tables/text-047.md",
           "fromAnchor": "ref-form-specexp4",
           "toAnchor": "reference-links",
           "headings": [
             "Creature experience",
             "Purpose",
             "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.dialog-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/dialog-types",
+      "url": "/en/erm/tables/dialog-types/",
+      "title": "Game dialog identifiers",
+      "summary": "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order.",
+      "keywords": [
+        "Game dialog identifiers"
+      ],
+      "questions": [
+        "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order."
+      ],
+      "sourceRefs": [
+        "old-help:form-gamestate.htm",
+        "old-help:era-api.htm",
+        "era-source:era.pas",
+        "era-framework:lib-end--9999-era---stdlib.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "values": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "related": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "reference-links": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "api": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "ref-form-gamestate": [
+          "old-help:form-gamestate.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/tables/text-027.md",
+          "fromAnchor": "ref-form-gamestate",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Dialog Game IDs",
+            "Purpose",
+            "Values",
+            "API contract",
             "Related commands and tables",
             "Related commands and tables"
           ]

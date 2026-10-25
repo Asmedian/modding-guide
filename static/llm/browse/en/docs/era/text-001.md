@@ -1,7 +1,7 @@
 # Mod compatibility and order
 
 ID: docs.era.compatibility
-URL: https://asmedian.github.io/modding-guide/en/docs/era/compatibility/
+URL: /en/docs/era/compatibility/
 Part: 1/1
 Source references: era-tools:mod-manager-format, era-changelog:3
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -41,7 +41,7 @@ If the problem follows order, identify the exact resource name supplied by both 
 # Creating your first mod
 
 ID: docs.era.creating-mod
-URL: https://asmedian.github.io/modding-guide/en/docs/era/creating-mod/
+URL: /en/docs/era/creating-mod/
 Part: 1/1
 Source references: era-source:lodman, era-changelog:3, era-tools:mod-manager-format
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -101,7 +101,7 @@ Store editable source assets separately from exported game files. A project repo
 # Installing ERA
 
 ID: docs.era.installation
-URL: https://asmedian.github.io/modding-guide/en/docs/era/installation/
+URL: /en/docs/era/installation/
 Part: 1/1
 Source references: era-project-rus:readme, era-project-eng:readme
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -141,7 +141,7 @@ In Heroes Launcher, open the gear menu, choose Uninstall, optionally keep the ba
 # Mod structure
 
 ID: docs.era.mod-structure
-URL: https://asmedian.github.io/modding-guide/en/docs/era/mod-structure/
+URL: /en/docs/era/mod-structure/
 Part: 1/1
 Source references: era-source:lodman, era-changelog:3
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

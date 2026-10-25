@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "OBJ_WHIRLPOOL",
+      "name": "SCAN_FILES_ONLY",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-whirlpool",
+      "slug": "framework/constants/special-enums",
+      "anchor": "const-scan-files-only",
       "aliases": [],
-      "label": "OBJ_WHIRLPOOL = 111",
+      "label": "SCAN_FILES_ONLY = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-whirlpool"
+        "en": "/en/erm/framework/constants/special-enums/#const-scan-files-only"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -29,20 +29,20 @@
       }
     },
     {
-      "name": "OBJ_WILLOW_TREES",
+      "name": "SCAN_RETURN_FULL_PATHS",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-willow-trees",
+      "slug": "framework/constants/special-enums",
+      "anchor": "const-scan-return-full-paths",
       "aliases": [],
-      "label": "OBJ_WILLOW_TREES = 159",
+      "label": "SCAN_RETURN_FULL_PATHS = (TRUE)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-willow-trees"
+        "en": "/en/erm/framework/constants/special-enums/#const-scan-return-full-paths"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -56,20 +56,74 @@
       }
     },
     {
-      "name": "OBJ_WILLOW_TREES_2",
+      "name": "SEC_SKILL_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-willow-trees-2",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-sec-skill-first",
       "aliases": [],
-      "label": "OBJ_WILLOW_TREES_2 = 203",
+      "label": "SEC_SKILL_FIRST = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-willow-trees-2"
+        "en": "/en/erm/framework/constants/hero-skills/#const-sec-skill-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEC_SKILL_LAST",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-sec-skill-last",
+      "aliases": [],
+      "label": "SEC_SKILL_LAST = 27",
+      "destinations": {
+        "en": "/en/erm/framework/constants/hero-skills/#const-sec-skill-last"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SIZEOF_BATTLE_STACK_STRUCT",
+      "kind": "constant",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-battle-stack-struct",
+      "aliases": [],
+      "label": "SIZEOF_BATTLE_STACK_STRUCT = 1352",
+      "destinations": {
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-battle-stack-struct"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -83,20 +137,20 @@
       }
     },
     {
-      "name": "OBJ_WINDMILL",
+      "name": "SIZEOF_BYTE",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-windmill",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-byte",
       "aliases": [],
-      "label": "OBJ_WINDMILL = 112",
+      "label": "SIZEOF_BYTE = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-windmill"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-byte"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -110,20 +164,20 @@
       }
     },
     {
-      "name": "OBJ_WITCH_HUT",
+      "name": "SIZEOF_COMMANDER_STRUCT",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-witch-hut",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-commander-struct",
       "aliases": [],
-      "label": "OBJ_WITCH_HUT = 113",
+      "label": "SIZEOF_COMMANDER_STRUCT = 296",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-witch-hut"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-commander-struct"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -137,20 +191,20 @@
       }
     },
     {
-      "name": "OBJ_YUCCA_TREES",
+      "name": "SIZEOF_DWORD",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-yucca-trees",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-dword",
       "aliases": [],
-      "label": "OBJ_YUCCA_TREES = 160",
+      "label": "SIZEOF_DWORD = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-yucca-trees"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-dword"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -164,20 +218,20 @@
       }
     },
     {
-      "name": "OBJ_YUCCA_TREES_2",
+      "name": "SIZEOF_INT",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-yucca-trees-2",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-int",
       "aliases": [],
-      "label": "OBJ_YUCCA_TREES_2 = 204",
+      "label": "SIZEOF_INT = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-yucca-trees-2"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-int"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -191,364 +245,348 @@
       }
     },
     {
-      "name": "OPCODE_NOP_1",
+      "name": "SIZEOF_INT16",
       "kind": "constant",
-      "slug": "framework/constants/assembler",
-      "anchor": "const-opcode-nop-1",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-int16",
       "aliases": [],
-      "label": "OPCODE_NOP_1 = 144",
+      "label": "SIZEOF_INT16 = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/assembler/#const-opcode-nop-1"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-int16"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "Implementation dependency",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "OPCODE_NOP_2",
+      "name": "SIZEOF_INT32",
       "kind": "constant",
-      "slug": "framework/constants/assembler",
-      "anchor": "const-opcode-nop-2",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-int32",
       "aliases": [],
-      "label": "OPCODE_NOP_2 = 37008",
+      "label": "SIZEOF_INT32 = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/assembler/#const-opcode-nop-2"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-int32"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "Implementation dependency",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "OPCODE_NOP_4",
+      "name": "SIZEOF_INT8",
       "kind": "constant",
-      "slug": "framework/constants/assembler",
-      "anchor": "const-opcode-nop-4",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-int8",
       "aliases": [],
-      "label": "OPCODE_NOP_4 = -1869574000",
+      "label": "SIZEOF_INT8 = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/assembler/#const-opcode-nop-4"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-int8"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "Implementation dependency",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_0",
+      "name": "SIZEOF_PTR",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-0",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-ptr",
       "aliases": [],
-      "label": "ORD_0 = 48",
+      "label": "SIZEOF_PTR = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-0"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-ptr"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_1",
+      "name": "SIZEOF_SPELL_STRUCT",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-1",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-spell-struct",
       "aliases": [],
-      "label": "ORD_1 = 49",
+      "label": "SIZEOF_SPELL_STRUCT = 136",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-1"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-spell-struct"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_2",
+      "name": "SIZEOF_UINT16",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-2",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-uint16",
       "aliases": [],
-      "label": "ORD_2 = 50",
+      "label": "SIZEOF_UINT16 = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-2"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-uint16"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_3",
+      "name": "SIZEOF_UINT32",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-3",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-uint32",
       "aliases": [],
-      "label": "ORD_3 = 51",
+      "label": "SIZEOF_UINT32 = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-3"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-uint32"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_4",
+      "name": "SIZEOF_UINT8",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-4",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-uint8",
       "aliases": [],
-      "label": "ORD_4 = 52",
+      "label": "SIZEOF_UINT8 = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-4"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-uint8"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_5",
+      "name": "SIZEOF_WIN32_FIND_DATA",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-5",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-win32-find-data",
       "aliases": [],
-      "label": "ORD_5 = 53",
+      "label": "SIZEOF_WIN32_FIND_DATA = 320",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-5"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-win32-find-data"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_6",
+      "name": "SIZEOF_WIN32_FIND_DATA_IN_INTS",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-6",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-win32-find-data-in-ints",
       "aliases": [],
-      "label": "ORD_6 = 54",
+      "label": "SIZEOF_WIN32_FIND_DATA_IN_INTS = 80",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-6"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-win32-find-data-in-ints"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_7",
+      "name": "SIZEOF_WORD",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-7",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-word",
       "aliases": [],
-      "label": "ORD_7 = 55",
+      "label": "SIZEOF_WORD = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-7"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-word"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_8",
+      "name": "SIZEOF_ZSTR",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-8",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-zstr",
       "aliases": [],
-      "label": "ORD_8 = 56",
+      "label": "SIZEOF_ZSTR = 512",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-8"
+        "en": "/en/erm/framework/constants/data-types/#const-sizeof-zstr"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
-            "toAnchor": "related",
+            "toAnchor": "used-by",
             "headings": [
               "Purpose",
               "Values",
-              "All groups"
+              "All groups",
+              "Used by Framework"
             ]
           }
         ]
       }
     },
     {
-      "name": "ORD_9",
+      "name": "SKILL_ADVANCED",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-9",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-advanced",
       "aliases": [],
-      "label": "ORD_9 = 57",
+      "label": "SKILL_ADVANCED = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-9"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-advanced"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ORD_LOWER_A",
-      "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-a",
-      "aliases": [],
-      "label": "ORD_LOWER_A = 97",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-a"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -558,23 +596,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_B",
+      "name": "SKILL_AIR_MAGIC",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-b",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-air-magic",
       "aliases": [],
-      "label": "ORD_LOWER_B = 98",
+      "label": "SKILL_AIR_MAGIC = 15",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-b"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-air-magic"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -584,23 +623,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_C",
+      "name": "SKILL_ARCHERY",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-c",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-archery",
       "aliases": [],
-      "label": "ORD_LOWER_C = 99",
+      "label": "SKILL_ARCHERY = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-c"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-archery"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -610,23 +650,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_D",
+      "name": "SKILL_ARMORER",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-d",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-armorer",
       "aliases": [],
-      "label": "ORD_LOWER_D = 100",
+      "label": "SKILL_ARMORER = 23",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-d"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-armorer"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -636,23 +677,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_E",
+      "name": "SKILL_ARTILLERY",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-e",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-artillery",
       "aliases": [],
-      "label": "ORD_LOWER_E = 101",
+      "label": "SKILL_ARTILLERY = 20",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-e"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-artillery"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -662,23 +704,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_F",
+      "name": "SKILL_ATTACK",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-f",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-attack",
       "aliases": [],
-      "label": "ORD_LOWER_F = 102",
+      "label": "SKILL_ATTACK = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-f"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-attack"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -688,23 +731,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_G",
+      "name": "SKILL_BALLISTICS",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-g",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-ballistics",
       "aliases": [],
-      "label": "ORD_LOWER_G = 103",
+      "label": "SKILL_BALLISTICS = 10",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-g"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-ballistics"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -714,23 +758,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_H",
+      "name": "SKILL_BASIC",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-h",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-basic",
       "aliases": [],
-      "label": "ORD_LOWER_H = 104",
+      "label": "SKILL_BASIC = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-h"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-basic"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -740,23 +785,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_I",
+      "name": "SKILL_DEFENSE",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-i",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-defense",
       "aliases": [],
-      "label": "ORD_LOWER_I = 105",
+      "label": "SKILL_DEFENSE = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-i"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-defense"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -766,23 +812,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_J",
+      "name": "SKILL_DIPLOMACY",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-j",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-diplomacy",
       "aliases": [],
-      "label": "ORD_LOWER_J = 106",
+      "label": "SKILL_DIPLOMACY = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-j"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-diplomacy"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -792,23 +839,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_K",
+      "name": "SKILL_EAGLE_EYE",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-k",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-eagle-eye",
       "aliases": [],
-      "label": "ORD_LOWER_K = 107",
+      "label": "SKILL_EAGLE_EYE = 11",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-k"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-eagle-eye"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -818,23 +866,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_L",
+      "name": "SKILL_EARTH_MAGIC",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-l",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-earth-magic",
       "aliases": [],
-      "label": "ORD_LOWER_L = 108",
+      "label": "SKILL_EARTH_MAGIC = 17",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-l"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-earth-magic"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -844,23 +893,24 @@
       }
     },
     {
-      "name": "ORD_LOWER_M",
+      "name": "SKILL_ESTATES",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-m",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-estates",
       "aliases": [],
-      "label": "ORD_LOWER_M = 109",
+      "label": "SKILL_ESTATES = 13",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-m"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-estates"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"
@@ -870,23 +920,51 @@
       }
     },
     {
-      "name": "ORD_LOWER_N",
+      "name": "SKILL_EXPERT",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-lower-n",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-expert",
       "aliases": [],
-      "label": "ORD_LOWER_N = 110",
+      "label": "SKILL_EXPERT = 3",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-lower-n"
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-expert"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
             "toAnchor": "related",
             "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_FIRE_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-fire-magic",
+      "aliases": [],
+      "label": "SKILL_FIRE_MAGIC = 14",
+      "destinations": {
+        "en": "/en/erm/framework/constants/hero-skills/#const-skill-fire-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
               "Purpose",
               "Values",
               "All groups"

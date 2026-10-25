@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import H3Map from './explorer-map-parser.mjs';
 
@@ -7,13 +7,21 @@ if (!root) throw new Error('Pass the site output directory');
 const pagesPath=join(root,'content/wiki/_registry/pages.json');
 const pages=JSON.parse(readFileSync(pagesPath,'utf8'));
 const resources=new Map(pages.flatMap(p=>p.sections.flatMap(s=>s.resources.map(r=>[r.id,r]))));
+// The source terrain DEF palettes carry the game's unblocked/blocked minimap
+// colors at indices 8 and 9. Keep the supplied SoD palette, without guessing RGB.
+const byName=new Map([...resources.values()].map(resource=>[resource.name.toLowerCase(),resource]));
+const terrainColors=['dirttl.def','sandtl.def','grastl.def','snowtl.def','swmptl.def','rougtl.def','subbtl.def','lavatl.def','watrtl.def','rocktl.def'].map(name=>{
+  const resource=byName.get(name);
+  if(!resource)throw new Error(`Missing minimap terrain palette: ${name}`);
+  return [...readFileSync(join(root,'static',resource.original)).subarray(40,46)];
+});
 // Minimal canvas adapter: use Explorer's own terrain and ownership rendering.
 globalThis.document={createElement(){return {getContext(){return {createImageData(w,h){return {width:w,height:h,data:new Uint8Array(w*h*4)};},putImageData(image){this.image=image;}};}};}};
 const reports=[];
 function minimap(map,level,path){
   let image;
   globalThis.document.createElement=()=>({getContext(){return {createImageData(w,h){return {width:w,height:h,data:new Uint8Array(w*h*4)};},putImageData(value){image=value;}};}});
-  H3Map.renderMinimap(map,level);
+  H3Map.renderMinimap(map,level,256,terrainColors);
   if(!image)return null;
   writeFileSync(path, image.data);return {width:image.width,height:image.height,rgba:path};
 }
@@ -28,7 +36,7 @@ for(const resource of resources.values())if(resource.kind==='h3c'){
     const item={index:i,mapName:sc.mapName,regionText:sc.regionText,prologText:sc.prologText,epilogText:sc.epilogText,preconditions:sc.preconditions,difficulty:sc.difficultyName,bonuses:sc.bonuses};
     if(campaign.rawMaps[i]){
       const filename=`scenario-${i+1}.h3m`;
-      writeFileSync(join(folder,filename),campaign.rawMaps[i]);item.original=prefix+'/'+filename;
+      if(!existsSync(join(folder,filename)))writeFileSync(join(folder,filename),campaign.rawMaps[i]);item.original=prefix+'/'+filename;
     }
     if(map&&!map.parseError){
       Object.assign(item,{name:map.name,description:map.description,mapSize:map.mapSize,hasUnderground:map.hasUnderground,players:map.players,playerCount:map.playerCount,victory:map.victoryCondition,loss:map.lossCondition,factions:map.stats?.townsByFaction??{},objects:map.stats?.objectCount??map.objects?.length??0,towns:map.stats?.towns?.length??0,monsters:map.stats?.monsters?.length??0,minimaps:[]});

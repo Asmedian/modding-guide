@@ -1,7 +1,7 @@
 # Stack experience abilities
 
 ID: erm.tables.stack-experience-abilities
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-abilities/
+URL: /en/erm/tables/stack-experience-abilities/
 Part: 1/1
 Source references: old-help:form-specexp1.htm, old-help:rec-ea.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -230,7 +230,7 @@ EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have
 # EA:B flag abilities
 
 ID: erm.tables.stack-experience-flags
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-flags/
+URL: /en/erm/tables/stack-experience-flags/
 Part: 1/1
 Source references: old-help:form-specexp2.htm, old-help:rec-ea.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -317,7 +317,7 @@ EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:
 # EA:B spell immunities
 
 ID: erm.tables.stack-experience-immunities
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-immunities/
+URL: /en/erm/tables/stack-experience-immunities/
 Part: 1/1
 Source references: old-help:form-specexp4.htm, old-help:rec-ea.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

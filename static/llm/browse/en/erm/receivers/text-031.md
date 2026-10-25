@@ -1,7 +1,7 @@
 # Map skeleton (SK)
 
 ID: erm.receivers.sk
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sk/
+URL: /en/erm/receivers/sk/
 Part: 1/1
 Source references: old-help:rec-sk.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

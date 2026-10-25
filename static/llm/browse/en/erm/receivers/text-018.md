@@ -1,7 +1,7 @@
 # Heroes (HE)
 
 ID: erm.receivers.he
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/he/
+URL: /en/erm/receivers/he/
 Part: 3/3
 Source references: old-help:rec-he.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -196,7 +196,7 @@ The command returns the memory address <a href="../../tables/hero-structure/#ref
 # Level-up skill selection (HL)
 
 ID: erm.receivers.hl
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/hl/
+URL: /en/erm/receivers/hl/
 Part: 1/1
 Source references: old-help:rec-hl.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -269,7 +269,7 @@ Receiver only works after a trigger <a href="../../triggers/hl/#ref-tr-hl">!?HL<
 # Hero interaction permissions (HO)
 
 ID: erm.receivers.ho
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ho/
+URL: /en/erm/receivers/ho/
 Part: 1/1
 Source references: old-help:rec-ho.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

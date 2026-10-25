@@ -1,7 +1,7 @@
 # Game Settings
 
 ID: erm.framework.constants.game-settings
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/
+URL: /en/erm/framework/constants/game-settings/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -63,7 +63,7 @@ The **Game Settings** group from the supplied Framework. Names and values below 
 # Game Structures
 
 ID: erm.framework.constants.game-structures
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-structures/
+URL: /en/erm/framework/constants/game-structures/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -120,7 +120,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Game Types
 
 ID: erm.framework.constants.game-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/
+URL: /en/erm/framework/constants/game-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -149,7 +149,7 @@ The **Game Types** group from the supplied Framework. Names and values below cor
 # H3 Dialog Commands
 
 ID: erm.framework.constants.h3-dialog-commands
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/
+URL: /en/erm/framework/constants/h3-dialog-commands/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -181,7 +181,7 @@ The **H3 Dialog Commands** group from the supplied Framework. Names and values b
 # H3 Dialog Picture Types
 
 ID: erm.framework.constants.h3-dialog-picture-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/
+URL: /en/erm/framework/constants/h3-dialog-picture-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -255,7 +255,7 @@ The **H3 Dialog Picture Types** group from the supplied Framework. Names and val
 # H3 Dialog Text Alignment
 
 ID: erm.framework.constants.h3-dialog-text-alignment
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-text-alignment/
+URL: /en/erm/framework/constants/h3-dialog-text-alignment/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -288,7 +288,7 @@ The **H3 Dialog Text Alignment** group from the supplied Framework. Names and va
 # H3 Message Dialog Types
 
 ID: erm.framework.constants.h3-message-dialog-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-message-dialog-types/
+URL: /en/erm/framework/constants/h3-message-dialog-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -316,7 +316,7 @@ The **H3 Message Dialog Types** group from the supplied Framework. Names and val
 # Hero Artifact Levels
 
 ID: erm.framework.constants.hero-artifact-levels
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-levels/
+URL: /en/erm/framework/constants/hero-artifact-levels/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -345,7 +345,7 @@ The **Hero Artifact Levels** group from the supplied Framework. Names and values
 # Hero Artifact Slots
 
 ID: erm.framework.constants.hero-artifact-slots
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/
+URL: /en/erm/framework/constants/hero-artifact-slots/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -400,7 +400,7 @@ The **Hero Artifact Slots** group from the supplied Framework. Names and values 
 # Hero Classes
 
 ID: erm.framework.constants.hero-classes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/
+URL: /en/erm/framework/constants/hero-classes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

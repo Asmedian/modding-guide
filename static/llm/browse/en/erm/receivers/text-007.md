@@ -1,7 +1,7 @@
 # Commanders (CO)
 
 ID: erm.receivers.co
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/co/
+URL: /en/erm/receivers/co/
 Part: 1/1
 Source references: old-help:rec-co.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

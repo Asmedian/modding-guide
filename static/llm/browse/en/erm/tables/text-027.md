@@ -1,7 +1,7 @@
 # CM:I click areas
 
 ID: erm.tables.dialog-items
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-items/
+URL: /en/erm/tables/dialog-items/
 Part: 3/3
 Source references: old-help:form-cmi.htm, old-help:rec-cm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -105,7 +105,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # IF:Q picture types
 
 ID: erm.tables.dialog-pictures
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-pictures/
+URL: /en/erm/tables/dialog-pictures/
 Part: 1/1
 Source references: old-help:form-picts.htm, old-help:rec-if.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -249,7 +249,7 @@ The picture type determines the meaning of the next parameter. Town pictures use
 # DL dialog templates
 
 ID: erm.tables.dialog-templates
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-templates/
+URL: /en/erm/tables/dialog-templates/
 Part: 1/1
 Source references: old-help:rec-dl.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -291,7 +291,7 @@ Button DEFs need at least two frames; the second is used while pressed/disabled.
 # Game dialog identifiers
 
 ID: erm.tables.dialog-types
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-types/
+URL: /en/erm/tables/dialog-types/
 Part: 1/1
 Source references: old-help:form-gamestate.htm, old-help:era-api.htm, era-source:era.pas, era-framework:lib-end--9999-era---stdlib.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

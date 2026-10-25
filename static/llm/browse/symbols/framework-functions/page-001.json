@@ -11,13 +11,13 @@
       ],
       "label": "Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/activatenextstack/"
+        "en": "/en/erm/framework/functions/activatenextstack/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-002.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -42,13 +42,13 @@
       ],
       "label": "Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/addarttohero/"
+        "en": "/en/erm/framework/functions/addarttohero/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-002.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -73,13 +73,13 @@
       ],
       "label": "Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-sethint/"
+        "en": "/en/erm/framework/functions/advmap-sethint/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-002.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -105,13 +105,13 @@
       ],
       "label": "Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneldef/"
+        "en": "/en/erm/framework/functions/advmap-setinfopaneldef/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-002.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -137,13 +137,13 @@
       ],
       "label": "Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneltext/"
+        "en": "/en/erm/framework/functions/advmap-setinfopaneltext/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-002.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -168,13 +168,13 @@
       ],
       "label": "Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-clone/"
+        "en": "/en/erm/framework/functions/array-clone/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-002.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -200,13 +200,13 @@
       ],
       "label": "Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-copy/"
+        "en": "/en/erm/framework/functions/array-copy/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -231,13 +231,13 @@
       ],
       "label": "Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-countvalue/"
+        "en": "/en/erm/framework/functions/array-countvalue/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -262,13 +262,13 @@
       ],
       "label": "Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-customsort/"
+        "en": "/en/erm/framework/functions/array-customsort/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -293,13 +293,13 @@
       ],
       "label": "Grows an array to minSize when needed and fills new items. Never shrinks it.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-ensureminsize/"
+        "en": "/en/erm/framework/functions/array-ensureminsize/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -324,13 +324,13 @@
       ],
       "label": "Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-fill/"
+        "en": "/en/erm/framework/functions/array-fill/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -354,13 +354,13 @@
       ],
       "label": "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-find/"
+        "en": "/en/erm/framework/functions/array-find/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -385,13 +385,13 @@
       ],
       "label": "Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-indexof/"
+        "en": "/en/erm/framework/functions/array-indexof/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -416,13 +416,13 @@
       ],
       "label": "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-join/"
+        "en": "/en/erm/framework/functions/array-join/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -447,13 +447,13 @@
       ],
       "label": "Appends one or more arrays to dstArray. All element types must match; the destination is modified.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-merge/"
+        "en": "/en/erm/framework/functions/array-merge/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -478,13 +478,13 @@
       ],
       "label": "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-move/"
+        "en": "/en/erm/framework/functions/array-move/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -509,13 +509,13 @@
       ],
       "label": "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-pop/"
+        "en": "/en/erm/framework/functions/array-pop/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -540,13 +540,13 @@
       ],
       "label": "Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-push/"
+        "en": "/en/erm/framework/functions/array-push/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -571,13 +571,13 @@
       ],
       "label": "Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-resize/"
+        "en": "/en/erm/framework/functions/array-resize/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -602,13 +602,13 @@
       ],
       "label": "Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-revert/"
+        "en": "/en/erm/framework/functions/array-revert/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -632,13 +632,13 @@
       ],
       "label": "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-shuffle/"
+        "en": "/en/erm/framework/functions/array-shuffle/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -663,13 +663,13 @@
       ],
       "label": "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-slice/"
+        "en": "/en/erm/framework/functions/array-slice/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-003.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -694,13 +694,13 @@
       ],
       "label": "Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sort/"
+        "en": "/en/erm/framework/functions/array-sort/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -725,13 +725,13 @@
       ],
       "label": "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sortedunique/"
+        "en": "/en/erm/framework/functions/array-sortedunique/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -757,13 +757,13 @@
       ],
       "label": "Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-splice/"
+        "en": "/en/erm/framework/functions/array-splice/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -772,6 +772,98 @@
               "Parameter order",
               "State and dependencies",
               "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Battle_RedrawGridShadow",
+      "kind": "function",
+      "slug": "framework/functions/battle-redrawgridshadow",
+      "anchor": "",
+      "aliases": [
+        "FU(Battle_RedrawGridShadow)"
+      ],
+      "label": "Refreshes movement-range shading after a speed change. Requires an existing combat manager.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/battle-redrawgridshadow/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BattleStack_MakeActive",
+      "kind": "function",
+      "slug": "framework/functions/battlestack-makeactive",
+      "anchor": "",
+      "aliases": [
+        "FU(BattleStack_MakeActive)"
+      ],
+      "label": "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/battlestack-makeactive/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BattleStack_Shoot",
+      "kind": "function",
+      "slug": "framework/functions/battlestack-shoot",
+      "anchor": "",
+      "aliases": [
+        "FU(BattleStack_Shoot)"
+      ],
+      "label": "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/battlestack-shoot/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
               "Version and status",
               "Constants used"
             ]

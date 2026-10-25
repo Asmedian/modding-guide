@@ -2,71 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.framework.constants.calling-conventions",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/constants/calling-conventions",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/",
-      "title": "Calling Conventions",
-      "summary": "11 named values: calling conventions.",
-      "keywords": [
-        "CALLCONV_PASCAL",
-        "CALLCONV_CDECL",
-        "CALLCONV_STDCALL",
-        "CALLCONV_THISCALL",
-        "CALLCONV_FASTCALL",
-        "CALLCONV_PASCAL_FLOAT",
-        "CALLCONV_CDECL_FLOAT",
-        "CALLCONV_STDCALL_FLOAT",
-        "CALLCONV_THISCALL_FLOAT",
-        "CALLCONV_FASTCALL_FLOAT",
-        "CALLCONV_FLOAT_RES"
-      ],
-      "questions": [
-        "11 named values: calling conventions."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---consts.erm"
-      ],
-      "sectionSources": {
-        "meaning": [
-          "era-framework:lib-9999-era---consts.erm"
-        ],
-        "values": [
-          "era-framework:lib-9999-era---consts.erm"
-        ],
-        "related": [
-          "era-framework:lib-9999-era---consts.erm"
-        ],
-        "used-by": [
-          "era-framework:lib-9999-era---consts.erm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-          "fromAnchor": "meaning",
-          "toAnchor": "used-by",
-          "headings": [
-            "Purpose",
-            "Values",
-            "All groups",
-            "Used by Framework"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.framework.constants.character-codes",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/character-codes",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/",
+      "url": "/en/erm/framework/constants/character-codes/",
       "title": "Character Codes",
       "summary": "62 named values: character codes.",
       "keywords": [
@@ -155,7 +96,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-002.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -172,7 +113,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/data-types",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/",
+      "url": "/en/erm/framework/constants/data-types/",
       "title": "Data Types",
       "summary": "21 named values: data types.",
       "keywords": [
@@ -223,7 +164,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-002.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -241,7 +182,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/dialog-action-types",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/",
+      "url": "/en/erm/framework/constants/dialog-action-types/",
       "title": "Dialog Action Types",
       "summary": "5 named values: dialog action types.",
       "keywords": [
@@ -276,7 +217,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-002.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -294,7 +235,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/dialog-item-ids",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-item-ids/",
+      "url": "/en/erm/framework/constants/dialog-item-ids/",
       "title": "Dialog Item Ids",
       "summary": "92 named values: dialog item ids.",
       "keywords": [
@@ -416,7 +357,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -434,7 +375,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/dialogs",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/",
+      "url": "/en/erm/framework/constants/dialogs/",
       "title": "Dialogs",
       "summary": "18 named values: dialogs.",
       "keywords": [
@@ -482,7 +423,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -500,7 +441,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/era-chat-event",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/",
+      "url": "/en/erm/framework/constants/era-chat-event/",
       "title": "Era Chat Event",
       "summary": "6 named values: era chat event.",
       "keywords": [
@@ -533,7 +474,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -550,7 +491,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/",
+      "url": "/en/erm/framework/constants/",
       "title": "ERA ERM Framework constants",
       "summary": "1838 definitions: game IDs, flags, command parameters, and key codes.",
       "keywords": [
@@ -603,7 +544,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-001.md",
           "fromAnchor": "usage",
           "toAnchor": "snapshot",
           "headings": [
@@ -620,7 +561,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/erm-commands",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/",
+      "url": "/en/erm/framework/constants/erm-commands/",
       "title": "Erm Commands",
       "summary": "9 named values: erm commands.",
       "keywords": [
@@ -659,7 +600,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -677,7 +618,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/erm-flags",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-flags/",
+      "url": "/en/erm/framework/constants/erm-flags/",
       "title": "Erm Flags",
       "summary": "4 named values: erm flags.",
       "keywords": [
@@ -708,7 +649,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -725,7 +666,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/game-functions",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-functions/",
+      "url": "/en/erm/framework/constants/game-functions/",
       "title": "Game Functions",
       "summary": "2 named values: game functions.",
       "keywords": [
@@ -757,7 +698,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "related",
           "headings": [
@@ -775,7 +716,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/game-limits",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/",
+      "url": "/en/erm/framework/constants/game-limits/",
       "title": "Game Limits",
       "summary": "12 named values: game limits.",
       "keywords": [
@@ -817,7 +758,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -835,7 +776,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/constants/game-managers",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/",
+      "url": "/en/erm/framework/constants/game-managers/",
       "title": "Game Managers",
       "summary": "10 named values: game managers.",
       "keywords": [
@@ -878,7 +819,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "url": "/llm/browse/en/erm/framework-constants/text-003.md",
           "fromAnchor": "meaning",
           "toAnchor": "used-by",
           "headings": [
@@ -887,6 +828,89 @@
             "Implementation dependency",
             "All groups",
             "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.game-settings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-settings",
+      "url": "/en/erm/framework/constants/game-settings/",
+      "title": "Game Settings",
+      "summary": "39 named values: game settings.",
+      "keywords": [
+        "GAME_SETTING_SHOW_INTRO",
+        "GAME_SETTING_MUSIC_VOLUME",
+        "GAME_SETTING_SOUND_VOLUME",
+        "GAME_SETTING_LAST_MUSIC_VOLUME",
+        "GAME_SETTING_LAST_SOUND_VOLUME",
+        "GAME_SETTING_WALK_SPEED",
+        "GAME_SETTING_COMP_WALK_SPEED",
+        "GAME_SETTING_SHOW_ROUTE",
+        "GAME_SETTING_MOVE_REMINDER",
+        "GAME_SETTING_QUICK_COMBAT",
+        "GAME_SETTING_VIDEO_SUBTITLES",
+        "GAME_SETTING_TOWN_OUTLINES",
+        "GAME_SETTING_ANIMATE_SPELLBOOK",
+        "GAME_SETTING_WINDOW_SCROLL_SPEED",
+        "GAME_SETTING_BLACKOUT_COMPUTER",
+        "GAME_SETTING_FIRST_TIME",
+        "GAME_SETTING_TEST_DECOMP",
+        "GAME_SETTING_TEST_READ",
+        "GAME_SETTING_TEST_BLIT",
+        "GAME_SETTING_BINK_VIDEO",
+        "GAME_SETTING_UNIQUE_SYSTEM_ID",
+        "GAME_SETTING_NETWORK_DEF_NAME",
+        "GAME_SETTING_AUTOSAVE",
+        "GAME_SETTING_SHOW_COMBAT_GRID",
+        "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX",
+        "GAME_SETTING_COMBAT_SHADE_LEVEL",
+        "GAME_SETTING_COMBAT_ARMY_INFO_LEVEL",
+        "GAME_SETTING_COMBAT_AUTO_CREATURES",
+        "GAME_SETTING_COMBAT_AUTO_SPELLS",
+        "GAME_SETTING_COMBAT_CATAPULT",
+        "GAME_SETTING_COMBAT_BALLISTA",
+        "GAME_SETTING_COMBAT_FIRST_AID_TENT",
+        "GAME_SETTING_COMBAT_SPEED",
+        "GAME_SETTING_MAIN_GAME_SHOW_MENU",
+        "GAME_SETTING_MAIN_GAME_X",
+        "GAME_SETTING_MAIN_GAME_Y",
+        "GAME_SETTING_MAIN_GAME_FULL_SCREEN",
+        "GAME_SETTING_APP_PATH",
+        "GAME_SETTING_CD_DRIVE"
+      ],
+      "questions": [
+        "39 named values: game settings."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
           ]
         }
       ]

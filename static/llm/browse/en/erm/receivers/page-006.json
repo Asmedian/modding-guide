@@ -2,256 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.receivers.cd",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/cd",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/cd/",
-      "title": "Town demolition and building dependencies (CD)",
-      "summary": "CD receiver: town demolition and building dependencies, command parameters, and limitations.",
-      "keywords": [
-        "CD",
-        "!!CD",
-        "CD:A",
-        "CD:B0/",
-        "CD:B1/",
-        "CD:B2/",
-        "CD:B3/",
-        "CD:D",
-        "CD:E",
-        "CD:N",
-        "CD:P"
-      ],
-      "questions": [
-        "CD receiver: town demolition and building dependencies, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-cd.htm"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-a-1-2-3": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-b0-1-2": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-b1-1-2-1-2": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-b2-1-2": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-b3-1-2-1-2": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-d-m": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-e-1-2-3": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-n-1-2": [
-          "old-help:rec-cd.htm"
-        ],
-        "command-p-1-2-3-4-5": [
-          "old-help:rec-cd.htm"
-        ],
-        "notes": [
-          "old-help:rec-cd.htm"
-        ],
-        "related": [
-          "old-help:rec-cd.htm"
-        ],
-        "reference-links": [
-          "old-help:rec-cd.htm"
-        ],
-        "ref-rec-cd": [
-          "old-help:rec-cd.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-005.md",
-          "fromAnchor": "ref-rec-cd",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Receiver CD",
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.receivers.ce",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/ce",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ce/",
-      "title": "Town events (CE)",
-      "summary": "CE receiver: town events, command parameters, and limitations.",
-      "keywords": [
-        "CE",
-        "!!CE",
-        "CE:B",
-        "CE:E",
-        "CE:F",
-        "CE:H",
-        "CE:M^text^ / M",
-        "CE:C",
-        "CE:D"
-      ],
-      "questions": [
-        "CE receiver: town events, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-ce.htm"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-b-1-2": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-e-n": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-f-r": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-h-q": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-m-text-m-m-1": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-c-1-2": [
-          "old-help:rec-ce.htm"
-        ],
-        "command-d-u": [
-          "old-help:rec-ce.htm"
-        ],
-        "notes": [
-          "old-help:rec-ce.htm"
-        ],
-        "related": [
-          "old-help:rec-ce.htm"
-        ],
-        "reference-links": [
-          "old-help:rec-ce.htm"
-        ],
-        "ref-rec-ce": [
-          "old-help:rec-ce.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-006.md",
-          "fromAnchor": "ref-rec-ce",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Receiver CE",
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.receivers.fc",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/fc",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/fc/",
-      "title": "Town-faction parameters (FC)",
-      "summary": "FC receiver: town-faction parameters, command parameters, and limitations.",
-      "keywords": [
-        "FC",
-        "!!FC",
-        "FC:B0/",
-        "FC:C",
-        "FC:D",
-        "FC:H",
-        "FC:M / M0/",
-        "FC:R",
-        "FC:S"
-      ],
-      "questions": [
-        "FC receiver: town-faction parameters, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-fc.htm"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-b0-b1": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-c-1-2-3-4": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-d-1-2": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-h-1-2": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-m-m0-m1": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-r-1-2": [
-          "old-help:rec-fc.htm"
-        ],
-        "command-s-t": [
-          "old-help:rec-fc.htm"
-        ],
-        "notes": [
-          "old-help:rec-fc.htm"
-        ],
-        "related": [
-          "old-help:rec-fc.htm"
-        ],
-        "ref-rec-fc": [
-          "old-help:rec-fc.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-013.md",
-          "fromAnchor": "ref-rec-fc",
-          "toAnchor": "related",
-          "headings": [
-            "Receiver FC",
-            "Related reference"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.receivers.ca",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "receivers/ca",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ca/",
+      "url": "/en/erm/receivers/ca/",
       "title": "Towns (CA)",
       "summary": "CA receiver: towns, command parameters, and limitations.",
       "keywords": [
@@ -335,7 +91,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-004.md",
+          "url": "/llm/browse/en/erm/receivers/text-004.md",
           "fromAnchor": "ref-rec-ca",
           "toAnchor": "reference-links",
           "headings": [
@@ -353,7 +109,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/ch",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ch/",
+      "url": "/en/erm/receivers/ch/",
       "title": "Treasure chest (CH)",
       "summary": "CH receiver: treasure chest, command parameters, and limitations.",
       "keywords": [
@@ -400,7 +156,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-006.md",
+          "url": "/llm/browse/en/erm/receivers/text-006.md",
           "fromAnchor": "ref-rec-ch",
           "toAnchor": "reference-links",
           "headings": [
@@ -417,7 +173,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/kt",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/kt/",
+      "url": "/en/erm/receivers/kt/",
       "title": "Tree of knowledge (KT)",
       "summary": "KT receiver: tree of knowledge, command parameters, and limitations.",
       "keywords": [
@@ -460,7 +216,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
+          "url": "/llm/browse/en/erm/receivers/text-022.md",
           "fromAnchor": "ref-rec-kt",
           "toAnchor": "reference-links",
           "headings": [
@@ -477,7 +233,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/tl",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/tl/",
+      "url": "/en/erm/receivers/tl/",
       "title": "Turn time limit (TL)",
       "summary": "TL receiver: turn time limit, command parameters, and limitations.",
       "keywords": [
@@ -524,7 +280,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-036.md",
+          "url": "/llm/browse/en/erm/receivers/text-036.md",
           "fromAnchor": "ref-rec-tl",
           "toAnchor": "reference-links",
           "headings": [
@@ -541,7 +297,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/ur",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ur/",
+      "url": "/en/erm/receivers/ur/",
       "title": "University (UR)",
       "summary": "UR receiver: university, command parameters, and limitations.",
       "keywords": [
@@ -584,7 +340,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
+          "url": "/llm/browse/en/erm/receivers/text-041.md",
           "fromAnchor": "ref-rec-ur",
           "toAnchor": "reference-links",
           "headings": [
@@ -601,7 +357,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/vc",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/vc/",
+      "url": "/en/erm/receivers/vc/",
       "title": "Variable-usage logging (VC)",
       "summary": "VC receiver: variable-usage logging, command parameters, and limitations.",
       "keywords": [
@@ -641,7 +397,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-042.md",
+          "url": "/llm/browse/en/erm/receivers/text-042.md",
           "fromAnchor": "ref-rec-vc",
           "toAnchor": "reference-links",
           "headings": [
@@ -657,7 +413,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/vr",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/vr/",
+      "url": "/en/erm/receivers/vr/",
       "title": "Variables and expressions (VR)",
       "summary": "VR receiver: variables and expressions, command parameters, and limitations.",
       "keywords": [
@@ -749,7 +505,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-043.md",
+          "url": "/llm/browse/en/erm/receivers/text-043.md",
           "fromAnchor": "ref-rec-vr",
           "toAnchor": "reference-links",
           "headings": [
@@ -771,7 +527,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/wg",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/wg/",
+      "url": "/en/erm/receivers/wg/",
       "title": "Wagon (WG)",
       "summary": "WG receiver: wagon, command parameters, and limitations.",
       "keywords": [
@@ -822,7 +578,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-044.md",
+          "url": "/llm/browse/en/erm/receivers/text-044.md",
           "fromAnchor": "ref-rec-wg",
           "toAnchor": "reference-links",
           "headings": [
@@ -839,7 +595,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/mw",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mw/",
+      "url": "/en/erm/receivers/mw/",
       "title": "Wandering monsters (MW)",
       "summary": "MW receiver: wandering monsters, command parameters, and limitations.",
       "keywords": [
@@ -894,7 +650,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-026.md",
+          "url": "/llm/browse/en/erm/receivers/text-026.md",
           "fromAnchor": "ref-rec-mw",
           "toAnchor": "reference-links",
           "headings": [
@@ -911,7 +667,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/wt",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/wt/",
+      "url": "/en/erm/receivers/wt/",
       "title": "Warrior tomb (WT)",
       "summary": "WT receiver: warrior tomb, command parameters, and limitations.",
       "keywords": [
@@ -954,7 +710,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-044.md",
+          "url": "/llm/browse/en/erm/receivers/text-044.md",
           "fromAnchor": "ref-rec-wt",
           "toAnchor": "reference-links",
           "headings": [
@@ -971,7 +727,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/wm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/wm/",
+      "url": "/en/erm/receivers/wm/",
       "title": "Water wheel (WM)",
       "summary": "WM receiver: water wheel, command parameters, and limitations.",
       "keywords": [
@@ -1010,11 +766,123 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-044.md",
+          "url": "/llm/browse/en/erm/receivers/text-044.md",
           "fromAnchor": "ref-rec-wm",
           "toAnchor": "reference-links",
           "headings": [
             "Receiver WM",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.ml",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ml",
+      "url": "/en/erm/receivers/ml/",
+      "title": "Windmill (ML)",
+      "summary": "ML receiver: windmill, command parameters, and limitations.",
+      "keywords": [
+        "ML",
+        "!!ML",
+        "ML:B"
+      ],
+      "questions": [
+        "ML receiver: windmill, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ml.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ml.htm"
+        ],
+        "command-b-1-2": [
+          "old-help:rec-ml.htm"
+        ],
+        "notes": [
+          "old-help:rec-ml.htm"
+        ],
+        "related": [
+          "old-help:rec-ml.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ml.htm"
+        ],
+        "ref-rec-ml": [
+          "old-help:rec-ml.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-023.md",
+          "fromAnchor": "ref-rec-ml",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver ML",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.wh",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/wh",
+      "url": "/en/erm/receivers/wh/",
+      "title": "Witch hut (WH)",
+      "summary": "WH receiver: witch hut, command parameters, and limitations.",
+      "keywords": [
+        "WH",
+        "!!WH",
+        "WH:S"
+      ],
+      "questions": [
+        "WH receiver: witch hut, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-wh.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-wh.htm"
+        ],
+        "command-s": [
+          "old-help:rec-wh.htm"
+        ],
+        "notes": [
+          "old-help:rec-wh.htm"
+        ],
+        "related": [
+          "old-help:rec-wh.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-wh.htm"
+        ],
+        "ref-rec-wh": [
+          "old-help:rec-wh.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-044.md",
+          "fromAnchor": "ref-rec-wh",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver WH",
             "Related reference",
             "Related commands and tables"
           ]

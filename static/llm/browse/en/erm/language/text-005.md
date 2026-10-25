@@ -1,7 +1,7 @@
 # Receivers and subcommands
 
 ID: erm.receivers
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/
+URL: /en/erm/receivers/
 Part: 1/1
 Source references: old-help:cont-receivers.htm, old-help:cont-receiversa.htm, old-help:cont-receiversol.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

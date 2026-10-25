@@ -1,7 +1,7 @@
 # Object quests (QU)
 
 ID: erm.receivers.qu
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/qu/
+URL: /en/erm/receivers/qu/
 Part: 1/1
 Source references: old-help:rec-qu.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -209,7 +209,7 @@ Set/check/get, whether visited <a href="../../tables/players/#ref-form-gamerscol
 # Supplementary quest log (QW)
 
 ID: erm.receivers.qw
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/qw/
+URL: /en/erm/receivers/qw/
 Part: 1/1
 Source references: old-help:rec-qw.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

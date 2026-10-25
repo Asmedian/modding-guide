@@ -1,7 +1,7 @@
 # Framework globals
 
 ID: erm.framework.globals
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/globals/
+URL: /en/erm/framework/globals/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

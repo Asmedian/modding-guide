@@ -1,7 +1,7 @@
 # Battle hint text (MM)
 
 ID: erm.receivers.mm
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mm/
+URL: /en/erm/receivers/mm/
 Part: 1/1
 Source references: old-help:rec-mm.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -79,7 +79,7 @@ Add message from text variable to battle text</div>
 # Mines (MN)
 
 ID: erm.receivers.mn
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mn/
+URL: /en/erm/receivers/mn/
 Part: 1/1
 Source references: old-help:rec-mn.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -165,7 +165,7 @@ Same as MN:R$, but without updating</div>
 # Neutral map monsters (MO)
 
 ID: erm.receivers.mo
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mo/
+URL: /en/erm/receivers/mo/
 Part: 1/1
 Source references: old-help:rec-mo.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

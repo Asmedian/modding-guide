@@ -2,93 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.triggers.onbattlestackregeneration",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "triggers/onbattlestackregeneration",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackregeneration/",
-      "title": "Stack regeneration amount (OnBattleStackRegeneration)",
-      "summary": "x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase.",
-      "keywords": [
-        "OnBattleStackRegeneration",
-        "77056"
-      ],
-      "questions": [
-        "x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase."
-      ],
-      "sourceRefs": [
-        "era-source:erm.pas",
-        "era-source:triggers.pas",
-        "era-source:adverm.pas",
-        "old-help:era-new-events.htm",
-        "era-changelog:era-iii-changelog.txt"
-      ],
-      "sectionSources": {
-        "event": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "declaration": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "identity": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "related": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "reference-links": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "era3-updates": [
-          "era-changelog:era-iii-changelog.txt"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
-          "fromAnchor": "event",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Timing and arguments",
-            "Declaration",
-            "Identity and compatibility",
-            "Related references",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.triggers.onstacktostackdamage",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onstacktostackdamage",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onstacktostackdamage/",
+      "url": "/en/erm/triggers/onstacktostackdamage/",
       "title": "Stack-to-stack damage (OnStackToStackDamage)",
       "summary": "x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state.",
       "keywords": [
@@ -147,7 +66,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -166,7 +85,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/oneveryday",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/oneveryday/",
+      "url": "/en/erm/triggers/oneveryday/",
       "title": "Start of a game day (OnEveryDay)",
       "summary": "The engine fires this for each player before ordinary TM, without arguments. Framework extends the contract: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once is TRUE only on the first call that day. Use these arguments only with Framework loaded.",
       "keywords": [
@@ -228,7 +147,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -247,7 +166,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onswitchtownscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onswitchtownscreen/",
+      "url": "/en/erm/triggers/onswitchtownscreen/",
       "title": "Switching towns (OnSwitchTownScreen)",
       "summary": "x1 is the selected town when switching inside the window.",
       "keywords": [
@@ -306,7 +225,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -325,7 +244,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ontownfortmouseclick",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ontownfortmouseclick/",
+      "url": "/en/erm/triggers/ontownfortmouseclick/",
       "title": "Town fort mouse click (OnTownFortMouseClick)",
       "summary": "CM context. Current registration uses OnTownFortMouseClick; the old OnTownHallMouseClick was renamed and is not registered as an alias. The supplied Framework still handles the old name: check version alignment when porting.",
       "keywords": [
@@ -387,7 +306,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -406,7 +325,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/th",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/th/",
+      "url": "/en/erm/triggers/th/",
       "title": "Town hall (TH)",
       "summary": "0 enters the town hall; 1 leaves it. Changes can be associated with visiting the construction screen.",
       "keywords": [
@@ -463,7 +382,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-008.md",
           "fromAnchor": "ref-tr-th",
           "toAnchor": "reference-links",
           "headings": [
@@ -484,7 +403,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ontransferhero",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ontransferhero/",
+      "url": "/en/erm/triggers/ontransferhero/",
       "title": "Transferring a campaign hero (OnTransferHero)",
       "summary": "x1 is the transferred hero, after ERM instructions and before PI. May include inactive campaign heroes; existence does not imply presence on the map.",
       "keywords": [
@@ -546,7 +465,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-008.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -565,7 +484,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/he",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/he/",
+      "url": "/en/erm/triggers/he/",
       "title": "Visiting a hero (HE)",
       "summary": "Responds to visiting or attacking the selected hero. The selector is a hero ID.",
       "keywords": [
@@ -615,7 +534,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-he",
           "toAnchor": "reference-links",
           "headings": [
@@ -635,7 +554,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/mw",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mw/",
+      "url": "/en/erm/triggers/mw/",
       "title": "Wandering monsters (MW)",
       "summary": "0 reaching a destination/hero, 1 monster death. v997 is the wandering-monster ID. Corresponding MW settings must enable these events.",
       "keywords": [
@@ -692,7 +611,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+          "url": "/llm/browse/en/erm/triggers/text-003.md",
           "fromAnchor": "ref-tr-mw",
           "toAnchor": "reference-links",
           "headings": [
@@ -702,6 +621,165 @@
             "ERA names and aliases",
             "Limitations and ordering",
             "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onwingame",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onwingame",
+      "url": "/en/erm/triggers/onwingame/",
+      "title": "Winning the game (OnWinGame)",
+      "summary": "For a human victory, immediately before OnGameLeave in the current implementation. No arguments. Earlier behavior after OnGameLeave was fixed.",
+      "keywords": [
+        "OnWinGame",
+        "77047"
+      ],
+      "questions": [
+        "For a human victory, immediately before OnGameLeave in the current implementation. No arguments. Earlier behavior after OnGameLeave was fixed."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/triggers/text-008.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onsavegamewrite",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onsavegamewrite",
+      "url": "/en/erm/triggers/onsavegamewrite/",
+      "title": "Writing save data (OnSavegameWrite)",
+      "summary": "After ERM variables are written. No arguments. Write custom save sections here; this is a different phase from GM1.",
+      "keywords": [
+        "OnSavegameWrite",
+        "77001"
+      ],
+      "questions": [
+        "After ERM variables are written. No arguments. Write custom save sections here; this is a different phase from GM1."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
             "Related commands and tables"
           ]
         }

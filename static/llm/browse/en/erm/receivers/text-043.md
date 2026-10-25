@@ -1,7 +1,7 @@
 # Variables and expressions (VR)
 
 ID: erm.receivers.vr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/vr/
+URL: /en/erm/receivers/vr/
 Part: 1/1
 Source references: old-help:rec-vr.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

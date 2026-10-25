@@ -1,7 +1,7 @@
 # Commander classes
 
 ID: erm.tables.commanders
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/commanders/
+URL: /en/erm/tables/commanders/
 Part: 1/1
 Source references: old-help:form-commanders.htm, old-help:rec-co.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -102,7 +102,7 @@ Commander class corresponds to a pair of hero classes. This index differs from a
 # Creature banks
 
 ID: erm.tables.creature-banks
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-banks/
+URL: /en/erm/tables/creature-banks/
 Part: 1/1
 Source references: old-help:form-cb.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -251,7 +251,7 @@ Subtypes of WoG [object 16](../objects/#id-16). Mods that expand creature banks 
 # Creature dwellings on the map
 
 ID: erm.tables.creature-dwellings
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-dwellings/
+URL: /en/erm/tables/creature-dwellings/
 Part: 1/1
 Source references: old-help:form-creaturedwellings.htm, old-help:rec-dw.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

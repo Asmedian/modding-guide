@@ -5,105 +5,99 @@
   "count": 186,
   "pages": [
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-001.json",
-      "count": 11,
+      "url": "/llm/browse/en/erm/framework-functions/page-001.json",
+      "count": 12,
       "first": "ActivateNextStack",
-      "last": "Array_Fill"
+      "last": "Array_Find"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-002.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-002.json",
       "count": 12,
-      "first": "Array_Find",
-      "last": "Array_Sort"
+      "first": "Array_IndexOf",
+      "last": "Array_SortedUnique"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-003.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-003.json",
+      "count": 13,
+      "first": "Array_Splice",
+      "last": "CreateDir"
+    },
+    {
+      "url": "/llm/browse/en/erm/framework-functions/page-004.json",
       "count": 12,
-      "first": "Array_SortedUnique",
-      "last": "CompareStrings_Bridge_INTERNAL"
+      "first": "DeconstructBitMask",
+      "last": "DL_SetPlayerColor"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-004.json",
-      "count": 12,
-      "first": "ConstructBitMask",
-      "last": "DL_FindById"
-    },
-    {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-005.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-005.json",
       "count": 10,
-      "first": "DL_GetSize",
-      "last": "FormatQuantity"
+      "first": "DL_SetSize",
+      "last": "GetArtAtSlot"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-006.json",
-      "count": 9,
-      "first": "Framework functions",
-      "last": "GetMaxMonsterId"
-    },
-    {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-007.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-006.json",
       "count": 12,
-      "first": "GetMaxSpellId",
-      "last": "H3Dlg_GetCurrentDlg"
+      "first": "GetDegradedMonCandidates",
+      "last": "GetTextFileString"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-008.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-007.json",
       "count": 12,
-      "first": "H3Dlg_GetCurrentDlgId",
-      "last": "IsDllLoaded"
+      "first": "GetTextTableString",
+      "last": "H3Dlg_ShowPopup"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-009.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-008.json",
       "count": 12,
-      "first": "LeaveMouseEvent",
-      "last": "OnAfterErmInstructions"
+      "first": "H3Dlg_StopAnimation",
+      "last": "MonCountToFuzzyText"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-010.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-009.json",
       "count": 12,
-      "first": "OnAfterErmInstructions_Quit",
-      "last": "OnBeforeBattleAction"
+      "first": "NewIntArray",
+      "last": "OnBattleReplay"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-011.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-010.json",
+      "count": 13,
+      "first": "OnBattleRound",
+      "last": "OnEveryDay"
+    },
+    {
+      "url": "/llm/browse/en/erm/framework-functions/page-011.json",
       "count": 12,
-      "first": "OnBeforeBattleStackTurn",
-      "last": "OnKeyPressed_Quit"
+      "first": "OnHeroesMeetScreenMouseClick",
+      "last": "OnRecruitDlgMouseClick_Quit"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-012.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-012.json",
+      "count": 13,
+      "first": "OnSavegameRead",
+      "last": "PrepareMultiPicDialog"
+    },
+    {
+      "url": "/llm/browse/en/erm/framework-functions/page-013.json",
       "count": 12,
-      "first": "OnKeyReleased",
-      "last": "OnTownMouseClick"
+      "first": "RadioDlg_AddCancelButton",
+      "last": "RadioDlg_Show"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-013.json",
+      "url": "/llm/browse/en/erm/framework-functions/page-014.json",
       "count": 12,
-      "first": "OnTownMouseClick_Quit",
-      "last": "RadioDlg_GetItemValue"
+      "first": "ReadIniInts",
+      "last": "SavePrevMouseEventData"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-014.json",
-      "count": 11,
-      "first": "RadioDlg_GetNumItems",
-      "last": "ReadJsonStrArray"
+      "url": "/llm/browse/en/erm/framework-functions/page-015.json",
+      "count": 13,
+      "first": "ScanDir",
+      "last": "UnequipArtFromSlot"
     },
     {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-015.json",
-      "count": 12,
-      "first": "RestoreEventData",
-      "last": "Sqrt"
-    },
-    {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-016.json",
-      "count": 12,
-      "first": "StrPos",
-      "last": "WriteIniInts"
-    },
-    {
-      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/page-017.json",
-      "count": 1,
-      "first": "WriteIniStrings",
+      "url": "/llm/browse/en/erm/framework-functions/page-016.json",
+      "count": 4,
+      "first": "UnpackUnion",
       "last": "WriteIniStrings"
     }
   ]

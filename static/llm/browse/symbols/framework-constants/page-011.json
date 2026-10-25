@@ -2,20 +2,344 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "BITS_1_MASK",
+      "name": "BMG_FIELD_HIDDEN_QUANTITY",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-1-mask",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-hidden-quantity",
       "aliases": [],
-      "label": "BITS_1_MASK = 1",
+      "label": "BMG_FIELD_HIDDEN_QUANTITY = -90",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-1-mask"
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-hidden-quantity"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_IRRECOVERABLE_LOSS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-irrecoverable-loss",
+      "aliases": [],
+      "label": "BMG_FIELD_IRRECOVERABLE_LOSS = -81",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-irrecoverable-loss"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_LUCK",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-luck",
+      "aliases": [],
+      "label": "BMG_FIELD_LUCK = 213",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-luck"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_MON_POS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-mon-pos",
+      "aliases": [],
+      "label": "BMG_FIELD_MON_POS = -88",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-mon-pos"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_MON_TYPE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-mon-type",
+      "aliases": [],
+      "label": "BMG_FIELD_MON_TYPE = -89",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-mon-type"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_MORALE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-morale",
+      "aliases": [],
+      "label": "BMG_FIELD_MORALE = 212",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-morale"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_NUM_DISPLAYED_MONS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-num-displayed-mons",
+      "aliases": [],
+      "label": "BMG_FIELD_NUM_DISPLAYED_MONS = -82",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-num-displayed-mons"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_NUM_MONS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-num-mons",
+      "aliases": [],
+      "label": "BMG_FIELD_NUM_MONS = -83",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-num-mons"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VALUE_DISPLAY_REAL_NUM_MONS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-value-display-real-num-mons",
+      "aliases": [],
+      "label": "BMG_FIELD_VALUE_DISPLAY_REAL_NUM_MONS = -1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-value-display-real-num-mons"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VALUE_INVISIBLE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-value-invisible",
+      "aliases": [],
+      "label": "BMG_FIELD_VALUE_INVISIBLE = 8",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-value-invisible"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VALUE_VISIBLE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-value-visible",
+      "aliases": [],
+      "label": "BMG_FIELD_VALUE_VISIBLE = 4",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-value-visible"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VISIBILITY",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-visibility",
+      "aliases": [],
+      "label": "BMG_FIELD_VISIBILITY = -100",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-visibility"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_CDECL",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-cdecl",
+      "aliases": [],
+      "label": "CALLCONV_CDECL = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-cdecl"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -29,20 +353,20 @@
       }
     },
     {
-      "name": "BITS_10_MASK",
+      "name": "CALLCONV_CDECL_FLOAT",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-10-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-cdecl-float",
       "aliases": [],
-      "label": "BITS_10_MASK = 1023",
+      "label": "CALLCONV_CDECL_FLOAT = 5",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-10-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-cdecl-float"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -56,20 +380,20 @@
       }
     },
     {
-      "name": "BITS_11_MASK",
+      "name": "CALLCONV_FASTCALL",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-11-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-fastcall",
       "aliases": [],
-      "label": "BITS_11_MASK = 2047",
+      "label": "CALLCONV_FASTCALL = 3",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-11-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-fastcall"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -83,20 +407,20 @@
       }
     },
     {
-      "name": "BITS_12_MASK",
+      "name": "CALLCONV_FASTCALL_FLOAT",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-12-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-fastcall-float",
       "aliases": [],
-      "label": "BITS_12_MASK = 4095",
+      "label": "CALLCONV_FASTCALL_FLOAT = 7",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-12-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-fastcall-float"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -110,20 +434,20 @@
       }
     },
     {
-      "name": "BITS_13_MASK",
+      "name": "CALLCONV_FLOAT_RES",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-13-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-float-res",
       "aliases": [],
-      "label": "BITS_13_MASK = 8191",
+      "label": "CALLCONV_FLOAT_RES = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-13-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-float-res"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -137,20 +461,20 @@
       }
     },
     {
-      "name": "BITS_14_MASK",
+      "name": "CALLCONV_PASCAL",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-14-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-pascal",
       "aliases": [],
-      "label": "BITS_14_MASK = 16383",
+      "label": "CALLCONV_PASCAL = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-14-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-pascal"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -164,20 +488,20 @@
       }
     },
     {
-      "name": "BITS_15_MASK",
+      "name": "CALLCONV_PASCAL_FLOAT",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-15-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-pascal-float",
       "aliases": [],
-      "label": "BITS_15_MASK = 32767",
+      "label": "CALLCONV_PASCAL_FLOAT = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-15-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-pascal-float"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -191,20 +515,20 @@
       }
     },
     {
-      "name": "BITS_16_MASK",
+      "name": "CALLCONV_STDCALL",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-16-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-stdcall",
       "aliases": [],
-      "label": "BITS_16_MASK = 65535",
+      "label": "CALLCONV_STDCALL = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-16-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-stdcall"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -218,20 +542,20 @@
       }
     },
     {
-      "name": "BITS_17_MASK",
+      "name": "CALLCONV_STDCALL_FLOAT",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-17-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-stdcall-float",
       "aliases": [],
-      "label": "BITS_17_MASK = 131071",
+      "label": "CALLCONV_STDCALL_FLOAT = 5",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-17-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-stdcall-float"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -245,20 +569,20 @@
       }
     },
     {
-      "name": "BITS_18_MASK",
+      "name": "CALLCONV_THISCALL",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-18-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-thiscall",
       "aliases": [],
-      "label": "BITS_18_MASK = 262143",
+      "label": "CALLCONV_THISCALL = 2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-18-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-thiscall"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -272,20 +596,20 @@
       }
     },
     {
-      "name": "BITS_19_MASK",
+      "name": "CALLCONV_THISCALL_FLOAT",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-19-mask",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-thiscall-float",
       "aliases": [],
-      "label": "BITS_19_MASK = 524287",
+      "label": "CALLCONV_THISCALL_FLOAT = 6",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-19-mask"
+        "en": "/en/erm/framework/constants/calling-conventions/#const-callconv-thiscall-float"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -299,20 +623,204 @@
       }
     },
     {
-      "name": "BITS_2_MASK",
+      "name": "CHAT_EVENT_RESULT_CLEAR",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-2-mask",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-result-clear",
       "aliases": [],
-      "label": "BITS_2_MASK = 3",
+      "label": "CHAT_EVENT_RESULT_CLEAR = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-2-mask"
+        "en": "/en/erm/framework/constants/era-chat-event/#const-chat-event-result-clear"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_CLOSE",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-result-close",
+      "aliases": [],
+      "label": "CHAT_EVENT_RESULT_CLOSE = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/era-chat-event/#const-chat-event-result-close"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_DEFAULT",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-result-default",
+      "aliases": [],
+      "label": "CHAT_EVENT_RESULT_DEFAULT = 2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/era-chat-event/#const-chat-event-result-default"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_ENTER",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-type-enter",
+      "aliases": [],
+      "label": "CHAT_EVENT_TYPE_ENTER = 0",
+      "destinations": {
+        "en": "/en/erm/framework/constants/era-chat-event/#const-chat-event-type-enter"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_INPUT",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-type-input",
+      "aliases": [],
+      "label": "CHAT_EVENT_TYPE_INPUT = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/era-chat-event/#const-chat-event-type-input"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_LEAVE",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-type-leave",
+      "aliases": [],
+      "label": "CHAT_EVENT_TYPE_LEAVE = 2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/era-chat-event/#const-chat-event-type-leave"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "COMBAT_MANAGER",
+      "kind": "constant",
+      "slug": "framework/constants/game-managers",
+      "anchor": "const-combat-manager",
+      "aliases": [],
+      "label": "COMBAT_MANAGER = 6919200",
+      "destinations": {
+        "en": "/en/erm/framework/constants/game-managers/#const-combat-manager"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CURRENT_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-current-hero",
+      "aliases": [],
+      "label": "CURRENT_HERO = -1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/heroes/#const-current-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-005.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -326,20 +834,20 @@
       }
     },
     {
-      "name": "BITS_20_MASK",
+      "name": "CURRENT_OBJ",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-20-mask",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-current-obj",
       "aliases": [],
-      "label": "BITS_20_MASK = 1048575",
+      "label": "CURRENT_OBJ = 998",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-20-mask"
+        "en": "/en/erm/framework/constants/object-types/#const-current-obj"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -353,20 +861,20 @@
       }
     },
     {
-      "name": "BITS_21_MASK",
+      "name": "CURRENT_PLAYER",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-21-mask",
+      "slug": "framework/constants/players",
+      "anchor": "const-current-player",
       "aliases": [],
-      "label": "BITS_21_MASK = 2097151",
+      "label": "CURRENT_PLAYER = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-21-mask"
+        "en": "/en/erm/framework/constants/players/#const-current-player"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-008.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -380,506 +888,46 @@
       }
     },
     {
-      "name": "BITS_22_MASK",
+      "name": "CURRENT_TOWN",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-22-mask",
+      "slug": "framework/constants/towns",
+      "anchor": "const-current-town",
       "aliases": [],
-      "label": "BITS_22_MASK = 4194303",
+      "label": "CURRENT_TOWN = -1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-22-mask"
+        "en": "/en/erm/framework/constants/towns/#const-current-town"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
-            "toAnchor": "used-by",
+            "toAnchor": "related",
             "headings": [
               "Purpose",
               "Values",
-              "All groups",
-              "Used by Framework"
+              "All groups"
             ]
           }
         ]
       }
     },
     {
-      "name": "BITS_23_MASK",
+      "name": "DAYS_IN_MONTH",
       "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-23-mask",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-days-in-month",
       "aliases": [],
-      "label": "BITS_23_MASK = 8388607",
+      "label": "DAYS_IN_MONTH = 28",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-23-mask"
+        "en": "/en/erm/framework/constants/game-limits/#const-days-in-month"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_24_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-24-mask",
-      "aliases": [],
-      "label": "BITS_24_MASK = 16777215",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-24-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_25_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-25-mask",
-      "aliases": [],
-      "label": "BITS_25_MASK = 33554431",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-25-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_26_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-26-mask",
-      "aliases": [],
-      "label": "BITS_26_MASK = 67108863",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-26-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_27_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-27-mask",
-      "aliases": [],
-      "label": "BITS_27_MASK = 134217727",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-27-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_28_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-28-mask",
-      "aliases": [],
-      "label": "BITS_28_MASK = 268435455",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-28-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_29_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-29-mask",
-      "aliases": [],
-      "label": "BITS_29_MASK = 536870911",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-29-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_3_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-3-mask",
-      "aliases": [],
-      "label": "BITS_3_MASK = 7",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-3-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_30_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-30-mask",
-      "aliases": [],
-      "label": "BITS_30_MASK = 1073741823",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-30-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_31_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-31-mask",
-      "aliases": [],
-      "label": "BITS_31_MASK = 2147483647",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-31-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_32_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-32-mask",
-      "aliases": [],
-      "label": "BITS_32_MASK = -1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-32-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_4_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-4-mask",
-      "aliases": [],
-      "label": "BITS_4_MASK = 15",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-4-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_5_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-5-mask",
-      "aliases": [],
-      "label": "BITS_5_MASK = 31",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-5-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_6_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-6-mask",
-      "aliases": [],
-      "label": "BITS_6_MASK = 63",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-6-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_7_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-7-mask",
-      "aliases": [],
-      "label": "BITS_7_MASK = 127",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-7-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_8_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-8-mask",
-      "aliases": [],
-      "label": "BITS_8_MASK = 255",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-8-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_9_MASK",
-      "kind": "constant",
-      "slug": "framework/constants/bit-masks",
-      "anchor": "const-bits-9-mask",
-      "aliases": [],
-      "label": "BITS_9_MASK = 511",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/#const-bits-9-mask"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BITS_IN_INT",
-      "kind": "constant",
-      "slug": "framework/constants/bit-sizes",
-      "anchor": "const-bits-in-int",
-      "aliases": [],
-      "label": "BITS_IN_INT = 32",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/#const-bits-in-int"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-003.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

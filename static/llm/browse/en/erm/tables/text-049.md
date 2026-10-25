@@ -1,7 +1,7 @@
 # Named text colors
 
 ID: erm.tables.text-colors
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/text-colors/
+URL: /en/erm/tables/text-colors/
 Part: 1/1
 Source references: era-source:rainbow.pas, old-help:form-colors.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

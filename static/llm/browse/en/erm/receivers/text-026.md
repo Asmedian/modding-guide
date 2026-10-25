@@ -1,7 +1,7 @@
 # Wandering monsters (MW)
 
 ID: erm.receivers.mw
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mw/
+URL: /en/erm/receivers/mw/
 Part: 1/1
 Source references: old-help:rec-mw.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -131,7 +131,7 @@ For this command, the roaming creature number (!!MW#) is not needed, because he 
 # Map objects (OB)
 
 ID: erm.receivers.ob
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ob/
+URL: /en/erm/receivers/ob/
 Part: 1/1
 Source references: old-help:rec-ob.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

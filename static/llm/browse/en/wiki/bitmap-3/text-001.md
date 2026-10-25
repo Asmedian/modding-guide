@@ -1,7 +1,7 @@
 # Restoration of Erathia
 
 ID: wiki.bitmap.3.0
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/3/0/
+URL: /en/wiki/bitmap/3/0/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -67,7 +67,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # The Shadow of Death
 
 ID: wiki.bitmap.3.2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/3/2/
+URL: /en/wiki/bitmap/3/2/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

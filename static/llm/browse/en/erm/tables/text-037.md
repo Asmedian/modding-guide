@@ -1,7 +1,7 @@
 # Game object table
 
 ID: erm.tables.objects
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/objects/
+URL: /en/erm/tables/objects/
 Part: 1/2
 Source references: old-help:form-objects.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

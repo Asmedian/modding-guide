@@ -2,85 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.triggers.le",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "triggers/le",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/le/",
-      "title": "Local-event visit (LE)",
-      "summary": "X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards.",
-      "keywords": [
-        "LE",
-        "!?LE"
-      ],
-      "questions": [
-        "X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards."
-      ],
-      "sourceRefs": [
-        "old-help:tr-le.htm",
-        "era-source:erm.pas",
-        "era-changelog:era-iii-changelog.txt"
-      ],
-      "sectionSources": {
-        "event": [
-          "old-help:tr-le.htm",
-          "era-source:erm.pas",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "syntax": [
-          "old-help:tr-le.htm",
-          "era-source:erm.pas",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "limits": [
-          "old-help:tr-le.htm",
-          "era-source:erm.pas",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "related": [
-          "old-help:tr-le.htm",
-          "era-source:erm.pas",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "reference-links": [
-          "old-help:tr-le.htm",
-          "era-source:erm.pas",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "ref-tr-le": [
-          "old-help:tr-le.htm"
-        ],
-        "era3-updates": [
-          "era-changelog:era-iii-changelog.txt"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
-          "fromAnchor": "ref-tr-le",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Trigger LE",
-            "When it fires",
-            "Declaration",
-            "Limitations and ordering",
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.triggers.onlosegame",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onlosegame",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onlosegame/",
+      "url": "/en/erm/triggers/onlosegame/",
       "title": "Losing the game (OnLoseGame)",
       "summary": "For a human defeat, immediately before OnGameLeave in the current implementation. No arguments. Do not expect a subsequent game turn.",
       "keywords": [
@@ -142,7 +69,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -161,7 +88,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/mr",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mr/",
+      "url": "/en/erm/triggers/mr/",
       "title": "Magic resistance (MR)",
       "summary": "0 precedes standard damage correction for resistance; 1 follows it. In MR2, MR:F means a percentage chance of dwarf-style full resistance.",
       "keywords": [
@@ -219,7 +146,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+          "url": "/llm/browse/en/erm/triggers/text-003.md",
           "fromAnchor": "ref-tr-mr",
           "toAnchor": "reference-links",
           "headings": [
@@ -240,7 +167,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/cm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/cm/",
+      "url": "/en/erm/triggers/cm/",
       "title": "Mouse clicks (CM)",
       "summary": "0 adventure-map right click; 1 town; 2 hero; 3 hero meeting; 4 battle; 5 adventure-map left click. CM provides coordinates, item, and action.",
       "keywords": [
@@ -304,7 +231,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "url": "/llm/browse/en/erm/triggers/text-001.md",
           "fromAnchor": "ref-tr-cm",
           "toAnchor": "reference-links",
           "headings": [
@@ -325,7 +252,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/mp",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mp/",
+      "url": "/en/erm/triggers/mp/",
       "title": "Music theme changes (MP)",
       "summary": "Fires when ChangeMp3Theme is called. MP:S changes parameters; MP:R controls the default reaction.",
       "keywords": [
@@ -381,7 +308,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+          "url": "/llm/browse/en/erm/triggers/text-003.md",
           "fromAnchor": "ref-tr-mp",
           "toAnchor": "reference-links",
           "headings": [
@@ -402,7 +329,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ip",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ip/",
+      "url": "/en/erm/triggers/ip/",
       "title": "Network battle data transfer (IP)",
       "summary": "0 before the attacker sends initial data, 1 after the defender receives it; 2 before results are sent, 3 after receiving them. IP provides additional synchronization.",
       "keywords": [
@@ -461,7 +388,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-ip",
           "toAnchor": "reference-links",
           "headings": [
@@ -482,7 +409,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/ob",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ob/",
+      "url": "/en/erm/triggers/ob/",
       "title": "Object visits (OB)",
       "summary": "Select an object type, type/subtype, or exact entrance coordinates. The object must have an entrance cell. Monsters, resources, and artifacts qualify; heroes use HE.",
       "keywords": [
@@ -535,7 +462,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+          "url": "/llm/browse/en/erm/triggers/text-003.md",
           "fromAnchor": "ref-tr-ob",
           "toAnchor": "reference-links",
           "headings": [
@@ -555,7 +482,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onopentownscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onopentownscreen/",
+      "url": "/en/erm/triggers/onopentownscreen/",
       "title": "Opening a town (OnOpenTownScreen)",
       "summary": "x1 is the town when the window first opens.",
       "keywords": [
@@ -614,7 +541,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -633,7 +560,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onopenrecruitdlg",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onopenrecruitdlg/",
+      "url": "/en/erm/triggers/onopenrecruitdlg/",
       "title": "Opening recruitment (OnOpenRecruitDlg)",
       "summary": "x1 is active slot 0..3; x2 flags (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 show dialog (1/0). Arguments are mutable. RD provides recruitment state.",
       "keywords": [
@@ -692,7 +619,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -711,7 +638,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onopenheroscreen",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onopenheroscreen/",
+      "url": "/en/erm/triggers/onopenheroscreen/",
       "title": "Opening the hero screen (OnOpenHeroScreen)",
       "summary": "x1 is the hero when the window first opens. Switching heroes inside the window does not repeat this event; use OnLoadHeroScreen or OnPreHeroScreen.",
       "keywords": [
@@ -770,7 +697,88 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "url": "/llm/browse/en/erm/triggers/text-006.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbattlestackobtainsturn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbattlestackobtainsturn",
+      "url": "/en/erm/triggers/onbattlestackobtainsturn/",
+      "title": "Passing control to a stack (OnBattleStackObtainsTurn)",
+      "summary": "x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale.",
+      "keywords": [
+        "OnBattleStackObtainsTurn",
+        "77006"
+      ],
+      "questions": [
+        "x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [

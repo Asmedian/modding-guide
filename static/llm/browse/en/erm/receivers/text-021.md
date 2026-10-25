@@ -1,7 +1,7 @@
 # Flags, messages and choices (IF)
 
 ID: erm.receivers.if
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/if/
+URL: /en/erm/receivers/if/
 Part: 2/2
 Source references: old-help:rec-if.htm, era-changelog:era-iii-changelog.txt, old-help:cont-db.htm, old-help:era-color-text.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

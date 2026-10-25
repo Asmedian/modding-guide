@@ -2,803 +2,6 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "BATTLE_ACTION_HERO_CAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-hero-cast",
-      "aliases": [],
-      "label": "BATTLE_ACTION_HERO_CAST = 1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-hero-cast"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_MONSTER_CAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-monster-cast",
-      "aliases": [],
-      "label": "BATTLE_ACTION_MONSTER_CAST = 10",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-monster-cast"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_RETREAT",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-retreat",
-      "aliases": [],
-      "label": "BATTLE_ACTION_RETREAT = 4",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-retreat"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_SHOOT",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-shoot",
-      "aliases": [],
-      "label": "BATTLE_ACTION_SHOOT = 7",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-shoot"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_SKIP",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-skip",
-      "aliases": [],
-      "label": "BATTLE_ACTION_SKIP = 12",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-skip"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_SURRENDER",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-surrender",
-      "aliases": [],
-      "label": "BATTLE_ACTION_SURRENDER = 5",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-surrender"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_TENT_HEAL",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-tent-heal",
-      "aliases": [],
-      "label": "BATTLE_ACTION_TENT_HEAL = 11",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-tent-heal"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_WAIT",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-wait",
-      "aliases": [],
-      "label": "BATTLE_ACTION_WAIT = 8",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-wait"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_WALK",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-walk",
-      "aliases": [],
-      "label": "BATTLE_ACTION_WALK = 2",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-walk"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ACTION_WALK_AND_ATTACK",
-      "kind": "constant",
-      "slug": "framework/constants/battle-actions",
-      "anchor": "const-battle-action-walk-and-attack",
-      "aliases": [],
-      "label": "BATTLE_ACTION_WALK_AND_ATTACK = 6",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/#const-battle-action-walk-and-attack"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ATTACKER_BASE_STACK_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-attacker-base-stack-first",
-      "aliases": [],
-      "label": "BATTLE_ATTACKER_BASE_STACK_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-attacker-base-stack-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ATTACKER_BASE_STACK_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-attacker-base-stack-last",
-      "aliases": [],
-      "label": "BATTLE_ATTACKER_BASE_STACK_LAST = 6",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-attacker-base-stack-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ATTACKER_STACK_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-attacker-stack-first",
-      "aliases": [],
-      "label": "BATTLE_ATTACKER_STACK_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-attacker-stack-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_ATTACKER_STACK_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-attacker-stack-last",
-      "aliases": [],
-      "label": "BATTLE_ATTACKER_STACK_LAST = 20",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-attacker-stack-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_BASE_STACKS_PER_SIDE",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-base-stacks-per-side",
-      "aliases": [],
-      "label": "BATTLE_BASE_STACKS_PER_SIDE = 7",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-base-stacks-per-side"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_DEFENDER_BASE_STACK_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-defender-base-stack-first",
-      "aliases": [],
-      "label": "BATTLE_DEFENDER_BASE_STACK_FIRST = 21",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-defender-base-stack-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_DEFENDER_BASE_STACK_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-defender-base-stack-last",
-      "aliases": [],
-      "label": "BATTLE_DEFENDER_BASE_STACK_LAST = 27",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-defender-base-stack-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_DEFENDER_STACK_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-defender-stack-first",
-      "aliases": [],
-      "label": "BATTLE_DEFENDER_STACK_FIRST = 21",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-defender-stack-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_DEFENDER_STACK_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-defender-stack-last",
-      "aliases": [],
-      "label": "BATTLE_DEFENDER_STACK_LAST = 41",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-defender-stack-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_HEX_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/battle-hexes",
-      "anchor": "const-battle-hex-first",
-      "aliases": [],
-      "label": "BATTLE_HEX_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-hexes/#const-battle-hex-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_HEX_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle-hexes",
-      "anchor": "const-battle-hex-last",
-      "aliases": [],
-      "label": "BATTLE_HEX_LAST = 186",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-hexes/#const-battle-hex-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_HEXES_PER_ROW",
-      "kind": "constant",
-      "slug": "framework/constants/battle-hexes",
-      "anchor": "const-battle-hexes-per-row",
-      "aliases": [],
-      "label": "BATTLE_HEXES_PER_ROW = 17",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-hexes/#const-battle-hexes-per-row"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_LEFT",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-left",
-      "aliases": [],
-      "label": "BATTLE_LEFT = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-left"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_MAX_STACKS",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-max-stacks",
-      "aliases": [],
-      "label": "BATTLE_MAX_STACKS = 42",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-max-stacks"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_RIGHT",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-right",
-      "aliases": [],
-      "label": "BATTLE_RIGHT = 1",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-right"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_STACK_FIRST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-stack-first",
-      "aliases": [],
-      "label": "BATTLE_STACK_FIRST = 0",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-stack-first"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_STACK_LAST",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-stack-last",
-      "aliases": [],
-      "label": "BATTLE_STACK_LAST = 41",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-stack-last"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_STACKS_PER_SIDE",
-      "kind": "constant",
-      "slug": "framework/constants/battle",
-      "anchor": "const-battle-stacks-per-side",
-      "aliases": [],
-      "label": "BATTLE_STACKS_PER_SIDE = 21",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/#const-battle-stacks-per-side"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_TYPE_FLAG_LEFT_HAS_HERO",
-      "kind": "constant",
-      "slug": "framework/constants/battle-type-flags",
-      "anchor": "const-battle-type-flag-left-has-hero",
-      "aliases": [],
-      "label": "BATTLE_TYPE_FLAG_LEFT_HAS_HERO = 16",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-left-has-hero"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BATTLE_TYPE_FLAG_LEFT_HAS_OWNER",
-      "kind": "constant",
-      "slug": "framework/constants/battle-type-flags",
-      "anchor": "const-battle-type-flag-left-has-owner",
-      "aliases": [],
-      "label": "BATTLE_TYPE_FLAG_LEFT_HAS_OWNER = 4",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-left-has-owner"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "BATTLE_TYPE_FLAG_LEFT_IS_HUMAN",
       "kind": "constant",
       "slug": "framework/constants/battle-type-flags",
@@ -806,13 +9,1007 @@
       "aliases": [],
       "label": "BATTLE_TYPE_FLAG_LEFT_IS_HUMAN = 1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-left-is-human"
+        "en": "/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-left-is-human"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/battle-type-flags",
+      "anchor": "const-battle-type-flag-right-has-hero",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO = 32",
+      "destinations": {
+        "en": "/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-right-has-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER",
+      "kind": "constant",
+      "slug": "framework/constants/battle-type-flags",
+      "anchor": "const-battle-type-flag-right-has-owner",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER = 8",
+      "destinations": {
+        "en": "/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-right-has-owner"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN",
+      "kind": "constant",
+      "slug": "framework/constants/battle-type-flags",
+      "anchor": "const-battle-type-flag-right-is-human",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN = 2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-right-is-human"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_0",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-0",
+      "aliases": [],
+      "label": "BIT_0 = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_1",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-1",
+      "aliases": [],
+      "label": "BIT_1 = 2",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_10",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-10",
+      "aliases": [],
+      "label": "BIT_10 = 1024",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-10"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_11",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-11",
+      "aliases": [],
+      "label": "BIT_11 = 2048",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-11"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_12",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-12",
+      "aliases": [],
+      "label": "BIT_12 = 4096",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-12"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_13",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-13",
+      "aliases": [],
+      "label": "BIT_13 = 8192",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-13"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_14",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-14",
+      "aliases": [],
+      "label": "BIT_14 = 16384",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-14"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_15",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-15",
+      "aliases": [],
+      "label": "BIT_15 = 32768",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-15"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_16",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-16",
+      "aliases": [],
+      "label": "BIT_16 = 65536",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-16"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_17",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-17",
+      "aliases": [],
+      "label": "BIT_17 = 131072",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-17"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_18",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-18",
+      "aliases": [],
+      "label": "BIT_18 = 262144",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-18"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_19",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-19",
+      "aliases": [],
+      "label": "BIT_19 = 524288",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-19"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_2",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-2",
+      "aliases": [],
+      "label": "BIT_2 = 4",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_20",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-20",
+      "aliases": [],
+      "label": "BIT_20 = 1048576",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-20"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_21",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-21",
+      "aliases": [],
+      "label": "BIT_21 = 2097152",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-21"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_22",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-22",
+      "aliases": [],
+      "label": "BIT_22 = 4194304",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-22"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_23",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-23",
+      "aliases": [],
+      "label": "BIT_23 = 8388608",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-23"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_24",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-24",
+      "aliases": [],
+      "label": "BIT_24 = 16777216",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-24"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_25",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-25",
+      "aliases": [],
+      "label": "BIT_25 = 33554432",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-25"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_26",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-26",
+      "aliases": [],
+      "label": "BIT_26 = 67108864",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-26"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_27",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-27",
+      "aliases": [],
+      "label": "BIT_27 = 134217728",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-27"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_28",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-28",
+      "aliases": [],
+      "label": "BIT_28 = 268435456",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-28"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_29",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-29",
+      "aliases": [],
+      "label": "BIT_29 = 536870912",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-29"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_3",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-3",
+      "aliases": [],
+      "label": "BIT_3 = 8",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-3"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_30",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-30",
+      "aliases": [],
+      "label": "BIT_30 = 1073741824",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-30"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_31",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-31",
+      "aliases": [],
+      "label": "BIT_31 = -2147483648",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-31"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_4",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-4",
+      "aliases": [],
+      "label": "BIT_4 = 16",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-4"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_5",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-5",
+      "aliases": [],
+      "label": "BIT_5 = 32",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-5"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_6",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-6",
+      "aliases": [],
+      "label": "BIT_6 = 64",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-6"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_7",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-7",
+      "aliases": [],
+      "label": "BIT_7 = 128",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-7"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_8",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-8",
+      "aliases": [],
+      "label": "BIT_8 = 256",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-8"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_9",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-9",
+      "aliases": [],
+      "label": "BIT_9 = 512",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bits/#const-bit-9"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BITS_1_MASK",
+      "kind": "constant",
+      "slug": "framework/constants/bit-masks",
+      "anchor": "const-bits-1-mask",
+      "aliases": [],
+      "label": "BITS_1_MASK = 1",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bit-masks/#const-bits-1-mask"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BITS_10_MASK",
+      "kind": "constant",
+      "slug": "framework/constants/bit-masks",
+      "anchor": "const-bits-10-mask",
+      "aliases": [],
+      "label": "BITS_10_MASK = 1023",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bit-masks/#const-bits-10-mask"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BITS_11_MASK",
+      "kind": "constant",
+      "slug": "framework/constants/bit-masks",
+      "anchor": "const-bits-11-mask",
+      "aliases": [],
+      "label": "BITS_11_MASK = 2047",
+      "destinations": {
+        "en": "/en/erm/framework/constants/bit-masks/#const-bits-11-mask"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

@@ -1,7 +1,7 @@
 # Object control words
 
 ID: erm.tables.object-control-words
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/object-control-words/
+URL: /en/erm/tables/object-control-words/
 Part: 4/4
 Source references: old-help:cont-conwords.htm, old-help:rec-ob.htm, old-help:rec-sk.htm, old-help:rec-mt.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

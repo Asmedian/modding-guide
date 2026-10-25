@@ -2,120 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.receivers.ea",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/ea",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ea/",
-      "title": "Creature experience and bonuses (EA)",
-      "summary": "EA receiver: creature experience and bonuses, command parameters, and limitations.",
-      "keywords": [
-        "EA",
-        "!!EA",
-        "EA:A",
-        "EA:B",
-        "EA:C",
-        "EA:D?",
-        "EA:E",
-        "EA:F",
-        "EA:O",
-        "EA:R"
-      ],
-      "questions": [
-        "EA receiver: creature experience and bonuses, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-ea.htm",
-        "old-help:cont-stackexpbonus.htm",
-        "era-changelog:era-iii-changelog.txt"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-a-h-s-t": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-b-2-3-4-5-15": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-c-l-m-p-u": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-d": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-e-1-2-3-4": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-f-f": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-o-mode": [
-          "old-help:rec-ea.htm"
-        ],
-        "command-r-1-2": [
-          "old-help:rec-ea.htm"
-        ],
-        "notes": [
-          "old-help:rec-ea.htm"
-        ],
-        "related": [
-          "old-help:rec-ea.htm"
-        ],
-        "reference-links": [
-          "old-help:rec-ea.htm"
-        ],
-        "ref-rec-ea": [
-          "old-help:rec-ea.htm"
-        ],
-        "ref-cont-stackexpbonus": [
-          "old-help:cont-stackexpbonus.htm"
-        ],
-        "era3-updates": [
-          "era-changelog:era-iii-changelog.txt"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-010.md",
-          "fromAnchor": "ref-rec-ea",
-          "toAnchor": "ref-cont-stackexpbonus-n2",
-          "headings": [
-            "Receiver EA",
-            "Experience Bonuses: Optional"
-          ]
-        },
-        {
-          "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-011.md",
-          "fromAnchor": "ref-cont-stackexpbonus-1",
-          "toAnchor": "ref-cont-stackexpbonus-18",
-          "headings": []
-        },
-        {
-          "part": 3,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-012.md",
-          "fromAnchor": "ref-cont-stackexpbonus-19",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.receivers.rd",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "receivers/rd",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/rd/",
+      "url": "/en/erm/receivers/rd/",
       "title": "Creature recruitment (RD)",
       "summary": "RD receiver: creature recruitment, command parameters, and limitations.",
       "keywords": [
@@ -178,7 +70,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-030.md",
+          "url": "/llm/browse/en/erm/receivers/text-030.md",
           "fromAnchor": "ref-rec-rd",
           "toAnchor": "reference-links",
           "headings": [
@@ -195,7 +87,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/ma",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/",
+      "url": "/en/erm/receivers/ma/",
       "title": "Creature-type attributes (MA)",
       "summary": "MA receiver: creature-type attributes, command parameters, and limitations.",
       "keywords": [
@@ -310,7 +202,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
+          "url": "/llm/browse/en/erm/receivers/text-023.md",
           "fromAnchor": "ref-rec-ma",
           "toAnchor": "reference-links",
           "headings": [
@@ -327,7 +219,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/bg",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/bg/",
+      "url": "/en/erm/receivers/bg/",
       "title": "Current battle action (BG)",
       "summary": "BG receiver: current battle action, command parameters, and limitations.",
       "keywords": [
@@ -406,7 +298,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-002.md",
+          "url": "/llm/browse/en/erm/receivers/text-002.md",
           "fromAnchor": "ref-rec-bg",
           "toAnchor": "reference-links",
           "headings": [
@@ -424,7 +316,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/dl",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/dl/",
+      "url": "/en/erm/receivers/dl/",
       "title": "Custom dialogs (DL)",
       "summary": "DL receiver: custom dialogs, command parameters, and limitations.",
       "keywords": [
@@ -496,7 +388,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-008.md",
+          "url": "/llm/browse/en/erm/receivers/text-008.md",
           "fromAnchor": "ref-rec-dl",
           "toAnchor": "ref-rec-dl-show25",
           "headings": [
@@ -506,7 +398,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-009.md",
+          "url": "/llm/browse/en/erm/receivers/text-009.md",
           "fromAnchor": "ref-rec-dl-16",
           "toAnchor": "reference-links",
           "headings": [
@@ -523,7 +415,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/sn",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/",
+      "url": "/en/erm/receivers/sn/",
       "title": "ERA services, memory and sound (SN)",
       "summary": "SN receiver: era services, memory and sound, command parameters, and limitations.",
       "keywords": [
@@ -696,7 +588,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
+          "url": "/llm/browse/en/erm/receivers/text-032.md",
           "fromAnchor": "ref-rec-sn",
           "toAnchor": "ref-rec-sn-era-h-spec",
           "headings": [
@@ -706,7 +598,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
+          "url": "/llm/browse/en/erm/receivers/text-033.md",
           "fromAnchor": "ref-rec-sn-era-i",
           "toAnchor": "ref-era-api-clini",
           "headings": [
@@ -718,7 +610,7 @@
         },
         {
           "part": 3,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
+          "url": "/llm/browse/en/erm/receivers/text-034.md",
           "fromAnchor": "ref-era-api-execerm",
           "toAnchor": "reference-links",
           "headings": [
@@ -735,7 +627,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/if",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/",
+      "url": "/en/erm/receivers/if/",
       "title": "Flags, messages and choices (IF)",
       "summary": "IF receiver: flags, messages and choices, command parameters, and limitations.",
       "keywords": [
@@ -835,7 +727,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
+          "url": "/llm/browse/en/erm/receivers/text-020.md",
           "fromAnchor": "ref-rec-if",
           "toAnchor": "command-w-x",
           "headings": [
@@ -844,7 +736,7 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
+          "url": "/llm/browse/en/erm/receivers/text-021.md",
           "fromAnchor": "ref-rec-if-15",
           "toAnchor": "reference-links",
           "headings": [
@@ -861,6 +753,164 @@
             "Color text",
             "Colored text",
             "Notes on modern ERA versions",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.fu",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/fu",
+      "url": "/en/erm/receivers/fu/",
+      "title": "Function calls (FU)",
+      "summary": "FU receiver: function calls, command parameters, and limitations.",
+      "keywords": [
+        "FU",
+        "!!FU",
+        "FU:A?",
+        "FU:C",
+        "FU:D",
+        "FU:E",
+        "FU:P",
+        "FU:S"
+      ],
+      "questions": [
+        "FU receiver: function calls, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-fu.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-a": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-c": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-d-1-16": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-e": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-p-1-16": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-s": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "notes": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-fu": [
+          "old-help:rec-fu.htm"
+        ],
+        "era-notes": [
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-014.md",
+          "fromAnchor": "ref-rec-fu",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver FU",
+            "Notes on modern ERA versions",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.tm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/tm",
+      "url": "/en/erm/receivers/tm/",
+      "title": "Game timers (TM)",
+      "summary": "TM receiver: game timers, command parameters, and limitations.",
+      "keywords": [
+        "TM",
+        "!!TM",
+        "TM:S",
+        "TM:D"
+      ],
+      "questions": [
+        "TM receiver: game timers, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-tm.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-tm.htm"
+        ],
+        "command-s-1-2-3-4": [
+          "old-help:rec-tm.htm"
+        ],
+        "command-d-e": [
+          "old-help:rec-tm.htm"
+        ],
+        "notes": [
+          "old-help:rec-tm.htm"
+        ],
+        "example": [
+          "old-help:rec-tm.htm"
+        ],
+        "related": [
+          "old-help:rec-tm.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-tm.htm"
+        ],
+        "ref-rec-tm": [
+          "old-help:rec-tm.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-036.md",
+          "fromAnchor": "ref-rec-tm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver TM",
             "Related reference",
             "Related commands and tables"
           ]

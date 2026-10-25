@@ -1,7 +1,7 @@
 # Hero classes
 
 ID: erm.tables.hero-classes
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-classes/
+URL: /en/erm/tables/hero-classes/
 Part: 1/1
 Source references: old-help:form-heroesclasses.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -138,7 +138,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Hero experience thresholds
 
 ID: erm.tables.hero-levels
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-levels/
+URL: /en/erm/tables/hero-levels/
 Part: 1/1
 Source references: old-help:form-heroeslevels.htm, old-help:rec-he.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

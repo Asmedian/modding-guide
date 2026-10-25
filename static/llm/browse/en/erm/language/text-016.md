@@ -1,7 +1,7 @@
 # Town building-cost tables
 
 ID: erm.un-c.town-building-cost
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/town-building-cost/
+URL: /en/erm/un-c/town-building-cost/
 Part: 1/1
 Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

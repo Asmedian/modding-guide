@@ -2,93 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.triggers.onbattlestackobtainsturn",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "triggers/onbattlestackobtainsturn",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackobtainsturn/",
-      "title": "Passing control to a stack (OnBattleStackObtainsTurn)",
-      "summary": "x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale.",
-      "keywords": [
-        "OnBattleStackObtainsTurn",
-        "77006"
-      ],
-      "questions": [
-        "x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale."
-      ],
-      "sourceRefs": [
-        "era-source:erm.pas",
-        "era-source:triggers.pas",
-        "era-source:adverm.pas",
-        "old-help:era-new-events.htm",
-        "era-changelog:era-iii-changelog.txt"
-      ],
-      "sectionSources": {
-        "event": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "declaration": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "identity": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "related": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "reference-links": [
-          "era-source:erm.pas",
-          "era-source:triggers.pas",
-          "era-source:adverm.pas",
-          "old-help:era-new-events.htm",
-          "era-changelog:era-iii-changelog.txt"
-        ],
-        "era3-updates": [
-          "era-changelog:era-iii-changelog.txt"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
-          "fromAnchor": "event",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Timing and arguments",
-            "Declaration",
-            "Identity and compatibility",
-            "Related references",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.triggers.mf",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "triggers/mf",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mf/",
+      "url": "/en/erm/triggers/mf/",
       "title": "Physical damage calculation (MF)",
       "summary": "Fires before damage is dealt. MF reads the target and changes final damage.",
       "keywords": [
@@ -144,7 +63,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-mf",
           "toAnchor": "reference-links",
           "headings": [
@@ -165,7 +84,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onsavegameread",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onsavegameread/",
+      "url": "/en/erm/triggers/onsavegameread/",
       "title": "Reading save data (OnSavegameRead)",
       "summary": "After ERM variables are restored. No arguments. Read custom sections here; pointers from the previous session are invalid.",
       "keywords": [
@@ -227,7 +146,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -246,7 +165,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/tl",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/",
+      "url": "/en/erm/triggers/tl/",
       "title": "Real-time timer (TL)",
       "summary": "Index 0 means 1 second, 1 means 2 seconds, 2 means 5 seconds, 3 means 10 seconds, and 4 means 60 seconds.",
       "keywords": [
@@ -306,7 +225,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-008.md",
           "fromAnchor": "ref-tr-tl",
           "toAnchor": "reference-links",
           "headings": [
@@ -327,7 +246,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onrecruitdlgrecalc",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgrecalc/",
+      "url": "/en/erm/triggers/onrecruitdlgrecalc/",
       "title": "Recalculating recruitment cost (OnRecruitDlgRecalc)",
       "summary": "x1 is gold per creature; x2 extra resource 0..5 or -1; x3 amount of that resource per creature. All three values are mutable.",
       "keywords": [
@@ -386,7 +305,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -405,7 +324,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onrecruitdlgaction",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgaction/",
+      "url": "/en/erm/triggers/onrecruitdlgaction/",
       "title": "Recruitment action (OnRecruitDlgAction)",
       "summary": "x1 is the number of creatures recruited, read-only. RD provides the current dialog configuration.",
       "keywords": [
@@ -464,7 +383,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -483,7 +402,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onrecruitdlgmouseclick",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgmouseclick/",
+      "url": "/en/erm/triggers/onrecruitdlgmouseclick/",
       "title": "Recruitment mouse click (OnRecruitDlgMouseClick)",
       "summary": "Read mouse context through CM and recruitment state through RD. Use CM:R0 to suppress the default reaction, rather than merely leaving the handler.",
       "keywords": [
@@ -545,7 +464,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "url": "/llm/browse/en/erm/triggers/text-007.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -564,7 +483,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/onbattleregeneratephase",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleregeneratephase/",
+      "url": "/en/erm/triggers/onbattleregeneratephase/",
       "title": "Regeneration phase (OnBattleRegeneratePhase)",
       "summary": "x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount.",
       "keywords": [
@@ -623,7 +542,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "url": "/llm/browse/en/erm/triggers/text-004.md",
           "fromAnchor": "event",
           "toAnchor": "reference-links",
           "headings": [
@@ -642,7 +561,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/gm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/gm/",
+      "url": "/en/erm/triggers/gm/",
       "title": "Saving and loading (GM)",
       "summary": "0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves.",
       "keywords": [
@@ -699,7 +618,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "url": "/llm/browse/en/erm/triggers/text-002.md",
           "fromAnchor": "ref-tr-gm",
           "toAnchor": "reference-links",
           "headings": [
@@ -720,7 +639,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "triggers/sn",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/sn/",
+      "url": "/en/erm/triggers/sn/",
       "title": "Sound playback (SN)",
       "summary": "Intercepts an attempt to play a WAV/M82 sound effect. SN provides the playback parameters.",
       "keywords": [
@@ -776,7 +695,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "url": "/llm/browse/en/erm/triggers/text-008.md",
           "fromAnchor": "ref-tr-sn",
           "toAnchor": "reference-links",
           "headings": [
@@ -786,6 +705,87 @@
             "ERA names and aliases",
             "Limitations and ordering",
             "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbattlestackregeneration",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbattlestackregeneration",
+      "url": "/en/erm/triggers/onbattlestackregeneration/",
+      "title": "Stack regeneration amount (OnBattleStackRegeneration)",
+      "summary": "x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase.",
+      "keywords": [
+        "OnBattleStackRegeneration",
+        "77056"
+      ],
+      "questions": [
+        "x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
             "Related commands and tables"
           ]
         }

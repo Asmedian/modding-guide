@@ -1,7 +1,7 @@
 # Wagon (WG)
 
 ID: erm.receivers.wg
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wg/
+URL: /en/erm/receivers/wg/
 Part: 1/1
 Source references: old-help:rec-wg.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -82,7 +82,7 @@ Is there a bonus or not:<br>
 # Witch hut (WH)
 
 ID: erm.receivers.wh
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wh/
+URL: /en/erm/receivers/wh/
 Part: 1/1
 Source references: old-help:rec-wh.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -146,7 +146,7 @@ Set/check/get a skill (<a href="../../tables/secondary-skills/#ref-form-secondar
 # Water wheel (WM)
 
 ID: erm.receivers.wm
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wm/
+URL: /en/erm/receivers/wm/
 Part: 1/1
 Source references: old-help:rec-wm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -212,7 +212,7 @@ When $=0, the mill is considered visited.</div>
 # Warrior tomb (WT)
 
 ID: erm.receivers.wt
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wt/
+URL: /en/erm/receivers/wt/
 Part: 1/1
 Source references: old-help:rec-wt.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

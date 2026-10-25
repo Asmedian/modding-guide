@@ -1,7 +1,7 @@
 # General game operations (UN)
 
 ID: erm.receivers.un
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/un/
+URL: /en/erm/receivers/un/
 Part: 4/4
 Source references: old-help:rec-un.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -290,7 +290,7 @@ You can only check or receive.<br>
 # University (UR)
 
 ID: erm.receivers.ur
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ur/
+URL: /en/erm/receivers/ur/
 Part: 1/1
 Source references: old-help:rec-ur.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

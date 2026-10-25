@@ -2,154 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.tables.cursors",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "tables/cursors",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/cursors/",
-      "title": "Mouse cursors",
-      "summary": "Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact.",
-      "keywords": [
-        "Mouse cursors"
-      ],
-      "questions": [
-        "Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact."
-      ],
-      "sourceRefs": [
-        "old-help:form-mousepointers.htm",
-        "old-help:rec-un.htm"
-      ],
-      "sectionSources": {
-        "meaning": [
-          "old-help:form-mousepointers.htm",
-          "old-help:rec-un.htm"
-        ],
-        "c0": [
-          "old-help:form-mousepointers.htm",
-          "old-help:rec-un.htm"
-        ],
-        "c1": [
-          "old-help:form-mousepointers.htm",
-          "old-help:rec-un.htm"
-        ],
-        "c2": [
-          "old-help:form-mousepointers.htm",
-          "old-help:rec-un.htm"
-        ],
-        "reference-links": [
-          "old-help:form-mousepointers.htm",
-          "old-help:rec-un.htm"
-        ],
-        "ref-form-mousepointers": [
-          "old-help:form-mousepointers.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-023.md",
-          "fromAnchor": "ref-form-mousepointers",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Cursors",
-            "Type and subtype",
-            "Cursor type 0",
-            "Cursor type 1",
-            "Cursor type 2",
-            "Related commands and tables"
-          ]
-        },
-        {
-          "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-024.md",
-          "fromAnchor": null,
-          "toAnchor": null,
-          "headings": []
-        }
-      ]
-    },
-    {
-      "id": "erm.tables.music",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "tables/music",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/music/",
-      "title": "Music: IDs and MP3 names",
-      "summary": "Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions.",
-      "keywords": [
-        "Music: IDs and MP3 names"
-      ],
-      "questions": [
-        "Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions."
-      ],
-      "sourceRefs": [
-        "old-help:form-mp3.htm",
-        "old-help:form-track.htm",
-        "old-help:rec-mp.htm",
-        "old-help:rec-vr.htm"
-      ],
-      "sectionSources": {
-        "meaning": [
-          "old-help:form-mp3.htm",
-          "old-help:form-track.htm",
-          "old-help:rec-mp.htm",
-          "old-help:rec-vr.htm"
-        ],
-        "values": [
-          "old-help:form-mp3.htm",
-          "old-help:form-track.htm",
-          "old-help:rec-mp.htm",
-          "old-help:rec-vr.htm"
-        ],
-        "related": [
-          "old-help:form-mp3.htm",
-          "old-help:form-track.htm",
-          "old-help:rec-mp.htm",
-          "old-help:rec-vr.htm"
-        ],
-        "reference-links": [
-          "old-help:form-mp3.htm",
-          "old-help:form-track.htm",
-          "old-help:rec-mp.htm",
-          "old-help:rec-vr.htm"
-        ],
-        "ref-form-mp3": [
-          "old-help:form-mp3.htm"
-        ],
-        "ref-form-track": [
-          "old-help:form-track.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-032.md",
-          "fromAnchor": "ref-form-mp3",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Table 2 MP3-files",
-            "Table 2 MP3-files",
-            "Purpose",
-            "Values",
-            "Related commands and tables",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.tables.text-colors",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "tables/text-colors",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/text-colors/",
+      "url": "/en/erm/tables/text-colors/",
       "title": "Named text colors",
       "summary": "Rainbow.pas color names and RGB values without the alpha byte.",
       "keywords": [
@@ -184,7 +42,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-049.md",
+          "url": "/llm/browse/en/erm/tables/text-049.md",
           "fromAnchor": "ref-form-colors",
           "toAnchor": "related",
           "headings": [
@@ -202,7 +60,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/object-control-words",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/object-control-words/",
+      "url": "/en/erm/tables/object-control-words/",
       "title": "Object control words",
       "summary": "The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data.",
       "keywords": [
@@ -248,7 +106,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-033.md",
+          "url": "/llm/browse/en/erm/tables/text-033.md",
           "fromAnchor": "source-link-corrections",
           "toAnchor": "ref-cont-conwords-t14",
           "headings": [
@@ -263,21 +121,21 @@
         },
         {
           "part": 2,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-034.md",
+          "url": "/llm/browse/en/erm/tables/text-034.md",
           "fromAnchor": "ref-cont-conwords-t16",
           "toAnchor": "ref-cont-conwords-t55",
           "headings": []
         },
         {
           "part": 3,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-035.md",
+          "url": "/llm/browse/en/erm/tables/text-035.md",
           "fromAnchor": "ref-cont-conwords-t57",
           "toAnchor": "ref-cont-conwords-t104",
           "headings": []
         },
         {
           "part": 4,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-036.md",
+          "url": "/llm/browse/en/erm/tables/text-036.md",
           "fromAnchor": "ref-cont-conwords-t105",
           "toAnchor": "reference-links",
           "headings": [
@@ -297,7 +155,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/obstacle-flags",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/obstacle-flags/",
+      "url": "/en/erm/tables/obstacle-flags/",
       "title": "Obstacle flags",
       "summary": "BU:O returns a combination of cell flags; bit position differs from bit value.",
       "keywords": [
@@ -337,7 +195,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-038.md",
+          "url": "/llm/browse/en/erm/tables/text-038.md",
           "fromAnchor": "ref-form-obstacles-bit",
           "toAnchor": "reference-links",
           "headings": [
@@ -356,7 +214,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/one-way-monoliths",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/one-way-monoliths/",
+      "url": "/en/erm/tables/one-way-monoliths/",
       "title": "One-way monoliths",
       "summary": "Subtypes of object 43. One-way entrances and exits use different types, 43 and 44.",
       "keywords": [
@@ -395,7 +253,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "url": "/llm/browse/en/erm/tables/text-040.md",
           "fromAnchor": "ref-form-one-way-monolith",
           "toAnchor": "reference-links",
           "headings": [
@@ -414,7 +272,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/players",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/players/",
+      "url": "/en/erm/tables/players/",
       "title": "Player colors",
       "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
       "keywords": [
@@ -462,7 +320,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "url": "/llm/browse/en/erm/tables/text-040.md",
           "fromAnchor": "ref-form-gamerscolor",
           "toAnchor": "related",
           "headings": [
@@ -483,7 +341,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/projectiles",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/projectiles/",
+      "url": "/en/erm/tables/projectiles/",
       "title": "Projectiles and beams",
       "summary": "A projectile image type differs from creature type and shooter flags.",
       "keywords": [
@@ -521,7 +379,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "url": "/llm/browse/en/erm/tables/text-040.md",
           "fromAnchor": "ref-form-weapon",
           "toAnchor": "reference-links",
           "headings": [
@@ -541,7 +399,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/recruitment-dialog",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/recruitment-dialog/",
+      "url": "/en/erm/tables/recruitment-dialog/",
       "title": "RD recruitment dialog",
       "summary": "Recruitment dialog layout: three creature variants, price, stock, quantity and confirmation. Configure this dialog with RD.",
       "keywords": [
@@ -580,7 +438,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "url": "/llm/browse/en/erm/tables/text-040.md",
           "fromAnchor": "ref-form-rd-s1",
           "toAnchor": "reference-links",
           "headings": [
@@ -599,7 +457,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/resources",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/resources/",
+      "url": "/en/erm/tables/resources/",
       "title": "Resources",
       "summary": "IDs from the standard WoG set. Adventure-map object: type 79.",
       "keywords": [
@@ -644,7 +502,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "url": "/llm/browse/en/erm/tables/text-040.md",
           "fromAnchor": "ref-form-resource",
           "toAnchor": "reference-links",
           "headings": [
@@ -664,7 +522,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/secondary-skill-pictures",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skill-pictures/",
+      "url": "/en/erm/tables/secondary-skill-pictures/",
       "title": "Secondary skill pictures",
       "summary": "Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.",
       "keywords": [
@@ -703,7 +561,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-041.md",
+          "url": "/llm/browse/en/erm/tables/text-041.md",
           "fromAnchor": "ref-form-secondaryskill-if",
           "toAnchor": "reference-links",
           "headings": [
@@ -722,7 +580,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/secondary-skills",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skills/",
+      "url": "/en/erm/tables/secondary-skills/",
       "title": "Secondary skills",
       "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
       "keywords": [
@@ -766,7 +624,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-041.md",
+          "url": "/llm/browse/en/erm/tables/text-041.md",
           "fromAnchor": "ref-form-secondaryskill",
           "toAnchor": "reference-links",
           "headings": [
@@ -786,7 +644,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "tables/special-terrain",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/special-terrain/",
+      "url": "/en/erm/tables/special-terrain/",
       "title": "Special terrain objects",
       "summary": "These are map object IDs, not basic terrain IDs.",
       "keywords": [
@@ -820,7 +678,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-042.md",
+          "url": "/llm/browse/en/erm/tables/text-042.md",
           "fromAnchor": "ref-form-specterrain",
           "toAnchor": "reference-links",
           "headings": [
@@ -828,6 +686,192 @@
             "Purpose",
             "Values",
             "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.spells",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/spells",
+      "url": "/en/erm/tables/spells/",
+      "title": "Spell table",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Spell table",
+        "spells"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-spell.htm",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-spell-hex.htm",
+        "old-help:form-spella.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-spell": [
+          "old-help:form-spell.htm"
+        ],
+        "ref-form-spell-hex": [
+          "old-help:form-spell-hex.htm"
+        ],
+        "ref-form-spella": [
+          "old-help:form-spella.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/tables/text-046.md",
+          "fromAnchor": "ref-form-spell",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Spell table in numerical order",
+            "Numeric Spell Table (HEX) ;",
+            "Spell table in numerical order",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.stack-experience-abilities",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/stack-experience-abilities",
+      "url": "/en/erm/tables/stack-experience-abilities/",
+      "title": "Stack experience abilities",
+      "summary": "EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes.",
+      "keywords": [
+        "Stack experience abilities"
+      ],
+      "questions": [
+        "EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes."
+      ],
+      "sourceRefs": [
+        "old-help:form-specexp1.htm",
+        "old-help:rec-ea.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "values": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "ref-form-specexp1": [
+          "old-help:form-specexp1.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/tables/text-047.md",
+          "fromAnchor": "ref-form-specexp1",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Creature Ability Table",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.border-colors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/border-colors",
+      "url": "/en/erm/tables/border-colors/",
+      "title": "Tent and border colors",
+      "summary": "Tent is type 10, guard 9, gate 212. These are key colors, not player colors.",
+      "keywords": [
+        "Tent and border colors",
+        "border-colors"
+      ],
+      "questions": [
+        "Tent is type 10, guard 9, gate 212. These are key colors, not player colors."
+      ],
+      "sourceRefs": [
+        "old-help:form-bg.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-bg.htm"
+        ],
+        "values": [
+          "old-help:form-bg.htm"
+        ],
+        "related": [
+          "old-help:form-bg.htm"
+        ],
+        "reference-links": [
+          "old-help:form-bg.htm"
+        ],
+        "ref-form-bg": [
+          "old-help:form-bg.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/tables/text-009.md",
+          "fromAnchor": "ref-form-bg",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Border Guard & Tent Colors",
+            "Purpose",
+            "Values",
+            "Catalogs",
             "Related commands and tables"
           ]
         }

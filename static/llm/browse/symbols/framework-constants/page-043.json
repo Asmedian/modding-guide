@@ -2,20 +2,98 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "OBJ_OUTCROPPING",
+      "name": "ORD_UPPER_X",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-outcropping",
+      "slug": "framework/constants/character-codes",
+      "anchor": "const-ord-upper-x",
       "aliases": [],
-      "label": "OBJ_OUTCROPPING = 136",
+      "label": "ORD_UPPER_X = 88",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-outcropping"
+        "en": "/en/erm/framework/constants/character-codes/#const-ord-upper-x"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ORD_UPPER_Y",
+      "kind": "constant",
+      "slug": "framework/constants/character-codes",
+      "anchor": "const-ord-upper-y",
+      "aliases": [],
+      "label": "ORD_UPPER_Y = 89",
+      "destinations": {
+        "en": "/en/erm/framework/constants/character-codes/#const-ord-upper-y"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ORD_UPPER_Z",
+      "kind": "constant",
+      "slug": "framework/constants/character-codes",
+      "anchor": "const-ord-upper-z",
+      "aliases": [],
+      "label": "ORD_UPPER_Z = 90",
+      "destinations": {
+        "en": "/en/erm/framework/constants/character-codes/#const-ord-upper-z"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_ART",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-art",
+      "aliases": [],
+      "label": "PIC_TYPE_ART = 8",
+      "destinations": {
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-art"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -29,20 +107,20 @@
       }
     },
     {
-      "name": "OBJ_OUTCROPPING_2",
+      "name": "PIC_TYPE_CASTLE_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-outcropping-2",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-castle-town-building",
       "aliases": [],
-      "label": "OBJ_OUTCROPPING_2 = 187",
+      "label": "PIC_TYPE_CASTLE_TOWN_BUILDING = 22",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-outcropping-2"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-castle-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -56,20 +134,20 @@
       }
     },
     {
-      "name": "OBJ_PANDORAS_BOX",
+      "name": "PIC_TYPE_CONFLUX_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-pandoras-box",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-conflux-town-building",
       "aliases": [],
-      "label": "OBJ_PANDORAS_BOX = 6",
+      "label": "PIC_TYPE_CONFLUX_TOWN_BUILDING = 30",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-pandoras-box"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-conflux-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -83,20 +161,20 @@
       }
     },
     {
-      "name": "OBJ_PILLAR_OF_FIRE",
+      "name": "PIC_TYPE_DUNGEON_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-pillar-of-fire",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-dungeon-town-building",
       "aliases": [],
-      "label": "OBJ_PILLAR_OF_FIRE = 60",
+      "label": "PIC_TYPE_DUNGEON_TOWN_BUILDING = 27",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-pillar-of-fire"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-dungeon-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -110,20 +188,20 @@
       }
     },
     {
-      "name": "OBJ_PINE_TREES",
+      "name": "PIC_TYPE_EXPERIENCE",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-pine-trees",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-experience",
       "aliases": [],
-      "label": "OBJ_PINE_TREES = 137",
+      "label": "PIC_TYPE_EXPERIENCE = 17",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-pine-trees"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-experience"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -137,20 +215,20 @@
       }
     },
     {
-      "name": "OBJ_PINE_TREES_2",
+      "name": "PIC_TYPE_FIRST_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-pine-trees-2",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-first-town-building",
       "aliases": [],
-      "label": "OBJ_PINE_TREES_2 = 188",
+      "label": "PIC_TYPE_FIRST_TOWN_BUILDING = 22",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-pine-trees-2"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-first-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -164,20 +242,20 @@
       }
     },
     {
-      "name": "OBJ_PLANT",
+      "name": "PIC_TYPE_FLAG",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-plant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-flag",
       "aliases": [],
-      "label": "OBJ_PLANT = 138",
+      "label": "PIC_TYPE_FLAG = 10",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-plant"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-flag"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -191,20 +269,20 @@
       }
     },
     {
-      "name": "OBJ_PLANT_2",
+      "name": "PIC_TYPE_FLAG_DISPLAY_ZEROS",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-plant-2",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-flag-display-zeros",
       "aliases": [],
-      "label": "OBJ_PLANT_2 = 189",
+      "label": "PIC_TYPE_FLAG_DISPLAY_ZEROS = -2147483648",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-plant-2"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-flag-display-zeros"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -218,20 +296,20 @@
       }
     },
     {
-      "name": "OBJ_PRISON",
+      "name": "PIC_TYPE_FORTRESS_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-prison",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-fortress-town-building",
       "aliases": [],
-      "label": "OBJ_PRISON = 62",
+      "label": "PIC_TYPE_FORTRESS_TOWN_BUILDING = 29",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-prison"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-fortress-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -245,20 +323,20 @@
       }
     },
     {
-      "name": "OBJ_QUEST_GUARD",
+      "name": "PIC_TYPE_INFERNO_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-quest-guard",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-inferno-town-building",
       "aliases": [],
-      "label": "OBJ_QUEST_GUARD = 215",
+      "label": "PIC_TYPE_INFERNO_TOWN_BUILDING = 25",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-quest-guard"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-inferno-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -272,20 +350,20 @@
       }
     },
     {
-      "name": "OBJ_RALLY_FLAG",
+      "name": "PIC_TYPE_LAST_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-rally-flag",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-last-town-building",
       "aliases": [],
-      "label": "OBJ_RALLY_FLAG = 64",
+      "label": "PIC_TYPE_LAST_TOWN_BUILDING = 30",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-rally-flag"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-last-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -299,20 +377,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_ARTIFACT",
+      "name": "PIC_TYPE_LUCK_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-artifact",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-luck-first",
       "aliases": [],
-      "label": "OBJ_RANDOM_ARTIFACT = 65",
+      "label": "PIC_TYPE_LUCK_FIRST = 11",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-artifact"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -326,20 +404,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_DWELLING",
+      "name": "PIC_TYPE_LUCK_LAST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-dwelling",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-luck-last",
       "aliases": [],
-      "label": "OBJ_RANDOM_DWELLING = 216",
+      "label": "PIC_TYPE_LUCK_LAST = 13",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-dwelling"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-last"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -353,20 +431,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_HERO",
+      "name": "PIC_TYPE_LUCK_NEGATIVE",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-hero",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-luck-negative",
       "aliases": [],
-      "label": "OBJ_RANDOM_HERO = 70",
+      "label": "PIC_TYPE_LUCK_NEGATIVE = 13",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-hero"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-negative"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -380,20 +458,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MAJOR_ARTIFACT",
+      "name": "PIC_TYPE_LUCK_NEUTRAL",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-major-artifact",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-luck-neutral",
       "aliases": [],
-      "label": "OBJ_RANDOM_MAJOR_ARTIFACT = 68",
+      "label": "PIC_TYPE_LUCK_NEUTRAL = 12",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-major-artifact"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-neutral"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -407,20 +485,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MINOR_ARTIFACT",
+      "name": "PIC_TYPE_LUCK_POSITIVE",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-minor-artifact",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-luck-positive",
       "aliases": [],
-      "label": "OBJ_RANDOM_MINOR_ARTIFACT = 67",
+      "label": "PIC_TYPE_LUCK_POSITIVE = 11",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-minor-artifact"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-positive"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -434,20 +512,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER",
+      "name": "PIC_TYPE_MONEY",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-money",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER = 71",
+      "label": "PIC_TYPE_MONEY = 36",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-money"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -461,20 +539,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_1",
+      "name": "PIC_TYPE_MONSTER",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-1",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-monster",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_1 = 72",
+      "label": "PIC_TYPE_MONSTER = 21",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-1"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-monster"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -488,20 +566,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_2",
+      "name": "PIC_TYPE_MORALE_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-2",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-morale-first",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_2 = 73",
+      "label": "PIC_TYPE_MORALE_FIRST = 14",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-2"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -515,20 +593,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_3",
+      "name": "PIC_TYPE_MORALE_LAST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-3",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-morale-last",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_3 = 74",
+      "label": "PIC_TYPE_MORALE_LAST = 16",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-3"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-last"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -542,20 +620,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_4",
+      "name": "PIC_TYPE_MORALE_NEGATIVE",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-4",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-morale-negative",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_4 = 75",
+      "label": "PIC_TYPE_MORALE_NEGATIVE = 16",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-4"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-negative"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -569,20 +647,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_5",
+      "name": "PIC_TYPE_MORALE_NEUTRAL",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-5",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-morale-neutral",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_5 = 162",
+      "label": "PIC_TYPE_MORALE_NEUTRAL = 15",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-5"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-neutral"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -596,20 +674,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_6",
+      "name": "PIC_TYPE_MORALE_POSITIVE",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-6",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-morale-positive",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_6 = 163",
+      "label": "PIC_TYPE_MORALE_POSITIVE = 14",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-6"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-positive"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -623,20 +701,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_MONSTER_7",
+      "name": "PIC_TYPE_NECROPOLIS_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-monster-7",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-necropolis-town-building",
       "aliases": [],
-      "label": "OBJ_RANDOM_MONSTER_7 = 164",
+      "label": "PIC_TYPE_NECROPOLIS_TOWN_BUILDING = 26",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-monster-7"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-necropolis-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -650,20 +728,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_RELIC",
+      "name": "PIC_TYPE_PRIM_SKILL_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-relic",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-prim-skill-first",
       "aliases": [],
-      "label": "OBJ_RANDOM_RELIC = 69",
+      "label": "PIC_TYPE_PRIM_SKILL_FIRST = 31",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-relic"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-prim-skill-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -677,20 +755,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_RESOURCE",
+      "name": "PIC_TYPE_PRIM_SKILL_LAST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-resource",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-prim-skill-last",
       "aliases": [],
-      "label": "OBJ_RANDOM_RESOURCE = 76",
+      "label": "PIC_TYPE_PRIM_SKILL_LAST = (PIC_TYPE_SKILL_KNOWLEDGE)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-resource"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-prim-skill-last"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -704,20 +782,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_TOWN",
+      "name": "PIC_TYPE_RAMPART_TOWN_BUILDING",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-town",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-rampart-town-building",
       "aliases": [],
-      "label": "OBJ_RANDOM_TOWN = 77",
+      "label": "PIC_TYPE_RAMPART_TOWN_BUILDING = 23",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-town"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-rampart-town-building"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -731,20 +809,20 @@
       }
     },
     {
-      "name": "OBJ_RANDOM_TREASURE_ARTIFACT",
+      "name": "PIC_TYPE_RES_CRYSTAL",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-random-treasure-artifact",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-crystal",
       "aliases": [],
-      "label": "OBJ_RANDOM_TREASURE_ARTIFACT = 66",
+      "label": "PIC_TYPE_RES_CRYSTAL = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-random-treasure-artifact"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-crystal"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -758,20 +836,20 @@
       }
     },
     {
-      "name": "OBJ_REDWOOD_OBSERVATORY",
+      "name": "PIC_TYPE_RES_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-redwood-observatory",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-first",
       "aliases": [],
-      "label": "OBJ_REDWOOD_OBSERVATORY = 58",
+      "label": "PIC_TYPE_RES_FIRST = (PIC_TYPE_RES_WOOD)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-redwood-observatory"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -785,20 +863,20 @@
       }
     },
     {
-      "name": "OBJ_REEF",
+      "name": "PIC_TYPE_RES_GEMS",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-reef",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-gems",
       "aliases": [],
-      "label": "OBJ_REEF = 161",
+      "label": "PIC_TYPE_RES_GEMS = 5",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-reef"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-gems"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -812,47 +890,20 @@
       }
     },
     {
-      "name": "OBJ_REEF_2",
+      "name": "PIC_TYPE_RES_GOLD",
       "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-reef-2",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-gold",
       "aliases": [],
-      "label": "OBJ_REEF_2 = 205",
+      "label": "PIC_TYPE_RES_GOLD = 6",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-reef-2"
+        "en": "/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-gold"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "used-by",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups",
-              "Used by Framework"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "OBJ_REFUGEE_CAMP",
-      "kind": "constant",
-      "slug": "framework/constants/object-types",
-      "anchor": "const-obj-refugee-camp",
-      "aliases": [],
-      "label": "OBJ_REFUGEE_CAMP = 78",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-refugee-camp"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-004.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

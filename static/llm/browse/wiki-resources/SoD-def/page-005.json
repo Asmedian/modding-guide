@@ -2,817 +2,1157 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/AH16_e.def",
-      "name": "AH16_e.def",
+      "id": "H3sprite.lod/AH06_.def",
+      "name": "AH06_.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 2699,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AH16_e.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 96,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AH16_e.def.webp",
-      "previewWidth": 52,
-      "previewHeight": 58,
-      "anchor": "file-2c4947df6a53",
-      "sha256": "39a4e5896a2f0b8cf3fd954797774277b6f3dda2d6ec0bcf02aef312d5d398fb",
-      "maskId": "H3sprite.lod/AH16_e.msk",
-      "destinations": [
-        {
-          "category": [
-            "Heroes and their flags"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AH17_.DEF",
-      "name": "AH17_.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 70902,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AH17_.DEF",
+      "bytes": 69414,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH06_.def",
       "kind": "def",
       "type": 68,
       "groups": 10,
       "frames": 45,
       "width": 96,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AH17_.DEF.webp",
-      "previewWidth": 26,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH06_.def.webp",
+      "previewWidth": 22,
       "previewHeight": 58,
-      "anchor": "file-e0cdd9651cd5",
-      "sha256": "384af0f97aa27065e85dfcccdf9132a221f7531458920768242ae889270176bc",
-      "maskId": "H3sprite.lod/AH17_.msk",
+      "anchor": "file-5d1f4f21c88a",
+      "sha256": "adf79736a80498c7d2b34661f83991b0190babddcaf28a238d48c6a62a8df51b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH06_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Inferno heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH06_E.def",
+      "name": "AH06_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2611,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH06_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH06_E.def.webp",
+      "previewWidth": 47,
+      "previewHeight": 58,
+      "anchor": "file-c56ae95fe4b0",
+      "sha256": "dfd05ff3504596c865957208f00fd4650492a8a1e77ad6be43dbef7264f2d899",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH06_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH07_.def",
+      "name": "AH07_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 71414,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH07_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH07_.def.webp",
+      "previewWidth": 23,
+      "previewHeight": 58,
+      "anchor": "file-92789b3bb868",
+      "sha256": "60d4ba6654b05ea39abdd45388dd4e083c5bbff48f204d152d79efd6ab7f45bb",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH07_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Inferno heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH07_E.def",
+      "name": "AH07_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2602,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH07_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH07_E.def.webp",
+      "previewWidth": 50,
+      "previewHeight": 58,
+      "anchor": "file-f5ef3bc6452e",
+      "sha256": "96bda091c66158d1d4925660a3bdb099e114dec4308164a21a35e9aee45164a5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH07_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH08_.def",
+      "name": "AH08_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 68830,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH08_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH08_.def.webp",
+      "previewWidth": 22,
+      "previewHeight": 58,
+      "anchor": "file-080dc7446def",
+      "sha256": "2144fe089678a5061b3d9fae2ba9f25e9b817707362fdc4db6e5359ffd9a5725",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH08_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Necropolis heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH08_E.def",
+      "name": "AH08_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2585,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH08_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH08_E.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 58,
+      "anchor": "file-752c269e0edf",
+      "sha256": "4d6f1cd718f6ef414fb6e97a4376180d3403a3b639691300279ba3292aaad987",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH08_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH09_.def",
+      "name": "AH09_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 70086,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH09_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH09_.def.webp",
+      "previewWidth": 22,
+      "previewHeight": 58,
+      "anchor": "file-177f5ff667bc",
+      "sha256": "971f4fd9899ec9341909e7f67397e7b2e3e6dbc065c8634fbdced73fcf8415d2",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH09_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Necropolis heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH09_E.def",
+      "name": "AH09_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2654,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH09_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH09_E.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 58,
+      "anchor": "file-ab670ea72168",
+      "sha256": "b048fb67d9aeb13662f7c341bd935b69b96095f47a20f3befebcc19d6603c780",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH09_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH10_.def",
+      "name": "AH10_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 71438,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH10_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH10_.def.webp",
+      "previewWidth": 24,
+      "previewHeight": 58,
+      "anchor": "file-9c1ab520fd92",
+      "sha256": "541545cb964ae961eec3f97ef42c8264ab6c6b94a8aedaeece1aeaf4ad6cd540",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH10_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Dungeon heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH10_E.def",
+      "name": "AH10_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2545,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH10_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH10_E.def.webp",
+      "previewWidth": 42,
+      "previewHeight": 58,
+      "anchor": "file-ad4528ce083b",
+      "sha256": "85d44a67453f1bf95eb08189303f3e5ef602ce7e0ba70efbe3579dd1f3b085bb",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH10_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH11_.def",
+      "name": "AH11_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 69003,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH11_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH11_.def.webp",
+      "previewWidth": 22,
+      "previewHeight": 58,
+      "anchor": "file-99cc6aa1b5cb",
+      "sha256": "4b4cc2bb9fee823e0d875fabc06c4a91bc911875cbe52042ee7a5f46a27ddb76",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH11_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Dungeon heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH11_E.def",
+      "name": "AH11_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2599,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH11_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH11_E.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 58,
+      "anchor": "file-df0c07389004",
+      "sha256": "07be143f29233c4ef152d6f92cbe6e5fa15701ce4fcd5b37e1522268d49741f2",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH11_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH12_.def",
+      "name": "AH12_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 67053,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH12_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH12_.def.webp",
+      "previewWidth": 22,
+      "previewHeight": 58,
+      "anchor": "file-7527d9376796",
+      "sha256": "6cbad848b631f6f6134c912069f1d00f698bdf1ae698445def2b8138c7a0b394",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH12_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Stronghold heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH12_E.def",
+      "name": "AH12_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2555,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH12_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH12_E.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 58,
+      "anchor": "file-86bc368122a0",
+      "sha256": "495ca3d5093390ffdebe0280be06c052ccdf737aa763779905512871393462bb",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH12_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH13_.def",
+      "name": "AH13_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 69683,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH13_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH13_.def.webp",
+      "previewWidth": 23,
+      "previewHeight": 58,
+      "anchor": "file-8c2d71e7f188",
+      "sha256": "bf51fc33feba760a09370e7dcf721c66bfd40a08fa105ff81eb61f9249b905e8",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH13_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Stronghold heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH13_E.def",
+      "name": "AH13_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2601,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH13_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH13_E.def.webp",
+      "previewWidth": 48,
+      "previewHeight": 58,
+      "anchor": "file-6f1fc5d5d0be",
+      "sha256": "55281ff9dae977278136a61817f643433a335006c6b3a96aecc40d1f98d75060",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH13_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH14_.def",
+      "name": "AH14_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 66394,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH14_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH14_.def.webp",
+      "previewWidth": 21,
+      "previewHeight": 58,
+      "anchor": "file-10e0183f3be7",
+      "sha256": "d0119d0125a4608c7e8a725e7324d7a6c7d7fa344367bed00f718a38cfc0eee9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH14_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Fortress heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH14_E.def",
+      "name": "AH14_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2575,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH14_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH14_E.def.webp",
+      "previewWidth": 47,
+      "previewHeight": 58,
+      "anchor": "file-7b141bff9225",
+      "sha256": "523181e7a2af0c865b304515818686e1ab5b38fd9aa6a185511994265c6e5b6c",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH14_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH15_.def",
+      "name": "AH15_.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 69462,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH15_.def",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH15_.def.webp",
+      "previewWidth": 22,
+      "previewHeight": 58,
+      "anchor": "file-18f53db8f49f",
+      "sha256": "e40cd2d6ac9b62f9c98d907a92840bb1ec3a2dfc8cfdd531cdd06b8cf11a3bf1",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH15_.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes",
+            "Fortress heroes"
+          ],
+          "en": "/en/wiki/sprite/2/3/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH15_E.def",
+      "name": "AH15_E.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2623,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH15_E.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH15_E.def.webp",
+      "previewWidth": 47,
+      "previewHeight": 58,
+      "anchor": "file-cc98e673bfb7",
+      "sha256": "f5efcec06a5522a09b9445069cafec0a93ccbaa5877999128cb06f37c9c002a6",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH15_E.msk",
+      "destinations": [
+        {
+          "category": [
+            "Heroes and their flags"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AH16_.DEF",
+      "name": "AH16_.DEF",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 71969,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH16_.DEF",
+      "kind": "def",
+      "type": 68,
+      "groups": 10,
+      "frames": 45,
+      "width": 96,
+      "height": 64,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH16_.DEF.webp",
+      "previewWidth": 23,
+      "previewHeight": 58,
+      "anchor": "file-4a4136438122",
+      "sha256": "640f763312556341bbd01199bdd16a19fad37a0dbcd84270cf126b3d08268b9e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        },
+        {
+          "id": 1,
+          "frames": 1
+        },
+        {
+          "id": 2,
+          "frames": 1
+        },
+        {
+          "id": 3,
+          "frames": 1
+        },
+        {
+          "id": 4,
+          "frames": 1
+        },
+        {
+          "id": 5,
+          "frames": 8
+        },
+        {
+          "id": 6,
+          "frames": 8
+        },
+        {
+          "id": 7,
+          "frames": 8
+        },
+        {
+          "id": 8,
+          "frames": 8
+        },
+        {
+          "id": 9,
+          "frames": 8
+        }
+      ],
+      "maskId": "H3sprite.lod/AH16_.msk",
       "destinations": [
         {
           "category": [
             "Heroes",
             "Conflux heroes"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/3/"
+          "en": "/en/wiki/sprite/2/3/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/AH17_e.def",
-      "name": "AH17_e.def",
+      "id": "H3sprite.lod/AH16_e.def",
+      "name": "AH16_e.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 2611,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AH17_e.def",
+      "bytes": 2699,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AH16_e.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 96,
       "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AH17_e.def.webp",
-      "previewWidth": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AH16_e.def.webp",
+      "previewWidth": 52,
       "previewHeight": 58,
-      "anchor": "file-c732ae636452",
-      "sha256": "a89f67dfdb5259752036c06d47023cb49684cc676195982bde79e704a1ad31dc",
-      "maskId": "H3sprite.lod/AH17_e.msk",
+      "anchor": "file-2c4947df6a53",
+      "sha256": "39a4e5896a2f0b8cf3fd954797774277b6f3dda2d6ec0bcf02aef312d5d398fb",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AH16_e.msk",
       "destinations": [
         {
           "category": [
             "Heroes and their flags"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AHplace.def",
-      "name": "AHplace.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 2569,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AHplace.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 96,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AHplace.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 58,
-      "anchor": "file-b11af5253df4",
-      "sha256": "3359ee01129d88d06eb12f4136d97f4726ef9915b0937c67e425baa84be2659e",
-      "maskId": "H3sprite.lod/AHplace.msk",
-      "destinations": [
-        {
-          "category": [
-            "Heroes and their flags"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AHRANDOM.def",
-      "name": "AHRANDOM.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 2568,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AHRANDOM.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 96,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AHRANDOM.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 58,
-      "anchor": "file-c13120a4b54d",
-      "sha256": "123271705c79ac72279c11dff1ee49155f0d03f11bfaf82940bd9d3eefbc8b6a",
-      "maskId": "H3sprite.lod/AHRANDOM.msk",
-      "destinations": [
-        {
-          "category": [
-            "Heroes and their flags"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AltArmy.def",
-      "name": "AltArmy.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AltArmy.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AltArmy.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-e073dd1baaaa",
-      "sha256": "904bb12d7f1ad2327a2ff9dbf1d4e7b89e24e4414f3a395795c969a9eb03485f",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Altar of Sacrifice"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AltArt.def",
-      "name": "AltArt.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AltArt.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AltArt.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-2569e6c9e540",
-      "sha256": "117d7cc24cc309d74e646594ee50d3b9c4b2f9403cf1d424401809f1c29968a4",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Altar of Sacrifice"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AltEmBk.def",
-      "name": "AltEmBk.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AltEmBk.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AltEmBk.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-c4cd5f805402",
-      "sha256": "3a9be2ae91c39e8d124e1bc435666bcc80d5e365d7dd9238382faa86bfddb4f2",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Altar of Sacrifice"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AltFill.def",
-      "name": "AltFill.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AltFill.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AltFill.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-1d8a157ede6d",
-      "sha256": "fa52af62f6f39add453572a1fcb6fd56a7ee26187d211447ff1493b284223290",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Altar of Sacrifice"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AltSacC.def",
-      "name": "AltSacC.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AltSacC.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AltSacC.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-ef30ea2c01f5",
-      "sha256": "be81881b347ac44da8c4786710fe9d8aba42602defeef31c6ab01afe4ad1629a",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Altar of Sacrifice"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AltSacr.def",
-      "name": "AltSacr.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9956,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AltSacr.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AltSacr.def.webp",
-      "previewWidth": 64,
-      "previewHeight": 32,
-      "anchor": "file-ff39bd23aad4",
-      "sha256": "494fb51ad3de37b75a0aba72caa31493706437a59a951f0f02aca1f1c69ecf9c",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Altar of Sacrifice"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-3/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBB.DEF",
-      "name": "AOFLGBB.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBB.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBB.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-6b18c49d2a05",
-      "sha256": "99e1b89cd5c0d53a9b7a0544d38df4063f4006fa8456ad87540b4d3ffbe940be",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Blue"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBG.DEF",
-      "name": "AOFLGBG.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBG.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBG.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-510eaf50dca2",
-      "sha256": "877892f53fca8ef1479623b1d118152b61aedb38bde12b6a0545c2ce9210f458",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Green"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBO.DEF",
-      "name": "AOFLGBO.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBO.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBO.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-57b7e897ca52",
-      "sha256": "f10bcca82c3564b608edf86604d47c671ba2fa57f3c2abeec31d454f0ca824ad",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Orange"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBP.DEF",
-      "name": "AOFLGBP.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBP.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBP.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-ed15cf04b3df",
-      "sha256": "2521da5b37e1e19d413bb6fa3705e6287c2a602f4e7b5bcef39bc3733084be9f",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Purple"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBR.DEF",
-      "name": "AOFLGBR.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBR.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBR.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-5f48711204ab",
-      "sha256": "d5d7d4fcd49196e827e502d5d75046f87921a06ebe8614dc90e1ddf63dfaa490",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Red"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBS.DEF",
-      "name": "AOFLGBS.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBS.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBS.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-7d8e0fa94606",
-      "sha256": "eab6e32451029e1b10a60d3dffdb23d7622a27346ca095162d54df7e41c3439d",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Pink"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBT.DEF",
-      "name": "AOFLGBT.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBT.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBT.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-f66f13f250aa",
-      "sha256": "0cba85fbecf65fd46502c077d9240d7c28e64dc8bca62c6b143b64e0398c9d06",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Teal"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-5/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AOFLGBY.DEF",
-      "name": "AOFLGBY.DEF",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8164,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AOFLGBY.DEF",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 42,
-      "height": 50,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AOFLGBY.DEF.webp",
-      "previewWidth": 42,
-      "previewHeight": 50,
-      "anchor": "file-3a9015daddf3",
-      "sha256": "1249f37d805993707812520a49a0926bd299782a6b7899efa8f66de7b67794d4",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "Player color variants",
-            "Tan"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/APHLF1G.def",
-      "name": "APHLF1G.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/APHLF1G.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 29,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/APHLF1G.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 29,
-      "anchor": "file-6d76a5e47041",
-      "sha256": "19befe7f15d18374d60170af957fd021913a7ae29ea85ad03fa29300307d4d7b",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/APHLF1R.def",
-      "name": "APHLF1R.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/APHLF1R.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 29,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/APHLF1R.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 29,
-      "anchor": "file-ed836e780842",
-      "sha256": "ae7bd2807bc120813dd6bab16309e2265798b3408fa630a746c9f0985f99f9a9",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/APHLF1Y.def",
-      "name": "APHLF1Y.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/APHLF1Y.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 29,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/APHLF1Y.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 29,
-      "anchor": "file-091ecec723b8",
-      "sha256": "0474fcaaa711262520caf481f7bfe26eafa1d2d22c2d1de30f671915682c4bd9",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/APHLF4G.def",
-      "name": "APHLF4G.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/APHLF4G.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 29,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/APHLF4G.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 29,
-      "anchor": "file-cf237cce0693",
-      "sha256": "564b08a1c7f9fc1d015a18e187c17d21e2d7bbac34401563152c1938ad347d7e",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/APHLF4R.def",
-      "name": "APHLF4R.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/APHLF4R.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 29,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/APHLF4R.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 29,
-      "anchor": "file-5ef253b147a4",
-      "sha256": "924a9d4a0780f4b426ad737485bdc315e6838acbca5b11f0a9d84a3f2219cdf6",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/APHLF4Y.def",
-      "name": "APHLF4Y.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 8420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/APHLF4Y.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 29,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/APHLF4Y.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 29,
-      "anchor": "file-92d040218ff8",
-      "sha256": "a9d9235d7ef1d204b9485b4a2447f8e38601fe0ac680ed226f38750915a7cafe",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Other"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/arrow.def",
-      "name": "arrow.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "kind": "def",
-      "bytes": 8072,
-      "sha256": "1054f11e04b991058e9af418f9cc47e789ba68e26f898e113945f4fa82e216c2",
-      "anchor": "file-b5d2bad75205",
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/arrow.def",
-      "type": 67,
-      "groups": 1,
-      "frames": 236,
-      "width": 64,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/arrow.def.webp",
-      "previewWidth": 33,
-      "previewHeight": 64,
-      "maskId": "H3sprite.lod/arrow.msk",
-      "destinations": [
-        {
-          "category": [
-            "Other files"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Artifact.def",
-      "name": "Artifact.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 194554,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Artifact.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 146,
-      "width": 44,
-      "height": 44,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Artifact.def.webp",
-      "previewWidth": 31,
-      "previewHeight": 40,
-      "anchor": "file-fcd69256ce3c",
-      "sha256": "556617d15e6a7f2b5aab600643ba268478d1938d2006307af4b08959f6fa6c46",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/ArtifBon.def",
-      "name": "ArtifBon.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 596587,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/ArtifBon.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 144,
-      "width": 58,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/ArtifBon.def.webp",
-      "previewWidth": 58,
-      "previewHeight": 64,
-      "anchor": "file-a42875f611b7",
-      "sha256": "0739c23c1ee600e3ef12a9661c7dc46d607979f502a282e578f9cd7b93ffdd6f",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/2/page-17/"
         }
       ]
     }

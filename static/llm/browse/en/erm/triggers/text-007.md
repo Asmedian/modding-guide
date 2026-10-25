@@ -1,39 +1,7 @@
-# Opening recruitment (OnOpenRecruitDlg)
-
-ID: erm.triggers.onopenrecruitdlg
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onopenrecruitdlg/
-Part: 1/1
-Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.triggers.onopenrecruitdlg 1 -->
-## Timing and arguments {#event}
-
-x1 is active slot 0..3; x2 flags (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 show dialog (1/0). Arguments are mutable. RD provides recruitment state.
-
-## Declaration {#declaration}
-
-```erm
-!?FU(OnOpenRecruitDlg);
-```
-
-## Identity and compatibility {#identity}
-
-ID `77023`; registered as `TRIGGER_OPEN_RECRUIT_DLG`. The name is confirmed by the supplied ERA source. An introduction version is not assigned without separate evidence. Use the event name in new scripts; the numeric ID is retained for mapping old code.
-
-## Related references {#related}
-
-[All triggers](../) · [Functions and arguments](../../functions/) · [Framework events](../../framework/events/)
-
-## Related commands and tables {#reference-links}
-
-[ERM triggers and events](../) · [ERM debugging and compatibility](../../compatibility/) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-w-w-key-w-key) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-xvalues) · [Key Codes](../../framework/constants/key-codes/) · [ERA services, memory and sound (SN)](../../receivers/sn/) · [Game timer (TM)](../tm/) · [Battle stack (BM)](../../receivers/bm/) · [Creature experience and bonuses (EA)](../../receivers/ea/) · [Mouse-event context (CM)](../../receivers/cm/) · [Building pictures by town](../../tables/building-pictures/)
-<!-- llm:end erm.triggers.onopenrecruitdlg 1 -->
-
 # Opening a town (OnOpenTownScreen)
 
 ID: erm.triggers.onopentownscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onopentownscreen/
+URL: /en/erm/triggers/onopentownscreen/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -65,7 +33,7 @@ ID `77032`; registered as `TRIGGER_OPEN_TOWN_SCREEN`. The name is confirmed by t
 # After a hero screen (OnPostHeroScreen)
 
 ID: erm.triggers.onpostheroscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onpostheroscreen/
+URL: /en/erm/triggers/onpostheroscreen/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -97,7 +65,7 @@ ID `77038`; registered as `TRIGGER_POST_HEROSCREEN`. The name is confirmed by th
 # After a town screen (OnPostTownScreen)
 
 ID: erm.triggers.onposttownscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onposttownscreen/
+URL: /en/erm/triggers/onposttownscreen/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -129,7 +97,7 @@ ID `77036`; registered as `TRIGGER_POST_TOWN_SCREEN`. The name is confirmed by t
 # Before a hero screen (OnPreHeroScreen)
 
 ID: erm.triggers.onpreheroscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onpreheroscreen/
+URL: /en/erm/triggers/onpreheroscreen/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -161,7 +129,7 @@ ID `77037`; registered as `TRIGGER_PRE_HEROSCREEN`. The name is confirmed by the
 # Before a town screen (OnPreTownScreen)
 
 ID: erm.triggers.onpretownscreen
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onpretownscreen/
+URL: /en/erm/triggers/onpretownscreen/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -193,7 +161,7 @@ ID `77035`; registered as `TRIGGER_PRE_TOWN_SCREEN`. The name is confirmed by th
 # Recruitment action (OnRecruitDlgAction)
 
 ID: erm.triggers.onrecruitdlgaction
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgaction/
+URL: /en/erm/triggers/onrecruitdlgaction/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -225,7 +193,7 @@ ID `77029`; registered as `TRIGGER_RECRUIT_DLG_ACTION`. The name is confirmed by
 # Recruitment mouse click (OnRecruitDlgMouseClick)
 
 ID: erm.triggers.onrecruitdlgmouseclick
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgmouseclick/
+URL: /en/erm/triggers/onrecruitdlgmouseclick/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -258,7 +226,7 @@ ID `77025`; registered as `TRIGGER_RECRUIT_DLG_MOUSE_CLICK`. The name is confirm
 # Recalculating recruitment cost (OnRecruitDlgRecalc)
 
 ID: erm.triggers.onrecruitdlgrecalc
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgrecalc/
+URL: /en/erm/triggers/onrecruitdlgrecalc/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -290,7 +258,7 @@ ID `77028`; registered as `TRIGGER_RECRUIT_DLG_RECALC`. The name is confirmed by
 # Reading save data (OnSavegameRead)
 
 ID: erm.triggers.onsavegameread
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onsavegameread/
+URL: /en/erm/triggers/onsavegameread/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -323,7 +291,7 @@ ID `77002`; registered as `TRIGGER_SAVEGAME_READ`. The name is confirmed by the 
 # Writing save data (OnSavegameWrite)
 
 ID: erm.triggers.onsavegamewrite
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onsavegamewrite/
+URL: /en/erm/triggers/onsavegamewrite/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -355,7 +323,7 @@ ID `77001`; registered as `TRIGGER_SAVEGAME_WRITE`. The name is confirmed by the
 # Stack-to-stack damage (OnStackToStackDamage)
 
 ID: erm.triggers.onstacktostackdamage
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onstacktostackdamage/
+URL: /en/erm/triggers/onstacktostackdamage/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -383,4 +351,69 @@ ID `77012`; registered as `TRIGGER_ONSTACKTOSTACKDAMAGE`. The name is confirmed 
 
 [ERM triggers and events](../) · [ERM debugging and compatibility](../../compatibility/) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-w-w-key-w-key) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-xvalues) · [Key Codes](../../framework/constants/key-codes/) · [ERA services, memory and sound (SN)](../../receivers/sn/) · [Game timer (TM)](../tm/) · [Battle stack (BM)](../../receivers/bm/) · [Creature experience and bonuses (EA)](../../receivers/ea/) · [Mouse-event context (CM)](../../receivers/cm/) · [Building pictures by town](../../tables/building-pictures/)
 <!-- llm:end erm.triggers.onstacktostackdamage 1 -->
+
+# Switching towns (OnSwitchTownScreen)
+
+ID: erm.triggers.onswitchtownscreen
+URL: /en/erm/triggers/onswitchtownscreen/
+Part: 1/1
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.triggers.onswitchtownscreen 1 -->
+## Timing and arguments {#event}
+
+x1 is the selected town when switching inside the window.
+
+## Declaration {#declaration}
+
+```erm
+!?FU(OnSwitchTownScreen);
+```
+
+## Identity and compatibility {#identity}
+
+ID `77034`; registered as `TRIGGER_SWITCH_TOWN_SCREEN`. The name is confirmed by the supplied ERA source. An introduction version is not assigned without separate evidence. Use the event name in new scripts; the numeric ID is retained for mapping old code.
+
+## Related references {#related}
+
+[All triggers](../) · [Functions and arguments](../../functions/) · [Framework events](../../framework/events/)
+
+## Related commands and tables {#reference-links}
+
+[ERM triggers and events](../) · [ERM debugging and compatibility](../../compatibility/) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-w-w-key-w-key) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-xvalues) · [Key Codes](../../framework/constants/key-codes/) · [ERA services, memory and sound (SN)](../../receivers/sn/) · [Game timer (TM)](../tm/) · [Battle stack (BM)](../../receivers/bm/) · [Creature experience and bonuses (EA)](../../receivers/ea/) · [Mouse-event context (CM)](../../receivers/cm/) · [Building pictures by town](../../tables/building-pictures/)
+<!-- llm:end erm.triggers.onswitchtownscreen 1 -->
+
+# Town fort mouse click (OnTownFortMouseClick)
+
+ID: erm.triggers.ontownfortmouseclick
+URL: /en/erm/triggers/ontownfortmouseclick/
+Part: 1/1
+Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.triggers.ontownfortmouseclick 1 -->
+## Timing and arguments {#event}
+
+CM context. Current registration uses OnTownFortMouseClick; the old OnTownHallMouseClick was renamed and is not registered as an alias. The supplied Framework still handles the old name: check version alignment when porting.
+
+## Declaration {#declaration}
+
+```erm
+!?FU(OnTownFortMouseClick);
+```
+
+## Identity and compatibility {#identity}
+
+ID `77026`; registered as `TRIGGER_TOWN_FORT_MOUSE_CLICK`. The name is confirmed by the supplied ERA source. An introduction version is not assigned without separate evidence. Use the event name in new scripts; the numeric ID is retained for mapping old code.
+
+## Related references {#related}
+
+[All triggers](../) · [Functions and arguments](../../functions/) · [Framework events](../../framework/events/)
+
+## Related commands and tables {#reference-links}
+
+[ERM triggers and events](../) · [ERM debugging and compatibility](../../compatibility/) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-w-w-key-w-key) · [ERA services, memory and sound (SN)](../../receivers/sn/#command-xvalues) · [Key Codes](../../framework/constants/key-codes/) · [ERA services, memory and sound (SN)](../../receivers/sn/) · [Game timer (TM)](../tm/) · [Battle stack (BM)](../../receivers/bm/) · [Creature experience and bonuses (EA)](../../receivers/ea/) · [Mouse-event context (CM)](../../receivers/cm/) · [Building pictures by town](../../tables/building-pictures/)
+
+<!-- llm:end erm.triggers.ontownfortmouseclick 1 -->
 

@@ -1,7 +1,7 @@
 # Monsters
 
 ID: erm.framework.constants.monsters
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/
+URL: /en/erm/framework/constants/monsters/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -233,7 +233,7 @@ The **Monsters** group from the supplied Framework. Names and values below corre
 # Mouse Click Subtypes
 
 ID: erm.framework.constants.mouse-click-subtypes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/mouse-click-subtypes/
+URL: /en/erm/framework/constants/mouse-click-subtypes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -264,7 +264,7 @@ The **Mouse Click Subtypes** group from the supplied Framework. Names and values
 # Mouse Clicks
 
 ID: erm.framework.constants.mouse-clicks
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/mouse-clicks/
+URL: /en/erm/framework/constants/mouse-clicks/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -292,7 +292,7 @@ The **Mouse Clicks** group from the supplied Framework. Names and values below c
 # Mouse Wheel Subtypes
 
 ID: erm.framework.constants.mouse-wheel-subtypes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/mouse-wheel-subtypes/
+URL: /en/erm/framework/constants/mouse-wheel-subtypes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

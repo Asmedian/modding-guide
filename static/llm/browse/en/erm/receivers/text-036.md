@@ -1,7 +1,7 @@
 # Turn time limit (TL)
 
 ID: erm.receivers.tl
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/tl/
+URL: /en/erm/receivers/tl/
 Part: 1/1
 Source references: old-help:rec-tl.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -113,7 +113,7 @@ As long as the "pause time" is not 0, the move continues.</div>
 # Game timers (TM)
 
 ID: erm.receivers.tm
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/tm/
+URL: /en/erm/receivers/tm/
 Part: 1/1
 Source references: old-help:rec-tm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

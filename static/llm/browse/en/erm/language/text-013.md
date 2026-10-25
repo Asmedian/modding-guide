@@ -1,7 +1,7 @@
 # UN:C — memory access
 
 ID: erm.un-c
-URL: https://asmedian.github.io/modding-guide/en/erm/un-c/
+URL: /en/erm/un-c/
 Part: 1/3
 Source references: old-help:cont-unc.htm, old-help:cont-unc-lib.htm, erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, era-source:erm.pas
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

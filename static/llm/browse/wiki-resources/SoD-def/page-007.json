@@ -2,30 +2,953 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/AVA0027.def",
-      "name": "AVA0027.def",
+      "id": "H3sprite.lod/auires.def",
+      "name": "auires.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 1722,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0027.def",
+      "kind": "def",
+      "bytes": 108200,
+      "sha256": "25c65ac82c203166f2063ea5b80158ebde94a20ca399cc9b5d46fefb3a1550ef",
+      "anchor": "file-f6a348a9bc05",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/auires.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 8,
+      "width": 598,
+      "height": 22,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/auires.def.webp",
+      "previewWidth": 240,
+      "previewHeight": 9,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 8
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Other files"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0001.def",
+      "name": "AVA0001.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1675,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0001.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0027.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0001.def.webp",
+      "previewWidth": 51,
+      "previewHeight": 32,
+      "anchor": "file-971f3aaf9e57",
+      "sha256": "f36f9361691dc739d60a97b7a9b7592595838414dfb4b76a27bac489638e47f9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0001.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0002.def",
+      "name": "AVA0002.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 1499,
+      "sha256": "038c851f95923288cd0a54a161fb1e1fd6bcb7ef2338b796b4df361d9114cddc",
+      "anchor": "file-5dd661ce49e0",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0002.def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0002.def.webp",
+      "previewWidth": 35,
+      "previewHeight": 31,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0002.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-19/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0003.def",
+      "name": "AVA0003.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 1969,
+      "sha256": "bbde0e22bf3a29e0f2ced9fc5de229280a9200634b254a097ed00dfeae670b81",
+      "anchor": "file-15cc1a511dfb",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0003.def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0003.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 32,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0003.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-19/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0004.def",
+      "name": "AVA0004.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 1969,
+      "sha256": "a932960f7f6b9288ef98a00bee7b52ff9d71fab18b78eb190ec5db78b6329047",
+      "anchor": "file-1c14421899d0",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0004.def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0004.def.webp",
+      "previewWidth": 32,
+      "previewHeight": 32,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0004.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-19/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0005.def",
+      "name": "AVA0005.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 1522,
+      "sha256": "038a966d9f2d6511e4c5244fb85d143a5f212649a68b6204a1dcc68f374daf76",
+      "anchor": "file-ef66da743842",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0005.def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0005.def.webp",
+      "previewWidth": 35,
+      "previewHeight": 32,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0005.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-19/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0006.def",
+      "name": "AVA0006.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "kind": "def",
+      "bytes": 1701,
+      "sha256": "fbb7acb7b2f5d96cb9bcd3d70efc1505afa5b7f44e08a572d4273288f961ba64",
+      "anchor": "file-3b67a17ae446",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0006.def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0006.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 30,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0006.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-19/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0007.def",
+      "name": "AVA0007.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1499,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0007.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0007.def.webp",
+      "previewWidth": 35,
+      "previewHeight": 31,
+      "anchor": "file-db58309837e9",
+      "sha256": "84e428c939ec9342cef9b9f87bb71d7762c4e47936c1f390c7282ef06657eca3",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0007.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0008.def",
+      "name": "AVA0008.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1506,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0008.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0008.def.webp",
+      "previewWidth": 51,
+      "previewHeight": 31,
+      "anchor": "file-4dbda3d6c847",
+      "sha256": "8f117ec68eb72fac6b3d12f33f6c508fb3e92a222b881b43c69fc47098825276",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0008.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0009.def",
+      "name": "AVA0009.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1545,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0009.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0009.def.webp",
+      "previewWidth": 44,
+      "previewHeight": 32,
+      "anchor": "file-42643d1c745f",
+      "sha256": "00d740cc8c3c49bfd9024456ab74eb6a5f6aff8431e23f1d70cbfe1a7579bbd5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0009.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0010.def",
+      "name": "AVA0010.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1522,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0010.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0010.def.webp",
+      "previewWidth": 35,
+      "previewHeight": 32,
+      "anchor": "file-4c91a84ae90c",
+      "sha256": "f5d7723dca7e1fbe5fca464916cf3207850b24155d152516d405d1703f02ee16",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0010.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0011.def",
+      "name": "AVA0011.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1701,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0011.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0011.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 30,
+      "anchor": "file-7deb206a0693",
+      "sha256": "bcf74d5c0daafc87fc7b31ae859ccac6c3db03f0fda78b0a81f38a94d6bf238e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0011.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0012.def",
+      "name": "AVA0012.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1358,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0012.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0012.def.webp",
+      "previewWidth": 43,
+      "previewHeight": 29,
+      "anchor": "file-61b3023bb3c6",
+      "sha256": "5c03a18d128fe59a55e99770d279a44bb9e7a68a9b349668b4282b5bdae859ca",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0012.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0013.def",
+      "name": "AVA0013.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1875,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0013.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0013.def.webp",
+      "previewWidth": 48,
+      "previewHeight": 32,
+      "anchor": "file-4b95a1fd4533",
+      "sha256": "14fbabbd45a3582f8f3723c5f114e8fb2737d55d092df178df9262733e5294aa",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0013.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0014.def",
+      "name": "AVA0014.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1691,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0014.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0014.def.webp",
+      "previewWidth": 45,
+      "previewHeight": 32,
+      "anchor": "file-bc9444428b54",
+      "sha256": "880b77242ecfc620b502fffcaa82de4d184033a0ed501cad6c5430751e419c31",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0014.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0015.def",
+      "name": "AVA0015.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1681,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0015.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0015.def.webp",
+      "previewWidth": 42,
+      "previewHeight": 25,
+      "anchor": "file-c36463b4b067",
+      "sha256": "5bad77e0bd3ce046e365e5636d7bb06c1df86024ab124a84282723a1c2c92eef",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0015.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0016.def",
+      "name": "AVA0016.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1807,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0016.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0016.def.webp",
+      "previewWidth": 45,
+      "previewHeight": 28,
+      "anchor": "file-a2df06ab7b50",
+      "sha256": "ab57b6865b919d2b1a90c69eb774d31a213dd238bf2302e76f9db4645577166f",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0016.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0017.def",
+      "name": "AVA0017.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1959,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0017.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0017.def.webp",
+      "previewWidth": 52,
+      "previewHeight": 32,
+      "anchor": "file-8cf1f4269bb5",
+      "sha256": "4eae1779aed782f9d353717737e29fd8da33f81cc38fb63a8b4273cf785ec671",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0017.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0018.def",
+      "name": "AVA0018.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1809,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0018.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0018.def.webp",
+      "previewWidth": 46,
+      "previewHeight": 32,
+      "anchor": "file-2e909a436b31",
+      "sha256": "9cd282654b50028c9d0460c9d0cc3b00e51fc643ab23f177e41c1907b8cf04d2",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0018.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0019.def",
+      "name": "AVA0019.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1789,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0019.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0019.def.webp",
+      "previewWidth": 53,
+      "previewHeight": 32,
+      "anchor": "file-a3db9a77c608",
+      "sha256": "de911c886e20f811642ff53ba5dbc5335b51ea30006a33231e80ae2f72ec3da4",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0019.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0020.def",
+      "name": "AVA0020.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1662,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0020.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0020.def.webp",
+      "previewWidth": 36,
+      "previewHeight": 32,
+      "anchor": "file-807dc8ae5f25",
+      "sha256": "ca0bbec77e74c3f6bab0a83950ae5e27c5de925561a7d1b118ef762771ae6e2a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0020.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0021.def",
+      "name": "AVA0021.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1799,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0021.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0021.def.webp",
+      "previewWidth": 52,
+      "previewHeight": 30,
+      "anchor": "file-fca1812b2d2a",
+      "sha256": "3cef2b8a306b7cef5e4d9536a1b69be096a2b6b193014ad770e96a64968f4b9b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0021.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0022.def",
+      "name": "AVA0022.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1889,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0022.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0022.def.webp",
+      "previewWidth": 49,
+      "previewHeight": 32,
+      "anchor": "file-1e9cba182344",
+      "sha256": "ffe4bd545c4cdf3af63a0b1bd67477f59679bd6f9bf2efbc9558474af1d61e89",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0022.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0023.def",
+      "name": "AVA0023.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1863,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0023.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0023.def.webp",
+      "previewWidth": 55,
+      "previewHeight": 30,
+      "anchor": "file-0672f293fb3f",
+      "sha256": "1f5aeb0e8271e6c134331b21413ac576a5ccb2cc6e6a53b8f42ed3e15b35e7f8",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0023.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0024.def",
+      "name": "AVA0024.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1814,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0024.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0024.def.webp",
+      "previewWidth": 51,
+      "previewHeight": 32,
+      "anchor": "file-166bcef4f5f1",
+      "sha256": "bf0d9e8337cc8583702721b8a3a06909bf5398db2634555efbacc6245d334e54",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0024.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0025.def",
+      "name": "AVA0025.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1735,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0025.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0025.def.webp",
+      "previewWidth": 45,
+      "previewHeight": 32,
+      "anchor": "file-e208abf4db89",
+      "sha256": "af2b46136704851cd0fd6a83e0008160fc2e3d7d6557d93559c3861d38314b7a",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0025.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0026.def",
+      "name": "AVA0026.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1850,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0026.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0026.def.webp",
+      "previewWidth": 57,
+      "previewHeight": 32,
+      "anchor": "file-1ef45be49e94",
+      "sha256": "459e06653031c60353812510b61381a6f01b04bf9a9a6a16797333f2f70ebfa9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "maskId": "H3sprite.lod/AVA0026.msk",
+      "destinations": [
+        {
+          "category": [
+            "Artifacts"
+          ],
+          "en": "/en/wiki/sprite/2/2/page-17/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/AVA0027.def",
+      "name": "AVA0027.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 1722,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0027.def",
+      "kind": "def",
+      "type": 67,
+      "groups": 1,
+      "frames": 1,
+      "width": 64,
+      "height": 32,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0027.def.webp",
       "previewWidth": 50,
       "previewHeight": 30,
       "anchor": "file-a9761920911b",
       "sha256": "b41c353996ec43633f6562cb77a26153cfb6d69e0661a5ec76fd4c1750f8d413",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVA0027.msk",
       "destinations": [
         {
           "category": [
             "Artifacts"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
+          "en": "/en/wiki/sprite/2/2/page-17/"
         }
       ]
     },
@@ -35,753 +958,31 @@
       "archive": "H3sprite.lod",
       "edition": "SoD",
       "bytes": 1775,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0028.def",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/AVA0028.def",
       "kind": "def",
       "type": 67,
       "groups": 1,
       "frames": 1,
       "width": 64,
       "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0028.def.webp",
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/AVA0028.def.webp",
       "previewWidth": 47,
       "previewHeight": 32,
       "anchor": "file-a28e05501786",
       "sha256": "2e0a1792dbd0f3e14eb1f269e461cf854280deb3c5cb46487c26515569bb4bee",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "maskId": "H3sprite.lod/AVA0028.msk",
       "destinations": [
         {
           "category": [
             "Artifacts"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0029.def",
-      "name": "AVA0029.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1784,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0029.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0029.def.webp",
-      "previewWidth": 46,
-      "previewHeight": 32,
-      "anchor": "file-07d6550a53c6",
-      "sha256": "9c3bc0671d1f0492b38a11367d2dad3d9898988b48ea3c2d234ed8fa9b63697f",
-      "maskId": "H3sprite.lod/AVA0029.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0030.def",
-      "name": "AVA0030.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1837,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0030.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0030.def.webp",
-      "previewWidth": 43,
-      "previewHeight": 32,
-      "anchor": "file-a27e0c0399d2",
-      "sha256": "262d843510ecb2aa645b2bee9dd336b73188ba22d6ad6658dfab990684ca16c3",
-      "maskId": "H3sprite.lod/AVA0030.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0031.def",
-      "name": "AVA0031.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1813,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0031.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0031.def.webp",
-      "previewWidth": 41,
-      "previewHeight": 32,
-      "anchor": "file-bfe15d5fe9fc",
-      "sha256": "9a486d0c7857ebd2eebfe23d9f4f6bdbdc9bf91bc5cf172dabb8a2b422b6274b",
-      "maskId": "H3sprite.lod/AVA0031.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0032.def",
-      "name": "AVA0032.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1718,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0032.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0032.def.webp",
-      "previewWidth": 38,
-      "previewHeight": 30,
-      "anchor": "file-ae5985478f7c",
-      "sha256": "00d26364bb216e4d919d58f798f1c6cf30c34f818279daa32929fb75b73b8333",
-      "maskId": "H3sprite.lod/AVA0032.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0033.def",
-      "name": "AVA0033.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1496,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0033.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0033.def.webp",
-      "previewWidth": 51,
-      "previewHeight": 30,
-      "anchor": "file-8bff99d387fd",
-      "sha256": "48f1863344c0aa0a081f2f6dd28283053a057aba5b9a8e29db94fb37919f36f2",
-      "maskId": "H3sprite.lod/AVA0033.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0034.def",
-      "name": "AVA0034.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1861,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0034.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0034.def.webp",
-      "previewWidth": 47,
-      "previewHeight": 32,
-      "anchor": "file-4da25c45b1e8",
-      "sha256": "a07998e25797cc6124cccc1c136d77d302ce667d281cffd2e30984f0d7763621",
-      "maskId": "H3sprite.lod/AVA0034.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0035.def",
-      "name": "AVA0035.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1409,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0035.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0035.def.webp",
-      "previewWidth": 45,
-      "previewHeight": 27,
-      "anchor": "file-9da82164e701",
-      "sha256": "a3a50d83b065d8404b9097f0559ebf433a332f64144ef1ab3bd2152721acbe83",
-      "maskId": "H3sprite.lod/AVA0035.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0036.def",
-      "name": "AVA0036.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1864,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0036.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0036.def.webp",
-      "previewWidth": 61,
-      "previewHeight": 32,
-      "anchor": "file-b1525faa023e",
-      "sha256": "50bb72f3c465bc45c83ac0af410769c387dd9c628edef42f003211668c786148",
-      "maskId": "H3sprite.lod/AVA0036.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0037.def",
-      "name": "AVA0037.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1528,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0037.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0037.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 22,
-      "anchor": "file-80243512f652",
-      "sha256": "367827161b852c76f582fa1137d62b5c987e4fdda93c047dd9b91409f5b07a44",
-      "maskId": "H3sprite.lod/AVA0037.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0038.def",
-      "name": "AVA0038.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1618,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0038.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0038.def.webp",
-      "previewWidth": 48,
-      "previewHeight": 32,
-      "anchor": "file-7fdcdc4374fa",
-      "sha256": "fd0f2b36d8baa6b6c566f2e2984c6a60159c1bd20418c2e283a344df1a9e53cf",
-      "maskId": "H3sprite.lod/AVA0038.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0039.def",
-      "name": "AVA0039.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1773,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0039.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0039.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 32,
-      "anchor": "file-26d1e56835f1",
-      "sha256": "9abcded3bca4c2dd55a0699672ae0178547adfc44d29ec8d213462c4b3c2db7d",
-      "maskId": "H3sprite.lod/AVA0039.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0040.def",
-      "name": "AVA0040.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1817,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0040.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0040.def.webp",
-      "previewWidth": 53,
-      "previewHeight": 32,
-      "anchor": "file-77388e756431",
-      "sha256": "16e535cd7b9f4fc73f3b46c138422aa3bc6f050ce084afe85ebc744730cbc0b6",
-      "maskId": "H3sprite.lod/AVA0040.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0041.def",
-      "name": "AVA0041.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1840,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0041.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0041.def.webp",
-      "previewWidth": 55,
-      "previewHeight": 30,
-      "anchor": "file-9ac7fb336767",
-      "sha256": "7dbbc482e2b59cba8028b92d3ddb7f29b6e3c65da39e22603cc1f8c16cc3cedc",
-      "maskId": "H3sprite.lod/AVA0041.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0042.def",
-      "name": "AVA0042.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1628,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0042.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0042.def.webp",
-      "previewWidth": 34,
-      "previewHeight": 32,
-      "anchor": "file-d99cad651283",
-      "sha256": "cb4fee7846f5c2e59b88661f1d5a605f863e15202cad00d05bb15464a28826a3",
-      "maskId": "H3sprite.lod/AVA0042.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0043.def",
-      "name": "AVA0043.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1558,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0043.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0043.def.webp",
-      "previewWidth": 51,
-      "previewHeight": 31,
-      "anchor": "file-2a9406f148b0",
-      "sha256": "dfb431b4c9048588727cdcd48754848c30d793ece315a57fa0de5b33d26ffc02",
-      "maskId": "H3sprite.lod/AVA0043.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0044.def",
-      "name": "AVA0044.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1518,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0044.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0044.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 23,
-      "anchor": "file-102d749e7ff6",
-      "sha256": "bd256da476db79ca1c4c05a7346064b8f15fbed9eb099cd477dcbd12b8b80342",
-      "maskId": "H3sprite.lod/AVA0044.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0045.def",
-      "name": "AVA0045.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1603,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0045.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0045.def.webp",
-      "previewWidth": 43,
-      "previewHeight": 24,
-      "anchor": "file-c9ee5ae2e46f",
-      "sha256": "9c907d907f4a0ea4d9bcfd082ac44aa72239970dca096c2e499b14e40fb53f83",
-      "maskId": "H3sprite.lod/AVA0045.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0046.def",
-      "name": "AVA0046.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1669,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0046.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0046.def.webp",
-      "previewWidth": 45,
-      "previewHeight": 32,
-      "anchor": "file-f4576e725ea1",
-      "sha256": "5b161ec0b9ef60660b8c9eaf0c872ccb9f853e56fcf0bb979989ccaf4eefa820",
-      "maskId": "H3sprite.lod/AVA0046.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0047.def",
-      "name": "AVA0047.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1845,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0047.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0047.def.webp",
-      "previewWidth": 51,
-      "previewHeight": 28,
-      "anchor": "file-46785c425965",
-      "sha256": "abb712b88f5bb71117ae6fa1e6b57628e510ae123466a0c7286a05246941131b",
-      "maskId": "H3sprite.lod/AVA0047.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0048.def",
-      "name": "AVA0048.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1653,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0048.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0048.def.webp",
-      "previewWidth": 41,
-      "previewHeight": 32,
-      "anchor": "file-a986c8a50f5a",
-      "sha256": "31989df69376b60e13d3011ecd03849ae28367b7257a2a194895a60692b02080",
-      "maskId": "H3sprite.lod/AVA0048.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0049.def",
-      "name": "AVA0049.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1548,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0049.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0049.def.webp",
-      "previewWidth": 40,
-      "previewHeight": 32,
-      "anchor": "file-6f5bf6c194ac",
-      "sha256": "1cb7185fbda6922f812591b95e0d47dd6fe4b03b8526206efd6856d0f2b98375",
-      "maskId": "H3sprite.lod/AVA0049.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0050.def",
-      "name": "AVA0050.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1746,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0050.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0050.def.webp",
-      "previewWidth": 50,
-      "previewHeight": 30,
-      "anchor": "file-f44aac97b061",
-      "sha256": "173f7ee44252d0ee71fcb7e5b2bb796927ca6f97939a31fad7fbdb97718e451b",
-      "maskId": "H3sprite.lod/AVA0050.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0051.def",
-      "name": "AVA0051.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1778,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0051.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0051.def.webp",
-      "previewWidth": 47,
-      "previewHeight": 32,
-      "anchor": "file-f3bb28962924",
-      "sha256": "3f02d49d55a866ed15f0b1300a7443812f184c8377a8b22da36336b92a8bcf86",
-      "maskId": "H3sprite.lod/AVA0051.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-17/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0052.def",
-      "name": "AVA0052.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1548,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0052.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0052.def.webp",
-      "previewWidth": 42,
-      "previewHeight": 32,
-      "anchor": "file-1c88e715d4ed",
-      "sha256": "990fd3d8e703d666e3886808be1e754580ca9aaa4039f76b6b1321bce8ca30e6",
-      "maskId": "H3sprite.lod/AVA0052.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-18/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0053.def",
-      "name": "AVA0053.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1475,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0053.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0053.def.webp",
-      "previewWidth": 42,
-      "previewHeight": 30,
-      "anchor": "file-f8aa9a37182c",
-      "sha256": "3b4f98ace41bd1d67af271af686c11d5036a26060ce012badbb740faff13e78f",
-      "maskId": "H3sprite.lod/AVA0053.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-18/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/AVA0054.def",
-      "name": "AVA0054.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 1580,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/AVA0054.def",
-      "kind": "def",
-      "type": 67,
-      "groups": 1,
-      "frames": 1,
-      "width": 64,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/AVA0054.def.webp",
-      "previewWidth": 35,
-      "previewHeight": 31,
-      "anchor": "file-62a8f6ea8e68",
-      "sha256": "239bf9af8d417f58cc00951a2e11bfc680738a46bf60f1f99b7e15749eeefee7",
-      "maskId": "H3sprite.lod/AVA0054.msk",
-      "destinations": [
-        {
-          "category": [
-            "Artifacts"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/2/page-18/"
+          "en": "/en/wiki/sprite/2/2/page-17/"
         }
       ]
     }

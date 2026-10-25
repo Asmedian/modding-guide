@@ -1,7 +1,7 @@
 # ERM syntax: ZVSE and ZVSE2
 
 ID: erm.syntax
-URL: https://asmedian.github.io/modding-guide/en/erm/syntax/
+URL: /en/erm/syntax/
 Part: 1/1
 Source references: old-help:cont-zvse.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, old-help:cont-ingener.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

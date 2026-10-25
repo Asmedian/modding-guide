@@ -2,812 +2,992 @@
   "schemaVersion": 1,
   "resources": [
     {
-      "id": "H3sprite.lod/PSKIL42.def",
-      "name": "PSKIL42.def",
+      "id": "H3sprite.lod/ObDSM02.def",
+      "name": "ObDSM02.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 13190,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/PSKIL42.def",
+      "kind": "def",
+      "bytes": 7252,
+      "sha256": "c36c0260a67c8aef1cc84aab2e9a78b18040c715a343ca05ba701c817067e067",
+      "anchor": "file-8cf065544183",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDSM02.def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 114,
+      "height": 89,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDSM02.def.webp",
+      "previewWidth": 110,
+      "previewHeight": 86,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-11/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObDsS02.def",
+      "name": "ObDsS02.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 7252,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDsS02.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 6,
-      "width": 42,
-      "height": 42,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/PSKIL42.def.webp",
-      "previewWidth": 42,
+      "frames": 1,
+      "width": 113,
+      "height": 88,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDsS02.def.webp",
+      "previewWidth": 110,
+      "previewHeight": 86,
+      "anchor": "file-6998f0a246e5",
+      "sha256": "1ebde27e6e98f75f898f62c8bbd84b559bf8ff1bdf29582fdd14aa36108bc382",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObDsS17.def",
+      "name": "ObDsS17.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 10683,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDsS17.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 174,
+      "height": 102,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDsS17.def.webp",
+      "previewWidth": 162,
+      "previewHeight": 99,
+      "anchor": "file-b207038bc9a3",
+      "sha256": "558a6935470c6783dfe432d5c0922fd0cb03fd1a7d1d9a9d43d9841e059074a9",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/obdtf03.def",
+      "name": "obdtf03.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3518,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/obdtf03.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 90,
+      "height": 47,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/obdtf03.def.webp",
+      "previewWidth": 89,
+      "previewHeight": 45,
+      "anchor": "file-843121b446ae",
+      "sha256": "f20ccea5ea0f68365515e6abd77b051823fe68754d225cf008c0fcdbaca1f3e6",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObDtS03.def",
+      "name": "ObDtS03.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9183,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDtS03.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 163,
+      "height": 128,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDtS03.def.webp",
+      "previewWidth": 156,
+      "previewHeight": 106,
+      "anchor": "file-49fe411950d7",
+      "sha256": "62baf53895903f4581a6bc5f5010347297772e05bb27b59db39dc677e8a56232",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObDtS04.def",
+      "name": "ObDtS04.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 6823,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDtS04.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 139,
+      "height": 93,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDtS04.def.webp",
+      "previewWidth": 99,
+      "previewHeight": 86,
+      "anchor": "file-683ae99b8fa0",
+      "sha256": "ee4c733a4ae82ce48be1e31e20af87c00b48b119bd09a5d86fb00f047308a1ff",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObDtS14.def",
+      "name": "ObDtS14.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 8715,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDtS14.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 145,
+      "height": 90,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDtS14.def.webp",
+      "previewWidth": 136,
+      "previewHeight": 90,
+      "anchor": "file-ee1136b0b77c",
+      "sha256": "cb7f1394cbf248afdc1f30d6c5fa436afff10578797c37a4746d1b3b53906c9d",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObDtS15.def",
+      "name": "ObDtS15.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9241,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObDtS15.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 100,
+      "height": 136,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObDtS15.def.webp",
+      "previewWidth": 87,
+      "previewHeight": 134,
+      "anchor": "file-077c4ea9b67c",
+      "sha256": "3911c7ae8de36d02c7045cb340cd5ec9204c4646adaa8edc1afaeca13934f9af",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObEFs00.def",
+      "name": "ObEFs00.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 2907,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObEFs00.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 40,
+      "height": 43,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObEFs00.def.webp",
+      "previewWidth": 39,
       "previewHeight": 42,
-      "anchor": "file-7a27bebca789",
-      "sha256": "be8ffa69f0676fe1d556574f9b64739011aa47064ea52a72063cbfbf3b6778d9",
+      "anchor": "file-2e390f40ef40",
+      "sha256": "be3c6f5bb15b62d858954ed471f5567813962746f19cabad932c9eaf59bacc23",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Primary skills"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/PSkilBon.DEF",
-      "name": "PSkilBon.DEF",
+      "id": "H3sprite.lod/ObEFs01.def",
+      "name": "ObEFs01.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 17380,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/PSkilBon.DEF",
+      "bytes": 5248,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObEFs01.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 58,
-      "height": 64,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/PSkilBon.DEF.webp",
-      "previewWidth": 58,
-      "previewHeight": 64,
-      "anchor": "file-7c16fd385c21",
-      "sha256": "c7570b46a071c0e362b12151c7968458b3567949189e0ae5dc2df7c6ec846492",
+      "frames": 1,
+      "width": 86,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObEFs01.def.webp",
+      "previewWidth": 86,
+      "previewHeight": 46,
+      "anchor": "file-873cf40f72fd",
+      "sha256": "9283f763884d53978b07d3598727cfa8f395207196d14f6ac005216ed0fd11dd",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Primary skills"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/PSKILL.def",
-      "name": "PSKILL.def",
+      "id": "H3sprite.lod/ObEFs02.def",
+      "name": "ObEFs02.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 50198,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/PSKILL.def",
+      "bytes": 7996,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObEFs02.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 6,
-      "width": 82,
-      "height": 93,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/PSKILL.def.webp",
-      "previewWidth": 82,
-      "previewHeight": 93,
-      "anchor": "file-b84bf89d172b",
-      "sha256": "944aea06ad5bb9c106f8e3e4bc004a79c989e78e906fabcbde301ee8d4f8c065",
+      "frames": 1,
+      "width": 129,
+      "height": 91,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObEFs02.def.webp",
+      "previewWidth": 129,
+      "previewHeight": 87,
+      "anchor": "file-0f654afbaeaa",
+      "sha256": "54721d62098dda8737ed50a0584d6a1388991cb5d3555ac85de60fc25f803c14",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Primary skills"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/QLexit.def",
-      "name": "QLexit.def",
+      "id": "H3sprite.lod/ObEFs03.def",
+      "name": "ObEFs03.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 3330,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/QLexit.def",
+      "bytes": 9086,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObEFs03.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 2,
-      "width": 32,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/QLexit.def.webp",
-      "previewWidth": 32,
-      "previewHeight": 32,
-      "anchor": "file-49a6c6f2588c",
-      "sha256": "7cf4db526784e16b40c14744071c6f6d030ba53fb4f830e45b76b13f941ba159",
+      "frames": 1,
+      "width": 151,
+      "height": 89,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObEFs03.def.webp",
+      "previewWidth": 126,
+      "previewHeight": 83,
+      "anchor": "file-ef3959212346",
+      "sha256": "e23ce0d7ffb7f16c5a29bb7a3ee42883bfcdf975b627dca55ab2945051ccbcfc",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Other"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RADAR.def",
-      "name": "RADAR.def",
+      "id": "H3sprite.lod/ObEFs04.def",
+      "name": "ObEFs04.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 12950,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RADAR.def",
+      "bytes": 13993,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObEFs04.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 14,
-      "width": 148,
-      "height": 132,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RADAR.def.webp",
-      "previewWidth": 2,
-      "previewHeight": 2,
-      "anchor": "file-7d5167c78812",
-      "sha256": "d0be3d1152aab91a4fbbcee10466f5b58cf6531250c353730b765980c720f156",
-      "maskId": "H3sprite.lod/RADAR.msk",
+      "frames": 1,
+      "width": 235,
+      "height": 87,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObEFs04.def.webp",
+      "previewWidth": 207,
+      "previewHeight": 83,
+      "anchor": "file-651aaac44f53",
+      "sha256": "317751a5c1202f5ee81fcbcbb937e2a9e3464d2c90421bad4dd91b4a42b1af37",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Other"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-4/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanIsld.def",
-      "name": "RanIsld.def",
+      "id": "H3sprite.lod/ObFFs00.def",
+      "name": "ObFFs00.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 9604,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanIsld.def",
+      "bytes": 2575,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObFFs00.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
+      "frames": 1,
+      "width": 42,
+      "height": 47,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObFFs00.def.webp",
+      "previewWidth": 41,
+      "previewHeight": 40,
+      "anchor": "file-3465bda4e768",
+      "sha256": "41c15600f822fbfe00aef559a01139284f14083b66d74fabadc6cc22abbe6d05",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObFFs01.def",
+      "name": "ObFFs01.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 4119,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObFFs01.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
       "width": 84,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanIsld.def.webp",
-      "previewWidth": 84,
-      "previewHeight": 32,
-      "anchor": "file-b01c641a7ba7",
-      "sha256": "479721eec047589d562e1422776a1af7efa4911997767d3d4a4b152ee644fb59",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanNone.def",
-      "name": "RanNone.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9508,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNone.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 83,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNone.def.webp",
+      "height": 49,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObFFs01.def.webp",
       "previewWidth": 83,
-      "previewHeight": 32,
-      "anchor": "file-cefab35bf9f8",
-      "sha256": "7285750cca7f19ec05e5f21512444fa7be972f905a93d0e19949ead8b5e3aa4d",
+      "previewHeight": 47,
+      "anchor": "file-a2b80175a43e",
+      "sha256": "c00ad5c2abace300ef50ad196620774fe7549ec4ea26c891bbad5ba56c3de4a8",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanNorm.def",
-      "name": "RanNorm.def",
+      "id": "H3sprite.lod/ObFFs02.def",
+      "name": "ObFFs02.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 6611,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNorm.def",
+      "bytes": 8178,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObFFs02.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 3,
-      "width": 83,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNorm.def.webp",
+      "frames": 1,
+      "width": 130,
+      "height": 93,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObFFs02.def.webp",
+      "previewWidth": 128,
+      "previewHeight": 89,
+      "anchor": "file-504924135748",
+      "sha256": "67d9e81b03068c08b77bf5746a6e007f908f6254fa1461fac72584616fa76a78",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObFFs03.def",
+      "name": "ObFFs03.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 9979,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObFFs03.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 171,
+      "height": 93,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObFFs03.def.webp",
+      "previewWidth": 150,
+      "previewHeight": 91,
+      "anchor": "file-f53d6273202d",
+      "sha256": "26516e648d4eecca9883e922be70d435eaf1c77e07ac76d03a7a680547492eda",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObFFs04.def",
+      "name": "ObFFs04.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 16780,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObFFs04.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 171,
+      "height": 135,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObFFs04.def.webp",
+      "previewWidth": 169,
+      "previewHeight": 126,
+      "anchor": "file-bbae9b61e721",
+      "sha256": "8fc9bbdc2ef9cd9fb99389cb1e179c1c4576017f13b24f10a5ec430aaa8d72f0",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
+      "destinations": [
+        {
+          "category": [
+            "Battlefield obstacles"
+          ],
+          "en": "/en/wiki/sprite/2/6/page-10/"
+        }
+      ]
+    },
+    {
+      "id": "H3sprite.lod/ObGLg01.def",
+      "name": "ObGLg01.def",
+      "archive": "H3sprite.lod",
+      "edition": "SoD",
+      "bytes": 3485,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGLg01.def",
+      "kind": "def",
+      "type": 71,
+      "groups": 1,
+      "frames": 1,
+      "width": 84,
+      "height": 48,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGLg01.def.webp",
       "previewWidth": 83,
-      "previewHeight": 32,
-      "anchor": "file-71dd50e050e2",
-      "sha256": "a59b62cb1ca5140f6acc6b15b7161c7538c732a5898394a5ff795830714a430c",
+      "previewHeight": 45,
+      "anchor": "file-94fa82299ac3",
+      "sha256": "40c343124739af6be059a696d099a90a3a68ec38a7a1286f0a0239cfdc6a1128",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanNum0.def",
-      "name": "RanNum0.def",
+      "id": "H3sprite.lod/ObGRk01.def",
+      "name": "ObGRk01.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum0.def",
+      "bytes": 4127,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGRk01.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum0.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-62679c534315",
-      "sha256": "eec76e63458e9d2293098a29dc79ae67266315bff7e4235906d057619b209da9",
+      "frames": 1,
+      "width": 87,
+      "height": 87,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGRk01.def.webp",
+      "previewWidth": 87,
+      "previewHeight": 54,
+      "anchor": "file-c4497e6d75aa",
+      "sha256": "73566c695a5f8de953614a7829a09e576a1d1ecb496634daa849bff6c95bba8e",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanNum1.def",
-      "name": "RanNum1.def",
+      "id": "H3sprite.lod/ObGRk02.def",
+      "name": "ObGRk02.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum1.def",
       "kind": "def",
+      "bytes": 3817,
+      "sha256": "2ec66090a7e74383b983c53058d3935b9f36b3e9c9603465425f3b958685bd9e",
+      "anchor": "file-bf3cb6653f02",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGRk02.def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum1.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-3559054f65ba",
-      "sha256": "5d98bbcb3eb85f050badbe8059430f0175ac57ce2093c220052d05c99f5c7a6b",
+      "frames": 1,
+      "width": 89,
+      "height": 49,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGRk02.def.webp",
+      "previewWidth": 89,
+      "previewHeight": 47,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanNum2.def",
-      "name": "RanNum2.def",
+      "id": "H3sprite.lod/ObGrS01.def",
+      "name": "ObGrS01.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum2.def",
+      "bytes": 16955,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGrS01.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum2.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-85d82c7d25ed",
-      "sha256": "2d6c37ddea8eb3968bf4689cc54dbc4202871b5cba6643be08fd2799ae60a2a5",
+      "frames": 1,
+      "width": 226,
+      "height": 95,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGrS01.def.webp",
+      "previewWidth": 204,
+      "previewHeight": 95,
+      "anchor": "file-a4ae2394c1c7",
+      "sha256": "9e4ef8e71924a03dac232f7086c929f65cf1e9434ebe3ebc1187ce79d96895cc",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanNum3.def",
-      "name": "RanNum3.def",
+      "id": "H3sprite.lod/ObGrS02.def",
+      "name": "ObGrS02.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum3.def",
+      "bytes": 3832,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGrS02.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum3.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-84d73be54285",
-      "sha256": "d4e9252a488dc874dff9691491dc35cd1228f68a245ef0eb8571fc283572c392",
+      "frames": 1,
+      "width": 134,
+      "height": 51,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGrS02.def.webp",
+      "previewWidth": 95,
+      "previewHeight": 47,
+      "anchor": "file-0c5749758f65",
+      "sha256": "6ba6e4ae10aef630ca9a3885c7a75fcf20afed281ada8c8fd9352bd63130a48b",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanNum4.def",
-      "name": "RanNum4.def",
+      "id": "H3sprite.lod/ObGrS03.def",
+      "name": "ObGrS03.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum4.def",
       "kind": "def",
+      "bytes": 9685,
+      "sha256": "9418ab36db4efbcf84842f88a235c19746a9d5451dfbd89b6eeef7c95c9abeea",
+      "anchor": "file-07fc427608ff",
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGrS03.def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum4.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-bc22e8b75b88",
-      "sha256": "33351bcca1c6b7d36596884ddfebe1ca44efb09eb99b73f98c39eb85c729449a",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanNum5.def",
-      "name": "RanNum5.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum5.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum5.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-d706167aa1b0",
-      "sha256": "eea124c39d19f9f5351722c22a06f49d06d841edbe1b2e20bf714949bd027525",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanNum6.def",
-      "name": "RanNum6.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum6.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum6.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-58d702906184",
-      "sha256": "2949269d6ed082a7c7cd7c95c34ab0dc082dd6f0507860170bf788fbd6f0d3c0",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanNum7.def",
-      "name": "RanNum7.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum7.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum7.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-b8a0efe2f4f9",
-      "sha256": "8fc640116b74138a9389740c433eb5a439104d73398b28fe358f056f469cacb6",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanNum8.def",
-      "name": "RanNum8.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 4420,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanNum8.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 30,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanNum8.def.webp",
-      "previewWidth": 30,
-      "previewHeight": 32,
-      "anchor": "file-8d395362ea1d",
-      "sha256": "1c721d9a820f8d187c5d2daaa12f09dab2f7e03437b99790a6cad6104ed59f9e",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanRand.def",
-      "name": "RanRand.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 6820,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanRand.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 55,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanRand.def.webp",
-      "previewWidth": 55,
-      "previewHeight": 32,
-      "anchor": "file-b8f6bf42170f",
-      "sha256": "3fa7392ea3fe8bcf23fea8e2e749bbc1663e8cb38bdf87517c26c85361cb8234",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanShow.def",
-      "name": "RanShow.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 42364,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanShow.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 337,
-      "height": 40,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanShow.def.webp",
+      "frames": 1,
+      "width": 275,
+      "height": 53,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGrS03.def.webp",
       "previewWidth": 240,
-      "previewHeight": 28,
-      "anchor": "file-c159364add7d",
-      "sha256": "fa58913159a24ad09c97cc44b337f6ade0ad31fa50e0495e0bef01c326a003ea",
+      "previewHeight": 48,
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-11/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanSizL.def",
-      "name": "RanSizL.def",
+      "id": "H3sprite.lod/ObGSt01.def",
+      "name": "ObGSt01.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 5914,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanSizL.def",
+      "bytes": 2330,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObGSt01.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanSizL.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-cde839be85ab",
-      "sha256": "d20756135dd08f482761e3fbe12c83cf43ed63c3a8254b9232400098be726275",
+      "frames": 1,
+      "width": 43,
+      "height": 47,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObGSt01.def.webp",
+      "previewWidth": 43,
+      "previewHeight": 44,
+      "anchor": "file-3a3686642437",
+      "sha256": "da3ed3e3b5bf7720d331edae61fcfc22b8acca4fb953b70daa578d51fea260b5",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanSizM.def",
-      "name": "RanSizM.def",
+      "id": "H3sprite.lod/ObHGs00.def",
+      "name": "ObHGs00.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 5914,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanSizM.def",
+      "bytes": 2551,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObHGs00.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanSizM.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-ab04527b90b2",
-      "sha256": "7fe94f7ca2ab179745d2a5503ce13565b0caec0b571691bfd51de021d756f0a8",
+      "frames": 1,
+      "width": 39,
+      "height": 47,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObHGs00.def.webp",
+      "previewWidth": 33,
+      "previewHeight": 44,
+      "anchor": "file-ad63d258af89",
+      "sha256": "671ecad9792eddb50b7bf817294dc27d95df149512a4f85af118686863526fd2",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanSizS.def",
-      "name": "RanSizS.def",
+      "id": "H3sprite.lod/ObHGs01.def",
+      "name": "ObHGs01.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 5914,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanSizS.def",
+      "bytes": 2660,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObHGs01.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanSizS.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-12ca4adbce12",
-      "sha256": "38057e482be13291b3551a6a788b07c0db542726449e0e369e26528cf75f40a0",
+      "frames": 1,
+      "width": 85,
+      "height": 40,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObHGs01.def.webp",
+      "previewWidth": 74,
+      "previewHeight": 27,
+      "anchor": "file-ad9159d8c66c",
+      "sha256": "38e0c16caa429a0e1fa625fc4ef4eb98ffca780d229270dbb24821df87603f38",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanSizX.def",
-      "name": "RanSizX.def",
+      "id": "H3sprite.lod/ObHGs02.def",
+      "name": "ObHGs02.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 5914,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanSizX.def",
+      "bytes": 6278,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObHGs02.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanSizX.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-5f6899b13743",
-      "sha256": "9c77ab3f03a583b67be4ad452cbeea60d01a4bca1d6a3b97694ace8d1cdbde28",
+      "frames": 1,
+      "width": 104,
+      "height": 122,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObHGs02.def.webp",
+      "previewWidth": 79,
+      "previewHeight": 108,
+      "anchor": "file-fd4ddb3165fd",
+      "sha256": "7546d9f03bd74238877beea3bf65923bcf1df73b92b019f5dbb1b0d7c3687174",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanStrg.def",
-      "name": "RanStrg.def",
+      "id": "H3sprite.lod/ObHGs03.def",
+      "name": "ObHGs03.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 9604,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanStrg.def",
+      "bytes": 7675,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObHGs03.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 84,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanStrg.def.webp",
-      "previewWidth": 84,
-      "previewHeight": 32,
-      "anchor": "file-cbe2d61c4b3b",
-      "sha256": "c58b7cb7e9c5cf11780d4728db51eaf3380cad41ccfada5ba0d10b7d959f8d59",
+      "frames": 1,
+      "width": 127,
+      "height": 86,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObHGs03.def.webp",
+      "previewWidth": 123,
+      "previewHeight": 68,
+      "anchor": "file-d278ee2c0fd2",
+      "sha256": "f33798d13f476c0008348b25b4ce09959e66b7cfa8f6fba33a64f4e17aa8bdba",
+      "frameGroups": [
+        {
+          "id": 0,
+          "frames": 1
+        }
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     },
     {
-      "id": "H3sprite.lod/RanUndr.def",
-      "name": "RanUndr.def",
+      "id": "H3sprite.lod/ObHGs04.def",
+      "name": "ObHGs04.def",
       "archive": "H3sprite.lod",
       "edition": "SoD",
-      "bytes": 5914,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanUndr.def",
+      "bytes": 14829,
+      "original": "/assets/wiki/sod/h3sprite-lod/original/ObHGs04.def",
       "kind": "def",
       "type": 71,
       "groups": 1,
-      "frames": 4,
-      "width": 44,
-      "height": 33,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanUndr.def.webp",
-      "previewWidth": 44,
-      "previewHeight": 33,
-      "anchor": "file-b4b9dee9893a",
-      "sha256": "753259a008814f365f3e3e123973e9123f52bf45a11606673deed98059c875ea",
-      "destinations": [
+      "frames": 1,
+      "width": 163,
+      "height": 125,
+      "preview": "/assets/wiki/sod/h3sprite-lod/preview/ObHGs04.def.webp",
+      "previewWidth": 158,
+      "previewHeight": 122,
+      "anchor": "file-9588e14190b1",
+      "sha256": "8ef8c7b54ce1a53eaf096a751891dbfa2dfa996c8cf13426125bd9d11d80e318",
+      "frameGroups": [
         {
-          "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
+          "id": 0,
+          "frames": 1
         }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/RanWeak.def",
-      "name": "RanWeak.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 9508,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/RanWeak.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 4,
-      "width": 83,
-      "height": 32,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/RanWeak.def.webp",
-      "previewWidth": 83,
-      "previewHeight": 32,
-      "anchor": "file-f001c84e45e9",
-      "sha256": "4506784a8a24bcb395839bcdd3c8cc4dd010e6153a0af66959a67fd27a53e1d7",
+      ],
       "destinations": [
         {
           "category": [
-            "Interface",
-            "General",
-            "Buttons",
-            "Scenario selection buttons"
+            "Battlefield obstacles"
           ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-2/"
-        }
-      ]
-    },
-    {
-      "id": "H3sprite.lod/Resour82.def",
-      "name": "Resour82.def",
-      "archive": "H3sprite.lod",
-      "edition": "SoD",
-      "bytes": 58431,
-      "original": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/original/Resour82.def",
-      "kind": "def",
-      "type": 71,
-      "groups": 1,
-      "frames": 7,
-      "width": 82,
-      "height": 93,
-      "preview": "https://asmedian.github.io/modding-guide/assets/wiki/sod/h3sprite-lod/preview/Resour82.def.webp",
-      "previewWidth": 82,
-      "previewHeight": 93,
-      "anchor": "file-ffe935b71c05",
-      "sha256": "92d7483f858e9389549df34cf08e6ebcf25be5cbb779f691d36464046f0677e3",
-      "destinations": [
-        {
-          "category": [
-            "Interface",
-            "General",
-            "Icons",
-            "Resources"
-          ],
-          "en": "https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/"
+          "en": "/en/wiki/sprite/2/6/page-10/"
         }
       ]
     }

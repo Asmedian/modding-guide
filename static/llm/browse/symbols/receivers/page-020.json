@@ -2,48 +2,31 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "UN:H",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-h",
+      "name": "VR",
+      "kind": "receiver",
+      "slug": "receivers/vr",
+      "anchor": "",
       "aliases": [
-        "!!UN:H"
+        "!!VR"
       ],
-      "label": "H#1/#2/#3/#4/#5",
+      "label": "Variables and expressions (VR)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-h"
+        "en": "/en/erm/receivers/vr/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -52,48 +35,31 @@
       }
     },
     {
-      "name": "UN:I",
+      "name": "VR:C",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-i",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-c",
       "aliases": [
-        "!!UN:I"
+        "!!VR:C"
       ],
-      "label": "I#1/#2/#3/#4/#5/#6",
+      "label": "C$1/$2/$3/$4/$5/$6/$7/$8/$9/$10/$11/$12/$13/$14/$15/$16",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-i"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-c"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -102,48 +68,31 @@
       }
     },
     {
-      "name": "UN:J",
+      "name": "VR:H",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-h",
       "aliases": [
-        "!!UN:J"
+        "!!VR:H"
       ],
-      "label": "J# J0/#/$",
+      "label": "H#",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-h"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -152,48 +101,31 @@
       }
     },
     {
-      "name": "UN:J1",
+      "name": "VR:M",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j1",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-m",
       "aliases": [
-        "!!UN:J1"
+        "!!VR:M"
       ],
-      "label": "J1/$1/?$2",
+      "label": "M#!!VRz#:M1/z#1/#2/#3",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j1"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-m"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -202,48 +134,31 @@
       }
     },
     {
-      "name": "UN:J10",
+      "name": "VR:M2",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j10",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-m2",
       "aliases": [
-        "!!UN:J10"
+        "!!VR:M2"
       ],
-      "label": "J10",
+      "label": "!!VRz#:M2/z#1/#2",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j10"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-m2"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -252,48 +167,31 @@
       }
     },
     {
-      "name": "UN:J11",
+      "name": "VR:M3",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j11",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-m3",
       "aliases": [
-        "!!UN:J11"
+        "!!VR:M3"
       ],
-      "label": "J11/$",
+      "label": "!!VRz#:M3/#1/#2!!VRz#:M3/#1",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j11"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-m3"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -302,48 +200,31 @@
       }
     },
     {
-      "name": "UN:J13",
+      "name": "VR:M4",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j13",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-m4",
       "aliases": [
-        "!!UN:J13"
+        "!!VR:M4"
       ],
-      "label": "J13/$",
+      "label": "!!VR#:M4/?$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j13"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-m4"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -352,48 +233,31 @@
       }
     },
     {
-      "name": "UN:J2",
+      "name": "VR:M5",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j2",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-m5",
       "aliases": [
-        "!!UN:J2"
+        "!!VR:M5"
       ],
-      "label": "J2/$",
+      "label": "!!VR#:M5/?$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j2"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-m5"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -402,48 +266,31 @@
       }
     },
     {
-      "name": "UN:J3",
+      "name": "VR:M6",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j3",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-m6",
       "aliases": [
-        "!!UN:J3"
+        "!!VR:M6"
       ],
-      "label": "J3",
+      "label": "!!VR#:M6/?$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j3"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-m6"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -452,48 +299,31 @@
       }
     },
     {
-      "name": "UN:J4",
+      "name": "VR:R",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j4",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-r",
       "aliases": [
-        "!!UN:J4"
+        "!!VR:R"
       ],
-      "label": "J4/$",
+      "label": "Rx",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j4"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-r"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -502,48 +332,31 @@
       }
     },
     {
-      "name": "UN:J5",
+      "name": "VR:S",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j5",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-s",
       "aliases": [
-        "!!UN:J5"
+        "!!VR:S"
       ],
-      "label": "J5/$",
+      "label": "S#",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j5"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-s"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -552,48 +365,31 @@
       }
     },
     {
-      "name": "UN:J6",
+      "name": "VR:T",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j6",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-t",
       "aliases": [
-        "!!UN:J6"
+        "!!VR:T"
       ],
-      "label": "J6/#/$",
+      "label": "T$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j6"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-t"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -602,48 +398,31 @@
       }
     },
     {
-      "name": "UN:J7",
+      "name": "VR:U",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j7",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-u",
       "aliases": [
-        "!!UN:J7"
+        "!!VR:U"
       ],
-      "label": "J7/#/$",
+      "label": "!!VRz#1:Uz#2!!VRz#1:U^текст^",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j7"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-u"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -652,48 +431,31 @@
       }
     },
     {
-      "name": "UN:J8",
+      "name": "VR:V",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j8",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-v",
       "aliases": [
-        "!!UN:J8"
+        "!!VR:V"
       ],
-      "label": "J8/$1/$2 J8/$1/^Текст^",
+      "label": "!!VR$:Vz#",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j8"
+        "en": "/en/erm/receivers/vr/#ref-rec-vr-v"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-043.md",
+            "fromAnchor": "ref-rec-vr",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver VR",
+              "Logical bit operations",
+              "Arithmetic operations with variables.",
+              "Commands over text variables",
+              "Connecting text variables",
+              "Notes on modern ERA versions",
               "Related reference",
               "Related commands and tables"
             ]
@@ -702,48 +464,26 @@
       }
     },
     {
-      "name": "UN:J9",
-      "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-j9",
+      "name": "WG",
+      "kind": "receiver",
+      "slug": "receivers/wg",
+      "anchor": "",
       "aliases": [
-        "!!UN:J9"
+        "!!WG"
       ],
-      "label": "J9/$1/$2",
+      "label": "Wagon (WG)",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-j9"
+        "en": "/en/erm/receivers/wg/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wg",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver WG",
               "Related reference",
               "Related commands and tables"
             ]
@@ -752,48 +492,306 @@
       }
     },
     {
-      "name": "UN:K",
+      "name": "WG:A",
       "kind": "command",
-      "slug": "receivers/un",
-      "anchor": "ref-rec-un-k",
+      "slug": "receivers/wg",
+      "anchor": "ref-rec-wg-a",
       "aliases": [
-        "!!UN:K"
+        "!!WG:A"
       ],
-      "label": "K#/$",
+      "label": "A$",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/receivers/un/#ref-rec-un-k"
+        "en": "/en/erm/receivers/wg/#ref-rec-wg-a"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-038.md",
-            "fromAnchor": "ref-rec-un",
-            "toAnchor": "ref-rec-un-g2",
-            "headings": [
-              "Receiver UN"
-            ]
-          },
-          {
-            "part": 2,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-039.md",
-            "fromAnchor": "ref-rec-un-h",
-            "toAnchor": "ref-rec-un-j9",
-            "headings": []
-          },
-          {
-            "part": 3,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-040.md",
-            "fromAnchor": "ref-rec-un-j10",
-            "toAnchor": "ref-rec-un-r",
-            "headings": []
-          },
-          {
-            "part": 4,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-041.md",
-            "fromAnchor": "ref-rec-un-44",
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wg",
             "toAnchor": "reference-links",
             "headings": [
+              "Receiver WG",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WG:B",
+      "kind": "command",
+      "slug": "receivers/wg",
+      "anchor": "ref-rec-wg-b",
+      "aliases": [
+        "!!WG:B"
+      ],
+      "label": "B$",
+      "destinations": {
+        "en": "/en/erm/receivers/wg/#ref-rec-wg-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wg",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WG",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WG:R",
+      "kind": "command",
+      "slug": "receivers/wg",
+      "anchor": "ref-rec-wg-r",
+      "aliases": [
+        "!!WG:R"
+      ],
+      "label": "R$1/$2",
+      "destinations": {
+        "en": "/en/erm/receivers/wg/#ref-rec-wg-r"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wg",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WG",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WG:S",
+      "kind": "command",
+      "slug": "receivers/wg",
+      "anchor": "ref-rec-wg-s",
+      "aliases": [
+        "!!WG:S"
+      ],
+      "label": "S$",
+      "destinations": {
+        "en": "/en/erm/receivers/wg/#ref-rec-wg-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wg",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WG",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WH",
+      "kind": "receiver",
+      "slug": "receivers/wh",
+      "anchor": "",
+      "aliases": [
+        "!!WH"
+      ],
+      "label": "Witch hut (WH)",
+      "destinations": {
+        "en": "/en/erm/receivers/wh/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wh",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WH",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WH:S",
+      "kind": "command",
+      "slug": "receivers/wh",
+      "anchor": "ref-rec-wh-s",
+      "aliases": [
+        "!!WH:S"
+      ],
+      "label": "S$",
+      "destinations": {
+        "en": "/en/erm/receivers/wh/#ref-rec-wh-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wh",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WH",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WM",
+      "kind": "receiver",
+      "slug": "receivers/wm",
+      "anchor": "",
+      "aliases": [
+        "!!WM"
+      ],
+      "label": "Water wheel (WM)",
+      "destinations": {
+        "en": "/en/erm/receivers/wm/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WM:B",
+      "kind": "command",
+      "slug": "receivers/wm",
+      "anchor": "ref-rec-wm-b",
+      "aliases": [
+        "!!WM:B"
+      ],
+      "label": "B$",
+      "destinations": {
+        "en": "/en/erm/receivers/wm/#ref-rec-wm-b"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WM",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WT",
+      "kind": "receiver",
+      "slug": "receivers/wt",
+      "anchor": "",
+      "aliases": [
+        "!!WT"
+      ],
+      "label": "Warrior tomb (WT)",
+      "destinations": {
+        "en": "/en/erm/receivers/wt/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wt",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WT",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WT:A",
+      "kind": "command",
+      "slug": "receivers/wt",
+      "anchor": "ref-rec-wt-a",
+      "aliases": [
+        "!!WT:A"
+      ],
+      "label": "A$",
+      "destinations": {
+        "en": "/en/erm/receivers/wt/#ref-rec-wt-a"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wt",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WT",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WT:S",
+      "kind": "command",
+      "slug": "receivers/wt",
+      "anchor": "ref-rec-wt-s",
+      "aliases": [
+        "!!WT:S"
+      ],
+      "label": "S$",
+      "destinations": {
+        "en": "/en/erm/receivers/wt/#ref-rec-wt-s"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/receivers/text-044.md",
+            "fromAnchor": "ref-rec-wt",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver WT",
               "Related reference",
               "Related commands and tables"
             ]

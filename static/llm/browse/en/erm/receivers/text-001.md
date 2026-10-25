@@ -1,7 +1,7 @@
 # AI destinations (AI)
 
 ID: erm.receivers.ai
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ai/
+URL: /en/erm/receivers/ai/
 Part: 1/1
 Source references: old-help:rec-ai.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -101,7 +101,7 @@ Therefore, it is better to assign a specific hero to avoid chaos.</li></ol></div
 # Map artifacts and resources (AR)
 
 ID: erm.receivers.ar
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ar/
+URL: /en/erm/receivers/ar/
 Part: 1/1
 Source references: old-help:rec-ar.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -223,7 +223,7 @@ Enable guards if # is non-zero, otherwise disable. The command does not check wh
 # Battle configuration (BA)
 
 ID: erm.receivers.ba
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ba/
+URL: /en/erm/receivers/ba/
 Part: 1/1
 Source references: old-help:rec-ba.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

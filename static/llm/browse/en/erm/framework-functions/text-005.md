@@ -1,93 +1,7 @@
-# ConstructBitMask
-
-ID: erm.framework.functions.constructbitmask
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/constructbitmask/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.constructbitmask 1 -->
-## Purpose {#purpose}
-
-Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.
-
-## Call contract {#signature}
-
-```erm
-!!FU(ConstructBitMask):P(args)/(result);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `args` | input |
-| x2 | `result` | input |
-
-## State and dependencies {#context}
-
-Named globals: â€”.
-  !!FU:E;
-!!en;
-
-!!VR(mask:y):S0;
-
-!!re i/(@args)/(numArgs)/1/-1;
-  !!VR(arg:y):Sxi;
-
-  !!if&(arg)>=0/(arg)<=31;
-    !!VR(bit:y):S1 Sd<<(arg);
-    !!VR(mask):|(bit);
-  !!el;
-    !!SN:F^`.
-
-Export calls: `ShowErmError`.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1194â€“1223, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.constructbitmask 1 -->
-
-# CreateDir
-
-ID: erm.framework.functions.createdir
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/createdir/
-Part: 1/1
-Source references: era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body erm.framework.functions.createdir 1 -->
-## Purpose {#purpose}
-
-Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.
-
-## Call contract {#signature}
-
-```erm
-!!FU(CreateDir):P(dirPathPtr);
-```
-
-## Parameter order {#parameters}
-
-| Position | Source name | Usage |
-| --- | --- | --- |
-| x1 | `dirPathPtr` | input |
-
-## State and dependencies {#context}
-
-The body does not access named global variables.
-
-Export calls: `CreateDirectoryA`.
-
-## Version and status {#provenance}
-
-Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1605â€“1612, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
-<!-- llm:end erm.framework.functions.createdir 1 -->
-
 # DeconstructBitMask
 
 ID: erm.framework.functions.deconstructbitmask
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/deconstructbitmask/
+URL: /en/erm/framework/functions/deconstructbitmask/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -128,7 +42,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1224â
 # DecorateInt
 
 ID: erm.framework.functions.decorateint
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/decorateint/
+URL: /en/erm/framework/functions/decorateint/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -166,7 +80,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1521â
 # DeleteFile
 
 ID: erm.framework.functions.deletefile
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/deletefile/
+URL: /en/erm/framework/functions/deletefile/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -207,7 +121,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1578â
 # DirExists
 
 ID: erm.framework.functions.direxists
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/direxists/
+URL: /en/erm/framework/functions/direxists/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -248,7 +162,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1566â
 # DisableErrors
 
 ID: erm.framework.functions.disableerrors
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/disableerrors/
+URL: /en/erm/framework/functions/disableerrors/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -280,7 +194,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2010â
 # DL_AlignDlg
 
 ID: erm.framework.functions.dl-aligndlg
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-aligndlg/
+URL: /en/erm/framework/functions/dl-aligndlg/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -327,7 +241,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2290â
 # DL_CenterAtMouse
 
 ID: erm.framework.functions.dl-centeratmouse
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-centeratmouse/
+URL: /en/erm/framework/functions/dl-centeratmouse/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -371,7 +285,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2215â
 # DL_Coords
 
 ID: erm.framework.functions.dl-coords
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-coords/
+URL: /en/erm/framework/functions/dl-coords/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -424,7 +338,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2223â
 # DL_Destroy
 
 ID: erm.framework.functions.dl-destroy
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-destroy/
+URL: /en/erm/framework/functions/dl-destroy/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -460,7 +374,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2192â
 # DL_FindById
 
 ID: erm.framework.functions.dl-findbyid
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-findbyid/
+URL: /en/erm/framework/functions/dl-findbyid/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -501,7 +415,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2184â
 # DL_GetSize
 
 ID: erm.framework.functions.dl-getsize
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-getsize/
+URL: /en/erm/framework/functions/dl-getsize/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -549,7 +463,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2256â
 # DL_SetPlayerColor
 
 ID: erm.framework.functions.dl-setplayercolor
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setplayercolor/
+URL: /en/erm/framework/functions/dl-setplayercolor/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -596,7 +510,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2332â
 # DL_SetSize
 
 ID: erm.framework.functions.dl-setsize
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setsize/
+URL: /en/erm/framework/functions/dl-setsize/
 Part: 1/1
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -640,4 +554,84 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2273â
 
 [NULL](../../constants/universal/#const-null) Â· [STRUCT_H3DLG_HEIGHT](../../constants/game-structures/#const-struct-h3dlg-height) Â· [STRUCT_H3DLG_WIDTH](../../constants/game-structures/#const-struct-h3dlg-width) Â· [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
 <!-- llm:end erm.framework.functions.dl-setsize 1 -->
+
+# DL_ShowPopup
+
+ID: erm.framework.functions.dl-showpopup
+URL: /en/erm/framework/functions/dl-showpopup/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.dl-showpopup 1 -->
+## Purpose {#purpose}
+
+Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.
+
+## Call contract {#signature}
+
+```erm
+!!FU(DL_ShowPopup):P(dlgId);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `dlgId` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+The implementation accesses memory or native functions directly. Use a compatible game build; addresses cannot be transferred to another EXE without verification.
+
+## Related functions {#calls}
+
+[DL_Destroy](../dl-destroy/) Â· [DL_FindById](../dl-findbyid/) Â· [H3Dlg_ShowPopup](../h3dlg-showpopup/)
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2198â€“2214, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+
+## Constants used {#constants}
+
+[NULL](../../constants/universal/#const-null) Â· [UNC_INT](../../constants/un-c-data-types/#const-unc-int)
+<!-- llm:end erm.framework.functions.dl-showpopup 1 -->
+
+# EmptyIniCache
+
+ID: erm.framework.functions.emptyinicache
+URL: /en/erm/framework/functions/emptyinicache/
+Part: 1/1
+Source references: era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body erm.framework.functions.emptyinicache 1 -->
+## Purpose {#purpose}
+
+Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.
+
+## Call contract {#signature}
+
+```erm
+!!FU(EmptyIniCache):P(filePathPtr);
+```
+
+## Parameter order {#parameters}
+
+| Position | Source name | Usage |
+| --- | --- | --- |
+| x1 | `filePathPtr` | input |
+
+## State and dependencies {#context}
+
+The body does not access named global variables.
+
+Export calls: `EmptyIniCache`.
+
+## Version and status {#provenance}
+
+Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1597â€“1604, was examined. Framework declares ERA 3.9.15+. Behavior describes this snapshot; examples have not been separately executed in game.
+<!-- llm:end erm.framework.functions.emptyinicache 1 -->
 

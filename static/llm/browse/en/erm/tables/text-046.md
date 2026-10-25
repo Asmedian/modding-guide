@@ -1,7 +1,7 @@
 # Spell table
 
 ID: erm.tables.spells
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/spells/
+URL: /en/erm/tables/spells/
 Part: 1/1
 Source references: old-help:form-spell.htm, era-framework:lib-9999-era---consts.erm, old-help:form-spell-hex.htm, old-help:form-spella.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

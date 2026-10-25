@@ -1,7 +1,7 @@
 # Framework functions
 
 ID: erm.framework.functions
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/
+URL: /en/erm/framework/functions/
 Part: 1/2
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

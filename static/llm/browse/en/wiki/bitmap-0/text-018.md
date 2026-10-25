@@ -1,7 +1,7 @@
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-2
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-2/
+URL: /en/wiki/bitmap/0/3/page-2/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -158,7 +158,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-3
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-3/
+URL: /en/wiki/bitmap/0/3/page-3/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -308,7 +308,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-4
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-4/
+URL: /en/wiki/bitmap/0/3/page-4/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -472,7 +472,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Hero portraits
 
 ID: wiki.bitmap.0.3.page-5
-URL: https://asmedian.github.io/modding-guide/en/wiki/bitmap/0/3/page-5/
+URL: /en/wiki/bitmap/0/3/page-5/
 Part: 1/1
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

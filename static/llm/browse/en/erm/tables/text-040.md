@@ -1,7 +1,7 @@
 # One-way monoliths
 
 ID: erm.tables.one-way-monoliths
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/one-way-monoliths/
+URL: /en/erm/tables/one-way-monoliths/
 Part: 1/1
 Source references: old-help:form-one-way-monolith.htm, old-help:form-objects.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -74,7 +74,7 @@ Subtypes of [object 43](../objects/#id-43). One-way entrances and exits use diff
 # Player colors
 
 ID: erm.tables.players
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/players/
+URL: /en/erm/tables/players/
 Part: 1/1
 Source references: old-help:form-gamerscolor.htm, era-framework:lib-9999-era---consts.erm, old-help:form-gamerscolor-bit.htm, old-help:form-if-flags.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -285,7 +285,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Projectiles and beams
 
 ID: erm.tables.projectiles
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/projectiles/
+URL: /en/erm/tables/projectiles/
 Part: 1/1
 Source references: old-help:form-weapon.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -416,7 +416,7 @@ Historical type 16 looks for an empty-name DEF and crashes when it is missing. B
 # RD recruitment dialog
 
 ID: erm.tables.recruitment-dialog
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/recruitment-dialog/
+URL: /en/erm/tables/recruitment-dialog/
 Part: 1/1
 Source references: old-help:form-rd-s1.htm, old-help:rec-rd.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -452,7 +452,7 @@ Recruitment dialog layout: three creature variants, price, stock, quantity and c
 # Resources
 
 ID: erm.tables.resources
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/resources/
+URL: /en/erm/tables/resources/
 Part: 1/1
 Source references: old-help:form-resource.htm, era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

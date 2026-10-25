@@ -1,7 +1,7 @@
 # ERA services, memory and sound (SN)
 
 ID: erm.receivers.sn
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sn/
+URL: /en/erm/receivers/sn/
 Part: 1/3
 Source references: old-help:rec-sn.htm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, old-help:era-api.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -2,98 +2,6 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "Battle_RedrawGridShadow",
-      "kind": "function",
-      "slug": "framework/functions/battle-redrawgridshadow",
-      "anchor": "",
-      "aliases": [
-        "FU(Battle_RedrawGridShadow)"
-      ],
-      "label": "Refreshes movement-range shading after a speed change. Requires an existing combat manager.",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/battle-redrawgridshadow/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
-            "fromAnchor": "purpose",
-            "toAnchor": "constants",
-            "headings": [
-              "Purpose",
-              "Call contract",
-              "State and dependencies",
-              "Version and status",
-              "Constants used"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BattleStack_MakeActive",
-      "kind": "function",
-      "slug": "framework/functions/battlestack-makeactive",
-      "anchor": "",
-      "aliases": [
-        "FU(BattleStack_MakeActive)"
-      ],
-      "label": "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists.",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/battlestack-makeactive/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
-            "fromAnchor": "purpose",
-            "toAnchor": "constants",
-            "headings": [
-              "Purpose",
-              "Call contract",
-              "Parameter order",
-              "State and dependencies",
-              "Version and status",
-              "Constants used"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BattleStack_Shoot",
-      "kind": "function",
-      "slug": "framework/functions/battlestack-shoot",
-      "anchor": "",
-      "aliases": [
-        "FU(BattleStack_Shoot)"
-      ],
-      "label": "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first.",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/battlestack-shoot/"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
-            "fromAnchor": "purpose",
-            "toAnchor": "constants",
-            "headings": [
-              "Purpose",
-              "Call contract",
-              "Parameter order",
-              "State and dependencies",
-              "Version and status",
-              "Constants used"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "ChangeArtModAtSlot",
       "kind": "function",
       "slug": "framework/functions/changeartmodatslot",
@@ -103,13 +11,13 @@
       ],
       "label": "Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/changeartmodatslot/"
+        "en": "/en/erm/framework/functions/changeartmodatslot/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -134,13 +42,13 @@
       ],
       "label": "Clears the internal event-context stack and its position when loading a save.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/cleareventchaindata/"
+        "en": "/en/erm/framework/functions/cleareventchaindata/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -163,13 +71,13 @@
       ],
       "label": "Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/clearinicache/"
+        "en": "/en/erm/framework/functions/clearinicache/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -193,13 +101,13 @@
       ],
       "label": "Clears green on-screen log messages.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/clearscreenlog/"
+        "en": "/en/erm/framework/functions/clearscreenlog/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -222,13 +130,13 @@
       ],
       "label": "Copies CM context to mouse_* and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/collectmouseeventdata/"
+        "en": "/en/erm/framework/functions/collectmouseeventdata/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -252,13 +160,13 @@
       ],
       "label": "Compares two ERM strings with language operators and returns -1, 0, or 1.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/comparestrings/"
+        "en": "/en/erm/framework/functions/comparestrings/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -282,13 +190,13 @@
       ],
       "label": "String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/comparestrings-bridge-internal/"
+        "en": "/en/erm/framework/functions/comparestrings-bridge-internal/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -312,13 +220,13 @@
       ],
       "label": "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/constructbitmask/"
+        "en": "/en/erm/framework/functions/constructbitmask/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -342,13 +250,13 @@
       ],
       "label": "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/createdir/"
+        "en": "/en/erm/framework/functions/createdir/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-004.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -372,13 +280,13 @@
       ],
       "label": "Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/deconstructbitmask/"
+        "en": "/en/erm/framework/functions/deconstructbitmask/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -403,13 +311,13 @@
       ],
       "label": "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/decorateint/"
+        "en": "/en/erm/framework/functions/decorateint/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -433,13 +341,13 @@
       ],
       "label": "Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/deletefile/"
+        "en": "/en/erm/framework/functions/deletefile/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -464,13 +372,13 @@
       ],
       "label": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/direxists/"
+        "en": "/en/erm/framework/functions/direxists/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -495,13 +403,13 @@
       ],
       "label": "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/disableerrors/"
+        "en": "/en/erm/framework/functions/disableerrors/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -525,13 +433,13 @@
       ],
       "label": "Aligns an existing DL dialog using TEXT_ALIGN_* bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-aligndlg/"
+        "en": "/en/erm/framework/functions/dl-aligndlg/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -557,13 +465,13 @@
       ],
       "label": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-centeratmouse/"
+        "en": "/en/erm/framework/functions/dl-centeratmouse/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -589,13 +497,13 @@
       ],
       "label": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-coords/"
+        "en": "/en/erm/framework/functions/dl-coords/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -621,13 +529,13 @@
       ],
       "label": "Destroys a DL wrapper by address. Do not reuse the destroyed address.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-destroy/"
+        "en": "/en/erm/framework/functions/dl-destroy/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "provenance",
             "headings": [
@@ -651,13 +559,13 @@
       ],
       "label": "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-findbyid/"
+        "en": "/en/erm/framework/functions/dl-findbyid/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -682,13 +590,13 @@
       ],
       "label": "Returns the width and height of an existing DL dialog; reports an error if absent.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-getsize/"
+        "en": "/en/erm/framework/functions/dl-getsize/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -714,13 +622,13 @@
       ],
       "label": "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setplayercolor/"
+        "en": "/en/erm/framework/functions/dl-setplayercolor/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -746,13 +654,13 @@
       ],
       "label": "Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setsize/"
+        "en": "/en/erm/framework/functions/dl-setsize/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -778,13 +686,13 @@
       ],
       "label": "Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-showpopup/"
+        "en": "/en/erm/framework/functions/dl-showpopup/"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
             "fromAnchor": "purpose",
             "toAnchor": "constants",
             "headings": [
@@ -793,6 +701,190 @@
               "Parameter order",
               "State and dependencies",
               "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyIniCache",
+      "kind": "function",
+      "slug": "framework/functions/emptyinicache",
+      "anchor": "",
+      "aliases": [
+        "FU(EmptyIniCache)"
+      ],
+      "label": "Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/emptyinicache/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-005.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnableErrors",
+      "kind": "function",
+      "slug": "framework/functions/enableerrors",
+      "anchor": "",
+      "aliases": [
+        "FU(EnableErrors)"
+      ],
+      "label": "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/enableerrors/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-006.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnterMouseEvent",
+      "kind": "function",
+      "slug": "framework/functions/entermouseevent",
+      "anchor": "",
+      "aliases": [
+        "FU(EnterMouseEvent)"
+      ],
+      "label": "Saves previous keyboard/mouse context, then reads modifiers and CM for the new event.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/entermouseevent/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-006.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "EquipArtToSlot",
+      "kind": "function",
+      "slug": "framework/functions/equiparttoslot",
+      "anchor": "",
+      "aliases": [
+        "FU(EquipArtToSlot)"
+      ],
+      "label": "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/equiparttoslot/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-006.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FileExists",
+      "kind": "function",
+      "slug": "framework/functions/fileexists",
+      "anchor": "",
+      "aliases": [
+        "FU(FileExists)"
+      ],
+      "label": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/fileexists/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-006.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FormatQuantity",
+      "kind": "function",
+      "slug": "framework/functions/formatquantity",
+      "anchor": "",
+      "aliases": [
+        "FU(FormatQuantity)"
+      ],
+      "label": "Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported.",
+      "destinations": {
+        "en": "/en/erm/framework/functions/formatquantity/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-functions/text-006.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
               "Version and status",
               "Constants used"
             ]

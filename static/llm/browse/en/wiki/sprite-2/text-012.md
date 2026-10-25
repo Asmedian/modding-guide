@@ -1,7 +1,7 @@
 # Terrain, rivers, roads and arrows
 
 ID: wiki.sprite.2.4
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/4/
+URL: /en/wiki/sprite/2/4/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -74,7 +74,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Cursors
 
 ID: wiki.sprite.2.5
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/5/
+URL: /en/wiki/sprite/2/5/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -95,7 +95,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/
+URL: /en/wiki/sprite/2/6/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -329,7 +329,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-10
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-10/
+URL: /en/wiki/sprite/2/6/page-10/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -418,7 +418,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-11
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-11/
+URL: /en/wiki/sprite/2/6/page-11/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -515,7 +515,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Game interface and buildings
 
 ID: wiki.sprite.2.6.page-12
-URL: https://asmedian.github.io/modding-guide/en/wiki/sprite/2/6/page-12/
+URL: /en/wiki/sprite/2/6/page-12/
 Part: 1/1
 Source references: wiki-sod:H3sprite.lf, wiki-sod:H3sprite.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

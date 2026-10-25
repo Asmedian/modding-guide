@@ -1,7 +1,7 @@
 # Army stack experience (EX)
 
 ID: erm.receivers.ex
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ex/
+URL: /en/erm/receivers/ex/
 Part: 1/1
 Source references: old-help:rec-ex.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -199,7 +199,7 @@ Set/check/get creature type<br>
 # Town-faction parameters (FC)
 
 ID: erm.receivers.fc
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/fc/
+URL: /en/erm/receivers/fc/
 Part: 1/1
 Source references: old-help:rec-fc.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -327,7 +327,7 @@ Set/check/to obtain the native soil of the fraction (0..9).</div>
 # Campfire (FR)
 
 ID: erm.receivers.fr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/fr/
+URL: /en/erm/receivers/fr/
 Part: 1/1
 Source references: old-help:rec-fr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

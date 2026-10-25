@@ -2,124 +2,20 @@
   "schemaVersion": 1,
   "symbols": [
     {
-      "name": "ORD_UPPER_W",
+      "name": "SPELL_DEATH_RIPPLE",
       "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-upper-w",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-death-ripple",
       "aliases": [],
-      "label": "ORD_UPPER_W = 87",
+      "label": "SPELL_DEATH_RIPPLE = 24",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-upper-w"
+        "en": "/en/erm/framework/constants/spells/#const-spell-death-ripple"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ORD_UPPER_X",
-      "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-upper-x",
-      "aliases": [],
-      "label": "ORD_UPPER_X = 88",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-upper-x"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ORD_UPPER_Y",
-      "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-upper-y",
-      "aliases": [],
-      "label": "ORD_UPPER_Y = 89",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-upper-y"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ORD_UPPER_Z",
-      "kind": "constant",
-      "slug": "framework/constants/character-codes",
-      "anchor": "const-ord-upper-z",
-      "aliases": [],
-      "label": "ORD_UPPER_Z = 90",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/#const-ord-upper-z"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
-            "fromAnchor": "meaning",
-            "toAnchor": "related",
-            "headings": [
-              "Purpose",
-              "Values",
-              "All groups"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "PIC_TYPE_ART",
-      "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-art",
-      "aliases": [],
-      "label": "PIC_TYPE_ART = 8",
-      "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-art"
-      },
-      "texts": {
-        "en": [
-          {
-            "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -133,20 +29,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_CASTLE_TOWN_BUILDING",
+      "name": "SPELL_DESTROY_UNDEAD",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-castle-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-destroy-undead",
       "aliases": [],
-      "label": "PIC_TYPE_CASTLE_TOWN_BUILDING = 22",
+      "label": "SPELL_DESTROY_UNDEAD = 25",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-castle-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-destroy-undead"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -160,20 +56,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_CONFLUX_TOWN_BUILDING",
+      "name": "SPELL_DIMENSION_DOOR",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-conflux-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-dimension-door",
       "aliases": [],
-      "label": "PIC_TYPE_CONFLUX_TOWN_BUILDING = 30",
+      "label": "SPELL_DIMENSION_DOOR = 8",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-conflux-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-dimension-door"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -187,20 +83,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_DUNGEON_TOWN_BUILDING",
+      "name": "SPELL_DISGUISE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-dungeon-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-disguise",
       "aliases": [],
-      "label": "PIC_TYPE_DUNGEON_TOWN_BUILDING = 27",
+      "label": "SPELL_DISGUISE = 4",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-dungeon-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-disguise"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -214,20 +110,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_EXPERIENCE",
+      "name": "SPELL_DISPEL",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-experience",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-dispel",
       "aliases": [],
-      "label": "PIC_TYPE_EXPERIENCE = 17",
+      "label": "SPELL_DISPEL = 35",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-experience"
+        "en": "/en/erm/framework/constants/spells/#const-spell-dispel"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -241,20 +137,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_FIRST_TOWN_BUILDING",
+      "name": "SPELL_DISRUPTING_RAY",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-first-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-disrupting-ray",
       "aliases": [],
-      "label": "PIC_TYPE_FIRST_TOWN_BUILDING = 22",
+      "label": "SPELL_DISRUPTING_RAY = 47",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-first-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-disrupting-ray"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -268,20 +164,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_FLAG",
+      "name": "SPELL_EARTH_ELEMENTAL",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-flag",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-earth-elemental",
       "aliases": [],
-      "label": "PIC_TYPE_FLAG = 10",
+      "label": "SPELL_EARTH_ELEMENTAL = 67",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-flag"
+        "en": "/en/erm/framework/constants/spells/#const-spell-earth-elemental"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -295,20 +191,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_FLAG_DISPLAY_ZEROS",
+      "name": "SPELL_EARTHQUAKE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-flag-display-zeros",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-earthquake",
       "aliases": [],
-      "label": "PIC_TYPE_FLAG_DISPLAY_ZEROS = -2147483648",
+      "label": "SPELL_EARTHQUAKE = 14",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-flag-display-zeros"
+        "en": "/en/erm/framework/constants/spells/#const-spell-earthquake"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -322,20 +218,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_FORTRESS_TOWN_BUILDING",
+      "name": "SPELL_FIRE_ELEMENTAL",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-fortress-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-fire-elemental",
       "aliases": [],
-      "label": "PIC_TYPE_FORTRESS_TOWN_BUILDING = 29",
+      "label": "SPELL_FIRE_ELEMENTAL = 66",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-fortress-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-fire-elemental"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -349,20 +245,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_INFERNO_TOWN_BUILDING",
+      "name": "SPELL_FIRE_SHIELD",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-inferno-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-fire-shield",
       "aliases": [],
-      "label": "PIC_TYPE_INFERNO_TOWN_BUILDING = 25",
+      "label": "SPELL_FIRE_SHIELD = 29",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-inferno-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-fire-shield"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -376,20 +272,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_LAST_TOWN_BUILDING",
+      "name": "SPELL_FIRE_WALL",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-last-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-fire-wall",
       "aliases": [],
-      "label": "PIC_TYPE_LAST_TOWN_BUILDING = 30",
+      "label": "SPELL_FIRE_WALL = 13",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-last-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-fire-wall"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -403,20 +299,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_LUCK_FIRST",
+      "name": "SPELL_FIREBALL",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-luck-first",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-fireball",
       "aliases": [],
-      "label": "PIC_TYPE_LUCK_FIRST = 11",
+      "label": "SPELL_FIREBALL = 21",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-first"
+        "en": "/en/erm/framework/constants/spells/#const-spell-fireball"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -430,20 +326,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_LUCK_LAST",
+      "name": "SPELL_FIRST",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-luck-last",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-first",
       "aliases": [],
-      "label": "PIC_TYPE_LUCK_LAST = 13",
+      "label": "SPELL_FIRST = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-last"
+        "en": "/en/erm/framework/constants/spells/#const-spell-first"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -457,20 +353,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_LUCK_NEGATIVE",
+      "name": "SPELL_FIRST_ADVENTURE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-luck-negative",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-first-adventure",
       "aliases": [],
-      "label": "PIC_TYPE_LUCK_NEGATIVE = 13",
+      "label": "SPELL_FIRST_ADVENTURE = 0",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-negative"
+        "en": "/en/erm/framework/constants/spells/#const-spell-first-adventure"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -484,20 +380,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_LUCK_NEUTRAL",
+      "name": "SPELL_FIRST_BATTLE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-luck-neutral",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-first-battle",
       "aliases": [],
-      "label": "PIC_TYPE_LUCK_NEUTRAL = 12",
+      "label": "SPELL_FIRST_BATTLE = 10",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-neutral"
+        "en": "/en/erm/framework/constants/spells/#const-spell-first-battle"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -511,20 +407,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_LUCK_POSITIVE",
+      "name": "SPELL_FLY",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-luck-positive",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-fly",
       "aliases": [],
-      "label": "PIC_TYPE_LUCK_POSITIVE = 11",
+      "label": "SPELL_FLY = 6",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-luck-positive"
+        "en": "/en/erm/framework/constants/spells/#const-spell-fly"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -538,20 +434,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MONEY",
+      "name": "SPELL_FORCE_FIELD",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-money",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-force-field",
       "aliases": [],
-      "label": "PIC_TYPE_MONEY = 36",
+      "label": "SPELL_FORCE_FIELD = 12",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-money"
+        "en": "/en/erm/framework/constants/spells/#const-spell-force-field"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -565,20 +461,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MONSTER",
+      "name": "SPELL_FORGETFULNESS",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-monster",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-forgetfulness",
       "aliases": [],
-      "label": "PIC_TYPE_MONSTER = 21",
+      "label": "SPELL_FORGETFULNESS = 61",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-monster"
+        "en": "/en/erm/framework/constants/spells/#const-spell-forgetfulness"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -592,20 +488,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MORALE_FIRST",
+      "name": "SPELL_FORTUNE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-morale-first",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-fortune",
       "aliases": [],
-      "label": "PIC_TYPE_MORALE_FIRST = 14",
+      "label": "SPELL_FORTUNE = 51",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-first"
+        "en": "/en/erm/framework/constants/spells/#const-spell-fortune"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -619,20 +515,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MORALE_LAST",
+      "name": "SPELL_FRENZY",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-morale-last",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-frenzy",
       "aliases": [],
-      "label": "PIC_TYPE_MORALE_LAST = 16",
+      "label": "SPELL_FRENZY = 56",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-last"
+        "en": "/en/erm/framework/constants/spells/#const-spell-frenzy"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -646,20 +542,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MORALE_NEGATIVE",
+      "name": "SPELL_FROST_RING",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-morale-negative",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-frost-ring",
       "aliases": [],
-      "label": "PIC_TYPE_MORALE_NEGATIVE = 16",
+      "label": "SPELL_FROST_RING = 20",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-negative"
+        "en": "/en/erm/framework/constants/spells/#const-spell-frost-ring"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -673,20 +569,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MORALE_NEUTRAL",
+      "name": "SPELL_HASTE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-morale-neutral",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-haste",
       "aliases": [],
-      "label": "PIC_TYPE_MORALE_NEUTRAL = 15",
+      "label": "SPELL_HASTE = 53",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-neutral"
+        "en": "/en/erm/framework/constants/spells/#const-spell-haste"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -700,20 +596,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_MORALE_POSITIVE",
+      "name": "SPELL_HYPNOTIZE",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-morale-positive",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-hypnotize",
       "aliases": [],
-      "label": "PIC_TYPE_MORALE_POSITIVE = 14",
+      "label": "SPELL_HYPNOTIZE = 60",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-morale-positive"
+        "en": "/en/erm/framework/constants/spells/#const-spell-hypnotize"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -727,20 +623,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_NECROPOLIS_TOWN_BUILDING",
+      "name": "SPELL_ICE_BOLT",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-necropolis-town-building",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-ice-bolt",
       "aliases": [],
-      "label": "PIC_TYPE_NECROPOLIS_TOWN_BUILDING = 26",
+      "label": "SPELL_ICE_BOLT = 16",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-necropolis-town-building"
+        "en": "/en/erm/framework/constants/spells/#const-spell-ice-bolt"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -754,20 +650,20 @@
       }
     },
     {
-      "name": "PIC_TYPE_PRIM_SKILL_FIRST",
+      "name": "SPELL_IMPLOSION",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-prim-skill-first",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-implosion",
       "aliases": [],
-      "label": "PIC_TYPE_PRIM_SKILL_FIRST = 31",
+      "label": "SPELL_IMPLOSION = 18",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-prim-skill-first"
+        "en": "/en/erm/framework/constants/spells/#const-spell-implosion"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [
@@ -781,20 +677,290 @@
       }
     },
     {
-      "name": "PIC_TYPE_PRIM_SKILL_LAST",
+      "name": "SPELL_INFERNO",
       "kind": "constant",
-      "slug": "framework/constants/h3-dialog-picture-types",
-      "anchor": "const-pic-type-prim-skill-last",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-inferno",
       "aliases": [],
-      "label": "PIC_TYPE_PRIM_SKILL_LAST = (PIC_TYPE_SKILL_KNOWLEDGE)",
+      "label": "SPELL_INFERNO = 22",
       "destinations": {
-        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-prim-skill-last"
+        "en": "/en/erm/framework/constants/spells/#const-spell-inferno"
       },
       "texts": {
         "en": [
           {
             "part": 1,
-            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_LAND_MINE",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-land-mine",
+      "aliases": [],
+      "label": "SPELL_LAND_MINE = 11",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-land-mine"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_LAST_ADVENTURE",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-last-adventure",
+      "aliases": [],
+      "label": "SPELL_LAST_ADVENTURE = 9",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-last-adventure"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_LAST_BATTLE",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-last-battle",
+      "aliases": [],
+      "label": "SPELL_LAST_BATTLE = 69",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-last-battle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_LAST_WOG",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-last-wog",
+      "aliases": [],
+      "label": "SPELL_LAST_WOG = 69",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-last-wog"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_LIGHTNING_BOLT",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-lightning-bolt",
+      "aliases": [],
+      "label": "SPELL_LIGHTNING_BOLT = 17",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-lightning-bolt"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_MAGIC_ARROW",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-magic-arrow",
+      "aliases": [],
+      "label": "SPELL_MAGIC_ARROW = 15",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-magic-arrow"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_MAGIC_MIRROR",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-magic-mirror",
+      "aliases": [],
+      "label": "SPELL_MAGIC_MIRROR = 36",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-magic-mirror"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_METEOR_SHOWER",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-meteor-shower",
+      "aliases": [],
+      "label": "SPELL_METEOR_SHOWER = 23",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-meteor-shower"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_MIRTH",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-mirth",
+      "aliases": [],
+      "label": "SPELL_MIRTH = 49",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-mirth"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_MISFORTUNE",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-misfortune",
+      "aliases": [],
+      "label": "SPELL_MISFORTUNE = 52",
+      "destinations": {
+        "en": "/en/erm/framework/constants/spells/#const-spell-misfortune"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "/llm/browse/en/erm/framework-constants/text-009.md",
             "fromAnchor": "meaning",
             "toAnchor": "used-by",
             "headings": [

@@ -1,7 +1,7 @@
 # Players (OW)
 
 ID: erm.receivers.ow
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ow/
+URL: /en/erm/receivers/ow/
 Part: 1/1
 Source references: old-help:rec-ow.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

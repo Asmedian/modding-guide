@@ -100,6 +100,8 @@ def enhance_catalog(root):
     catalog['roots']=[next(r for r in catalog['roots'] if r['title']['en']==name) for name in order[:-1]]+[{'title':{'ru':'Прочие файлы','en':'Other files'},'items':misc['items'],'href':misc.get('href'),'count':sum(r['count'] for r in misc_roots)}]
     catalog['pageCount']=len(pages)
     save(registry/'pages.json',pages);save(registry/'catalog.json',catalog);save(root/'content/_navigation/wiki.json',nav)
+    from enrich_def_groups import enrich_def_groups
+    enrich_def_groups(root)
     subprocess.run(['node',str(Path(__file__).with_name('enrich-campaigns.mjs')),str(root)],check=True)
     pages=read(registry/'pages.json')
     for p in pages:

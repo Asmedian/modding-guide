@@ -2,220 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.receivers.sp",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/sp",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/sp/",
-      "title": "Magic spring (SP)",
-      "summary": "SP receiver: magic spring, command parameters, and limitations.",
-      "keywords": [
-        "SP",
-        "!!SP",
-        "SP:N",
-        "SP:S"
-      ],
-      "questions": [
-        "SP receiver: magic spring, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-sp.htm"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-sp.htm"
-        ],
-        "command-n": [
-          "old-help:rec-sp.htm"
-        ],
-        "command-s": [
-          "old-help:rec-sp.htm"
-        ],
-        "notes": [
-          "old-help:rec-sp.htm"
-        ],
-        "related": [
-          "old-help:rec-sp.htm"
-        ],
-        "reference-links": [
-          "old-help:rec-sp.htm"
-        ],
-        "ref-rec-sp": [
-          "old-help:rec-sp.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-035.md",
-          "fromAnchor": "ref-rec-sp",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Receiver SP",
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.receivers.ar",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/ar",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ar/",
-      "title": "Map artifacts and resources (AR)",
-      "summary": "AR receiver: map artifacts and resources, command parameters, and limitations.",
-      "keywords": [
-        "AR",
-        "!!AR",
-        "AR:G",
-        "AR:M^text^",
-        "AR:V",
-        "AR:X"
-      ],
-      "questions": [
-        "AR receiver: map artifacts and resources, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-ar.htm"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-ar.htm"
-        ],
-        "command-g-1-2-3": [
-          "old-help:rec-ar.htm"
-        ],
-        "command-m-text": [
-          "old-help:rec-ar.htm"
-        ],
-        "command-v": [
-          "old-help:rec-ar.htm"
-        ],
-        "command-x": [
-          "old-help:rec-ar.htm"
-        ],
-        "notes": [
-          "old-help:rec-ar.htm"
-        ],
-        "related": [
-          "old-help:rec-ar.htm"
-        ],
-        "reference-links": [
-          "old-help:rec-ar.htm"
-        ],
-        "ref-rec-ar": [
-          "old-help:rec-ar.htm"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-001.md",
-          "fromAnchor": "ref-rec-ar",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Receiver AR",
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.receivers.ob",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "receivers/ob",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ob/",
-      "title": "Map objects (OB)",
-      "summary": "OB receiver: map objects, command parameters, and limitations.",
-      "keywords": [
-        "OB",
-        "!!OB",
-        "OB:B / H",
-        "OB:C",
-        "OB:D",
-        "OB:M",
-        "OB:R / S",
-        "OB:T"
-      ],
-      "questions": [
-        "OB receiver: map objects, command parameters, and limitations."
-      ],
-      "sourceRefs": [
-        "old-help:rec-ob.htm",
-        "era-changelog:era-iii-changelog.txt"
-      ],
-      "sectionSources": {
-        "syntax": [
-          "old-help:rec-ob.htm"
-        ],
-        "command-b-h": [
-          "old-help:rec-ob.htm"
-        ],
-        "command-c": [
-          "old-help:rec-ob.htm"
-        ],
-        "command-d-e": [
-          "old-help:rec-ob.htm"
-        ],
-        "command-m-1-2-3": [
-          "old-help:rec-ob.htm"
-        ],
-        "command-r-s": [
-          "old-help:rec-ob.htm"
-        ],
-        "command-t-u": [
-          "old-help:rec-ob.htm"
-        ],
-        "notes": [
-          "old-help:rec-ob.htm"
-        ],
-        "related": [
-          "old-help:rec-ob.htm"
-        ],
-        "reference-links": [
-          "old-help:rec-ob.htm"
-        ],
-        "ref-rec-ob": [
-          "old-help:rec-ob.htm"
-        ],
-        "era3-updates": [
-          "era-changelog:era-iii-changelog.txt"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-026.md",
-          "fromAnchor": "ref-rec-ob",
-          "toAnchor": "reference-links",
-          "headings": [
-            "Receiver OB",
-            "Related reference",
-            "Related commands and tables"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.receivers.sk",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "receivers/sk",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/sk/",
+      "url": "/en/erm/receivers/sk/",
       "title": "Map skeleton (SK)",
       "summary": "SK receiver: map skeleton, command parameters, and limitations.",
       "keywords": [
@@ -262,7 +54,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-031.md",
+          "url": "/llm/browse/en/erm/receivers/text-031.md",
           "fromAnchor": "ref-rec-sk",
           "toAnchor": "reference-links",
           "headings": [
@@ -279,7 +71,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/tr",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/tr/",
+      "url": "/en/erm/receivers/tr/",
       "title": "Map tiles (TR)",
       "summary": "TR receiver: map tiles, command parameters, and limitations.",
       "keywords": [
@@ -334,7 +126,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-037.md",
+          "url": "/llm/browse/en/erm/receivers/text-037.md",
           "fromAnchor": "ref-rec-tr",
           "toAnchor": "reference-links",
           "headings": [
@@ -351,7 +143,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/po",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/po/",
+      "url": "/en/erm/receivers/po/",
       "title": "Map-cell data (PO)",
       "summary": "PO receiver: map-cell data, command parameters, and limitations.",
       "keywords": [
@@ -402,7 +194,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-028.md",
+          "url": "/llm/browse/en/erm/receivers/text-028.md",
           "fromAnchor": "ref-rec-po",
           "toAnchor": "reference-links",
           "headings": [
@@ -419,7 +211,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/mn",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mn/",
+      "url": "/en/erm/receivers/mn/",
       "title": "Mines (MN)",
       "summary": "MN receiver: mines, command parameters, and limitations.",
       "keywords": [
@@ -466,7 +258,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-024.md",
+          "url": "/llm/browse/en/erm/receivers/text-024.md",
           "fromAnchor": "ref-rec-mn",
           "toAnchor": "reference-links",
           "headings": [
@@ -483,7 +275,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/cm",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/cm/",
+      "url": "/en/erm/receivers/cm/",
       "title": "Mouse-event context (CM)",
       "summary": "CM receiver: mouse-event context, command parameters, and limitations.",
       "keywords": [
@@ -558,7 +350,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-006.md",
+          "url": "/llm/browse/en/erm/receivers/text-006.md",
           "fromAnchor": "ref-rec-cm",
           "toAnchor": "reference-links",
           "headings": [
@@ -575,7 +367,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/mp",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mp/",
+      "url": "/en/erm/receivers/mp/",
       "title": "MP3 music (MP)",
       "summary": "MP receiver: mp3 music, command parameters, and limitations.",
       "keywords": [
@@ -648,7 +440,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-025.md",
+          "url": "/llm/browse/en/erm/receivers/text-025.md",
           "fromAnchor": "ref-rec-mp",
           "toAnchor": "reference-links",
           "headings": [
@@ -666,7 +458,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/gd",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/gd/",
+      "url": "/en/erm/receivers/gd/",
       "title": "Mystical garden (GD)",
       "summary": "GD receiver: mystical garden, command parameters, and limitations.",
       "keywords": [
@@ -713,7 +505,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-014.md",
+          "url": "/llm/browse/en/erm/receivers/text-014.md",
           "fromAnchor": "ref-rec-gd",
           "toAnchor": "reference-links",
           "headings": [
@@ -730,7 +522,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/ip",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ip/",
+      "url": "/en/erm/receivers/ip/",
       "title": "Network synchronization (IP)",
       "summary": "IP receiver: network synchronization, command parameters, and limitations.",
       "keywords": [
@@ -785,7 +577,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-022.md",
+          "url": "/llm/browse/en/erm/receivers/text-022.md",
           "fromAnchor": "ref-rec-ip",
           "toAnchor": "reference-links",
           "headings": [
@@ -802,7 +594,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/mo",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mo/",
+      "url": "/en/erm/receivers/mo/",
       "title": "Neutral map monsters (MO)",
       "summary": "MO receiver: neutral map monsters, command parameters, and limitations.",
       "keywords": [
@@ -861,7 +653,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-024.md",
+          "url": "/llm/browse/en/erm/receivers/text-024.md",
           "fromAnchor": "ref-rec-mo",
           "toAnchor": "reference-links",
           "headings": [
@@ -878,7 +670,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/mt",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mt/",
+      "url": "/en/erm/receivers/mt/",
       "title": "Obelisk (MT)",
       "summary": "MT receiver: obelisk, command parameters, and limitations.",
       "keywords": [
@@ -917,7 +709,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-025.md",
+          "url": "/llm/browse/en/erm/receivers/text-025.md",
           "fromAnchor": "ref-rec-mt",
           "toAnchor": "reference-links",
           "headings": [
@@ -934,7 +726,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "receivers/qu",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/qu/",
+      "url": "/en/erm/receivers/qu/",
       "title": "Object quests (QU)",
       "summary": "QU receiver: object quests, command parameters, and limitations.",
       "keywords": [
@@ -1001,11 +793,235 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-029.md",
+          "url": "/llm/browse/en/erm/receivers/text-029.md",
           "fromAnchor": "ref-rec-qu",
           "toAnchor": "reference-links",
           "headings": [
             "Receiver QU",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.ht",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ht",
+      "url": "/en/erm/receivers/ht/",
+      "title": "Object-type hints (HT)",
+      "summary": "HT receiver: object-type hints, command parameters, and limitations.",
+      "keywords": [
+        "HT",
+        "!!HT",
+        "HT:P",
+        "HT:T",
+        "HT:V",
+        "HT:W"
+      ],
+      "questions": [
+        "HT receiver: object-type hints, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ht.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ht.htm"
+        ],
+        "command-p-1-2": [
+          "old-help:rec-ht.htm"
+        ],
+        "command-t": [
+          "old-help:rec-ht.htm"
+        ],
+        "command-v-1-2-3": [
+          "old-help:rec-ht.htm"
+        ],
+        "command-w-1-2-3": [
+          "old-help:rec-ht.htm"
+        ],
+        "notes": [
+          "old-help:rec-ht.htm"
+        ],
+        "related": [
+          "old-help:rec-ht.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ht.htm"
+        ],
+        "ref-rec-ht": [
+          "old-help:rec-ht.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-019.md",
+          "fromAnchor": "ref-rec-ht",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver HT",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.pa",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/pa",
+      "url": "/en/erm/receivers/pa/",
+      "title": "Pandora box (PA)",
+      "summary": "PA receiver: pandora box, command parameters, and limitations.",
+      "keywords": [
+        "PA",
+        "!!PA",
+        "PA:I",
+        "PA:A / A",
+        "PA:C",
+        "PA:E",
+        "PA:M",
+        "PA:N / N",
+        "PA:O",
+        "PA:S / S",
+        "PA:X"
+      ],
+      "questions": [
+        "PA receiver: pandora box, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-pa.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-i": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-a-a": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-c-1-2-3-g-1-2-3": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-e-f-1-2-3-4": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-m-m-text-m0": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-n-n-n": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-o-p-r-u": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-s-s": [
+          "old-help:rec-pa.htm"
+        ],
+        "command-x": [
+          "old-help:rec-pa.htm"
+        ],
+        "notes": [
+          "old-help:rec-pa.htm"
+        ],
+        "related": [
+          "old-help:rec-pa.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-pa.htm"
+        ],
+        "ref-rec-pa": [
+          "old-help:rec-pa.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-028.md",
+          "fromAnchor": "ref-rec-pa",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver PA",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.mf",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/mf",
+      "url": "/en/erm/receivers/mf/",
+      "title": "Physical damage (MF)",
+      "summary": "MF receiver: physical damage, command parameters, and limitations.",
+      "keywords": [
+        "MF",
+        "!!MF",
+        "MF:D",
+        "MF:E",
+        "MF:N",
+        "MF:W?"
+      ],
+      "questions": [
+        "MF receiver: physical damage, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-mf.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-mf.htm"
+        ],
+        "command-d-f": [
+          "old-help:rec-mf.htm"
+        ],
+        "command-e": [
+          "old-help:rec-mf.htm"
+        ],
+        "command-n": [
+          "old-help:rec-mf.htm"
+        ],
+        "command-w": [
+          "old-help:rec-mf.htm"
+        ],
+        "notes": [
+          "old-help:rec-mf.htm"
+        ],
+        "related": [
+          "old-help:rec-mf.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-mf.htm"
+        ],
+        "ref-rec-mf": [
+          "old-help:rec-mf.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/receivers/text-023.md",
+          "fromAnchor": "ref-rec-mf",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver MF",
             "Related reference",
             "Related commands and tables"
           ]

@@ -1,7 +1,7 @@
 # ERA plugins
 
 ID: plugins.overview
-URL: https://asmedian.github.io/modding-guide/en/plugins/
+URL: /en/plugins/
 Part: 1/1
 Source references: era-source:plugin-loader, era-source:era.pas, nh3api:readme, h3api:readme
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -48,7 +48,7 @@ Test from a separate game copy. Keep a baseline without the plugin, add one chan
 # ERA plugin API
 
 ID: plugins.era-api
-URL: https://asmedian.github.io/modding-guide/en/plugins/era-api/
+URL: /en/plugins/era-api/
 Part: 1/1
 Source references: era-source:era.pas, era-source:plugin-exports, era-source:plugin-loader, nh3api:era-header
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -114,7 +114,7 @@ The [minimal plugin guide](../getting-started/) shows registration and build set
 # Getting started with ERA plugins
 
 ID: plugins.getting-started
-URL: https://asmedian.github.io/modding-guide/en/plugins/getting-started/
+URL: /en/plugins/getting-started/
 Part: 1/1
 Source references: era-source:plugin-loader, nh3api:readme, nh3api:cmake, nh3api:era-header, windows-api:dll-best-practices
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

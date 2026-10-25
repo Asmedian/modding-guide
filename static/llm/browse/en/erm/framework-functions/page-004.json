@@ -2,124 +2,12 @@
   "schemaVersion": 1,
   "entities": [
     {
-      "id": "erm.framework.functions.constructbitmask",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/constructbitmask",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/constructbitmask/",
-      "title": "ConstructBitMask",
-      "summary": "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.",
-      "keywords": [
-        "ConstructBitMask",
-        "FU(ConstructBitMask)",
-        "public",
-        "math"
-      ],
-      "questions": [
-        "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "erm.framework.functions.createdir",
-      "kind": "article",
-      "section": "erm",
-      "locale": "en",
-      "slug": "framework/functions/createdir",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/createdir/",
-      "title": "CreateDir",
-      "summary": "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.",
-      "keywords": [
-        "CreateDir",
-        "FU(CreateDir)",
-        "public",
-        "files"
-      ],
-      "questions": [
-        "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories."
-      ],
-      "sourceRefs": [
-        "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
-      ],
-      "sectionSources": {
-        "purpose": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
-        ],
-        "signature": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
-        ],
-        "parameters": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
-        ],
-        "context": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
-        ],
-        "provenance": [
-          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
-        ]
-      },
-      "previous": null,
-      "next": null,
-      "parts": [
-        {
-          "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
-          "fromAnchor": "purpose",
-          "toAnchor": "provenance",
-          "headings": [
-            "Purpose",
-            "Call contract",
-            "Parameter order",
-            "State and dependencies",
-            "Version and status"
-          ]
-        }
-      ]
-    },
-    {
       "id": "erm.framework.functions.deconstructbitmask",
       "kind": "article",
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/deconstructbitmask",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/deconstructbitmask/",
+      "url": "/en/erm/framework/functions/deconstructbitmask/",
       "title": "DeconstructBitMask",
       "summary": "Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context.",
       "keywords": [
@@ -159,7 +47,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -179,7 +67,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/decorateint",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/decorateint/",
+      "url": "/en/erm/framework/functions/decorateint/",
       "title": "DecorateInt",
       "summary": "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string.",
       "keywords": [
@@ -216,7 +104,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -235,7 +123,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/deletefile",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/deletefile/",
+      "url": "/en/erm/framework/functions/deletefile/",
       "title": "DeleteFile",
       "summary": "Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees.",
       "keywords": [
@@ -275,7 +163,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -295,7 +183,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/direxists",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/direxists/",
+      "url": "/en/erm/framework/functions/direxists/",
       "title": "DirExists",
       "summary": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.",
       "keywords": [
@@ -335,7 +223,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -355,7 +243,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/disableerrors",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/disableerrors/",
+      "url": "/en/erm/framework/functions/disableerrors/",
       "title": "DisableErrors",
       "summary": "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation.",
       "keywords": [
@@ -392,7 +280,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -411,7 +299,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-aligndlg",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-aligndlg/",
+      "url": "/en/erm/framework/functions/dl-aligndlg/",
       "title": "DL_AlignDlg",
       "summary": "Aligns an existing DL dialog using TEXT_ALIGN_ bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM.",
       "keywords": [
@@ -454,7 +342,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -475,7 +363,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-centeratmouse",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-centeratmouse/",
+      "url": "/en/erm/framework/functions/dl-centeratmouse/",
       "title": "DL_CenterAtMouse",
       "summary": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.",
       "keywords": [
@@ -518,7 +406,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -539,7 +427,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-coords",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-coords/",
+      "url": "/en/erm/framework/functions/dl-coords/",
       "title": "DL_Coords",
       "summary": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.",
       "keywords": [
@@ -582,7 +470,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -603,7 +491,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-destroy",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-destroy/",
+      "url": "/en/erm/framework/functions/dl-destroy/",
       "title": "DL_Destroy",
       "summary": "Destroys a DL wrapper by address. Do not reuse the destroyed address.",
       "keywords": [
@@ -640,7 +528,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "provenance",
           "headings": [
@@ -659,7 +547,7 @@
       "section": "erm",
       "locale": "en",
       "slug": "framework/functions/dl-findbyid",
-      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-findbyid/",
+      "url": "/en/erm/framework/functions/dl-findbyid/",
       "title": "DL_FindById",
       "summary": "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1.",
       "keywords": [
@@ -699,7 +587,7 @@
       "parts": [
         {
           "part": 1,
-          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
           "fromAnchor": "purpose",
           "toAnchor": "constants",
           "headings": [
@@ -707,6 +595,134 @@
             "Call contract",
             "Parameter order",
             "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-getsize",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-getsize",
+      "url": "/en/erm/framework/functions/dl-getsize/",
+      "title": "DL_GetSize",
+      "summary": "Returns the width and height of an existing DL dialog; reports an error if absent.",
+      "keywords": [
+        "DL_GetSize",
+        "FU(DL_GetSize)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns the width and height of an existing DL dialog; reports an error if absent."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-setplayercolor",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-setplayercolor",
+      "url": "/en/erm/framework/functions/dl-setplayercolor/",
+      "title": "DL_SetPlayerColor",
+      "summary": "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.",
+      "keywords": [
+        "DL_SetPlayerColor",
+        "FU(DL_SetPlayerColor)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
             "Version and status",
             "Constants used"
           ]

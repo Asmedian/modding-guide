@@ -1,7 +1,7 @@
 # Adventure-map magic (MG)
 
 ID: erm.triggers.mg
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mg/
+URL: /en/erm/triggers/mg/
 Part: 1/1
 Source references: old-help:tr-mg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -66,7 +66,7 @@ MG1 also fires on cancellation. Its occurrence does not prove successful casting
 # Interface hints (MM)
 
 ID: erm.triggers.mm
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mm/
+URL: /en/erm/triggers/mm/
 Part: 1/1
 Source references: old-help:tr-mm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -128,7 +128,7 @@ MM0 does not fire for every spell-target selection stage. MM1 can fire on mouse 
 # Music theme changes (MP)
 
 ID: erm.triggers.mp
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mp/
+URL: /en/erm/triggers/mp/
 Part: 1/1
 Source references: old-help:tr-mp.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -182,7 +182,7 @@ This is an MP3 music event; SN covers sound effects. Guard against re-entry when
 # Magic resistance (MR)
 
 ID: erm.triggers.mr
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mr/
+URL: /en/erm/triggers/mr/
 Part: 1/1
 Source references: old-help:tr-mr.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -264,7 +264,7 @@ F is damage in MR0/1 but a percentage in MR2. Anti-Magic and some mass spells by
 # Wandering monsters (MW)
 
 ID: erm.triggers.mw
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mw/
+URL: /en/erm/triggers/mw/
 Part: 1/1
 Source references: old-help:tr-mw.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -322,7 +322,7 @@ The classic implementation fires on the next turn after arrival or death, not im
 # Object visits (OB)
 
 ID: erm.triggers.ob
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ob/
+URL: /en/erm/triggers/ob/
 Part: 1/1
 Source references: old-help:tr-ob.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -413,7 +413,7 @@ The !$OB post-trigger runs after the default reaction. The three forms do not si
 # Adventure-map tile hint (OnAdventureMapTileHint)
 
 ID: erm.triggers.onadventuremaptilehint
-URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onadventuremaptilehint/
+URL: /en/erm/triggers/onadventuremaptilehint/
 Part: 1/1
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

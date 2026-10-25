@@ -1,7 +1,7 @@
 # Variable-usage logging (VC)
 
 ID: erm.receivers.vc
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/vc/
+URL: /en/erm/receivers/vc/
 Part: 1/1
 Source references: old-help:rec-vc.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

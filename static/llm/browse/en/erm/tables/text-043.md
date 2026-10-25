@@ -1,7 +1,7 @@
 # Hero specialty pictures
 
 ID: erm.tables.specialty-pictures
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/specialty-pictures/
+URL: /en/erm/tables/specialty-pictures/
 Part: 1/3
 Source references: old-help:form-heroesspec.htm, old-help:rec-he.htm, old-help:rec-un.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

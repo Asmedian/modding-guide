@@ -15,8 +15,8 @@
   let dialog: HTMLDialogElement;
   let animation: HTMLCanvasElement;
   let def: DefFile | null = null;
-  let groups: number[] = [];
-  let group = 0;
+  let groups: number[] = resource.frameGroups?.map(item=>item.id) ?? [];
+  let group = groups[0] ?? 0;
   let frame = 0;
   let interval = 100;
   let playing = false;
@@ -68,7 +68,7 @@
     if (playing) pause();
     else { playing=true; last=performance.now(); raf=requestAnimationFrame(animate); }
   }
-  async function choose(g: number) { pause(); group=g; frame=0; cache.clear(); await tick(); if (!controller.signal.aborted) toggle(); }
+  async function choose(g: number) { pause(); group=g; frame=0; cache.clear(); await tick(); if (def && !controller.signal.aborted) toggle(); }
   function close() { pause(); dispatch('close'); }
   onMount(async () => {
     dialog.showModal();
@@ -78,20 +78,21 @@
       const data = new Uint8Array(await response.arrayBuffer());
       if (controller.signal.aborted) return;
       def = DefFile.open(data);
-      groups = def.getGroups(); group=groups[0];
+      groups = def.getGroups();
+      if (!groups.includes(group)) group=groups[0];
       await tick(); draw(group,0); if (!controller.signal.aborted) toggle();
     } catch (cause) { if (!controller.signal.aborted) error=t('wiki.defError'); }
   });
   onDestroy(() => { controller.abort(); pause(); cache.clear(); dialog?.close(); });
 </script>
 
-<dialog bind:this={dialog} use:dismissOutside={close} class="wiki-dialog" aria-labelledby="def-title" on:cancel={(event)=>{event.preventDefault();close();}}>
+<dialog bind:this={dialog} use:dismissOutside={close} class="wiki-dialog wiki-def-dialog" aria-labelledby="def-title" on:cancel={(event)=>{event.preventDefault();close();}}>
   <header class="wiki-dialog-header"><h2 id="def-title" class="wiki-heading">{resource.name}<small class="wiki-edition">SoD</small></h2><button class="wiki-raised-button" on:click={close} aria-label={t('wiki.close')}><WikiIcon name="close" /></button></header>
   <div class="wiki-dialog-content">
   {#if error}<p role="alert">{error}</p>{/if}
   <div class="wiki-def-layout">
     <nav class="wiki-def-groups" aria-label={t('wiki.groups')}>
-      {#each groups as g}<button class:current={group===g} on:click={()=>choose(g)}>{groupName(g)}<small>{def?.getFrameCount(g)} {t('wiki.frames')}</small><small class="wiki-edition">SoD</small></button>{/each}
+      {#each groups as g}<button class:current={group===g} on:click={()=>choose(g)}>{groupName(g)}<small>{resource.frameGroups?.find(item=>item.id===g)?.frames ?? def?.getFrameCount(g)} {t('wiki.frames')}</small><small class="wiki-edition">SoD</small></button>{/each}
     </nav>
     <div class="wiki-def-body">
       <div class="wiki-def-stage">

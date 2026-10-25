@@ -1,7 +1,7 @@
 # Object-type hints (HT)
 
 ID: erm.receivers.ht
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ht/
+URL: /en/erm/receivers/ht/
 Part: 1/1
 Source references: old-help:rec-ht.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

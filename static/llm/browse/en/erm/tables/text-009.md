@@ -1,7 +1,7 @@
 # Tent and border colors
 
 ID: erm.tables.border-colors
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/border-colors/
+URL: /en/erm/tables/border-colors/
 Part: 1/1
 Source references: old-help:form-bg.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

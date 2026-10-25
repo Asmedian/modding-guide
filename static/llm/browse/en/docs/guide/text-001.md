@@ -1,7 +1,7 @@
 # ERA documentation
 
 ID: docs.overview
-URL: https://asmedian.github.io/modding-guide/en/docs/
+URL: /en/docs/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -36,7 +36,7 @@ General documentation, the ERM reference, and the plugin development section are
 # The ERA platform
 
 ID: docs.era
-URL: https://asmedian.github.io/modding-guide/en/docs/era/
+URL: /en/docs/era/
 Part: 1/1
 Source references: era-source:gameext, era-source:era, era-source:lodman
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -56,7 +56,7 @@ The archive manager loads extra PAC files from `Data`, searches registered archi
 # Game architecture for mod authors
 
 ID: docs.game
-URL: https://asmedian.github.io/modding-guide/en/docs/game/
+URL: /en/docs/game/
 Part: 1/1
 Source references: era-source:gameext, era-source:reslib, era-source:lodman
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -88,7 +88,7 @@ If a task requires memory addresses, binary patches, or calls to internal functi
 # Glossary
 
 ID: docs.glossary
-URL: https://asmedian.github.io/modding-guide/en/docs/glossary/
+URL: /en/docs/glossary/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman, era-source:reslib, old-help:index
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -123,7 +123,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 # Content map for LLMs
 
 ID: docs.llm-map
-URL: https://asmedian.github.io/modding-guide/en/docs/llm-map/
+URL: /en/docs/llm-map/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -176,7 +176,7 @@ English-only bulk exports remain available for offline indexing. **Do not retrie
 # Quick Start
 
 ID: docs.quick-start
-URL: https://asmedian.github.io/modding-guide/en/docs/quick-start/
+URL: /en/docs/quick-start/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman, era-changelog:3
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -240,7 +240,7 @@ Continue with [Mod structure](../era/mod-structure/) to learn what the directori
 # Site structure
 
 ID: docs.site-structure
-URL: https://asmedian.github.io/modding-guide/en/docs/site-structure/
+URL: /en/docs/site-structure/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -277,7 +277,7 @@ The section between documentation and ERM. SoD resources follow the LF hierarchy
 # Troubleshooting
 
 ID: docs.troubleshooting
-URL: https://asmedian.github.io/modding-guide/en/docs/troubleshooting/
+URL: /en/docs/troubleshooting/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman, era-source:reslib, era-tools:mod-manager-format, era-tools:vfs-test-binary
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -322,7 +322,7 @@ A good report lets another person reproduce the fault without guessing and test 
 # What Is a Mod?
 
 ID: docs.what-is-a-mod
-URL: https://asmedian.github.io/modding-guide/en/docs/what-is-a-mod/
+URL: /en/docs/what-is-a-mod/
 Part: 1/1
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

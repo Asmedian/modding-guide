@@ -1,7 +1,7 @@
 # Creature bit flags
 
 ID: erm.tables.creature-flags
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-flags/
+URL: /en/erm/tables/creature-flags/
 Part: 1/1
 Source references: old-help:form-flaggedabilities.htm, old-help:rec-ma.htm, old-help:rec-bm.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

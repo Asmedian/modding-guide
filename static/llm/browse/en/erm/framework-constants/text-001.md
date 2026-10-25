@@ -1,7 +1,7 @@
 # ERA ERM Framework constants
 
 ID: erm.framework.constants
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/
+URL: /en/erm/framework/constants/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm, era-framework:lib-9999-era---key-codes.erm, era-framework:lib-9999-era---stdlib.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -83,7 +83,7 @@ Use `(RES_GOLD)` instead of a numeric resource ID when the Framework constants f
 # Army Slots
 
 ID: erm.framework.constants.army-slots
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/army-slots/
+URL: /en/erm/framework/constants/army-slots/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -115,7 +115,7 @@ The **Army Slots** group from the supplied Framework. Names and values below cor
 # Artifact Modifiers
 
 ID: erm.framework.constants.artfiact-modifiers
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/artfiact-modifiers/
+URL: /en/erm/framework/constants/artfiact-modifiers/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -143,7 +143,7 @@ The **Artifact Modifiers** group from the supplied Framework. Names and values b
 # Artifacts
 
 ID: erm.framework.constants.artifacts
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/
+URL: /en/erm/framework/constants/artifacts/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -347,7 +347,7 @@ The **Artifacts** group from the supplied Framework. Names and values below corr
 # Assembler
 
 ID: erm.framework.constants.assembler
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/assembler/
+URL: /en/erm/framework/constants/assembler/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -377,7 +377,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Battle Actions
 
 ID: erm.framework.constants.battle-actions
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/
+URL: /en/erm/framework/constants/battle-actions/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -414,7 +414,7 @@ The **Battle Actions** group from the supplied Framework. Names and values below
 # Battle Hexes
 
 ID: erm.framework.constants.battle-hexes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-hexes/
+URL: /en/erm/framework/constants/battle-hexes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -440,7 +440,7 @@ The **Battle Hexes** group from the supplied Framework. Names and values below c
 # Battle Type Flags
 
 ID: erm.framework.constants.battle-type-flags
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/
+URL: /en/erm/framework/constants/battle-type-flags/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

@@ -1,7 +1,7 @@
 # Battle backgrounds
 
 ID: erm.tables.battle-backgrounds
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/battle-backgrounds/
+URL: /en/erm/tables/battle-backgrounds/
 Part: 1/1
 Source references: old-help:form-ba-b.htm, old-help:rec-ba.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -94,7 +94,7 @@ BA:B selects the battle background. -1 keeps the default selection; 1–25 are t
 # BU:G special battle terrain
 
 ID: erm.tables.battle-terrain
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/battle-terrain/
+URL: /en/erm/tables/battle-terrain/
 Part: 1/1
 Source references: old-help:form-bug.htm, old-help:rec-bu.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -262,7 +262,7 @@ BU:G uses a separate index for the combat effect. The corresponding map object t
 # Battlefield hexes
 
 ID: erm.tables.battlefield
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/battlefield/
+URL: /en/erm/tables/battlefield/
 Part: 1/1
 Source references: old-help:form-bf.htm, old-help:form-bf-s1.htm, old-help:rec-bf.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

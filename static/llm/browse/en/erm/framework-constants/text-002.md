@@ -1,7 +1,7 @@
 # Battle
 
 ID: erm.framework.constants.battle
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/
+URL: /en/erm/framework/constants/battle/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -46,7 +46,7 @@ The **Battle** group from the supplied Framework. Names and values below corresp
 # Bit Masks
 
 ID: erm.framework.constants.bit-masks
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/
+URL: /en/erm/framework/constants/bit-masks/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -105,7 +105,7 @@ The **Bit Masks** group from the supplied Framework. Names and values below corr
 # Bit Sizes
 
 ID: erm.framework.constants.bit-sizes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/
+URL: /en/erm/framework/constants/bit-sizes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -137,7 +137,7 @@ The **Bit Sizes** group from the supplied Framework. Names and values below corr
 # Bits
 
 ID: erm.framework.constants.bits
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/
+URL: /en/erm/framework/constants/bits/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -192,7 +192,7 @@ The **Bits** group from the supplied Framework. Names and values below correspon
 # Bm:G Field Offsets
 
 ID: erm.framework.constants.bm-g-field-offsets
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/
+URL: /en/erm/framework/constants/bm-g-field-offsets/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -233,7 +233,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Calling Conventions
 
 ID: erm.framework.constants.calling-conventions
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/
+URL: /en/erm/framework/constants/calling-conventions/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -271,7 +271,7 @@ The **Calling Conventions** group from the supplied Framework. Names and values 
 # Character Codes
 
 ID: erm.framework.constants.character-codes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/
+URL: /en/erm/framework/constants/character-codes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -356,7 +356,7 @@ The **Character Codes** group from the supplied Framework. Names and values belo
 # Data Types
 
 ID: erm.framework.constants.data-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/
+URL: /en/erm/framework/constants/data-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -404,7 +404,7 @@ The **Data Types** group from the supplied Framework. Names and values below cor
 # Dialog Action Types
 
 ID: erm.framework.constants.dialog-action-types
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/
+URL: /en/erm/framework/constants/dialog-action-types/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

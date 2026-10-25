@@ -1,7 +1,7 @@
 # Magic spring (SP)
 
 ID: erm.receivers.sp
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sp/
+URL: /en/erm/receivers/sp/
 Part: 1/1
 Source references: old-help:rec-sp.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -71,7 +71,7 @@ Full or empty<br>
 # Shrine of magic (SR)
 
 ID: erm.receivers.sr
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sr/
+URL: /en/erm/receivers/sr/
 Part: 1/1
 Source references: old-help:rec-sr.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -135,7 +135,7 @@ any shrine</div>
 # Spell attributes (SS)
 
 ID: erm.receivers.ss
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ss/
+URL: /en/erm/receivers/ss/
 Part: 1/1
 Source references: old-help:rec-ss.htm, old-help:cont-sschange.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -487,7 +487,7 @@ This method will allow you to avoid mistakes and give you the opportunity to lev
 # Learning stone (ST)
 
 ID: erm.receivers.st
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/st/
+URL: /en/erm/receivers/st/
 Part: 1/1
 Source references: old-help:rec-st.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -550,7 +550,7 @@ Knowledge stone number (0..31)
 # Swan pond (SW)
 
 ID: erm.receivers.sw
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sw/
+URL: /en/erm/receivers/sw/
 Part: 1/1
 Source references: old-help:rec-sw.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -618,7 +618,7 @@ Pond number (0..31)</div>
 # Shipyard (SY)
 
 ID: erm.receivers.sy
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sy/
+URL: /en/erm/receivers/sy/
 Part: 1/1
 Source references: old-help:rec-sy.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

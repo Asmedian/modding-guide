@@ -1,7 +1,7 @@
 # Creature banks (CB)
 
 ID: erm.receivers.cb
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/cb/
+URL: /en/erm/receivers/cb/
 Part: 1/1
 Source references: old-help:rec-cb.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -126,7 +126,7 @@ but did not attack, its bits will still be included in the value edited by this 
 # Town demolition and building dependencies (CD)
 
 ID: erm.receivers.cd
-URL: https://asmedian.github.io/modding-guide/en/erm/receivers/cd/
+URL: /en/erm/receivers/cd/
 Part: 1/1
 Source references: old-help:rec-cd.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

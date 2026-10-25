@@ -1,7 +1,7 @@
 # Artifact table
 
 ID: erm.tables.artifacts
-URL: https://asmedian.github.io/modding-guide/en/erm/tables/artifacts/
+URL: /en/erm/tables/artifacts/
 Part: 4/4
 Source references: old-help:form-a1.htm, era-framework:lib-9999-era---consts.erm, old-help:form-a1-hex.htm, old-help:form-a3.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.

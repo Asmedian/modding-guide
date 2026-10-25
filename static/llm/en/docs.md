@@ -1,7 +1,7 @@
 # ERA documentation
 
 ID: docs.overview
-URL: https://asmedian.github.io/modding-guide/en/docs/
+URL: /en/docs/
 Source references: era-source:gameext, era-source:lodman
 
 A starting point for the platform, mod structure, game resources, and practical tools.
@@ -36,7 +36,7 @@ General documentation, the ERM reference, and the plugin development section are
 # The ERA platform
 
 ID: docs.era
-URL: https://asmedian.github.io/modding-guide/en/docs/era/
+URL: /en/docs/era/
 Source references: era-source:gameext, era-source:era, era-source:lodman
 
 ERA’s role between Heroes III, mods, resources, and extensions during game startup.
@@ -56,7 +56,7 @@ The archive manager loads extra PAC files from `Data`, searches registered archi
 # Mod compatibility and order
 
 ID: docs.era.compatibility
-URL: https://asmedian.github.io/modding-guide/en/docs/era/compatibility/
+URL: /en/docs/era/compatibility/
 Source references: era-tools:mod-manager-format, era-changelog:3
 
 Declare dependencies, priority, and conflicts without relying on accidental load order.
@@ -96,7 +96,7 @@ If the problem follows order, identify the exact resource name supplied by both 
 # Creating your first mod
 
 ID: docs.era.creating-mod
-URL: https://asmedian.github.io/modding-guide/en/docs/era/creating-mod/
+URL: /en/docs/era/creating-mod/
 Source references: era-source:lodman, era-changelog:3, era-tools:mod-manager-format
 
 Move from an empty directory to an enabled mod with metadata, one resource, and a repeatable test.
@@ -156,7 +156,7 @@ Store editable source assets separately from exported game files. A project repo
 # Installing ERA
 
 ID: docs.era.installation
-URL: https://asmedian.github.io/modding-guide/en/docs/era/installation/
+URL: /en/docs/era/installation/
 Source references: era-project-rus:readme, era-project-eng:readme
 
 Official installation, update, and removal steps for Heroes Launcher and manual setups.
@@ -196,7 +196,7 @@ In Heroes Launcher, open the gear menu, choose Uninstall, optionally keep the ba
 # Mod structure
 
 ID: docs.era.mod-structure
-URL: https://asmedian.github.io/modding-guide/en/docs/era/mod-structure/
+URL: /en/docs/era/mod-structure/
 Source references: era-source:lodman, era-changelog:3
 
 What an ERA mod is and which directories, resources, and files it can contain.
@@ -254,7 +254,7 @@ When the result is unexpected, search for a conflict by exact resource name. Che
 # Game architecture for mod authors
 
 ID: docs.game
-URL: https://asmedian.github.io/modding-guide/en/docs/game/
+URL: /en/docs/game/
 Source references: era-source:gameext, era-source:reslib, era-source:lodman
 
 The smallest useful model of startup, virtual resources, and caching for diagnosing a content mod.
@@ -286,7 +286,7 @@ If a task requires memory addresses, binary patches, or calls to internal functi
 # How ERA loads resources
 
 ID: docs.game.resource-loading
-URL: https://asmedian.github.io/modding-guide/en/docs/game/resource-loading/
+URL: /en/docs/game/resource-loading/
 Source references: era-source:lodman, era-source:reslib, era-source:gameext, era-changelog:3
 
 A practical model of the VFS, archives, redirections, and caching for conflict diagnosis.
@@ -336,7 +336,7 @@ Use this order: confirm the disk file, confirm the mod is enabled, exclude a hig
 # Resource formats
 
 ID: docs.game.resources
-URL: https://asmedian.github.io/modding-guide/en/docs/game/resources/
+URL: /en/docs/game/resources/
 Source references: era-source:lodman, era-source:reslib, era-changelog:3, old-help:index
 
 A map of important game and ERA formats, their roles, and safe verification steps.
@@ -377,7 +377,7 @@ Classic resources include WAV audio, `.BIK` and `.SMK` video, and `.FNT` game fo
 # Glossary
 
 ID: docs.glossary
-URL: https://asmedian.github.io/modding-guide/en/docs/glossary/
+URL: /en/docs/glossary/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib, old-help:index
 
 Agreed Russian and English terminology for the general ERA documentation.
@@ -412,7 +412,7 @@ Agreed Russian and English terminology for the general ERA documentation.
 # Content map for LLMs
 
 ID: docs.llm-map
-URL: https://asmedian.github.io/modding-guide/en/docs/llm-map/
+URL: /en/docs/llm-map/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 An English-only AI reference: topic catalogs for Docs, ERM, Plugins and Wiki, with complete texts in bounded files.
@@ -465,7 +465,7 @@ English-only bulk exports remain available for offline indexing. **Do not retrie
 # Quick Start
 
 ID: docs.quick-start
-URL: https://asmedian.github.io/modding-guide/en/docs/quick-start/
+URL: /en/docs/quick-start/
 Source references: era-source:gameext, era-source:lodman, era-changelog:3
 
 From an installed ERA game to the first working ERM script in your own mod.
@@ -529,7 +529,7 @@ Continue with [Mod structure](../era/mod-structure/) to learn what the directori
 # Site structure
 
 ID: docs.site-structure
-URL: https://asmedian.github.io/modding-guide/en/docs/site-structure/
+URL: /en/docs/site-structure/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 How routes, locales, search, sources, and machine-readable representations fit together.
@@ -566,7 +566,7 @@ The section between documentation and ERM. SoD resources follow the LF hierarchy
 # ERA tool catalog
 
 ID: docs.tools.catalog
-URL: https://asmedian.github.io/modding-guide/en/docs/tools/catalog/
+URL: /en/docs/tools/catalog/
 Source references: era-tools:mmarchive-help, era-tools:defpreview-help, era-tools:binmagic-help, era-tools:evme-help, era-tools:template-editor-help, era-tools:unc-to-bin, era-tools:mod-manager-format, era-tools:rsbink-player-help, era-tools:exe-builder-help, era-tools:def-tool-binary, era-tools:dialogs-editor-binary, era-tools:object-txt-editor-binary, era-tools:txt-editor-binary, era-tools:vfs-test-binary
 
 A verified inventory of the bundled Tools programs, grouped by task and risk level.
@@ -638,7 +638,7 @@ The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optim
 # Troubleshooting
 
 ID: docs.troubleshooting
-URL: https://asmedian.github.io/modding-guide/en/docs/troubleshooting/
+URL: /en/docs/troubleshooting/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib, era-tools:mod-manager-format, era-tools:vfs-test-binary
 
 A repeatable path from a clean startup to a precise report for a conflict or invalid resource.
@@ -683,7 +683,7 @@ A good report lets another person reproduce the fault without guessing and test 
 # What Is a Mod?
 
 ID: docs.what-is-a-mod
-URL: https://asmedian.github.io/modding-guide/en/docs/what-is-a-mod/
+URL: /en/docs/what-is-a-mod/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 What a Heroes III mod contains, how ERA loads its files, and why changes should remain separate from the original game.

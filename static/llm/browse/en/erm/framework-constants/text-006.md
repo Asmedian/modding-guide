@@ -1,7 +1,7 @@
 # Key Codes
 
 ID: erm.framework.constants.key-codes
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/key-codes/
+URL: /en/erm/framework/constants/key-codes/
 Part: 1/1
 Source references: era-framework:lib-9999-era---key-codes.erm, old-help:form-keys.htm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -417,7 +417,7 @@ The **Key Codes** group from the supplied Framework. Names and values below corr
 # Monster Aggression Level
 
 ID: erm.framework.constants.monster-aggression-level
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/
+URL: /en/erm/framework/constants/monster-aggression-level/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
@@ -450,7 +450,7 @@ The **Monster Aggression Level** group from the supplied Framework. Names and va
 # Monster Flags
 
 ID: erm.framework.constants.monster-flags
-URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-flags/
+URL: /en/erm/framework/constants/monster-flags/
 Part: 1/1
 Source references: era-framework:lib-9999-era---consts.erm
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
