@@ -88,6 +88,19 @@
     } catch { mediaError = t(item.kind==='def'?'wiki.defError':'wiki.resourceError'); }
   }
   async function closeDef() { popup = null; await tick(); opener?.focus(); }
+
+  // Keep the native preview/play button as the keyboard and focus-return target.
+  // Blank-cell clicks invoke it once, while media controls keep their own actions.
+  function resourceCell(node: HTMLTableCellElement) {
+    const activateCell = (event: MouseEvent) => {
+      if (event.defaultPrevented || event.button !== 0 || !(event.target instanceof Element)) return;
+      if (event.target.closest('button, a, input, select, textarea, label, summary, video[controls], audio[controls]')) return;
+      if (window.getSelection()?.isCollapsed === false) return;
+      node.querySelector<HTMLButtonElement>('button.wiki-preview, button.wiki-play')?.click();
+    };
+    node.addEventListener('click', activateCell);
+    return { destroy: () => node.removeEventListener('click', activateCell) };
+  }
 </script>
 
 <svelte:head>
@@ -131,7 +144,7 @@
             <tbody>
               {#each section.resources as item}
                 <tr id={item.anchor}>
-                  <td class="wiki-resource" class:wiki-spell-surface={catalogPage.rootSlug==='sprite/2/0'}>
+                  <td class="wiki-resource" use:resourceCell class:wiki-resource-action={Boolean(item.preview) || ['audio', 'video', 'h3c'].includes(item.kind)} class:wiki-spell-surface={catalogPage.rootSlug==='sprite/2/0'}>
                     {#if item.kind === 'audio' || item.kind === 'video'}
                       {#if item.kind === 'video'}
                         {#if active?.id === item.id}

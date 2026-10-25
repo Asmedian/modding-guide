@@ -20,7 +20,9 @@
 .wiki-filename { overflow-wrap: anywhere; }
 .wiki-download { font-size: .75rem; }
 .wiki-preview { display: flex; align-items: center; justify-content: center; width: fit-content; max-width: 100%; padding: .25rem; position: relative; border: 1px solid transparent; border-radius: 3px; background: none; margin: auto; }
-.wiki-preview:hover, .wiki-preview:focus-visible { border-color: var(--border-strong); }
+.wiki-resource-action { cursor: pointer; }
+.wiki-resource:hover .wiki-preview, .wiki-preview:hover, .wiki-preview:focus-visible { border-color: var(--border-strong); box-shadow: 0 0 0 1px var(--border-strong); }
+.wiki-resource-action:hover > video { outline: 1px solid var(--border-strong); outline-offset: 2px; }
 .wiki-preview img { display: block; max-width: 100%; height: auto; image-rendering: pixelated; }
 .wiki-play-overlay { position: absolute; padding: .4rem .7rem; background: var(--surface-glass); color: var(--gold); border-radius: 3px; }
 .wiki-player { display: flex; align-items: center; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; opacity: .65; }
@@ -40,11 +42,10 @@
 .wiki-pagination { display: flex; gap: 1rem; justify-content: center; align-items: center; padding: 1.5rem 0; }
 .wiki-icon { width: 20px; height: 20px; display: block; flex-shrink: 0; }
 .wiki-raised-button { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; padding: .45rem .65rem; min-width: 36px; min-height: 36px; color: var(--text); background: var(--surface-raised); border: 1px solid var(--border-strong); border-radius: 5px; box-shadow: inset 0 1px 0 rgba(255,255,255,.2), inset 0 -2px 0 rgba(0,0,0,.25), 0 2px 3px rgba(0,0,0,.15); cursor: pointer; }
-.wiki-raised-button:hover { color: var(--gold); }
-.wiki-raised-button:active { transform: translateY(1px); box-shadow: inset 0 1px 2px rgba(0,0,0,.25); }
+.wiki-raised-button:not(:disabled):active { transform: translateY(1px); box-shadow: inset 0 1px 2px rgba(0,0,0,.25); }
 .wiki-raised-button:disabled { opacity: .5; cursor: default; }
 .wiki-def-controls .wiki-raised-button, .wiki-player .wiki-raised-button { background: var(--surface-raised); }
-.wiki-def-controls .wiki-def-play { min-width: 44px; min-height: 42px; border-top-color: rgba(255,240,195,.5); border-left-color: rgba(255,240,195,.35); border-right-color: rgba(0,0,0,.5); border-bottom-color: rgba(0,0,0,.75); box-shadow: inset 0 2px 0 rgba(255,255,255,.18), inset 0 -3px 0 rgba(0,0,0,.35), 0 3px 5px rgba(0,0,0,.25); }
+.wiki-def-controls .wiki-def-play { flex: 0 0 60px; width: 60px; height: 30px; min-width: 60px; min-height: 30px; padding: 0; border-top-color: rgba(255,240,195,.5); border-left-color: rgba(255,240,195,.35); border-right-color: rgba(0,0,0,.5); border-bottom-color: rgba(0,0,0,.75); box-shadow: inset 0 2px 0 rgba(255,255,255,.18), inset 0 -3px 0 rgba(0,0,0,.35), 0 3px 5px rgba(0,0,0,.25); }
 .wiki-raised-button.current { color: var(--gold); outline: 1px solid var(--border-strong); outline-offset: 1px; background: var(--surface-soft); }
 .wiki-page-number, .wiki-page-arrow { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; height: 36px; border: 1px solid var(--border); border-radius: 4px; }
 .wiki-page-number.current { color: var(--gold); border-color: var(--border-strong); background: var(--surface-soft); }
@@ -119,11 +120,33 @@ span.wiki-page-arrow { opacity: .35; }
 .wiki-def-stage { display: flex; justify-content: center; align-items: center; min-height: 180px; background: var(--content-background); border: 1px solid var(--border); padding: 1rem; }
 .wiki-def-stage canvas { max-width: 100%; height: auto; image-rendering: pixelated; }
 .wiki-def-controls { display: flex; align-items: center; flex-wrap: wrap; gap: .75rem; margin: .75rem 0; font-size: .8rem; }
-.wiki-def-controls input { width: 70px; background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+.wiki-def-controls input { width: 70px; background: var(--surface); color: var(--text); border: 1px solid var(--border); text-align: center; }
 .wiki-frame-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(125px,1fr)); gap: .5rem; }
 .wiki-frame-grid button { padding: .5rem; color: var(--text); background: var(--surface); border: 1px solid var(--border); min-width: 0; }
 .wiki-frame-grid canvas { max-width: 100%; height: auto; image-rendering: pixelated; }
 .wiki-frame-grid code, .wiki-frame-grid small { display: block; font-size: .65rem; overflow-wrap: anywhere; }
+
+/* Interactive states stay scoped to Wiki, including its top-layer dialogs. */
+.wiki-article :where(a[href], button:enabled, summary, input[type='range']:enabled),
+.wiki-dialog :where(a[href], button:enabled, summary, input[type='range']:enabled) { cursor: pointer; }
+.wiki-article :disabled, .wiki-dialog :disabled { cursor: not-allowed; }
+.wiki-dialog input[type='number'] { cursor: text; }
+.wiki-dialog::backdrop { cursor: pointer; }
+.wiki-card a:hover, .wiki-card a:focus-visible,
+.wiki-dialog a:not(.wiki-raised-button):hover, .wiki-dialog a:not(.wiki-raised-button):focus-visible { color: var(--gold); text-decoration: underline; text-underline-offset: .2em; }
+.wiki-card > a:hover, .wiki-card > a:focus-visible { background: var(--nav-hover); border-radius: 3px; }
+.wiki-article .article-body a:hover, .wiki-article .article-body a:focus-visible { color: var(--gold); text-decoration-color: currentColor; }
+.wiki-pagination a:hover, .wiki-pagination a:focus-visible { color: var(--gold); background: var(--surface-raised); border-color: var(--border-strong); }
+.wiki-raised-button:not(:disabled):hover, .wiki-raised-button:not(:disabled):focus-visible,
+.wiki-resource-action:hover .wiki-play { color: var(--gold); background: var(--surface); border-color: var(--gold); }
+.wiki-def-groups button:hover, .wiki-def-groups button:focus-visible,
+.wiki-frame-grid button:hover, .wiki-frame-grid button:focus-visible { color: var(--gold); background: var(--surface-raised); border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--border-strong); }
+.wiki-def-controls input:hover, .wiki-def-controls input:focus-visible { background: var(--surface-raised); border-color: var(--border-strong); }
+.wiki-player input[type='range']:enabled:hover { border-radius: 4px; box-shadow: 0 0 0 2px var(--border-strong); }
+.wiki-outline summary:hover, .wiki-outline summary:focus-visible,
+.wiki-campaign-view summary:hover, .wiki-campaign-view summary:focus-visible { color: var(--gold); text-decoration: underline; text-underline-offset: .2em; }
+.wiki-campaign-view summary { padding-block: .25rem; }
+.wiki-palette-grid button:hover, .wiki-palette-grid button:focus-visible { box-shadow: inset 0 0 0 1px #fff, inset 0 0 0 2px #000; }
 @media (max-width: 640px) {
   .wiki-pagination { gap: .35rem; }
   .wiki-scenario-grid { grid-template-columns: 1fr; }

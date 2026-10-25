@@ -19,6 +19,26 @@
   $: currentItem = [...triggers, ...receivers].find((item) => `erm/${item.slug}` === activeSlug);
   let expanded = true;
   let stateReady = false;
+  let quickLinks: HTMLDetailsElement;
+
+  function positionTooltip(anchor: HTMLAnchorElement) {
+    const frame = quickLinks.getBoundingClientRect();
+    const scale = frame.width / quickLinks.offsetWidth || 1;
+    const available = Math.max(0, quickLinks.clientWidth - 32);
+    anchor.style.setProperty('--tooltip-max-width', `${available}px`);
+    anchor.dataset.tooltipPositioned = 'true';
+    anchor.removeAttribute('title');
+    const measured = parseFloat(getComputedStyle(anchor, '::after').width);
+    const width = Math.min(Number.isFinite(measured) && measured > 0 ? measured : available, available) * scale;
+    const bounds = anchor.getBoundingClientRect();
+    const center = (bounds.left + bounds.right) / 2;
+    const clamped = Math.max(frame.left + 16 * scale + width / 2, Math.min(center, frame.right - 16 * scale - width / 2));
+    anchor.style.setProperty('--tooltip-shift', `${(clamped - center) / scale}px`);
+  }
+
+  function refreshTooltip() {
+    quickLinks?.querySelectorAll<HTMLAnchorElement>('a:hover, a:focus-visible').forEach(positionTooltip);
+  }
 
   function saveState() {
     try {
@@ -51,7 +71,9 @@
   });
 </script>
 
-<details class="erm-quick-links" open={expanded} on:toggle={updateState}>
+<svelte:window on:resize={refreshTooltip} />
+
+<details class="erm-quick-links" bind:this={quickLinks} open={expanded} on:toggle={updateState}>
   <summary>
     <strong>{t('erm.quick.title')}</strong>
     {#if !expanded && currentItem}<span class="current-summary">{currentItem.code}: {name(currentItem.title[lang])}</span>{/if}
@@ -59,13 +81,13 @@
   </summary>
   <nav aria-label={t('erm.quick.title')}>
     <div class="quick-row"><strong>{t('erm.quick.triggers')}</strong><span>
-      {#each triggers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={item.title[lang]} aria-label={`${item.code}: ${item.title[lang]}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined}>{item.code}</a>{/each}
+      {#each triggers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={item.title[lang]} title={item.title[lang]} aria-label={`${item.code}: ${item.title[lang]}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined} on:mouseenter={(event) => positionTooltip(event.currentTarget)} on:focus={(event) => positionTooltip(event.currentTarget)}>{item.code}</a>{/each}
     </span></div>
     <div class="quick-row"><strong>{t('erm.quick.receivers')}</strong><span>
-      {#each regularReceivers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined}>{item.code}</a>{/each}
+      {#each regularReceivers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} title={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined} on:mouseenter={(event) => positionTooltip(event.currentTarget)} on:focus={(event) => positionTooltip(event.currentTarget)}>{item.code}</a>{/each}
     </span></div>
     <div class="quick-row object-receivers"><strong>{t('erm.quick.objectReceivers')}</strong><span>
-      {#each objectReceivers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined}>{item.code}</a>{/each}
+      {#each objectReceivers as item}<a class:current={`erm/${item.slug}` === activeSlug} href={`${base}/${lang}/erm/${item.slug}/`} data-tooltip={name(item.title[lang])} title={name(item.title[lang])} aria-label={`${item.code}: ${name(item.title[lang])}`} aria-current={`erm/${item.slug}` === activeSlug ? 'page' : undefined} on:mouseenter={(event) => positionTooltip(event.currentTarget)} on:focus={(event) => positionTooltip(event.currentTarget)}>{item.code}</a>{/each}
     </span></div>
   </nav>
 </details>
@@ -83,8 +105,8 @@
   .quick-row > span { display: flex; flex-wrap: wrap; column-gap: .48rem; row-gap: .15rem; }
   a { position: relative; display: inline-block; padding: .1rem; border-radius: 2px; color: var(--gold); font-family: var(--font-mono, monospace); }
   a:hover, a:focus-visible, a.current { color: var(--text); background: var(--gold-soft); }
-  a::after { content: attr(data-tooltip); position: absolute; z-index: 30; left: 50%; bottom: calc(100% + .42rem); width: max-content; max-width: min(22rem, 70vw); padding: .35rem .5rem; border: 1px solid var(--border-strong); border-radius: 4px; color: var(--text); background: var(--bg-deep); box-shadow: var(--shadow-soft); font: .78rem var(--font-body); opacity: 0; pointer-events: none; transform: translate(-50%, .2rem); visibility: hidden; }
-  a:hover::after, a:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+  a::after { content: attr(data-tooltip); display: none; position: absolute; z-index: 30; left: calc(50% + var(--tooltip-shift, 0px)); bottom: calc(100% + .42rem); width: max-content; max-width: min(22rem, var(--tooltip-max-width, 70vw)); padding: .35rem .5rem; border: 1px solid var(--border-strong); border-radius: 4px; color: var(--text); background: var(--bg-deep); box-shadow: var(--shadow-soft); font: .78rem var(--font-body); overflow-wrap: anywhere; pointer-events: none; }
+  @media(min-width:601px) { a:global([data-tooltip-positioned]):hover::after, a:global([data-tooltip-positioned]):focus-visible::after { display: block; transform: translate(-50%, 0); } }
   @media(max-width:1200px) { .erm-quick-links { position: relative; top: auto; } }
   @media(max-width:600px) { .quick-row { display: block; } .quick-row > strong { display: block; margin-bottom: .3rem; } a { min-height: 28px; min-width: 26px; display: grid; place-items: center; } a::after { display: none; } }
 </style>
