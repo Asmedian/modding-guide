@@ -1,0 +1,636 @@
+{
+  "name": "Long Live the King",
+  "description": "The war in Erathia is the greatest thing that could have happened for the nation of Deyja.  A war of this scale is an endless harvest for our undead armies.  Today we shall feast, and tomorrow we shall conquer Erathia for ourselves.",
+  "version": "AB",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 41472,
+    "objects": 7425,
+    "towns": 19,
+    "monsters": 97,
+    "factions": {
+      "Necropolis": 10,
+      "Castle": 7,
+      "Rampart": 2
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Evil-2A.h3m",
+      "regionText": "King Gryphonheart, the man who banished us from Erathia, is dead. The Nighon and Eeofol invasion has given us the gift of death. At last we can build our armies and invade Erathia ourselves. First, however, we need a tactician. You must find the tomb of King Gryphonheart.",
+      "prologText": "Our nation's goal was to kill the man who banished us from Erathia. However, Nighon and Eeofol's subsequent invasion has done us an unexpected favor.  Erathia is strewn with the dead.  For the necromancers, this is a season of harvest. This is a season for war.  Queen Catherine is a formidable foe. To defeat Erathia's remaining military, we need a tactician greater than her. We have a plan... an ironic plan. While Catherine organizes the last stages of her war with Nighon and Eeofol, you will sneak into Erathia and locate King Gryphonheart’s grave. Be wary. The region is occupied by scattered Erathian. When the gravesite is found, we will resurrect the dead king and make him our pawn. With King Gryphonheart commanding our armies, his former home will become our land of the dead.",
+      "epilogText": "While resurrecting King Gryphonheart from the dead, former King Vilmar met with an unfortunate accident. King Gryphonheart has taken command of the military... and the throne. His control over the dead is beyond anything we have seen. This bodes well for our invasion. However, our lords watch their new king, searching for a sign of weakness.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 4,
+          "heroId": -3,
+          "spellId": 24
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 66,
+          "amount": 1
+        },
+        {
+          "type": 2,
+          "buildingId": 20
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-1.h3m",
+      "name": "A Gryphon's Heart",
+      "description": "To win, you must bring the Spirit of Oppression to the city of Stonecastle within 3 months. Seek out the Seer - completing the Seer's Quest will allow you to carry the reward to the next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 14,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 14,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 27,
+          "mainTownY": 6,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 10,
+        "name": "Transport artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 84,
+        "x": 16,
+        "y": 23,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 84
+      },
+      "factions": {
+        "Necropolis": 1,
+        "Castle": 1
+      },
+      "objects": 640,
+      "towns": 2,
+      "monsters": 10,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Evil-2B.h3m",
+      "regionText": "We have found a perfect area along Erathia's border from which we can harvest enough creatures for our armies without attracting much notice from the Erathian Military. Build an army, but be quick - we need those troops immediately.",
+      "prologText": "Before we begin our large scale invasion of Erathia, we must fill our ranks. Erathia’s populous will provide the recruits we need. Invade the local region and resurrect the needed troops.",
+      "preconditions": 1,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 65,
+          "artifactId": 55
+        },
+        {
+          "type": 2,
+          "buildingId": 19
+        },
+        {
+          "type": 2,
+          "buildingId": 24
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-2.h3m",
+      "name": "Season of Harvest",
+      "description": "To win, you must have a total of 2500 Skeletons in all your armies within 3 months. Some Border Guards can only be passed if a Hero carries a Quest Artifact from a previous scenario, but the artifact beyond the Border Guard will travel with you to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 2,
+          "aiTacticName": "Explorer",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 10,
+          "mainTownY": 63,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 54,
+          "mainTownY": 5,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 78,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 65,
+              "name": ""
+            },
+            {
+              "id": 78,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 1,
+        "name": "Accumulate creatures",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "creatureId": 56,
+        "count": 2500
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 84
+      },
+      "factions": {
+        "Necropolis": 1,
+        "Castle": 1,
+        "Rampart": 2
+      },
+      "objects": 1729,
+      "towns": 4,
+      "monsters": 49,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-2-0.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Evil-2C.h3m",
+      "regionText": "A rogue Death Knight does not wish to take part in the glory that will be our invasion of Erathia. He believes that by remaining out of the fighting, his lands will be spared from any counterattack by the Erathians. It is time we taught him a small lesson regarding obedience.",
+      "prologText": "A Death Knight named Mot, refuses to obey King Gryphonheart’s orders.  An example must be made so others will not contemplate such traitorous action.  Mot has insulated himself with his armies.  Infiltrate his troops, kill him, and take his command.  When he is dead, resurrect his corpse and employ him in your ranks.",
+      "preconditions": 1,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 104
+        },
+        {
+          "type": 4,
+          "heroId": -3,
+          "spellId": 33
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 59,
+          "amount": 25
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-3.h3m",
+      "name": "Corporeal Punishment",
+      "description": "To win, you must defeat the Death Knight, Mot. Some Border Guards can only be passed if a Hero carries a Quest Artifact from a previous scenario, but the artifact beyond the Border Guard will travel with you to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 70,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Mot",
+          "heroes": [
+            {
+              "id": 70,
+              "name": "Mot"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 10,
+          "mainTownY": 7,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 5,
+        "name": "Defeat hero",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 62,
+        "y": 66,
+        "z": 0
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Necropolis": 5
+      },
+      "objects": 1518,
+      "towns": 5,
+      "monsters": 19,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Evil-2D.h3m",
+      "regionText": "The time has come. The lich King Gryphonheart has chosen this as the moment of attack. Forces from across Deyja will pour into Erathia and overwhelm them. The point of your attack was chosen by King Gryphonheart himself. You have vowed not to fail.",
+      "prologText": "Erathia's military lies before us. It is time to make a bold strike. King Gryphonheart has trained their generals and knows their tactics. Morale will decide this battle.  Morale is not a factor for the undead.  Once we fill our ranks with their dead, our horde will grow and their morale will falter.  Then we will swarm over them. Soon King Gryphonheart will rule Erathia once again.",
+      "preconditions": 6,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 4,
+          "heroId": 72,
+          "spellId": 24
+        },
+        {
+          "type": 3,
+          "heroId": 76,
+          "artifactId": 56
+        },
+        {
+          "type": 1,
+          "heroId": 65,
+          "creatureId": 69,
+          "amount": 3
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-4.h3m",
+      "name": "From Day to Night",
+      "description": "To win, you must capture all enemy towns and castles and defeat all enemy heroes. Some Border Guards can only be passed if a Hero carries a Quest Artifact from a previous scenario, but the reward is great indeed.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 7,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 0,
+              "name": ""
+            },
+            {
+              "id": 7,
+              "name": ""
+            },
+            {
+              "id": 10,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 65,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 65,
+              "name": ""
+            },
+            {
+              "id": 72,
+              "name": ""
+            },
+            {
+              "id": 76,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Castle": 5,
+        "Necropolis": 3
+      },
+      "objects": 3538,
+      "towns": 8,
+      "monsters": 19,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Evil2.h3c/scenario-4-1.png"
+        }
+      ]
+    }
+  ]
+}

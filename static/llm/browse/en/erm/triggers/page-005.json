@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.triggers.tm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/tm",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/tm/",
+      "title": "Game timer (TM)",
+      "summary": "Fires for timer 1..100 previously configured with the TM receiver.",
+      "keywords": [
+        "TM",
+        "!?TM"
+      ],
+      "questions": [
+        "Fires for timer 1..100 previously configured with the TM receiver."
+      ],
+      "sourceRefs": [
+        "old-help:tr-tm.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-tm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-tm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-tm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-tm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-tm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-tm": [
+          "old-help:tr-tm.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "fromAnchor": "ref-tr-tm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger TM",
+            "When it fires",
+            "Declaration",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.ge",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/ge",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ge/",
+      "title": "Global map event (GE)",
+      "summary": "Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists.",
+      "keywords": [
+        "GE",
+        "!?GE"
+      ],
+      "questions": [
+        "Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists."
+      ],
+      "sourceRefs": [
+        "old-help:tr-ge.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-ge.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-ge.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-ge.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-ge.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-ge.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-ge": [
+          "old-help:tr-ge.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "fromAnchor": "ref-tr-ge",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger GE",
+            "When it fires",
+            "Declaration",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.hl",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/hl",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/hl/",
+      "title": "Hero level-up (HL)",
+      "summary": "Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills.",
+      "keywords": [
+        "HL",
+        "!?HL",
+        "OnHeroGainLevel"
+      ],
+      "questions": [
+        "Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills."
+      ],
+      "sourceRefs": [
+        "old-help:tr-hl.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-hl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-hl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-hl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-hl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-hl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-hl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-hl": [
+          "old-help:tr-hl.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "fromAnchor": "ref-tr-hl",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger HL",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.hm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/hm",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/hm/",
+      "title": "Hero movement (HM)",
+      "summary": "Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero’s coordinates.",
+      "keywords": [
+        "HM",
+        "!?HM",
+        "OnHeroMove"
+      ],
+      "questions": [
+        "Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero’s coordinates."
+      ],
+      "sourceRefs": [
+        "old-help:tr-hm.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-hm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-hm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-hm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-hm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-hm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-hm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-hm": [
+          "old-help:tr-hm.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "fromAnchor": "ref-tr-hm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger HM",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.mm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/mm",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mm/",
+      "title": "Interface hints (MM)",
+      "summary": "0 battle hints, 1 town hints, 2 adventure map. MM modifies text in the relevant context.",
+      "keywords": [
+        "MM",
+        "!?MM",
+        "OnBattleMouseHint",
+        "OnTownMouseHint"
+      ],
+      "questions": [
+        "0 battle hints, 1 town hints, 2 adventure map. MM modifies text in the relevant context."
+      ],
+      "sourceRefs": [
+        "old-help:tr-mm.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-mm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-mm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-mm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-mm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-mm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-mm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-mm": [
+          "old-help:tr-mm.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+          "fromAnchor": "ref-tr-mm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger MM",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onkeypressed",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onkeypressed",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onkeypressed/",
+      "title": "Key press (OnKeyPressed)",
+      "summary": "x1 is the key code; x2 blocks the default action (0/1, mutable); x3 is isDown, TRUE only on the initial press and FALSE on auto-repeat. See Framework KEY_ constants.",
+      "keywords": [
+        "OnKeyPressed",
+        "77003"
+      ],
+      "questions": [
+        "x1 is the key code; x2 blocks the default action (0/1, mutable); x3 is isDown, TRUE only on the initial press and FALSE on auto-repeat. See Framework KEY_ constants."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onkeyreleased",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onkeyreleased",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onkeyreleased/",
+      "title": "Key release (OnKeyReleased)",
+      "summary": "x1 is key code; x2 blocks the default reaction (0/1, mutable). The engine contract does not declare a third argument. Do not copy the meaning of OnKeyPressed x3 here.",
+      "keywords": [
+        "OnKeyReleased",
+        "77053"
+      ],
+      "questions": [
+        "x1 is key code; x2 blocks the default reaction (0/1, mutable). The engine contract does not declare a third argument. Do not copy the meaning of OnKeyPressed x3 here."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onkingdomoverviewmouseclick",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onkingdomoverviewmouseclick",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onkingdomoverviewmouseclick/",
+      "title": "Kingdom overview mouse click (OnKingdomOverviewMouseClick)",
+      "summary": "CM provides mouse context. This is a local UI event, not multiplayer action synchronization.",
+      "keywords": [
+        "OnKingdomOverviewMouseClick",
+        "77027"
+      ],
+      "questions": [
+        "CM provides mouse context. This is a local UI event, not multiplayer action synchronization."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.ongameleave",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/ongameleave",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/ongameleave/",
+      "title": "Leaving the game (OnGameLeave)",
+      "summary": "Before ERM is disabled when leaving the current game. No arguments. Release temporary resources tied to the game session.",
+      "keywords": [
+        "OnGameLeave",
+        "77016"
+      ],
+      "questions": [
+        "Before ERM is disabled when leaving the current game. No arguments. Release temporary resources tied to the game session."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onloadheroscreen",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onloadheroscreen",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onloadheroscreen/",
+      "title": "Loading hero-screen data (OnLoadHeroScreen)",
+      "summary": "x1 is hero. Fires after OnOpenHeroScreen and when switching heroes, before rendering. Other windows and plugins may also trigger loading; do not assume it only means manual opening.",
+      "keywords": [
+        "OnLoadHeroScreen",
+        "77030"
+      ],
+      "questions": [
+        "x1 is hero. Fires after OnOpenHeroScreen and when switching heroes, before rendering. Other windows and plugins may also trigger loading; do not assume it only means manual opening."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

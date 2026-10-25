@@ -1,0 +1,702 @@
+{
+  "name": "Hack and Slash",
+  "description": "Crag Hack, newly arrived in Erathia and looking for adventure, meets a young wizard named Sandro, who hires him to find the four pieces of the Armor of the Damned so he can destroy the cursed thing.  Great rewards are offered for this service.",
+  "version": "SoD",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 41472,
+    "objects": 7342,
+    "towns": 21,
+    "monsters": 221,
+    "factions": {
+      "Stronghold": 7,
+      "Castle": 7,
+      "Fortress": 1,
+      "Necropolis": 6
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Has01.h3m",
+      "regionText": "This relatively rocky part of Avauntnell has been home to many a Barbarian group over the centuries (probably due to it being close to Krewlod).  Numerous attempts at Erathian settlement in this area have mostly failed due to the harsh environment and the barbarian raids, but one or two towns might still be found.",
+      "prologText": "After watching me clobber a pack of goblins in a bar fight, a Wizard named Sandro asked me to come to his table.  He wants to pay me to find him something called a Skull Helmet.  I'll probably have to bash someone's head in to get it.  Sounds like it's going to be fun!",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 84,
+          "amount": 40
+        },
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 86,
+          "amount": 20
+        },
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 88,
+          "amount": 15
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-1.h3m",
+      "name": "Bashing Skulls",
+      "description": "Crag Hack must seize the first artifact Sandro requires, the Skull Helmet, from Barshon the Barbarian to win the scenario.  However, if Crag Hack is defeated in combat, the scenario is lost.  Crag Hack is limited to level 10 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 39,
+          "mainTownY": 11,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 97,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Gurnis",
+          "heroes": [
+            {
+              "id": 97,
+              "name": "Gurnis"
+            },
+            {
+              "id": 98,
+              "name": ""
+            },
+            {
+              "id": 105,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 102,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 68,
+          "mainTownY": 3,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 101,
+          "mainHeroPortrait": 107,
+          "mainHeroName": "Barshon",
+          "heroes": [
+            {
+              "id": 101,
+              "name": "Barshon"
+            },
+            {
+              "id": 104,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 20
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 58,
+        "y": 70,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 4,
+        "Castle": 1
+      },
+      "objects": 1718,
+      "towns": 5,
+      "monsters": 43,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Has02.h3m",
+      "regionText": "This part of Avauntnell was once home to wandering tribes of barbarians, but of late the lush grassland and forests (with only a few swamps) have attracted settlers.  These settlers, needing to fend off the occasional barbarian raid and bandit strike, have started their own offshoot of the Erathian militia.  Any non-Erathian who enters this region should beware.",
+      "prologText": "I went back to the Tavern to give Sandro this ugly Helmet he wanted.  Now he wants me to get some kind of sword from a Death Knight.  That tin plated corpse is hiding out in a swamp, so I have to trudge through miles of muck before I get a chance to hack the sword out of his cold dead hands!",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 29
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 5000
+        },
+        {
+          "type": 3,
+          "heroId": 102,
+          "artifactId": 9
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-2.h3m",
+      "name": "Black Sheep",
+      "description": "Seize the Blackshard of the Dead Knight from Marzeth to win the scenario.  However, if Crag Hack is defeated in combat, the scenario is lost.  Crag Hack is limited to level 15 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 129,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 5,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 2,
+              "name": ""
+            },
+            {
+              "id": 5,
+              "name": ""
+            },
+            {
+              "id": 65,
+              "name": "Marzeth"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 63,
+          "mainTownY": 8,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 8
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 69,
+        "y": 2,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 2,
+        "Castle": 3,
+        "Fortress": 1
+      },
+      "objects": 1806,
+      "towns": 6,
+      "monsters": 52,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Has03.h3m",
+      "regionText": "A small group of Necromancers called \"The Ebon Hand\" live in this part of Avauntnell.  Erathia hasn't really dealt with them, for this is an out of the way swampy area, and it really isn't worth the time and expense to mount a campaign against them.  It is said they worship one of the undead races as gods and keep them under lock and key to be worshiped day and night.",
+      "prologText": "I got Sandro his cursed sword, and now he wants me to fight more moldy Necromancers to get some kind of armor made out of bones.  Hah!  It'll be their bones I smash!",
+      "preconditions": 2,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 87,
+          "amount": 40
+        },
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 89,
+          "amount": 30
+        },
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 90,
+          "amount": 5
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-3.h3m",
+      "name": "A Cage in the Hand",
+      "description": "Crag Hack must acquire the Rib Cage of Power from one of the Liches haunting the swamp of Ferris to win the scenario.  However, if Crag Hack is defeated in combat, the scenario is lost.  Crag Hack is limited to level 20 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 76,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 64,
+              "name": ""
+            },
+            {
+              "id": 76,
+              "name": ""
+            },
+            {
+              "id": 78,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 26
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 3,
+        "Stronghold": 1,
+        "Castle": 1
+      },
+      "objects": 1668,
+      "towns": 5,
+      "monsters": 69,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Has04.h3m",
+      "regionText": "Another group of Necromancers live in this region of Avauntnell along with a small group of former Erathian Militia who have been bribed by the Necromancers to leave them alone.  The Necromancers, called the \"Hand of Death,\" have been relatively quiet, and Erathia hasn't realized yet that some of their militia has been bribed, so they have been left alone over the past few decades.",
+      "prologText": "Now that I gave him the Death Knight's Sword, Sandro wants me to fight some more Necromancers for a shield.  More stinking Undead to fight!  This is not as much fun as I thought.  Grrrr!  At least this is the last thing I have to find for that puny Wizard to get my reward.",
+      "epilogText": "I've been tricked!  The thieving Wizard took off with the artifacts and didn't give me my gold!  When I find Sandro I'm going to rip his arms off and shove them down his lying throat!  Argggggggggggggh!",
+      "preconditions": 4,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 31
+        },
+        {
+          "type": 7,
+          "resourceType": -3,
+          "amount": 10
+        },
+        {
+          "type": 3,
+          "heroId": 102,
+          "artifactId": 70
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-4.h3m",
+      "name": "Grave Robber",
+      "description": "Seize the Yawning Shield of the Dead from the \"Hand of Death\" Necromancer cult to win the campaign.  However, if Crag Hack is defeated in combat, the scenario is lost.  Crag Hack is limited to level 25 but will carry his experience, skills and spells on to his next campaign.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 63,
+          "mainTownY": 46,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 72,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 65,
+              "name": ""
+            },
+            {
+              "id": 67,
+              "name": "Charnath"
+            },
+            {
+              "id": 72,
+              "name": ""
+            },
+            {
+              "id": 77,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 10,
+          "mainTownY": 10,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 14
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 10,
+        "y": 11,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 3,
+        "Castle": 2
+      },
+      "objects": 2150,
+      "towns": 5,
+      "monsters": 57,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Crag.h3c/scenario-4-1.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.constructbitmask",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/constructbitmask",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/constructbitmask/",
+      "title": "ConstructBitMask",
+      "summary": "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.",
+      "keywords": [
+        "ConstructBitMask",
+        "FU(ConstructBitMask)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.createdir",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/createdir",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/createdir/",
+      "title": "CreateDir",
+      "summary": "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.",
+      "keywords": [
+        "CreateDir",
+        "FU(CreateDir)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.deconstructbitmask",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/deconstructbitmask",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/deconstructbitmask/",
+      "title": "DeconstructBitMask",
+      "summary": "Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context.",
+      "keywords": [
+        "DeconstructBitMask",
+        "FU(DeconstructBitMask)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.decorateint",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/decorateint",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/decorateint/",
+      "title": "DecorateInt",
+      "summary": "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string.",
+      "keywords": [
+        "DecorateInt",
+        "FU(DecorateInt)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.deletefile",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/deletefile",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/deletefile/",
+      "title": "DeleteFile",
+      "summary": "Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees.",
+      "keywords": [
+        "DeleteFile",
+        "FU(DeleteFile)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.direxists",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/direxists",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/direxists/",
+      "title": "DirExists",
+      "summary": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.",
+      "keywords": [
+        "DirExists",
+        "FU(DirExists)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.disableerrors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/disableerrors",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/disableerrors/",
+      "title": "DisableErrors",
+      "summary": "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation.",
+      "keywords": [
+        "DisableErrors",
+        "FU(DisableErrors)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-aligndlg",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-aligndlg",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-aligndlg/",
+      "title": "DL_AlignDlg",
+      "summary": "Aligns an existing DL dialog using TEXT_ALIGN_ bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM.",
+      "keywords": [
+        "DL_AlignDlg",
+        "FU(DL_AlignDlg)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Aligns an existing DL dialog using TEXT_ALIGN_ bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-centeratmouse",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-centeratmouse",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-centeratmouse/",
+      "title": "DL_CenterAtMouse",
+      "summary": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.",
+      "keywords": [
+        "DL_CenterAtMouse",
+        "FU(DL_CenterAtMouse)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-coords",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-coords",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-coords/",
+      "title": "DL_Coords",
+      "summary": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.",
+      "keywords": [
+        "DL_Coords",
+        "FU(DL_Coords)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-destroy",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-destroy",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-destroy/",
+      "title": "DL_Destroy",
+      "summary": "Destroys a DL wrapper by address. Do not reuse the destroyed address.",
+      "keywords": [
+        "DL_Destroy",
+        "FU(DL_Destroy)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Destroys a DL wrapper by address. Do not reuse the destroyed address."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-findbyid",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-findbyid",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-findbyid/",
+      "title": "DL_FindById",
+      "summary": "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1.",
+      "keywords": [
+        "DL_FindById",
+        "FU(DL_FindById)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}

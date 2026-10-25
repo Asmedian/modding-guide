@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "ActivateNextStack",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2837,
+      "endLine": 2847,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "BITS_1_MASK",
+        "CALLCONV_THISCALL",
+        "COMBAT_MANAGER",
+        "TRUE"
+      ],
+      "status": "requires-review",
+      "group": "game",
+      "slug": "framework/functions/activatenextstack",
+      "review": "full-body",
+      "summary": "Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version."
+    },
+    {
+      "name": "AddArtToHero",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3155,
+      "endLine": 3169,
+      "args": [
+        "hero",
+        "art",
+        "artMod",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_CDECL",
+        "NO_ART_MOD"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/addarttohero",
+      "review": "full-body",
+      "summary": "Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions."
+    },
+    {
+      "name": "AdvMap_SetHint",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2363,
+      "endLine": 2376,
+      "args": [
+        "newHint"
+      ],
+      "calls": [
+        "H3Dlg_DrawItemOnScreen",
+        "H3Dlg_GetRootDlg",
+        "H3Dlg_SendCmdToItem",
+        "H3Dlg_UpdateItemRange"
+      ],
+      "globals": [],
+      "constants": [
+        "DLG_ADVMAP",
+        "DLG_CMD_SET_TEXT",
+        "ITEM_ADVMAP_HINT",
+        "NULL",
+        "STRUCT_H3DLG_VTABLE",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/advmap-sethint",
+      "review": "full-body",
+      "summary": "Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input."
+    },
+    {
+      "name": "AdvMap_SetInfoPanelDef",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2404,
+      "endLine": 2455,
+      "args": [
+        "text",
+        "defName",
+        "defFrameId",
+        "timeToDisplay"
+      ],
+      "calls": [
+        "AdvMap_SetInfoPanelText"
+      ],
+      "globals": [
+        "i^radioDlg_captions^",
+        "i^radioDlg_tags^",
+        "i^radioDlg_values^",
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^",
+        "i^radioDlg_flags^",
+        "i^radioDlg_freeSpaceAlerted^",
+        "s^radioDlg_title^",
+        "s^temp_text^"
+      ],
+      "constants": [
+        "ADV_MANAGER",
+        "CALLCONV_CDECL",
+        "CALLCONV_THISCALL",
+        "FALSE",
+        "M_AUTO_ID",
+        "M_INT",
+        "M_STORED",
+        "M_STR",
+        "NO_RADIO_DLG_ITEM",
+        "RADIO_DLG_FLAG_BTN_CANCEL",
+        "RADIO_DLG_MAX_ITEMS"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/advmap-setinfopaneldef",
+      "review": "full-body",
+      "summary": "Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant."
+    },
+    {
+      "name": "AdvMap_SetInfoPanelText",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2377,
+      "endLine": 2403,
+      "args": [
+        "text",
+        "timeToDisplay"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp_text^"
+      ],
+      "constants": [
+        "ADV_MANAGER",
+        "CALLCONV_CDECL",
+        "CALLCONV_THISCALL"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/advmap-setinfopaneltext",
+      "review": "full-body",
+      "summary": "Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1."
+    },
+    {
+      "name": "Array_Clone",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 619,
+      "endLine": 630,
+      "args": [
+        "srcArray",
+        "result"
+      ],
+      "calls": [
+        "Array_Copy"
+      ],
+      "globals": [],
+      "constants": [
+        "M_AUTO_ID",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-clone",
+      "review": "full-body",
+      "summary": "Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values."
+    },
+    {
+      "name": "Array_Copy",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 587,
+      "endLine": 618,
+      "args": [
+        "srcArray",
+        "dstArray"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_INT",
+        "SIZEOF_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-copy",
+      "review": "full-body",
+      "summary": "Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type."
+    },
+    {
+      "name": "Array_CountValue",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1054,
+      "endLine": 1084,
+      "args": [
+        "list",
+        "value",
+        "result",
+        "caseInsensitive"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_INT",
+        "SIZEOF_PTR",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-countvalue",
+      "review": "full-body",
+      "summary": "Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA."
+    },
+    {
+      "name": "Array_CustomSort",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 835,
+      "endLine": 889,
+      "args": [
+        "list",
+        "compareFunc",
+        "state",
+        "startInd",
+        "endInd"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_AUTO_ID",
+        "M_INT",
+        "M_STR",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-customsort",
+      "review": "full-body",
+      "summary": "Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array."
+    },
+    {
+      "name": "Array_EnsureMinSize",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1041,
+      "endLine": 1053,
+      "args": [
+        "list",
+        "minSize",
+        "fillValue"
+      ],
+      "calls": [
+        "Array_Resize"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-ensureminsize",
+      "review": "full-body",
+      "summary": "Grows an array to minSize when needed and fills new items. Never shrinks it."
+    },
+    {
+      "name": "Array_Fill",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 982,
+      "endLine": 1010,
+      "args": [
+        "list",
+        "startValue",
+        "step",
+        "startInd",
+        "endInd"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-fill",
+      "review": "full-body",
+      "summary": "Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array."
+    },
+    {
+      "name": "Array_Find",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1124,
+      "endLine": 1165,
+      "args": [
+        "list",
+        "callback",
+        "result",
+        "customArg"
+      ],
+      "calls": [
+        "callback"
+      ],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "M_INT",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-find",
+      "review": "full-body",
+      "summary": "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0."
+    },
+    {
+      "name": "Array_IndexOf",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1085,
+      "endLine": 1123,
+      "args": [
+        "list",
+        "value",
+        "result",
+        "caseInsensitive"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_INT",
+        "SIZEOF_PTR",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-indexof",
+      "review": "full-body",
+      "summary": "Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive."
+    },
+    {
+      "name": "Array_Join",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 744,
+      "endLine": 780,
+      "args": [
+        "list",
+        "resultPtr",
+        "gluePtr"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^",
+        "s^result^"
+      ],
+      "constants": [
+        "M_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-join",
+      "review": "full-body",
+      "summary": "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^."
+    },
+    {
+      "name": "Array_Merge",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 631,
+      "endLine": 688,
+      "args": [
+        "dstArray",
+        "firstArrayToMerge"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "DUMMY",
+        "M_INT",
+        "NULL",
+        "SIZEOF_INT",
+        "SIZEOF_PTR",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-merge",
+      "review": "full-body",
+      "summary": "Appends one or more arrays to dstArray. All element types must match; the destination is modified."
+    },
+    {
+      "name": "Array_Move",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 446,
+      "endLine": 517,
+      "args": [
+        "list",
+        "offset",
+        "length",
+        "destInd"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [
+        "M_INT",
+        "SIZEOF_INT"
+      ],
+      "status": "requires-review",
+      "group": "arrays",
+      "slug": "framework/functions/array-move",
+      "review": "full-body",
+      "summary": "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use."
+    },
+    {
+      "name": "Array_Pop",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 401,
+      "endLine": 445,
+      "args": [
+        "list",
+        "firstItem"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [
+        "M_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-pop",
+      "review": "full-body",
+      "summary": "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings."
+    },
+    {
+      "name": "Array_Push",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 376,
+      "endLine": 400,
+      "args": [
+        "list",
+        "firstItem"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-push",
+      "review": "full-body",
+      "summary": "Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped."
+    },
+    {
+      "name": "Array_Resize",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1011,
+      "endLine": 1040,
+      "args": [
+        "list",
+        "newSize",
+        "fillValue"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_INT",
+        "M_STR"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-resize",
+      "review": "full-body",
+      "summary": "Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed."
+    },
+    {
+      "name": "Array_Revert",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 956,
+      "endLine": 981,
+      "args": [
+        "list",
+        "startInd",
+        "endInd"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-revert",
+      "review": "full-body",
+      "summary": "Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings."
+    },
+    {
+      "name": "Array_Shuffle",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 934,
+      "endLine": 955,
+      "args": [
+        "list"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_INT",
+        "SIZEOF_INT",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-shuffle",
+      "review": "full-body",
+      "summary": "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic."
+    },
+    {
+      "name": "Array_Slice",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 689,
+      "endLine": 743,
+      "args": [
+        "list",
+        "start",
+        "count",
+        "result",
+        "arrayStorageType"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "DUMMY",
+        "INT_MAX",
+        "M_AUTO_ID",
+        "M_INT",
+        "M_TRIGGER_LOCAL",
+        "NULL",
+        "SIZEOF_INT",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-slice",
+      "review": "full-body",
+      "summary": "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result."
+    },
+    {
+      "name": "Array_Sort",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 781,
+      "endLine": 812,
+      "args": [
+        "list",
+        "startInd",
+        "endInd"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_STR"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-sort",
+      "review": "full-body",
+      "summary": "Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped."
+    },
+    {
+      "name": "Array_SortedUnique",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 890,
+      "endLine": 933,
+      "args": [
+        "list"
+      ],
+      "calls": [
+        "Array_Sort"
+      ],
+      "globals": [],
+      "constants": [
+        "M_INT"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/array-sortedunique",
+      "review": "full-body",
+      "summary": "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected."
+    },
+    {
+      "name": "Array_Splice",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 518,
+      "endLine": 586,
+      "args": [
+        "list",
+        "startIndex",
+        "numItemsToDelete",
+        "firstItemToInsert"
+      ],
+      "calls": [
+        "Array_Move"
+      ],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [
+        "M_INT"
+      ],
+      "status": "requires-review",
+      "group": "arrays",
+      "slug": "framework/functions/array-splice",
+      "review": "full-body",
+      "summary": "Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move."
+    },
+    {
+      "name": "Battle_RedrawGridShadow",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2799,
+      "endLine": 2803,
+      "args": [],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL",
+        "COMBAT_MANAGER"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/battle-redrawgridshadow",
+      "review": "full-body",
+      "summary": "Refreshes movement-range shading after a speed change. Requires an existing combat manager."
+    },
+    {
+      "name": "BattleStack_MakeActive",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2817,
+      "endLine": 2836,
+      "args": [
+        "stackId"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "BATTLE_MAX_STACKS",
+        "BATTLE_STACKS_PER_SIDE",
+        "CALLCONV_THISCALL",
+        "COMBAT_MANAGER",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/battlestack-makeactive",
+      "review": "full-body",
+      "summary": "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists."
+    },
+    {
+      "name": "BattleStack_Shoot",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2804,
+      "endLine": 2816,
+      "args": [
+        "attackerStackId",
+        "defenderStackId"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/battlestack-shoot",
+      "review": "full-body",
+      "summary": "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first."
+    },
+    {
+      "name": "ChangeArtModAtSlot",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3134,
+      "endLine": 3154,
+      "args": [
+        "hero",
+        "slot",
+        "artMod"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ART_SLOT_EQUIPPED_FIRST",
+        "ART_SLOT_EQUIPPED_LAST",
+        "ART_SLOT_FIRST",
+        "ART_SLOT_LAST",
+        "CURRENT_HERO",
+        "NO_ART_MOD",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/changeartmodatslot",
+      "review": "full-body",
+      "summary": "Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD."
+    },
+    {
+      "name": "ClearEventChainData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 12,
+      "endLine": 15,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^savedEventData^",
+        "i^savedEventDataPos^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/cleareventchaindata",
+      "review": "full-body",
+      "summary": "Clears the internal event-context stack and its position when loading a save."
+    },
+    {
+      "name": "ClearIniCache",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1589,
+      "endLine": 1596,
+      "args": [
+        "filePathPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/clearinicache",
+      "review": "full-body",
+      "summary": "Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file."
+    },
+    {
+      "name": "ClearScreenLog",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2357,
+      "endLine": 2362,
+      "args": [],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/clearscreenlog",
+      "review": "full-body",
+      "summary": "Clears green on-screen log messages."
+    },
+    {
+      "name": "CollectMouseEventData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 129,
+      "endLine": 138,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^key^",
+        "i^mouse_x^",
+        "i^mouse_y^",
+        "i^mouse_battleHex^",
+        "i^mouse_flags^",
+        "i^mouse_hero_0^",
+        "i^mouse_hero_1^",
+        "i^mouse_item^",
+        "i^mouse_mapX^",
+        "i^mouse_mapY^",
+        "i^mouse_mapZ^",
+        "i^mouse_action^",
+        "i^dlg_action^"
+      ],
+      "constants": [
+        "DLG_ACTION_KEY_PRESSED",
+        "MOUSE_EXIT_BTN_LMB_RELEASED",
+        "MOUSE_LMB_RELEASED"
+      ],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/collectmouseeventdata",
+      "review": "full-body",
+      "summary": "Copies CM context to mouse_* and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key."
+    },
+    {
+      "name": "CompareStrings",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1431,
+      "endLine": 1442,
+      "args": [
+        "str1Ptr",
+        "str2Ptr",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/comparestrings",
+      "review": "full-body",
+      "summary": "Compares two ERM strings with language operators and returns -1, 0, or 1."
+    },
+    {
+      "name": "CompareStrings_Bridge_INTERNAL",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 813,
+      "endLine": 834,
+      "args": [
+        "str1Addr",
+        "str2Addr",
+        "bridgeState",
+        "result"
+      ],
+      "calls": [
+        "compareFunc"
+      ],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/comparestrings-bridge-internal",
+      "review": "full-body",
+      "summary": "String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string."
+    },
+    {
+      "name": "ConstructBitMask",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1194,
+      "endLine": 1223,
+      "args": [
+        "args",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/constructbitmask",
+      "review": "full-body",
+      "summary": "Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output."
+    },
+    {
+      "name": "CreateDir",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1605,
+      "endLine": 1612,
+      "args": [
+        "dirPathPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/createdir",
+      "review": "full-body",
+      "summary": "Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories."
+    },
+    {
+      "name": "DeconstructBitMask",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1224,
+      "endLine": 1240,
+      "args": [
+        "mask",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "M_AUTO_ID",
+        "M_INT",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/deconstructbitmask",
+      "review": "full-body",
+      "summary": "Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context."
+    },
+    {
+      "name": "DecorateInt",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1521,
+      "endLine": 1532,
+      "args": [
+        "value",
+        "resultPtr",
+        "ignoreSmallNumbers"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/decorateint",
+      "review": "full-body",
+      "summary": "Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string."
+    },
+    {
+      "name": "DeleteFile",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1578,
+      "endLine": 1588,
+      "args": [
+        "filePathPtr",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/deletefile",
+      "review": "full-body",
+      "summary": "Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees."
+    },
+    {
+      "name": "DirExists",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1566,
+      "endLine": 1577,
+      "args": [
+        "dirPathPtr",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "FILE_ATTRIBUTE_DIRECTORY",
+        "INVALID_FILE_ATTRIBUTES",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/direxists",
+      "review": "full-body",
+      "summary": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+    }
+  ]
+}

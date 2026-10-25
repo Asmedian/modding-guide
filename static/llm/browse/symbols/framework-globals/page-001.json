@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "i^battle_acting_side^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-acting-side",
+      "aliases": [],
+      "label": "BG:Q at the latest action start",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-acting-side"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_acting_stack^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-acting-stack",
+      "aliases": [],
+      "label": "BG:N at the latest action start",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-acting-stack"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_ai_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-ai-0",
+      "aliases": [],
+      "label": "Side is AI-controlled; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-ai-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_ai_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-ai-1",
+      "aliases": [],
+      "label": "Side is AI-controlled; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-ai-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_aiOnly^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-aionly",
+      "aliases": [],
+      "label": "Both sides are AI-controlled",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-aionly"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_current_side^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-current-side",
+      "aliases": [],
+      "label": "Current stack side, accounting for hypnosis",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-current-side"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_current_stack^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-current-stack",
+      "aliases": [],
+      "label": "Stack receiving control, or NO_STACK",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-current-stack"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_hasHuman^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-hashuman",
+      "aliases": [],
+      "label": "At least one side is human",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-hashuman"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_hero_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-hero-0",
+      "aliases": [],
+      "label": "Hero or NO_HERO; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-hero-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_hero_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-hero-1",
+      "aliases": [],
+      "label": "Hero or NO_HERO; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-hero-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_hero_vs_hero^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-hero-vs-hero",
+      "aliases": [],
+      "label": "Defender has a hero",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-hero-vs-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_human_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-human-0",
+      "aliases": [],
+      "label": "Side is human-controlled; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-human-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_human_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-human-1",
+      "aliases": [],
+      "label": "Side is human-controlled; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-human-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_humanOnly^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-humanonly",
+      "aliases": [],
+      "label": "Both sides are human",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-humanonly"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_isActingSideUiUser^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-isactingsideuiuser",
+      "aliases": [],
+      "label": "Computed from battle_current_side and battle_localHuman_*, despite Acting in the name",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-isactingsideuiuser"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_isNetwork^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-isnetwork",
+      "aliases": [],
+      "label": "At least one side is remote",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-isnetwork"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_isQuick^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-isquick",
+      "aliases": [],
+      "label": "Quick combat; may change during battle",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-isquick"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_isVisible^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-isvisible",
+      "aliases": [],
+      "label": "Neither aiOnly nor isQuick",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-isvisible"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_local_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-local-0",
+      "aliases": [],
+      "label": "Non-remote side, including local AI; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-local-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_local_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-local-1",
+      "aliases": [],
+      "label": "Non-remote side, including local AI; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-local-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_localHuman_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-localhuman-0",
+      "aliases": [],
+      "label": "Local human; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-localhuman-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_localHuman_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-localhuman-1",
+      "aliases": [],
+      "label": "Local human; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-localhuman-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_owner_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-owner-0",
+      "aliases": [],
+      "label": "Owner or NO_OWNER; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-owner-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_owner_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-owner-1",
+      "aliases": [],
+      "label": "Owner or NO_OWNER; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-owner-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_remote_0^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-remote-0",
+      "aliases": [],
+      "label": "Remote human; side 0.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-remote-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_remote_1^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-remote-1",
+      "aliases": [],
+      "label": "Remote human; side 1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-remote-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_round^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-round",
+      "aliases": [],
+      "label": "Round, INT_MIN before initialization",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-round"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^battle_type^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-battle-type",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_* mask",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-battle-type"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

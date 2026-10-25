@@ -1,0 +1,813 @@
+{
+  "name": "Birth of a Barbarian",
+  "description": "Yog has been at the Bracada magic academy learning to be a Wizard, but his Barbarian heritage beckons him to follow the path of a warrior.  Yog accepts Duke Winston Boragus' offer to join him in Krewlod.  Unfortunately, the Wizards of Bracada will use all their powers to prevent him from leaving.",
+  "version": "SoD",
+  "scenarioCount": 5,
+  "mapCount": 5,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 23328,
+    "objects": 4327,
+    "towns": 25,
+    "monsters": 177,
+    "factions": {
+      "Tower": 7,
+      "Stronghold": 10,
+      "Fortress": 5,
+      "Castle": 3
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Yog A.h3m",
+      "regionText": "You have never really been that good at magic.  Not even your Genie blood helped you much.  But still, life was fine up until a few months ago when the love of your life, Vidomina, became overconfident.  Her magic corrupted her and turned her into a Necromancer.  Since then, you have grown to despise magic.  Now you have made a decision to leave the life of a Wizard and become what you have always dreamed of... a Barbarian.",
+      "prologText": "All my life I have been studying magic under the Wizards of Bracada to please my mother, a Genie.  But it is the blood of my Barbarian father that runs through my veins, and I feel that my hands were meant to carry a sword rather than a staff.  Fate seems to agree, for I have received an invitation from Duke Winston Boragus of Krewlod to join his army.  The time has come for me to leave this place, but I know that my teachers will not permit that without a fight.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 45,
+          "artifactId": 84
+        },
+        {
+          "type": 3,
+          "heroId": 45,
+          "artifactId": 106
+        },
+        {
+          "type": 1,
+          "heroId": 45,
+          "creatureId": 38,
+          "amount": 3
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-1.h3m",
+      "name": "On the Run",
+      "description": "Escape from Bracada and capture the Krewlodian town of Groa to win the scenario.  However, if Yog is defeated in combat or fails to capture Groa in 5 months, the scenario is lost.  Yog is limited to level 9 but will carry his experience and skills on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 4,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 68,
+          "mainTownY": 13,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 47,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 47,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 68,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower",
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 107,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 45,
+              "name": "Yog"
+            },
+            {
+              "id": 107,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 6,
+        "name": "Capture town",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 68,
+        "y": 4,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 140
+      },
+      "factions": {
+        "Tower": 4,
+        "Stronghold": 1
+      },
+      "objects": 1380,
+      "towns": 5,
+      "monsters": 51,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Yog B.h3m",
+      "regionText": "Not long after you conquered the town of Groa a messenger arrived from Ulgak, the capital city of Krewlod.  To your surprise, it was from the Duke himself.  As you read through the letter you found out that the Barbarians of Krewlod are quite interested in your skills.",
+      "prologText": "Since escaping from Bracada, I have been attacked by a number of Krewlod's armies.  I do not understand why this would be, for I was invited here by the Duke himself!  I must travel to the capital to find out why Winston Boragus and all of his forces have turned against me.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 4
+        },
+        {
+          "type": 7,
+          "resourceType": 4,
+          "amount": 10
+        },
+        {
+          "type": 2,
+          "buildingId": 31
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-2.h3m",
+      "name": "The Meeting",
+      "description": "Get Yog to Ulgak, the capital of Krewlod, to offer his services to Duke Winston Boragus and win the scenario.  However, if Yog is defeated in combat, the scenario is lost.  Yog is limited to level 15 but will carry his experience and skills on to the next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 31,
+          "mainTownY": 31,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 45,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 14,
+          "mainTownY": 16,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 105,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 105,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 6,
+        "name": "Capture town",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 14,
+        "y": 16,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 31,
+        "y": 32,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 6
+      },
+      "objects": 761,
+      "towns": 6,
+      "monsters": 34,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Yog C.h3m",
+      "regionText": "You left the meeting with Boragus in a very happy mood.  Wanting to prove yourself, you hurry off to Tatalia to deliver the first two pieces of the Armor of the Angelic.  At first you thought this would be an easy task: you would walk into town and give the first two pieces of the Angelic Alliance to Alendora.  After a few days ride from the border, you discover that Tatalians aren't going to make it that easy for you.",
+      "prologText": "When I confronted Winston Boragus, he admitted to setting Krewlod's armies against me to test my worthiness to join them.  At first I was angry at this deception until the Duke pointed out that it was I who wanted to be a fighter.  The Barbarian within me saw his point.  But Boragus has a test designed to see whether I am truly ready to part with the Wizards of Bracada.  I must take the magical Angelic Alliance sword, break it apart and distribute the pieces throughout Tatalia, Erathia and Bracada.",
+      "preconditions": 2,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 0,
+          "amount": 10
+        },
+        {
+          "type": 3,
+          "heroId": 45,
+          "artifactId": 69
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3500
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-3.h3m",
+      "name": "A Tough Start",
+      "description": "Take the Sandals of the Saint and the Armor of Wonder to Alendora to win the scenario.  However, if Yog is defeated in combat or you lose either component of the Angelic Alliance, the scenario is lost.  Yog is limited to level 18 but will carry his experience and skills on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 33,
+          "mainTownY": 35,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 45,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 65,
+          "mainTownY": 13,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 119,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 116,
+              "name": ""
+            },
+            {
+              "id": 119,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 108
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 33,
+        "y": 36,
+        "z": 0
+      },
+      "factions": {
+        "Fortress": 5,
+        "Stronghold": 1
+      },
+      "objects": 1334,
+      "towns": 6,
+      "monsters": 52,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Yog D.h3m",
+      "regionText": "The time spent in Tatalia wasn't very long, and you were quickly on your way to Erathia in search of Falor and Terwen.  With any luck, the Erathians will be less hostile than the Tatalians were.",
+      "prologText": "I gave up the first piece of the Sword, although I had to resist all of my wizardly training to do so.  Now I am to find the hut of a seer named Falor and give him two more pieces: the Celestial Necklace of Bliss and the Lion's Shield of Courage.  This will be no simple errand, for the Erathians don't take kindly to large armies traipsing across their country.",
+      "preconditions": 4,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 45,
+          "artifactId": 49
+        },
+        {
+          "type": 1,
+          "heroId": 45,
+          "creatureId": 90,
+          "amount": 3
+        },
+        {
+          "type": 1,
+          "heroId": 45,
+          "creatureId": 89,
+          "amount": 8
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-4.h3m",
+      "name": "Falor and Terwen",
+      "description": "Yog must deliver the Celestial Necklace of Bliss and Lion's Shield of Courage to Falor and Terwen to win the scenario.  However, if Yog is defeated in combat or loses either artifact, the scenario is lost.  Yog is limited to level 21 but will carry his experience and skills on to the next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 3,
+          "mainTownY": 4,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 45,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 23,
+          "mainTownY": 23,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 7,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 7,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 108
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 3,
+        "y": 5,
+        "z": 0
+      },
+      "factions": {
+        "Castle": 3,
+        "Stronghold": 1
+      },
+      "objects": 396,
+      "towns": 4,
+      "monsters": 20,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-4-1.png"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "mapName": "Yog E.h3m",
+      "regionText": "The last leg of your journey has taken you back to Bracada.  You realize that Aine will probably be waiting for you.  Despite this, you decide you don't really have a choice, so you break camp and set out to search for Beleg and Orruk.",
+      "prologText": "The last of Winston Boragus' tests will take me back to Bracada, my forsaken homeland.  I am to find a couple named Beleg and Orruk and give them the two most powerful pieces of the Angelic Alliance: the Sword of Judgment and the Helm of Heavenly Enlightenment.  That will be the easy part, now that I am certain I am ready to give up the ways of magic.  The hard part will be fighting my way past Bracada's armies, for they will not be as willing to give me up.",
+      "epilogText": "I have passed all the Duke's tests, proving I have given up magic forever, and he has accepted me into his Barbarian horde!  My mother would no doubt be disappointed in me, but now my new Krewlod family welcomes me with raised tankards and promises of many adventures to come!",
+      "preconditions": 8,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 45,
+          "artifactId": 109
+        },
+        {
+          "type": 1,
+          "heroId": 45,
+          "creatureId": 94,
+          "amount": 2
+        },
+        {
+          "type": 1,
+          "heroId": 45,
+          "creatureId": 92,
+          "amount": 4
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-5.h3m",
+      "name": "Returning to Bracada",
+      "description": "Yog must deliver the Heavenly Helm of Enlightenment and Sword of Judgment to Beleg and Orruk to win the campaign.  However, if Yog is defeated in combat or loses any artifact, the scenario is lost.  Yog is limited to level 25 but will carry his experience, skills and spells on to his next campaign.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 4,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 2,
+          "mainTownY": 34,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 47,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 40,
+              "name": ""
+            },
+            {
+              "id": 47,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 32,
+          "mainTownY": 4,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 45,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 108
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 32,
+        "y": 5,
+        "z": 0
+      },
+      "factions": {
+        "Tower": 3,
+        "Stronghold": 1
+      },
+      "objects": 456,
+      "towns": 4,
+      "monsters": 20,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-5-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Yog.h3c/scenario-5-1.png"
+        }
+      ]
+    }
+  ]
+}

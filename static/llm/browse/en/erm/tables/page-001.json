@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.tables.artifact-slots",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/artifact-slots",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/artifact-slots/",
+      "title": "Artifact slots",
+      "summary": "Hero doll positions, UN:A categories and HE:Y2 slots use different numbering.",
+      "keywords": [
+        "Artifact slots",
+        "artifact-slots"
+      ],
+      "questions": [
+        "Hero doll positions, UN:A categories and HE:Y2 slots use different numbering."
+      ],
+      "sourceRefs": [
+        "old-help:form-ap.htm",
+        "old-help:form-ap1.htm",
+        "old-help:form-ap2.htm",
+        "old-help:form-ap3.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-ap.htm",
+          "old-help:form-ap1.htm",
+          "old-help:form-ap2.htm",
+          "old-help:form-ap3.htm"
+        ],
+        "values": [
+          "old-help:form-ap.htm",
+          "old-help:form-ap1.htm",
+          "old-help:form-ap2.htm",
+          "old-help:form-ap3.htm"
+        ],
+        "limits": [
+          "old-help:form-ap.htm",
+          "old-help:form-ap1.htm",
+          "old-help:form-ap2.htm",
+          "old-help:form-ap3.htm"
+        ],
+        "related": [
+          "old-help:form-ap.htm",
+          "old-help:form-ap1.htm",
+          "old-help:form-ap2.htm",
+          "old-help:form-ap3.htm"
+        ],
+        "reference-links": [
+          "old-help:form-ap.htm",
+          "old-help:form-ap1.htm",
+          "old-help:form-ap2.htm",
+          "old-help:form-ap3.htm"
+        ],
+        "ref-form-ap": [
+          "old-help:form-ap.htm"
+        ],
+        "ref-form-ap1": [
+          "old-help:form-ap1.htm"
+        ],
+        "ref-form-ap2": [
+          "old-help:form-ap2.htm"
+        ],
+        "ref-form-ap3": [
+          "old-help:form-ap3.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-001.md",
+          "fromAnchor": "ref-form-ap",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Artifact Positions",
+            "Artifact Positions",
+            "Artifact Positions",
+            "Artifact Positions",
+            "Purpose",
+            "Values",
+            "Applicability",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.artifacts",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/artifacts",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/artifacts/",
+      "title": "Artifact table",
+      "summary": "IDs from the standard WoG set. Adventure-map object: type 5.",
+      "keywords": [
+        "Artifact table",
+        "artifacts",
+        "5"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. Adventure-map object: type 5."
+      ],
+      "sourceRefs": [
+        "old-help:form-a1.htm",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-a1-hex.htm",
+        "old-help:form-a3.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-a1.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-a1.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-a1.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "special": [
+          "old-help:form-a1.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-a1.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-a1.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-a1": [
+          "old-help:form-a1.htm"
+        ],
+        "ref-form-a1-hex": [
+          "old-help:form-a1-hex.htm"
+        ],
+        "ref-form-a3": [
+          "old-help:form-a3.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-002.md",
+          "fromAnchor": "ref-form-a1",
+          "toAnchor": "ref-form-a1-black",
+          "headings": [
+            "Table of artifacts"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-003.md",
+          "fromAnchor": "ref-form-a1-c",
+          "toAnchor": "ref-form-a1-hex-n2",
+          "headings": [
+            "Table of artifacts"
+          ]
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-004.md",
+          "fromAnchor": "ref-form-a3",
+          "toAnchor": "ref-form-a3-n2",
+          "headings": [
+            "Table of artifacts"
+          ]
+        },
+        {
+          "part": 4,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-005.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Special values",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.battle-backgrounds",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/battle-backgrounds",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/battle-backgrounds/",
+      "title": "Battle backgrounds",
+      "summary": "BA:B selects the battle background. -1 keeps the default selection; 1–25 are the legacy variants.",
+      "keywords": [
+        "Battle backgrounds"
+      ],
+      "questions": [
+        "BA:B selects the battle background. -1 keeps the default selection; 1–25 are the legacy variants."
+      ],
+      "sourceRefs": [
+        "old-help:form-ba-b.htm",
+        "old-help:rec-ba.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-ba-b.htm",
+          "old-help:rec-ba.htm"
+        ],
+        "values": [
+          "old-help:form-ba-b.htm",
+          "old-help:rec-ba.htm"
+        ],
+        "related": [
+          "old-help:form-ba-b.htm",
+          "old-help:rec-ba.htm"
+        ],
+        "reference-links": [
+          "old-help:form-ba-b.htm",
+          "old-help:rec-ba.htm"
+        ],
+        "ref-form-ba-b": [
+          "old-help:form-ba-b.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-006.md",
+          "fromAnchor": "ref-form-ba-b",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Background in battle",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.battlefield",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/battlefield",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/battlefield/",
+      "title": "Battlefield hexes",
+      "summary": "11 rows of 17 positions: indices 0–186. Edge positions are reserved; check whether the chosen hex is usable.",
+      "keywords": [
+        "Battlefield hexes"
+      ],
+      "questions": [
+        "11 rows of 17 positions: indices 0–186. Edge positions are reserved; check whether the chosen hex is usable."
+      ],
+      "sourceRefs": [
+        "old-help:form-bf.htm",
+        "old-help:form-bf-s1.htm",
+        "old-help:rec-bf.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-bf.htm",
+          "old-help:form-bf-s1.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "values": [
+          "old-help:form-bf.htm",
+          "old-help:form-bf-s1.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "related": [
+          "old-help:form-bf.htm",
+          "old-help:form-bf-s1.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "reference-links": [
+          "old-help:form-bf.htm",
+          "old-help:form-bf-s1.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "ref-form-bf": [
+          "old-help:form-bf.htm"
+        ],
+        "ref-form-bf-s1": [
+          "old-help:form-bf-s1.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-006.md",
+          "fromAnchor": "ref-form-bf",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Form/BF.htm",
+            "Form/bf_s1.htm",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.obstacles",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/obstacles",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/obstacles/",
+      "title": "Battlefield obstacles",
+      "summary": "IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex may remain free. See obstacle flags and the battlefield grid.",
+      "keywords": [
+        "Battlefield obstacles"
+      ],
+      "questions": [
+        "IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex may remain free. See obstacle flags and the battlefield grid."
+      ],
+      "sourceRefs": [
+        "old-help:form-obstacles.htm",
+        "old-help:rec-bf.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-obstacles.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "values": [
+          "old-help:form-obstacles.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "related": [
+          "old-help:form-obstacles.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "reference-links": [
+          "old-help:form-obstacles.htm",
+          "old-help:rec-bf.htm"
+        ],
+        "ref-form-obstacles": [
+          "old-help:form-obstacles.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-039.md",
+          "fromAnchor": "ref-form-obstacles",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Barriers",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.bits",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/bits",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/bits/",
+      "title": "Bits, masks and hexadecimal",
+      "summary": "Bit indices start at 0; each mask is 2 raised to its index. The high bit of a signed 32-bit ERM integer corresponds to -2147483648. Hex FF = 255; hex 100 = 256.",
+      "keywords": [
+        "Bits, masks and hexadecimal"
+      ],
+      "questions": [
+        "Bit indices start at 0; each mask is 2 raised to its index. The high bit of a signed 32-bit ERM integer corresponds to -2147483648. Hex FF = 255; hex 100 = 256."
+      ],
+      "sourceRefs": [
+        "old-help:form-hex.htm",
+        "old-help:form-16to10.htm",
+        "old-help:rec-vr.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-hex.htm",
+          "old-help:form-16to10.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "values": [
+          "old-help:form-hex.htm",
+          "old-help:form-16to10.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "related": [
+          "old-help:form-hex.htm",
+          "old-help:form-16to10.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "reference-links": [
+          "old-help:form-hex.htm",
+          "old-help:form-16to10.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "ref-form-16to10": [
+          "old-help:form-16to10.htm"
+        ],
+        "ref-form-hex": [
+          "old-help:form-hex.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-007.md",
+          "fromAnchor": "ref-form-16to10",
+          "toAnchor": "reference-links",
+          "headings": [
+            "converter HEX values in the decimal system",
+            "Bit table",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.combat-animations",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/combat-animations",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/combat-animations/",
+      "title": "BM:V animations",
+      "summary": "A BM:V visual-effect ID is distinct from a spell ID.",
+      "keywords": [
+        "BM:V animations",
+        "combat-animations"
+      ],
+      "questions": [
+        "A BM:V visual-effect ID is distinct from a spell ID."
+      ],
+      "sourceRefs": [
+        "old-help:form-formatanimation.htm",
+        "old-help:form-defspell.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-formatanimation.htm",
+          "old-help:form-defspell.htm"
+        ],
+        "values": [
+          "old-help:form-formatanimation.htm",
+          "old-help:form-defspell.htm"
+        ],
+        "limits": [
+          "old-help:form-formatanimation.htm",
+          "old-help:form-defspell.htm"
+        ],
+        "related": [
+          "old-help:form-formatanimation.htm",
+          "old-help:form-defspell.htm"
+        ],
+        "reference-links": [
+          "old-help:form-formatanimation.htm",
+          "old-help:form-defspell.htm"
+        ],
+        "ref-form-defspell": [
+          "old-help:form-defspell.htm"
+        ],
+        "ref-form-formatanimation": [
+          "old-help:form-formatanimation.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-013.md",
+          "fromAnchor": "ref-form-defspell",
+          "toAnchor": "ref-form-formatanimation-46",
+          "headings": [
+            "Table 2 Def'ov spells",
+            "Battle Animation Table"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-014.md",
+          "fromAnchor": "ref-form-formatanimation-47",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Applicability",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.battle-terrain",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/battle-terrain",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/battle-terrain/",
+      "title": "BU:G special battle terrain",
+      "summary": "BU:G uses a separate index for the combat effect. The corresponding map object type is listed alongside it.",
+      "keywords": [
+        "BU:G special battle terrain"
+      ],
+      "questions": [
+        "BU:G uses a separate index for the combat effect. The corresponding map object type is listed alongside it."
+      ],
+      "sourceRefs": [
+        "old-help:form-bug.htm",
+        "old-help:rec-bu.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-bug.htm",
+          "old-help:rec-bu.htm"
+        ],
+        "values": [
+          "old-help:form-bug.htm",
+          "old-help:rec-bu.htm"
+        ],
+        "related": [
+          "old-help:form-bug.htm",
+          "old-help:rec-bu.htm"
+        ],
+        "reference-links": [
+          "old-help:form-bug.htm",
+          "old-help:rec-bu.htm"
+        ],
+        "ref-form-bug": [
+          "old-help:form-bug.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-006.md",
+          "fromAnchor": "ref-form-bug",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table of overhead soils",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.building-pictures",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/building-pictures",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/building-pictures/",
+      "title": "Building pictures by town",
+      "summary": "Town building picture indices for IF:Q dialogs.",
+      "keywords": [
+        "Building pictures by town"
+      ],
+      "questions": [
+        "Town building picture indices for IF:Q dialogs."
+      ],
+      "sourceRefs": [
+        "old-help:form-buldingsintowns.htm",
+        "old-help:form-picts.htm",
+        "old-help:rec-if.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "common": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-0": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-1": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-2": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-3": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-4": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-5": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-6": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-7": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "town-8": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "reference-links": [
+          "old-help:form-buldingsintowns.htm",
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "ref-form-buldingsintowns": [
+          "old-help:form-buldingsintowns.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-010.md",
+          "fromAnchor": "ref-form-buldingsintowns",
+          "toAnchor": "ref-form-buldingsintowns-8",
+          "headings": [
+            "Urban buildings"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-011.md",
+          "fromAnchor": "ref-form-buldingsintowns-9",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Usage",
+            "Common pictures",
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Inferno",
+            "Necropolis",
+            "Dungeon",
+            "Stronghold",
+            "Fortress",
+            "Conflux",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.dialog-items",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/dialog-items",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-items/",
+      "title": "CM:I click areas",
+      "summary": "Adventure, town, hero, hero exchange and combat click areas.",
+      "keywords": [
+        "CM:I click areas"
+      ],
+      "questions": [
+        "Adventure, town, hero, hero exchange and combat click areas."
+      ],
+      "sourceRefs": [
+        "old-help:form-cmi.htm",
+        "old-help:rec-cm.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "adventure": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "town": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "hero": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "exchange": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "combat": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "reference-links": [
+          "old-help:form-cmi.htm",
+          "old-help:rec-cm.htm"
+        ],
+        "ref-form-cmi": [
+          "old-help:form-cmi.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-025.md",
+          "fromAnchor": "ref-form-cmi",
+          "toAnchor": "ref-form-cmi-3",
+          "headings": [
+            "Mouse click areas"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-026.md",
+          "fromAnchor": "ref-form-cmi-4",
+          "toAnchor": "adventure",
+          "headings": [
+            "ID context",
+            "Adventure map"
+          ]
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
+          "fromAnchor": "town",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Town screen",
+            "Hero screen",
+            "Hero exchange",
+            "Combat screen",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.combat-stack-structure",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/combat-stack-structure",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/combat-stack-structure/",
+      "title": "Combat stack fields",
+      "summary": "Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.",
+      "keywords": [
+        "Combat stack fields"
+      ],
+      "questions": [
+        "Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build."
+      ],
+      "sourceRefs": [
+        "old-help:form-combatmon.htm",
+        "old-help:rec-bm.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-combatmon.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "values": [
+          "old-help:form-combatmon.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "related": [
+          "old-help:form-combatmon.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "reference-links": [
+          "old-help:form-combatmon.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "ref-form-combatmon": [
+          "old-help:form-combatmon.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-014.md",
+          "fromAnchor": "ref-form-combatmon",
+          "toAnchor": "ref-form-combatmon-q1",
+          "headings": [
+            "Structure of the combat stack"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-015.md",
+          "fromAnchor": "ref-form-combatmon-n2",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "SPELL_REMOVE_OBSTACLE",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-remove-obstacle",
+      "aliases": [],
+      "label": "SPELL_REMOVE_OBSTACLE = 64",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-remove-obstacle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_RESURRECTION",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-resurrection",
+      "aliases": [],
+      "label": "SPELL_RESURRECTION = 38",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-resurrection"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SACRIFICE",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-sacrifice",
+      "aliases": [],
+      "label": "SPELL_SACRIFICE = 40",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-sacrifice"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SCHOOL_AIR",
+      "kind": "constant",
+      "slug": "framework/constants/spell-schools",
+      "anchor": "const-spell-school-air",
+      "aliases": [],
+      "label": "SPELL_SCHOOL_AIR = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-schools/#const-spell-school-air"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SCHOOL_EARTH",
+      "kind": "constant",
+      "slug": "framework/constants/spell-schools",
+      "anchor": "const-spell-school-earth",
+      "aliases": [],
+      "label": "SPELL_SCHOOL_EARTH = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-schools/#const-spell-school-earth"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SCHOOL_FIRE",
+      "kind": "constant",
+      "slug": "framework/constants/spell-schools",
+      "anchor": "const-spell-school-fire",
+      "aliases": [],
+      "label": "SPELL_SCHOOL_FIRE = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-schools/#const-spell-school-fire"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SCHOOL_WATER",
+      "kind": "constant",
+      "slug": "framework/constants/spell-schools",
+      "anchor": "const-spell-school-water",
+      "aliases": [],
+      "label": "SPELL_SCHOOL_WATER = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-schools/#const-spell-school-water"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SCUTTLE_BOAT",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-scuttle-boat",
+      "aliases": [],
+      "label": "SPELL_SCUTTLE_BOAT = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-scuttle-boat"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SHIELD",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-shield",
+      "aliases": [],
+      "label": "SPELL_SHIELD = 27",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-shield"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SLAYER",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-slayer",
+      "aliases": [],
+      "label": "SPELL_SLAYER = 55",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-slayer"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SLOW",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-slow",
+      "aliases": [],
+      "label": "SPELL_SLOW = 54",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-slow"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SORROW",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-sorrow",
+      "aliases": [],
+      "label": "SPELL_SORROW = 50",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-sorrow"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_STONE_SKIN",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-stone-skin",
+      "aliases": [],
+      "label": "SPELL_STONE_SKIN = 46",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-stone-skin"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_SUMMON_BOAT",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-summon-boat",
+      "aliases": [],
+      "label": "SPELL_SUMMON_BOAT = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-summon-boat"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TELEPORT",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-teleport",
+      "aliases": [],
+      "label": "SPELL_TELEPORT = 63",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-teleport"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_DESCR",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-descr",
+      "aliases": [],
+      "label": "SPELL_TEXT_DESCR = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-descr"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_DESCR_ADVANCED",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-descr-advanced",
+      "aliases": [],
+      "label": "SPELL_TEXT_DESCR_ADVANCED = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-descr-advanced"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_DESCR_BASIC",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-descr-basic",
+      "aliases": [],
+      "label": "SPELL_TEXT_DESCR_BASIC = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-descr-basic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_DESCR_EXPERT",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-descr-expert",
+      "aliases": [],
+      "label": "SPELL_TEXT_DESCR_EXPERT = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-descr-expert"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_NAME",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-name",
+      "aliases": [],
+      "label": "SPELL_TEXT_NAME = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-name"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_SHORT_NAME",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-short-name",
+      "aliases": [],
+      "label": "SPELL_TEXT_SHORT_NAME = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-short-name"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TEXT_SOUND",
+      "kind": "constant",
+      "slug": "framework/constants/spell-texts-for-sn-h",
+      "anchor": "const-spell-text-sound",
+      "aliases": [],
+      "label": "SPELL_TEXT_SOUND = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/#const-spell-text-sound"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TITANS_LIGHTNING_BOLT",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-titans-lightning-bolt",
+      "aliases": [],
+      "label": "SPELL_TITANS_LIGHTNING_BOLT = 57",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-titans-lightning-bolt"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_TOWN_PORTAL",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-town-portal",
+      "aliases": [],
+      "label": "SPELL_TOWN_PORTAL = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-town-portal"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_VIEW_AIR",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-view-air",
+      "aliases": [],
+      "label": "SPELL_VIEW_AIR = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-view-air"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_VIEW_EARTH",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-view-earth",
+      "aliases": [],
+      "label": "SPELL_VIEW_EARTH = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-view-earth"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_VISIONS",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-visions",
+      "aliases": [],
+      "label": "SPELL_VISIONS = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-visions"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_WATER_ELEMENTAL",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-water-elemental",
+      "aliases": [],
+      "label": "SPELL_WATER_ELEMENTAL = 68",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-water-elemental"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_WATER_WALK",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-water-walk",
+      "aliases": [],
+      "label": "SPELL_WATER_WALK = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-water-walk"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPELL_WEAKNESS",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-spell-weakness",
+      "aliases": [],
+      "label": "SPELL_WEAKNESS = 45",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-spell-weakness"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "STACK_EXP_ALGO_EQUAL_SHARES_DIVIDE_BY_ALL",
+      "kind": "constant",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-stack-exp-algo-equal-shares-divide-by-all",
+      "aliases": [],
+      "label": "STACK_EXP_ALGO_EQUAL_SHARES_DIVIDE_BY_ALL = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/wog-options/#const-stack-exp-algo-equal-shares-divide-by-all"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "STACK_EXP_ALGO_EQUAL_SHARES_TO_EACH",
+      "kind": "constant",
+      "slug": "framework/constants/wog-options",
+      "anchor": "const-stack-exp-algo-equal-shares-to-each",
+      "aliases": [],
+      "label": "STACK_EXP_ALGO_EQUAL_SHARES_TO_EACH = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/wog-options/#const-stack-exp-algo-equal-shares-to-each"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

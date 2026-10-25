@@ -1,0 +1,838 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.tables.combination-artifacts",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/combination-artifacts",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/combination-artifacts/",
+      "title": "Combination artifacts",
+      "summary": "Combination index and assembled artifact ID are different values.",
+      "keywords": [
+        "combination",
+        "UN:A2"
+      ],
+      "questions": [
+        "Combination index and assembled artifact ID are different values."
+      ],
+      "sourceRefs": [
+        "old-help:form-a2.htm",
+        "old-help:rec-un.htm"
+      ],
+      "sectionSources": {
+        "values": [
+          "old-help:form-a2.htm",
+          "old-help:rec-un.htm"
+        ],
+        "use": [
+          "old-help:form-a2.htm",
+          "old-help:rec-un.htm"
+        ],
+        "reference-links": [
+          "old-help:form-a2.htm",
+          "old-help:rec-un.htm"
+        ],
+        "ref-form-a2": [
+          "old-help:form-a2.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-016.md",
+          "fromAnchor": "ref-form-a2",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Combo artifacts",
+            "Combination indices",
+            "Checking components",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.commanders",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/commanders",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/commanders/",
+      "title": "Commander classes",
+      "summary": "Commander class corresponds to a pair of hero classes. This index differs from a commander creature ID.",
+      "keywords": [
+        "Commander classes"
+      ],
+      "questions": [
+        "Commander class corresponds to a pair of hero classes. This index differs from a commander creature ID."
+      ],
+      "sourceRefs": [
+        "old-help:form-commanders.htm",
+        "old-help:rec-co.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-commanders.htm",
+          "old-help:rec-co.htm"
+        ],
+        "values": [
+          "old-help:form-commanders.htm",
+          "old-help:rec-co.htm"
+        ],
+        "related": [
+          "old-help:form-commanders.htm",
+          "old-help:rec-co.htm"
+        ],
+        "reference-links": [
+          "old-help:form-commanders.htm",
+          "old-help:rec-co.htm"
+        ],
+        "ref-form-commanders": [
+          "old-help:form-commanders.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-017.md",
+          "fromAnchor": "ref-form-commanders",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Classes of Commanders",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.commander-bonuses",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/commander-bonuses",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/commander-bonuses/",
+      "title": "Commander special bonuses",
+      "summary": "CO uses bonus indices and bit masks; mask = 2 to the power of the index.",
+      "keywords": [
+        "Commander special bonuses",
+        "commander-bonuses"
+      ],
+      "questions": [
+        "CO uses bonus indices and bit masks; mask = 2 to the power of the index."
+      ],
+      "sourceRefs": [
+        "old-help:form-cobo.htm",
+        "old-help:form-commanders.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-cobo.htm",
+          "old-help:form-commanders.htm"
+        ],
+        "values": [
+          "old-help:form-cobo.htm",
+          "old-help:form-commanders.htm"
+        ],
+        "related": [
+          "old-help:form-cobo.htm",
+          "old-help:form-commanders.htm"
+        ],
+        "reference-links": [
+          "old-help:form-cobo.htm",
+          "old-help:form-commanders.htm"
+        ],
+        "ref-form-cobo": [
+          "old-help:form-cobo.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-016.md",
+          "fromAnchor": "ref-form-cobo",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Commander Rewards",
+            "Purpose",
+            "Values",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.creature-banks",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/creature-banks",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-banks/",
+      "title": "Creature banks",
+      "summary": "Subtypes of WoG object 16. Mods that expand creature banks may change this set.",
+      "keywords": [
+        "Creature banks"
+      ],
+      "questions": [
+        "Subtypes of WoG object 16. Mods that expand creature banks may change this set."
+      ],
+      "sourceRefs": [
+        "old-help:form-cb.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-cb.htm"
+        ],
+        "values": [
+          "old-help:form-cb.htm"
+        ],
+        "related": [
+          "old-help:form-cb.htm"
+        ],
+        "reference-links": [
+          "old-help:form-cb.htm"
+        ],
+        "ref-form-cb": [
+          "old-help:form-cb.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-017.md",
+          "fromAnchor": "ref-form-cb",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Storages of creatures",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.creature-flags",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/creature-flags",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-flags/",
+      "title": "Creature bit flags",
+      "summary": "MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack.",
+      "keywords": [
+        "Creature bit flags"
+      ],
+      "questions": [
+        "MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack."
+      ],
+      "sourceRefs": [
+        "old-help:form-flaggedabilities.htm",
+        "old-help:rec-ma.htm",
+        "old-help:rec-bm.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-flaggedabilities.htm",
+          "old-help:rec-ma.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "values": [
+          "old-help:form-flaggedabilities.htm",
+          "old-help:rec-ma.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "related": [
+          "old-help:form-flaggedabilities.htm",
+          "old-help:rec-ma.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "reference-links": [
+          "old-help:form-flaggedabilities.htm",
+          "old-help:rec-ma.htm",
+          "old-help:rec-bm.htm"
+        ],
+        "ref-form-flaggedabilities": [
+          "old-help:form-flaggedabilities.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-018.md",
+          "fromAnchor": "ref-form-flaggedabilities",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Flag abilities of creatures",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.creature-resources",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/creature-resources",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-resources/",
+      "title": "Creature DEF and sound resources",
+      "summary": "Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource names and casing are technical data.",
+      "keywords": [
+        "Creature DEF and sound resources"
+      ],
+      "questions": [
+        "Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource names and casing are technical data."
+      ],
+      "sourceRefs": [
+        "old-help:form-cr-def-snd.htm",
+        "old-help:rec-ma.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-cr-def-snd.htm",
+          "old-help:rec-ma.htm"
+        ],
+        "values": [
+          "old-help:form-cr-def-snd.htm",
+          "old-help:rec-ma.htm"
+        ],
+        "related": [
+          "old-help:form-cr-def-snd.htm",
+          "old-help:rec-ma.htm"
+        ],
+        "reference-links": [
+          "old-help:form-cr-def-snd.htm",
+          "old-help:rec-ma.htm"
+        ],
+        "ref-form-cr-def-snd": [
+          "old-help:form-cr-def-snd.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-019.md",
+          "fromAnchor": "ref-form-cr-def-snd",
+          "toAnchor": "id-20",
+          "headings": [
+            "Creature Resources",
+            "Purpose",
+            "Values"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-020.md",
+          "fromAnchor": "id-21",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.creature-dwellings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/creature-dwellings",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creature-dwellings/",
+      "title": "Creature dwellings on the map",
+      "summary": "The main table lists subtypes of object 17. For object 20, subtype 0 is the four-elemental dwelling and subtype 1 the four-golem factory.",
+      "keywords": [
+        "Creature dwellings on the map"
+      ],
+      "questions": [
+        "The main table lists subtypes of object 17. For object 20, subtype 0 is the four-elemental dwelling and subtype 1 the four-golem factory."
+      ],
+      "sourceRefs": [
+        "old-help:form-creaturedwellings.htm",
+        "old-help:rec-dw.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-creaturedwellings.htm",
+          "old-help:rec-dw.htm"
+        ],
+        "values": [
+          "old-help:form-creaturedwellings.htm",
+          "old-help:rec-dw.htm"
+        ],
+        "related": [
+          "old-help:form-creaturedwellings.htm",
+          "old-help:rec-dw.htm"
+        ],
+        "reference-links": [
+          "old-help:form-creaturedwellings.htm",
+          "old-help:rec-dw.htm"
+        ],
+        "ref-form-creaturedwellings": [
+          "old-help:form-creaturedwellings.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-017.md",
+          "fromAnchor": "ref-form-creaturedwellings",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Dwellings of creatures",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.creatures",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/creatures",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/creatures/",
+      "title": "Creature table",
+      "summary": "IDs from the standard WoG set. Adventure-map object: type 54.",
+      "keywords": [
+        "Creature table",
+        "creatures",
+        "54"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. Adventure-map object: type 54."
+      ],
+      "sourceRefs": [
+        "old-help:form-creature.htm",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-creature-hex.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-creature.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-creature.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-creature.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-creature.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-creature.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-creature": [
+          "old-help:form-creature.htm"
+        ],
+        "ref-form-creature-hex": [
+          "old-help:form-creature-hex.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-021.md",
+          "fromAnchor": "ref-form-creature",
+          "toAnchor": "meaning",
+          "headings": [
+            "Creatures",
+            "Creatures",
+            "Purpose"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-022.md",
+          "fromAnchor": "values",
+          "toAnchor": "reference-links",
+          "headings": [
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.dialog-templates",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/dialog-templates",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-templates/",
+      "title": "DL dialog templates",
+      "summary": "Text-table structure, element fields and template limitations.",
+      "keywords": [
+        "DL:N",
+        "DL templates"
+      ],
+      "questions": [
+        "Text-table structure, element fields and template limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-dl.htm"
+      ],
+      "sectionSources": {
+        "format": [
+          "old-help:rec-dl.htm"
+        ],
+        "header": [
+          "old-help:rec-dl.htm"
+        ],
+        "items": [
+          "old-help:rec-dl.htm"
+        ],
+        "constraints": [
+          "old-help:rec-dl.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-dl.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
+          "fromAnchor": "format",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table format",
+            "Dialog header",
+            "Items",
+            "Item behavior",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.text-alignment",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/text-alignment",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/text-alignment/",
+      "title": "DL text alignment",
+      "summary": "DL template Text values select vertical and horizontal positioning inside the item rectangle.",
+      "keywords": [
+        "DL text alignment"
+      ],
+      "questions": [
+        "DL template Text values select vertical and horizontal positioning inside the item rectangle."
+      ],
+      "sourceRefs": [
+        "old-help:form-align.htm",
+        "old-help:rec-dl.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-align.htm",
+          "old-help:rec-dl.htm"
+        ],
+        "values": [
+          "old-help:form-align.htm",
+          "old-help:rec-dl.htm"
+        ],
+        "related": [
+          "old-help:form-align.htm",
+          "old-help:rec-dl.htm"
+        ],
+        "reference-links": [
+          "old-help:form-align.htm",
+          "old-help:rec-dl.htm"
+        ],
+        "ref-form-align": [
+          "old-help:form-align.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "fromAnchor": "ref-form-align",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Text Align DL",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.stack-experience-flags",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/stack-experience-flags",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-flags/",
+      "title": "EA:B flag abilities",
+      "summary": "EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:F masks.",
+      "keywords": [
+        "EA:B flag abilities"
+      ],
+      "questions": [
+        "EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:F masks."
+      ],
+      "sourceRefs": [
+        "old-help:form-specexp2.htm",
+        "old-help:rec-ea.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specexp2.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "values": [
+          "old-help:form-specexp2.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:form-specexp2.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specexp2.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "ref-form-specexp2": [
+          "old-help:form-specexp2.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-047.md",
+          "fromAnchor": "ref-form-specexp2",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Flag Abilities",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.stack-experience-modifiers",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/stack-experience-modifiers",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-modifiers/",
+      "title": "EA:B modifiers",
+      "summary": "Modifier $4 determines whether an ability value is added, assigned or interpreted as a percentage.",
+      "keywords": [
+        "EA:B modifiers"
+      ],
+      "questions": [
+        "Modifier $4 determines whether an ability value is added, assigned or interpreted as a percentage."
+      ],
+      "sourceRefs": [
+        "old-help:form-specexp5.htm",
+        "old-help:rec-ea.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specexp5.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "values": [
+          "old-help:form-specexp5.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:form-specexp5.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specexp5.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "ref-form-specexp5": [
+          "old-help:form-specexp5.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "fromAnchor": "ref-form-specexp5",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Creature experience",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.stack-experience-spells",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/stack-experience-spells",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-spells/",
+      "title": "EA:B non-damaging spells",
+      "summary": "Values of $4 when $3=99 (c). These are spell IDs.",
+      "keywords": [
+        "EA:B non-damaging spells"
+      ],
+      "questions": [
+        "Values of $4 when $3=99 (c). These are spell IDs."
+      ],
+      "sourceRefs": [
+        "old-help:form-specexp3.htm",
+        "old-help:rec-ea.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specexp3.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "values": [
+          "old-help:form-specexp3.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:form-specexp3.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specexp3.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "ref-form-specexp3": [
+          "old-help:form-specexp3.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "fromAnchor": "ref-form-specexp3",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Creature experience",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.stack-experience-immunities",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/stack-experience-immunities",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-immunities/",
+      "title": "EA:B spell immunities",
+      "summary": "EA:B values of $4 when $3=119 (character w). Character codes differ from spell IDs.",
+      "keywords": [
+        "EA:B spell immunities"
+      ],
+      "questions": [
+        "EA:B values of $4 when $3=119 (character w). Character codes differ from spell IDs."
+      ],
+      "sourceRefs": [
+        "old-help:form-specexp4.htm",
+        "old-help:rec-ea.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specexp4.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "values": [
+          "old-help:form-specexp4.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:form-specexp4.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specexp4.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "ref-form-specexp4": [
+          "old-help:form-specexp4.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-047.md",
+          "fromAnchor": "ref-form-specexp4",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Creature experience",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

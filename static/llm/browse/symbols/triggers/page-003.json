@@ -1,0 +1,927 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "OnBeforeBattlefieldVisible",
+      "kind": "event",
+      "slug": "triggers/onbeforebattlefieldvisible",
+      "anchor": "",
+      "aliases": [
+        "77019"
+      ],
+      "label": "OnBeforeBattlefieldVisible",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlefieldvisible/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleForThisPcDefender",
+      "kind": "event",
+      "slug": "triggers/ba",
+      "anchor": "",
+      "aliases": [
+        "30350",
+        "BA50",
+        "!?BA50"
+      ],
+      "label": "OnBeforeBattleForThisPcDefender",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ba/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-ba",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger BA",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleReplay",
+      "kind": "event",
+      "slug": "triggers/onbeforebattlereplay",
+      "anchor": "",
+      "aliases": [
+        "77044"
+      ],
+      "label": "OnBeforeBattleReplay",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlereplay/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleStackTurn",
+      "kind": "event",
+      "slug": "triggers/onbeforebattlestackturn",
+      "anchor": "",
+      "aliases": [
+        "77041"
+      ],
+      "label": "OnBeforeBattleStackTurn",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlestackturn/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleUniversal",
+      "kind": "event",
+      "slug": "triggers/ba",
+      "anchor": "",
+      "aliases": [
+        "30352",
+        "BA52",
+        "!?BA52"
+      ],
+      "label": "OnBeforeBattleUniversal",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ba/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-ba",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger BA",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeHeroInteraction",
+      "kind": "event",
+      "slug": "triggers/onbeforeherointeraction",
+      "anchor": "",
+      "aliases": [
+        "77010"
+      ],
+      "label": "OnBeforeHeroInteraction",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeherointeraction/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeLocalEvent",
+      "kind": "event",
+      "slug": "triggers/onbeforelocalevent",
+      "anchor": "",
+      "aliases": [
+        "77045"
+      ],
+      "label": "OnBeforeLocalEvent",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforelocalevent/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforePlaceBattleObstacles",
+      "kind": "event",
+      "slug": "triggers/onbeforeplacebattleobstacles",
+      "anchor": "",
+      "aliases": [
+        "77054"
+      ],
+      "label": "OnBeforePlaceBattleObstacles",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeplacebattleobstacles/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeSaveGame",
+      "kind": "event",
+      "slug": "triggers/gm",
+      "anchor": "",
+      "aliases": [
+        "30361",
+        "GM1",
+        "!?GM1"
+      ],
+      "label": "OnBeforeSaveGame",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/gm/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+            "fromAnchor": "ref-tr-gm",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger GM",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBuildTownBuilding",
+      "kind": "event",
+      "slug": "triggers/onbuildtownbuilding",
+      "anchor": "",
+      "aliases": [
+        "77031"
+      ],
+      "label": "OnBuildTownBuilding",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbuildtownbuilding/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCalculateTownIncome",
+      "kind": "event",
+      "slug": "triggers/oncalculatetownincome",
+      "anchor": "",
+      "aliases": [
+        "77042"
+      ],
+      "label": "OnCalculateTownIncome",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/oncalculatetownincome/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnChat",
+      "kind": "event",
+      "slug": "triggers/onchat",
+      "anchor": "",
+      "aliases": [
+        "77014"
+      ],
+      "label": "OnChat",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onchat/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCloseCommanderWindow",
+      "kind": "event",
+      "slug": "triggers/co",
+      "anchor": "",
+      "aliases": [
+        "30341",
+        "CO1",
+        "!?CO1"
+      ],
+      "label": "OnCloseCommanderWindow",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/co/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-co",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger CO",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCloseHeroScreen",
+      "kind": "event",
+      "slug": "triggers/oncloseheroscreen",
+      "anchor": "",
+      "aliases": [
+        "77005"
+      ],
+      "label": "OnCloseHeroScreen",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/oncloseheroscreen/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCloseRecruitDlg",
+      "kind": "event",
+      "slug": "triggers/oncloserecruitdlg",
+      "anchor": "",
+      "aliases": [
+        "77024"
+      ],
+      "label": "OnCloseRecruitDlg",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/oncloserecruitdlg/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCloseTownScreen",
+      "kind": "event",
+      "slug": "triggers/onclosetownscreen",
+      "anchor": "",
+      "aliases": [
+        "77033"
+      ],
+      "label": "OnCloseTownScreen",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/onclosetownscreen/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCustomDialogEvent",
+      "kind": "event",
+      "slug": "triggers/dl",
+      "anchor": "",
+      "aliases": [
+        "30371",
+        "DL",
+        "!?DL"
+      ],
+      "label": "OnCustomDialogEvent",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/dl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-dl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger DL",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnDetermineMonInfoDlgUpgrade",
+      "kind": "event",
+      "slug": "triggers/ondeterminemoninfodlgupgrade",
+      "anchor": "",
+      "aliases": [
+        "77039"
+      ],
+      "label": "OnDetermineMonInfoDlgUpgrade",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ondeterminemoninfodlgupgrade/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnDwarfMagicResistance",
+      "kind": "event",
+      "slug": "triggers/mr",
+      "anchor": "",
+      "aliases": [
+        "30309",
+        "MR2",
+        "!?MR2"
+      ],
+      "label": "OnDwarfMagicResistance",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/mr/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-003.md",
+            "fromAnchor": "ref-tr-mr",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger MR",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEnterTownHall",
+      "kind": "event",
+      "slug": "triggers/th",
+      "anchor": "",
+      "aliases": [
+        "30324",
+        "TH0",
+        "!?TH0"
+      ],
+      "label": "OnEnterTownHall",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/th/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "fromAnchor": "ref-tr-th",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TH",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEquipArt",
+      "kind": "event",
+      "slug": "triggers/ae",
+      "anchor": "",
+      "aliases": [
+        "30316",
+        "AE1",
+        "!?AE1"
+      ],
+      "label": "OnEquipArt",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ae/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+            "fromAnchor": "ref-tr-ae",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Trigger AE",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEvery10Seconds",
+      "kind": "event",
+      "slug": "triggers/tl",
+      "anchor": "",
+      "aliases": [
+        "30903",
+        "TL3",
+        "!?TL3"
+      ],
+      "label": "OnEvery10Seconds",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "fromAnchor": "ref-tr-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TH",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEvery2Seconds",
+      "kind": "event",
+      "slug": "triggers/tl",
+      "anchor": "",
+      "aliases": [
+        "30901",
+        "TL1",
+        "!?TL1"
+      ],
+      "label": "OnEvery2Seconds",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "fromAnchor": "ref-tr-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TH",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEvery5Seconds",
+      "kind": "event",
+      "slug": "triggers/tl",
+      "anchor": "",
+      "aliases": [
+        "30902",
+        "TL2",
+        "!?TL2"
+      ],
+      "label": "OnEvery5Seconds",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "fromAnchor": "ref-tr-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TH",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEveryDay",
+      "kind": "event",
+      "slug": "triggers/oneveryday",
+      "anchor": "",
+      "aliases": [
+        "77018"
+      ],
+      "label": "OnEveryDay",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/oneveryday/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEveryMinute",
+      "kind": "event",
+      "slug": "triggers/tl",
+      "anchor": "",
+      "aliases": [
+        "30904",
+        "TL4",
+        "!?TL4"
+      ],
+      "label": "OnEveryMinute",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "fromAnchor": "ref-tr-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TH",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnEverySecond",
+      "kind": "event",
+      "slug": "triggers/tl",
+      "anchor": "",
+      "aliases": [
+        "30900",
+        "TL0",
+        "!?TL0"
+      ],
+      "label": "OnEverySecond",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+            "fromAnchor": "ref-tr-tl",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Receiver TH",
+              "When it fires",
+              "Declaration",
+              "ERA names and aliases",
+              "Limitations and ordering",
+              "Related reference",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnGameEnter",
+      "kind": "event",
+      "slug": "triggers/ongameenter",
+      "anchor": "",
+      "aliases": [
+        "77015"
+      ],
+      "label": "OnGameEnter",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ongameenter/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnGameLeave",
+      "kind": "event",
+      "slug": "triggers/ongameleave",
+      "anchor": "",
+      "aliases": [
+        "77016"
+      ],
+      "label": "OnGameLeave",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/triggers/ongameleave/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-006.md",
+            "fromAnchor": "event",
+            "toAnchor": "reference-links",
+            "headings": [
+              "Timing and arguments",
+              "Declaration",
+              "Identity and compatibility",
+              "Related references",
+              "Related commands and tables"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

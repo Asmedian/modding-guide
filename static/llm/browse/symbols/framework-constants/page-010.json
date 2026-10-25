@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/battle-type-flags",
+      "anchor": "const-battle-type-flag-right-has-hero",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO = 32",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-right-has-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER",
+      "kind": "constant",
+      "slug": "framework/constants/battle-type-flags",
+      "anchor": "const-battle-type-flag-right-has-owner",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-right-has-owner"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN",
+      "kind": "constant",
+      "slug": "framework/constants/battle-type-flags",
+      "anchor": "const-battle-type-flag-right-is-human",
+      "aliases": [],
+      "label": "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/#const-battle-type-flag-right-is-human"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_0",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-0",
+      "aliases": [],
+      "label": "BIT_0 = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_1",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-1",
+      "aliases": [],
+      "label": "BIT_1 = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_10",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-10",
+      "aliases": [],
+      "label": "BIT_10 = 1024",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-10"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_11",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-11",
+      "aliases": [],
+      "label": "BIT_11 = 2048",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-11"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_12",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-12",
+      "aliases": [],
+      "label": "BIT_12 = 4096",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-12"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_13",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-13",
+      "aliases": [],
+      "label": "BIT_13 = 8192",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-13"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_14",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-14",
+      "aliases": [],
+      "label": "BIT_14 = 16384",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-14"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_15",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-15",
+      "aliases": [],
+      "label": "BIT_15 = 32768",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-15"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_16",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-16",
+      "aliases": [],
+      "label": "BIT_16 = 65536",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-16"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_17",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-17",
+      "aliases": [],
+      "label": "BIT_17 = 131072",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-17"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_18",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-18",
+      "aliases": [],
+      "label": "BIT_18 = 262144",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-18"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_19",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-19",
+      "aliases": [],
+      "label": "BIT_19 = 524288",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-19"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_2",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-2",
+      "aliases": [],
+      "label": "BIT_2 = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_20",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-20",
+      "aliases": [],
+      "label": "BIT_20 = 1048576",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-20"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_21",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-21",
+      "aliases": [],
+      "label": "BIT_21 = 2097152",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-21"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_22",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-22",
+      "aliases": [],
+      "label": "BIT_22 = 4194304",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-22"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_23",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-23",
+      "aliases": [],
+      "label": "BIT_23 = 8388608",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-23"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_24",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-24",
+      "aliases": [],
+      "label": "BIT_24 = 16777216",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-24"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_25",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-25",
+      "aliases": [],
+      "label": "BIT_25 = 33554432",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-25"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_26",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-26",
+      "aliases": [],
+      "label": "BIT_26 = 67108864",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-26"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_27",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-27",
+      "aliases": [],
+      "label": "BIT_27 = 134217728",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-27"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_28",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-28",
+      "aliases": [],
+      "label": "BIT_28 = 268435456",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-28"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_29",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-29",
+      "aliases": [],
+      "label": "BIT_29 = 536870912",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-29"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_3",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-3",
+      "aliases": [],
+      "label": "BIT_3 = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-3"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_30",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-30",
+      "aliases": [],
+      "label": "BIT_30 = 1073741824",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-30"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_31",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-31",
+      "aliases": [],
+      "label": "BIT_31 = -2147483648",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-31"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_4",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-4",
+      "aliases": [],
+      "label": "BIT_4 = 16",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-4"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_5",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-5",
+      "aliases": [],
+      "label": "BIT_5 = 32",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-5"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_6",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-6",
+      "aliases": [],
+      "label": "BIT_6 = 64",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-6"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_7",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-7",
+      "aliases": [],
+      "label": "BIT_7 = 128",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-7"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_8",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-8",
+      "aliases": [],
+      "label": "BIT_8 = 256",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-8"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BIT_9",
+      "kind": "constant",
+      "slug": "framework/constants/bits",
+      "anchor": "const-bit-9",
+      "aliases": [],
+      "label": "BIT_9 = 512",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/#const-bit-9"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

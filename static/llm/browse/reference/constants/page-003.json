@@ -1,0 +1,1125 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "BATTLE_LEFT",
+      "value": "0",
+      "group": "BATTLE",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1269,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_MAX_STACKS",
+      "value": "42",
+      "group": "BATTLE",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1258,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_RIGHT",
+      "value": "1",
+      "group": "BATTLE",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1270,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_STACK_FIRST",
+      "value": "0",
+      "group": "BATTLE",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1256,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_STACK_LAST",
+      "value": "41",
+      "group": "BATTLE",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1257,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_STACKS_PER_SIDE",
+      "value": "21",
+      "group": "BATTLE",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1267,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_LEFT_HAS_HERO",
+      "value": "16",
+      "group": "BATTLE TYPE FLAGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1281,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_LEFT_HAS_OWNER",
+      "value": "4",
+      "group": "BATTLE TYPE FLAGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1279,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_LEFT_IS_HUMAN",
+      "value": "1",
+      "group": "BATTLE TYPE FLAGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1277,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO",
+      "value": "32",
+      "group": "BATTLE TYPE FLAGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1282,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER",
+      "value": "8",
+      "group": "BATTLE TYPE FLAGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1280,
+      "status": "public"
+    },
+    {
+      "name": "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN",
+      "value": "2",
+      "group": "BATTLE TYPE FLAGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1278,
+      "status": "public"
+    },
+    {
+      "name": "BIT_0",
+      "value": "1",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1688,
+      "status": "public"
+    },
+    {
+      "name": "BIT_1",
+      "value": "2",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1689,
+      "status": "public"
+    },
+    {
+      "name": "BIT_10",
+      "value": "1024",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1698,
+      "status": "public"
+    },
+    {
+      "name": "BIT_11",
+      "value": "2048",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1699,
+      "status": "public"
+    },
+    {
+      "name": "BIT_12",
+      "value": "4096",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1700,
+      "status": "public"
+    },
+    {
+      "name": "BIT_13",
+      "value": "8192",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1701,
+      "status": "public"
+    },
+    {
+      "name": "BIT_14",
+      "value": "16384",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1702,
+      "status": "public"
+    },
+    {
+      "name": "BIT_15",
+      "value": "32768",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1703,
+      "status": "public"
+    },
+    {
+      "name": "BIT_16",
+      "value": "65536",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1704,
+      "status": "public"
+    },
+    {
+      "name": "BIT_17",
+      "value": "131072",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1705,
+      "status": "public"
+    },
+    {
+      "name": "BIT_18",
+      "value": "262144",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1706,
+      "status": "public"
+    },
+    {
+      "name": "BIT_19",
+      "value": "524288",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1707,
+      "status": "public"
+    },
+    {
+      "name": "BIT_2",
+      "value": "4",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1690,
+      "status": "public"
+    },
+    {
+      "name": "BIT_20",
+      "value": "1048576",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1708,
+      "status": "public"
+    },
+    {
+      "name": "BIT_21",
+      "value": "2097152",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1709,
+      "status": "public"
+    },
+    {
+      "name": "BIT_22",
+      "value": "4194304",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1710,
+      "status": "public"
+    },
+    {
+      "name": "BIT_23",
+      "value": "8388608",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1711,
+      "status": "public"
+    },
+    {
+      "name": "BIT_24",
+      "value": "16777216",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1712,
+      "status": "public"
+    },
+    {
+      "name": "BIT_25",
+      "value": "33554432",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1713,
+      "status": "public"
+    },
+    {
+      "name": "BIT_26",
+      "value": "67108864",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1714,
+      "status": "public"
+    },
+    {
+      "name": "BIT_27",
+      "value": "134217728",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1715,
+      "status": "public"
+    },
+    {
+      "name": "BIT_28",
+      "value": "268435456",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1716,
+      "status": "public"
+    },
+    {
+      "name": "BIT_29",
+      "value": "536870912",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1717,
+      "status": "public"
+    },
+    {
+      "name": "BIT_3",
+      "value": "8",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1691,
+      "status": "public"
+    },
+    {
+      "name": "BIT_30",
+      "value": "1073741824",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1718,
+      "status": "public"
+    },
+    {
+      "name": "BIT_31",
+      "value": "-2147483648",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1719,
+      "status": "public"
+    },
+    {
+      "name": "BIT_4",
+      "value": "16",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1692,
+      "status": "public"
+    },
+    {
+      "name": "BIT_5",
+      "value": "32",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1693,
+      "status": "public"
+    },
+    {
+      "name": "BIT_6",
+      "value": "64",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1694,
+      "status": "public"
+    },
+    {
+      "name": "BIT_7",
+      "value": "128",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1695,
+      "status": "public"
+    },
+    {
+      "name": "BIT_8",
+      "value": "256",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1696,
+      "status": "public"
+    },
+    {
+      "name": "BIT_9",
+      "value": "512",
+      "group": "BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1697,
+      "status": "public"
+    },
+    {
+      "name": "BITS_1_MASK",
+      "value": "1",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1724,
+      "status": "public"
+    },
+    {
+      "name": "BITS_10_MASK",
+      "value": "1023",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1733,
+      "status": "public"
+    },
+    {
+      "name": "BITS_11_MASK",
+      "value": "2047",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1734,
+      "status": "public"
+    },
+    {
+      "name": "BITS_12_MASK",
+      "value": "4095",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1735,
+      "status": "public"
+    },
+    {
+      "name": "BITS_13_MASK",
+      "value": "8191",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1736,
+      "status": "public"
+    },
+    {
+      "name": "BITS_14_MASK",
+      "value": "16383",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1737,
+      "status": "public"
+    },
+    {
+      "name": "BITS_15_MASK",
+      "value": "32767",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1738,
+      "status": "public"
+    },
+    {
+      "name": "BITS_16_MASK",
+      "value": "65535",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1739,
+      "status": "public"
+    },
+    {
+      "name": "BITS_17_MASK",
+      "value": "131071",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1740,
+      "status": "public"
+    },
+    {
+      "name": "BITS_18_MASK",
+      "value": "262143",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1741,
+      "status": "public"
+    },
+    {
+      "name": "BITS_19_MASK",
+      "value": "524287",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1742,
+      "status": "public"
+    },
+    {
+      "name": "BITS_2_MASK",
+      "value": "3",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1725,
+      "status": "public"
+    },
+    {
+      "name": "BITS_20_MASK",
+      "value": "1048575",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1743,
+      "status": "public"
+    },
+    {
+      "name": "BITS_21_MASK",
+      "value": "2097151",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1744,
+      "status": "public"
+    },
+    {
+      "name": "BITS_22_MASK",
+      "value": "4194303",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1745,
+      "status": "public"
+    },
+    {
+      "name": "BITS_23_MASK",
+      "value": "8388607",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1746,
+      "status": "public"
+    },
+    {
+      "name": "BITS_24_MASK",
+      "value": "16777215",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1747,
+      "status": "public"
+    },
+    {
+      "name": "BITS_25_MASK",
+      "value": "33554431",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1748,
+      "status": "public"
+    },
+    {
+      "name": "BITS_26_MASK",
+      "value": "67108863",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1749,
+      "status": "public"
+    },
+    {
+      "name": "BITS_27_MASK",
+      "value": "134217727",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1750,
+      "status": "public"
+    },
+    {
+      "name": "BITS_28_MASK",
+      "value": "268435455",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1751,
+      "status": "public"
+    },
+    {
+      "name": "BITS_29_MASK",
+      "value": "536870911",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1752,
+      "status": "public"
+    },
+    {
+      "name": "BITS_3_MASK",
+      "value": "7",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1726,
+      "status": "public"
+    },
+    {
+      "name": "BITS_30_MASK",
+      "value": "1073741823",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1753,
+      "status": "public"
+    },
+    {
+      "name": "BITS_31_MASK",
+      "value": "2147483647",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1754,
+      "status": "public"
+    },
+    {
+      "name": "BITS_32_MASK",
+      "value": "-1",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1755,
+      "status": "public"
+    },
+    {
+      "name": "BITS_4_MASK",
+      "value": "15",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1727,
+      "status": "public"
+    },
+    {
+      "name": "BITS_5_MASK",
+      "value": "31",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1728,
+      "status": "public"
+    },
+    {
+      "name": "BITS_6_MASK",
+      "value": "63",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1729,
+      "status": "public"
+    },
+    {
+      "name": "BITS_7_MASK",
+      "value": "127",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1730,
+      "status": "public"
+    },
+    {
+      "name": "BITS_8_MASK",
+      "value": "255",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1731,
+      "status": "public"
+    },
+    {
+      "name": "BITS_9_MASK",
+      "value": "511",
+      "group": "BIT MASKS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1732,
+      "status": "public"
+    },
+    {
+      "name": "BITS_IN_INT",
+      "value": "32",
+      "group": "BIT SIZES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1764,
+      "status": "public"
+    },
+    {
+      "name": "BITS_IN_INT16",
+      "value": "16",
+      "group": "BIT SIZES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1762,
+      "status": "public"
+    },
+    {
+      "name": "BITS_IN_INT32",
+      "value": "32",
+      "group": "BIT SIZES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1763,
+      "status": "public"
+    },
+    {
+      "name": "BITS_IN_INT4",
+      "value": "4",
+      "group": "BIT SIZES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1760,
+      "status": "public"
+    },
+    {
+      "name": "BITS_IN_INT8",
+      "value": "8",
+      "group": "BIT SIZES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1761,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_DEF_FRAME_IND",
+      "value": "-86",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1321,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_DEF_GROUP_IND",
+      "value": "-87",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1320,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_HIDDEN_QUANTITY",
+      "value": "-90",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1317,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_IRRECOVERABLE_LOSS",
+      "value": "-81",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1324,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_LUCK",
+      "value": "213",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1326,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_MON_POS",
+      "value": "-88",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1319,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_MON_TYPE",
+      "value": "-89",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1318,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_MORALE",
+      "value": "212",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1325,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_NUM_DISPLAYED_MONS",
+      "value": "-82",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1323,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_NUM_MONS",
+      "value": "-83",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1322,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_VALUE_DISPLAY_REAL_NUM_MONS",
+      "value": "-1",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1314,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_VALUE_INVISIBLE",
+      "value": "8",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1313,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_VALUE_VISIBLE",
+      "value": "4",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1312,
+      "status": "public"
+    },
+    {
+      "name": "BMG_FIELD_VISIBILITY",
+      "value": "-100",
+      "group": "BM:G FIELD OFFSETS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1316,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_CDECL",
+      "value": "1",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1406,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_CDECL_FLOAT",
+      "value": "5",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1411,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_FASTCALL",
+      "value": "3",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1409,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_FASTCALL_FLOAT",
+      "value": "7",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1414,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_FLOAT_RES",
+      "value": "4",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1415,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_PASCAL",
+      "value": "0",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1405,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_PASCAL_FLOAT",
+      "value": "4",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1410,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_STDCALL",
+      "value": "1",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1407,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_STDCALL_FLOAT",
+      "value": "5",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1412,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_THISCALL",
+      "value": "2",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1408,
+      "status": "public"
+    },
+    {
+      "name": "CALLCONV_THISCALL_FLOAT",
+      "value": "6",
+      "group": "CALLING CONVENTIONS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1413,
+      "status": "public"
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_CLEAR",
+      "value": "0",
+      "group": "ERA CHAT EVENT",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1672,
+      "status": "public"
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_CLOSE",
+      "value": "1",
+      "group": "ERA CHAT EVENT",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1673,
+      "status": "public"
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_DEFAULT",
+      "value": "2",
+      "group": "ERA CHAT EVENT",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1674,
+      "status": "public"
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_ENTER",
+      "value": "0",
+      "group": "ERA CHAT EVENT",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1668,
+      "status": "public"
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_INPUT",
+      "value": "1",
+      "group": "ERA CHAT EVENT",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1669,
+      "status": "public"
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_LEAVE",
+      "value": "2",
+      "group": "ERA CHAT EVENT",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1670,
+      "status": "public"
+    },
+    {
+      "name": "COMBAT_MANAGER",
+      "value": "6919200",
+      "group": "GAME MANAGERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1817,
+      "status": "public"
+    },
+    {
+      "name": "CURRENT_HERO",
+      "value": "-1",
+      "group": "HEROES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 208,
+      "status": "public"
+    },
+    {
+      "name": "CURRENT_OBJ",
+      "value": "998",
+      "group": "OBJECT TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 955,
+      "status": "public"
+    },
+    {
+      "name": "CURRENT_PLAYER",
+      "value": "-1",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 54,
+      "status": "public"
+    },
+    {
+      "name": "CURRENT_TOWN",
+      "value": "-1",
+      "group": "TOWNS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1188,
+      "status": "public"
+    },
+    {
+      "name": "DAYS_IN_MONTH",
+      "value": "28",
+      "group": "GAME LIMITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1339,
+      "status": "public"
+    },
+    {
+      "name": "DAYS_IN_WEEK",
+      "value": "7",
+      "group": "GAME LIMITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1341,
+      "status": "public"
+    },
+    {
+      "name": "DLG_ACTION_HOVER",
+      "value": "4",
+      "group": "DIALOG ACTION TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1483,
+      "status": "public"
+    },
+    {
+      "name": "DLG_ACTION_INDLG_CLICK",
+      "value": "512",
+      "group": "DIALOG ACTION TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1484,
+      "status": "public"
+    },
+    {
+      "name": "DLG_ACTION_KEY_PRESSED",
+      "value": "256",
+      "group": "DIALOG ACTION TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1487,
+      "status": "public"
+    },
+    {
+      "name": "DLG_ACTION_MOUSE_WHEEL",
+      "value": "522",
+      "group": "DIALOG ACTION TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1486,
+      "status": "public"
+    },
+    {
+      "name": "DLG_ACTION_OUTDLG_CLICK",
+      "value": "8",
+      "group": "DIALOG ACTION TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1485,
+      "status": "public"
+    },
+    {
+      "name": "DLG_ADVMAP",
+      "value": "4205280",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1461,
+      "status": "public"
+    },
+    {
+      "name": "DLG_BATTLE",
+      "value": "4662240",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1462,
+      "status": "public"
+    },
+    {
+      "name": "DLG_BOX_SHADOW_WIDTH",
+      "value": "8",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1459,
+      "status": "public"
+    },
+    {
+      "name": "DLG_CMD_SET_DEF",
+      "value": "9",
+      "group": "H3 DIALOG COMMANDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1609,
+      "status": "public"
+    },
+    {
+      "name": "DLG_CMD_SET_DEF_FRAME",
+      "value": "4",
+      "group": "H3 DIALOG COMMANDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1608,
+      "status": "public"
+    },
+    {
+      "name": "DLG_CMD_SET_PCX",
+      "value": "11",
+      "group": "H3 DIALOG COMMANDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1610,
+      "status": "public"
+    },
+    {
+      "name": "DLG_CMD_SET_TEXT",
+      "value": "3",
+      "group": "H3 DIALOG COMMANDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1607,
+      "status": "public"
+    },
+    {
+      "name": "DLG_CMD_TYPE_DEFAULT",
+      "value": "512",
+      "group": "H3 DIALOG COMMANDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1612,
+      "status": "public"
+    },
+    {
+      "name": "DLG_HERO_MEETING_SCREEN",
+      "value": "5957344",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1464,
+      "status": "public"
+    },
+    {
+      "name": "DLG_HERO_SCREEN",
+      "value": "5117840",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1463,
+      "status": "public"
+    },
+    {
+      "name": "DLG_NO_SELECTION",
+      "value": "-1",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1467,
+      "status": "public"
+    },
+    {
+      "name": "DLG_RESULT_CANCEL",
+      "value": "-1",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1468,
+      "status": "public"
+    },
+    {
+      "name": "DLG_RESULT_PIC_1",
+      "value": "0",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1470,
+      "status": "public"
+    },
+    {
+      "name": "DLG_RESULT_PIC_2",
+      "value": "1",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1471,
+      "status": "public"
+    },
+    {
+      "name": "DLG_RESULT_PIC_3",
+      "value": "2",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1472,
+      "status": "public"
+    },
+    {
+      "name": "DLG_RESULT_PIC_4",
+      "value": "3",
+      "group": "DIALOGS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1473,
+      "status": "public"
+    }
+  ]
+}

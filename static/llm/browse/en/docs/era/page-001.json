@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "docs.era.creating-mod",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "era/creating-mod",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/era/creating-mod/",
+      "title": "Creating your first mod",
+      "summary": "Move from an empty directory to an enabled mod with metadata, one resource, and a repeatable test.",
+      "keywords": [
+        "create mod",
+        "Mods",
+        "mod.json",
+        "Data",
+        "Lang",
+        "icon.png"
+      ],
+      "questions": [
+        "How do I create a minimal ERA mod?",
+        "Which files belong in mod.json?",
+        "How should I test the first resource override?"
+      ],
+      "sourceRefs": [
+        "era-source:lodman",
+        "era-changelog:3",
+        "era-tools:mod-manager-format"
+      ],
+      "sectionSources": {},
+      "previous": "era/mod-structure",
+      "next": "era/compatibility",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/era/text-001.md",
+          "fromAnchor": "directory",
+          "toAnchor": "project-hygiene",
+          "headings": [
+            "Prepare a minimal directory",
+            "Describe the mod in mod.json",
+            "Add one observable resource",
+            "Enable and test",
+            "Keep the project maintainable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.era.installation",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "era/installation",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/era/installation/",
+      "title": "Installing ERA",
+      "summary": "Official installation, update, and removal steps for Heroes Launcher and manual setups.",
+      "keywords": [
+        "installation",
+        "backup",
+        "launcher",
+        "verification"
+      ],
+      "questions": [
+        "How should I install ERA for mod development?",
+        "What should I check before editing game resources?"
+      ],
+      "sourceRefs": [
+        "era-project-rus:readme",
+        "era-project-eng:readme"
+      ],
+      "sectionSources": {},
+      "previous": "era",
+      "next": "era/mod-structure",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/era/text-001.md",
+          "fromAnchor": "installation",
+          "toAnchor": "uninstall",
+          "headings": [
+            "Game installation",
+            "With Heroes Launcher",
+            "Manually",
+            "Updating the game",
+            "Uninstallation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.era.compatibility",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "era/compatibility",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/era/compatibility/",
+      "title": "Mod compatibility and order",
+      "summary": "Declare dependencies, priority, and conflicts without relying on accidental load order.",
+      "keywords": [
+        "compatibility",
+        "requires",
+        "load_after",
+        "incompatible",
+        "priority",
+        "mod order"
+      ],
+      "questions": [
+        "How do requires, load_after, and incompatible work?",
+        "Why does another mod override my resource?",
+        "How should I report an ERA compatibility problem?"
+      ],
+      "sourceRefs": [
+        "era-tools:mod-manager-format",
+        "era-changelog:3"
+      ],
+      "sectionSources": {},
+      "previous": "era/creating-mod",
+      "next": "game",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/era/text-001.md",
+          "fromAnchor": "priority",
+          "toAnchor": "matrix",
+          "headings": [
+            "Two directions of order",
+            "Mod Manager compatibility fields",
+            "Declare rules for a reason",
+            "Test a small matrix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.era.mod-structure",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "era/mod-structure",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/era/mod-structure/",
+      "title": "Mod structure",
+      "summary": "What an ERA mod is and which directories, resources, and files it can contain.",
+      "keywords": [
+        "Mods",
+        "Data",
+        "Lang",
+        "mod structure",
+        "load order"
+      ],
+      "questions": [
+        "How should an ERA mod directory be organized?",
+        "Where do language and replacement resource files belong?"
+      ],
+      "sourceRefs": [
+        "era-source:lodman",
+        "era-changelog:3"
+      ],
+      "sectionSources": {},
+      "previous": "era/installation",
+      "next": "era/creating-mod",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/era/text-001.md",
+          "fromAnchor": "definition",
+          "toAnchor": "precedence",
+          "headings": [
+            "What is a mod?",
+            "What a mod can contain",
+            "Basic skeleton",
+            "Data and archives",
+            "Localization",
+            "Precedence and conflicts"
+          ]
+        }
+      ]
+    }
+  ]
+}

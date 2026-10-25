@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.triggers.bf",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/bf",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/bf/",
+      "title": "Battlefield setup (BF)",
+      "summary": "The battlefield-configuration point before combat. BF can place obstacles.",
+      "keywords": [
+        "BF",
+        "!?BF",
+        "OnSetupBattlefield"
+      ],
+      "questions": [
+        "The battlefield-configuration point before combat. BF can place obstacles."
+      ],
+      "sourceRefs": [
+        "old-help:tr-bf.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-bf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-bf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-bf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-bf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-bf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-bf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-bf": [
+          "old-help:tr-bf.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-001.md",
+          "fromAnchor": "ref-tr-bf",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger BF",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onpreheroscreen",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onpreheroscreen",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onpreheroscreen/",
+      "title": "Before a hero screen (OnPreHeroScreen)",
+      "summary": "x1 is the hero before display, including switches.",
+      "keywords": [
+        "OnPreHeroScreen",
+        "77037"
+      ],
+      "questions": [
+        "x1 is the hero before display, including switches."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbeforelocalevent",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbeforelocalevent",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforelocalevent/",
+      "title": "Before a local event (OnBeforeLocalEvent)",
+      "summary": "x1/x2/x3 are event coordinates. For humans; fires before the corresponding !?LE.",
+      "keywords": [
+        "OnBeforeLocalEvent",
+        "77045"
+      ],
+      "questions": [
+        "x1/x2/x3 are event coordinates. For humans; fires before the corresponding !?LE."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbeforebattlestackturn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbeforebattlestackturn",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlestackturn/",
+      "title": "Before a stack turn (OnBeforeBattleStackTurn)",
+      "summary": "x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation.",
+      "keywords": [
+        "OnBeforeBattleStackTurn",
+        "77041"
+      ],
+      "questions": [
+        "x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onpretownscreen",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onpretownscreen",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onpretownscreen/",
+      "title": "Before a town screen (OnPreTownScreen)",
+      "summary": "x1 is the town before display; covers opening and switching.",
+      "keywords": [
+        "OnPreTownScreen",
+        "77035"
+      ],
+      "questions": [
+        "x1 is the town before display; covers opening and switching."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbeforebattlereplay",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbeforebattlereplay",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlereplay/",
+      "title": "Before battle replay (OnBeforeBattleReplay)",
+      "summary": "After the user rejects the result, before battle state is reset. No arguments. Suitable for releasing temporary resources from the previous attempt.",
+      "keywords": [
+        "OnBeforeBattleReplay",
+        "77044"
+      ],
+      "questions": [
+        "After the user rejects the result, before battle state is reset. No arguments. Suitable for releasing temporary resources from the previous attempt."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbeforeherointeraction",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbeforeherointeraction",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeherointeraction/",
+      "title": "Before hero interaction (OnBeforeHeroInteraction)",
+      "summary": "x1 is the initiator, x2 the target hero; x3 allows interaction, defaults to 1 and can be set to 0. Covers meetings and attacks.",
+      "keywords": [
+        "OnBeforeHeroInteraction",
+        "77010"
+      ],
+      "questions": [
+        "x1 is the initiator, x2 the target hero; x3 allows interaction, defaults to 1 and can be set to 0. Covers meetings and attacks."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbeforeplacebattleobstacles",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbeforeplacebattleobstacles",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeplacebattleobstacles/",
+      "title": "Before placing battle obstacles (OnBeforePlaceBattleObstacles)",
+      "summary": "After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement.",
+      "keywords": [
+        "OnBeforePlaceBattleObstacles",
+        "77054"
+      ],
+      "questions": [
+        "After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbeforebattlefieldvisible",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbeforebattlefieldvisible",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlefieldvisible/",
+      "title": "Before showing the battlefield (OnBeforeBattlefieldVisible)",
+      "summary": "The field is still dark; the event precedes early BR-1. No arguments. Early BA/BF do not guarantee BM/EA structures are ready; choose the phase required by your data.",
+      "keywords": [
+        "OnBeforeBattlefieldVisible",
+        "77019"
+      ],
+      "questions": [
+        "The field is still dark; the event precedes early BR-1. No arguments. Early BA/BF do not guarantee BM/EA structures are ready; choose the phase required by your data."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbuildtownbuilding",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbuildtownbuilding",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbuildtownbuilding/",
+      "title": "Building a town structure (OnBuildTownBuilding)",
+      "summary": "x1 is town; x2 building. Applies to humans and AI. Use OnAfterBuildTownBuilding for actions after construction is complete.",
+      "keywords": [
+        "OnBuildTownBuilding",
+        "77031"
+      ],
+      "questions": [
+        "x1 is town; x2 building. Applies to humans and AI. Use OnAfterBuildTownBuilding for actions after construction is complete."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

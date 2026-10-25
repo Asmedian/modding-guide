@@ -1,7 +1,7 @@
 # ERA documentation
 
 ID: docs.overview
-URL: /en/docs/
+URL: https://asmedian.github.io/modding-guide/en/docs/
 Source references: era-source:gameext, era-source:lodman
 
 A starting point for the platform, mod structure, game resources, and practical tools.
@@ -36,7 +36,7 @@ General documentation, the ERM reference, and the plugin development section are
 # The ERA platform
 
 ID: docs.era
-URL: /en/docs/era/
+URL: https://asmedian.github.io/modding-guide/en/docs/era/
 Source references: era-source:gameext, era-source:era, era-source:lodman
 
 ERA’s role between Heroes III, mods, resources, and extensions during game startup.
@@ -56,7 +56,7 @@ The archive manager loads extra PAC files from `Data`, searches registered archi
 # Mod compatibility and order
 
 ID: docs.era.compatibility
-URL: /en/docs/era/compatibility/
+URL: https://asmedian.github.io/modding-guide/en/docs/era/compatibility/
 Source references: era-tools:mod-manager-format, era-changelog:3
 
 Declare dependencies, priority, and conflicts without relying on accidental load order.
@@ -96,7 +96,7 @@ If the problem follows order, identify the exact resource name supplied by both 
 # Creating your first mod
 
 ID: docs.era.creating-mod
-URL: /en/docs/era/creating-mod/
+URL: https://asmedian.github.io/modding-guide/en/docs/era/creating-mod/
 Source references: era-source:lodman, era-changelog:3, era-tools:mod-manager-format
 
 Move from an empty directory to an enabled mod with metadata, one resource, and a repeatable test.
@@ -156,7 +156,7 @@ Store editable source assets separately from exported game files. A project repo
 # Installing ERA
 
 ID: docs.era.installation
-URL: /en/docs/era/installation/
+URL: https://asmedian.github.io/modding-guide/en/docs/era/installation/
 Source references: era-project-rus:readme, era-project-eng:readme
 
 Official installation, update, and removal steps for Heroes Launcher and manual setups.
@@ -196,7 +196,7 @@ In Heroes Launcher, open the gear menu, choose Uninstall, optionally keep the ba
 # Mod structure
 
 ID: docs.era.mod-structure
-URL: /en/docs/era/mod-structure/
+URL: https://asmedian.github.io/modding-guide/en/docs/era/mod-structure/
 Source references: era-source:lodman, era-changelog:3
 
 What an ERA mod is and which directories, resources, and files it can contain.
@@ -254,7 +254,7 @@ When the result is unexpected, search for a conflict by exact resource name. Che
 # Game architecture for mod authors
 
 ID: docs.game
-URL: /en/docs/game/
+URL: https://asmedian.github.io/modding-guide/en/docs/game/
 Source references: era-source:gameext, era-source:reslib, era-source:lodman
 
 The smallest useful model of startup, virtual resources, and caching for diagnosing a content mod.
@@ -286,7 +286,7 @@ If a task requires memory addresses, binary patches, or calls to internal functi
 # How ERA loads resources
 
 ID: docs.game.resource-loading
-URL: /en/docs/game/resource-loading/
+URL: https://asmedian.github.io/modding-guide/en/docs/game/resource-loading/
 Source references: era-source:lodman, era-source:reslib, era-source:gameext, era-changelog:3
 
 A practical model of the VFS, archives, redirections, and caching for conflict diagnosis.
@@ -336,7 +336,7 @@ Use this order: confirm the disk file, confirm the mod is enabled, exclude a hig
 # Resource formats
 
 ID: docs.game.resources
-URL: /en/docs/game/resources/
+URL: https://asmedian.github.io/modding-guide/en/docs/game/resources/
 Source references: era-source:lodman, era-source:reslib, era-changelog:3, old-help:index
 
 A map of important game and ERA formats, their roles, and safe verification steps.
@@ -377,7 +377,7 @@ Classic resources include WAV audio, `.BIK` and `.SMK` video, and `.FNT` game fo
 # Glossary
 
 ID: docs.glossary
-URL: /en/docs/glossary/
+URL: https://asmedian.github.io/modding-guide/en/docs/glossary/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib, old-help:index
 
 Agreed Russian and English terminology for the general ERA documentation.
@@ -409,41 +409,63 @@ Agreed Russian and English terminology for the general ERA documentation.
 
 ---
 
-# LLM content map
+# Content map for LLMs
 
 ID: docs.llm-map
-URL: /en/docs/llm-map/
+URL: https://asmedian.github.io/modding-guide/en/docs/llm-map/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
-A human-readable page index with links to compact machine-readable representations.
+An English-only AI reference: topic catalogs for Docs, ERM, Plugins and Wiki, with complete texts in bounded files.
 
-## How to use it {#usage}
+## How to use this map {#usage}
 
-Begin with [llms.txt](../../../llms.txt) for a short map, then open [manifest.json](../../../llm/manifest.json) for stable IDs, locales, keywords, questions, article relationships, and section-level source references. The map covers all published material: documentation, ERM scripting, and plugin development, including H3API and NH3API. The ERM course and Lua are not yet published; their status is recorded in the manifest.
+Give this page as the only reference link to an AI that can retrieve web pages. Read the [protocol and map](../../../llm/browse/index.json), then the [English section routing](../../../llm/browse/en/index.md). [llms.txt](../../../llms.txt) is a short alternative entry point.
 
-Full text is available in six files, one per section and language. The ERM files include code examples, tables, links, captions, and the text of expandable comments. Resolve relative links against the canonical article URL listed before its content. Verify technical claims using `sourceRefs` and `sectionSources`; source descriptions, versions, paths, and exact locators are available in [sources.json](../../../llm/sources.json).
+All LLM exports use English. There are no translated copies to retrieve: answer in the user's requested language using this single corpus. Original filenames, source locators, technical identifiers and literals inside code examples stay unchanged.
 
-## Machine-readable files {#machine-files}
+Retrieval follows **section → topic → catalog page → required full-text parts**. Do not load the whole site. Related texts are packed into roughly 24 KiB; every catalog file is limited to 48 KiB. Large articles have ordered parts; examples remain intact.
 
-- [llms.txt](../../../llms.txt) — short entry point;
-- [llms-full.txt](../../../llms-full.txt) — complete catalog for both locales;
-- [manifest.json](../../../llm/manifest.json) — all published entities, relationships, and section-level sources;
-- [sources.json](../../../llm/sources.json) — source descriptions, versions, locators, and checksums;
-- [reference.json](../../../llm/reference.json) — ERM commands, receivers, events, functions, constants, globals, and alphabetical index;
-- documentation: [Russian](../../../llm/ru/docs.md) · [English](../../../llm/en/docs.md);
-- ERM scripting: [Russian](../../../llm/ru/erm.md) · [English](../../../llm/en/erm.md);
-- plugins: [Russian](../../../llm/ru/plugins.md) · [English](../../../llm/en/plugins.md).
+## Choose sections {#sections}
 
-## Generated catalog {#catalog}
+| Task | Catalog |
+| --- | --- |
+| ERA installation, mod structure, compatibility, resource loading, tools | [Docs](../../../llm/browse/en/docs/index.json) |
+| ERM syntax, variables, triggers, receivers, ID tables, Framework | [ERM](../../../llm/browse/en/erm/index.json) |
+| Native plugins, C++, hooks, ERA API, H3API, NH3API | [Plugins](../../../llm/browse/en/plugins/index.json) |
+| SoD DEF, images, sounds, videos, fonts, palettes, campaigns | [Wiki](../../../llm/browse/en/wiki/index.json) |
 
-The build lists every published entity for the current locale below, including its stable ID, canonical link, summary, questions, and keywords. Search and the manifest use the same registry, so a newly published page does not need a manual catalog entry.
+Read every relevant section for tasks that span several areas. A creature mod may need ERM contracts and ID tables, Wiki resources and packaging documentation. A C++ extension may need Plugins, API contracts and ERM events. Lua is deferred; ERM learning contains an AI-assisted introduction.
+
+## Find an exact name {#lookup}
+
+- [ERM commands, events, functions and constants](../../../llm/browse/symbols/index.json): select a family and name range. Records link exact article anchors and English text parts.
+- [Wiki filenames](../../../llm/browse/wiki-resources/index.json): select edition, kind and case-insensitive filename range. Archive, size, SHA-256, categories, originals, derivatives and English destinations are retained. TXT is not imported yet.
+- [ERM registries](../../../llm/browse/reference/index.json): alphabet, receivers, events, functions, globals, constants, legacy commands, links and illustrations.
+- [Sources](../../../llm/browse/sources/index.json): resolve IDs from `sourceRefs` and `sectionSources`; check versions, locators and hashes.
+
+## Reading and answering protocol {#reading}
+
+1. Identify the task, ERA version and relevant sections. Choose topics by English titles and keywords.
+2. A topic index leads to catalog pages. Each article has a stable `id`, canonical English `url`, summary, questions, keywords, `previous` / `next`, sources and ordered `parts`.
+3. Retrieve the required text parts. A file can contain several articles: select by ID and part number. `fromAnchor`, `toAnchor` and headings locate excerpts. Read every continuation needed for a command's full contract.
+4. Text between `llm:body` and `llm:end` markers is the complete source excerpt. Concatenate parts in order without marker newlines to recover the article. Code, tables, links, illustrations and collapsed comments are retained. Resolve relative links against the canonical article URL.
+5. Follow relations and body links across topics and sections. Check section-level evidence, version limits, variable scope and compatibility.
+6. Cite canonical pages and exact anchors. Distinguish documentation evidence, assumptions and in-game execution. If retrieval is unavailable, request the specific files instead of claiming to have read them.
+
+## Bulk offline mirrors {#archives}
+
+English-only bulk exports remain available for offline indexing. **Do not retrieve them by default**: use the bounded topic catalog above.
+
+- [manifest.json](../../../llm/manifest.json) · [llms-full.txt](../../../llms-full.txt);
+- [sources.json](../../../llm/sources.json) · [reference.json](../../../llm/reference.json) · [wiki-resources.json](../../../llm/wiki-resources.json);
+- [Docs](../../../llm/en/docs.md) · [ERM](../../../llm/en/erm.md) · [Plugins](../../../llm/en/plugins.md) · [Wiki](../../../llm/en/wiki.md).
 
 ---
 
 # Quick Start
 
 ID: docs.quick-start
-URL: /en/docs/quick-start/
+URL: https://asmedian.github.io/modding-guide/en/docs/quick-start/
 Source references: era-source:gameext, era-source:lodman, era-changelog:3
 
 From an installed ERA game to the first working ERM script in your own mod.
@@ -507,7 +529,7 @@ Continue with [Mod structure](../era/mod-structure/) to learn what the directori
 # Site structure
 
 ID: docs.site-structure
-URL: /en/docs/site-structure/
+URL: https://asmedian.github.io/modding-guide/en/docs/site-structure/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 How routes, locales, search, sources, and machine-readable representations fit together.
@@ -534,12 +556,17 @@ A small title and keyword index opens immediately, while Pagefind builds a full-
 
 `content/_sources/sources.json` stores a compact provenance registry. Original archives, changelogs, and ERA source snapshots remain external development inputs and never ship with the site.
 
+
+## Wiki {#wiki}
+
+The section between documentation and ERM. SoD resources follow the LF hierarchy; previews are separate from full files and playback downloads start on activation.
+
 ---
 
 # ERA tool catalog
 
 ID: docs.tools.catalog
-URL: /en/docs/tools/catalog/
+URL: https://asmedian.github.io/modding-guide/en/docs/tools/catalog/
 Source references: era-tools:mmarchive-help, era-tools:defpreview-help, era-tools:binmagic-help, era-tools:evme-help, era-tools:template-editor-help, era-tools:unc-to-bin, era-tools:mod-manager-format, era-tools:rsbink-player-help, era-tools:exe-builder-help, era-tools:def-tool-binary, era-tools:dialogs-editor-binary, era-tools:object-txt-editor-binary, era-tools:txt-editor-binary, era-tools:vfs-test-binary
 
 A verified inventory of the bundled Tools programs, grouped by task and risk level.
@@ -611,7 +638,7 @@ The **ExeMapCompiler** directory contains `compile.phc`, `decompile.phc`, `optim
 # Troubleshooting
 
 ID: docs.troubleshooting
-URL: /en/docs/troubleshooting/
+URL: https://asmedian.github.io/modding-guide/en/docs/troubleshooting/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib, era-tools:mod-manager-format, era-tools:vfs-test-binary
 
 A repeatable path from a clean startup to a precise report for a conflict or invalid resource.
@@ -656,7 +683,7 @@ A good report lets another person reproduce the fault without guessing and test 
 # What Is a Mod?
 
 ID: docs.what-is-a-mod
-URL: /en/docs/what-is-a-mod/
+URL: https://asmedian.github.io/modding-guide/en/docs/what-is-a-mod/
 Source references: era-source:gameext, era-source:lodman, era-source:reslib
 
 What a Heroes III mod contains, how ERA loads its files, and why changes should remain separate from the original game.

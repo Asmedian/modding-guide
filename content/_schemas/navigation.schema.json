@@ -2,32 +2,57 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Editorial navigation",
   "type": "object",
-  "required": ["schemaVersion", "groups"],
+  "required": [
+    "schemaVersion",
+    "groups"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
+    "schemaVersion": {
+      "const": 1
+    },
     "groups": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "labelKey", "items"],
+        "required": [
+          "id",
+          "labelKey",
+          "items"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "labelKey": { "type": "string" },
+          "id": {
+            "type": "string"
+          },
+          "labelKey": {
+            "type": "string"
+          },
           "items": {
             "type": "array",
             "maxItems": 12,
             "items": {
               "type": "object",
-              "required": ["labelKey", "slug"],
+              "required": [
+                "labelKey",
+                "slug"
+              ],
               "properties": {
-                "labelKey": { "type": "string" },
-                "slug": { "type": "string" }
+                "labelKey": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                }
               }
             }
+          },
+          "href": {
+            "type": "string"
+          },
+          "edition": {
+            "type": "string"
           }
         }
       }
     }
   }
 }
-

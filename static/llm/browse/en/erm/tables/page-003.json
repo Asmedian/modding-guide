@@ -1,0 +1,838 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.tables.dialog-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/dialog-types",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-types/",
+      "title": "Game dialog identifiers",
+      "summary": "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order.",
+      "keywords": [
+        "Game dialog identifiers"
+      ],
+      "questions": [
+        "Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order."
+      ],
+      "sourceRefs": [
+        "old-help:form-gamestate.htm",
+        "old-help:era-api.htm",
+        "era-source:era.pas",
+        "era-framework:lib-end--9999-era---stdlib.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "values": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "related": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "reference-links": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "api": [
+          "old-help:form-gamestate.htm",
+          "old-help:era-api.htm",
+          "era-source:era.pas",
+          "era-framework:lib-end--9999-era---stdlib.erm"
+        ],
+        "ref-form-gamestate": [
+          "old-help:form-gamestate.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
+          "fromAnchor": "ref-form-gamestate",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Dialog Game IDs",
+            "Purpose",
+            "Values",
+            "API contract",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.sounds",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/sounds",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/sounds/",
+      "title": "Game event sounds",
+      "summary": "WAV/82M resource names from the standard set. Check that the active installation includes the requested sound.",
+      "keywords": [
+        "Game event sounds"
+      ],
+      "questions": [
+        "WAV/82M resource names from the standard set. Check that the active installation includes the requested sound."
+      ],
+      "sourceRefs": [
+        "old-help:form-sound.htm",
+        "old-help:rec-sn.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-sound.htm",
+          "old-help:rec-sn.htm"
+        ],
+        "values": [
+          "old-help:form-sound.htm",
+          "old-help:rec-sn.htm"
+        ],
+        "related": [
+          "old-help:form-sound.htm",
+          "old-help:rec-sn.htm"
+        ],
+        "reference-links": [
+          "old-help:form-sound.htm",
+          "old-help:rec-sn.htm"
+        ],
+        "ref-form-sound": [
+          "old-help:form-sound.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-042.md",
+          "fromAnchor": "ref-form-sound",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table of game sounds",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.objects",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/objects",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/objects/",
+      "title": "Game object table",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Game object table",
+        "objects"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-objects.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-objects.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-objects.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-objects.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-objects.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-objects.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-objects": [
+          "old-help:form-objects.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-037.md",
+          "fromAnchor": "ref-form-objects",
+          "toAnchor": "id-51",
+          "headings": [
+            "Object type table",
+            "Purpose",
+            "IDs and hexadecimal values"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-038.md",
+          "fromAnchor": "id-52",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.videos",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/videos",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/videos/",
+      "title": "Game videos",
+      "summary": "Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is not part of a filename.",
+      "keywords": [
+        "Game videos"
+      ],
+      "questions": [
+        "Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is not part of a filename."
+      ],
+      "sourceRefs": [
+        "old-help:form-video.htm",
+        "old-help:rec-vr.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-video.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "values": [
+          "old-help:form-video.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "related": [
+          "old-help:form-video.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "reference-links": [
+          "old-help:form-video.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "ref-form-video": [
+          "old-help:form-video.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-051.md",
+          "fromAnchor": "ref-form-video",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Gaming Video",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.blessings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/blessings",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/blessings/",
+      "title": "Hero blessings and curses",
+      "summary": "HE:Y IDs and power parameter meanings. Slot-locking curses use a separate slot table. Legacy WoG effects may depend on installed scripts.",
+      "keywords": [
+        "Hero blessings and curses"
+      ],
+      "questions": [
+        "HE:M IDs and power parameter meanings. Slot-locking curses use a separate slot table. Legacy WoG effects may depend on installed scripts."
+      ],
+      "sourceRefs": [
+        "old-help:form-bless.htm",
+        "old-help:rec-he.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-bless.htm",
+          "old-help:rec-he.htm"
+        ],
+        "values": [
+          "old-help:form-bless.htm",
+          "old-help:rec-he.htm"
+        ],
+        "related": [
+          "old-help:form-bless.htm",
+          "old-help:rec-he.htm"
+        ],
+        "reference-links": [
+          "old-help:form-bless.htm",
+          "old-help:rec-he.htm"
+        ],
+        "ref-form-bless": [
+          "old-help:form-bless.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-008.md",
+          "fromAnchor": "ref-form-bless",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Curses and Blessings",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.hero-classes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/hero-classes",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-classes/",
+      "title": "Hero classes",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Hero classes",
+        "hero-classes"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-heroesclasses.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-heroesclasses.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-heroesclasses.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-heroesclasses.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-heroesclasses.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-heroesclasses.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-heroesclasses": [
+          "old-help:form-heroesclasses.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-028.md",
+          "fromAnchor": "ref-form-heroesclasses",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Hero Classes",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.hero-levels",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/hero-levels",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-levels/",
+      "title": "Hero experience thresholds",
+      "summary": "Standard experience curve. Beyond level 75, overflow and unreachable intermediate levels can occur; do not extrapolate this table to a modified engine.",
+      "keywords": [
+        "Hero experience thresholds"
+      ],
+      "questions": [
+        "Standard experience curve. Beyond level 75, overflow and unreachable intermediate levels can occur; do not extrapolate this table to a modified engine."
+      ],
+      "sourceRefs": [
+        "old-help:form-heroeslevels.htm",
+        "old-help:rec-he.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-heroeslevels.htm",
+          "old-help:rec-he.htm"
+        ],
+        "values": [
+          "old-help:form-heroeslevels.htm",
+          "old-help:rec-he.htm"
+        ],
+        "related": [
+          "old-help:form-heroeslevels.htm",
+          "old-help:rec-he.htm"
+        ],
+        "reference-links": [
+          "old-help:form-heroeslevels.htm",
+          "old-help:rec-he.htm"
+        ],
+        "ref-form-heroeslevels": [
+          "old-help:form-heroeslevels.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-028.md",
+          "fromAnchor": "ref-form-heroeslevels",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Hero (and Commander) Levels)",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.specialty-pictures",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/specialty-pictures",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/specialty-pictures/",
+      "title": "Hero specialty pictures",
+      "summary": "Image index for UN:G2. It changes the specialty picture; other HE:X parameters control gameplay behavior. Entries 0–155 correspond to standard heroes.",
+      "keywords": [
+        "Hero specialty pictures"
+      ],
+      "questions": [
+        "Image index for HE:X3. It changes the specialty picture; other HE:X parameters control gameplay behavior. Entries 0–155 correspond to standard heroes."
+      ],
+      "sourceRefs": [
+        "old-help:form-heroesspec.htm",
+        "old-help:rec-he.htm",
+        "old-help:rec-un.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-heroesspec.htm",
+          "old-help:rec-he.htm",
+          "old-help:rec-un.htm"
+        ],
+        "values": [
+          "old-help:form-heroesspec.htm",
+          "old-help:rec-he.htm",
+          "old-help:rec-un.htm"
+        ],
+        "related": [
+          "old-help:form-heroesspec.htm",
+          "old-help:rec-he.htm",
+          "old-help:rec-un.htm"
+        ],
+        "reference-links": [
+          "old-help:form-heroesspec.htm",
+          "old-help:rec-he.htm",
+          "old-help:rec-un.htm"
+        ],
+        "ref-form-heroesspec": [
+          "old-help:form-heroesspec.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-043.md",
+          "fromAnchor": "ref-form-heroesspec",
+          "toAnchor": "ref-form-heroesspec-2",
+          "headings": [
+            "Hero Specialties"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-044.md",
+          "fromAnchor": "ref-form-heroesspec-3",
+          "toAnchor": "id-328",
+          "headings": [
+            "Purpose",
+            "Values"
+          ]
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-045.md",
+          "fromAnchor": "id-329",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.hero-structure",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/hero-structure",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-structure/",
+      "title": "Hero structure fields",
+      "summary": "Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.",
+      "keywords": [
+        "Hero structure fields"
+      ],
+      "questions": [
+        "Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build."
+      ],
+      "sourceRefs": [
+        "old-help:form-advhero.htm",
+        "old-help:rec-he.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-advhero.htm",
+          "old-help:rec-he.htm"
+        ],
+        "values": [
+          "old-help:form-advhero.htm",
+          "old-help:rec-he.htm"
+        ],
+        "related": [
+          "old-help:form-advhero.htm",
+          "old-help:rec-he.htm"
+        ],
+        "reference-links": [
+          "old-help:form-advhero.htm",
+          "old-help:rec-he.htm"
+        ],
+        "ref-form-advhero": [
+          "old-help:form-advhero.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-029.md",
+          "fromAnchor": "ref-form-advhero",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Hero Structure",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.heroes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/heroes",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/heroes/",
+      "title": "Hero table",
+      "summary": "IDs from the standard WoG set. Adventure-map object: type 34.",
+      "keywords": [
+        "Hero table",
+        "heroes",
+        "34"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. Adventure-map object: type 34."
+      ],
+      "sourceRefs": [
+        "old-help:form-numberheroes.htm",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-numberheroes-hex.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-numberheroes.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-numberheroes.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-numberheroes.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-numberheroes.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-numberheroes.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-numberheroes": [
+          "old-help:form-numberheroes.htm"
+        ],
+        "ref-form-numberheroes-hex": [
+          "old-help:form-numberheroes-hex.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-031.md",
+          "fromAnchor": "ref-form-numberheroes",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table of Hero Numbers",
+            "Table of Hero Numbers",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.hero-visits",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/hero-visits",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/hero-visits/",
+      "title": "Hero visits and bits",
+      "summary": "HE:V uses a visit-kind index, not the adventure-map object type.",
+      "keywords": [
+        "Hero visits and bits",
+        "hero-visits"
+      ],
+      "questions": [
+        "HE:V uses a visit-kind index, not the adventure-map object type."
+      ],
+      "sourceRefs": [
+        "old-help:form-he-v.htm",
+        "old-help:form-he-r.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-he-v.htm",
+          "old-help:form-he-r.htm"
+        ],
+        "values": [
+          "old-help:form-he-v.htm",
+          "old-help:form-he-r.htm"
+        ],
+        "limits": [
+          "old-help:form-he-v.htm",
+          "old-help:form-he-r.htm"
+        ],
+        "related": [
+          "old-help:form-he-v.htm",
+          "old-help:form-he-r.htm"
+        ],
+        "reference-links": [
+          "old-help:form-he-v.htm",
+          "old-help:form-he-r.htm"
+        ],
+        "temporary-bits": [
+          "old-help:form-he-r.htm"
+        ],
+        "ref-form-he-r": [
+          "old-help:form-he-r.htm"
+        ],
+        "ref-form-he-v": [
+          "old-help:form-he-v.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-030.md",
+          "fromAnchor": "ref-form-he-r",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Object types for HE:V",
+            "Object types for HE:V",
+            "Purpose",
+            "Values",
+            "Applicability",
+            "HE:R7 bits",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.dialog-pictures",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/dialog-pictures",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/dialog-pictures/",
+      "title": "IF:Q picture types",
+      "summary": "The picture type determines the meaning of the next parameter. Town pictures use 22 + town type.",
+      "keywords": [
+        "IF:Q picture types"
+      ],
+      "questions": [
+        "The picture type determines the meaning of the next parameter. Town pictures use 22 + town type."
+      ],
+      "sourceRefs": [
+        "old-help:form-picts.htm",
+        "old-help:rec-if.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "values": [
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "related": [
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "reference-links": [
+          "old-help:form-picts.htm",
+          "old-help:rec-if.htm"
+        ],
+        "ref-form-picts": [
+          "old-help:form-picts.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-027.md",
+          "fromAnchor": "ref-form-picts",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Pictures for IF:Q",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.mines",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/mines",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/mines/",
+      "title": "Mine types",
+      "summary": "Object type 53; its subtype is separate from the resource ID.",
+      "keywords": [
+        "Mine types"
+      ],
+      "questions": [
+        "Object type 53; its subtype is separate from the resource ID."
+      ],
+      "sourceRefs": [
+        "old-help:form-mines.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-mines.htm"
+        ],
+        "values": [
+          "old-help:form-mines.htm"
+        ],
+        "related": [
+          "old-help:form-mines.htm"
+        ],
+        "reference-links": [
+          "old-help:form-mines.htm"
+        ],
+        "ref-form-mines": [
+          "old-help:form-mines.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-032.md",
+          "fromAnchor": "ref-form-mines",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Mines",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

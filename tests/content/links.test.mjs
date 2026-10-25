@@ -53,7 +53,6 @@ function assertArticleLinks(base) {
           continue;
         }
         const key = pathname.replace(/^\/(ru|en)\//, '').replace(/\/$/, '');
-        if (key === 'erm/learn') continue;
         const record = records.get(key);
         if (!record) { failures.push(`${meta.id} (${locale}) → ${href}`); continue; }
         if (target.hash) {

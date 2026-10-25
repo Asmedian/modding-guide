@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.activatenextstack",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/activatenextstack",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/activatenextstack/",
+      "title": "ActivateNextStack",
+      "summary": "Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version.",
+      "keywords": [
+        "ActivateNextStack",
+        "FU(ActivateNextStack)",
+        "requires-review",
+        "game"
+      ],
+      "questions": [
+        "Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.addarttohero",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/addarttohero",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/addarttohero/",
+      "title": "AddArtToHero",
+      "summary": "Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions.",
+      "keywords": [
+        "AddArtToHero",
+        "FU(AddArtToHero)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.advmap-sethint",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/advmap-sethint",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-sethint/",
+      "title": "AdvMap_SetHint",
+      "summary": "Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input.",
+      "keywords": [
+        "AdvMap_SetHint",
+        "FU(AdvMap_SetHint)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.advmap-setinfopaneldef",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/advmap-setinfopaneldef",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneldef/",
+      "title": "AdvMap_SetInfoPanelDef",
+      "summary": "Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant.",
+      "keywords": [
+        "AdvMap_SetInfoPanelDef",
+        "FU(AdvMap_SetInfoPanelDef)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.advmap-setinfopaneltext",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/advmap-setinfopaneltext",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneltext/",
+      "title": "AdvMap_SetInfoPanelText",
+      "summary": "Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1.",
+      "keywords": [
+        "AdvMap_SetInfoPanelText",
+        "FU(AdvMap_SetInfoPanelText)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-clone",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-clone",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-clone/",
+      "title": "Array_Clone",
+      "summary": "Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values.",
+      "keywords": [
+        "Array_Clone",
+        "FU(Array_Clone)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-copy",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-copy",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-copy/",
+      "title": "Array_Copy",
+      "summary": "Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type.",
+      "keywords": [
+        "Array_Copy",
+        "FU(Array_Copy)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-countvalue",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-countvalue",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-countvalue/",
+      "title": "Array_CountValue",
+      "summary": "Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA.",
+      "keywords": [
+        "Array_CountValue",
+        "FU(Array_CountValue)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-customsort",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-customsort",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-customsort/",
+      "title": "Array_CustomSort",
+      "summary": "Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array.",
+      "keywords": [
+        "Array_CustomSort",
+        "FU(Array_CustomSort)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-ensureminsize",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-ensureminsize",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-ensureminsize/",
+      "title": "Array_EnsureMinSize",
+      "summary": "Grows an array to minSize when needed and fills new items. Never shrinks it.",
+      "keywords": [
+        "Array_EnsureMinSize",
+        "FU(Array_EnsureMinSize)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Grows an array to minSize when needed and fills new items. Never shrinks it."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-fill",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-fill",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-fill/",
+      "title": "Array_Fill",
+      "summary": "Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array.",
+      "keywords": [
+        "Array_Fill",
+        "FU(Array_Fill)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Fills an integer array with startValue, startValue+step…; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    }
+  ]
+}

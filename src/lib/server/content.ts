@@ -4,7 +4,7 @@ import { renderReference, highlightErm, decodeReferenceText } from '$lib/referen
 import { prepareArticleMarkdown } from '$lib/content/publication.mjs';
 import legacyCommands from '../../../content/erm/_registry/legacy-commands.json';
 
-export type ContentSection = 'docs' | 'erm' | 'plugins';
+export type ContentSection = 'docs' | 'erm' | 'plugins' | 'wiki';
 
 type ArticleMeta = {
   id: string;
@@ -37,23 +37,14 @@ export type Article = ArticleMeta & {
   sections: Array<{ id: string; label: string }>;
   sources: SourceRecord[];
   symbols?: SymbolEntry[];
-  catalog?: Array<{
-    id: string;
-    section?: ContentSection;
-    slug: string;
-    title: string;
-    summary: string;
-    keywords: string[];
-    questions: string[];
-  }>;
 };
 
-const metaModules = import.meta.glob(['../../../content/docs/**/entity.json', '../../../content/erm/**/entity.json', '../../../content/plugins/**/entity.json'], {
+const metaModules = import.meta.glob(['../../../content/docs/**/entity.json', '../../../content/erm/**/entity.json', '../../../content/plugins/**/entity.json', '../../../content/wiki/**/entity.json'], {
   eager: true,
   import: 'default'
 }) as Record<string, ArticleMeta>;
 
-const markdownModules = import.meta.glob(['../../../content/docs/**/{ru,en}.md', '../../../content/erm/**/{ru,en}.md', '../../../content/plugins/**/{ru,en}.md'], {
+const markdownModules = import.meta.glob(['../../../content/docs/**/{ru,en}.md', '../../../content/erm/**/{ru,en}.md', '../../../content/plugins/**/{ru,en}.md', '../../../content/wiki/**/{ru,en}.md'], {
   query: '?raw',
   import: 'default'
 }) as Record<string, () => Promise<string>>;
@@ -767,7 +758,6 @@ for (const [path, load] of Object.entries(markdownModules)) {
 }
 
 const articleCache = new Map<string, Promise<Article>>();
-const catalogCache = new Map<'ru' | 'en', Promise<NonNullable<Article['catalog']>>>();
 
 function articleSection(meta: ArticleMeta) {
   return meta.section ?? 'docs';
@@ -779,25 +769,6 @@ function markdownLoader(directory: string, lang: 'ru' | 'en', id: string) {
   return load;
 }
 
-function getCatalog(lang: 'ru' | 'en') {
-  let request = catalogCache.get(lang);
-  if (request) return request;
-  request = Promise.all(publishedMeta.map(async ({ directory, meta }) => {
-    const raw = await markdownLoader(directory, lang, meta.id)();
-    const { frontmatter } = parseFrontmatter(raw);
-    return {
-      id: meta.id,
-      section: articleSection(meta),
-      slug: meta.slug,
-      title: frontmatter.title,
-      summary: frontmatter.summary,
-      keywords: meta.keywords,
-      questions: meta.questions
-    };
-  })).then((catalog) => catalog.sort((a, b) => a.title.localeCompare(b.title, lang)));
-  catalogCache.set(lang, request);
-  return request;
-}
 
 async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'ru' | 'en') {
   const { frontmatter, body } = parseFrontmatter(await markdownLoader(directory, lang, meta.id)());
@@ -860,7 +831,6 @@ async function materializeArticle(directory: string, meta: ArticleMeta, lang: 'r
     const symbolModule = await import('$lib/generated/symbol-index.json');
     article.symbols = symbolModule.default as SymbolEntry[];
   }
-  if (meta.slug === 'llm-map') article.catalog = await getCatalog(lang);
   return article;
 }
 

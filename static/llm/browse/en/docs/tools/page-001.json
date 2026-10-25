@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "docs.tools.catalog",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "tools/catalog",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/tools/catalog/",
+      "title": "ERA tool catalog",
+      "summary": "A verified inventory of the bundled Tools programs, grouped by task and risk level.",
+      "keywords": [
+        "MMArchive",
+        "Def Preview",
+        "Heroes3 Def Tool",
+        "DEFka",
+        "Txt Tables Editor",
+        "Object TXT Files Editor",
+        "Map Editor",
+        "Template Editor",
+        "SD Mod Manager",
+        "BinMagic",
+        "EVME",
+        "RS Bink Player",
+        "VfsTest"
+      ],
+      "questions": [
+        "Which programs are included with ERA Tools?",
+        "Which editor opens LOD, PAC, DEF, TXT, BIK, SMK, or RMG templates?",
+        "Which bundled utilities require extra caution?"
+      ],
+      "sourceRefs": [
+        "era-tools:mmarchive-help",
+        "era-tools:defpreview-help",
+        "era-tools:binmagic-help",
+        "era-tools:evme-help",
+        "era-tools:template-editor-help",
+        "era-tools:unc-to-bin",
+        "era-tools:mod-manager-format",
+        "era-tools:rsbink-player-help",
+        "era-tools:exe-builder-help",
+        "era-tools:def-tool-binary",
+        "era-tools:dialogs-editor-binary",
+        "era-tools:object-txt-editor-binary",
+        "era-tools:txt-editor-binary",
+        "era-tools:vfs-test-binary"
+      ],
+      "sectionSources": {},
+      "previous": "game/resources",
+      "next": "troubleshooting",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/tools/text-001.md",
+          "fromAnchor": "usage",
+          "toAnchor": "patches",
+          "headings": [
+            "How to read this catalog",
+            "Mods, editing, and diagnosis",
+            "Archives and tables",
+            "DEF, interface, and fonts",
+            "Maps and templates",
+            "Video and multimedia",
+            "Patches and specialized converters"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "docs.game.resource-loading",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "game/resource-loading",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/game/resource-loading/",
+      "title": "How ERA loads resources",
+      "summary": "A practical model of the VFS, archives, redirections, and caching for conflict diagnosis.",
+      "keywords": [
+        "VFS",
+        "resource loading",
+        "Data",
+        "PAC",
+        "LOD",
+        "ZIP",
+        "Redirections",
+        "cache"
+      ],
+      "questions": [
+        "How does ERA locate a game resource?",
+        "Which source wins when several mods provide the same file?",
+        "Why is a changed resource not visible until restart?"
+      ],
+      "sourceRefs": [
+        "era-source:lodman",
+        "era-source:reslib",
+        "era-source:gameext",
+        "era-changelog:3"
+      ],
+      "sectionSources": {},
+      "previous": "game",
+      "next": "game/resources",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/game/text-001.md",
+          "fromAnchor": "pipeline",
+          "toAnchor": "failure-map",
+          "headings": [
+            "From a game request to a file",
+            "Archives and loose files",
+            "Redirections",
+            "Priority and conflicts",
+            "Cache and repeat testing",
+            "Common failure map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.game.resources",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "game/resources",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/game/resources/",
+      "title": "Resource formats",
+      "summary": "A map of important game and ERA formats, their roles, and safe verification steps.",
+      "keywords": [
+        "LOD",
+        "PAC",
+        "DEF",
+        "TXT",
+        "JSON",
+        "ERT",
+        "ERS",
+        "PNG",
+        "WAV",
+        "SMK"
+      ],
+      "questions": [
+        "Which resource formats are used by Heroes III and ERA?",
+        "How do loose files, PAC archives, ZIP files, and redirections interact?"
+      ],
+      "sourceRefs": [
+        "era-source:lodman",
+        "era-source:reslib",
+        "era-changelog:3",
+        "old-help:index"
+      ],
+      "sectionSources": {},
+      "previous": "game/resource-loading",
+      "next": "tools/catalog",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/game/text-001.md",
+          "fromAnchor": "archives",
+          "toAnchor": "media",
+          "headings": [
+            "Archives",
+            "Graphics",
+            "Text and data",
+            "Audio, video, and fonts"
+          ]
+        }
+      ]
+    }
+  ]
+}

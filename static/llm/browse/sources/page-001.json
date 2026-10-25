@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "era-changelog:3",
+      "type": "changelog",
+      "title": "ERA III changelog",
+      "sourceSet": "era-changelog",
+      "relativeSourcePath": "era iii changelog.txt",
+      "locator": {
+        "note": "Used only for versioned, topic-specific facts."
+      },
+      "version": "through 3.9.30",
+      "sha256": "30353C0C34D9C69ED2408E13AC731FDE2E307C3E1312D2DD7A608555EA65A5EA"
+    },
+    {
+      "id": "era-changelog:era-ii-changelog.txt",
+      "type": "changelog",
+      "title": "era ii changelog.txt",
+      "sourceSet": "era-changelog",
+      "relativeSourcePath": "era ii changelog.txt",
+      "version": "through 2.9.14",
+      "sha256": "32D561EEE603CAC13AB642DDE762F9F3BF0379732C01553D2A92F6DB9CC1597D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 1364
+      }
+    },
+    {
+      "id": "era-changelog:era-iii-changelog.txt",
+      "type": "changelog",
+      "title": "era iii changelog.txt",
+      "sourceSet": "era-changelog",
+      "relativeSourcePath": "era iii changelog.txt",
+      "version": "through 3.9.30",
+      "sha256": "30353C0C34D9C69ED2408E13AC731FDE2E307C3E1312D2DD7A608555EA65A5EA",
+      "locator": {
+        "startLine": 1,
+        "endLine": 4121
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---consts.erm",
+      "type": "source-code",
+      "title": "lib/9999 era - consts.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - consts.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "AF239CA72F045BA0B1CBD5FBAAC01972BCD1C8B4B18A70B83AD28AA071663C81",
+      "locator": {
+        "startLine": 1,
+        "endLine": 1924
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---key-codes.erm",
+      "type": "source-code",
+      "title": "lib/9999 era - key codes.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - key codes.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "B1CA326F69B2972EF1E3BE1BFDF48CD830E7A9714F21B1D3BEA2905106B541EF",
+      "locator": {
+        "startLine": 1,
+        "endLine": 171
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 3371
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1011-1040: Array_Resize"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1041-1053: Array_EnsureMinSize"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1054-1084: Array_CountValue"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1085-1123: Array_IndexOf"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1124-1165: Array_Find"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1166-1172: Pow"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1173-1179: Sqrt"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1180-1193: IntLog2"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1194-1223: ConstructBitMask"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 12-15: ClearEventChainData"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1224-1240: DeconstructBitMask"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1241-1294: PackUnion"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 129-138: CollectMouseEventData"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1295-1333: UnpackUnion"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1334-1341: Tm32Encode"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1342-1349: Tm32Decode"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1350-1360: Hash32"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1361-1375: MakeRngSeed"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1376-1410: SplitMix32"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 139-141: SavePrevMouseEventData"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1411-1420: Trim"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 142-144: RestorePrevMouseEventData"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1421-1430: GetStrAtAddr"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1431-1442: CompareStrings"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1443-1457: StrToUpper"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-145-147-onsavegameread",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 145-147: OnSavegameRead"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1458-1472: StrToLower"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1473-1485: Substr"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 148-156: OnKeyPressed"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1486-1497: StrPos"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1498-1510: StrReplace"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1511-1520: Interpolate"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1521-1532: DecorateInt"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1533-1553: FormatQuantity"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1554-1565: FileExists"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1566-1577: DirExists"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 157-164: OnKeyReleased"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1578-1588: DeleteFile"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1589-1596: ClearIniCache"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1597-1604: EmptyIniCache"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 16-46: SaveEventData"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1605-1612: CreateDir"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1613-1620: SaveIni"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1621-1629: MergeIniWithDefault"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1630-1662: WriteIniInts"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 165-170: EnterMouseEvent"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1663-1696: WriteIniStrings"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1697-1735-readinistrings",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1697-1735: ReadIniStrings"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 171-174: LeaveMouseEvent"
+      }
+    },
+    {
+      "id": "era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints",
+      "type": "source-code",
+      "title": "lib/9999 era - stdlib.erm",
+      "sourceSet": "era-framework",
+      "relativeSourcePath": "lib/9999 era - stdlib.erm",
+      "version": "requires ERA 3.9.15+",
+      "sha256": "46C0B6A223097B251B87EC449EDD40ABBD9BFE375ED41D417A91CE76700C875D",
+      "locator": {
+        "note": "lines 1736-1777: ReadIniInts"
+      }
+    }
+  ]
+}

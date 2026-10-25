@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "order": "localeCompare(en)",
+  "field": "entities",
+  "count": 81,
+  "pages": [
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-001.json",
+      "count": 10,
+      "first": "Adventure-map magic (MG)",
+      "last": "After placing battle obstacles (OnAfterPlaceBattleObstacles)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-002.json",
+      "count": 10,
+      "first": "After saving (OnAfterSaveGame)",
+      "last": "Battlefield becomes visible (OnBattlefieldVisible)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-003.json",
+      "count": 10,
+      "first": "Battlefield setup (BF)",
+      "last": "Building a town structure (OnBuildTownBuilding)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-004.json",
+      "count": 10,
+      "first": "Calculating town income (OnCalculateTownIncome)",
+      "last": "Game chat (OnChat)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-005.json",
+      "count": 10,
+      "first": "Game timer (TM)",
+      "last": "Loading hero-screen data (OnLoadHeroScreen)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-006.json",
+      "count": 10,
+      "first": "Local-event visit (LE)",
+      "last": "Opening the hero screen (OnOpenHeroScreen)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-007.json",
+      "count": 10,
+      "first": "Passing control to a stack (OnBattleStackObtainsTurn)",
+      "last": "Sound playback (SN)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-008.json",
+      "count": 9,
+      "first": "Stack regeneration amount (OnBattleStackRegeneration)",
+      "last": "Wandering monsters (MW)"
+    },
+    {
+      "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/page-009.json",
+      "count": 2,
+      "first": "Winning the game (OnWinGame)",
+      "last": "Writing save data (OnSavegameWrite)"
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.h3dlg-getcurrentdlgid",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-getcurrentdlgid",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getcurrentdlgid/",
+      "title": "H3Dlg_GetCurrentDlgId",
+      "summary": "Returns the top dialog identifier from its virtual table, comparable to DLG_, or NULL.",
+      "keywords": [
+        "H3Dlg_GetCurrentDlgId",
+        "FU(H3Dlg_GetCurrentDlgId)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns the top dialog identifier from its virtual table, comparable to DLG_, or NULL."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-007.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3dlg-getrootdlg",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-getrootdlg",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getrootdlg/",
+      "title": "H3Dlg_GetRootDlg",
+      "summary": "Returns the root dialog address or NULL; usually the adventure map.",
+      "keywords": [
+        "H3Dlg_GetRootDlg",
+        "FU(H3Dlg_GetRootDlg)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns the root dialog address or NULL; usually the adventure map."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-007.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3dlg-resumeanimation",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-resumeanimation",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-resumeanimation/",
+      "title": "H3Dlg_ResumeAnimation",
+      "summary": "Stops/resumes current dialog animation through native functions. Keep calls balanced.",
+      "keywords": [
+        "H3Dlg_ResumeAnimation",
+        "FU(H3Dlg_ResumeAnimation)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Stops/resumes current dialog animation through native functions. Keep calls balanced."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-007.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3dlg-sendcmdtoitem",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-sendcmdtoitem",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-sendcmdtoitem/",
+      "title": "H3Dlg_SendCmdToItem",
+      "summary": "Sends a DLG_CMD_ to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number.",
+      "keywords": [
+        "H3Dlg_SendCmdToItem",
+        "FU(H3Dlg_SendCmdToItem)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Sends a DLG_CMD_ to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3dlg-showpopup",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-showpopup",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-showpopup/",
+      "title": "H3Dlg_ShowPopup",
+      "summary": "Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address.",
+      "keywords": [
+        "H3Dlg_ShowPopup",
+        "FU(H3Dlg_ShowPopup)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3dlg-stopanimation",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-stopanimation",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-stopanimation/",
+      "title": "H3Dlg_StopAnimation",
+      "summary": "Stops/resumes current dialog animation through native functions. Keep calls balanced.",
+      "keywords": [
+        "H3Dlg_StopAnimation",
+        "FU(H3Dlg_StopAnimation)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Stops/resumes current dialog animation through native functions. Keep calls balanced."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3dlg-updateitemrange",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3dlg-updateitemrange",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-updateitemrange/",
+      "title": "H3Dlg_UpdateItemRange",
+      "summary": "Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates.",
+      "keywords": [
+        "H3Dlg_UpdateItemRange",
+        "FU(H3Dlg_UpdateItemRange)",
+        "requires-review",
+        "dialogs"
+      ],
+      "questions": [
+        "Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.h3quests-refreshdata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/h3quests-refreshdata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3quests-refreshdata/",
+      "title": "H3Quests_RefreshData",
+      "summary": "Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures.",
+      "keywords": [
+        "H3Quests_RefreshData",
+        "FU(H3Quests_RefreshData)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.hash32",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/hash32",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/hash32/",
+      "title": "Hash32",
+      "summary": "Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised.",
+      "keywords": [
+        "Hash32",
+        "FU(Hash32)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.interpolate",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/interpolate",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/interpolate/",
+      "title": "Interpolate",
+      "summary": "Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs.",
+      "keywords": [
+        "Interpolate",
+        "FU(Interpolate)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.intlog2",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/intlog2",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/intlog2/",
+      "title": "IntLog2",
+      "summary": "Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit.",
+      "keywords": [
+        "IntLog2",
+        "FU(IntLog2)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.isdllloaded",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/isdllloaded",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/isdllloaded/",
+      "title": "IsDllLoaded",
+      "summary": "Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module.",
+      "keywords": [
+        "IsDllLoaded",
+        "FU(IsDllLoaded)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}

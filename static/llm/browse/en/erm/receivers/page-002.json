@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.receivers.ea",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ea",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ea/",
+      "title": "Creature experience and bonuses (EA)",
+      "summary": "EA receiver: creature experience and bonuses, command parameters, and limitations.",
+      "keywords": [
+        "EA",
+        "!!EA",
+        "EA:A",
+        "EA:B",
+        "EA:C",
+        "EA:D?",
+        "EA:E",
+        "EA:F",
+        "EA:O",
+        "EA:R"
+      ],
+      "questions": [
+        "EA receiver: creature experience and bonuses, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ea.htm",
+        "old-help:cont-stackexpbonus.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-a-h-s-t": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-b-2-3-4-5-15": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-c-l-m-p-u": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-d": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-e-1-2-3-4": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-f-f": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-o-mode": [
+          "old-help:rec-ea.htm"
+        ],
+        "command-r-1-2": [
+          "old-help:rec-ea.htm"
+        ],
+        "notes": [
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ea.htm"
+        ],
+        "ref-rec-ea": [
+          "old-help:rec-ea.htm"
+        ],
+        "ref-cont-stackexpbonus": [
+          "old-help:cont-stackexpbonus.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-010.md",
+          "fromAnchor": "ref-rec-ea",
+          "toAnchor": "ref-cont-stackexpbonus-n2",
+          "headings": [
+            "Receiver EA",
+            "Experience Bonuses: Optional"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-011.md",
+          "fromAnchor": "ref-cont-stackexpbonus-1",
+          "toAnchor": "ref-cont-stackexpbonus-18",
+          "headings": []
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-012.md",
+          "fromAnchor": "ref-cont-stackexpbonus-19",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.rd",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/rd",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/rd/",
+      "title": "Creature recruitment (RD)",
+      "summary": "RD receiver: creature recruitment, command parameters, and limitations.",
+      "keywords": [
+        "RD",
+        "!!RD",
+        "RD:C",
+        "RD:F",
+        "RD:I?",
+        "RD:Mkey/",
+        "RD:O",
+        "RD:S"
+      ],
+      "questions": [
+        "RD receiver: creature recruitment, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-rd.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-rd.htm"
+        ],
+        "command-c-slot-type-count-source-original": [
+          "old-help:rec-rd.htm"
+        ],
+        "command-f": [
+          "old-help:rec-rd.htm"
+        ],
+        "command-i-1-2-3-4": [
+          "old-help:rec-rd.htm"
+        ],
+        "command-mkey": [
+          "old-help:rec-rd.htm"
+        ],
+        "command-o-town-dwelling-destination-target-flags": [
+          "old-help:rec-rd.htm"
+        ],
+        "command-s": [
+          "old-help:rec-rd.htm"
+        ],
+        "notes": [
+          "old-help:rec-rd.htm"
+        ],
+        "related": [
+          "old-help:rec-rd.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-rd.htm"
+        ],
+        "ref-rec-rd": [
+          "old-help:rec-rd.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-030.md",
+          "fromAnchor": "ref-rec-rd",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver RD",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.ma",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ma",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ma/",
+      "title": "Creature-type attributes (MA)",
+      "summary": "MA receiver: creature-type attributes, command parameters, and limitations.",
+      "keywords": [
+        "MA",
+        "!!MA",
+        "MA:A",
+        "MA:B",
+        "MA:D",
+        "MA:E",
+        "MA:F",
+        "MA:G",
+        "MA:H",
+        "MA:I",
+        "MA:L",
+        "MA:M",
+        "MA:N",
+        "MA:O",
+        "MA:P",
+        "MA:R",
+        "MA:S",
+        "MA:V",
+        "MA:X",
+        "MA:C",
+        "MA:U"
+      ],
+      "questions": [
+        "MA receiver: creature-type attributes, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ma.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-a": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-b": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-d": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-e": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-f": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-g": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-h": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-i": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-l": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-m": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-n": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-o": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-p": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-r": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-s": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-v": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-x": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-c-1-2": [
+          "old-help:rec-ma.htm"
+        ],
+        "command-u": [
+          "old-help:rec-ma.htm"
+        ],
+        "notes": [
+          "old-help:rec-ma.htm"
+        ],
+        "related": [
+          "old-help:rec-ma.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ma.htm"
+        ],
+        "ref-rec-ma": [
+          "old-help:rec-ma.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
+          "fromAnchor": "ref-rec-ma",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver MA",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.bg",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/bg",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/bg/",
+      "title": "Current battle action (BG)",
+      "summary": "BG receiver: current battle action, command parameters, and limitations.",
+      "keywords": [
+        "BG",
+        "!!BG",
+        "BG:A",
+        "BG:D",
+        "BG:E?",
+        "BG:H?",
+        "BG:N?",
+        "BG:Q?",
+        "BG:S"
+      ],
+      "questions": [
+        "BG receiver: current battle action, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-bg.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-a": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-d": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-e": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-h": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-n": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-q": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-s": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "notes": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-bg": [
+          "old-help:rec-bg.htm"
+        ],
+        "era-notes": [
+          "old-help:rec-bg.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-002.md",
+          "fromAnchor": "ref-rec-bg",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver BG",
+            "Notes on modern ERA versions",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.dl",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/dl",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/dl/",
+      "title": "Custom dialogs (DL)",
+      "summary": "DL receiver: custom dialogs, command parameters, and limitations.",
+      "keywords": [
+        "DL",
+        "!!DL",
+        "DL:N^template.txt^ / S?",
+        "DL:A",
+        "DL:C",
+        "DL:E",
+        "DL:P"
+      ],
+      "questions": [
+        "DL receiver: custom dialogs, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-dl.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-n-template-txt-s": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-a-item-command-value-1": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-c": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-e-h": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-p-function": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "notes": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-dl": [
+          "old-help:rec-dl.htm"
+        ],
+        "era-notes": [
+          "old-help:rec-dl.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-008.md",
+          "fromAnchor": "ref-rec-dl",
+          "toAnchor": "ref-rec-dl-show25",
+          "headings": [
+            "Receiver DL",
+            "Template format."
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-009.md",
+          "fromAnchor": "ref-rec-dl-16",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Notes on modern ERA versions",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.sn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/sn",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/sn/",
+      "title": "ERA services, memory and sound (SN)",
+      "summary": "SN receiver: era services, memory and sound, command parameters, and limitations.",
+      "keywords": [
+        "SN",
+        "!!SN",
+        "SN:Pz",
+        "SN:L^library^/?handle / Ahandle/^export^/?address",
+        "SN:Eaddress/convention/args...",
+        "SN:F^export^/args...",
+        "SN:Baddress[/ ?resultAddress / value]",
+        "SN:C^constant^/?value[/?exists]",
+        "SN:D / O?x/?y/?level",
+        "SN:G[label] / Q",
+        "SN:H^monname^/",
+        "SN:H^object^/x/y/level/",
+        "SN:H^spec^/",
+        "SN:Istring/?result / T^key^/?result[/^name^/value...]",
+        "SN:R^old^/^new^",
+        "SN:M",
+        "SN:Kstring/?length / Kstring/index/",
+        "SN:W / W^key^ / W^key^/",
+        "SN:Xvalues..."
+      ],
+      "questions": [
+        "SN receiver: era services, memory and sound, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-sn.htm",
+        "old-help:rec-sn-era.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "old-help:era-api.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-pz-s": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-l-library-handle-ahandle-export-address": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-eaddress-convention-args": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-f-export-args": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-baddress-resultaddress-value": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-c-constant-value-exists": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-d-o-x-y-level": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-g-label-q": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-h-monname-h-secskill": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-h-object-x-y-level-h-object-type-subtype": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-h-spec-h-art-h-spell": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-istring-result-t-key-result-name-value": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-r-old-new": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-m-m-m-index-m-address-index": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-m-id-size-type-storage-result": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-m-id-size-type-storage-address-v-id-index-values": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-kstring-length-kstring-index-char-kbytes-source-destination-dummy": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-w-w-key-w-key": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-xvalues": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "notes": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-sn": [
+          "old-help:rec-sn.htm"
+        ],
+        "ref-rec-sn-era": [
+          "old-help:rec-sn-era.htm"
+        ],
+        "ref-era-api": [
+          "old-help:era-api.htm"
+        ],
+        "era-notes": [
+          "old-help:rec-sn.htm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "old-help:era-api.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-032.md",
+          "fromAnchor": "ref-rec-sn",
+          "toAnchor": "ref-rec-sn-era-h-spec",
+          "headings": [
+            "Receiver !!SN",
+            "Receiver SN: New instructions"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-033.md",
+          "fromAnchor": "ref-rec-sn-era-i",
+          "toAnchor": "ref-era-api-clini",
+          "headings": [
+            "Working with additional memory",
+            "Working with associative memory",
+            "Description API ERA",
+            "Description of exported ERA functions"
+          ]
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-034.md",
+          "fromAnchor": "ref-era-api-execerm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Notes on modern ERA versions",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.if",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/if",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/if/",
+      "title": "Flags, messages and choices (IF)",
+      "summary": "IF receiver: flags, messages and choices, command parameters, and limitations.",
+      "keywords": [
+        "IF",
+        "!!IF",
+        "IF:A0100010000 / S0100010000 / R0100010000 / V",
+        "IF:B",
+        "IF:D",
+        "IF:G",
+        "IF:L^text^ / M^text^ / M0/4/^text^ / M1/z",
+        "IF:Ntype/subtype/... / N^text^",
+        "IF:Q",
+        "IF:W"
+      ],
+      "questions": [
+        "IF receiver: flags, messages and choices, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-if.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "old-help:cont-db.htm",
+        "old-help:era-color-text.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-a0100010000-s0100010000-r0100010000-v": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-b-1-2-p": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-d-1-15-f-1-2-3-4-5-e": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-g-single-result-mask-title-item1-item12": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-l-text-m-text-m0-4-text-m1-z": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-ntype-subtype-n-text": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-q-text-q-type-subtype-type-subtype-mode-text": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "command-w-x": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "notes": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "modern-picture-dialog": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-if": [
+          "old-help:rec-if.htm"
+        ],
+        "ref-cont-db": [
+          "old-help:cont-db.htm"
+        ],
+        "ref-era-color-text": [
+          "old-help:era-color-text.htm"
+        ],
+        "era-notes": [
+          "old-help:rec-if.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "old-help:cont-db.htm",
+          "old-help:era-color-text.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-020.md",
+          "fromAnchor": "ref-rec-if",
+          "toAnchor": "command-w-x",
+          "headings": [
+            "Receiver IF"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-021.md",
+          "fromAnchor": "ref-rec-if-15",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Additional information for the IF receiver",
+            "View title",
+            "Interpretation of values in IF:Q",
+            "Dialogs",
+            "Dialog boxes (receiver IF)",
+            "Types of Dialog Boxes",
+            "Using Standard Dialog Boxes",
+            "Using the Advanced Dialog #1 - Multitasking Dialog",
+            "Using Advanced Dialogs #2 - Single Image/Animation Dialog",
+            "Advanced dialog #3: radio or checkbox dialog (up to 12 options)",
+            "Color text",
+            "Colored text",
+            "Notes on modern ERA versions",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

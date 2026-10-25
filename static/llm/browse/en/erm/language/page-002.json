@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.syntax",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "syntax",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/syntax/",
+      "title": "ERM syntax: ZVSE and ZVSE2",
+      "summary": "Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor.",
+      "keywords": [
+        "ERM syntax: ZVSE and ZVSE2"
+      ],
+      "questions": [
+        "Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor."
+      ],
+      "sourceRefs": [
+        "old-help:cont-zvse.htm",
+        "old-help:cont-receiversol.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "old-help:cont-ingener.htm"
+      ],
+      "sectionSources": {
+        "header": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "prefixes": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "anatomy": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "access": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declarations": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "comments": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-cont-ingener": [
+          "old-help:cont-ingener.htm"
+        ],
+        "ref-cont-receiversol": [
+          "old-help:cont-receiversol.htm"
+        ],
+        "ref-cont-zvse": [
+          "old-help:cont-zvse.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-007.md",
+          "fromAnchor": "ref-cont-receiversol",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receivers: General",
+            "Receivers",
+            "Introduction",
+            "How to use receivers",
+            "Receiver syntax",
+            "Related syntax",
+            "Current date syntax",
+            "Empty parameters",
+            "Multiple commands",
+            "Adding comments to your code",
+            "Using variables in receivers",
+            "Instructions",
+            "ZVSE",
+            "ZVSE",
+            "Header and language mode",
+            "Four prefixes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/",
+      "title": "ERM triggers and events",
+      "summary": "28 classic families and 104 registered ERA events.",
+      "keywords": [
+        "triggers",
+        "events",
+        "OnBeforeBattle",
+        "OnAfterBattle",
+        "OnBattleRound",
+        "OnBeforeBattleAction",
+        "OnAfterBattleAction",
+        "OnWanderingMonsterReach",
+        "OnWanderingMonsterDeath",
+        "OnMagicBasicResistance",
+        "OnMagicCorrectedResistance",
+        "OnDwarfMagicResistance",
+        "OnAdventureMapRightMouseClick",
+        "OnTownMouseClick",
+        "OnHeroScreenMouseClick",
+        "OnHeroesMeetScreenMouseClick",
+        "OnBattleScreenMouseClick",
+        "OnAdventureMapLeftMouseClick",
+        "OnUnequipArt",
+        "OnEquipArt",
+        "OnBattleMouseHint",
+        "OnTownMouseHint",
+        "OnMp3MusicChange",
+        "OnSoundPlay",
+        "OnBeforeAdventureMagic",
+        "OnAfterAdventureMagic",
+        "OnEnterTownHall",
+        "OnLeaveTownHall",
+        "OnBeforeBattleBeforeDataSend",
+        "OnBeforeBattleAfterDataReceived",
+        "OnAfterBattleBeforeDataSend",
+        "OnAfterBattleAfterDataReceived",
+        "OnOpenCommanderWindow",
+        "OnCloseCommanderWindow",
+        "OnAfterCommanderBuy",
+        "OnAfterCommanderResurrect",
+        "OnBeforeBattleForThisPcDefender",
+        "OnAfterBattleForThisPcDefender",
+        "OnBeforeBattleUniversal",
+        "OnAfterBattleUniversal",
+        "OnAfterLoadGame",
+        "OnBeforeSaveGame",
+        "OnAfterErmInstructions",
+        "OnCustomDialogEvent",
+        "OnHeroMove",
+        "OnHeroGainLevel",
+        "OnSetupBattlefield",
+        "OnMonsterPhysicalDamage",
+        "OnEverySecond",
+        "OnEvery2Seconds",
+        "OnEvery5Seconds",
+        "OnEvery10Seconds",
+        "OnEveryMinute",
+        "OnSavegameWrite",
+        "OnSavegameRead",
+        "OnKeyPressed",
+        "OnOpenHeroScreen",
+        "OnCloseHeroScreen",
+        "OnBattleStackObtainsTurn",
+        "OnBattleRegeneratePhase",
+        "OnAfterSaveGame",
+        "OnBeforeHeroInteraction",
+        "OnAfterHeroInteraction",
+        "OnStackToStackDamage",
+        "OnAICalcStackAttackEffect",
+        "OnChat",
+        "OnGameEnter",
+        "OnGameLeave",
+        "OnEveryDay",
+        "OnBeforeBattlefieldVisible",
+        "OnBattlefieldVisible",
+        "OnAfterTacticsPhase",
+        "OnOpenRecruitDlg",
+        "OnCloseRecruitDlg",
+        "OnRecruitDlgMouseClick",
+        "OnTownFortMouseClick",
+        "OnKingdomOverviewMouseClick",
+        "OnRecruitDlgRecalc",
+        "OnRecruitDlgAction",
+        "OnLoadHeroScreen",
+        "OnBuildTownBuilding",
+        "OnOpenTownScreen",
+        "OnCloseTownScreen",
+        "OnSwitchTownScreen",
+        "OnPreTownScreen",
+        "OnPostTownScreen",
+        "OnPreHeroScreen",
+        "OnPostHeroScreen",
+        "OnDetermineMonInfoDlgUpgrade",
+        "OnAdventureMapTileHint",
+        "OnBeforeBattleStackTurn",
+        "OnCalculateTownIncome",
+        "OnBattleReplay",
+        "OnBeforeBattleReplay",
+        "OnBeforeLocalEvent",
+        "OnAfterLocalEvent",
+        "OnWinGame",
+        "OnLoseGame",
+        "OnTransferHero",
+        "OnAfterHeroGainLevel",
+        "OnBattleActionEnd",
+        "OnAfterBuildTownBuilding",
+        "OnKeyReleased",
+        "OnBeforePlaceBattleObstacles",
+        "OnAfterPlaceBattleObstacles",
+        "OnBattleStackRegeneration"
+      ],
+      "questions": [
+        "28 classic families and 104 registered ERA events."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "old-help:cont-eventslist.htm",
+        "old-help:cont-logicevent.htm",
+        "old-help:cont-triggers.htm",
+        "old-help:cont-triggers-era.htm",
+        "old-help:cont-triggersol.htm"
+      ],
+      "sectionSources": {
+        "use": [
+          "era-source:erm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "legacy": [
+          "era-source:erm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era": [
+          "era-source:erm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "families": [
+          "era-source:erm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "order": [
+          "era-source:erm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-cont-eventslist": [
+          "old-help:cont-eventslist.htm"
+        ],
+        "ref-cont-logicevent": [
+          "old-help:cont-logicevent.htm"
+        ],
+        "ref-cont-triggers": [
+          "old-help:cont-triggers.htm"
+        ],
+        "ref-cont-triggers-era": [
+          "old-help:cont-triggers-era.htm"
+        ],
+        "ref-cont-triggersol": [
+          "old-help:cont-triggersol.htm"
+        ],
+        "ref-era-new-events": [
+          "old-help:era-new-events.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-009.md",
+          "fromAnchor": "ref-cont-eventslist",
+          "toAnchor": "ref-cont-logicevent-show7",
+          "headings": [
+            "List of events and triggers",
+            "Logic of triggering events and triggers",
+            "Event trigger logic"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-010.md",
+          "fromAnchor": "ref-cont-logicevent-8",
+          "toAnchor": "ref-era-new-events-show1",
+          "headings": [
+            "Triggers",
+            "Main triggers:",
+            "Triggers ERA",
+            "Triggers (events) :",
+            "Triggers: General",
+            "Triggers",
+            "Introduction",
+            "How to use triggers",
+            "Trigger syntax",
+            "Using Variables in Triggers",
+            "Double triggers",
+            "Trigger conditions",
+            "HANDBOOK",
+            "New events (triggers)"
+          ]
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-011.md",
+          "fromAnchor": "ref-era-new-events-2-1",
+          "toAnchor": "era",
+          "headings": [
+            "Enhanced Standard Events in ERA",
+            "Choosing an event",
+            "Named classic events",
+            "Additional ERA events"
+          ]
+        },
+        {
+          "part": 4,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-012.md",
+          "fromAnchor": "families",
+          "toAnchor": "reference-links",
+          "headings": [
+            "All 28 legacy trigger families",
+            "Lifecycle",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.functions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "functions",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/functions/",
+      "title": "Functions and parameters",
+      "summary": "FU declarations, x arguments, returning through GET arguments, and local variables.",
+      "keywords": [
+        "Functions and parameters"
+      ],
+      "questions": [
+        "FU declarations, x arguments, returning through GET arguments, and local variables."
+      ],
+      "sourceRefs": [
+        "old-help:rec-fu.htm",
+        "old-help:rec-do.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "call": [
+          "old-help:rec-fu.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "arguments": [
+          "old-help:rec-fu.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "return": [
+          "old-help:rec-fu.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "scope": [
+          "old-help:rec-fu.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "exit-network": [
+          "old-help:rec-fu.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-fu.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-003.md",
+          "fromAnchor": "call",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Declaration and call",
+            "Argument order",
+            "Output parameters",
+            "Local state and nested calls",
+            "Exit and network calls",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.grail-coordinates",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/grail-coordinates",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/grail-coordinates/",
+      "title": "Grail coordinates",
+      "summary": "Reads Grail data through the game-manager pointer. Latin y variables replace accidental Cyrillic lookalikes in the original post.",
+      "keywords": [
+        "grail-coordinates",
+        "UN:C",
+        "6919480",
+        "128656",
+        "128658",
+        "128660",
+        "128662"
+      ],
+      "questions": [
+        "Reads Grail data through the game-manager pointer. Latin y variables replace accidental Cyrillic lookalikes in the original post."
+      ],
+      "sourceRefs": [
+        "erm-forum:un-c-page-3.html"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:un-c-page-3.html"
+        ],
+        "code": [
+          "erm-forum:un-c-page-3.html"
+        ],
+        "limits": [
+          "erm-forum:un-c-page-3.html"
+        ],
+        "addresses": [
+          "erm-forum:un-c-page-3.html"
+        ],
+        "sources": [
+          "erm-forum:un-c-page-3.html"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "sources",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.start",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "start",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/start/",
+      "title": "Introduction to ERM",
+      "summary": "How a script is loaded and responds to Heroes III events.",
+      "keywords": [
+        "Introduction to ERM"
+      ],
+      "questions": [
+        "How a script is loaded and responds to Heroes III events."
+      ],
+      "sourceRefs": [
+        "old-help:cont-zvse.htm",
+        "old-help:cont-triggersol.htm",
+        "old-help:tr-pi.htm",
+        "old-help:tr-gm.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "old-help:cont-adv.htm",
+        "old-help:cont-mapmakers.htm",
+        "old-help:cont-wog.htm"
+      ],
+      "sectionSources": {
+        "model": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-triggersol.htm",
+          "old-help:tr-pi.htm",
+          "old-help:tr-gm.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "placement": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-triggersol.htm",
+          "old-help:tr-pi.htm",
+          "old-help:tr-gm.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "initialization": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-triggersol.htm",
+          "old-help:tr-pi.htm",
+          "old-help:tr-gm.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "example": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-triggersol.htm",
+          "old-help:tr-pi.htm",
+          "old-help:tr-gm.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "checking": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-triggersol.htm",
+          "old-help:tr-pi.htm",
+          "old-help:tr-gm.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:cont-zvse.htm",
+          "old-help:cont-triggersol.htm",
+          "old-help:tr-pi.htm",
+          "old-help:tr-gm.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-cont-adv": [
+          "old-help:cont-adv.htm"
+        ],
+        "ref-cont-mapmakers": [
+          "old-help:cont-mapmakers.htm"
+        ],
+        "ref-cont-wog": [
+          "old-help:cont-wog.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-006.md",
+          "fromAnchor": "ref-cont-adv",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Further Information",
+            "Mapmakers_tools",
+            "Mapper Toolkit",
+            "Auto-loading of customized WoG options for your card.",
+            "Create and include hero portraits in your map",
+            "Enabling WoG \"Cheat\" Menu to test a map or script",
+            "Files *.wog",
+            "*.wog files",
+            "Event → handler → commands",
+            "Where scripts live",
+            "New games and saved games",
+            "A minimal handler",
+            "Checking changes",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.learn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "learn",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/learn/",
+      "title": "Learning ERM",
+      "summary": "Learn ERM with AI: give the model the reference map, describe your task and test the result in the game.",
+      "keywords": [
+        "ERM",
+        "AI",
+        "Claude",
+        "GPT",
+        "LLM",
+        "learning"
+      ],
+      "questions": [
+        "How can I give an AI the ERM reference and request a script?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:reslib"
+      ],
+      "sectionSources": {
+        "ai": [
+          "era-source:gameext"
+        ],
+        "workflow": [
+          "era-source:gameext",
+          "era-source:reslib"
+        ],
+        "examples": [
+          "era-source:gameext"
+        ]
+      },
+      "previous": "start",
+      "next": "syntax",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-004.md",
+          "fromAnchor": "ai",
+          "toAnchor": "examples",
+          "headings": [
+            "Learn ERM with AI",
+            "From an idea to a working mod",
+            "Example prompts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.loops",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "loops",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/loops/",
+      "title": "Loops: re, br, co, and DO",
+      "summary": "Loop bounds, steps, nesting, and repeated function calls.",
+      "keywords": [
+        "Loops: re, br, co, and DO"
+      ],
+      "questions": [
+        "Loop bounds, steps, nesting, and repeated function calls."
+      ],
+      "sourceRefs": [
+        "old-help:rec-re.htm",
+        "old-help:rec-do.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "repeat": [
+          "old-help:rec-re.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "defaults": [
+          "old-help:rec-re.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "control": [
+          "old-help:rec-re.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "example": [
+          "old-help:rec-re.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "do": [
+          "old-help:rec-re.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "stop-modifier": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:rec-re.htm",
+          "old-help:rec-do.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-re": [
+          "old-help:rec-re.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-004.md",
+          "fromAnchor": "ref-rec-re",
+          "toAnchor": "reference-links",
+          "headings": [
+            "re-br-co",
+            "The re loop",
+            "Optional parameters",
+            "Continue and break",
+            "Summing a range",
+            "Repeated calls with DO",
+            "Stop modifier",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.beam-color",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/beam-color",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/beam-color/",
+      "title": "Reading beam color",
+      "summary": "For unmodified h3wog.exe: creatures 35..121; 0 green, 1 white, 2 black.",
+      "keywords": [
+        "beam-color",
+        "UN:C",
+        "4453793"
+      ],
+      "questions": [
+        "For unmodified h3wog.exe: creatures 35..121; 0 green, 1 white, 2 black."
+      ],
+      "sourceRefs": [
+        "erm-forum:faq-.html"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:faq-.html"
+        ],
+        "code": [
+          "erm-forum:faq-.html"
+        ],
+        "limits": [
+          "erm-forum:faq-.html"
+        ],
+        "addresses": [
+          "erm-forum:faq-.html"
+        ],
+        "sources": [
+          "erm-forum:faq-.html"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "sources",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.screen-size",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/screen-size",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/screen-size/",
+      "title": "Reading game resolution",
+      "summary": "Reads width and height from the two-byte fields used by the legacy HD implementation.",
+      "keywords": [
+        "screen-size",
+        "UN:C",
+        "4199496",
+        "4199503"
+      ],
+      "questions": [
+        "Reads width and height from the two-byte fields used by the legacy HD implementation."
+      ],
+      "sourceRefs": [
+        "erm-forum:un-c-page-1.html"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:un-c-page-1.html"
+        ],
+        "code": [
+          "erm-forum:un-c-page-1.html"
+        ],
+        "limits": [
+          "erm-forum:un-c-page-1.html"
+        ],
+        "addresses": [
+          "erm-forum:un-c-page-1.html"
+        ],
+        "sources": [
+          "erm-forum:un-c-page-1.html"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "sources",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands"
+          ]
+        }
+      ]
+    }
+  ]
+}

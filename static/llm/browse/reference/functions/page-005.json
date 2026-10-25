@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "SaveEventData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 16,
+      "endLine": 46,
+      "args": [
+        "firstArg"
+      ],
+      "calls": [],
+      "globals": [
+        "i^savedEventData^",
+        "i^savedEventDataPos^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/saveeventdata",
+      "review": "full-body",
+      "summary": "Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking."
+    },
+    {
+      "name": "SaveGame",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1987,
+      "endLine": 2009,
+      "args": [
+        "fileNamePtr",
+        "appendExtension",
+        "compressFile",
+        "saveToData",
+        "markInList"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ADDR_MARKED_SAVEGAME_NAME",
+        "CALLCONV_THISCALL",
+        "FALSE",
+        "GAME_MANAGER",
+        "TRUE",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/savegame",
+      "review": "full-body",
+      "summary": "Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection."
+    },
+    {
+      "name": "SaveIni",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1613,
+      "endLine": 1620,
+      "args": [
+        "filePathPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/saveini",
+      "review": "full-body",
+      "summary": "Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists."
+    },
+    {
+      "name": "SavePrevKeyModsState",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 88,
+      "endLine": 90,
+      "args": [],
+      "calls": [
+        "SaveEventData"
+      ],
+      "globals": [
+        "i^key^",
+        "i^key_down^",
+        "i^key_leftAlt^",
+        "i^key_rightAlt^",
+        "i^key_alt^",
+        "i^key_leftCtrl^",
+        "i^key_rightCtrl^",
+        "i^key_ctrl^",
+        "i^key_leftShift^",
+        "i^key_rightShift^",
+        "i^key_shift^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/saveprevkeymodsstate",
+      "review": "full-body",
+      "summary": "Saves 11 key and modifier globals for a nested event."
+    },
+    {
+      "name": "SavePrevMouseEventData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 139,
+      "endLine": 141,
+      "args": [],
+      "calls": [
+        "SaveEventData"
+      ],
+      "globals": [
+        "i^mouse_x^",
+        "i^mouse_y^",
+        "i^mouse_battleHex^",
+        "i^mouse_flags^",
+        "i^mouse_hero_0^",
+        "i^mouse_item^",
+        "i^mouse_mapX^",
+        "i^mouse_mapY^",
+        "i^mouse_mapZ^",
+        "i^mouse_action^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/saveprevmouseeventdata",
+      "review": "full-body",
+      "summary": "Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+    },
+    {
+      "name": "ScanDir",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1870,
+      "endLine": 1931,
+      "args": [
+        "dirPathPtr",
+        "fileList",
+        "itemsType",
+        "fullPaths"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "FILE_ATTRIBUTE_DIRECTORY",
+        "INVALID_HANDLE_VALUE",
+        "M_STR",
+        "SCAN_DIRS_ONLY",
+        "SCAN_FILES_ONLY",
+        "STRUCT_WIN32_FIND_DATA_ATTRS",
+        "STRUCT_WIN32_FIND_DATA_FILENAME",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/scandir",
+      "review": "full-body",
+      "summary": "Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_* (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot."
+    },
+    {
+      "name": "ShowAnimatedDefDlg",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2756,
+      "endLine": 2766,
+      "args": [
+        "textPtr",
+        "defNamePtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_CDECL"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/showanimateddefdlg",
+      "review": "full-body",
+      "summary": "Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1."
+    },
+    {
+      "name": "SplitMix32",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1376,
+      "endLine": 1410,
+      "args": [
+        "seed",
+        "min",
+        "max",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "INT_MAX",
+        "INT_MIN"
+      ],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/splitmix32",
+      "review": "full-body",
+      "summary": "P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state."
+    },
+    {
+      "name": "Sqrt",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1173,
+      "endLine": 1179,
+      "args": [
+        "value",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/sqrt",
+      "review": "full-body",
+      "summary": "Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root."
+    },
+    {
+      "name": "StrPos",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1486,
+      "endLine": 1497,
+      "args": [
+        "haystackPtr",
+        "needlePtr",
+        "result",
+        "offset"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/strpos",
+      "review": "full-body",
+      "summary": "Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1."
+    },
+    {
+      "name": "StrReplace",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1498,
+      "endLine": 1510,
+      "args": [
+        "sourcePtr",
+        "patternPtr",
+        "replacementPtr",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/strreplace",
+      "review": "full-body",
+      "summary": "Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger."
+    },
+    {
+      "name": "StrToLower",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1458,
+      "endLine": 1472,
+      "args": [
+        "strPtr",
+        "resultPtr"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [
+        "M_AUTO_ID",
+        "M_STR",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/strtolower",
+      "review": "full-body",
+      "summary": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization."
+    },
+    {
+      "name": "StrToUpper",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1443,
+      "endLine": 1457,
+      "args": [
+        "strPtr",
+        "resultPtr"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [
+        "M_AUTO_ID",
+        "M_STR",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/strtoupper",
+      "review": "full-body",
+      "summary": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization."
+    },
+    {
+      "name": "Substr",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1473,
+      "endLine": 1485,
+      "args": [
+        "strPtr",
+        "start",
+        "count",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/substr",
+      "review": "full-body",
+      "summary": "Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative."
+    },
+    {
+      "name": "Tm32Decode",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1342,
+      "endLine": 1349,
+      "args": [
+        "value",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/tm32decode",
+      "review": "full-body",
+      "summary": "Inverts Tm32Encode for a 32-bit value. Changes f and g."
+    },
+    {
+      "name": "Tm32Encode",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1334,
+      "endLine": 1341,
+      "args": [
+        "value",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/tm32encode",
+      "review": "full-body",
+      "summary": "Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption."
+    },
+    {
+      "name": "Trim",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1411,
+      "endLine": 1420,
+      "args": [
+        "strPtr",
+        "resultPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/trim",
+      "review": "full-body",
+      "summary": "Trims spaces and control bytes 0..32 from both ends; returns a new ERM string."
+    },
+    {
+      "name": "UnequipArtFromSlot",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3191,
+      "endLine": 3198,
+      "args": [
+        "hero",
+        "slot"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/unequipartfromslot",
+      "review": "full-body",
+      "summary": "Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment."
+    },
+    {
+      "name": "UnpackUnion",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1295,
+      "endLine": 1333,
+      "args": [
+        "packedValue",
+        "firstFieldArg"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "BITS_IN_INT32"
+      ],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/unpackunion",
+      "review": "full-body",
+      "summary": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+    },
+    {
+      "name": "UpdateBattleVars",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2848,
+      "endLine": 2904,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^battle_x^",
+        "i^battle_y^",
+        "i^battle_z^",
+        "i^battle_hero_vs_hero^",
+        "i^battle_hasHuman^",
+        "i^battle_humanOnly^",
+        "i^battle_aiOnly^",
+        "i^battle_isQuick^",
+        "i^battle_isVisible^",
+        "i^battle_isNetwork^",
+        "i^battle_type^",
+        "i^battle_owner_0^",
+        "i^battle_hero_0^",
+        "i^battle_ai_0^",
+        "i^battle_human_0^",
+        "i^battle_remote_0^",
+        "i^battle_local_0^",
+        "i^battle_localHuman_0^",
+        "i^battle_owner_1^",
+        "i^battle_hero_1^",
+        "i^battle_ai_1^",
+        "i^battle_human_1^",
+        "i^battle_remote_1^",
+        "i^battle_local_1^",
+        "i^battle_localHuman_1^"
+      ],
+      "constants": [
+        "BATTLE_TYPE_FLAG_LEFT_HAS_HERO",
+        "BATTLE_TYPE_FLAG_LEFT_HAS_OWNER",
+        "BATTLE_TYPE_FLAG_LEFT_IS_HUMAN",
+        "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO",
+        "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER",
+        "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN",
+        "FALSE",
+        "HERO_FIRST",
+        "NO_DEFENDING_HERO",
+        "NO_HERO",
+        "NO_OWNER",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/updatebattlevars",
+      "review": "full-body",
+      "summary": "Refreshes BA/OW data in battle_*: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO."
+    },
+    {
+      "name": "WriteIniInts",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1630,
+      "endLine": 1662,
+      "args": [
+        "filePathPtr",
+        "sectionNamePtr",
+        "firstKeyPtr",
+        "firstValue"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "HERO_ORRIN",
+        "HERO_XERON"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/writeiniints",
+      "review": "full-body",
+      "summary": "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+    },
+    {
+      "name": "WriteIniStrings",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1663,
+      "endLine": 1696,
+      "args": [
+        "filePathPtr",
+        "sectionNamePtr",
+        "firstKeyPtr",
+        "firstValue"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "HERO_ORRIN",
+        "HERO_XERON"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/writeinistrings",
+      "review": "full-body",
+      "summary": "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+    }
+  ]
+}

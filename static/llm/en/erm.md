@@ -1,7 +1,7 @@
 # ERM scripts
 
 ID: erm.overview
-URL: /en/erm/
+URL: https://asmedian.github.io/modding-guide/en/erm/
 Source references: old-help:cont-triggersol.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-abouthelp.htm, old-help:cont-links.htm, old-help:cont-main.htm, old-help:cont-wogteam.htm, old-help:index.htm, old-help:titre.htm
 
 Game events, ERM commands, and the ERA ERM Framework library.
@@ -97,7 +97,7 @@ Framework is an ERM library providing functions, constants, and prepared event c
 # ERM debugging and compatibility
 
 ID: erm.compatibility
-URL: /en/erm/compatibility/
+URL: https://asmedian.github.io/modding-guide/en/erm/compatibility/
 Source references: era-changelog:era-ii-changelog.txt, era-changelog:era-iii-changelog.txt, era-source:erm.pas, era-framework:lib-9999-era---stdlib.erm, old-help:cont-hd.htm, old-help:cont-te.htm, old-help:era-index.htm
 
 Version differences, execution context and script validation.
@@ -258,7 +258,7 @@ The archived ERM Help describes historical behavior. The rules below and the ver
 # Conditions and branches
 
 ID: erm.conditions
-URL: /en/erm/conditions/
+URL: https://asmedian.github.io/modding-guide/en/erm/conditions/
 Source references: old-help:cont-triggersol.htm, old-help:cont-flags.htm, old-help:rec-iee.htm, old-help:rec-re.htm, old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 
 Variable and flag checks, AND/OR conditions, and if/el/en blocks.
@@ -388,7 +388,7 @@ ZVSE2
 # ERM examples
 
 ID: erm.examples
-URL: /en/erm/examples/
+URL: https://asmedian.github.io/modding-guide/en/erm/examples/
 Source references: era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm, old-help:cont-lib.htm
 
 Small examples with explained preconditions and results.
@@ -604,7 +604,7 @@ Check new games and loading, repeated invocation and missing objects; for combat
 # SN:E ‚Äî calling by address
 
 ID: erm.examples.sn-e
-URL: /en/erm/examples/sn-e/
+URL: https://asmedian.github.io/modding-guide/en/erm/examples/sn-e/
 Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 
 Resolve GetKeyState from user32.dll, check the export, then call with left Shift code 160. The pressed state is bit 15 of the SHORT result; the example does not mutate game state.
@@ -647,7 +647,7 @@ Call `!!FU(MyMod_ReadShift):P?(pressed:y);`. Requires Windows and ERA. UI handle
 # SN:F ‚Äî calling an export
 
 ID: erm.examples.sn-f
-URL: /en/erm/examples/sn-f/
+URL: https://asmedian.github.io/modding-guide/en/erm/examples/sn-f/
 Source references: era-framework:lib-9999-era---stdlib.erm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, windows-api:getkeystate
 
 SN:F resolves and caches GetKeyState. Copy the result from v1 into the output argument immediately, then restore v1. Export names and ABI cannot be selected by superficial similarity.
@@ -685,7 +685,7 @@ Call `!!FU(MyMod_ReadShift):P?(pressed:y);`. Requires Windows and ERA. UI handle
 # ERA ERM Framework
 
 ID: erm.framework
-URL: /en/erm/framework/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 
 Standard helper library, event context and named constants.
@@ -719,7 +719,7 @@ The catalog distinguishes public, internal, event-handler, quit-handler and requ
 # ERA ERM Framework constants
 
 ID: erm.framework.constants
-URL: /en/erm/framework/constants/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/
 Source references: era-framework:lib-9999-era---consts.erm, era-framework:lib-9999-era---key-codes.erm, era-framework:lib-9999-era---stdlib.erm
 
 1838 definitions: game IDs, flags, command parameters, and key codes.
@@ -801,7 +801,7 @@ Use `(RES_GOLD)` instead of a numeric resource ID when the Framework constants f
 # Army Slots
 
 ID: erm.framework.constants.army-slots
-URL: /en/erm/framework/constants/army-slots/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/army-slots/
 Source references: era-framework:lib-9999-era---consts.erm
 
 9 named values: army slots.
@@ -833,7 +833,7 @@ The **Army Slots** group from the supplied Framework. Names and values below cor
 # Artifact Modifiers
 
 ID: erm.framework.constants.artfiact-modifiers
-URL: /en/erm/framework/constants/artfiact-modifiers/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/artfiact-modifiers/
 Source references: era-framework:lib-9999-era---consts.erm
 
 1 named values: artifact modifiers.
@@ -861,7 +861,7 @@ The **Artifact Modifiers** group from the supplied Framework. Names and values b
 # Artifacts
 
 ID: erm.framework.constants.artifacts
-URL: /en/erm/framework/constants/artifacts/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/
 Source references: era-framework:lib-9999-era---consts.erm
 
 177 named values: artifacts.
@@ -1065,7 +1065,7 @@ The **Artifacts** group from the supplied Framework. Names and values below corr
 # Assembler
 
 ID: erm.framework.constants.assembler
-URL: /en/erm/framework/constants/assembler/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/assembler/
 Source references: era-framework:lib-9999-era---consts.erm
 
 3 named values: assembler.
@@ -1095,7 +1095,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Battle Actions
 
 ID: erm.framework.constants.battle-actions
-URL: /en/erm/framework/constants/battle-actions/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/
 Source references: era-framework:lib-9999-era---consts.erm
 
 14 named values: battle actions.
@@ -1132,7 +1132,7 @@ The **Battle Actions** group from the supplied Framework. Names and values below
 # Battle Hexes
 
 ID: erm.framework.constants.battle-hexes
-URL: /en/erm/framework/constants/battle-hexes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-hexes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 3 named values: battle hexes.
@@ -1158,7 +1158,7 @@ The **Battle Hexes** group from the supplied Framework. Names and values below c
 # Battle Type Flags
 
 ID: erm.framework.constants.battle-type-flags
-URL: /en/erm/framework/constants/battle-type-flags/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/
 Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: battle type flags.
@@ -1191,7 +1191,7 @@ The **Battle Type Flags** group from the supplied Framework. Names and values be
 # Battle
 
 ID: erm.framework.constants.battle
-URL: /en/erm/framework/constants/battle/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/
 Source references: era-framework:lib-9999-era---consts.erm
 
 18 named values: battle.
@@ -1236,7 +1236,7 @@ The **Battle** group from the supplied Framework. Names and values below corresp
 # Bit Masks
 
 ID: erm.framework.constants.bit-masks
-URL: /en/erm/framework/constants/bit-masks/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/
 Source references: era-framework:lib-9999-era---consts.erm
 
 32 named values: bit masks.
@@ -1295,7 +1295,7 @@ The **Bit Masks** group from the supplied Framework. Names and values below corr
 # Bit Sizes
 
 ID: erm.framework.constants.bit-sizes
-URL: /en/erm/framework/constants/bit-sizes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: bit sizes.
@@ -1327,7 +1327,7 @@ The **Bit Sizes** group from the supplied Framework. Names and values below corr
 # Bits
 
 ID: erm.framework.constants.bits
-URL: /en/erm/framework/constants/bits/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/
 Source references: era-framework:lib-9999-era---consts.erm
 
 32 named values: bits.
@@ -1382,7 +1382,7 @@ The **Bits** group from the supplied Framework. Names and values below correspon
 # Bm:G Field Offsets
 
 ID: erm.framework.constants.bm-g-field-offsets
-URL: /en/erm/framework/constants/bm-g-field-offsets/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/
 Source references: era-framework:lib-9999-era---consts.erm
 
 14 named values: bm:g field offsets.
@@ -1423,7 +1423,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Calling Conventions
 
 ID: erm.framework.constants.calling-conventions
-URL: /en/erm/framework/constants/calling-conventions/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/
 Source references: era-framework:lib-9999-era---consts.erm
 
 11 named values: calling conventions.
@@ -1461,7 +1461,7 @@ The **Calling Conventions** group from the supplied Framework. Names and values 
 # Character Codes
 
 ID: erm.framework.constants.character-codes
-URL: /en/erm/framework/constants/character-codes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 62 named values: character codes.
@@ -1546,7 +1546,7 @@ The **Character Codes** group from the supplied Framework. Names and values belo
 # Data Types
 
 ID: erm.framework.constants.data-types
-URL: /en/erm/framework/constants/data-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 21 named values: data types.
@@ -1594,7 +1594,7 @@ The **Data Types** group from the supplied Framework. Names and values below cor
 # Dialog Action Types
 
 ID: erm.framework.constants.dialog-action-types
-URL: /en/erm/framework/constants/dialog-action-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: dialog action types.
@@ -1626,7 +1626,7 @@ The **Dialog Action Types** group from the supplied Framework. Names and values 
 # Dialog Item Ids
 
 ID: erm.framework.constants.dialog-item-ids
-URL: /en/erm/framework/constants/dialog-item-ids/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-item-ids/
 Source references: era-framework:lib-9999-era---consts.erm
 
 92 named values: dialog item ids.
@@ -1745,7 +1745,7 @@ The **Dialog Item Ids** group from the supplied Framework. Names and values belo
 # Dialogs
 
 ID: erm.framework.constants.dialogs
-URL: /en/erm/framework/constants/dialogs/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/
 Source references: era-framework:lib-9999-era---consts.erm
 
 18 named values: dialogs.
@@ -1790,7 +1790,7 @@ The **Dialogs** group from the supplied Framework. Names and values below corres
 # Era Chat Event
 
 ID: erm.framework.constants.era-chat-event
-URL: /en/erm/framework/constants/era-chat-event/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/
 Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: era chat event.
@@ -1819,7 +1819,7 @@ The **Era Chat Event** group from the supplied Framework. Names and values below
 # Erm Commands
 
 ID: erm.framework.constants.erm-commands
-URL: /en/erm/framework/constants/erm-commands/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/
 Source references: era-framework:lib-9999-era---consts.erm
 
 9 named values: erm commands.
@@ -1855,7 +1855,7 @@ The **Erm Commands** group from the supplied Framework. Names and values below c
 # Erm Flags
 
 ID: erm.framework.constants.erm-flags
-URL: /en/erm/framework/constants/erm-flags/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-flags/
 Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: erm flags.
@@ -1882,7 +1882,7 @@ The **Erm Flags** group from the supplied Framework. Names and values below corr
 # Game Functions
 
 ID: erm.framework.constants.game-functions
-URL: /en/erm/framework/constants/game-functions/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-functions/
 Source references: era-framework:lib-9999-era---consts.erm
 
 2 named values: game functions.
@@ -1911,7 +1911,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Game Limits
 
 ID: erm.framework.constants.game-limits
-URL: /en/erm/framework/constants/game-limits/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/
 Source references: era-framework:lib-9999-era---consts.erm
 
 12 named values: game limits.
@@ -1950,7 +1950,7 @@ The **Game Limits** group from the supplied Framework. Names and values below co
 # Game Managers
 
 ID: erm.framework.constants.game-managers
-URL: /en/erm/framework/constants/game-managers/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/
 Source references: era-framework:lib-9999-era---consts.erm
 
 10 named values: game managers.
@@ -1991,7 +1991,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Game Settings
 
 ID: erm.framework.constants.game-settings
-URL: /en/erm/framework/constants/game-settings/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/
 Source references: era-framework:lib-9999-era---consts.erm
 
 39 named values: game settings.
@@ -2053,7 +2053,7 @@ The **Game Settings** group from the supplied Framework. Names and values below 
 # Game Structures
 
 ID: erm.framework.constants.game-structures
-URL: /en/erm/framework/constants/game-structures/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-structures/
 Source references: era-framework:lib-9999-era---consts.erm
 
 26 named values: game structures.
@@ -2110,7 +2110,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Game Types
 
 ID: erm.framework.constants.game-types
-URL: /en/erm/framework/constants/game-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: game types.
@@ -2139,7 +2139,7 @@ The **Game Types** group from the supplied Framework. Names and values below cor
 # H3 Dialog Commands
 
 ID: erm.framework.constants.h3-dialog-commands
-URL: /en/erm/framework/constants/h3-dialog-commands/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/
 Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: h3 dialog commands.
@@ -2171,7 +2171,7 @@ The **H3 Dialog Commands** group from the supplied Framework. Names and values b
 # H3 Dialog Picture Types
 
 ID: erm.framework.constants.h3-dialog-picture-types
-URL: /en/erm/framework/constants/h3-dialog-picture-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 47 named values: h3 dialog picture types.
@@ -2245,7 +2245,7 @@ The **H3 Dialog Picture Types** group from the supplied Framework. Names and val
 # H3 Dialog Text Alignment
 
 ID: erm.framework.constants.h3-dialog-text-alignment
-URL: /en/erm/framework/constants/h3-dialog-text-alignment/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-text-alignment/
 Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: h3 dialog text alignment.
@@ -2278,7 +2278,7 @@ The **H3 Dialog Text Alignment** group from the supplied Framework. Names and va
 # H3 Message Dialog Types
 
 ID: erm.framework.constants.h3-message-dialog-types
-URL: /en/erm/framework/constants/h3-message-dialog-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-message-dialog-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: h3 message dialog types.
@@ -2306,7 +2306,7 @@ The **H3 Message Dialog Types** group from the supplied Framework. Names and val
 # Hero Artifact Levels
 
 ID: erm.framework.constants.hero-artifact-levels
-URL: /en/erm/framework/constants/hero-artifact-levels/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-levels/
 Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: hero artifact levels.
@@ -2335,7 +2335,7 @@ The **Hero Artifact Levels** group from the supplied Framework. Names and values
 # Hero Artifact Slots
 
 ID: erm.framework.constants.hero-artifact-slots
-URL: /en/erm/framework/constants/hero-artifact-slots/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/
 Source references: era-framework:lib-9999-era---consts.erm
 
 28 named values: hero artifact slots.
@@ -2390,7 +2390,7 @@ The **Hero Artifact Slots** group from the supplied Framework. Names and values 
 # Hero Classes
 
 ID: erm.framework.constants.hero-classes
-URL: /en/erm/framework/constants/hero-classes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 20 named values: hero classes.
@@ -2433,7 +2433,7 @@ The **Hero Classes** group from the supplied Framework. Names and values below c
 # Hero Skills
 
 ID: erm.framework.constants.hero-skills
-URL: /en/erm/framework/constants/hero-skills/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/
 Source references: era-framework:lib-9999-era---consts.erm, old-help:form-primaryskill.htm
 
 41 named values: hero skills.
@@ -2523,7 +2523,7 @@ The **Hero Skills** group from the supplied Framework. Names and values below co
 # Heroes
 
 ID: erm.framework.constants.heroes
-URL: /en/erm/framework/constants/heroes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 164 named values: heroes.
@@ -2714,7 +2714,7 @@ The **Heroes** group from the supplied Framework. Names and values below corresp
 # Key Codes
 
 ID: erm.framework.constants.key-codes
-URL: /en/erm/framework/constants/key-codes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/key-codes/
 Source references: era-framework:lib-9999-era---key-codes.erm, old-help:form-keys.htm
 
 171 named values: key codes.
@@ -3130,7 +3130,7 @@ The **Key Codes** group from the supplied Framework. Names and values below corr
 # Monster Aggression Level
 
 ID: erm.framework.constants.monster-aggression-level
-URL: /en/erm/framework/constants/monster-aggression-level/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/
 Source references: era-framework:lib-9999-era---consts.erm
 
 10 named values: monster aggression level.
@@ -3163,7 +3163,7 @@ The **Monster Aggression Level** group from the supplied Framework. Names and va
 # Monster Flags
 
 ID: erm.framework.constants.monster-flags
-URL: /en/erm/framework/constants/monster-flags/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-flags/
 Source references: era-framework:lib-9999-era---consts.erm
 
 32 named values: monster flags.
@@ -3218,7 +3218,7 @@ The **Monster Flags** group from the supplied Framework. Names and values below 
 # Monsters
 
 ID: erm.framework.constants.monsters
-URL: /en/erm/framework/constants/monsters/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/
 Source references: era-framework:lib-9999-era---consts.erm
 
 205 named values: monsters.
@@ -3450,7 +3450,7 @@ The **Monsters** group from the supplied Framework. Names and values below corre
 # Mouse Click Subtypes
 
 ID: erm.framework.constants.mouse-click-subtypes
-URL: /en/erm/framework/constants/mouse-click-subtypes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/mouse-click-subtypes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: mouse click subtypes.
@@ -3481,7 +3481,7 @@ The **Mouse Click Subtypes** group from the supplied Framework. Names and values
 # Mouse Clicks
 
 ID: erm.framework.constants.mouse-clicks
-URL: /en/erm/framework/constants/mouse-clicks/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/mouse-clicks/
 Source references: era-framework:lib-9999-era---consts.erm
 
 5 named values: mouse clicks.
@@ -3509,7 +3509,7 @@ The **Mouse Clicks** group from the supplied Framework. Names and values below c
 # Mouse Wheel Subtypes
 
 ID: erm.framework.constants.mouse-wheel-subtypes
-URL: /en/erm/framework/constants/mouse-wheel-subtypes/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/mouse-wheel-subtypes/
 Source references: era-framework:lib-9999-era---consts.erm
 
 2 named values: mouse wheel subtypes.
@@ -3534,7 +3534,7 @@ The **Mouse Wheel Subtypes** group from the supplied Framework. Names and values
 # Object Types
 
 ID: erm.framework.constants.object-types
-URL: /en/erm/framework/constants/object-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 230 named values: object types.
@@ -3791,7 +3791,7 @@ The **Object Types** group from the supplied Framework. Names and values below c
 # Player Bits
 
 ID: erm.framework.constants.player-bits
-URL: /en/erm/framework/constants/player-bits/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/
 Source references: era-framework:lib-9999-era---consts.erm
 
 8 named values: player bits.
@@ -3822,7 +3822,7 @@ The **Player Bits** group from the supplied Framework. Names and values below co
 # Players
 
 ID: erm.framework.constants.players
-URL: /en/erm/framework/constants/players/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/
 Source references: era-framework:lib-9999-era---consts.erm
 
 15 named values: players.
@@ -3864,7 +3864,7 @@ The **Players** group from the supplied Framework. Names and values below corres
 # Quest Rewards
 
 ID: erm.framework.constants.quest-rewards
-URL: /en/erm/framework/constants/quest-rewards/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/
 Source references: era-framework:lib-9999-era---consts.erm
 
 11 named values: quest rewards.
@@ -3898,7 +3898,7 @@ The **Quest Rewards** group from the supplied Framework. Names and values below 
 # Quest Types
 
 ID: erm.framework.constants.quest-types
-URL: /en/erm/framework/constants/quest-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 10 named values: quest types.
@@ -3935,7 +3935,7 @@ The **Quest Types** group from the supplied Framework. Names and values below co
 # Radio Dialogs
 
 ID: erm.framework.constants.radio-dialogs
-URL: /en/erm/framework/constants/radio-dialogs/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/radio-dialogs/
 Source references: era-framework:lib-9999-era---stdlib.erm
 
 3 named values: radio dialogs.
@@ -3965,7 +3965,7 @@ The **Radio Dialogs** group from the supplied Framework. Names and values below 
 # Resources
 
 ID: erm.framework.constants.resources
-URL: /en/erm/framework/constants/resources/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/
 Source references: era-framework:lib-9999-era---consts.erm
 
 13 named values: resources.
@@ -4001,7 +4001,7 @@ The **Resources** group from the supplied Framework. Names and values below corr
 # Special Enums
 
 ID: erm.framework.constants.special-enums
-URL: /en/erm/framework/constants/special-enums/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/special-enums/
 Source references: era-framework:lib-9999-era---consts.erm
 
 12 named values: special enums.
@@ -4040,7 +4040,7 @@ The **Special Enums** group from the supplied Framework. Names and values below 
 # Spell Schools
 
 ID: erm.framework.constants.spell-schools
-URL: /en/erm/framework/constants/spell-schools/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-schools/
 Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: spell schools.
@@ -4067,7 +4067,7 @@ The **Spell Schools** group from the supplied Framework. Names and values below 
 # Spell Texts For Sn H
 
 ID: erm.framework.constants.spell-texts-for-sn-h
-URL: /en/erm/framework/constants/spell-texts-for-sn-h/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/spell-texts-for-sn-h/
 Source references: era-framework:lib-9999-era---consts.erm
 
 7 named values: spell texts for sn h.
@@ -4097,7 +4097,7 @@ The **Spell Texts For Sn H** group from the supplied Framework. Names and values
 # Spells
 
 ID: erm.framework.constants.spells
-URL: /en/erm/framework/constants/spells/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/
 Source references: era-framework:lib-9999-era---consts.erm
 
 78 named values: spells.
@@ -4202,7 +4202,7 @@ The **Spells** group from the supplied Framework. Names and values below corresp
 # Stack Experience
 
 ID: erm.framework.constants.stack-experience
-URL: /en/erm/framework/constants/stack-experience/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/stack-experience/
 Source references: era-framework:lib-9999-era---consts.erm
 
 1 named values: stack experience.
@@ -4226,7 +4226,7 @@ The **Stack Experience** group from the supplied Framework. Names and values bel
 # Towns
 
 ID: erm.framework.constants.towns
-URL: /en/erm/framework/constants/towns/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/towns/
 Source references: era-framework:lib-9999-era---consts.erm
 
 15 named values: towns.
@@ -4264,7 +4264,7 @@ The **Towns** group from the supplied Framework. Names and values below correspo
 # Un:C Data Types
 
 ID: erm.framework.constants.un-c-data-types
-URL: /en/erm/framework/constants/un-c-data-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/un-c-data-types/
 Source references: era-framework:lib-9999-era---consts.erm
 
 8 named values: un:c data types.
@@ -4299,7 +4299,7 @@ The **Un:C Data Types** group from the supplied Framework. Names and values belo
 # Universal
 
 ID: erm.framework.constants.universal
-URL: /en/erm/framework/constants/universal/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/universal/
 Source references: era-framework:lib-9999-era---consts.erm
 
 4 named values: universal.
@@ -4330,7 +4330,7 @@ The **Universal** group from the supplied Framework. Names and values below corr
 # Useful Addresses
 
 ID: erm.framework.constants.useful-addresses
-URL: /en/erm/framework/constants/useful-addresses/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/
 Source references: era-framework:lib-9999-era---consts.erm
 
 6 named values: useful addresses.
@@ -4367,7 +4367,7 @@ This group contains internal values, offsets, or addresses. They describe the su
 # Win32 Api
 
 ID: erm.framework.constants.win32-api
-URL: /en/erm/framework/constants/win32-api/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/win32-api/
 Source references: era-framework:lib-9999-era---consts.erm
 
 3 named values: win32 api.
@@ -4397,7 +4397,7 @@ The **Win32 Api** group from the supplied Framework. Names and values below corr
 # Wog Options
 
 ID: erm.framework.constants.wog-options
-URL: /en/erm/framework/constants/wog-options/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/constants/wog-options/
 Source references: era-framework:lib-9999-era---consts.erm
 
 22 named values: wog options.
@@ -4446,7 +4446,7 @@ The **Wog Options** group from the supplied Framework. Names and values below co
 # Framework events
 
 ID: erm.framework.events
-URL: /en/erm/framework/events/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/events/
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Additional events, extended context, and final-handler ordering.
@@ -4560,7 +4560,7 @@ OnEveryDay gains five arguments and timer* globals. Keyboard and mouse events ga
 # Framework functions
 
 ID: erm.framework.functions
-URL: /en/erm/framework/functions/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm, era-changelog:era-iii-changelog.txt
 
 Complete catalog of 185 functions and handlers, with contracts and limitations.
@@ -4800,7 +4800,7 @@ All 185 function declarations were examined as complete bodies from both stdlib 
 # ActivateNextStack
 
 ID: erm.framework.functions.activatenextstack
-URL: /en/erm/framework/functions/activatenextstack/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/activatenextstack/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2837-2847-activatenextstack
 
 Invokes next-stack selection. This snapshot assigns the result only when result<>0: an output initialized to 0 is not updated. Initialize it nonzero or use a corrected version.
@@ -4840,7 +4840,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # AddArtToHero
 
 ID: erm.framework.functions.addarttohero
-URL: /en/erm/framework/functions/addarttohero/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/addarttohero/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3155-3169-addarttohero
 
 Tries to equip an artifact, then falls back to the backpack; returns success. Automatically assembles combination artifacts and checks victory conditions.
@@ -4883,7 +4883,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3155‚
 # AdvMap_SetHint
 
 ID: erm.framework.functions.advmap-sethint
-URL: /en/erm/framework/functions/advmap-sethint/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-sethint/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2363-2376-advmap-sethint
 
 Immediately updates the adventure-map hint only when the root window is DLG_ADVMAP. Chat text may remain hidden until the next input.
@@ -4927,7 +4927,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2363‚
 # AdvMap_SetInfoPanelDef
 
 ID: erm.framework.functions.advmap-setinfopaneldef
-URL: /en/erm/framework/functions/advmap-setinfopaneldef/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneldef/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2404-2455-advmap-setinfopaneldef
 
 Shows text and a DEF frame in the map panel, defaulting to 5000 ms. Temporarily replaces and restores two native DEF-name operands. Changes z1/v1; without defName calls the text variant.
@@ -4974,7 +4974,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2404‚
 # AdvMap_SetInfoPanelText
 
 ID: erm.framework.functions.advmap-setinfopaneltext
-URL: /en/erm/framework/functions/advmap-setinfopaneltext/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/advmap-setinfopaneltext/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2377-2403-advmap-setinfopaneltext
 
 Shows nonempty text in the map information panel for timeToDisplay milliseconds (default 5000). Uses s^temp_text^ and changes v1.
@@ -5015,7 +5015,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2377‚
 # Array_Clone
 
 ID: erm.framework.functions.array-clone
-URL: /en/erm/framework/functions/array-clone/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-clone/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-619-630-array-clone
 
 Creates an array copy owned by the caller trigger and returns its ID. Strings are copied as values.
@@ -5060,7 +5060,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 619‚Ä
 # Array_Copy
 
 ID: erm.framework.functions.array-copy
-URL: /en/erm/framework/functions/array-copy/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-copy/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-587-618-array-copy
 
 Replaces dstArray with srcArray contents and resizes it. Both arrays must exist and share an element type.
@@ -5101,7 +5101,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 587‚Ä
 # Array_CountValue
 
 ID: erm.framework.functions.array-countvalue
-URL: /en/erm/framework/functions/array-countvalue/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-countvalue/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1054-1084-array-countvalue
 
 Returns the number of value matches. For strings, caseInsensitive defaults to FALSE; uses lstrcmpA/lstrcmpiA.
@@ -5144,7 +5144,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1054‚
 # Array_CustomSort
 
 ID: erm.framework.functions.array-customsort
-URL: /en/erm/framework/functions/array-customsort/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-customsort/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-835-889-array-customsort
 
 Stable sort using callback(value1,value2,state,?result), with negative/zero/positive results defining order. String values are z indices. State defaults to 0; the inclusive range defaults to the entire array.
@@ -5188,7 +5188,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 835‚Ä
 # Array_EnsureMinSize
 
 ID: erm.framework.functions.array-ensureminsize
-URL: /en/erm/framework/functions/array-ensureminsize/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-ensureminsize/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1041-1053-array-ensureminsize
 
 Grows an array to minSize when needed and fills new items. Never shrinks it.
@@ -5228,7 +5228,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1041‚
 # Array_Fill
 
 ID: erm.framework.functions.array-fill
-URL: /en/erm/framework/functions/array-fill/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-fill/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-982-1010-array-fill
 
 Fills an integer array with startValue, startValue+step‚Ä¶; step defaults to 0. The inclusive range defaults to the whole array. It writes raw 32-bit values; do not pass a string array.
@@ -5268,7 +5268,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 982‚Ä
 # Array_Find
 
 ID: erm.framework.functions.array-find
-URL: /en/erm/framework/functions/array-find/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-find/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find
 
 Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0.
@@ -5309,7 +5309,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1124‚
 # Array_IndexOf
 
 ID: erm.framework.functions.array-indexof
-URL: /en/erm/framework/functions/array-indexof/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-indexof/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof
 
 Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive.
@@ -5352,7 +5352,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1085‚
 # Array_Join
 
 ID: erm.framework.functions.array-join
-URL: /en/erm/framework/functions/array-join/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-join/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join
 
 Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^.
@@ -5392,7 +5392,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 744‚Ä
 # Array_Merge
 
 ID: erm.framework.functions.array-merge
-URL: /en/erm/framework/functions/array-merge/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-merge/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge
 
 Appends one or more arrays to dstArray. All element types must match; the destination is modified.
@@ -5452,7 +5452,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 631‚Ä
 # Array_Move
 
 ID: erm.framework.functions.array-move
-URL: /en/erm/framework/functions/array-move/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-move/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move
 
 Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use.
@@ -5502,7 +5502,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # Array_Pop
 
 ID: erm.framework.functions.array-pop
-URL: /en/erm/framework/functions/array-pop/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-pop/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop
 
 Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings.
@@ -5541,7 +5541,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 401‚Ä
 # Array_Push
 
 ID: erm.framework.functions.array-push
-URL: /en/erm/framework/functions/array-push/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-push/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push
 
 Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped.
@@ -5580,7 +5580,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 376‚Ä
 # Array_Resize
 
 ID: erm.framework.functions.array-resize
-URL: /en/erm/framework/functions/array-resize/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-resize/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize
 
 Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed.
@@ -5620,7 +5620,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1011‚
 # Array_Revert
 
 ID: erm.framework.functions.array-revert
-URL: /en/erm/framework/functions/array-revert/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-revert/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert
 
 Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings.
@@ -5658,7 +5658,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 956‚Ä
 # Array_Shuffle
 
 ID: erm.framework.functions.array-shuffle
-URL: /en/erm/framework/functions/array-shuffle/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-shuffle/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle
 
 Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic.
@@ -5698,7 +5698,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 934‚Ä
 # Array_Slice
 
 ID: erm.framework.functions.array-slice
-URL: /en/erm/framework/functions/array-slice/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-slice/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice
 
 Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.
@@ -5754,7 +5754,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 689‚Ä
 # Array_Sort
 
 ID: erm.framework.functions.array-sort
-URL: /en/erm/framework/functions/array-sort/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sort/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort
 
 Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped.
@@ -5796,7 +5796,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 781‚Ä
 # Array_SortedUnique
 
 ID: erm.framework.functions.array-sortedunique
-URL: /en/erm/framework/functions/array-sortedunique/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sortedunique/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique
 
 Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected.
@@ -5840,7 +5840,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 890‚Ä
 # Array_Splice
 
 ID: erm.framework.functions.array-splice
-URL: /en/erm/framework/functions/array-splice/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-splice/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice
 
 Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move.
@@ -5935,7 +5935,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # Battle_RedrawGridShadow
 
 ID: erm.framework.functions.battle-redrawgridshadow
-URL: /en/erm/framework/functions/battle-redrawgridshadow/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/battle-redrawgridshadow/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow
 
 Refreshes movement-range shading after a speed change. Requires an existing combat manager.
@@ -5969,7 +5969,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2799‚
 # BattleStack_MakeActive
 
 ID: erm.framework.functions.battlestack-makeactive
-URL: /en/erm/framework/functions/battlestack-makeactive/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/battlestack-makeactive/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive
 
 Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists.
@@ -6011,7 +6011,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2817‚
 # BattleStack_Shoot
 
 ID: erm.framework.functions.battlestack-shoot
-URL: /en/erm/framework/functions/battlestack-shoot/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/battlestack-shoot/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot
 
 Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first.
@@ -6052,7 +6052,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2804‚
 # ChangeArtModAtSlot
 
 ID: erm.framework.functions.changeartmodatslot
-URL: /en/erm/framework/functions/changeartmodatslot/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/changeartmodatslot/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot
 
 Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD.
@@ -6096,7 +6096,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3134‚
 # ClearEventChainData
 
 ID: erm.framework.functions.cleareventchaindata
-URL: /en/erm/framework/functions/cleareventchaindata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/cleareventchaindata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata
 
 Clears the internal event-context stack and its position when loading a save.
@@ -6124,7 +6124,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 12‚
 # ClearIniCache
 
 ID: erm.framework.functions.clearinicache
-URL: /en/erm/framework/functions/clearinicache/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/clearinicache/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache
 
 Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file.
@@ -6160,7 +6160,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1589‚
 # ClearScreenLog
 
 ID: erm.framework.functions.clearscreenlog
-URL: /en/erm/framework/functions/clearscreenlog/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/clearscreenlog/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog
 
 Clears green on-screen log messages.
@@ -6190,7 +6190,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2357‚
 # CollectMouseEventData
 
 ID: erm.framework.functions.collectmouseeventdata
-URL: /en/erm/framework/functions/collectmouseeventdata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/collectmouseeventdata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata
 
 Copies CM context to mouse_ and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key.
@@ -6222,7 +6222,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 129
 # CompareStrings_Bridge_INTERNAL
 
 ID: erm.framework.functions.comparestrings-bridge-internal
-URL: /en/erm/framework/functions/comparestrings-bridge-internal/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/comparestrings-bridge-internal/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal
 
 String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string.
@@ -6259,7 +6259,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 813
 # CompareStrings
 
 ID: erm.framework.functions.comparestrings
-URL: /en/erm/framework/functions/comparestrings/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/comparestrings/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings
 
 Compares two ERM strings with language operators and returns -1, 0, or 1.
@@ -6295,7 +6295,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1431‚
 # ConstructBitMask
 
 ID: erm.framework.functions.constructbitmask
-URL: /en/erm/framework/functions/constructbitmask/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/constructbitmask/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1194-1223-constructbitmask
 
 Combines up to 15 bit positions 0..31 into a mask; the last argument is the output. Repeated positions do not double a bit because OR is used. Requires a position and an output.
@@ -6345,7 +6345,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1194‚
 # CreateDir
 
 ID: erm.framework.functions.createdir
-URL: /en/erm/framework/functions/createdir/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/createdir/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1605-1612-createdir
 
 Calls CreateDirectoryA for one directory without returning its result. Does not guarantee creation of missing parent directories.
@@ -6381,7 +6381,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1605‚
 # DeconstructBitMask
 
 ID: erm.framework.functions.deconstructbitmask
-URL: /en/erm/framework/functions/deconstructbitmask/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/deconstructbitmask/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1224-1240-deconstructbitmask
 
 Returns a new local integer array of set-bit positions 0..31, with lifetime extended to the caller context.
@@ -6422,7 +6422,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1224‚
 # DecorateInt
 
 ID: erm.framework.functions.decorateint
-URL: /en/erm/framework/functions/decorateint/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/decorateint/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1521-1532-decorateint
 
 Formats an integer using era.locale.thousand_separator. ignoreSmallNumbers=DONT_DECORATE_SMALL_INTS leaves values up to 9999 ungrouped. Output is a string.
@@ -6460,7 +6460,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1521‚
 # DeleteFile
 
 ID: erm.framework.functions.deletefile
-URL: /en/erm/framework/functions/deletefile/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/deletefile/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1578-1588-deletefile
 
 Deletes a file using DeleteFileA; TRUE means deletion succeeded. Does not delete directory trees.
@@ -6501,7 +6501,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1578‚
 # DirExists
 
 ID: erm.framework.functions.direxists
-URL: /en/erm/framework/functions/direxists/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/direxists/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1566-1577-direxists
 
 Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.
@@ -6542,7 +6542,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1566‚
 # DisableErrors
 
 ID: erm.framework.functions.disableerrors
-URL: /en/erm/framework/functions/disableerrors/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/disableerrors/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2010-2013-disableerrors
 
 Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation.
@@ -6574,7 +6574,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2010‚
 # DL_AlignDlg
 
 ID: erm.framework.functions.dl-aligndlg
-URL: /en/erm/framework/functions/dl-aligndlg/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-aligndlg/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2290-2331-dl-aligndlg
 
 Aligns an existing DL dialog using TEXT_ALIGN_ bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM.
@@ -6621,7 +6621,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2290‚
 # DL_CenterAtMouse
 
 ID: erm.framework.functions.dl-centeratmouse
-URL: /en/erm/framework/functions/dl-centeratmouse/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-centeratmouse/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2215-2222-dl-centeratmouse
 
 Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.
@@ -6665,7 +6665,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2215‚
 # DL_Coords
 
 ID: erm.framework.functions.dl-coords
-URL: /en/erm/framework/functions/dl-coords/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-coords/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2223-2255-dl-coords
 
 Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.
@@ -6718,7 +6718,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2223‚
 # DL_Destroy
 
 ID: erm.framework.functions.dl-destroy
-URL: /en/erm/framework/functions/dl-destroy/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-destroy/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2192-2197-dl-destroy
 
 Destroys a DL wrapper by address. Do not reuse the destroyed address.
@@ -6754,7 +6754,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2192‚
 # DL_FindById
 
 ID: erm.framework.functions.dl-findbyid
-URL: /en/erm/framework/functions/dl-findbyid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-findbyid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2184-2191-dl-findbyid
 
 Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1.
@@ -6795,7 +6795,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2184‚
 # DL_GetSize
 
 ID: erm.framework.functions.dl-getsize
-URL: /en/erm/framework/functions/dl-getsize/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-getsize/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize
 
 Returns the width and height of an existing DL dialog; reports an error if absent.
@@ -6843,7 +6843,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2256‚
 # DL_SetPlayerColor
 
 ID: erm.framework.functions.dl-setplayercolor
-URL: /en/erm/framework/functions/dl-setplayercolor/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setplayercolor/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor
 
 Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.
@@ -6890,7 +6890,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2332‚
 # DL_SetSize
 
 ID: erm.framework.functions.dl-setsize
-URL: /en/erm/framework/functions/dl-setsize/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setsize/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize
 
 Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged.
@@ -6938,7 +6938,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2273‚
 # DL_ShowPopup
 
 ID: erm.framework.functions.dl-showpopup
-URL: /en/erm/framework/functions/dl-showpopup/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-showpopup/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup
 
 Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.
@@ -6982,7 +6982,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2198‚
 # EmptyIniCache
 
 ID: erm.framework.functions.emptyinicache
-URL: /en/erm/framework/functions/emptyinicache/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/emptyinicache/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache
 
 Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.
@@ -7018,7 +7018,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1597‚
 # EnableErrors
 
 ID: erm.framework.functions.enableerrors
-URL: /en/erm/framework/functions/enableerrors/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/enableerrors/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors
 
 Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library.
@@ -7056,7 +7056,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # EnterMouseEvent
 
 ID: erm.framework.functions.entermouseevent
-URL: /en/erm/framework/functions/entermouseevent/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/entermouseevent/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent
 
 Saves previous keyboard/mouse context, then reads modifiers and CM for the new event.
@@ -7088,7 +7088,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 165
 # EquipArtToSlot
 
 ID: erm.framework.functions.equiparttoslot
-URL: /en/erm/framework/functions/equiparttoslot/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/equiparttoslot/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot
 
 Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots.
@@ -7132,7 +7132,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3170‚
 # FileExists
 
 ID: erm.framework.functions.fileexists
-URL: /en/erm/framework/functions/fileexists/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/fileexists/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists
 
 Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.
@@ -7173,7 +7173,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1554‚
 # FormatQuantity
 
 ID: erm.framework.functions.formatquantity
-URL: /en/erm/framework/functions/formatquantity/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/formatquantity/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity
 
 Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported.
@@ -7216,7 +7216,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1533‚
 # GetArtAtSlot
 
 ID: erm.framework.functions.getartatslot
-URL: /en/erm/framework/functions/getartatslot/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getartatslot/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3111-3133-getartatslot
 
 Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot.
@@ -7261,7 +7261,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3111‚
 # GetDegradedMonCandidates
 
 ID: erm.framework.functions.getdegradedmoncandidates
-URL: /en/erm/framework/functions/getdegradedmoncandidates/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getdegradedmoncandidates/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3038-3054-getdegradedmoncandidates
 
 Scans all supported types and returns a local array of creatures upgrading to monId. Multiple candidates are possible; a full scan is expensive with extended limits.
@@ -7306,7 +7306,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3038‚
 # GetHeroPortraitName
 
 ID: erm.framework.functions.getheroportraitname
-URL: /en/erm/framework/functions/getheroportraitname/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getheroportraitname/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3062-3080-getheroportraitname
 
 Returns current small/large portrait filenames for a hero. Reads the structure table by ID; validate the range first.
@@ -7344,7 +7344,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3062‚
 # GetHeroPrimarySkillsWithoutArts
 
 ID: erm.framework.functions.getheroprimaryskillswithoutarts
-URL: /en/erm/framework/functions/getheroprimaryskillswithoutarts/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getheroprimaryskillswithoutarts/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3081-3110-getheroprimaryskillswithoutarts
 
 Temporarily removes 19 equipped artifacts, reads HE:F, then re-equips them. Fires OnUnequipArt/OnEquipArt; this operation has event side effects.
@@ -7390,7 +7390,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3081‚
 # GetKeyModsState
 
 ID: erm.framework.functions.getkeymodsstate
-URL: /en/erm/framework/functions/getkeymodsstate/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getkeymodsstate/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-94-128-getkeymodsstate, windows-api:getkeystate
 
 Polls left/right Alt, Ctrl and Shift with GetKeyState and updates key_; each combined flag is the OR of both sides.
@@ -7426,7 +7426,7 @@ Source discrepancy: the implementation tests GetKeyState with `d>>7`, whereas Wi
 # GetMaxArtifactId
 
 ID: erm.framework.functions.getmaxartifactid
-URL: /en/erm/framework/functions/getmaxartifactid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxartifactid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3199-3208-getmaxartifactid
 
 This snapshot simply returns ART_LAST_WOG. Despite its comment about extensions, it does not query a dynamic plugin limit.
@@ -7464,7 +7464,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3199‚
 # GetMaxHeroId
 
 ID: erm.framework.functions.getmaxheroid
-URL: /en/erm/framework/functions/getmaxheroid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxheroid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3055-3061-getmaxheroid
 
 Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity.
@@ -7504,7 +7504,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3055‚
 # GetMaxMonsterId
 
 ID: erm.framework.functions.getmaxmonsterid
-URL: /en/erm/framework/functions/getmaxmonsterid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxmonsterid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3020-3027-getmaxmonsterid
 
 Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity.
@@ -7544,7 +7544,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3020‚
 # GetMaxSpellId
 
 ID: erm.framework.functions.getmaxspellid
-URL: /en/erm/framework/functions/getmaxspellid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmaxspellid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3209-3216-getmaxspellid
 
 Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin.
@@ -7582,7 +7582,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3209‚
 # GetModList
 
 ID: erm.framework.functions.getmodlist
-URL: /en/erm/framework/functions/getmodlist/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getmodlist/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1932-1986-getmodlist
 
 Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it.
@@ -7630,7 +7630,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1932‚
 # GetProcessGuid
 
 ID: erm.framework.functions.getprocessguid
-URL: /en/erm/framework/functions/getprocessguid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getprocessguid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2926-2935-getprocessguid
 
 Returns a 32-character identifier for this game-process run. Distinguishes a restart from loading a save in the same process.
@@ -7666,7 +7666,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2926‚
 # GetStrAtAddr
 
 ID: erm.framework.functions.getstrataddr
-URL: /en/erm/framework/functions/getstrataddr/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getstrataddr/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1421-1430-getstrataddr
 
 Copies a null-terminated string at strAddr into an output ERM string; NULL yields empty text. Non-null memory must be readable.
@@ -7701,7 +7701,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1421‚
 # GetTextFileString
 
 ID: erm.framework.functions.gettextfilestring
-URL: /en/erm/framework/functions/gettextfilestring/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/gettextfilestring/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3217-3284-gettextfilestring
 
 Reads a zero-based row from loaded randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent resources. Normalizes the name; unknown names return Wrong txt filename!. Does not validate row bounds.
@@ -7754,7 +7754,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3217‚
 # GetTextTableString
 
 ID: erm.framework.functions.gettexttablestring
-URL: /en/erm/framework/functions/gettexttablestring/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/gettexttablestring/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3285-3320-gettexttablestring
 
 Reads a bldgspec, help, or znpc00 cell by rowIndex/colIndex. Despite the ‚Äúget or set‚Äù comment, this snapshot has no write branch. The caller must validate indices.
@@ -7801,7 +7801,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3285‚
 # GetTimeMsec
 
 ID: erm.framework.functions.gettimemsec
-URL: /en/erm/framework/functions/gettimemsec/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/gettimemsec/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2914-2925-gettimemsec
 
 Returns milliseconds since OS startup via timeGetTime. The 32-bit counter wraps after about 49.71 days; it is not the in-game date.
@@ -7841,7 +7841,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2914‚
 # GetUpgradedMonster
 
 ID: erm.framework.functions.getupgradedmonster
-URL: /en/erm/framework/functions/getupgradedmonster/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/getupgradedmonster/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3028-3037-getupgradedmonster
 
 Returns the creature upgrade or NO_MON (-1) when absent.
@@ -7882,7 +7882,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3028‚
 # H3Dlg_CenterAtMouse
 
 ID: erm.framework.functions.h3dlg-centeratmouse
-URL: /en/erm/framework/functions/h3dlg-centeratmouse/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-centeratmouse/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2088-2102-h3dlg-centeratmouse
 
 Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first.
@@ -7922,7 +7922,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2088‚
 # H3Dlg_Coords
 
 ID: erm.framework.functions.h3dlg-coords
-URL: /en/erm/framework/functions/h3dlg-coords/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-coords/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2038-2087-h3dlg-coords
 
 Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N.
@@ -7971,7 +7971,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2038‚
 # H3Dlg_DrawItemOnScreen
 
 ID: erm.framework.functions.h3dlg-drawitemonscreen
-URL: /en/erm/framework/functions/h3dlg-drawitemonscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-drawitemonscreen/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2152-2166-h3dlg-drawitemonscreen
 
 Draws itemId or the entire dialog for ALL_ITEMS. The H3Dlg object must exist.
@@ -8014,7 +8014,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2152‚
 # H3Dlg_GetCurrentDlg
 
 ID: erm.framework.functions.h3dlg-getcurrentdlg
-URL: /en/erm/framework/functions/h3dlg-getcurrentdlg/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getcurrentdlg/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2109-2114-h3dlg-getcurrentdlg
 
 Returns the topmost dialog address or NULL. This address is not its DLG_ identifier.
@@ -8054,7 +8054,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2109‚
 # H3Dlg_GetCurrentDlgId
 
 ID: erm.framework.functions.h3dlg-getcurrentdlgid
-URL: /en/erm/framework/functions/h3dlg-getcurrentdlgid/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getcurrentdlgid/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2115-2125-h3dlg-getcurrentdlgid
 
 Returns the top dialog identifier from its virtual table, comparable to DLG_, or NULL.
@@ -8094,7 +8094,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2115‚
 # H3Dlg_GetRootDlg
 
 ID: erm.framework.functions.h3dlg-getrootdlg
-URL: /en/erm/framework/functions/h3dlg-getrootdlg/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-getrootdlg/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2103-2108-h3dlg-getrootdlg
 
 Returns the root dialog address or NULL; usually the adventure map.
@@ -8134,7 +8134,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2103‚
 # H3Dlg_ResumeAnimation
 
 ID: erm.framework.functions.h3dlg-resumeanimation
-URL: /en/erm/framework/functions/h3dlg-resumeanimation/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-resumeanimation/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2026-2029-h3dlg-resumeanimation
 
 Stops/resumes current dialog animation through native functions. Keep calls balanced.
@@ -8164,7 +8164,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2026‚
 # H3Dlg_SendCmdToItem
 
 ID: erm.framework.functions.h3dlg-sendcmdtoitem
-URL: /en/erm/framework/functions/h3dlg-sendcmdtoitem/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-sendcmdtoitem/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2126-2151-h3dlg-sendcmdtoitem
 
 Sends a DLG_CMD_ to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number.
@@ -8210,7 +8210,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2126‚
 # H3Dlg_ShowPopup
 
 ID: erm.framework.functions.h3dlg-showpopup
-URL: /en/erm/framework/functions/h3dlg-showpopup/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-showpopup/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2030-2037-h3dlg-showpopup
 
 Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address.
@@ -8254,7 +8254,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2030‚
 # H3Dlg_StopAnimation
 
 ID: erm.framework.functions.h3dlg-stopanimation
-URL: /en/erm/framework/functions/h3dlg-stopanimation/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-stopanimation/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2022-2025-h3dlg-stopanimation
 
 Stops/resumes current dialog animation through native functions. Keep calls balanced.
@@ -8284,7 +8284,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2022‚
 # H3Dlg_UpdateItemRange
 
 ID: erm.framework.functions.h3dlg-updateitemrange
-URL: /en/erm/framework/functions/h3dlg-updateitemrange/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3dlg-updateitemrange/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2167-2183-h3dlg-updateitemrange
 
 Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates.
@@ -8328,7 +8328,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # H3Quests_RefreshData
 
 ID: erm.framework.functions.h3quests-refreshdata
-URL: /en/erm/framework/functions/h3quests-refreshdata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/h3quests-refreshdata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3321-3370-h3quests-refreshdata
 
 Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures.
@@ -8368,7 +8368,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3321‚
 # Hash32
 
 ID: erm.framework.functions.hash32
-URL: /en/erm/framework/functions/hash32/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/hash32/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1350-1360-hash32
 
 Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised.
@@ -8406,7 +8406,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1350‚
 # Interpolate
 
 ID: erm.framework.functions.interpolate
-URL: /en/erm/framework/functions/interpolate/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/interpolate/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1511-1520-interpolate
 
 Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs.
@@ -8443,7 +8443,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1511‚
 # IntLog2
 
 ID: erm.framework.functions.intlog2
-URL: /en/erm/framework/functions/intlog2/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/intlog2/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1180-1193-intlog2
 
 Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit.
@@ -8480,7 +8480,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1180‚
 # IsDllLoaded
 
 ID: erm.framework.functions.isdllloaded
-URL: /en/erm/framework/functions/isdllloaded/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/isdllloaded/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2936-2949-isdllloaded
 
 Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module.
@@ -8521,7 +8521,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2936‚
 # LeaveMouseEvent
 
 ID: erm.framework.functions.leavemouseevent
-URL: /en/erm/framework/functions/leavemouseevent/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/leavemouseevent/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent
 
 Restores mouse context followed by keyboard context from the final handlers.
@@ -8553,7 +8553,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 171
 # LoadIntGlobalsFromJson
 
 ID: erm.framework.functions.loadintglobalsfromjson
-URL: /en/erm/framework/functions/loadintglobalsfromjson/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/loadintglobalsfromjson/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson
 
 Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged.
@@ -8595,7 +8595,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1835‚
 # MakeRngSeed
 
 ID: erm.framework.functions.makerngseed
-URL: /en/erm/framework/functions/makerngseed/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/makerngseed/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed
 
 Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed.
@@ -8635,7 +8635,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1361‚
 # MergeIniWithDefault
 
 ID: erm.framework.functions.mergeiniwithdefault
-URL: /en/erm/framework/functions/mergeiniwithdefault/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/mergeiniwithdefault/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault
 
 Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni.
@@ -8672,7 +8672,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1621‚
 # MonCountToFuzzyText
 
 ID: erm.framework.functions.moncounttofuzzytext
-URL: /en/erm/framework/functions/moncounttofuzzytext/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/moncounttofuzzytext/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext
 
 Returns an approximate count: 1‚Äì4, 5‚Äì9, 10‚Äì19, 20‚Äì49, 50‚Äì99, 100‚Äì249, 250‚Äì499, 500‚Äì999 and K+/M+. MON_FUZZY_COUNT_ selects formatting; 0 falls into 1‚Äì4 and negative input is an error.
@@ -8720,7 +8720,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2950‚
 # NewIntArray
 
 ID: erm.framework.functions.newintarray
-URL: /en/erm/framework/functions/newintarray/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/newintarray/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray
 
 Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0.
@@ -8768,7 +8768,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 301‚Ä
 # NewStrArray
 
 ID: erm.framework.functions.newstrarray
-URL: /en/erm/framework/functions/newstrarray/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/newstrarray/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray
 
 Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address.
@@ -8812,7 +8812,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 337‚Ä
 # OnAdventureMapLeftMouseClick_Quit
 
 ID: erm.framework.functions.onadventuremapleftmouseclick-quit
-URL: /en/erm/framework/functions/onadventuremapleftmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremapleftmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit
 
 Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -8844,7 +8844,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnAdventureMapLeftMouseClick
 
 ID: erm.framework.functions.onadventuremapleftmouseclick
-URL: /en/erm/framework/functions/onadventuremapleftmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremapleftmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -8876,7 +8876,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnAdventureMapRightMouseClick_Quit
 
 ID: erm.framework.functions.onadventuremaprightmouseclick-quit
-URL: /en/erm/framework/functions/onadventuremaprightmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremaprightmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit
 
 Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -8908,7 +8908,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnAdventureMapRightMouseClick
 
 ID: erm.framework.functions.onadventuremaprightmouseclick
-URL: /en/erm/framework/functions/onadventuremaprightmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremaprightmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -8940,7 +8940,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnAfterErmInstructions_Quit
 
 ID: erm.framework.functions.onaftererminstructions-quit
-URL: /en/erm/framework/functions/onaftererminstructions-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onaftererminstructions-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-3-7-onaftererminstructions-quit
 
 Final handler for OnAfterErmInstructions: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -8976,7 +8976,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnAfterErmInstructions
 
 ID: erm.framework.functions.onaftererminstructions
-URL: /en/erm/framework/functions/onaftererminstructions/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onaftererminstructions/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions
 
 Creates the Framework daily timer and resets last-day tracking.
@@ -9004,7 +9004,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnAfterLoadGame_Quit
 
 ID: erm.framework.functions.onafterloadgame-quit
-URL: /en/erm/framework/functions/onafterloadgame-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onafterloadgame-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-8-12-onafterloadgame-quit
 
 Final handler for OnAfterLoadGame: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9040,7 +9040,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBattleMouseHint_Quit
 
 ID: erm.framework.functions.onbattlemousehint-quit
-URL: /en/erm/framework/functions/onbattlemousehint-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlemousehint-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-64-66-onbattlemousehint-quit
 
 Final handler for OnBattleMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9072,7 +9072,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBattleMouseHint
 
 ID: erm.framework.functions.onbattlemousehint
-URL: /en/erm/framework/functions/onbattlemousehint/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlemousehint/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-202-204-onbattlemousehint
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -9104,7 +9104,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleReplay
 
 ID: erm.framework.functions.onbattlereplay
-URL: /en/erm/framework/functions/onbattlereplay/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlereplay/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2905-2913-onbattlereplay
 
 Resets round/acting stack and refreshes combat parameters for replay.
@@ -9140,7 +9140,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleRound
 
 ID: erm.framework.functions.onbattleround
-URL: /en/erm/framework/functions/onbattleround/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattleround/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-266-268-onbattleround
 
 Updates battle_round from the current round context.
@@ -9168,7 +9168,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleScreenMouseClick_Quit
 
 ID: erm.framework.functions.onbattlescreenmouseclick-quit
-URL: /en/erm/framework/functions/onbattlescreenmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlescreenmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-49-51-onbattlescreenmouseclick-quit
 
 Final handler for OnBattleScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9200,7 +9200,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBattleScreenMouseClick
 
 ID: erm.framework.functions.onbattlescreenmouseclick
-URL: /en/erm/framework/functions/onbattlescreenmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlescreenmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-187-189-onbattlescreenmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -9232,7 +9232,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBattleStackObtainsTurn
 
 ID: erm.framework.functions.onbattlestackobtainsturn
-URL: /en/erm/framework/functions/onbattlestackobtainsturn/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlestackobtainsturn/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-275-284-onbattlestackobtainsturn
 
 Converts side/index to a global stack ID and accounts for hypnosis when determining the current side.
@@ -9271,7 +9271,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBeforeBattle_Quit
 
 ID: erm.framework.functions.onbeforebattle-quit
-URL: /en/erm/framework/functions/onbeforebattle-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattle-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-74-76-onbeforebattle-quit
 
 Final handler for OnBeforeBattle: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9303,7 +9303,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBeforeBattle
 
 ID: erm.framework.functions.onbeforebattle
-URL: /en/erm/framework/functions/onbeforebattle/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattle/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-251-254-onbeforebattle
 
 Resets battle_round to INT_MIN before actual combat.
@@ -9339,7 +9339,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBeforeBattleAction
 
 ID: erm.framework.functions.onbeforebattleaction
-URL: /en/erm/framework/functions/onbeforebattleaction/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleaction/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-285-291-onbeforebattleaction
 
 Reads BG:N/Q into battle_acting_stack/side and updates visible/quick combat flags.
@@ -9371,7 +9371,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBeforeBattleStackTurn
 
 ID: erm.framework.functions.onbeforebattlestackturn
-URL: /en/erm/framework/functions/onbeforebattlestackturn/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattlestackturn/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn
 
 Stores activeStack in battle_current_stack.
@@ -9405,7 +9405,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnBeforeBattleUniversal_Quit
 
 ID: erm.framework.functions.onbeforebattleuniversal-quit
-URL: /en/erm/framework/functions/onbeforebattleuniversal-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleuniversal-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit
 
 Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9437,7 +9437,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnBeforeBattleUniversal
 
 ID: erm.framework.functions.onbeforebattleuniversal
-URL: /en/erm/framework/functions/onbeforebattleuniversal/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleuniversal/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal
 
 Refreshes battle_ and resets current/acting stack context. May run in theoretical AI combat with no combat manager.
@@ -9473,7 +9473,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnCustomDialogEvent_Quit
 
 ID: erm.framework.functions.oncustomdialogevent-quit
-URL: /en/erm/framework/functions/oncustomdialogevent-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/oncustomdialogevent-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit
 
 Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9505,7 +9505,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnCustomDialogEvent
 
 ID: erm.framework.functions.oncustomdialogevent
-URL: /en/erm/framework/functions/oncustomdialogevent/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/oncustomdialogevent/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -9543,7 +9543,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnEveryDay
 
 ID: erm.framework.functions.oneveryday
-URL: /en/erm/framework/functions/oneveryday/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/oneveryday/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday
 
 Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player.
@@ -9585,7 +9585,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnHeroesMeetScreenMouseClick_Quit
 
 ID: erm.framework.functions.onheroesmeetscreenmouseclick-quit
-URL: /en/erm/framework/functions/onheroesmeetscreenmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroesmeetscreenmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit
 
 Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9617,7 +9617,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnHeroesMeetScreenMouseClick
 
 ID: erm.framework.functions.onheroesmeetscreenmouseclick
-URL: /en/erm/framework/functions/onheroesmeetscreenmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroesmeetscreenmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -9649,7 +9649,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnHeroScreenMouseClick_Quit
 
 ID: erm.framework.functions.onheroscreenmouseclick-quit
-URL: /en/erm/framework/functions/onheroscreenmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroscreenmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit
 
 Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9681,7 +9681,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnHeroScreenMouseClick
 
 ID: erm.framework.functions.onheroscreenmouseclick
-URL: /en/erm/framework/functions/onheroscreenmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroscreenmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -9713,7 +9713,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnKeyPressed_Quit
 
 ID: erm.framework.functions.onkeypressed-quit
-URL: /en/erm/framework/functions/onkeypressed-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeypressed-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit
 
 Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9758,7 +9758,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnKeyPressed
 
 ID: erm.framework.functions.onkeypressed
-URL: /en/erm/framework/functions/onkeypressed/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeypressed/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed
 
 Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.
@@ -9798,7 +9798,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnKeyReleased_Quit
 
 ID: erm.framework.functions.onkeyreleased-quit
-URL: /en/erm/framework/functions/onkeyreleased-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeyreleased-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-26-36-onkeyreleased-quit
 
 Final handler for OnKeyReleased: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9844,7 +9844,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnKeyReleased
 
 ID: erm.framework.functions.onkeyreleased
-URL: /en/erm/framework/functions/onkeyreleased/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeyreleased/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-157-164-onkeyreleased
 
 Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.
@@ -9883,7 +9883,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnKingdomOverviewMouseClick_Quit
 
 ID: erm.framework.functions.onkingdomoverviewmouseclick-quit
-URL: /en/erm/framework/functions/onkingdomoverviewmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkingdomoverviewmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-61-63-onkingdomoverviewmouseclick-quit
 
 Final handler for OnKingdomOverviewMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9915,7 +9915,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnKingdomOverviewMouseClick
 
 ID: erm.framework.functions.onkingdomoverviewmouseclick
-URL: /en/erm/framework/functions/onkingdomoverviewmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkingdomoverviewmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-199-201-onkingdomoverviewmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -9947,7 +9947,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnRecruitDlgMouseClick_Quit
 
 ID: erm.framework.functions.onrecruitdlgmouseclick-quit
-URL: /en/erm/framework/functions/onrecruitdlgmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onrecruitdlgmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-55-57-onrecruitdlgmouseclick-quit
 
 Final handler for OnRecruitDlgMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -9979,7 +9979,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnRecruitDlgMouseClick
 
 ID: erm.framework.functions.onrecruitdlgmouseclick
-URL: /en/erm/framework/functions/onrecruitdlgmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onrecruitdlgmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-193-195-onrecruitdlgmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -10011,7 +10011,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnSavegameRead
 
 ID: erm.framework.functions.onsavegameread
-URL: /en/erm/framework/functions/onsavegameread/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onsavegameread/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-145-147-onsavegameread
 
 Clears event-chain state after save data is read.
@@ -10043,7 +10043,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnSetupBattlefield
 
 ID: erm.framework.functions.onsetupbattlefield
-URL: /en/erm/framework/functions/onsetupbattlefield/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onsetupbattlefield/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-263-265-onsetupbattlefield
 
 Refreshes battle_ during battlefield setup.
@@ -10075,7 +10075,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnStartOrLoad
 
 ID: erm.framework.functions.onstartorload
-URL: /en/erm/framework/functions/onstartorload/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/onstartorload/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-292-300-onstartorload
 
 Updates maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. The source spells maxArtifacId without the second t.
@@ -10107,7 +10107,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnTownHallMouseClick_Quit
 
 ID: erm.framework.functions.ontownhallmouseclick-quit
-URL: /en/erm/framework/functions/ontownhallmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownhallmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-58-60-ontownhallmouseclick-quit
 
 Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -10139,7 +10139,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnTownHallMouseClick
 
 ID: erm.framework.functions.ontownhallmouseclick
-URL: /en/erm/framework/functions/ontownhallmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownhallmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-196-198-ontownhallmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -10171,7 +10171,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnTownMouseClick_Quit
 
 ID: erm.framework.functions.ontownmouseclick-quit
-URL: /en/erm/framework/functions/ontownmouseclick-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit
 
 Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -10203,7 +10203,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnTownMouseClick
 
 ID: erm.framework.functions.ontownmouseclick
-URL: /en/erm/framework/functions/ontownmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-178-180-ontownmouseclick
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -10235,7 +10235,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # OnTownMouseHint_Quit
 
 ID: erm.framework.functions.ontownmousehint-quit
-URL: /en/erm/framework/functions/ontownmousehint-quit/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint-quit/
 Source references: era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit
 
 Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.
@@ -10267,7 +10267,7 @@ Status: `quit-handler`. The complete block in `lib_end/-9999 era - stdlib.erm`, 
 # OnTownMouseHint
 
 ID: erm.framework.functions.ontownmousehint
-URL: /en/erm/framework/functions/ontownmousehint/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint
 
 Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.
@@ -10299,7 +10299,7 @@ Status: `event-handler`. The complete block in `lib/9999 era - stdlib.erm`, line
 # PackUnion
 
 ID: erm.framework.functions.packunion
-URL: /en/erm/framework/functions/packunion/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/packunion/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion
 
 PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
@@ -10347,7 +10347,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1241‚
 # Pow
 
 ID: erm.framework.functions.pow
-URL: /en/erm/framework/functions/pow/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/pow/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow
 
 Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion.
@@ -10385,7 +10385,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1166‚
 # PrepareMessageBoxText
 
 ID: erm.framework.functions.preparemessageboxtext
-URL: /en/erm/framework/functions/preparemessageboxtext/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemessageboxtext/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext
 
 Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version.
@@ -10425,7 +10425,7 @@ Status: `requires-review`. The complete block in `lib/9999 era - stdlib.erm`, li
 # PrepareMultiPicDialog
 
 ID: erm.framework.functions.preparemultipicdialog
-URL: /en/erm/framework/functions/preparemultipicdialog/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemultipicdialog/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog
 
 Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog.
@@ -10463,7 +10463,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2679‚
 # RadioDlg_AddCancelButton
 
 ID: erm.framework.functions.radiodlg-addcancelbutton
-URL: /en/erm/framework/functions/radiodlg-addcancelbutton/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-addcancelbutton/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton
 
 Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button.
@@ -10497,7 +10497,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2474‚
 # RadioDlg_AddItem
 
 ID: erm.framework.functions.radiodlg-additem
-URL: /en/erm/framework/functions/radiodlg-additem/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additem/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem
 
 Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel.
@@ -10540,7 +10540,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2532‚
 # RadioDlg_AddItems
 
 ID: erm.framework.functions.radiodlg-additems
-URL: /en/erm/framework/functions/radiodlg-additems/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additems/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems
 
 Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected.
@@ -10580,7 +10580,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2561‚
 # RadioDlg_GetItemTag
 
 ID: erm.framework.functions.radiodlg-getitemtag
-URL: /en/erm/framework/functions/radiodlg-getitemtag/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemtag/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag
 
 Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
@@ -10617,7 +10617,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2597‚
 # RadioDlg_GetItemValue
 
 ID: erm.framework.functions.radiodlg-getitemvalue
-URL: /en/erm/framework/functions/radiodlg-getitemvalue/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemvalue/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue
 
 Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.
@@ -10654,7 +10654,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2584‚
 # RadioDlg_GetNumItems
 
 ID: erm.framework.functions.radiodlg-getnumitems
-URL: /en/erm/framework/functions/radiodlg-getnumitems/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getnumitems/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2578-2583-radiodlg-getnumitems
 
 Returns the item count excluding Cancel.
@@ -10688,7 +10688,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2578‚
 # RadioDlg_Reset
 
 ID: erm.framework.functions.radiodlg-reset
-URL: /en/erm/framework/functions/radiodlg-reset/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-reset/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2456-2467-radiodlg-reset
 
 Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.
@@ -10720,7 +10720,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2456‚
 # RadioDlg_SelectItem
 
 ID: erm.framework.functions.radiodlg-selectitem
-URL: /en/erm/framework/functions/radiodlg-selectitem/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitem/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2490-2496-radiodlg-selectitem
 
 Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.
@@ -10758,7 +10758,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2490‚
 # RadioDlg_SelectItemByTag
 
 ID: erm.framework.functions.radiodlg-selectitembytag
-URL: /en/erm/framework/functions/radiodlg-selectitembytag/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitembytag/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2514-2531-radiodlg-selectitembytag
 
 Selects the first matching value/string tag. Clears selection if no match exists.
@@ -10796,7 +10796,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2514‚
 # RadioDlg_SelectItemByValue
 
 ID: erm.framework.functions.radiodlg-selectitembyvalue
-URL: /en/erm/framework/functions/radiodlg-selectitembyvalue/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitembyvalue/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2497-2513-radiodlg-selectitembyvalue
 
 Selects the first matching value/string tag. Clears selection if no match exists.
@@ -10834,7 +10834,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2497‚
 # RadioDlg_SetTitle
 
 ID: erm.framework.functions.radiodlg-settitle
-URL: /en/erm/framework/functions/radiodlg-settitle/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-settitle/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2468-2473-radiodlg-settitle
 
 Copies the title into radio-dialog state.
@@ -10868,7 +10868,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2468‚
 # RadioDlg_Show
 
 ID: erm.framework.functions.radiodlg-show
-URL: /en/erm/framework/functions/radiodlg-show/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-show/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2612-2678-radiodlg-show
 
 Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items.
@@ -10912,7 +10912,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2612‚
 # ReadIniInts
 
 ID: erm.framework.functions.readiniints
-URL: /en/erm/framework/functions/readiniints/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readiniints/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1736-1777-readiniints
 
 Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.
@@ -10968,7 +10968,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1736‚
 # ReadIniStrings
 
 ID: erm.framework.functions.readinistrings
-URL: /en/erm/framework/functions/readinistrings/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readinistrings/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1697-1735-readinistrings
 
 Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.
@@ -11024,7 +11024,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1697‚
 # ReadJsonIntArray
 
 ID: erm.framework.functions.readjsonintarray
-URL: /en/erm/framework/functions/readjsonintarray/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readjsonintarray/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1778-1806-readjsonintarray
 
 Reads JSON keys prefix.0, prefix.1‚Ä¶ until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.
@@ -11070,7 +11070,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1778‚
 # ReadJsonStrArray
 
 ID: erm.framework.functions.readjsonstrarray
-URL: /en/erm/framework/functions/readjsonstrarray/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/readjsonstrarray/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1807-1834-readjsonstrarray
 
 Reads JSON keys prefix.0, prefix.1‚Ä¶ until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.
@@ -11116,7 +11116,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1807‚
 # RestoreEventData
 
 ID: erm.framework.functions.restoreeventdata
-URL: /en/erm/framework/functions/restoreeventdata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreeventdata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata
 
 Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly.
@@ -11156,7 +11156,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 47‚
 # RestorePrevKeyModsState
 
 ID: erm.framework.functions.restoreprevkeymodsstate
-URL: /en/erm/framework/functions/restoreprevkeymodsstate/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevkeymodsstate/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate
 
 Restores key and modifier globals after a nested event.
@@ -11188,7 +11188,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 91‚
 # RestorePrevMouseEventData
 
 ID: erm.framework.functions.restoreprevmouseeventdata
-URL: /en/erm/framework/functions/restoreprevmouseeventdata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevmouseeventdata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata
 
 Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
@@ -11220,7 +11220,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 142
 # SaveEventData
 
 ID: erm.framework.functions.saveeventdata
-URL: /en/erm/framework/functions/saveeventdata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveeventdata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata
 
 Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.
@@ -11256,7 +11256,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 16‚
 # SaveGame
 
 ID: erm.framework.functions.savegame
-URL: /en/erm/framework/functions/savegame/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/savegame/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame
 
 Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.
@@ -11302,7 +11302,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1987‚
 # SaveIni
 
 ID: erm.framework.functions.saveini
-URL: /en/erm/framework/functions/saveini/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveini/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini
 
 Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.
@@ -11338,7 +11338,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1613‚
 # SavePrevKeyModsState
 
 ID: erm.framework.functions.saveprevkeymodsstate
-URL: /en/erm/framework/functions/saveprevkeymodsstate/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevkeymodsstate/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate
 
 Saves 11 key and modifier globals for a nested event.
@@ -11370,7 +11370,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 88‚
 # SavePrevMouseEventData
 
 ID: erm.framework.functions.saveprevmouseeventdata
-URL: /en/erm/framework/functions/saveprevmouseeventdata/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevmouseeventdata/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata
 
 Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.
@@ -11402,7 +11402,7 @@ Status: `internal`. The complete block in `lib/9999 era - stdlib.erm`, lines 139
 # ScanDir
 
 ID: erm.framework.functions.scandir
-URL: /en/erm/framework/functions/scandir/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/scandir/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir
 
 Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_ (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot.
@@ -11458,7 +11458,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1870‚
 # ShowAnimatedDefDlg
 
 ID: erm.framework.functions.showanimateddefdlg
-URL: /en/erm/framework/functions/showanimateddefdlg/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/showanimateddefdlg/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg
 
 Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1.
@@ -11499,7 +11499,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2756‚
 # SplitMix32
 
 ID: erm.framework.functions.splitmix32
-URL: /en/erm/framework/functions/splitmix32/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/splitmix32/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32
 
 P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state.
@@ -11557,7 +11557,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1376‚
 # Sqrt
 
 ID: erm.framework.functions.sqrt
-URL: /en/erm/framework/functions/sqrt/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/sqrt/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt
 
 Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root.
@@ -11594,7 +11594,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1173‚
 # StrPos
 
 ID: erm.framework.functions.strpos
-URL: /en/erm/framework/functions/strpos/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strpos/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos
 
 Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1.
@@ -11633,7 +11633,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1486‚
 # StrReplace
 
 ID: erm.framework.functions.strreplace
-URL: /en/erm/framework/functions/strreplace/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strreplace/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace
 
 Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger.
@@ -11672,7 +11672,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1498‚
 # StrToLower
 
 ID: erm.framework.functions.strtolower
-URL: /en/erm/framework/functions/strtolower/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtolower/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower
 
 Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.
@@ -11713,7 +11713,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1458‚
 # StrToUpper
 
 ID: erm.framework.functions.strtoupper
-URL: /en/erm/framework/functions/strtoupper/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtoupper/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper
 
 Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.
@@ -11754,7 +11754,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1443‚
 # Substr
 
 ID: erm.framework.functions.substr
-URL: /en/erm/framework/functions/substr/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/substr/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr
 
 Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative.
@@ -11793,7 +11793,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1473‚
 # Tm32Decode
 
 ID: erm.framework.functions.tm32decode
-URL: /en/erm/framework/functions/tm32decode/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/tm32decode/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode
 
 Inverts Tm32Encode for a 32-bit value. Changes f and g.
@@ -11828,7 +11828,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1342‚
 # Tm32Encode
 
 ID: erm.framework.functions.tm32encode
-URL: /en/erm/framework/functions/tm32encode/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/tm32encode/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode
 
 Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption.
@@ -11863,7 +11863,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1334‚
 # Trim
 
 ID: erm.framework.functions.trim
-URL: /en/erm/framework/functions/trim/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/trim/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim
 
 Trims spaces and control bytes 0..32 from both ends; returns a new ERM string.
@@ -11900,7 +11900,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1411‚
 # UnequipArtFromSlot
 
 ID: erm.framework.functions.unequipartfromslot
-URL: /en/erm/framework/functions/unequipartfromslot/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/unequipartfromslot/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot
 
 Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment.
@@ -11941,7 +11941,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 3191‚
 # UnpackUnion
 
 ID: erm.framework.functions.unpackunion
-URL: /en/erm/framework/functions/unpackunion/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/unpackunion/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion
 
 PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.
@@ -11982,7 +11982,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1295‚
 # UpdateBattleVars
 
 ID: erm.framework.functions.updatebattlevars
-URL: /en/erm/framework/functions/updatebattlevars/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/updatebattlevars/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars
 
 Refreshes BA/OW data in battle_: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO.
@@ -12014,7 +12014,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 2848‚
 # WriteIniInts
 
 ID: erm.framework.functions.writeiniints
-URL: /en/erm/framework/functions/writeiniints/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/writeiniints/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints
 
 Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.
@@ -12076,7 +12076,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1630‚
 # WriteIniStrings
 
 ID: erm.framework.functions.writeinistrings
-URL: /en/erm/framework/functions/writeinistrings/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/functions/writeinistrings/
 Source references: era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings
 
 Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.
@@ -12129,7 +12129,7 @@ Status: `public`. The complete block in `lib/9999 era - stdlib.erm`, lines 1663‚
 # Framework globals
 
 ID: erm.framework.globals
-URL: /en/erm/framework/globals/
+URL: https://asmedian.github.io/modding-guide/en/erm/framework/globals/
 Source references: era-framework:lib-9999-era---stdlib.erm, era-framework:lib-end--9999-era---stdlib.erm
 
 Combat, calendar, keyboard and mouse context; public data and internal state.
@@ -12260,7 +12260,7 @@ The names `i^umt_randomizationIntervalDays^` and `i^umt_playAltThemesSequently^`
 # Functions and parameters
 
 ID: erm.functions
-URL: /en/erm/functions/
+URL: https://asmedian.github.io/modding-guide/en/erm/functions/
 Source references: old-help:rec-fu.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 FU declarations, x arguments, returning through GET arguments, and local variables.
@@ -12306,7 +12306,7 @@ Local `y` variables belong to a call. A nested function must not treat the calle
 # ERM Hooker ‚Äî custom events
 
 ID: erm.hooker
-URL: /en/erm/hooker/
+URL: https://asmedian.github.io/modding-guide/en/erm/hooker/
 Source references: erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, erm-hooker:author-api-1.0.0
 
 Installing hooks, register context and removing code hooks.
@@ -12365,7 +12365,7 @@ The API is documented in [Berserker‚Äôs documentation reproduced in this post](h
 # Command and symbol index
 
 ID: erm.index
-URL: /en/erm/index/
+URL: https://asmedian.github.io/modding-guide/en/erm/index/
 Source references: era-source:erm.pas, era-framework:lib-9999-era---consts.erm, old-help:cont-list.htm
 
 Command codes, event names, functions, variables and constants.
@@ -12388,10 +12388,54 @@ Filter by code, name or letter. The index includes subcommands, events and alias
 
 ---
 
+# Learning ERM
+
+ID: erm.learn
+URL: https://asmedian.github.io/modding-guide/en/erm/learn/
+Source references: era-source:gameext, era-source:reslib
+
+Learn ERM with AI: give the model the reference map, describe your task and test the result in the game.
+
+## Learn ERM with AI {#ai}
+
+AI can help you understand ERM, find the right command, write a working script or prepare the files for an entire mod. This approach has been tried with capable Claude and GPT models. A precise task and an accessible reference make the result more useful.
+
+Include the full link to the [LLM section](https://asmedian.github.io/modding-guide/en/docs/llm-map/) in your request:
+
+```text
+https://asmedian.github.io/modding-guide/en/docs/llm-map/
+```
+
+The map leads to ERA documentation, complete ERM contracts, plugin development and Wiki resources. A model that can retrieve links can select the necessary small files. If it cannot open links, attach or paste the selected catalog files instead.
+
+## From an idea to a working mod {#workflow}
+
+1. Specify your ERA version, desired behavior, event timing and compatibility requirements. Include the existing script or mod structure when available.
+2. Ask the AI to read the map, locate the relevant commands and tables, then explain its solution with links to specific reference pages.
+3. Start with a minimal script. Request filenames, installation paths and test steps. For an entire mod, list required resources and dependencies separately.
+4. Test on a disposable map. Give the AI the exact error, relevant code and reproduction steps; refine the solution until it behaves as intended.
+
+Generated code needs testing in your game build. Reading source code and documentation does not mean a script has been executed. Ask the model to distinguish verified reference facts from assumptions.
+
+## Example prompts {#examples}
+
+Replace the text in square brackets with your requirements.
+
+:::erm
+<div class="learn-examples">
+<details class="learn-example"><summary>Understand ERM</summary><p>Use this reference: https://asmedian.github.io/modding-guide/en/docs/llm-map/ . Explain [command or code] to a beginner: when it runs, its parameters and variables, and its limitations. Read the complete contract and link specific sections.</p></details>
+<details class="learn-example"><summary>Write a script</summary><p>Use this reference: https://asmedian.github.io/modding-guide/en/docs/llm-map/ . ERA [version]. Required behavior: [behavior and conditions]. Find triggers, commands and IDs; write a minimal script, specify its file path, explain variables and provide in-game test steps. State assumptions and compatibility limits.</p></details>
+<details class="learn-example"><summary>Fix a bug</summary><p>Use this reference: https://asmedian.github.io/modding-guide/en/docs/llm-map/ . ERA [version]. Expected: [result]. Actual: [result or exact error]. Reproduction: [steps]. Script: [code]. Find the cause using the documented contracts, propose a minimal fix and explain how to test it.</p></details>
+<details class="learn-example"><summary>Prepare an entire mod</summary><p>Use this reference: https://asmedian.github.io/modding-guide/en/docs/llm-map/ . For ERA [version], I need this mod: [description]. Read the necessary ERM, Docs, Wiki and Plugins topics. Provide the folder structure, text file contents, resources with exact filenames and sources, dependencies and a test plan. Clarify missing requirements first; identify anything that requires running the game.</p></details>
+</div>
+:::
+
+---
+
 # Loops: re, br, co, and DO
 
 ID: erm.loops
-URL: /en/erm/loops/
+URL: https://asmedian.github.io/modding-guide/en/erm/loops/
 Source references: old-help:rec-re.htm, old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 Loop bounds, steps, nesting, and repeated function calls.
@@ -12536,7 +12580,7 @@ Since ERA 3.0.4, the fifth argument in `!!re counter/start/stop/step/stop_modifi
 # Receivers and subcommands
 
 ID: erm.receivers
-URL: /en/erm/receivers/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/
 Source references: old-help:cont-receivers.htm, old-help:cont-receiversa.htm, old-help:cont-receiversol.htm
 
 Alphabetical command catalog with parameters, limitations and context.
@@ -12981,7 +13025,7 @@ Lowercase `if/el/en` and `re/br/co` are documented in [conditions](../conditions
 # AI destinations (AI)
 
 ID: erm.receivers.ai
-URL: /en/erm/receivers/ai/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ai/
 Source references: old-help:rec-ai.htm
 
 AI receiver: ai destinations, command parameters, and limitations.
@@ -13081,7 +13125,7 @@ Therefore, it is better to assign a specific hero to avoid chaos.</li></ol></div
 # Map artifacts and resources (AR)
 
 ID: erm.receivers.ar
-URL: /en/erm/receivers/ar/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ar/
 Source references: old-help:rec-ar.htm
 
 AR receiver: map artifacts and resources, command parameters, and limitations.
@@ -13203,7 +13247,7 @@ Enable guards if # is non-zero, otherwise disable. The command does not check wh
 # Battle configuration (BA)
 
 ID: erm.receivers.ba
-URL: /en/erm/receivers/ba/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ba/
 Source references: old-help:rec-ba.htm, era-changelog:era-iii-changelog.txt
 
 BA receiver: battle configuration, command parameters, and limitations.
@@ -13350,7 +13394,7 @@ You can set the parameter, but it won't change anything.</div>
 # Battlefield setup (BF)
 
 ID: erm.receivers.bf
-URL: /en/erm/receivers/bf/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bf/
 Source references: old-help:rec-bf.htm
 
 BF receiver: battlefield setup, command parameters, and limitations.
@@ -13449,7 +13493,7 @@ Place a separate object<br>
 # Current battle action (BG)
 
 ID: erm.receivers.bg
-URL: /en/erm/receivers/bg/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bg/
 Source references: old-help:rec-bg.htm, era-changelog:era-iii-changelog.txt
 
 BG receiver: current battle action, command parameters, and limitations.
@@ -13583,7 +13627,7 @@ Example: force a creature with a spell to cast it:
 # Battle hero actions (BH)
 
 ID: erm.receivers.bh
-URL: /en/erm/receivers/bh/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bh/
 Source references: old-help:rec-bh.htm
 
 BH receiver: battle hero actions, command parameters, and limitations.
@@ -13675,7 +13719,7 @@ The position will be checked automatically for the presence of an obstacle (if t
 # Battle stack (BM)
 
 ID: erm.receivers.bm
-URL: /en/erm/receivers/bm/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bm/
 Source references: old-help:rec-bm.htm, era-changelog:era-iii-changelog.txt
 
 BM receiver: battle stack, command parameters, and limitations.
@@ -13993,7 +14037,7 @@ The command returns the memory address <a href="../../tables/combat-stack-struct
 # Battlefield operations (BU)
 
 ID: erm.receivers.bu
-URL: /en/erm/receivers/bu/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/bu/
 Source references: old-help:rec-bu.htm, era-changelog:era-iii-changelog.txt
 
 BU receiver: battlefield operations, command parameters, and limitations.
@@ -14139,7 +14183,7 @@ Win the battle<br>
 # Towns (CA)
 
 ID: erm.receivers.ca
-URL: /en/erm/receivers/ca/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ca/
 Source references: old-help:rec-ca.htm, era-changelog:era-iii-changelog.txt
 
 CA receiver: towns, command parameters, and limitations.
@@ -14321,7 +14365,7 @@ You can set the value, but we wouldn't recommend it ;)</div>
 # Creature banks (CB)
 
 ID: erm.receivers.cb
-URL: /en/erm/receivers/cb/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/cb/
 Source references: old-help:rec-cb.htm
 
 CB receiver: creature banks, command parameters, and limitations.
@@ -14446,7 +14490,7 @@ but did not attack, its bits will still be included in the value edited by this 
 # Town demolition and building dependencies (CD)
 
 ID: erm.receivers.cd
-URL: /en/erm/receivers/cd/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/cd/
 Source references: old-help:rec-cd.htm
 
 CD receiver: town demolition and building dependencies, command parameters, and limitations.
@@ -14593,7 +14637,7 @@ be carried out on the ground, which is located at the entrance to town.</div>
 # Town events (CE)
 
 ID: erm.receivers.ce
-URL: /en/erm/receivers/ce/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ce/
 Source references: old-help:rec-ce.htm
 
 CE receiver: town events, command parameters, and limitations.
@@ -14712,7 +14756,7 @@ Build building # (<a href="../../tables/building-pictures/#ref-form-buldingsinto
 # Treasure chest (CH)
 
 ID: erm.receivers.ch
-URL: /en/erm/receivers/ch/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ch/
 Source references: old-help:rec-ch.htm
 
 CH receiver: treasure chest, command parameters, and limitations.
@@ -14785,7 +14829,7 @@ Content Type:<br>
 # Mouse-event context (CM)
 
 ID: erm.receivers.cm
-URL: /en/erm/receivers/cm/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/cm/
 Source references: old-help:rec-cm.htm, era-changelog:era-iii-changelog.txt
 
 CM receiver: mouse-event context, command parameters, and limitations.
@@ -14930,7 +14974,7 @@ Action type (usually 512)</div>
 # Commanders (CO)
 
 ID: erm.receivers.co
-URL: /en/erm/receivers/co/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/co/
 Source references: old-help:rec-co.htm
 
 CO receiver: commanders, command parameters, and limitations.
@@ -15178,7 +15222,7 @@ You may be able to donate later."
 # Custom dialogs (DL)
 
 ID: erm.receivers.dl
-URL: /en/erm/receivers/dl/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/dl/
 Source references: old-help:rec-dl.htm, era-changelog:era-iii-changelog.txt
 
 DL receiver: custom dialogs, command parameters, and limitations.
@@ -15741,7 +15785,7 @@ Black: -9, -7, -5, -3, -1, 23</em></div></details></td>
 # Repeated function calls (DO)
 
 ID: erm.receivers.do
-URL: /en/erm/receivers/do/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/do/
 Source references: old-help:rec-do.htm, era-changelog:era-iii-changelog.txt
 
 DO receiver: repeated function calls, command parameters, and limitations.
@@ -15910,7 +15954,7 @@ You will see 33, 50, 67...</code></pre></div>
 # Creature dwellings (DW)
 
 ID: erm.receivers.dw
-URL: /en/erm/receivers/dw/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/dw/
 Source references: old-help:rec-dw.htm
 
 DW receiver: creature dwellings, command parameters, and limitations.
@@ -15998,7 +16042,7 @@ Transfer control to another player, $ ‚Äì <a href="../../tables/players/#ref-for
 # Creature experience and bonuses (EA)
 
 ID: erm.receivers.ea
-URL: /en/erm/receivers/ea/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ea/
 Source references: old-help:rec-ea.htm, old-help:cont-stackexpbonus.htm, era-changelog:era-iii-changelog.txt
 
 EA receiver: creature experience and bonuses, command parameters, and limitations.
@@ -16829,7 +16873,7 @@ Any integer value from 0 to 255.</blockquote></div></details></li>
 # Army stack experience (EX)
 
 ID: erm.receivers.ex
-URL: /en/erm/receivers/ex/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ex/
 Source references: old-help:rec-ex.htm
 
 EX receiver: army stack experience, command parameters, and limitations.
@@ -17027,7 +17071,7 @@ Set/check/get creature type<br>
 # Town-faction parameters (FC)
 
 ID: erm.receivers.fc
-URL: /en/erm/receivers/fc/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/fc/
 Source references: old-help:rec-fc.htm
 
 FC receiver: town-faction parameters, command parameters, and limitations.
@@ -17155,7 +17199,7 @@ Set/check/to obtain the native soil of the fraction (0..9).</div>
 # Campfire (FR)
 
 ID: erm.receivers.fr
-URL: /en/erm/receivers/fr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/fr/
 Source references: old-help:rec-fr.htm
 
 FR receiver: campfire, command parameters, and limitations.
@@ -17229,7 +17273,7 @@ IF:Q</a>. But nothing will be given to the hero.</div>
 # Function calls (FU)
 
 ID: erm.receivers.fu
-URL: /en/erm/receivers/fu/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/fu/
 Source references: old-help:rec-fu.htm, era-changelog:era-iii-changelog.txt
 
 FU receiver: function calls, command parameters, and limitations.
@@ -17587,7 +17631,7 @@ Provides the ability to query the syntax that was used for a specific function p
 # Mystical garden (GD)
 
 ID: erm.receivers.gd
-URL: /en/erm/receivers/gd/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/gd/
 Source references: old-help:rec-gd.htm
 
 GD receiver: mystical garden, command parameters, and limitations.
@@ -17664,7 +17708,7 @@ Flag for resource availability in the garden: <br>
 # Global events (GE)
 
 ID: erm.receivers.ge
-URL: /en/erm/receivers/ge/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ge/
 Source references: old-help:rec-ge.htm, era-changelog:era-iii-changelog.txt
 
 GE receiver: global events, command parameters, and limitations.
@@ -17826,7 +17870,7 @@ Set/check/get the interval between appearances on $.</div>
 # Garrison (GR)
 
 ID: erm.receivers.gr
-URL: /en/erm/receivers/gr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/gr/
 Source references: old-help:rec-gr.htm
 
 GR receiver: garrison, command parameters, and limitations.
@@ -17905,7 +17949,7 @@ Set/check/get a host (<a href="../../tables/players/#ref-form-gamerscolor" data-
 # Heroes (HE)
 
 ID: erm.receivers.he
-URL: /en/erm/receivers/he/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/he/
 Source references: old-help:rec-he.htm, era-changelog:era-iii-changelog.txt
 
 HE receiver: heroes, command parameters, and limitations.
@@ -18673,7 +18717,7 @@ The command returns the memory address <a href="../../tables/hero-structure/#ref
 # Level-up skill selection (HL)
 
 ID: erm.receivers.hl
-URL: /en/erm/receivers/hl/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/hl/
 Source references: old-help:rec-hl.htm
 
 HL receiver: level-up skill selection, command parameters, and limitations.
@@ -18746,7 +18790,7 @@ Receiver only works after a trigger <a href="../../triggers/hl/#ref-tr-hl">!?HL<
 # Hero interaction permissions (HO)
 
 ID: erm.receivers.ho
-URL: /en/erm/receivers/ho/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ho/
 Source references: old-help:rec-ho.htm
 
 HO receiver: hero interaction permissions, command parameters, and limitations.
@@ -18825,7 +18869,7 @@ Prevent all heroes from attacking (enemy hero) or visiting (allied hero) this he
 # Object-type hints (HT)
 
 ID: erm.receivers.ht
-URL: /en/erm/receivers/ht/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ht/
 Source references: old-help:rec-ht.htm
 
 HT receiver: object-type hints, command parameters, and limitations.
@@ -18960,7 +19004,7 @@ Use this command when you want to change the object's tooltip for each hero who 
 # Flags, messages and choices (IF)
 
 ID: erm.receivers.if
-URL: /en/erm/receivers/if/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/if/
 Source references: old-help:rec-if.htm, era-changelog:era-iii-changelog.txt, old-help:cont-db.htm, old-help:era-color-text.htm
 
 IF receiver: flags, messages and choices, command parameters, and limitations.
@@ -19663,7 +19707,7 @@ and also for them there is a list of short synonyms of colors:
 # Network synchronization (IP)
 
 ID: erm.receivers.ip
-URL: /en/erm/receivers/ip/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ip/
 Source references: old-help:rec-ip.htm, era-changelog:era-iii-changelog.txt
 
 IP receiver: network synchronization, command parameters, and limitations.
@@ -19826,7 +19870,7 @@ transfers</div>
 # Tree of knowledge (KT)
 
 ID: erm.receivers.kt
-URL: /en/erm/receivers/kt/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/kt/
 Source references: old-help:rec-kt.htm
 
 KT receiver: tree of knowledge, command parameters, and limitations.
@@ -19894,7 +19938,7 @@ Payment type<br>
 # Local map events (LE)
 
 ID: erm.receivers.le
-URL: /en/erm/receivers/le/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/le/
 Source references: old-help:rec-le.htm, era-changelog:era-iii-changelog.txt
 
 LE receiver: local map events, command parameters, and limitations.
@@ -20119,7 +20163,7 @@ Activate guards if # is not zero, otherwise turn them off.</div>
 # Lean-to (LN)
 
 ID: erm.receivers.ln
-URL: /en/erm/receivers/ln/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ln/
 Source references: old-help:rec-ln.htm
 
 LN receiver: lean-to, command parameters, and limitations.
@@ -20190,7 +20234,7 @@ Canopy number (0..31)</div>
 # Creature-type attributes (MA)
 
 ID: erm.receivers.ma
-URL: /en/erm/receivers/ma/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ma/
 Source references: old-help:rec-ma.htm, era-changelog:era-iii-changelog.txt
 
 MA receiver: creature-type attributes, command parameters, and limitations.
@@ -20361,7 +20405,7 @@ When working with flags, check their meanings very carefully (see. <a href="../v
 # Classic ERM macros (MC)
 
 ID: erm.receivers.mc
-URL: /en/erm/receivers/mc/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mc/
 Source references: old-help:rec-mc.htm
 
 MC receiver: classic erm macros, command parameters, and limitations.
@@ -20412,7 +20456,7 @@ To use macro names in a message they are as follows: <strong>$$</strong> and the
 # Physical damage (MF)
 
 ID: erm.receivers.mf
-URL: /en/erm/receivers/mf/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mf/
 Source references: old-help:rec-mf.htm
 
 MF receiver: physical damage, command parameters, and limitations.
@@ -20512,7 +20556,7 @@ Check/get attack type:<br>
 # Windmill (ML)
 
 ID: erm.receivers.ml
-URL: /en/erm/receivers/ml/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ml/
 Source references: old-help:rec-ml.htm
 
 ML receiver: windmill, command parameters, and limitations.
@@ -20576,7 +20620,7 @@ Resource type and quantity<br>
 # Battle hint text (MM)
 
 ID: erm.receivers.mm
-URL: /en/erm/receivers/mm/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mm/
 Source references: old-help:rec-mm.htm, era-changelog:era-iii-changelog.txt
 
 MM receiver: battle hint text, command parameters, and limitations.
@@ -20654,7 +20698,7 @@ Add message from text variable to battle text</div>
 # Mines (MN)
 
 ID: erm.receivers.mn
-URL: /en/erm/receivers/mn/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mn/
 Source references: old-help:rec-mn.htm
 
 MN receiver: mines, command parameters, and limitations.
@@ -20740,7 +20784,7 @@ Same as MN:R$, but without updating</div>
 # Neutral map monsters (MO)
 
 ID: erm.receivers.mo
-URL: /en/erm/receivers/mo/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mo/
 Source references: old-help:rec-mo.htm, era-changelog:era-iii-changelog.txt
 
 MO receiver: neutral map monsters, command parameters, and limitations.
@@ -20889,7 +20933,7 @@ Set/check/get whether creature can escape.<br>
 # MP3 music (MP)
 
 ID: erm.receivers.mp
-URL: /en/erm/receivers/mp/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mp/
 Source references: old-help:rec-mp.htm, old-help:rec-mp-era.htm
 
 MP receiver: mp3 music, command parameters, and limitations.
@@ -21095,7 +21139,7 @@ Set/get settings for trigger <a href="../../triggers/mp/#ref-tr-mp">!?MP</a>
 # Spell resistance (MR)
 
 ID: erm.receivers.mr
-URL: /en/erm/receivers/mr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mr/
 Source references: old-help:rec-mr.htm
 
 MR receiver: spell resistance, command parameters, and limitations.
@@ -21204,7 +21248,7 @@ But the base damage is calculated before the trigger works, so changing the spel
 # Obelisk (MT)
 
 ID: erm.receivers.mt
-URL: /en/erm/receivers/mt/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mt/
 Source references: old-help:rec-mt.htm
 
 MT receiver: obelisk, command parameters, and limitations.
@@ -21279,7 +21323,7 @@ Obelisk number (0...)</div>
 # Wandering monsters (MW)
 
 ID: erm.receivers.mw
-URL: /en/erm/receivers/mw/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/mw/
 Source references: old-help:rec-mw.htm
 
 MW receiver: wandering monsters, command parameters, and limitations.
@@ -21409,7 +21453,7 @@ For this command, the roaming creature number (!!MW#) is not needed, because he 
 # Map objects (OB)
 
 ID: erm.receivers.ob
-URL: /en/erm/receivers/ob/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ob/
 Source references: old-help:rec-ob.htm, era-changelog:era-iii-changelog.txt
 
 OB receiver: map objects, command parameters, and limitations.
@@ -21567,7 +21611,7 @@ Set/check/get <a href="../../tables/objects/#ref-form-objects" data-context="tru
 # Players (OW)
 
 ID: erm.receivers.ow
-URL: /en/erm/receivers/ow/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ow/
 Source references: old-help:rec-ow.htm, era-changelog:era-iii-changelog.txt
 
 OW receiver: players, command parameters, and limitations.
@@ -21883,7 +21927,7 @@ Set/check/get the town number from the player's town table #1<br>
 # Pandora box (PA)
 
 ID: erm.receivers.pa
-URL: /en/erm/receivers/pa/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/pa/
 Source references: old-help:rec-pa.htm
 
 PA receiver: pandora box, command parameters, and limitations.
@@ -22042,7 +22086,7 @@ Set/check/get whether guards is enabled:<br>
 # Pyramids and new objects (PM)
 
 ID: erm.receivers.pm
-URL: /en/erm/receivers/pm/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/pm/
 Source references: old-help:rec-pm.htm
 
 PM receiver: pyramids and new objects, command parameters, and limitations.
@@ -22134,7 +22178,7 @@ You can set this bit and wait for the AI to arrive.</div></details>
 # Map-cell data (PO)
 
 ID: erm.receivers.po
-URL: /en/erm/receivers/po/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/po/
 Source references: old-help:rec-po.htm
 
 PO receiver: map-cell data, command parameters, and limitations.
@@ -22296,7 +22340,7 @@ Now let's return them from v100...
 # Prison (PR)
 
 ID: erm.receivers.pr
-URL: /en/erm/receivers/pr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/pr/
 Source references: old-help:rec-pr.htm
 
 PR receiver: prison, command parameters, and limitations.
@@ -22356,7 +22400,7 @@ Set/check/get the hero's number in custody.</div>
 # Object quests (QU)
 
 ID: erm.receivers.qu
-URL: /en/erm/receivers/qu/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/qu/
 Source references: old-help:rec-qu.htm
 
 QU receiver: object quests, command parameters, and limitations.
@@ -22564,7 +22608,7 @@ Set/check/get, whether visited <a href="../../tables/players/#ref-form-gamerscol
 # Supplementary quest log (QW)
 
 ID: erm.receivers.qw
-URL: /en/erm/receivers/qw/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/qw/
 Source references: old-help:rec-qw.htm
 
 QW receiver: supplementary quest log, command parameters, and limitations.
@@ -22647,7 +22691,7 @@ text<br>
 # Creature recruitment (RD)
 
 ID: erm.receivers.rd
-URL: /en/erm/receivers/rd/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/rd/
 Source references: old-help:rec-rd.htm, era-changelog:era-iii-changelog.txt
 
 RD receiver: creature recruitment, command parameters, and limitations.
@@ -22883,7 +22927,7 @@ All values are updated in real time.
 # Scholar (SC)
 
 ID: erm.receivers.sc
-URL: /en/erm/receivers/sc/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sc/
 Source references: old-help:rec-sc.htm
 
 SC receiver: scholar, command parameters, and limitations.
@@ -22965,7 +23009,7 @@ Bonus type:<br>
 # Sign and ocean bottle (SG)
 
 ID: erm.receivers.sg
-URL: /en/erm/receivers/sg/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sg/
 Source references: old-help:rec-sg.htm
 
 SG receiver: sign and ocean bottle, command parameters, and limitations.
@@ -23034,7 +23078,7 @@ Restore plain text (default).</div>
 # Map skeleton (SK)
 
 ID: erm.receivers.sk
-URL: /en/erm/receivers/sk/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sk/
 Source references: old-help:rec-sk.htm
 
 SK receiver: map skeleton, command parameters, and limitations.
@@ -23107,7 +23151,7 @@ Is there artifact or not? <br>
 # ERA services, memory and sound (SN)
 
 ID: erm.receivers.sn
-URL: /en/erm/receivers/sn/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sn/
 Source references: old-help:rec-sn.htm, old-help:rec-sn-era.htm, era-changelog:era-iii-changelog.txt, old-help:era-api.htm
 
 SN receiver: era services, memory and sound, command parameters, and limitations.
@@ -24021,7 +24065,7 @@ Performs a secure copy of a block of memory from a source to a destination.</li>
 # Magic spring (SP)
 
 ID: erm.receivers.sp
-URL: /en/erm/receivers/sp/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sp/
 Source references: old-help:rec-sp.htm
 
 SP receiver: magic spring, command parameters, and limitations.
@@ -24091,7 +24135,7 @@ Full or empty<br>
 # Shrine of magic (SR)
 
 ID: erm.receivers.sr
-URL: /en/erm/receivers/sr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sr/
 Source references: old-help:rec-sr.htm
 
 SR receiver: shrine of magic, command parameters, and limitations.
@@ -24155,7 +24199,7 @@ any shrine</div>
 # Spell attributes (SS)
 
 ID: erm.receivers.ss
-URL: /en/erm/receivers/ss/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ss/
 Source references: old-help:rec-ss.htm, old-help:cont-sschange.htm
 
 SS receiver: spell attributes, command parameters, and limitations.
@@ -24507,7 +24551,7 @@ This method will allow you to avoid mistakes and give you the opportunity to lev
 # Learning stone (ST)
 
 ID: erm.receivers.st
-URL: /en/erm/receivers/st/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/st/
 Source references: old-help:rec-st.htm
 
 ST receiver: learning stone, command parameters, and limitations.
@@ -24570,7 +24614,7 @@ Knowledge stone number (0..31)
 # Swan pond (SW)
 
 ID: erm.receivers.sw
-URL: /en/erm/receivers/sw/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sw/
 Source references: old-help:rec-sw.htm
 
 SW receiver: swan pond, command parameters, and limitations.
@@ -24638,7 +24682,7 @@ Pond number (0..31)</div>
 # Shipyard (SY)
 
 ID: erm.receivers.sy
-URL: /en/erm/receivers/sy/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/sy/
 Source references: old-help:rec-sy.htm
 
 SY receiver: shipyard, command parameters, and limitations.
@@ -24710,7 +24754,7 @@ shipyard, then these parameters are ignored and the boat is built in the nearest
 # Turn time limit (TL)
 
 ID: erm.receivers.tl
-URL: /en/erm/receivers/tl/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/tl/
 Source references: old-help:rec-tl.htm
 
 TL receiver: turn time limit, command parameters, and limitations.
@@ -24822,7 +24866,7 @@ As long as the "pause time" is not 0, the move continues.</div>
 # Game timers (TM)
 
 ID: erm.receivers.tm
-URL: /en/erm/receivers/tm/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/tm/
 Source references: old-help:rec-tm.htm
 
 TM receiver: game timers, command parameters, and limitations.
@@ -24910,7 +24954,7 @@ Timer for red, brown and green player = 8 + 4 + 1 = 13 (0 will disable the timer
 # Map tiles (TR)
 
 ID: erm.receivers.tr
-URL: /en/erm/receivers/tr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/tr/
 Source references: old-help:rec-tr.htm, era-changelog:era-iii-changelog.txt
 
 TR receiver: map tiles, command parameters, and limitations.
@@ -25221,7 +25265,7 @@ creature can only be attacked directly (usually the attack radius is one cell, b
 # General game operations (UN)
 
 ID: erm.receivers.un
-URL: /en/erm/receivers/un/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/un/
 Source references: old-help:rec-un.htm, era-changelog:era-iii-changelog.txt
 
 UN receiver: general game operations, command parameters, and limitations.
@@ -26399,7 +26443,7 @@ You can only check or receive.<br>
 # University (UR)
 
 ID: erm.receivers.ur
-URL: /en/erm/receivers/ur/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/ur/
 Source references: old-help:rec-ur.htm, era-changelog:era-iii-changelog.txt
 
 UR receiver: university, command parameters, and limitations.
@@ -26463,7 +26507,7 @@ number of the first skill, etc.</div>
 # Variable-usage logging (VC)
 
 ID: erm.receivers.vc
-URL: /en/erm/receivers/vc/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/vc/
 Source references: old-help:rec-vc.htm
 
 VC receiver: variable-usage logging, command parameters, and limitations.
@@ -26610,7 +26654,7 @@ Start section checking</div>
 # Variables and expressions (VR)
 
 ID: erm.receivers.vr
-URL: /en/erm/receivers/vr/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/vr/
 Source references: old-help:rec-vr.htm, era-changelog:era-iii-changelog.txt
 
 VR receiver: variables and expressions, command parameters, and limitations.
@@ -27019,7 +27063,7 @@ Concatenate the text variable z# with a specific text (appends to the end)</div>
 # Wagon (WG)
 
 ID: erm.receivers.wg
-URL: /en/erm/receivers/wg/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wg/
 Source references: old-help:rec-wg.htm
 
 WG receiver: wagon, command parameters, and limitations.
@@ -27100,7 +27144,7 @@ Is there a bonus or not:<br>
 # Witch hut (WH)
 
 ID: erm.receivers.wh
-URL: /en/erm/receivers/wh/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wh/
 Source references: old-help:rec-wh.htm
 
 WH receiver: witch hut, command parameters, and limitations.
@@ -27164,7 +27208,7 @@ Set/check/get a skill (<a href="../../tables/secondary-skills/#ref-form-secondar
 # Water wheel (WM)
 
 ID: erm.receivers.wm
-URL: /en/erm/receivers/wm/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wm/
 Source references: old-help:rec-wm.htm
 
 WM receiver: water wheel, command parameters, and limitations.
@@ -27230,7 +27274,7 @@ When $=0, the mill is considered visited.</div>
 # Warrior tomb (WT)
 
 ID: erm.receivers.wt
-URL: /en/erm/receivers/wt/
+URL: https://asmedian.github.io/modding-guide/en/erm/receivers/wt/
 Source references: old-help:rec-wt.htm
 
 WT receiver: warrior tomb, command parameters, and limitations.
@@ -27298,7 +27342,7 @@ Yes artifact (1) or not (0)</div>
 # Introduction to ERM
 
 ID: erm.start
-URL: /en/erm/start/
+URL: https://asmedian.github.io/modding-guide/en/erm/start/
 Source references: old-help:cont-zvse.htm, old-help:cont-triggersol.htm, old-help:tr-pi.htm, old-help:tr-gm.htm, era-changelog:era-iii-changelog.txt, old-help:cont-adv.htm, old-help:cont-mapmakers.htm, old-help:cont-wog.htm
 
 How a script is loaded and responds to Heroes III events.
@@ -27556,7 +27600,7 @@ Use a separate test map and check new-game initialization, save/load, and repeat
 # ERM syntax: ZVSE and ZVSE2
 
 ID: erm.syntax
-URL: /en/erm/syntax/
+URL: https://asmedian.github.io/modding-guide/en/erm/syntax/
 Source references: old-help:cont-zvse.htm, old-help:cont-receiversol.htm, era-changelog:era-iii-changelog.txt, old-help:cont-ingener.htm
 
 Command prefixes, parameters, GET/SET, comments, and the ERM 2.0 preprocessor.
@@ -27760,7 +27804,7 @@ String literals use `^...^`. Ordinary text between a terminated command and the 
 # Reference tables
 
 ID: erm.tables
-URL: /en/erm/tables/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/
 Source references: old-help:cont-form.htm, old-help:form-hex.htm, era-framework:lib-9999-era---consts.erm
 
 IDs, flags, constants, slots and data formats for ERM commands.
@@ -28012,7 +28056,7 @@ Hex 0x10 = decimal 16; hex 0xFF = 255. Bit index 5 means mask 32. Combine indepe
 # Artifact slots
 
 ID: erm.tables.artifact-slots
-URL: /en/erm/tables/artifact-slots/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/artifact-slots/
 Source references: old-help:form-ap.htm, old-help:form-ap1.htm, old-help:form-ap2.htm, old-help:form-ap3.htm
 
 Hero doll positions, UN:A categories and HE:Y2 slots use different numbering.
@@ -28318,7 +28362,7 @@ For UN:A: 0 backpack only, 1..6 head/shoulders/neck/right hand/left hand/torso, 
 # Artifact table
 
 ID: erm.tables.artifacts
-URL: /en/erm/tables/artifacts/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/artifacts/
 Source references: old-help:form-a1.htm, era-framework:lib-9999-era---consts.erm, old-help:form-a1-hex.htm, old-help:form-a3.htm
 
 IDs from the standard WoG set. Adventure-map object: type 5.
@@ -30986,7 +31030,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Battle backgrounds
 
 ID: erm.tables.battle-backgrounds
-URL: /en/erm/tables/battle-backgrounds/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/battle-backgrounds/
 Source references: old-help:form-ba-b.htm, old-help:rec-ba.htm
 
 BA:B selects the battle background. -1 keeps the default selection; 1‚Äì25 are the legacy variants.
@@ -31079,7 +31123,7 @@ BA:B selects the battle background. -1 keeps the default selection; 1‚Äì25 are t
 # BU:G special battle terrain
 
 ID: erm.tables.battle-terrain
-URL: /en/erm/tables/battle-terrain/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/battle-terrain/
 Source references: old-help:form-bug.htm, old-help:rec-bu.htm
 
 BU:G uses a separate index for the combat effect. The corresponding map object type is listed alongside it.
@@ -31247,7 +31291,7 @@ BU:G uses a separate index for the combat effect. The corresponding map object t
 # Battlefield hexes
 
 ID: erm.tables.battlefield
-URL: /en/erm/tables/battlefield/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/battlefield/
 Source references: old-help:form-bf.htm, old-help:form-bf-s1.htm, old-help:rec-bf.htm
 
 11 rows of 17 positions: indices 0‚Äì186. Edge positions are reserved; check whether the chosen hex is usable.
@@ -31295,7 +31339,7 @@ Battlefield grid: cells 0‚Äì186, 11 rows of 17 cells.
 # Bits, masks and hexadecimal
 
 ID: erm.tables.bits
-URL: /en/erm/tables/bits/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/bits/
 Source references: old-help:form-hex.htm, old-help:form-16to10.htm, old-help:rec-vr.htm
 
 Bit indices start at 0; each mask is 2 raised to its index. The high bit of a signed 32-bit ERM integer corresponds to -2147483648. Hex FF = 255; hex 100 = 256.
@@ -31487,7 +31531,7 @@ Bit indices start at 0; each mask is 2 raised to its index. The high bit of a si
 # Hero blessings and curses
 
 ID: erm.tables.blessings
-URL: /en/erm/tables/blessings/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/blessings/
 Source references: old-help:form-bless.htm, old-help:rec-he.htm
 
 HE:Y IDs and power parameter meanings. Slot-locking curses use a separate slot table. Legacy WoG effects may depend on installed scripts.
@@ -31855,7 +31899,7 @@ HE:Y IDs and power parameter meanings. Slot-locking curses use a [separate slot 
 # Tent and border colors
 
 ID: erm.tables.border-colors
-URL: /en/erm/tables/border-colors/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/border-colors/
 Source references: old-help:form-bg.htm
 
 Tent is type 10, guard 9, gate 212. These are key colors, not player colors.
@@ -31941,7 +31985,7 @@ Tent is type 10, guard 9, gate 212. These are key colors, not player colors.
 # Building pictures by town
 
 ID: erm.tables.building-pictures
-URL: /en/erm/tables/building-pictures/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/building-pictures/
 Source references: old-help:form-buldingsintowns.htm, old-help:form-picts.htm, old-help:rec-if.htm
 
 Town building picture indices for IF:Q dialogs.
@@ -33511,7 +33555,7 @@ For IF:Q, picture type is 22 + [town type](../towns/), and subtype is the number
 # Town building IDs
 
 ID: erm.tables.buildings
-URL: /en/erm/tables/buildings/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/buildings/
 Source references: old-help:form-buldings.htm, old-help:rec-ca.htm
 
 Building ID for CA and bit in the building array. Town type determines special buildings. IF:Q building pictures use a different numbering system.
@@ -33831,7 +33875,7 @@ Building ID for CA and bit in the building array. [Town type](../towns/) determi
 # BM:V animations
 
 ID: erm.tables.combat-animations
-URL: /en/erm/tables/combat-animations/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/combat-animations/
 Source references: old-help:form-formatanimation.htm, old-help:form-defspell.htm
 
 A BM:V visual-effect ID is distinct from a spell ID.
@@ -34431,7 +34475,7 @@ Animation does not cast a spell. 12 is tied to the upper-left battlefield; 43/44
 # Combat stack fields
 
 ID: erm.tables.combat-stack-structure
-URL: /en/erm/tables/combat-stack-structure/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/combat-stack-structure/
 Source references: old-help:form-combatmon.htm, old-help:rec-bm.htm
 
 Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.
@@ -34853,7 +34897,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 # Combination artifacts
 
 ID: erm.tables.combination-artifacts
-URL: /en/erm/tables/combination-artifacts/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/combination-artifacts/
 Source references: old-help:form-a2.htm, old-help:rec-un.htm
 
 Combination index and assembled artifact ID are different values.
@@ -35028,7 +35072,7 @@ UN:A controls components and availability. Do not grant combination index 0 as a
 # Commander special bonuses
 
 ID: erm.tables.commander-bonuses
-URL: /en/erm/tables/commander-bonuses/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/commander-bonuses/
 Source references: old-help:form-cobo.htm, old-help:form-commanders.htm
 
 CO uses bonus indices and bit masks; mask = 2 to the power of the index.
@@ -35164,7 +35208,7 @@ CO uses bonus indices and bit masks; mask = 2 to the power of the index.
 # Commander classes
 
 ID: erm.tables.commanders
-URL: /en/erm/tables/commanders/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/commanders/
 Source references: old-help:form-commanders.htm, old-help:rec-co.htm
 
 Commander class corresponds to a pair of hero classes. This index differs from a commander creature ID.
@@ -35265,7 +35309,7 @@ Commander class corresponds to a pair of hero classes. This index differs from a
 # Creature banks
 
 ID: erm.tables.creature-banks
-URL: /en/erm/tables/creature-banks/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-banks/
 Source references: old-help:form-cb.htm
 
 Subtypes of WoG object 16. Mods that expand creature banks may change this set.
@@ -35414,7 +35458,7 @@ Subtypes of WoG [object 16](../objects/#id-16). Mods that expand creature banks 
 # Creature dwellings on the map
 
 ID: erm.tables.creature-dwellings
-URL: /en/erm/tables/creature-dwellings/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-dwellings/
 Source references: old-help:form-creaturedwellings.htm, old-help:rec-dw.htm
 
 The main table lists subtypes of object 17. For object 20, subtype 0 is the four-elemental dwelling and subtype 1 the four-golem factory.
@@ -36016,7 +36060,7 @@ The main table lists subtypes of [object 17](../objects/#id-17). For [object 20]
 # Creature bit flags
 
 ID: erm.tables.creature-flags
-URL: /en/erm/tables/creature-flags/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-flags/
 Source references: old-help:form-flaggedabilities.htm, old-help:rec-ma.htm, old-help:rec-bm.htm
 
 MA:X and BM:F masks. Preserve other bits when changing one property. Combat-state bits cannot safely be assigned arbitrarily to a living stack.
@@ -36282,7 +36326,7 @@ MA:X and BM:F masks. Preserve other bits when changing one property. Combat-stat
 # Creature DEF and sound resources
 
 ID: erm.tables.creature-resources
-URL: /en/erm/tables/creature-resources/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/creature-resources/
 Source references: old-help:form-cr-def-snd.htm, old-help:rec-ma.htm
 
 Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource names and casing are technical data.
@@ -37314,7 +37358,7 @@ Combat DEF filenames and sound prefixes for standard WoG creature IDs. Resource 
 # Creature table
 
 ID: erm.tables.creatures
-URL: /en/erm/tables/creatures/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/creatures/
 Source references: old-help:form-creature.htm, era-framework:lib-9999-era---consts.erm, old-help:form-creature-hex.htm
 
 IDs from the standard WoG set. Adventure-map object: type 54.
@@ -38761,7 +38805,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Mouse cursors
 
 ID: erm.tables.cursors
-URL: /en/erm/tables/cursors/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/cursors/
 Source references: old-help:form-mousepointers.htm, old-help:rec-un.htm
 
 Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact.
@@ -39108,7 +39152,7 @@ UN:P uses a type/subtype pair. Type 3 is the spell cursor with no meaningful sub
 # CM:I click areas
 
 ID: erm.tables.dialog-items
-URL: /en/erm/tables/dialog-items/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-items/
 Source references: old-help:form-cmi.htm, old-help:rec-cm.htm
 
 Adventure, town, hero, hero exchange and combat click areas.
@@ -41192,7 +41236,7 @@ CM:I returns an item ID in the active screen. The same ID can identify different
 # IF:Q picture types
 
 ID: erm.tables.dialog-pictures
-URL: /en/erm/tables/dialog-pictures/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-pictures/
 Source references: old-help:form-picts.htm, old-help:rec-if.htm
 
 The picture type determines the meaning of the next parameter. Town pictures use 22 + town type.
@@ -41336,7 +41380,7 @@ The picture type determines the meaning of the next parameter. Town pictures use
 # DL dialog templates
 
 ID: erm.tables.dialog-templates
-URL: /en/erm/tables/dialog-templates/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-templates/
 Source references: old-help:rec-dl.htm
 
 Text-table structure, element fields and template limitations.
@@ -41378,7 +41422,7 @@ Button DEFs need at least two frames; the second is used while pressed/disabled.
 # Game dialog identifiers
 
 ID: erm.tables.dialog-types
-URL: /en/erm/tables/dialog-types/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/dialog-types/
 Source references: old-help:form-gamestate.htm, old-help:era-api.htm, era-source:era.pas, era-framework:lib-end--9999-era---stdlib.erm
 
 Identifiers returned by GetGameState in the legacy installation. WND and HD plugins may replace dialogs; one number can identify several windows. These values depend on the implementation, not row order.
@@ -41528,7 +41572,7 @@ Identifiers returned by GetGameState in the legacy installation. WND and HD plug
 # Hero classes
 
 ID: erm.tables.hero-classes
-URL: /en/erm/tables/hero-classes/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-classes/
 Source references: old-help:form-heroesclasses.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
@@ -41665,7 +41709,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Hero experience thresholds
 
 ID: erm.tables.hero-levels
-URL: /en/erm/tables/hero-levels/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-levels/
 Source references: old-help:form-heroeslevels.htm, old-help:rec-he.htm
 
 Standard experience curve. Beyond level 75, overflow and unreachable intermediate levels can occur; do not extrapolate this table to a modified engine.
@@ -42159,7 +42203,7 @@ Standard experience curve. Beyond level 75, overflow and unreachable intermediat
 # Hero structure fields
 
 ID: erm.tables.hero-structure
-URL: /en/erm/tables/hero-structure/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-structure/
 Source references: old-help:form-advhero.htm, old-help:rec-he.htm
 
 Hex offsets relative to a structure pointer in the legacy WoG snapshot. This describes a layout, not universal UN:C addresses. Unidentified fields are not an API. Verify structure size and layout in the target build.
@@ -42419,7 +42463,7 @@ Hex offsets relative to a structure pointer in the legacy WoG snapshot. This des
 # Hero visits and bits
 
 ID: erm.tables.hero-visits
-URL: /en/erm/tables/hero-visits/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/hero-visits/
 Source references: old-help:form-he-v.htm, old-help:form-he-r.htm
 
 HE:V uses a visit-kind index, not the adventure-map object type.
@@ -42664,7 +42708,7 @@ HE:R7 uses a bit mask, not this list. Bit 18 means being in a boat; setting it o
 # Hero table
 
 ID: erm.tables.heroes
-URL: /en/erm/tables/heroes/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/heroes/
 Source references: old-help:form-numberheroes.htm, era-framework:lib-9999-era---consts.erm, old-help:form-numberheroes-hex.htm
 
 IDs from the standard WoG set. Adventure-map object: type 34.
@@ -43561,7 +43605,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Mine types
 
 ID: erm.tables.mines
-URL: /en/erm/tables/mines/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/mines/
 Source references: old-help:form-mines.htm
 
 Object type 53; its subtype is separate from the resource ID.
@@ -43646,7 +43690,7 @@ Object [type 53](../objects/#id-53); its subtype is separate from the [resource 
 # Music: IDs and MP3 names
 
 ID: erm.tables.music
-URL: /en/erm/tables/music/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/music/
 Source references: old-help:form-mp3.htm, old-help:form-track.htm, old-help:rec-mp.htm, old-help:rec-vr.htm
 
 Standard indices 1‚Äì58. The legacy system reserves 59‚Äì199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions.
@@ -44180,7 +44224,7 @@ Standard indices 1‚Äì58. The legacy system reserves 59‚Äì199 for custom tracks. 
 # Object control words
 
 ID: erm.tables.object-control-words
-URL: /en/erm/tables/object-control-words/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/object-control-words/
 Source references: old-help:cont-conwords.htm, old-help:rec-ob.htm, old-help:rec-sk.htm, old-help:rec-mt.htm
 
 The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data.
@@ -44908,7 +44952,7 @@ The 32-bit OB:C field has a different layout for each object type. These are ins
 # Game object table
 
 ID: erm.tables.objects
-URL: /en/erm/tables/objects/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/objects/
 Source references: old-help:form-objects.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
@@ -46091,7 +46135,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Obstacle flags
 
 ID: erm.tables.obstacle-flags
-URL: /en/erm/tables/obstacle-flags/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/obstacle-flags/
 Source references: old-help:form-obstacles-bit.htm, old-help:form-obstacles.htm
 
 BU:O returns a combination of cell flags; bit position differs from bit value.
@@ -46160,7 +46204,7 @@ BU:O returns a combination of cell flags; bit position differs from bit value.
 # Battlefield obstacles
 
 ID: erm.tables.obstacles
-URL: /en/erm/tables/obstacles/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/obstacles/
 Source references: old-help:form-obstacles.htm, old-help:rec-bf.htm
 
 IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex may remain free. See obstacle flags and the battlefield grid.
@@ -46663,7 +46707,7 @@ IDs for BF:O. Shapes extend upward and rightward from the starting hex; that hex
 # One-way monoliths
 
 ID: erm.tables.one-way-monoliths
-URL: /en/erm/tables/one-way-monoliths/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/one-way-monoliths/
 Source references: old-help:form-one-way-monolith.htm, old-help:form-objects.htm
 
 Subtypes of object 43. One-way entrances and exits use different types, 43 and 44.
@@ -46736,7 +46780,7 @@ Subtypes of [object 43](../objects/#id-43). One-way entrances and exits use diff
 # Player colors
 
 ID: erm.tables.players
-URL: /en/erm/tables/players/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/players/
 Source references: old-help:form-gamerscolor.htm, era-framework:lib-9999-era---consts.erm, old-help:form-gamerscolor-bit.htm, old-help:form-if-flags.htm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
@@ -46947,7 +46991,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Projectiles and beams
 
 ID: erm.tables.projectiles
-URL: /en/erm/tables/projectiles/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/projectiles/
 Source references: old-help:form-weapon.htm
 
 A projectile image type differs from creature type and shooter flags.
@@ -47078,7 +47122,7 @@ Historical type 16 looks for an empty-name DEF and crashes when it is missing. B
 # RD recruitment dialog
 
 ID: erm.tables.recruitment-dialog
-URL: /en/erm/tables/recruitment-dialog/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/recruitment-dialog/
 Source references: old-help:form-rd-s1.htm, old-help:rec-rd.htm
 
 Recruitment dialog layout: three creature variants, price, stock, quantity and confirmation. Configure this dialog with RD.
@@ -47114,7 +47158,7 @@ Recruitment dialog layout: three creature variants, price, stock, quantity and c
 # Resources
 
 ID: erm.tables.resources
-URL: /en/erm/tables/resources/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/resources/
 Source references: old-help:form-resource.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. Adventure-map object: type 79.
@@ -47200,7 +47244,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Secondary skill pictures
 
 ID: erm.tables.secondary-skill-pictures
-URL: /en/erm/tables/secondary-skill-pictures/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skill-pictures/
 Source references: old-help:form-secondaryskill-if.htm, old-help:rec-if.htm
 
 Picture ID = 3 √ó skill ID + level ‚àí 1, with level from 1 to 3.
@@ -47537,7 +47581,7 @@ Picture ID = 3 √ó skill ID + level ‚àí 1, with level from 1 to 3.
 # Secondary skills
 
 ID: erm.tables.secondary-skills
-URL: /en/erm/tables/secondary-skills/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skills/
 Source references: old-help:form-secondaryskill.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
@@ -47696,7 +47740,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Game event sounds
 
 ID: erm.tables.sounds
-URL: /en/erm/tables/sounds/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/sounds/
 Source references: old-help:form-sound.htm, old-help:rec-sn.htm
 
 WAV/82M resource names from the standard set. Check that the active installation includes the requested sound.
@@ -47826,7 +47870,7 @@ WAV/82M resource names from the standard set. Check that the active installation
 # Special terrain objects
 
 ID: erm.tables.special-terrain
-URL: /en/erm/tables/special-terrain/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/special-terrain/
 Source references: old-help:form-specterrain.htm
 
 These are map object IDs, not basic terrain IDs.
@@ -47896,7 +47940,7 @@ These are [map object IDs](../objects/), not basic [terrain IDs](../terrain/).
 # Hero specialty pictures
 
 ID: erm.tables.specialty-pictures
-URL: /en/erm/tables/specialty-pictures/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/specialty-pictures/
 Source references: old-help:form-heroesspec.htm, old-help:rec-he.htm, old-help:rec-un.htm
 
 Image index for UN:G2. It changes the specialty picture; other HE:X parameters control gameplay behavior. Entries 0‚Äì155 correspond to standard heroes.
@@ -49379,7 +49423,7 @@ Image index for UN:G2. It changes the specialty picture; other HE:X parameters c
 # Spell table
 
 ID: erm.tables.spells
-URL: /en/erm/tables/spells/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/spells/
 Source references: old-help:form-spell.htm, era-framework:lib-9999-era---consts.erm, old-help:form-spell-hex.htm, old-help:form-spella.htm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
@@ -50524,7 +50568,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Stack experience abilities
 
 ID: erm.tables.stack-experience-abilities
-URL: /en/erm/tables/stack-experience-abilities/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-abilities/
 Source references: old-help:form-specexp1.htm, old-help:rec-ea.htm
 
 EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes.
@@ -50753,7 +50797,7 @@ EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have
 # EA:B flag abilities
 
 ID: erm.tables.stack-experience-flags
-URL: /en/erm/tables/stack-experience-flags/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-flags/
 Source references: old-help:form-specexp2.htm, old-help:rec-ea.htm
 
 EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:F masks.
@@ -50840,7 +50884,7 @@ EA:B values of $4 when $3=102 (character f). These are ASCII codes, not MA:X/BM:
 # EA:B spell immunities
 
 ID: erm.tables.stack-experience-immunities
-URL: /en/erm/tables/stack-experience-immunities/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-immunities/
 Source references: old-help:form-specexp4.htm, old-help:rec-ea.htm
 
 EA:B values of $4 when $3=119 (character w). Character codes differ from spell IDs.
@@ -51015,7 +51059,7 @@ EA:B values of $4 when $3=119 (character w). Character codes differ from spell I
 # EA:B modifiers
 
 ID: erm.tables.stack-experience-modifiers
-URL: /en/erm/tables/stack-experience-modifiers/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-modifiers/
 Source references: old-help:form-specexp5.htm, old-help:rec-ea.htm
 
 Modifier $4 determines whether an ability value is added, assigned or interpreted as a percentage.
@@ -51068,7 +51112,7 @@ Modifier $4 determines whether an ability value is added, assigned or interprete
 # EA:B non-damaging spells
 
 ID: erm.tables.stack-experience-spells
-URL: /en/erm/tables/stack-experience-spells/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-spells/
 Source references: old-help:form-specexp3.htm, old-help:rec-ea.htm
 
 Values of $4 when $3=99 (c). These are spell IDs.
@@ -51154,7 +51198,7 @@ Values of $4 when $3=99 (c). These are spell IDs.
 # Terrain types
 
 ID: erm.tables.terrain
-URL: /en/erm/tables/terrain/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/terrain/
 Source references: old-help:form-terrain.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.
@@ -51246,7 +51290,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # DL text alignment
 
 ID: erm.tables.text-alignment
-URL: /en/erm/tables/text-alignment/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/text-alignment/
 Source references: old-help:form-align.htm, old-help:rec-dl.htm
 
 DL template Text values select vertical and horizontal positioning inside the item rectangle.
@@ -51327,7 +51371,7 @@ DL template Text values select vertical and horizontal positioning inside the it
 # Named text colors
 
 ID: erm.tables.text-colors
-URL: /en/erm/tables/text-colors/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/text-colors/
 Source references: era-source:rainbow.pas, old-help:form-colors.htm
 
 Rainbow.pas color names and RGB values without the alpha byte.
@@ -52244,7 +52288,7 @@ Use `{~Red}text{~}` markup. Short names b/y/w/o/p/a alias Blue/Yellow/White/Oran
 # Text resources: ERT, ERS and JSON
 
 ID: erm.tables.text-resources
-URL: /en/erm/tables/text-resources/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/text-resources/
 Source references: old-help:cont-ert.htm, old-help:cont-ers.htm, old-help:cont-json.htm, erm-forum:faq-.html, era-changelog:era-iii-changelog.txt
 
 External text, option labels and script localization.
@@ -52476,7 +52520,7 @@ h3sprite.lod contains graphic resources; h3bitmap.lod contains bitmap images and
 # Town types
 
 ID: erm.tables.towns
-URL: /en/erm/tables/towns/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/towns/
 Source references: old-help:form-towns.htm, era-framework:lib-9999-era---consts.erm
 
 IDs from the standard WoG set. Adventure-map object: type 98.
@@ -52569,7 +52613,7 @@ HEX is the same ID in hexadecimal, not a different identifier. Check the actual 
 # Two-way monoliths
 
 ID: erm.tables.two-way-monoliths
-URL: /en/erm/tables/two-way-monoliths/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/two-way-monoliths/
 Source references: old-help:form-two-way-monolith.htm, old-help:form-objects.htm
 
 Subtypes of object 45. One-way entrances and exits use different types, 43 and 44.
@@ -52638,7 +52682,7 @@ Subtypes of [object 45](../objects/#id-45). One-way entrances and exits use diff
 # Game videos
 
 ID: erm.tables.videos
-URL: /en/erm/tables/videos/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/videos/
 Source references: old-help:form-video.htm, old-help:rec-vr.htm
 
 Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is not part of a filename.
@@ -52750,7 +52794,7 @@ Video IDs and BIK basenames. A plus sign separates a sequence of clips; it is no
 # WoG object variants
 
 ID: erm.tables.wog-object-variants
-URL: /en/erm/tables/wog-object-variants/
+URL: https://asmedian.github.io/modding-guide/en/erm/tables/wog-object-variants/
 Source references: old-help:form-newobj.htm, old-help:form-objects.htm
 
 Appearance, type and subtype in the legacy WoG set. A picture does not define behavior by itself; active scripts and object settings do.
@@ -53285,7 +53329,7 @@ Appearance, type and subtype in the legacy WoG set. A picture does not define be
 # ERM triggers and events
 
 ID: erm.triggers
-URL: /en/erm/triggers/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/
 Source references: era-source:erm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt, old-help:cont-eventslist.htm, old-help:cont-logicevent.htm, old-help:cont-triggers.htm, old-help:cont-triggers-era.htm, old-help:cont-triggersol.htm
 
 28 classic families and 104 registered ERA events.
@@ -54709,7 +54753,7 @@ New map: instructions ‚Üí PI / OnAfterErmInstructions ‚Üí OnGameEnter. Load: dat
 # Artifact equipment (AE)
 
 ID: erm.triggers.ae
-URL: /en/erm/triggers/ae/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ae/
 Source references: old-help:tr-ae.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 unequips; 1 equips. The current hero owns the artifact, v998 is the artifact ID, and v999 its slot.
@@ -54784,7 +54828,7 @@ Rearranging backpack items is not equipment. Replacing one artifact with another
 # Battle start and completion (BA)
 
 ID: erm.triggers.ba
-URL: /en/erm/triggers/ba/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ba/
 Source references: old-help:tr-ba.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0/1 start/end on the attacking or local computer; 50/51 on the defender‚Äôs computer; 52/53 are universal events on both sides. Start order is BA0 or BA50, then BA52; end order is BA1 or BA51, then BA53.
@@ -54861,7 +54905,7 @@ BA also fires for theoretical AI battles. Battle stacks are not ready at the sta
 # Battlefield setup (BF)
 
 ID: erm.triggers.bf
-URL: /en/erm/triggers/bf/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/bf/
 Source references: old-help:tr-bf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 The battlefield-configuration point before combat. BF can place obstacles.
@@ -54916,7 +54960,7 @@ Legacy Help excludes battles without a human. Do not call BU:R to redraw at this
 # Battle actions (BG)
 
 ID: erm.triggers.bg
-URL: /en/erm/triggers/bg/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/bg/
 Source references: old-help:tr-bg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 BG0 precedes an action; BG1 is associated with action completion and passing control. Read action parameters through BG; v997 stores the round.
@@ -54982,7 +55026,7 @@ BG:N during BG1 may already refer to the next stack. OnBattleActionEnd provides 
 # Battle rounds (BR)
 
 ID: erm.triggers.br
-URL: /en/erm/triggers/br/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/br/
 Source references: old-help:tr-br.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 The classic code accepts a round selector: -1 before tactics, 0 first round, 1 second. v997 is the round counter; early phases run before the field is visible.
@@ -55051,7 +55095,7 @@ The supplied Erm.pas registers OnCombatRound and OnBattleRound for the same even
 # Mouse clicks (CM)
 
 ID: erm.triggers.cm
-URL: /en/erm/triggers/cm/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/cm/
 Source references: old-help:tr-cm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 adventure-map right click; 1 town; 2 hero; 3 hero meeting; 4 battle; 5 adventure-map left click. CM provides coordinates, item, and action.
@@ -55121,7 +55165,7 @@ CM:P applies to the adventure map/minimap. Cancel the default reaction with CM:R
 # Commander events (CO)
 
 ID: erm.triggers.co
-URL: /en/erm/triggers/co/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/co/
 Source references: old-help:tr-co.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 before the commander window, 1 after closing, 2 after purchase, 3 after resurrection. HE-1 and CO-1 access the current hero and commander.
@@ -55183,7 +55227,7 @@ Do not confuse this trigger or the CO receiver with lowercase co, which continue
 # Custom dialog events (DL)
 
 ID: erm.triggers.dl
-URL: /en/erm/triggers/dl/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/dl/
 Source references: old-help:tr-dl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Handles custom-dialog item actions. Classic context: v998 is dialog ID, v999 item ID, v1000 action.
@@ -55250,7 +55294,7 @@ Check your dialog ID before changing items. Available actions and keyboard suppo
 # Function handler (FU)
 
 ID: erm.triggers.fu
-URL: /en/erm/triggers/fu/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/fu/
 Source references: old-help:tr-fu.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 The function body follows its declaration and is invoked with FU:P or DO:P. Inputs and outputs use x1..x16.
@@ -55305,7 +55349,7 @@ Reusing a name adds handlers rather than an independent overload. Use a unique m
 # Global map event (GE)
 
 ID: erm.triggers.ge
-URL: /en/erm/triggers/ge/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ge/
 Source references: old-help:tr-ge.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires for a global event whose text begins with the selected number. The technical number is hidden from the displayed message while a handler exists.
@@ -55355,7 +55399,7 @@ The number comes from the start of the event text, not its title or editor row p
 # Saving and loading (GM)
 
 ID: erm.triggers.gm
-URL: /en/erm/triggers/gm/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/gm/
 Source references: old-help:tr-gm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves.
@@ -55424,7 +55468,7 @@ OnSavegameRead/Write have different timing and are intended for custom data sect
 # Visiting a hero (HE)
 
 ID: erm.triggers.he
-URL: /en/erm/triggers/he/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/he/
 Source references: old-help:tr-he.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Responds to visiting or attacking the selected hero. The selector is a hero ID.
@@ -55470,7 +55514,7 @@ Use OnBeforeHeroInteraction and OnAfterHeroInteraction for detailed interaction 
 # Hero level-up (HL)
 
 ID: erm.triggers.hl
-URL: /en/erm/triggers/hl/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/hl/
 Source references: old-help:tr-hl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires when a hero gains a level. -1 selects all heroes. HL-1 runs before the hero-specific handler. HL edits the offered skills.
@@ -55530,7 +55574,7 @@ Distinguish the skill-selection point from OnAfterHeroGainLevel after the level-
 # Hero movement (HM)
 
 ID: erm.triggers.hm
-URL: /en/erm/triggers/hm/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/hm/
 Source references: old-help:tr-hm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires before each step. -1 selects every hero; the general handler precedes a hero-specific handler. v998/v999/v1000 hold the current hero‚Äôs coordinates.
@@ -55596,7 +55640,7 @@ The legacy trigger cannot cancel movement. It fires frequently; do not open a di
 # Network battle data transfer (IP)
 
 ID: erm.triggers.ip
-URL: /en/erm/triggers/ip/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ip/
 Source references: old-help:tr-ip.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 before the attacker sends initial data, 1 after the defender receives it; 2 before results are sent, 3 after receiving them. IP provides additional synchronization.
@@ -55684,7 +55728,7 @@ Context depends on side and battle result. Local player clicks are not automatic
 # Local-event visit (LE)
 
 ID: erm.triggers.le
-URL: /en/erm/triggers/le/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/le/
 Source references: old-help:tr-le.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 X/Y/level selects an existing local map event. !? runs before its standard effects; !$ runs afterwards.
@@ -55751,7 +55795,7 @@ The event must exist at the location. A one-shot event may disappear after visit
 # Physical damage calculation (MF)
 
 ID: erm.triggers.mf
-URL: /en/erm/triggers/mf/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mf/
 Source references: old-help:tr-mf.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires before damage is dealt. MF reads the target and changes final damage.
@@ -55835,7 +55879,7 @@ MF0 and MF without a number are invalid. The event covers more than ordinary att
 # Adventure-map magic (MG)
 
 ID: erm.triggers.mg
-URL: /en/erm/triggers/mg/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mg/
 Source references: old-help:tr-mg.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 before opening the spellbook to select a spell; 1 after the casting attempt. v997 contains the spell ID after MG1.
@@ -55900,7 +55944,7 @@ MG1 also fires on cancellation. Its occurrence does not prove successful casting
 # Interface hints (MM)
 
 ID: erm.triggers.mm
-URL: /en/erm/triggers/mm/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mm/
 Source references: old-help:tr-mm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 battle hints, 1 town hints, 2 adventure map. MM modifies text in the relevant context.
@@ -55962,7 +56006,7 @@ MM0 does not fire for every spell-target selection stage. MM1 can fire on mouse 
 # Music theme changes (MP)
 
 ID: erm.triggers.mp
-URL: /en/erm/triggers/mp/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mp/
 Source references: old-help:tr-mp.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires when ChangeMp3Theme is called. MP:S changes parameters; MP:R controls the default reaction.
@@ -56016,7 +56060,7 @@ This is an MP3 music event; SN covers sound effects. Guard against re-entry when
 # Magic resistance (MR)
 
 ID: erm.triggers.mr
-URL: /en/erm/triggers/mr/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mr/
 Source references: old-help:tr-mr.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 precedes standard damage correction for resistance; 1 follows it. In MR2, MR:F means a percentage chance of dwarf-style full resistance.
@@ -56098,7 +56142,7 @@ F is damage in MR0/1 but a percentage in MR2. Anti-Magic and some mass spells by
 # Wandering monsters (MW)
 
 ID: erm.triggers.mw
-URL: /en/erm/triggers/mw/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/mw/
 Source references: old-help:tr-mw.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 reaching a destination/hero, 1 monster death. v997 is the wandering-monster ID. Corresponding MW settings must enable these events.
@@ -56156,7 +56200,7 @@ The classic implementation fires on the next turn after arrival or death, not im
 # Object visits (OB)
 
 ID: erm.triggers.ob
-URL: /en/erm/triggers/ob/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ob/
 Source references: old-help:tr-ob.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Select an object type, type/subtype, or exact entrance coordinates. The object must have an entrance cell. Monsters, resources, and artifacts qualify; heroes use HE.
@@ -56247,7 +56291,7 @@ The !$OB post-trigger runs after the default reaction. The three forms do not si
 # Adventure-map tile hint (OnAdventureMapTileHint)
 
 ID: erm.triggers.onadventuremaptilehint
-URL: /en/erm/triggers/onadventuremaptilehint/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onadventuremaptilehint/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1..x3 are object coordinates; x4/x5 type/subtype or -1; x6..x8 hovered tile coordinates. Change text through MM, not numeric arguments. OnAdvMapTileHint is a registered alias for the same ID.
@@ -56280,7 +56324,7 @@ ID `77040`; registered as `TRIGGER_ADVMAP_TILE_HINT`. Aliases: OnAdvMapTileHint.
 # After construction (OnAfterBuildTownBuilding)
 
 ID: erm.triggers.onafterbuildtownbuilding
-URL: /en/erm/triggers/onafterbuildtownbuilding/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterbuildtownbuilding/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is town; x2 constructed building. Town state has been updated. Closing the town hall alone does not imply construction.
@@ -56313,7 +56357,7 @@ ID `77052`; registered as `TRIGGER_AFTER_BUILD_TOWN_BUILDING`. The name is confi
 # After a hero level-up (OnAfterHeroGainLevel)
 
 ID: erm.triggers.onafterherogainlevel
-URL: /en/erm/triggers/onafterherogainlevel/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterherogainlevel/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is hero after leveling up, once the dialog closes. Applies to humans and AI. Use HL before selection completes to change offered skills.
@@ -56346,7 +56390,7 @@ ID `77050`; registered as `TRIGGER_AFTER_HERO_GAIN_LEVEL`. The name is confirmed
 # After hero interaction (OnAfterHeroInteraction)
 
 ID: erm.triggers.onafterherointeraction
-URL: /en/erm/triggers/onafterherointeraction/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterherointeraction/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the initiator; x2 the target hero. State may have changed during interaction: a hero may have died or changed owner.
@@ -56378,7 +56422,7 @@ ID `77011`; registered as `TRIGGER_AFTERHEROINTERACT`. The name is confirmed by 
 # After a local event (OnAfterLocalEvent)
 
 ID: erm.triggers.onafterlocalevent
-URL: /en/erm/triggers/onafterlocalevent/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterlocalevent/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1/x2/x3 are event coordinates. For humans; fires before the corresponding !$LE. Do not assume a one-shot event object remains on the map.
@@ -56411,7 +56455,7 @@ ID `77046`; registered as `TRIGGER_AFTER_LOCAL_EVENT`. The name is confirmed by 
 # After placing battle obstacles (OnAfterPlaceBattleObstacles)
 
 ID: erm.triggers.onafterplacebattleobstacles
-URL: /en/erm/triggers/onafterplacebattleobstacles/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onafterplacebattleobstacles/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After obstacle placement. No arguments. ERA restores its main RNG; cell changes must account for obstacles already placed.
@@ -56444,7 +56488,7 @@ ID `77055`; registered as `TRIGGER_AFTER_BATTLE_PLACE_BATTLE_OBSTACLES`. The nam
 # After saving (OnAfterSaveGame)
 
 ID: erm.triggers.onaftersavegame
-URL: /en/erm/triggers/onaftersavegame/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onaftersavegame/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After save completion. No arguments. Use OnSavegameWrite to write a custom data section.
@@ -56476,7 +56520,7 @@ ID `77008`; registered as `TRIGGER_AFTER_SAVE_GAME`. The name is confirmed by th
 # After tactics (OnAfterTacticsPhase)
 
 ID: erm.triggers.onaftertacticsphase
-URL: /en/erm/triggers/onaftertacticsphase/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onaftertacticsphase/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After tactical placement ends. When there is no tactics phase, it follows preparation for battlefield display. No arguments.
@@ -56508,7 +56552,7 @@ ID `77021`; registered as `TRIGGER_AFTER_TACTICS_PHASE`. The name is confirmed b
 # AI attack evaluation (OnAICalcStackAttackEffect)
 
 ID: erm.triggers.onaicalcstackattackeffect
-URL: /en/erm/triggers/onaicalcstackattackeffect/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onaicalcstackattackeffect/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is attacking stack; x2 defender; x3 mutable effect score; x4 original score. This evaluates an action for AI rather than dealing damage.
@@ -56541,7 +56585,7 @@ ID `77013`; registered as `TRIGGER_ONAICALCSTACKATTACKEFFECT`. The name is confi
 # Battle action completion (OnBattleActionEnd)
 
 ID: erm.triggers.onbattleactionend
-URL: /en/erm/triggers/onbattleactionend/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleactionend/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 No arguments. Order: OnBeforeBattleAction ‚Üí OnBattleActionEnd ‚Üí OnBattleRound ‚Üí OnBeforeBattleStackTurn ‚Üí OnBattleStackObtainsTurn ‚Üí OnAfterBattleAction. Round/stack events occur on the relevant transition, not unconditionally after every action.
@@ -56574,7 +56618,7 @@ ID `77051`; registered as `TRIGGER_BATTLE_ACTION_END`. The name is confirmed by 
 # Battlefield becomes visible (OnBattlefieldVisible)
 
 ID: erm.triggers.onbattlefieldvisible
-URL: /en/erm/triggers/onbattlefieldvisible/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlefieldvisible/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After the battle theme starts and the tactics dialog. No arguments. This marks visibility, not necessarily the end of tactical placement.
@@ -56606,7 +56650,7 @@ ID `77020`; registered as `TRIGGER_BATTLEFIELD_VISIBLE`. The name is confirmed b
 # Regeneration phase (OnBattleRegeneratePhase)
 
 ID: erm.triggers.onbattleregeneratephase
-URL: /en/erm/triggers/onbattleregeneratephase/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleregeneratephase/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount.
@@ -56638,7 +56682,7 @@ ID `77007`; registered as `TRIGGER_REGENERATE_PHASE`. The name is confirmed by t
 # Battle replay (OnBattleReplay)
 
 ID: erm.triggers.onbattlereplay
-URL: /en/erm/triggers/onbattlereplay/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlereplay/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After battle state is reset for replay. No arguments. OnBeforeBattleUniversal does not run again; rebuild combat-dependent context here. Requires replay support in the installed build.
@@ -56671,7 +56715,7 @@ ID `77043`; registered as `TRIGGER_BATTLE_REPLAY`. The name is confirmed by the 
 # Passing control to a stack (OnBattleStackObtainsTurn)
 
 ID: erm.triggers.onbattlestackobtainsturn
-URL: /en/erm/triggers/onbattlestackobtainsturn/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackobtainsturn/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale.
@@ -56704,7 +56748,7 @@ ID `77006`; registered as `TRIGGER_STACK_OBTAINS_TURN`. The name is confirmed by
 # Stack regeneration amount (OnBattleStackRegeneration)
 
 ID: erm.triggers.onbattlestackregeneration
-URL: /en/erm/triggers/onbattlestackregeneration/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackregeneration/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is stack 0..41; x2 mutable healing; x3 original standard healing. Result is clamped to 0..lost HP of the top creature. Can heal a stack without native regeneration, but cannot resurrect dead creatures. Distinct from OnBattleRegeneratePhase.
@@ -56737,7 +56781,7 @@ ID `77056`; registered as `TRIGGER_BATTLE_STACK_REGENERATION`. The name is confi
 # Before showing the battlefield (OnBeforeBattlefieldVisible)
 
 ID: erm.triggers.onbeforebattlefieldvisible
-URL: /en/erm/triggers/onbeforebattlefieldvisible/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlefieldvisible/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 The field is still dark; the event precedes early BR-1. No arguments. Early BA/BF do not guarantee BM/EA structures are ready; choose the phase required by your data.
@@ -56770,7 +56814,7 @@ ID `77019`; registered as `TRIGGER_ONBEFORE_BATTLEFIELD_VISIBLE`. The name is co
 # Before battle replay (OnBeforeBattleReplay)
 
 ID: erm.triggers.onbeforebattlereplay
-URL: /en/erm/triggers/onbeforebattlereplay/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlereplay/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After the user rejects the result, before battle state is reset. No arguments. Suitable for releasing temporary resources from the previous attempt.
@@ -56803,7 +56847,7 @@ ID `77044`; registered as `TRIGGER_BEFORE_BATTLE_REPLAY`. The name is confirmed 
 # Before a stack turn (OnBeforeBattleStackTurn)
 
 ID: erm.triggers.onbeforebattlestackturn
-URL: /en/erm/triggers/onbeforebattlestackturn/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforebattlestackturn/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is active stack 0..41, mutable. Fires before OnBattleRegeneratePhase. Validate a replacement stack; this is not an arbitrary attack invocation.
@@ -56836,7 +56880,7 @@ ID `77041`; registered as `TRIGGER_BEFORE_STACK_TURN`. The name is confirmed by 
 # Before hero interaction (OnBeforeHeroInteraction)
 
 ID: erm.triggers.onbeforeherointeraction
-URL: /en/erm/triggers/onbeforeherointeraction/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeherointeraction/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the initiator, x2 the target hero; x3 allows interaction, defaults to 1 and can be set to 0. Covers meetings and attacks.
@@ -56868,7 +56912,7 @@ ID `77010`; registered as `TRIGGER_BEFOREHEROINTERACT`. The name is confirmed by
 # Before a local event (OnBeforeLocalEvent)
 
 ID: erm.triggers.onbeforelocalevent
-URL: /en/erm/triggers/onbeforelocalevent/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforelocalevent/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1/x2/x3 are event coordinates. For humans; fires before the corresponding !?LE.
@@ -56901,7 +56945,7 @@ ID `77045`; registered as `TRIGGER_BEFORE_LOCAL_EVENT`. The name is confirmed by
 # Before placing battle obstacles (OnBeforePlaceBattleObstacles)
 
 ID: erm.triggers.onbeforeplacebattleobstacles
-URL: /en/erm/triggers/onbeforeplacebattleobstacles/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbeforeplacebattleobstacles/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After OnBeforeBattlefieldVisible, before obstacles. No arguments. Temporarily uses the native RNG seeded with 110291x+167801y+81569; consuming random numbers here affects placement.
@@ -56934,7 +56978,7 @@ ID `77054`; registered as `TRIGGER_BEFORE_BATTLE_PLACE_BATTLE_OBSTACLES`. The na
 # Building a town structure (OnBuildTownBuilding)
 
 ID: erm.triggers.onbuildtownbuilding
-URL: /en/erm/triggers/onbuildtownbuilding/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onbuildtownbuilding/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is town; x2 building. Applies to humans and AI. Use OnAfterBuildTownBuilding for actions after construction is complete.
@@ -56966,7 +57010,7 @@ ID `77031`; registered as `TRIGGER_BUILD_TOWN_BUILDING`. The name is confirmed b
 # Calculating town income (OnCalculateTownIncome)
 
 ID: erm.triggers.oncalculatetownincome
-URL: /en/erm/triggers/oncalculatetownincome/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/oncalculatetownincome/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is town; x2 income, mutable; x3 includes additional silo resources. Only returned income x2 is changed. This is a calculation event and does not guarantee resources are being paid.
@@ -56999,7 +57043,7 @@ ID `77042`; registered as `TRIGGER_CALC_TOWN_INCOME`. The name is confirmed by t
 # Game chat (OnChat)
 
 ID: erm.triggers.onchat
-URL: /en/erm/triggers/onchat/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onchat/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 selects the stage: 0 enter (x2 blocks entry); 1 input (x2 text pointer, x3 action: 0 clear, 1 close, 2 default); 2 leave. Argument meanings depend on stage; check x1 first.
@@ -57032,7 +57076,7 @@ ID `77014`; registered as `TRIGGER_ONCHAT`. The name is confirmed by the supplie
 # Closing the hero screen (OnCloseHeroScreen)
 
 ID: erm.triggers.oncloseheroscreen
-URL: /en/erm/triggers/oncloseheroscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/oncloseheroscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero used to open the window, even if the user subsequently switched heroes.
@@ -57064,7 +57108,7 @@ ID `77005`; registered as `TRIGGER_CLOSE_HEROSCREEN`. The name is confirmed by t
 # Closing recruitment (OnCloseRecruitDlg)
 
 ID: erm.triggers.oncloserecruitdlg
-URL: /en/erm/triggers/oncloserecruitdlg/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/oncloserecruitdlg/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 No arguments. RD data remains available before the dialog is freed; a retained dialog pointer is invalid afterwards.
@@ -57096,7 +57140,7 @@ ID `77024`; registered as `TRIGGER_CLOSE_RECRUIT_DLG`. The name is confirmed by 
 # Closing a town (OnCloseTownScreen)
 
 ID: erm.triggers.onclosetownscreen
-URL: /en/erm/triggers/onclosetownscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onclosetownscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town used to open the window.
@@ -57128,7 +57172,7 @@ ID `77033`; registered as `TRIGGER_CLOSE_TOWN_SCREEN`. The name is confirmed by 
 # Choosing a creature upgrade (OnDetermineMonInfoDlgUpgrade)
 
 ID: erm.triggers.ondeterminemoninfodlgupgrade
-URL: /en/erm/triggers/ondeterminemoninfodlgupgrade/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ondeterminemoninfodlgupgrade/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is creature; x2 upgraded type or -1, mutable; x3 town or -1; x4 hero or -1. This controls the upgrade available in the creature-info dialog.
@@ -57161,7 +57205,7 @@ ID `77039`; registered as `TRIGGER_DETERMINE_MON_INFO_DLG_UPGRADE`. The name is 
 # Start of a game day (OnEveryDay)
 
 ID: erm.triggers.oneveryday
-URL: /en/erm/triggers/oneveryday/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/oneveryday/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 The engine fires this for each player before ordinary TM, without arguments. Framework extends the contract: x1 day, x2 weekDay (1..7), x3 once, x4 owner, x5 isAi. once is TRUE only on the first call that day. Use these arguments only with Framework loaded.
@@ -57194,7 +57238,7 @@ ID `77018`; registered as `TRIGGER_DAILY_TIMER`. The name is confirmed by the su
 # Entering the game (OnGameEnter)
 
 ID: erm.triggers.ongameenter
-URL: /en/erm/triggers/ongameenter/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ongameenter/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After starting or loading a game, before adventure-map control. No arguments. Suitable for obtaining process-local pointers and exports; distinguish it from one-time PI initialization.
@@ -57227,7 +57271,7 @@ ID `77015`; registered as `TRIGGER_ONGAMEENTER`. The name is confirmed by the su
 # Leaving the game (OnGameLeave)
 
 ID: erm.triggers.ongameleave
-URL: /en/erm/triggers/ongameleave/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ongameleave/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Before ERM is disabled when leaving the current game. No arguments. Release temporary resources tied to the game session.
@@ -57260,7 +57304,7 @@ ID `77016`; registered as `TRIGGER_ONGAMELEAVE`. The name is confirmed by the su
 # Key press (OnKeyPressed)
 
 ID: erm.triggers.onkeypressed
-URL: /en/erm/triggers/onkeypressed/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onkeypressed/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the key code; x2 blocks the default action (0/1, mutable); x3 is isDown, TRUE only on the initial press and FALSE on auto-repeat. See Framework KEY_ constants.
@@ -57293,7 +57337,7 @@ ID `77003`; registered as `TRIGGER_KEYPRESS`. The name is confirmed by the suppl
 # Key release (OnKeyReleased)
 
 ID: erm.triggers.onkeyreleased
-URL: /en/erm/triggers/onkeyreleased/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onkeyreleased/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is key code; x2 blocks the default reaction (0/1, mutable). The engine contract does not declare a third argument. Do not copy the meaning of OnKeyPressed x3 here.
@@ -57326,7 +57370,7 @@ ID `77053`; registered as `TRIGGER_KEY_RELEASED`. The name is confirmed by the s
 # Kingdom overview mouse click (OnKingdomOverviewMouseClick)
 
 ID: erm.triggers.onkingdomoverviewmouseclick
-URL: /en/erm/triggers/onkingdomoverviewmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onkingdomoverviewmouseclick/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 CM provides mouse context. This is a local UI event, not multiplayer action synchronization.
@@ -57358,7 +57402,7 @@ ID `77027`; registered as `TRIGGER_KINGDOM_OVERVIEW_MOUSE_CLICK`. The name is co
 # Loading hero-screen data (OnLoadHeroScreen)
 
 ID: erm.triggers.onloadheroscreen
-URL: /en/erm/triggers/onloadheroscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onloadheroscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is hero. Fires after OnOpenHeroScreen and when switching heroes, before rendering. Other windows and plugins may also trigger loading; do not assume it only means manual opening.
@@ -57390,7 +57434,7 @@ ID `77030`; registered as `TRIGGER_LOAD_HERO_SCREEN`. The name is confirmed by t
 # Losing the game (OnLoseGame)
 
 ID: erm.triggers.onlosegame
-URL: /en/erm/triggers/onlosegame/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onlosegame/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 For a human defeat, immediately before OnGameLeave in the current implementation. No arguments. Do not expect a subsequent game turn.
@@ -57423,7 +57467,7 @@ ID `77048`; registered as `TRIGGER_LOSE_GAME`. The name is confirmed by the supp
 # Opening the hero screen (OnOpenHeroScreen)
 
 ID: erm.triggers.onopenheroscreen
-URL: /en/erm/triggers/onopenheroscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onopenheroscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero when the window first opens. Switching heroes inside the window does not repeat this event; use OnLoadHeroScreen or OnPreHeroScreen.
@@ -57455,7 +57499,7 @@ ID `77004`; registered as `TRIGGER_OPEN_HEROSCREEN`. The name is confirmed by th
 # Opening recruitment (OnOpenRecruitDlg)
 
 ID: erm.triggers.onopenrecruitdlg
-URL: /en/erm/triggers/onopenrecruitdlg/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onopenrecruitdlg/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is active slot 0..3; x2 flags (1 CLOSE_ON_BUY, 2 AUTO_UPDATE_ADVMAP); x3 show dialog (1/0). Arguments are mutable. RD provides recruitment state.
@@ -57487,7 +57531,7 @@ ID `77023`; registered as `TRIGGER_OPEN_RECRUIT_DLG`. The name is confirmed by t
 # Opening a town (OnOpenTownScreen)
 
 ID: erm.triggers.onopentownscreen
-URL: /en/erm/triggers/onopentownscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onopentownscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town when the window first opens.
@@ -57519,7 +57563,7 @@ ID `77032`; registered as `TRIGGER_OPEN_TOWN_SCREEN`. The name is confirmed by t
 # After a hero screen (OnPostHeroScreen)
 
 ID: erm.triggers.onpostheroscreen
-URL: /en/erm/triggers/onpostheroscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onpostheroscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero after leaving their screen, including switches.
@@ -57551,7 +57595,7 @@ ID `77038`; registered as `TRIGGER_POST_HEROSCREEN`. The name is confirmed by th
 # After a town screen (OnPostTownScreen)
 
 ID: erm.triggers.onposttownscreen
-URL: /en/erm/triggers/onposttownscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onposttownscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town after leaving its screen; covers closing and switching.
@@ -57583,7 +57627,7 @@ ID `77036`; registered as `TRIGGER_POST_TOWN_SCREEN`. The name is confirmed by t
 # Before a hero screen (OnPreHeroScreen)
 
 ID: erm.triggers.onpreheroscreen
-URL: /en/erm/triggers/onpreheroscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onpreheroscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the hero before display, including switches.
@@ -57615,7 +57659,7 @@ ID `77037`; registered as `TRIGGER_PRE_HEROSCREEN`. The name is confirmed by the
 # Before a town screen (OnPreTownScreen)
 
 ID: erm.triggers.onpretownscreen
-URL: /en/erm/triggers/onpretownscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onpretownscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the town before display; covers opening and switching.
@@ -57647,7 +57691,7 @@ ID `77035`; registered as `TRIGGER_PRE_TOWN_SCREEN`. The name is confirmed by th
 # Recruitment action (OnRecruitDlgAction)
 
 ID: erm.triggers.onrecruitdlgaction
-URL: /en/erm/triggers/onrecruitdlgaction/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgaction/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the number of creatures recruited, read-only. RD provides the current dialog configuration.
@@ -57679,7 +57723,7 @@ ID `77029`; registered as `TRIGGER_RECRUIT_DLG_ACTION`. The name is confirmed by
 # Recruitment mouse click (OnRecruitDlgMouseClick)
 
 ID: erm.triggers.onrecruitdlgmouseclick
-URL: /en/erm/triggers/onrecruitdlgmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgmouseclick/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 Read mouse context through CM and recruitment state through RD. Use CM:R0 to suppress the default reaction, rather than merely leaving the handler.
@@ -57712,7 +57756,7 @@ ID `77025`; registered as `TRIGGER_RECRUIT_DLG_MOUSE_CLICK`. The name is confirm
 # Recalculating recruitment cost (OnRecruitDlgRecalc)
 
 ID: erm.triggers.onrecruitdlgrecalc
-URL: /en/erm/triggers/onrecruitdlgrecalc/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgrecalc/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is gold per creature; x2 extra resource 0..5 or -1; x3 amount of that resource per creature. All three values are mutable.
@@ -57744,7 +57788,7 @@ ID `77028`; registered as `TRIGGER_RECRUIT_DLG_RECALC`. The name is confirmed by
 # Reading save data (OnSavegameRead)
 
 ID: erm.triggers.onsavegameread
-URL: /en/erm/triggers/onsavegameread/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onsavegameread/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After ERM variables are restored. No arguments. Read custom sections here; pointers from the previous session are invalid.
@@ -57777,7 +57821,7 @@ ID `77002`; registered as `TRIGGER_SAVEGAME_READ`. The name is confirmed by the 
 # Writing save data (OnSavegameWrite)
 
 ID: erm.triggers.onsavegamewrite
-URL: /en/erm/triggers/onsavegamewrite/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onsavegamewrite/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 After ERM variables are written. No arguments. Write custom save sections here; this is a different phase from GM1.
@@ -57809,7 +57853,7 @@ ID `77001`; registered as `TRIGGER_SAVEGAME_WRITE`. The name is confirmed by the
 # Stack-to-stack damage (OnStackToStackDamage)
 
 ID: erm.triggers.onstacktostackdamage
-URL: /en/erm/triggers/onstacktostackdamage/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onstacktostackdamage/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 attacker and x2 defender are global indices or -1. x3 is original final damage (read-only); x4 mutable final damage; x5 base damage; x6 bonus; x7 ranged flag (not defined on every path); x8 distance for theoretical calculations; x9 theoretical calculation (0/1). With x9=1 this serves previews or AI: do not grant rewards, kill stacks, or mutate game state.
@@ -57841,7 +57885,7 @@ ID `77012`; registered as `TRIGGER_ONSTACKTOSTACKDAMAGE`. The name is confirmed 
 # Switching towns (OnSwitchTownScreen)
 
 ID: erm.triggers.onswitchtownscreen
-URL: /en/erm/triggers/onswitchtownscreen/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onswitchtownscreen/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the selected town when switching inside the window.
@@ -57873,7 +57917,7 @@ ID `77034`; registered as `TRIGGER_SWITCH_TOWN_SCREEN`. The name is confirmed by
 # Town fort mouse click (OnTownFortMouseClick)
 
 ID: erm.triggers.ontownfortmouseclick
-URL: /en/erm/triggers/ontownfortmouseclick/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ontownfortmouseclick/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 CM context. Current registration uses OnTownFortMouseClick; the old OnTownHallMouseClick was renamed and is not registered as an alias. The supplied Framework still handles the old name: check version alignment when porting.
@@ -57906,7 +57950,7 @@ ID `77026`; registered as `TRIGGER_TOWN_FORT_MOUSE_CLICK`. The name is confirmed
 # Transferring a campaign hero (OnTransferHero)
 
 ID: erm.triggers.ontransferhero
-URL: /en/erm/triggers/ontransferhero/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/ontransferhero/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 x1 is the transferred hero, after ERM instructions and before PI. May include inactive campaign heroes; existence does not imply presence on the map.
@@ -57939,7 +57983,7 @@ ID `77049`; registered as `TRIGGER_TRANSFER_HERO`. The name is confirmed by the 
 # Winning the game (OnWinGame)
 
 ID: erm.triggers.onwingame
-URL: /en/erm/triggers/onwingame/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/onwingame/
 Source references: era-source:erm.pas, era-source:triggers.pas, era-source:adverm.pas, old-help:era-new-events.htm, era-changelog:era-iii-changelog.txt
 
 For a human victory, immediately before OnGameLeave in the current implementation. No arguments. Earlier behavior after OnGameLeave was fixed.
@@ -57972,7 +58016,7 @@ ID `77047`; registered as `TRIGGER_WIN_GAME`. The name is confirmed by the suppl
 # After ERM instructions (PI)
 
 ID: erm.triggers.pi
-URL: /en/erm/triggers/pi/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/pi/
 Source references: old-help:tr-pi.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Runs after initialization instructions for a new map.
@@ -58034,7 +58078,7 @@ Does not fire when loading a save. Temporary resources need a load handler for r
 # Sound playback (SN)
 
 ID: erm.triggers.sn
-URL: /en/erm/triggers/sn/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/sn/
 Source references: old-help:tr-sn.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Intercepts an attempt to play a WAV/M82 sound effect. SN provides the playback parameters.
@@ -58089,7 +58133,7 @@ MP3 uses the separate MP event. This handler may fire frequently and from differ
 # Town hall (TH)
 
 ID: erm.triggers.th
-URL: /en/erm/triggers/th/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/th/
 Source references: old-help:tr-th.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 0 enters the town hall; 1 leaves it. Changes can be associated with visiting the construction screen.
@@ -58149,7 +58193,7 @@ Leaving the hall does not mean a building was constructed. Use OnBuildTownBuildi
 # Real-time timer (TL)
 
 ID: erm.triggers.tl
-URL: /en/erm/triggers/tl/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/tl/
 Source references: old-help:tr-tl.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Index 0 means 1 second, 1 means 2 seconds, 2 means 5 seconds, 3 means 10 seconds, and 4 means 60 seconds.
@@ -58221,7 +58265,7 @@ These are not game days. Do not treat wall-clock timing as an automatically sync
 # Game timer (TM)
 
 ID: erm.triggers.tm
-URL: /en/erm/triggers/tm/
+URL: https://asmedian.github.io/modding-guide/en/erm/triggers/tm/
 Source references: old-help:tr-tm.htm, era-source:erm.pas, era-changelog:era-iii-changelog.txt
 
 Fires for timer 1..100 previously configured with the TM receiver.
@@ -58270,7 +58314,7 @@ OnEveryDay fires before regular timers and needs no TM setup. Declaring !?TM doe
 # UN:C ‚Äî memory access
 
 ID: erm.un-c
-URL: /en/erm/un-c/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/
 Source references: old-help:cont-unc.htm, old-help:cont-unc-lib.htm, erm-forum:un-c-page-1.html, era-changelog:era-iii-changelog.txt, era-source:erm.pas
 
 Data widths, pointers, relocatable bases and historical recipes.
@@ -59342,7 +59386,7 @@ Cards are rewritten historical recipes with attribution and source-based address
 # Spell power inside combat
 
 ID: erm.un-c.battle-spell-power
-URL: /en/erm/un-c/battle-spell-power/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/battle-spell-power/
 Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html, era-framework:lib-9999-era---consts.erm
 
 Attacker and defender spell-power fields live in the combat manager. This example reads them without changing permanent hero skills.
@@ -59381,7 +59425,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Reading beam color
 
 ID: erm.un-c.beam-color
-URL: /en/erm/un-c/beam-color/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/beam-color/
 Source references: erm-forum:faq-.html
 
 For unmodified h3wog.exe: creatures 35..121; 0 green, 1 white, 2 black.
@@ -59419,7 +59463,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Commander structure
 
 ID: erm.un-c.commander-structure
-URL: /en/erm/un-c/commander-structure/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/commander-structure/
 Source references: erm-forum:un-c-page-1.html, old-help:form-commstr.htm
 
 Historical base 42344640, record stride 296 bytes. Reads current experience without modifying the structure.
@@ -59518,7 +59562,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Grail coordinates
 
 ID: erm.un-c.grail-coordinates
-URL: /en/erm/un-c/grail-coordinates/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/grail-coordinates/
 Source references: erm-forum:un-c-page-3.html
 
 Reads Grail data through the game-manager pointer. Latin y variables replace accidental Cyrillic lookalikes in the original post.
@@ -59559,7 +59603,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Reading projectile type
 
 ID: erm.un-c.projectile-type
-URL: /en/erm/un-c/projectile-type/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/projectile-type/
 Source references: erm-forum:faq-.html, old-help:form-weapon.htm
 
 For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value.
@@ -59601,7 +59645,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Reading game resolution
 
 ID: erm.un-c.screen-size
-URL: /en/erm/un-c/screen-size/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/screen-size/
 Source references: erm-forum:un-c-page-1.html
 
 Reads width and height from the two-byte fields used by the legacy HD implementation.
@@ -59638,7 +59682,7 @@ The address is supported by a historical recipe for h3wog.exe-based WoG/ERA. It 
 # Town building-cost tables
 
 ID: erm.un-c.town-building-cost
-URL: /en/erm/un-c/town-building-cost/
+URL: https://asmedian.github.io/modding-guide/en/erm/un-c/town-building-cost/
 Source references: erm-forum:un-c-page-3.html, erm-forum:un-c-page-4.html
 
 Reads seven resource costs: common buildings 0..16, special buildings 17..25, dwellings 30..43.
@@ -59691,7 +59735,7 @@ This example skips positions 26‚Äì29: the Grail and reserved positions are outsi
 # Variables, strings and arrays
 
 ID: erm.variables
-URL: /en/erm/variables/
+URL: https://asmedian.github.io/modding-guide/en/erm/variables/
 Source references: old-help:cont-flags.htm, old-help:cont-usedvar.htm, era-changelog:era-iii-changelog.txt, era-framework:lib-9999-era---stdlib.erm
 
 Data types, scope, named variables, flags and array lifetimes.

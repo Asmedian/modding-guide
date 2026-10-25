@@ -1,0 +1,895 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.constants.calling-conventions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/calling-conventions",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/",
+      "title": "Calling Conventions",
+      "summary": "11 named values: calling conventions.",
+      "keywords": [
+        "CALLCONV_PASCAL",
+        "CALLCONV_CDECL",
+        "CALLCONV_STDCALL",
+        "CALLCONV_THISCALL",
+        "CALLCONV_FASTCALL",
+        "CALLCONV_PASCAL_FLOAT",
+        "CALLCONV_CDECL_FLOAT",
+        "CALLCONV_STDCALL_FLOAT",
+        "CALLCONV_THISCALL_FLOAT",
+        "CALLCONV_FASTCALL_FLOAT",
+        "CALLCONV_FLOAT_RES"
+      ],
+      "questions": [
+        "11 named values: calling conventions."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.character-codes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/character-codes",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/character-codes/",
+      "title": "Character Codes",
+      "summary": "62 named values: character codes.",
+      "keywords": [
+        "ORD_0",
+        "ORD_1",
+        "ORD_2",
+        "ORD_3",
+        "ORD_4",
+        "ORD_5",
+        "ORD_6",
+        "ORD_7",
+        "ORD_8",
+        "ORD_9",
+        "ORD_LOWER_A",
+        "ORD_LOWER_B",
+        "ORD_LOWER_C",
+        "ORD_LOWER_D",
+        "ORD_LOWER_E",
+        "ORD_LOWER_F",
+        "ORD_LOWER_G",
+        "ORD_LOWER_H",
+        "ORD_LOWER_I",
+        "ORD_LOWER_J",
+        "ORD_LOWER_K",
+        "ORD_LOWER_L",
+        "ORD_LOWER_M",
+        "ORD_LOWER_N",
+        "ORD_LOWER_O",
+        "ORD_LOWER_P",
+        "ORD_LOWER_Q",
+        "ORD_LOWER_R",
+        "ORD_LOWER_S",
+        "ORD_LOWER_T",
+        "ORD_LOWER_U",
+        "ORD_LOWER_V",
+        "ORD_LOWER_W",
+        "ORD_LOWER_X",
+        "ORD_LOWER_Y",
+        "ORD_LOWER_Z",
+        "ORD_UPPER_A",
+        "ORD_UPPER_B",
+        "ORD_UPPER_C",
+        "ORD_UPPER_D",
+        "ORD_UPPER_E",
+        "ORD_UPPER_F",
+        "ORD_UPPER_G",
+        "ORD_UPPER_H",
+        "ORD_UPPER_I",
+        "ORD_UPPER_J",
+        "ORD_UPPER_K",
+        "ORD_UPPER_L",
+        "ORD_UPPER_M",
+        "ORD_UPPER_N",
+        "ORD_UPPER_O",
+        "ORD_UPPER_P",
+        "ORD_UPPER_Q",
+        "ORD_UPPER_R",
+        "ORD_UPPER_S",
+        "ORD_UPPER_T",
+        "ORD_UPPER_U",
+        "ORD_UPPER_V",
+        "ORD_UPPER_W",
+        "ORD_UPPER_X",
+        "ORD_UPPER_Y",
+        "ORD_UPPER_Z"
+      ],
+      "questions": [
+        "62 named values: character codes."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.data-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/data-types",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/",
+      "title": "Data Types",
+      "summary": "21 named values: data types.",
+      "keywords": [
+        "INT_MAX",
+        "INT_MIN",
+        "INT32_MAX",
+        "INT32_MIN",
+        "SIZEOF_BYTE",
+        "SIZEOF_WORD",
+        "SIZEOF_DWORD",
+        "SIZEOF_INT",
+        "SIZEOF_INT8",
+        "SIZEOF_UINT8",
+        "SIZEOF_INT16",
+        "SIZEOF_UINT16",
+        "SIZEOF_INT32",
+        "SIZEOF_UINT32",
+        "SIZEOF_PTR",
+        "SIZEOF_ZSTR",
+        "SIZEOF_BATTLE_STACK_STRUCT",
+        "SIZEOF_COMMANDER_STRUCT",
+        "SIZEOF_SPELL_STRUCT",
+        "SIZEOF_WIN32_FIND_DATA",
+        "SIZEOF_WIN32_FIND_DATA_IN_INTS"
+      ],
+      "questions": [
+        "21 named values: data types."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.dialog-action-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/dialog-action-types",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/",
+      "title": "Dialog Action Types",
+      "summary": "5 named values: dialog action types.",
+      "keywords": [
+        "DLG_ACTION_HOVER",
+        "DLG_ACTION_INDLG_CLICK",
+        "DLG_ACTION_OUTDLG_CLICK",
+        "DLG_ACTION_MOUSE_WHEEL",
+        "DLG_ACTION_KEY_PRESSED"
+      ],
+      "questions": [
+        "5 named values: dialog action types."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.dialog-item-ids",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/dialog-item-ids",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-item-ids/",
+      "title": "Dialog Item Ids",
+      "summary": "92 named values: dialog item ids.",
+      "keywords": [
+        "ITEM_OUTSIDE_DLG",
+        "ITEM_INSIDE_DLG",
+        "ITEM_ADVMAP_BACK",
+        "ITEM_ADVMAP_MINI_MAP",
+        "ITEM_ADVMAP_HERO_INFO_BOX_BORDER",
+        "ITEM_ADVMAP_KINGDOM_OVERVIEW_BTN",
+        "ITEM_ADVMAP_SURFACE_UNDERWORLD_BTN",
+        "ITEM_ADVMAP_QUEST_LOG_BTN",
+        "ITEM_ADVMAP_SLEEP_WAKE_HERO_BTN",
+        "ITEM_ADVMAP_MOVE_HERO_BTN",
+        "ITEM_ADVMAP_CAST_SPELL_BTN",
+        "ITEM_ADVMAP_ADVENTURE_OPTIONS_BTN",
+        "ITEM_ADVMAP_SYSTEM_OPTIONS_BTN",
+        "ITEM_ADVMAP_NEXT_HERO_BTN",
+        "ITEM_ADVMAP_END_TURN_BTN",
+        "ITEM_ADVMAP_HERO_LIST_SCROLL_UP_ARROW",
+        "ITEM_ADVMAP_HERO_LIST_SCROLL_DOWN_ARROW",
+        "ITEM_ADVMAP_HERO_LIST_MOVE_BAR_1",
+        "ITEM_ADVMAP_HERO_LIST_MOVE_BAR_2",
+        "ITEM_ADVMAP_HERO_LIST_MOVE_BAR_3",
+        "ITEM_ADVMAP_HERO_LIST_MOVE_BAR_4",
+        "ITEM_ADVMAP_HERO_LIST_MOVE_BAR_5",
+        "ITEM_ADVMAP_HERO_LIST_MANA_BAR_1",
+        "ITEM_ADVMAP_HERO_LIST_MANA_BAR_2",
+        "ITEM_ADVMAP_HERO_LIST_MANA_BAR_3",
+        "ITEM_ADVMAP_HERO_LIST_MANA_BAR_4",
+        "ITEM_ADVMAP_HERO_LIST_MANA_BAR_5",
+        "ITEM_ADVMAP_TOWN_LIST_SCROLL_UP_ARROW",
+        "ITEM_ADVMAP_TOWN_LIST_SCROLL_DOWN_ARROW",
+        "ITEM_ADVMAP_TOWN_LIST_TOWN_1",
+        "ITEM_ADVMAP_TOWN_LIST_TOWN_2",
+        "ITEM_ADVMAP_TOWN_LIST_TOWN_3",
+        "ITEM_ADVMAP_TOWN_LIST_TOWN_4",
+        "ITEM_ADVMAP_TOWN_LIST_TOWN_5",
+        "ITEM_ADVMAP_ADVENTURE_MAP",
+        "ITEM_ADVMAP_CHAT_BAR",
+        "ITEM_ADVMAP_HERO_LIST_HERO_1",
+        "ITEM_ADVMAP_HERO_LIST_HERO_2",
+        "ITEM_ADVMAP_HERO_LIST_HERO_3",
+        "ITEM_ADVMAP_HERO_LIST_HERO_4",
+        "ITEM_ADVMAP_HERO_LIST_HERO_5",
+        "ITEM_ADVMAP_HERO_LIST_HERO_6",
+        "ITEM_ADVMAP_HERO_LIST_HERO_7",
+        "ITEM_ADVMAP_HERO_LIST_HERO_8",
+        "ITEM_ADVMAP_HINT",
+        "ITEM_ADVMAP_RESOURCE_DATE_BAR_BACK",
+        "ITEM_ADVMAP_WOOD_VALUE",
+        "ITEM_ADVMAP_MERCURY_VALUE",
+        "ITEM_ADVMAP_ORE_VALUE",
+        "ITEM_ADVMAP_SULPHUR_VALUE",
+        "ITEM_ADVMAP_CRYSTAL_VALUE",
+        "ITEM_ADVMAP_GEMS_VALUE",
+        "ITEM_ADVMAP_GOLD_VALUE",
+        "ITEM_ADVMAP_RES_VALUE_FIRST",
+        "ITEM_ADVMAP_RES_VALUE_1",
+        "ITEM_ADVMAP_RES_VALUE_2",
+        "ITEM_ADVMAP_RES_VALUE_3",
+        "ITEM_ADVMAP_RES_VALUE_4",
+        "ITEM_ADVMAP_RES_VALUE_5",
+        "ITEM_ADVMAP_RES_VALUE_6",
+        "ITEM_ADVMAP_RES_VALUE_7",
+        "ITEM_ADVMAP_RES_VALUE_LAST",
+        "ITEM_ADVMAP_DATE",
+        "ITEM_ADVMAP_WOOD_ICON",
+        "ITEM_ADVMAP_MERCURY_ICON",
+        "ITEM_ADVMAP_ORE_ICON",
+        "ITEM_ADVMAP_SULPHUR_ICON",
+        "ITEM_ADVMAP_CRYSTAL_ICON",
+        "ITEM_ADVMAP_GEMS_ICON",
+        "ITEM_ADVMAP_GOLD_ICON",
+        "ITEM_ADVMAP_RES_ICON_FIRST",
+        "ITEM_ADVMAP_RES_ICON_1",
+        "ITEM_ADVMAP_RES_ICON_2",
+        "ITEM_ADVMAP_RES_ICON_3",
+        "ITEM_ADVMAP_RES_ICON_4",
+        "ITEM_ADVMAP_RES_ICON_5",
+        "ITEM_ADVMAP_RES_ICON_6",
+        "ITEM_ADVMAP_RES_ICON_7",
+        "ITEM_ADVMAP_RES_ICON_LAST",
+        "ITEM_ADVMAP_HERO_INFO_BOX",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PORTRAIT",
+        "ITEM_ADVMAP_HERO_INFO_BOX_NAME",
+        "ITEM_ADVMAP_HERO_INFO_BOX_ATTACK_VALUE",
+        "ITEM_ADVMAP_HERO_INFO_BOX_DEFENCE_VALUE",
+        "ITEM_ADVMAP_HERO_INFO_BOX_POWER_VALUE",
+        "ITEM_ADVMAP_HERO_INFO_BOX_KNOWLEDGE_VALUE",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PRIM_SKILL_VALUE_FIRST",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PRIM_SKILL_VALUE_1",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PRIM_SKILL_VALUE_2",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PRIM_SKILL_VALUE_3",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PRIM_SKILL_VALUE_4",
+        "ITEM_ADVMAP_HERO_INFO_BOX_PRIM_SKILL_VALUE_LAST"
+      ],
+      "questions": [
+        "92 named values: dialog item ids."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.dialogs",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/dialogs",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/",
+      "title": "Dialogs",
+      "summary": "18 named values: dialogs.",
+      "keywords": [
+        "DLG_BOX_SHADOW_WIDTH",
+        "DLG_ADVMAP",
+        "DLG_BATTLE",
+        "DLG_HERO_SCREEN",
+        "DLG_HERO_MEETING_SCREEN",
+        "DLG_TOWN_SCREEN",
+        "DLG_NO_SELECTION",
+        "DLG_RESULT_CANCEL",
+        "DLG_RESULT_PIC_FIRST",
+        "DLG_RESULT_PIC_1",
+        "DLG_RESULT_PIC_2",
+        "DLG_RESULT_PIC_3",
+        "DLG_RESULT_PIC_4",
+        "DLG_RESULT_PIC_5",
+        "DLG_RESULT_PIC_6",
+        "DLG_RESULT_PIC_7",
+        "DLG_RESULT_PIC_8",
+        "DLG_RESULT_PIC_LAST"
+      ],
+      "questions": [
+        "18 named values: dialogs."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.era-chat-event",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/era-chat-event",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/",
+      "title": "Era Chat Event",
+      "summary": "6 named values: era chat event.",
+      "keywords": [
+        "CHAT_EVENT_TYPE_ENTER",
+        "CHAT_EVENT_TYPE_INPUT",
+        "CHAT_EVENT_TYPE_LEAVE",
+        "CHAT_EVENT_RESULT_CLEAR",
+        "CHAT_EVENT_RESULT_CLOSE",
+        "CHAT_EVENT_RESULT_DEFAULT"
+      ],
+      "questions": [
+        "6 named values: era chat event."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/",
+      "title": "ERA ERM Framework constants",
+      "summary": "1838 definitions: game IDs, flags, command parameters, and key codes.",
+      "keywords": [
+        "TRUE",
+        "FALSE",
+        "NULL",
+        "DUMMY",
+        "M_AUTO_ID",
+        "M_INT",
+        "M_STR",
+        "M_STORED",
+        "M_TEMP",
+        "M_TRIGGER_LOCAL",
+        "ARG_SYNTAX_GET",
+        "ARG_SYNTAX_SET",
+        "ARG_SYNTAX_ADD",
+        "NO_MOUSE_FLAGS",
+        "MOUSE_FLAG_SHIFT",
+        "MOUSE_FLAG_CTRL",
+        "!#DC",
+        "constants"
+      ],
+      "questions": [
+        "1838 definitions: game IDs, flags, command parameters, and key codes."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm",
+        "era-framework:lib-9999-era---key-codes.erm",
+        "era-framework:lib-9999-era---stdlib.erm"
+      ],
+      "sectionSources": {
+        "usage": [
+          "era-framework:lib-9999-era---consts.erm",
+          "era-framework:lib-9999-era---key-codes.erm",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "groups": [
+          "era-framework:lib-9999-era---consts.erm",
+          "era-framework:lib-9999-era---key-codes.erm",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "snapshot": [
+          "era-framework:lib-9999-era---consts.erm",
+          "era-framework:lib-9999-era---key-codes.erm",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "usage",
+          "toAnchor": "snapshot",
+          "headings": [
+            "How to use",
+            "Groups",
+            "Registry contents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.erm-commands",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/erm-commands",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/",
+      "title": "Erm Commands",
+      "summary": "9 named values: erm commands.",
+      "keywords": [
+        "M_AUTO_ID",
+        "M_INT",
+        "M_STR",
+        "M_STORED",
+        "M_TEMP",
+        "M_TRIGGER_LOCAL",
+        "ARG_SYNTAX_GET",
+        "ARG_SYNTAX_SET",
+        "ARG_SYNTAX_ADD"
+      ],
+      "questions": [
+        "9 named values: erm commands."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.erm-flags",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/erm-flags",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-flags/",
+      "title": "Erm Flags",
+      "summary": "4 named values: erm flags.",
+      "keywords": [
+        "ERM_FLAG_REAL_BATTLE",
+        "ERM_FLAG_IS_HUMAN",
+        "ERM_FLAG_NETWORK_BATTLE",
+        "ERM_FLAG_HUMAN_VS_HUMAN_BATTLE"
+      ],
+      "questions": [
+        "4 named values: erm flags."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.game-functions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-functions",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-functions/",
+      "title": "Game Functions",
+      "summary": "2 named values: game functions.",
+      "keywords": [
+        "FUNC_MEM_ALLOC",
+        "FUNC_MEM_FREE"
+      ],
+      "questions": [
+        "2 named values: game functions."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "compatibility": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Implementation dependency",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.game-limits",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-limits",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/",
+      "title": "Game Limits",
+      "summary": "12 named values: game limits.",
+      "keywords": [
+        "MONS_PER_TOWN",
+        "HERO_BACKPACK_CAPACITY",
+        "ADV_MAP_MON_MAX_QUANTITY",
+        "DAYS_IN_MONTH",
+        "WEEKS_IN_MONTH",
+        "DAYS_IN_WEEK",
+        "MON_MIN_LEVEL",
+        "MON_MAX_LEVEL",
+        "MON_NUM_LEVELS",
+        "NUM_PRIMARY_SKILLS",
+        "NUM_SECONDARY_SKILLS",
+        "NUM_PLAYERS"
+      ],
+      "questions": [
+        "12 named values: game limits."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.game-managers",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-managers",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/",
+      "title": "Game Managers",
+      "summary": "10 named values: game managers.",
+      "keywords": [
+        "ADV_MANAGER",
+        "INPUT_MANAGER",
+        "GAME_MANAGER",
+        "TOWN_MANAGER",
+        "WND_MANAGER",
+        "SOUND_MANAGER",
+        "COMBAT_MANAGER",
+        "MOUSE_MANAGER",
+        "SWAP_MANAGER",
+        "RECRUIT_MANAGER"
+      ],
+      "questions": [
+        "10 named values: game managers."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "compatibility": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Implementation dependency",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    }
+  ]
+}

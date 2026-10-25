@@ -1,0 +1,1019 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "i^battle_acting_side^",
+      "anchor": "global-i-battle-acting-side",
+      "en": "BG:Q at the latest action start",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleUniversal",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 255,
+          "endLine": 262
+        },
+        {
+          "name": "OnBeforeBattleAction",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 285,
+          "endLine": 291
+        },
+        {
+          "name": "OnBattleReplay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2905,
+          "endLine": 2913
+        }
+      ]
+    },
+    {
+      "name": "i^battle_acting_stack^",
+      "anchor": "global-i-battle-acting-stack",
+      "en": "BG:N at the latest action start",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleUniversal",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 255,
+          "endLine": 262
+        },
+        {
+          "name": "OnBeforeBattleAction",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 285,
+          "endLine": 291
+        },
+        {
+          "name": "OnBattleReplay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2905,
+          "endLine": 2913
+        }
+      ]
+    },
+    {
+      "name": "i^battle_ai_0^",
+      "anchor": "global-i-battle-ai-0",
+      "en": "Side is AI-controlled; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_ai_1^",
+      "anchor": "global-i-battle-ai-1",
+      "en": "Side is AI-controlled; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_aiOnly^",
+      "anchor": "global-i-battle-aionly",
+      "en": "Both sides are AI-controlled",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleAction",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 285,
+          "endLine": 291
+        },
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_current_side^",
+      "anchor": "global-i-battle-current-side",
+      "en": "Current stack side, accounting for hypnosis",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleUniversal",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 255,
+          "endLine": 262
+        },
+        {
+          "name": "OnBeforeBattleStackTurn",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 269,
+          "endLine": 274
+        },
+        {
+          "name": "OnBattleStackObtainsTurn",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 275,
+          "endLine": 284
+        }
+      ]
+    },
+    {
+      "name": "i^battle_current_stack^",
+      "anchor": "global-i-battle-current-stack",
+      "en": "Stack receiving control, or NO_STACK",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleUniversal",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 255,
+          "endLine": 262
+        },
+        {
+          "name": "OnBeforeBattleStackTurn",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 269,
+          "endLine": 274
+        },
+        {
+          "name": "OnBattleStackObtainsTurn",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 275,
+          "endLine": 284
+        }
+      ]
+    },
+    {
+      "name": "i^battle_hasHuman^",
+      "anchor": "global-i-battle-hashuman",
+      "en": "At least one side is human",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_hero_0^",
+      "anchor": "global-i-battle-hero-0",
+      "en": "Hero or NO_HERO; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_hero_1^",
+      "anchor": "global-i-battle-hero-1",
+      "en": "Hero or NO_HERO; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_hero_vs_hero^",
+      "anchor": "global-i-battle-hero-vs-hero",
+      "en": "Defender has a hero",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_human_0^",
+      "anchor": "global-i-battle-human-0",
+      "en": "Side is human-controlled; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_human_1^",
+      "anchor": "global-i-battle-human-1",
+      "en": "Side is human-controlled; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_humanOnly^",
+      "anchor": "global-i-battle-humanonly",
+      "en": "Both sides are human",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_isActingSideUiUser^",
+      "anchor": "global-i-battle-isactingsideuiuser",
+      "en": "Computed from battle_current_side and battle_localHuman_*, despite Acting in the name",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleStackTurn",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 269,
+          "endLine": 274
+        },
+        {
+          "name": "OnBattleStackObtainsTurn",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 275,
+          "endLine": 284
+        },
+        {
+          "name": "OnBeforeBattleAction",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 285,
+          "endLine": 291
+        }
+      ]
+    },
+    {
+      "name": "i^battle_isNetwork^",
+      "anchor": "global-i-battle-isnetwork",
+      "en": "At least one side is remote",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_isQuick^",
+      "anchor": "global-i-battle-isquick",
+      "en": "Quick combat; may change during battle",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleAction",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 285,
+          "endLine": 291
+        },
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_isVisible^",
+      "anchor": "global-i-battle-isvisible",
+      "en": "Neither aiOnly nor isQuick",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattleAction",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 285,
+          "endLine": 291
+        },
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_local_0^",
+      "anchor": "global-i-battle-local-0",
+      "en": "Non-remote side, including local AI; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_local_1^",
+      "anchor": "global-i-battle-local-1",
+      "en": "Non-remote side, including local AI; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_localHuman_0^",
+      "anchor": "global-i-battle-localhuman-0",
+      "en": "Local human; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_localHuman_1^",
+      "anchor": "global-i-battle-localhuman-1",
+      "en": "Local human; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_owner_0^",
+      "anchor": "global-i-battle-owner-0",
+      "en": "Owner or NO_OWNER; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_owner_1^",
+      "anchor": "global-i-battle-owner-1",
+      "en": "Owner or NO_OWNER; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_remote_0^",
+      "anchor": "global-i-battle-remote-0",
+      "en": "Remote human; side 0.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_remote_1^",
+      "anchor": "global-i-battle-remote-1",
+      "en": "Remote human; side 1.",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_round^",
+      "anchor": "global-i-battle-round",
+      "en": "Round, INT_MIN before initialization",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnBeforeBattle",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 251,
+          "endLine": 254
+        },
+        {
+          "name": "OnBeforeBattleUniversal",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 255,
+          "endLine": 262
+        },
+        {
+          "name": "OnBattleRound",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 266,
+          "endLine": 268
+        },
+        {
+          "name": "OnBattleReplay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2905,
+          "endLine": 2913
+        }
+      ]
+    },
+    {
+      "name": "i^battle_type^",
+      "anchor": "global-i-battle-type",
+      "en": "BATTLE_TYPE_FLAG_* mask",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_x^",
+      "anchor": "global-i-battle-x",
+      "en": "Battle location X",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_y^",
+      "anchor": "global-i-battle-y",
+      "en": "Battle location Y",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^battle_z^",
+      "anchor": "global-i-battle-z",
+      "en": "Battle location level",
+      "group": "battle",
+      "status": "public",
+      "uses": [
+        {
+          "name": "UpdateBattleVars",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2848,
+          "endLine": 2904
+        }
+      ]
+    },
+    {
+      "name": "i^dlg_action^",
+      "anchor": "global-i-dlg-action",
+      "en": "CM:T action; not included in this snapshot’s mouse restoration stack.",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        }
+      ]
+    },
+    {
+      "name": "i^dlg_id^",
+      "anchor": "global-i-dlg-id",
+      "en": "Custom dialog ID; saved and restored around the event.",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnCustomDialogEvent",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 208,
+          "endLine": 213
+        },
+        {
+          "name": "OnCustomDialogEvent_Quit",
+          "path": "lib_end/-9999 era - stdlib.erm",
+          "startLine": 70,
+          "endLine": 73
+        }
+      ]
+    },
+    {
+      "name": "i^era_everyDayTimerLastDay^",
+      "anchor": "global-i-era-everydaytimerlastday",
+      "en": "Last day used to compute timerOnce",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^key_alt^",
+      "anchor": "global-i-key-alt",
+      "en": "State of alt: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_ctrl^",
+      "anchor": "global-i-key-ctrl",
+      "en": "State of ctrl: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_down^",
+      "anchor": "global-i-key-down",
+      "en": "TRUE on initial KeyPressed; does not define KeyReleased state",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "OnKeyPressed",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 148,
+          "endLine": 156
+        }
+      ]
+    },
+    {
+      "name": "i^key_leftAlt^",
+      "anchor": "global-i-key-leftalt",
+      "en": "State of leftAlt: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_leftCtrl^",
+      "anchor": "global-i-key-leftctrl",
+      "en": "State of leftCtrl: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_leftShift^",
+      "anchor": "global-i-key-leftshift",
+      "en": "State of leftShift: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_rightAlt^",
+      "anchor": "global-i-key-rightalt",
+      "en": "State of rightAlt: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_rightCtrl^",
+      "anchor": "global-i-key-rightctrl",
+      "en": "State of rightCtrl: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_rightShift^",
+      "anchor": "global-i-key-rightshift",
+      "en": "State of rightShift: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key_shift^",
+      "anchor": "global-i-key-shift",
+      "en": "State of shift: 0/1. A combined modifier joins left and right keys.",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "GetKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 94,
+          "endLine": 128
+        }
+      ]
+    },
+    {
+      "name": "i^key^",
+      "anchor": "global-i-key",
+      "en": "Current key code",
+      "group": "keyboard",
+      "status": "public",
+      "uses": [
+        {
+          "name": "SavePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 88,
+          "endLine": 90
+        },
+        {
+          "name": "RestorePrevKeyModsState",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 91,
+          "endLine": 93
+        },
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "OnKeyPressed",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 148,
+          "endLine": 156
+        },
+        {
+          "name": "OnKeyReleased",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 157,
+          "endLine": 164
+        }
+      ]
+    },
+    {
+      "name": "i^maxArtifacId^",
+      "anchor": "global-i-maxartifacid",
+      "en": "GetMaxArtifactId: ART_LAST_WOG; spelling Artifac without t is preserved",
+      "group": "limits",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnStartOrLoad",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 292,
+          "endLine": 300
+        }
+      ]
+    },
+    {
+      "name": "i^maxHeroId^",
+      "anchor": "global-i-maxheroid",
+      "en": "GetMaxHeroId: upper hero ID bound",
+      "group": "limits",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnStartOrLoad",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 292,
+          "endLine": 300
+        }
+      ]
+    },
+    {
+      "name": "i^maxMonsterId^",
+      "anchor": "global-i-maxmonsterid",
+      "en": "GetMaxMonsterId: upper creature ID bound",
+      "group": "limits",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnStartOrLoad",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 292,
+          "endLine": 300
+        }
+      ]
+    },
+    {
+      "name": "i^maxSpellId^",
+      "anchor": "global-i-maxspellid",
+      "en": "GetMaxSpellId: SPELL_LAST_WOG",
+      "group": "limits",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnStartOrLoad",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 292,
+          "endLine": 300
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_action^",
+      "anchor": "global-i-mouse-action",
+      "en": "CM:S; exit-button LMB release is normalized to ordinary release",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "OnAfterBattleSetup",
+      "slug": "framework/events",
+      "anchor": "onafterbattlesetup",
+      "summary": "No arguments. After OnBeforeBattleUniversal; base coordinates, heroes and battle flags have been refreshed. BM/EA readiness still depends on the combat phase."
+    },
+    {
+      "name": "OnAfterErmInited",
+      "slug": "framework/events",
+      "anchor": "onaftererminited",
+      "summary": "No arguments. After the complete OnAfterErmInstructions chain, before OnStartOrLoad(TRUE)."
+    },
+    {
+      "name": "OnKeyPressed_AdvMap",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-advmap",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog AdvMap. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyPressed_Battle",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-battle",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Battle. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyPressed_HeroMeetingScreen",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-heromeetingscreen",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroMeetingScreen. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyPressed_HeroScreen",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-heroscreen",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroScreen. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyPressed_Town",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-town",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Town. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyReleased_AdvMap",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-advmap",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog AdvMap. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyReleased_Battle",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-battle",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Battle. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyReleased_HeroMeetingScreen",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-heromeetingscreen",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroMeetingScreen. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyReleased_HeroScreen",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-heroscreen",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog HeroScreen. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnKeyReleased_Town",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-town",
+      "summary": "x1 is key, x2 mutable prevention flag. Filtered by the current main dialog Town. The reliable contract contains two arguments."
+    },
+    {
+      "name": "OnStartOrLoad",
+      "slug": "framework/events",
+      "anchor": "onstartorload",
+      "summary": "x1 is TRUE for a new game, FALSE for loading. Joins temporary-data initialization after start and load."
+    }
+  ]
+}

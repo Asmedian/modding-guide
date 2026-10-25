@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "OnBattleScreenMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onbattlescreenmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnBattleScreenMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnBattleScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbattlescreenmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattle_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onbeforebattle-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnBeforeBattle_Quit)"
+      ],
+      "label": "Final handler for OnBeforeBattle: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattle-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBeforeBattleUniversal_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onbeforebattleuniversal-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnBeforeBattleUniversal_Quit)"
+      ],
+      "label": "Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleuniversal-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnCustomDialogEvent_Quit",
+      "kind": "function",
+      "slug": "framework/functions/oncustomdialogevent-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnCustomDialogEvent_Quit)"
+      ],
+      "label": "Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/oncustomdialogevent-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnHeroesMeetScreenMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onheroesmeetscreenmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnHeroesMeetScreenMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroesmeetscreenmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnHeroScreenMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onheroscreenmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnHeroScreenMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroscreenmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyPressed_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onkeypressed-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnKeyPressed_Quit)"
+      ],
+      "label": "Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeypressed-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyReleased_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onkeyreleased-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnKeyReleased_Quit)"
+      ],
+      "label": "Final handler for OnKeyReleased: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeyreleased-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKingdomOverviewMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onkingdomoverviewmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnKingdomOverviewMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnKingdomOverviewMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkingdomoverviewmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnRecruitDlgMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/onrecruitdlgmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnRecruitDlgMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnRecruitDlgMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onrecruitdlgmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnTownHallMouseClick",
+      "kind": "function",
+      "slug": "framework/functions/ontownhallmouseclick",
+      "anchor": "",
+      "aliases": [
+        "FU(OnTownHallMouseClick)"
+      ],
+      "label": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownhallmouseclick/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnTownHallMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/ontownhallmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnTownHallMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownhallmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnTownMouseClick_Quit",
+      "kind": "function",
+      "slug": "framework/functions/ontownmouseclick-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnTownMouseClick_Quit)"
+      ],
+      "label": "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnTownMouseHint_Quit",
+      "kind": "function",
+      "slug": "framework/functions/ontownmousehint-quit",
+      "anchor": "",
+      "aliases": [
+        "FU(OnTownMouseHint_Quit)"
+      ],
+      "label": "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint-quit/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PackUnion",
+      "kind": "function",
+      "slug": "framework/functions/packunion",
+      "anchor": "",
+      "aliases": [
+        "FU(PackUnion)"
+      ],
+      "label": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/packunion/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pow",
+      "kind": "function",
+      "slug": "framework/functions/pow",
+      "anchor": "",
+      "aliases": [
+        "FU(Pow)"
+      ],
+      "label": "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/pow/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrepareMessageBoxText",
+      "kind": "function",
+      "slug": "framework/functions/preparemessageboxtext",
+      "anchor": "",
+      "aliases": [
+        "FU(PrepareMessageBoxText)"
+      ],
+      "label": "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemessageboxtext/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrepareMultiPicDialog",
+      "kind": "function",
+      "slug": "framework/functions/preparemultipicdialog",
+      "anchor": "",
+      "aliases": [
+        "FU(PrepareMultiPicDialog)"
+      ],
+      "label": "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemultipicdialog/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_AddCancelButton",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-addcancelbutton",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_AddCancelButton)"
+      ],
+      "label": "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-addcancelbutton/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_AddItem",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-additem",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_AddItem)"
+      ],
+      "label": "Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additem/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_AddItems",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-additems",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_AddItems)"
+      ],
+      "label": "Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additems/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_GetItemTag",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-getitemtag",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_GetItemTag)"
+      ],
+      "label": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemtag/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_GetItemValue",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-getitemvalue",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_GetItemValue)"
+      ],
+      "label": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemvalue/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_GetNumItems",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-getnumitems",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_GetNumItems)"
+      ],
+      "label": "Returns the item count excluding Cancel.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getnumitems/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_Reset",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-reset",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_Reset)"
+      ],
+      "label": "Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-reset/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

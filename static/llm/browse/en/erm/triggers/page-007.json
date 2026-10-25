@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.triggers.onbattlestackobtainsturn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbattlestackobtainsturn",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattlestackobtainsturn/",
+      "title": "Passing control to a stack (OnBattleStackObtainsTurn)",
+      "summary": "x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale.",
+      "keywords": [
+        "OnBattleStackObtainsTurn",
+        "77006"
+      ],
+      "questions": [
+        "x1 is side (0/1), x2 its slot (0..20). Global stack index = x121+x2. This is control transfer, not necessarily regeneration; account for waiting and morale."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-005.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.mf",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/mf",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/mf/",
+      "title": "Physical damage calculation (MF)",
+      "summary": "Fires before damage is dealt. MF reads the target and changes final damage.",
+      "keywords": [
+        "MF",
+        "!?MF",
+        "OnMonsterPhysicalDamage"
+      ],
+      "questions": [
+        "Fires before damage is dealt. MF reads the target and changes final damage."
+      ],
+      "sourceRefs": [
+        "old-help:tr-mf.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-mf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-mf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-mf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-mf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-mf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-mf.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-mf": [
+          "old-help:tr-mf.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "fromAnchor": "ref-tr-mf",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger MF",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onsavegameread",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onsavegameread",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onsavegameread/",
+      "title": "Reading save data (OnSavegameRead)",
+      "summary": "After ERM variables are restored. No arguments. Read custom sections here; pointers from the previous session are invalid.",
+      "keywords": [
+        "OnSavegameRead",
+        "77002"
+      ],
+      "questions": [
+        "After ERM variables are restored. No arguments. Read custom sections here; pointers from the previous session are invalid."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.tl",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/tl",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/tl/",
+      "title": "Real-time timer (TL)",
+      "summary": "Index 0 means 1 second, 1 means 2 seconds, 2 means 5 seconds, 3 means 10 seconds, and 4 means 60 seconds.",
+      "keywords": [
+        "TL",
+        "!?TL",
+        "OnEverySecond",
+        "OnEvery2Seconds",
+        "OnEvery5Seconds",
+        "OnEvery10Seconds",
+        "OnEveryMinute"
+      ],
+      "questions": [
+        "Index 0 means 1 second, 1 means 2 seconds, 2 means 5 seconds, 3 means 10 seconds, and 4 means 60 seconds."
+      ],
+      "sourceRefs": [
+        "old-help:tr-tl.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-tl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-tl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-tl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-tl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-tl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-tl.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-tl": [
+          "old-help:tr-tl.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "fromAnchor": "ref-tr-tl",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver TH",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onrecruitdlgrecalc",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onrecruitdlgrecalc",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgrecalc/",
+      "title": "Recalculating recruitment cost (OnRecruitDlgRecalc)",
+      "summary": "x1 is gold per creature; x2 extra resource 0..5 or -1; x3 amount of that resource per creature. All three values are mutable.",
+      "keywords": [
+        "OnRecruitDlgRecalc",
+        "77028"
+      ],
+      "questions": [
+        "x1 is gold per creature; x2 extra resource 0..5 or -1; x3 amount of that resource per creature. All three values are mutable."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onrecruitdlgaction",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onrecruitdlgaction",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgaction/",
+      "title": "Recruitment action (OnRecruitDlgAction)",
+      "summary": "x1 is the number of creatures recruited, read-only. RD provides the current dialog configuration.",
+      "keywords": [
+        "OnRecruitDlgAction",
+        "77029"
+      ],
+      "questions": [
+        "x1 is the number of creatures recruited, read-only. RD provides the current dialog configuration."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onrecruitdlgmouseclick",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onrecruitdlgmouseclick",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onrecruitdlgmouseclick/",
+      "title": "Recruitment mouse click (OnRecruitDlgMouseClick)",
+      "summary": "Read mouse context through CM and recruitment state through RD. Use CM:R0 to suppress the default reaction, rather than merely leaving the handler.",
+      "keywords": [
+        "OnRecruitDlgMouseClick",
+        "77025"
+      ],
+      "questions": [
+        "Read mouse context through CM and recruitment state through RD. Use CM:R0 to suppress the default reaction, rather than merely leaving the handler."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-007.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.onbattleregeneratephase",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/onbattleregeneratephase",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/onbattleregeneratephase/",
+      "title": "Regeneration phase (OnBattleRegeneratePhase)",
+      "summary": "x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount.",
+      "keywords": [
+        "OnBattleRegeneratePhase",
+        "77007"
+      ],
+      "questions": [
+        "x1 is stack 0..41; x2 points to its structure; x3 blocks the standard phase (0/1, mutable). The pointer is valid only in the current battle. Use the separate OnBattleStackRegeneration to change healing amount."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-source:triggers.pas",
+        "era-source:adverm.pas",
+        "old-help:era-new-events.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "declaration": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "identity": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-source:triggers.pas",
+          "era-source:adverm.pas",
+          "old-help:era-new-events.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-004.md",
+          "fromAnchor": "event",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Timing and arguments",
+            "Declaration",
+            "Identity and compatibility",
+            "Related references",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.gm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/gm",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/gm/",
+      "title": "Saving and loading (GM)",
+      "summary": "0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves.",
+      "keywords": [
+        "GM",
+        "!?GM",
+        "OnAfterLoadGame",
+        "OnBeforeSaveGame"
+      ],
+      "questions": [
+        "0 after loading a save, before displaying the map; 1 before saving after slot selection. GM1 also fires for autosaves."
+      ],
+      "sourceRefs": [
+        "old-help:tr-gm.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-gm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-gm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-gm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-gm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-gm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-gm.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-gm": [
+          "old-help:tr-gm.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-002.md",
+          "fromAnchor": "ref-tr-gm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger GM",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.triggers.sn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "triggers/sn",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/triggers/sn/",
+      "title": "Sound playback (SN)",
+      "summary": "Intercepts an attempt to play a WAV/M82 sound effect. SN provides the playback parameters.",
+      "keywords": [
+        "SN",
+        "!?SN",
+        "OnSoundPlay"
+      ],
+      "questions": [
+        "Intercepts an attempt to play a WAV/M82 sound effect. SN provides the playback parameters."
+      ],
+      "sourceRefs": [
+        "old-help:tr-sn.htm",
+        "era-source:erm.pas",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "event": [
+          "old-help:tr-sn.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "syntax": [
+          "old-help:tr-sn.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "names": [
+          "old-help:tr-sn.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "limits": [
+          "old-help:tr-sn.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "related": [
+          "old-help:tr-sn.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:tr-sn.htm",
+          "era-source:erm.pas",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-tr-sn": [
+          "old-help:tr-sn.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/triggers/text-008.md",
+          "fromAnchor": "ref-tr-sn",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Trigger SN",
+            "When it fires",
+            "Declaration",
+            "ERA names and aliases",
+            "Limitations and ordering",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

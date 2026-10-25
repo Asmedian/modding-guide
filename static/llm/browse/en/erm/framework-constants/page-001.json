@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.constants.army-slots",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/army-slots",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/army-slots/",
+      "title": "Army Slots",
+      "summary": "9 named values: army slots.",
+      "keywords": [
+        "ARMY_SLOT_FIRST",
+        "ARMY_SLOT_0",
+        "ARMY_SLOT_1",
+        "ARMY_SLOT_2",
+        "ARMY_SLOT_3",
+        "ARMY_SLOT_4",
+        "ARMY_SLOT_5",
+        "ARMY_SLOT_6",
+        "ARMY_SLOT_LAST"
+      ],
+      "questions": [
+        "9 named values: army slots."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.artfiact-modifiers",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/artfiact-modifiers",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artfiact-modifiers/",
+      "title": "Artifact Modifiers",
+      "summary": "1 named values: artifact modifiers.",
+      "keywords": [
+        "NO_ART_MOD"
+      ],
+      "questions": [
+        "1 named values: artifact modifiers."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.artifacts",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/artifacts",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/",
+      "title": "Artifacts",
+      "summary": "177 named values: artifacts.",
+      "keywords": [
+        "NO_ART",
+        "ANY_ART",
+        "ART_FIRST",
+        "ART_SPELL_BOOK",
+        "ART_SPELL_SCROLL",
+        "ART_GRAIL",
+        "ART_CATAPULT",
+        "ART_BALLISTA",
+        "ART_AMMO_CART",
+        "ART_FIRST_AID_TENT",
+        "ART_CENTAUR_AXE",
+        "ART_BLACKSHARD_OF_THE_DEAD_KNIGHT",
+        "ART_GREATER_GNOLLS_FLAIL",
+        "ART_OGRES_CLUB_OF_HAVOC",
+        "ART_SWORD_OF_HELLFIRE",
+        "ART_TITANS_GLADIUS",
+        "ART_SHIELD_OF_THE_DWARVEN_LORDS",
+        "ART_SHIELD_OF_THE_YAWNING_DEAD",
+        "ART_BUCKLER_OF_THE_GNOLL_KING",
+        "ART_TARG_OF_THE_RAMPAGING_OGRE",
+        "ART_SHIELD_OF_THE_DAMNED",
+        "ART_SENTINELS_SHIELD",
+        "ART_HELM_OF_THE_ALABASTER_UNICORN",
+        "ART_SKULL_HELMET",
+        "ART_HELM_OF_CHAOS",
+        "ART_CROWN_OF_THE_SUPREME_MAGI",
+        "ART_HELLSTORM_HELMET",
+        "ART_THUNDER_HELMET",
+        "ART_BREASTPLATE_OF_PETRIFIED_WOOD",
+        "ART_RIB_CAGE",
+        "ART_SCALES_OF_THE_GREATER_BASILISK",
+        "ART_TUNIC_OF_THE_CYCLOPS_KING",
+        "ART_BREASTPLATE_OF_BRIMSTONE",
+        "ART_TITANS_CUIRASS",
+        "ART_ARMOR_OF_WONDER",
+        "ART_SANDALS_OF_THE_SAINT",
+        "ART_CELESTIAL_NECKLACE_OF_BLISS",
+        "ART_LIONS_SHIELD_OF_COURAGE",
+        "ART_SWORD_OF_JUDGEMENT",
+        "ART_HELM_OF_HEAVENLY_ENLIGHTENMENT",
+        "ART_QUIET_EYE_OF_THE_DRAGON",
+        "ART_RED_DRAGON_FLAME_TONGUE",
+        "ART_DRAGON_SCALE_SHIELD",
+        "ART_DRAGON_SCALE_ARMOR",
+        "ART_DRAGONBONE_GREAVES",
+        "ART_DRAGON_WING_TABARD",
+        "ART_NECKLACE_OF_DRAGONTEETH",
+        "ART_CROWN_OF_DRAGONTOOTH",
+        "ART_STILL_EYE_OF_THE_DRAGON",
+        "ART_CLOVER_OF_FORTUNE",
+        "ART_CARDS_OF_PROPHECY",
+        "ART_LADYBIRD_OF_LUCK",
+        "ART_BADGE_OF_COURAGE",
+        "ART_CREST_OF_VALOR",
+        "ART_GLYPH_OF_GALLANTRY",
+        "ART_SPECULUM",
+        "ART_SPYGLASS",
+        "ART_AMULET_OF_THE_UNDERTAKER",
+        "ART_VAMPIRES_COWL",
+        "ART_DEAD_MANS_BOOTS",
+        "ART_GARNITURE_OF_INTERFERENCE",
+        "ART_SURCOAT_OF_COUNTERPOISE",
+        "ART_BOOTS_OF_POLARITY",
+        "ART_BOW_OF_ELVEN_CHERRYWOOD",
+        "ART_BOWSTRING_OF_THE_UNICORNS_MANE",
+        "ART_ANGEL_FEATHER_ARROWS",
+        "ART_BIRD_OF_PERCEPTION",
+        "ART_STOIC_WATCHMAN",
+        "ART_EMBLEM_OF_COGNIZANCE",
+        "ART_STATESMANS_MEDAL",
+        "ART_DIPLOMATS_RING",
+        "ART_AMBASSADORS_SASH",
+        "ART_RING_OF_THE_WAYFARER",
+        "ART_EQUESTRIANS_GLOVES",
+        "ART_NECKLACE_OF_OCEAN_GUIDANCE",
+        "ART_ANGEL_WINGS",
+        "ART_CHARM_OF_MANA",
+        "ART_TALISMAN_OF_MANA",
+        "ART_MYSTIC_ORB_OF_MANA",
+        "ART_COLLAR_OF_CONJURING",
+        "ART_RING_OF_CONJURING",
+        "ART_CAPE_OF_CONJURING",
+        "ART_ORB_OF_THE_FIRMAMENT",
+        "ART_ORB_OF_SILT",
+        "ART_ORB_OF_TEMPESTUOUS_FIRE",
+        "ART_ORB_OF_DRIVING_RAIN",
+        "ART_RECANTERS_CLOAK",
+        "ART_SPIRIT_OF_OPPRESSION",
+        "ART_HOURGLASS_OF_THE_EVIL_HOUR",
+        "ART_TOME_OF_FIRE_MAGIC",
+        "ART_TOME_OF_AIR_MAGIC",
+        "ART_TOME_OF_WATER_MAGIC",
+        "ART_TOME_OF_EARTH_MAGIC",
+        "ART_BOOTS_OF_LEVITATION",
+        "ART_GOLDEN_BOW",
+        "ART_SPHERE_OF_PERMANENCE",
+        "ART_ORB_OF_VULNERABILITY",
+        "ART_RING_OF_VITALITY",
+        "ART_RING_OF_LIFE",
+        "ART_VIAL_OF_LIFEBLOOD",
+        "ART_NECKLACE_OF_SWIFTNESS",
+        "ART_BOOTS_OF_SPEED",
+        "ART_CAPE_OF_VELOCITY",
+        "ART_PENDANT_OF_DISPASSION",
+        "ART_PENDANT_OF_SECOND_SIGHT",
+        "ART_PENDANT_OF_HOLINESS",
+        "ART_PENDANT_OF_LIFE",
+        "ART_PENDANT_OF_DEATH",
+        "ART_PENDANT_OF_FREE_WILL",
+        "ART_PENDANT_OF_NEGATIVITY",
+        "ART_PENDANT_OF_TOTAL_RECALL",
+        "ART_PENDANT_OF_COURAGE",
+        "ART_EVERFLOWING_CRYSTAL_CLOAK",
+        "ART_RING_OF_INFINITE_GEMS",
+        "ART_EVERPOURING_VIAL_OF_MERCURY",
+        "ART_INEXHAUSTIBLE_CART_OF_ORE",
+        "ART_EVERSMOKING_RING_OF_SULFUR",
+        "ART_INEXHAUSTIBLE_CART_OF_LUMBER",
+        "ART_ENDLESS_SACK_OF_GOLD",
+        "ART_ENDLESS_BAG_OF_GOLD",
+        "ART_ENDLESS_PURSE_OF_GOLD",
+        "ART_LEGS_OF_LEGION",
+        "ART_LOINS_OF_LEGION",
+        "ART_TORSO_OF_LEGION",
+        "ART_ARMS_OF_LEGION",
+        "ART_HEAD_OF_LEGION",
+        "ART_SEA_CAPTAINS_HAT",
+        "ART_SPELLBINDERS_HAT",
+        "ART_SHACKLES_OF_WAR",
+        "ART_ORB_OF_INHIBITION",
+        "ART_VIAL_OF_DRAGON_BLOOD",
+        "ART_ARMAGEDDONS_BLADE",
+        "ART_ANGELIC_ALLIANCE",
+        "ART_CLOAK_OF_THE_UNDEAD_KING",
+        "ART_ELIXIR_OF_LIFE",
+        "ART_ARMOR_OF_THE_DAMNED",
+        "ART_STATUE_OF_LEGION",
+        "ART_POWER_OF_THE_DRAGON_FATHER",
+        "ART_TITANS_THUNDER",
+        "ART_ADMIRALS_HAT",
+        "ART_BOW_OF_THE_SHARPSHOOTER",
+        "ART_WIZARDS_WELL",
+        "ART_RING_OF_THE_MAGI",
+        "ART_CORNUCOPIA",
+        "ART_MAGIC_WAND",
+        "ART_GOLD_TOWER_ARROW",
+        "ART_MONSTERS_POWER",
+        "ART_HIGHLIGHTED_SLOT",
+        "ART_ARTIFACT_LOCK",
+        "ART_AXE_OF_SMASHING",
+        "ART_MITHRIL_MAIL",
+        "ART_SWORD_OF_SHARPNESS",
+        "ART_HELM_OF_IMMORTALITY",
+        "ART_PENDANT_OF_SORCERY",
+        "ART_BOOTS_OF_HASTE",
+        "ART_BOW_OF_SEEKING",
+        "ART_DRAGON_EYE_RING",
+        "ART_HARDENED_SHIELD",
+        "ART_SLAVAS_RING_OF_POWER",
+        "ART_WARLORDS_BANNER",
+        "ART_CRIMSON_SHIELD_OF_RETRIBUTION",
+        "ART_BARBARIAN_LORDS_AXE_OF_FEROCITY",
+        "ART_DRAGONHEART",
+        "ART_GATE_KEY",
+        "ART_BLANK_HELMET",
+        "ART_BLANK_SWORD",
+        "ART_BLANK_SHIELD",
+        "ART_BLANK_HORNED_RING",
+        "ART_BLANK_GEMMED_RING",
+        "ART_BLANK_NECK_BROACH",
+        "ART_BLANK_ARMOR",
+        "ART_BLANK_SURCOAT",
+        "ART_BLANK_BOOTS",
+        "ART_BLANK_HORN",
+        "ART_LAST_WOG",
+        "ART_META_SPELLBOOK",
+        "ART_META_SPELL_SCROLL_FIRST"
+      ],
+      "questions": [
+        "177 named values: artifacts."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.assembler",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/assembler",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/assembler/",
+      "title": "Assembler",
+      "summary": "3 named values: assembler.",
+      "keywords": [
+        "OPCODE_NOP_1",
+        "OPCODE_NOP_2",
+        "OPCODE_NOP_4"
+      ],
+      "questions": [
+        "3 named values: assembler."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "compatibility": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Implementation dependency",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.battle",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/battle",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle/",
+      "title": "Battle",
+      "summary": "18 named values: battle.",
+      "keywords": [
+        "NO_STACK",
+        "BATTLE_STACK_FIRST",
+        "BATTLE_STACK_LAST",
+        "BATTLE_MAX_STACKS",
+        "BATTLE_ATTACKER_STACK_FIRST",
+        "BATTLE_ATTACKER_STACK_LAST",
+        "BATTLE_DEFENDER_STACK_FIRST",
+        "BATTLE_DEFENDER_STACK_LAST",
+        "BATTLE_ATTACKER_BASE_STACK_FIRST",
+        "BATTLE_ATTACKER_BASE_STACK_LAST",
+        "BATTLE_DEFENDER_BASE_STACK_FIRST",
+        "BATTLE_DEFENDER_BASE_STACK_LAST",
+        "BATTLE_STACKS_PER_SIDE",
+        "BATTLE_BASE_STACKS_PER_SIDE",
+        "BATTLE_LEFT",
+        "BATTLE_RIGHT",
+        "FIRST_TACTICS_ROUND",
+        "FIRST_NON_TACTICS_ROUND"
+      ],
+      "questions": [
+        "18 named values: battle."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.battle-actions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/battle-actions",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-actions/",
+      "title": "Battle Actions",
+      "summary": "14 named values: battle actions.",
+      "keywords": [
+        "NO_BATTLE_ACTION",
+        "BATTLE_ACTION_CANCEL",
+        "BATTLE_ACTION_HERO_CAST",
+        "BATTLE_ACTION_WALK",
+        "BATTLE_ACTION_DEFEND",
+        "BATTLE_ACTION_RETREAT",
+        "BATTLE_ACTION_SURRENDER",
+        "BATTLE_ACTION_WALK_AND_ATTACK",
+        "BATTLE_ACTION_SHOOT",
+        "BATTLE_ACTION_WAIT",
+        "BATTLE_ACTION_CATAPULT",
+        "BATTLE_ACTION_MONSTER_CAST",
+        "BATTLE_ACTION_TENT_HEAL",
+        "BATTLE_ACTION_SKIP"
+      ],
+      "questions": [
+        "14 named values: battle actions."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.battle-hexes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/battle-hexes",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-hexes/",
+      "title": "Battle Hexes",
+      "summary": "3 named values: battle hexes.",
+      "keywords": [
+        "BATTLE_HEX_FIRST",
+        "BATTLE_HEX_LAST",
+        "BATTLE_HEXES_PER_ROW"
+      ],
+      "questions": [
+        "3 named values: battle hexes."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.battle-type-flags",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/battle-type-flags",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/battle-type-flags/",
+      "title": "Battle Type Flags",
+      "summary": "6 named values: battle type flags.",
+      "keywords": [
+        "BATTLE_TYPE_FLAG_LEFT_IS_HUMAN",
+        "BATTLE_TYPE_FLAG_RIGHT_IS_HUMAN",
+        "BATTLE_TYPE_FLAG_LEFT_HAS_OWNER",
+        "BATTLE_TYPE_FLAG_RIGHT_HAS_OWNER",
+        "BATTLE_TYPE_FLAG_LEFT_HAS_HERO",
+        "BATTLE_TYPE_FLAG_RIGHT_HAS_HERO"
+      ],
+      "questions": [
+        "6 named values: battle type flags."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.bit-masks",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/bit-masks",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-masks/",
+      "title": "Bit Masks",
+      "summary": "32 named values: bit masks.",
+      "keywords": [
+        "BITS_1_MASK",
+        "BITS_2_MASK",
+        "BITS_3_MASK",
+        "BITS_4_MASK",
+        "BITS_5_MASK",
+        "BITS_6_MASK",
+        "BITS_7_MASK",
+        "BITS_8_MASK",
+        "BITS_9_MASK",
+        "BITS_10_MASK",
+        "BITS_11_MASK",
+        "BITS_12_MASK",
+        "BITS_13_MASK",
+        "BITS_14_MASK",
+        "BITS_15_MASK",
+        "BITS_16_MASK",
+        "BITS_17_MASK",
+        "BITS_18_MASK",
+        "BITS_19_MASK",
+        "BITS_20_MASK",
+        "BITS_21_MASK",
+        "BITS_22_MASK",
+        "BITS_23_MASK",
+        "BITS_24_MASK",
+        "BITS_25_MASK",
+        "BITS_26_MASK",
+        "BITS_27_MASK",
+        "BITS_28_MASK",
+        "BITS_29_MASK",
+        "BITS_30_MASK",
+        "BITS_31_MASK",
+        "BITS_32_MASK"
+      ],
+      "questions": [
+        "32 named values: bit masks."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.bit-sizes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/bit-sizes",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/",
+      "title": "Bit Sizes",
+      "summary": "5 named values: bit sizes.",
+      "keywords": [
+        "BITS_IN_INT4",
+        "BITS_IN_INT8",
+        "BITS_IN_INT16",
+        "BITS_IN_INT32",
+        "BITS_IN_INT"
+      ],
+      "questions": [
+        "5 named values: bit sizes."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.bits",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/bits",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bits/",
+      "title": "Bits",
+      "summary": "32 named values: bits.",
+      "keywords": [
+        "BIT_0",
+        "BIT_1",
+        "BIT_2",
+        "BIT_3",
+        "BIT_4",
+        "BIT_5",
+        "BIT_6",
+        "BIT_7",
+        "BIT_8",
+        "BIT_9",
+        "BIT_10",
+        "BIT_11",
+        "BIT_12",
+        "BIT_13",
+        "BIT_14",
+        "BIT_15",
+        "BIT_16",
+        "BIT_17",
+        "BIT_18",
+        "BIT_19",
+        "BIT_20",
+        "BIT_21",
+        "BIT_22",
+        "BIT_23",
+        "BIT_24",
+        "BIT_25",
+        "BIT_26",
+        "BIT_27",
+        "BIT_28",
+        "BIT_29",
+        "BIT_30",
+        "BIT_31"
+      ],
+      "questions": [
+        "32 named values: bits."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.bm-g-field-offsets",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/",
+      "title": "Bm:G Field Offsets",
+      "summary": "14 named values: bm:g field offsets.",
+      "keywords": [
+        "BMG_FIELD_VALUE_VISIBLE",
+        "BMG_FIELD_VALUE_INVISIBLE",
+        "BMG_FIELD_VALUE_DISPLAY_REAL_NUM_MONS",
+        "BMG_FIELD_VISIBILITY",
+        "BMG_FIELD_HIDDEN_QUANTITY",
+        "BMG_FIELD_MON_TYPE",
+        "BMG_FIELD_MON_POS",
+        "BMG_FIELD_DEF_GROUP_IND",
+        "BMG_FIELD_DEF_FRAME_IND",
+        "BMG_FIELD_NUM_MONS",
+        "BMG_FIELD_NUM_DISPLAYED_MONS",
+        "BMG_FIELD_IRRECOVERABLE_LOSS",
+        "BMG_FIELD_MORALE",
+        "BMG_FIELD_LUCK"
+      ],
+      "questions": [
+        "14 named values: bm:g field offsets."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "compatibility": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Implementation dependency",
+            "All groups"
+          ]
+        }
+      ]
+    }
+  ]
+}

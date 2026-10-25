@@ -102,7 +102,7 @@
       <button type="button" class="reference-close" aria-label={t('erm.context.close')} on:click={() => (expanded = false)}><UiIcon name="close" /></button>
     </div>
   </div>
-  <div class="reference-scroll" bind:this={scroller}>
+  <div class="reference-scroll" class:reference-index={showIndex} bind:this={scroller}>
     {#if showIndex}<ErmAlphabet {lang} {entries} />
     {:else if failure}<p role="alert">{failure}</p><a href={pendingUrl}>{t('erm.context.open')}</a>
     {:else if current}
@@ -114,7 +114,7 @@
 </div>
 
 <style>
-  .reference-pane { position: sticky; top: 0; height: calc(100vh - var(--header-height)); display: flex; flex-direction: column; min-height: 0; }
+  .reference-pane { height: 100%; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
   .reference-toolbar { flex-shrink: 0; padding: 1rem; border-bottom: 1px solid var(--border); background: var(--surface-background, var(--surface)); }
   .reference-toolbar h2 { font-size: .82rem; line-height: 1.4; margin: 0 0 .5rem; color: var(--gold); }
   .reference-toolbar .index-switch { display: inline; min-width: 0; height: auto; padding: 0; border: 0; color: var(--gold); background: transparent; text-align: left; text-decoration: underline; text-underline-offset: .2em; font: inherit; }
@@ -125,6 +125,7 @@
   .reference-toolbar button:not(:disabled):hover, .reference-toolbar button:not(:disabled):focus-visible, .reference-toolbar a:hover, .reference-toolbar a:focus-visible { color: var(--text); border-color: var(--gold-soft); background: var(--gold-soft); }
   .reference-toolbar .reference-close { display: none; margin-left: auto; }
   .reference-scroll { display: flex; flex-direction: column; overflow: auto; overscroll-behavior: contain; padding: 1rem; position: relative; min-height: 0; flex: 1; }
+  .reference-scroll.reference-index { overflow: hidden; }
   .reference-title { font-size: 1.15rem; color: var(--gold); margin: 0 0 1rem; }
   .reference-body { font-size: .83rem; }
   .reference-body :global(h2) { font-size: 1rem; margin-top: 1.4rem; }

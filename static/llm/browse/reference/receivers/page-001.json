@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "code": "AI",
+      "slug": "receivers/ai",
+      "title": "AI destinations (AI)",
+      "sourceRefs": [
+        "old-help:rec-ai.htm"
+      ]
+    },
+    {
+      "code": "AR",
+      "slug": "receivers/ar",
+      "title": "Map artifacts and resources (AR)",
+      "sourceRefs": [
+        "old-help:rec-ar.htm"
+      ]
+    },
+    {
+      "code": "BA",
+      "slug": "receivers/ba",
+      "title": "Battle configuration (BA)",
+      "sourceRefs": [
+        "old-help:rec-ba.htm"
+      ]
+    },
+    {
+      "code": "BF",
+      "slug": "receivers/bf",
+      "title": "Battlefield setup (BF)",
+      "sourceRefs": [
+        "old-help:rec-bf.htm"
+      ]
+    },
+    {
+      "code": "BG",
+      "slug": "receivers/bg",
+      "title": "Current battle action (BG)",
+      "sourceRefs": [
+        "old-help:rec-bg.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "BH",
+      "slug": "receivers/bh",
+      "title": "Battle hero actions (BH)",
+      "sourceRefs": [
+        "old-help:rec-bh.htm"
+      ]
+    },
+    {
+      "code": "BM",
+      "slug": "receivers/bm",
+      "title": "Battle stack (BM)",
+      "sourceRefs": [
+        "old-help:rec-bm.htm"
+      ]
+    },
+    {
+      "code": "BU",
+      "slug": "receivers/bu",
+      "title": "Battlefield operations (BU)",
+      "sourceRefs": [
+        "old-help:rec-bu.htm"
+      ]
+    },
+    {
+      "code": "CA",
+      "slug": "receivers/ca",
+      "title": "Towns (CA)",
+      "sourceRefs": [
+        "old-help:rec-ca.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "CB",
+      "slug": "receivers/cb",
+      "title": "Creature banks (CB)",
+      "sourceRefs": [
+        "old-help:rec-cb.htm"
+      ]
+    },
+    {
+      "code": "CD",
+      "slug": "receivers/cd",
+      "title": "Town demolition and building dependencies (CD)",
+      "sourceRefs": [
+        "old-help:rec-cd.htm"
+      ]
+    },
+    {
+      "code": "CE",
+      "slug": "receivers/ce",
+      "title": "Town events (CE)",
+      "sourceRefs": [
+        "old-help:rec-ce.htm"
+      ]
+    },
+    {
+      "code": "CH",
+      "slug": "receivers/ch",
+      "title": "Treasure chest (CH)",
+      "sourceRefs": [
+        "old-help:rec-ch.htm"
+      ]
+    },
+    {
+      "code": "CM",
+      "slug": "receivers/cm",
+      "title": "Mouse-event context (CM)",
+      "sourceRefs": [
+        "old-help:rec-cm.htm"
+      ]
+    },
+    {
+      "code": "CO",
+      "slug": "receivers/co",
+      "title": "Commanders (CO)",
+      "sourceRefs": [
+        "old-help:rec-co.htm"
+      ]
+    },
+    {
+      "code": "DL",
+      "slug": "receivers/dl",
+      "title": "Custom dialogs (DL)",
+      "sourceRefs": [
+        "old-help:rec-dl.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "DO",
+      "slug": "receivers/do",
+      "title": "Repeated function calls (DO)",
+      "sourceRefs": [
+        "old-help:rec-do.htm"
+      ]
+    },
+    {
+      "code": "DW",
+      "slug": "receivers/dw",
+      "title": "Creature dwellings (DW)",
+      "sourceRefs": [
+        "old-help:rec-dw.htm"
+      ]
+    },
+    {
+      "code": "EA",
+      "slug": "receivers/ea",
+      "title": "Creature experience and bonuses (EA)",
+      "sourceRefs": [
+        "old-help:rec-ea.htm"
+      ]
+    },
+    {
+      "code": "EX",
+      "slug": "receivers/ex",
+      "title": "Army stack experience (EX)",
+      "sourceRefs": [
+        "old-help:rec-ex.htm"
+      ]
+    },
+    {
+      "code": "FC",
+      "slug": "receivers/fc",
+      "title": "Town-faction parameters (FC)",
+      "sourceRefs": [
+        "old-help:rec-fc.htm"
+      ]
+    },
+    {
+      "code": "FR",
+      "slug": "receivers/fr",
+      "title": "Campfire (FR)",
+      "sourceRefs": [
+        "old-help:rec-fr.htm"
+      ]
+    },
+    {
+      "code": "FU",
+      "slug": "receivers/fu",
+      "title": "Function calls (FU)",
+      "sourceRefs": [
+        "old-help:rec-fu.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "GD",
+      "slug": "receivers/gd",
+      "title": "Mystical garden (GD)",
+      "sourceRefs": [
+        "old-help:rec-gd.htm"
+      ]
+    },
+    {
+      "code": "GE",
+      "slug": "receivers/ge",
+      "title": "Global events (GE)",
+      "sourceRefs": [
+        "old-help:rec-ge.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "GR",
+      "slug": "receivers/gr",
+      "title": "Garrison (GR)",
+      "sourceRefs": [
+        "old-help:rec-gr.htm"
+      ]
+    },
+    {
+      "code": "HE",
+      "slug": "receivers/he",
+      "title": "Heroes (HE)",
+      "sourceRefs": [
+        "old-help:rec-he.htm"
+      ]
+    },
+    {
+      "code": "HL",
+      "slug": "receivers/hl",
+      "title": "Level-up skill selection (HL)",
+      "sourceRefs": [
+        "old-help:rec-hl.htm"
+      ]
+    },
+    {
+      "code": "HO",
+      "slug": "receivers/ho",
+      "title": "Hero interaction permissions (HO)",
+      "sourceRefs": [
+        "old-help:rec-ho.htm"
+      ]
+    },
+    {
+      "code": "HT",
+      "slug": "receivers/ht",
+      "title": "Object-type hints (HT)",
+      "sourceRefs": [
+        "old-help:rec-ht.htm"
+      ]
+    },
+    {
+      "code": "IF",
+      "slug": "receivers/if",
+      "title": "Flags, messages and choices (IF)",
+      "sourceRefs": [
+        "old-help:rec-if.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "IP",
+      "slug": "receivers/ip",
+      "title": "Network synchronization (IP)",
+      "sourceRefs": [
+        "old-help:rec-ip.htm"
+      ]
+    },
+    {
+      "code": "KT",
+      "slug": "receivers/kt",
+      "title": "Tree of knowledge (KT)",
+      "sourceRefs": [
+        "old-help:rec-kt.htm"
+      ]
+    },
+    {
+      "code": "LE",
+      "slug": "receivers/le",
+      "title": "Local map events (LE)",
+      "sourceRefs": [
+        "old-help:rec-le.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "LN",
+      "slug": "receivers/ln",
+      "title": "Lean-to (LN)",
+      "sourceRefs": [
+        "old-help:rec-ln.htm"
+      ]
+    },
+    {
+      "code": "MA",
+      "slug": "receivers/ma",
+      "title": "Creature-type attributes (MA)",
+      "sourceRefs": [
+        "old-help:rec-ma.htm"
+      ]
+    },
+    {
+      "code": "MC",
+      "slug": "receivers/mc",
+      "title": "Classic ERM macros (MC)",
+      "sourceRefs": [
+        "old-help:rec-mc.htm"
+      ]
+    },
+    {
+      "code": "MF",
+      "slug": "receivers/mf",
+      "title": "Physical damage (MF)",
+      "sourceRefs": [
+        "old-help:rec-mf.htm"
+      ]
+    },
+    {
+      "code": "ML",
+      "slug": "receivers/ml",
+      "title": "Windmill (ML)",
+      "sourceRefs": [
+        "old-help:rec-ml.htm"
+      ]
+    },
+    {
+      "code": "MM",
+      "slug": "receivers/mm",
+      "title": "Battle hint text (MM)",
+      "sourceRefs": [
+        "old-help:rec-mm.htm"
+      ]
+    },
+    {
+      "code": "MN",
+      "slug": "receivers/mn",
+      "title": "Mines (MN)",
+      "sourceRefs": [
+        "old-help:rec-mn.htm"
+      ]
+    },
+    {
+      "code": "MO",
+      "slug": "receivers/mo",
+      "title": "Neutral map monsters (MO)",
+      "sourceRefs": [
+        "old-help:rec-mo.htm"
+      ]
+    },
+    {
+      "code": "MP",
+      "slug": "receivers/mp",
+      "title": "MP3 music (MP)",
+      "sourceRefs": [
+        "old-help:rec-mp.htm",
+        "old-help:rec-mp-era.htm"
+      ]
+    },
+    {
+      "code": "MR",
+      "slug": "receivers/mr",
+      "title": "Spell resistance (MR)",
+      "sourceRefs": [
+        "old-help:rec-mr.htm"
+      ]
+    },
+    {
+      "code": "MT",
+      "slug": "receivers/mt",
+      "title": "Obelisk (MT)",
+      "sourceRefs": [
+        "old-help:rec-mt.htm"
+      ]
+    },
+    {
+      "code": "MW",
+      "slug": "receivers/mw",
+      "title": "Wandering monsters (MW)",
+      "sourceRefs": [
+        "old-help:rec-mw.htm"
+      ]
+    },
+    {
+      "code": "OB",
+      "slug": "receivers/ob",
+      "title": "Map objects (OB)",
+      "sourceRefs": [
+        "old-help:rec-ob.htm"
+      ]
+    },
+    {
+      "code": "OW",
+      "slug": "receivers/ow",
+      "title": "Players (OW)",
+      "sourceRefs": [
+        "old-help:rec-ow.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "PA",
+      "slug": "receivers/pa",
+      "title": "Pandora box (PA)",
+      "sourceRefs": [
+        "old-help:rec-pa.htm"
+      ]
+    },
+    {
+      "code": "PM",
+      "slug": "receivers/pm",
+      "title": "Pyramids and new objects (PM)",
+      "sourceRefs": [
+        "old-help:rec-pm.htm"
+      ]
+    },
+    {
+      "code": "PO",
+      "slug": "receivers/po",
+      "title": "Map-cell data (PO)",
+      "sourceRefs": [
+        "old-help:rec-po.htm"
+      ]
+    },
+    {
+      "code": "PR",
+      "slug": "receivers/pr",
+      "title": "Prison (PR)",
+      "sourceRefs": [
+        "old-help:rec-pr.htm"
+      ]
+    },
+    {
+      "code": "QU",
+      "slug": "receivers/qu",
+      "title": "Object quests (QU)",
+      "sourceRefs": [
+        "old-help:rec-qu.htm"
+      ]
+    },
+    {
+      "code": "QW",
+      "slug": "receivers/qw",
+      "title": "Supplementary quest log (QW)",
+      "sourceRefs": [
+        "old-help:rec-qw.htm"
+      ]
+    },
+    {
+      "code": "RD",
+      "slug": "receivers/rd",
+      "title": "Creature recruitment (RD)",
+      "sourceRefs": [
+        "old-help:rec-rd.htm"
+      ]
+    },
+    {
+      "code": "SC",
+      "slug": "receivers/sc",
+      "title": "Scholar (SC)",
+      "sourceRefs": [
+        "old-help:rec-sc.htm"
+      ]
+    },
+    {
+      "code": "SG",
+      "slug": "receivers/sg",
+      "title": "Sign and ocean bottle (SG)",
+      "sourceRefs": [
+        "old-help:rec-sg.htm"
+      ]
+    },
+    {
+      "code": "SK",
+      "slug": "receivers/sk",
+      "title": "Map skeleton (SK)",
+      "sourceRefs": [
+        "old-help:rec-sk.htm"
+      ]
+    },
+    {
+      "code": "SN",
+      "slug": "receivers/sn",
+      "title": "ERA services, memory and sound (SN)",
+      "sourceRefs": [
+        "old-help:rec-sn.htm",
+        "old-help:rec-sn-era.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "SP",
+      "slug": "receivers/sp",
+      "title": "Magic spring (SP)",
+      "sourceRefs": [
+        "old-help:rec-sp.htm"
+      ]
+    },
+    {
+      "code": "SR",
+      "slug": "receivers/sr",
+      "title": "Shrine of magic (SR)",
+      "sourceRefs": [
+        "old-help:rec-sr.htm"
+      ]
+    },
+    {
+      "code": "SS",
+      "slug": "receivers/ss",
+      "title": "Spell attributes (SS)",
+      "sourceRefs": [
+        "old-help:rec-ss.htm"
+      ]
+    },
+    {
+      "code": "ST",
+      "slug": "receivers/st",
+      "title": "Learning stone (ST)",
+      "sourceRefs": [
+        "old-help:rec-st.htm"
+      ]
+    },
+    {
+      "code": "SW",
+      "slug": "receivers/sw",
+      "title": "Swan pond (SW)",
+      "sourceRefs": [
+        "old-help:rec-sw.htm"
+      ]
+    },
+    {
+      "code": "SY",
+      "slug": "receivers/sy",
+      "title": "Shipyard (SY)",
+      "sourceRefs": [
+        "old-help:rec-sy.htm"
+      ]
+    },
+    {
+      "code": "TL",
+      "slug": "receivers/tl",
+      "title": "Turn time limit (TL)",
+      "sourceRefs": [
+        "old-help:rec-tl.htm"
+      ]
+    },
+    {
+      "code": "TM",
+      "slug": "receivers/tm",
+      "title": "Game timers (TM)",
+      "sourceRefs": [
+        "old-help:rec-tm.htm"
+      ]
+    },
+    {
+      "code": "TR",
+      "slug": "receivers/tr",
+      "title": "Map tiles (TR)",
+      "sourceRefs": [
+        "old-help:rec-tr.htm"
+      ]
+    },
+    {
+      "code": "UN",
+      "slug": "receivers/un",
+      "title": "General game operations (UN)",
+      "sourceRefs": [
+        "old-help:rec-un.htm"
+      ]
+    },
+    {
+      "code": "UR",
+      "slug": "receivers/ur",
+      "title": "University (UR)",
+      "sourceRefs": [
+        "old-help:rec-ur.htm"
+      ]
+    },
+    {
+      "code": "VC",
+      "slug": "receivers/vc",
+      "title": "Variable-usage logging (VC)",
+      "sourceRefs": [
+        "old-help:rec-vc.htm"
+      ]
+    },
+    {
+      "code": "VR",
+      "slug": "receivers/vr",
+      "title": "Variables and expressions (VR)",
+      "sourceRefs": [
+        "old-help:rec-vr.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ]
+    },
+    {
+      "code": "WG",
+      "slug": "receivers/wg",
+      "title": "Wagon (WG)",
+      "sourceRefs": [
+        "old-help:rec-wg.htm"
+      ]
+    },
+    {
+      "code": "WH",
+      "slug": "receivers/wh",
+      "title": "Witch hut (WH)",
+      "sourceRefs": [
+        "old-help:rec-wh.htm"
+      ]
+    },
+    {
+      "code": "WM",
+      "slug": "receivers/wm",
+      "title": "Water wheel (WM)",
+      "sourceRefs": [
+        "old-help:rec-wm.htm"
+      ]
+    },
+    {
+      "code": "WT",
+      "slug": "receivers/wt",
+      "title": "Warrior tomb (WT)",
+      "sourceRefs": [
+        "old-help:rec-wt.htm"
+      ]
+    }
+  ]
+}

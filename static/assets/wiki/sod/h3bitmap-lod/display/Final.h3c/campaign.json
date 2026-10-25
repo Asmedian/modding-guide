@@ -1,0 +1,2079 @@
+{
+  "name": "Unholy Alliance",
+  "description": "Four heroes must uncover the plot brewing on the AvLee-Deyjan border and the Erathian-Deyjan border.  From there they must find the Angelic Alliance, invade Deyja and stop Sandro, the powerful lich who plans to conquer the world.",
+  "version": "SoD",
+  "scenarioCount": 12,
+  "mapCount": 12,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 97200,
+    "objects": 20981,
+    "towns": 96,
+    "monsters": 797,
+    "factions": {
+      "Necropolis": 37,
+      "Stronghold": 15,
+      "Castle": 21,
+      "Rampart": 21,
+      "Inferno": 1,
+      "Dungeon": 1
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Final A.h3m",
+      "regionText": "Like fields of wheat, the peasants of this area are harvested to swell the ranks of the undead.  There's no need to ask yourself why the undead would do such a thing.  Why pretend to know the ways of evil?  However, you can't shake the suspicion that something far more sinister is at work.",
+      "prologText": "A Necromancer is at work here.  Peasants all throughout this land are turning up as walking corpses.  But no noble or lord has come forward to put a stop to this.  I will take it upon myself to destroy this menace!",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 96,
+          "creatureId": 84,
+          "amount": 40
+        },
+        {
+          "type": 1,
+          "heroId": 96,
+          "creatureId": 94,
+          "amount": 2
+        },
+        {
+          "type": 1,
+          "heroId": 96,
+          "creatureId": 92,
+          "amount": 4
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-1.h3m",
+      "name": "Harvest",
+      "description": "Yog must defeat the Necromancers creating havoc in this part of Erathia to win the scenario.  However, if Yog is defeated in combat, the scenario is lost.  Yog is limited to level 30 but will carry his experience and skills on to his next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 96,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 96,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 49,
+          "mainTownY": 8,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 69,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 69,
+              "name": ""
+            },
+            {
+              "id": 73,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 4,
+        "y": 26,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 6,
+        "Stronghold": 2
+      },
+      "objects": 1359,
+      "towns": 8,
+      "monsters": 79,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Final B.h3m",
+      "regionText": "The town of Hartferd has remained independent because the two lords of this region have been too busy fighting each other to turn their greedy eyes on new territories.  Recent rumors place the Legion artifact in the vicinity, so life in Hartferd is likely to get a bit more complicated.",
+      "prologText": "On my way to visit some relatives in Erathia, I came across a village that had its sacred artifact, The Head of Legion, stolen.  The mayor wants the head back as well as the other pieces of Legion, if I can find them.  This is just what I need to lift my spirits, some fun!",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3000
+        },
+        {
+          "type": 2,
+          "buildingId": 12
+        },
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 70
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-2.h3m",
+      "name": "Gathering the Legion",
+      "description": "Crag Hack must find all the pieces of Legion and return them to the town of Hartferd to win the scenario.  However, if Crag Hack is defeated in combat, the scenario is lost.  Crag Hack is limited to level 30 but will carry his experience, skills and spells on to his next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 57,
+          "mainTownY": 11,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 102,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 35,
+          "mainTownY": 66,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 6,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Lord Chasim",
+          "heroes": [
+            {
+              "id": 6,
+              "name": "Lord Chasim"
+            },
+            {
+              "id": 7,
+              "name": "Tyranell"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 5,
+          "mainTownY": 42,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 0,
+          "mainHeroPortrait": 4,
+          "mainHeroName": "Lord Velmor",
+          "heroes": [
+            {
+              "id": 0,
+              "name": "Lord Velmor"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 10,
+        "name": "Transport artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 133,
+        "x": 57,
+        "y": 11,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 57,
+        "y": 12,
+        "z": 0
+      },
+      "factions": {
+        "Castle": 7
+      },
+      "objects": 1727,
+      "towns": 7,
+      "monsters": 56,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Final C.h3m",
+      "regionText": "Gelu has been summoned to investigate the death of Lord Falorel.  Many believe poison is the cause.  But Gelu quickly discovers that Falorel was never among the living.  He was a vampire masquerading as an AvLee lord!",
+      "prologText": "This morning I learned Lord Falorel was dead, apparently from poison.  What was learned soon afterwards has sent shockwaves throughout all of AvLee.  He was actually a Vampire disguised as an Elvish warlord.  I must find out who poisoned him and how he came to such a high position within AvLee.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 103
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 2000
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 26,
+          "amount": 1
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-3.h3m",
+      "name": "Search for a Killer",
+      "description": "Defeat all the Necromancers in the area to win the scenario.  However, if Gelu is defeated in combat, the scenario is lost.  Gelu is limited to level 30 but will carry his experience, skills and spells on to his next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 71,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 71,
+              "name": ""
+            },
+            {
+              "id": 73,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 148,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 3,
+        "y": 5,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 2,
+        "Necropolis": 5
+      },
+      "objects": 1406,
+      "towns": 7,
+      "monsters": 52,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Final D.h3m",
+      "regionText": "Gem's employer, the AvLee border lord Fayette, has been killed by the Necromancers while on a secret mission.  Never able to leave an enemy defeated, the Necromancers have further humiliated Fayette by raising him as a Death Knight.  Gem can't accept this insult.  Lord Fayette's undead body must be destroyed to grant him final peace.",
+      "prologText": "When I went to tell Lord Fayette about Sandro tricking me, I learned he left on a mission into Deyja while I was searching for the boots and had not yet returned.  So I scryed for Lord Fayette and discovered his mission had gone horribly wrong.  He had been killed by the Necromancers and... and... resurrected as a Death Knight!  Curse all Necromancers!  There is one last service I can do for my lord.  I will grant his soul final peace by destroying the undead body chaining it to this world.  I owe him that much.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 27,
+          "creatureId": 19,
+          "amount": 30
+        },
+        {
+          "type": 2,
+          "buildingId": 28
+        },
+        {
+          "type": 4,
+          "heroId": 27,
+          "spellId": 25
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-4.h3m",
+      "name": "Final Peace",
+      "description": "You must kill Lord Fayette to win the scenario.  However, if Gem is defeated in combat, the scenario is lost.  Gem is limited to level 30 but will carry her experience, skills and spells on to her next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": true,
+          "mainHeroId": 150,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 150,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 56,
+          "mainTownY": 11,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 27,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 22,
+              "name": ""
+            },
+            {
+              "id": 27,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 5,
+        "name": "Defeat hero",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 8,
+        "y": 29,
+        "z": 1
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 56,
+        "y": 12,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 4,
+        "Rampart": 3
+      },
+      "objects": 1404,
+      "towns": 7,
+      "monsters": 60,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-4-1.png"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "mapName": "Final E.h3m",
+      "regionText": "The presence of the Necromancers in Erathia is much stronger than you first anticipated.  It's apparent you can't win this battle alone, so you seek help.  Your choice of an ally was obvious, but Crag Hack wasn't easy to find.  It took even longer to convince him that these \"spell casters\" had to be stopped.  In the end, it was Crag Hack's unquenchable desire to smash undead that convinced him.",
+      "prologText": "We two Barbarians were glad to have found each other in this land of strangers.  Both of us are following the trail of the Necromancers, but I am shocked that their actions seem to have gone unnoticed by Erathian leaders.  Crag was not interested in investigating my concern further until I mentioned his glorious battle.  That always works with Barbarians like him.",
+      "preconditions": 15,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 6000
+        },
+        {
+          "type": 7,
+          "resourceType": 4,
+          "amount": 15
+        },
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 59
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-5.h3m",
+      "name": "Secrets Revealed",
+      "description": "Yog and Crag Hack must defeat the Necromancers to win the scenario.  However, if either hero is defeated in combat, the scenario is lost.  Yog and Crag Hack are limited to level 33 but will carry their experience, skills and spells on to their next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 96,
+              "name": ""
+            },
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 52,
+          "mainTownY": 69,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 67,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 67,
+              "name": ""
+            },
+            {
+              "id": 75,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 66,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 66,
+              "name": ""
+            },
+            {
+              "id": 70,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 54,
+        "y": 6,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 2,
+        "Necropolis": 6
+      },
+      "objects": 1427,
+      "towns": 8,
+      "monsters": 78,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-5-0.png"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "mapName": "Final F.h3m",
+      "regionText": "Gelu and Gem have been ordered by the Council of Elders to avenge the murders of Lord Fayette and the numerous other victims of the Necromancers.  Their goal lies through Deyja toward the Erathian border and the Necromancer's Castle, where information about Lord Fayette's death is sure to be found.",
+      "prologText": "Several days ago the AvLee Council of Elders commanded Gem and myself to avenge the deaths of Lords Falorel, Lord Fayette, the Dragon Lords and all the other victims of the Necromancer's raids.  At the border we encountered this... this horrific scene.  The Deyjan lords must be destroyed before all of AvLee is harvested for their undead armies.",
+      "preconditions": 15,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 18,
+          "amount": 15
+        },
+        {
+          "type": 1,
+          "heroId": 27,
+          "creatureId": 21,
+          "amount": 20
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-6.h3m",
+      "name": "Agents of Vengeance",
+      "description": "You must capture Castle Crypthome to win the scenario.  However, if Gem or Gelu is defeated in combat, the scenario is lost.  The heroes are limited to level 33 but will carry their experience, skills and spells on to their next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": true,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 27,
+              "name": ""
+            },
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 71,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 71,
+              "name": ""
+            },
+            {
+              "id": 78,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 6,
+        "name": "Capture town",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 36,
+        "y": 67,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 36,
+        "y": 10,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 3,
+        "Necropolis": 4
+      },
+      "objects": 1607,
+      "towns": 7,
+      "monsters": 79,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-6-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-6-1.png"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "mapName": "Final G.h3m",
+      "regionText": "With Finneas on the throne it's time for the next step of your plan.  AvLee, Erathia and Krewlod troops have all invaded Deyja territory, thinking they have you where they want you.  But it's just the opposite, isn't it?  It was you who drew them here, right where you want them, and now your goal of world domination is a little closer.",
+      "prologText": "Four very brave but foolish heroes have entered my realm.  They seek to dissuade me from invading Erathia and AvLee with their combined forces.  However, I welcome their intrusion, for my undead armies could use more recruits.  I shall harvest these heroes, and they will pay for their impudence with their eternal souls.",
+      "preconditions": 48,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 5,
+          "heroId": 74,
+          "stats": [
+            0,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "type": 5,
+          "heroId": 74,
+          "stats": [
+            0,
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-7.h3m",
+      "name": "Wrath of Sandro",
+      "description": "Wipe out all invading forces to win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Sandro is limited to level 40 but will carry his experience, skills and spells on to his next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 74,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 8,
+          "isFactionRandom": false,
+          "factions": [
+            "Inferno"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 52,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 52,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 48,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis",
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 70,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 70,
+              "name": ""
+            },
+            {
+              "id": 83,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 25,
+        "y": 31,
+        "z": 0
+      },
+      "factions": {
+        "Inferno": 1,
+        "Necropolis": 2,
+        "Dungeon": 1
+      },
+      "objects": 877,
+      "towns": 4,
+      "monsters": 43,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-7-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-7-1.png"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "mapName": "Final H.h3m",
+      "regionText": "The battle is half over.  Now you and Finneas must simultaneously invade AvLee and Erathia.  Concentrating your troops on one of the countries will give the other a great tactical advantage.  Therefore, your troops must be divided.  Some call AvLee's armies \"the Wall of Destruction,\" and everyone knows Erathia's defenders are just shy of invincible.  This will be no easy task.",
+      "prologText": "It was easy to remove the AvLee, Erathian and Krewlod troops from Deyja, but the invasion itself will be much more difficult.  To launch an offensive that will not leave one border open, we must assault both borders simultaneously.  Once again, Finneas wishes me to handle the matter personally.  His faith in my abilities is touching, but even a puppet King must someday learn how to command if he is to be an effective tool.",
+      "preconditions": 64,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 5,
+          "heroId": -3,
+          "stats": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": 5,
+          "heroId": -3,
+          "stats": [
+            0,
+            3,
+            0,
+            0
+          ]
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-8.h3m",
+      "name": "Invasion",
+      "description": "Defeat the Rangers and Barbarians against Sandro and his forces of undead to win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Sandro is limited to level 40 but will carry his experience, skills and spells on to his next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 96,
+              "name": ""
+            },
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 27,
+              "name": ""
+            },
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 64,
+        "y": 45,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 4,
+        "Stronghold": 2,
+        "Necropolis": 2,
+        "Castle": 3
+      },
+      "objects": 1945,
+      "towns": 11,
+      "monsters": 66,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-8-0.png"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "mapName": "Final I.h3m",
+      "regionText": "Gem and Gelu are seeking parts of the \"Angelic Alliance\" in a region of Erathia bordering AvLee.  Two warlords rule this land, and their allegiance is loosely tied to Erathia, so they'll have to be \"persuaded\" to relinquish these artifacts of power.",
+      "prologText": "I know this region well.  The lords who control this area are loyal to Erathia but only when it suits them.  We must be careful, for they are formidable foes and deeply entrenched.  But if we are to locate the pieces of the Angelic Alliance, we may need to \"persuade\" these lords to assist us.",
+      "preconditions": 128,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 143,
+          "amount": 6
+        },
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 53
+        },
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 98
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-9.h3m",
+      "name": "To Strive, To Seek",
+      "description": "Gem and Gelu must find the Sandals of the Saint, Helm of Heavenly Enlightenment and the Necklace of Celestial Bliss to win the scenario.  However, if either hero is defeated in combat, the scenario is lost.  They limited to level 37 but will carry their experience, skills and spells on to their next",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 27,
+              "name": ""
+            },
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 144,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 13,
+              "name": ""
+            },
+            {
+              "id": 144,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 36
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Rampart": 4,
+        "Castle": 6
+      },
+      "objects": 1182,
+      "towns": 10,
+      "monsters": 33,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-9-0.png"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "mapName": "Final J .h3m",
+      "regionText": "\"Traveler's Be Warned\" is on so many signs leading to this region that some even call it the \"Land of the Be-warned.\"  Three Barbarian brothers rule this contested border between Erathia and Krewlod.  They hardly trust each other, let alone outsiders.  You've been warned.",
+      "prologText": "Crag and I have been scouring the contested border between Erathia and Krewlod for three Barbarian brothers, each holding one of the artifacts we seek.  However, we have been warned that the brothers hardly trust each other, let alone outsiders.  They will not give up the artifacts without a fight.  For that is what we Barbarians do best.",
+      "preconditions": 128,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 4000
+        },
+        {
+          "type": 1,
+          "heroId": 96,
+          "creatureId": 90,
+          "amount": 10
+        },
+        {
+          "type": 1,
+          "heroId": 102,
+          "creatureId": 88,
+          "amount": 40
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-10.h3m",
+      "name": "Barbarian Brothers",
+      "description": "Crag Hack and Yog must find the Sword of Judgment, Armor of Wonder, and Lions Shield of Courage to win the scenario.  However, if either hero is defeated in combat, the scenario is lost.  They are limited to level 37 but will carry their experience, skills and spells on to their next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 96,
+              "name": ""
+            },
+            {
+              "id": 102,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 49,
+          "mainTownY": 14,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 106,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Denarm",
+          "heroes": [
+            {
+              "id": 106,
+              "name": "Denarm"
+            },
+            {
+              "id": 108,
+              "name": "Zinitha"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 12,
+          "mainTownY": 45,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 111,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Swankart",
+          "heroes": [
+            {
+              "id": 105,
+              "name": "Venthin"
+            },
+            {
+              "id": 111,
+              "name": "Swankart"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 10,
+          "mainTownY": 10,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 103,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Zorlan",
+          "heroes": [
+            {
+              "id": 103,
+              "name": "Zorlan"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 4,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 31
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Castle": 1,
+        "Rampart": 1,
+        "Stronghold": 5
+      },
+      "objects": 1917,
+      "towns": 7,
+      "monsters": 71,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-10-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-10-1.png"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "mapName": "Final K.h3m",
+      "regionText": "Sandro used his force to drive a wedge between the four heroes to stop them from building the Angelic Alliance.  If this powerful artifact is ever completed, Sandro's defeat seems likely and his plans of conquest will be ruined.",
+      "prologText": "We have collected the pieces of the Angelic Alliance, but Sandro learned of our efforts and blocked our path.  The bulk of his army now separates us from each other.  We must break through the Necromancer's army and converge upon one point.  Once we join the pieces of the Angelic Alliance, we can defeat Sandro.  If we fail, he will dominate all of Antagarich.",
+      "preconditions": 768,
+      "difficulty": "Impossible",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": -3,
+          "amount": 10
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 3,
+          "amount": 30
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 7,
+          "amount": 10
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-11.h3m",
+      "name": "Union",
+      "description": "Defeat all of the Necromancers in the area and create the Angelic Alliance to win the scenario.  However, if Gem, Gelu, Crag Hack or Yog are defeated in combat, the scenario is lost.  The four heroes are limited to level 40 but will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 83,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Necropolis",
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 74,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 64,
+              "name": ""
+            },
+            {
+              "id": 66,
+              "name": ""
+            },
+            {
+              "id": 71,
+              "name": ""
+            },
+            {
+              "id": 74,
+              "name": ""
+            },
+            {
+              "id": 75,
+              "name": ""
+            },
+            {
+              "id": 77,
+              "name": ""
+            },
+            {
+              "id": 78,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 66,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart",
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 27,
+              "name": ""
+            },
+            {
+              "id": 96,
+              "name": ""
+            },
+            {
+              "id": 102,
+              "name": ""
+            },
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Necropolis": 4,
+        "Rampart": 2,
+        "Stronghold": 2,
+        "Castle": 4
+      },
+      "objects": 4343,
+      "towns": 12,
+      "monsters": 106,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-11-0.png"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "mapName": "Final L.h3m",
+      "regionText": "Sandro must be conquered to ensure that he will never rise to power and threaten Antagarich again.  The only certain way is to destroy the artifact that gave him his power and disperse the pieces throughout the world.",
+      "prologText": "We face the Necromancer in his lair.  The time of reckoning has come, but our vengeance must be carried out swiftly.  Sandro has sent for reinforcements from others within Deyja.  Slow moving as undead are, they will still be here in four months.  If we have not defeated Sandro by then, he will surely rule all of Antagarich.  I shudder at the thought.  Failure is simply not an option.",
+      "epilogText": "After realizing how corrupting these artifacts are, we decided to split them up into less powerful components and disperse them throughout Antagarich.  As for us, we decided to separate as well, to distance our thoughts from a disaster history may never record.",
+      "preconditions": 1024,
+      "difficulty": "Impossible",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 1,
+          "amount": 10
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3000
+        },
+        {
+          "type": 7,
+          "resourceType": -2,
+          "amount": 2
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-12.h3m",
+      "name": "Fall of Sandro",
+      "description": "Defeat Sandro and all his minions to win the campaign.  However, if any of your four heroes are defeated in combat or you fail to defeat Sandro's forces in four months, the scenario is lost.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 74,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 68,
+              "name": ""
+            },
+            {
+              "id": 70,
+              "name": "Finneas "
+            },
+            {
+              "id": 74,
+              "name": ""
+            },
+            {
+              "id": 78,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 66,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart",
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 27,
+              "name": ""
+            },
+            {
+              "id": 96,
+              "name": ""
+            },
+            {
+              "id": 102,
+              "name": ""
+            },
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 112
+      },
+      "factions": {
+        "Rampart": 2,
+        "Stronghold": 2,
+        "Necropolis": 4
+      },
+      "objects": 1787,
+      "towns": 8,
+      "monsters": 74,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-12-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Final.h3c/scenario-12-1.png"
+        }
+      ]
+    }
+  ]
+}

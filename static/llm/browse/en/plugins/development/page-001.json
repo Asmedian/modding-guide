@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "plugins.era-api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "era-api",
+      "url": "https://asmedian.github.io/modding-guide/en/plugins/era-api/",
+      "title": "ERA plugin API",
+      "summary": "A practical map of ERA's exported services for events, localization, ERM, save data, resources, diagnostics, and managed patching.",
+      "keywords": [
+        "ERA API",
+        "RegisterHandler",
+        "FireEvent",
+        "CreatePlugin",
+        "MemFree",
+        "savegame",
+        "RedirectFile",
+        "ExecErmCmd"
+      ],
+      "questions": [
+        "Which services does the ERA plugin API expose?",
+        "How do ERA plugin events work?",
+        "Who owns memory returned by the ERA API?"
+      ],
+      "sourceRefs": [
+        "era-source:era.pas",
+        "era-source:plugin-exports",
+        "era-source:plugin-loader",
+        "nh3api:era-header"
+      ],
+      "sectionSources": {},
+      "previous": "getting-started",
+      "next": "nh3api",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/plugins/development/text-001.md",
+          "fromAnchor": "contract",
+          "toAnchor": "versioning",
+          "headings": [
+            "Prefer exported behavior",
+            "Subscribe to named events",
+            "API families",
+            "Respect ownership and lifetime",
+            "Keep patches reversible and attributable",
+            "Gate optional behavior by version"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plugins.overview",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "",
+      "url": "https://asmedian.github.io/modding-guide/en/plugins/",
+      "title": "ERA plugins",
+      "summary": "Development, load order, and compatibility.",
+      "keywords": [
+        "ERA plugin",
+        "EraPlugins",
+        ".era",
+        ".dll",
+        "native modding",
+        "NH3API",
+        "H3API"
+      ],
+      "questions": [
+        "What is an ERA plugin?",
+        "Where does ERA load plugins from?",
+        "When should I use the ERA API, NH3API, or legacy H3API?"
+      ],
+      "sourceRefs": [
+        "era-source:plugin-loader",
+        "era-source:era.pas",
+        "nh3api:readme",
+        "h3api:readme"
+      ],
+      "sectionSources": {},
+      "previous": null,
+      "next": "getting-started",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/plugins/development/text-001.md",
+          "fromAnchor": "role",
+          "toAnchor": "compatibility",
+          "headings": [
+            "What a plugin changes",
+            "How ERA loads plugins",
+            "The working architecture",
+            "Choose the narrowest interface",
+            "Compatibility is part of the feature"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plugins.getting-started",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "getting-started",
+      "url": "https://asmedian.github.io/modding-guide/en/plugins/getting-started/",
+      "title": "Getting started with ERA plugins",
+      "summary": "Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.",
+      "keywords": [
+        "plugin quick start",
+        "CMake",
+        "Win32",
+        "x86",
+        "DllMain",
+        "OnAfterWoG",
+        "EraPlugins"
+      ],
+      "questions": [
+        "How do I build a minimal ERA plugin?",
+        "How do I configure NH3API with CMake?",
+        "Where should an ERA plugin be installed?"
+      ],
+      "sourceRefs": [
+        "era-source:plugin-loader",
+        "nh3api:readme",
+        "nh3api:cmake",
+        "nh3api:era-header",
+        "windows-api:dll-best-practices"
+      ],
+      "sectionSources": {},
+      "previous": "",
+      "next": "era-api",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/plugins/development/text-001.md",
+          "fromAnchor": "prerequisites",
+          "toAnchor": "release",
+          "headings": [
+            "Prepare an isolated target",
+            "Keep source and delivery separate",
+            "Configure the build",
+            "Register, then wait for the lifecycle event",
+            "Deploy one plugin",
+            "Diagnose before adding hooks",
+            "Release checklist"
+          ]
+        }
+      ]
+    }
+  ]
+}

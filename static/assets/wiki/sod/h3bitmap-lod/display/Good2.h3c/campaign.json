@@ -1,0 +1,655 @@
+{
+  "name": "Liberation",
+  "description": "We have established a solid foothold in Erathia, but the nation lies in near ruin.  We start lby freeing the capitol city of Steadwick, and we do not stop until every invader has been driven from our lands.",
+  "version": "AB",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 57024,
+    "objects": 10706,
+    "towns": 36,
+    "monsters": 344,
+    "factions": {
+      "Tower": 3,
+      "Rampart": 3,
+      "Inferno": 6,
+      "Castle": 12,
+      "Dungeon": 8,
+      "Fortress": 2,
+      "Stronghold": 2
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Good-2a.h3m",
+      "regionText": "The first step in our fight to free Erathia is to liberate the capital of Steadwick from Nighon occupation. This will not be an easy task, as the Dungeon Overlords have blocked the mountain passes leading into the Steadwick Valley.",
+      "prologText": "Early intelligence reports forces from Nighon and Eeofol have barricaded themselves inside Steadwick. All land access to the capitol has been blocked. Their reinforcements arrive via underground tunnels. Armies from the west will meet us on the field of battle. There is little else to say. We do not stop until Steadwick is liberated.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 10000
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 13,
+          "amount": 2
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 41,
+          "amount": 2
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-1.h3m",
+      "name": "Steadwick's Liberation",
+      "description": "To win, you must capture the city of Steadwick. Seek out the Seer - completing the Seer's Quest will allow you to carry the reward to the next scenario.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 5,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Tower"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 6,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 6,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 41,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Inferno",
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 6,
+        "name": "Capture town",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 34,
+        "y": 42,
+        "z": 0
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Tower": 1,
+        "Rampart": 1,
+        "Inferno": 1,
+        "Castle": 5,
+        "Dungeon": 3
+      },
+      "objects": 3138,
+      "towns": 11,
+      "monsters": 93,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Good-2b.h3m",
+      "regionText": "A letter from Lucifer Kreegan III, Lord High Commander of Eeofol, arrives at the palace for Queen Catherine. In it he claims that he holds a captive, Catherine's husband, Roland Ironfist of Enroth, and that only a one million gold ransom can save him.",
+      "prologText": "My name is Dorrell, ambassador from AvLee. I bring a message from Queen Catherine. After the liberation of Steadwick, a Kreegan envoy appeared before the royal court. He claims they have captive, King Roland Ironfist of Enroth. They are asking for one million gold ransom. We cannot validate this claim. True or not, Queen Catherine is unwilling to pay.  After interrogating the envoy, we learned Roland is held deep inside Eeofol by Clan Kreelah. Locate Clan Kreelah's base of operations and rescue Roland.  In addition to your Erathian army, we will support you from AvLee. This mission is of utmost seriousness. You may rescue Roland, or find yourself the victim of a trap.",
+      "preconditions": 1,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 4,
+          "heroId": -3,
+          "spellId": 31
+        },
+        {
+          "type": 4,
+          "heroId": -3,
+          "spellId": 16
+        },
+        {
+          "type": 4,
+          "heroId": -3,
+          "spellId": 44
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-2.h3m",
+      "name": "Deal With the Devil",
+      "description": "To win, you must capture the city of Kleesive. Some Border Guards can only be passed if a Hero carries a Quest Artifact from a previous scenario, but the artifact beyond the Border Guard will travel with you to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 3,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 10,
+          "mainTownY": 65,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 8,
+          "isFactionRandom": false,
+          "factions": [
+            "Inferno"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 53,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 53,
+              "name": ""
+            },
+            {
+              "id": 58,
+              "name": "Clan Leader"
+            },
+            {
+              "id": 62,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 6,
+        "name": "Capture town",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 66,
+        "y": 40,
+        "z": 0
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Castle": 2,
+        "Inferno": 5,
+        "Rampart": 1
+      },
+      "objects": 1662,
+      "towns": 8,
+      "monsters": 49,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-2-0.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Good-2c.h3m",
+      "regionText": "An ambassador from Bracada brings a message from his leader, Gavin Magnus, offering aid in reclaiming Western Erathia from the marauding Tatalian and Krewlish forces. It is time to remind your neighbors of where their borders belong.",
+      "prologText": "My name is Winstan Langer, ambassador from Bracada, ruled by Grand Vizier Gavin Magnus. Forces from Tatalia and Krewlod are fighting in west Erathia. After months of conflict, the battle still rages.  Though weary of yet another war, my king sends reinforcements to aid your efforts.  Brilliant tactics will not win this battle. Body count will determine the victor. Good luck.",
+      "preconditions": 1,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 6,
+          "heroId": -3,
+          "skillId": 2,
+          "mastery": 3
+        },
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 13
+        },
+        {
+          "type": 3,
+          "heroId": -3,
+          "artifactId": 7
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-3.h3m",
+      "name": "Neutral Affairs",
+      "description": "To win, you must capture all enemy towns and castles and defeat all enemy heroes. Some Border Guards can only be passed if a Hero carries a Quest Artifact from a previous scenario, but the artifact beyond the Border Guard will travel with you to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 5,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 63,
+          "mainTownY": 20,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 129,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Fortress"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 6,
+          "mainTownY": 39,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 65,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 48,
+          "mainTownY": 65,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Castle": 4,
+        "Fortress": 2,
+        "Stronghold": 2,
+        "Tower": 1
+      },
+      "objects": 1811,
+      "towns": 9,
+      "monsters": 53,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-3-0.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Good-2d.h3m",
+      "regionText": "We now know how Erathia fell to Nighon and Eeofol. They literally tunneled their way under the Nighon Straits, breaking into the Dwarven Tunnels along Erathia's coast. We must now force them to use the tunnels again - this time as an escape route as we drive them from Erathia's lands forever!",
+      "prologText": "We now know how Erathia fell to Nighon and Eeofol. Through an extensive network of underground tunnels dug by the Overlord’s armies, they struck simultaneously in many areas with overwhelming numbers. Credit the military for holding the invasion to half the country.  We have discovered the main artery for transporting forces from Nighon to Erathia; it is under the ocean, connecting the Nighon underworld to the Erathian mainland. Bracada and Avlee have sent armies to join the fight.  First we must eliminate the remaining Kreegans and Nighon forces from the mainland, then pursue them underground, and drive them back to the shores of Nighon.",
+      "preconditions": 6,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 6,
+          "heroId": 6,
+          "skillId": 5,
+          "mastery": 3
+        },
+        {
+          "type": 2,
+          "buildingId": 11
+        },
+        {
+          "type": 2,
+          "buildingId": 13
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-4.h3m",
+      "name": "Tunnels and Troglodytes",
+      "description": "To win, you must capture all enemy towns and castles and defeat all enemy heroes. Some Border Guards can only be passed if a Hero carries a Quest Artifact from a previous scenario, but the reward is great indeed.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 7,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 12,
+          "mainTownY": 35,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 6,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 6,
+              "name": ""
+            },
+            {
+              "id": 18,
+              "name": ""
+            },
+            {
+              "id": 40,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 83,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 80,
+              "name": ""
+            },
+            {
+              "id": 81,
+              "name": ""
+            },
+            {
+              "id": 83,
+              "name": ""
+            },
+            {
+              "id": 88,
+              "name": ""
+            },
+            {
+              "id": 90,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Rampart": 1,
+        "Castle": 1,
+        "Tower": 1,
+        "Dungeon": 5
+      },
+      "objects": 4095,
+      "towns": 8,
+      "monsters": 149,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good2.h3c/scenario-4-1.png"
+        }
+      ]
+    }
+  ]
+}

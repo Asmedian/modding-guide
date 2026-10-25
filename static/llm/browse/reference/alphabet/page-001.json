@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "alphabet-0",
+      "parent": null,
+      "depth": 0,
+      "label": "Autosaves",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-j5"
+    },
+    {
+      "id": "alphabet-1",
+      "parent": null,
+      "depth": 0,
+      "label": "Artifact",
+      "slug": "receivers/ar",
+      "anchor": "ref-rec-ar"
+    },
+    {
+      "id": "alphabet-10",
+      "parent": null,
+      "depth": 0,
+      "label": "Creature bank",
+      "slug": "receivers/cb",
+      "anchor": "ref-rec-cb"
+    },
+    {
+      "id": "alphabet-100",
+      "parent": "alphabet-89",
+      "depth": 1,
+      "label": "Map ID",
+      "slug": "receivers/ca",
+      "anchor": "ref-rec-ca-u"
+    },
+    {
+      "id": "alphabet-101",
+      "parent": "alphabet-89",
+      "depth": 1,
+      "label": "Destruction",
+      "slug": "receivers/cd",
+      "anchor": "ref-rec-cd"
+    },
+    {
+      "id": "alphabet-102",
+      "parent": "alphabet-89",
+      "depth": 1,
+      "label": "Building status",
+      "slug": "receivers/ca",
+      "anchor": "ref-rec-ca-r"
+    },
+    {
+      "id": "alphabet-103",
+      "parent": "alphabet-89",
+      "depth": 1,
+      "label": "Type",
+      "slug": "receivers/ca",
+      "anchor": "ref-rec-ca-t"
+    },
+    {
+      "id": "alphabet-104",
+      "parent": "alphabet-89",
+      "depth": 1,
+      "label": "Owner",
+      "slug": "receivers/ca",
+      "anchor": "ref-rec-ca-o"
+    },
+    {
+      "id": "alphabet-105",
+      "parent": null,
+      "depth": 0,
+      "label": "Warrior’s Tomb",
+      "slug": "receivers/wt",
+      "anchor": "ref-rec-wt"
+    },
+    {
+      "id": "alphabet-106",
+      "parent": null,
+      "depth": 0,
+      "label": "Hero movement",
+      "slug": "triggers/hm",
+      "anchor": "ref-tr-hm"
+    },
+    {
+      "id": "alphabet-107",
+      "parent": null,
+      "depth": 0,
+      "label": "Tree of Knowledge",
+      "slug": "receivers/kt",
+      "anchor": "ref-rec-kt"
+    },
+    {
+      "id": "alphabet-108",
+      "parent": null,
+      "depth": 0,
+      "label": "Dialogs",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if"
+    },
+    {
+      "id": "alphabet-109",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Sphinx question",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-x"
+    },
+    {
+      "id": "alphabet-11",
+      "parent": null,
+      "depth": 0,
+      "label": "Battle",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba"
+    },
+    {
+      "id": "alphabet-110",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Questions",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-q"
+    },
+    {
+      "id": "alphabet-111",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Select an option",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-g"
+    },
+    {
+      "id": "alphabet-112",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Dialog",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-e"
+    },
+    {
+      "id": "alphabet-113",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Recruitment dialog",
+      "slug": "receivers/rd",
+      "anchor": "ref-rec-rd"
+    },
+    {
+      "id": "alphabet-114",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Add hints",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-f"
+    },
+    {
+      "id": "alphabet-115",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Show picture / animation",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-p"
+    },
+    {
+      "id": "alphabet-116",
+      "parent": "alphabet-108",
+      "depth": 1,
+      "label": "Message",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-m"
+    },
+    {
+      "id": "alphabet-117",
+      "parent": null,
+      "depth": 0,
+      "label": "Creature dwellings",
+      "slug": "receivers/dw",
+      "anchor": "ref-rec-dw"
+    },
+    {
+      "id": "alphabet-118",
+      "parent": null,
+      "depth": 0,
+      "label": "Quest log",
+      "slug": "receivers/qw",
+      "anchor": "ref-rec-qw"
+    },
+    {
+      "id": "alphabet-119",
+      "parent": null,
+      "depth": 0,
+      "label": "Delay",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r6"
+    },
+    {
+      "id": "alphabet-12",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Spell animations",
+      "slug": "receivers/bm",
+      "anchor": "ref-rec-bm-v"
+    },
+    {
+      "id": "alphabet-120",
+      "parent": null,
+      "depth": 0,
+      "label": "Loading and saving",
+      "slug": "triggers/gm",
+      "anchor": "ref-tr-gm"
+    },
+    {
+      "id": "alphabet-121",
+      "parent": null,
+      "depth": 0,
+      "label": "Spells",
+      "slug": "receivers/ss",
+      "anchor": "ref-rec-ss"
+    },
+    {
+      "id": "alphabet-122",
+      "parent": "alphabet-121",
+      "depth": 1,
+      "label": "Disable",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-j"
+    },
+    {
+      "id": "alphabet-123",
+      "parent": "alphabet-121",
+      "depth": 1,
+      "label": "Adventure-map spellcasting",
+      "slug": "triggers/mg",
+      "anchor": "ref-tr-mg"
+    },
+    {
+      "id": "alphabet-124",
+      "parent": "alphabet-121",
+      "depth": 1,
+      "label": "Adventure-map spellcasting",
+      "slug": "receivers/ow",
+      "anchor": "ref-rec-ow-s"
+    },
+    {
+      "id": "alphabet-125",
+      "parent": null,
+      "depth": 0,
+      "label": "Sounds",
+      "slug": "receivers/sn",
+      "anchor": "ref-rec-sn"
+    },
+    {
+      "id": "alphabet-126",
+      "parent": "alphabet-125",
+      "depth": 1,
+      "label": "MP3 files",
+      "slug": "receivers/mp",
+      "anchor": "ref-rec-mp-era"
+    },
+    {
+      "id": "alphabet-127",
+      "parent": null,
+      "depth": 0,
+      "label": "Sign and bottle",
+      "slug": "receivers/sg",
+      "anchor": "ref-rec-sg"
+    },
+    {
+      "id": "alphabet-128",
+      "parent": null,
+      "depth": 0,
+      "label": "Player",
+      "slug": "receivers/ow",
+      "anchor": "ref-rec-ow"
+    },
+    {
+      "id": "alphabet-129",
+      "parent": null,
+      "depth": 0,
+      "label": "AI",
+      "slug": "receivers/ai",
+      "anchor": "ref-rec-ai"
+    },
+    {
+      "id": "alphabet-13",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Starting armies",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-m"
+    },
+    {
+      "id": "alphabet-130",
+      "parent": null,
+      "depth": 0,
+      "label": "Instructions",
+      "slug": "syntax",
+      "anchor": "ref-cont-receiversol-instr"
+    },
+    {
+      "id": "alphabet-131",
+      "parent": null,
+      "depth": 0,
+      "label": "Used variables",
+      "slug": "variables",
+      "anchor": "ref-cont-usedvar"
+    },
+    {
+      "id": "alphabet-132",
+      "parent": null,
+      "depth": 0,
+      "label": "Learning Stone",
+      "slug": "receivers/st",
+      "anchor": "ref-rec-st"
+    },
+    {
+      "id": "alphabet-133",
+      "parent": null,
+      "depth": 0,
+      "label": "Map: hide area",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-h"
+    },
+    {
+      "id": "alphabet-134",
+      "parent": "alphabet-133",
+      "depth": 1,
+      "label": "Reveal",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-s"
+    },
+    {
+      "id": "alphabet-135",
+      "parent": "alphabet-133",
+      "depth": 1,
+      "label": "Move viewport",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-l"
+    },
+    {
+      "id": "alphabet-136",
+      "parent": "alphabet-133",
+      "depth": 1,
+      "label": "Size",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-x"
+    },
+    {
+      "id": "alphabet-137",
+      "parent": null,
+      "depth": 0,
+      "label": "Commanders",
+      "slug": "receivers/co",
+      "anchor": "ref-rec-co"
+    },
+    {
+      "id": "alphabet-138",
+      "parent": "alphabet-137",
+      "depth": 1,
+      "label": "Reset",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-j13"
+    },
+    {
+      "id": "alphabet-139",
+      "parent": null,
+      "depth": 0,
+      "label": "Object control words",
+      "slug": "tables/object-control-words",
+      "anchor": "ref-cont-conwords"
+    },
+    {
+      "id": "alphabet-14",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Quick combat",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-q"
+    },
+    {
+      "id": "alphabet-140",
+      "parent": null,
+      "depth": 0,
+      "label": "Campfire",
+      "slug": "receivers/fr",
+      "anchor": "ref-rec-fr"
+    },
+    {
+      "id": "alphabet-141",
+      "parent": null,
+      "depth": 0,
+      "label": "Cursor",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r5"
+    },
+    {
+      "id": "alphabet-142",
+      "parent": "alphabet-141",
+      "depth": 1,
+      "label": "Show / hide",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r7"
+    },
+    {
+      "id": "alphabet-143",
+      "parent": null,
+      "depth": 0,
+      "label": "Swan Pond",
+      "slug": "receivers/sw",
+      "anchor": "ref-rec-sw"
+    },
+    {
+      "id": "alphabet-144",
+      "parent": null,
+      "depth": 0,
+      "label": "Bitwise logic",
+      "slug": "tables/object-control-words",
+      "anchor": "ref-cont-conwords-logic"
+    },
+    {
+      "id": "alphabet-145",
+      "parent": "alphabet-144",
+      "depth": 1,
+      "label": "AND",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-and"
+    },
+    {
+      "id": "alphabet-146",
+      "parent": "alphabet-144",
+      "depth": 1,
+      "label": "OR",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-or"
+    },
+    {
+      "id": "alphabet-147",
+      "parent": "alphabet-144",
+      "depth": 1,
+      "label": "XOR",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr-xor"
+    },
+    {
+      "id": "alphabet-148",
+      "parent": null,
+      "depth": 0,
+      "label": "Local event",
+      "slug": "receivers/le",
+      "anchor": "ref-rec-le"
+    },
+    {
+      "id": "alphabet-149",
+      "parent": null,
+      "depth": 0,
+      "label": "Macros",
+      "slug": "receivers/mc",
+      "anchor": "ref-rec-mc"
+    },
+    {
+      "id": "alphabet-15",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Summon creature",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-s"
+    },
+    {
+      "id": "alphabet-150",
+      "parent": null,
+      "depth": 0,
+      "label": "Lighthouse",
+      "slug": "receivers/mn",
+      "anchor": "ref-rec-mn"
+    },
+    {
+      "id": "alphabet-151",
+      "parent": null,
+      "depth": 0,
+      "label": "Month",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-m"
+    },
+    {
+      "id": "alphabet-152",
+      "parent": null,
+      "depth": 0,
+      "label": "Mystical Garden",
+      "slug": "receivers/gd",
+      "anchor": "ref-rec-gd"
+    },
+    {
+      "id": "alphabet-153",
+      "parent": null,
+      "depth": 0,
+      "label": "Creature",
+      "slug": "receivers/ma",
+      "anchor": "ref-rec-ma"
+    },
+    {
+      "id": "alphabet-154",
+      "parent": "alphabet-153",
+      "depth": 1,
+      "label": "Name / description",
+      "slug": "receivers/sn",
+      "anchor": "ref-rec-sn-era-h-mon"
+    },
+    {
+      "id": "alphabet-155",
+      "parent": null,
+      "depth": 0,
+      "label": "Map creature",
+      "slug": "receivers/mo",
+      "anchor": "ref-rec-mo"
+    },
+    {
+      "id": "alphabet-156",
+      "parent": null,
+      "depth": 0,
+      "label": "Mouse",
+      "slug": "receivers/cm",
+      "anchor": "ref-rec-cm"
+    },
+    {
+      "id": "alphabet-157",
+      "parent": null,
+      "depth": 0,
+      "label": "Lean-to",
+      "slug": "receivers/ln",
+      "anchor": "ref-rec-ln"
+    },
+    {
+      "id": "alphabet-158",
+      "parent": null,
+      "depth": 0,
+      "label": "Name",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-n"
+    },
+    {
+      "id": "alphabet-159",
+      "parent": null,
+      "depth": 0,
+      "label": "Week",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-k"
+    },
+    {
+      "id": "alphabet-16",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Heroes",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-h"
+    },
+    {
+      "id": "alphabet-160",
+      "parent": null,
+      "depth": 0,
+      "label": "Obelisk",
+      "slug": "receivers/mt",
+      "anchor": "ref-rec-mt"
+    },
+    {
+      "id": "alphabet-161",
+      "parent": null,
+      "depth": 0,
+      "label": "Refresh screen",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-r"
+    },
+    {
+      "id": "alphabet-162",
+      "parent": null,
+      "depth": 0,
+      "label": "Object",
+      "slug": "receivers/ob",
+      "anchor": "ref-rec-ob"
+    },
+    {
+      "id": "alphabet-163",
+      "parent": "alphabet-162",
+      "depth": 1,
+      "label": "Count",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-u"
+    },
+    {
+      "id": "alphabet-164",
+      "parent": "alphabet-162",
+      "depth": 1,
+      "label": "Place on map",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-i"
+    },
+    {
+      "id": "alphabet-165",
+      "parent": "alphabet-162",
+      "depth": 1,
+      "label": "Remove from map",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-o"
+    },
+    {
+      "id": "alphabet-166",
+      "parent": null,
+      "depth": 0,
+      "label": "WoG options",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-p2"
+    },
+    {
+      "id": "alphabet-167",
+      "parent": null,
+      "depth": 0,
+      "label": "Stack experience",
+      "slug": "receivers/ex",
+      "anchor": "ref-rec-ex"
+    },
+    {
+      "id": "alphabet-168",
+      "parent": null,
+      "depth": 0,
+      "label": "Creature experience",
+      "slug": "receivers/ea",
+      "anchor": "ref-rec-ea"
+    },
+    {
+      "id": "alphabet-169",
+      "parent": null,
+      "depth": 0,
+      "label": "Square properties",
+      "slug": "receivers/po",
+      "anchor": "ref-rec-po"
+    },
+    {
+      "id": "alphabet-17",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Creature action",
+      "slug": "receivers/bg",
+      "anchor": "ref-rec-bg-a"
+    },
+    {
+      "id": "alphabet-170",
+      "parent": null,
+      "depth": 0,
+      "label": "Variables",
+      "slug": "receivers/vr",
+      "anchor": "ref-rec-vr"
+    },
+    {
+      "id": "alphabet-171",
+      "parent": null,
+      "depth": 0,
+      "label": "Pyramids",
+      "slug": "receivers/pm",
+      "anchor": "ref-rec-pm"
+    },
+    {
+      "id": "alphabet-172",
+      "parent": null,
+      "depth": 0,
+      "label": "Win game",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-q"
+    },
+    {
+      "id": "alphabet-173",
+      "parent": null,
+      "depth": 0,
+      "label": "Hints",
+      "slug": "receivers/ht",
+      "anchor": "ref-rec-ht"
+    },
+    {
+      "id": "alphabet-174",
+      "parent": null,
+      "depth": 0,
+      "label": "Hero level-up",
+      "slug": "triggers/hl",
+      "anchor": "ref-tr-hl"
+    },
+    {
+      "id": "alphabet-175",
+      "parent": null,
+      "depth": 0,
+      "label": "Receivers",
+      "slug": "syntax",
+      "anchor": "ref-cont-receiversol"
+    },
+    {
+      "id": "alphabet-176",
+      "parent": null,
+      "depth": 0,
+      "label": "Map resources",
+      "slug": "receivers/ar",
+      "anchor": "ref-rec-ar"
+    },
+    {
+      "id": "alphabet-177",
+      "parent": null,
+      "depth": 0,
+      "label": "Player resources",
+      "slug": "receivers/ow",
+      "anchor": "ref-rec-ow-r"
+    },
+    {
+      "id": "alphabet-178",
+      "parent": null,
+      "depth": 0,
+      "label": "Shrine",
+      "slug": "receivers/sr",
+      "anchor": "ref-rec-sr"
+    },
+    {
+      "id": "alphabet-179",
+      "parent": null,
+      "depth": 0,
+      "label": "Network game",
+      "slug": "receivers/ip",
+      "anchor": "ref-rec-ip"
+    },
+    {
+      "id": "alphabet-18",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Spellcasting availability",
+      "slug": "receivers/bh",
+      "anchor": "ref-rec-bh-m"
+    },
+    {
+      "id": "alphabet-180",
+      "parent": "alphabet-179",
+      "depth": 1,
+      "label": "Control flags",
+      "slug": "variables",
+      "anchor": "ref-cont-flags-mp"
+    },
+    {
+      "id": "alphabet-181",
+      "parent": "alphabet-179",
+      "depth": 1,
+      "label": "Game network check",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-v2"
+    },
+    {
+      "id": "alphabet-182",
+      "parent": "alphabet-179",
+      "depth": 1,
+      "label": "Battle network check",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-e"
+    },
+    {
+      "id": "alphabet-183",
+      "parent": "alphabet-179",
+      "depth": 1,
+      "label": "Remote function call",
+      "slug": "receivers/fu",
+      "anchor": "ref-rec-fu-d"
+    },
+    {
+      "id": "alphabet-184",
+      "parent": null,
+      "depth": 0,
+      "label": "Skeleton",
+      "slug": "receivers/sk",
+      "anchor": "ref-rec-sk"
+    },
+    {
+      "id": "alphabet-185",
+      "parent": null,
+      "depth": 0,
+      "label": "Town event",
+      "slug": "receivers/ce",
+      "anchor": "ref-rec-ce"
+    },
+    {
+      "id": "alphabet-186",
+      "parent": null,
+      "depth": 0,
+      "label": "Magic resistance",
+      "slug": "receivers/mr",
+      "anchor": "ref-rec-mr"
+    },
+    {
+      "id": "alphabet-187",
+      "parent": null,
+      "depth": 0,
+      "label": "Quest Guard",
+      "slug": "receivers/qu",
+      "anchor": "ref-rec-qu"
+    },
+    {
+      "id": "alphabet-188",
+      "parent": null,
+      "depth": 0,
+      "label": "Treasure Chest",
+      "slug": "receivers/ch",
+      "anchor": "ref-rec-ch"
+    },
+    {
+      "id": "alphabet-189",
+      "parent": null,
+      "depth": 0,
+      "label": "Timer",
+      "slug": "receivers/tm",
+      "anchor": "ref-rec-tm"
+    },
+    {
+      "id": "alphabet-19",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Cast spell",
+      "slug": "receivers/bh",
+      "anchor": "ref-rec-bh-c"
+    },
+    {
+      "id": "alphabet-190",
+      "parent": null,
+      "depth": 0,
+      "label": "Wagon",
+      "slug": "receivers/wg",
+      "anchor": "ref-rec-wg"
+    },
+    {
+      "id": "alphabet-191",
+      "parent": null,
+      "depth": 0,
+      "label": "Terrain",
+      "slug": "receivers/tr",
+      "anchor": "ref-rec-tr"
+    },
+    {
+      "id": "alphabet-192",
+      "parent": null,
+      "depth": 0,
+      "label": "Text emphasis",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-select"
+    },
+    {
+      "id": "alphabet-193",
+      "parent": "alphabet-192",
+      "depth": 1,
+      "label": "Colored text",
+      "slug": "receivers/if",
+      "anchor": "ref-era-color-text"
+    },
+    {
+      "id": "alphabet-194",
+      "parent": null,
+      "depth": 0,
+      "label": "Triggers",
+      "slug": "triggers",
+      "anchor": "ref-cont-triggersol"
+    },
+    {
+      "id": "alphabet-195",
+      "parent": null,
+      "depth": 0,
+      "label": "Prison / hero",
+      "slug": "tables/object-control-words",
+      "anchor": "ref-cont-conwords-t62"
+    },
+    {
+      "id": "alphabet-196",
+      "parent": null,
+      "depth": 0,
+      "label": "University",
+      "slug": "receivers/ur",
+      "anchor": "ref-rec-ur"
+    },
+    {
+      "id": "alphabet-197",
+      "parent": null,
+      "depth": 0,
+      "label": "Scholar",
+      "slug": "receivers/sc",
+      "anchor": "ref-rec-sc"
+    },
+    {
+      "id": "alphabet-198",
+      "parent": null,
+      "depth": 0,
+      "label": "Physical damage",
+      "slug": "receivers/mf",
+      "anchor": "ref-rec-mf"
+    },
+    {
+      "id": "alphabet-199",
+      "parent": null,
+      "depth": 0,
+      "label": "Flags",
+      "slug": "receivers/if",
+      "anchor": "ref-rec-if-v"
+    },
+    {
+      "id": "alphabet-2",
+      "parent": "alphabet-1",
+      "depth": 1,
+      "label": "Availability",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-a"
+    },
+    {
+      "id": "alphabet-20",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Mines / quicksand",
+      "slug": "receivers/bh",
+      "anchor": "ref-rec-bh-q"
+    },
+    {
+      "id": "alphabet-200",
+      "parent": null,
+      "depth": 0,
+      "label": "Function",
+      "slug": "receivers/fu",
+      "anchor": "ref-rec-fu"
+    },
+    {
+      "id": "alphabet-201",
+      "parent": "alphabet-200",
+      "depth": 1,
+      "label": "Loop function",
+      "slug": "receivers/do",
+      "anchor": "ref-rec-do"
+    },
+    {
+      "id": "alphabet-202",
+      "parent": null,
+      "depth": 0,
+      "label": "Witch Hut",
+      "slug": "receivers/wh",
+      "anchor": "ref-rec-wh"
+    },
+    {
+      "id": "alphabet-203",
+      "parent": null,
+      "depth": 0,
+      "label": "Seer’s Hut",
+      "slug": "receivers/qu",
+      "anchor": "ref-rec-qu"
+    },
+    {
+      "id": "alphabet-204",
+      "parent": null,
+      "depth": 0,
+      "label": "Loop",
+      "slug": "loops",
+      "anchor": "ref-rec-re"
+    },
+    {
+      "id": "alphabet-205",
+      "parent": null,
+      "depth": 0,
+      "label": "Cheat-code check",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-v3"
+    },
+    {
+      "id": "alphabet-206",
+      "parent": "alphabet-205",
+      "depth": 1,
+      "label": "Enable / disable",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-cheat"
+    },
+    {
+      "id": "alphabet-207",
+      "parent": null,
+      "depth": 0,
+      "label": "Mine",
+      "slug": "receivers/mn",
+      "anchor": "ref-rec-mn"
+    },
+    {
+      "id": "alphabet-208",
+      "parent": null,
+      "depth": 0,
+      "label": "ERA",
+      "slug": "compatibility",
+      "anchor": "ref-era-index"
+    },
+    {
+      "id": "alphabet-209",
+      "parent": "alphabet-208",
+      "depth": 1,
+      "label": "New commands",
+      "slug": "receivers/sn",
+      "anchor": "ref-rec-sn-era"
+    },
+    {
+      "id": "alphabet-21",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Active stack ID",
+      "slug": "receivers/bg",
+      "anchor": "ref-rec-bg-n"
+    },
+    {
+      "id": "alphabet-210",
+      "parent": "alphabet-208",
+      "depth": 1,
+      "label": "Triggers / events",
+      "slug": "triggers",
+      "anchor": "ref-cont-triggers-era"
+    },
+    {
+      "id": "alphabet-211",
+      "parent": "alphabet-208",
+      "depth": 1,
+      "label": "Functions / procedures",
+      "slug": "receivers/sn",
+      "anchor": "ref-era-api"
+    },
+    {
+      "id": "alphabet-212",
+      "parent": null,
+      "depth": 0,
+      "label": "Pandora’s Box",
+      "slug": "receivers/pa",
+      "anchor": "ref-rec-pa"
+    },
+    {
+      "id": "alphabet-22",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Siege",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-s"
+    },
+    {
+      "id": "alphabet-23",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Cancel battle",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-d"
+    },
+    {
+      "id": "alphabet-24",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Creature properties",
+      "slug": "receivers/bm",
+      "anchor": "ref-rec-bm"
+    },
+    {
+      "id": "alphabet-25",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Victory",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-v"
+    },
+    {
+      "id": "alphabet-26",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Stack mouse behavior",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-j11"
+    },
+    {
+      "id": "alphabet-27",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Battle cursor position",
+      "slug": "receivers/mm",
+      "anchor": "ref-rec-mm-d"
+    },
+    {
+      "id": "alphabet-28",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Battlefield",
+      "slug": "tables/battlefield",
+      "anchor": "ref-form-bf"
+    },
+    {
+      "id": "alphabet-29",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Terrain",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-g"
+    },
+    {
+      "id": "alphabet-3",
+      "parent": "alphabet-1",
+      "depth": 1,
+      "label": "Combination artifacts",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-a2"
+    },
+    {
+      "id": "alphabet-30",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Obstacles: list",
+      "slug": "tables/obstacles",
+      "anchor": "ref-form-obstacles"
+    },
+    {
+      "id": "alphabet-31",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Place obstacles",
+      "slug": "receivers/bf",
+      "anchor": "ref-rec-bf-o"
+    },
+    {
+      "id": "alphabet-32",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Check living creature",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-e"
+    },
+    {
+      "id": "alphabet-33",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Check tactics phase",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-t"
+    },
+    {
+      "id": "alphabet-34",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Check creature corpse",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-d"
+    },
+    {
+      "id": "alphabet-35",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Battle message",
+      "slug": "receivers/mm",
+      "anchor": "ref-rec-mm"
+    },
+    {
+      "id": "alphabet-36",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Battle log text",
+      "slug": "receivers/bu",
+      "anchor": "ref-rec-bu-m"
+    },
+    {
+      "id": "alphabet-37",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Teleport",
+      "slug": "receivers/bm",
+      "anchor": "ref-rec-bm-p"
+    },
+    {
+      "id": "alphabet-38",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Remove obstacles",
+      "slug": "receivers/bf",
+      "anchor": "ref-rec-bf-c"
+    },
+    {
+      "id": "alphabet-39",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Set action target",
+      "slug": "receivers/bg",
+      "anchor": "ref-rec-bg-d"
+    },
+    {
+      "id": "alphabet-4",
+      "parent": "alphabet-1",
+      "depth": 1,
+      "label": "Spell ID",
+      "slug": "receivers/un",
+      "anchor": "ref-rec-un-a1"
+    },
+    {
+      "id": "alphabet-40",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Battle background",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-b"
+    },
+    {
+      "id": "alphabet-41",
+      "parent": "alphabet-11",
+      "depth": 1,
+      "label": "Battle owners",
+      "slug": "receivers/ba",
+      "anchor": "ref-rec-ba-o"
+    },
+    {
+      "id": "alphabet-42",
+      "parent": null,
+      "depth": 0,
+      "label": "Blessings and curses",
+      "slug": "receivers/he",
+      "anchor": "ref-rec-he-y"
+    },
+    {
+      "id": "alphabet-43",
+      "parent": null,
+      "depth": 0,
+      "label": "Wandering monsters",
+      "slug": "receivers/mw",
+      "anchor": "ref-rec-mw"
+    }
+  ]
+}

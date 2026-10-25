@@ -20,14 +20,14 @@
   export let toc: Array<{ id: string; label: string }> = [];
   export let activeSlug = '';
   export let navigation: {
-    groups: Array<{ id: string; labelKey: string; items: Array<{ labelKey: string; slug: string }> }>;
+    groups: Array<{ id: string; labelKey: string; href?: string; edition?: string; items: Array<{ labelKey: string; slug: string }> }>;
   };
   export let ermAlphabet: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }> = [];
   export let ermReceivers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
   export let ermTriggers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
   export let pageLetters: Array<{ letter: string; id: string }> = [];
 
-  $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : 'docs';
+  $: activeSection = activeSlug.startsWith('erm') ? 'erm' : activeSlug.startsWith('plugins') ? 'plugins' : activeSlug.startsWith('wiki') ? 'wiki' : 'docs';
   $: isHome = !activeSlug;
   const topItems = topNavigation.items;
   const githubUrl = topNavigation.github.href;
@@ -56,7 +56,7 @@
   let collapsedGroups: string[] = [];
   let navigationReady = false;
   let sidebarScroller: HTMLDivElement;
-  let siteScroller: HTMLDivElement;
+  let siteScroller: HTMLElement;
   let pageRail: HTMLElement | undefined;
   let railObserver: ResizeObserver | undefined;
   let observedRail: HTMLElement | undefined;
@@ -85,7 +85,7 @@
     const gap = 8;
     const expandedTop = expandedHeight + gap;
     const compactTop = quickHeight + gap;
-    const railHeight = pageRail.scrollHeight;
+    const railHeight = pageRail.querySelector('.erm-page-rail-scroll')?.scrollHeight ?? pageRail.scrollHeight;
     const top = !quickLinks.open && railHeight + expandedTop + gap > siteScroller.clientHeight ? compactTop : expandedTop;
     const maxHeight = Math.max(40, siteScroller.clientHeight - top - gap);
     if (pageRail.style.top !== `${top}px`) pageRail.style.top = `${top}px`;
@@ -318,6 +318,7 @@
       localStorage.removeItem('modding-guide:preferences:v1');
       localStorage.removeItem('modding-guide:navigation:v1');
       localStorage.removeItem('modding-guide:erm-quick-links:v1');
+      localStorage.removeItem('modding-guide:wiki-outline:v1');
     } catch {
       // Reset still updates the current view if storage is unavailable.
     }
@@ -441,8 +442,8 @@
   <button class="drawer-scrim" type="button" aria-label={t('nav.closeMenu')} on:click={() => (menuOpen = false)}></button>
 {/if}
 
-<div bind:this={siteScroller} class="site-grid" class:erm-grid={activeSection === 'erm'} class:home-grid={isHome}>
-  <aside class:open={menuOpen} class="sidebar" aria-label={t(activeSection === 'erm' ? 'nav.ermScripts' : activeSection === 'plugins' ? 'nav.plugins' : 'nav.documentation')}>
+<div class="site-grid" class:erm-grid={activeSection === 'erm'} class:home-grid={isHome}>
+  <aside class:open={menuOpen} class="sidebar" aria-label={t(activeSection === 'erm' ? 'nav.ermScripts' : activeSection === 'plugins' ? 'nav.plugins' : activeSection === 'wiki' ? 'nav.wiki' : 'nav.documentation')}>
     <div class="sidebar-scroll" bind:this={sidebarScroller}>
       <div class="mobile-primary-controls">
         <nav aria-label={t('nav.primary')}>
@@ -458,9 +459,14 @@
         <div><LanguageMenu {lang} /><button class="icon-button" type="button" aria-label={t('theme.toggle')} on:click={toggleTheme}><UiIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button></div>
       </div>
       {#each isHome ? [] : navigation.groups as group}
-        <details class="nav-group" data-group={group.id} open={!collapsedGroups.includes(group.id)} on:toggle={(event) => updateGroup(group.id, event.currentTarget.open)}>
+        {#if group.href}
+          <a class="nav-group wiki-nav-direct" class:current={isCurrentNavigationLink(group.href)} href={`${base}/${lang}/${group.href}/`} on:click={leaveSidebar}>
+            <h2>{t(group.labelKey)}</h2><small class="wiki-nav-edition">{group.edition}</small>
+          </a>
+        {:else}
+        <details class="nav-group" data-group={group.id} class:wiki-navigation={Boolean(group.edition)} open={!collapsedGroups.includes(group.id)} on:toggle={(event) => updateGroup(group.id, event.currentTarget.open)}>
           <summary>
-            <span class="sidebar-group-icon" aria-hidden="true"><UiIcon name={`sidebar-${group.id}`} /></span>
+            <span class="sidebar-group-icon" aria-hidden="true"><UiIcon name={group.edition ? `sidebar-resources` : `sidebar-${group.id}`} /></span>
             <h2>{t(group.labelKey)}</h2>
             <span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span>
           </summary>
@@ -470,23 +476,27 @@
                 <a class:current={isCurrentNavigationLink(item.slug)} aria-current={isCurrentNavigationLink(item.slug) ? 'page' : undefined} href={item.slug ? `${base}/${lang}/${item.slug}/` : `${base}/${lang}/`} on:click={leaveSidebar}>
                   <span class="nav-rune" aria-hidden="true"></span>
                   <span>{t(item.labelKey)}</span>
+                  {#if group.edition}<small class="wiki-nav-edition">{group.edition}</small>{/if}
                 </a>
               </li>
             {/each}
           </ul>
         </details>
+        {/if}
       {/each}
       <button class="reset-button" type="button" on:click={resetSettings}>{t('nav.reset')}</button>
     </div>
   </aside>
 
-  <main class="content-column">
+  <main class="content-column" bind:this={siteScroller}>
     {#if activeSection === 'erm'}<ErmQuickLinks {lang} {activeSlug} receivers={ermReceivers} triggers={ermTriggers} />{/if}
     {#if pageLetters.length}
-      <nav bind:this={pageRail} class="erm-page-rail" aria-label={t('erm.index.letter')}>
+      <nav class="erm-page-rail" bind:this={pageRail} aria-label={t('erm.index.letter')}>
+        <div class="erm-page-rail-scroll">
         {#each pageLetters as item}
           <a href={`#${item.id}`} aria-label={`${t('erm.index.letter')} ${item.letter}`} title={item.letter}>{item.letter}</a>
         {/each}
+        </div>
       </nav>
     {/if}
     <div class="content-inner">

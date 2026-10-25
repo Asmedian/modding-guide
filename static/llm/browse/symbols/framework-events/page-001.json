@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "OnAfterBattleSetup",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onafterbattlesetup",
+      "aliases": [],
+      "label": "OnAfterBattleSetup",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onafterbattlesetup"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnAfterErmInited",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onaftererminited",
+      "aliases": [],
+      "label": "OnAfterErmInited",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onaftererminited"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyPressed_AdvMap",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-advmap",
+      "aliases": [],
+      "label": "OnKeyPressed_AdvMap",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeypressed-advmap"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyPressed_Battle",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-battle",
+      "aliases": [],
+      "label": "OnKeyPressed_Battle",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeypressed-battle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyPressed_HeroMeetingScreen",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-heromeetingscreen",
+      "aliases": [],
+      "label": "OnKeyPressed_HeroMeetingScreen",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeypressed-heromeetingscreen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyPressed_HeroScreen",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-heroscreen",
+      "aliases": [],
+      "label": "OnKeyPressed_HeroScreen",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeypressed-heroscreen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyPressed_Town",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeypressed-town",
+      "aliases": [],
+      "label": "OnKeyPressed_Town",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeypressed-town"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyReleased_AdvMap",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-advmap",
+      "aliases": [],
+      "label": "OnKeyReleased_AdvMap",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeyreleased-advmap"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyReleased_Battle",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-battle",
+      "aliases": [],
+      "label": "OnKeyReleased_Battle",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeyreleased-battle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyReleased_HeroMeetingScreen",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-heromeetingscreen",
+      "aliases": [],
+      "label": "OnKeyReleased_HeroMeetingScreen",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeyreleased-heromeetingscreen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyReleased_HeroScreen",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-heroscreen",
+      "aliases": [],
+      "label": "OnKeyReleased_HeroScreen",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeyreleased-heroscreen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnKeyReleased_Town",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onkeyreleased-town",
+      "aliases": [],
+      "label": "OnKeyReleased_Town",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onkeyreleased-town"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnStartOrLoad",
+      "kind": "event",
+      "slug": "framework/events",
+      "anchor": "onstartorload",
+      "aliases": [],
+      "label": "OnStartOrLoad",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/events/#onstartorload"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-events/text-001.md",
+            "fromAnchor": "installation",
+            "toAnchor": "links",
+            "headings": [
+              "Loading the library",
+              "OnAfterErmInited",
+              "OnStartOrLoad",
+              "OnAfterBattleSetup",
+              "OnKeyPressed_AdvMap",
+              "OnKeyPressed_Battle",
+              "OnKeyPressed_HeroScreen",
+              "OnKeyPressed_HeroMeetingScreen",
+              "OnKeyPressed_Town",
+              "OnKeyReleased_AdvMap",
+              "OnKeyReleased_Battle",
+              "OnKeyReleased_HeroScreen",
+              "OnKeyReleased_HeroMeetingScreen",
+              "OnKeyReleased_Town",
+              "Extending engine events",
+              "Contracts and handlers"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

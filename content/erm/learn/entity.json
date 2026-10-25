@@ -1,0 +1,41 @@
+{
+  "$schema": "../../_schemas/article.schema.json",
+  "schemaVersion": 1,
+  "id": "erm.learn",
+  "kind": "article",
+  "section": "erm",
+  "slug": "learn",
+  "status": "published",
+  "sourceRefs": [
+    "era-source:gameext",
+    "era-source:reslib"
+  ],
+  "sectionSources": {
+    "ai": [
+      "era-source:gameext"
+    ],
+    "workflow": [
+      "era-source:gameext",
+      "era-source:reslib"
+    ],
+    "examples": [
+      "era-source:gameext"
+    ]
+  },
+  "keywords": [
+    "ERM",
+    "AI",
+    "ИИ",
+    "Claude",
+    "GPT",
+    "LLM",
+    "learning",
+    "обучение"
+  ],
+  "questions": [
+    "Как использовать ИИ для изучения ERM и создания мода?",
+    "How can I give an AI the ERM reference and request a script?"
+  ],
+  "previous": "start",
+  "next": "syntax"
+}

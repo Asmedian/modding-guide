@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.array-sortedunique",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-sortedunique",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sortedunique/",
+      "title": "Array_SortedUnique",
+      "summary": "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected.",
+      "keywords": [
+        "Array_SortedUnique",
+        "FU(Array_SortedUnique)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Sorts an integer array and removes duplicates, shrinking it. String arrays are rejected."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-890-933-array-sortedunique"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-splice",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-splice",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-splice/",
+      "title": "Array_Splice",
+      "summary": "Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move.",
+      "keywords": [
+        "Array_Splice",
+        "FU(Array_Splice)",
+        "requires-review",
+        "arrays"
+      ],
+      "questions": [
+        "Deletes a range and inserts up to 13 values, resizing the array. Negative startIndex counts from the end; omitted numItemsToDelete removes the remainder, while a negative count preserves that many trailing items. Depends on Array_Move."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-518-586-array-splice"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.battle-redrawgridshadow",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/battle-redrawgridshadow",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/battle-redrawgridshadow/",
+      "title": "Battle_RedrawGridShadow",
+      "summary": "Refreshes movement-range shading after a speed change. Requires an existing combat manager.",
+      "keywords": [
+        "Battle_RedrawGridShadow",
+        "FU(Battle_RedrawGridShadow)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Refreshes movement-range shading after a speed change. Requires an existing combat manager."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2799-2803-battle-redrawgridshadow"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.battlestack-makeactive",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/battlestack-makeactive",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/battlestack-makeactive/",
+      "title": "BattleStack_MakeActive",
+      "summary": "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists.",
+      "keywords": [
+        "BattleStack_MakeActive",
+        "FU(BattleStack_MakeActive)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Passes control to stack 0..41 and runs regeneration if needed. An in-range index alone does not guarantee a live stack exists."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2817-2836-battlestack-makeactive"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.battlestack-shoot",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/battlestack-shoot",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/battlestack-shoot/",
+      "title": "BattleStack_Shoot",
+      "summary": "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first.",
+      "keywords": [
+        "BattleStack_Shoot",
+        "FU(BattleStack_Shoot)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Forces attackerStackId to shoot defenderStackId, temporarily changing/restoring the attacker target-position field. Validate both stacks first."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2804-2816-battlestack-shoot"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.changeartmodatslot",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/changeartmodatslot",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/changeartmodatslot/",
+      "title": "ChangeArtModAtSlot",
+      "summary": "Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD.",
+      "keywords": [
+        "ChangeArtModAtSlot",
+        "FU(ChangeArtModAtSlot)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Changes an artifact modifier in an equipped/backpack slot. A scroll modifier is its spell ID; ordinary artifacts usually use NO_ART_MOD."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3134-3154-changeartmodatslot"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.cleareventchaindata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/cleareventchaindata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/cleareventchaindata/",
+      "title": "ClearEventChainData",
+      "summary": "Clears the internal event-context stack and its position when loading a save.",
+      "keywords": [
+        "ClearEventChainData",
+        "FU(ClearEventChainData)",
+        "internal"
+      ],
+      "questions": [
+        "Clears the internal event-context stack and its position when loading a save."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-12-15-cleareventchaindata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.clearinicache",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/clearinicache",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/clearinicache/",
+      "title": "ClearIniCache",
+      "summary": "Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file.",
+      "keywords": [
+        "ClearIniCache",
+        "FU(ClearIniCache)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Forgets one INI cache. The next read/write reloads the file from disk. Does not delete the file."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1589-1596-clearinicache"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.clearscreenlog",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/clearscreenlog",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/clearscreenlog/",
+      "title": "ClearScreenLog",
+      "summary": "Clears green on-screen log messages.",
+      "keywords": [
+        "ClearScreenLog",
+        "FU(ClearScreenLog)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Clears green on-screen log messages."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2357-2362-clearscreenlog"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.collectmouseeventdata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/collectmouseeventdata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/collectmouseeventdata/",
+      "title": "CollectMouseEventData",
+      "summary": "Copies CM context to mouse_ and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key.",
+      "keywords": [
+        "CollectMouseEventData",
+        "FU(CollectMouseEventData)",
+        "internal"
+      ],
+      "questions": [
+        "Copies CM context to mouse_ and dlg_action. Exit-button release is normalized to ordinary LMB release; a DL keyboard event places its key code in key."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-129-138-collectmouseeventdata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.comparestrings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/comparestrings",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/comparestrings/",
+      "title": "CompareStrings",
+      "summary": "Compares two ERM strings with language operators and returns -1, 0, or 1.",
+      "keywords": [
+        "CompareStrings",
+        "FU(CompareStrings)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Compares two ERM strings with language operators and returns -1, 0, or 1."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1431-1442-comparestrings"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.comparestrings-bridge-internal",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/comparestrings-bridge-internal",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/comparestrings-bridge-internal/",
+      "title": "CompareStrings_Bridge_INTERNAL",
+      "summary": "String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string.",
+      "keywords": [
+        "CompareStrings_Bridge_INTERNAL",
+        "FU(CompareStrings_Bridge_INTERNAL)",
+        "internal"
+      ],
+      "questions": [
+        "String-comparator bridge: converts addresses to ERM strings and invokes the callback with state and an output. A null address becomes an empty string."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-813-834-comparestrings-bridge-internal"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.onbeforebattlestackturn",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onbeforebattlestackturn",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattlestackturn/",
+      "title": "OnBeforeBattleStackTurn",
+      "summary": "Stores activeStack in battle_current_stack.",
+      "keywords": [
+        "OnBeforeBattleStackTurn",
+        "FU(OnBeforeBattleStackTurn)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Stores activeStack in battle_current_stack."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-269-274-onbeforebattlestackturn"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onbeforebattleuniversal",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onbeforebattleuniversal",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleuniversal/",
+      "title": "OnBeforeBattleUniversal",
+      "summary": "Refreshes battle_ and resets current/acting stack context. May run in theoretical AI combat with no combat manager.",
+      "keywords": [
+        "OnBeforeBattleUniversal",
+        "FU(OnBeforeBattleUniversal)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Refreshes battle_ and resets current/acting stack context. May run in theoretical AI combat with no combat manager."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-255-262-onbeforebattleuniversal"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onbeforebattleuniversal-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onbeforebattleuniversal-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onbeforebattleuniversal-quit/",
+      "title": "OnBeforeBattleUniversal_Quit",
+      "summary": "Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnBeforeBattleUniversal_Quit",
+        "FU(OnBeforeBattleUniversal_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-77-83-onbeforebattleuniversal-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.oncustomdialogevent",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/oncustomdialogevent",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/oncustomdialogevent/",
+      "title": "OnCustomDialogEvent",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
+      "keywords": [
+        "OnCustomDialogEvent",
+        "FU(OnCustomDialogEvent)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-208-213-oncustomdialogevent"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.oncustomdialogevent-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/oncustomdialogevent-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/oncustomdialogevent-quit/",
+      "title": "OnCustomDialogEvent_Quit",
+      "summary": "Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnCustomDialogEvent_Quit",
+        "FU(OnCustomDialogEvent_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-70-73-oncustomdialogevent-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.oneveryday",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/oneveryday",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/oneveryday/",
+      "title": "OnEveryDay",
+      "summary": "Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player.",
+      "keywords": [
+        "OnEveryDay",
+        "FU(OnEveryDay)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-228-250-oneveryday"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onheroesmeetscreenmouseclick",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onheroesmeetscreenmouseclick",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroesmeetscreenmouseclick/",
+      "title": "OnHeroesMeetScreenMouseClick",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
+      "keywords": [
+        "OnHeroesMeetScreenMouseClick",
+        "FU(OnHeroesMeetScreenMouseClick)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-184-186-onheroesmeetscreenmouseclick"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onheroesmeetscreenmouseclick-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onheroesmeetscreenmouseclick-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroesmeetscreenmouseclick-quit/",
+      "title": "OnHeroesMeetScreenMouseClick_Quit",
+      "summary": "Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnHeroesMeetScreenMouseClick_Quit",
+        "FU(OnHeroesMeetScreenMouseClick_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-46-48-onheroesmeetscreenmouseclick-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onheroscreenmouseclick",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onheroscreenmouseclick",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroscreenmouseclick/",
+      "title": "OnHeroScreenMouseClick",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
+      "keywords": [
+        "OnHeroScreenMouseClick",
+        "FU(OnHeroScreenMouseClick)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-181-183-onheroscreenmouseclick"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onheroscreenmouseclick-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onheroscreenmouseclick-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onheroscreenmouseclick-quit/",
+      "title": "OnHeroScreenMouseClick_Quit",
+      "summary": "Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnHeroScreenMouseClick_Quit",
+        "FU(OnHeroScreenMouseClick_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-43-45-onheroscreenmouseclick-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onkeypressed",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onkeypressed",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeypressed/",
+      "title": "OnKeyPressed",
+      "summary": "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state.",
+      "keywords": [
+        "OnKeyPressed",
+        "FU(OnKeyPressed)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-148-156-onkeypressed"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onkeypressed-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onkeypressed-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onkeypressed-quit/",
+      "title": "OnKeyPressed_Quit",
+      "summary": "Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnKeyPressed_Quit",
+        "FU(OnKeyPressed_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ],
+        "parameters": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ],
+        "constants": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-13-25-onkeypressed-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-010.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}

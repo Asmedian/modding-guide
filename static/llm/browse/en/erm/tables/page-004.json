@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.tables.cursors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/cursors",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/cursors/",
+      "title": "Mouse cursors",
+      "summary": "Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact.",
+      "keywords": [
+        "Mouse cursors"
+      ],
+      "questions": [
+        "Types: 0 default, 1 adventure map, 2 combat, 3 spell, 4 artifact."
+      ],
+      "sourceRefs": [
+        "old-help:form-mousepointers.htm",
+        "old-help:rec-un.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "c0": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "c1": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "c2": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "reference-links": [
+          "old-help:form-mousepointers.htm",
+          "old-help:rec-un.htm"
+        ],
+        "ref-form-mousepointers": [
+          "old-help:form-mousepointers.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-023.md",
+          "fromAnchor": "ref-form-mousepointers",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Cursors",
+            "Type and subtype",
+            "Cursor type 0",
+            "Cursor type 1",
+            "Cursor type 2",
+            "Related commands and tables"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-024.md",
+          "fromAnchor": null,
+          "toAnchor": null,
+          "headings": []
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.music",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/music",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/music/",
+      "title": "Music: IDs and MP3 names",
+      "summary": "Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions.",
+      "keywords": [
+        "Music: IDs and MP3 names"
+      ],
+      "questions": [
+        "Standard indices 1–58. The legacy system reserves 59–199 for custom tracks. Spaces in names matter; follow the receiver contract for extensions."
+      ],
+      "sourceRefs": [
+        "old-help:form-mp3.htm",
+        "old-help:form-track.htm",
+        "old-help:rec-mp.htm",
+        "old-help:rec-vr.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "values": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "related": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "reference-links": [
+          "old-help:form-mp3.htm",
+          "old-help:form-track.htm",
+          "old-help:rec-mp.htm",
+          "old-help:rec-vr.htm"
+        ],
+        "ref-form-mp3": [
+          "old-help:form-mp3.htm"
+        ],
+        "ref-form-track": [
+          "old-help:form-track.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-032.md",
+          "fromAnchor": "ref-form-mp3",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table 2 MP3-files",
+            "Table 2 MP3-files",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.text-colors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/text-colors",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/text-colors/",
+      "title": "Named text colors",
+      "summary": "Rainbow.pas color names and RGB values without the alpha byte.",
+      "keywords": [
+        "Named text colors"
+      ],
+      "questions": [
+        "Rainbow.pas color names and RGB values without the alpha byte."
+      ],
+      "sourceRefs": [
+        "era-source:rainbow.pas",
+        "old-help:form-colors.htm"
+      ],
+      "sectionSources": {
+        "values": [
+          "era-source:rainbow.pas",
+          "old-help:form-colors.htm"
+        ],
+        "use": [
+          "era-source:rainbow.pas",
+          "old-help:form-colors.htm"
+        ],
+        "related": [
+          "era-source:rainbow.pas",
+          "old-help:form-colors.htm"
+        ],
+        "ref-form-colors": [
+          "old-help:form-colors.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-049.md",
+          "fromAnchor": "ref-form-colors",
+          "toAnchor": "related",
+          "headings": [
+            "Color Plate",
+            "Colors",
+            "Usage",
+            "Related commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.object-control-words",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/object-control-words",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/object-control-words/",
+      "title": "Object control words",
+      "summary": "The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data.",
+      "keywords": [
+        "Object control words"
+      ],
+      "questions": [
+        "The 32-bit OB:C field has a different layout for each object type. These are inspected legacy WoG fields; preserve unknown bits. Field capacity does not make every value valid. Use PO for custom data."
+      ],
+      "sourceRefs": [
+        "old-help:cont-conwords.htm",
+        "old-help:rec-ob.htm",
+        "old-help:rec-sk.htm",
+        "old-help:rec-mt.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:cont-conwords.htm",
+          "old-help:rec-ob.htm"
+        ],
+        "values": [
+          "old-help:cont-conwords.htm",
+          "old-help:rec-ob.htm"
+        ],
+        "related": [
+          "old-help:cont-conwords.htm",
+          "old-help:rec-ob.htm"
+        ],
+        "reference-links": [
+          "old-help:cont-conwords.htm",
+          "old-help:rec-ob.htm"
+        ],
+        "ref-cont-conwords": [
+          "old-help:cont-conwords.htm"
+        ],
+        "source-link-corrections": [
+          "old-help:rec-sk.htm",
+          "old-help:rec-mt.htm",
+          "old-help:cont-conwords.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-033.md",
+          "fromAnchor": "source-link-corrections",
+          "toAnchor": "ref-cont-conwords-t14",
+          "headings": [
+            "Corrected source links",
+            "Examination of control words of objects",
+            "Study of “control words” of map objects.",
+            "What is control word?",
+            "Binary representation of numbers in assembly language",
+            "Logical bit operations in WoG",
+            "Structure of control words of different types of objects"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-034.md",
+          "fromAnchor": "ref-cont-conwords-t16",
+          "toAnchor": "ref-cont-conwords-t55",
+          "headings": []
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-035.md",
+          "fromAnchor": "ref-cont-conwords-t57",
+          "toAnchor": "ref-cont-conwords-t104",
+          "headings": []
+        },
+        {
+          "part": 4,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-036.md",
+          "fromAnchor": "ref-cont-conwords-t105",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Why is all this needed?",
+            "What's new with us?",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.obstacle-flags",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/obstacle-flags",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/obstacle-flags/",
+      "title": "Obstacle flags",
+      "summary": "BU:O returns a combination of cell flags; bit position differs from bit value.",
+      "keywords": [
+        "Obstacle flags",
+        "obstacle-flags"
+      ],
+      "questions": [
+        "BU:O returns a combination of cell flags; bit position differs from bit value."
+      ],
+      "sourceRefs": [
+        "old-help:form-obstacles-bit.htm",
+        "old-help:form-obstacles.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-obstacles-bit.htm",
+          "old-help:form-obstacles.htm"
+        ],
+        "values": [
+          "old-help:form-obstacles-bit.htm",
+          "old-help:form-obstacles.htm"
+        ],
+        "related": [
+          "old-help:form-obstacles-bit.htm",
+          "old-help:form-obstacles.htm"
+        ],
+        "reference-links": [
+          "old-help:form-obstacles-bit.htm",
+          "old-help:form-obstacles.htm"
+        ],
+        "ref-form-obstacles-bit": [
+          "old-help:form-obstacles-bit.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-038.md",
+          "fromAnchor": "ref-form-obstacles-bit",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Obstacle bit table",
+            "Purpose",
+            "Values",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.one-way-monoliths",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/one-way-monoliths",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/one-way-monoliths/",
+      "title": "One-way monoliths",
+      "summary": "Subtypes of object 43. One-way entrances and exits use different types, 43 and 44.",
+      "keywords": [
+        "One-way monoliths"
+      ],
+      "questions": [
+        "Subtypes of object 43. One-way entrances and exits use different types, 43 and 44."
+      ],
+      "sourceRefs": [
+        "old-help:form-one-way-monolith.htm",
+        "old-help:form-objects.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-one-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "values": [
+          "old-help:form-one-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "related": [
+          "old-help:form-one-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "reference-links": [
+          "old-help:form-one-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "ref-form-one-way-monolith": [
+          "old-help:form-one-way-monolith.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "fromAnchor": "ref-form-one-way-monolith",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Single-sided monolith",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.players",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/players",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/players/",
+      "title": "Player colors",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Player colors",
+        "players"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-gamerscolor.htm",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-gamerscolor-bit.htm",
+        "old-help:form-if-flags.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-gamerscolor.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-gamerscolor.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-gamerscolor.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-gamerscolor.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-gamerscolor": [
+          "old-help:form-gamerscolor.htm"
+        ],
+        "ref-form-gamerscolor-bit": [
+          "old-help:form-gamerscolor-bit.htm"
+        ],
+        "ref-form-if-flags": [
+          "old-help:form-if-flags.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "fromAnchor": "ref-form-gamerscolor",
+          "toAnchor": "related",
+          "headings": [
+            "Players' Colors",
+            "Player colors are bitwise",
+            "Players' Colors",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.projectiles",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/projectiles",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/projectiles/",
+      "title": "Projectiles and beams",
+      "summary": "A projectile image type differs from creature type and shooter flags.",
+      "keywords": [
+        "Projectiles and beams",
+        "projectiles"
+      ],
+      "questions": [
+        "A projectile image type differs from creature type and shooter flags."
+      ],
+      "sourceRefs": [
+        "old-help:form-weapon.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-weapon.htm"
+        ],
+        "values": [
+          "old-help:form-weapon.htm"
+        ],
+        "limits": [
+          "old-help:form-weapon.htm"
+        ],
+        "related": [
+          "old-help:form-weapon.htm"
+        ],
+        "reference-links": [
+          "old-help:form-weapon.htm"
+        ],
+        "ref-form-weapon": [
+          "old-help:form-weapon.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "fromAnchor": "ref-form-weapon",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Projectile Types",
+            "Purpose",
+            "Values",
+            "Applicability",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.recruitment-dialog",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/recruitment-dialog",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/recruitment-dialog/",
+      "title": "RD recruitment dialog",
+      "summary": "Recruitment dialog layout: three creature variants, price, stock, quantity and confirmation. Configure this dialog with RD.",
+      "keywords": [
+        "RD recruitment dialog"
+      ],
+      "questions": [
+        "Recruitment dialog layout: three creature variants, price, stock, quantity and confirmation. Configure this dialog with RD."
+      ],
+      "sourceRefs": [
+        "old-help:form-rd-s1.htm",
+        "old-help:rec-rd.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-rd-s1.htm",
+          "old-help:rec-rd.htm"
+        ],
+        "values": [
+          "old-help:form-rd-s1.htm",
+          "old-help:rec-rd.htm"
+        ],
+        "related": [
+          "old-help:form-rd-s1.htm",
+          "old-help:rec-rd.htm"
+        ],
+        "reference-links": [
+          "old-help:form-rd-s1.htm",
+          "old-help:rec-rd.htm"
+        ],
+        "ref-form-rd-s1": [
+          "old-help:form-rd-s1.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "fromAnchor": "ref-form-rd-s1",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Form/rd_s1.htm",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.resources",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/resources",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/resources/",
+      "title": "Resources",
+      "summary": "IDs from the standard WoG set. Adventure-map object: type 79.",
+      "keywords": [
+        "Resources",
+        "resources",
+        "79"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. Adventure-map object: type 79."
+      ],
+      "sourceRefs": [
+        "old-help:form-resource.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-resource.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-resource.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-resource.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-resource.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-resource.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-resource": [
+          "old-help:form-resource.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-040.md",
+          "fromAnchor": "ref-form-resource",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Resource table",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.secondary-skill-pictures",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/secondary-skill-pictures",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skill-pictures/",
+      "title": "Secondary skill pictures",
+      "summary": "Picture ID = 3 × skill ID + level − 1, with level from 1 to 3.",
+      "keywords": [
+        "Secondary skill pictures"
+      ],
+      "questions": [
+        "Picture ID = 3 × skill ID + level − 1, with level from 1 to 3."
+      ],
+      "sourceRefs": [
+        "old-help:form-secondaryskill-if.htm",
+        "old-help:rec-if.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-secondaryskill-if.htm",
+          "old-help:rec-if.htm"
+        ],
+        "values": [
+          "old-help:form-secondaryskill-if.htm",
+          "old-help:rec-if.htm"
+        ],
+        "related": [
+          "old-help:form-secondaryskill-if.htm",
+          "old-help:rec-if.htm"
+        ],
+        "reference-links": [
+          "old-help:form-secondaryskill-if.htm",
+          "old-help:rec-if.htm"
+        ],
+        "ref-form-secondaryskill-if": [
+          "old-help:form-secondaryskill-if.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-041.md",
+          "fromAnchor": "ref-form-secondaryskill-if",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Secondary Skills Table",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.secondary-skills",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/secondary-skills",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/secondary-skills/",
+      "title": "Secondary skills",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Secondary skills",
+        "secondary-skills"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-secondaryskill.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-secondaryskill.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-secondaryskill.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-secondaryskill.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-secondaryskill.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-secondaryskill.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-secondaryskill": [
+          "old-help:form-secondaryskill.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-041.md",
+          "fromAnchor": "ref-form-secondaryskill",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Secondary Skills Table",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.special-terrain",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/special-terrain",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/special-terrain/",
+      "title": "Special terrain objects",
+      "summary": "These are map object IDs, not basic terrain IDs.",
+      "keywords": [
+        "Special terrain objects"
+      ],
+      "questions": [
+        "These are map object IDs, not basic terrain IDs."
+      ],
+      "sourceRefs": [
+        "old-help:form-specterrain.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specterrain.htm"
+        ],
+        "values": [
+          "old-help:form-specterrain.htm"
+        ],
+        "related": [
+          "old-help:form-specterrain.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specterrain.htm"
+        ],
+        "ref-form-specterrain": [
+          "old-help:form-specterrain.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-042.md",
+          "fromAnchor": "ref-form-specterrain",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Special Lands",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

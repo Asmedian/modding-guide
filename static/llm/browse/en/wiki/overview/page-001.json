@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "wiki.overview",
+      "kind": "article",
+      "section": "wiki",
+      "locale": "en",
+      "slug": "",
+      "url": "https://asmedian.github.io/modding-guide/en/wiki/",
+      "title": "Wiki",
+      "summary": "Heroes III resources: SoD images, DEF animations, sounds and videos.",
+      "keywords": [
+        "Wiki",
+        "SoD",
+        "PCX",
+        "DEF",
+        "LOD",
+        "SND",
+        "VID"
+      ],
+      "questions": [
+        "Where are the SoD graphics, sounds and videos?"
+      ],
+      "sourceRefs": [
+        "wiki-sod:H3bitmap.lod",
+        "wiki-sod:H3bitmap.lf",
+        "wiki-sod:H3sprite.lod",
+        "wiki-sod:H3sprite.lf",
+        "wiki-sod:Heroes3.snd",
+        "wiki-sod:VIDEO.VID",
+        "wiki-sod:H3DefTool_portable_creature_packer.zip",
+        "wiki-sod:homm3-explorer-main.zip",
+        "wiki-sod:h3deftool-groups"
+      ],
+      "sectionSources": {},
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/wiki/overview/text-001.md",
+          "fromAnchor": "resources",
+          "toAnchor": "machine",
+          "headings": [
+            "SoD resources",
+            "Machine catalog"
+          ]
+        }
+      ]
+    }
+  ]
+}

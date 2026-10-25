@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.index",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "index",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/index/",
+      "title": "Command and symbol index",
+      "summary": "Command codes, event names, functions, variables and constants.",
+      "keywords": [
+        "index"
+      ],
+      "questions": [
+        "Command codes, event names, functions, variables and constants."
+      ],
+      "sourceRefs": [
+        "era-source:erm.pas",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:cont-list.htm"
+      ],
+      "sectionSources": {
+        "catalog": [
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---consts.erm",
+          "old-help:cont-list.htm"
+        ],
+        "references": [
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---consts.erm",
+          "old-help:cont-list.htm"
+        ],
+        "reference-links": [
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---consts.erm",
+          "old-help:cont-list.htm"
+        ],
+        "ref-cont-list": [
+          "old-help:cont-list.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-003.md",
+          "fromAnchor": "ref-cont-list-text",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Topic catalogs",
+            "Find a symbol",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.commander-structure",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/commander-structure",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/commander-structure/",
+      "title": "Commander structure",
+      "summary": "Historical base 42344640, record stride 296 bytes. Reads current experience without modifying the structure.",
+      "keywords": [
+        "commander-structure",
+        "UN:C",
+        "42344640",
+        "296",
+        "280"
+      ],
+      "questions": [
+        "Historical base 42344640, record stride 296 bytes. Reads current experience without modifying the structure."
+      ],
+      "sourceRefs": [
+        "erm-forum:un-c-page-1.html",
+        "old-help:form-commstr.htm"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:un-c-page-1.html",
+          "old-help:form-commstr.htm"
+        ],
+        "code": [
+          "erm-forum:un-c-page-1.html",
+          "old-help:form-commstr.htm"
+        ],
+        "limits": [
+          "erm-forum:un-c-page-1.html",
+          "old-help:form-commstr.htm"
+        ],
+        "addresses": [
+          "erm-forum:un-c-page-1.html",
+          "old-help:form-commstr.htm"
+        ],
+        "sources": [
+          "erm-forum:un-c-page-1.html",
+          "old-help:form-commstr.htm"
+        ],
+        "reference-links": [
+          "erm-forum:un-c-page-1.html",
+          "old-help:form-commstr.htm"
+        ],
+        "ref-form-commstr": [
+          "old-help:form-commstr.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "ref-form-commstr",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Commander Structure",
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.conditions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "conditions",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/conditions/",
+      "title": "Conditions and branches",
+      "summary": "Variable and flag checks, AND/OR conditions, and if/el/en blocks.",
+      "keywords": [
+        "Conditions and branches"
+      ],
+      "questions": [
+        "Variable and flag checks, AND/OR conditions, and if/el/en blocks."
+      ],
+      "sourceRefs": [
+        "old-help:cont-triggersol.htm",
+        "old-help:cont-flags.htm",
+        "old-help:rec-iee.htm",
+        "old-help:rec-re.htm",
+        "old-help:rec-fu.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "comparison": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-flags.htm",
+          "old-help:rec-iee.htm",
+          "old-help:rec-re.htm",
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "and-or": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-flags.htm",
+          "old-help:rec-iee.htm",
+          "old-help:rec-re.htm",
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "flags": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-flags.htm",
+          "old-help:rec-iee.htm",
+          "old-help:rec-re.htm",
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "blocks": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-flags.htm",
+          "old-help:rec-iee.htm",
+          "old-help:rec-re.htm",
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "exit": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-flags.htm",
+          "old-help:rec-iee.htm",
+          "old-help:rec-re.htm",
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-flags.htm",
+          "old-help:rec-iee.htm",
+          "old-help:rec-re.htm",
+          "old-help:rec-fu.htm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-rec-iee": [
+          "old-help:rec-iee.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-002.md",
+          "fromAnchor": "ref-rec-iee",
+          "toAnchor": "reference-links",
+          "headings": [
+            "IF ELSE END",
+            "Comparisons",
+            "Combining checks",
+            "Flags",
+            "if, el, and en blocks",
+            "Early exit",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/",
+      "title": "ERA ERM Framework",
+      "summary": "Standard helper library, event context and named constants.",
+      "keywords": [
+        "Framework",
+        "stdlib"
+      ],
+      "questions": [
+        "Standard helper library, event context and named constants."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm",
+        "era-framework:lib-end--9999-era---stdlib.erm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "layout": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "example": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "review": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "era-framework:lib-end--9999-era---stdlib.erm",
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-003.md",
+          "fromAnchor": "layout",
+          "toAnchor": "review",
+          "headings": [
+            "Files and load order",
+            "References",
+            "Event-local array",
+            "Implementation status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.compatibility",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "compatibility",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/compatibility/",
+      "title": "ERM debugging and compatibility",
+      "summary": "Version differences, execution context and script validation.",
+      "keywords": [
+        "debug",
+        "ZVSE2",
+        "ERA 3.9.15",
+        "SN:E"
+      ],
+      "questions": [
+        "Version differences, execution context and script validation."
+      ],
+      "sourceRefs": [
+        "era-changelog:era-ii-changelog.txt",
+        "era-changelog:era-iii-changelog.txt",
+        "era-source:erm.pas",
+        "era-framework:lib-9999-era---stdlib.erm",
+        "old-help:cont-hd.htm",
+        "old-help:cont-te.htm",
+        "old-help:era-index.htm"
+      ],
+      "sectionSources": {
+        "baseline": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "porting": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "strings": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "battle": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "network": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "errors": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "checklist": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "framework": [
+          "era-changelog:era-ii-changelog.txt",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "ref-cont-hd": [
+          "old-help:cont-hd.htm"
+        ],
+        "ref-cont-te": [
+          "old-help:cont-te.htm"
+        ],
+        "ref-era-index": [
+          "old-help:era-index.htm"
+        ],
+        "current-era3": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-changelog": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-30": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-29": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-27": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-26": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-25": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-24": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-23": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-22": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-21": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-19": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-18": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-17": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-16": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-15": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-14": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-13": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-12": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-11": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-10": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-9": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-7": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-6": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-5": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-4": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-3": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-2": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9-1": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-9": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-10": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-8": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-5": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-4": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-3": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-2": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-8-1": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-7-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-6-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-5-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-4-3": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-4-2": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-4-1": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-4-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-3-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-2-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-1-1": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-1-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-0-5": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-0-4": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-0-3": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-0-2": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-0-1": [
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "era3-version-3-0-0": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-001.md",
+          "fromAnchor": "ref-cont-hd",
+          "toAnchor": "current-era3",
+          "headings": [
+            "HoMM 3 HD",
+            "HoMM 3 HD",
+            "Tournament Edition",
+            "Tournament Edition, TE",
+            "What is an era?",
+            "Main tasks solved by the project:",
+            "What does the user get?",
+            "What does a programmer get?",
+            "Choosing a contract",
+            "Porting a legacy script",
+            "Strings and messages",
+            "Combat, previews and UI",
+            "Networking and saves",
+            "Diagnosing a failure",
+            "Minimum mod checks",
+            "Framework snapshot findings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.examples",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "examples",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/examples/",
+      "title": "ERM examples",
+      "summary": "Small examples with explained preconditions and results.",
+      "keywords": [
+        "examples"
+      ],
+      "questions": [
+        "Small examples with explained preconditions and results."
+      ],
+      "sourceRefs": [
+        "era-changelog:era-iii-changelog.txt",
+        "era-framework:lib-9999-era---stdlib.erm",
+        "old-help:cont-lib.htm"
+      ],
+      "sectionSources": {
+        "catalog": [
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "validation": [
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "ref-cont-lib": [
+          "old-help:cont-lib.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-002.md",
+          "fromAnchor": "ref-cont-lib",
+          "toAnchor": "validation",
+          "headings": [
+            "Feature Library",
+            "Example catalog",
+            "Checking an example"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.hooker",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "hooker",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/hooker/",
+      "title": "ERM Hooker — custom events",
+      "summary": "Installing hooks, register context and removing code hooks.",
+      "keywords": [
+        "SetHook",
+        "UnsetHook",
+        "PrintHooks",
+        "erm_hooker",
+        "SN:X"
+      ],
+      "questions": [
+        "Installing hooks, register context and removing code hooks."
+      ],
+      "sourceRefs": [
+        "erm-forum:un-c-page-1.html",
+        "era-changelog:era-iii-changelog.txt",
+        "erm-hooker:author-api-1.0.0"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "api": [
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "erm-hooker:author-api-1.0.0"
+        ],
+        "example": [
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "erm-hooker:author-api-1.0.0"
+        ],
+        "context": [
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "erm-hooker:author-api-1.0.0"
+        ],
+        "lifetime": [
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "erm-hooker:author-api-1.0.0"
+        ],
+        "evidence": [
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "erm-hooker:author-api-1.0.0"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "evidence",
+          "headings": [
+            "When a hook is needed",
+            "Installing and removing",
+            "Wrappers with export checks",
+            "Handler context",
+            "Lifecycle and ownership",
+            "Plugin contract"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.overview",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/",
+      "title": "ERM scripts",
+      "summary": "Game events, ERM commands, and the ERA ERM Framework library.",
+      "keywords": [
+        "ERM scripts"
+      ],
+      "questions": [
+        "Game events, ERM commands, and the ERA ERM Framework library."
+      ],
+      "sourceRefs": [
+        "old-help:cont-triggersol.htm",
+        "old-help:cont-receiversol.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "era-framework:lib-9999-era---stdlib.erm",
+        "old-help:cont-abouthelp.htm",
+        "old-help:cont-links.htm",
+        "old-help:cont-main.htm",
+        "old-help:cont-wogteam.htm",
+        "old-help:index.htm",
+        "old-help:titre.htm"
+      ],
+      "sectionSources": {
+        "reference": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "catalogs": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "framework": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "practice": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "reference-links": [
+          "old-help:cont-triggersol.htm",
+          "old-help:cont-receiversol.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "era-framework:lib-9999-era---stdlib.erm"
+        ],
+        "ref-cont-abouthelp": [
+          "old-help:cont-abouthelp.htm"
+        ],
+        "ref-cont-links": [
+          "old-help:cont-links.htm"
+        ],
+        "ref-cont-main": [
+          "old-help:cont-main.htm"
+        ],
+        "ref-cont-wogteam": [
+          "old-help:cont-wogteam.htm"
+        ],
+        "ref-index": [
+          "old-help:index.htm"
+        ],
+        "ref-titre": [
+          "old-help:titre.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-001.md",
+          "fromAnchor": "ref-cont-main",
+          "toAnchor": "reference-links",
+          "headings": [
+            "ERM-HELP",
+            "Finding your way",
+            "Find a command or event",
+            "ERA ERM Framework",
+            "Practical tasks",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "SIZEOF_WORD",
+      "kind": "constant",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-word",
+      "aliases": [],
+      "label": "SIZEOF_WORD = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-word"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SIZEOF_ZSTR",
+      "kind": "constant",
+      "slug": "framework/constants/data-types",
+      "anchor": "const-sizeof-zstr",
+      "aliases": [],
+      "label": "SIZEOF_ZSTR = 512",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/data-types/#const-sizeof-zstr"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_ADVANCED",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-advanced",
+      "aliases": [],
+      "label": "SKILL_ADVANCED = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-advanced"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_AIR_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-air-magic",
+      "aliases": [],
+      "label": "SKILL_AIR_MAGIC = 15",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-air-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_ARCHERY",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-archery",
+      "aliases": [],
+      "label": "SKILL_ARCHERY = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-archery"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_ARMORER",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-armorer",
+      "aliases": [],
+      "label": "SKILL_ARMORER = 23",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-armorer"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_ARTILLERY",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-artillery",
+      "aliases": [],
+      "label": "SKILL_ARTILLERY = 20",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-artillery"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_ATTACK",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-attack",
+      "aliases": [],
+      "label": "SKILL_ATTACK = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-attack"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_BALLISTICS",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-ballistics",
+      "aliases": [],
+      "label": "SKILL_BALLISTICS = 10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-ballistics"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_BASIC",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-basic",
+      "aliases": [],
+      "label": "SKILL_BASIC = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-basic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_DEFENSE",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-defense",
+      "aliases": [],
+      "label": "SKILL_DEFENSE = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-defense"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_DIPLOMACY",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-diplomacy",
+      "aliases": [],
+      "label": "SKILL_DIPLOMACY = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-diplomacy"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_EAGLE_EYE",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-eagle-eye",
+      "aliases": [],
+      "label": "SKILL_EAGLE_EYE = 11",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-eagle-eye"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_EARTH_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-earth-magic",
+      "aliases": [],
+      "label": "SKILL_EARTH_MAGIC = 17",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-earth-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_ESTATES",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-estates",
+      "aliases": [],
+      "label": "SKILL_ESTATES = 13",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-estates"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_EXPERT",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-expert",
+      "aliases": [],
+      "label": "SKILL_EXPERT = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-expert"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_FIRE_MAGIC",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-fire-magic",
+      "aliases": [],
+      "label": "SKILL_FIRE_MAGIC = 14",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-fire-magic"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_FIRST_AID",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-first-aid",
+      "aliases": [],
+      "label": "SKILL_FIRST_AID = 27",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-first-aid"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_INTELLIGENCE",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-intelligence",
+      "aliases": [],
+      "label": "SKILL_INTELLIGENCE = 24",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-intelligence"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_KNOWLEDGE",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-knowledge",
+      "aliases": [],
+      "label": "SKILL_KNOWLEDGE = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-knowledge"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_LEADERSHIP",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-leadership",
+      "aliases": [],
+      "label": "SKILL_LEADERSHIP = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-leadership"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_LEARNING",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-learning",
+      "aliases": [],
+      "label": "SKILL_LEARNING = 21",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-learning"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_LOGISTICS",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-logistics",
+      "aliases": [],
+      "label": "SKILL_LOGISTICS = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-logistics"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_LUCK",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-luck",
+      "aliases": [],
+      "label": "SKILL_LUCK = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-luck"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_MYSTICISM",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-mysticism",
+      "aliases": [],
+      "label": "SKILL_MYSTICISM = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-mysticism"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_NAVIGATION",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-navigation",
+      "aliases": [],
+      "label": "SKILL_NAVIGATION = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-navigation"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_NECROMANCY",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-necromancy",
+      "aliases": [],
+      "label": "SKILL_NECROMANCY = 12",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-necromancy"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_NOT_LEARNED",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-not-learned",
+      "aliases": [],
+      "label": "SKILL_NOT_LEARNED = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-not-learned"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_OFFENCE",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-offence",
+      "aliases": [],
+      "label": "SKILL_OFFENCE = 22",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-offence"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_PATHFINDING",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-pathfinding",
+      "aliases": [],
+      "label": "SKILL_PATHFINDING = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-pathfinding"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_POWER",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-power",
+      "aliases": [],
+      "label": "SKILL_POWER = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-power"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKILL_RESISTANCE",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-skill-resistance",
+      "aliases": [],
+      "label": "SKILL_RESISTANCE = 26",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-skill-resistance"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.receivers.ai",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ai",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ai/",
+      "title": "AI destinations (AI)",
+      "summary": "AI receiver: ai destinations, command parameters, and limitations.",
+      "keywords": [
+        "AI",
+        "!!AI",
+        "AI:D",
+        "AI:S"
+      ],
+      "questions": [
+        "AI receiver: ai destinations, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ai.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ai.htm"
+        ],
+        "command-d-1-2-3": [
+          "old-help:rec-ai.htm"
+        ],
+        "command-s-1-2-3-1-2-3-4-5": [
+          "old-help:rec-ai.htm"
+        ],
+        "notes": [
+          "old-help:rec-ai.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ai.htm"
+        ],
+        "ref-rec-ai": [
+          "old-help:rec-ai.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-001.md",
+          "fromAnchor": "ref-rec-ai",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver AI",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.ex",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ex",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ex/",
+      "title": "Army stack experience (EX)",
+      "summary": "EX receiver: army stack experience, command parameters, and limitations.",
+      "keywords": [
+        "EX",
+        "!!EX",
+        "EX:A",
+        "EX:E",
+        "EX:C",
+        "EX:R"
+      ],
+      "questions": [
+        "EX receiver: army stack experience, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ex.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ex.htm"
+        ],
+        "command-a-1-2-3": [
+          "old-help:rec-ex.htm"
+        ],
+        "command-e-n-t": [
+          "old-help:rec-ex.htm"
+        ],
+        "command-c-1-2-3-4-5-6": [
+          "old-help:rec-ex.htm"
+        ],
+        "command-r-1-2": [
+          "old-help:rec-ex.htm"
+        ],
+        "command-r-1-2-3-4": [
+          "old-help:rec-ex.htm"
+        ],
+        "notes": [
+          "old-help:rec-ex.htm"
+        ],
+        "related": [
+          "old-help:rec-ex.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ex.htm"
+        ],
+        "ref-rec-ex": [
+          "old-help:rec-ex.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-013.md",
+          "fromAnchor": "ref-rec-ex",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver EX",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.ba",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/ba",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/ba/",
+      "title": "Battle configuration (BA)",
+      "summary": "BA receiver: battle configuration, command parameters, and limitations.",
+      "keywords": [
+        "BA",
+        "!!BA",
+        "BA:A?",
+        "BA:B",
+        "BA:D",
+        "BA:E?",
+        "BA:H",
+        "BA:M",
+        "BA:O?",
+        "BA:P",
+        "BA:Q",
+        "BA:S?"
+      ],
+      "questions": [
+        "BA receiver: battle configuration, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-ba.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-a": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-b": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-d": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-e": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-h": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-m-1-2-1-2": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-o-1-2": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-p-1-2-3": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-q": [
+          "old-help:rec-ba.htm"
+        ],
+        "command-s": [
+          "old-help:rec-ba.htm"
+        ],
+        "notes": [
+          "old-help:rec-ba.htm"
+        ],
+        "related": [
+          "old-help:rec-ba.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-ba.htm"
+        ],
+        "ref-rec-ba": [
+          "old-help:rec-ba.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-001.md",
+          "fromAnchor": "ref-rec-ba",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver BA",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.bh",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/bh",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/bh/",
+      "title": "Battle hero actions (BH)",
+      "summary": "BH receiver: battle hero actions, command parameters, and limitations.",
+      "keywords": [
+        "BH",
+        "!!BH",
+        "BH:C",
+        "BH:M",
+        "BH:N?",
+        "BH:Q"
+      ],
+      "questions": [
+        "BH receiver: battle hero actions, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-bh.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-bh.htm"
+        ],
+        "command-c-1-2-3-4": [
+          "old-help:rec-bh.htm"
+        ],
+        "command-m": [
+          "old-help:rec-bh.htm"
+        ],
+        "command-n": [
+          "old-help:rec-bh.htm"
+        ],
+        "command-q-1-2-3": [
+          "old-help:rec-bh.htm"
+        ],
+        "notes": [
+          "old-help:rec-bh.htm"
+        ],
+        "related": [
+          "old-help:rec-bh.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-bh.htm"
+        ],
+        "ref-rec-bh": [
+          "old-help:rec-bh.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-002.md",
+          "fromAnchor": "ref-rec-bh",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver BH",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.mm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/mm",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mm/",
+      "title": "Battle hint text (MM)",
+      "summary": "MM receiver: battle hint text, command parameters, and limitations.",
+      "keywords": [
+        "MM",
+        "!!MM",
+        "MM:D?",
+        "MM:Mz",
+        "MM:Sz"
+      ],
+      "questions": [
+        "MM receiver: battle hint text, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-mm.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-mm.htm"
+        ],
+        "command-d": [
+          "old-help:rec-mm.htm"
+        ],
+        "command-mz-m-z": [
+          "old-help:rec-mm.htm"
+        ],
+        "command-sz": [
+          "old-help:rec-mm.htm"
+        ],
+        "notes": [
+          "old-help:rec-mm.htm"
+        ],
+        "related": [
+          "old-help:rec-mm.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-mm.htm"
+        ],
+        "ref-rec-mm": [
+          "old-help:rec-mm.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-024.md",
+          "fromAnchor": "ref-rec-mm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver MM",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.bm",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/bm",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/bm/",
+      "title": "Battle stack (BM)",
+      "summary": "BM receiver: battle stack, command parameters, and limitations.",
+      "keywords": [
+        "BM",
+        "!!BM",
+        "BM:A",
+        "BM:B",
+        "BM:C",
+        "BM:E",
+        "BM:G",
+        "BM:I",
+        "BM:J?",
+        "BM:M",
+        "BM:P",
+        "BM:Q",
+        "BM:U",
+        "BM:V"
+      ],
+      "questions": [
+        "BM receiver: battle stack, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-bm.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-a-d-h-s": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-b-n": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-c-1-2-3-4-5": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-e-f": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-g-1-2": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-i-o-t": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-j-k-l": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-m-1-2-3": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-p-r": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-q-1-2-3": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-u": [
+          "old-help:rec-bm.htm"
+        ],
+        "command-v-z": [
+          "old-help:rec-bm.htm"
+        ],
+        "notes": [
+          "old-help:rec-bm.htm"
+        ],
+        "related": [
+          "old-help:rec-bm.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-bm.htm"
+        ],
+        "ref-rec-bm": [
+          "old-help:rec-bm.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-003.md",
+          "fromAnchor": "ref-rec-bm",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver BM",
+            "Table of known values for BM:G:",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.bu",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/bu",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/bu/",
+      "title": "Battlefield operations (BU)",
+      "summary": "BU receiver: battlefield operations, command parameters, and limitations.",
+      "keywords": [
+        "BU",
+        "!!BU",
+        "BU:C?",
+        "BU:D",
+        "BU:E",
+        "BU:G",
+        "BU:Mz",
+        "BU:O",
+        "BU:R",
+        "BU:S",
+        "BU:T?",
+        "BU:V"
+      ],
+      "questions": [
+        "BU receiver: battlefield operations, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-bu.htm",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-c": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-d": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-e": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-g": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-mz": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-o": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-r": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-s-1-2-3-4-5-6": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-t": [
+          "old-help:rec-bu.htm"
+        ],
+        "command-v": [
+          "old-help:rec-bu.htm"
+        ],
+        "notes": [
+          "old-help:rec-bu.htm"
+        ],
+        "related": [
+          "old-help:rec-bu.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-bu.htm"
+        ],
+        "ref-rec-bu": [
+          "old-help:rec-bu.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-004.md",
+          "fromAnchor": "ref-rec-bu",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver BU",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.bf",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/bf",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/bf/",
+      "title": "Battlefield setup (BF)",
+      "summary": "BF receiver: battlefield setup, command parameters, and limitations.",
+      "keywords": [
+        "BF",
+        "!!BF",
+        "BF:C",
+        "BF:M",
+        "BF:O"
+      ],
+      "questions": [
+        "BF receiver: battlefield setup, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-bf.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-bf.htm"
+        ],
+        "command-c": [
+          "old-help:rec-bf.htm"
+        ],
+        "command-m-1-11-12": [
+          "old-help:rec-bf.htm"
+        ],
+        "command-o-1-2": [
+          "old-help:rec-bf.htm"
+        ],
+        "notes": [
+          "old-help:rec-bf.htm"
+        ],
+        "related": [
+          "old-help:rec-bf.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-bf.htm"
+        ],
+        "ref-rec-bf": [
+          "old-help:rec-bf.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-002.md",
+          "fromAnchor": "ref-rec-bf",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver BF",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.fr",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/fr",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/fr/",
+      "title": "Campfire (FR)",
+      "summary": "FR receiver: campfire, command parameters, and limitations.",
+      "keywords": [
+        "FR",
+        "!!FR",
+        "FR:B"
+      ],
+      "questions": [
+        "FR receiver: campfire, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-fr.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-fr.htm"
+        ],
+        "command-b-1-2": [
+          "old-help:rec-fr.htm"
+        ],
+        "notes": [
+          "old-help:rec-fr.htm"
+        ],
+        "related": [
+          "old-help:rec-fr.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-fr.htm"
+        ],
+        "ref-rec-fr": [
+          "old-help:rec-fr.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-013.md",
+          "fromAnchor": "ref-rec-fr",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver FR",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.mc",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/mc",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/mc/",
+      "title": "Classic ERM macros (MC)",
+      "summary": "MC receiver: classic erm macros, command parameters, and limitations.",
+      "keywords": [
+        "MC",
+        "!!MC",
+        "MC:S@name@"
+      ],
+      "questions": [
+        "MC receiver: classic erm macros, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-mc.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-mc.htm"
+        ],
+        "command-s-name": [
+          "old-help:rec-mc.htm"
+        ],
+        "notes": [
+          "old-help:rec-mc.htm"
+        ],
+        "example": [
+          "old-help:rec-mc.htm"
+        ],
+        "related": [
+          "old-help:rec-mc.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-mc.htm"
+        ],
+        "ref-rec-mc": [
+          "old-help:rec-mc.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-023.md",
+          "fromAnchor": "ref-rec-mc",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver MC",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.co",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/co",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/co/",
+      "title": "Commanders (CO)",
+      "summary": "CO receiver: commanders, command parameters, and limitations.",
+      "keywords": [
+        "CO",
+        "!!CO",
+        "CO:A1/",
+        "CO:A2/",
+        "CO:B0/",
+        "CO:B2/",
+        "CO:D",
+        "CO:N",
+        "CO:P",
+        "CO:S"
+      ],
+      "questions": [
+        "CO receiver: commanders, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-co.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-co.htm"
+        ],
+        "command-a1-1-2": [
+          "old-help:rec-co.htm"
+        ],
+        "command-a2-a3-1-2-a4-1-12": [
+          "old-help:rec-co.htm"
+        ],
+        "command-b0-b1-1-2": [
+          "old-help:rec-co.htm"
+        ],
+        "command-b2-b3-1-2": [
+          "old-help:rec-co.htm"
+        ],
+        "command-d-e": [
+          "old-help:rec-co.htm"
+        ],
+        "command-n": [
+          "old-help:rec-co.htm"
+        ],
+        "command-p": [
+          "old-help:rec-co.htm"
+        ],
+        "command-s-t-x": [
+          "old-help:rec-co.htm"
+        ],
+        "notes": [
+          "old-help:rec-co.htm"
+        ],
+        "related": [
+          "old-help:rec-co.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-co.htm"
+        ],
+        "ref-rec-co": [
+          "old-help:rec-co.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-007.md",
+          "fromAnchor": "ref-rec-co",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver CO",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.cb",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/cb",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/cb/",
+      "title": "Creature banks (CB)",
+      "summary": "CB receiver: creature banks, command parameters, and limitations.",
+      "keywords": [
+        "CB",
+        "!!CB",
+        "CB:A1/?",
+        "CB:A2/",
+        "CB:A3/",
+        "CB:G",
+        "CB:M",
+        "CB:R",
+        "CB:T",
+        "CB:V"
+      ],
+      "questions": [
+        "CB receiver: creature banks, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-cb.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-a1": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-a2": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-a3-a4": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-g-1-2-3": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-m-1-2": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-r-1-2": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-t": [
+          "old-help:rec-cb.htm"
+        ],
+        "command-v": [
+          "old-help:rec-cb.htm"
+        ],
+        "notes": [
+          "old-help:rec-cb.htm"
+        ],
+        "related": [
+          "old-help:rec-cb.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-cb.htm"
+        ],
+        "ref-rec-cb": [
+          "old-help:rec-cb.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-005.md",
+          "fromAnchor": "ref-rec-cb",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver CB",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers.dw",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers/dw",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/dw/",
+      "title": "Creature dwellings (DW)",
+      "summary": "DW receiver: creature dwellings, command parameters, and limitations.",
+      "keywords": [
+        "DW",
+        "!!DW",
+        "DW:G",
+        "DW:M",
+        "DW:O"
+      ],
+      "questions": [
+        "DW receiver: creature dwellings, command parameters, and limitations."
+      ],
+      "sourceRefs": [
+        "old-help:rec-dw.htm"
+      ],
+      "sectionSources": {
+        "syntax": [
+          "old-help:rec-dw.htm"
+        ],
+        "command-g-1-2-3": [
+          "old-help:rec-dw.htm"
+        ],
+        "command-m-1-2-3": [
+          "old-help:rec-dw.htm"
+        ],
+        "command-o-o-1": [
+          "old-help:rec-dw.htm"
+        ],
+        "notes": [
+          "old-help:rec-dw.htm"
+        ],
+        "related": [
+          "old-help:rec-dw.htm"
+        ],
+        "reference-links": [
+          "old-help:rec-dw.htm"
+        ],
+        "ref-rec-dw": [
+          "old-help:rec-dw.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/receivers/text-009.md",
+          "fromAnchor": "ref-rec-dw",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receiver DW",
+            "Related reference",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

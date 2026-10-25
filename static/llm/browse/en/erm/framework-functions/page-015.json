@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.restoreeventdata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/restoreeventdata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreeventdata/",
+      "title": "RestoreEventData",
+      "summary": "Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly.",
+      "keywords": [
+        "RestoreEventData",
+        "FU(RestoreEventData)",
+        "internal"
+      ],
+      "questions": [
+        "Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-47-87-restoreeventdata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.restoreprevkeymodsstate",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/restoreprevkeymodsstate",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevkeymodsstate/",
+      "title": "RestorePrevKeyModsState",
+      "summary": "Restores key and modifier globals after a nested event.",
+      "keywords": [
+        "RestorePrevKeyModsState",
+        "FU(RestorePrevKeyModsState)",
+        "internal"
+      ],
+      "questions": [
+        "Restores key and modifier globals after a nested event."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-91-93-restoreprevkeymodsstate"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.restoreprevmouseeventdata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/restoreprevmouseeventdata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevmouseeventdata/",
+      "title": "RestorePrevMouseEventData",
+      "summary": "Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.",
+      "keywords": [
+        "RestorePrevMouseEventData",
+        "FU(RestorePrevMouseEventData)",
+        "internal"
+      ],
+      "questions": [
+        "Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-142-144-restoreprevmouseeventdata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.saveeventdata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/saveeventdata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveeventdata/",
+      "title": "SaveEventData",
+      "summary": "Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.",
+      "keywords": [
+        "SaveEventData",
+        "FU(SaveEventData)",
+        "internal"
+      ],
+      "questions": [
+        "Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-16-46-saveeventdata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.savegame",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/savegame",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/savegame/",
+      "title": "SaveGame",
+      "summary": "Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.",
+      "keywords": [
+        "SaveGame",
+        "FU(SaveGame)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1987-2009-savegame"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.saveini",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/saveini",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveini/",
+      "title": "SaveIni",
+      "summary": "Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.",
+      "keywords": [
+        "SaveIni",
+        "FU(SaveIni)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1613-1620-saveini"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.saveprevkeymodsstate",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/saveprevkeymodsstate",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevkeymodsstate/",
+      "title": "SavePrevKeyModsState",
+      "summary": "Saves 11 key and modifier globals for a nested event.",
+      "keywords": [
+        "SavePrevKeyModsState",
+        "FU(SavePrevKeyModsState)",
+        "internal"
+      ],
+      "questions": [
+        "Saves 11 key and modifier globals for a nested event."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-88-90-saveprevkeymodsstate"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.saveprevmouseeventdata",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/saveprevmouseeventdata",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevmouseeventdata/",
+      "title": "SavePrevMouseEventData",
+      "summary": "Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.",
+      "keywords": [
+        "SavePrevMouseEventData",
+        "FU(SavePrevMouseEventData)",
+        "internal"
+      ],
+      "questions": [
+        "Saves/restores ten mouse_ values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-139-141-saveprevmouseeventdata"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.scandir",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/scandir",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/scandir/",
+      "title": "ScanDir",
+      "summary": "Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_ (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot.",
+      "keywords": [
+        "ScanDir",
+        "FU(ScanDir)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_ (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1870-1931-scandir"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.showanimateddefdlg",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/showanimateddefdlg",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/showanimateddefdlg/",
+      "title": "ShowAnimatedDefDlg",
+      "summary": "Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1.",
+      "keywords": [
+        "ShowAnimatedDefDlg",
+        "FU(ShowAnimatedDefDlg)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2756-2766-showanimateddefdlg"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.splitmix32",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/splitmix32",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/splitmix32/",
+      "title": "SplitMix32",
+      "summary": "P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state.",
+      "keywords": [
+        "SplitMix32",
+        "FU(SplitMix32)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1376-1410-splitmix32"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.sqrt",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/sqrt",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/sqrt/",
+      "title": "Sqrt",
+      "summary": "Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root.",
+      "keywords": [
+        "Sqrt",
+        "FU(Sqrt)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1173-1179-sqrt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    }
+  ]
+}

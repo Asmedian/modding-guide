@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "i^mouse_mapY^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-mouse-mapy",
+      "aliases": [],
+      "label": "Map Y from CM:P",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-mouse-mapy"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^mouse_mapZ^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-mouse-mapz",
+      "aliases": [],
+      "label": "Map level from CM:P",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-mouse-mapz"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^mouse_x^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-mouse-x",
+      "aliases": [],
+      "label": "Cursor X in the window",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-mouse-x"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^mouse_y^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-mouse-y",
+      "aliases": [],
+      "label": "Cursor Y in the window",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-mouse-y"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_captions^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-captions",
+      "aliases": [],
+      "label": "Caption array ID",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-captions"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_flags^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-flags",
+      "aliases": [],
+      "label": "Dialog flag mask",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-flags"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_freeSpaceAlerted^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-freespacealerted",
+      "aliases": [],
+      "label": "Out-of-space error already shown",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-freespacealerted"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_numItems^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-numitems",
+      "aliases": [],
+      "label": "Item count",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-numitems"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_selectedItemInd^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-selecteditemind",
+      "aliases": [],
+      "label": "Selected index or NO_RADIO_DLG_ITEM",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-selecteditemind"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_tags^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-tags",
+      "aliases": [],
+      "label": "Tag array ID",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-tags"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^radioDlg_values^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-radiodlg-values",
+      "aliases": [],
+      "label": "Value array ID",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-radiodlg-values"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^savedEventData^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-savedeventdata",
+      "aliases": [],
+      "label": "Temporary saved-context array ID",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-savedeventdata"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^savedEventDataPos^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-savedeventdatapos",
+      "aliases": [],
+      "label": "Current context-stack position",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-savedeventdatapos"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerDay^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timerday",
+      "aliases": [],
+      "label": "Day since game start, 1..",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timerday"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerIsAi^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timerisai",
+      "aliases": [],
+      "label": "TRUE for an AI player",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timerisai"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerIsHuman^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timerishuman",
+      "aliases": [],
+      "label": "TRUE for a human",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timerishuman"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerMonth^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timermonth",
+      "aliases": [],
+      "label": "Month since game start, 1..",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timermonth"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerMonthDay^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timermonthday",
+      "aliases": [],
+      "label": "Day of month, 1..28",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timermonthday"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerMonthWeek^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timermonthweek",
+      "aliases": [],
+      "label": "Week of month, 1..4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timermonthweek"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerOnce^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timeronce",
+      "aliases": [],
+      "label": "TRUE on the first invocation that day",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timeronce"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerOwner^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timerowner",
+      "aliases": [],
+      "label": "Current player, 0..7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timerowner"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerWeek^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timerweek",
+      "aliases": [],
+      "label": "Week since game start, 1..",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timerweek"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "i^timerWeekDay^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-i-timerweekday",
+      "aliases": [],
+      "label": "Day of week, 1..7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-i-timerweekday"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "s^radioDlg_title^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-s-radiodlg-title",
+      "aliases": [],
+      "label": "Title of the RadioDlg being built. Change through RadioDlg_SetTitle.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-s-radiodlg-title"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "s^result^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-s-result",
+      "aliases": [],
+      "label": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-s-result"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "s^temp_text^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-s-temp-text",
+      "aliases": [],
+      "label": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-s-temp-text"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "s^temp^",
+      "kind": "global",
+      "slug": "framework/globals",
+      "anchor": "global-s-temp",
+      "aliases": [],
+      "label": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/globals/#global-s-temp"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-globals/text-001.md",
+            "fromAnchor": "lifetime",
+            "toAnchor": "audit",
+            "headings": [
+              "Lifetime",
+              "Calendar",
+              "Keyboard",
+              "Mouse and dialogs",
+              "Combat",
+              "ID bounds",
+              "Internal state",
+              "Registry boundaries"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,16 +1,6 @@
 <script lang="ts">
-  import { page } from '$app/stores';
-  import AppShell from '$lib/components/AppShell.svelte';
-  import { translator, type Locale } from '$lib/i18n';
-  import ermNavigation from '../../../../../content/_navigation/erm.json';
-  import ermAlphabet from '../../../../../content/erm/_registry/alphabet.json';
-  import ermReceivers from '../../../../../content/erm/_registry/receivers.json';
-  import ermTriggers from '../../../../../content/erm/_registry/trigger-families.json';
-  $: lang = $page.params.lang as Locale;
-  $: t = translator(lang);
+  import ArticlePage from '$lib/components/ArticlePage.svelte';
+  export let data;
 </script>
 
-<svelte:head><title>{t('erm.page.learn')} — ERA Modding Guide</title><meta name="robots" content="noindex" /></svelte:head>
-<AppShell {lang} activeSlug="erm/learn" toc={[]} navigation={ermNavigation} {ermAlphabet} {ermReceivers} {ermTriggers}>
-  <header class="article-header" id="overview"><h1>{t('erm.page.learn')}</h1></header>
-</AppShell>
+<ArticlePage article={data.article} />

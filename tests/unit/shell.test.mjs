@@ -19,7 +19,8 @@ test('the header and all columns share a centered, bounded site frame', () => {
   assert.match(frame, /margin-inline:\s*auto/);
   assert.match(frame, /height:\s*100vh/);
   assert.match(frame, /overflow:\s*hidden/);
-  assert.match(layout, /\.site-grid\s*\{[^}]*overflow-y:\s*auto/);
+  assert.match(layout, /\.site-grid\s*\{[^}]*overflow:\s*hidden/);
+  assert.match(layout, /\.content-column\s*\{[^}]*overflow:\s*auto/);
 });
 
 test('header text keeps its intrinsic width while search can shrink', () => {
@@ -63,7 +64,7 @@ test('English is the first language option', () => {
 });
 
 test('the background fills the middle column; only its inner content has a width limit', () => {
-  assert.match(shell, /<main class="content-column">[\s\S]*?<div class="content-inner">\s*<slot \/>/);
+  assert.match(shell, /<main class="content-column" bind:this=\{siteScroller\}>[\s\S]*?<div class="content-inner">\s*<slot \/>/);
   const columnRules = [...layout.matchAll(/\.content-column\s*\{([^}]+)\}/g)];
   assert.ok(columnRules.length > 0);
   for (const [, rule] of columnRules) assert.doesNotMatch(rule, /max-width|margin|padding/);
@@ -92,7 +93,7 @@ test('sidebar groups use the shared soft surface, semantic icons, and a centered
   const base = readFileSync(join(root, 'src/styles/base.css'), 'utf8');
   const icons = readFileSync(join(root, 'static/assets/ui/icons.svg'), 'utf8');
   assert.match(shell, /<details class="nav-group" data-group=\{group\.id\}/);
-  assert.match(shell, /<UiIcon name=\{`sidebar-\$\{group\.id\}`\} \/>/);
+  assert.match(shell, /<UiIcon name=\{group\.edition \? `sidebar-resources` : `sidebar-\$\{group\.id\}`\} \/>/);
   assert.match(shell, /<UiIcon name="chevron" \/>/);
   assert.match(components, /\.nav-group\s*\{[^}]*background:\s*var\(--surface-soft\)/);
   assert.match(components, /\.disclosure-chevron\s*\{[^}]*width:\s*1\.25rem[^}]*height:\s*1\.25rem/);

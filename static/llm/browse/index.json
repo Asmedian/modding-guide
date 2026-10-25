@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "maxFileBytes": 49152,
+  "catalog": "https://asmedian.github.io/modding-guide/llm/browse/en/index.md",
+  "sources": "https://asmedian.github.io/modding-guide/llm/browse/sources/index.json",
+  "reference": "https://asmedian.github.io/modding-guide/llm/browse/reference/index.json",
+  "symbols": "https://asmedian.github.io/modding-guide/llm/browse/symbols/index.json",
+  "wikiResources": "https://asmedian.github.io/modding-guide/llm/browse/wiki-resources/index.json",
+  "protocol": [
+    "All reference exports use English. Answer in the requested language without retrieving translated copies.",
+    "Select all relevant sections, then topics, catalog pages and text parts; never load bulk mirrors by default.",
+    "Catalog records contain exact IDs, summaries, questions, keywords, relations, sectionSources and ordered text parts. A file can contain several articles; select by ID.",
+    "Parts are lossless source excerpts between llm:body / llm:end markers. Concatenate in part order without the marker newlines to recover a complete article. Follow remaining parts before drawing conclusions about a command.",
+    "Resolve relative links in a body against its canonical article URL. Follow cross-section links when a task spans scripting, plugins and resources.",
+    "Use the symbol index for exact commands/events/functions and the resource index for filenames. Resolve sourceRefs / sectionSources through sources. State version limits and distinguish source review from in-game execution.",
+    "Cite canonical article URLs and anchors in answers. If retrieval is unavailable, request the specific linked files; do not pretend the reference was read."
+  ]
+}

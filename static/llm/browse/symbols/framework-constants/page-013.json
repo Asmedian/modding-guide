@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "CHAT_EVENT_RESULT_DEFAULT",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-result-default",
+      "aliases": [],
+      "label": "CHAT_EVENT_RESULT_DEFAULT = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-result-default"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_ENTER",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-type-enter",
+      "aliases": [],
+      "label": "CHAT_EVENT_TYPE_ENTER = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-type-enter"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_INPUT",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-type-input",
+      "aliases": [],
+      "label": "CHAT_EVENT_TYPE_INPUT = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-type-input"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_TYPE_LEAVE",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-type-leave",
+      "aliases": [],
+      "label": "CHAT_EVENT_TYPE_LEAVE = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-type-leave"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "COMBAT_MANAGER",
+      "kind": "constant",
+      "slug": "framework/constants/game-managers",
+      "anchor": "const-combat-manager",
+      "aliases": [],
+      "label": "COMBAT_MANAGER = 6919200",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/#const-combat-manager"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CURRENT_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-current-hero",
+      "aliases": [],
+      "label": "CURRENT_HERO = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-current-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CURRENT_OBJ",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-current-obj",
+      "aliases": [],
+      "label": "CURRENT_OBJ = 998",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-current-obj"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CURRENT_PLAYER",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-current-player",
+      "aliases": [],
+      "label": "CURRENT_PLAYER = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-current-player"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CURRENT_TOWN",
+      "kind": "constant",
+      "slug": "framework/constants/towns",
+      "anchor": "const-current-town",
+      "aliases": [],
+      "label": "CURRENT_TOWN = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/towns/#const-current-town"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DAYS_IN_MONTH",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-days-in-month",
+      "aliases": [],
+      "label": "DAYS_IN_MONTH = 28",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-days-in-month"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DAYS_IN_WEEK",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-days-in-week",
+      "aliases": [],
+      "label": "DAYS_IN_WEEK = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-days-in-week"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_ACTION_HOVER",
+      "kind": "constant",
+      "slug": "framework/constants/dialog-action-types",
+      "anchor": "const-dlg-action-hover",
+      "aliases": [],
+      "label": "DLG_ACTION_HOVER = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-hover"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_ACTION_INDLG_CLICK",
+      "kind": "constant",
+      "slug": "framework/constants/dialog-action-types",
+      "anchor": "const-dlg-action-indlg-click",
+      "aliases": [],
+      "label": "DLG_ACTION_INDLG_CLICK = 512",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-indlg-click"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_ACTION_KEY_PRESSED",
+      "kind": "constant",
+      "slug": "framework/constants/dialog-action-types",
+      "anchor": "const-dlg-action-key-pressed",
+      "aliases": [],
+      "label": "DLG_ACTION_KEY_PRESSED = 256",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-key-pressed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_ACTION_MOUSE_WHEEL",
+      "kind": "constant",
+      "slug": "framework/constants/dialog-action-types",
+      "anchor": "const-dlg-action-mouse-wheel",
+      "aliases": [],
+      "label": "DLG_ACTION_MOUSE_WHEEL = 522",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-mouse-wheel"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_ACTION_OUTDLG_CLICK",
+      "kind": "constant",
+      "slug": "framework/constants/dialog-action-types",
+      "anchor": "const-dlg-action-outdlg-click",
+      "aliases": [],
+      "label": "DLG_ACTION_OUTDLG_CLICK = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialog-action-types/#const-dlg-action-outdlg-click"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_ADVMAP",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-advmap",
+      "aliases": [],
+      "label": "DLG_ADVMAP = 4205280",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-advmap"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_BATTLE",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-battle",
+      "aliases": [],
+      "label": "DLG_BATTLE = 4662240",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-battle"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_BOX_SHADOW_WIDTH",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-box-shadow-width",
+      "aliases": [],
+      "label": "DLG_BOX_SHADOW_WIDTH = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-box-shadow-width"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_CMD_SET_DEF",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-commands",
+      "anchor": "const-dlg-cmd-set-def",
+      "aliases": [],
+      "label": "DLG_CMD_SET_DEF = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-def"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_CMD_SET_DEF_FRAME",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-commands",
+      "anchor": "const-dlg-cmd-set-def-frame",
+      "aliases": [],
+      "label": "DLG_CMD_SET_DEF_FRAME = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-def-frame"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_CMD_SET_PCX",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-commands",
+      "anchor": "const-dlg-cmd-set-pcx",
+      "aliases": [],
+      "label": "DLG_CMD_SET_PCX = 11",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-pcx"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_CMD_SET_TEXT",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-commands",
+      "anchor": "const-dlg-cmd-set-text",
+      "aliases": [],
+      "label": "DLG_CMD_SET_TEXT = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-set-text"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_CMD_TYPE_DEFAULT",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-commands",
+      "anchor": "const-dlg-cmd-type-default",
+      "aliases": [],
+      "label": "DLG_CMD_TYPE_DEFAULT = 512",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/#const-dlg-cmd-type-default"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_HERO_MEETING_SCREEN",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-hero-meeting-screen",
+      "aliases": [],
+      "label": "DLG_HERO_MEETING_SCREEN = 5957344",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-hero-meeting-screen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_HERO_SCREEN",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-hero-screen",
+      "aliases": [],
+      "label": "DLG_HERO_SCREEN = 5117840",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-hero-screen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_NO_SELECTION",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-no-selection",
+      "aliases": [],
+      "label": "DLG_NO_SELECTION = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-no-selection"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_RESULT_CANCEL",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-result-cancel",
+      "aliases": [],
+      "label": "DLG_RESULT_CANCEL = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-cancel"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_RESULT_PIC_1",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-result-pic-1",
+      "aliases": [],
+      "label": "DLG_RESULT_PIC_1 = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_RESULT_PIC_2",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-result-pic-2",
+      "aliases": [],
+      "label": "DLG_RESULT_PIC_2 = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_RESULT_PIC_3",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-result-pic-3",
+      "aliases": [],
+      "label": "DLG_RESULT_PIC_3 = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-3"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLG_RESULT_PIC_4",
+      "kind": "constant",
+      "slug": "framework/constants/dialogs",
+      "anchor": "const-dlg-result-pic-4",
+      "aliases": [],
+      "label": "DLG_RESULT_PIC_4 = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/dialogs/#const-dlg-result-pic-4"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

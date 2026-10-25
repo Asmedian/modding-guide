@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "RadioDlg_SelectItem",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-selectitem",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_SelectItem)"
+      ],
+      "label": "Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitem/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_SelectItemByTag",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-selectitembytag",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_SelectItemByTag)"
+      ],
+      "label": "Selects the first matching value/string tag. Clears selection if no match exists.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitembytag/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_SelectItemByValue",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-selectitembyvalue",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_SelectItemByValue)"
+      ],
+      "label": "Selects the first matching value/string tag. Clears selection if no match exists.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-selectitembyvalue/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_SetTitle",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-settitle",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_SetTitle)"
+      ],
+      "label": "Copies the title into radio-dialog state.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-settitle/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioDlg_Show",
+      "kind": "function",
+      "slug": "framework/functions/radiodlg-show",
+      "anchor": "",
+      "aliases": [
+        "FU(RadioDlg_Show)"
+      ],
+      "label": "Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-show/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReadIniInts",
+      "kind": "function",
+      "slug": "framework/functions/readiniints",
+      "anchor": "",
+      "aliases": [
+        "FU(ReadIniInts)"
+      ],
+      "label": "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/readiniints/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReadIniStrings",
+      "kind": "function",
+      "slug": "framework/functions/readinistrings",
+      "anchor": "",
+      "aliases": [
+        "FU(ReadIniStrings)"
+      ],
+      "label": "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/readinistrings/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReadJsonIntArray",
+      "kind": "function",
+      "slug": "framework/functions/readjsonintarray",
+      "anchor": "",
+      "aliases": [
+        "FU(ReadJsonIntArray)"
+      ],
+      "label": "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/readjsonintarray/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReadJsonStrArray",
+      "kind": "function",
+      "slug": "framework/functions/readjsonstrarray",
+      "anchor": "",
+      "aliases": [
+        "FU(ReadJsonStrArray)"
+      ],
+      "label": "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/readjsonstrarray/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestoreEventData",
+      "kind": "function",
+      "slug": "framework/functions/restoreeventdata",
+      "anchor": "",
+      "aliases": [
+        "FU(RestoreEventData)"
+      ],
+      "label": "Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreeventdata/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestorePrevKeyModsState",
+      "kind": "function",
+      "slug": "framework/functions/restoreprevkeymodsstate",
+      "anchor": "",
+      "aliases": [
+        "FU(RestorePrevKeyModsState)"
+      ],
+      "label": "Restores key and modifier globals after a nested event.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevkeymodsstate/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestorePrevMouseEventData",
+      "kind": "function",
+      "slug": "framework/functions/restoreprevmouseeventdata",
+      "anchor": "",
+      "aliases": [
+        "FU(RestorePrevMouseEventData)"
+      ],
+      "label": "Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/restoreprevmouseeventdata/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaveEventData",
+      "kind": "function",
+      "slug": "framework/functions/saveeventdata",
+      "anchor": "",
+      "aliases": [
+        "FU(SaveEventData)"
+      ],
+      "label": "Pushes integer arguments onto the event stack. RestoreEventData must receive the same number of outputs in the same order. A zero-argument call exits before RestoreErmTracking.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveeventdata/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaveGame",
+      "kind": "function",
+      "slug": "framework/functions/savegame",
+      "anchor": "",
+      "aliases": [
+        "FU(SaveGame)"
+      ],
+      "label": "Saves using a name without extension. Defaults: appendExtension=TRUE, compressFile=TRUE, saveToData=FALSE, markInList=TRUE. Calls the native save address and may change the dialog selection.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/savegame/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaveIni",
+      "kind": "function",
+      "slug": "framework/functions/saveini",
+      "anchor": "",
+      "aliases": [
+        "FU(SaveIni)"
+      ],
+      "label": "Writes the INI cache to disk and creates parent directories. Loads the original file first if no cache exists.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveini/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SavePrevKeyModsState",
+      "kind": "function",
+      "slug": "framework/functions/saveprevkeymodsstate",
+      "anchor": "",
+      "aliases": [
+        "FU(SavePrevKeyModsState)"
+      ],
+      "label": "Saves 11 key and modifier globals for a nested event.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevkeymodsstate/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SavePrevMouseEventData",
+      "kind": "function",
+      "slug": "framework/functions/saveprevmouseeventdata",
+      "anchor": "",
+      "aliases": [
+        "FU(SavePrevMouseEventData)"
+      ],
+      "label": "Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/saveprevmouseeventdata/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "State and dependencies",
+              "Related functions",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScanDir",
+      "kind": "function",
+      "slug": "framework/functions/scandir",
+      "anchor": "",
+      "aliases": [
+        "FU(ScanDir)"
+      ],
+      "label": "Clears a supplied string array and fills names excluding . and ... itemsType is SCAN_* (files and directories by default); fullPaths prefixes the path (FALSE). The early exit after FindFirstFileA does not restore v1 in this snapshot.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/scandir/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShowAnimatedDefDlg",
+      "kind": "function",
+      "slug": "framework/functions/showanimateddefdlg",
+      "anchor": "",
+      "aliases": [
+        "FU(ShowAnimatedDefDlg)"
+      ],
+      "label": "Shows an OK message with an animated DEF. With an absent/empty DEF name, uses ordinary IF:M1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/showanimateddefdlg/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SplitMix32",
+      "kind": "function",
+      "slug": "framework/functions/splitmix32",
+      "anchor": "",
+      "aliases": [
+        "FU(SplitMix32)"
+      ],
+      "label": "P?seed/?result yields an int32; P?seed/min/max/?result yields an inclusive-range value. Seed changes and must use ?. Does not use the ordinary VR:R state.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/splitmix32/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sqrt",
+      "kind": "function",
+      "slug": "framework/functions/sqrt",
+      "anchor": "",
+      "aliases": [
+        "FU(Sqrt)"
+      ],
+      "label": "Float square root. Input/output are floating point and e1 changes. Negative inputs have no real square root.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/sqrt/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrPos",
+      "kind": "function",
+      "slug": "framework/functions/strpos",
+      "anchor": "",
+      "aliases": [
+        "FU(StrPos)"
+      ],
+      "label": "Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strpos/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrReplace",
+      "kind": "function",
+      "slug": "framework/functions/strreplace",
+      "anchor": "",
+      "aliases": [
+        "FU(StrReplace)"
+      ],
+      "label": "Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strreplace/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrToLower",
+      "kind": "function",
+      "slug": "framework/functions/strtolower",
+      "anchor": "",
+      "aliases": [
+        "FU(StrToLower)"
+      ],
+      "label": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtolower/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrToUpper",
+      "kind": "function",
+      "slug": "framework/functions/strtoupper",
+      "anchor": "",
+      "aliases": [
+        "FU(StrToUpper)"
+      ],
+      "label": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtoupper/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "constants",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status",
+              "Constants used"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Substr",
+      "kind": "function",
+      "slug": "framework/functions/substr",
+      "anchor": "",
+      "aliases": [
+        "FU(Substr)"
+      ],
+      "label": "Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative.",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/substr/"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+            "fromAnchor": "purpose",
+            "toAnchor": "provenance",
+            "headings": [
+              "Purpose",
+              "Call contract",
+              "Parameter order",
+              "State and dependencies",
+              "Version and status"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

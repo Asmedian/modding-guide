@@ -1,0 +1,811 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "GAME_SETTING_COMBAT_SHADE_LEVEL",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-shade-level",
+      "aliases": [],
+      "label": "GAME_SETTING_COMBAT_SHADE_LEVEL = 6916116",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-combat-shade-level"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_COMBAT_SPEED",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-combat-speed",
+      "aliases": [],
+      "label": "GAME_SETTING_COMBAT_SPEED = 6916156",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-combat-speed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_COMP_WALK_SPEED",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-comp-walk-speed",
+      "aliases": [],
+      "label": "GAME_SETTING_COMP_WALK_SPEED = 6916008",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-comp-walk-speed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_FIRST_TIME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-first-time",
+      "aliases": [],
+      "label": "GAME_SETTING_FIRST_TIME = 6919540",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-first-time"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_LAST_MUSIC_VOLUME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-last-music-volume",
+      "aliases": [],
+      "label": "GAME_SETTING_LAST_MUSIC_VOLUME = 6916024",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-last-music-volume"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_LAST_SOUND_VOLUME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-last-sound-volume",
+      "aliases": [],
+      "label": "GAME_SETTING_LAST_SOUND_VOLUME = 6916028",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-last-sound-volume"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_MAIN_GAME_FULL_SCREEN",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-full-screen",
+      "aliases": [],
+      "label": "GAME_SETTING_MAIN_GAME_FULL_SCREEN = 6916104",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-main-game-full-screen"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_MAIN_GAME_SHOW_MENU",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-show-menu",
+      "aliases": [],
+      "label": "GAME_SETTING_MAIN_GAME_SHOW_MENU = 6916092",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-main-game-show-menu"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_MAIN_GAME_X",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-x",
+      "aliases": [],
+      "label": "GAME_SETTING_MAIN_GAME_X = 6916096",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-main-game-x"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_MAIN_GAME_Y",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-main-game-y",
+      "aliases": [],
+      "label": "GAME_SETTING_MAIN_GAME_Y = 6916100",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-main-game-y"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_MOVE_REMINDER",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-move-reminder",
+      "aliases": [],
+      "label": "GAME_SETTING_MOVE_REMINDER = 6916040",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-move-reminder"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_MUSIC_VOLUME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-music-volume",
+      "aliases": [],
+      "label": "GAME_SETTING_MUSIC_VOLUME = 6916016",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-music-volume"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_NETWORK_DEF_NAME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-network-def-name",
+      "aliases": [],
+      "label": "GAME_SETTING_NETWORK_DEF_NAME = 6916199",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-network-def-name"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_QUICK_COMBAT",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-quick-combat",
+      "aliases": [],
+      "label": "GAME_SETTING_QUICK_COMBAT = 6916044",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-quick-combat"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_COMBAT_GRID",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-combat-grid",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_COMBAT_GRID = 6916108",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-show-combat-grid"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-combat-mouse-hex",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX = 6916112",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-show-combat-mouse-hex"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_INTRO",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-intro",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_INTRO = 6919184",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-show-intro"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SHOW_ROUTE",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-show-route",
+      "aliases": [],
+      "label": "GAME_SETTING_SHOW_ROUTE = 6916036",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-show-route"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_SOUND_VOLUME",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-sound-volume",
+      "aliases": [],
+      "label": "GAME_SETTING_SOUND_VOLUME = 6916020",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-sound-volume"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_TEST_BLIT",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-test-blit",
+      "aliases": [],
+      "label": "GAME_SETTING_TEST_BLIT = 6919552",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-test-blit"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_TEST_DECOMP",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-test-decomp",
+      "aliases": [],
+      "label": "GAME_SETTING_TEST_DECOMP = 6919544",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-test-decomp"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_TEST_READ",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-test-read",
+      "aliases": [],
+      "label": "GAME_SETTING_TEST_READ = 6919548",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-test-read"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_TOWN_OUTLINES",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-town-outlines",
+      "aliases": [],
+      "label": "GAME_SETTING_TOWN_OUTLINES = 6916052",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-town-outlines"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_UNIQUE_SYSTEM_ID",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-unique-system-id",
+      "aliases": [],
+      "label": "GAME_SETTING_UNIQUE_SYSTEM_ID = 6916152",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-unique-system-id"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_VIDEO_SUBTITLES",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-video-subtitles",
+      "aliases": [],
+      "label": "GAME_SETTING_VIDEO_SUBTITLES = 6916048",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-video-subtitles"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_WALK_SPEED",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-walk-speed",
+      "aliases": [],
+      "label": "GAME_SETTING_WALK_SPEED = 6916012",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-walk-speed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_SETTING_WINDOW_SCROLL_SPEED",
+      "kind": "constant",
+      "slug": "framework/constants/game-settings",
+      "anchor": "const-game-setting-window-scroll-speed",
+      "aliases": [],
+      "label": "GAME_SETTING_WINDOW_SCROLL_SPEED = 6916060",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/#const-game-setting-window-scroll-speed"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_TYPE_DIRECT_CONNECT",
+      "kind": "constant",
+      "slug": "framework/constants/game-types",
+      "anchor": "const-game-type-direct-connect",
+      "aliases": [],
+      "label": "GAME_TYPE_DIRECT_CONNECT = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/#const-game-type-direct-connect"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_TYPE_HOTSEAT",
+      "kind": "constant",
+      "slug": "framework/constants/game-types",
+      "anchor": "const-game-type-hotseat",
+      "aliases": [],
+      "label": "GAME_TYPE_HOTSEAT = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/#const-game-type-hotseat"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_TYPE_IPX",
+      "kind": "constant",
+      "slug": "framework/constants/game-types",
+      "anchor": "const-game-type-ipx",
+      "aliases": [],
+      "label": "GAME_TYPE_IPX = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/#const-game-type-ipx"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_TYPE_MODEM",
+      "kind": "constant",
+      "slug": "framework/constants/game-types",
+      "anchor": "const-game-type-modem",
+      "aliases": [],
+      "label": "GAME_TYPE_MODEM = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/#const-game-type-modem"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

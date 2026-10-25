@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.array-find",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-find",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-find/",
+      "title": "Array_Find",
+      "summary": "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0.",
+      "keywords": [
+        "Array_Find",
+        "FU(Array_Find)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Calls callback(value,?found,listId,customArg) until the first TRUE. Returns an index or -1; string values are ERM strings. found and optional customArg default to 0."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1124-1165-array-find"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-indexof",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-indexof",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-indexof/",
+      "title": "Array_IndexOf",
+      "summary": "Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive.",
+      "keywords": [
+        "Array_IndexOf",
+        "FU(Array_IndexOf)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Returns the first matching index or -1. Integers compare exactly; strings optionally use caseInsensitive."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1085-1123-array-indexof"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-join",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-join",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-join/",
+      "title": "Array_Join",
+      "summary": "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^.",
+      "keywords": [
+        "Array_Join",
+        "FU(Array_Join)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Joins integer or string elements using gluePtr, empty by default. Returns an ERM string and uses/clears s^result^ and s^temp^."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-744-780-array-join"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-merge",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-merge",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-merge/",
+      "title": "Array_Merge",
+      "summary": "Appends one or more arrays to dstArray. All element types must match; the destination is modified.",
+      "keywords": [
+        "Array_Merge",
+        "FU(Array_Merge)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Appends one or more arrays to dstArray. All element types must match; the destination is modified."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-631-688-array-merge"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-move",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-move",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-move/",
+      "title": "Array_Move",
+      "summary": "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use.",
+      "keywords": [
+        "Array_Move",
+        "FU(Array_Move)",
+        "requires-review",
+        "arrays"
+      ],
+      "questions": [
+        "Moves length elements from offset to destInd within an array without resizing; handles overlap and clips at the end. This snapshot declares destInd with !#VR instead of !#VA: verify the library correction before use."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-446-517-array-move"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-pop",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-pop",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-pop/",
+      "title": "Array_Pop",
+      "summary": "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings.",
+      "keywords": [
+        "Array_Pop",
+        "FU(Array_Pop)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Removes trailing elements; up to 15 outputs receive values from last to first. With no outputs, removes one element. Missing values become 0 or empty strings."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-401-445-array-pop"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-push",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-push",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-push/",
+      "title": "Array_Push",
+      "summary": "Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped.",
+      "keywords": [
+        "Array_Push",
+        "FU(Array_Push)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Appends up to 15 values and grows the array. Values must match its element type. An invalid array is skipped."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-376-400-array-push"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-resize",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-resize",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-resize/",
+      "title": "Array_Resize",
+      "summary": "Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed.",
+      "keywords": [
+        "Array_Resize",
+        "FU(Array_Resize)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Resizes an array. New items receive 0/empty text or fillValue; existing items remain, truncated items are removed."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1011-1040-array-resize"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-revert",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-revert",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-revert/",
+      "title": "Array_Revert",
+      "summary": "Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings.",
+      "keywords": [
+        "Array_Revert",
+        "FU(Array_Revert)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Reverses the entire array or an inclusive range, defaulting to 0..size-1. Supports integers and strings."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-956-981-array-revert"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-shuffle",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-shuffle",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-shuffle/",
+      "title": "Array_Shuffle",
+      "summary": "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic.",
+      "keywords": [
+        "Array_Shuffle",
+        "FU(Array_Shuffle)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Shuffles items in place using VR:R and swaps. String pointers are swapped without copying text. Verify RNG synchronization for multiplayer logic."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-934-955-array-shuffle"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-slice",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-slice",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-slice/",
+      "title": "Array_Slice",
+      "summary": "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result.",
+      "keywords": [
+        "Array_Slice",
+        "FU(Array_Slice)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Copies a range to a new array. Negative start/count mean an end-relative start/trailing exclusion. Default storage is M_TRIGGER_LOCAL. An empty or invalid source returns NULL; check the result."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-689-743-array-slice"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.array-sort",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/array-sort",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/array-sort/",
+      "title": "Array_Sort",
+      "summary": "Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped.",
+      "keywords": [
+        "Array_Sort",
+        "FU(Array_Sort)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Sorts an array or inclusive startInd..endInd range in ascending order. Defaults to 0..size-1; bounds are clipped."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-781-812-array-sort"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-004.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}

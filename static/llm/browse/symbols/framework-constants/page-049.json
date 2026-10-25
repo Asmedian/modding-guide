@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "PIC_TYPE_RAMPART_TOWN_BUILDING",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-rampart-town-building",
+      "aliases": [],
+      "label": "PIC_TYPE_RAMPART_TOWN_BUILDING = 23",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-rampart-town-building"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_CRYSTAL",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-crystal",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_CRYSTAL = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-crystal"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_FIRST",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-first",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_FIRST = (PIC_TYPE_RES_WOOD)",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-first"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_GEMS",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-gems",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_GEMS = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-gems"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_GOLD",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-gold",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_GOLD = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-gold"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_LAST",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-last",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_LAST = (PIC_TYPE_RES_MITHRIL)",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-last"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_MERCURY",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-mercury",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_MERCURY = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-mercury"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_MITHRIL",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-mithril",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_MITHRIL = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-mithril"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_ORE",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-ore",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_ORE = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-ore"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_SULFUR",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-sulfur",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_SULFUR = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-sulfur"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_RES_WOOD",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-res-wood",
+      "aliases": [],
+      "label": "PIC_TYPE_RES_WOOD = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-res-wood"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SEC_SKILL",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-sec-skill",
+      "aliases": [],
+      "label": "PIC_TYPE_SEC_SKILL = 20",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-sec-skill"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SKILL_ATTACK",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-skill-attack",
+      "aliases": [],
+      "label": "PIC_TYPE_SKILL_ATTACK = 31",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-skill-attack"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SKILL_DEFENSE",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-skill-defense",
+      "aliases": [],
+      "label": "PIC_TYPE_SKILL_DEFENSE = 32",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-skill-defense"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SKILL_KNOWLEDGE",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-skill-knowledge",
+      "aliases": [],
+      "label": "PIC_TYPE_SKILL_KNOWLEDGE = 34",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-skill-knowledge"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SKILL_POWER",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-skill-power",
+      "aliases": [],
+      "label": "PIC_TYPE_SKILL_POWER = 33",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-skill-power"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SPELL",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-spell",
+      "aliases": [],
+      "label": "PIC_TYPE_SPELL = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-spell"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_SPELL_POINTS",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-spell-points",
+      "aliases": [],
+      "label": "PIC_TYPE_SPELL_POINTS = 35",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-spell-points"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_STRONGHOLD_TOWN_BUILDING",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-stronghold-town-building",
+      "aliases": [],
+      "label": "PIC_TYPE_STRONGHOLD_TOWN_BUILDING = 28",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-stronghold-town-building"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PIC_TYPE_TOWER_TOWN_BUILDING",
+      "kind": "constant",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "anchor": "const-pic-type-tower-town-building",
+      "aliases": [],
+      "label": "PIC_TYPE_TOWER_TOWN_BUILDING = 24",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/#const-pic-type-tower-town-building"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_BLUE",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-blue",
+      "aliases": [],
+      "label": "PLAYER_BIT_BLUE = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-blue"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_GREEN",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-green",
+      "aliases": [],
+      "label": "PLAYER_BIT_GREEN = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-green"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_ORANGE",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-orange",
+      "aliases": [],
+      "label": "PLAYER_BIT_ORANGE = 16",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-orange"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_PINK",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-pink",
+      "aliases": [],
+      "label": "PLAYER_BIT_PINK = 128",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-pink"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_PURPLE",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-purple",
+      "aliases": [],
+      "label": "PLAYER_BIT_PURPLE = 32",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-purple"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_RED",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-red",
+      "aliases": [],
+      "label": "PLAYER_BIT_RED = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-red"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_TAN",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-tan",
+      "aliases": [],
+      "label": "PLAYER_BIT_TAN = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-tan"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BIT_TEAL",
+      "kind": "constant",
+      "slug": "framework/constants/player-bits",
+      "anchor": "const-player-bit-teal",
+      "aliases": [],
+      "label": "PLAYER_BIT_TEAL = 64",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/player-bits/#const-player-bit-teal"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_BLUE",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-blue",
+      "aliases": [],
+      "label": "PLAYER_BLUE = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-blue"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_FIRST",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-first",
+      "aliases": [],
+      "label": "PLAYER_FIRST = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-first"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_GREEN",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-green",
+      "aliases": [],
+      "label": "PLAYER_GREEN = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-green"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

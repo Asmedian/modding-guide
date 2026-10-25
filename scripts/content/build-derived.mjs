@@ -1,12 +1,13 @@
 import { mkdirSync, readFileSync, readdirSync, writeFileSync, rmSync } from 'node:fs';
-import { dirname, join, relative } from 'node:path';
+import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildSymbols } from './build-symbols.mjs';
+import { buildLlmCatalog, englishLlmRecord, englishLlmEntity } from './build-llm.mjs';
 import { referenceText, referenceSegments } from '../../src/lib/reference/rich.mjs';
 import { prepareArticleMarkdown } from '../../src/lib/content/publication.mjs';
 
 const projectRoot = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
-const sections = ['docs', 'erm', 'plugins'];
+const sections = ['docs', 'wiki', 'erm', 'plugins'];
 const contentRoots = sections.map((section) => join(projectRoot, 'content', section));
 const generatedRoot = join(projectRoot, 'src', 'lib', 'generated');
 const staticRoot = join(projectRoot, 'static');
@@ -131,36 +132,58 @@ writeFileSync(
   'utf8'
 );
 
+const llmEntities = entities.filter((entry) => entry.locale === 'en').map(englishLlmEntity);
+const llmSources = englishLlmRecord(sources);
 const manifest = {
-  schemaVersion: 1,
+  schemaVersion: 2,
+  language: 'en',
   generatedAt: process.env.SOURCE_DATE_EPOCH ? new Date(Number(process.env.SOURCE_DATE_EPOCH) * 1000).toISOString() : null,
   scope: sections,
-  deferredSections: ['erm/learn', 'lua'],
+  deferredSections: ['lua'],
   sources: publicUrl('/llm/sources.json'),
   reference: publicUrl('/llm/reference.json'),
-  bundles: Object.fromEntries(locales.map((locale) => [locale, Object.fromEntries(sections.map((section) => [section, publicUrl(`/llm/${locale}/${section}.md`)]))])),
-  entities: entities.map(({ markdown, text, segments, ...entity }) => ({ ...entity, url: publicUrl(entity.url) }))
+  bundles: { en: Object.fromEntries(sections.map((section) => [section, publicUrl(`/llm/en/${section}.md`)])) },
+  entities: llmEntities.map(({ markdown, text, segments, ...entity }) => ({ ...entity, url: publicUrl(entity.url) }))
 };
 
-mkdirSync(join(staticRoot, 'llm', 'ru'), { recursive: true });
+// Remove the obsolete generator-owned Russian mirrors, including earlier builds.
+const llmRoot = resolve(staticRoot, 'llm');
+const russianMirror = resolve(llmRoot, 'ru');
+if (russianMirror !== join(llmRoot, 'ru') || !russianMirror.startsWith(`${llmRoot}${sep}`)) throw new Error('Unsafe LLM mirror directory');
+rmSync(russianMirror, { recursive: true, force: true });
 mkdirSync(join(staticRoot, 'llm', 'en'), { recursive: true });
-writeFileSync(join(staticRoot, 'llm', 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 
-writeFileSync(join(staticRoot, 'llm', 'sources.json'), `${JSON.stringify(sources, null, 2)}\n`, 'utf8');
+writeFileSync(join(staticRoot, 'llm', 'sources.json'), `${JSON.stringify(llmSources, null, 2)}\n`, 'utf8');
 const referenceRegistries = ['alphabet', 'receivers', 'trigger-families', 'events', 'functions', 'constants', 'globals', 'framework-events', 'framework-files', 'legacy-commands', 'legacy-links', 'assets'];
-const reference = Object.fromEntries(referenceRegistries.map((name) => [name, JSON.parse(readFileSync(join(projectRoot, 'content', 'erm', '_registry', `${name}.json`), 'utf8'))]));
+const reference = englishLlmRecord(Object.fromEntries(referenceRegistries.map((name) => [name, JSON.parse(readFileSync(join(projectRoot, 'content', 'erm', '_registry', `${name}.json`), 'utf8'))])));
 writeFileSync(join(staticRoot, 'llm', 'reference.json'), `${JSON.stringify({ schemaVersion: 1, ...reference }, null, 2)}\n`, 'utf8');
 
-for (const locale of locales) for (const section of sections) {
-  const bundle = entities
+for (const locale of ['en']) for (const section of sections) {
+  const bundle = llmEntities
     .filter((entry) => entry.locale === locale && entry.section === section)
     .map((entry) => `# ${entry.title}\n\nID: ${entry.id}\nURL: ${publicUrl(entry.url)}\nSource references: ${entry.sourceRefs.join(', ')}\n\n${entry.summary}\n\n${entry.markdown}`)
     .join('\n\n---\n\n');
   writeFileSync(join(staticRoot, 'llm', locale, `${section}.md`), `${bundle}\n`, 'utf8');
 }
 
-const compactLines = entities.map((entry) => `- ${entry.title}: ${publicUrl(entry.url)} — ${entry.summary}`);
-writeFileSync(join(staticRoot, 'llms.txt'), `# ERA Modding Guide\n\nBilingual static documentation for ERA modding.\n\nCurrent scope: general documentation, the ERM reference, and ERA plugin development with H3API and NH3API. The ERM learning course and Lua are deferred.\n\n- Manifest: ${publicUrl('/llm/manifest.json')}\n- Sources: ${publicUrl('/llm/sources.json')}\n- ERM reference registries: ${publicUrl('/llm/reference.json')}\n- Full catalog: ${publicUrl('/llms-full.txt')}\n- Russian documentation: ${publicUrl('/llm/ru/docs.md')}\n- English documentation: ${publicUrl('/llm/en/docs.md')}\n- Russian ERM reference: ${publicUrl('/llm/ru/erm.md')}\n- English ERM reference: ${publicUrl('/llm/en/erm.md')}\n- Russian plugin guide: ${publicUrl('/llm/ru/plugins.md')}\n- English plugin guide: ${publicUrl('/llm/en/plugins.md')}\n`, 'utf8');
+const wikiPages = JSON.parse(readFileSync(join(projectRoot, 'content/wiki/_registry/pages.json'), 'utf8'));
+const wikiResources = new Map();
+for (const page of wikiPages) for (const section of page.sections) for (const resource of section.resources.flatMap(resource => resource.mask ? [resource,resource.mask] : [resource])) {
+  let entry = wikiResources.get(resource.id);
+  if (!entry) {
+    entry = { ...resource, mask: undefined, maskId: resource.mask?.id, original: publicUrl(resource.original), preview: resource.preview ? publicUrl(resource.preview) : undefined, image: resource.image ? publicUrl(resource.image) : undefined, media: resource.media ? publicUrl(resource.media) : undefined, details: resource.details ? publicUrl(resource.details) : undefined, destinations: [] };
+    wikiResources.set(resource.id, entry);
+  }
+  entry.destinations.push({ category: englishLlmRecord(section.path), en: publicUrl(`/en/wiki/${page.slug}/`) });
+}
+writeFileSync(join(staticRoot, 'llm/wiki-resources.json'), `${JSON.stringify({ schemaVersion: 1, editions: ['sod'], resources: [...wikiResources.values()] }, null, 2)}\n`, 'utf8');
+
+const catalog = buildLlmCatalog({ staticRoot, entities: llmEntities, sources: llmSources, reference, wikiResources: [...wikiResources.values()], symbols: JSON.parse(readFileSync(join(generatedRoot, 'symbol-index.json'), 'utf8')), publicUrl });
+manifest.retrieval = { entrypoint: catalog.entrypoint, maxFileBytes: 48 * 1024, default: 'bounded topic catalogs and text excerpts; bundles are optional offline mirrors' };
+writeFileSync(join(staticRoot, 'llm/manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
+
+const compactLines = llmEntities.map((entry) => `- ${entry.title}: ${publicUrl(entry.url)} — ${entry.summary}`);
+writeFileSync(join(staticRoot, 'llms.txt'), `# ERA Modding Guide\n\nEnglish-only LLM reference exports: Docs, Wiki (SoD resources), ERM, native plugins, H3API and NH3API. ERM learning contains an AI-assisted introduction; Lua is deferred.\n\nStart here: ${catalog.entrypoint}\n- English section routing: ${publicUrl('/llm/browse/en/index.md')}\n- Exact ERM commands/functions/events: ${publicUrl('/llm/browse/symbols/index.json')}\n- Exact Wiki filenames and downloads: ${publicUrl('/llm/browse/wiki-resources/index.json')}\n- Source versions and locators: ${publicUrl('/llm/browse/sources/index.json')}\n- ERM registries: ${publicUrl('/llm/browse/reference/index.json')}\n\nChoose relevant sections and topics, open a matching catalog page, then the ordered text parts. Typical files target 24 KiB; every browse file is at most 48 KiB. All exports use English; answer in the requested language without loading translated copies. Read complete command contracts, follow cross-section relations, cite canonical article URLs and anchors, distinguish evidence from assumptions and in-game testing. If browsing is unavailable, request the specific files instead of claiming to have read them.\n\nOptional bulk/offline mirrors (large; never fetch by default):\n- Manifest: ${publicUrl('/llm/manifest.json')}\n- Full catalog: ${publicUrl('/llms-full.txt')}\n${['en'].flatMap(locale => sections.map(section => `- ${locale}/${section}: ${publicUrl(`/llm/${locale}/${section}.md`)}`)).join('\n')}\n`, 'utf8');
 writeFileSync(join(staticRoot, 'llms-full.txt'), `# ERA Modding Guide — full catalog\n\n${compactLines.join('\n')}\n`, 'utf8');
 
 if (siteOrigin) {

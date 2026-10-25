@@ -4,6 +4,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { prepareArticleMarkdown } from '../../src/lib/content/publication.mjs';
 import { renderReference, referenceText } from '../../src/lib/reference/rich.mjs';
+import { englishLlmRecord } from '../../scripts/content/build-llm.mjs';
 const root=join(import.meta.dirname,'../..');
 const json=p=>JSON.parse(readFileSync(join(root,p),'utf8'));
 const read=p=>readFileSync(join(root,p),'utf8').replaceAll('\r\n','\n');
@@ -12,12 +13,12 @@ const walk=d=>readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?wal
 test('LLM export resolves every published entity, relation, section source and complete article body', () => {
  const manifest=json('static/llm/manifest.json');
  const sources=json('static/llm/sources.json');
- assert.deepEqual(sources,json('content/_sources/sources.json'));
+ assert.deepEqual(sources,englishLlmRecord(json('content/_sources/sources.json')));
  const sourceIds=new Set(sources.map(s=>s.id));
  const expected=walk(join(root,'content')).map(p=>({p,meta:JSON.parse(readFileSync(p,'utf8'))})).filter(x=>x.meta.status==='published');
- const bundles=Object.fromEntries(['ru','en'].flatMap(locale=>manifest.scope.map(section=>[`${locale}/${section}`,read(`static/llm/${locale}/${section}.md`)])));
- assert.deepEqual(new Set(manifest.entities.map(x=>`${x.id}:${x.locale}`)),new Set(expected.flatMap(x=>['ru','en'].map(lang=>`${x.meta.id}:${lang}`))));
- for(const {p,meta} of expected) for(const locale of ['ru','en']){
+ const bundles=Object.fromEntries(['en'].flatMap(locale=>manifest.scope.map(section=>[`${locale}/${section}`,read(`static/llm/${locale}/${section}.md`)])));
+ assert.deepEqual(new Set(manifest.entities.map(x=>`${x.id}:${x.locale}`)),new Set(expected.map(x=>`${x.meta.id}:en`)));
+ for(const {p,meta} of expected) for(const locale of ['en']){
    const entry=manifest.entities.find(x=>x.id===meta.id&&x.locale===locale);
    assert.deepEqual(entry.sourceRefs,meta.sourceRefs,meta.id);
    assert.deepEqual(entry.sectionSources,meta.sectionSources??{},meta.id);
@@ -35,11 +36,12 @@ test('LLM export resolves every published entity, relation, section source and c
    for(const part of parts)assert.ok(bundle.includes(part),`${locale}: ${meta.id}: complete body`);
  }
  const reference=json('static/llm/reference.json');
- for(const [name,data] of Object.entries(reference))if(name!=='schemaVersion')assert.deepEqual(data,json(`content/erm/_registry/${name}.json`),name);
+ for(const [name,data] of Object.entries(reference))if(name!=='schemaVersion')assert.deepEqual(data,englishLlmRecord(json(`content/erm/_registry/${name}.json`)),name);
  for(const locale of ['ru','en']){
    const map=read(`content/docs/llm-map/${locale}.md`);
    assert.doesNotMatch(map,/\{#limits\}|not part of the current manifest|не входят в текущий manifest/);
-   for(const lang of ['ru','en'])for(const section of manifest.scope)assert.ok(map.includes(`/llm/${lang}/${section}.md`));
+   for(const section of manifest.scope)assert.ok(map.includes(`/llm/en/${section}.md`));
+   assert.doesNotMatch(map,/\/llm\/(?:browse\/)?ru\//);
  }
 });
 

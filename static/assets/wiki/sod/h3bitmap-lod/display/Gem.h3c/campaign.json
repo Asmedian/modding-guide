@@ -1,0 +1,703 @@
+{
+  "name": "New Beginning",
+  "description": "Gem arrives from Enroth fresh from the Succession Wars.  She first helps the Clovergreen Militia and then aids a wizard's apprentice against the Necromancers of Deyja.",
+  "version": "SoD",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 42768,
+    "objects": 6640,
+    "towns": 30,
+    "monsters": 360,
+    "factions": {
+      "Necropolis": 15,
+      "Rampart": 12,
+      "Castle": 3
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Gem2.h3m",
+      "regionText": "You have agreed to take command of the town of Clovergreen's militia and clear this area of the border of undead raiders.",
+      "prologText": "It is hard to believe a year has passed since Archibald and his Necromancer allies were defeated, ending the Succession Wars.  In that time I have been living a nightmare, for I see the ghosts of the fallen all throughout Enroth.  I hope my former teacher, Amanda, is right.  I hope moving to a new land, to Antagarich, will still the ghosts of the war.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": -3,
+          "amount": 10
+        },
+        {
+          "type": 7,
+          "resourceType": 4,
+          "amount": 8
+        },
+        {
+          "type": 2,
+          "buildingId": 11
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-1.h3m",
+      "name": "Clearing the Border",
+      "description": "Defeat all your enemies to win the scenario.  However, if Gem is defeated in combat, the scenario is lost.  Gem is limited to level 10 but will carry her experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 13,
+          "mainTownY": 14,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 66,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 66,
+              "name": ""
+            },
+            {
+              "id": 78,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 18,
+          "mainTownY": 69,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 27,
+          "mainHeroPortrait": 160,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 27,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 18,
+        "y": 70,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 4,
+        "Rampart": 4
+      },
+      "objects": 1255,
+      "towns": 8,
+      "monsters": 57,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Gem1.h3m",
+      "regionText": "You have agreed to help a wizard's apprentice named Sandro.  Sandro's master, Ethric, needs an Amulet of the Undertaker to perform anti-necromancy research, but Ethric is an academician and Sandro is too inexperienced to go after the Amulet himself.",
+      "prologText": "I have met a Wizard named Sandro who is conducting research to combat necromancy.  He is creating a magical amulet, which will ward off the undead and wants to pay me a large sum of gold to find the pieces he needs to construct it.  He seems to think me quite the mercenary.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 7
+        },
+        {
+          "type": 7,
+          "resourceType": 0,
+          "amount": 15
+        },
+        {
+          "type": 5,
+          "heroId": 27,
+          "stats": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-2.h3m",
+      "name": "After the Amulet",
+      "description": "Acquire the Amulet of the Undertaker to win the scenario.  However, if Gem or Clancy are defeated in combat, the scenario is lost.  Your heroes are limited to level 15, but Gem and Clancy will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 55,
+          "mainTownY": 18,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 71,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 71,
+              "name": ""
+            },
+            {
+              "id": 76,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 17,
+          "mainTownY": 59,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 22,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 22,
+              "name": ""
+            },
+            {
+              "id": 27,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": true,
+        "artifactId": 54
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 18,
+        "y": 60,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 2,
+        "Necropolis": 3,
+        "Castle": 3
+      },
+      "objects": 1242,
+      "towns": 8,
+      "monsters": 79,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Gem3.h3m",
+      "regionText": "Terek, Sandro's agent, managed to steal a Vampire's Cowl.  Unfortunately, on his way across the Border Lands bandits captured him.  You must ransom Terek and obtain the Cowl.",
+      "prologText": "When I delivered the Amulet of the Undertaker to Sandro, he told me he had also hired a Barbarian named Tarek to locate another artifact, The Vampire's Cowl.  However, Tarek is long overdue and Sandro fears for his life.  From what I can see, bandits have captured Tarek and are holding him for ransom in an underground prison near the Deyja border.",
+      "preconditions": 2,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 0
+        },
+        {
+          "type": 7,
+          "resourceType": 0,
+          "amount": 15
+        },
+        {
+          "type": 5,
+          "heroId": 27,
+          "stats": [
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-3.h3m",
+      "name": "Retrieving the Cowl",
+      "description": "Bring the Vampire's Cowl to the town of Leafhall to win the scenario.  However, if Gem or Clancy are defeated in combat or you lose the Cowl, the scenario is lost.  Your heroes are limited to level 20, but Gem and Clancy will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 42,
+          "mainTownY": 62,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 73,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 68,
+              "name": ""
+            },
+            {
+              "id": 73,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 25,
+          "mainTownY": 29,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 22,
+              "name": ""
+            },
+            {
+              "id": 27,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 10,
+        "name": "Transport artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 55,
+        "x": 9,
+        "y": 11,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 24,
+        "y": 30,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 3,
+        "Necropolis": 4
+      },
+      "objects": 1260,
+      "towns": 7,
+      "monsters": 107,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Gem4.h3m",
+      "regionText": "The last item Gem needs to acquire for Sandro's master is very close to the Deyja border, maybe even inside the border.  The Deyjan Border Lords are not going to be happy with Gem's presence.",
+      "prologText": "I begin my quest for the last item Sandro needs - the Dead Man's Boots.  Unlike the other artifacts, these may actually be inside Deyja, for the borders are in dispute.  One thing is certain: there will be several Deyjan Border Lords in the area, and they will not like me being there.  This is going to be a tough fight, but it will be worth it.  Important things are never free.",
+      "epilogText": "Sandro has tricked me!  But to what purpose?  Why would he run off with the Dead Man's Boots without paying me?  Did he keep the money for himself?  Did he give Ethric the other artifacts?  He certainly couldn't have been an agent for Deyja - the undead troops I destroyed to get the artifacts were worth more than the artifacts themselves.  None of this makes sense!  I will have to write to Ethric in Bracada and tell Lord Fayette about this immediately.",
+      "preconditions": 4,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 4000
+        },
+        {
+          "type": 7,
+          "resourceType": 0,
+          "amount": 15
+        },
+        {
+          "type": 7,
+          "resourceType": 4,
+          "amount": 7
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-4.h3m",
+      "name": "Driving for the Boots",
+      "description": "Take the Dead Man's Boots to Gem's starting town to win the campaign.  However, if Gem or Clancy are defeated in battle or you lose the boots, the scenario is lost.  Your heroes will be limited to level 25, but Gem will carry her experience, skills and spells on to her next campaign.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 72,
+          "mainTownY": 58,
+          "mainTownZ": 0,
+          "hasRandomHero": true,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 53,
+          "mainTownY": 16,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 22,
+              "name": ""
+            },
+            {
+              "id": 27,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 58,
+          "mainTownY": 85,
+          "mainTownZ": 0,
+          "hasRandomHero": true,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 42,
+          "mainTownY": 42,
+          "mainTownZ": 0,
+          "hasRandomHero": true,
+          "mainHeroId": 255,
+          "heroes": []
+        }
+      ],
+      "playerCount": 4,
+      "victory": {
+        "type": 10,
+        "name": "Transport artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 56,
+        "x": 53,
+        "y": 16,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 54,
+        "y": 17,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 3,
+        "Necropolis": 4
+      },
+      "objects": 2883,
+      "towns": 7,
+      "monsters": 117,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gem.h3c/scenario-4-0.png"
+        }
+      ]
+    }
+  ]
+}

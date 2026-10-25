@@ -1,0 +1,483 @@
+{
+  "name": "Seeds of Discontent",
+  "description": "With the invaders finally driven out of the Contested Lands, the time has come to rebuild.  But one man, Faruk Wlenin, has chosen to free the Contested Lands from Erathia and AvLee forever.",
+  "version": "AB",
+  "scenarioCount": 3,
+  "mapCount": 3,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 15552,
+    "objects": 5369,
+    "towns": 10,
+    "monsters": 187,
+    "factions": {
+      "Rampart": 7,
+      "Castle": 3
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Secret-1a.h3m",
+      "regionText": "Before we can declare our independence we will need a symbol. That symbol is the Grail, which was lost in this area centuries ago. We must find it, or our plan will dissolve even before we can set it in motion. You have but three months to locate the Grail.",
+      "prologText": "For the first time in the history of the Contested Lands, humans and elves have fought alongside one another to defend the region from invaders. When the celebration is over, old hatreds will return and we will be citizens of a land in conflict. We must think about the future of the Contested Lands.  It is time to shape its future.  If our fight for independence is to succeed, we need something greater than our armies to motivate the populous. We need a symbolic cornerstone. Seek out the Grail in the enchanted lands where the Unicorns converse with the trees.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 16,
+          "artifactId": 98
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 5000
+        },
+        {
+          "type": 1,
+          "heroId": 16,
+          "creatureId": 20,
+          "amount": 4
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret1.h3c/scenario-1.h3m",
+      "name": "The Grail",
+      "description": "To win, you must find the Grail within 2 months.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 16,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 16,
+              "name": ""
+            },
+            {
+              "id": 25,
+              "name": ""
+            },
+            {
+              "id": 28,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 1,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 2
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 56
+      },
+      "factions": {
+        "Rampart": 1
+      },
+      "objects": 1711,
+      "towns": 1,
+      "monsters": 37,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret1.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Secret-1c.h3m",
+      "regionText": "The Grail has reached Welnin, but now we must build this city into a capital. Armies from Erathia and AvLee shall attack us from all directions. Soon we shall prove that the Contested Lands are theirs no more!",
+      "prologText": "We have come far very quickly. Armies from Erathia and AvLee have arrived to 'restore order.' This jeopardizes our quest for independence, and such hostile elements could ignite a larger war. It is our duty to establish Welnin as the capitol of the Contested Lands and the drive rule of Erathia and AvLee from this territory. If we do not, we will lose all we have fought for and two great nations may once again re-enact the carnage of the Timber Wars.  Today we declare our independence from the nations of Erathia and AvLee.",
+      "preconditions": 4,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 0,
+          "amount": 12
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 23,
+          "amount": 3
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 22,
+          "amount": 6
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret1.h3c/scenario-2.h3m",
+      "name": "Independence",
+      "description": "To win, you must build a Capitol in the town of Welnin. Only then will the Contested Lands be free!",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 11,
+          "mainTownY": 62,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 60,
+          "mainTownY": 11,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 34,
+          "mainTownY": 35,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 3,
+        "name": "Upgrade town",
+        "allowNormalVictory": false,
+        "appliesToComputer": true,
+        "x": 34,
+        "y": 35,
+        "z": 0,
+        "hallLevel": 2,
+        "castleLevel": 0
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Castle": 1,
+        "Rampart": 4
+      },
+      "objects": 1711,
+      "towns": 5,
+      "monsters": 64,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret1.h3c/scenario-2-0.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Secret-1b.h3m",
+      "regionText": "The journey to Welnin has not been easy, but it is the last leg of the journey that will be the most difficult. The Ranger, Ryland, has the Grail, and must elude the forces loyal to Erathia and AvLee to reach Welnin. Once there, he must order the construction of a permanent home for the Grail.",
+      "prologText": "Our cause is public.  Ironically, many humans have joined the elfin population in our vision of an independent state. Already, factions loyal to Erathia and AvLee organize to stop us. We cannot continue without a strong base of operations. Faruk Welnin, mayor of the town of Welnin, has sent a messenger.  He offers his protection and support. Our war for independence begins now. We must fight our way to Welnin and establish the Grail. When we have accomplished this, Welnin will become our foundation.",
+      "preconditions": 1,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 13
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 5000
+        },
+        {
+          "type": 1,
+          "heroId": 19,
+          "creatureId": 23,
+          "amount": 3
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret1.h3c/scenario-3.h3m",
+      "name": "The Road Home",
+      "description": "To win, the Ranger, Ryland, must reach the town of Welnin with the Grail, and build it a permanent home.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 14,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 2,
+              "name": ""
+            },
+            {
+              "id": 14,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 16,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 16,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 60,
+          "mainTownY": 63,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 19,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 19,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 4,
+        "name": "Build Grail structure",
+        "allowNormalVictory": true,
+        "appliesToComputer": true,
+        "x": 60,
+        "y": 63,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 2,
+        "Castle": 2
+      },
+      "objects": 1947,
+      "towns": 4,
+      "monsters": 86,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret1.h3c/scenario-3-0.png"
+        }
+      ]
+    }
+  ]
+}

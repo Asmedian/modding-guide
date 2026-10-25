@@ -1,0 +1,895 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "NO_TOWN",
+      "kind": "constant",
+      "slug": "framework/constants/towns",
+      "anchor": "const-no-town",
+      "aliases": [],
+      "label": "NO_TOWN = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/towns/#const-no-town"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NULL",
+      "kind": "constant",
+      "slug": "framework/constants/universal",
+      "anchor": "const-null",
+      "aliases": [],
+      "label": "NULL = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/universal/#const-null"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NUM_PLAYERS",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-num-players",
+      "aliases": [],
+      "label": "NUM_PLAYERS = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-num-players"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NUM_PRIMARY_SKILLS",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-num-primary-skills",
+      "aliases": [],
+      "label": "NUM_PRIMARY_SKILLS = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-num-primary-skills"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NUM_SECONDARY_SKILLS",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-num-secondary-skills",
+      "aliases": [],
+      "label": "NUM_SECONDARY_SKILLS = 28",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-num-secondary-skills"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_ALTAR_OF_SACRIFICE",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-altar-of-sacrifice",
+      "aliases": [],
+      "label": "OBJ_ALTAR_OF_SACRIFICE = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-altar-of-sacrifice"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_ANCHOR_POINT",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-anchor-point",
+      "aliases": [],
+      "label": "OBJ_ANCHOR_POINT = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-anchor-point"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_ARENA",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-arena",
+      "aliases": [],
+      "label": "OBJ_ARENA = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-arena"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_ARTIFACT",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-artifact",
+      "aliases": [],
+      "label": "OBJ_ARTIFACT = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-artifact"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BLACK_MARKET",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-black-market",
+      "aliases": [],
+      "label": "OBJ_BLACK_MARKET = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-black-market"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BLANK_1",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-blank-1",
+      "aliases": [],
+      "label": "OBJ_BLANK_1 = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BLANK_2",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-blank-2",
+      "aliases": [],
+      "label": "OBJ_BLANK_2 = 50",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BLANK_3",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-blank-3",
+      "aliases": [],
+      "label": "OBJ_BLANK_3 = 217",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-3"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BLANK_4",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-blank-4",
+      "aliases": [],
+      "label": "OBJ_BLANK_4 = 218",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-blank-4"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BOAT",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-boat",
+      "aliases": [],
+      "label": "OBJ_BOAT = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-boat"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BORDER_GATE",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-border-gate",
+      "aliases": [],
+      "label": "OBJ_BORDER_GATE = 212",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-border-gate"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BORDERGUARD",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-borderguard",
+      "aliases": [],
+      "label": "OBJ_BORDERGUARD = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-borderguard"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BRUSH",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-brush",
+      "aliases": [],
+      "label": "OBJ_BRUSH = 114",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-brush"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BRUSH_2",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-brush-2",
+      "aliases": [],
+      "label": "OBJ_BRUSH_2 = 165",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-brush-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BUOY",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-buoy",
+      "aliases": [],
+      "label": "OBJ_BUOY = 11",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-buoy"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BUSH",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-bush",
+      "aliases": [],
+      "label": "OBJ_BUSH = 115",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-bush"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_BUSH_2",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-bush-2",
+      "aliases": [],
+      "label": "OBJ_BUSH_2 = 166",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-bush-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CACTUS",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-cactus",
+      "aliases": [],
+      "label": "OBJ_CACTUS = 116",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cactus"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CACTUS_2",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-cactus-2",
+      "aliases": [],
+      "label": "OBJ_CACTUS_2 = 167",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cactus-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CAMPFIRE",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-campfire",
+      "aliases": [],
+      "label": "OBJ_CAMPFIRE = 12",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-campfire"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CANYON",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-canyon",
+      "aliases": [],
+      "label": "OBJ_CANYON = 117",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-canyon"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CANYON_2",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-canyon-2",
+      "aliases": [],
+      "label": "OBJ_CANYON_2 = 168",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-canyon-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CARTOGRAPHER",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-cartographer",
+      "aliases": [],
+      "label": "OBJ_CARTOGRAPHER = 13",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cartographer"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CLOVER_FIELD",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-clover-field",
+      "aliases": [],
+      "label": "OBJ_CLOVER_FIELD = 222",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-clover-field"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CORPSE",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-corpse",
+      "aliases": [],
+      "label": "OBJ_CORPSE = 22",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-corpse"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_COVER_OF_DARKNESS",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-cover-of-darkness",
+      "aliases": [],
+      "label": "OBJ_COVER_OF_DARKNESS = 15",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-cover-of-darkness"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CRATER",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-crater",
+      "aliases": [],
+      "label": "OBJ_CRATER = 118",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-crater"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ_CRATER_2",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-obj-crater-2",
+      "aliases": [],
+      "label": "OBJ_CRATER_2 = 169",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-obj-crater-2"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

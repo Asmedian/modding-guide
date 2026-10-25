@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "ADDR_GAME_SCREEN_HEIGHT",
+      "kind": "constant",
+      "slug": "framework/constants/useful-addresses",
+      "anchor": "const-addr-game-screen-height",
+      "aliases": [],
+      "label": "ADDR_GAME_SCREEN_HEIGHT = 4199503",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/#const-addr-game-screen-height"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADDR_GAME_SCREEN_WIDTH",
+      "kind": "constant",
+      "slug": "framework/constants/useful-addresses",
+      "anchor": "const-addr-game-screen-width",
+      "aliases": [],
+      "label": "ADDR_GAME_SCREEN_WIDTH = 4199496",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/#const-addr-game-screen-width"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADDR_MARKED_SAVEGAME_NAME",
+      "kind": "constant",
+      "slug": "framework/constants/useful-addresses",
+      "anchor": "const-addr-marked-savegame-name",
+      "aliases": [],
+      "label": "ADDR_MARKED_SAVEGAME_NAME = 6828940",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/#const-addr-marked-savegame-name"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADDR_TEXT_BUFFER",
+      "kind": "constant",
+      "slug": "framework/constants/useful-addresses",
+      "anchor": "const-addr-text-buffer",
+      "aliases": [],
+      "label": "ADDR_TEXT_BUFFER = 6911016",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/#const-addr-text-buffer"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADDR_WOG_COMMANDERS_TABLE",
+      "kind": "constant",
+      "slug": "framework/constants/useful-addresses",
+      "anchor": "const-addr-wog-commanders-table",
+      "aliases": [],
+      "label": "ADDR_WOG_COMMANDERS_TABLE = 42344640",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/#const-addr-wog-commanders-table"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADDR_WOG_SPELLS_TABLE",
+      "kind": "constant",
+      "slug": "framework/constants/useful-addresses",
+      "anchor": "const-addr-wog-spells-table",
+      "aliases": [],
+      "label": "ADDR_WOG_SPELLS_TABLE = 8114880",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/useful-addresses/#const-addr-wog-spells-table"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MANAGER",
+      "kind": "constant",
+      "slug": "framework/constants/game-managers",
+      "anchor": "const-adv-manager",
+      "aliases": [],
+      "label": "ADV_MANAGER = 6918840",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-managers/#const-adv-manager"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MAP_MON_MAX_QUANTITY",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-adv-map-mon-max-quantity",
+      "aliases": [],
+      "label": "ADV_MAP_MON_MAX_QUANTITY = 4095",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-adv-map-mon-max-quantity"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_AGGRESSIVE_MAX",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-aggressive-max",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_AGGRESSIVE_MAX = 10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-aggressive-max"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_AGGRESSIVE_MIN",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-aggressive-min",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_AGGRESSIVE_MIN = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-aggressive-min"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_COMPLIENT",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-complient",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_COMPLIENT = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-complient"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_FRIENDLY_MAX",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-friendly-max",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_FRIENDLY_MAX = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-friendly-max"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_FRIENDLY_MIN",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-friendly-min",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_FRIENDLY_MIN = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-friendly-min"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_HOSTILE_MAX",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-hostile-max",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_HOSTILE_MAX = 10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-hostile-max"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_HOSTILE_MIN",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-hostile-min",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_HOSTILE_MIN = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-hostile-min"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_MAX",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-max",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_MAX = 10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-max"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_MIN",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-min",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_MIN = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-min"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADV_MON_AGGRESSION_SAVAGE",
+      "kind": "constant",
+      "slug": "framework/constants/monster-aggression-level",
+      "anchor": "const-adv-mon-aggression-savage",
+      "aliases": [],
+      "label": "ADV_MON_AGGRESSION_SAVAGE = 10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monster-aggression-level/#const-adv-mon-aggression-savage"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-006.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_ART",
+      "kind": "constant",
+      "slug": "framework/constants/artifacts",
+      "anchor": "const-any-art",
+      "aliases": [],
+      "label": "ANY_ART = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/artifacts/#const-any-art"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-any-hero",
+      "aliases": [],
+      "label": "ANY_HERO = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-any-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_MON",
+      "kind": "constant",
+      "slug": "framework/constants/monsters",
+      "anchor": "const-any-mon",
+      "aliases": [],
+      "label": "ANY_MON = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/monsters/#const-any-mon"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-007.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_OBJ",
+      "kind": "constant",
+      "slug": "framework/constants/object-types",
+      "anchor": "const-any-obj",
+      "aliases": [],
+      "label": "ANY_OBJ = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/object-types/#const-any-obj"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_OWNER",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-any-owner",
+      "aliases": [],
+      "label": "ANY_OWNER = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-any-owner"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_PLAYER",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-any-player",
+      "aliases": [],
+      "label": "ANY_PLAYER = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-any-player"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_RES",
+      "kind": "constant",
+      "slug": "framework/constants/resources",
+      "anchor": "const-any-res",
+      "aliases": [],
+      "label": "ANY_RES = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/resources/#const-any-res"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ANY_SPELL",
+      "kind": "constant",
+      "slug": "framework/constants/spells",
+      "anchor": "const-any-spell",
+      "aliases": [],
+      "label": "ANY_SPELL = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/spells/#const-any-spell"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-009.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARG_SYNTAX_ADD",
+      "kind": "constant",
+      "slug": "framework/constants/erm-commands",
+      "anchor": "const-arg-syntax-add",
+      "aliases": [],
+      "label": "ARG_SYNTAX_ADD = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/#const-arg-syntax-add"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARG_SYNTAX_GET",
+      "kind": "constant",
+      "slug": "framework/constants/erm-commands",
+      "anchor": "const-arg-syntax-get",
+      "aliases": [],
+      "label": "ARG_SYNTAX_GET = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/#const-arg-syntax-get"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARG_SYNTAX_SET",
+      "kind": "constant",
+      "slug": "framework/constants/erm-commands",
+      "anchor": "const-arg-syntax-set",
+      "aliases": [],
+      "label": "ARG_SYNTAX_SET = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/erm-commands/#const-arg-syntax-set"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARMY_SLOT_0",
+      "kind": "constant",
+      "slug": "framework/constants/army-slots",
+      "anchor": "const-army-slot-0",
+      "aliases": [],
+      "label": "ARMY_SLOT_0 = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/army-slots/#const-army-slot-0"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARMY_SLOT_1",
+      "kind": "constant",
+      "slug": "framework/constants/army-slots",
+      "anchor": "const-army-slot-1",
+      "aliases": [],
+      "label": "ARMY_SLOT_1 = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/army-slots/#const-army-slot-1"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-001.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -295,3 +295,9 @@ details[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }
 [data-theme="light"] .erm-syntax-comment { color: #46633a; }
 [data-theme="light"] .erm-syntax-string { color: #8b3d2f; }
 [data-theme="light"] .erm-syntax-variable { color: #245887; }
+
+.nav-group summary, .nav-group li a, .wiki-nav-direct { position: relative; }
+.wiki-navigation summary, .wiki-navigation li a { padding-bottom: 1rem; }
+.wiki-nav-edition { position: absolute; right: .6rem; bottom: .15rem; font-size: .58rem; color: var(--text-subtle); letter-spacing: .05em; }
+.wiki-nav-direct { display: block; padding: .8rem 1rem 1rem; color: var(--nav-title); }
+.wiki-nav-direct h2 { margin: 0; font-size: .9rem; }

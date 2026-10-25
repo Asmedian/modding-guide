@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "plugins.nh3api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "nh3api",
+      "url": "https://asmedian.github.io/modding-guide/en/plugins/nh3api/",
+      "title": "NH3API",
+      "summary": "The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.",
+      "keywords": [
+        "NH3API",
+        "C++17",
+        "core.hpp",
+        "era.hpp",
+        "patcher_x86",
+        "era.lib",
+        "libera.a",
+        "natvis"
+      ],
+      "questions": [
+        "What does NH3API provide?",
+        "How do I connect NH3API to ERA III?",
+        "Which compilers and modules does NH3API support?"
+      ],
+      "sourceRefs": [
+        "nh3api:readme",
+        "nh3api:cmake",
+        "nh3api:era-header",
+        "nh3api:era-module-readme",
+        "nh3api:patcher-header",
+        "nh3api:natvis"
+      ],
+      "sectionSources": {},
+      "previous": "era-api",
+      "next": "h3api",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/plugins/nh3api/text-001.md",
+          "fromAnchor": "scope",
+          "toAnchor": "license",
+          "headings": [
+            "Scope and target",
+            "Repository map",
+            "Add the library with CMake",
+            "Use the core and ERA entry points",
+            "Toolchain support",
+            "Further resources",
+            "Patcher workflow",
+            "Debugging and reproducibility",
+            "License and compatibility boundary"
+          ]
+        }
+      ]
+    }
+  ]
+}

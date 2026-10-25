@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import test from 'node:test';
 
 const projectRoot = join(import.meta.dirname, '..', '..');
-const navigation = { groups: ['docs', 'erm', 'plugins'].flatMap((section) => JSON.parse(readFileSync(join(projectRoot, 'content', '_navigation', `${section}.json`), 'utf8')).groups) };
+const navigation = { groups: ['docs', 'wiki', 'erm', 'plugins'].flatMap((section) => JSON.parse(readFileSync(join(projectRoot, 'content', '_navigation', `${section}.json`), 'utf8')).groups) };
 
 test('sidebar is two levels deep with bounded leaf groups', () => {
   assert.ok(Array.isArray(navigation.groups));
@@ -18,12 +18,12 @@ test('sidebar is two levels deep with bounded leaf groups', () => {
 });
 
 test('navigation has no duplicate slugs', () => {
-  const slugs = navigation.groups.flatMap((group) => group.items.map((item) => item.slug));
+  const slugs = navigation.groups.flatMap((group) => group.href ? [group.href] : group.items.map((item) => item.slug));
   assert.equal(new Set(slugs).size, slugs.length);
 });
 
 test('published sections are active and future sections stay absent', () => {
   const top = JSON.parse(readFileSync(join(projectRoot, 'content', '_navigation', 'top.json'), 'utf8'));
-  assert.deepEqual(top.items.filter((item) => item.enabled).map((item) => item.id), ['docs', 'erm', 'plugins']);
+  assert.deepEqual(top.items.filter((item) => item.enabled).map((item) => item.id), ['docs', 'wiki', 'erm', 'plugins']);
   assert.deepEqual(top.items.filter((item) => !item.enabled).map((item) => item.id), []);
 });

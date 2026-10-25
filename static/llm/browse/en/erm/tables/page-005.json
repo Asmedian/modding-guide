@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.tables.spells",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/spells",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/spells/",
+      "title": "Spell table",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Spell table",
+        "spells"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-spell.htm",
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-spell-hex.htm",
+        "old-help:form-spella.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-spell.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-spell": [
+          "old-help:form-spell.htm"
+        ],
+        "ref-form-spell-hex": [
+          "old-help:form-spell-hex.htm"
+        ],
+        "ref-form-spella": [
+          "old-help:form-spella.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-046.md",
+          "fromAnchor": "ref-form-spell",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Spell table in numerical order",
+            "Numeric Spell Table (HEX) ;",
+            "Spell table in numerical order",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.stack-experience-abilities",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/stack-experience-abilities",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/stack-experience-abilities/",
+      "title": "Stack experience abilities",
+      "summary": "EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes.",
+      "keywords": [
+        "Stack experience abilities"
+      ],
+      "questions": [
+        "EA:B parameter $3 selects the ability type. Uppercase and lowercase letters have different ASCII codes."
+      ],
+      "sourceRefs": [
+        "old-help:form-specexp1.htm",
+        "old-help:rec-ea.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "values": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "related": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "reference-links": [
+          "old-help:form-specexp1.htm",
+          "old-help:rec-ea.htm"
+        ],
+        "ref-form-specexp1": [
+          "old-help:form-specexp1.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-047.md",
+          "fromAnchor": "ref-form-specexp1",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Creature Ability Table",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.border-colors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/border-colors",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/border-colors/",
+      "title": "Tent and border colors",
+      "summary": "Tent is type 10, guard 9, gate 212. These are key colors, not player colors.",
+      "keywords": [
+        "Tent and border colors",
+        "border-colors"
+      ],
+      "questions": [
+        "Tent is type 10, guard 9, gate 212. These are key colors, not player colors."
+      ],
+      "sourceRefs": [
+        "old-help:form-bg.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-bg.htm"
+        ],
+        "values": [
+          "old-help:form-bg.htm"
+        ],
+        "related": [
+          "old-help:form-bg.htm"
+        ],
+        "reference-links": [
+          "old-help:form-bg.htm"
+        ],
+        "ref-form-bg": [
+          "old-help:form-bg.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-009.md",
+          "fromAnchor": "ref-form-bg",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Border Guard & Tent Colors",
+            "Purpose",
+            "Values",
+            "Catalogs",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.terrain",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/terrain",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/terrain/",
+      "title": "Terrain types",
+      "summary": "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type.",
+      "keywords": [
+        "Terrain types",
+        "terrain"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. These numbers identify entries in this table, not another entity type."
+      ],
+      "sourceRefs": [
+        "old-help:form-terrain.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-terrain.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-terrain.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-terrain.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-terrain.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-terrain": [
+          "old-help:form-terrain.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-048.md",
+          "fromAnchor": "ref-form-terrain",
+          "toAnchor": "related",
+          "headings": [
+            "Soil types:",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.text-resources",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/text-resources",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/text-resources/",
+      "title": "Text resources: ERT, ERS and JSON",
+      "summary": "External text, option labels and script localization.",
+      "keywords": [
+        "ERT",
+        "ERS",
+        "JSON",
+        "Lang",
+        "SN:T"
+      ],
+      "questions": [
+        "External text, option labels and script localization."
+      ],
+      "sourceRefs": [
+        "old-help:cont-ert.htm",
+        "old-help:cont-ers.htm",
+        "old-help:cont-json.htm",
+        "erm-forum:faq-.html",
+        "era-changelog:era-iii-changelog.txt"
+      ],
+      "sectionSources": {
+        "ert": [
+          "old-help:cont-ert.htm",
+          "old-help:cont-ers.htm",
+          "old-help:cont-json.htm",
+          "erm-forum:faq-.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ers": [
+          "old-help:cont-ert.htm",
+          "old-help:cont-ers.htm",
+          "old-help:cont-json.htm",
+          "erm-forum:faq-.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "json": [
+          "old-help:cont-ert.htm",
+          "old-help:cont-ers.htm",
+          "old-help:cont-json.htm",
+          "erm-forum:faq-.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "resources": [
+          "old-help:cont-ert.htm",
+          "old-help:cont-ers.htm",
+          "old-help:cont-json.htm",
+          "erm-forum:faq-.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "links": [
+          "old-help:cont-ert.htm",
+          "old-help:cont-ers.htm",
+          "old-help:cont-json.htm",
+          "erm-forum:faq-.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "reference-links": [
+          "old-help:cont-ert.htm",
+          "old-help:cont-ers.htm",
+          "old-help:cont-json.htm",
+          "erm-forum:faq-.html",
+          "era-changelog:era-iii-changelog.txt"
+        ],
+        "ref-cont-ers": [
+          "old-help:cont-ers.htm"
+        ],
+        "ref-cont-ert": [
+          "old-help:cont-ert.htm"
+        ],
+        "ref-cont-json": [
+          "old-help:cont-json.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-050.md",
+          "fromAnchor": "ref-cont-ers",
+          "toAnchor": "reference-links",
+          "headings": [
+            "ERS",
+            ".ERS files",
+            "ERT",
+            "JSON",
+            ".json files (Excerpt from ERA change history based on json files)",
+            "ERT",
+            "ERS",
+            "JSON and SN:T",
+            "Archive resources",
+            "Related material",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.buildings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/buildings",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/buildings/",
+      "title": "Town building IDs",
+      "summary": "Building ID for CA and bit in the building array. Town type determines special buildings. IF:Q building pictures use a different numbering system.",
+      "keywords": [
+        "Town building IDs"
+      ],
+      "questions": [
+        "Building ID for CA and bit in the building array. Town type determines special buildings. IF:Q building pictures use a different numbering system."
+      ],
+      "sourceRefs": [
+        "old-help:form-buldings.htm",
+        "old-help:rec-ca.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-buldings.htm",
+          "old-help:rec-ca.htm"
+        ],
+        "values": [
+          "old-help:form-buldings.htm",
+          "old-help:rec-ca.htm"
+        ],
+        "related": [
+          "old-help:form-buldings.htm",
+          "old-help:rec-ca.htm"
+        ],
+        "reference-links": [
+          "old-help:form-buldings.htm",
+          "old-help:rec-ca.htm"
+        ],
+        "ref-form-buldings": [
+          "old-help:form-buldings.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-012.md",
+          "fromAnchor": "ref-form-buldings",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Table of buildings",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.towns",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/towns",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/towns/",
+      "title": "Town types",
+      "summary": "IDs from the standard WoG set. Adventure-map object: type 98.",
+      "keywords": [
+        "Town types",
+        "towns",
+        "98"
+      ],
+      "questions": [
+        "IDs from the standard WoG set. Adventure-map object: type 98."
+      ],
+      "sourceRefs": [
+        "old-help:form-towns.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-towns.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "old-help:form-towns.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "scope": [
+          "old-help:form-towns.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "old-help:form-towns.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:form-towns.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-towns": [
+          "old-help:form-towns.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-050.md",
+          "fromAnchor": "ref-form-towns",
+          "toAnchor": "reference-links",
+          "headings": [
+            "All types of towns",
+            "Purpose",
+            "IDs and hexadecimal values",
+            "Scope",
+            "Related tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.two-way-monoliths",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/two-way-monoliths",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/two-way-monoliths/",
+      "title": "Two-way monoliths",
+      "summary": "Subtypes of object 45. One-way entrances and exits use different types, 43 and 44.",
+      "keywords": [
+        "Two-way monoliths"
+      ],
+      "questions": [
+        "Subtypes of object 45. One-way entrances and exits use different types, 43 and 44."
+      ],
+      "sourceRefs": [
+        "old-help:form-two-way-monolith.htm",
+        "old-help:form-objects.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-two-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "values": [
+          "old-help:form-two-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "related": [
+          "old-help:form-two-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "reference-links": [
+          "old-help:form-two-way-monolith.htm",
+          "old-help:form-objects.htm"
+        ],
+        "ref-form-two-way-monolith": [
+          "old-help:form-two-way-monolith.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-050.md",
+          "fromAnchor": "ref-form-two-way-monolith",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Double-sided monoliths",
+            "Purpose",
+            "Values",
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables.wog-object-variants",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables/wog-object-variants",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/wog-object-variants/",
+      "title": "WoG object variants",
+      "summary": "Appearance, type and subtype in the legacy WoG set. A picture does not define behavior by itself; active scripts and object settings do.",
+      "keywords": [
+        "WoG object variants"
+      ],
+      "questions": [
+        "Appearance, type and subtype in the legacy WoG set. A picture does not define behavior by itself; active scripts and object settings do."
+      ],
+      "sourceRefs": [
+        "old-help:form-newobj.htm",
+        "old-help:form-objects.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "old-help:form-newobj.htm",
+          "old-help:form-objects.htm"
+        ],
+        "values": [
+          "old-help:form-newobj.htm",
+          "old-help:form-objects.htm"
+        ],
+        "related": [
+          "old-help:form-newobj.htm",
+          "old-help:form-objects.htm"
+        ],
+        "reference-links": [
+          "old-help:form-newobj.htm",
+          "old-help:form-objects.htm"
+        ],
+        "ref-form-newobj": [
+          "old-help:form-newobj.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-052.md",
+          "fromAnchor": "ref-form-newobj",
+          "toAnchor": "type-63-subtype-39",
+          "headings": [
+            "New objects",
+            "Purpose",
+            "Values"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/tables/text-053.md",
+          "fromAnchor": "type-63-subtype-40",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Related commands and tables",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

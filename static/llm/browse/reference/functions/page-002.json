@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "DisableErrors",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2010,
+      "endLine": 2013,
+      "args": [],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "TRUE",
+        "WOG_OPT_LAST_ERROR",
+        "WOG_OPT_MUTE_ERRORS"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/disableerrors",
+      "review": "full-body",
+      "summary": "Enables WOG_OPT_MUTE_ERRORS and clears WOG_OPT_LAST_ERROR. Use only around a controlled operation."
+    },
+    {
+      "name": "DL_AlignDlg",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2290,
+      "endLine": 2331,
+      "args": [
+        "dlgId",
+        "alignment"
+      ],
+      "calls": [
+        "DL_FindById"
+      ],
+      "globals": [],
+      "constants": [
+        "ADDR_GAME_SCREEN_HEIGHT",
+        "ADDR_GAME_SCREEN_WIDTH",
+        "FALSE",
+        "NULL",
+        "STRUCT_H3DLG_HEIGHT",
+        "STRUCT_H3DLG_WIDTH",
+        "STRUCT_H3DLG_X",
+        "STRUCT_H3DLG_Y",
+        "TEXT_ALIGN_BOTTOM",
+        "TEXT_ALIGN_CENTER",
+        "TEXT_ALIGN_MIDDLE",
+        "TEXT_ALIGN_RIGHT",
+        "UNC_INT",
+        "UNC_INT16"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-aligndlg",
+      "review": "full-body",
+      "summary": "Aligns an existing DL dialog using TEXT_ALIGN_* bits. CENTER/MIDDLE take precedence over RIGHT/BOTTOM."
+    },
+    {
+      "name": "DL_CenterAtMouse",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2215,
+      "endLine": 2222,
+      "args": [
+        "dlgId"
+      ],
+      "calls": [
+        "DL_FindById",
+        "H3Dlg_CenterAtMouse"
+      ],
+      "globals": [],
+      "constants": [
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-centeratmouse",
+      "review": "full-body",
+      "summary": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first."
+    },
+    {
+      "name": "DL_Coords",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2223,
+      "endLine": 2255,
+      "args": [
+        "dlgId",
+        "x",
+        "y"
+      ],
+      "calls": [
+        "DL_FindById",
+        "H3Dlg_Coords"
+      ],
+      "globals": [],
+      "constants": [
+        "ARG_SYNTAX_ADD",
+        "ARG_SYNTAX_GET",
+        "NULL",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-coords",
+      "review": "full-body",
+      "summary": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N."
+    },
+    {
+      "name": "DL_Destroy",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2192,
+      "endLine": 2197,
+      "args": [
+        "dlgObj"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-destroy",
+      "review": "full-body",
+      "summary": "Destroys a DL wrapper by address. Do not reuse the destroyed address."
+    },
+    {
+      "name": "DL_FindById",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2184,
+      "endLine": 2191,
+      "args": [
+        "dlgId",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "NULL"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-findbyid",
+      "review": "full-body",
+      "summary": "Returns a DL wrapper address by ID or NULL. This is not the H3Dlg address, which is stored in its first field. Changes v1."
+    },
+    {
+      "name": "DL_GetSize",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2256,
+      "endLine": 2272,
+      "args": [
+        "dlgId",
+        "width",
+        "height"
+      ],
+      "calls": [
+        "DL_FindById"
+      ],
+      "globals": [],
+      "constants": [
+        "NULL",
+        "STRUCT_H3DLG_HEIGHT",
+        "STRUCT_H3DLG_WIDTH",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-getsize",
+      "review": "full-body",
+      "summary": "Returns the width and height of an existing DL dialog; reports an error if absent."
+    },
+    {
+      "name": "DL_SetPlayerColor",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2332,
+      "endLine": 2356,
+      "args": [
+        "dlgId",
+        "playerId"
+      ],
+      "calls": [
+        "DL_FindById",
+        "H3Dlg_SendCmdToItem"
+      ],
+      "globals": [],
+      "constants": [
+        "NULL",
+        "PLAYER_FIRST",
+        "PLAYER_LAST",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-setplayercolor",
+      "review": "full-body",
+      "summary": "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST."
+    },
+    {
+      "name": "DL_SetSize",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2273,
+      "endLine": 2289,
+      "args": [
+        "dlgId",
+        "width",
+        "height"
+      ],
+      "calls": [
+        "DL_FindById"
+      ],
+      "globals": [],
+      "constants": [
+        "NULL",
+        "STRUCT_H3DLG_HEIGHT",
+        "STRUCT_H3DLG_WIDTH",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-setsize",
+      "review": "full-body",
+      "summary": "Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged."
+    },
+    {
+      "name": "DL_ShowPopup",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2198,
+      "endLine": 2214,
+      "args": [
+        "dlgId"
+      ],
+      "calls": [
+        "DL_Destroy",
+        "DL_FindById",
+        "H3Dlg_ShowPopup"
+      ],
+      "globals": [],
+      "constants": [
+        "NULL",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/dl-showpopup",
+      "review": "full-body",
+      "summary": "Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display."
+    },
+    {
+      "name": "EmptyIniCache",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1597,
+      "endLine": 1604,
+      "args": [
+        "filePathPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/emptyinicache",
+      "review": "full-body",
+      "summary": "Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk."
+    },
+    {
+      "name": "EnableErrors",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2014,
+      "endLine": 2021,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "TRUE",
+        "WOG_OPT_LAST_ERROR",
+        "WOG_OPT_MUTE_ERRORS"
+      ],
+      "status": "requires-review",
+      "group": "game",
+      "slug": "framework/functions/enableerrors",
+      "review": "full-body",
+      "summary": "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library."
+    },
+    {
+      "name": "EnterMouseEvent",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 165,
+      "endLine": 170,
+      "args": [],
+      "calls": [
+        "CollectMouseEventData",
+        "GetKeyModsState",
+        "SavePrevKeyModsState",
+        "SavePrevMouseEventData"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/entermouseevent",
+      "review": "full-body",
+      "summary": "Saves previous keyboard/mouse context, then reads modifiers and CM for the new event."
+    },
+    {
+      "name": "EquipArtToSlot",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3170,
+      "endLine": 3190,
+      "args": [
+        "hero",
+        "art",
+        "artMod",
+        "slot",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ART_SLOT_MISC_5",
+        "CALLCONV_THISCALL",
+        "FALSE",
+        "GAME_MANAGER",
+        "NO_ART_MOD",
+        "NO_ART_SLOT",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/equiparttoslot",
+      "review": "full-body",
+      "summary": "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots."
+    },
+    {
+      "name": "FileExists",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1554,
+      "endLine": 1565,
+      "args": [
+        "filePathPtr",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "FILE_ATTRIBUTE_DIRECTORY",
+        "INVALID_FILE_ATTRIBUTES",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/fileexists",
+      "review": "full-body",
+      "summary": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+    },
+    {
+      "name": "FormatQuantity",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1533,
+      "endLine": 1553,
+      "args": [
+        "value",
+        "resultPtr",
+        "maxLen",
+        "maxDigits"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "SIZEOF_ZSTR"
+      ],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/formatquantity",
+      "review": "full-body",
+      "summary": "Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported."
+    },
+    {
+      "name": "GetArtAtSlot",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3111,
+      "endLine": 3133,
+      "args": [
+        "hero",
+        "slot",
+        "artId",
+        "artMod"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ART_SLOT_EQUIPPED_FIRST",
+        "ART_SLOT_EQUIPPED_LAST",
+        "ART_SLOT_FIRST",
+        "ART_SLOT_LAST",
+        "CURRENT_HERO",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getartatslot",
+      "review": "full-body",
+      "summary": "Returns artifact ID and modifier for a hero slot, including backpack slots. Handle NO_ART for an empty slot."
+    },
+    {
+      "name": "GetDegradedMonCandidates",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3038,
+      "endLine": 3054,
+      "args": [
+        "monId",
+        "degradesList"
+      ],
+      "calls": [
+        "GetMaxMonsterId",
+        "GetUpgradedMonster"
+      ],
+      "globals": [],
+      "constants": [
+        "MON_FIRST",
+        "M_AUTO_ID",
+        "M_INT",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getdegradedmoncandidates",
+      "review": "full-body",
+      "summary": "Scans all supported types and returns a local array of creatures upgrading to monId. Multiple candidates are possible; a full scan is expensive with extended limits."
+    },
+    {
+      "name": "GetHeroPortraitName",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3062,
+      "endLine": 3080,
+      "args": [
+        "heroId",
+        "small",
+        "large"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^"
+      ],
+      "constants": [],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getheroportraitname",
+      "review": "full-body",
+      "summary": "Returns current small/large portrait filenames for a hero. Reads the structure table by ID; validate the range first."
+    },
+    {
+      "name": "GetHeroPrimarySkillsWithoutArts",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3081,
+      "endLine": 3110,
+      "args": [
+        "hero",
+        "attack",
+        "defense",
+        "power",
+        "knowledge"
+      ],
+      "calls": [
+        "EquipArtToSlot",
+        "GetArtAtSlot",
+        "UnequipArtFromSlot"
+      ],
+      "globals": [],
+      "constants": [
+        "ART_ARTIFACT_LOCK",
+        "ART_HIGHLIGHTED_SLOT",
+        "CURRENT_HERO",
+        "NO_ART"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getheroprimaryskillswithoutarts",
+      "review": "full-body",
+      "summary": "Temporarily removes 19 equipped artifacts, reads HE:F, then re-equips them. Fires OnUnequipArt/OnEquipArt; this operation has event side effects."
+    },
+    {
+      "name": "GetKeyModsState",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 94,
+      "endLine": 128,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^key_leftAlt^",
+        "i^key_rightAlt^",
+        "i^key_alt^",
+        "i^key_leftCtrl^",
+        "i^key_rightCtrl^",
+        "i^key_ctrl^",
+        "i^key_leftShift^",
+        "i^key_rightShift^",
+        "i^key_shift^"
+      ],
+      "constants": [
+        "KEY_LCONTROL",
+        "KEY_LMENU",
+        "KEY_LSHIFT",
+        "KEY_RCONTROL",
+        "KEY_RMENU",
+        "KEY_RSHIFT"
+      ],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/getkeymodsstate",
+      "review": "full-body",
+      "summary": "Polls left/right Alt, Ctrl and Shift with GetKeyState and updates key_*; each combined flag is the OR of both sides."
+    },
+    {
+      "name": "GetMaxArtifactId",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3199,
+      "endLine": 3208,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ART_LAST_WOG"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getmaxartifactid",
+      "review": "full-body",
+      "summary": "This snapshot simply returns ART_LAST_WOG. Despite its comment about extensions, it does not query a dynamic plugin limit."
+    },
+    {
+      "name": "GetMaxHeroId",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3055,
+      "endLine": 3061,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getmaxheroid",
+      "review": "full-body",
+      "summary": "Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity."
+    },
+    {
+      "name": "GetMaxMonsterId",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3020,
+      "endLine": 3027,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getmaxmonsterid",
+      "review": "full-body",
+      "summary": "Reads the engine limit and subtracts 1. The last supported ID does not mean every slot contains a configured entity."
+    },
+    {
+      "name": "GetMaxSpellId",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3209,
+      "endLine": 3216,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "SPELL_LAST_WOG"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getmaxspellid",
+      "review": "full-body",
+      "summary": "Returns SPELL_LAST_WOG, not a dynamic limit from a spell-expansion plugin."
+    },
+    {
+      "name": "GetModList",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1932,
+      "endLine": 1986,
+      "args": [
+        "arrayId",
+        "toLower",
+        "reverse"
+      ],
+      "calls": [
+        "Array_Revert",
+        "NewStrArray",
+        "StrToLower",
+        "Substr"
+      ],
+      "globals": [],
+      "constants": [
+        "CALLCONV_STDCALL",
+        "FALSE",
+        "SIZEOF_INT"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/getmodlist",
+      "review": "full-body",
+      "summary": "Returns a local array of active VFS mods. toLower and reverse default to FALSE. With zero mods the output is not initialized; initialize it to NULL and check it."
+    },
+    {
+      "name": "GetProcessGuid",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2926,
+      "endLine": 2935,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getprocessguid",
+      "review": "full-body",
+      "summary": "Returns a 32-character identifier for this game-process run. Distinguishes a restart from loading a save in the same process."
+    },
+    {
+      "name": "GetStrAtAddr",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1421,
+      "endLine": 1430,
+      "args": [
+        "strAddr",
+        "resultPtr"
+      ],
+      "calls": [],
+      "globals": [
+        "s^temp^",
+        "s^result^"
+      ],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/getstrataddr",
+      "review": "full-body",
+      "summary": "Copies a null-terminated string at strAddr into an output ERM string; NULL yields empty text. Non-null memory must be readable."
+    },
+    {
+      "name": "GetTextFileString",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3217,
+      "endLine": 3284,
+      "args": [
+        "txtFilename",
+        "rowIndex",
+        "string"
+      ],
+      "calls": [
+        "StrToLower",
+        "Substr"
+      ],
+      "globals": [],
+      "constants": [
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/gettextfilestring",
+      "review": "full-body",
+      "summary": "Reads a zero-based row from loaded randtvrn, arraytxt, genrltxt, tcommand, artevent, crgen1, crgen4, dwelling, minename, objnames, towntype, plcolors, priskill, restypes, skilllev, advevent resources. Normalizes the name; unknown names return Wrong txt filename!. Does not validate row bounds."
+    },
+    {
+      "name": "GetTextTableString",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3285,
+      "endLine": 3320,
+      "args": [
+        "txtFilename",
+        "rowIndex",
+        "colIndex",
+        "string"
+      ],
+      "calls": [
+        "StrToLower",
+        "Substr"
+      ],
+      "globals": [],
+      "constants": [
+        "CALLCONV_CDECL"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/gettexttablestring",
+      "review": "full-body",
+      "summary": "Reads a bldgspec, help, or znpc00 cell by rowIndex/colIndex. Despite the “get or set” comment, this snapshot has no write branch. The caller must validate indices."
+    },
+    {
+      "name": "GetTimeMsec",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2914,
+      "endLine": 2925,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_STDCALL",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/gettimemsec",
+      "review": "full-body",
+      "summary": "Returns milliseconds since OS startup via timeGetTime. The 32-bit counter wraps after about 49.71 days; it is not the in-game date."
+    },
+    {
+      "name": "GetUpgradedMonster",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3028,
+      "endLine": 3037,
+      "args": [
+        "monId",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_FASTCALL"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/getupgradedmonster",
+      "review": "full-body",
+      "summary": "Returns the creature upgrade or NO_MON (-1) when absent."
+    },
+    {
+      "name": "H3Dlg_CenterAtMouse",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2088,
+      "endLine": 2102,
+      "args": [
+        "h3Dlg"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_STDCALL",
+        "CALLCONV_THISCALL",
+        "STRUCT_H3DLG_HEIGHT",
+        "STRUCT_H3DLG_WIDTH",
+        "UNC_INT"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-centeratmouse",
+      "review": "full-body",
+      "summary": "Centers an existing dialog at the mouse. H3Dlg takes an address; DL takes an ID. The DL wrapper does not check NULL after lookup: create the dialog first."
+    },
+    {
+      "name": "H3Dlg_Coords",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2038,
+      "endLine": 2087,
+      "args": [
+        "h3Dlg",
+        "x",
+        "y"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ADDR_GAME_SCREEN_HEIGHT",
+        "ADDR_GAME_SCREEN_WIDTH",
+        "ARG_SYNTAX_ADD",
+        "ARG_SYNTAX_GET",
+        "DLG_BOX_SHADOW_WIDTH",
+        "NULL",
+        "STRUCT_H3DLG_HEIGHT",
+        "STRUCT_H3DLG_WIDTH",
+        "STRUCT_H3DLG_X",
+        "STRUCT_H3DLG_Y",
+        "UNC_INT",
+        "UNC_INT16"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-coords",
+      "review": "full-body",
+      "summary": "Coordinates x/y support GET, SET and ADD. Position is clamped against screen size and shadow. H3Dlg_Coords takes an H3Dlg address; DL_Coords takes the ID of a dialog already created with DL:N."
+    },
+    {
+      "name": "H3Dlg_DrawItemOnScreen",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2152,
+      "endLine": 2166,
+      "args": [
+        "h3Dlg",
+        "itemId"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL",
+        "NULL"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-drawitemonscreen",
+      "review": "full-body",
+      "summary": "Draws itemId or the entire dialog for ALL_ITEMS. The H3Dlg object must exist."
+    },
+    {
+      "name": "H3Dlg_GetCurrentDlg",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2109,
+      "endLine": 2114,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "UNC_INT",
+        "WND_MANAGER"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-getcurrentdlg",
+      "review": "full-body",
+      "summary": "Returns the topmost dialog address or NULL. This address is not its DLG_* identifier."
+    },
+    {
+      "name": "H3Dlg_GetCurrentDlgId",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2115,
+      "endLine": 2125,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "NULL",
+        "UNC_INT",
+        "WND_MANAGER"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-getcurrentdlgid",
+      "review": "full-body",
+      "summary": "Returns the top dialog identifier from its virtual table, comparable to DLG_*, or NULL."
+    },
+    {
+      "name": "H3Dlg_GetRootDlg",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2103,
+      "endLine": 2108,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "UNC_INT",
+        "WND_MANAGER"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-getrootdlg",
+      "review": "full-body",
+      "summary": "Returns the root dialog address or NULL; usually the adventure map."
+    },
+    {
+      "name": "H3Dlg_ResumeAnimation",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2026,
+      "endLine": 2029,
+      "args": [],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-resumeanimation",
+      "review": "full-body",
+      "summary": "Stops/resumes current dialog animation through native functions. Keep calls balanced."
+    },
+    {
+      "name": "H3Dlg_SendCmdToItem",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2126,
+      "endLine": 2151,
+      "args": [
+        "h3Dlg",
+        "itemId",
+        "cmdSubtype",
+        "param",
+        "cmdType"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL",
+        "DLG_CMD_SET_DEF",
+        "DLG_CMD_SET_PCX",
+        "DLG_CMD_SET_TEXT",
+        "DLG_CMD_TYPE_DEFAULT",
+        "NULL"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-sendcmdtoitem",
+      "review": "full-body",
+      "summary": "Sends a DLG_CMD_* to itemId; cmdType defaults to DLG_CMD_TYPE_DEFAULT. SET_TEXT/SET_DEF/SET_PCX interpret param as a string; other commands receive a number."
+    },
+    {
+      "name": "H3Dlg_ShowPopup",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2030,
+      "endLine": 2037,
+      "args": [
+        "h3Dlg"
+      ],
+      "calls": [
+        "H3Dlg_ResumeAnimation",
+        "H3Dlg_StopAnimation"
+      ],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-showpopup",
+      "review": "full-body",
+      "summary": "Shows an H3 dialog as an RMB popup while suspending/resuming animation. Requires a valid H3Dlg address."
+    }
+  ]
+}

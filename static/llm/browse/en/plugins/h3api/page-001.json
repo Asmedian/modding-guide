@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "plugins.h3api",
+      "kind": "article",
+      "section": "plugins",
+      "locale": "en",
+      "slug": "h3api",
+      "url": "https://asmedian.github.io/modding-guide/en/plugins/h3api/",
+      "title": "H3API",
+      "summary": "An independent C++ library for Heroes III 3.2: purpose, integration, layout, and compatibility.",
+      "keywords": [
+        "H3API",
+        "C++ API",
+        "H3API.hpp",
+        "Heroes III 3.2",
+        "x86"
+      ],
+      "questions": [
+        "What does the independent H3API library provide?",
+        "How is H3API included in a C++ project?",
+        "Which executable and compiler assumptions must be checked?"
+      ],
+      "sourceRefs": [
+        "h3api:readme"
+      ],
+      "sectionSources": {},
+      "previous": "nh3api",
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/plugins/h3api/text-001.md",
+          "fromAnchor": "status",
+          "toAnchor": "migration",
+          "headings": [
+            "Independent library",
+            "Purpose and target",
+            "Repository layout",
+            "Integration modes",
+            "Building",
+            "Checking compatibility"
+          ]
+        }
+      ]
+    }
+  ]
+}

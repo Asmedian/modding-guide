@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.writeinistrings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/writeinistrings",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/writeinistrings/",
+      "title": "WriteIniStrings",
+      "summary": "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.",
+      "keywords": [
+        "WriteIniStrings",
+        "FU(WriteIniStrings)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1663-1696-writeinistrings"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-014.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}

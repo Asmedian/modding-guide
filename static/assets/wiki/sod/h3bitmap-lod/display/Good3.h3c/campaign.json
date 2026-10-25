@@ -1,0 +1,460 @@
+{
+  "name": "Song for the Father",
+  "description": "The final step in the Restoration of Erathia is to drive the Necormancers of Deyja back in to their barren homeland.  With the ressurrected body of King Gryphonheart leading them, this will prove to be a formidable task.",
+  "version": "AB",
+  "scenarioCount": 3,
+  "mapCount": 3,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 23328,
+    "objects": 5891,
+    "towns": 17,
+    "monsters": 153,
+    "factions": {
+      "Castle": 4,
+      "Necropolis": 9,
+      "Rampart": 2,
+      "Tower": 2
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Good-3A.h3m",
+      "regionText": "A Necromancer is attempting to reach an Erathian outpost with proof of who killed King Gryphonheart. He is currently safe, but his way is blocked by undead loyal to their new King. You must escort him on the last leg of the journey.",
+      "prologText": "Upon liberating Steadwick, my fears were confirmed.  My father did not die of natural causes.  He was poisoned. Investigations conducted by General Morgan Kendal prior to the war yielded no suspects. Now I learn the necromancers, seeking a military tactician equal to myself, have ressurrected my father, King Gryphonheart. After killing King Vilmar, he took command of their military and their throne.  Now they come to us.  They cannot stop the monster they have created.  As a gesture of good faith, they send a messenger to speak only to me. He will tell me who killed my father. Find this hero and deliver him to me safely.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 75,
+          "artifactId": 98
+        },
+        {
+          "type": 6,
+          "heroId": 75,
+          "skillId": 2,
+          "mastery": 1
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 2500
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-1.h3m",
+      "name": "Safe Passage",
+      "description": "To win, the Necromancer, Nimbus, must reach the town of Highcastle with the Statesman's Medal. At the end of this scenario, Nimbus and your 7 strongest Heroes will travel with you to the next scenario of this campaign.",
+      "mapSize": 36,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 5,
+          "mainTownY": 31,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 75,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 75,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 10,
+        "name": "Transport artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 66,
+        "x": 5,
+        "y": 31,
+        "z": 0
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 34,
+        "y": 1,
+        "z": 0
+      },
+      "factions": {
+        "Castle": 1,
+        "Necropolis": 2
+      },
+      "objects": 485,
+      "towns": 3,
+      "monsters": 16,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Good-3B.h3m",
+      "regionText": "You command the combined armies of Erathia, AvLee, and Bracada, plus the Necromancers that have chosen to fight with you against King Gryphonheart. The undead presence is strong, but you must prevail!",
+      "prologText": "I grow weary of this war. So do the necromancers. We have agreed to co-operate in the destruction of King Gryphonheart. I never thought I would fight alongside the necromancers, but today we forge weapons for both our armies. With their help, along with the forces from Bracada and AvLee, we should be able to repel all undead from Erathia.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 5,
+          "amount": 35
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 33,
+          "amount": 35
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 19,
+          "amount": 35
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-2.h3m",
+      "name": "United Front",
+      "description": "To win, you must capture all enemy towns and castles and defeat all enemy heroes. At the end of this scenario, your 6 strongest Heroes will travel with you to the final scenario of this campaign, where they will be met by Lord Haart and Queen Catherine.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 23,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 75,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 75,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": true,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Necropolis": 5,
+        "Rampart": 1,
+        "Tower": 1,
+        "Castle": 2
+      },
+      "objects": 3563,
+      "towns": 9,
+      "monsters": 99,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-2-0.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Good-3C.h3m",
+      "regionText": "This is the final battle. Our presence has already begun to restore life to the land, but we must destroy this last fortress of death that King Gryphonheart has retreated to. It is time to return the dead to their graves.",
+      "prologText": "What remains of my father's undead army is the Necropolis where he resides. His last legions of undead are significant.  I will join this difficult battle, but you will command the field.  There is one more order you must follow without question. Lord Haart must not die. He is our traitor. We have confirmed the information the necromancers gave to us. Lord Haart was part of King Vilmar's necromantic cult. With Lord Haart's access to Steadwick, poisoning King Gryphonheart's food was a simple task. Acting on orders from King Vilmar, he sought to avenge the banishment of the necromancers from Erathia. I have special plans for Lord Haart.",
+      "preconditions": 2,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 146,
+          "artifactId": 36
+        },
+        {
+          "type": 3,
+          "heroId": 146,
+          "artifactId": 89
+        },
+        {
+          "type": 3,
+          "heroId": 146,
+          "artifactId": 124
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-3.h3m",
+      "name": "For King and Country",
+      "description": "To win, you must capture all enemy towns and castles and defeat all enemy heroes, without losing either Queen Catherine or Lord Haart. This is the final battle... good luck!",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 7,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 4,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 4,
+              "name": ""
+            },
+            {
+              "id": 146,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 63,
+          "mainTownY": 6,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 8,
+        "y": 64,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 2,
+        "Castle": 1,
+        "Rampart": 1,
+        "Tower": 1
+      },
+      "objects": 1843,
+      "towns": 5,
+      "monsters": 38,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Good3.h3c/scenario-3-1.png"
+        }
+      ]
+    }
+  ]
+}

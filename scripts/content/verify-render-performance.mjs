@@ -141,13 +141,14 @@ async function preparePage(browser, url, theme) {
   }, { key: preferenceKey, selectedTheme: theme });
   const page = await context.newPage();
   await page.goto(url, { waitUntil: 'networkidle' });
-  await page.waitForSelector('.site-grid');
+  await page.waitForSelector('.content-column');
   await page.addStyleTag({ content: '*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}' });
   const state = await page.evaluate(async (selectedTheme) => {
     if (document.fonts) await document.fonts.ready;
+    for (const image of document.images) image.loading = 'eager';
     await Promise.all([...document.images].map((image) => image.complete ? Promise.resolve() : image.decode().catch(() => {})));
-    const scroller = document.querySelector('.site-grid');
-    if (!(scroller instanceof HTMLElement)) throw new Error('Missing .site-grid scroll container');
+    const scroller = document.querySelector('.content-column');
+    if (!(scroller instanceof HTMLElement)) throw new Error('Missing .content-column scroll container');
     const gradients = [];
     for (const element of document.querySelectorAll('*')) {
       for (const pseudo of [null, '::before', '::after']) {
@@ -196,8 +197,8 @@ async function measureScroll(browser, url, theme, targetScrollTop) {
       transferMode: 'ReturnAsStream'
     });
     const scroll = await page.evaluate(({ durationMs, target }) => new Promise((resolveScroll) => {
-      const scroller = document.querySelector('.site-grid');
-      if (!(scroller instanceof HTMLElement)) throw new Error('Missing .site-grid scroll container');
+      const scroller = document.querySelector('.content-column');
+      if (!(scroller instanceof HTMLElement)) throw new Error('Missing .content-column scroll container');
       scroller.scrollTop = 0;
       const frameTimes = [];
       requestAnimationFrame((startedAt) => {

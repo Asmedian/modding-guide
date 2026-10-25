@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "GAME_TYPE_SINGLE",
+      "kind": "constant",
+      "slug": "framework/constants/game-types",
+      "anchor": "const-game-type-single",
+      "aliases": [],
+      "label": "GAME_TYPE_SINGLE = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/#const-game-type-single"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAME_TYPE_TCP",
+      "kind": "constant",
+      "slug": "framework/constants/game-types",
+      "anchor": "const-game-type-tcp",
+      "aliases": [],
+      "label": "GAME_TYPE_TCP = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/#const-game-type-tcp"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ADELA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-adela",
+      "aliases": [],
+      "label": "HERO_ADELA = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-adela"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ADELAIDE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-adelaide",
+      "aliases": [],
+      "label": "HERO_ADELAIDE = 11",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-adelaide"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ADRIENNE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-adrienne",
+      "aliases": [],
+      "label": "HERO_ADRIENNE = 145",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-adrienne"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AENAIN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-aenain",
+      "aliases": [],
+      "label": "HERO_AENAIN = 141",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-aenain"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AERIS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-aeris",
+      "aliases": [],
+      "label": "HERO_AERIS = 31",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-aeris"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AINE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-aine",
+      "aliases": [],
+      "label": "HERO_AINE = 47",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-aine"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AISLINN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-aislinn",
+      "aliases": [],
+      "label": "HERO_AISLINN = 73",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-aislinn"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AJIT",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-ajit",
+      "aliases": [],
+      "label": "HERO_AJIT = 83",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-ajit"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ALAGAR",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-alagar",
+      "aliases": [],
+      "label": "HERO_ALAGAR = 30",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-alagar"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ALAMAR",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-alamar",
+      "aliases": [],
+      "label": "HERO_ALAMAR = 88",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-alamar"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ALKIN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-alkin",
+      "aliases": [],
+      "label": "HERO_ALKIN = 116",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-alkin"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ANDRA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-andra",
+      "aliases": [],
+      "label": "HERO_ANDRA = 126",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-andra"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ARLACH",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-arlach",
+      "aliases": [],
+      "label": "HERO_ARLACH = 81",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-arlach"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ASH",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-ash",
+      "aliases": [],
+      "label": "HERO_ASH = 61",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-ash"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ASTRAL",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-astral",
+      "aliases": [],
+      "label": "HERO_ASTRAL = 40",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-astral"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_ATTACKER",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-attacker",
+      "aliases": [],
+      "label": "HERO_ATTACKER = -10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-attacker"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AXSIS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-axsis",
+      "aliases": [],
+      "label": "HERO_AXSIS = 58",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-axsis"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_AYDEN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-ayden",
+      "aliases": [],
+      "label": "HERO_AYDEN = 56",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-ayden"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_BACKPACK_CAPACITY",
+      "kind": "constant",
+      "slug": "framework/constants/game-limits",
+      "anchor": "const-hero-backpack-capacity",
+      "aliases": [],
+      "label": "HERO_BACKPACK_CAPACITY = 64",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-limits/#const-hero-backpack-capacity"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_BORAGUS",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-boragus",
+      "aliases": [],
+      "label": "HERO_BORAGUS = 154",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-boragus"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_BRISSA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-brissa",
+      "aliases": [],
+      "label": "HERO_BRISSA = 137",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-brissa"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_BROGHILD",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-broghild",
+      "aliases": [],
+      "label": "HERO_BROGHILD = 119",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-broghild"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_BRON",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-bron",
+      "aliases": [],
+      "label": "HERO_BRON = 112",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-bron"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CAITLIN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-caitlin",
+      "aliases": [],
+      "label": "HERO_CAITLIN = 15",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-caitlin"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CALH",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-calh",
+      "aliases": [],
+      "label": "HERO_CALH = 53",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-calh"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CALID",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-calid",
+      "aliases": [],
+      "label": "HERO_CALID = 60",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-calid"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CATHERINE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-catherine",
+      "aliases": [],
+      "label": "HERO_CATHERINE = 146",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-catherine"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CHARNA",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-charna",
+      "aliases": [],
+      "label": "HERO_CHARNA = 67",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-charna"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CHRISTIAN",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-christian",
+      "aliases": [],
+      "label": "HERO_CHRISTIAN = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-christian"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CIELE",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-ciele",
+      "aliases": [],
+      "label": "HERO_CIELE = 138",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-ciele"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HERO_CLANCY",
+      "kind": "constant",
+      "slug": "framework/constants/heroes",
+      "anchor": "const-hero-clancy",
+      "aliases": [],
+      "label": "HERO_CLANCY = 22",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/heroes/#const-hero-clancy"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -72,19 +72,21 @@ test('source registry uses unique IDs, registered sets, and immutable hashes', (
   }
 });
 
-test('navigation resolves published articles or the intentionally empty learning route', () => {
+test('navigation resolves published articles including ERM learning', () => {
   const published = new Set(entities.filter(({ meta }) => meta.status === 'published').map(({ meta }) => `${meta.section ?? 'docs'}/${meta.slug}`.replace(/\/$/, '')));
-  for (const section of ['docs', 'erm', 'plugins']) {
+  for (const section of ['docs', 'wiki', 'erm', 'plugins']) {
     const navigation = JSON.parse(readFileSync(join(projectRoot, 'content', '_navigation', `${section}.json`), 'utf8'));
-    for (const item of navigation.groups.flatMap((group) => group.items)) {
-      assert.ok(published.has(item.slug || section) || item.slug === 'erm/learn', `navigation resolves ${item.slug}`);
+    for (const item of navigation.groups.flatMap((group) => group.href ? [{ slug: group.href }] : group.items)) {
+      assert.ok(published.has(item.slug || section), `navigation resolves ${item.slug}`);
     }
   }
 });
 
-test('generated LLM manifest covers every published entity in both locales', () => {
+test('generated English LLM manifest covers every published entity once', () => {
   const manifest = JSON.parse(readFileSync(join(projectRoot, 'static', 'llm', 'manifest.json'), 'utf8'));
-  const expected = entities.filter(({ meta }) => meta.status === 'published').length * 2;
+  const expected = entities.filter(({ meta }) => meta.status === 'published').length;
+  assert.equal(manifest.language, 'en');
+  assert.ok(manifest.entities.every((entry) => entry.locale === 'en'));
   assert.equal(manifest.entities.length, expected);
   assert.equal(new Set(manifest.entities.map((entry) => `${entry.locale}:${entry.id}`)).size, expected);
 });

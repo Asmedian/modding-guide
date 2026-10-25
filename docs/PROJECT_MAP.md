@@ -28,7 +28,7 @@ External sources are read only during editorial work. Production depends solely 
 - `/{lang}/docs/` is the documentation overview.
 - `/{lang}/docs/{slug}/` is loaded from `content/docs/**/entity.json` plus the selected locale Markdown file.
 - `/{lang}/erm/` and `/{lang}/erm/{slug}/` load the ERM overview and articles from `content/erm`.
-- `/{lang}/erm/learn/` is deliberately heading-only.
+- `/{lang}/erm/learn/` renders paired published Markdown for AI-assisted learning, the full public LLM-map link and four prompt disclosures.
 - `/{lang}/plugins/`, `/{lang}/plugins/getting-started/`, `/{lang}/plugins/era-api/`, `/{lang}/plugins/nh3api/`, and `/{lang}/plugins/h3api/` load the plugin guide from `content/plugins`; H3API and NH3API have separate navigation groups.
 - `/api/reference/{lang}/{slug}.json` contains a prerendered copy of the article title and body for contextual navigation. `_overview.json` is the overview; these files require no server runtime.
 
@@ -38,7 +38,7 @@ The `[lang=locale]` matcher accepts only `ru` and `en`. HTML routes use trailing
 
 On the welcome page, `AppShell.svelte` leaves every top-level tab unselected and hides the desktop Docs sidebar. A two-column grid lets the home content fill the freed width. Code-block copy buttons show a local success hint for two seconds.
 
-The entire header and three-column layout share a centered `site-frame` capped by `--site-max: 1920px`. The desktop navigation and contextual-reference columns are deliberately wider, while the middle article remains line-length constrained. Theme surfaces use static colors; the light parchment effect adds a reusable 64×64 alpha PNG instead of runtime CSS gradients. The frame owns the viewport: its header and mobile search row remain outside the independently scrolling three-column content area, so article content always stops below the menu. The header uses intrinsic-width brand/navigation/actions and a shrinkable search control; compact spacing starts at 1440 px, and the mobile layout starts at 1200 px. The search label truncates independently of its icon and keyboard shortcut, while the shortcut hint is omitted on mobile.
+The entire header and three-column layout share a centered `site-frame` capped by `--site-max: 1920px`. The desktop navigation and contextual-reference columns are deliberately wider, while the middle article remains line-length constrained. Theme surfaces use static colors; the light parchment effect adds a reusable 64×64 alpha PNG instead of runtime CSS gradients. The frame owns the viewport: its header and mobile search row remain outside a height-constrained grid. `.content-column`, `.sidebar-scroll` and the context pane scroll independently. The grid itself has no overflowing content; the right pane is never inside the article scroller, preserving native middle-click ownership at different zoom levels. The header uses intrinsic-width brand/navigation/actions and a shrinkable search control; compact spacing starts at 1440 px, and the mobile layout starts at 1200 px. The search label truncates independently of its icon and keyboard shortcut, while the shortcut hint is omitted on mobile.
 
 `src/lib/server/content.ts` eagerly indexes only compact published metadata. Localized Markdown is represented by lazy Vite import functions and is read, validated, and rendered only when its article is requested; resolved articles are cached for repeated prerender endpoints. Before rendering, the publication filter removes retired changelog/credits material and the unrelated engineering-analysis preface from the syntax view, consolidates duplicated legacy headings, merges corresponding legacy and normalized ERM lookup tables without dropping unique cells or anchors, adds sortable headers, normalizes HEX/RGB notation to the `0x` form, and selects the light/dark optimized battlefield diagram assets without generating a wide HTML grid. The renderer adds linked heading controls and consistent language/copy/line-number chrome around code blocks while keeping copied code unchanged. The symbol catalog is imported only by its dedicated ERM index page. This avoids the former first-route development stall caused by compiling and rendering all 1016 Markdown documents. `src/lib/reference/rich.mjs` validates inert `:::erm` blocks, extracts their searchable text and source anchors, highlights ERM syntax without changing code characters, renders indented parameter descriptions as wrapping prose, and provides exact HEX conversion. `src/styles/erm-reference.css` adapts the retained source presentation to both site themes and is loaded by the ERM route layout, keeping reference-only styles out of the welcome, Docs, and Plugins payloads. `ArticlePage.svelte` provides the semantic article shell, source panel, and adjacent-page navigation.
 
@@ -66,7 +66,7 @@ Short interface strings use stable keys in `src/lib/i18n`. Technical metadata is
 
 ## Local state
 
-Preferences use `modding-guide:preferences:v1`; navigation uses `modding-guide:navigation:v1` and stores the IDs of collapsed groups across every section (all groups are open by default); ERM quick-link expansion uses `modding-guide:erm-quick-links:v1`. The settings reset clears all three stores and immediately opens every navigation group. Storage access is guarded so blocked or damaged `localStorage` cannot prevent reading the site.
+Preferences use `modding-guide:preferences:v1`; navigation uses `modding-guide:navigation:v1` and stores the IDs of collapsed groups across every section (all groups are open by default); ERM quick-link expansion uses `modding-guide:erm-quick-links:v1`. Wiki outline expansion uses `modding-guide:wiki-outline:v1`. The settings reset clears all four stores and immediately opens every navigation group. Storage access is guarded so blocked or damaged `localStorage` cannot prevent reading the site.
 
 ## Browser baseline
 
@@ -84,7 +84,7 @@ The first response remains useful without JavaScript. The saved theme and root l
 
 ## Generated files
 
-`src/lib/generated/search-index.ts`, `src/lib/generated/symbol-index.json`, `static/llm/manifest.json`, locale Markdown bundles, and `llms*.txt` are generated by `scripts/content/build-derived.mjs`. The generator applies the same publication filter as HTML rendering so retired changelogs, credits, and WoG-team material cannot remain searchable or appear in machine-readable bundles. Search entries include anchored article segments, rich reference text, and code so development search can reproduce every body match without Pagefind; the production browser does not load this corpus. The human LLM map renders its complete catalog from the same article registry. `scripts/content/build-symbols.mjs` merges the 544 separately anchored legacy commands with events, Framework functions, globals, and constants. Both languages receive separate `docs.md`, `erm.md`, and `plugins.md` LLM bundles with stable article IDs, canonical URLs, and source references. The manifest includes previous/next relationships, section-level provenance, and all six bundle URLs. `static/llm/sources.json` exports the complete source registry; `static/llm/reference.json` exports the ERM alphabet, receivers, trigger families, events, Framework symbols/files, separate legacy command destinations, links, and asset provenance. All published entity/locale pairs and their complete publication-filtered bodies are checked against these artifacts. Public machine URLs honor `BASE_PATH` and become absolute when `SITE_ORIGIN` is present. The sitemap includes both home pages and all articles; a stale deployment sitemap is removed from local builds. Do not edit generated files manually.
+`src/lib/generated/search-index.ts`, `src/lib/generated/symbol-index.json`, `static/llm/manifest.json`, locale Markdown bundles, and `llms*.txt` are generated by `scripts/content/build-derived.mjs`. The generator applies the same publication filter as HTML rendering so retired changelogs, credits, and WoG-team material cannot remain searchable or appear in machine-readable bundles. Search entries include anchored article segments, rich reference text, and code so development search can reproduce every body match without Pagefind; the production browser does not load this corpus. The human LLM map stays compact and links the complete bounded catalog generated from the same article registry. `scripts/content/build-symbols.mjs` merges the 544 separately anchored legacy commands with events, Framework functions, globals, and constants. LLM exports use only English `docs.md`, `erm.md`, `plugins.md` and `wiki.md` bundles with stable article IDs, canonical URLs, and source references. The manifest includes previous/next relationships, section-level provenance, and all four English offline bundle URLs. `static/llm/sources.json` exports the complete source registry; `static/llm/reference.json` exports the ERM alphabet, receivers, trigger families, events, Framework symbols/files, separate legacy command destinations, links, and asset provenance. All published English entities and their complete publication-filtered bodies are checked against these artifacts. Public machine URLs honor `BASE_PATH` and become absolute when `SITE_ORIGIN` is present. The sitemap includes both home pages and all articles; a stale deployment sitemap is removed from local builds. Do not edit generated files manually.
 
 `scripts/content/verify-build.mjs` runs at the end of every production build. It checks built HTML links, assets, anchors, symbol destinations, manifest destinations, sitemap coverage when configured, and accidental machine-specific paths. It also verifies that every contextual JSON file matches its complete canonical article body. It writes `reports/build-validation.json`. Content tests validate the keyword subset used by the checked-in JSON schemas; unsupported schema keywords fail closed. Maintainer-guide links and documented top-level directories are tested too.
 
@@ -104,3 +104,73 @@ Optional adapter precompression is disabled: generating two compression streams 
 - New UI label: both dictionaries and the consuming component.
 - Route or schema change: source code, tests, AGENTS, this map, and the editing guide.
 - Browser feature change: Vite target, compatibility notes, and manual smoke-test record.
+
+## Wiki resource catalog
+
+Wiki appears between Docs and ERM at `/{lang}/wiki/`. It remains fully prerendered.
+`content/wiki/` contains paired locale catalogs; `_registry/pages.json` stores
+at most 72 resource references per page. Wiki is an explicit LF-driven sidebar
+exception to editorial curation; it still uses at most two menu levels and
+at most twelve leaves per group. Sounds, videos and the combined font catalog are direct links without
+submenus. SoD marks leaf links and resources; expandable menu headings omit it.
+
+`scripts/wiki/import_resources.py` uses external LOD/SND/VID archives and LF
+classification trees, Pillow, Node.js and FFmpeg to produce `static/assets/wiki/sod/`.
+Archive snapshots and conversion tools stay external. Published files are
+stored individually, with tiny first-frame WebP previews. Keep future WoG
+assets under a separate `wog/` edition directory. DEF original bytes are loaded
+only on popup activation, through the separately imported Explorer decoder.
+WAV PCM and H.264/AAC MP4 derivatives preserve sound rates and video frame
+counts/rates. DEF carries no frame timing; its preview interval is adjustable.
+Campaign summaries are prepared offline using the supplied Explorer parser.
+Their lazy popup includes descriptions, scenario cards, minimaps, aggregate
+statistics and individual H3M downloads. XMI/IFR retain byte previews. TXT is skipped.
+
+`WikiPage.svelte` owns one shared active audio/video player, with 50% initial
+volume. Inactive controls are disabled except Play; navigation aborts playback.
+`WikiDefPopup.svelte` shows frame groups and original names, aborts fetches on
+close, and releases animation/cache resources. No full media or DEF decoder is
+requested until activation. `resource-placements.json` retains the user's editorial
+placements. `scripts/wiki/refine_catalog.py` applies them after import, pairs DEF/MSK
+names case-insensitively and builds nested cross-page outlines on first pages.
+Unspecified resources and masks without a DEF belong to Other files.
+`unclassified.md` reports remaining unmatched names and missing LF references.
+
+The content generator includes Wiki in the English LLM manifest and `en/wiki.md` offline mirror,
+search and sitemap, and exports `llm/wiki-resources.json` with file provenance
+and localized destinations. Use `npm run prepare:content` for generated files.
+
+`WikiResourcePopup.svelte` opens images in a modal; only its external-link
+button opens a new tab. Fonts use native-size indexed glyph sheets on a dark
+surface in both themes. Palettes retain source colors/flags and expose swatch
+and HEX/RGB table views. DEF playback starts on open and group selection at
+100ms by default. `WikiPagination.svelte` appears above and below multi-page
+catalogs, with at most five numbered links and an ellipsis before the final
+page when necessary. `scripts/wiki/enhance_catalog.py` and the offline-only
+Explorer map parser prepare this presentation without adding archive parsing
+to the browser. Existing per-font URLs remain readable for earlier links. Both
+popups close on backdrop interaction and scroll their body independently of the
+header. Masks expand on demand in their DEF row and popup. Pagination destinations
+depend reactively on category and locale, even when the numbered window is unchanged.
+Wiki route data omits the unused Markdown table HTML and source list; the catalog
+already renders those rows. A server-side map indexes page records by their slug.
+
+## Bounded machine retrieval
+
+The public LLM entry page `/en/docs/llm-map/` supplies the complete reading protocol and links `/llm/browse/index.json`. `build-derived.mjs` passes published bodies and metadata, symbol data, source records, reference registries and Wiki resources to `scripts/content/build-llm.mjs`. Its exclusively owned output tree is `static/llm/browse/`:
+
+- `en/index.md` → `en/{section}/index.json` → semantic topic indexes → bounded `page-NNN.json` metadata catalogs → `text-NNN.md` full-text excerpts;
+- `sources/`, `reference/`, `symbols/` and `wiki-resources/` provide separate paged evidence and exact-name lookups, with first/last key ranges;
+- topic metadata retains stable IDs, canonical URLs, summaries, questions, keywords, article relations and section-level sources. Text part metadata identifies ordered excerpts and anchor ranges. Several short related articles share one text file; large articles span ordered parts;
+- typical text/catalog files target 24 KiB; every file is limited to 48 KiB. Complete fenced/PRE examples are atomic. Source excerpts between marked boundaries reconstruct the entire publication-filtered body exactly;
+- all URLs honor deployment base and origin. Content tests traverse from the single root, reject unreachable files or missing entities, reconstruct every English article, and compare sources and Wiki resources with the full registries. The production validator checks machine destinations, canonical anchors and file budgets.
+
+The earlier `manifest.json`, `reference.json`, `sources.json`, `wiki-resources.json`, `llms-full.txt` and section Markdown bundles remain compatible optional offline mirrors. They are explicitly excluded from the default retrieval instructions. The LLM map no longer imports/renders every localized article to produce a massive inline catalog.
+
+## Scrollbars and Wiki disclosures
+
+Shared scrollbar tokens adapt track, thumb and hover colors to dark and light themes. Chromium/WebKit use 8px bars (6px at narrow widths), with no arrow buttons; Firefox uses standard `thin` and the same palette. `.erm-page-rail-scroll` reserves its gutter inside a fixed outer rail and uses a 3px track where supported. Its natural scroll height drives rail placement. The ERM alphabet uses its natural scroll extent: at the actual bottom it selects the final available letter and reveals the end of the letter rail. No spacer or artificial trailing height is inserted.
+
+`WikiOutline.svelte` renders a native disclosure with transparent background, muted links and a gold heading. `src/lib/wiki/preferences.ts` shares expansion state, guards storage access and responds to cross-tab changes and settings reset. The same saved preference applies across pages and languages; no-JavaScript output remains expanded and readable. `scripts/content/verify-interface.mjs` tests these behaviors in the built site and writes ignored screenshots and a JSON report.
+
+LLM exports use English only, including article metadata, registry labels, Wiki categories and canonical destinations. Do not generate `static/llm/ru/` or `static/llm/browse/ru/`. The generator removes obsolete Russian mirrors. Keep the ordinary site and its publication checks bilingual; the English LLM manifest is not the inventory for Russian HTML. Preserve original filenames, IDs, paths, hashes and code literals. Learning pages always link to `/en/docs/llm-map/`.

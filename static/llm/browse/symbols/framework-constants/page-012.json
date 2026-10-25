@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "BITS_IN_INT16",
+      "kind": "constant",
+      "slug": "framework/constants/bit-sizes",
+      "anchor": "const-bits-in-int16",
+      "aliases": [],
+      "label": "BITS_IN_INT16 = 16",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/#const-bits-in-int16"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BITS_IN_INT32",
+      "kind": "constant",
+      "slug": "framework/constants/bit-sizes",
+      "anchor": "const-bits-in-int32",
+      "aliases": [],
+      "label": "BITS_IN_INT32 = 32",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/#const-bits-in-int32"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BITS_IN_INT4",
+      "kind": "constant",
+      "slug": "framework/constants/bit-sizes",
+      "anchor": "const-bits-in-int4",
+      "aliases": [],
+      "label": "BITS_IN_INT4 = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/#const-bits-in-int4"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BITS_IN_INT8",
+      "kind": "constant",
+      "slug": "framework/constants/bit-sizes",
+      "anchor": "const-bits-in-int8",
+      "aliases": [],
+      "label": "BITS_IN_INT8 = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bit-sizes/#const-bits-in-int8"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_DEF_FRAME_IND",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-def-frame-ind",
+      "aliases": [],
+      "label": "BMG_FIELD_DEF_FRAME_IND = -86",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-def-frame-ind"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_DEF_GROUP_IND",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-def-group-ind",
+      "aliases": [],
+      "label": "BMG_FIELD_DEF_GROUP_IND = -87",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-def-group-ind"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_HIDDEN_QUANTITY",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-hidden-quantity",
+      "aliases": [],
+      "label": "BMG_FIELD_HIDDEN_QUANTITY = -90",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-hidden-quantity"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_IRRECOVERABLE_LOSS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-irrecoverable-loss",
+      "aliases": [],
+      "label": "BMG_FIELD_IRRECOVERABLE_LOSS = -81",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-irrecoverable-loss"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_LUCK",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-luck",
+      "aliases": [],
+      "label": "BMG_FIELD_LUCK = 213",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-luck"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_MON_POS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-mon-pos",
+      "aliases": [],
+      "label": "BMG_FIELD_MON_POS = -88",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-mon-pos"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_MON_TYPE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-mon-type",
+      "aliases": [],
+      "label": "BMG_FIELD_MON_TYPE = -89",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-mon-type"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_MORALE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-morale",
+      "aliases": [],
+      "label": "BMG_FIELD_MORALE = 212",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-morale"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_NUM_DISPLAYED_MONS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-num-displayed-mons",
+      "aliases": [],
+      "label": "BMG_FIELD_NUM_DISPLAYED_MONS = -82",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-num-displayed-mons"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_NUM_MONS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-num-mons",
+      "aliases": [],
+      "label": "BMG_FIELD_NUM_MONS = -83",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-num-mons"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VALUE_DISPLAY_REAL_NUM_MONS",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-value-display-real-num-mons",
+      "aliases": [],
+      "label": "BMG_FIELD_VALUE_DISPLAY_REAL_NUM_MONS = -1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-value-display-real-num-mons"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VALUE_INVISIBLE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-value-invisible",
+      "aliases": [],
+      "label": "BMG_FIELD_VALUE_INVISIBLE = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-value-invisible"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VALUE_VISIBLE",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-value-visible",
+      "aliases": [],
+      "label": "BMG_FIELD_VALUE_VISIBLE = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-value-visible"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMG_FIELD_VISIBILITY",
+      "kind": "constant",
+      "slug": "framework/constants/bm-g-field-offsets",
+      "anchor": "const-bmg-field-visibility",
+      "aliases": [],
+      "label": "BMG_FIELD_VISIBILITY = -100",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/bm-g-field-offsets/#const-bmg-field-visibility"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "Implementation dependency",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_CDECL",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-cdecl",
+      "aliases": [],
+      "label": "CALLCONV_CDECL = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-cdecl"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_CDECL_FLOAT",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-cdecl-float",
+      "aliases": [],
+      "label": "CALLCONV_CDECL_FLOAT = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-cdecl-float"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_FASTCALL",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-fastcall",
+      "aliases": [],
+      "label": "CALLCONV_FASTCALL = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-fastcall"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_FASTCALL_FLOAT",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-fastcall-float",
+      "aliases": [],
+      "label": "CALLCONV_FASTCALL_FLOAT = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-fastcall-float"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_FLOAT_RES",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-float-res",
+      "aliases": [],
+      "label": "CALLCONV_FLOAT_RES = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-float-res"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_PASCAL",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-pascal",
+      "aliases": [],
+      "label": "CALLCONV_PASCAL = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-pascal"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_PASCAL_FLOAT",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-pascal-float",
+      "aliases": [],
+      "label": "CALLCONV_PASCAL_FLOAT = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-pascal-float"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_STDCALL",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-stdcall",
+      "aliases": [],
+      "label": "CALLCONV_STDCALL = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-stdcall"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_STDCALL_FLOAT",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-stdcall-float",
+      "aliases": [],
+      "label": "CALLCONV_STDCALL_FLOAT = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-stdcall-float"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_THISCALL",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-thiscall",
+      "aliases": [],
+      "label": "CALLCONV_THISCALL = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-thiscall"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CALLCONV_THISCALL_FLOAT",
+      "kind": "constant",
+      "slug": "framework/constants/calling-conventions",
+      "anchor": "const-callconv-thiscall-float",
+      "aliases": [],
+      "label": "CALLCONV_THISCALL_FLOAT = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/calling-conventions/#const-callconv-thiscall-float"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-002.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_CLEAR",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-result-clear",
+      "aliases": [],
+      "label": "CHAT_EVENT_RESULT_CLEAR = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-result-clear"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CHAT_EVENT_RESULT_CLOSE",
+      "kind": "constant",
+      "slug": "framework/constants/era-chat-event",
+      "anchor": "const-chat-event-result-close",
+      "aliases": [],
+      "label": "CHAT_EVENT_RESULT_CLOSE = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/era-chat-event/#const-chat-event-result-close"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-003.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

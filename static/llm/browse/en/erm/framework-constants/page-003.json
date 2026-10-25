@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.constants.game-settings",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-settings",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-settings/",
+      "title": "Game Settings",
+      "summary": "39 named values: game settings.",
+      "keywords": [
+        "GAME_SETTING_SHOW_INTRO",
+        "GAME_SETTING_MUSIC_VOLUME",
+        "GAME_SETTING_SOUND_VOLUME",
+        "GAME_SETTING_LAST_MUSIC_VOLUME",
+        "GAME_SETTING_LAST_SOUND_VOLUME",
+        "GAME_SETTING_WALK_SPEED",
+        "GAME_SETTING_COMP_WALK_SPEED",
+        "GAME_SETTING_SHOW_ROUTE",
+        "GAME_SETTING_MOVE_REMINDER",
+        "GAME_SETTING_QUICK_COMBAT",
+        "GAME_SETTING_VIDEO_SUBTITLES",
+        "GAME_SETTING_TOWN_OUTLINES",
+        "GAME_SETTING_ANIMATE_SPELLBOOK",
+        "GAME_SETTING_WINDOW_SCROLL_SPEED",
+        "GAME_SETTING_BLACKOUT_COMPUTER",
+        "GAME_SETTING_FIRST_TIME",
+        "GAME_SETTING_TEST_DECOMP",
+        "GAME_SETTING_TEST_READ",
+        "GAME_SETTING_TEST_BLIT",
+        "GAME_SETTING_BINK_VIDEO",
+        "GAME_SETTING_UNIQUE_SYSTEM_ID",
+        "GAME_SETTING_NETWORK_DEF_NAME",
+        "GAME_SETTING_AUTOSAVE",
+        "GAME_SETTING_SHOW_COMBAT_GRID",
+        "GAME_SETTING_SHOW_COMBAT_MOUSE_HEX",
+        "GAME_SETTING_COMBAT_SHADE_LEVEL",
+        "GAME_SETTING_COMBAT_ARMY_INFO_LEVEL",
+        "GAME_SETTING_COMBAT_AUTO_CREATURES",
+        "GAME_SETTING_COMBAT_AUTO_SPELLS",
+        "GAME_SETTING_COMBAT_CATAPULT",
+        "GAME_SETTING_COMBAT_BALLISTA",
+        "GAME_SETTING_COMBAT_FIRST_AID_TENT",
+        "GAME_SETTING_COMBAT_SPEED",
+        "GAME_SETTING_MAIN_GAME_SHOW_MENU",
+        "GAME_SETTING_MAIN_GAME_X",
+        "GAME_SETTING_MAIN_GAME_Y",
+        "GAME_SETTING_MAIN_GAME_FULL_SCREEN",
+        "GAME_SETTING_APP_PATH",
+        "GAME_SETTING_CD_DRIVE"
+      ],
+      "questions": [
+        "39 named values: game settings."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.game-structures",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-structures",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-structures/",
+      "title": "Game Structures",
+      "summary": "26 named values: game structures.",
+      "keywords": [
+        "STRUCT_H3DLG_VTABLE",
+        "STRUCT_H3DLG_WIDTH",
+        "STRUCT_H3DLG_HEIGHT",
+        "STRUCT_H3DLG_X",
+        "STRUCT_H3DLG_Y",
+        "STRUCT_SNDMAN_UNLOCKED",
+        "STRUCT_COMBATMAN_ATTACKER_ARMY",
+        "STRUCT_COMBATMAN_DEFENDER_ARMY",
+        "STRUCT_COMBATMAN_IS_WAITING_PHASE",
+        "STRUCT_SPELL_NAME",
+        "STRUCT_SPELL_SHORT_NAME",
+        "STRUCT_SPELL_DESCR",
+        "STRUCT_SPELL_DESCR_BASIC",
+        "STRUCT_SPELL_DESCR_ADVANCED",
+        "STRUCT_SPELL_DESCR_EXPERT",
+        "STRUCT_WIN32_FIND_DATA_ATTRS",
+        "STRUCT_WIN32_FIND_DATA_FILENAME",
+        "STRUCT_HOOK_CONTEXT_EDI",
+        "STRUCT_HOOK_CONTEXT_ESI",
+        "STRUCT_HOOK_CONTEXT_EBP",
+        "STRUCT_HOOK_CONTEXT_ESP",
+        "STRUCT_HOOK_CONTEXT_EBX",
+        "STRUCT_HOOK_CONTEXT_EDX",
+        "STRUCT_HOOK_CONTEXT_ECX",
+        "STRUCT_HOOK_CONTEXT_EAX",
+        "STRUCT_HOOK_CONTEXT_RET"
+      ],
+      "questions": [
+        "26 named values: game structures."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "compatibility": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "Implementation dependency",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.game-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/game-types",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/game-types/",
+      "title": "Game Types",
+      "summary": "6 named values: game types.",
+      "keywords": [
+        "GAME_TYPE_SINGLE",
+        "GAME_TYPE_IPX",
+        "GAME_TYPE_TCP",
+        "GAME_TYPE_HOTSEAT",
+        "GAME_TYPE_DIRECT_CONNECT",
+        "GAME_TYPE_MODEM"
+      ],
+      "questions": [
+        "6 named values: game types."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.h3-dialog-commands",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/h3-dialog-commands",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-commands/",
+      "title": "H3 Dialog Commands",
+      "summary": "5 named values: h3 dialog commands.",
+      "keywords": [
+        "DLG_CMD_SET_TEXT",
+        "DLG_CMD_SET_DEF_FRAME",
+        "DLG_CMD_SET_DEF",
+        "DLG_CMD_SET_PCX",
+        "DLG_CMD_TYPE_DEFAULT"
+      ],
+      "questions": [
+        "5 named values: h3 dialog commands."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.h3-dialog-picture-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/h3-dialog-picture-types",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-picture-types/",
+      "title": "H3 Dialog Picture Types",
+      "summary": "47 named values: h3 dialog picture types.",
+      "keywords": [
+        "NO_PIC_TYPE",
+        "PIC_TYPE_FLAG_DISPLAY_ZEROS",
+        "PIC_TYPE_RES_WOOD",
+        "PIC_TYPE_RES_MERCURY",
+        "PIC_TYPE_RES_ORE",
+        "PIC_TYPE_RES_SULFUR",
+        "PIC_TYPE_RES_CRYSTAL",
+        "PIC_TYPE_RES_GEMS",
+        "PIC_TYPE_RES_GOLD",
+        "PIC_TYPE_RES_MITHRIL",
+        "PIC_TYPE_RES_FIRST",
+        "PIC_TYPE_RES_LAST",
+        "PIC_TYPE_ART",
+        "PIC_TYPE_SPELL",
+        "PIC_TYPE_FLAG",
+        "PIC_TYPE_LUCK_FIRST",
+        "PIC_TYPE_LUCK_POSITIVE",
+        "PIC_TYPE_LUCK_NEUTRAL",
+        "PIC_TYPE_LUCK_NEGATIVE",
+        "PIC_TYPE_LUCK_LAST",
+        "PIC_TYPE_MORALE_FIRST",
+        "PIC_TYPE_MORALE_POSITIVE",
+        "PIC_TYPE_MORALE_NEUTRAL",
+        "PIC_TYPE_MORALE_NEGATIVE",
+        "PIC_TYPE_MORALE_LAST",
+        "PIC_TYPE_EXPERIENCE",
+        "PIC_TYPE_SEC_SKILL",
+        "PIC_TYPE_MONSTER",
+        "PIC_TYPE_FIRST_TOWN_BUILDING",
+        "PIC_TYPE_CASTLE_TOWN_BUILDING",
+        "PIC_TYPE_RAMPART_TOWN_BUILDING",
+        "PIC_TYPE_TOWER_TOWN_BUILDING",
+        "PIC_TYPE_INFERNO_TOWN_BUILDING",
+        "PIC_TYPE_NECROPOLIS_TOWN_BUILDING",
+        "PIC_TYPE_DUNGEON_TOWN_BUILDING",
+        "PIC_TYPE_STRONGHOLD_TOWN_BUILDING",
+        "PIC_TYPE_FORTRESS_TOWN_BUILDING",
+        "PIC_TYPE_CONFLUX_TOWN_BUILDING",
+        "PIC_TYPE_LAST_TOWN_BUILDING",
+        "PIC_TYPE_PRIM_SKILL_FIRST",
+        "PIC_TYPE_SKILL_ATTACK",
+        "PIC_TYPE_SKILL_DEFENSE",
+        "PIC_TYPE_SKILL_POWER",
+        "PIC_TYPE_SKILL_KNOWLEDGE",
+        "PIC_TYPE_PRIM_SKILL_LAST",
+        "PIC_TYPE_SPELL_POINTS",
+        "PIC_TYPE_MONEY"
+      ],
+      "questions": [
+        "47 named values: h3 dialog picture types."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.h3-dialog-text-alignment",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/h3-dialog-text-alignment",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-dialog-text-alignment/",
+      "title": "H3 Dialog Text Alignment",
+      "summary": "6 named values: h3 dialog text alignment.",
+      "keywords": [
+        "TEXT_ALIGN_LEFT",
+        "TEXT_ALIGN_CENTER",
+        "TEXT_ALIGN_RIGHT",
+        "TEXT_ALIGN_TOP",
+        "TEXT_ALIGN_MIDDLE",
+        "TEXT_ALIGN_BOTTOM"
+      ],
+      "questions": [
+        "6 named values: h3 dialog text alignment."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.h3-message-dialog-types",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/h3-message-dialog-types",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/h3-message-dialog-types/",
+      "title": "H3 Message Dialog Types",
+      "summary": "5 named values: h3 message dialog types.",
+      "keywords": [
+        "MSG_TYPE_MES",
+        "MSG_TYPE_QUESTION",
+        "MSG_TYPE_POPUP",
+        "MSG_TYPE_CHOOSE_PIC",
+        "MSG_TYPE_CHOOSE_PIC_OR_CANCEL"
+      ],
+      "questions": [
+        "5 named values: h3 message dialog types."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.hero-artifact-levels",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/hero-artifact-levels",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-levels/",
+      "title": "Hero Artifact Levels",
+      "summary": "6 named values: hero artifact levels.",
+      "keywords": [
+        "ART_LEVEL_RANDOM",
+        "ART_LEVEL_SPECIAL",
+        "ART_LEVEL_TREASURE",
+        "ART_LEVEL_MINOR",
+        "ART_LEVEL_MAJOR",
+        "ART_LEVEL_RELIC"
+      ],
+      "questions": [
+        "6 named values: hero artifact levels."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.hero-artifact-slots",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/hero-artifact-slots",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-artifact-slots/",
+      "title": "Hero Artifact Slots",
+      "summary": "28 named values: hero artifact slots.",
+      "keywords": [
+        "NO_ART_SLOT",
+        "ART_SLOT_FIRST",
+        "ART_SLOT_EQUIPPED_FIRST",
+        "ART_SLOT_HEAD",
+        "ART_SLOT_SHOULDERS",
+        "ART_SLOT_NECK",
+        "ART_SLOT_RIGHT_HAND",
+        "ART_SLOT_LEFT_HAND",
+        "ART_SLOT_TORSO",
+        "ART_SLOT_RIGHT_RING",
+        "ART_SLOT_LEFT_RING",
+        "ART_SLOT_FEET",
+        "ART_SLOT_MISC_1",
+        "ART_SLOT_MISC_2",
+        "ART_SLOT_MISC_3",
+        "ART_SLOT_MISC_4",
+        "ART_SLOT_WAR_MACHINE_FIRST",
+        "ART_SLOT_WAR_MACHINE_LAST",
+        "ART_SLOT_BALLISTA",
+        "ART_SLOT_AMMO_CART",
+        "ART_SLOT_FIRST_AID_TENT",
+        "ART_SLOT_CATAPULT",
+        "ART_SLOT_SPELL_BOOK",
+        "ART_SLOT_MISC_5",
+        "ART_SLOT_EQUIPPED_LAST",
+        "ART_SLOT_BACKPACK_FIRST",
+        "ART_SLOT_BACKPACK_LAST",
+        "ART_SLOT_LAST"
+      ],
+      "questions": [
+        "28 named values: hero artifact slots."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "used-by": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "used-by",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups",
+            "Used by Framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.hero-classes",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/hero-classes",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-classes/",
+      "title": "Hero Classes",
+      "summary": "20 named values: hero classes.",
+      "keywords": [
+        "HERO_CLASS_FIRST",
+        "HERO_CLASS_KNIGHT",
+        "HERO_CLASS_CLERIC",
+        "HERO_CLASS_RANGER",
+        "HERO_CLASS_DRUID",
+        "HERO_CLASS_ALCHEMIST",
+        "HERO_CLASS_WIZARD",
+        "HERO_CLASS_DEMONIAC",
+        "HERO_CLASS_HERETIC",
+        "HERO_CLASS_DEATH_KNIGHT",
+        "HERO_CLASS_NECROMANCER",
+        "HERO_CLASS_OVERLORD",
+        "HERO_CLASS_WARLOCK",
+        "HERO_CLASS_BARBARIAN",
+        "HERO_CLASS_BATTLE_MAGE",
+        "HERO_CLASS_BEASTMASTER",
+        "HERO_CLASS_WITCH",
+        "HERO_CLASS_PLANESWALKER",
+        "HERO_CLASS_ELEMENTALIST",
+        "HERO_CLASS_LAST"
+      ],
+      "questions": [
+        "20 named values: hero classes."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-004.md",
+          "fromAnchor": "meaning",
+          "toAnchor": "related",
+          "headings": [
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.constants.hero-skills",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/constants/hero-skills",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/",
+      "title": "Hero Skills",
+      "summary": "41 named values: hero skills.",
+      "keywords": [
+        "PRIM_SKILL_FIRST",
+        "SKILL_ATTACK",
+        "SKILL_DEFENSE",
+        "SKILL_POWER",
+        "SKILL_KNOWLEDGE",
+        "PRIM_SKILL_LAST",
+        "SKILL_NOT_LEARNED",
+        "SKILL_BASIC",
+        "SKILL_ADVANCED",
+        "SKILL_EXPERT",
+        "NO_SKILL",
+        "SEC_SKILL_FIRST",
+        "SKILL_PATHFINDING",
+        "SKILL_ARCHERY",
+        "SKILL_LOGISTICS",
+        "SKILL_SCOUTING",
+        "SKILL_DIPLOMACY",
+        "SKILL_NAVIGATION",
+        "SKILL_LEADERSHIP",
+        "SKILL_WISDOM",
+        "SKILL_MYSTICISM",
+        "SKILL_LUCK",
+        "SKILL_BALLISTICS",
+        "SKILL_EAGLE_EYE",
+        "SKILL_NECROMANCY",
+        "SKILL_ESTATES",
+        "SKILL_FIRE_MAGIC",
+        "SKILL_AIR_MAGIC",
+        "SKILL_WATER_MAGIC",
+        "SKILL_EARTH_MAGIC",
+        "SKILL_SCHOLAR",
+        "SKILL_TACTICS",
+        "SKILL_ARTILLERY",
+        "SKILL_LEARNING",
+        "SKILL_OFFENCE",
+        "SKILL_ARMORER",
+        "SKILL_INTELLIGENCE",
+        "SKILL_SORCERY",
+        "SKILL_RESISTANCE",
+        "SKILL_FIRST_AID",
+        "SEC_SKILL_LAST"
+      ],
+      "questions": [
+        "41 named values: hero skills."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---consts.erm",
+        "old-help:form-primaryskill.htm"
+      ],
+      "sectionSources": {
+        "meaning": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "values": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-form-primaryskill": [
+          "old-help:form-primaryskill.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+          "fromAnchor": "ref-form-primaryskill",
+          "toAnchor": "related",
+          "headings": [
+            "Primary Skills Table",
+            "Purpose",
+            "Values",
+            "All groups"
+          ]
+        }
+      ]
+    }
+  ]
+}

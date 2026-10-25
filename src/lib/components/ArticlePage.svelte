@@ -82,25 +82,6 @@
       {#if article.symbols}<SymbolCatalog {lang} symbols={article.symbols} />{/if}
     {/if}
 
-    {#if article.catalog?.length}
-      <section class="llm-catalog" aria-label={t('llm.catalogTitle')}>
-        {#each article.catalog as entry}
-          <article class="llm-entry">
-            <div>
-              <code>{entry.id}</code>
-              <h3><a href={`${base}/${lang}/${entry.section ?? 'docs'}/${entry.slug ? `${entry.slug}/` : ''}`}>{entry.title}</a></h3>
-              <p>{entry.summary}</p>
-            </div>
-            <dl>
-              <dt>{t('llm.questions')}</dt>
-              <dd class="metadata-list">{#each entry.questions as question}<span>{question}</span>{/each}</dd>
-              <dt>{t('llm.keywords')}</dt>
-              <dd>{entry.keywords.join(', ')}</dd>
-            </dl>
-          </article>
-        {/each}
-      </section>
-    {/if}
 
     <details class="source-panel" data-pagefind-ignore>
       <summary><span>{t('article.sources')}</span><span class="disclosure-chevron" aria-hidden="true"><UiIcon name="chevron" /></span></summary>
@@ -123,7 +104,8 @@
 </AppShell>
 
 <style>
-  :global(.erm-page-rail) { position: sticky; z-index: 8; top: 48px; float: right; display: flex; flex-direction: column; width: 28px; max-height: calc(100vh - var(--header-height) - 56px); margin-bottom: -100%; overflow-y: auto; border: 1px solid var(--border); border-right: 0; border-radius: var(--radius-sm) 0 0 var(--radius-sm); background: var(--surface-background, var(--surface)); box-shadow: var(--shadow-soft); }
+  :global(.erm-page-rail) { position: sticky; z-index: 8; top: 48px; float: right; display: flex; width: 32px; max-height: calc(100vh - var(--header-height) - 56px); margin-bottom: -100%; border: 1px solid var(--border); border-right: 0; border-radius: var(--radius-sm) 0 0 var(--radius-sm); background: var(--surface-background, var(--surface)); box-shadow: var(--shadow-soft); }
+  :global(.erm-page-rail-scroll) { --scrollbar-size: 3px; width: 100%; min-height: 0; max-height: inherit; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
   :global(.erm-page-rail a) { display: grid; place-items: center; min-height: 23px; color: var(--gold); font: 700 .72rem/1 var(--font-body); }
   :global(.erm-page-rail a:hover), :global(.erm-page-rail a:focus-visible) { color: var(--text); background: var(--gold-soft); }
   :global(.article-body a:hover), :global(.article-body a:focus-visible) { color: var(--gold); text-decoration-color: currentColor; }

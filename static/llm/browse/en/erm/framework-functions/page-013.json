@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.ontownmouseclick-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/ontownmouseclick-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmouseclick-quit/",
+      "title": "OnTownMouseClick_Quit",
+      "summary": "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnTownMouseClick_Quit",
+        "FU(OnTownMouseClick_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-40-42-ontownmouseclick-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.ontownmousehint",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/ontownmousehint",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint/",
+      "title": "OnTownMouseHint",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
+      "keywords": [
+        "OnTownMouseHint",
+        "FU(OnTownMouseHint)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-205-207-ontownmousehint"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.ontownmousehint-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/ontownmousehint-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/ontownmousehint-quit/",
+      "title": "OnTownMouseHint_Quit",
+      "summary": "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnTownMouseHint_Quit",
+        "FU(OnTownMouseHint_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-67-69-ontownmousehint-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.packunion",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/packunion",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/packunion/",
+      "title": "PackUnion",
+      "summary": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.",
+      "keywords": [
+        "PackUnion",
+        "FU(PackUnion)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1241-1294-packunion"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.pow",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/pow",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/pow/",
+      "title": "Pow",
+      "summary": "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion.",
+      "keywords": [
+        "Pow",
+        "FU(Pow)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1166-1172-pow"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.preparemessageboxtext",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/preparemessageboxtext",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemessageboxtext/",
+      "title": "PrepareMessageBoxText",
+      "summary": "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version.",
+      "keywords": [
+        "PrepareMessageBoxText",
+        "FU(PrepareMessageBoxText)",
+        "requires-review",
+        "dialogs"
+      ],
+      "questions": [
+        "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2767-2798-preparemessageboxtext"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.preparemultipicdialog",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/preparemultipicdialog",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/preparemultipicdialog/",
+      "title": "PrepareMultiPicDialog",
+      "summary": "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog.",
+      "keywords": [
+        "PrepareMultiPicDialog",
+        "FU(PrepareMultiPicDialog)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2679-2755-preparemultipicdialog"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-addcancelbutton",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-addcancelbutton",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-addcancelbutton/",
+      "title": "RadioDlg_AddCancelButton",
+      "summary": "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button.",
+      "keywords": [
+        "RadioDlg_AddCancelButton",
+        "FU(RadioDlg_AddCancelButton)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2474-2489-radiodlg-addcancelbutton"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-additem",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-additem",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additem/",
+      "title": "RadioDlg_AddItem",
+      "summary": "Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel.",
+      "keywords": [
+        "RadioDlg_AddItem",
+        "FU(RadioDlg_AddItem)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2532-2560-radiodlg-additem"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-additems",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-additems",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-additems/",
+      "title": "RadioDlg_AddItems",
+      "summary": "Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected.",
+      "keywords": [
+        "RadioDlg_AddItems",
+        "FU(RadioDlg_AddItems)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2561-2577-radiodlg-additems"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-getitemtag",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-getitemtag",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemtag/",
+      "title": "RadioDlg_GetItemTag",
+      "summary": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.",
+      "keywords": [
+        "RadioDlg_GetItemTag",
+        "FU(RadioDlg_GetItemTag)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2597-2611-radiodlg-getitemtag"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-011.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.radiodlg-getitemvalue",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/radiodlg-getitemvalue",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/radiodlg-getitemvalue/",
+      "title": "RadioDlg_GetItemValue",
+      "summary": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string.",
+      "keywords": [
+        "RadioDlg_GetItemValue",
+        "FU(RadioDlg_GetItemValue)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2584-2596-radiodlg-getitemvalue"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-012.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    }
+  ]
+}

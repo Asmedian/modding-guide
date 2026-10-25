@@ -10,7 +10,7 @@ const arg = (name, fallback) => process.argv[process.argv.indexOf(name) + 1] && 
 const host = arg('--host', '127.0.0.1');
 const port = Number(arg('--port', '4173'));
 const base = (process.env.BASE_PATH ?? '').replace(/\/$/, '');
-const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.gif': 'image/gif', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.md': 'text/plain; charset=utf-8', '.xml': 'application/xml', '.wasm': 'application/wasm' };
+const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.gif': 'image/gif', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.md': 'text/plain; charset=utf-8', '.xml': 'application/xml', '.wasm': 'application/wasm', '.webp': 'image/webp', '.wav': 'audio/wav', '.mp4': 'video/mp4' };
 if (!existsSync(join(root, 'index.html'))) throw new Error('Run npm run build before preview.');
 
 const server = createServer((request, response) => {
@@ -23,9 +23,25 @@ const server = createServer((request, response) => {
     if (target !== root && !target.startsWith(`${root}${sep}`)) { response.writeHead(403).end(); return; }
     if (existsSync(target) && statSync(target).isDirectory()) target = join(target, 'index.html');
     if (!existsSync(target) || !statSync(target).isFile()) { response.writeHead(404).end(); return; }
-    response.writeHead(200, { 'Content-Type': mime[extname(target)] ?? 'application/octet-stream', 'Cache-Control': 'no-store' });
-    if (request.method === 'HEAD') response.end();
-    else createReadStream(target).pipe(response);
+    const size = statSync(target).size;
+    const headers = { 'Content-Type': mime[extname(target)] ?? 'application/octet-stream', 'Cache-Control': 'no-store', 'Accept-Ranges': 'bytes' };
+    if (request.headers.range) {
+      const match = request.headers.range.match(/^bytes=(\d*)-(\d*)$/);
+      let start = match?.[1] ? Number(match[1]) : 0;
+      let end = match?.[2] ? Number(match[2]) : size - 1;
+      if (match && !match[1] && match[2]) { start = Math.max(0, size - end); end = size - 1; }
+      if (!match || (!match[1] && !match[2]) || start >= size || start > end) {
+        response.writeHead(416, { ...headers, 'Content-Range': `bytes */${size}` }).end(); return;
+      }
+      end = Math.min(end, size - 1);
+      response.writeHead(206, { ...headers, 'Content-Length': end - start + 1, 'Content-Range': `bytes ${start}-${end}/${size}` });
+      if (request.method === 'HEAD') response.end();
+      else createReadStream(target, { start, end }).pipe(response);
+    } else {
+      response.writeHead(200, { ...headers, 'Content-Length': size });
+      if (request.method === 'HEAD') response.end();
+      else createReadStream(target).pipe(response);
+    }
   } catch {
     response.writeHead(400).end();
   }

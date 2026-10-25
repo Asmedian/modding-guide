@@ -60,7 +60,36 @@ for (const [path, body] of html) {
 }
 
 const manifest = JSON.parse(readFileSync(join(build, 'llm/manifest.json'), 'utf8'));
-for (const entry of manifest.entities) {
+assert.equal(manifest.language, 'en');
+assert.ok(manifest.entities.every((entry) => entry.locale === 'en'));
+// Site publication remains bilingual independently of the English-only LLM corpus.
+const siteEntities = walk(join(root, 'content')).filter((path) => path.endsWith(`${sep}entity.json`)).flatMap((path) => {
+  const meta = JSON.parse(readFileSync(path, 'utf8'));
+  if (meta.status !== 'published') return [];
+  return ['ru', 'en'].map((locale) => {
+    const raw = readFileSync(join(dirname(path), `${locale}.md`), 'utf8');
+    const frontmatter = JSON.parse(raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)[1]);
+    const section = meta.section ?? 'docs';
+    return { ...meta, ...frontmatter, section, locale, url: `${origin}${base}/${locale}/${section}/${meta.slug ? `${meta.slug}/` : ''}` };
+  });
+});
+const browseFiles = files.filter((path) => relative(join(build, 'llm/browse'), path).split(sep)[0] !== '..' && /\.(?:json|md)$/.test(path));
+assert.ok(browseFiles.length, 'bounded LLM catalog exists');
+function verifyMachineValue(value) {
+  if (Array.isArray(value)) { value.forEach(verifyMachineValue); return; }
+  if (value && typeof value === 'object') { Object.values(value).forEach(verifyMachineValue); return; }
+  if (typeof value !== 'string' || !/^(?:https?:\/\/|\/)/.test(value)) return;
+  const url = new URL(value, origin);
+  if (url.origin !== origin || !/\/(?:llm\/browse\/|(?:ru|en)\/|assets\/wiki\/)/.test(url.pathname)) return;
+  const target = localFile(url);
+  if (url.hash && html.has(target)) assert.ok(anchorSets.get(target).has(decodeURIComponent(url.hash.slice(1))), `Missing LLM anchor: ${url}`);
+}
+for (const file of browseFiles) {
+  assert.ok(statSync(file).size <= 48 * 1024, `LLM file exceeds 48 KiB: ${file}`);
+  if (file.endsWith('.json')) verifyMachineValue(JSON.parse(readFileSync(file, 'utf8')));
+  else for (const match of readFileSync(file, 'utf8').matchAll(/\]\(([^)]+\/llm\/browse\/[^)]+)\)/g)) verifyMachineValue(match[1]);
+}
+for (const entry of siteEntities) {
   const target = localFile(new URL(entry.url, origin));
   assert.ok(html.has(target), `${entry.id} must resolve to built HTML`);
   assert.ok(entry.title && entry.summary && entry.questions.length && entry.keywords.length, `${entry.id} has complete LLM metadata`);
@@ -96,7 +125,7 @@ for (const symbol of symbols) {
 if (process.env.SITE_ORIGIN) {
   const sitemap = readFileSync(join(build, 'sitemap.xml'), 'utf8');
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  for (const entry of manifest.entities) assert.ok(urls.includes(entry.url), `${entry.id} is in sitemap`);
+  for (const entry of siteEntities) assert.ok(urls.includes(entry.url), `${entry.id} is in sitemap`);
   for (const lang of ['ru', 'en']) assert.ok(urls.includes(`${origin}${base}/${lang}/`), `${lang} home is in sitemap`);
   urls.forEach((url) => localFile(new URL(url)));
 }
@@ -107,17 +136,17 @@ for (const path of files.filter((path) => /\.(?:html|js|json|css|txt|md)$/.test(
 assert.ok(existsSync(join(build, 'pagefind/pagefind.js')), 'Pagefind output exists');
 assert.ok(existsSync(join(build, 'icon.png')), 'Brand image is included');
 const fragments = files.filter((path) => path.endsWith('.pf_fragment'));
-const searchableEntities = manifest.entities.filter((entry) => entry.slug !== 'llm-map');
+const searchableEntities = siteEntities.filter((entry) => entry.slug !== 'llm-map');
 assert.equal(fragments.length, searchableEntities.length, 'Pagefind covers every searchable localized article');
 for (const path of fragments) {
   const compressed = readFileSync(path);
   const raw = compressed.subarray(0, 12).toString().startsWith('pagefind_dcd') ? compressed : gunzipSync(compressed);
   const fragment = JSON.parse(raw.subarray(12).toString());
   assert.ok(searchableEntities.some((entry) => entry.id === fragment.meta.pageId && entry.locale === fragment.meta.locale), `Pagefind has usable entity metadata: ${path}`);
-  assert.ok(['docs', 'erm', 'plugins'].includes(fragment.meta.topSection));
+  assert.ok(manifest.scope.includes(fragment.meta.topSection));
 }
 
-const report = { articles: manifest.entities.length / 2, localizedArticles: manifest.entities.length, searchableLocalizedArticles: searchableEntities.length, htmlPages: htmlFiles.length, referenceFiles, symbols: symbols.length, checkedLinks, checkedAnchors, basePath: base, passed: true };
+const report = { articles: siteEntities.length / 2, localizedArticles: siteEntities.length, llmArticles: manifest.entities.length, searchableLocalizedArticles: searchableEntities.length, htmlPages: htmlFiles.length, referenceFiles, symbols: symbols.length, checkedLinks, checkedAnchors, basePath: base, passed: true };
 mkdirSync(join(root, 'reports'), { recursive: true });
 writeFileSync(join(root, 'reports/build-validation.json'), `${JSON.stringify(report, null, 2)}\n`);
 console.log(`Validated ${report.localizedArticles} localized articles, ${checkedLinks} links, and ${checkedAnchors} anchors (base: ${base || '/'}).`);

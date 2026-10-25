@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.leavemouseevent",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/leavemouseevent",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/leavemouseevent/",
+      "title": "LeaveMouseEvent",
+      "summary": "Restores mouse context followed by keyboard context from the final handlers.",
+      "keywords": [
+        "LeaveMouseEvent",
+        "FU(LeaveMouseEvent)",
+        "internal"
+      ],
+      "questions": [
+        "Restores mouse context followed by keyboard context from the final handlers."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-171-174-leavemouseevent"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.loadintglobalsfromjson",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/loadintglobalsfromjson",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/loadintglobalsfromjson/",
+      "title": "LoadIntGlobalsFromJson",
+      "summary": "Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged.",
+      "keywords": [
+        "LoadIntGlobalsFromJson",
+        "FU(LoadIntGlobalsFromJson)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1835-1869-loadintglobalsfromjson"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.makerngseed",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/makerngseed",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/makerngseed/",
+      "title": "MakeRngSeed",
+      "summary": "Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed.",
+      "keywords": [
+        "MakeRngSeed",
+        "FU(MakeRngSeed)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1361-1375-makerngseed"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.mergeiniwithdefault",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/mergeiniwithdefault",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/mergeiniwithdefault/",
+      "title": "MergeIniWithDefault",
+      "summary": "Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni.",
+      "keywords": [
+        "MergeIniWithDefault",
+        "FU(MergeIniWithDefault)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1621-1629-mergeiniwithdefault"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.moncounttofuzzytext",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/moncounttofuzzytext",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/moncounttofuzzytext/",
+      "title": "MonCountToFuzzyText",
+      "summary": "Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_ selects formatting; 0 falls into 1–4 and negative input is an error.",
+      "keywords": [
+        "MonCountToFuzzyText",
+        "FU(MonCountToFuzzyText)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_ selects formatting; 0 falls into 1–4 and negative input is an error."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2950-3019-moncounttofuzzytext"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.newintarray",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/newintarray",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/newintarray/",
+      "title": "NewIntArray",
+      "summary": "Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0.",
+      "keywords": [
+        "NewIntArray",
+        "FU(NewIntArray)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-301-336-newintarray"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-008.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.newstrarray",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/newstrarray",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/newstrarray/",
+      "title": "NewStrArray",
+      "summary": "Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address.",
+      "keywords": [
+        "NewStrArray",
+        "FU(NewStrArray)",
+        "public",
+        "arrays"
+      ],
+      "questions": [
+        "Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-337-375-newstrarray"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onadventuremapleftmouseclick",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onadventuremapleftmouseclick",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremapleftmouseclick/",
+      "title": "OnAdventureMapLeftMouseClick",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
+      "keywords": [
+        "OnAdventureMapLeftMouseClick",
+        "FU(OnAdventureMapLeftMouseClick)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-190-192-onadventuremapleftmouseclick"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onadventuremapleftmouseclick-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onadventuremapleftmouseclick-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremapleftmouseclick-quit/",
+      "title": "OnAdventureMapLeftMouseClick_Quit",
+      "summary": "Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnAdventureMapLeftMouseClick_Quit",
+        "FU(OnAdventureMapLeftMouseClick_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-52-54-onadventuremapleftmouseclick-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onadventuremaprightmouseclick",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onadventuremaprightmouseclick",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremaprightmouseclick/",
+      "title": "OnAdventureMapRightMouseClick",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id.",
+      "keywords": [
+        "OnAdventureMapRightMouseClick",
+        "FU(OnAdventureMapRightMouseClick)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Prepares mouse context through EnterMouseEvent. Data is available in mouse_; OnCustomDialogEvent also saves dlg_id."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-175-177-onadventuremaprightmouseclick"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onadventuremaprightmouseclick-quit",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onadventuremaprightmouseclick-quit",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onadventuremaprightmouseclick-quit/",
+      "title": "OnAdventureMapRightMouseClick_Quit",
+      "summary": "Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context.",
+      "keywords": [
+        "OnAdventureMapRightMouseClick_Quit",
+        "FU(OnAdventureMapRightMouseClick_Quit)",
+        "quit-handler",
+        "events"
+      ],
+      "questions": [
+        "Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit"
+        ],
+        "signature": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit"
+        ],
+        "context": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit"
+        ],
+        "calls": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit"
+        ],
+        "provenance": [
+          "era-framework:lib-end--9999-era---stdlib.erm:lines-37-39-onadventuremaprightmouseclick-quit"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.onaftererminstructions",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/onaftererminstructions",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/onaftererminstructions/",
+      "title": "OnAfterErmInstructions",
+      "summary": "Creates the Framework daily timer and resets last-day tracking.",
+      "keywords": [
+        "OnAfterErmInstructions",
+        "FU(OnAfterErmInstructions)",
+        "event-handler",
+        "events"
+      ],
+      "questions": [
+        "Creates the Framework daily timer and resets last-day tracking."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-214-227-onaftererminstructions"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-009.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    }
+  ]
+}

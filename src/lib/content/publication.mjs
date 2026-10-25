@@ -1,7 +1,7 @@
 /**
  * Prepare source-transfer material for publication while retaining the audited originals.
  * @param {string} markdown
- * @param {'docs' | 'erm' | 'plugins'} section
+ * @param {'docs' | 'erm' | 'plugins' | 'wiki'} section
  * @param {string} slug
  */
 export function prepareArticleMarkdown(markdown, section, slug) {

@@ -1,0 +1,898 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "old-help:form-colors.htm",
+      "type": "legacy-help",
+      "title": "Form/Colors.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Colors.htm",
+      "version": "2.10b",
+      "sha256": "9BAE4FB487E5648AE5790DAF81530BBD98FD3B055B6EE04A15818F1E28BCB1A8",
+      "locator": {
+        "startLine": 1,
+        "endLine": 748
+      }
+    },
+    {
+      "id": "old-help:form-combatmon.htm",
+      "type": "legacy-help",
+      "title": "Form/CombatMon.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/CombatMon.htm",
+      "version": "2.10b",
+      "sha256": "355BA75A26B3D16DA1A66BED0C39B096429AC65313EA88279251E69DBFB27168",
+      "locator": {
+        "startLine": 1,
+        "endLine": 347
+      }
+    },
+    {
+      "id": "old-help:form-commanders.htm",
+      "type": "legacy-help",
+      "title": "Form/Commanders.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Commanders.htm",
+      "version": "2.10b",
+      "sha256": "01AB5909144E8D22D279FC745A6209811544552B3A2580215FB86DD4AB36C81A",
+      "locator": {
+        "startLine": 1,
+        "endLine": 64
+      }
+    },
+    {
+      "id": "old-help:form-commstr.htm",
+      "type": "legacy-help",
+      "title": "Form/CommStr.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/CommStr.htm",
+      "version": "2.10b",
+      "sha256": "567955CFCAEE5B099BC3FB7C4E81C8D41100F33E6C490635F783F7914A71DA16",
+      "locator": {
+        "startLine": 1,
+        "endLine": 53
+      }
+    },
+    {
+      "id": "old-help:form-cr-def-snd.htm",
+      "type": "legacy-help",
+      "title": "Form/Cr_def_snd.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Cr_def_snd.htm",
+      "version": "2.10b",
+      "sha256": "5901FEF27E3C3E9B5F20C0AE7F75A1249F1E979249054F74883FB7A4B0C5AA58",
+      "locator": {
+        "startLine": 1,
+        "endLine": 819
+      }
+    },
+    {
+      "id": "old-help:form-creature-hex.htm",
+      "type": "legacy-help",
+      "title": "Form/Creature_HEX.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Creature_HEX.htm",
+      "version": "2.10b",
+      "sha256": "BA3D736494BD8D618AC311A68D33089D130B0DDA98166FFDF029FDC27CB43C9A",
+      "locator": {
+        "startLine": 1,
+        "endLine": 621
+      }
+    },
+    {
+      "id": "old-help:form-creature.htm",
+      "type": "legacy-help",
+      "title": "Form/Creature.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Creature.htm",
+      "version": "2.10b",
+      "sha256": "107C4E9EC7066862F3F2E453F7B218E3CF1647F77D3933E7EABC3E2106446081",
+      "locator": {
+        "startLine": 1,
+        "endLine": 620
+      }
+    },
+    {
+      "id": "old-help:form-creaturedwellings.htm",
+      "type": "legacy-help",
+      "title": "Form/CreatureDwellings.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/CreatureDwellings.htm",
+      "version": "2.10b",
+      "sha256": "94625B86F98E52E495465B8AFCE4AEE585559747AF7A102A01C81140F6C3F66B",
+      "locator": {
+        "startLine": 1,
+        "endLine": 485
+      }
+    },
+    {
+      "id": "old-help:form-defspell.htm",
+      "type": "legacy-help",
+      "title": "Form/DefSpell.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/DefSpell.htm",
+      "version": "2.10b",
+      "sha256": "CDD8729AB917AD4CCE891952A4DF88349BEECD46C2F73D5CB4495CC9DFDA585C",
+      "locator": {
+        "startLine": 1,
+        "endLine": 200
+      }
+    },
+    {
+      "id": "old-help:form-flaggedabilities.htm",
+      "type": "legacy-help",
+      "title": "Form/FlaggedAbilities.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/FlaggedAbilities.htm",
+      "version": "2.10b",
+      "sha256": "27491C7AB0C0038006490BFE304D7E66B94E2749A3FD3A358AE5C030DD5D1A06",
+      "locator": {
+        "startLine": 1,
+        "endLine": 204
+      }
+    },
+    {
+      "id": "old-help:form-formatanimation.htm",
+      "type": "legacy-help",
+      "title": "Form/FormatAnimation.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/FormatAnimation.htm",
+      "version": "2.10b",
+      "sha256": "8D464B76D0C7BB708A04C1B97A84DAC3916E5DE4A1EFAC7882D41824BA668AC0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 279
+      }
+    },
+    {
+      "id": "old-help:form-gamerscolor-bit.htm",
+      "type": "legacy-help",
+      "title": "Form/GamersColor_bit.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/GamersColor_bit.htm",
+      "version": "2.10b",
+      "sha256": "36EE8F73AC2F26F711EC4A99BCA1993136668334EB8A97ACFFC54A65304546E9",
+      "locator": {
+        "startLine": 1,
+        "endLine": 51
+      }
+    },
+    {
+      "id": "old-help:form-gamerscolor.htm",
+      "type": "legacy-help",
+      "title": "Form/GamersColor.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/GamersColor.htm",
+      "version": "2.10b",
+      "sha256": "55930D2C6A2B686B607968B94EB5A0C24BF16AEAEFB507916755E8B246C65AB1",
+      "locator": {
+        "startLine": 1,
+        "endLine": 52
+      }
+    },
+    {
+      "id": "old-help:form-gamestate.htm",
+      "type": "legacy-help",
+      "title": "Form/GameState.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/GameState.htm",
+      "version": "2.10b",
+      "sha256": "580AD3023A061F94BA622B324669C265E37C1523F123611A885D3CAD6290D027",
+      "locator": {
+        "startLine": 1,
+        "endLine": 70
+      }
+    },
+    {
+      "id": "old-help:form-he-r.htm",
+      "type": "legacy-help",
+      "title": "Form/HE_R.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/HE_R.htm",
+      "version": "2.10b",
+      "sha256": "0D2959CF98FD96A307A14306D4BCA80A2BE3C55AA3DB25EAA8D40C4962F7015A",
+      "locator": {
+        "startLine": 1,
+        "endLine": 108
+      }
+    },
+    {
+      "id": "old-help:form-he-v.htm",
+      "type": "legacy-help",
+      "title": "Form/HE_V.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/HE_V.htm",
+      "version": "2.10b",
+      "sha256": "0F1414F8C6D809BFD52C0BA4E04ED58FC839E83C648B914E6870026F803242C9",
+      "locator": {
+        "startLine": 1,
+        "endLine": 53
+      }
+    },
+    {
+      "id": "old-help:form-heroesclasses.htm",
+      "type": "legacy-help",
+      "title": "Form/HeroesClasses.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/HeroesClasses.htm",
+      "version": "2.10b",
+      "sha256": "2B56925FA18A8578895CAD903A6871A70C4806ACD110897EFD68FFC2B5129AD9",
+      "locator": {
+        "startLine": 1,
+        "endLine": 85
+      }
+    },
+    {
+      "id": "old-help:form-heroeslevels.htm",
+      "type": "legacy-help",
+      "title": "Form/HeroesLevels.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/HeroesLevels.htm",
+      "version": "2.10b",
+      "sha256": "A3C67BD7A5DC1AFE422EF32C637C4A87549D80515C86BE2D8EAB998D3C4345D1",
+      "locator": {
+        "startLine": 1,
+        "endLine": 375
+      }
+    },
+    {
+      "id": "old-help:form-heroesspec.htm",
+      "type": "legacy-help",
+      "title": "Form/HeroesSpec.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/HeroesSpec.htm",
+      "version": "2.10b",
+      "sha256": "B9871242028FC8C2919CACCAF9A95933B353DA157D5CFC2FF4A6A175631846E7",
+      "locator": {
+        "startLine": 1,
+        "endLine": 1105
+      }
+    },
+    {
+      "id": "old-help:form-hex.htm",
+      "type": "legacy-help",
+      "title": "Form/HEX.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/HEX.htm",
+      "version": "2.10b",
+      "sha256": "392D135DDCB7D1736311BE558FE94C83A952AD120E92F5444B9E8C13AC0D9A60",
+      "locator": {
+        "startLine": 1,
+        "endLine": 109
+      }
+    },
+    {
+      "id": "old-help:form-if-flags.htm",
+      "type": "legacy-help",
+      "title": "Form/IF_Flags.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/IF_Flags.htm",
+      "version": "2.10b",
+      "sha256": "A519104E3E22680360D65F5FA386EBD4F769A0D99274B5C7DAA709E8D3641070",
+      "locator": {
+        "startLine": 1,
+        "endLine": 63
+      }
+    },
+    {
+      "id": "old-help:form-keys.htm",
+      "type": "legacy-help",
+      "title": "Form/Keys.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Keys.htm",
+      "version": "2.10b",
+      "sha256": "8CBE087171188B258300E158D89DB1DA1D585266A1EBB35DB6D5DCD3EBDC2C15",
+      "locator": {
+        "startLine": 1,
+        "endLine": 214
+      }
+    },
+    {
+      "id": "old-help:form-mines.htm",
+      "type": "legacy-help",
+      "title": "Form/Mines.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Mines.htm",
+      "version": "2.10b",
+      "sha256": "6EEF5FB352A5EEBDE0DDA7C1A12C9DD56C640EF9D7CA972563E41642BBB12E01",
+      "locator": {
+        "startLine": 1,
+        "endLine": 47
+      }
+    },
+    {
+      "id": "old-help:form-mousepointers.htm",
+      "type": "legacy-help",
+      "title": "Form/MousePointers.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/MousePointers.htm",
+      "version": "2.10b",
+      "sha256": "E381E9E4D7477BAC73704A94F8DB6AD206A14F87C79B6CC757A75976B893B7EC",
+      "locator": {
+        "startLine": 1,
+        "endLine": 247
+      }
+    },
+    {
+      "id": "old-help:form-mp3.htm",
+      "type": "legacy-help",
+      "title": "Form/MP3.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/MP3.htm",
+      "version": "2.10b",
+      "sha256": "620CEBD001216691E555769775CCF1589979440D8197618C0509CF201F581F0C",
+      "locator": {
+        "startLine": 1,
+        "endLine": 294
+      }
+    },
+    {
+      "id": "old-help:form-newobj.htm",
+      "type": "legacy-help",
+      "title": "Form/NewObj.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/NewObj.htm",
+      "version": "2.10b",
+      "sha256": "9BB821529D4D7D21DFBBDBF549836846A5912E45156762AE31338154FC89CD11",
+      "locator": {
+        "startLine": 1,
+        "endLine": 434
+      }
+    },
+    {
+      "id": "old-help:form-numberheroes-hex.htm",
+      "type": "legacy-help",
+      "title": "Form/NumberHeroes_HEX.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/NumberHeroes_HEX.htm",
+      "version": "2.10b",
+      "sha256": "1D869FB3655AD961E6F7432C444E44F37A6A0413C5BD461155BDAE863C079D4F",
+      "locator": {
+        "startLine": 1,
+        "endLine": 355
+      }
+    },
+    {
+      "id": "old-help:form-numberheroes.htm",
+      "type": "legacy-help",
+      "title": "Form/NumberHeroes.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/NumberHeroes.htm",
+      "version": "2.10b",
+      "sha256": "10EFF14E2D1264F99BDCAE66456568C4E01A4FD091D665BC5755BA174F2C222B",
+      "locator": {
+        "startLine": 1,
+        "endLine": 373
+      }
+    },
+    {
+      "id": "old-help:form-objects.htm",
+      "type": "legacy-help",
+      "title": "Form/Objects.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Objects.htm",
+      "version": "2.10b",
+      "sha256": "7F62CA676165C8986AE4E698125EE49340148779D2EFFDFC01DF908A24D641B9",
+      "locator": {
+        "startLine": 1,
+        "endLine": 924
+      }
+    },
+    {
+      "id": "old-help:form-obstacles-bit.htm",
+      "type": "legacy-help",
+      "title": "Form/Obstacles_bit.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Obstacles_bit.htm",
+      "version": "2.10b",
+      "sha256": "38F530841F7872DA0879BAD67CA288B4B988E5900FBDCA079614FE2D91A55F89",
+      "locator": {
+        "startLine": 1,
+        "endLine": 33
+      }
+    },
+    {
+      "id": "old-help:form-obstacles.htm",
+      "type": "legacy-help",
+      "title": "Form/Obstacles.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Obstacles.htm",
+      "version": "2.10b",
+      "sha256": "1566728D47B7002D84C2960631CD9BC085E7D04A9DE34666B98E5CE115936742",
+      "locator": {
+        "startLine": 1,
+        "endLine": 380
+      }
+    },
+    {
+      "id": "old-help:form-one-way-monolith.htm",
+      "type": "legacy-help",
+      "title": "Form/One-way monolith.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/One-way monolith.htm",
+      "version": "2.10b",
+      "sha256": "653612476EE7465A63E3AC5E2C0D26137BB180A7D25F2499262F386D00D9A2C4",
+      "locator": {
+        "startLine": 1,
+        "endLine": 35
+      }
+    },
+    {
+      "id": "old-help:form-picts.htm",
+      "type": "legacy-help",
+      "title": "Form/Picts.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Picts.htm",
+      "version": "2.10b",
+      "sha256": "FA3FF0C2DBFDB8EF0FB934F853367738F6BCCC4006B30DDDE7A554230D94F8DB",
+      "locator": {
+        "startLine": 1,
+        "endLine": 100
+      }
+    },
+    {
+      "id": "old-help:form-primaryskill.htm",
+      "type": "legacy-help",
+      "title": "Form/PrimarySkill.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/PrimarySkill.htm",
+      "version": "2.10b",
+      "sha256": "E7F684EA31D3D272FDEAEA56BCD3521FC1A661CC2D946D80A09B60A8DF80E1FA",
+      "locator": {
+        "startLine": 1,
+        "endLine": 23
+      }
+    },
+    {
+      "id": "old-help:form-rd-s1.htm",
+      "type": "legacy-help",
+      "title": "Form/rd_s1.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/rd_s1.htm",
+      "version": "2.10b",
+      "sha256": "E64BD15C2C608DC07FCD37FD93D5F3C2D3459CCC03513A16F3CE515AB53ED78F",
+      "locator": {
+        "startLine": 1,
+        "endLine": 4
+      }
+    },
+    {
+      "id": "old-help:form-resource.htm",
+      "type": "legacy-help",
+      "title": "Form/Resource.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Resource.htm",
+      "version": "2.10b",
+      "sha256": "9F9B114DD8523ABFF3AA23B7BBBAA1F6A174B06675078FCABF81B6F427C83D96",
+      "locator": {
+        "startLine": 1,
+        "endLine": 44
+      }
+    },
+    {
+      "id": "old-help:form-secondaryskill-if.htm",
+      "type": "legacy-help",
+      "title": "Form/SecondarySkill_IF.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SecondarySkill_IF.htm",
+      "version": "2.10b",
+      "sha256": "FD7B7B11E87734F3D37E1D458AD8A9291C41E1530E03DFF83508C8D9C1F0BEFB",
+      "locator": {
+        "startLine": 1,
+        "endLine": 222
+      }
+    },
+    {
+      "id": "old-help:form-secondaryskill.htm",
+      "type": "legacy-help",
+      "title": "Form/SecondarySkill.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SecondarySkill.htm",
+      "version": "2.10b",
+      "sha256": "01358F598C55A6DE935D277DDE24D8DC3EAA866F9BD7266554BA79DF5D5EF6CA",
+      "locator": {
+        "startLine": 1,
+        "endLine": 96
+      }
+    },
+    {
+      "id": "old-help:form-sound.htm",
+      "type": "legacy-help",
+      "title": "Form/Sound.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Sound.htm",
+      "version": "2.10b",
+      "sha256": "E71515F8ED63CDEA67FB959D5A627D7DE0A7FEAC4DECC9C9F9390481B08BB6C4",
+      "locator": {
+        "startLine": 1,
+        "endLine": 70
+      }
+    },
+    {
+      "id": "old-help:form-specexp1.htm",
+      "type": "legacy-help",
+      "title": "Form/SpecExp1.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpecExp1.htm",
+      "version": "2.10b",
+      "sha256": "60C5ECD405D4900977E07E173C69CFAD04DE316DADCE3C8EFB80A6CA856A6B17",
+      "locator": {
+        "startLine": 1,
+        "endLine": 162
+      }
+    },
+    {
+      "id": "old-help:form-specexp2.htm",
+      "type": "legacy-help",
+      "title": "Form/SpecExp2.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpecExp2.htm",
+      "version": "2.10b",
+      "sha256": "0BDE0CDFF689DDDACD59B383EF4F83146227892DD290BFBE5F608ADFC4993DF0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 33
+      }
+    },
+    {
+      "id": "old-help:form-specexp3.htm",
+      "type": "legacy-help",
+      "title": "Form/SpecExp3.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpecExp3.htm",
+      "version": "2.10b",
+      "sha256": "318CD208B8A1DAEA02425C439B6668670D5BE2DD60C6BDD1F9F06B39E7969C5E",
+      "locator": {
+        "startLine": 1,
+        "endLine": 40
+      }
+    },
+    {
+      "id": "old-help:form-specexp4.htm",
+      "type": "legacy-help",
+      "title": "Form/SpecExp4.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpecExp4.htm",
+      "version": "2.10b",
+      "sha256": "4640EC81AFC5E52E6791524A86DF17F5A9DF265F4D3929FF9B9B4ACDA899A737",
+      "locator": {
+        "startLine": 1,
+        "endLine": 111
+      }
+    },
+    {
+      "id": "old-help:form-specexp5.htm",
+      "type": "legacy-help",
+      "title": "Form/SpecExp5.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpecExp5.htm",
+      "version": "2.10b",
+      "sha256": "B9E45764495D3BC82512AE2E672A9F5791D1817D97AB08CC34EE7217DD70B2C6",
+      "locator": {
+        "startLine": 1,
+        "endLine": 19
+      }
+    },
+    {
+      "id": "old-help:form-specterrain.htm",
+      "type": "legacy-help",
+      "title": "Form/SpecTerrain.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpecTerrain.htm",
+      "version": "2.10b",
+      "sha256": "CEFBBA9EE685D0904ECABDE8CC8B20405A652538E2053E471E7A1D1E4A040475",
+      "locator": {
+        "startLine": 1,
+        "endLine": 28
+      }
+    },
+    {
+      "id": "old-help:form-spell-hex.htm",
+      "type": "legacy-help",
+      "title": "Form/Spell_HEX.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Spell_HEX.htm",
+      "version": "2.10b",
+      "sha256": "214720F47F1E95920D1D8ED9D9954437CF289FA852E67A2A07E3FA948EB2BB18",
+      "locator": {
+        "startLine": 1,
+        "endLine": 343
+      }
+    },
+    {
+      "id": "old-help:form-spell.htm",
+      "type": "legacy-help",
+      "title": "Form/Spell.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Spell.htm",
+      "version": "2.10b",
+      "sha256": "C0A066364DF5C5C8ED11A58FC0D594F009EC2CCD8C28F42D8912A7A9C12B128A",
+      "locator": {
+        "startLine": 1,
+        "endLine": 343
+      }
+    },
+    {
+      "id": "old-help:form-spella.htm",
+      "type": "legacy-help",
+      "title": "Form/SpellA.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/SpellA.htm",
+      "version": "2.10b",
+      "sha256": "94A4AA3327639D46A65A7B6E3ECADCB827F43664DCAB5C3CCF16BA0E895720CE",
+      "locator": {
+        "startLine": 1,
+        "endLine": 338
+      }
+    },
+    {
+      "id": "old-help:form-terrain.htm",
+      "type": "legacy-help",
+      "title": "Form/Terrain.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Terrain.htm",
+      "version": "2.10b",
+      "sha256": "14A07287AF77EE7019B3DD4DF245D5CDD6EA49ADCD889A7C4911543068ADA70D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 51
+      }
+    },
+    {
+      "id": "old-help:form-towns.htm",
+      "type": "legacy-help",
+      "title": "Form/Towns.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Towns.htm",
+      "version": "2.10b",
+      "sha256": "7A18CBC18B7F8294118A62EA7342AFDE4A91FDC2BCFB785001DF61AC8734E0EA",
+      "locator": {
+        "startLine": 1,
+        "endLine": 50
+      }
+    },
+    {
+      "id": "old-help:form-track.htm",
+      "type": "legacy-help",
+      "title": "Form/Track.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Track.htm",
+      "version": "2.10b",
+      "sha256": "138EC9209E5140182245A6C0E75234E51498CAABA839FCF49E5D02DD14EF940D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 147
+      }
+    },
+    {
+      "id": "old-help:form-two-way-monolith.htm",
+      "type": "legacy-help",
+      "title": "Form/Two-way monolith.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Two-way monolith.htm",
+      "version": "2.10b",
+      "sha256": "05E98626CF746BE3297B5F3A1E1661F952E21F0C4FDA1D2D802FC219D1778DF5",
+      "locator": {
+        "startLine": 1,
+        "endLine": 30
+      }
+    },
+    {
+      "id": "old-help:form-video.htm",
+      "type": "legacy-help",
+      "title": "Form/Video.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Video.htm",
+      "version": "2.10b",
+      "sha256": "91D9C998A18D9FE163D1962C0A95618E85FE57BF8E687A2517A31E40AB8596F2",
+      "locator": {
+        "startLine": 1,
+        "endLine": 67
+      }
+    },
+    {
+      "id": "old-help:form-weapon.htm",
+      "type": "legacy-help",
+      "title": "Form/weapon.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/weapon.htm",
+      "version": "2.10b",
+      "sha256": "936216483EC0AE693CD176910E56EF2010F06BA3D0208200154A56F2A4785528",
+      "locator": {
+        "startLine": 1,
+        "endLine": 81
+      }
+    },
+    {
+      "id": "old-help:index",
+      "type": "legacy-help",
+      "title": "Legacy ERM Help navigation snapshot",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "index.htm",
+      "version": "2.10b",
+      "sha256": "C9472553CE604F45CE08DFFB86E68266D900D9BB4446B6C675AD36D6FA52AC93"
+    },
+    {
+      "id": "old-help:index.htm",
+      "type": "legacy-help",
+      "title": "index.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "index.htm",
+      "version": "2.10b",
+      "sha256": "C9472553CE604F45CE08DFFB86E68266D900D9BB4446B6C675AD36D6FA52AC93",
+      "locator": {
+        "startLine": 1,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "old-help:rec-ai.htm",
+      "type": "legacy-help",
+      "title": "Rec/AI.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/AI.htm",
+      "version": "2.10b",
+      "sha256": "61C0B314D696F0B5AA1065F55316F28CB09F353312A1547AE5DBE5B7C38993E0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 114
+      }
+    },
+    {
+      "id": "old-help:rec-ar.htm",
+      "type": "legacy-help",
+      "title": "Rec/AR.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/AR.htm",
+      "version": "2.10b",
+      "sha256": "0333E962089C3BF12867379EA3FFA977C9182440580BF7BE876CEC071DD51C15",
+      "locator": {
+        "startLine": 1,
+        "endLine": 131
+      }
+    },
+    {
+      "id": "old-help:rec-ba.htm",
+      "type": "legacy-help",
+      "title": "Rec/BA.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/BA.htm",
+      "version": "2.10b",
+      "sha256": "1A7613BEF3A1D67001A7C34F1ECF891144F0B29E2B06081A3BE5B491EE9DBEB2",
+      "locator": {
+        "startLine": 1,
+        "endLine": 154
+      }
+    },
+    {
+      "id": "old-help:rec-bf.htm",
+      "type": "legacy-help",
+      "title": "Rec/BF.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/BF.htm",
+      "version": "2.10b",
+      "sha256": "574594C72EDBBAE2EF30BFFA6E0D0102AC4C7494650F610319083F7F0C13C7AA",
+      "locator": {
+        "startLine": 1,
+        "endLine": 107
+      }
+    },
+    {
+      "id": "old-help:rec-bg.htm",
+      "type": "legacy-help",
+      "title": "Rec/BG.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/BG.htm",
+      "version": "2.10b",
+      "sha256": "E61FA403E53F7229BF3334E1C6A07F5D07552B2B08590CBF6687CA93B654BD56",
+      "locator": {
+        "startLine": 1,
+        "endLine": 119
+      }
+    },
+    {
+      "id": "old-help:rec-bh.htm",
+      "type": "legacy-help",
+      "title": "Rec/BH.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/BH.htm",
+      "version": "2.10b",
+      "sha256": "472F6E288925D44E8C383F06B2EF206E301A671F76F9311BFED05D2EF10825CB",
+      "locator": {
+        "startLine": 1,
+        "endLine": 100
+      }
+    },
+    {
+      "id": "old-help:rec-bm.htm",
+      "type": "legacy-help",
+      "title": "Rec/BM.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/BM.htm",
+      "version": "2.10b",
+      "sha256": "2658E48F4A4E120158A849993607A005815E080DC1570828AFD2173A75821CBB",
+      "locator": {
+        "startLine": 1,
+        "endLine": 326
+      }
+    },
+    {
+      "id": "old-help:rec-bu.htm",
+      "type": "legacy-help",
+      "title": "Rec/BU.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/BU.htm",
+      "version": "2.10b",
+      "sha256": "44FA19C67BD20379FCEB60A4A9A9C147BB027DDA57D27C523568EBE6F5EE4CA5",
+      "locator": {
+        "startLine": 1,
+        "endLine": 152
+      }
+    },
+    {
+      "id": "old-help:rec-ca.htm",
+      "type": "legacy-help",
+      "title": "Rec/CA.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/CA.htm",
+      "version": "2.10b",
+      "sha256": "EEECF6D3EFFF67B28E0EE220237B41BD868BB21956AACF2D099D3889569B5C33",
+      "locator": {
+        "startLine": 1,
+        "endLine": 160
+      }
+    },
+    {
+      "id": "old-help:rec-cb.htm",
+      "type": "legacy-help",
+      "title": "Rec/CB.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/CB.htm",
+      "version": "2.10b",
+      "sha256": "ACA63B16D8BEA1F4637F4BDC8D22DAA53AED77A7C26BF6C5E3272573EBFBC5CB",
+      "locator": {
+        "startLine": 1,
+        "endLine": 132
+      }
+    },
+    {
+      "id": "old-help:rec-cd.htm",
+      "type": "legacy-help",
+      "title": "Rec/CD.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/CD.htm",
+      "version": "2.10b",
+      "sha256": "8DBDE2CE5B1943F9779DF7CD8730BAF5ADAB6EF5D5F9C480832D43853B6806C5",
+      "locator": {
+        "startLine": 1,
+        "endLine": 153
+      }
+    },
+    {
+      "id": "old-help:rec-ce.htm",
+      "type": "legacy-help",
+      "title": "Rec/CE.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/CE.htm",
+      "version": "2.10b",
+      "sha256": "098887312EA4ED52FED75B97127352E2B2391EA820F24EE93B2E9399FBE7BE17",
+      "locator": {
+        "startLine": 1,
+        "endLine": 126
+      }
+    },
+    {
+      "id": "old-help:rec-ch.htm",
+      "type": "legacy-help",
+      "title": "Rec/CH.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Rec/CH.htm",
+      "version": "2.10b",
+      "sha256": "349C0CBD0F81A196D7DFDA17615981B36902D43FEC6E5E77F8C7F1D385A70B6B",
+      "locator": {
+        "startLine": 1,
+        "endLine": 80
+      }
+    }
+  ]
+}

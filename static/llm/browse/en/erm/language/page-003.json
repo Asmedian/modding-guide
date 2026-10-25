@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.un-c.projectile-type",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/projectile-type",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/projectile-type/",
+      "title": "Reading projectile type",
+      "summary": "For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value.",
+      "keywords": [
+        "projectile-type",
+        "UN:C",
+        "7961526"
+      ],
+      "questions": [
+        "For unmodified h3wog.exe: creatures 2..197, one byte per entry. The example only reads the value."
+      ],
+      "sourceRefs": [
+        "erm-forum:faq-.html",
+        "old-help:form-weapon.htm"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "code": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "limits": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "addresses": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "sources": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ],
+        "reference-links": [
+          "erm-forum:faq-.html",
+          "old-help:form-weapon.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.receivers",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "receivers",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/receivers/",
+      "title": "Receivers and subcommands",
+      "summary": "Alphabetical command catalog with parameters, limitations and context.",
+      "keywords": [
+        "AI",
+        "AR",
+        "BA",
+        "BF",
+        "BG",
+        "BH",
+        "BM",
+        "BU",
+        "CA",
+        "CB",
+        "CD",
+        "CE",
+        "CH",
+        "CM",
+        "CO",
+        "DL",
+        "DO",
+        "DW",
+        "EA",
+        "EX",
+        "FC",
+        "FR",
+        "FU",
+        "GD",
+        "GE",
+        "GR",
+        "HE",
+        "HL",
+        "HO",
+        "HT",
+        "IF",
+        "IP",
+        "KT",
+        "LE",
+        "LN",
+        "MA",
+        "MC",
+        "MF",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MR",
+        "MT",
+        "MW",
+        "OB",
+        "OW",
+        "PA",
+        "PM",
+        "PO",
+        "PR",
+        "QU",
+        "QW",
+        "RD",
+        "SC",
+        "SG",
+        "SK",
+        "SN",
+        "SP",
+        "SR",
+        "SS",
+        "ST",
+        "SW",
+        "SY",
+        "TL",
+        "TM",
+        "TR",
+        "UN",
+        "UR",
+        "VC",
+        "VR",
+        "WG",
+        "WH",
+        "WM",
+        "WT"
+      ],
+      "questions": [
+        "Alphabetical command catalog with parameters, limitations and context."
+      ],
+      "sourceRefs": [
+        "old-help:cont-receivers.htm",
+        "old-help:cont-receiversa.htm",
+        "old-help:cont-receiversol.htm"
+      ],
+      "sectionSources": {
+        "use": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "catalog": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "control": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "reference-links": [
+          "old-help:cont-receivers.htm",
+          "old-help:cont-receiversa.htm",
+          "old-help:cont-receiversol.htm"
+        ],
+        "ref-cont-receivers": [
+          "old-help:cont-receivers.htm"
+        ],
+        "ref-cont-receiversa": [
+          "old-help:cont-receiversa.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-005.md",
+          "fromAnchor": "ref-cont-receivers",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Receivers",
+            "Receivers and instructions",
+            "Receivers",
+            "Receivers and instructions for objects",
+            "Reading signatures",
+            "Complete catalog",
+            "Control-flow commands",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.tables",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "tables",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/tables/",
+      "title": "Reference tables",
+      "summary": "IDs, flags, constants, slots and data formats for ERM commands.",
+      "keywords": [
+        "tables",
+        "ID",
+        "HEX"
+      ],
+      "questions": [
+        "IDs, flags, constants, slots and data formats for ERM commands."
+      ],
+      "sourceRefs": [
+        "old-help:cont-form.htm",
+        "old-help:form-hex.htm",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "ids": [
+          "old-help:cont-form.htm",
+          "old-help:form-hex.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "constants": [
+          "old-help:cont-form.htm",
+          "old-help:form-hex.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "special": [
+          "old-help:cont-form.htm",
+          "old-help:form-hex.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "hex": [
+          "old-help:cont-form.htm",
+          "old-help:form-hex.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "reference-links": [
+          "old-help:cont-form.htm",
+          "old-help:form-hex.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "native-tables": [
+          "old-help:cont-form.htm",
+          "old-help:form-hex.htm",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "ref-cont-form": [
+          "old-help:cont-form.htm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-008.md",
+          "fromAnchor": "ref-cont-form",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Tables",
+            "Identifiers and named values",
+            "All reference tables",
+            "All constant tables",
+            "Special formats",
+            "Numbers, masks and bases",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.examples.sn-e",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "examples/sn-e",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/examples/sn-e/",
+      "title": "SN:E — calling by address",
+      "summary": "Resolve GetKeyState from user32.dll, check the export, then call with left Shift code 160. The pressed state is bit 15 of the SHORT result; the example does not mutate game state.",
+      "keywords": [
+        "SN:E",
+        "GetKeyState"
+      ],
+      "questions": [
+        "Resolve GetKeyState from user32.dll, check the export, then call with left Shift code 160. The example uses Framework GetKeyModsState’s bit test and does not mutate game state."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm",
+        "old-help:rec-sn-era.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "windows-api:getkeystate"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "code": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "contract": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "reference-links": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-002.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose",
+            "Example",
+            "Parameters and result",
+            "Related",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.examples.sn-f",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "examples/sn-f",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/examples/sn-f/",
+      "title": "SN:F — calling an export",
+      "summary": "SN:F resolves and caches GetKeyState. Copy the result from v1 into the output argument immediately, then restore v1. Export names and ABI cannot be selected by superficial similarity.",
+      "keywords": [
+        "SN:F",
+        "GetKeyState"
+      ],
+      "questions": [
+        "SN:F resolves and caches GetKeyState. Copy the result from v1 into the output argument immediately, then restore v1. Export names and ABI cannot be selected by superficial similarity."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm",
+        "old-help:rec-sn-era.htm",
+        "era-changelog:era-iii-changelog.txt",
+        "windows-api:getkeystate"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "code": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "contract": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "related": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ],
+        "reference-links": [
+          "era-framework:lib-9999-era---stdlib.erm",
+          "old-help:rec-sn-era.htm",
+          "era-changelog:era-iii-changelog.txt",
+          "windows-api:getkeystate"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-003.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Purpose",
+            "Example",
+            "Parameters and result",
+            "Related",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.battle-spell-power",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/battle-spell-power",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/battle-spell-power/",
+      "title": "Spell power inside combat",
+      "summary": "Attacker and defender spell-power fields live in the combat manager. This example reads them without changing permanent hero skills.",
+      "keywords": [
+        "battle-spell-power",
+        "UN:C",
+        "6919200",
+        "21460",
+        "21464"
+      ],
+      "questions": [
+        "Attacker and defender spell-power fields live in the combat manager. This example reads them without changing permanent hero skills."
+      ],
+      "sourceRefs": [
+        "erm-forum:un-c-page-3.html",
+        "erm-forum:un-c-page-4.html",
+        "era-framework:lib-9999-era---consts.erm"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "code": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "limits": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "addresses": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html",
+          "era-framework:lib-9999-era---consts.erm"
+        ],
+        "sources": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html",
+          "era-framework:lib-9999-era---consts.erm"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "sources",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c.town-building-cost",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c/town-building-cost",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/town-building-cost/",
+      "title": "Town building-cost tables",
+      "summary": "Reads seven resource costs: common buildings 0..16, special buildings 17..25, dwellings 30..43.",
+      "keywords": [
+        "town-building-cost",
+        "UN:C",
+        "6979936",
+        "6980420",
+        "6985856",
+        "28"
+      ],
+      "questions": [
+        "Reads seven resource costs: common buildings 0..16, special buildings 17..29, dwellings 30..43."
+      ],
+      "sourceRefs": [
+        "erm-forum:un-c-page-3.html",
+        "erm-forum:un-c-page-4.html"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html"
+        ],
+        "code": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html"
+        ],
+        "limits": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html"
+        ],
+        "addresses": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html"
+        ],
+        "sources": [
+          "erm-forum:un-c-page-3.html",
+          "erm-forum:un-c-page-4.html"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-016.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "sources",
+          "headings": [
+            "Purpose and applicability",
+            "Code",
+            "Version and limitations",
+            "Addresses and offsets",
+            "Provenance and related commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.un-c",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "un-c",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/un-c/",
+      "title": "UN:C — memory access",
+      "summary": "Data widths, pointers, relocatable bases and historical recipes.",
+      "keywords": [
+        "UN:C",
+        "memory",
+        "GetRealAddr"
+      ],
+      "questions": [
+        "Data widths, pointers, relocatable bases and historical recipes."
+      ],
+      "sourceRefs": [
+        "old-help:cont-unc.htm",
+        "old-help:cont-unc-lib.htm",
+        "erm-forum:un-c-page-1.html",
+        "era-changelog:era-iii-changelog.txt",
+        "era-source:erm.pas"
+      ],
+      "sectionSources": {
+        "contract": [
+          "old-help:cont-unc.htm",
+          "old-help:cont-unc-lib.htm",
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas"
+        ],
+        "pointers": [
+          "old-help:cont-unc.htm",
+          "old-help:cont-unc-lib.htm",
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas"
+        ],
+        "lifecycle": [
+          "old-help:cont-unc.htm",
+          "old-help:cont-unc-lib.htm",
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas"
+        ],
+        "recipes": [
+          "old-help:cont-unc.htm",
+          "old-help:cont-unc-lib.htm",
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas"
+        ],
+        "review": [
+          "old-help:cont-unc.htm",
+          "old-help:cont-unc-lib.htm",
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas"
+        ],
+        "reference-links": [
+          "old-help:cont-unc.htm",
+          "old-help:cont-unc-lib.htm",
+          "erm-forum:un-c-page-1.html",
+          "era-changelog:era-iii-changelog.txt",
+          "era-source:erm.pas"
+        ],
+        "ref-cont-unc": [
+          "old-help:cont-unc.htm"
+        ],
+        "ref-cont-unc-lib": [
+          "old-help:cont-unc-lib.htm"
+        ],
+        "era3-updates": [
+          "era-changelog:era-iii-changelog.txt"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-013.md",
+          "fromAnchor": "ref-cont-unc",
+          "toAnchor": "ref-cont-unc-lib-2",
+          "headings": [
+            "Working with memory",
+            "Working with memory: UN:C (by D'yacon)",
+            "A little theory",
+            "Task 1: find an address containing resource \"gold\".",
+            "Task 2: find the address containing the cost of construction in the town.",
+            "Working with memory",
+            "Working with memory: UN:C/SN:E",
+            "Introduction",
+            "Working with percentages",
+            "Ready solutions"
+          ]
+        },
+        {
+          "part": 2,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-014.md",
+          "fromAnchor": "ref-cont-unc-lib-10",
+          "toAnchor": "ref-cont-unc-lib-6",
+          "headings": [
+            "Buildings and their prices",
+            "Special buildings in towns",
+            "Working with the town screen",
+            "Various constant values"
+          ]
+        },
+        {
+          "part": 3,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/language/text-015.md",
+          "fromAnchor": "ref-cont-unc-lib-spel",
+          "toAnchor": "reference-links",
+          "headings": [
+            "Chance of abilities triggering",
+            "Setting transparency for spell animations",
+            "Command contract",
+            "Static base and dynamic pointer",
+            "Applying and restoring changes",
+            "Recipes",
+            "Example status",
+            "Related commands and tables"
+          ]
+        }
+      ]
+    }
+  ]
+}

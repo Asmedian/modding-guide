@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "OnKeyPressed_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 13,
+      "endLine": 25,
+      "args": [
+        "key",
+        "preventDefault"
+      ],
+      "calls": [
+        "OnKeyPressed_AdvMap",
+        "OnKeyPressed_Battle",
+        "OnKeyPressed_HeroMeetingScreen",
+        "OnKeyPressed_HeroScreen",
+        "OnKeyPressed_Town",
+        "RestorePrevKeyModsState"
+      ],
+      "globals": [],
+      "constants": [
+        "DLG_ADVMAP",
+        "DLG_BATTLE",
+        "DLG_HERO_MEETING_SCREEN",
+        "DLG_HERO_SCREEN",
+        "DLG_TOWN_SCREEN"
+      ],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onkeypressed-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnKeyPressed: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnKeyReleased",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 157,
+      "endLine": 164,
+      "args": [
+        "key",
+        "preventDefault"
+      ],
+      "calls": [
+        "GetKeyModsState",
+        "SavePrevKeyModsState"
+      ],
+      "globals": [
+        "i^key^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onkeyreleased",
+      "review": "full-body",
+      "summary": "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+    },
+    {
+      "name": "OnKeyReleased_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 26,
+      "endLine": 36,
+      "args": [
+        "key",
+        "preventDefault",
+        "isDown"
+      ],
+      "calls": [
+        "OnKeyReleased_AdvMap",
+        "OnKeyReleased_Battle",
+        "OnKeyReleased_HeroMeetingScreen",
+        "OnKeyReleased_HeroScreen",
+        "OnKeyReleased_Town",
+        "RestorePrevKeyModsState"
+      ],
+      "globals": [],
+      "constants": [
+        "DLG_ADVMAP",
+        "DLG_BATTLE",
+        "DLG_HERO_MEETING_SCREEN",
+        "DLG_HERO_SCREEN",
+        "DLG_TOWN_SCREEN"
+      ],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onkeyreleased-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnKeyReleased: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnKingdomOverviewMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 199,
+      "endLine": 201,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onkingdomoverviewmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnKingdomOverviewMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 61,
+      "endLine": 63,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onkingdomoverviewmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnKingdomOverviewMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnRecruitDlgMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 193,
+      "endLine": 195,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onrecruitdlgmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnRecruitDlgMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 55,
+      "endLine": 57,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onrecruitdlgmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnRecruitDlgMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnSavegameRead",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 145,
+      "endLine": 147,
+      "args": [],
+      "calls": [
+        "ClearEventChainData"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onsavegameread",
+      "review": "full-body",
+      "summary": "Clears event-chain state after save data is read."
+    },
+    {
+      "name": "OnSetupBattlefield",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 263,
+      "endLine": 265,
+      "args": [],
+      "calls": [
+        "UpdateBattleVars"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onsetupbattlefield",
+      "review": "full-body",
+      "summary": "Refreshes battle_* during battlefield setup."
+    },
+    {
+      "name": "OnStartOrLoad",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 292,
+      "endLine": 300,
+      "args": [],
+      "calls": [
+        "GetMaxArtifactId",
+        "GetMaxHeroId",
+        "GetMaxMonsterId",
+        "GetMaxSpellId"
+      ],
+      "globals": [
+        "i^maxArtifacId^",
+        "i^maxHeroId^",
+        "i^maxMonsterId^",
+        "i^maxSpellId^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onstartorload",
+      "review": "full-body",
+      "summary": "Updates maxArtifacId, maxHeroId, maxMonsterId, maxSpellId. The source spells maxArtifacId without the second t."
+    },
+    {
+      "name": "OnTownHallMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 196,
+      "endLine": 198,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/ontownhallmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnTownHallMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 58,
+      "endLine": 60,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/ontownhallmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnTownHallMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnTownMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 178,
+      "endLine": 180,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/ontownmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnTownMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 40,
+      "endLine": 42,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/ontownmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnTownMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnTownMouseHint",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 205,
+      "endLine": 207,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/ontownmousehint",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnTownMouseHint_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 67,
+      "endLine": 69,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/ontownmousehint-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnTownMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "PackUnion",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1241,
+      "endLine": 1294,
+      "args": [
+        "firstArg"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "BITS_IN_INT32"
+      ],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/packunion",
+      "review": "full-body",
+      "summary": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+    },
+    {
+      "name": "Pow",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1166,
+      "endLine": 1172,
+      "args": [
+        "base",
+        "power",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/pow",
+      "review": "full-body",
+      "summary": "Exponentiation. Both inputs and output are floats; the result is copied from e1 with VR:C without numeric conversion."
+    },
+    {
+      "name": "PrepareMessageBoxText",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2767,
+      "endLine": 2798,
+      "args": [
+        "text[16]"
+      ],
+      "calls": [
+        "NewStrArray"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "requires-review",
+      "group": "dialogs",
+      "slug": "framework/functions/preparemessageboxtext",
+      "review": "full-body",
+      "summary": "Passes name/hint pairs for the next message to wog native dialogs:PrepareMessageBoxText. In this snapshot l<argsNum skips the last hint for an even argument count; verify the library version."
+    },
+    {
+      "name": "PrepareMultiPicDialog",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2679,
+      "endLine": 2755,
+      "args": [
+        "firstArg"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "MON_FIRST",
+        "NO_PIC_TYPE",
+        "PIC_TYPE_MONSTER"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/preparemultipicdialog",
+      "review": "full-body",
+      "summary": "Prepares pictures for the next IF:N: no arguments clear them; accepts type/subtype pairs or one array ID containing pairs. Skips NO_PIC_TYPE and negative creature subtypes; up to 8 nonempty pairs. Does not show the dialog."
+    },
+    {
+      "name": "RadioDlg_AddCancelButton",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2474,
+      "endLine": 2489,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_numItems^",
+        "i^radioDlg_flags^",
+        "i^radioDlg_freeSpaceAlerted^"
+      ],
+      "constants": [
+        "FALSE",
+        "RADIO_DLG_FLAG_BTN_CANCEL",
+        "RADIO_DLG_MAX_ITEMS",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-addcancelbutton",
+      "review": "full-body",
+      "summary": "Reserves one of 12 positions for Cancel. If full, drops the last item and reports an error once. Repeated calls do not add another button."
+    },
+    {
+      "name": "RadioDlg_AddItem",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2532,
+      "endLine": 2560,
+      "args": [
+        "itemCaptionPtr",
+        "itemValue",
+        "itemTagPtr",
+        "selectItem"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_captions^",
+        "i^radioDlg_tags^",
+        "i^radioDlg_values^",
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^",
+        "i^radioDlg_flags^",
+        "i^radioDlg_freeSpaceAlerted^"
+      ],
+      "constants": [
+        "FALSE",
+        "NULL",
+        "RADIO_DLG_FLAG_BTN_CANCEL",
+        "RADIO_DLG_MAX_ITEMS",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-additem",
+      "review": "full-body",
+      "summary": "Adds a caption, number, tag and optional selectItem. Defaults: empty, 0, empty, FALSE. An empty caption displays as -/-. Capacity is 12, or 11 with Cancel."
+    },
+    {
+      "name": "RadioDlg_AddItems",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2561,
+      "endLine": 2577,
+      "args": [
+        "firstItemCaptionPtr",
+        "firstItemValue",
+        "firstItemTagPtr"
+      ],
+      "calls": [
+        "RadioDlg_AddItem"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-additems",
+      "review": "full-body",
+      "summary": "Adds up to 5 caption/value/tag triples. An incomplete final triple is ignored; no item is automatically selected."
+    },
+    {
+      "name": "RadioDlg_GetItemTag",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2597,
+      "endLine": 2611,
+      "args": [
+        "itemInd",
+        "result"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_tags^",
+        "i^radioDlg_numItems^",
+        "s^temp^"
+      ],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-getitemtag",
+      "review": "full-body",
+      "summary": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+    },
+    {
+      "name": "RadioDlg_GetItemValue",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2584,
+      "endLine": 2596,
+      "args": [
+        "itemInd",
+        "result"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_values^",
+        "i^radioDlg_numItems^"
+      ],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-getitemvalue",
+      "review": "full-body",
+      "summary": "Returns a value/string tag by index. An invalid index reports an error and returns -1; for tags this is not an empty string."
+    },
+    {
+      "name": "RadioDlg_GetNumItems",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2578,
+      "endLine": 2583,
+      "args": [
+        "result"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_numItems^"
+      ],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-getnumitems",
+      "review": "full-body",
+      "summary": "Returns the item count excluding Cancel."
+    },
+    {
+      "name": "RadioDlg_Reset",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2456,
+      "endLine": 2467,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_captions^",
+        "i^radioDlg_tags^",
+        "i^radioDlg_values^",
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^",
+        "i^radioDlg_flags^",
+        "i^radioDlg_freeSpaceAlerted^",
+        "s^radioDlg_title^"
+      ],
+      "constants": [
+        "FALSE",
+        "NO_RADIO_DLG_ITEM",
+        "RADIO_DLG_MAX_ITEMS"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-reset",
+      "review": "full-body",
+      "summary": "Resets the shared radio dialog title, items, selection, and flags. Call before constructing a new dialog."
+    },
+    {
+      "name": "RadioDlg_SelectItem",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2490,
+      "endLine": 2496,
+      "args": [
+        "itemInd"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^"
+      ],
+      "constants": [
+        "NO_RADIO_DLG_ITEM"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-selectitem",
+      "review": "full-body",
+      "summary": "Selects index 0..numItems-1; an invalid index clears selection to NO_RADIO_DLG_ITEM."
+    },
+    {
+      "name": "RadioDlg_SelectItemByTag",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2514,
+      "endLine": 2531,
+      "args": [
+        "itemTagPtr"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_tags^",
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^",
+        "s^temp^"
+      ],
+      "constants": [
+        "NO_RADIO_DLG_ITEM"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-selectitembytag",
+      "review": "full-body",
+      "summary": "Selects the first matching value/string tag. Clears selection if no match exists."
+    },
+    {
+      "name": "RadioDlg_SelectItemByValue",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2497,
+      "endLine": 2513,
+      "args": [
+        "itemValue"
+      ],
+      "calls": [],
+      "globals": [
+        "i^radioDlg_values^",
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^"
+      ],
+      "constants": [
+        "NO_RADIO_DLG_ITEM"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-selectitembyvalue",
+      "review": "full-body",
+      "summary": "Selects the first matching value/string tag. Clears selection if no match exists."
+    },
+    {
+      "name": "RadioDlg_SetTitle",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2468,
+      "endLine": 2473,
+      "args": [
+        "titlePtr"
+      ],
+      "calls": [],
+      "globals": [
+        "s^radioDlg_title^"
+      ],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-settitle",
+      "review": "full-body",
+      "summary": "Copies the title into radio-dialog state."
+    },
+    {
+      "name": "RadioDlg_Show",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2612,
+      "endLine": 2678,
+      "args": [
+        "resultItem",
+        "resultValue",
+        "resultTagPtr"
+      ],
+      "calls": [
+        "Array_Copy",
+        "IntLog2",
+        "NewIntArray",
+        "NewStrArray"
+      ],
+      "globals": [
+        "i^radioDlg_captions^",
+        "i^radioDlg_tags^",
+        "i^radioDlg_values^",
+        "i^radioDlg_numItems^",
+        "i^radioDlg_selectedItemInd^",
+        "i^radioDlg_flags^",
+        "s^radioDlg_title^",
+        "s^temp^"
+      ],
+      "constants": [
+        "FALSE",
+        "NO_RADIO_DLG_ITEM",
+        "RADIO_DLG_FLAG_BTN_CANCEL",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/radiodlg-show",
+      "review": "full-body",
+      "summary": "Shows the dialog through IF:G and returns ?resultItem/?resultValue/?resultTagPtr. Cancel/empty lists yield -1/-1/empty. Copies state first so a nested dialog cannot alter current items."
+    },
+    {
+      "name": "ReadIniInts",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1736,
+      "endLine": 1777,
+      "args": [
+        "filePathPtr",
+        "sectionNamePtr",
+        "firstKeyPtr",
+        "firstValue",
+        "firstValueDefault"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "HERO_ORRIN",
+        "HERO_XERON"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/readiniints",
+      "review": "full-body",
+      "summary": "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check."
+    },
+    {
+      "name": "ReadIniStrings",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1697,
+      "endLine": 1735,
+      "args": [
+        "filePathPtr",
+        "sectionNamePtr",
+        "firstKeyPtr",
+        "firstValue",
+        "firstValueDefault"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "HERO_ORRIN",
+        "HERO_XERON"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/readinistrings",
+      "review": "full-body",
+      "summary": "Takes up to 4 key/?value/default triples after path and section. An empty stored string also uses default. ReadIniInts converts nonempty text to an integer; this is not a separate numeric-validity check."
+    },
+    {
+      "name": "ReadJsonIntArray",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1778,
+      "endLine": 1806,
+      "args": [
+        "jsonKeyPtr",
+        "intArray"
+      ],
+      "calls": [
+        "Array_Push",
+        "NewIntArray"
+      ],
+      "globals": [],
+      "constants": [
+        "ARG_SYNTAX_GET"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/readjsonintarray",
+      "review": "full-body",
+      "summary": "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers."
+    },
+    {
+      "name": "ReadJsonStrArray",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1807,
+      "endLine": 1834,
+      "args": [
+        "jsonKeyPtr",
+        "strArray"
+      ],
+      "calls": [
+        "Array_Push",
+        "NewStrArray"
+      ],
+      "globals": [],
+      "constants": [
+        "ARG_SYNTAX_GET"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/readjsonstrarray",
+      "review": "full-body",
+      "summary": "Reads JSON keys prefix.0, prefix.1… until the first missing key. Passing the second argument with ? creates a local array; otherwise the existing array is cleared and filled. ReadJsonIntArray converts strings to integers."
+    },
+    {
+      "name": "RestoreEventData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 47,
+      "endLine": 87,
+      "args": [
+        "firstArg"
+      ],
+      "calls": [
+        "ClearEventChainData"
+      ],
+      "globals": [
+        "i^savedEventData^",
+        "i^savedEventDataPos^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/restoreeventdata",
+      "review": "full-body",
+      "summary": "Restores integers to ? outputs. This snapshot reads savedNumArgs but repeats the buffer-size check instead of validating it. Save/restore calls must match exactly."
+    },
+    {
+      "name": "RestorePrevKeyModsState",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 91,
+      "endLine": 93,
+      "args": [],
+      "calls": [
+        "RestoreEventData"
+      ],
+      "globals": [
+        "i^key^",
+        "i^key_down^",
+        "i^key_leftAlt^",
+        "i^key_rightAlt^",
+        "i^key_alt^",
+        "i^key_leftCtrl^",
+        "i^key_rightCtrl^",
+        "i^key_ctrl^",
+        "i^key_leftShift^",
+        "i^key_rightShift^",
+        "i^key_shift^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/restoreprevkeymodsstate",
+      "review": "full-body",
+      "summary": "Restores key and modifier globals after a nested event."
+    },
+    {
+      "name": "RestorePrevMouseEventData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 142,
+      "endLine": 144,
+      "args": [],
+      "calls": [
+        "RestoreEventData"
+      ],
+      "globals": [
+        "i^mouse_x^",
+        "i^mouse_y^",
+        "i^mouse_battleHex^",
+        "i^mouse_flags^",
+        "i^mouse_hero_0^",
+        "i^mouse_item^",
+        "i^mouse_mapX^",
+        "i^mouse_mapY^",
+        "i^mouse_mapZ^",
+        "i^mouse_action^"
+      ],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/restoreprevmouseeventdata",
+      "review": "full-body",
+      "summary": "Saves/restores ten mouse_* values. mouse_hero_1 and dlg_action are not included, so the pair does not restore the entire context."
+    }
+  ]
+}

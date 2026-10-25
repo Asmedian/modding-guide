@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "docs.llm-map",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "llm-map",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/llm-map/",
+      "title": "Content map for LLMs",
+      "summary": "An English-only AI reference: topic catalogs for Docs, ERM, Plugins and Wiki, with complete texts in bounded files.",
+      "keywords": [
+        "LLM",
+        "manifest",
+        "machine-readable",
+        "content map",
+        "sitemap"
+      ],
+      "questions": [
+        "How can an LLM discover all published documentation pages?",
+        "Where are the machine-readable representations?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman",
+        "era-source:reslib"
+      ],
+      "sectionSources": {},
+      "previous": "glossary",
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "usage",
+          "toAnchor": "archives",
+          "headings": [
+            "How to use this map",
+            "Choose sections",
+            "Find an exact name",
+            "Reading and answering protocol",
+            "Bulk offline mirrors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.overview",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/",
+      "title": "ERA documentation",
+      "summary": "A starting point for the platform, mod structure, game resources, and practical tools.",
+      "keywords": [
+        "ERA",
+        "Heroes III",
+        "documentation",
+        "guide"
+      ],
+      "questions": [
+        "What is covered by the ERA Modding Guide?",
+        "Where should a new ERA modder begin?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman"
+      ],
+      "sectionSources": {},
+      "previous": null,
+      "next": "quick-start",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "start",
+          "toAnchor": "scope",
+          "headings": [
+            "Where to begin",
+            "Sections",
+            "Reading technical claims",
+            "Current scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.game",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "game",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/game/",
+      "title": "Game architecture for mod authors",
+      "summary": "The smallest useful model of startup, virtual resources, and caching for diagnosing a content mod.",
+      "keywords": [
+        "game architecture",
+        "initialization",
+        "events",
+        "resources",
+        "cache"
+      ],
+      "questions": [
+        "Which parts of the game lifecycle matter to a content mod?",
+        "How does ERA locate and cache resources?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:reslib",
+        "era-source:lodman"
+      ],
+      "sectionSources": {},
+      "previous": "era/compatibility",
+      "next": "game/resource-loading",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "model",
+          "toAnchor": "limits",
+          "headings": [
+            "A useful model",
+            "Startup stages",
+            "Resource lookup",
+            "Cache and lifetime",
+            "Where to stop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.glossary",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "glossary",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/glossary/",
+      "title": "Glossary",
+      "summary": "Agreed Russian and English terminology for the general ERA documentation.",
+      "keywords": [
+        "glossary",
+        "terminology",
+        "ERA",
+        "mod",
+        "resource",
+        "receiver",
+        "trigger"
+      ],
+      "questions": [
+        "What do common ERA modding terms mean?",
+        "Which technical terms should remain untranslated?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman",
+        "era-source:reslib",
+        "old-help:index"
+      ],
+      "sectionSources": {},
+      "previous": "troubleshooting",
+      "next": "llm-map",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "platform",
+          "toAnchor": "technical",
+          "headings": [
+            "Platform and project",
+            "Resources",
+            "Technical terms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.quick-start",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "quick-start",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/quick-start/",
+      "title": "Quick Start",
+      "summary": "From an installed ERA game to the first working ERM script in your own mod.",
+      "keywords": [
+        "quick start",
+        "setup",
+        "first mod",
+        "ERA"
+      ],
+      "questions": [
+        "How do I prepare a safe ERA modding setup?",
+        "How can I verify a first content-only mod?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman",
+        "era-changelog:3"
+      ],
+      "sectionSources": {},
+      "previous": "",
+      "next": "what-is-a-mod",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "prepare",
+          "toAnchor": "next",
+          "headings": [
+            "1. Prepare the environment",
+            "2. Create the mod directory",
+            "3. Enable the mod",
+            "4. Add the first script",
+            "5. If it does not work",
+            "Next step"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.site-structure",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "site-structure",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/site-structure/",
+      "title": "Site structure",
+      "summary": "How routes, locales, search, sources, and machine-readable representations fit together.",
+      "keywords": [
+        "site map",
+        "documentation",
+        "sources",
+        "locales"
+      ],
+      "questions": [
+        "How is this documentation organized?",
+        "How can I verify a technical statement?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman",
+        "era-source:reslib"
+      ],
+      "sectionSources": {},
+      "previous": "what-is-a-mod",
+      "next": "era",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "routes",
+          "toAnchor": "wiki",
+          "headings": [
+            "Routes and language",
+            "Navigation",
+            "Content and localization",
+            "Search",
+            "Traceability",
+            "Wiki"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.era",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "era",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/era/",
+      "title": "The ERA platform",
+      "summary": "ERA’s role between Heroes III, mods, resources, and extensions during game startup.",
+      "keywords": [
+        "ERA platform",
+        "events",
+        "virtual file system",
+        "modding"
+      ],
+      "questions": [
+        "What role does ERA play in Heroes III modding?",
+        "How does ERA extend the game without replacing every original file?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:era",
+        "era-source:lodman"
+      ],
+      "sectionSources": {},
+      "previous": "site-structure",
+      "next": "era/installation",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "role",
+          "toAnchor": "vfs",
+          "headings": [
+            "What ERA does",
+            "Virtual resources"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.troubleshooting",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "troubleshooting",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/troubleshooting/",
+      "title": "Troubleshooting",
+      "summary": "A repeatable path from a clean startup to a precise report for a conflict or invalid resource.",
+      "keywords": [
+        "troubleshooting",
+        "logs",
+        "minimal reproduction",
+        "VFS",
+        "cache",
+        "mod conflict"
+      ],
+      "questions": [
+        "How do I diagnose an ERA mod that does not load?",
+        "What should an ERA bug report contain?",
+        "How can I isolate a resource conflict?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman",
+        "era-source:reslib",
+        "era-tools:mod-manager-format",
+        "era-tools:vfs-test-binary"
+      ],
+      "sectionSources": {},
+      "previous": "tools/catalog",
+      "next": "glossary",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "baseline",
+          "toAnchor": "report",
+          "headings": [
+            "Record a baseline",
+            "Reduce the case to one change",
+            "Classify the failure",
+            "Use the matching tool",
+            "Write a useful report"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs.what-is-a-mod",
+      "kind": "article",
+      "section": "docs",
+      "locale": "en",
+      "slug": "what-is-a-mod",
+      "url": "https://asmedian.github.io/modding-guide/en/docs/what-is-a-mod/",
+      "title": "What Is a Mod?",
+      "summary": "What a Heroes III mod contains, how ERA loads its files, and why changes should remain separate from the original game.",
+      "keywords": [
+        "mod",
+        "modification",
+        "ERA",
+        "resources",
+        "scripts"
+      ],
+      "questions": [
+        "What is a Heroes III mod?",
+        "How does ERA keep a mod separate from the original game?"
+      ],
+      "sourceRefs": [
+        "era-source:gameext",
+        "era-source:lodman",
+        "era-source:reslib"
+      ],
+      "sectionSources": {},
+      "previous": "quick-start",
+      "next": "site-structure",
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/docs/guide/text-001.md",
+          "fromAnchor": "definition",
+          "toAnchor": "first-step",
+          "headings": [
+            "Definition",
+            "What a mod can contain",
+            "Why isolation matters",
+            "Where to begin"
+          ]
+        }
+      ]
+    }
+  ]
+}

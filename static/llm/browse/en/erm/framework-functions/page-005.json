@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.dl-getsize",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-getsize",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-getsize/",
+      "title": "DL_GetSize",
+      "summary": "Returns the width and height of an existing DL dialog; reports an error if absent.",
+      "keywords": [
+        "DL_GetSize",
+        "FU(DL_GetSize)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Returns the width and height of an existing DL dialog; reports an error if absent."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2256-2272-dl-getsize"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-setplayercolor",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-setplayercolor",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setplayercolor/",
+      "title": "DL_SetPlayerColor",
+      "summary": "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST.",
+      "keywords": [
+        "DL_SetPlayerColor",
+        "FU(DL_SetPlayerColor)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Changes a DL dialog frame color. playerId defaults to the interacting player; validates PLAYER_FIRST..PLAYER_LAST."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2332-2356-dl-setplayercolor"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-setsize",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-setsize",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-setsize/",
+      "title": "DL_SetSize",
+      "summary": "Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged.",
+      "keywords": [
+        "DL_SetSize",
+        "FU(DL_SetSize)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Changes an existing DL dialog width/height. Zero or omitted values preserve that dimension; items are not automatically rearranged."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2273-2289-dl-setsize"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-005.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.dl-showpopup",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/dl-showpopup",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/dl-showpopup/",
+      "title": "DL_ShowPopup",
+      "summary": "Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display.",
+      "keywords": [
+        "DL_ShowPopup",
+        "FU(DL_ShowPopup)",
+        "public",
+        "dialogs"
+      ],
+      "questions": [
+        "Shows a DL dialog by ID as an RMB popup, then destroys it. Call DL:N again before another display."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2198-2214-dl-showpopup"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Related functions",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.emptyinicache",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/emptyinicache",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/emptyinicache/",
+      "title": "EmptyIniCache",
+      "summary": "Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk.",
+      "keywords": [
+        "EmptyIniCache",
+        "FU(EmptyIniCache)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Replaces the INI cache with empty contents for recreation. Call SaveIni to write it to disk."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1597-1604-emptyinicache"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.enableerrors",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/enableerrors",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/enableerrors/",
+      "title": "EnableErrors",
+      "summary": "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library.",
+      "keywords": [
+        "EnableErrors",
+        "FU(EnableErrors)",
+        "requires-review",
+        "game"
+      ],
+      "questions": [
+        "Reads the last error flag, but this snapshot sets WOG_OPT_MUTE_ERRORS=TRUE again. Its comment promises to enable messages; the code does not. Restore explicitly with UN:P/FALSE or use a corrected library."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2014-2021-enableerrors"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.entermouseevent",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/entermouseevent",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/entermouseevent/",
+      "title": "EnterMouseEvent",
+      "summary": "Saves previous keyboard/mouse context, then reads modifiers and CM for the new event.",
+      "keywords": [
+        "EnterMouseEvent",
+        "FU(EnterMouseEvent)",
+        "internal"
+      ],
+      "questions": [
+        "Saves previous keyboard/mouse context, then reads modifiers and CM for the new event."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent"
+        ],
+        "calls": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-165-170-entermouseevent"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Related functions",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.equiparttoslot",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/equiparttoslot",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/equiparttoslot/",
+      "title": "EquipArtToSlot",
+      "summary": "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots.",
+      "keywords": [
+        "EquipArtToSlot",
+        "FU(EquipArtToSlot)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Equips an artifact in a doll slot or auto-selects for NO_ART_SLOT. Returns TRUE/FALSE and fires OnEquipArt. Does not write arbitrary backpack slots."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3170-3190-equiparttoslot"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.fileexists",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/fileexists",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/fileexists/",
+      "title": "FileExists",
+      "summary": "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE.",
+      "keywords": [
+        "FileExists",
+        "FU(FileExists)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Checks path attributes and returns TRUE only for the requested kind: FileExists for files, DirExists for directories. Access failure also returns FALSE."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1554-1565-fileexists"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.formatquantity",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/formatquantity",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/formatquantity/",
+      "title": "FormatQuantity",
+      "summary": "Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported.",
+      "keywords": [
+        "FormatQuantity",
+        "FU(FormatQuantity)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Formats a quantity with locale settings and K/M/G suffixes. maxLen defaults to 5 logical characters and maxDigits to 4; negative values are supported."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1533-1553-formatquantity"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-006.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}

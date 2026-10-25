@@ -1,0 +1,1010 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "i^mouse_battleHex^",
+      "anchor": "global-i-mouse-battlehex",
+      "en": "Battle hex from CM:D context",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_flags^",
+      "anchor": "global-i-mouse-flags",
+      "en": "Mouse flags from CM:F",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_hero_0^",
+      "anchor": "global-i-mouse-hero-0",
+      "en": "First hero from CM:H",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_hero_1^",
+      "anchor": "global-i-mouse-hero-1",
+      "en": "Second hero from CM:H; not included in this snapshot’s restoration stack",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_item^",
+      "anchor": "global-i-mouse-item",
+      "en": "Item ID from CM:I",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_mapX^",
+      "anchor": "global-i-mouse-mapx",
+      "en": "Map X from CM:P",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_mapY^",
+      "anchor": "global-i-mouse-mapy",
+      "en": "Map Y from CM:P",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_mapZ^",
+      "anchor": "global-i-mouse-mapz",
+      "en": "Map level from CM:P",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_x^",
+      "anchor": "global-i-mouse-x",
+      "en": "Cursor X in the window",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^mouse_y^",
+      "anchor": "global-i-mouse-y",
+      "en": "Cursor Y in the window",
+      "group": "mouse",
+      "status": "public",
+      "uses": [
+        {
+          "name": "CollectMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 129,
+          "endLine": 138
+        },
+        {
+          "name": "SavePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 139,
+          "endLine": 141
+        },
+        {
+          "name": "RestorePrevMouseEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 142,
+          "endLine": 144
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_captions^",
+      "anchor": "global-i-radiodlg-captions",
+      "en": "Caption array ID",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_flags^",
+      "anchor": "global-i-radiodlg-flags",
+      "en": "Dialog flag mask",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_AddCancelButton",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2474,
+          "endLine": 2489
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_freeSpaceAlerted^",
+      "anchor": "global-i-radiodlg-freespacealerted",
+      "en": "Out-of-space error already shown",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_AddCancelButton",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2474,
+          "endLine": 2489
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_numItems^",
+      "anchor": "global-i-radiodlg-numitems",
+      "en": "Item count",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_AddCancelButton",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2474,
+          "endLine": 2489
+        },
+        {
+          "name": "RadioDlg_SelectItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2490,
+          "endLine": 2496
+        },
+        {
+          "name": "RadioDlg_SelectItemByValue",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2497,
+          "endLine": 2513
+        },
+        {
+          "name": "RadioDlg_SelectItemByTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2514,
+          "endLine": 2531
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        },
+        {
+          "name": "RadioDlg_GetNumItems",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2578,
+          "endLine": 2583
+        },
+        {
+          "name": "RadioDlg_GetItemValue",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2584,
+          "endLine": 2596
+        },
+        {
+          "name": "RadioDlg_GetItemTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2597,
+          "endLine": 2611
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_selectedItemInd^",
+      "anchor": "global-i-radiodlg-selecteditemind",
+      "en": "Selected index or NO_RADIO_DLG_ITEM",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_SelectItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2490,
+          "endLine": 2496
+        },
+        {
+          "name": "RadioDlg_SelectItemByValue",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2497,
+          "endLine": 2513
+        },
+        {
+          "name": "RadioDlg_SelectItemByTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2514,
+          "endLine": 2531
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_tags^",
+      "anchor": "global-i-radiodlg-tags",
+      "en": "Tag array ID",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_SelectItemByTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2514,
+          "endLine": 2531
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        },
+        {
+          "name": "RadioDlg_GetItemTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2597,
+          "endLine": 2611
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "i^radioDlg_values^",
+      "anchor": "global-i-radiodlg-values",
+      "en": "Value array ID",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_SelectItemByValue",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2497,
+          "endLine": 2513
+        },
+        {
+          "name": "RadioDlg_AddItem",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2532,
+          "endLine": 2560
+        },
+        {
+          "name": "RadioDlg_GetItemValue",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2584,
+          "endLine": 2596
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "i^savedEventData^",
+      "anchor": "global-i-savedeventdata",
+      "en": "Temporary saved-context array ID",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "ClearEventChainData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 12,
+          "endLine": 15
+        },
+        {
+          "name": "SaveEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 16,
+          "endLine": 46
+        },
+        {
+          "name": "RestoreEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 47,
+          "endLine": 87
+        }
+      ]
+    },
+    {
+      "name": "i^savedEventDataPos^",
+      "anchor": "global-i-savedeventdatapos",
+      "en": "Current context-stack position",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "ClearEventChainData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 12,
+          "endLine": 15
+        },
+        {
+          "name": "SaveEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 16,
+          "endLine": 46
+        },
+        {
+          "name": "RestoreEventData",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 47,
+          "endLine": 87
+        }
+      ]
+    },
+    {
+      "name": "i^timerDay^",
+      "anchor": "global-i-timerday",
+      "en": "Day since game start, 1..",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerIsAi^",
+      "anchor": "global-i-timerisai",
+      "en": "TRUE for an AI player",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerIsHuman^",
+      "anchor": "global-i-timerishuman",
+      "en": "TRUE for a human",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerMonth^",
+      "anchor": "global-i-timermonth",
+      "en": "Month since game start, 1..",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerMonthDay^",
+      "anchor": "global-i-timermonthday",
+      "en": "Day of month, 1..28",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerMonthWeek^",
+      "anchor": "global-i-timermonthweek",
+      "en": "Week of month, 1..4",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerOnce^",
+      "anchor": "global-i-timeronce",
+      "en": "TRUE on the first invocation that day",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerOwner^",
+      "anchor": "global-i-timerowner",
+      "en": "Current player, 0..7",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerWeek^",
+      "anchor": "global-i-timerweek",
+      "en": "Week since game start, 1..",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "i^timerWeekDay^",
+      "anchor": "global-i-timerweekday",
+      "en": "Day of week, 1..7",
+      "group": "timer",
+      "status": "public",
+      "uses": [
+        {
+          "name": "OnAfterErmInstructions",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 214,
+          "endLine": 227
+        },
+        {
+          "name": "OnEveryDay",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 228,
+          "endLine": 250
+        }
+      ]
+    },
+    {
+      "name": "s^radioDlg_title^",
+      "anchor": "global-s-radiodlg-title",
+      "en": "Title of the RadioDlg being built. Change through RadioDlg_SetTitle.",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        },
+        {
+          "name": "RadioDlg_Reset",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2456,
+          "endLine": 2467
+        },
+        {
+          "name": "RadioDlg_SetTitle",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2468,
+          "endLine": 2473
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        }
+      ]
+    },
+    {
+      "name": "s^result^",
+      "anchor": "global-s-result",
+      "en": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "Array_Join",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 744,
+          "endLine": 780
+        },
+        {
+          "name": "GetStrAtAddr",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 1421,
+          "endLine": 1430
+        },
+        {
+          "name": "MonCountToFuzzyText",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2950,
+          "endLine": 3019
+        }
+      ]
+    },
+    {
+      "name": "s^temp_text^",
+      "anchor": "global-s-temp-text",
+      "en": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "AdvMap_SetInfoPanelText",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2377,
+          "endLine": 2403
+        },
+        {
+          "name": "AdvMap_SetInfoPanelDef",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2404,
+          "endLine": 2455
+        }
+      ]
+    },
+    {
+      "name": "s^temp^",
+      "anchor": "global-s-temp",
+      "en": "Implementation scratch string. Helpers overwrite and clear it; it is not persistent result storage.",
+      "group": "internal",
+      "status": "internal",
+      "uses": [
+        {
+          "name": "Array_Pop",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 401,
+          "endLine": 445
+        },
+        {
+          "name": "Array_Move",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 446,
+          "endLine": 517
+        },
+        {
+          "name": "Array_Splice",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 518,
+          "endLine": 586
+        },
+        {
+          "name": "Array_Join",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 744,
+          "endLine": 780
+        },
+        {
+          "name": "CompareStrings_Bridge_INTERNAL",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 813,
+          "endLine": 834
+        },
+        {
+          "name": "GetStrAtAddr",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 1421,
+          "endLine": 1430
+        },
+        {
+          "name": "StrToUpper",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 1443,
+          "endLine": 1457
+        },
+        {
+          "name": "StrToLower",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 1458,
+          "endLine": 1472
+        },
+        {
+          "name": "RadioDlg_SelectItemByTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2514,
+          "endLine": 2531
+        },
+        {
+          "name": "RadioDlg_GetItemTag",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2597,
+          "endLine": 2611
+        },
+        {
+          "name": "RadioDlg_Show",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 2612,
+          "endLine": 2678
+        },
+        {
+          "name": "GetHeroPortraitName",
+          "path": "lib/9999 era - stdlib.erm",
+          "startLine": 3062,
+          "endLine": 3080
+        }
+      ]
+    }
+  ]
+}

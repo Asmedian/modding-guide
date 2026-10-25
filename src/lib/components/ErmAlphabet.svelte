@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount, tick } from 'svelte';
   import { base } from '$app/paths';
   import { translator, type Locale } from '$lib/i18n';
   export let lang: Locale;
@@ -6,6 +7,20 @@
   $: t = translator(lang);
   let scroller: HTMLDivElement;
   let activeLetter = '';
+  let rail: HTMLElement;
+  let observer: ResizeObserver;
+  async function refresh() {
+    await tick();
+    if (!scroller) return;
+    updateLetter();
+  }
+  onMount(() => {
+    observer = new ResizeObserver(() => void refresh());
+    observer.observe(scroller);
+    void refresh();
+    return () => observer.disconnect();
+  });
+  $: if (lang && groups && scroller) void refresh();
   $: alphabet = lang === 'ru' ? [...'АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ'] : [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
   $: groups = entries.filter((r) => r.depth === 0).map((r) => ({ ...r, children: entries.filter((c) => c.parent === r.id) })).sort((a,b) => a.label[lang].localeCompare(b.label[lang],lang));
   $: letters = new Set(groups.map((g) => g.label[lang][0].toUpperCase()));
@@ -16,8 +31,16 @@
   function updateLetter() {
     const top = scroller.getBoundingClientRect().top;
     const headings = Array.from(scroller.querySelectorAll<HTMLElement>('[data-letter]'));
-    const first = headings.find((el) => el.getBoundingClientRect().bottom > top + 2);
+    const atEnd = scroller.scrollHeight > scroller.clientHeight + 1 && scroller.scrollTop + scroller.clientHeight >= scroller.scrollHeight - 2;
+    const first = atEnd ? headings[headings.length - 1] : headings.find((el) => el.getBoundingClientRect().bottom > top + 2);
     if (first) activeLetter = first.dataset.letter ?? '';
+    const button = Array.from(rail?.querySelectorAll('button') ?? []).find((item) => item.textContent === activeLetter);
+    if (button && rail) {
+      const bounds = button.getBoundingClientRect(), frame = rail.getBoundingClientRect();
+      if (bounds.top < frame.top) rail.scrollTop -= frame.top - bounds.top;
+      else if (bounds.bottom > frame.bottom) rail.scrollTop += bounds.bottom - frame.bottom;
+      if (scroller.scrollTop + scroller.clientHeight >= scroller.scrollHeight - 2) rail.scrollTop = rail.scrollHeight;
+    }
   }
 </script>
 
@@ -35,7 +58,7 @@
         </div>
       {/each}
     </div>
-    <nav class="alphabet-rail" aria-label={t('erm.index.letter')}>
+    <nav class="alphabet-rail" bind:this={rail} aria-label={t('erm.index.letter')}>
       {#each alphabet as letter}
         <button type="button" disabled={!letters.has(letter)} class:active={activeLetter === letter} aria-label={`${t('erm.index.letter')} ${letter}`} on:click={() => jump(letter)}>{letter}</button>
       {/each}
@@ -47,14 +70,14 @@
 <style>
   .erm-alphabet { display: flex; flex-direction: column; min-height: 0; flex: 1; }
   .alphabet-frame { display: flex; flex: 1; min-height: 0; border-bottom: 1px solid var(--border); }
-  .alphabet-scroll { flex: 1; min-width: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: .5rem .25rem; }
+  .alphabet-scroll { flex: 1; min-width: 0; overflow-y: auto; overscroll-behavior: contain; padding: .5rem .25rem; }
   .alphabet-group { margin-bottom: .65rem; }
   .alphabet-group a { display: block; padding: .3rem .45rem; line-height: 1.35; font-size: .9rem; overflow-wrap: anywhere; }
   .alphabet-group > a:first-child { color: var(--gold); font-weight: 600; }
   .alphabet-group .alphabet-child { margin-left: .8rem; padding-left: .7rem; border-left: 1px solid var(--border); color: var(--text-muted); font-size: .85rem; }
   a:hover, a:focus-visible { color: var(--text); background: var(--gold-soft); border-radius: 3px; }
-  .alphabet-rail { width: 24px; flex: 0 0 24px; display: flex; flex-direction: column; justify-content: space-between; padding: .15rem 0; background: var(--surface-background, var(--surface)); }
-  .alphabet-rail button { flex: 1; min-height: 0; width: 24px; border: 0; padding: 0; font: 600 .71rem/1 var(--font-body, sans-serif); color: var(--gold); background: transparent; cursor: pointer; }
+  .alphabet-rail { --scrollbar-size: 3px; width: 27px; flex: 0 0 27px; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; justify-content: space-between; padding: .15rem 0; background: var(--surface-background, var(--surface)); }
+  .alphabet-rail button { flex: 1 0 15px; min-height: 15px; width: 24px; border: 0; padding: 0; font: 600 .71rem/1 var(--font-body, sans-serif); color: var(--gold); background: transparent; cursor: pointer; }
   .alphabet-rail button:disabled { color: var(--text-muted); opacity: .3; cursor: default; }
   .alphabet-rail button.active { background: var(--gold-soft); color: var(--text); }
   .alphabet-rail button:not(:disabled):hover, .alphabet-rail button:not(:disabled):focus-visible { background: var(--gold-soft); color: var(--text); }

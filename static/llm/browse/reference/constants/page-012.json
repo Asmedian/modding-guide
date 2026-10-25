@@ -1,0 +1,1101 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "PIC_TYPE_MONSTER",
+      "value": "21",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1644,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_MORALE_FIRST",
+      "value": "14",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1637,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_MORALE_LAST",
+      "value": "16",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1641,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_MORALE_NEGATIVE",
+      "value": "16",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1640,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_MORALE_NEUTRAL",
+      "value": "15",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1639,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_MORALE_POSITIVE",
+      "value": "14",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1638,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_NECROPOLIS_TOWN_BUILDING",
+      "value": "26",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1650,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_PRIM_SKILL_FIRST",
+      "value": "31",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1656,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_PRIM_SKILL_LAST",
+      "value": "(PIC_TYPE_SKILL_KNOWLEDGE)",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1661,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RAMPART_TOWN_BUILDING",
+      "value": "23",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1647,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_CRYSTAL",
+      "value": "4",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1623,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_FIRST",
+      "value": "(PIC_TYPE_RES_WOOD)",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1627,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_GEMS",
+      "value": "5",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1624,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_GOLD",
+      "value": "6",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1625,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_LAST",
+      "value": "(PIC_TYPE_RES_MITHRIL)",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1628,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_MERCURY",
+      "value": "1",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1620,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_MITHRIL",
+      "value": "7",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1626,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_ORE",
+      "value": "2",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1621,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_SULFUR",
+      "value": "3",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1622,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_RES_WOOD",
+      "value": "0",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1619,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SEC_SKILL",
+      "value": "20",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1643,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SKILL_ATTACK",
+      "value": "31",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1657,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SKILL_DEFENSE",
+      "value": "32",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1658,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SKILL_KNOWLEDGE",
+      "value": "34",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1660,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SKILL_POWER",
+      "value": "33",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1659,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SPELL",
+      "value": "9",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1630,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_SPELL_POINTS",
+      "value": "35",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1662,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_STRONGHOLD_TOWN_BUILDING",
+      "value": "28",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1652,
+      "status": "public"
+    },
+    {
+      "name": "PIC_TYPE_TOWER_TOWN_BUILDING",
+      "value": "24",
+      "group": "H3 DIALOG PICTURE TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1648,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_BLUE",
+      "value": "2",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 70,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_GREEN",
+      "value": "8",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 72,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_ORANGE",
+      "value": "16",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 73,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_PINK",
+      "value": "128",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 76,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_PURPLE",
+      "value": "32",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 74,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_RED",
+      "value": "1",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 69,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_TAN",
+      "value": "4",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 71,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BIT_TEAL",
+      "value": "64",
+      "group": "PLAYER BITS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 75,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_BLUE",
+      "value": "1",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 57,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_FIRST",
+      "value": "0",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 55,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_GREEN",
+      "value": "3",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 59,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_LAST",
+      "value": "7",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 64,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_ORANGE",
+      "value": "4",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 60,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_PINK",
+      "value": "7",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 63,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_PURPLE",
+      "value": "5",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 61,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_RED",
+      "value": "0",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 56,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_TAN",
+      "value": "2",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 58,
+      "status": "public"
+    },
+    {
+      "name": "PLAYER_TEAL",
+      "value": "6",
+      "group": "PLAYERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 62,
+      "status": "public"
+    },
+    {
+      "name": "PRIM_SKILL_FIRST",
+      "value": "0",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 134,
+      "status": "public"
+    },
+    {
+      "name": "PRIM_SKILL_LAST",
+      "value": "3",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 139,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_ARTIFACT",
+      "value": "8",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 945,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_CREATURE",
+      "value": "10",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 947,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_EXPERIENCE",
+      "value": "1",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 938,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_LUCK",
+      "value": "4",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 941,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_MORALE",
+      "value": "3",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 940,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_NONE",
+      "value": "0",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 937,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_PRIMARY_SKILL",
+      "value": "6",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 943,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_RESOURCE",
+      "value": "5",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 942,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_SECONDARY_SKILL",
+      "value": "7",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 944,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_SPELL",
+      "value": "9",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 946,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_REWARD_SPELL_POINTS",
+      "value": "2",
+      "group": "QUEST REWARDS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 939,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_BE_HERO",
+      "value": "8",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 932,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_BE_PLAYER",
+      "value": "9",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 933,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_BRING_ARTIFACTS",
+      "value": "5",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 929,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_BRING_CREATURES",
+      "value": "6",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 930,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_BRING_RESOURCES",
+      "value": "7",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 931,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_DEFEAT_HERO",
+      "value": "3",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 927,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_DEFEAT_MONSTER",
+      "value": "4",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 928,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_EXPERIENCE_LEVEL",
+      "value": "1",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 925,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_NONE",
+      "value": "0",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 924,
+      "status": "public"
+    },
+    {
+      "name": "QUEST_TYPE_PRIMARY_SKILL",
+      "value": "2",
+      "group": "QUEST TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 926,
+      "status": "public"
+    },
+    {
+      "name": "RADIO_DLG_FLAG_BTN_CANCEL",
+      "value": "1",
+      "group": "RADIO DIALOGS",
+      "sourcePath": "lib/9999 era - stdlib.erm",
+      "line": 2444,
+      "status": "public"
+    },
+    {
+      "name": "RADIO_DLG_MAX_ITEMS",
+      "value": "12",
+      "group": "RADIO DIALOGS",
+      "sourcePath": "lib/9999 era - stdlib.erm",
+      "line": 2443,
+      "status": "public"
+    },
+    {
+      "name": "RECRUIT_MANAGER",
+      "value": "6990524",
+      "group": "GAME MANAGERS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1820,
+      "status": "public"
+    },
+    {
+      "name": "RES_CRYSTAL",
+      "value": "4",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 88,
+      "status": "public"
+    },
+    {
+      "name": "RES_FIRST",
+      "value": "0",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 83,
+      "status": "public"
+    },
+    {
+      "name": "RES_GEMS",
+      "value": "5",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 89,
+      "status": "public"
+    },
+    {
+      "name": "RES_GOLD",
+      "value": "6",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 90,
+      "status": "public"
+    },
+    {
+      "name": "RES_LAST_SOD",
+      "value": "6",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 91,
+      "status": "public"
+    },
+    {
+      "name": "RES_LAST_WOG",
+      "value": "7",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 93,
+      "status": "public"
+    },
+    {
+      "name": "RES_MERCURY",
+      "value": "1",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 85,
+      "status": "public"
+    },
+    {
+      "name": "RES_MITHRIL",
+      "value": "7",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 92,
+      "status": "public"
+    },
+    {
+      "name": "RES_ORE",
+      "value": "2",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 86,
+      "status": "public"
+    },
+    {
+      "name": "RES_SULFUR",
+      "value": "3",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 87,
+      "status": "public"
+    },
+    {
+      "name": "RES_WOOD",
+      "value": "0",
+      "group": "RESOURCES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 84,
+      "status": "public"
+    },
+    {
+      "name": "SCAN_DIRS_ONLY",
+      "value": "2",
+      "group": "SPECIAL ENUMS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1838,
+      "status": "public"
+    },
+    {
+      "name": "SCAN_FILES_AND_DIRS",
+      "value": "0",
+      "group": "SPECIAL ENUMS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1836,
+      "status": "public"
+    },
+    {
+      "name": "SCAN_FILES_ONLY",
+      "value": "1",
+      "group": "SPECIAL ENUMS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1837,
+      "status": "public"
+    },
+    {
+      "name": "SCAN_RETURN_FULL_PATHS",
+      "value": "(TRUE)",
+      "group": "SPECIAL ENUMS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1839,
+      "status": "public"
+    },
+    {
+      "name": "SEC_SKILL_FIRST",
+      "value": "0",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 147,
+      "status": "public"
+    },
+    {
+      "name": "SEC_SKILL_LAST",
+      "value": "27",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 176,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_BATTLE_STACK_STRUCT",
+      "value": "1352",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1450,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_BYTE",
+      "value": "1",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1437,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_COMMANDER_STRUCT",
+      "value": "296",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1451,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_DWORD",
+      "value": "4",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1439,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_INT",
+      "value": "4",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1440,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_INT16",
+      "value": "2",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1443,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_INT32",
+      "value": "4",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1445,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_INT8",
+      "value": "1",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1441,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_PTR",
+      "value": "4",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1447,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_SPELL_STRUCT",
+      "value": "136",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1452,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_UINT16",
+      "value": "2",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1444,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_UINT32",
+      "value": "4",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1446,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_UINT8",
+      "value": "1",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1442,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_WIN32_FIND_DATA",
+      "value": "320",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1453,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_WIN32_FIND_DATA_IN_INTS",
+      "value": "80",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1454,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_WORD",
+      "value": "2",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1438,
+      "status": "public"
+    },
+    {
+      "name": "SIZEOF_ZSTR",
+      "value": "512",
+      "group": "DATA TYPES",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 1448,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_ADVANCED",
+      "value": "2",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 143,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_AIR_MAGIC",
+      "value": "15",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 163,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_ARCHERY",
+      "value": "1",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 149,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_ARMORER",
+      "value": "23",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 171,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_ARTILLERY",
+      "value": "20",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 168,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_ATTACK",
+      "value": "0",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 135,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_BALLISTICS",
+      "value": "10",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 158,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_BASIC",
+      "value": "1",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 142,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_DEFENSE",
+      "value": "1",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 136,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_DIPLOMACY",
+      "value": "4",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 152,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_EAGLE_EYE",
+      "value": "11",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 159,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_EARTH_MAGIC",
+      "value": "17",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 165,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_ESTATES",
+      "value": "13",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 161,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_EXPERT",
+      "value": "3",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 144,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_FIRE_MAGIC",
+      "value": "14",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 162,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_FIRST_AID",
+      "value": "27",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 175,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_INTELLIGENCE",
+      "value": "24",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 172,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_KNOWLEDGE",
+      "value": "3",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 138,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_LEADERSHIP",
+      "value": "6",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 154,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_LEARNING",
+      "value": "21",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 169,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_LOGISTICS",
+      "value": "2",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 150,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_LUCK",
+      "value": "9",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 157,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_MYSTICISM",
+      "value": "8",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 156,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_NAVIGATION",
+      "value": "5",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 153,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_NECROMANCY",
+      "value": "12",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 160,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_NOT_LEARNED",
+      "value": "0",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 141,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_OFFENCE",
+      "value": "22",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 170,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_PATHFINDING",
+      "value": "0",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 148,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_POWER",
+      "value": "2",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 137,
+      "status": "public"
+    },
+    {
+      "name": "SKILL_RESISTANCE",
+      "value": "26",
+      "group": "HERO SKILLS",
+      "sourcePath": "lib/9999 era - consts.erm",
+      "line": 174,
+      "status": "public"
+    }
+  ]
+}

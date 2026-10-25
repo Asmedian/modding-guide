@@ -91,3 +91,8 @@
 
 .erm-reference .erm-parameters { margin: .75rem 0; padding: .75rem 1rem; border-left: 2px solid var(--border-strong); background: var(--surface-raised); font-family: var(--font-body); white-space: normal; overflow-wrap: anywhere; }
 .erm-reference .erm-parameters > div + div { margin-top: .4rem; }
+/* Learning prompts use the article's theme and type. */
+.learn-examples { display: grid; gap: .65rem; margin-block: 1rem 2rem; }
+.learn-example { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: .8rem 1rem; }
+.learn-example summary { color: var(--gold); cursor: pointer; font-weight: 600; }
+.learn-example p { margin: .85rem 0 .2rem; color: var(--text-muted); overflow-wrap: anywhere; }

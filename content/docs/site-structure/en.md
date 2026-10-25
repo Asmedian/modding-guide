@@ -24,3 +24,7 @@ A small title and keyword index opens immediately, while Pagefind builds a full-
 
 `content/_sources/sources.json` stores a compact provenance registry. Original archives, changelogs, and ERA source snapshots remain external development inputs and never ship with the site.
 
+
+## Wiki {#wiki}
+
+The section between documentation and ERM. SoD resources follow the LF hierarchy; previews are separate from full files and playback downloads start on activation.

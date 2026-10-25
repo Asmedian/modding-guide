@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "h3api:readme",
+      "type": "official-docs",
+      "title": "H3API README",
+      "sourceSet": "h3api",
+      "relativeSourcePath": "Readme.md",
+      "locator": {
+        "startLine": 1,
+        "endLine": 135,
+        "note": "Library purpose, header-only and static-library setup, x86 target, supported Visual Studio versions, and C++11 guidance"
+      },
+      "version": "commit 92255ab (2024-11-12)",
+      "url": "https://github.com/RoseKavalier/H3API/blob/92255ab18da784a5842ecc2b8bc0ce00e19a0c56/Readme.md",
+      "sha256": "B2465A8F340ACC737B1102C61E4DD9CCAC0E7FA3185BB27A789D367EAFD9D001"
+    },
+    {
+      "id": "nh3api:cmake",
+      "type": "source-code",
+      "title": "NH3API CMake configuration",
+      "sourceSet": "nh3api",
+      "relativeSourcePath": "CMakeLists.txt",
+      "locator": {
+        "startLine": 1,
+        "endLine": 73
+      },
+      "version": "NH3API 1.2.0, commit 454cfe2 (2026-09-06)",
+      "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/CMakeLists.txt",
+      "sha256": "906DD9D9C92868CD3C8DCC62CDF9A62C844558C04E827A58D05ADB917F45ECA4"
+    },
+    {
+      "id": "nh3api:era-header",
+      "type": "source-code",
+      "title": "NH3API ERA module header",
+      "sourceSet": "nh3api",
+      "relativeSourcePath": "nh3api/era/era.hpp",
+      "locator": {
+        "startLine": 1,
+        "endLine": 769,
+        "note": "ERA imports, event and API wrappers, ownership annotations, and ConnectEra"
+      },
+      "version": "ERA API updated for 3.9.16; commit 454cfe2 (2026-09-06)",
+      "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/nh3api/era/era.hpp",
+      "sha256": "6046F370478CA008A4B213EDF51F004060FDE4C70B3A2D188F0770E151A9338B"
+    },
+    {
+      "id": "nh3api:era-module-readme",
+      "type": "official-docs",
+      "title": "NH3API ERA module linking notes",
+      "sourceSet": "nh3api",
+      "relativeSourcePath": "nh3api/era/readme.md",
+      "locator": {
+        "startLine": 1,
+        "endLine": 7
+      },
+      "version": "commit 454cfe2 (2026-09-06)",
+      "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/nh3api/era/readme.md",
+      "sha256": "CE88EBAEB9B3F44356C2E4E6A7706A09F45D463E2C99CEB4E068A0BED06E92C3"
+    },
+    {
+      "id": "nh3api:natvis",
+      "type": "source-code",
+      "title": "NH3API Visual Studio debugger visualizer",
+      "sourceSet": "nh3api",
+      "relativeSourcePath": "debugging/nh3api_std.natvis",
+      "locator": {
+        "startLine": 1,
+        "endLine": 88
+      },
+      "version": "commit 454cfe2 (2026-09-06)",
+      "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/debugging/nh3api_std.natvis",
+      "sha256": "8451BC21D18BBED0B5557F134F045CDB9FF172E8E585E480F38BDFA51BE563F5"
+    },
+    {
+      "id": "nh3api:patcher-header",
+      "type": "source-code",
+      "title": "NH3API patcher_x86 interface",
+      "sourceSet": "nh3api",
+      "relativeSourcePath": "nh3api/core/nh3api_std/patcher_x86.hpp",
+      "locator": {
+        "startLine": 90,
+        "endLine": 2431,
+        "note": "Patcher ownership, instance creation, hooks, patches, and debug dump interface"
+      },
+      "version": "commit 454cfe2 (2026-09-06)",
+      "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/nh3api/core/nh3api_std/patcher_x86.hpp",
+      "sha256": "D7F8263B442FBFEAD3F0BAE6C8D40050714D8C19149B7F23C9A381007283AC14"
+    },
+    {
+      "id": "nh3api:readme",
+      "type": "official-docs",
+      "title": "NH3API README",
+      "sourceSet": "nh3api",
+      "relativeSourcePath": "README.md",
+      "locator": {
+        "startLine": 1,
+        "endLine": 113
+      },
+      "version": "commit 454cfe2 (2026-09-06)",
+      "url": "https://github.com/void2012/NH3API/blob/454cfe2bf34b54155168c17f9bbd627df596ad7a/README.md",
+      "sha256": "786EE6D754A8CA5E5A6A4D8C56422699120AC77BEF3AB9CB223871B2E09E5C49"
+    },
+    {
+      "id": "old-help:cont-abouthelp.htm",
+      "type": "legacy-help",
+      "title": "Cont/AboutHelp.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/AboutHelp.htm",
+      "version": "2.10b",
+      "sha256": "FBEBF77EA4464FA1D77633BC2D3F0A8C57B439E5BA302825437FC94D4E6F7A1D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 249
+      }
+    },
+    {
+      "id": "old-help:cont-adv.htm",
+      "type": "legacy-help",
+      "title": "Cont/Adv.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Adv.htm",
+      "version": "2.10b",
+      "sha256": "12DBA895245990A4D43DBD352C54F29301A09FA0E8CD5E8E7C241EFD9F8246E0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "old-help:cont-conwords.htm",
+      "type": "legacy-help",
+      "title": "Cont/conwords.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/conwords.htm",
+      "version": "2.10b",
+      "sha256": "73DB39CB4FD3A6D10F50248968450322946512B76F4345DA2F0E1165688ADAEA",
+      "locator": {
+        "startLine": 1,
+        "endLine": 644
+      }
+    },
+    {
+      "id": "old-help:cont-db.htm",
+      "type": "legacy-help",
+      "title": "Cont/DB.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/DB.htm",
+      "version": "2.10b",
+      "sha256": "A5709B65F68BB9FB3514CE5CBFBDB7C9457143D48E0601EE8026B30A5753ADF1",
+      "locator": {
+        "startLine": 1,
+        "endLine": 212
+      }
+    },
+    {
+      "id": "old-help:cont-ers.htm",
+      "type": "legacy-help",
+      "title": "Cont/ERS.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/ERS.htm",
+      "version": "2.10b",
+      "sha256": "923DE587C784E28B7800764A9C8BE418B5F2287F874B9ED9B55BCD77A12AB2B5",
+      "locator": {
+        "startLine": 1,
+        "endLine": 32
+      }
+    },
+    {
+      "id": "old-help:cont-ert.htm",
+      "type": "legacy-help",
+      "title": "Cont/ERT.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/ERT.htm",
+      "version": "2.10b",
+      "sha256": "E87A8D6AAED9C775140239848CCF7DCCADCCC2F6ACCA672F5CBE7719E8817A9B",
+      "locator": {
+        "startLine": 1,
+        "endLine": 85
+      }
+    },
+    {
+      "id": "old-help:cont-eventslist.htm",
+      "type": "legacy-help",
+      "title": "Cont/EventsList.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/EventsList.htm",
+      "version": "2.10b",
+      "sha256": "F00500B9CCAE922ABA338947855DB119E667BC41537CCB40E30D5B254E867CE4",
+      "locator": {
+        "startLine": 1,
+        "endLine": 273
+      }
+    },
+    {
+      "id": "old-help:cont-flags.htm",
+      "type": "legacy-help",
+      "title": "Cont/Flags.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Flags.htm",
+      "version": "2.10b",
+      "sha256": "BC7062D461FC694A8A26EAD3550185744AEAAA977BFED6B7BFB93B7B11567E31",
+      "locator": {
+        "startLine": 1,
+        "endLine": 474
+      }
+    },
+    {
+      "id": "old-help:cont-form.htm",
+      "type": "legacy-help",
+      "title": "Cont/form.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/form.htm",
+      "version": "2.10b",
+      "sha256": "42BDC8CABCAACCC856CC8F04163BB25B198E14AA08C59A2FD75EB8E73C869CD4",
+      "locator": {
+        "startLine": 1,
+        "endLine": 88
+      }
+    },
+    {
+      "id": "old-help:cont-hd.htm",
+      "type": "legacy-help",
+      "title": "Cont/HD.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/HD.htm",
+      "version": "2.10b",
+      "sha256": "EB2BEC3202D92F160A2AADCDF174FA2A66A5C1F566EC651DBC403C00FF641F30",
+      "locator": {
+        "startLine": 1,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "old-help:cont-ingener.htm",
+      "type": "legacy-help",
+      "title": "Cont/ingener.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/ingener.htm",
+      "version": "2.10b",
+      "sha256": "DB96F17E497F0B56F58F8FF54984BCD02B9613CC7D74359E52E7050651B99DCC",
+      "locator": {
+        "startLine": 1,
+        "endLine": 407
+      }
+    },
+    {
+      "id": "old-help:cont-json.htm",
+      "type": "legacy-help",
+      "title": "Cont/Json.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Json.htm",
+      "version": "2.10b",
+      "sha256": "4F55608FA0BE8321438FBBF0622D24EE0ECB87A5BAA431CEA2584319BF2955B3",
+      "locator": {
+        "startLine": 1,
+        "endLine": 76
+      }
+    },
+    {
+      "id": "old-help:cont-lib.htm",
+      "type": "legacy-help",
+      "title": "Cont/Lib.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Lib.htm",
+      "version": "2.10b",
+      "sha256": "1211D4441EA5F4E983B7E6FFD4506C801E9EBE5BAF14D365372F068471BAF4B1",
+      "locator": {
+        "startLine": 1,
+        "endLine": 201
+      }
+    },
+    {
+      "id": "old-help:cont-links.htm",
+      "type": "legacy-help",
+      "title": "Cont/Links.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Links.htm",
+      "version": "2.10b",
+      "sha256": "4D5671AEBC37C2DCDB2DC7AB1999F95B09D6B503E82AFD0979C24E76B922A4EC",
+      "locator": {
+        "startLine": 1,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "old-help:cont-list.htm",
+      "type": "legacy-help",
+      "title": "Cont/list.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/list.htm",
+      "version": "2.10b",
+      "sha256": "AF65121C272FCC1A7036CCE06CDBAABC8DB8712F37C697005FB38191248079A0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 303
+      }
+    },
+    {
+      "id": "old-help:cont-logicevent.htm",
+      "type": "legacy-help",
+      "title": "Cont/LogicEvent.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/LogicEvent.htm",
+      "version": "2.10b",
+      "sha256": "9DFA342D738F61EE880BB182DBE4EC8103FE2CF23B87090E67FFBF31A9918D7E",
+      "locator": {
+        "startLine": 1,
+        "endLine": 297
+      }
+    },
+    {
+      "id": "old-help:cont-main.htm",
+      "type": "legacy-help",
+      "title": "Cont/main.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/main.htm",
+      "version": "2.10b",
+      "sha256": "A6A48EE8635C0FCF97F965B56972545D0C34D3A5F4805A35C6DE301D020DABE5",
+      "locator": {
+        "startLine": 1,
+        "endLine": 30
+      }
+    },
+    {
+      "id": "old-help:cont-mapmakers.htm",
+      "type": "legacy-help",
+      "title": "Cont/mapmakers.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/mapmakers.htm",
+      "version": "2.10b",
+      "sha256": "D26116FF8898DE816DC39B2B000E69FB094D8AF36C2C77DC455A6CF36D6E6072",
+      "locator": {
+        "startLine": 1,
+        "endLine": 86
+      }
+    },
+    {
+      "id": "old-help:cont-receivers.htm",
+      "type": "legacy-help",
+      "title": "Cont/Receivers.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Receivers.htm",
+      "version": "2.10b",
+      "sha256": "A14D0CAF7C62B987F3AE3DD6F17F49338072B789F3807A153AD8A398202F9EA6",
+      "locator": {
+        "startLine": 1,
+        "endLine": 210
+      }
+    },
+    {
+      "id": "old-help:cont-receiversa.htm",
+      "type": "legacy-help",
+      "title": "Cont/ReceiversA.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/ReceiversA.htm",
+      "version": "2.10b",
+      "sha256": "2ED2A82870482FD1B18ED41204566D274E601B267BEAD624E019E09ED61DCBE0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 128
+      }
+    },
+    {
+      "id": "old-help:cont-receiversol.htm",
+      "type": "legacy-help",
+      "title": "Cont/ReceiverSol.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/ReceiverSol.htm",
+      "version": "2.10b",
+      "sha256": "9A64D70911A352561F0685FD2320116DF008FFBAD0AE1BE2F42A5B39C51DBF59",
+      "locator": {
+        "startLine": 1,
+        "endLine": 144
+      }
+    },
+    {
+      "id": "old-help:cont-sschange.htm",
+      "type": "legacy-help",
+      "title": "Cont/SSchange.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/SSchange.htm",
+      "version": "2.10b",
+      "sha256": "80911F9BF75D62291A923038871F860F106A2A6058DC6B0EB80E05B3191E5D13",
+      "locator": {
+        "startLine": 1,
+        "endLine": 186
+      }
+    },
+    {
+      "id": "old-help:cont-stackexpbonus.htm",
+      "type": "legacy-help",
+      "title": "Cont/StackExpBonus.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/StackExpBonus.htm",
+      "version": "2.10b",
+      "sha256": "4EB6E97192E6C30B005E235B29A01789291693FD0193087FAF6C31B6649FAC33",
+      "locator": {
+        "startLine": 1,
+        "endLine": 519
+      }
+    },
+    {
+      "id": "old-help:cont-te.htm",
+      "type": "legacy-help",
+      "title": "Cont/TE.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/TE.htm",
+      "version": "2.10b",
+      "sha256": "20EF454DDDECD11088DF6B1C4C2BC90D6B42724173C78E80FF50F887AC8D7121",
+      "locator": {
+        "startLine": 1,
+        "endLine": 28
+      }
+    },
+    {
+      "id": "old-help:cont-triggers-era.htm",
+      "type": "legacy-help",
+      "title": "Cont/Triggers_ERA.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Triggers_ERA.htm",
+      "version": "2.10b",
+      "sha256": "839F5EEBB4851C9CB929A7502DB844A8292D50C746E5FBD33752F4C6ACF78BD2",
+      "locator": {
+        "startLine": 1,
+        "endLine": 170
+      }
+    },
+    {
+      "id": "old-help:cont-triggers.htm",
+      "type": "legacy-help",
+      "title": "Cont/Triggers.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/Triggers.htm",
+      "version": "2.10b",
+      "sha256": "505FDFB7357A825A5E8D806EF40AF18F8114598CC0A64F17FBC4997AC9155CF2",
+      "locator": {
+        "startLine": 1,
+        "endLine": 133
+      }
+    },
+    {
+      "id": "old-help:cont-triggersol.htm",
+      "type": "legacy-help",
+      "title": "Cont/TriggerSol.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/TriggerSol.htm",
+      "version": "2.10b",
+      "sha256": "9D5BE6AD17E611074A97C204F3638C4A1FC58461015474949D45C9FE3EC6265B",
+      "locator": {
+        "startLine": 1,
+        "endLine": 71
+      }
+    },
+    {
+      "id": "old-help:cont-unc-lib.htm",
+      "type": "legacy-help",
+      "title": "Cont/UNC_Lib.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/UNC_Lib.htm",
+      "version": "2.10b",
+      "sha256": "B53B1CFCF3D3AE7913844B4F4EA366FDC58D1533A7CF1DA91B4A4B3CD29C7A24",
+      "locator": {
+        "startLine": 1,
+        "endLine": 952
+      }
+    },
+    {
+      "id": "old-help:cont-unc.htm",
+      "type": "legacy-help",
+      "title": "Cont/UNC.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/UNC.htm",
+      "version": "2.10b",
+      "sha256": "D3CE8B4300BDE37AA08FB60F96D29ED2B23D4C649E4646C8DD904997BCE92956",
+      "locator": {
+        "startLine": 1,
+        "endLine": 85
+      }
+    },
+    {
+      "id": "old-help:cont-usedvar.htm",
+      "type": "legacy-help",
+      "title": "Cont/UsedVar.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/UsedVar.htm",
+      "version": "2.10b",
+      "sha256": "4FCA26A545680AE057FD04D43A64C12112A3788FCCB599E2119F5C895CB6495C",
+      "locator": {
+        "startLine": 1,
+        "endLine": 927
+      }
+    },
+    {
+      "id": "old-help:cont-wog.htm",
+      "type": "legacy-help",
+      "title": "Cont/wog.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/wog.htm",
+      "version": "2.10b",
+      "sha256": "7B3E633E6B0B854C0FFFC0DCAA06741A0D1D5972F2F4A2445592551BCB2530C7",
+      "locator": {
+        "startLine": 1,
+        "endLine": 94
+      }
+    },
+    {
+      "id": "old-help:cont-wogteam.htm",
+      "type": "legacy-help",
+      "title": "Cont/wogteam.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/wogteam.htm",
+      "version": "2.10b",
+      "sha256": "8A4583E71A96AFFA2481FDF3309481C017AEECCF0DB9AA42B125FFC217123C5D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 116
+      }
+    },
+    {
+      "id": "old-help:cont-zvse.htm",
+      "type": "legacy-help",
+      "title": "Cont/ZVSE.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Cont/ZVSE.htm",
+      "version": "2.10b",
+      "sha256": "AE6DD2470A57020086E3B9E46CECEAFF199B55038D123E08A6C29CD5B87C5129",
+      "locator": {
+        "startLine": 1,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "old-help:era-api.htm",
+      "type": "legacy-help",
+      "title": "ERA/api.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "ERA/api.htm",
+      "version": "2.10b",
+      "sha256": "83BA30510FB5DBF8B3831D48E342226B2A92CF040682E68958A2DE0D494C7ACE",
+      "locator": {
+        "startLine": 1,
+        "endLine": 203
+      }
+    },
+    {
+      "id": "old-help:era-color-text.htm",
+      "type": "legacy-help",
+      "title": "ERA/color_text.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "ERA/color_text.htm",
+      "version": "2.10b",
+      "sha256": "36BB2A3A2BC1F753D35A3A5C53821B4E7708FCEE6795CA126F58EF724AA1C5D2",
+      "locator": {
+        "startLine": 1,
+        "endLine": 37
+      }
+    },
+    {
+      "id": "old-help:era-index.htm",
+      "type": "legacy-help",
+      "title": "ERA/index.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "ERA/index.htm",
+      "version": "2.10b",
+      "sha256": "F176C700D80B99C5EFFEC3880FC3C2D7B3D31B3E2EA300FF558B450B1632554D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 53
+      }
+    },
+    {
+      "id": "old-help:era-new-events.htm",
+      "type": "legacy-help",
+      "title": "ERA/new_events.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "ERA/new_events.htm",
+      "version": "2.10b",
+      "sha256": "4F8CE50D0F44685774236AC7B6B050C590D81B636D8DD8817D99D9575FE32324",
+      "locator": {
+        "startLine": 1,
+        "endLine": 394
+      }
+    },
+    {
+      "id": "old-help:form-16to10.htm",
+      "type": "legacy-help",
+      "title": "Form/16to10.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/16to10.htm",
+      "version": "2.10b",
+      "sha256": "A3A5C18D4AFC564563B0617E7308F6E98FB384616FB52BA855B11AB45BF2FB27",
+      "locator": {
+        "startLine": 1,
+        "endLine": 19
+      }
+    },
+    {
+      "id": "old-help:form-a1-hex.htm",
+      "type": "legacy-help",
+      "title": "Form/A1_HEX.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/A1_HEX.htm",
+      "version": "2.10b",
+      "sha256": "F4DE21B76CEA136D8A8A91AEA9AF182F18544F3A4670598B4BF34C10C8962348",
+      "locator": {
+        "startLine": 1,
+        "endLine": 875
+      }
+    },
+    {
+      "id": "old-help:form-a1.htm",
+      "type": "legacy-help",
+      "title": "Form/A1.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/A1.htm",
+      "version": "2.10b",
+      "sha256": "EBB1C11EBE5243B0D8EC534BED1C60F8781E0DFBB90F8A43533CCD8EAC0E9AA7",
+      "locator": {
+        "startLine": 1,
+        "endLine": 881
+      }
+    },
+    {
+      "id": "old-help:form-a2.htm",
+      "type": "legacy-help",
+      "title": "Form/A2.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/A2.htm",
+      "version": "2.10b",
+      "sha256": "8DD69B4042DC317A3AD2AE0E704A591195456FAB4E09627B788FD13C88334F12",
+      "locator": {
+        "startLine": 1,
+        "endLine": 136
+      }
+    },
+    {
+      "id": "old-help:form-a3.htm",
+      "type": "legacy-help",
+      "title": "Form/A3.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/A3.htm",
+      "version": "2.10b",
+      "sha256": "1FEF08F49F13BD07DD20F1BA607FE92B789779DA9BE39C4E6C2D968B67159C7D",
+      "locator": {
+        "startLine": 1,
+        "endLine": 699
+      }
+    },
+    {
+      "id": "old-help:form-advhero.htm",
+      "type": "legacy-help",
+      "title": "Form/AdvHero.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/AdvHero.htm",
+      "version": "2.10b",
+      "sha256": "BB13AEABB3A90DD9D8654634C5B414F2388FFB021EDB08C9DFF2EC671ADFAB1C",
+      "locator": {
+        "startLine": 1,
+        "endLine": 187
+      }
+    },
+    {
+      "id": "old-help:form-align.htm",
+      "type": "legacy-help",
+      "title": "Form/align.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/align.htm",
+      "version": "2.10b",
+      "sha256": "88DC42369F1BEFB3C5ABA8A281C5C291EA2C1EB8BE8FEC09918DCA90145934B2",
+      "locator": {
+        "startLine": 1,
+        "endLine": 41
+      }
+    },
+    {
+      "id": "old-help:form-ap.htm",
+      "type": "legacy-help",
+      "title": "Form/AP.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/AP.htm",
+      "version": "2.10b",
+      "sha256": "4050C713BCAE28CDC894D38E83287D54BF924F31C56FC3B1AF1C55407EBAC6A7",
+      "locator": {
+        "startLine": 1,
+        "endLine": 8
+      }
+    },
+    {
+      "id": "old-help:form-ap1.htm",
+      "type": "legacy-help",
+      "title": "Form/AP1.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/AP1.htm",
+      "version": "2.10b",
+      "sha256": "5EC2C7795715FDDBF145FC23747D0F1A46A379F7D9D8CDB8804FBAA1F79039E0",
+      "locator": {
+        "startLine": 1,
+        "endLine": 71
+      }
+    },
+    {
+      "id": "old-help:form-ap2.htm",
+      "type": "legacy-help",
+      "title": "Form/AP2.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/AP2.htm",
+      "version": "2.10b",
+      "sha256": "8C5F944A1580FF8D34150020E93188E521F0F3A3724D182A2DE000608BA436B9",
+      "locator": {
+        "startLine": 1,
+        "endLine": 85
+      }
+    },
+    {
+      "id": "old-help:form-ap3.htm",
+      "type": "legacy-help",
+      "title": "Form/AP3.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/AP3.htm",
+      "version": "2.10b",
+      "sha256": "3CFB540CF4DE0867091D41707491DF90B591BD4456F4BE19414D992F40C0293C",
+      "locator": {
+        "startLine": 1,
+        "endLine": 77
+      }
+    },
+    {
+      "id": "old-help:form-ba-b.htm",
+      "type": "legacy-help",
+      "title": "Form/BA_B.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/BA_B.htm",
+      "version": "2.10b",
+      "sha256": "261ED0B04E7C9D3290710F2CEAE4121C4E0A7D0AEB7C228C2E6AAE418ACD57C4",
+      "locator": {
+        "startLine": 1,
+        "endLine": 36
+      }
+    },
+    {
+      "id": "old-help:form-bf-s1.htm",
+      "type": "legacy-help",
+      "title": "Form/bf_s1.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/bf_s1.htm",
+      "version": "2.10b",
+      "sha256": "D4DEBE1C976DC988796E0E9865C3BE53A2EF6109E3F36369EDB6187088D15262",
+      "locator": {
+        "startLine": 1,
+        "endLine": 4
+      }
+    },
+    {
+      "id": "old-help:form-bf.htm",
+      "type": "legacy-help",
+      "title": "Form/BF.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/BF.htm",
+      "version": "2.10b",
+      "sha256": "E3B1E814587A59BCEF78D1783A19C46423C593EFB3D47B03B7F7046B1E1B4F45",
+      "locator": {
+        "startLine": 1,
+        "endLine": 4
+      }
+    },
+    {
+      "id": "old-help:form-bg.htm",
+      "type": "legacy-help",
+      "title": "Form/BG.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/BG.htm",
+      "version": "2.10b",
+      "sha256": "BC278673DCB86943669AA10F7A02D5B250B8A75FA84EBA5E761FE160A1DDC90A",
+      "locator": {
+        "startLine": 1,
+        "endLine": 48
+      }
+    },
+    {
+      "id": "old-help:form-bless.htm",
+      "type": "legacy-help",
+      "title": "Form/Bless.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Bless.htm",
+      "version": "2.10b",
+      "sha256": "1F761B73D195CFA287514017A2D3E6865CD3E09A9C4C1A1B5BEF8CA3DDCBF5C9",
+      "locator": {
+        "startLine": 1,
+        "endLine": 274
+      }
+    },
+    {
+      "id": "old-help:form-bug.htm",
+      "type": "legacy-help",
+      "title": "Form/BUG.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/BUG.htm",
+      "version": "2.10b",
+      "sha256": "0D2F5C0FC86192790F86A37C2FE341B5EA93DAC63ED77E8CA0DEDD95ECE85C05",
+      "locator": {
+        "startLine": 1,
+        "endLine": 128
+      }
+    },
+    {
+      "id": "old-help:form-buldings.htm",
+      "type": "legacy-help",
+      "title": "Form/Buldings.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/Buldings.htm",
+      "version": "2.10b",
+      "sha256": "A08D706A9C23DEA9EC524B4ECECD6D7FFABBD0D411A386B9A20C8EC4BF6A09B5",
+      "locator": {
+        "startLine": 1,
+        "endLine": 248
+      }
+    },
+    {
+      "id": "old-help:form-buldingsintowns.htm",
+      "type": "legacy-help",
+      "title": "Form/BuldingsInTowns.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/BuldingsInTowns.htm",
+      "version": "2.10b",
+      "sha256": "C5FCB7C61C24821848147F226918738F7DBD9D00C224EA4A5666AD3BF0F32EB8",
+      "locator": {
+        "startLine": 1,
+        "endLine": 1222
+      }
+    },
+    {
+      "id": "old-help:form-cb.htm",
+      "type": "legacy-help",
+      "title": "Form/CB.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/CB.htm",
+      "version": "2.10b",
+      "sha256": "65F482FB9A8C3601DB4689331561A9F757A8A2B1A7FC0FC2E20F740E6BD6F885",
+      "locator": {
+        "startLine": 1,
+        "endLine": 98
+      }
+    },
+    {
+      "id": "old-help:form-cmi.htm",
+      "type": "legacy-help",
+      "title": "Form/CMI.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/CMI.htm",
+      "version": "2.10b",
+      "sha256": "C6E4632262182834EFA2027B01138D243D33BF370AB75076E03E26FD8A3F96CC",
+      "locator": {
+        "startLine": 1,
+        "endLine": 1974
+      }
+    },
+    {
+      "id": "old-help:form-cobo.htm",
+      "type": "legacy-help",
+      "title": "Form/CoBo.htm",
+      "sourceSet": "old-help",
+      "relativeSourcePath": "Form/CoBo.htm",
+      "version": "2.10b",
+      "sha256": "C42B5574BE0CE8C9329B5517E8D8987BEE19F3F7889B9C9615687819B6AAF539",
+      "locator": {
+        "startLine": 1,
+        "endLine": 93
+      }
+    }
+  ]
+}

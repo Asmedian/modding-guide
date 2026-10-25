@@ -1,0 +1,678 @@
+{
+  "name": "Elixir of Life",
+  "description": "Gelu has spent many months training to become a member of Erathia's elite Forest Guard.  For his final test, he is tasked to assemble an artifact known as the Elixir of Life.  He must find the artifact's four components to keep it out of the hands of the Necromancers.",
+  "version": "SoD",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 18144,
+    "objects": 4561,
+    "towns": 26,
+    "monsters": 183,
+    "factions": {
+      "Rampart": 18,
+      "Necropolis": 6,
+      "Stronghold": 1,
+      "Dungeon": 1
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "gelu1.h3m",
+      "regionText": "This area is a special training area and is the site for your final exam.  Many have failed this test, while more have passed it.  Good luck.",
+      "prologText": "The Forest Guard is Erathia's eyes and ears.  We go where we are needed most and that is usually places difficult for traditional fighting forces to reach.  We are shadows of the forest that see all and bring silent death with a single, unseen bowshot.  You have done well in your training, Gelu, but now has come the time to take the final test.  A small valley near Gaia's Crest will be the site of this trial.  Clear the region of all the enemies to earn your place among the ranks of the Forest Guard.  Good luck.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 148,
+          "artifactId": 53
+        },
+        {
+          "type": 1,
+          "heroId": 148,
+          "creatureId": 19,
+          "amount": 15
+        },
+        {
+          "type": 1,
+          "heroId": 148,
+          "creatureId": 137,
+          "amount": 10
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-1.h3m",
+      "name": "Graduation Exercise",
+      "description": "Defeat all Gelu's enemies win the scenario.  However, if Gelu is defeated in combat, the scenario is lost.  Your heroes are limited to level 10, but Gelu and two other heroes will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 511,
+          "isFactionRandom": true,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Inferno",
+            "Necropolis",
+            "Dungeon",
+            "Stronghold",
+            "Fortress",
+            "Conflux"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 67,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 67,
+              "name": ""
+            },
+            {
+              "id": 100,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 199,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Stronghold",
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 148,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 33,
+        "y": 2,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 2,
+        "Necropolis": 1,
+        "Stronghold": 1,
+        "Dungeon": 1
+      },
+      "objects": 479,
+      "towns": 5,
+      "monsters": 25,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "gelu2.h3m",
+      "regionText": "Bandits infest this region.  Wherever possible, enlist the aid of the Thieves' Guild, as they can be very informative.",
+      "prologText": "Rumor has it that the Ring of Health, one of the essential components of the Elixir of Life, is located in the Shantanna region of southern AvLee.  Time is of the essence, for a Death Knight has been spotted talking to bandits who have long been terrorizing the area, and we believe that he has hired them to find the Ring first.",
+      "preconditions": 1,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 148,
+          "creatureId": 143,
+          "amount": 10
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 2000
+        },
+        {
+          "type": 3,
+          "heroId": 148,
+          "artifactId": 70
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-2.h3m",
+      "name": "Cutthroats",
+      "description": "Stop a group of rogue AvLee lords from selling the Ring of Vitality to a Death Knight lord in Deyja to win the scenario.  However, if Gelu is defeated in combat, the scenario is lost.  Gelu is limited to level 15 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 56,
+          "isFactionRandom": false,
+          "factions": [
+            "Inferno",
+            "Necropolis",
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 199,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Stronghold",
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 28,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 28,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 7,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 9,
+          "mainTownY": 7,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 94
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 11,
+        "y": 8,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 2,
+        "Rampart": 6
+      },
+      "objects": 1361,
+      "towns": 8,
+      "monsters": 58,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-2-0.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "gelu3.h3m",
+      "regionText": "The Dragon Lords are not known for being all that reasonable, but perhaps you persuade them to part with the Ring without any bloodshed.",
+      "prologText": "The Ring of Life, the second component of the Elixir of Life, is hidden in the valley of Dagrond.  There lives a group of powerful Elven nobility who are the caretakers of several warrens of gold and green dragons.  These Dragon Lords have always been loyal to AvLee, but we fear that one of these lords has been corrupted by the Necromancers.  If this treacherous Dragon Lord gets the Ring before you, he will become an enemy too powerful for the forces of AvLee to withstand.",
+      "preconditions": 2,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 148,
+          "creatureId": 26,
+          "amount": 1
+        },
+        {
+          "type": 3,
+          "heroId": 148,
+          "artifactId": 98
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3000
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-3.h3m",
+      "name": "Valley of the Dragon Lords",
+      "description": "This valley is land of the Dragon Lords.  They must be defeated and the Ring of Life located to win the scenario.  However, if Gelu is defeated in combat, the scenario is lost.  Gelu is limited to level 20 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 199,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Stronghold",
+            "Fortress"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 68,
+          "mainTownY": 4,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 199,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Rampart",
+            "Tower",
+            "Stronghold",
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 21,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 17,
+              "name": ""
+            },
+            {
+              "id": 21,
+              "name": ""
+            },
+            {
+              "id": 25,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 95
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 62,
+        "y": 12,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 7
+      },
+      "objects": 1296,
+      "towns": 7,
+      "monsters": 44,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-3-0.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "gelu4.h3m",
+      "regionText": "The Vampire Lord Vokial has been using the Vial of Lifeblood to supplement his feedings.  Take it, and he will be forced to suffer the indignation of feeding the old fashioned way.  Stealing it from him will cause him great harm and embarrassment.",
+      "prologText": "The final artifact needed to construct the Elixir of Life is in the undead hands of the Vampire Lord Vokial.  It is said the Vial of Lifeblood allows him to sustain himself without having to resort to more distasteful means of bloodletting.  Although this artifact can be said to be preventing some evil where it is, our need for the Vial is even more desperate.  You must find a way to steal the Vial from this Vampire.  But keep in mind that not every task need be accomplished by direct means.  Use your training wisely and stay sharp.",
+      "epilogText": "I have completed construction of the Elixir of Life and saved AvLee from the threat of the Necromancers of Deyja, earning myself an honorable position within the Forest Guard.  I look forward to my service faithfully protecting this beautiful land I love so much.",
+      "preconditions": 4,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3000
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 143,
+          "amount": 20
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 137,
+          "amount": 10
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-4.h3m",
+      "name": "A Thief in the Night",
+      "description": "Steal the Vial of Lifeblood from the Vampire Lord Vokial to create the Elixir of Life and win the campaign.  However, if Gelu is defeated in combat, the scenario is lost.  Gelu is limited to level 25 but will carry his experience, skills and spells on to his next campaign.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 56,
+          "isFactionRandom": false,
+          "factions": [
+            "Inferno",
+            "Necropolis",
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 65,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 65,
+              "name": ""
+            },
+            {
+              "id": 69,
+              "name": ""
+            },
+            {
+              "id": 76,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 198,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart",
+            "Tower",
+            "Stronghold",
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 148,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": false,
+        "artifactId": 131
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 50,
+        "y": 9,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 3,
+        "Rampart": 3
+      },
+      "objects": 1425,
+      "towns": 6,
+      "monsters": 56,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Gelu.h3c/scenario-4-0.png"
+        }
+      ]
+    }
+  ]
+}

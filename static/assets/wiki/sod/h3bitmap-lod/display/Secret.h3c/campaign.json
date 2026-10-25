@@ -1,0 +1,690 @@
+{
+  "name": "Specter of Power",
+  "description": "Sandro's first attempt at conquering Antagarich has failed.  However, he is not defeated.  Sandro will pull together several groups of people and start the first rumblings of war that will engulf all of Antagarich.",
+  "version": "SoD",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 20736,
+    "objects": 5033,
+    "towns": 22,
+    "monsters": 177,
+    "factions": {
+      "Necropolis": 11,
+      "Castle": 4,
+      "Rampart": 7
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Secret A.h3m",
+      "regionText": "Lord Haart has agreed to take the poison to King Gryphonheart.  A clever ruse in the form of a border skirmish will plant the poison in Lord Haart's castle, and then you will leave the area to let him recover his lands and the poison.",
+      "prologText": "Lord Haart has agreed to take the Vial of Poison to King Gryphonheart.  All I must do is leave the Vial in Haart's castle after I raid it.  Fortunately for me, he is problem with overpopulation, so I will add his wasted peasants to my own ranks.  This will be a good day for harvesting skeletons!",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 74,
+          "creatureId": 59,
+          "amount": 20
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3000
+        },
+        {
+          "type": 3,
+          "heroId": 74,
+          "artifactId": 98
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-1.h3m",
+      "name": "Poison Fit for a King",
+      "description": "Capture Haart Castle and leave the Vial of Poison to win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Heroes are limited to level 10, but Sandro and three of his comrades will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 1,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 1,
+              "name": ""
+            },
+            {
+              "id": 5,
+              "name": ""
+            },
+            {
+              "id": 10,
+              "name": ""
+            },
+            {
+              "id": 13,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 67,
+          "mainTownY": 11,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 74,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 6,
+        "name": "Capture town",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 4,
+        "y": 67,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 112
+      },
+      "factions": {
+        "Necropolis": 3,
+        "Castle": 4
+      },
+      "objects": 1907,
+      "towns": 7,
+      "monsters": 61,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Secret B.h3m",
+      "regionText": "The Dungeon Overlords are quite interested in your plans to overthrow Erathia.  There is one slight catch: they do not have enough gold to pay for the labor or the wood needed to build the actual tunnels.  You must provide them with the materials they need.",
+      "prologText": "To secure the Dungeon Overlord's support, I need to provide them with the gold and wood necessary to build a tunnel.  Wood is desperately needed to keep the tunnels from collapsing, and the gold is for paying the workers.  The greedy cave dwellers refuse to supply the raw materials themselves.  If I did not need their support, I would lock them up in their own underground dungeons!",
+      "preconditions": 1,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 0,
+          "amount": 15
+        },
+        {
+          "type": 3,
+          "heroId": 74,
+          "artifactId": 96
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-2.h3m",
+      "name": "To Build a Tunnel",
+      "description": "Obtain 100,000 Gold to give to the Dungeon Overlords and win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Heroes are limited to level 16, but Sandro and three of his comrades will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 25,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 16,
+              "name": ""
+            },
+            {
+              "id": 21,
+              "name": ""
+            },
+            {
+              "id": 25,
+              "name": ""
+            },
+            {
+              "id": 26,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 18,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 17,
+              "name": ""
+            },
+            {
+              "id": 18,
+              "name": ""
+            },
+            {
+              "id": 27,
+              "name": ""
+            },
+            {
+              "id": 31,
+              "name": ""
+            }
+          ]
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 2,
+        "name": "Accumulate resources",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "resourceType": 6,
+        "resourceName": "Gold",
+        "amount": 100000
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 66,
+        "y": 17,
+        "z": 0
+      },
+      "factions": {
+        "Rampart": 6,
+        "Necropolis": 3
+      },
+      "objects": 1789,
+      "towns": 9,
+      "monsters": 65,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Secret C.h3m",
+      "regionText": "The Kreegans do not believe your sincerity.  To them, Necromancers are weak wraiths feeding off the living, unable to initiate any good plan.  To prove your sincerity they want you to turn over the Eversmoking Ring of Sulfur.  A Druid stole it some years ago and they want it back.",
+      "prologText": "Kreegans are so arrogant, but I have need of their creatures to invade Erathia and crush her military.  Without their brute strength I would not be able to carry out all my plans.  So I will play their little game and find their precious artifact, the Eversmoking Ring of Sulfur.",
+      "preconditions": 2,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 74,
+          "artifactId": 70
+        },
+        {
+          "type": 1,
+          "heroId": 74,
+          "creatureId": 61,
+          "amount": 10
+        },
+        {
+          "type": 7,
+          "resourceType": -3,
+          "amount": 10
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-3.h3m",
+      "name": "Kreegan Alliance",
+      "description": "Obtain the Eversmoking Ring of Sulfur for the Kreegans to win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Heroes are limited to level 24, but Sandro and three of his lieutenants will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 29,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 29,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 5,
+        "name": "Defeat hero",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "x": 31,
+        "y": 26,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 84
+      },
+      "factions": {
+        "Rampart": 1,
+        "Necropolis": 1
+      },
+      "objects": 638,
+      "towns": 2,
+      "monsters": 22,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Secret D.h3m",
+      "regionText": "All of your plans are laid, but there is one lord who opposes the plan.  Finneas has told you his name is Lord Smedth and suggested that this insignificant bug be squashed.  You decide to do so yourself; he has been a minor thorn for some time now, always harassing you in court and attempting to usurp your position as Finneas Vilmar's closest aid.  It will be your pleasure to send him to Hell.",
+      "prologText": "Finneas has discovered that Smedth, an upstart lord, has gotten too ambitious.  He is trying to usurp my position as Finneas' top advisor.  To calm Finneas, I have agreed to take care of this little matter myself.  It will be my pleasure sending the conniving lich to Hell.",
+      "epilogText": "Finneas is more cunning than I gave him credit for!  He tricked me into getting imprisoned for assaulting an innocent lord so that he could rule Deyja by himself and steal the credit for my plans to invade Erathia.  Well, soon he will realize that I can pull his strings even from my cell and wrap them tightly around his neck.",
+      "preconditions": 4,
+      "difficulty": "Impossible",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": -2,
+          "amount": 5
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-4.h3m",
+      "name": "With Blinders On",
+      "description": "Sandro must defeat all of the lords who seek his position to win the campaign. However, if Sandro loses even just one battle, others will sense weakness in him and destroy all he has worked for.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 66,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 66,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 68,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 68,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 65,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Lord Dufus",
+          "heroes": [
+            {
+              "id": 65,
+              "name": "Lord Dufus"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 4,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 24,
+        "y": 7,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 4
+      },
+      "objects": 699,
+      "towns": 4,
+      "monsters": 29,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Secret.h3c/scenario-4-1.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "name": "Rise of the Necromancer",
+  "description": "Sandro must fight his way past his old master and several other lords who want the artifacts he carries.  Once in Deyja he will make allies and soon rise to the top of the Deyja hierarchy.",
+  "version": "SoD",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": true,
+  "aggregate": {
+    "area": 28512,
+    "objects": 7629,
+    "towns": 25,
+    "monsters": 254,
+    "factions": {
+      "Stronghold": 2,
+      "Inferno": 1,
+      "Necropolis": 12,
+      "Rampart": 6,
+      "Dungeon": 4
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Sandro A.h3m",
+      "regionText": "Ethric is a sly old Warlock.  He has spread word of Sandro and the artifacts he carries to the lords of this region.  Some of the lords want these artifacts for their own use; others want to destroy them.  Sandro must defeat all these lords and get into Deyja.",
+      "prologText": "It seems Ethric, my old master, has finally tracked me down.  He hasn't been too happy about me becoming a Necromancer and wants to remove the blight from his career.  Ethric is no fool.  He spread word of my location to those who would stop me.  It does not matter.  I will defeat these fools, soundly beat my master and continue on to Deyja, where they will appreciate my talents.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 4,
+          "heroId": 74,
+          "spellId": 17
+        },
+        {
+          "type": 1,
+          "heroId": 74,
+          "creatureId": 58,
+          "amount": 8
+        },
+        {
+          "type": 5,
+          "heroId": 74,
+          "stats": [
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-1.h3m",
+      "name": "Target",
+      "description": "Defeat all of Sandro's enemies to win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Sandro is limited to level 5 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 74,
+          "mainHeroPortrait": 161,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 91,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 91,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 17,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 17,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 99,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 99,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 98,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 98,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 8,
+          "isFactionRandom": false,
+          "factions": [
+            "Inferno"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 51,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 51,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 6,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 32,
+        "y": 61,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 2,
+        "Inferno": 1,
+        "Necropolis": 2,
+        "Rampart": 1,
+        "Dungeon": 1
+      },
+      "objects": 1935,
+      "towns": 7,
+      "monsters": 69,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Sandro B.h3m",
+      "regionText": "Sandro now faces Ethric and one of his allies.  He must defeat the old Warlock before moving on to Deyja.",
+      "prologText": "Ethric just doesn't give up, but I have found an ally.  Vidomina is a young wizard with aspirations of being a Necromancer.  For the time being she will be useful, but we will part ways once we get past Ethric and into Deyja proper.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 3000
+        },
+        {
+          "type": 5,
+          "heroId": 74,
+          "stats": [
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "type": 1,
+          "heroId": 43,
+          "creatureId": 64,
+          "amount": 3
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-2.h3m",
+      "name": "Master",
+      "description": "Defeat Ethric and all of his allies to win the scenario.  However, if Sandro is defeated in combat, the scenario is lost.  Sandro is limited to level 10 but will carry his experience, skills and spells on to the next scenario.",
+      "mapSize": 36,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 43,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Vidomina",
+          "heroes": [
+            {
+              "id": 43,
+              "name": "Vidomina"
+            },
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 28,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 28,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 21,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 21,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 89,
+          "mainHeroPortrait": 83,
+          "mainHeroName": "Ethric",
+          "heroes": [
+            {
+              "id": 89,
+              "name": "Ethric"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 4,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 24,
+        "y": 30,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 1,
+        "Rampart": 2,
+        "Dungeon": 1
+      },
+      "objects": 851,
+      "towns": 4,
+      "monsters": 27,
+      "minimaps": [
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 36,
+          "height": 36,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Sandro C.h3m",
+      "regionText": "Sandro and Finneas Vilmar are going to wipe out Lord Alarice before he can tell the others of Finneas' transgressions against the old King of Deyja.  Once they have completed this trivial task, they will be able to work on removing other bothersome lords from the Deyja court.",
+      "prologText": "Traveling to Deyja, I met Finneas Vilmar, an ambitious but slightly foolish Necromancer.  He has some holdings here and is trying to increase his realm of power.  With my skills of persuasion he should soon find himself in the position he craves.  Of course, I will be the shadow whispering orders into his ear.",
+      "preconditions": 2,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 5,
+          "heroId": 74,
+          "stats": [
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "type": 1,
+          "heroId": 74,
+          "creatureId": 62,
+          "amount": 8
+        },
+        {
+          "type": 7,
+          "resourceType": -3,
+          "amount": 15
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-3.h3m",
+      "name": "Finneas Vilmar",
+      "description": "Defeat all of Sandro and Finneas' enemies to win the scenario.  However, if Sandro or Finneas is defeated in combat, the scenario is lost.  Sandro and Finneas are limited to level 20 but will carry their experience, skills and spells on to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 55,
+          "mainTownY": 51,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 76,
+          "mainHeroPortrait": 159,
+          "mainHeroName": "Finneas ",
+          "heroes": [
+            {
+              "id": 76,
+              "name": "Finneas "
+            },
+            {
+              "id": 74,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 65,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Lord Alarice",
+          "heroes": [
+            {
+              "id": 65,
+              "name": "Lord Alarice"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 88,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 88,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 94,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 94,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 17,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 17,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 20,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 20,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 29,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 29,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 7,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 55,
+        "y": 54,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 2,
+        "Rampart": 3,
+        "Dungeon": 2
+      },
+      "objects": 2762,
+      "towns": 7,
+      "monsters": 81,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Sandro D.h3m",
+      "regionText": "All Finneas or Sandro must do is remove the Duke of this area.  Once he is gone, they will be literally a step away from the throne.  The new king is still not settled into his throne and will be easily replaced.  With any luck, he will suffer an accident in the future.",
+      "prologText": "Soon Duke Alarice will find himself permanently among the dead.  Right now our plans go well as we prepare to launch an assault.  Finneas does not agree with my tactics, but I know that his tactics are certain death.  It is only a matter of time before he realizes his error and follows my direction.  Soon he will come to see that he cannot survive without my guidance.",
+      "epilogText": "Our plan has been a great success!  We are quickly on the rise.  The King is impressed with Finneas' stunning show of force and ability.  Soon the King will understand the full view of my vision.  Then it will be too late for him.",
+      "preconditions": 4,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 74,
+          "creatureId": 62,
+          "amount": 5
+        },
+        {
+          "type": 2,
+          "buildingId": 4
+        },
+        {
+          "type": 7,
+          "resourceType": -2,
+          "amount": 10
+        }
+      ],
+      "original": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-4.h3m",
+      "name": "Duke Alarice",
+      "description": "Defeat Duke Alarice and all his allies to win the campaign.  However, if Sandro or Finneas are defeated in combat, the scenario is lost.  Sandro and Finneas are limited to level 25 but will carry their experience, skills and spells on to their next campaign.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 64,
+          "mainTownY": 24,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 74,
+              "name": ""
+            },
+            {
+              "id": 76,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 73,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 73,
+              "name": ""
+            },
+            {
+              "id": 75,
+              "name": "Duke Alarice"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 68,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 68,
+              "name": ""
+            },
+            {
+              "id": 79,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 64,
+        "y": 25,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 7
+      },
+      "objects": 2081,
+      "towns": 7,
+      "monsters": 77,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/sod/h3bitmap-lod/display/Sandro.h3c/scenario-4-0.png"
+        }
+      ]
+    }
+  ]
+}

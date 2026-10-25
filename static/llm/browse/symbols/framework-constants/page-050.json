@@ -1,0 +1,858 @@
+{
+  "schemaVersion": 1,
+  "symbols": [
+    {
+      "name": "PLAYER_LAST",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-last",
+      "aliases": [],
+      "label": "PLAYER_LAST = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-last"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_ORANGE",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-orange",
+      "aliases": [],
+      "label": "PLAYER_ORANGE = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-orange"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_PINK",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-pink",
+      "aliases": [],
+      "label": "PLAYER_PINK = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-pink"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_PURPLE",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-purple",
+      "aliases": [],
+      "label": "PLAYER_PURPLE = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-purple"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_RED",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-red",
+      "aliases": [],
+      "label": "PLAYER_RED = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-red"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_TAN",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-tan",
+      "aliases": [],
+      "label": "PLAYER_TAN = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-tan"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLAYER_TEAL",
+      "kind": "constant",
+      "slug": "framework/constants/players",
+      "anchor": "const-player-teal",
+      "aliases": [],
+      "label": "PLAYER_TEAL = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/players/#const-player-teal"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PRIM_SKILL_FIRST",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-prim-skill-first",
+      "aliases": [],
+      "label": "PRIM_SKILL_FIRST = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-prim-skill-first"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PRIM_SKILL_LAST",
+      "kind": "constant",
+      "slug": "framework/constants/hero-skills",
+      "anchor": "const-prim-skill-last",
+      "aliases": [],
+      "label": "PRIM_SKILL_LAST = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/hero-skills/#const-prim-skill-last"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-005.md",
+            "fromAnchor": "ref-form-primaryskill",
+            "toAnchor": "related",
+            "headings": [
+              "Primary Skills Table",
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_ARTIFACT",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-artifact",
+      "aliases": [],
+      "label": "QUEST_REWARD_ARTIFACT = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-artifact"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_CREATURE",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-creature",
+      "aliases": [],
+      "label": "QUEST_REWARD_CREATURE = 10",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-creature"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_EXPERIENCE",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-experience",
+      "aliases": [],
+      "label": "QUEST_REWARD_EXPERIENCE = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-experience"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_LUCK",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-luck",
+      "aliases": [],
+      "label": "QUEST_REWARD_LUCK = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-luck"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_MORALE",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-morale",
+      "aliases": [],
+      "label": "QUEST_REWARD_MORALE = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-morale"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_NONE",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-none",
+      "aliases": [],
+      "label": "QUEST_REWARD_NONE = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-none"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_PRIMARY_SKILL",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-primary-skill",
+      "aliases": [],
+      "label": "QUEST_REWARD_PRIMARY_SKILL = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-primary-skill"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_RESOURCE",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-resource",
+      "aliases": [],
+      "label": "QUEST_REWARD_RESOURCE = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-resource"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_SECONDARY_SKILL",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-secondary-skill",
+      "aliases": [],
+      "label": "QUEST_REWARD_SECONDARY_SKILL = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-secondary-skill"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_SPELL",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-spell",
+      "aliases": [],
+      "label": "QUEST_REWARD_SPELL = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-spell"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_REWARD_SPELL_POINTS",
+      "kind": "constant",
+      "slug": "framework/constants/quest-rewards",
+      "anchor": "const-quest-reward-spell-points",
+      "aliases": [],
+      "label": "QUEST_REWARD_SPELL_POINTS = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-rewards/#const-quest-reward-spell-points"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "related",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_BE_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-be-hero",
+      "aliases": [],
+      "label": "QUEST_TYPE_BE_HERO = 8",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-be-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_BE_PLAYER",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-be-player",
+      "aliases": [],
+      "label": "QUEST_TYPE_BE_PLAYER = 9",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-be-player"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_BRING_ARTIFACTS",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-bring-artifacts",
+      "aliases": [],
+      "label": "QUEST_TYPE_BRING_ARTIFACTS = 5",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-bring-artifacts"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_BRING_CREATURES",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-bring-creatures",
+      "aliases": [],
+      "label": "QUEST_TYPE_BRING_CREATURES = 6",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-bring-creatures"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_BRING_RESOURCES",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-bring-resources",
+      "aliases": [],
+      "label": "QUEST_TYPE_BRING_RESOURCES = 7",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-bring-resources"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_DEFEAT_HERO",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-defeat-hero",
+      "aliases": [],
+      "label": "QUEST_TYPE_DEFEAT_HERO = 3",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-defeat-hero"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_DEFEAT_MONSTER",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-defeat-monster",
+      "aliases": [],
+      "label": "QUEST_TYPE_DEFEAT_MONSTER = 4",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-defeat-monster"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_EXPERIENCE_LEVEL",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-experience-level",
+      "aliases": [],
+      "label": "QUEST_TYPE_EXPERIENCE_LEVEL = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-experience-level"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_NONE",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-none",
+      "aliases": [],
+      "label": "QUEST_TYPE_NONE = 0",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-none"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUEST_TYPE_PRIMARY_SKILL",
+      "kind": "constant",
+      "slug": "framework/constants/quest-types",
+      "anchor": "const-quest-type-primary-skill",
+      "aliases": [],
+      "label": "QUEST_TYPE_PRIMARY_SKILL = 2",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/quest-types/#const-quest-type-primary-skill"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RADIO_DLG_FLAG_BTN_CANCEL",
+      "kind": "constant",
+      "slug": "framework/constants/radio-dialogs",
+      "anchor": "const-radio-dlg-flag-btn-cancel",
+      "aliases": [],
+      "label": "RADIO_DLG_FLAG_BTN_CANCEL = 1",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/radio-dialogs/#const-radio-dlg-flag-btn-cancel"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RADIO_DLG_MAX_ITEMS",
+      "kind": "constant",
+      "slug": "framework/constants/radio-dialogs",
+      "anchor": "const-radio-dlg-max-items",
+      "aliases": [],
+      "label": "RADIO_DLG_MAX_ITEMS = 12",
+      "destinations": {
+        "en": "https://asmedian.github.io/modding-guide/en/erm/framework/constants/radio-dialogs/#const-radio-dlg-max-items"
+      },
+      "texts": {
+        "en": [
+          {
+            "part": 1,
+            "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-constants/text-008.md",
+            "fromAnchor": "meaning",
+            "toAnchor": "used-by",
+            "headings": [
+              "Purpose",
+              "Values",
+              "All groups",
+              "Used by Framework"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

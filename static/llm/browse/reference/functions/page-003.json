@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "name": "H3Dlg_StopAnimation",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2022,
+      "endLine": 2025,
+      "args": [],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-stopanimation",
+      "review": "full-body",
+      "summary": "Stops/resumes current dialog animation through native functions. Keep calls balanced."
+    },
+    {
+      "name": "H3Dlg_UpdateItemRange",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2167,
+      "endLine": 2183,
+      "args": [
+        "h3Dlg",
+        "minItemId",
+        "maxItemId"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL",
+        "NULL",
+        "STRUCT_H3DLG_VTABLE",
+        "UNC_INT"
+      ],
+      "status": "requires-review",
+      "group": "dialogs",
+      "slug": "framework/functions/h3dlg-updateitemrange",
+      "review": "full-body",
+      "summary": "Updates dialog state before redraw. In this snapshot minItemId/maxItemId are unused: a virtual method is called with 0/200/200. Do not rely on range-limited updates."
+    },
+    {
+      "name": "H3Quests_RefreshData",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 3321,
+      "endLine": 3370,
+      "args": [
+        "forceRefreshText"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "CALLCONV_THISCALL",
+        "GAME_MANAGER",
+        "NO_MON",
+        "OBJ_MONSTER",
+        "QUEST_TYPE_DEFEAT_MONSTER",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/h3quests-refreshdata",
+      "review": "full-body",
+      "summary": "Refreshes quests after creature/name replacements. For defeat-monster quests, checks the actual type at coordinates; forceRefreshText rebuilds all quest text. Uses internal game structures."
+    },
+    {
+      "name": "Hash32",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1350,
+      "endLine": 1360,
+      "args": [
+        "data",
+        "dataLen",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/hash32",
+      "review": "full-body",
+      "summary": "Hashes dataLen bytes at data (or a string) into 32 bits. The caller must supply accessible memory and a valid length; no cryptographic properties are promised."
+    },
+    {
+      "name": "Interpolate",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1511,
+      "endLine": 1520,
+      "args": [
+        "strPtr",
+        "resultPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "strings",
+      "slug": "framework/functions/interpolate",
+      "review": "full-body",
+      "summary": "Expands current ERM variables in a string template. Timing matters: a template and already expanded text are different inputs."
+    },
+    {
+      "name": "IntLog2",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1180,
+      "endLine": 1193,
+      "args": [
+        "value",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/intlog2",
+      "review": "full-body",
+      "summary": "Returns ceil(log2(value)), or 0 when value<=0. Also used to identify a single set bit."
+    },
+    {
+      "name": "IsDllLoaded",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2936,
+      "endLine": 2949,
+      "args": [
+        "dllFileNamePtr",
+        "result"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "FALSE",
+        "NULL",
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/isdllloaded",
+      "review": "full-body",
+      "summary": "Checks a DLL filename including extension with GetModuleHandleA. Returns TRUE/FALSE without loading a missing module."
+    },
+    {
+      "name": "LeaveMouseEvent",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 171,
+      "endLine": 174,
+      "args": [],
+      "calls": [
+        "RestorePrevKeyModsState",
+        "RestorePrevMouseEventData"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "internal",
+      "group": "internal",
+      "slug": "framework/functions/leavemouseevent",
+      "review": "full-body",
+      "summary": "Restores mouse context followed by keyboard context from the final handlers."
+    },
+    {
+      "name": "LoadIntGlobalsFromJson",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1835,
+      "endLine": 1869,
+      "args": [
+        "jsonKeysPrefixPtr",
+        "globalVarsPrefixPtr",
+        "firstKeyNamePtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "TRUE"
+      ],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/loadintglobalsfromjson",
+      "review": "full-body",
+      "summary": "Takes up to 14 names after JSON and global-variable prefixes. Resolves values as ERM constants first, then as integers; a missing key leaves the global unchanged."
+    },
+    {
+      "name": "MakeRngSeed",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1361,
+      "endLine": 1375,
+      "args": [
+        "firstArg"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "SIZEOF_INT"
+      ],
+      "status": "public",
+      "group": "math",
+      "slug": "framework/functions/makerngseed",
+      "review": "full-body",
+      "summary": "Derives a deterministic seed from up to 15 integers; the last argument is the output. The same input sequence produces the same seed."
+    },
+    {
+      "name": "MergeIniWithDefault",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 1621,
+      "endLine": 1629,
+      "args": [
+        "targetPathPtr",
+        "sourcePathPtr"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [],
+      "status": "public",
+      "group": "files",
+      "slug": "framework/functions/mergeiniwithdefault",
+      "review": "full-body",
+      "summary": "Adds missing source keys to the target cache without replacing existing values. Persist separately with SaveIni."
+    },
+    {
+      "name": "MonCountToFuzzyText",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2950,
+      "endLine": 3019,
+      "args": [
+        "monNum",
+        "resultPtr",
+        "maxTextLength"
+      ],
+      "calls": [
+        "IntLog2"
+      ],
+      "globals": [
+        "s^result^"
+      ],
+      "constants": [
+        "INT_MAX",
+        "MON_FUZZY_COUNT_EXTRA_SHORT",
+        "MON_FUZZY_COUNT_HUMAN_FRIENDLY",
+        "MON_FUZZY_COUNT_SHORT",
+        "SIZEOF_INT",
+        "SIZEOF_PTR"
+      ],
+      "status": "public",
+      "group": "game",
+      "slug": "framework/functions/moncounttofuzzytext",
+      "review": "full-body",
+      "summary": "Returns an approximate count: 1–4, 5–9, 10–19, 20–49, 50–99, 100–249, 250–499, 500–999 and K+/M+. MON_FUZZY_COUNT_* selects formatting; 0 falls into 1–4 and negative input is an error."
+    },
+    {
+      "name": "NewIntArray",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 301,
+      "endLine": 336,
+      "args": [
+        "arg1",
+        "arg2",
+        "arg3"
+      ],
+      "calls": [
+        "Array_Fill"
+      ],
+      "globals": [],
+      "constants": [
+        "ARG_SYNTAX_GET",
+        "M_AUTO_ID",
+        "M_INT",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/newintarray",
+      "review": "full-body",
+      "summary": "Creates an integer array: P?result, Psize/?result, or Psize/fill/?result. Storage may follow the output; the default is M_TRIGGER_LOCAL, extended to the caller context. Default fill is 0."
+    },
+    {
+      "name": "NewStrArray",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 337,
+      "endLine": 375,
+      "args": [
+        "arg1",
+        "arg2",
+        "arg3"
+      ],
+      "calls": [],
+      "globals": [],
+      "constants": [
+        "ARG_SYNTAX_GET",
+        "M_AUTO_ID",
+        "M_STR",
+        "M_TRIGGER_LOCAL"
+      ],
+      "status": "public",
+      "group": "arrays",
+      "slug": "framework/functions/newstrarray",
+      "review": "full-body",
+      "summary": "Creates a string array using the NewIntArray overloads. Fill is a string, empty by default. Returns an array ID, not a memory address."
+    },
+    {
+      "name": "OnAdventureMapLeftMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 190,
+      "endLine": 192,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onadventuremapleftmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnAdventureMapLeftMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 52,
+      "endLine": 54,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onadventuremapleftmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnAdventureMapLeftMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnAdventureMapRightMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 175,
+      "endLine": 177,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onadventuremaprightmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnAdventureMapRightMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 37,
+      "endLine": 39,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onadventuremaprightmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnAdventureMapRightMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnAfterErmInstructions",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 214,
+      "endLine": 227,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^timerDay^",
+        "i^timerWeekDay^",
+        "i^timerMonthDay^",
+        "i^timerWeek^",
+        "i^timerMonthWeek^",
+        "i^timerMonth^",
+        "i^timerOnce^",
+        "i^timerOwner^",
+        "i^timerIsAi^",
+        "i^timerIsHuman^",
+        "i^era_everyDayTimerLastDay^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onaftererminstructions",
+      "review": "full-body",
+      "summary": "Creates the Framework daily timer and resets last-day tracking."
+    },
+    {
+      "name": "OnAfterErmInstructions_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 3,
+      "endLine": 7,
+      "args": [],
+      "calls": [
+        "OnAfterErmInited",
+        "OnStartOrLoad"
+      ],
+      "globals": [],
+      "constants": [
+        "TRUE"
+      ],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onaftererminstructions-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnAfterErmInstructions: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnAfterLoadGame_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 8,
+      "endLine": 12,
+      "args": [],
+      "calls": [
+        "OnStartOrLoad"
+      ],
+      "globals": [],
+      "constants": [
+        "FALSE"
+      ],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onafterloadgame-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnAfterLoadGame: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnBattleMouseHint",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 202,
+      "endLine": 204,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattlemousehint",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnBattleMouseHint_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 64,
+      "endLine": 66,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattlemousehint-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnBattleMouseHint: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnBattleReplay",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 2905,
+      "endLine": 2913,
+      "args": [],
+      "calls": [
+        "UpdateBattleVars"
+      ],
+      "globals": [
+        "i^battle_round^",
+        "i^battle_acting_stack^",
+        "i^battle_acting_side^"
+      ],
+      "constants": [
+        "BATTLE_LEFT",
+        "INT_MIN",
+        "NO_STACK"
+      ],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattlereplay",
+      "review": "full-body",
+      "summary": "Resets round/acting stack and refreshes combat parameters for replay."
+    },
+    {
+      "name": "OnBattleRound",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 266,
+      "endLine": 268,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^battle_round^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattleround",
+      "review": "full-body",
+      "summary": "Updates battle_round from the current round context."
+    },
+    {
+      "name": "OnBattleScreenMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 187,
+      "endLine": 189,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattlescreenmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnBattleScreenMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 49,
+      "endLine": 51,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattlescreenmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnBattleScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnBattleStackObtainsTurn",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 275,
+      "endLine": 284,
+      "args": [
+        "stackSide",
+        "stackInd"
+      ],
+      "calls": [],
+      "globals": [
+        "i^battle_current_stack^",
+        "i^battle_current_side^",
+        "i^battle_isActingSideUiUser^"
+      ],
+      "constants": [
+        "BATTLE_STACKS_PER_SIDE",
+        "SPELL_HYPNOTIZE"
+      ],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbattlestackobtainsturn",
+      "review": "full-body",
+      "summary": "Converts side/index to a global stack ID and accounts for hypnosis when determining the current side."
+    },
+    {
+      "name": "OnBeforeBattle",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 251,
+      "endLine": 254,
+      "args": [],
+      "calls": [
+        "UpdateBattleVars"
+      ],
+      "globals": [
+        "i^battle_round^"
+      ],
+      "constants": [
+        "INT_MIN"
+      ],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbeforebattle",
+      "review": "full-body",
+      "summary": "Resets battle_round to INT_MIN before actual combat."
+    },
+    {
+      "name": "OnBeforeBattle_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 74,
+      "endLine": 76,
+      "args": [],
+      "calls": [
+        "UpdateBattleVars"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onbeforebattle-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnBeforeBattle: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnBeforeBattleAction",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 285,
+      "endLine": 291,
+      "args": [],
+      "calls": [],
+      "globals": [
+        "i^battle_acting_stack^",
+        "i^battle_acting_side^",
+        "i^battle_aiOnly^",
+        "i^battle_isQuick^",
+        "i^battle_isVisible^",
+        "i^battle_isActingSideUiUser^"
+      ],
+      "constants": [
+        "TRUE"
+      ],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbeforebattleaction",
+      "review": "full-body",
+      "summary": "Reads BG:N/Q into battle_acting_stack/side and updates visible/quick combat flags."
+    },
+    {
+      "name": "OnBeforeBattleStackTurn",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 269,
+      "endLine": 274,
+      "args": [
+        "activeStack"
+      ],
+      "calls": [],
+      "globals": [
+        "i^battle_current_stack^",
+        "i^battle_current_side^",
+        "i^battle_isActingSideUiUser^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbeforebattlestackturn",
+      "review": "full-body",
+      "summary": "Stores activeStack in battle_current_stack."
+    },
+    {
+      "name": "OnBeforeBattleUniversal",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 255,
+      "endLine": 262,
+      "args": [],
+      "calls": [
+        "UpdateBattleVars"
+      ],
+      "globals": [
+        "i^battle_round^",
+        "i^battle_current_stack^",
+        "i^battle_current_side^",
+        "i^battle_acting_stack^",
+        "i^battle_acting_side^"
+      ],
+      "constants": [
+        "BATTLE_LEFT",
+        "INT_MIN",
+        "NO_STACK"
+      ],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onbeforebattleuniversal",
+      "review": "full-body",
+      "summary": "Refreshes battle_* and resets current/acting stack context. May run in theoretical AI combat with no combat manager."
+    },
+    {
+      "name": "OnBeforeBattleUniversal_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 77,
+      "endLine": 83,
+      "args": [],
+      "calls": [
+        "OnAfterBattleSetup",
+        "UpdateBattleVars"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onbeforebattleuniversal-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnBeforeBattleUniversal: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnCustomDialogEvent",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 208,
+      "endLine": 213,
+      "args": [
+        "dlgId"
+      ],
+      "calls": [
+        "EnterMouseEvent",
+        "SaveEventData"
+      ],
+      "globals": [
+        "i^dlg_id^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/oncustomdialogevent",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnCustomDialogEvent_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 70,
+      "endLine": 73,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent",
+        "RestoreEventData"
+      ],
+      "globals": [
+        "i^dlg_id^"
+      ],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/oncustomdialogevent-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnCustomDialogEvent: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnEveryDay",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 228,
+      "endLine": 250,
+      "args": [
+        "day",
+        "weekDay",
+        "once",
+        "owner",
+        "isAi"
+      ],
+      "calls": [],
+      "globals": [
+        "i^timerDay^",
+        "i^timerWeekDay^",
+        "i^timerMonthDay^",
+        "i^timerWeek^",
+        "i^timerMonthWeek^",
+        "i^timerMonth^",
+        "i^timerOnce^",
+        "i^timerOwner^",
+        "i^timerIsAi^",
+        "i^timerIsHuman^",
+        "i^era_everyDayTimerLastDay^"
+      ],
+      "constants": [
+        "DAYS_IN_MONTH",
+        "DAYS_IN_WEEK",
+        "FALSE",
+        "TRUE"
+      ],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/oneveryday",
+      "review": "full-body",
+      "summary": "Adds day, weekDay (1..7), once, owner, isAi arguments. once is TRUE only for the first invocation that day, not for every player."
+    },
+    {
+      "name": "OnHeroesMeetScreenMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 184,
+      "endLine": 186,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onheroesmeetscreenmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnHeroesMeetScreenMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 46,
+      "endLine": 48,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onheroesmeetscreenmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnHeroesMeetScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnHeroScreenMouseClick",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 181,
+      "endLine": 183,
+      "args": [],
+      "calls": [
+        "EnterMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onheroscreenmouseclick",
+      "review": "full-body",
+      "summary": "Prepares mouse context through EnterMouseEvent. Data is available in mouse_*; OnCustomDialogEvent also saves dlg_id."
+    },
+    {
+      "name": "OnHeroScreenMouseClick_Quit",
+      "path": "lib_end/-9999 era - stdlib.erm",
+      "startLine": 43,
+      "endLine": 45,
+      "args": [],
+      "calls": [
+        "LeaveMouseEvent"
+      ],
+      "globals": [],
+      "constants": [],
+      "status": "quit-handler",
+      "group": "events",
+      "slug": "framework/functions/onheroscreenmouseclick-quit",
+      "review": "full-body",
+      "summary": "Final handler for OnHeroScreenMouseClick: performs the calls listed below after the main chain. Do not invoke it manually; it closes Framework context."
+    },
+    {
+      "name": "OnKeyPressed",
+      "path": "lib/9999 era - stdlib.erm",
+      "startLine": 148,
+      "endLine": 156,
+      "args": [
+        "key",
+        "preventDefault",
+        "isDown"
+      ],
+      "calls": [
+        "GetKeyModsState",
+        "SavePrevKeyModsState"
+      ],
+      "globals": [
+        "i^key^",
+        "i^key_down^"
+      ],
+      "constants": [],
+      "status": "event-handler",
+      "group": "events",
+      "slug": "framework/functions/onkeypressed",
+      "review": "full-body",
+      "summary": "Saves keyboard context and updates key/modifiers. KeyPressed also stores isDown; the final handler restores previous state."
+    }
+  ]
+}

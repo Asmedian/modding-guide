@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "erm.framework.functions.strpos",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/strpos",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strpos/",
+      "title": "StrPos",
+      "summary": "Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1.",
+      "keywords": [
+        "StrPos",
+        "FU(StrPos)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Finds the first needlePtr in haystackPtr from offset (default 0). Returns a zero-based offset or -1."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1486-1497-strpos"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.strreplace",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/strreplace",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strreplace/",
+      "title": "StrReplace",
+      "summary": "Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger.",
+      "keywords": [
+        "StrReplace",
+        "FU(StrReplace)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Replaces all patternPtr occurrences in sourcePtr with replacementPtr and returns a string. Call only inside a trigger."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1498-1510-strreplace"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.strtolower",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/strtolower",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtolower/",
+      "title": "StrToLower",
+      "summary": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.",
+      "keywords": [
+        "StrToLower",
+        "FU(StrToLower)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1458-1472-strtolower"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.strtoupper",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/strtoupper",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/strtoupper/",
+      "title": "StrToUpper",
+      "summary": "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization.",
+      "keywords": [
+        "StrToUpper",
+        "FU(StrToUpper)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Creates an upper/lower-case string with CharUpperA/CharLowerA. This is Windows ANSI conversion, not general Unicode normalization."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1443-1457-strtoupper"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.substr",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/substr",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/substr/",
+      "title": "Substr",
+      "summary": "Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative.",
+      "keywords": [
+        "Substr",
+        "FU(Substr)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Returns a substring: start is zero-based or end-relative when negative; count is a length, or a trailing exclusion when negative."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1473-1485-substr"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.tm32decode",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/tm32decode",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/tm32decode/",
+      "title": "Tm32Decode",
+      "summary": "Inverts Tm32Encode for a 32-bit value. Changes f and g.",
+      "keywords": [
+        "Tm32Decode",
+        "FU(Tm32Decode)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Inverts Tm32Encode for a 32-bit value. Changes f and g."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1342-1349-tm32decode"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.tm32encode",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/tm32encode",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/tm32encode/",
+      "title": "Tm32Encode",
+      "summary": "Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption.",
+      "keywords": [
+        "Tm32Encode",
+        "FU(Tm32Encode)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "Reversible 32-bit mixing, inverted by Tm32Decode. Changes fast variables f and g. This is not encryption."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1334-1341-tm32encode"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-013.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.trim",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/trim",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/trim/",
+      "title": "Trim",
+      "summary": "Trims spaces and control bytes 0..32 from both ends; returns a new ERM string.",
+      "keywords": [
+        "Trim",
+        "FU(Trim)",
+        "public",
+        "strings"
+      ],
+      "questions": [
+        "Trims spaces and control bytes 0..32 from both ends; returns a new ERM string."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1411-1420-trim"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-014.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "provenance",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.unequipartfromslot",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/unequipartfromslot",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/unequipartfromslot/",
+      "title": "UnequipArtFromSlot",
+      "summary": "Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment.",
+      "keywords": [
+        "UnequipArtFromSlot",
+        "FU(UnequipArtFromSlot)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Unequips a doll slot and fires OnUnequipArt. Save artifact IDs/modifiers yourself when temporarily removing equipment."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-3191-3198-unequipartfromslot"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-014.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.unpackunion",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/unpackunion",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/unpackunion/",
+      "title": "UnpackUnion",
+      "summary": "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total.",
+      "keywords": [
+        "UnpackUnion",
+        "FU(UnpackUnion)",
+        "public",
+        "math"
+      ],
+      "questions": [
+        "PackUnion takes value/width pairs and a final ?result; UnpackUnion takes packedValue and ?value/width pairs. Fields start at the low bit, totaling at most 32. Checks for widths 0 and 32 differ from the stated 1..32 contract; use positive fields below 32 bits and validate the total."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1295-1333-unpackunion"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-014.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.updatebattlevars",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/updatebattlevars",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/updatebattlevars/",
+      "title": "UpdateBattleVars",
+      "summary": "Refreshes BA/OW data in battle_: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO.",
+      "keywords": [
+        "UpdateBattleVars",
+        "FU(UpdateBattleVars)",
+        "public",
+        "game"
+      ],
+      "questions": [
+        "Refreshes BA/OW data in battle_: heroes, owners, quick/network/visible combat and side flags. Call after changing BA except creature composition. Normalizes a missing defender hero to NO_HERO."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-2848-2904-updatebattlevars"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-014.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erm.framework.functions.writeiniints",
+      "kind": "article",
+      "section": "erm",
+      "locale": "en",
+      "slug": "framework/functions/writeiniints",
+      "url": "https://asmedian.github.io/modding-guide/en/erm/framework/functions/writeiniints/",
+      "title": "WriteIniInts",
+      "summary": "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values.",
+      "keywords": [
+        "WriteIniInts",
+        "FU(WriteIniInts)",
+        "public",
+        "files"
+      ],
+      "questions": [
+        "Takes up to 7 key/value pairs after the path and section. Writes only to cache; call SaveIni. WriteIniInts formats decimal text, while WriteIniStrings takes string values."
+      ],
+      "sourceRefs": [
+        "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+      ],
+      "sectionSources": {
+        "purpose": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+        ],
+        "signature": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+        ],
+        "parameters": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+        ],
+        "context": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+        ],
+        "provenance": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+        ],
+        "constants": [
+          "era-framework:lib-9999-era---stdlib.erm:lines-1630-1662-writeiniints"
+        ]
+      },
+      "previous": null,
+      "next": null,
+      "parts": [
+        {
+          "part": 1,
+          "url": "https://asmedian.github.io/modding-guide/llm/browse/en/erm/framework-functions/text-014.md",
+          "fromAnchor": "purpose",
+          "toAnchor": "constants",
+          "headings": [
+            "Purpose",
+            "Call contract",
+            "Parameter order",
+            "State and dependencies",
+            "Version and status",
+            "Constants used"
+          ]
+        }
+      ]
+    }
+  ]
+}
