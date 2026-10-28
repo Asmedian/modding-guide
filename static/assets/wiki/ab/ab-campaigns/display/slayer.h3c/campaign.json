@@ -1,0 +1,553 @@
+{
+  "name": "Dragon Slayer",
+  "description": "To prove himself a Dragon Slayer Dracon must first defeat the Crystal Golem Dragon.   From there he will seek out the Azure Dragon, with plans of defeating the greatest Dragon to ever live.  In his quest for perfection he will find, and destroy the Purple and Rust Dragons.",
+  "version": "AB",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 40176,
+    "objects": 12403,
+    "towns": 23,
+    "monsters": 296,
+    "factions": {
+      "Tower": 20,
+      "Stronghold": 3
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "DragonSlayer02.h3m",
+      "regionText": "Now in search of the mighty Azure  you hear of disturbances to the North.   Burned villages and destroyed mines are causing the region to suffer.   Without the mines in full production the region will not have the resources to defend themselves against Krewlod invasions or eat.  Knowing you are the destined Dragon Slayer, it is time to follow the road north in search of ways to hone your skills.",
+      "prologText": "Rust dragons have taken to feeding from the mines near the town of Ochre.  These uncommon beasts have chased off the peasantry and now their livelihoods are in jeopardy.  As a hero, I should do this for the town's people.  Yet, I do this to hone my skills.  Where rust dragons abound, the Azure may be nearby.",
+      "preconditions": 8,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 147,
+          "creatureId": 41,
+          "amount": 1
+        },
+        {
+          "type": 1,
+          "heroId": 147,
+          "creatureId": 39,
+          "amount": 4
+        },
+        {
+          "type": 2,
+          "buildingId": 34
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-1.h3m",
+      "name": "Rust Dragons",
+      "description": "Rust dragons have invaded the area, halting mine production.  Flag all of the mines within six months, but do not lose the Dragon Slayer or your cause will be lost.  Dracon, his skills, spells and Experience up to level 24 will carry over to the next scenario.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 4,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 98,
+          "mainTownY": 100,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 147,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 4,
+          "mainTownY": 7,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 99,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 99,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 9,
+        "name": "Flag all mines",
+        "allowNormalVictory": false,
+        "appliesToComputer": false
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 168
+      },
+      "factions": {
+        "Tower": 7,
+        "Stronghold": 3
+      },
+      "objects": 3885,
+      "towns": 10,
+      "monsters": 103,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "DragonSlayer03.h3m",
+      "regionText": "Now seeking the famed and elusive Azure Dragons you hear of sightings to the west.   Following the leads you find only a mischevious Faerie Dragon playing tricks on the locals.  Disappointed at first, but soon you discover there are several such dragons and they are relocating towns, maidens and generally mucking about.  This should prove challenging enough for you.",
+      "prologText": "I have never seen a Faerie Dragon.  Little is known about these notorious troublemakers.  What is known is found more in storybooks than magical tomes.   Some say they are invisible.  Some say they can cast spells.  Some say they are only three feet high.  Some say they are the henchmen of the Azure Dragons.   I do not know what to expect or how my skills will be tested.  Nevertheless, the more I know, the better I will be prepared for the Azure Dragons.",
+      "preconditions": 8,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 14
+        },
+        {
+          "type": 2,
+          "buildingId": 34
+        },
+        {
+          "type": 3,
+          "heroId": 147,
+          "artifactId": 79
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-2.h3m",
+      "name": "Faerie Dragons",
+      "description": "You have six months to find and defeat the Faerie Dragons to cleanse this territory.  If Dracon dies, the quest is over.  Dracon, his skills, spells and Experience up to level 24 will carry over to the next scenario.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 4,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 103,
+          "mainTownY": 60,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 147,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 1,
+      "victory": {
+        "type": 7,
+        "name": "Defeat monster",
+        "allowNormalVictory": false,
+        "appliesToComputer": true,
+        "x": 6,
+        "y": 49,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 168
+      },
+      "factions": {
+        "Tower": 6
+      },
+      "objects": 2915,
+      "towns": 6,
+      "monsters": 69,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-2-0.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "DragonSlayer04.h3m",
+      "regionText": "Finally, you have tracked down the Azure Dragons.  Now it is time to face the great dragon in their home territory.  The locals are willing to join your cause, but the paths are guarded by dragons.  Clear these paths and you can gain support.  The Azure Dragons are both mighty and elusive.  Track them down and kill them before they moves on to new territory.  You estimate in six months they will move again. Once you have gained their support you can then seek your prize.  Beware the other Dragons who guard the Azure, keeping out the fainthearted and unworthy of such a challenge.",
+      "prologText": "I have found a nest of  mighty Azure Dragons.  I have also found my destiny.  Azure Dragons do not nest for long and commands an entourage of dragons of all colors.  The task is great, but I am determined.",
+      "epilogText": "My victory is hollow.  I do not understand why.  I have accomplished what only the elite dream.  In my private moments, I have felt this beast would be the key to unlock a long sought personal contentment.  I was wrong.  My disatisfaction stirs and I wonder, what is next.",
+      "preconditions": 3,
+      "difficulty": "Impossible",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 147,
+          "creatureId": 41,
+          "amount": 2
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 10000
+        },
+        {
+          "type": 7,
+          "resourceType": 5,
+          "amount": 10
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-3.h3m",
+      "name": "Azure Dragons",
+      "description": "Defeat the great Azure Dragons within six months for eternal fame.  Once you have slain this ancient beast you will have proven yourself to be a Dragon Slayer extraordinaire.   Failure means death of Dracon and eternal branding as a foolish child.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 4,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 87,
+          "mainTownY": 81,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 147,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 1,
+      "victory": {
+        "type": 7,
+        "name": "Defeat monster",
+        "allowNormalVictory": false,
+        "appliesToComputer": true,
+        "x": 107,
+        "y": 3,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 168
+      },
+      "factions": {
+        "Tower": 6
+      },
+      "objects": 4032,
+      "towns": 6,
+      "monsters": 91,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-3-0.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "DragonSlayer01.h3m",
+      "regionText": "You face the last challenge in becoming a Dragon Slayer.  You must complete the test course in six months or fail the test.  The Crystal Dragons will be well guarded, the paths watched by other creations.  Golems, Gargoyles and Elementals will try and stop you before you can kill the Crystal Dragon.",
+      "prologText": "My mother has finished preperations for my final test.  The finest crystal, stealthly taken from the caverns of Krewlod, has been used to create a great dragon golem.   This creature's construction is a feat of magical prowess.  To destroy it... is an even greater feat.  Yet, I have heard the greatest feat a dragon slayer can accomplish is to kill the rare a mighty Azure Dragon.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 147,
+          "creatureId": 38,
+          "amount": 5
+        },
+        {
+          "type": 1,
+          "heroId": 147,
+          "creatureId": 41,
+          "amount": 3
+        },
+        {
+          "type": 3,
+          "heroId": 147,
+          "artifactId": 89
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-4.h3m",
+      "name": "Crystal Dragons",
+      "description": "To pass the test you must kill the Crystal Dragon.  Fail to kill the dragon within two months and you will not become a Dragon Slayer. Dracon, his skills, spells, experience and remaining troops will transfer to the next scenario along with the Diplomat's Ring. Dracon will be limited to level eight.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 4,
+          "isFactionRandom": false,
+          "factions": [
+            "Tower"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 147,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 147,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 1,
+      "victory": {
+        "type": 7,
+        "name": "Defeat monster",
+        "allowNormalVictory": false,
+        "appliesToComputer": true,
+        "x": 57,
+        "y": 61,
+        "z": 0
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 56
+      },
+      "factions": {
+        "Tower": 1
+      },
+      "objects": 1571,
+      "towns": 1,
+      "monsters": 33,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/slayer.h3c/scenario-4-0.png"
+        }
+      ]
+    }
+  ]
+}

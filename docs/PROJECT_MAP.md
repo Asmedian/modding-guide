@@ -107,7 +107,7 @@ Optional adapter precompression is disabled: generating two compression streams 
 
 ## Wiki resource catalog
 
-Wiki appears between Docs and ERM at `/{lang}/wiki/`. It remains fully prerendered.
+Wiki appears after Plugins at `/{lang}/wiki/`. It remains fully prerendered.
 `content/wiki/` contains paired locale catalogs; `_registry/pages.json` stores
 at most 72 resource references per page. Wiki is an explicit LF-driven sidebar
 exception to editorial curation; it still uses at most two menu levels and
@@ -117,8 +117,7 @@ submenus. SoD marks leaf links and resources; expandable menu headings omit it.
 `scripts/wiki/import_resources.py` uses external LOD/SND/VID archives and LF
 classification trees, Pillow, Node.js and FFmpeg to produce `static/assets/wiki/sod/`.
 Archive snapshots and conversion tools stay external. Published files are
-stored individually, with tiny first-frame WebP previews. Keep future WoG
-assets under a separate `wog/` edition directory. DEF original bytes are loaded
+stored individually, with tiny first-frame WebP previews. WoG assets live under a separate `wog/` edition directory; AB uses `ab/`. DEF original bytes are loaded
 only on popup activation, through the separately imported Explorer decoder.
 WAV PCM and H.264/AAC MP4 derivatives preserve sound rates and video frame
 counts/rates. DEF carries no frame timing; its preview interval is adjustable.
@@ -191,3 +190,36 @@ pages, returns that scroller to the top, and honors reduced-motion preferences.
 It sits outside the scrolling content and adapts to the reference-column width
 and mobile layout. Scroll and resize observers are released when the shell closes.
 ERM quick-link hints do not participate in layout until requested. `ErmQuickLinks.svelte` measures and clamps the visible pseudo-element horizontally within the quick-link block on mouse entry, keyboard focus and viewport resize. Native `title` hints cover no-JavaScript reading; custom hints stay disabled at phone widths. Never restore permanently laid-out invisible tooltip boxes: they enlarge `.content-column.scrollWidth`. Keep horizontal scrolling local to wide code/table wrappers. `node scripts/content/verify-erm-overflow.mjs` checks six ERM pages in both languages at seven viewport widths, every quick-link hint at 1440px, focus/resize behavior, native fallback hints and usable local scrollers.
+
+
+The top menu order is Docs, ERM, Plugins, Wiki. Campaigns are ordered RoE,
+Armageddon’s Blade, SoD. Sidebar leaves can override their group’s `edition`,
+while `showEdition: false` hides presentation badges without losing provenance.
+Campaign links, headings, rows and campaign popups omit SoD/AB suffixes. The
+campaign illustration catalog also omits its page-wide edition badge because
+it combines SoD and AB sources; individual image records retain their edition.
+`scripts/wiki/import_expansions.py` appends the supplied AB directory and the
+three WoG PAC/SND/VID archives without renaming existing resource URLs.
+It keeps WoG images, DEFs, sounds, videos and fonts as separate direct menu links,
+pairs 336 WoG masks with their DEFs, and skips 78 TXT records under the existing
+catalog policy. Every source input has a SHA-256 record. The 18 supplied AB BMPs
+have lossless Heroes III 24-bit PCX derivatives plus retained BMP originals and
+conversion provenance. The seven supplied H3C files include `Neutral.h3c`;
+its embedded campaign is “Spoils of War”. All 30 supplied scenarios are retained.
+All 18 AB PCX are cataloged under Images → Campaign elements (`bitmap/0/1`),
+alongside the other campaigns. Selection images join the existing LF categories;
+the remaining images have an additional campaign-images group. This catalog’s
+cross-page outline and source references are rebuilt with its 72-row pagination.
+The AB campaign page (`bitmap/3/1`) contains only seven H3C entries, each in its
+own localized section and outline link. Mixed image pages record `editions` as
+well as each resource’s original edition. The importer preserves this placement
+on repeat runs.
+Campaign details/minimaps use each resource’s edition path, with SoD terrain
+palettes selected explicitly. Some WoG audio fact headers exceed the samples
+present in their ADPCM blocks; PCM derivatives retain every available sample and
+record the original fact count in `sourceFactSamples`. The LLM export derives its
+edition list from resources and includes converted-image source URLs.
+`node scripts/content/verify-wiki-expansions.mjs` checks AB/WoG badges, all new
+preview/media types, masks, campaign maps, pagination, mobile layout and the
+no-JavaScript overview in both locales. Its screenshots and report are under
+`reports/wiki-expansions/`; set `BASE_PATH` to match the built artifact.

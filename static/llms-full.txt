@@ -514,7 +514,7 @@
 - Getting started with ERA plugins: /en/plugins/getting-started/ — Build a minimal 32-bit C++17 `.era` module with CMake and NH3API, then deploy and diagnose it without hiding compatibility assumptions.
 - H3API: /en/plugins/h3api/ — An independent C++ library for Heroes III 3.2: purpose, integration, layout, and compatibility.
 - NH3API: /en/plugins/nh3api/ — The NH3API C++17 executable interface, its CMake and ERA modules, supported toolchains, and the compatibility limits a plugin must keep explicit.
-- Wiki: /en/wiki/ — Heroes III resources: SoD images, DEF animations, sounds and videos.
+- Wiki: /en/wiki/ — Heroes III resources: SoD, AB and WoG graphics, DEF animations, sounds, videos and campaigns.
 - Town elements: /en/wiki/bitmap/0/0/ — SoD · H3bitmap.lod · 1/20
 - Town elements: /en/wiki/bitmap/0/0/page-10/ — SoD · H3bitmap.lod · 10/20
 - Town elements: /en/wiki/bitmap/0/0/page-11/ — SoD · H3bitmap.lod · 11/20
@@ -535,45 +535,45 @@
 - Town elements: /en/wiki/bitmap/0/0/page-7/ — SoD · H3bitmap.lod · 7/20
 - Town elements: /en/wiki/bitmap/0/0/page-8/ — SoD · H3bitmap.lod · 8/20
 - Town elements: /en/wiki/bitmap/0/0/page-9/ — SoD · H3bitmap.lod · 9/20
-- Campaign elements: /en/wiki/bitmap/0/1/ — SoD · H3bitmap.lod · 1/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-10/ — SoD · H3bitmap.lod · 10/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-11/ — SoD · H3bitmap.lod · 11/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-12/ — SoD · H3bitmap.lod · 12/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-13/ — SoD · H3bitmap.lod · 13/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-14/ — SoD · H3bitmap.lod · 14/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-15/ — SoD · H3bitmap.lod · 15/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-16/ — SoD · H3bitmap.lod · 16/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-17/ — SoD · H3bitmap.lod · 17/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-18/ — SoD · H3bitmap.lod · 18/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-19/ — SoD · H3bitmap.lod · 19/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-2/ — SoD · H3bitmap.lod · 2/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-20/ — SoD · H3bitmap.lod · 20/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-21/ — SoD · H3bitmap.lod · 21/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-22/ — SoD · H3bitmap.lod · 22/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-23/ — SoD · H3bitmap.lod · 23/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-24/ — SoD · H3bitmap.lod · 24/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-25/ — SoD · H3bitmap.lod · 25/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-26/ — SoD · H3bitmap.lod · 26/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-27/ — SoD · H3bitmap.lod · 27/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-28/ — SoD · H3bitmap.lod · 28/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-29/ — SoD · H3bitmap.lod · 29/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-3/ — SoD · H3bitmap.lod · 3/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-30/ — SoD · H3bitmap.lod · 30/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-31/ — SoD · H3bitmap.lod · 31/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-32/ — SoD · H3bitmap.lod · 32/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-33/ — SoD · H3bitmap.lod · 33/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-34/ — SoD · H3bitmap.lod · 34/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-35/ — SoD · H3bitmap.lod · 35/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-36/ — SoD · H3bitmap.lod · 36/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-37/ — SoD · H3bitmap.lod · 37/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-38/ — SoD · H3bitmap.lod · 38/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-39/ — SoD · H3bitmap.lod · 39/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-4/ — SoD · H3bitmap.lod · 4/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-5/ — SoD · H3bitmap.lod · 5/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-6/ — SoD · H3bitmap.lod · 6/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-7/ — SoD · H3bitmap.lod · 7/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-8/ — SoD · H3bitmap.lod · 8/39
-- Campaign elements: /en/wiki/bitmap/0/1/page-9/ — SoD · H3bitmap.lod · 9/39
+- Campaign elements: /en/wiki/bitmap/0/1/ — H3bitmap.lod · 1/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-10/ — H3bitmap.lod · 10/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-11/ — H3bitmap.lod · 11/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-12/ — H3bitmap.lod · 12/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-13/ — H3bitmap.lod · 13/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-14/ — H3bitmap.lod · 14/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-15/ — H3bitmap.lod · 15/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-16/ — H3bitmap.lod · 16/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-17/ — H3bitmap.lod · 17/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-18/ — H3bitmap.lod · 18/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-19/ — H3bitmap.lod · 19/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-2/ — H3bitmap.lod · 2/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-20/ — H3bitmap.lod · 20/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-21/ — H3bitmap.lod · 21/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-22/ — H3bitmap.lod · 22/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-23/ — H3bitmap.lod · 23/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-24/ — H3bitmap.lod · 24/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-25/ — H3bitmap.lod · 25/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-26/ — H3bitmap.lod · 26/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-27/ — H3bitmap.lod · 27/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-28/ — H3bitmap.lod · 28/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-29/ — H3bitmap.lod · 29/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-3/ — H3bitmap.lod · 3/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-30/ — H3bitmap.lod · 30/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-31/ — H3bitmap.lod · 31/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-32/ — H3bitmap.lod · 32/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-33/ — H3bitmap.lod · 33/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-34/ — H3bitmap.lod · 34/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-35/ — H3bitmap.lod, AB campaigns · 35/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-36/ — AB campaigns, H3bitmap.lod · 36/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-37/ — H3bitmap.lod · 37/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-38/ — H3bitmap.lod · 38/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-39/ — H3bitmap.lod · 39/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-4/ — H3bitmap.lod · 4/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-5/ — H3bitmap.lod · 5/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-6/ — H3bitmap.lod · 6/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-7/ — H3bitmap.lod · 7/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-8/ — H3bitmap.lod · 8/39
+- Campaign elements: /en/wiki/bitmap/0/1/page-9/ — H3bitmap.lod · 9/39
 - Battlefields: /en/wiki/bitmap/0/2/ — SoD · H3bitmap.lod · 1/2
 - Battlefields: /en/wiki/bitmap/0/2/page-2/ — SoD · H3bitmap.lod · 2/2
 - Hero portraits: /en/wiki/bitmap/0/3/ — SoD · H3bitmap.lod · 1/5
@@ -593,8 +593,9 @@
 - View World option: /en/wiki/bitmap/2/5/ — SoD · H3bitmap.lod · 1/1
 - Final score screen: /en/wiki/bitmap/2/6/ — SoD · H3bitmap.lod · 1/1
 - Creature counts (digits only): /en/wiki/bitmap/2/7/ — SoD · H3bitmap.lod · 1/1
-- Restoration of Erathia: /en/wiki/bitmap/3/0/ — SoD · H3bitmap.lod · 1/1
-- The Shadow of Death: /en/wiki/bitmap/3/2/ — SoD · H3bitmap.lod · 1/1
+- Restoration of Erathia: /en/wiki/bitmap/3/0/ — H3bitmap.lod · 1/1
+- Armageddon's Blade: /en/wiki/bitmap/3/1/ — AB campaigns · 1/1
+- The Shadow of Death: /en/wiki/bitmap/3/2/ — H3bitmap.lod · 1/1
 - Palettes (*.pal): /en/wiki/bitmap/4/ — SoD · H3bitmap.lod · 1/1
 - Other files: /en/wiki/bitmap/5/ — SoD · H3bitmap.lod · 1/1
 - Sounds: /en/wiki/sounds/ — SoD · Heroes3.snd · 1/15
@@ -654,3 +655,14 @@
 - Game interface and buildings: /en/wiki/sprite/2/6/page-9/ — SoD · H3sprite.lod · 9/12
 - Hero battle animations: /en/wiki/sprite/2/7/ — SoD · H3sprite.lod · 1/1
 - Videos: /en/wiki/videos/ — SoD · VIDEO.VID · 1/1
+- DEF files (*.def): /en/wiki/wog/defs/ — WoG · hmm35wog.pac · 1/7
+- DEF files (*.def): /en/wiki/wog/defs/page-2/ — WoG · hmm35wog.pac · 2/7
+- DEF files (*.def): /en/wiki/wog/defs/page-3/ — WoG · hmm35wog.pac · 3/7
+- DEF files (*.def): /en/wiki/wog/defs/page-4/ — WoG · hmm35wog.pac · 4/7
+- DEF files (*.def): /en/wiki/wog/defs/page-5/ — WoG · hmm35wog.pac · 5/7
+- DEF files (*.def): /en/wiki/wog/defs/page-6/ — WoG · hmm35wog.pac · 6/7
+- DEF files (*.def): /en/wiki/wog/defs/page-7/ — WoG · hmm35wog.pac · 7/7
+- Fonts (*.fnt): /en/wiki/wog/fonts/ — WoG · hmm35wog.pac · 1/1
+- Images (*.pcx): /en/wiki/wog/images/ — WoG · hmm35wog.pac · 1/1
+- Sounds: /en/wiki/wog/sounds/ — WoG · wog.snd · 1/1
+- Videos: /en/wiki/wog/videos/ — WoG · wog.vid · 1/1

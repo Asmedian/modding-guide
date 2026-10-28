@@ -1,0 +1,806 @@
+{
+  "name": "Foolhardy Waywardness",
+  "description": "Follow Sir Christian, an aspiring Fragrance Alchemist, as he begins a three-hour tour, and finds himself constantly bargaining for his very life.",
+  "version": "AB",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 45360,
+    "objects": 10009,
+    "towns": 25,
+    "monsters": 345,
+    "factions": {
+      "Stronghold": 16,
+      "Fortress": 2,
+      "Castle": 5,
+      "Rampart": 2
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Secret 1 - Lost at Sea.h3m",
+      "regionText": "While on a three-hour sight seeing tour Sir Christian's ship was blown off course by a sudden summer storm. When the storm cleared the captain and crew had no idea what their position might be. For nearly a week they sailed under an overcast sky, completely unable to determine their heading. Finally, a small rocky island was spotted. While landing their ship a large rock found it's way into the hull making the craft irreapirable.The curious natives seemed friendly in meeting with Sir Christian. They agreed to help him get off the island if he built them a capitol.",
+      "prologText": "All I wanted was a simple vacation.  One hurriance later and I am here on this island with these foul smelling natives.  Perhaps my father was right when I told him about my dream to become a fragrance alchemist.  Maybe my military training can help me get off this forsaken sand prision.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 6,
+          "creatureId": 88,
+          "amount": 6
+        },
+        {
+          "type": 5,
+          "heroId": 6,
+          "stats": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": 6,
+          "heroId": 6,
+          "skillId": 7,
+          "mastery": 1
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-1.h3m",
+      "name": "Lost at Sea",
+      "description": "Sir Christian must build the town on the southeastern peninsula of the island up to a capitol. He is limited to level 8. If he completes his quest, he will carry over his experience, primary skills, secondary skills and a spell book with him to the next scenario. If defeated, his quest is over.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 6,
+          "mainHeroPortrait": 157,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 6,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 101,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 101,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 104,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 104,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 116,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 116,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 4,
+      "victory": {
+        "type": 3,
+        "name": "Upgrade town",
+        "allowNormalVictory": false,
+        "appliesToComputer": true,
+        "x": 55,
+        "y": 65,
+        "z": 0,
+        "hallLevel": 2,
+        "castleLevel": 2
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 33,
+        "y": 57,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 4,
+        "Fortress": 1
+      },
+      "objects": 1468,
+      "towns": 5,
+      "monsters": 74,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Secret 3 - Here There Be Pirates.h3m",
+      "regionText": "Sir Christian was on his way home when one of his crewmembers discovered that the boat had no navigational equipment. Instead of getting a sailing ship, they got a dinghy for short distance traveling.  After many days and nights at sea, they found their salvation and discovered another small island... full of pirates.",
+      "prologText": "I do not know if it is poetic justice, a bad joke, or plain rudeness, but I was informed my native friends 'forgot' the rather important navigational equipment.  After many days and nights, we found our salvation and discovered another small island... full of pirates.  Apparently they too do not understand the art of the fragarance alchemist.",
+      "preconditions": 8,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 6,
+          "creatureId": 92,
+          "amount": 9
+        },
+        {
+          "type": 5,
+          "heroId": 6,
+          "stats": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "type": 7,
+          "resourceType": 6,
+          "amount": 5421
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-2.h3m",
+      "name": "Here There Be Pirates",
+      "description": "Great challenges lie before Sir Christian. To win, he must capture all enemy towns and castles and defeat all enemy heroes. He will be limited to experience level 24. If he wins, he will carry over his experience, primary skills, secondary skills, and his spell book. If he fails, his quest is over.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 144,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 144,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 8,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 8,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 26,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 26,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 6,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 2,
+          "isFactionRandom": false,
+          "factions": [
+            "Rampart"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 22,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 22,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 5,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 27,
+        "y": 15,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 4,
+        "Castle": 2,
+        "Rampart": 2
+      },
+      "objects": 3885,
+      "towns": 8,
+      "monsters": 112,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Secret 4 - Hurry Up and Wait.h3m",
+      "regionText": "After finding out he was being used as a tool against his own land and queen, Sir Christian finished his quest and fled the island, stole a real sailing ship and went to Queen Catherine's military island to protect it. The four surrounding islands that once protected the main island are now infested with Regnan Pirates. Queen Catherine may pay a visit to this island in four months.",
+      "prologText": "If you were to ask me where my loyalities lie, in all honesty, I would answer, \"To whomever could get me home.\"  So, when I learned of the nearby Erathian outpost, I knew I had found my esacpe.  So, I left those filthy pirates in the middle of the night and arrived at the Erathian outpost the following morning.  Little did I know the outpost was the next target of my former pirate allies.",
+      "epilogText": "What luck.  I have managed to catch a ride aboard Queen Catherine's ship, enroute to Erathia to attend her father's funeral.  I am told the Erathian countryside is quite beautiful.  At last I can leave all this combat behind.  I think it should make a fitting vacation spot.  I can't wait.",
+      "preconditions": 2,
+      "difficulty": "Impossible",
+      "bonuses": [
+        {
+          "type": 4,
+          "heroId": 6,
+          "spellId": 48
+        },
+        {
+          "type": 1,
+          "heroId": 6,
+          "creatureId": 12,
+          "amount": 2
+        },
+        {
+          "type": 3,
+          "heroId": 6,
+          "artifactId": 119
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-3.h3m",
+      "name": "Hurry Up and Wait",
+      "description": "Sir Christian must do one thing to win this scenario. Stay alive for four months. He is literally surrounded by the enemy. He must keep the evil Regnin Pirates from overthrowing Queen Catherine's military base. If Sir Christian is defeated, his campaign is over.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 6,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 65,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle",
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 102,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 102,
+              "name": ""
+            },
+            {
+              "id": 105,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 109,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 98,
+              "name": ""
+            },
+            {
+              "id": 109,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 101,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 101,
+              "name": ""
+            },
+            {
+              "id": 106,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 110,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 108,
+              "name": ""
+            },
+            {
+              "id": 110,
+              "name": ""
+            }
+          ]
+        }
+      ],
+      "playerCount": 5,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 60,
+        "y": 45,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 4,
+        "Castle": 3
+      },
+      "objects": 3203,
+      "towns": 7,
+      "monsters": 83,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-3-0.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "Secret 2 - Their End Of the Bargain.h3m",
+      "regionText": "The natives where so happy at Sir Christian's success, they completely forgot about the agreement to help him in return. The days and days of celebration turned into weeks of endless parties leaving Sir Christian very angry.  While the natives were celebrating he traveled to the tavern and met with the former leaders of the towns he'd just beaten. The leaders come to the conclusion Sir Christian was too dangerous to have around.  The bargain was struck and Sir Christian would gain their lands and they would gladly help him to leave.",
+      "prologText": "I swear... these natives only know two things: how to start a war and how to throw a party.  Apparantly, the natives I just defeated want me off the island as much as I want off.  One condition, I must reclaim the lands I just took from them.   Ugh.   The stench.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 6,
+          "creatureId": 2,
+          "amount": 8
+        },
+        {
+          "type": 5,
+          "heroId": 6,
+          "stats": [
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "type": 4,
+          "heroId": 6,
+          "spellId": 41
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-4.h3m",
+      "name": "Their End of the Bargain",
+      "description": "To win, Sir Christian must defeat all the enemies. He now has an allied town, which lies, in the northwestern region. He is limited to level 16 in this scenario, but he will carry over his skills, spells, secondary skills and experience to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 2,
+          "aiTacticName": "Explorer",
+          "allowedFactions": 192,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold",
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 116,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 98,
+              "name": ""
+            },
+            {
+              "id": 109,
+              "name": ""
+            },
+            {
+              "id": 116,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 110,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 110,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 6,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 39,
+        "y": 30,
+        "z": 0
+      },
+      "factions": {
+        "Stronghold": 4,
+        "Fortress": 1
+      },
+      "objects": 1453,
+      "towns": 5,
+      "monsters": 76,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fool.h3c/scenario-4-0.png"
+        }
+      ]
+    }
+  ]
+}

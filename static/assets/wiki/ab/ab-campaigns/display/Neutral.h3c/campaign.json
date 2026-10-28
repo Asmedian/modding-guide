@@ -1,0 +1,449 @@
+{
+  "name": "Spoils of War",
+  "description": "In times of strige, your mercenary ways whill earn you great rewards.  With Erathia collapsing under the weight of the Nighon onslaught in the east, the opportunity for some land grabbing has presented itself in the west.  Erathia's lands are ours for the taking.",
+  "version": "RoE",
+  "scenarioCount": 3,
+  "mapCount": 3,
+  "aggregate": {
+    "area": 27216,
+    "objects": 5730,
+    "towns": 22,
+    "monsters": 154,
+    "factions": {
+      "Fortress": 6,
+      "Castle": 10,
+      "Stronghold": 6
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Neutral-1a.h3m",
+      "regionText": "You are offered a mercenary contract with King Tralossk of Tatalia, who once and for all wishes for his nation to be made up of something more than just swampland. With Erathia distracted, he has decided that now is the time to expand Tatalia's borders.",
+      "prologText": "As you foresaw milord, King Gryphonheart’s death brings many opportunities for your mercenary skills.  A messenger from Tatalia, on behalf of King Tralossk, has contacted us.  Twenty years ago, following numerous border skirmishes along the western shore of Erathia, Tatalia signed an agreement to cease hostilities. King Gryphonheart is dead.  Their agreement has died with him.  Aggressive tactics have never been part of Tatalia's military character.  Their ranks are vast, and once they possess Erathian land, they will hold it.  However, they need generals to guide their heroes to expand their borders and accommodate their growing population.",
+      "preconditions": 0,
+      "difficulty": "Easy",
+      "bonuses": [
+        {
+          "playerColor": 1,
+          "heroId": 117
+        },
+        {
+          "playerColor": 1,
+          "heroId": 123
+        },
+        {
+          "playerColor": 1,
+          "heroId": -1
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-1.h3m",
+      "name": "Borderlands",
+      "description": "To win, you must flag all mines. Your Heroes will be limited to 12th level in this scenario, but your 8 strongest Heroes will be available to you in the final scenario of this campaign.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 41,
+          "mainTownY": 18,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 9,
+        "name": "Flag all mines",
+        "allowNormalVictory": false,
+        "appliesToComputer": false
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Fortress": 2,
+        "Castle": 3
+      },
+      "objects": 1415,
+      "towns": 5,
+      "monsters": 48,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Neutral-1b.h3m",
+      "regionText": "Both King Tralossk of Tatalia and Duke Boragus of Krewlod are seeking your services. Both nations are poised to claim the last strip of land between their countries. Ironically, this land has little value. You must decide which nation to serve. The choice is yours alone.",
+      "prologText": "Your abilities have been brought to the attention of the barbarian nation of Krewlod. Their skirmishes with the Erathian military on their eastern border are legendary. Many credit them for hardening Erathian soldiers. Recently, a border raid resulted in victory, and uncharacteristically, a large numbers of prisoners. Upon interrogation, their suspicions were confirmed. Without King Gryphonheart, Erathia has lost its soul.  Your goal is to quickly plunder the Erathian land within Krewlod’s immediate reach. Once they have the resources they need... war will be discussed. Until then, your independent participation is needed.  Should you be captured, Krewlod will claim you were an over zealous clan leader, acting outside the interests of the nation.",
+      "preconditions": 0,
+      "difficulty": "Easy",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 108,
+          "creatureId": 93,
+          "amount": 3
+        },
+        {
+          "type": 1,
+          "heroId": 108,
+          "creatureId": 95,
+          "amount": 2
+        },
+        {
+          "type": 1,
+          "heroId": 108,
+          "creatureId": 97,
+          "amount": 1
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-2.h3m",
+      "name": "Gold Rush",
+      "description": "To win, you must accumulate 200,000 gold. Your Heroes will be limited to 12th level in this scenario, but your 8 strongest Heroes will be available to you in the final scenario of this campaign.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 2,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 2,
+              "name": ""
+            },
+            {
+              "id": 7,
+              "name": ""
+            },
+            {
+              "id": 14,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 99,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 99,
+              "name": ""
+            },
+            {
+              "id": 108,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 2,
+        "name": "Accumulate resources",
+        "allowNormalVictory": false,
+        "appliesToComputer": false,
+        "resourceType": 6,
+        "resourceName": "Gold",
+        "amount": 200000
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Castle": 4,
+        "Stronghold": 2
+      },
+      "objects": 1557,
+      "towns": 6,
+      "monsters": 13,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Neutral-1c.h3m",
+      "regionText": "Both King Tralossk of Tatalia and Duke Boragus of Krewlod are seeking your services. Both nations are poised to claim the last strip of land between their countries. Ironically, this land has little value. You must decide which nation to serve. The choice is yours alone.",
+      "prologText": "Representatives from both Tatalia and Krewlod seek your services... again. Both nations claim the last strip of Erathian land between their countries. Few Erathian castles remain in the area.  They are nothing more than token resistance.  The most ferocious battles will occur between Tatalia and Krewlod.  Ironically, this land has little value. This is a border war. Tatalia seeks to further extend its reach from the lowlands to the hills. Krewlod wants to halt Tatalia’s march before it reaches their northern border. No matter which side you fight for, the other will perceive you as a traitor. Choose wisely.  Choose the winning side.  Your life depends upon it.",
+      "preconditions": 3,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "playerColor": 1,
+          "scenarioId": 0
+        },
+        {
+          "playerColor": 1,
+          "scenarioId": 1
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-3.h3m",
+      "name": "Greed",
+      "description": "To win, you must capture all towns and castles and defeat all enemy heroes. Regardless of which side you choose, the other will forever consider you a traitor.",
+      "mapSize": 108,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 1,
+          "isFactionRandom": false,
+          "factions": [
+            "Castle"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 7,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 7,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": true,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 64,
+          "isFactionRandom": false,
+          "factions": [
+            "Stronghold"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 255,
+        "name": "Standard (lose all towns and heroes)"
+      },
+      "factions": {
+        "Stronghold": 4,
+        "Fortress": 4,
+        "Castle": 3
+      },
+      "objects": 2758,
+      "towns": 11,
+      "monsters": 93,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/Neutral.h3c/scenario-3-0.png"
+        }
+      ]
+    }
+  ]
+}

@@ -108,7 +108,7 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 ID: wiki.bitmap.0.1.page-35
 URL: /en/wiki/bitmap/0/1/page-35/
 Part: 1/1
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod, wiki-ab:Camp1AB7.bmp, wiki-ab:Camp1DB2.bmp, wiki-ab:Camp1DS1.bmp, wiki-ab:Camp1FL3.bmp, wiki-ab:Camp1PF2.bmp, wiki-ab:Camp1FW1.bmp
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
 
 <!-- llm:body wiki.bitmap.0.1.page-35 1 -->
@@ -238,105 +238,122 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | --- | --- | --- |
 | `CAMPSCTS.PCX` {#file-bdf914eb64ad} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness {#group-9}
+## Campaign selection images / Armageddon's Blade (note #3) / Armageddon's Blade {#group-9}
 
 ### Armageddon's Blade (note #3) {#group-9-depth-1}
 
-### Foolhardy Waywardness {#group-9-depth-2}
+### Armageddon's Blade {#group-9-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1AB7.pcx` {#file-5a33e60d3a0c} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Dragon's Blood {#group-10}
+
+### Dragon's Blood {#group-10-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1DB2.pcx` {#file-86875003fae2} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Dragon Slayer {#group-11}
+
+### Dragon Slayer {#group-11-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1DS1.pcx` {#file-a66dc933a8c0} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Festival of Life {#group-12}
+
+### Festival of Life {#group-12-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1FL3.pcx` {#file-2cb26c854780} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Playing with Fire {#group-13}
+
+### Playing with Fire {#group-13-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1PF2.pcx` {#file-c9a604e741c3} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness {#group-14}
+
+### Foolhardy Waywardness {#group-14-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `Camp1FWX.pcx` {#file-9ec650c33fb0} | pcx | H3bitmap.lod · SoD |
+| `Camp1FW1.pcx` {#file-26a298933de1} | pcx | AB campaigns · AB |
 
-## Campaign selection images / The Shadow of Death / New Beginning {#group-10}
+## Campaign selection images / The Shadow of Death / New Beginning {#group-15}
 
-### The Shadow of Death {#group-10-depth-1}
+### The Shadow of Death {#group-15-depth-1}
 
-### New Beginning {#group-10-depth-2}
+### New Beginning {#group-15-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampNB1.pcx` {#file-211d9ef8786a} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Elixir of Life {#group-11}
+## Campaign selection images / The Shadow of Death / Elixir of Life {#group-16}
 
-### Elixir of Life {#group-11-depth-2}
+### Elixir of Life {#group-16-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampEL1.pcx` {#file-5d62bfbdd51d} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Hack and Slash {#group-12}
+## Campaign selection images / The Shadow of Death / Hack and Slash {#group-17}
 
-### Hack and Slash {#group-12-depth-2}
+### Hack and Slash {#group-17-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampHS1.pcx` {#file-e491de023ab4} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Birth of a Barbarian {#group-13}
+## Campaign selection images / The Shadow of Death / Birth of a Barbarian {#group-18}
 
-### Birth of a Barbarian {#group-13-depth-2}
+### Birth of a Barbarian {#group-18-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampBB1.pcx` {#file-f547af4e493e} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Rise of the Necromancer {#group-14}
+## Campaign selection images / The Shadow of Death / Rise of the Necromancer {#group-19}
 
-### Rise of the Necromancer {#group-14-depth-2}
+### Rise of the Necromancer {#group-19-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampRN1.pcx` {#file-966c4b6d08aa} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Unholy Alliance {#group-15}
+## Campaign selection images / The Shadow of Death / Unholy Alliance {#group-20}
 
-### Unholy Alliance {#group-15-depth-2}
+### Unholy Alliance {#group-20-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampUA1.pcx` {#file-4d07200c59bc} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Specter of Power {#group-16}
+## Campaign selection images / The Shadow of Death / Specter of Power {#group-21}
 
-### Specter of Power {#group-16-depth-2}
+### Specter of Power {#group-21-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampSP1.pcx` {#file-61b2595cd827} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / Secret campaign {#group-17}
+## Campaign selection images / Secret campaign {#group-22}
 
-### Secret campaign {#group-17-depth-1}
+### Secret campaign {#group-22-depth-1}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CAMPNOSC.PCX` {#file-d15795d53633} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / Restoration of Erathia / Long Live the Queen {#group-18}
-
-### Video previews {#group-18-depth-0}
-
-### Restoration of Erathia {#group-18-depth-1}
-
-### Long Live the Queen {#group-18-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `CslReG1a.pcx` {#file-fc6e8371ce73} | pcx | H3bitmap.lod · SoD |
-| `CslReG1b.pcx` {#file-aa52e7272c44} | pcx | H3bitmap.lod · SoD |
-| `CslReG1c.pcx` {#file-5d5f84484d7b} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / Restoration of Erathia / Dungeons and Devils {#group-19}
-
-### Dungeons and Devils {#group-19-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `CslReE3a.pcx` {#file-08a8bddae107} | pcx | H3bitmap.lod · SoD |
-| `CslReE3b.pcx` {#file-4a68a90b1c8a} | pcx | H3bitmap.lod · SoD |
-| `CslReE3c.pcx` {#file-392095124215} | pcx | H3bitmap.lod · SoD |
 <!-- llm:end wiki.bitmap.0.1.page-35 1 -->
 
 # Campaign elements
@@ -344,17 +361,58 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 ID: wiki.bitmap.0.1.page-36
 URL: /en/wiki/bitmap/0/1/page-36/
 Part: 1/1
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod, wiki-ab:TarnumBL.bmp, wiki-ab:TarnumBS.bmp, wiki-ab:TarnumCL.bmp, wiki-ab:TarnumCS.bmp, wiki-ab:TarnumEL.bmp, wiki-ab:TarnumES.bmp, wiki-ab:TarnumFL.bmp, wiki-ab:TarnumFS.bmp, wiki-ab:TarnumUL.bmp, wiki-ab:TarnumUS.bmp, wiki-ab:TarnumWL.bmp, wiki-ab:TarnumWS.bmp
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
 
 <!-- llm:body wiki.bitmap.0.1.page-36 1 -->
-## Video previews / Restoration of Erathia / Spoils of War (*) {#group-0}
+## Additional campaign images / Armageddon's Blade {#group-0}
 
-### Video previews {#group-0-depth-0}
+### Additional campaign images {#group-0-depth-0}
 
-### Restoration of Erathia {#group-0-depth-1}
+### Armageddon's Blade {#group-0-depth-1}
 
-### Spoils of War (*) {#group-0-depth-2}
+| File | Resource | Source |
+| --- | --- | --- |
+| `TarnumBL.pcx` {#file-e125f57f1cf7} | pcx | AB campaigns · AB |
+| `TarnumBS.pcx` {#file-284238bf410c} | pcx | AB campaigns · AB |
+| `TarnumCL.pcx` {#file-325ae0d0bb9e} | pcx | AB campaigns · AB |
+| `TarnumCS.pcx` {#file-41eac71629c3} | pcx | AB campaigns · AB |
+| `TarnumEL.pcx` {#file-0f65b389196b} | pcx | AB campaigns · AB |
+| `TarnumES.pcx` {#file-da39527de132} | pcx | AB campaigns · AB |
+| `TarnumFL.pcx` {#file-1091a8a23451} | pcx | AB campaigns · AB |
+| `TarnumFS.pcx` {#file-f22631a71a68} | pcx | AB campaigns · AB |
+| `TarnumUL.pcx` {#file-96d9bc73b530} | pcx | AB campaigns · AB |
+| `TarnumUS.pcx` {#file-0718067b1b38} | pcx | AB campaigns · AB |
+| `TarnumWL.pcx` {#file-cb2ac5c96ffd} | pcx | AB campaigns · AB |
+| `TarnumWS.pcx` {#file-37682e719669} | pcx | AB campaigns · AB |
+
+## Video previews / Restoration of Erathia / Long Live the Queen {#group-1}
+
+### Video previews {#group-1-depth-0}
+
+### Restoration of Erathia {#group-1-depth-1}
+
+### Long Live the Queen {#group-1-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `CslReG1a.pcx` {#file-fc6e8371ce73} | pcx | H3bitmap.lod · SoD |
+| `CslReG1b.pcx` {#file-aa52e7272c44} | pcx | H3bitmap.lod · SoD |
+| `CslReG1c.pcx` {#file-5d5f84484d7b} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / Restoration of Erathia / Dungeons and Devils {#group-2}
+
+### Dungeons and Devils {#group-2-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `CslReE3a.pcx` {#file-08a8bddae107} | pcx | H3bitmap.lod · SoD |
+| `CslReE3b.pcx` {#file-4a68a90b1c8a} | pcx | H3bitmap.lod · SoD |
+| `CslReE3c.pcx` {#file-392095124215} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / Restoration of Erathia / Spoils of War (*) {#group-3}
+
+### Spoils of War (*) {#group-3-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -362,9 +420,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslReN2a.pcx` {#file-b7b3e8ca9b94} | pcx | H3bitmap.lod · SoD |
 | `CslReN2b.pcx` {#file-d1223a43ef38} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Liberation {#group-1}
+## Video previews / Restoration of Erathia / Liberation {#group-4}
 
-### Liberation {#group-1-depth-2}
+### Liberation {#group-4-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -373,9 +431,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslReG4c.pcx` {#file-39c7c8a129a2} | pcx | H3bitmap.lod · SoD |
 | `CslReG4d.pcx` {#file-f9873b56edbd} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Long Live the King {#group-2}
+## Video previews / Restoration of Erathia / Long Live the King {#group-5}
 
-### Long Live the King {#group-2-depth-2}
+### Long Live the King {#group-5-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -385,9 +443,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslReE5d.pcx` {#file-d94850843b37} | pcx | H3bitmap.lod · SoD |
 | `CslReE5e.pcx` {#file-b37c41d88773} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Song for the Father {#group-3}
+## Video previews / Restoration of Erathia / Song for the Father {#group-6}
 
-### Song for the Father {#group-3-depth-2}
+### Song for the Father {#group-6-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -395,9 +453,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslReG6b.pcx` {#file-295aa2e7ce12} | pcx | H3bitmap.lod · SoD |
 | `CslReG6c.pcx` {#file-e3318f717b95} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Seeds of Discontent {#group-4}
+## Video previews / Restoration of Erathia / Seeds of Discontent {#group-7}
 
-### Seeds of Discontent {#group-4-depth-2}
+### Seeds of Discontent {#group-7-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -405,11 +463,11 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslReS7b.pcx` {#file-03255b6df7c8} | pcx | H3bitmap.lod · SoD |
 | `CslReS7c.pcx` {#file-ad9b1bce7b0f} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Armageddon's Blade {#group-5}
+## Video previews / Armageddon's Blade / Armageddon's Blade {#group-8}
 
-### Armageddon's Blade {#group-5-depth-1}
+### Armageddon's Blade {#group-8-depth-1}
 
-### Armageddon's Blade {#group-5-depth-2}
+### Armageddon's Blade {#group-8-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -423,9 +481,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslAbAb8.pcx` {#file-0a6b324fb43b} | pcx | H3bitmap.lod · SoD |
 | `CslAbAb9.pcx` {#file-c6fb8e23b129} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Dragon's Blood {#group-6}
+## Video previews / Armageddon's Blade / Dragon's Blood {#group-9}
 
-### Dragon's Blood {#group-6-depth-2}
+### Dragon's Blood {#group-9-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -435,9 +493,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslAbDb4.pcx` {#file-903afcbb0fe2} | pcx | H3bitmap.lod · SoD |
 | `CslAbDb5.pcx` {#file-d8778a18b9e8} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Dragon Slayer {#group-7}
+## Video previews / Armageddon's Blade / Dragon Slayer {#group-10}
 
-### Dragon Slayer {#group-7-depth-2}
+### Dragon Slayer {#group-10-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -447,9 +505,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslAbDs4.pcx` {#file-4caffd78efa5} | pcx | H3bitmap.lod · SoD |
 | `CslAbDs5.pcx` {#file-6157480011c5} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Festival of Life {#group-8}
+## Video previews / Armageddon's Blade / Festival of Life {#group-11}
 
-### Festival of Life {#group-8-depth-2}
+### Festival of Life {#group-11-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -459,9 +517,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslAbFl4.pcx` {#file-efc5018b953f} | pcx | H3bitmap.lod · SoD |
 | `CslAbFl5.pcx` {#file-7bd8776a64c0} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Playing with Fire {#group-9}
+## Video previews / Armageddon's Blade / Playing with Fire {#group-12}
 
-### Playing with Fire {#group-9-depth-2}
+### Playing with Fire {#group-12-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -470,9 +528,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslAbPf3.pcx` {#file-14052605abf5} | pcx | H3bitmap.lod · SoD |
 | `CslAbPf4.pcx` {#file-63088e8cb4ff} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Foolhardy Waywardness {#group-10}
+## Video previews / Armageddon's Blade / Foolhardy Waywardness {#group-13}
 
-### Foolhardy Waywardness {#group-10-depth-2}
+### Foolhardy Waywardness {#group-13-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -482,55 +540,16 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CslAbFw4.pcx` {#file-d1e8abdec29c} | pcx | H3bitmap.lod · SoD |
 | `CslAbFw5.pcx` {#file-b1e814b85ccd} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / New Beginning {#group-11}
+## Video previews / The Shadow of Death / New Beginning {#group-14}
 
-### The Shadow of Death {#group-11-depth-1}
+### The Shadow of Death {#group-14-depth-1}
 
-### New Beginning {#group-11-depth-2}
+### New Beginning {#group-14-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `Csl2NBa.pcx` {#file-f178b64c4582} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBb.pcx` {#file-e4b595dd4ce6} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBc.pcx` {#file-11f309d9e3fe} | pcx | H3bitmap.lod · SoD |
-| `Csl2NBd.pcx` {#file-2fa8d403fe50} | pcx | H3bitmap.lod · SoD |
-| `Csl2NBe.pcx` {#file-73dabc677b9a} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / The Shadow of Death / Elixir of Life {#group-12}
-
-### Elixir of Life {#group-12-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `Csl2ELa.pcx` {#file-fc685d5d26b8} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELb.pcx` {#file-f8550fdd6ccc} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELc.pcx` {#file-5749867c3a5a} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELd.pcx` {#file-c51401381348} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELe.pcx` {#file-b310fc59fcc2} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / The Shadow of Death / Hack and Slash {#group-13}
-
-### Hack and Slash {#group-13-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `Csl2HSa.pcx` {#file-8723b9dff7fe} | pcx | H3bitmap.lod · SoD |
-| `Csl2HSc.pcx` {#file-ab95dd4e9b18} | pcx | H3bitmap.lod · SoD |
-| `Csl2HSd.pcx` {#file-38216bcc9861} | pcx | H3bitmap.lod · SoD |
-| `Csl2HSe.pcx` {#file-f60bf47ee218} | pcx | H3bitmap.lod · SoD |
-| `CslReE5c.pcx` {#file-f765e7762f71-2} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / The Shadow of Death / Birth of a Barbarian {#group-14}
-
-### Birth of a Barbarian {#group-14-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `Csl2BBa.pcx` {#file-02b392596aca} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBb.pcx` {#file-ad09c86d4b38} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBc.pcx` {#file-ec9ee680e619} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBd.pcx` {#file-91df8e26ac7f} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBe.pcx` {#file-acd9286ad447} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBf.pcx` {#file-69037cc37fa0} | pcx | H3bitmap.lod · SoD |
 <!-- llm:end wiki.bitmap.0.1.page-36 1 -->
 

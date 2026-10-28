@@ -1,5 +1,5 @@
 ---
-{"title": "Дыхание Смерти", "summary": "SoD · H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
+{"title": "Дыхание Смерти", "summary": "H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
 ---
 
 ## Новое начало {#group-0}

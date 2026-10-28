@@ -41,6 +41,9 @@
                 },
                 "slug": {
                   "type": "string"
+                },
+                "showEdition": {
+                  "type": "boolean"
                 }
               }
             }
@@ -50,6 +53,9 @@
           },
           "edition": {
             "type": "string"
+          },
+          "showEdition": {
+            "type": "boolean"
           }
         }
       }

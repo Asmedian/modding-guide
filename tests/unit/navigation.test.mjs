@@ -24,6 +24,6 @@ test('navigation has no duplicate slugs', () => {
 
 test('published sections are active and future sections stay absent', () => {
   const top = JSON.parse(readFileSync(join(projectRoot, 'content', '_navigation', 'top.json'), 'utf8'));
-  assert.deepEqual(top.items.filter((item) => item.enabled).map((item) => item.id), ['docs', 'wiki', 'erm', 'plugins']);
+  assert.deepEqual(top.items.filter((item) => item.enabled).map((item) => item.id), ['docs', 'erm', 'plugins', 'wiki']);
   assert.deepEqual(top.items.filter((item) => !item.enabled).map((item) => item.id), []);
 });

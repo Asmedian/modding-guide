@@ -7,13 +7,59 @@ Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
 
 <!-- llm:body wiki.bitmap.0.1.page-37 1 -->
-## Video previews / The Shadow of Death / Rise of the Necromancer {#group-0}
+## Video previews / The Shadow of Death / New Beginning {#group-0}
 
 ### Video previews {#group-0-depth-0}
 
 ### The Shadow of Death {#group-0-depth-1}
 
-### Rise of the Necromancer {#group-0-depth-2}
+### New Beginning {#group-0-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Csl2NBd.pcx` {#file-2fa8d403fe50} | pcx | H3bitmap.lod · SoD |
+| `Csl2NBe.pcx` {#file-73dabc677b9a} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / The Shadow of Death / Elixir of Life {#group-1}
+
+### Elixir of Life {#group-1-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Csl2ELa.pcx` {#file-fc685d5d26b8} | pcx | H3bitmap.lod · SoD |
+| `Csl2ELb.pcx` {#file-f8550fdd6ccc} | pcx | H3bitmap.lod · SoD |
+| `Csl2ELc.pcx` {#file-5749867c3a5a} | pcx | H3bitmap.lod · SoD |
+| `Csl2ELd.pcx` {#file-c51401381348} | pcx | H3bitmap.lod · SoD |
+| `Csl2ELe.pcx` {#file-b310fc59fcc2} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / The Shadow of Death / Hack and Slash {#group-2}
+
+### Hack and Slash {#group-2-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Csl2HSa.pcx` {#file-8723b9dff7fe} | pcx | H3bitmap.lod · SoD |
+| `Csl2HSc.pcx` {#file-ab95dd4e9b18} | pcx | H3bitmap.lod · SoD |
+| `Csl2HSd.pcx` {#file-38216bcc9861} | pcx | H3bitmap.lod · SoD |
+| `Csl2HSe.pcx` {#file-f60bf47ee218} | pcx | H3bitmap.lod · SoD |
+| `CslReE5c.pcx` {#file-f765e7762f71-2} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / The Shadow of Death / Birth of a Barbarian {#group-3}
+
+### Birth of a Barbarian {#group-3-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Csl2BBa.pcx` {#file-02b392596aca} | pcx | H3bitmap.lod · SoD |
+| `Csl2BBb.pcx` {#file-ad09c86d4b38} | pcx | H3bitmap.lod · SoD |
+| `Csl2BBc.pcx` {#file-ec9ee680e619} | pcx | H3bitmap.lod · SoD |
+| `Csl2BBd.pcx` {#file-91df8e26ac7f} | pcx | H3bitmap.lod · SoD |
+| `Csl2BBe.pcx` {#file-acd9286ad447} | pcx | H3bitmap.lod · SoD |
+| `Csl2BBf.pcx` {#file-69037cc37fa0} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / The Shadow of Death / Rise of the Necromancer {#group-4}
+
+### Rise of the Necromancer {#group-4-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -23,9 +69,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `Csl2RNd.pcx` {#file-89729d9242a7} | pcx | H3bitmap.lod · SoD |
 | `Csl2RNe.pcx` {#file-96b28dca50f0} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Unholy Alliance {#group-1}
+## Video previews / The Shadow of Death / Unholy Alliance {#group-5}
 
-### Unholy Alliance {#group-1-depth-2}
+### Unholy Alliance {#group-5-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -43,9 +89,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `Csl2UAl.pcx` {#file-bfd59a988e31} | pcx | H3bitmap.lod · SoD |
 | `Csl2UAm.pcx` {#file-c96e0abc1c97} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Specter of Power {#group-2}
+## Video previews / The Shadow of Death / Specter of Power {#group-6}
 
-### Specter of Power {#group-2-depth-2}
+### Specter of Power {#group-6-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -55,9 +101,9 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `Csl2SPd.pcx` {#file-14352c8d65fb} | pcx | H3bitmap.lod · SoD |
 | `Csl2SPe.pcx` {#file-8b4a6f7c308e} | pcx | H3bitmap.lod · SoD |
 
-## Other files {#group-3}
+## Other files {#group-7}
 
-### Other files {#group-3-depth-0}
+### Other files {#group-7-depth-0}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -92,6 +138,23 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CBONG1C3.PCX` {#file-1a8ec61c1c6d} | pcx | H3bitmap.lod · SoD |
 | `CBONG2A1.PCX` {#file-af9505d665cd} | pcx | H3bitmap.lod · SoD |
 | `CBONG2A2.PCX` {#file-3ed4b53faa18} | pcx | H3bitmap.lod · SoD |
+<!-- llm:end wiki.bitmap.0.1.page-37 1 -->
+
+# Campaign elements
+
+ID: wiki.bitmap.0.1.page-38
+URL: /en/wiki/bitmap/0/1/page-38/
+Part: 1/1
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body wiki.bitmap.0.1.page-38 1 -->
+## Other files {#group-0}
+
+### Other files {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
 | `CBONG2A3.PCX` {#file-580d596640df} | pcx | H3bitmap.lod · SoD |
 | `CBONG2B1.PCX` {#file-ea4d8811c702} | pcx | H3bitmap.lod · SoD |
 | `CBONG2B2.PCX` {#file-4093d5ba50ee} | pcx | H3bitmap.lod · SoD |
@@ -110,23 +173,6 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `CBONG3B3.PCX` {#file-fe6632ee993f} | pcx | H3bitmap.lod · SoD |
 | `CBONG3C1.PCX` {#file-ac92ee1261cf} | pcx | H3bitmap.lod · SoD |
 | `CBONG3C2.PCX` {#file-22288be71cee} | pcx | H3bitmap.lod · SoD |
-<!-- llm:end wiki.bitmap.0.1.page-37 1 -->
-
-# Campaign elements
-
-ID: wiki.bitmap.0.1.page-38
-URL: /en/wiki/bitmap/0/1/page-38/
-Part: 1/1
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body wiki.bitmap.0.1.page-38 1 -->
-## Other files {#group-0}
-
-### Other files {#group-0-depth-0}
-
-| File | Resource | Source |
-| --- | --- | --- |
 | `CBONG3C3.PCX` {#file-620f5df924c9} | pcx | H3bitmap.lod · SoD |
 | `CBONN1A1.PCX` {#file-720be4825ce7} | pcx | H3bitmap.lod · SoD |
 | `CBONN1A2.PCX` {#file-43df3b70f020} | pcx | H3bitmap.lod · SoD |
@@ -181,6 +227,23 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `E2C_SE.PCX` {#file-4f14bace7209} | pcx | H3bitmap.lod · SoD |
 | `E2D_CO.PCX` {#file-33bb808700e1} | pcx | H3bitmap.lod · SoD |
 | `E2D_EN.PCX` {#file-8f642625a3d2} | pcx | H3bitmap.lod · SoD |
+<!-- llm:end wiki.bitmap.0.1.page-38 1 -->
+
+# Campaign elements
+
+ID: wiki.bitmap.0.1.page-39
+URL: /en/wiki/bitmap/0/1/page-39/
+Part: 1/1
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body wiki.bitmap.0.1.page-39 1 -->
+## Other files {#group-0}
+
+### Other files {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
 | `E2D_SE.PCX` {#file-9ee9b1a23089} | pcx | H3bitmap.lod · SoD |
 | `G1A_CO.PCX` {#file-3838ebe02568} | pcx | H3bitmap.lod · SoD |
 | `G1A_EN.PCX` {#file-b3d723ac2c0a} | pcx | H3bitmap.lod · SoD |
@@ -199,23 +262,6 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `G2B_SE.PCX` {#file-6d0d29c751ec} | pcx | H3bitmap.lod · SoD |
 | `G2C_CO.PCX` {#file-3ccf9180fc80} | pcx | H3bitmap.lod · SoD |
 | `G2C_EN.PCX` {#file-054714301360} | pcx | H3bitmap.lod · SoD |
-<!-- llm:end wiki.bitmap.0.1.page-38 1 -->
-
-# Campaign elements
-
-ID: wiki.bitmap.0.1.page-39
-URL: /en/wiki/bitmap/0/1/page-39/
-Part: 1/1
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
-Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
-
-<!-- llm:body wiki.bitmap.0.1.page-39 1 -->
-## Other files {#group-0}
-
-### Other files {#group-0-depth-0}
-
-| File | Resource | Source |
-| --- | --- | --- |
 | `G2C_SE.PCX` {#file-4f5e8a5c640c} | pcx | H3bitmap.lod · SoD |
 | `G2D_CO.PCX` {#file-7993eb1004bb} | pcx | H3bitmap.lod · SoD |
 | `G2D_EN.PCX` {#file-1111ec550433} | pcx | H3bitmap.lod · SoD |

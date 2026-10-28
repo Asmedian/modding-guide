@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 1/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 1/39", "translationStatus": "reviewed"}
 ---
 
 ## Стартовые экраны кампаний / Возрождение Эрафии / Да здравствует Королева! {#group-0}

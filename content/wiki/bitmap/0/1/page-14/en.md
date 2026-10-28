@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 14/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 14/39", "translationStatus": "reviewed"}
 ---
 
 ## Region maps / Armageddon's Blade / Dragon's Blood {#group-0}

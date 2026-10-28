@@ -23,7 +23,8 @@
         },
         {
           "labelKey": "wiki-0-0-1",
-          "slug": "wiki/bitmap/0/1"
+          "slug": "wiki/bitmap/0/1",
+          "showEdition": false
         }
       ],
       "edition": "SoD"
@@ -90,11 +91,17 @@
           "slug": "wiki/bitmap/3/0"
         },
         {
+          "labelKey": "wiki-0-3-1",
+          "slug": "wiki/bitmap/3/1",
+          "edition": "AB"
+        },
+        {
           "labelKey": "wiki-0-3-2",
           "slug": "wiki/bitmap/3/2"
         }
       ],
-      "edition": "SoD"
+      "edition": "SoD",
+      "showEdition": false
     },
     {
       "id": "wiki-0-4",
@@ -116,6 +123,41 @@
       "items": [],
       "edition": "SoD",
       "href": "wiki/bitmap/5"
+    },
+    {
+      "id": "wiki-wog-images",
+      "labelKey": "wiki-wog-images",
+      "items": [],
+      "edition": "WoG",
+      "href": "wiki/wog/images"
+    },
+    {
+      "id": "wiki-wog-defs",
+      "labelKey": "wiki-wog-defs",
+      "items": [],
+      "edition": "WoG",
+      "href": "wiki/wog/defs"
+    },
+    {
+      "id": "wiki-wog-sounds",
+      "labelKey": "wiki-wog-sounds",
+      "items": [],
+      "edition": "WoG",
+      "href": "wiki/wog/sounds"
+    },
+    {
+      "id": "wiki-wog-videos",
+      "labelKey": "wiki-wog-videos",
+      "items": [],
+      "edition": "WoG",
+      "href": "wiki/wog/videos"
+    },
+    {
+      "id": "wiki-wog-fonts",
+      "labelKey": "wiki-wog-fonts",
+      "items": [],
+      "edition": "WoG",
+      "href": "wiki/wog/fonts"
     }
   ]
 }

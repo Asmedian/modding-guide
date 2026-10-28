@@ -24,6 +24,7 @@ export type WikiCampaign={
 export type WikiSection = { path: Localized[]; resources: WikiResource[] };
 export type WikiCatalogPage = {
   slug: string; rootSlug: string; title: Localized; archive: string; edition: string;
+  editions?: string[]; showEdition?: boolean;
   number: number; pageCount: number; previous: string | null; next: string | null;
   sections: WikiSection[];
   outline?: Array<{label: Localized; depth: number; slug: string; id: string}>;

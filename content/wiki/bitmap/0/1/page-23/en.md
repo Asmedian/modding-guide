@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 23/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 23/39", "translationStatus": "reviewed"}
 ---
 
 ## Region maps / The Shadow of Death / Hack and Slash {#group-0}

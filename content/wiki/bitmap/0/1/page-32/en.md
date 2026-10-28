@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 32/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 32/39", "translationStatus": "reviewed"}
 ---
 
 ## Building bonus icons / Castle (note #4) {#group-0}

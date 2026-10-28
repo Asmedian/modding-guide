@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 17/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 17/39", "translationStatus": "reviewed"}
 ---
 
 ## Карты регионов / Клинок Армагеддона / Игры с огнем {#group-0}

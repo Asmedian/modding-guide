@@ -81,18 +81,20 @@ The build finishes with `npm run verify:build`: all internal HTML links and anch
 
 ## Wiki resource catalog
 
-Wiki appears between Docs and ERM at `/{lang}/wiki/`. It remains fully prerendered.
+Wiki appears after Plugins at `/{lang}/wiki/`. It remains fully prerendered.
 `content/wiki/` contains paired locale catalogs; `_registry/pages.json` stores
 at most 72 resource references per page. Wiki is an explicit LF-driven sidebar
 exception to editorial curation; it still uses at most two menu levels and
 at most twelve leaves per group. Sounds, videos and the combined font catalog are direct links without
 submenus. SoD marks leaf links and resources; expandable menu headings omit it.
+Campaign names omit edition badges. Keep AB PCX under Images → Campaign elements
+and the seven AB H3C in separate sections on the campaign page. The expansion
+importer rebuilds both outlines and preserves the placement on subsequent runs.
 
 `scripts/wiki/import_resources.py` uses external LOD/SND/VID archives and LF
 classification trees, Pillow, Node.js and FFmpeg to produce `static/assets/wiki/sod/`.
 Archive snapshots and conversion tools stay external. Published files are
-stored individually, with tiny first-frame WebP previews. Keep future WoG
-assets under a separate `wog/` edition directory. DEF original bytes are loaded
+stored individually, with tiny first-frame WebP previews. WoG assets live under a separate `wog/` edition directory; AB uses `ab/`. DEF original bytes are loaded
 only on popup activation, through the separately imported Explorer decoder.
 WAV PCM and H.264/AAC MP4 derivatives preserve sound rates and video frame
 counts/rates. DEF carries no frame timing; its preview interval is adjustable.

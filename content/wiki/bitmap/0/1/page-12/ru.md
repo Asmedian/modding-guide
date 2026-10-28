@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 12/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 12/39", "translationStatus": "reviewed"}
 ---
 
 ## Карты регионов / Клинок Армагеддона / Клинок Армагеддона {#group-0}

@@ -87,12 +87,12 @@
 </script>
 
 <dialog bind:this={dialog} use:dismissOutside={close} class="wiki-dialog wiki-def-dialog" aria-labelledby="def-title" on:cancel={(event)=>{event.preventDefault();close();}}>
-  <header class="wiki-dialog-header"><h2 id="def-title" class="wiki-heading">{resource.name}<small class="wiki-edition">SoD</small></h2><button class="wiki-raised-button" on:click={close} aria-label={t('wiki.close')}><WikiIcon name="close" /></button></header>
+  <header class="wiki-dialog-header"><h2 id="def-title" class="wiki-heading">{resource.name}<small class="wiki-edition">{resource.edition}</small></h2><button class="wiki-raised-button" on:click={close} aria-label={t('wiki.close')}><WikiIcon name="close" /></button></header>
   <div class="wiki-dialog-content">
   {#if error}<p role="alert">{error}</p>{/if}
   <div class="wiki-def-layout">
     <nav class="wiki-def-groups" aria-label={t('wiki.groups')}>
-      {#each groups as g}<button class:current={group===g} on:click={()=>choose(g)}>{groupName(g)}<small>{resource.frameGroups?.find(item=>item.id===g)?.frames ?? def?.getFrameCount(g)} {t('wiki.frames')}</small><small class="wiki-edition">SoD</small></button>{/each}
+      {#each groups as g}<button class:current={group===g} on:click={()=>choose(g)}>{groupName(g)}<small>{resource.frameGroups?.find(item=>item.id===g)?.frames ?? def?.getFrameCount(g)} {t('wiki.frames')}</small><small class="wiki-edition">{resource.edition}</small></button>{/each}
     </nav>
     <div class="wiki-def-body">
       <div class="wiki-def-stage">
@@ -105,7 +105,7 @@
       {#if def}
         <div class="wiki-def-controls"><button class="wiki-raised-button wiki-def-play" on:click={toggle} aria-label={playing ? t('wiki.pause') : t('wiki.play')} title={playing ? t('wiki.pause') : t('wiki.play')}><WikiIcon name={playing ? 'pause' : 'play'} /></button><label title={t('wiki.gameFrameInterval')}>{t('wiki.frameInterval')} <input type="number" min="20" max="2000" step="10" bind:value={interval} on:change={()=>interval=Math.max(20,Math.min(2000,interval || 100))} /> {t('wiki.ms')}</label><span>{frame+1}/{frames.length}</span></div>
         <p class="wiki-hint">{t('wiki.defTiming')}</p>
-        <h3 class="wiki-heading">{groupName(group)}<small class="wiki-edition">SoD</small></h3>
+        <h3 class="wiki-heading">{groupName(group)}<small class="wiki-edition">{resource.edition}</small></h3>
         <div class="wiki-frame-grid">
           {#each frames as item}<button class:current={frame===item.imageId} on:click={()=>{pause();frame=item.imageId;}}><canvas use:paint={{g:group,f:item.imageId}} width={resource.width} height={resource.height} aria-label={item.name}></canvas><code>{item.name}</code><small>#{item.imageId}</small></button>{/each}
         </div>

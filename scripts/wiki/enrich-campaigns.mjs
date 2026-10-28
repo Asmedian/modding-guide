@@ -4,12 +4,13 @@ import H3Map from './explorer-map-parser.mjs';
 
 const root=process.argv[2];
 if (!root) throw new Error('Pass the site output directory');
+const editionFilter=process.argv[3];
 const pagesPath=join(root,'content/wiki/_registry/pages.json');
 const pages=JSON.parse(readFileSync(pagesPath,'utf8'));
 const resources=new Map(pages.flatMap(p=>p.sections.flatMap(s=>s.resources.map(r=>[r.id,r]))));
 // The source terrain DEF palettes carry the game's unblocked/blocked minimap
 // colors at indices 8 and 9. Keep the supplied SoD palette, without guessing RGB.
-const byName=new Map([...resources.values()].map(resource=>[resource.name.toLowerCase(),resource]));
+const byName=new Map([...resources.values()].filter(resource=>resource.edition==='SoD').map(resource=>[resource.name.toLowerCase(),resource]));
 const terrainColors=['dirttl.def','sandtl.def','grastl.def','snowtl.def','swmptl.def','rougtl.def','subbtl.def','lavatl.def','watrtl.def','rocktl.def'].map(name=>{
   const resource=byName.get(name);
   if(!resource)throw new Error(`Missing minimap terrain palette: ${name}`);
@@ -17,7 +18,8 @@ const terrainColors=['dirttl.def','sandtl.def','grastl.def','snowtl.def','swmptl
 });
 // Minimal canvas adapter: use Explorer's own terrain and ownership rendering.
 globalThis.document={createElement(){return {getContext(){return {createImageData(w,h){return {width:w,height:h,data:new Uint8Array(w*h*4)};},putImageData(image){this.image=image;}};}};}};
-const reports=[];
+const auditPath=join(root,'content/wiki/_registry/campaign-audit.json');
+const reports=editionFilter&&existsSync(auditPath)?JSON.parse(readFileSync(auditPath,'utf8')).filter(record=>record.edition!==editionFilter):[];
 function minimap(map,level,path){
   let image;
   globalThis.document.createElement=()=>({getContext(){return {createImageData(w,h){return {width:w,height:h,data:new Uint8Array(w*h*4)};},putImageData(value){image=value;}};}});
@@ -25,10 +27,10 @@ function minimap(map,level,path){
   if(!image)return null;
   writeFileSync(path, image.data);return {width:image.width,height:image.height,rgba:path};
 }
-for(const resource of resources.values())if(resource.kind==='h3c'){
+for(const resource of resources.values())if(resource.kind==='h3c'&&(!editionFilter||resource.edition===editionFilter)){
   const original=new Uint8Array(readFileSync(join(root,'static',resource.original)));
   const campaign=await H3Map.parseH3C(original,{encoding:'windows-1251'});
-  const prefix='/assets/wiki/sod/h3bitmap-lod/display/'+resource.name;
+  const prefix=resource.original.replace('/original/','/display/');
   const folder=join(root,'static',prefix);mkdirSync(folder,{recursive:true});
   const aggregate={area:0,objects:0,towns:0,monsters:0,factions:{}};
   const scenarios=campaign.scenarios.map((sc,i)=>{
@@ -36,7 +38,7 @@ for(const resource of resources.values())if(resource.kind==='h3c'){
     const item={index:i,mapName:sc.mapName,regionText:sc.regionText,prologText:sc.prologText,epilogText:sc.epilogText,preconditions:sc.preconditions,difficulty:sc.difficultyName,bonuses:sc.bonuses};
     if(campaign.rawMaps[i]){
       const filename=`scenario-${i+1}.h3m`;
-      if(!existsSync(join(folder,filename)))writeFileSync(join(folder,filename),campaign.rawMaps[i]);item.original=prefix+'/'+filename;
+      writeFileSync(join(folder,filename),campaign.rawMaps[i]);item.original=prefix+'/'+filename;
     }
     if(map&&!map.parseError){
       Object.assign(item,{name:map.name,description:map.description,mapSize:map.mapSize,hasUnderground:map.hasUnderground,players:map.players,playerCount:map.playerCount,victory:map.victoryCondition,loss:map.lossCondition,factions:map.stats?.townsByFaction??{},objects:map.stats?.objectCount??map.objects?.length??0,towns:map.stats?.towns?.length??0,monsters:map.stats?.monsters?.length??0,minimaps:[]});
@@ -53,7 +55,7 @@ for(const resource of resources.values())if(resource.kind==='h3c'){
   const details=prefix+'/campaign.json';writeFileSync(join(folder,'campaign.json'),JSON.stringify(detail,null,2)+'\n');
   const summary={name:detail.name,description:detail.description,version:detail.version,scenarioCount:detail.scenarioCount,mapCount:detail.mapCount};
   for(const page of pages)for(const section of page.sections)for(const entry of section.resources)if(entry.id===resource.id){entry.campaign=summary;entry.details=details;delete entry.hex;}
-  reports.push({name:resource.name,...summary,errors:scenarios.filter(s=>s.parseError).map(s=>[s.index,s.parseError])});
+  reports.push({...summary,id:resource.id,filename:resource.name,edition:resource.edition,errors:scenarios.filter(s=>s.parseError).map(s=>[s.index,s.parseError])});
 }
 writeFileSync(pagesPath,JSON.stringify(pages,null,2)+'\n');
 writeFileSync(join(root,'content/wiki/_registry/campaign-audit.json'),JSON.stringify(reports,null,2)+'\n');

@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 21/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 21/39", "translationStatus": "reviewed"}
 ---
 
 ## Region maps / The Shadow of Death / Elixir of Life {#group-0}

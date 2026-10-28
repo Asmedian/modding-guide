@@ -55,6 +55,97 @@ def auxiliary_image(data, ext):
     return None
 
 
+def create_resource(output, archive, name, data, kind, ffmpeg=None, edition="SoD"):
+    """Extract one resource and prepare lazy browser derivatives for its edition."""
+    assets = output/"static/assets/wiki"/edition.lower()
+    rid = archive+"/"+name
+    ext = Path(name).suffix.lower()
+    folder = archive.replace('.','-').lower().replace(' ','-')
+    prefix = f'/assets/wiki/{edition.lower()}/{folder}'
+    path = assets/folder
+    for sub in ['original','preview','display']: (path/sub).mkdir(parents=True,exist_ok=True)
+    original = path/'original'/name
+    changed = not original.exists() or original.read_bytes() != data
+    if changed: original.write_bytes(data)
+    entry = {'id':rid,'name':name,'archive':archive,'edition':edition,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'anchor':'file-'+hashlib.sha256(rid.encode()).hexdigest()[:12],'original':prefix+'/original/'+name,'kind':ext[1:] or kind}
+    image = None
+    if ext == '.pcx':
+        image = pcx_image(data)
+    elif ext == '.def':
+        typ,w,h,groups = def_header(data)
+        image = def_frame(data,groups[0]['frames'][0][1])
+        entry.update({'type':typ,'groups':len(groups),'frames':sum(len(g['frames']) for g in groups),'frameGroups':def_group_summary(groups)})
+    elif kind in ('snd','vid'):
+        entry['kind'] = 'audio' if kind == 'snd' else 'video'
+        display = path/'display'/(name+('.wav' if kind == 'snd' else '.mp4'))
+        entry['media'] = prefix+'/display/'+display.name
+        if changed or not display.exists():
+            command = [ffmpeg,'-v','error','-y','-i',str(original)]
+            command += ['-c:a','pcm_s16le'] if kind == 'snd' else ['-map','0:v:0','-map','0:a:0?','-c:v','libx264','-preset','slow','-crf','18','-pix_fmt','yuv420p','-fps_mode','passthrough','-c:a','aac','-b:a','128k','-movflags','+faststart']
+            subprocess.run(command+[str(display)],check=True,capture_output=True)
+        if kind == 'snd':
+            # ADPCM decoders can emit padding at the final block. The RIFF
+            # fact chunk records the original number of audible samples.
+            pos, sample_count = 12, None
+            while pos+8 <= len(data):
+                length = struct.unpack_from('<I',data,pos+4)[0]
+                if data[pos:pos+4] == b'fact': sample_count = struct.unpack_from('<I',data,pos+8)[0]
+                pos += 8+length+(length%2)
+            if sample_count is not None:
+                with wave.open(str(display),'rb') as audio:
+                    params, count = audio.getparams(), audio.getnframes()
+                    samples = audio.readframes(sample_count)
+                # Some supplied WoG WAV headers claim more samples than their
+                # ADPCM blocks contain. Retain every decodable sample and the
+                # original fact value; never invent silence to satisfy it.
+                if count < sample_count:
+                    assert edition == 'WoG', name+' lost audio samples'
+                    entry['sourceFactSamples'] = sample_count
+                    sample_count = count
+                if count != sample_count:
+                    with wave.open(str(display),'wb') as audio:
+                        audio.setparams(params); audio.writeframes(samples)
+                entry['samples'] = sample_count
+        probe = Path(ffmpeg).with_name('ffprobe.exe' if Path(ffmpeg).suffix == '.exe' else 'ffprobe')
+        info = json.loads(subprocess.run([str(probe),'-v','error','-show_streams','-show_format','-of','json',str(display)],check=True,capture_output=True,text=True).stdout)
+        entry['duration'] = float(info['format']['duration'])
+        if kind == 'vid':
+            stream = next(s for s in info['streams'] if s['codec_type'] == 'video')
+            entry['fps'] = stream['r_frame_rate']
+            # Compare decoded source and output timestamps / frame count, not file sizes.
+            src = json.loads(subprocess.run([str(probe),'-v','error','-count_frames','-show_streams','-of','json',str(original)],check=True,capture_output=True,text=True).stdout)
+            sv = next(s for s in src['streams'] if s['codec_type'] == 'video')
+            dst = json.loads(subprocess.run([str(probe),'-v','error','-count_frames','-show_streams','-of','json',str(display)],check=True,capture_output=True,text=True).stdout)
+            dv = next(s for s in dst['streams'] if s['codec_type'] == 'video')
+            assert sv['nb_read_frames'] == dv['nb_read_frames'], name+' lost video frames'
+            assert sv['r_frame_rate'] == dv['r_frame_rate'], name+' changed frame rate'
+            entry['frames'] = int(dv['nb_read_frames'])
+            poster = path/'preview'/(name+'.png')
+            if changed or not poster.exists(): subprocess.run([ffmpeg,'-v','error','-y','-i',str(original),'-frames:v','1',str(poster)],check=True,capture_output=True)
+            image = Image.open(poster).copy()
+            entry['sourceFps'] = sv['r_frame_rate']
+        else:
+            # SND contains IMA ADPCM. PCM preserves rate, channels and sample count.
+            entry['sampleRate'] = int(info['streams'][0]['sample_rate'])
+            entry['channels'] = info['streams'][0]['channels']
+    else:
+        image = auxiliary_image(data,ext)
+        if image is None: entry['hex'] = data[:64].hex(' ')
+    if image is not None:
+        entry['width'],entry['height'] = image.size
+        if ext != '.def' and kind != 'vid':
+            full = path/'display'/(name+'.png')
+            if changed or not full.exists(): image.save(full,optimize=True)
+            entry['image'] = prefix+'/display/'+full.name
+        if ext == '.def' and image.getbbox(): image = image.crop(image.getbbox())
+        image.thumbnail((240,160),Image.Resampling.NEAREST)
+        preview = path/'preview'/(name+'.webp')
+        image.save(preview,format='WEBP',lossless=ext in ('.def','.msk','.fnt','.pal'),quality=82,method=6)
+        entry['preview'] = prefix+'/preview/'+preview.name
+        entry['previewWidth'],entry['previewHeight'] = image.size
+    return entry
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input',type=Path,required=True)
@@ -74,86 +165,9 @@ def main():
         return key
     def resource(archive, name, data, kind):
         rid = archive+'/'+name
-        if rid in resources: return resources[rid]
-        ext = Path(name).suffix.lower()
-        folder = archive.replace('.','-').lower()
-        prefix = f'/assets/wiki/sod/{folder}'
-        path = assets/folder
-        for sub in ['original','preview','display']: (path/sub).mkdir(parents=True,exist_ok=True)
-        original = path/'original'/name
-        if not original.exists(): original.write_bytes(data)
-        entry = {'id':rid,'name':name,'archive':archive,'edition':'SoD','bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'anchor':'file-'+hashlib.sha256(rid.encode()).hexdigest()[:12],'original':prefix+'/original/'+name,'kind':ext[1:] or kind}
-        image = None
-        if ext == '.pcx':
-            image = pcx_image(data)
-        elif ext == '.def':
-            typ,w,h,groups = def_header(data)
-            image = def_frame(data,groups[0]['frames'][0][1])
-            entry.update({'type':typ,'groups':len(groups),'frames':sum(len(g['frames']) for g in groups),'frameGroups':def_group_summary(groups)})
-        elif kind in ('snd','vid'):
-            entry['kind'] = 'audio' if kind == 'snd' else 'video'
-            display = path/'display'/(name+('.wav' if kind == 'snd' else '.mp4'))
-            entry['media'] = prefix+'/display/'+display.name
-            if not display.exists():
-                command = [args.ffmpeg,'-v','error','-y','-i',str(original)]
-                command += ['-c:a','pcm_s16le'] if kind == 'snd' else ['-map','0:v:0','-map','0:a:0?','-c:v','libx264','-preset','slow','-crf','18','-pix_fmt','yuv420p','-fps_mode','passthrough','-c:a','aac','-b:a','128k','-movflags','+faststart']
-                subprocess.run(command+[str(display)],check=True,capture_output=True)
-            if kind == 'snd':
-                # ADPCM decoders can emit padding at the final block. The RIFF
-                # fact chunk records the original number of audible samples.
-                pos, sample_count = 12, None
-                while pos+8 <= len(data):
-                    length = struct.unpack_from('<I',data,pos+4)[0]
-                    if data[pos:pos+4] == b'fact': sample_count = struct.unpack_from('<I',data,pos+8)[0]
-                    pos += 8+length+(length%2)
-                if sample_count is not None:
-                    with wave.open(str(display),'rb') as audio:
-                        params, count = audio.getparams(), audio.getnframes()
-                        samples = audio.readframes(sample_count)
-                    assert count >= sample_count, name+' lost audio samples'
-                    if count != sample_count:
-                        with wave.open(str(display),'wb') as audio:
-                            audio.setparams(params); audio.writeframes(samples)
-                    entry['samples'] = sample_count
-            probe = Path(args.ffmpeg).with_name('ffprobe.exe' if Path(args.ffmpeg).suffix == '.exe' else 'ffprobe')
-            info = json.loads(subprocess.run([str(probe),'-v','error','-show_streams','-show_format','-of','json',str(display)],check=True,capture_output=True,text=True).stdout)
-            entry['duration'] = float(info['format']['duration'])
-            if kind == 'vid':
-                stream = next(s for s in info['streams'] if s['codec_type'] == 'video')
-                entry['fps'] = stream['r_frame_rate']
-                # Compare decoded source and output timestamps / frame count, not file sizes.
-                src = json.loads(subprocess.run([str(probe),'-v','error','-count_frames','-show_streams','-of','json',str(original)],check=True,capture_output=True,text=True).stdout)
-                sv = next(s for s in src['streams'] if s['codec_type'] == 'video')
-                dst = json.loads(subprocess.run([str(probe),'-v','error','-count_frames','-show_streams','-of','json',str(display)],check=True,capture_output=True,text=True).stdout)
-                dv = next(s for s in dst['streams'] if s['codec_type'] == 'video')
-                assert sv['nb_read_frames'] == dv['nb_read_frames'], name+' lost video frames'
-                assert sv['r_frame_rate'] == dv['r_frame_rate'], name+' changed frame rate'
-                entry['frames'] = int(dv['nb_read_frames'])
-                poster = path/'preview'/(name+'.png')
-                if not poster.exists(): subprocess.run([args.ffmpeg,'-v','error','-y','-i',str(original),'-frames:v','1',str(poster)],check=True,capture_output=True)
-                image = Image.open(poster).copy()
-                entry['sourceFps'] = sv['r_frame_rate']
-            else:
-                # SND contains IMA ADPCM. PCM preserves rate, channels and sample count.
-                entry['sampleRate'] = int(info['streams'][0]['sample_rate'])
-                entry['channels'] = info['streams'][0]['channels']
-        else:
-            image = auxiliary_image(data,ext)
-            if image is None: entry['hex'] = data[:64].hex(' ')
-        if image is not None:
-            entry['width'],entry['height'] = image.size
-            if ext != '.def' and kind != 'vid':
-                full = path/'display'/(name+'.png')
-                if not full.exists(): image.save(full,optimize=True)
-                entry['image'] = prefix+'/display/'+full.name
-            if ext == '.def' and image.getbbox(): image = image.crop(image.getbbox())
-            image.thumbnail((240,160),Image.Resampling.NEAREST)
-            preview = path/'preview'/(name+'.webp')
-            image.save(preview,format='WEBP',lossless=ext in ('.def','.msk','.fnt','.pal'),quality=82,method=6)
-            entry['preview'] = prefix+'/preview/'+preview.name
-            entry['previewWidth'],entry['previewHeight'] = image.size
-        resources[rid] = entry
-        return entry
+        if rid not in resources:
+            resources[rid] = create_resource(output, archive, name, data, kind, args.ffmpeg)
+        return resources[rid]
     def flatten(node,path,lookup,archive,kind):
         rows = []
         entries = []

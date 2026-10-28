@@ -1,0 +1,607 @@
+{
+  "name": "Playing with Fire",
+  "description": "Adrienne the Fire Witch discovers a Death Knight is turning the local population into a harvesting ground for Undead.  Restore to the land and hunt down this evil.  Utter extermination of the undead plague is your ultimate goal.",
+  "version": "AB",
+  "scenarioCount": 3,
+  "mapCount": 3,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 69984,
+    "objects": 16622,
+    "towns": 46,
+    "monsters": 474,
+    "factions": {
+      "Castle": 4,
+      "Fortress": 33,
+      "Necropolis": 9
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "Adrienne1.h3m",
+      "regionText": "The peasantry has been slaughtered to make an undead army.  It is as if someone is farming the people to grow a mammoth crop of mindless soldiers.  The purpose of this army is still unknown, but someone must restore order on the Ertahian-Tatalian border.  That someone is you.",
+      "prologText": "Traveling from Erathia to my homeland of Tatalia, I have passed through several towns.   I have yet to encounter a living soul.  There is only the lingering stench of the undead.  I fear a necromancer in the area is raising an army.  'Who...' is unknown.  'Why...' is unknown.",
+      "preconditions": 0,
+      "difficulty": "Normal",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 145,
+          "artifactId": 45
+        },
+        {
+          "type": 3,
+          "heroId": 145,
+          "artifactId": 74
+        },
+        {
+          "type": 3,
+          "heroId": 145,
+          "artifactId": 37
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-1.h3m",
+      "name": "Farming Towns",
+      "description": "Establish a home base and then liberate the other towns on either side of the border. Destroy all of the undead in the area and defeat the Necromancers who are doing this.   Adrienne and three of your best heroes are restricted to twelfth level, but will transfer to the next scenario.",
+      "mapSize": 72,
+      "hasUnderground": false,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 145,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 145,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 68,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 68,
+              "name": ""
+            },
+            {
+              "id": 79,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 69,
+        "y": 69,
+        "z": 0
+      },
+      "factions": {
+        "Castle": 4,
+        "Fortress": 4
+      },
+      "objects": 2134,
+      "towns": 8,
+      "monsters": 87,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-1-0.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "Adrienne2.h3m",
+      "regionText": "It has been confirmed.  Lord Haart was raised from the dead and is now sweeping through Tatalia creating an undead army of mammoth proportions.  Behind the Undead Knight lies a trail of death and destruction.  To track him down is the easy thing.  Restoring the land he has destroyed is another matter all together.  Free the inhabitants from their undead captors and they will join your cause.",
+      "prologText": "With the conclusion of the Restoration War, Lord Haart's necromantic cult disbanded and went into hiding.  It appears they have resurfaced and resurrected their leader.   Now Lord Haart walks the Tatalian lands a Death Knight.  If I am to continue my hunt for the dead warrior, I will need help.  I hope my countrymen will be wise and not shun a hero who embraces fire magic.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 99,
+          "amount": 20
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 101,
+          "amount": 10
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 105,
+          "amount": 5
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-2.h3m",
+      "name": "March of the Undead",
+      "description": "To win this scenario flag all creature generators within seven months.  Beware, each are heavily guarded by hordes of undead.  If you lose Adrienne then all is lost.  Heroes will be limited to level 32, but six of your heroes will be carried over to the next scenario.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 145,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 68,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 68,
+              "name": ""
+            },
+            {
+              "id": 70,
+              "name": ""
+            },
+            {
+              "id": 74,
+              "name": ""
+            },
+            {
+              "id": 77,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 71,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 69,
+              "name": ""
+            },
+            {
+              "id": 71,
+              "name": ""
+            },
+            {
+              "id": 72,
+              "name": ""
+            },
+            {
+              "id": 79,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 8,
+        "name": "Flag all creature dwellings",
+        "allowNormalVictory": false,
+        "appliesToComputer": false
+      },
+      "loss": {
+        "type": 2,
+        "name": "Time limit",
+        "days": 196
+      },
+      "factions": {
+        "Fortress": 9
+      },
+      "objects": 4770,
+      "towns": 9,
+      "monsters": 205,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "Adrienne3.h3m",
+      "regionText": "It is time to confront the Death Knight Lord Haart.  Take your armies and defeat the traitorous fiend.  His loyal followers assist this force of death as he mows a path through Tatalia several miles wide all the way to the ocean.",
+      "prologText": "I do not know what the dead remember from their time among the living.  If Lord Haart had memory of Tatalia, it has failed him.  Scouts report the dead knight has turned northwest and set up along the coast.  Now I have him trapped.  However, army morale is low.   My people do not like following a fire witch, yet they dislike becoming undead even more.  ",
+      "epilogText": "Tomorrow, I will wake and this nightmare will end for both myself, Tatalia, and its people.  I do not know if I have buried a hero... or a villan.  In my travels I have heard many stories of Lord Haart's bravery and ultimate downfall.  When I lay to rest, I wonder if the stories my countrymen tell will speak of me as a fire witch in a land of earth and water... or as hero.",
+      "preconditions": 2,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 100,
+          "amount": 30
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 104,
+          "amount": 10
+        },
+        {
+          "type": 1,
+          "heroId": -3,
+          "creatureId": 106,
+          "amount": 5
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-3.h3m",
+      "name": "Burning of Tatalia",
+      "description": "Defeat Lord Haart and all of his followers, freeing Tatalia from the bony grasp of deadly evil.  If Adrienne dies, you will lose your war against this horrific evil.  Seek the Seer's Huts to find the Tomes of Fire and Earth magic in order to help destroy Lord Haart.",
+      "mapSize": 144,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 128,
+          "isFactionRandom": false,
+          "factions": [
+            "Fortress"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 145,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 76,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Sethe",
+          "heroes": [
+            {
+              "id": 68,
+              "name": "Kajitianna"
+            },
+            {
+              "id": 75,
+              "name": "Nuzrath"
+            },
+            {
+              "id": 76,
+              "name": "Sethe"
+            },
+            {
+              "id": 150,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 69,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Vellore",
+          "heroes": [
+            {
+              "id": 67,
+              "name": "Dikisha"
+            },
+            {
+              "id": 69,
+              "name": "Vellore"
+            },
+            {
+              "id": 70,
+              "name": "Zartaj"
+            },
+            {
+              "id": 78,
+              "name": "Photima"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 72,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Hortensia",
+          "heroes": [
+            {
+              "id": 66,
+              "name": "Mihalis"
+            },
+            {
+              "id": 71,
+              "name": "Godomir"
+            },
+            {
+              "id": 72,
+              "name": "Hortensia"
+            },
+            {
+              "id": 79,
+              "name": "Qenay"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 16,
+          "isFactionRandom": false,
+          "factions": [
+            "Necropolis"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 64,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "Obekan",
+          "heroes": [
+            {
+              "id": 64,
+              "name": "Obekan"
+            },
+            {
+              "id": 65,
+              "name": "Jelan"
+            },
+            {
+              "id": 73,
+              "name": "Tejveer"
+            },
+            {
+              "id": 74,
+              "name": "Ajorn"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 5,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 139,
+        "y": 141,
+        "z": 0
+      },
+      "factions": {
+        "Necropolis": 9,
+        "Fortress": 20
+      },
+      "objects": 9718,
+      "towns": 29,
+      "monsters": 182,
+      "minimaps": [
+        {
+          "width": 144,
+          "height": 144,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 144,
+          "height": 144,
+          "image": "/assets/wiki/ab/ab-campaigns/display/fire.h3c/scenario-3-1.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 6/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 6/39", "translationStatus": "reviewed"}
 ---
 
 ## Region maps / Restoration of Erathia / Liberation {#group-0}

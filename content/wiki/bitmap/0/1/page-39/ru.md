@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 39/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 39/39", "translationStatus": "reviewed"}
 ---
 
 ## Прочие файлы {#group-0}
@@ -8,6 +8,24 @@
 
 | File | Resource | Source |
 | --- | --- | --- |
+| `E2D_SE.PCX` {#file-9ee9b1a23089} | pcx | H3bitmap.lod · SoD |
+| `G1A_CO.PCX` {#file-3838ebe02568} | pcx | H3bitmap.lod · SoD |
+| `G1A_EN.PCX` {#file-b3d723ac2c0a} | pcx | H3bitmap.lod · SoD |
+| `G1A_SE.PCX` {#file-95837cbe71ee} | pcx | H3bitmap.lod · SoD |
+| `G1B_CO.PCX` {#file-7f05afda8f98} | pcx | H3bitmap.lod · SoD |
+| `G1B_EN.PCX` {#file-3ff808a49202} | pcx | H3bitmap.lod · SoD |
+| `G1B_SE.PCX` {#file-7bb8e48c39bd} | pcx | H3bitmap.lod · SoD |
+| `G1C_CO.PCX` {#file-cb156f6a6e9a} | pcx | H3bitmap.lod · SoD |
+| `G1C_EN.PCX` {#file-52aa5eb257b7} | pcx | H3bitmap.lod · SoD |
+| `G1C_SE.PCX` {#file-f276a47056cf} | pcx | H3bitmap.lod · SoD |
+| `G2A_CO.PCX` {#file-4f009a91a99e} | pcx | H3bitmap.lod · SoD |
+| `G2A_EN.PCX` {#file-e7f5e1727a76} | pcx | H3bitmap.lod · SoD |
+| `G2A_SE.PCX` {#file-7ed9fe9f727f} | pcx | H3bitmap.lod · SoD |
+| `G2B_CO.PCX` {#file-38551f9be4bd} | pcx | H3bitmap.lod · SoD |
+| `G2B_EN.PCX` {#file-20b5a1d81130} | pcx | H3bitmap.lod · SoD |
+| `G2B_SE.PCX` {#file-6d0d29c751ec} | pcx | H3bitmap.lod · SoD |
+| `G2C_CO.PCX` {#file-3ccf9180fc80} | pcx | H3bitmap.lod · SoD |
+| `G2C_EN.PCX` {#file-054714301360} | pcx | H3bitmap.lod · SoD |
 | `G2C_SE.PCX` {#file-4f5e8a5c640c} | pcx | H3bitmap.lod · SoD |
 | `G2D_CO.PCX` {#file-7993eb1004bb} | pcx | H3bitmap.lod · SoD |
 | `G2D_EN.PCX` {#file-1111ec550433} | pcx | H3bitmap.lod · SoD |

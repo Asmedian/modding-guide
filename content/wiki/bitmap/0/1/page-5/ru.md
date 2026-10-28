@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 5/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 5/39", "translationStatus": "reviewed"}
 ---
 
 ## Карты регионов / Возрождение Эрафии / Отголоски войны {#group-0}

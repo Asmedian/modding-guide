@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 38/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 38/39", "translationStatus": "reviewed"}
 ---
 
 ## Прочие файлы {#group-0}
@@ -8,6 +8,24 @@
 
 | File | Resource | Source |
 | --- | --- | --- |
+| `CBONG2A3.PCX` {#file-580d596640df} | pcx | H3bitmap.lod · SoD |
+| `CBONG2B1.PCX` {#file-ea4d8811c702} | pcx | H3bitmap.lod · SoD |
+| `CBONG2B2.PCX` {#file-4093d5ba50ee} | pcx | H3bitmap.lod · SoD |
+| `CBONG2B3.PCX` {#file-ce1177fbe943} | pcx | H3bitmap.lod · SoD |
+| `CBONG2C1.PCX` {#file-71bd573c42c1} | pcx | H3bitmap.lod · SoD |
+| `CBONG2C2.PCX` {#file-35b0a931fe67} | pcx | H3bitmap.lod · SoD |
+| `CBONG2C3.PCX` {#file-e575a14bfaf6} | pcx | H3bitmap.lod · SoD |
+| `CBONG2D1.PCX` {#file-6183399bd5e1} | pcx | H3bitmap.lod · SoD |
+| `CBONG2D2.PCX` {#file-f5f2c68c9655} | pcx | H3bitmap.lod · SoD |
+| `CBONG2D3.PCX` {#file-57ed9bcf878b} | pcx | H3bitmap.lod · SoD |
+| `CBONG3A1.PCX` {#file-de3864c3f6d7} | pcx | H3bitmap.lod · SoD |
+| `CBONG3A2.PCX` {#file-f4c2779f1fc4} | pcx | H3bitmap.lod · SoD |
+| `CBONG3A3.PCX` {#file-4d790a6ee28a} | pcx | H3bitmap.lod · SoD |
+| `CBONG3B1.PCX` {#file-78040933abe9} | pcx | H3bitmap.lod · SoD |
+| `CBONG3B2.PCX` {#file-781a6296a8a8} | pcx | H3bitmap.lod · SoD |
+| `CBONG3B3.PCX` {#file-fe6632ee993f} | pcx | H3bitmap.lod · SoD |
+| `CBONG3C1.PCX` {#file-ac92ee1261cf} | pcx | H3bitmap.lod · SoD |
+| `CBONG3C2.PCX` {#file-22288be71cee} | pcx | H3bitmap.lod · SoD |
 | `CBONG3C3.PCX` {#file-620f5df924c9} | pcx | H3bitmap.lod · SoD |
 | `CBONN1A1.PCX` {#file-720be4825ce7} | pcx | H3bitmap.lod · SoD |
 | `CBONN1A2.PCX` {#file-43df3b70f020} | pcx | H3bitmap.lod · SoD |
@@ -62,22 +80,4 @@
 | `E2C_SE.PCX` {#file-4f14bace7209} | pcx | H3bitmap.lod · SoD |
 | `E2D_CO.PCX` {#file-33bb808700e1} | pcx | H3bitmap.lod · SoD |
 | `E2D_EN.PCX` {#file-8f642625a3d2} | pcx | H3bitmap.lod · SoD |
-| `E2D_SE.PCX` {#file-9ee9b1a23089} | pcx | H3bitmap.lod · SoD |
-| `G1A_CO.PCX` {#file-3838ebe02568} | pcx | H3bitmap.lod · SoD |
-| `G1A_EN.PCX` {#file-b3d723ac2c0a} | pcx | H3bitmap.lod · SoD |
-| `G1A_SE.PCX` {#file-95837cbe71ee} | pcx | H3bitmap.lod · SoD |
-| `G1B_CO.PCX` {#file-7f05afda8f98} | pcx | H3bitmap.lod · SoD |
-| `G1B_EN.PCX` {#file-3ff808a49202} | pcx | H3bitmap.lod · SoD |
-| `G1B_SE.PCX` {#file-7bb8e48c39bd} | pcx | H3bitmap.lod · SoD |
-| `G1C_CO.PCX` {#file-cb156f6a6e9a} | pcx | H3bitmap.lod · SoD |
-| `G1C_EN.PCX` {#file-52aa5eb257b7} | pcx | H3bitmap.lod · SoD |
-| `G1C_SE.PCX` {#file-f276a47056cf} | pcx | H3bitmap.lod · SoD |
-| `G2A_CO.PCX` {#file-4f009a91a99e} | pcx | H3bitmap.lod · SoD |
-| `G2A_EN.PCX` {#file-e7f5e1727a76} | pcx | H3bitmap.lod · SoD |
-| `G2A_SE.PCX` {#file-7ed9fe9f727f} | pcx | H3bitmap.lod · SoD |
-| `G2B_CO.PCX` {#file-38551f9be4bd} | pcx | H3bitmap.lod · SoD |
-| `G2B_EN.PCX` {#file-20b5a1d81130} | pcx | H3bitmap.lod · SoD |
-| `G2B_SE.PCX` {#file-6d0d29c751ec} | pcx | H3bitmap.lod · SoD |
-| `G2C_CO.PCX` {#file-3ccf9180fc80} | pcx | H3bitmap.lod · SoD |
-| `G2C_EN.PCX` {#file-054714301360} | pcx | H3bitmap.lod · SoD |
 

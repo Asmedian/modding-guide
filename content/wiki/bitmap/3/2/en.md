@@ -1,5 +1,5 @@
 ---
-{"title": "The Shadow of Death", "summary": "SoD · H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
+{"title": "The Shadow of Death", "summary": "H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
 ---
 
 ## New Beginning {#group-0}

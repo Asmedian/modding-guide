@@ -64,6 +64,72 @@ Resolve relative body links against URL above. Rich HTML is inert source text; c
 | `Secret1.h3c` {#file-60ba6932592f} | h3c | H3bitmap.lod · SoD |
 <!-- llm:end wiki.bitmap.3.0 1 -->
 
+# Armageddon's Blade
+
+ID: wiki.bitmap.3.1
+URL: /en/wiki/bitmap/3/1/
+Part: 1/1
+Source references: wiki-ab:ab.h3c, wiki-ab:blood.h3c, wiki-ab:festival.h3c, wiki-ab:fire.h3c, wiki-ab:fool.h3c, wiki-ab:Neutral.h3c, wiki-ab:slayer.h3c
+Resolve relative body links against URL above. Rich HTML is inert source text; comments are included even when collapsed on the site.
+
+<!-- llm:body wiki.bitmap.3.1 1 -->
+## Armageddon's Blade {#group-0}
+
+### Armageddon's Blade {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `ab.h3c` {#file-925c5a7ab0fe} | h3c | AB campaigns · AB |
+
+## Dragon's Blood {#group-1}
+
+### Dragon's Blood {#group-1-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `blood.h3c` {#file-3e6f1c34bc4f} | h3c | AB campaigns · AB |
+
+## Festival of Life {#group-2}
+
+### Festival of Life {#group-2-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `festival.h3c` {#file-121e9e51b8a2} | h3c | AB campaigns · AB |
+
+## Playing with Fire {#group-3}
+
+### Playing with Fire {#group-3-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `fire.h3c` {#file-f541389e530d} | h3c | AB campaigns · AB |
+
+## Foolhardy Waywardness {#group-4}
+
+### Foolhardy Waywardness {#group-4-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `fool.h3c` {#file-f1de8d994c02} | h3c | AB campaigns · AB |
+
+## Spoils of War {#group-5}
+
+### Spoils of War {#group-5-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Neutral.h3c` {#file-ddc8369b932c} | h3c | AB campaigns · AB |
+
+## Dragon Slayer {#group-6}
+
+### Dragon Slayer {#group-6-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `slayer.h3c` {#file-2da79b32a78b} | h3c | AB campaigns · AB |
+<!-- llm:end wiki.bitmap.3.1 1 -->
+
 # The Shadow of Death
 
 ID: wiki.bitmap.3.2

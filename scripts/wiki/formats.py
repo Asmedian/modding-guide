@@ -57,7 +57,9 @@ def def_header(data):
     pos, groups = 784, []
     for _ in range(count):
         gid, n, _, _ = struct.unpack_from('<4I', data, pos); pos += 16
-        names = [data[pos+i*13:pos+(i+1)*13].split(b'\0')[0].decode('ascii') for i in range(n)]
+        # Some WoG frame-name slots contain opaque high bytes (including 0xCD
+        # padding). Preserve them one-to-one, as the browser Explorer reader does.
+        names = [data[pos+i*13:pos+(i+1)*13].split(b'\0')[0].decode('latin-1') for i in range(n)]
         pos += n*13
         offsets = struct.unpack_from('<'+'I'*n, data, pos); pos += n*4
         groups.append({'id': gid, 'frames': list(zip(names, offsets))})

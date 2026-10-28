@@ -27,7 +27,7 @@
   function close(){dispatch('close');}
 </script>
 <dialog bind:this={dialog} use:dismissOutside={close} class="wiki-dialog wiki-resource-dialog" aria-labelledby="resource-title" on:cancel={(event)=>{event.preventDefault();close();}}>
-  <header class="wiki-dialog-header"><h2 id="resource-title" class="wiki-heading">{resource.name}<small class="wiki-edition">SoD</small></h2>
+  <header class="wiki-dialog-header"><h2 id="resource-title" class="wiki-heading">{resource.name}{#if resource.kind !== 'h3c'}<small class="wiki-edition">{resource.edition}</small>{/if}</h2>
     {#if resource.image}<a class="wiki-raised-button" href={`${base}${resource.image}`} target="_blank" rel="noreferrer" title={t('wiki.openImageTab')} aria-label={t('wiki.openImageTab')}><WikiIcon name="external" /></a>{/if}
     <button class="wiki-raised-button" on:click={close} aria-label={t('wiki.close')}><WikiIcon name="close" /></button>
   </header>

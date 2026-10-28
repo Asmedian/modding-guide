@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 29/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 29/39", "translationStatus": "reviewed"}
 ---
 
 ## Карты регионов / Дыхание Смерти / Союз нечисти {#group-0}

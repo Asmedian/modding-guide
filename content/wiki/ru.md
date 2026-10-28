@@ -1,3 +1,3 @@
 ---
-{"title": "Wiki", "summary": "Ресурсы Heroes III: изображения, DEF, звуки и видео из SoD.", "translationStatus": "reviewed"}
+{"title": "Wiki", "summary": "Ресурсы Heroes III: графика, DEF-анимации, звуки, видео и кампании SoD, AB и WoG.", "translationStatus": "reviewed"}
 ---

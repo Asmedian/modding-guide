@@ -2,9 +2,9 @@
 
 ID: wiki.overview
 URL: /en/wiki/
-Source references: wiki-sod:H3bitmap.lod, wiki-sod:H3bitmap.lf, wiki-sod:H3sprite.lod, wiki-sod:H3sprite.lf, wiki-sod:Heroes3.snd, wiki-sod:VIDEO.VID, wiki-sod:H3DefTool_portable_creature_packer.zip, wiki-sod:homm3-explorer-main.zip, wiki-sod:h3deftool-groups
+Source references: wiki-sod:H3bitmap.lod, wiki-sod:H3bitmap.lf, wiki-sod:H3sprite.lod, wiki-sod:H3sprite.lf, wiki-sod:Heroes3.snd, wiki-sod:VIDEO.VID, wiki-sod:H3DefTool_portable_creature_packer.zip, wiki-sod:homm3-explorer-main.zip, wiki-sod:h3deftool-groups, wiki-ab:ab.h3c, wiki-ab:blood.h3c, wiki-ab:Camp1AB7.bmp, wiki-ab:Camp1DB2.bmp, wiki-ab:Camp1DS1.bmp, wiki-ab:Camp1FL3.bmp, wiki-ab:Camp1FW1.bmp, wiki-ab:Camp1PF2.bmp, wiki-ab:festival.h3c, wiki-ab:fire.h3c, wiki-ab:fool.h3c, wiki-ab:Neutral.h3c, wiki-ab:slayer.h3c, wiki-ab:TarnumBL.bmp, wiki-ab:TarnumBS.bmp, wiki-ab:TarnumCL.bmp, wiki-ab:TarnumCS.bmp, wiki-ab:TarnumEL.bmp, wiki-ab:TarnumES.bmp, wiki-ab:TarnumFL.bmp, wiki-ab:TarnumFS.bmp, wiki-ab:TarnumUL.bmp, wiki-ab:TarnumUS.bmp, wiki-ab:TarnumWL.bmp, wiki-ab:TarnumWS.bmp, wiki-wog:hmm35wog.pac, wiki-wog:wog.snd, wiki-wog:wog.vid
 
-Heroes III resources: SoD images, DEF animations, sounds and videos.
+Heroes III resources: SoD, AB and WoG graphics, DEF animations, sounds, videos and campaigns.
 
 
 
@@ -2422,7 +2422,7 @@ ID: wiki.bitmap.0.1
 URL: /en/wiki/bitmap/0/1/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 1/39
+H3bitmap.lod · 1/39
 
 ## Campaign start screens / Restoration of Erathia / Long Live the Queen {#group-0}
 
@@ -2663,7 +2663,7 @@ ID: wiki.bitmap.0.1.page-10
 URL: /en/wiki/bitmap/0/1/page-10/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 10/39
+H3bitmap.lod · 10/39
 
 ## Region maps / Restoration of Erathia / Seeds of Discontent {#group-0}
 
@@ -2765,7 +2765,7 @@ ID: wiki.bitmap.0.1.page-11
 URL: /en/wiki/bitmap/0/1/page-11/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 11/39
+H3bitmap.lod · 11/39
 
 ## Region maps / Armageddon's Blade / Armageddon's Blade {#group-0}
 
@@ -2858,7 +2858,7 @@ ID: wiki.bitmap.0.1.page-12
 URL: /en/wiki/bitmap/0/1/page-12/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 12/39
+H3bitmap.lod · 12/39
 
 ## Region maps / Armageddon's Blade / Armageddon's Blade {#group-0}
 
@@ -2958,7 +2958,7 @@ ID: wiki.bitmap.0.1.page-13
 URL: /en/wiki/bitmap/0/1/page-13/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 13/39
+H3bitmap.lod · 13/39
 
 ## Region maps / Armageddon's Blade / Dragon's Blood {#group-0}
 
@@ -3051,7 +3051,7 @@ ID: wiki.bitmap.0.1.page-14
 URL: /en/wiki/bitmap/0/1/page-14/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 14/39
+H3bitmap.lod · 14/39
 
 ## Region maps / Armageddon's Blade / Dragon's Blood {#group-0}
 
@@ -3151,7 +3151,7 @@ ID: wiki.bitmap.0.1.page-15
 URL: /en/wiki/bitmap/0/1/page-15/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 15/39
+H3bitmap.lod · 15/39
 
 ## Region maps / Armageddon's Blade / Dragon Slayer {#group-0}
 
@@ -3251,7 +3251,7 @@ ID: wiki.bitmap.0.1.page-16
 URL: /en/wiki/bitmap/0/1/page-16/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 16/39
+H3bitmap.lod · 16/39
 
 ## Region maps / Armageddon's Blade / Festival of Life {#group-0}
 
@@ -3351,7 +3351,7 @@ ID: wiki.bitmap.0.1.page-17
 URL: /en/wiki/bitmap/0/1/page-17/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 17/39
+H3bitmap.lod · 17/39
 
 ## Region maps / Armageddon's Blade / Playing with Fire {#group-0}
 
@@ -3451,7 +3451,7 @@ ID: wiki.bitmap.0.1.page-18
 URL: /en/wiki/bitmap/0/1/page-18/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 18/39
+H3bitmap.lod · 18/39
 
 ## Region maps / Armageddon's Blade / Foolhardy Waywardness {#group-0}
 
@@ -3544,7 +3544,7 @@ ID: wiki.bitmap.0.1.page-19
 URL: /en/wiki/bitmap/0/1/page-19/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 19/39
+H3bitmap.lod · 19/39
 
 ## Region maps / Armageddon's Blade / Foolhardy Waywardness {#group-0}
 
@@ -3646,7 +3646,7 @@ ID: wiki.bitmap.0.1.page-2
 URL: /en/wiki/bitmap/0/1/page-2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 2/39
+H3bitmap.lod · 2/39
 
 ## Region maps / Restoration of Erathia / Long Live the Queen {#group-0}
 
@@ -3746,7 +3746,7 @@ ID: wiki.bitmap.0.1.page-20
 URL: /en/wiki/bitmap/0/1/page-20/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 20/39
+H3bitmap.lod · 20/39
 
 ## Region maps / The Shadow of Death / New Beginning {#group-0}
 
@@ -3846,7 +3846,7 @@ ID: wiki.bitmap.0.1.page-21
 URL: /en/wiki/bitmap/0/1/page-21/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 21/39
+H3bitmap.lod · 21/39
 
 ## Region maps / The Shadow of Death / Elixir of Life {#group-0}
 
@@ -3946,7 +3946,7 @@ ID: wiki.bitmap.0.1.page-22
 URL: /en/wiki/bitmap/0/1/page-22/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 22/39
+H3bitmap.lod · 22/39
 
 ## Region maps / The Shadow of Death / Hack and Slash {#group-0}
 
@@ -4039,7 +4039,7 @@ ID: wiki.bitmap.0.1.page-23
 URL: /en/wiki/bitmap/0/1/page-23/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 23/39
+H3bitmap.lod · 23/39
 
 ## Region maps / The Shadow of Death / Hack and Slash {#group-0}
 
@@ -4139,7 +4139,7 @@ ID: wiki.bitmap.0.1.page-24
 URL: /en/wiki/bitmap/0/1/page-24/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 24/39
+H3bitmap.lod · 24/39
 
 ## Region maps / The Shadow of Death / Birth of a Barbarian {#group-0}
 
@@ -4239,7 +4239,7 @@ ID: wiki.bitmap.0.1.page-25
 URL: /en/wiki/bitmap/0/1/page-25/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 25/39
+H3bitmap.lod · 25/39
 
 ## Region maps / The Shadow of Death / Rise of the Necromancer {#group-0}
 
@@ -4332,7 +4332,7 @@ ID: wiki.bitmap.0.1.page-26
 URL: /en/wiki/bitmap/0/1/page-26/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 26/39
+H3bitmap.lod · 26/39
 
 ## Region maps / The Shadow of Death / Rise of the Necromancer {#group-0}
 
@@ -4432,7 +4432,7 @@ ID: wiki.bitmap.0.1.page-27
 URL: /en/wiki/bitmap/0/1/page-27/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 27/39
+H3bitmap.lod · 27/39
 
 ## Region maps / The Shadow of Death / Unholy Alliance {#group-0}
 
@@ -4525,7 +4525,7 @@ ID: wiki.bitmap.0.1.page-28
 URL: /en/wiki/bitmap/0/1/page-28/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 28/39
+H3bitmap.lod · 28/39
 
 ## Region maps / The Shadow of Death / Unholy Alliance {#group-0}
 
@@ -4618,7 +4618,7 @@ ID: wiki.bitmap.0.1.page-29
 URL: /en/wiki/bitmap/0/1/page-29/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 29/39
+H3bitmap.lod · 29/39
 
 ## Region maps / The Shadow of Death / Unholy Alliance {#group-0}
 
@@ -4711,7 +4711,7 @@ ID: wiki.bitmap.0.1.page-3
 URL: /en/wiki/bitmap/0/1/page-3/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 3/39
+H3bitmap.lod · 3/39
 
 ## Region maps / Restoration of Erathia / Dungeons and Devils {#group-0}
 
@@ -4804,7 +4804,7 @@ ID: wiki.bitmap.0.1.page-30
 URL: /en/wiki/bitmap/0/1/page-30/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 30/39
+H3bitmap.lod · 30/39
 
 ## Region maps / The Shadow of Death / Unholy Alliance {#group-0}
 
@@ -4904,7 +4904,7 @@ ID: wiki.bitmap.0.1.page-31
 URL: /en/wiki/bitmap/0/1/page-31/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 31/39
+H3bitmap.lod · 31/39
 
 ## Region maps / The Shadow of Death / Specter of Power {#group-0}
 
@@ -5006,7 +5006,7 @@ ID: wiki.bitmap.0.1.page-32
 URL: /en/wiki/bitmap/0/1/page-32/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 32/39
+H3bitmap.lod · 32/39
 
 ## Building bonus icons / Castle (note #4) {#group-0}
 
@@ -5118,7 +5118,7 @@ ID: wiki.bitmap.0.1.page-33
 URL: /en/wiki/bitmap/0/1/page-33/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 33/39
+H3bitmap.lod · 33/39
 
 ## Building bonus icons / Inferno {#group-0}
 
@@ -5223,7 +5223,7 @@ ID: wiki.bitmap.0.1.page-34
 URL: /en/wiki/bitmap/0/1/page-34/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 34/39
+H3bitmap.lod · 34/39
 
 ## Building bonus icons / Dungeon {#group-0}
 
@@ -5326,9 +5326,9 @@ SoD · H3bitmap.lod · 34/39
 
 ID: wiki.bitmap.0.1.page-35
 URL: /en/wiki/bitmap/0/1/page-35/
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod, wiki-ab:Camp1AB7.bmp, wiki-ab:Camp1DB2.bmp, wiki-ab:Camp1DS1.bmp, wiki-ab:Camp1FL3.bmp, wiki-ab:Camp1PF2.bmp, wiki-ab:Camp1FW1.bmp
 
-SoD · H3bitmap.lod · 35/39
+H3bitmap.lod, AB campaigns · 35/39
 
 ## Building bonus icons / Fortress {#group-0}
 
@@ -5456,105 +5456,122 @@ SoD · H3bitmap.lod · 35/39
 | --- | --- | --- |
 | `CAMPSCTS.PCX` {#file-bdf914eb64ad} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness {#group-9}
+## Campaign selection images / Armageddon's Blade (note #3) / Armageddon's Blade {#group-9}
 
 ### Armageddon's Blade (note #3) {#group-9-depth-1}
 
-### Foolhardy Waywardness {#group-9-depth-2}
+### Armageddon's Blade {#group-9-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1AB7.pcx` {#file-5a33e60d3a0c} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Dragon's Blood {#group-10}
+
+### Dragon's Blood {#group-10-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1DB2.pcx` {#file-86875003fae2} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Dragon Slayer {#group-11}
+
+### Dragon Slayer {#group-11-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1DS1.pcx` {#file-a66dc933a8c0} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Festival of Life {#group-12}
+
+### Festival of Life {#group-12-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1FL3.pcx` {#file-2cb26c854780} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Playing with Fire {#group-13}
+
+### Playing with Fire {#group-13-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1PF2.pcx` {#file-c9a604e741c3} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness {#group-14}
+
+### Foolhardy Waywardness {#group-14-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `Camp1FWX.pcx` {#file-9ec650c33fb0} | pcx | H3bitmap.lod · SoD |
+| `Camp1FW1.pcx` {#file-26a298933de1} | pcx | AB campaigns · AB |
 
-## Campaign selection images / The Shadow of Death / New Beginning {#group-10}
+## Campaign selection images / The Shadow of Death / New Beginning {#group-15}
 
-### The Shadow of Death {#group-10-depth-1}
+### The Shadow of Death {#group-15-depth-1}
 
-### New Beginning {#group-10-depth-2}
+### New Beginning {#group-15-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampNB1.pcx` {#file-211d9ef8786a} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Elixir of Life {#group-11}
+## Campaign selection images / The Shadow of Death / Elixir of Life {#group-16}
 
-### Elixir of Life {#group-11-depth-2}
+### Elixir of Life {#group-16-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampEL1.pcx` {#file-5d62bfbdd51d} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Hack and Slash {#group-12}
+## Campaign selection images / The Shadow of Death / Hack and Slash {#group-17}
 
-### Hack and Slash {#group-12-depth-2}
+### Hack and Slash {#group-17-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampHS1.pcx` {#file-e491de023ab4} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Birth of a Barbarian {#group-13}
+## Campaign selection images / The Shadow of Death / Birth of a Barbarian {#group-18}
 
-### Birth of a Barbarian {#group-13-depth-2}
+### Birth of a Barbarian {#group-18-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampBB1.pcx` {#file-f547af4e493e} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Rise of the Necromancer {#group-14}
+## Campaign selection images / The Shadow of Death / Rise of the Necromancer {#group-19}
 
-### Rise of the Necromancer {#group-14-depth-2}
+### Rise of the Necromancer {#group-19-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampRN1.pcx` {#file-966c4b6d08aa} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Unholy Alliance {#group-15}
+## Campaign selection images / The Shadow of Death / Unholy Alliance {#group-20}
 
-### Unholy Alliance {#group-15-depth-2}
+### Unholy Alliance {#group-20-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampUA1.pcx` {#file-4d07200c59bc} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Specter of Power {#group-16}
+## Campaign selection images / The Shadow of Death / Specter of Power {#group-21}
 
-### Specter of Power {#group-16-depth-2}
+### Specter of Power {#group-21-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampSP1.pcx` {#file-61b2595cd827} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / Secret campaign {#group-17}
+## Campaign selection images / Secret campaign {#group-22}
 
-### Secret campaign {#group-17-depth-1}
+### Secret campaign {#group-22-depth-1}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CAMPNOSC.PCX` {#file-d15795d53633} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / Restoration of Erathia / Long Live the Queen {#group-18}
-
-### Video previews {#group-18-depth-0}
-
-### Restoration of Erathia {#group-18-depth-1}
-
-### Long Live the Queen {#group-18-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `CslReG1a.pcx` {#file-fc6e8371ce73} | pcx | H3bitmap.lod · SoD |
-| `CslReG1b.pcx` {#file-aa52e7272c44} | pcx | H3bitmap.lod · SoD |
-| `CslReG1c.pcx` {#file-5d5f84484d7b} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / Restoration of Erathia / Dungeons and Devils {#group-19}
-
-### Dungeons and Devils {#group-19-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `CslReE3a.pcx` {#file-08a8bddae107} | pcx | H3bitmap.lod · SoD |
-| `CslReE3b.pcx` {#file-4a68a90b1c8a} | pcx | H3bitmap.lod · SoD |
-| `CslReE3c.pcx` {#file-392095124215} | pcx | H3bitmap.lod · SoD |
 
 ---
 
@@ -5562,17 +5579,58 @@ SoD · H3bitmap.lod · 35/39
 
 ID: wiki.bitmap.0.1.page-36
 URL: /en/wiki/bitmap/0/1/page-36/
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod, wiki-ab:TarnumBL.bmp, wiki-ab:TarnumBS.bmp, wiki-ab:TarnumCL.bmp, wiki-ab:TarnumCS.bmp, wiki-ab:TarnumEL.bmp, wiki-ab:TarnumES.bmp, wiki-ab:TarnumFL.bmp, wiki-ab:TarnumFS.bmp, wiki-ab:TarnumUL.bmp, wiki-ab:TarnumUS.bmp, wiki-ab:TarnumWL.bmp, wiki-ab:TarnumWS.bmp
 
-SoD · H3bitmap.lod · 36/39
+AB campaigns, H3bitmap.lod · 36/39
 
-## Video previews / Restoration of Erathia / Spoils of War (*) {#group-0}
+## Additional campaign images / Armageddon's Blade {#group-0}
 
-### Video previews {#group-0-depth-0}
+### Additional campaign images {#group-0-depth-0}
 
-### Restoration of Erathia {#group-0-depth-1}
+### Armageddon's Blade {#group-0-depth-1}
 
-### Spoils of War (*) {#group-0-depth-2}
+| File | Resource | Source |
+| --- | --- | --- |
+| `TarnumBL.pcx` {#file-e125f57f1cf7} | pcx | AB campaigns · AB |
+| `TarnumBS.pcx` {#file-284238bf410c} | pcx | AB campaigns · AB |
+| `TarnumCL.pcx` {#file-325ae0d0bb9e} | pcx | AB campaigns · AB |
+| `TarnumCS.pcx` {#file-41eac71629c3} | pcx | AB campaigns · AB |
+| `TarnumEL.pcx` {#file-0f65b389196b} | pcx | AB campaigns · AB |
+| `TarnumES.pcx` {#file-da39527de132} | pcx | AB campaigns · AB |
+| `TarnumFL.pcx` {#file-1091a8a23451} | pcx | AB campaigns · AB |
+| `TarnumFS.pcx` {#file-f22631a71a68} | pcx | AB campaigns · AB |
+| `TarnumUL.pcx` {#file-96d9bc73b530} | pcx | AB campaigns · AB |
+| `TarnumUS.pcx` {#file-0718067b1b38} | pcx | AB campaigns · AB |
+| `TarnumWL.pcx` {#file-cb2ac5c96ffd} | pcx | AB campaigns · AB |
+| `TarnumWS.pcx` {#file-37682e719669} | pcx | AB campaigns · AB |
+
+## Video previews / Restoration of Erathia / Long Live the Queen {#group-1}
+
+### Video previews {#group-1-depth-0}
+
+### Restoration of Erathia {#group-1-depth-1}
+
+### Long Live the Queen {#group-1-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `CslReG1a.pcx` {#file-fc6e8371ce73} | pcx | H3bitmap.lod · SoD |
+| `CslReG1b.pcx` {#file-aa52e7272c44} | pcx | H3bitmap.lod · SoD |
+| `CslReG1c.pcx` {#file-5d5f84484d7b} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / Restoration of Erathia / Dungeons and Devils {#group-2}
+
+### Dungeons and Devils {#group-2-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `CslReE3a.pcx` {#file-08a8bddae107} | pcx | H3bitmap.lod · SoD |
+| `CslReE3b.pcx` {#file-4a68a90b1c8a} | pcx | H3bitmap.lod · SoD |
+| `CslReE3c.pcx` {#file-392095124215} | pcx | H3bitmap.lod · SoD |
+
+## Video previews / Restoration of Erathia / Spoils of War (*) {#group-3}
+
+### Spoils of War (*) {#group-3-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5580,9 +5638,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslReN2a.pcx` {#file-b7b3e8ca9b94} | pcx | H3bitmap.lod · SoD |
 | `CslReN2b.pcx` {#file-d1223a43ef38} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Liberation {#group-1}
+## Video previews / Restoration of Erathia / Liberation {#group-4}
 
-### Liberation {#group-1-depth-2}
+### Liberation {#group-4-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5591,9 +5649,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslReG4c.pcx` {#file-39c7c8a129a2} | pcx | H3bitmap.lod · SoD |
 | `CslReG4d.pcx` {#file-f9873b56edbd} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Long Live the King {#group-2}
+## Video previews / Restoration of Erathia / Long Live the King {#group-5}
 
-### Long Live the King {#group-2-depth-2}
+### Long Live the King {#group-5-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5603,9 +5661,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslReE5d.pcx` {#file-d94850843b37} | pcx | H3bitmap.lod · SoD |
 | `CslReE5e.pcx` {#file-b37c41d88773} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Song for the Father {#group-3}
+## Video previews / Restoration of Erathia / Song for the Father {#group-6}
 
-### Song for the Father {#group-3-depth-2}
+### Song for the Father {#group-6-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5613,9 +5671,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslReG6b.pcx` {#file-295aa2e7ce12} | pcx | H3bitmap.lod · SoD |
 | `CslReG6c.pcx` {#file-e3318f717b95} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Restoration of Erathia / Seeds of Discontent {#group-4}
+## Video previews / Restoration of Erathia / Seeds of Discontent {#group-7}
 
-### Seeds of Discontent {#group-4-depth-2}
+### Seeds of Discontent {#group-7-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5623,11 +5681,11 @@ SoD · H3bitmap.lod · 36/39
 | `CslReS7b.pcx` {#file-03255b6df7c8} | pcx | H3bitmap.lod · SoD |
 | `CslReS7c.pcx` {#file-ad9b1bce7b0f} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Armageddon's Blade {#group-5}
+## Video previews / Armageddon's Blade / Armageddon's Blade {#group-8}
 
-### Armageddon's Blade {#group-5-depth-1}
+### Armageddon's Blade {#group-8-depth-1}
 
-### Armageddon's Blade {#group-5-depth-2}
+### Armageddon's Blade {#group-8-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5641,9 +5699,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslAbAb8.pcx` {#file-0a6b324fb43b} | pcx | H3bitmap.lod · SoD |
 | `CslAbAb9.pcx` {#file-c6fb8e23b129} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Dragon's Blood {#group-6}
+## Video previews / Armageddon's Blade / Dragon's Blood {#group-9}
 
-### Dragon's Blood {#group-6-depth-2}
+### Dragon's Blood {#group-9-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5653,9 +5711,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslAbDb4.pcx` {#file-903afcbb0fe2} | pcx | H3bitmap.lod · SoD |
 | `CslAbDb5.pcx` {#file-d8778a18b9e8} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Dragon Slayer {#group-7}
+## Video previews / Armageddon's Blade / Dragon Slayer {#group-10}
 
-### Dragon Slayer {#group-7-depth-2}
+### Dragon Slayer {#group-10-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5665,9 +5723,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslAbDs4.pcx` {#file-4caffd78efa5} | pcx | H3bitmap.lod · SoD |
 | `CslAbDs5.pcx` {#file-6157480011c5} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Festival of Life {#group-8}
+## Video previews / Armageddon's Blade / Festival of Life {#group-11}
 
-### Festival of Life {#group-8-depth-2}
+### Festival of Life {#group-11-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5677,9 +5735,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslAbFl4.pcx` {#file-efc5018b953f} | pcx | H3bitmap.lod · SoD |
 | `CslAbFl5.pcx` {#file-7bd8776a64c0} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Playing with Fire {#group-9}
+## Video previews / Armageddon's Blade / Playing with Fire {#group-12}
 
-### Playing with Fire {#group-9-depth-2}
+### Playing with Fire {#group-12-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5688,9 +5746,9 @@ SoD · H3bitmap.lod · 36/39
 | `CslAbPf3.pcx` {#file-14052605abf5} | pcx | H3bitmap.lod · SoD |
 | `CslAbPf4.pcx` {#file-63088e8cb4ff} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / Armageddon's Blade / Foolhardy Waywardness {#group-10}
+## Video previews / Armageddon's Blade / Foolhardy Waywardness {#group-13}
 
-### Foolhardy Waywardness {#group-10-depth-2}
+### Foolhardy Waywardness {#group-13-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5700,23 +5758,44 @@ SoD · H3bitmap.lod · 36/39
 | `CslAbFw4.pcx` {#file-d1e8abdec29c} | pcx | H3bitmap.lod · SoD |
 | `CslAbFw5.pcx` {#file-b1e814b85ccd} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / New Beginning {#group-11}
+## Video previews / The Shadow of Death / New Beginning {#group-14}
 
-### The Shadow of Death {#group-11-depth-1}
+### The Shadow of Death {#group-14-depth-1}
 
-### New Beginning {#group-11-depth-2}
+### New Beginning {#group-14-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `Csl2NBa.pcx` {#file-f178b64c4582} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBb.pcx` {#file-e4b595dd4ce6} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBc.pcx` {#file-11f309d9e3fe} | pcx | H3bitmap.lod · SoD |
+
+---
+
+# Campaign elements
+
+ID: wiki.bitmap.0.1.page-37
+URL: /en/wiki/bitmap/0/1/page-37/
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+
+H3bitmap.lod · 37/39
+
+## Video previews / The Shadow of Death / New Beginning {#group-0}
+
+### Video previews {#group-0-depth-0}
+
+### The Shadow of Death {#group-0-depth-1}
+
+### New Beginning {#group-0-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
 | `Csl2NBd.pcx` {#file-2fa8d403fe50} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBe.pcx` {#file-73dabc677b9a} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Elixir of Life {#group-12}
+## Video previews / The Shadow of Death / Elixir of Life {#group-1}
 
-### Elixir of Life {#group-12-depth-2}
+### Elixir of Life {#group-1-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5726,9 +5805,9 @@ SoD · H3bitmap.lod · 36/39
 | `Csl2ELd.pcx` {#file-c51401381348} | pcx | H3bitmap.lod · SoD |
 | `Csl2ELe.pcx` {#file-b310fc59fcc2} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Hack and Slash {#group-13}
+## Video previews / The Shadow of Death / Hack and Slash {#group-2}
 
-### Hack and Slash {#group-13-depth-2}
+### Hack and Slash {#group-2-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5738,9 +5817,9 @@ SoD · H3bitmap.lod · 36/39
 | `Csl2HSe.pcx` {#file-f60bf47ee218} | pcx | H3bitmap.lod · SoD |
 | `CslReE5c.pcx` {#file-f765e7762f71-2} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Birth of a Barbarian {#group-14}
+## Video previews / The Shadow of Death / Birth of a Barbarian {#group-3}
 
-### Birth of a Barbarian {#group-14-depth-2}
+### Birth of a Barbarian {#group-3-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5751,23 +5830,9 @@ SoD · H3bitmap.lod · 36/39
 | `Csl2BBe.pcx` {#file-acd9286ad447} | pcx | H3bitmap.lod · SoD |
 | `Csl2BBf.pcx` {#file-69037cc37fa0} | pcx | H3bitmap.lod · SoD |
 
----
+## Video previews / The Shadow of Death / Rise of the Necromancer {#group-4}
 
-# Campaign elements
-
-ID: wiki.bitmap.0.1.page-37
-URL: /en/wiki/bitmap/0/1/page-37/
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
-
-SoD · H3bitmap.lod · 37/39
-
-## Video previews / The Shadow of Death / Rise of the Necromancer {#group-0}
-
-### Video previews {#group-0-depth-0}
-
-### The Shadow of Death {#group-0-depth-1}
-
-### Rise of the Necromancer {#group-0-depth-2}
+### Rise of the Necromancer {#group-4-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5777,9 +5842,9 @@ SoD · H3bitmap.lod · 37/39
 | `Csl2RNd.pcx` {#file-89729d9242a7} | pcx | H3bitmap.lod · SoD |
 | `Csl2RNe.pcx` {#file-96b28dca50f0} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Unholy Alliance {#group-1}
+## Video previews / The Shadow of Death / Unholy Alliance {#group-5}
 
-### Unholy Alliance {#group-1-depth-2}
+### Unholy Alliance {#group-5-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5797,9 +5862,9 @@ SoD · H3bitmap.lod · 37/39
 | `Csl2UAl.pcx` {#file-bfd59a988e31} | pcx | H3bitmap.lod · SoD |
 | `Csl2UAm.pcx` {#file-c96e0abc1c97} | pcx | H3bitmap.lod · SoD |
 
-## Video previews / The Shadow of Death / Specter of Power {#group-2}
+## Video previews / The Shadow of Death / Specter of Power {#group-6}
 
-### Specter of Power {#group-2-depth-2}
+### Specter of Power {#group-6-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5809,9 +5874,9 @@ SoD · H3bitmap.lod · 37/39
 | `Csl2SPd.pcx` {#file-14352c8d65fb} | pcx | H3bitmap.lod · SoD |
 | `Csl2SPe.pcx` {#file-8b4a6f7c308e} | pcx | H3bitmap.lod · SoD |
 
-## Other files {#group-3}
+## Other files {#group-7}
 
-### Other files {#group-3-depth-0}
+### Other files {#group-7-depth-0}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -5846,6 +5911,23 @@ SoD · H3bitmap.lod · 37/39
 | `CBONG1C3.PCX` {#file-1a8ec61c1c6d} | pcx | H3bitmap.lod · SoD |
 | `CBONG2A1.PCX` {#file-af9505d665cd} | pcx | H3bitmap.lod · SoD |
 | `CBONG2A2.PCX` {#file-3ed4b53faa18} | pcx | H3bitmap.lod · SoD |
+
+---
+
+# Campaign elements
+
+ID: wiki.bitmap.0.1.page-38
+URL: /en/wiki/bitmap/0/1/page-38/
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+
+H3bitmap.lod · 38/39
+
+## Other files {#group-0}
+
+### Other files {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
 | `CBONG2A3.PCX` {#file-580d596640df} | pcx | H3bitmap.lod · SoD |
 | `CBONG2B1.PCX` {#file-ea4d8811c702} | pcx | H3bitmap.lod · SoD |
 | `CBONG2B2.PCX` {#file-4093d5ba50ee} | pcx | H3bitmap.lod · SoD |
@@ -5864,23 +5946,6 @@ SoD · H3bitmap.lod · 37/39
 | `CBONG3B3.PCX` {#file-fe6632ee993f} | pcx | H3bitmap.lod · SoD |
 | `CBONG3C1.PCX` {#file-ac92ee1261cf} | pcx | H3bitmap.lod · SoD |
 | `CBONG3C2.PCX` {#file-22288be71cee} | pcx | H3bitmap.lod · SoD |
-
----
-
-# Campaign elements
-
-ID: wiki.bitmap.0.1.page-38
-URL: /en/wiki/bitmap/0/1/page-38/
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
-
-SoD · H3bitmap.lod · 38/39
-
-## Other files {#group-0}
-
-### Other files {#group-0-depth-0}
-
-| File | Resource | Source |
-| --- | --- | --- |
 | `CBONG3C3.PCX` {#file-620f5df924c9} | pcx | H3bitmap.lod · SoD |
 | `CBONN1A1.PCX` {#file-720be4825ce7} | pcx | H3bitmap.lod · SoD |
 | `CBONN1A2.PCX` {#file-43df3b70f020} | pcx | H3bitmap.lod · SoD |
@@ -5935,6 +6000,23 @@ SoD · H3bitmap.lod · 38/39
 | `E2C_SE.PCX` {#file-4f14bace7209} | pcx | H3bitmap.lod · SoD |
 | `E2D_CO.PCX` {#file-33bb808700e1} | pcx | H3bitmap.lod · SoD |
 | `E2D_EN.PCX` {#file-8f642625a3d2} | pcx | H3bitmap.lod · SoD |
+
+---
+
+# Campaign elements
+
+ID: wiki.bitmap.0.1.page-39
+URL: /en/wiki/bitmap/0/1/page-39/
+Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
+
+H3bitmap.lod · 39/39
+
+## Other files {#group-0}
+
+### Other files {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
 | `E2D_SE.PCX` {#file-9ee9b1a23089} | pcx | H3bitmap.lod · SoD |
 | `G1A_CO.PCX` {#file-3838ebe02568} | pcx | H3bitmap.lod · SoD |
 | `G1A_EN.PCX` {#file-b3d723ac2c0a} | pcx | H3bitmap.lod · SoD |
@@ -5953,23 +6035,6 @@ SoD · H3bitmap.lod · 38/39
 | `G2B_SE.PCX` {#file-6d0d29c751ec} | pcx | H3bitmap.lod · SoD |
 | `G2C_CO.PCX` {#file-3ccf9180fc80} | pcx | H3bitmap.lod · SoD |
 | `G2C_EN.PCX` {#file-054714301360} | pcx | H3bitmap.lod · SoD |
-
----
-
-# Campaign elements
-
-ID: wiki.bitmap.0.1.page-39
-URL: /en/wiki/bitmap/0/1/page-39/
-Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
-
-SoD · H3bitmap.lod · 39/39
-
-## Other files {#group-0}
-
-### Other files {#group-0-depth-0}
-
-| File | Resource | Source |
-| --- | --- | --- |
 | `G2C_SE.PCX` {#file-4f5e8a5c640c} | pcx | H3bitmap.lod · SoD |
 | `G2D_CO.PCX` {#file-7993eb1004bb} | pcx | H3bitmap.lod · SoD |
 | `G2D_EN.PCX` {#file-1111ec550433} | pcx | H3bitmap.lod · SoD |
@@ -6010,7 +6075,7 @@ ID: wiki.bitmap.0.1.page-4
 URL: /en/wiki/bitmap/0/1/page-4/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 4/39
+H3bitmap.lod · 4/39
 
 ## Region maps / Restoration of Erathia / Dungeons and Devils {#group-0}
 
@@ -6110,7 +6175,7 @@ ID: wiki.bitmap.0.1.page-5
 URL: /en/wiki/bitmap/0/1/page-5/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 5/39
+H3bitmap.lod · 5/39
 
 ## Region maps / Restoration of Erathia / Spoils of War {#group-0}
 
@@ -6210,7 +6275,7 @@ ID: wiki.bitmap.0.1.page-6
 URL: /en/wiki/bitmap/0/1/page-6/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 6/39
+H3bitmap.lod · 6/39
 
 ## Region maps / Restoration of Erathia / Liberation {#group-0}
 
@@ -6310,7 +6375,7 @@ ID: wiki.bitmap.0.1.page-7
 URL: /en/wiki/bitmap/0/1/page-7/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 7/39
+H3bitmap.lod · 7/39
 
 ## Region maps / Restoration of Erathia / Long Live the King {#group-0}
 
@@ -6403,7 +6468,7 @@ ID: wiki.bitmap.0.1.page-8
 URL: /en/wiki/bitmap/0/1/page-8/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 8/39
+H3bitmap.lod · 8/39
 
 ## Region maps / Restoration of Erathia / Long Live the King {#group-0}
 
@@ -6503,7 +6568,7 @@ ID: wiki.bitmap.0.1.page-9
 URL: /en/wiki/bitmap/0/1/page-9/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 9/39
+H3bitmap.lod · 9/39
 
 ## Region maps / Restoration of Erathia / Song for the Father {#group-0}
 
@@ -8860,7 +8925,7 @@ ID: wiki.bitmap.3.0
 URL: /en/wiki/bitmap/3/0/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 1/1
+H3bitmap.lod · 1/1
 
 ## Long Live the Queen {#group-0}
 
@@ -8920,13 +8985,79 @@ SoD · H3bitmap.lod · 1/1
 
 ---
 
+# Armageddon's Blade
+
+ID: wiki.bitmap.3.1
+URL: /en/wiki/bitmap/3/1/
+Source references: wiki-ab:ab.h3c, wiki-ab:blood.h3c, wiki-ab:festival.h3c, wiki-ab:fire.h3c, wiki-ab:fool.h3c, wiki-ab:Neutral.h3c, wiki-ab:slayer.h3c
+
+AB campaigns · 1/1
+
+## Armageddon's Blade {#group-0}
+
+### Armageddon's Blade {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `ab.h3c` {#file-925c5a7ab0fe} | h3c | AB campaigns · AB |
+
+## Dragon's Blood {#group-1}
+
+### Dragon's Blood {#group-1-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `blood.h3c` {#file-3e6f1c34bc4f} | h3c | AB campaigns · AB |
+
+## Festival of Life {#group-2}
+
+### Festival of Life {#group-2-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `festival.h3c` {#file-121e9e51b8a2} | h3c | AB campaigns · AB |
+
+## Playing with Fire {#group-3}
+
+### Playing with Fire {#group-3-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `fire.h3c` {#file-f541389e530d} | h3c | AB campaigns · AB |
+
+## Foolhardy Waywardness {#group-4}
+
+### Foolhardy Waywardness {#group-4-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `fool.h3c` {#file-f1de8d994c02} | h3c | AB campaigns · AB |
+
+## Spoils of War {#group-5}
+
+### Spoils of War {#group-5-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Neutral.h3c` {#file-ddc8369b932c} | h3c | AB campaigns · AB |
+
+## Dragon Slayer {#group-6}
+
+### Dragon Slayer {#group-6-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `slayer.h3c` {#file-2da79b32a78b} | h3c | AB campaigns · AB |
+
+---
+
 # The Shadow of Death
 
 ID: wiki.bitmap.3.2
 URL: /en/wiki/bitmap/3/2/
 Source references: wiki-sod:H3bitmap.lf, wiki-sod:H3bitmap.lod
 
-SoD · H3bitmap.lod · 1/1
+H3bitmap.lod · 1/1
 
 ## New Beginning {#group-0}
 
@@ -16010,3 +16141,1068 @@ SoD · VIDEO.VID · 1/1
 | `TAVERN.BIK` {#file-72c73c7719dc} | video | VIDEO.VID · SoD |
 | `unholy.bik` {#file-093d42b4aa97} | video | VIDEO.VID · SoD |
 | `WIN3.BIK` {#file-931ff09bc075} | video | VIDEO.VID · SoD |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs
+URL: /en/wiki/wog/defs/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 1/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `artifact.def` {#file-8c7d90bead43} | def | hmm35wog.pac · WoG |
+| `ava0000.def` {#file-7c5273b9e889} | def | hmm35wog.pac · WoG |
+| `ava0000.msk` {#file-d303c6fbc2a6} | msk | hmm35wog.pac · WoG |
+| `ava0002.def` {#file-7d436bc10cfb} | def | hmm35wog.pac · WoG |
+| `ava0002.msk` {#file-faab61ca90a6} | msk | hmm35wog.pac · WoG |
+| `ava0003.def` {#file-5388f6771852} | def | hmm35wog.pac · WoG |
+| `ava0003.msk` {#file-f370611adb79} | msk | hmm35wog.pac · WoG |
+| `ava0004.def` {#file-5c6db65b60aa} | def | hmm35wog.pac · WoG |
+| `ava0004.msk` {#file-48fd9fd37473} | msk | hmm35wog.pac · WoG |
+| `ava0005.def` {#file-c1fb3ade1c14} | def | hmm35wog.pac · WoG |
+| `ava0005.msk` {#file-0f4e5873c02a} | msk | hmm35wog.pac · WoG |
+| `ava0006.def` {#file-7624af6d657d} | def | hmm35wog.pac · WoG |
+| `ava0006.msk` {#file-58d717f41eeb} | msk | hmm35wog.pac · WoG |
+| `ava0007.def` {#file-68129a42a462} | def | hmm35wog.pac · WoG |
+| `avarand.def` {#file-7a6e8ac8efc0} | def | hmm35wog.pac · WoG |
+| `avarand.msk` {#file-de87a40b782e} | msk | hmm35wog.pac · WoG |
+| `AVArnd1.def` {#file-88368c202a37} | def | hmm35wog.pac · WoG |
+| `AVArnd1.msk` {#file-892074c2ff9e} | msk | hmm35wog.pac · WoG |
+| `AVArnd2.def` {#file-ee02c424f2c9} | def | hmm35wog.pac · WoG |
+| `AVArnd2.msk` {#file-14701fd011a6} | msk | hmm35wog.pac · WoG |
+| `AVArnd3.def` {#file-357d22e76763} | def | hmm35wog.pac · WoG |
+| `AVArnd3.msk` {#file-efc854c6d91a} | msk | hmm35wog.pac · WoG |
+| `AVArnd4.def` {#file-cfdcb82b98aa} | def | hmm35wog.pac · WoG |
+| `AVArnd4.msk` {#file-a205977285d0} | msk | hmm35wog.pac · WoG |
+| `avccast1.def` {#file-f5f4e6dd3708} | def | hmm35wog.pac · WoG |
+| `avccast1.msk` {#file-166b1b6dd4c4} | msk | hmm35wog.pac · WoG |
+| `avccast2.def` {#file-ff3adc37c237} | def | hmm35wog.pac · WoG |
+| `avccast2.msk` {#file-f0acb45c809c} | msk | hmm35wog.pac · WoG |
+| `avccast3.def` {#file-9afbc4a485cc} | def | hmm35wog.pac · WoG |
+| `avccast3.msk` {#file-42df11506bfb} | msk | hmm35wog.pac · WoG |
+| `AVCCAST4.def` {#file-d3a4dafa5f89} | def | hmm35wog.pac · WoG |
+| `avccast4.msk` {#file-37fba2f3c93b} | msk | hmm35wog.pac · WoG |
+| `avcconf1.def` {#file-a53e74b0b74b} | def | hmm35wog.pac · WoG |
+| `avcconf1.msk` {#file-393454b025e3} | msk | hmm35wog.pac · WoG |
+| `avcconf2.def` {#file-c8580bddcb57} | def | hmm35wog.pac · WoG |
+| `avcconf2.msk` {#file-3de37077418e} | msk | hmm35wog.pac · WoG |
+| `avcconf3.def` {#file-dfa95791922d} | def | hmm35wog.pac · WoG |
+| `avcconf3.msk` {#file-da28e23d861b} | msk | hmm35wog.pac · WoG |
+| `avcconf4.def` {#file-d9e2a76aea3d} | def | hmm35wog.pac · WoG |
+| `avcconf4.msk` {#file-f64453a3c80d} | msk | hmm35wog.pac · WoG |
+| `avcdung1.def` {#file-e71478f3082e} | def | hmm35wog.pac · WoG |
+| `avcdung1.msk` {#file-66d49a92300d} | msk | hmm35wog.pac · WoG |
+| `avcdung2.def` {#file-96e381921127} | def | hmm35wog.pac · WoG |
+| `avcdung2.msk` {#file-37b8ea61da5f} | msk | hmm35wog.pac · WoG |
+| `avcdung3.def` {#file-5c9a798e92ca} | def | hmm35wog.pac · WoG |
+| `avcdung3.msk` {#file-fbdd2ee93178} | msk | hmm35wog.pac · WoG |
+| `AVCDUNG4.def` {#file-a74e79a19e50} | def | hmm35wog.pac · WoG |
+| `avcdung4.msk` {#file-052de4918093} | msk | hmm35wog.pac · WoG |
+| `avcfort1.def` {#file-189f9fa92882} | def | hmm35wog.pac · WoG |
+| `avcfort1.msk` {#file-32a10eaa75b2} | msk | hmm35wog.pac · WoG |
+| `avcfort2.def` {#file-73dbd86cf71d} | def | hmm35wog.pac · WoG |
+| `avcfort2.msk` {#file-535f572efc70} | msk | hmm35wog.pac · WoG |
+| `avcfort3.def` {#file-e7b383cd9c15} | def | hmm35wog.pac · WoG |
+| `avcfort3.msk` {#file-266b5f5283b2} | msk | hmm35wog.pac · WoG |
+| `AVCfort4.def` {#file-45a3484ab00d} | def | hmm35wog.pac · WoG |
+| `avcfort4.msk` {#file-dcecddf506bd} | msk | hmm35wog.pac · WoG |
+| `avcgar10.def` {#file-8c9deec315f5} | def | hmm35wog.pac · WoG |
+| `avcgar20.def` {#file-dbabf027f6e8} | def | hmm35wog.pac · WoG |
+| `avcinfr1.def` {#file-d737f0ee272f} | def | hmm35wog.pac · WoG |
+| `avcinfr1.msk` {#file-562f6666906c} | msk | hmm35wog.pac · WoG |
+| `avcinfr2.def` {#file-4130ce2087d2} | def | hmm35wog.pac · WoG |
+| `avcinfr2.msk` {#file-ab3cca646b81} | msk | hmm35wog.pac · WoG |
+| `avcinfr3.def` {#file-1da608500c5b} | def | hmm35wog.pac · WoG |
+| `avcinfr3.msk` {#file-54ce921d78a5} | msk | hmm35wog.pac · WoG |
+| `AVCinfr4.def` {#file-f78d6ca0b310} | def | hmm35wog.pac · WoG |
+| `avcinfr4.msk` {#file-be12c0e4f94d} | msk | hmm35wog.pac · WoG |
+| `avcnecr1.def` {#file-1fc4d21388d1} | def | hmm35wog.pac · WoG |
+| `avcnecr1.msk` {#file-80c96319d4e2} | msk | hmm35wog.pac · WoG |
+| `avcnecr2.def` {#file-4561ed013831} | def | hmm35wog.pac · WoG |
+| `avcnecr2.msk` {#file-35f798cff05b} | msk | hmm35wog.pac · WoG |
+| `avcnecr3.def` {#file-e06a360e1542} | def | hmm35wog.pac · WoG |
+| `avcnecr3.msk` {#file-75afaf431bb6} | msk | hmm35wog.pac · WoG |
+| `AVCNECR4.def` {#file-dc5c5cf00165} | def | hmm35wog.pac · WoG |
+| `avcnecr4.msk` {#file-9ebe1c708c2c} | msk | hmm35wog.pac · WoG |
+| `avcramp1.def` {#file-46f1965a6e06} | def | hmm35wog.pac · WoG |
+| `avcramp1.msk` {#file-291047e2755f} | msk | hmm35wog.pac · WoG |
+| `avcramp2.def` {#file-67915502e6a7} | def | hmm35wog.pac · WoG |
+| `avcramp2.msk` {#file-ec3042a0d3b5} | msk | hmm35wog.pac · WoG |
+| `avcramp3.def` {#file-76cbe43db083} | def | hmm35wog.pac · WoG |
+| `avcramp3.msk` {#file-3c3169a44dac} | msk | hmm35wog.pac · WoG |
+| `AVCRAMP4.def` {#file-3fc5e68703bf} | def | hmm35wog.pac · WoG |
+| `avcramp4.msk` {#file-06102e9e23d5} | msk | hmm35wog.pac · WoG |
+| `avcstrn1.def` {#file-912e7c9c65dd} | def | hmm35wog.pac · WoG |
+| `avcstrn1.msk` {#file-c3662a3ff043} | msk | hmm35wog.pac · WoG |
+| `avcstrn2.def` {#file-e075b0c95960} | def | hmm35wog.pac · WoG |
+| `avcstrn2.msk` {#file-b303d270c9e2} | msk | hmm35wog.pac · WoG |
+| `avcstrn3.def` {#file-03dd5f434159} | def | hmm35wog.pac · WoG |
+| `avcstrn3.msk` {#file-1b5c3460601f} | msk | hmm35wog.pac · WoG |
+| `AVCSTRN4.def` {#file-d9e017a34623} | def | hmm35wog.pac · WoG |
+| `avcstrn4.msk` {#file-c9871a4b8ef9} | msk | hmm35wog.pac · WoG |
+| `avctowr1.def` {#file-a71165fb16dd} | def | hmm35wog.pac · WoG |
+| `avctowr1.msk` {#file-591321b399ec} | msk | hmm35wog.pac · WoG |
+| `avctowr2.def` {#file-626c813553f4} | def | hmm35wog.pac · WoG |
+| `avctowr2.msk` {#file-494fca4c1909} | msk | hmm35wog.pac · WoG |
+| `avctowr3.def` {#file-22a8fe06df9b} | def | hmm35wog.pac · WoG |
+| `avctowr3.msk` {#file-0d46ad06d366} | msk | hmm35wog.pac · WoG |
+| `AVCTOWR4.def` {#file-ebe2f39ef998} | def | hmm35wog.pac · WoG |
+| `avctowr4.msk` {#file-52c03e85d1c3} | msk | hmm35wog.pac · WoG |
+| `avcvgarm.def` {#file-218ec6d71ec3} | def | hmm35wog.pac · WoG |
+| `avcvgr.def` {#file-dc206a8287b6} | def | hmm35wog.pac · WoG |
+| `avgelp.def` {#file-8f59ed93326e} | def | hmm35wog.pac · WoG |
+| `avgelp.msk` {#file-54e94b1a707c} | msk | hmm35wog.pac · WoG |
+| `avgtrll.def` {#file-2b85bad7e1c9} | def | hmm35wog.pac · WoG |
+| `avllk1d0.def` {#file-78f2e155d7d9} | def | hmm35wog.pac · WoG |
+| `avllk1g0.def` {#file-46a64f64ebd1} | def | hmm35wog.pac · WoG |
+| `avllk1r.def` {#file-3c18359a1551} | def | hmm35wog.pac · WoG |
+| `avllk1s0.def` {#file-a0087b9f0883} | def | hmm35wog.pac · WoG |
+| `avllk1u0.def` {#file-5eabe406fbab} | def | hmm35wog.pac · WoG |
+| `avllk2d0.def` {#file-45b47b3db9cf} | def | hmm35wog.pac · WoG |
+| `avllk2g0.def` {#file-3d553e3f55a5} | def | hmm35wog.pac · WoG |
+| `avllk2s0.def` {#file-5bd5ff957d88} | def | hmm35wog.pac · WoG |
+| `avllk2u0.def` {#file-c8072990cf55} | def | hmm35wog.pac · WoG |
+| `avllk3d0.def` {#file-8c794a2ace02} | def | hmm35wog.pac · WoG |
+| `avllk3g0.def` {#file-31fd0eaed5b9} | def | hmm35wog.pac · WoG |
+| `avllk3s0.def` {#file-da3a916e32eb} | def | hmm35wog.pac · WoG |
+| `avllk3u0.def` {#file-1233a6b080c4} | def | hmm35wog.pac · WoG |
+| `avlswp50.def` {#file-8cbfd5c5a48d} | def | hmm35wog.pac · WoG |
+| `avmgedr0.def` {#file-0a44309c21d3} | def | hmm35wog.pac · WoG |
+| `avmgelv0.def` {#file-1f77ee44f336} | def | hmm35wog.pac · WoG |
+| `avmgems0.def` {#file-aa0f6674c438} | def | hmm35wog.pac · WoG |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs.page-2
+URL: /en/wiki/wog/defs/page-2/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 2/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `avmgerf0.def` {#file-ada6a7fe4880} | def | hmm35wog.pac · WoG |
+| `avmgesd0.def` {#file-dfd458f95e2c} | def | hmm35wog.pac · WoG |
+| `avmgesu0.def` {#file-43e6adfecf8f} | def | hmm35wog.pac · WoG |
+| `avmgesw0.def` {#file-e3d65329f67e} | def | hmm35wog.pac · WoG |
+| `avrcgen0.def` {#file-8142544f5653} | def | hmm35wog.pac · WoG |
+| `avrcgen0.msk` {#file-5b149b43155e} | msk | hmm35wog.pac · WoG |
+| `avrcgen1.def` {#file-c1fecf922f99} | def | hmm35wog.pac · WoG |
+| `avrcgen1.msk` {#file-efd6b03fcd26} | msk | hmm35wog.pac · WoG |
+| `avrcgen2.def` {#file-acbb895f0dd1} | def | hmm35wog.pac · WoG |
+| `avrcgen2.msk` {#file-86ac6f77d4cf} | msk | hmm35wog.pac · WoG |
+| `avrcgen3.def` {#file-23f181469138} | def | hmm35wog.pac · WoG |
+| `avrcgen3.msk` {#file-8f9c695b68d7} | msk | hmm35wog.pac · WoG |
+| `avrcgen4.def` {#file-bf819e000ae3} | def | hmm35wog.pac · WoG |
+| `avrcgen4.msk` {#file-e27e2753bb78} | msk | hmm35wog.pac · WoG |
+| `avrcgen5.def` {#file-33d4a0e5f3a4} | def | hmm35wog.pac · WoG |
+| `avrcgen5.msk` {#file-7428355f580e} | msk | hmm35wog.pac · WoG |
+| `avrcgen6.def` {#file-81e1caaf81cc} | def | hmm35wog.pac · WoG |
+| `avrcgen6.msk` {#file-97deacfb3f08} | msk | hmm35wog.pac · WoG |
+| `avrcgen7.def` {#file-88624e59a000} | def | hmm35wog.pac · WoG |
+| `avrcgen7.msk` {#file-c8d573194b9c} | msk | hmm35wog.pac · WoG |
+| `avrcgn00.def` {#file-7b5a042aceb7} | def | hmm35wog.pac · WoG |
+| `avrcgn00.msk` {#file-4457fe085fab} | msk | hmm35wog.pac · WoG |
+| `avrcgn01.def` {#file-d2a7eb43b717} | def | hmm35wog.pac · WoG |
+| `avrcgn01.msk` {#file-a6ddc67f975e} | msk | hmm35wog.pac · WoG |
+| `avrcgn02.def` {#file-311b38265473} | def | hmm35wog.pac · WoG |
+| `avrcgn02.msk` {#file-e45bab6426bd} | msk | hmm35wog.pac · WoG |
+| `avrcgn03.def` {#file-1d418d2f344a} | def | hmm35wog.pac · WoG |
+| `avrcgn03.msk` {#file-7302eddf1835} | msk | hmm35wog.pac · WoG |
+| `avrcgn04.def` {#file-9caadc969d09} | def | hmm35wog.pac · WoG |
+| `avrcgn04.msk` {#file-db60b6b40a26} | msk | hmm35wog.pac · WoG |
+| `avrcgn05.def` {#file-e9fb528b0805} | def | hmm35wog.pac · WoG |
+| `avrcgn05.msk` {#file-4acf7e1c98a2} | msk | hmm35wog.pac · WoG |
+| `avrcgn06.def` {#file-d1db86f7a658} | def | hmm35wog.pac · WoG |
+| `avrcgn06.msk` {#file-66a5d0dcf8f5} | msk | hmm35wog.pac · WoG |
+| `avrcgn07.def` {#file-c25582c79aee} | def | hmm35wog.pac · WoG |
+| `avrcgn07.msk` {#file-1eeb7f35692b} | msk | hmm35wog.pac · WoG |
+| `avrcgn08.def` {#file-b5146a303428} | def | hmm35wog.pac · WoG |
+| `avrcgn08.msk` {#file-1ecadfd88b16} | msk | hmm35wog.pac · WoG |
+| `avsgzbs0.def` {#file-4f1280c32e37} | def | hmm35wog.pac · WoG |
+| `avsgzbs0.msk` {#file-8797baedb9c9} | msk | hmm35wog.pac · WoG |
+| `avsidls0.def` {#file-fa531df25187} | def | hmm35wog.pac · WoG |
+| `avsidls0.msk` {#file-d265e1177d47} | msk | hmm35wog.pac · WoG |
+| `avslibs0.def` {#file-36724b1048fc} | def | hmm35wog.pac · WoG |
+| `avslibs0.msk` {#file-9cef72b57bf7} | msk | hmm35wog.pac · WoG |
+| `avswtcs0.def` {#file-5bbaec997aa0} | def | hmm35wog.pac · WoG |
+| `avswtcs0.msk` {#file-87359b092fb4} | msk | hmm35wog.pac · WoG |
+| `avtcavs0.def` {#file-11f8a0cfad38} | def | hmm35wog.pac · WoG |
+| `avtcavs0.msk` {#file-9b274f38141c} | msk | hmm35wog.pac · WoG |
+| `avtrndm0.def` {#file-8a4a2dac6101} | def | hmm35wog.pac · WoG |
+| `avtrndm0.msk` {#file-12344eb9df69} | msk | hmm35wog.pac · WoG |
+| `avwattak.def` {#file-6216e4d0ef93} | def | hmm35wog.pac · WoG |
+| `avwbonx0.def` {#file-6243a2205b5f} | def | hmm35wog.pac · WoG |
+| `avwefre0.def` {#file-3d0cb6cfa7cc} | def | hmm35wog.pac · WoG |
+| `avwelmf0.def` {#file-b2ef7efea4df} | def | hmm35wog.pac · WoG |
+| `AVWmon1.def` {#file-6e4ab9cccf4f} | def | hmm35wog.pac · WoG |
+| `AVWmon1.msk` {#file-f427d49f6de1} | msk | hmm35wog.pac · WoG |
+| `AVWmon2.def` {#file-e5379b68ec83} | def | hmm35wog.pac · WoG |
+| `AVWmon2.msk` {#file-77028449e20a} | msk | hmm35wog.pac · WoG |
+| `AVWmon3.def` {#file-9f248f92572b} | def | hmm35wog.pac · WoG |
+| `AVWmon3.msk` {#file-b5e1241b174a} | msk | hmm35wog.pac · WoG |
+| `AVWmon4.def` {#file-c159eff05f6d} | def | hmm35wog.pac · WoG |
+| `AVWmon4.msk` {#file-af4c25bd06e3} | msk | hmm35wog.pac · WoG |
+| `AVWmon5.def` {#file-8ab778446415} | def | hmm35wog.pac · WoG |
+| `AVWmon5.msk` {#file-d9f3076b04fd} | msk | hmm35wog.pac · WoG |
+| `AVWmon6.def` {#file-7d0066ef10ba} | def | hmm35wog.pac · WoG |
+| `AVWmon6.msk` {#file-649e7b9558f1} | msk | hmm35wog.pac · WoG |
+| `AVWmon7.def` {#file-53f7144ae55f} | def | hmm35wog.pac · WoG |
+| `AVWmon7.msk` {#file-22235fbd86fc} | msk | hmm35wog.pac · WoG |
+| `AVWmrnd0.def` {#file-9fcadc3475d8} | def | hmm35wog.pac · WoG |
+| `AVWmrnd0.msk` {#file-4eb10a60adcc} | msk | hmm35wog.pac · WoG |
+| `avwphx.def` {#file-ec6b40a69f3a} | def | hmm35wog.pac · WoG |
+| `avwskex0.def` {#file-83f9822d2b45} | def | hmm35wog.pac · WoG |
+| `avxdens0.def` {#file-d9881f692805} | def | hmm35wog.pac · WoG |
+| `avxdens0.msk` {#file-5971c43655c2} | msk | hmm35wog.pac · WoG |
+| `avxgzbs0.def` {#file-599ee6b49c65} | def | hmm35wog.pac · WoG |
+| `avxgzbs0.msk` {#file-6aca6838f2a1} | msk | hmm35wog.pac · WoG |
+| `avxhils0.def` {#file-6d98e75a1450} | def | hmm35wog.pac · WoG |
+| `avxhils0.msk` {#file-4c0f9e8ee4a2} | msk | hmm35wog.pac · WoG |
+| `avxosis0.def` {#file-3b67f9fc1246} | def | hmm35wog.pac · WoG |
+| `avxtrks0.def` {#file-9e3d91739a79} | def | hmm35wog.pac · WoG |
+| `avxtrks0.msk` {#file-69760d0e99b6} | msk | hmm35wog.pac · WoG |
+| `avxtvrs0.def` {#file-be2280b8dcf1} | def | hmm35wog.pac · WoG |
+| `avxtvrs0.msk` {#file-ff6b22b944ba} | msk | hmm35wog.pac · WoG |
+| `avxwtrh0.def` {#file-256af25eb86c} | def | hmm35wog.pac · WoG |
+| `avzevnt0.def` {#file-d522f259b33b} | def | hmm35wog.pac · WoG |
+| `avzevnt0.msk` {#file-98d705cc5be9} | msk | hmm35wog.pac · WoG |
+| `avzgrail.def` {#file-d5a14c391c35} | def | hmm35wog.pac · WoG |
+| `avzgrail.msk` {#file-2492c55acadf} | msk | hmm35wog.pac · WoG |
+| `bttnnpc.def` {#file-a31b72991ffb} | def | hmm35wog.pac · WoG |
+| `catap_ml.def` {#file-0f20caeb0525} | def | hmm35wog.pac · WoG |
+| `catap_ml.msk` {#file-7d0c894a110a} | msk | hmm35wog.pac · WoG |
+| `catap_mr.def` {#file-0ab8eb129e45} | def | hmm35wog.pac · WoG |
+| `catap_mr.msk` {#file-b4b9a727e13d} | msk | hmm35wog.pac · WoG |
+| `cfelem.def` {#file-313320a73a0e} | def | hmm35wog.pac · WoG |
+| `chdrgn.def` {#file-19f650d679ab} | def | hmm35wog.pac · WoG |
+| `checkbox.def` {#file-55b0da601cba} | def | hmm35wog.pac · WoG |
+| `cphx.def` {#file-230bfe33a454} | def | hmm35wog.pac · WoG |
+| `cprsmall.def` {#file-0fba92106f53} | def | hmm35wog.pac · WoG |
+| `dlg_npc1.def` {#file-e1f54a45b885} | def | hmm35wog.pac · WoG |
+| `dlg_npc2.def` {#file-bee06fa8eed4} | def | hmm35wog.pac · WoG |
+| `dlg_npc3.def` {#file-03166c6bb2ca} | def | hmm35wog.pac · WoG |
+| `dlg_npcdel.def` {#file-1a9d26a1a3e5} | def | hmm35wog.pac · WoG |
+| `dlgcrexp.def` {#file-f8cae889c66e} | def | hmm35wog.pac · WoG |
+| `dlgexpup.def` {#file-b4b1e83b82cf} | def | hmm35wog.pac · WoG |
+| `flame.def` {#file-528318f8f6ed} | def | hmm35wog.pac · WoG |
+| `flame.msk` {#file-ec72a0224836} | msk | hmm35wog.pac · WoG |
+| `icm007.def` {#file-e64babaa8aff} | def | hmm35wog.pac · WoG |
+| `ILCK22.def` {#file-5917840a1416} | def | hmm35wog.pac · WoG |
+| `ILCK30.def` {#file-2f704d2e195b} | def | hmm35wog.pac · WoG |
+| `ILCK42.def` {#file-78c17ce152d6} | def | hmm35wog.pac · WoG |
+| `ilck82.def` {#file-8589185edd89} | def | hmm35wog.pac · WoG |
+| `ilckb.def` {#file-9ee5d42bcc10} | def | hmm35wog.pac · WoG |
+| `ILCKS.def` {#file-d400b9366623} | def | hmm35wog.pac · WoG |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs.page-3
+URL: /en/wiki/wog/defs/page-3/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 3/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `lavam.def` {#file-7037bc3c0752} | def | hmm35wog.pac · WoG |
+| `lavam.msk` {#file-7b3cb754b040} | msk | hmm35wog.pac · WoG |
+| `monprt44.def` {#file-d8e8676a3c88} | def | hmm35wog.pac · WoG |
+| `obbhs11a.def` {#file-0a90337b670b} | def | hmm35wog.pac · WoG |
+| `obbhs12b.def` {#file-dcfff3e39c67} | def | hmm35wog.pac · WoG |
+| `obdsm01.def` {#file-6c87e138a859} | def | hmm35wog.pac · WoG |
+| `obgrs01.def` {#file-1e5be222b934} | def | hmm35wog.pac · WoG |
+| `obsns09.def` {#file-1acb3a5181bc} | def | hmm35wog.pac · WoG |
+| `obsws11b.def` {#file-f97b224205ca} | def | hmm35wog.pac · WoG |
+| `radiobttn.def` {#file-10af84385014} | def | hmm35wog.pac · WoG |
+| `RanNorm.def` {#file-3c4b0d410c7f} | def | hmm35wog.pac · WoG |
+| `RanStrg.def` {#file-605041dee492} | def | hmm35wog.pac · WoG |
+| `RanWeak.def` {#file-358abcd5145c} | def | hmm35wog.pac · WoG |
+| `resour82.def` {#file-af4d68eb10c7} | def | hmm35wog.pac · WoG |
+| `RESOURCE.def` {#file-73fb02cca24e} | def | hmm35wog.pac · WoG |
+| `scselc.def` {#file-8b5290730630} | def | hmm35wog.pac · WoG |
+| `sfzerk.def` {#file-3244629e2ebc} | def | hmm35wog.pac · WoG |
+| `sfzerk.msk` {#file-353ebfb25230} | msk | hmm35wog.pac · WoG |
+| `skull.def` {#file-3eaa90b6dacd} | def | hmm35wog.pac · WoG |
+| `skull.msk` {#file-a008dbcdfb5b} | msk | hmm35wog.pac · WoG |
+| `SMALRES.def` {#file-a8084cb7be74} | def | hmm35wog.pac · WoG |
+| `smcata.def` {#file-ecb7e490487d} | def | hmm35wog.pac · WoG |
+| `smtent.def` {#file-a13cd9aa9605} | def | hmm35wog.pac · WoG |
+| `spells.def` {#file-228181dd13bd} | def | hmm35wog.pac · WoG |
+| `sskilbon.def` {#file-1d24e648cc89} | def | hmm35wog.pac · WoG |
+| `tbcshal4.def` {#file-61edeb86dc92} | def | hmm35wog.pac · WoG |
+| `tbeldw_5.def` {#file-f31fb8f98584} | def | hmm35wog.pac · WoG |
+| `tbelup_5.def` {#file-e6f1a4efc333} | def | hmm35wog.pac · WoG |
+| `tbelup_6.def` {#file-8fc5a0a125e5} | def | hmm35wog.pac · WoG |
+| `tbfrboat.def` {#file-309a21773d03} | def | hmm35wog.pac · WoG |
+| `tbfrdw_6.def` {#file-57a6bf5bee6a} | def | hmm35wog.pac · WoG |
+| `tbfrtvrn.def` {#file-2a5c19917ccf} | def | hmm35wog.pac · WoG |
+| `tbncdw_3.def` {#file-107445e77b53} | def | hmm35wog.pac · WoG |
+| `tbncup_3.def` {#file-2895dcd5d597} | def | hmm35wog.pac · WoG |
+| `tbsthal4.def` {#file-597f1a90b21a} | def | hmm35wog.pac · WoG |
+| `tbstholy.def` {#file-f2958a0c9d23} | def | hmm35wog.pac · WoG |
+| `townhrtd.def` {#file-a854643a15d8} | def | hmm35wog.pac · WoG |
+| `twcrport.def` {#file-1c6031ea94a9} | def | hmm35wog.pac · WoG |
+| `un32.def` {#file-0a82ebe47c76} | def | hmm35wog.pac · WoG |
+| `un44.def` {#file-17feeff87b9b} | def | hmm35wog.pac · WoG |
+| `wall1.def` {#file-aa0aa58a0750} | def | hmm35wog.pac · WoG |
+| `wall1.msk` {#file-4e06e1ff5d58} | msk | hmm35wog.pac · WoG |
+| `wall2.def` {#file-ca78b97c34ce} | def | hmm35wog.pac · WoG |
+| `wall2.msk` {#file-c597b522cd94} | msk | hmm35wog.pac · WoG |
+| `wndfolder.def` {#file-440f37f1fd42} | def | hmm35wog.pac · WoG |
+| `wogbttn.def` {#file-c28ab807ddc2} | def | hmm35wog.pac · WoG |
+| `wogcurse.def` {#file-299ab66dda9a} | def | hmm35wog.pac · WoG |
+| `z358o1.def` {#file-a048c5ae16d5} | def | hmm35wog.pac · WoG |
+| `z358o1.msk` {#file-b2d342dc1470} | msk | hmm35wog.pac · WoG |
+| `z358o10.def` {#file-003fbeb00686} | def | hmm35wog.pac · WoG |
+| `z358o10.msk` {#file-fbcbdaa0177d} | msk | hmm35wog.pac · WoG |
+| `z358o11.def` {#file-f4379706e852} | def | hmm35wog.pac · WoG |
+| `z358o11.msk` {#file-9ea838c8624c} | msk | hmm35wog.pac · WoG |
+| `z358o12.def` {#file-d8c08dc9bbcb} | def | hmm35wog.pac · WoG |
+| `z358o12.msk` {#file-3a76a991c8b8} | msk | hmm35wog.pac · WoG |
+| `z358o13.def` {#file-883a8c603cb7} | def | hmm35wog.pac · WoG |
+| `z358o13.msk` {#file-a842ffe02112} | msk | hmm35wog.pac · WoG |
+| `z358o14.def` {#file-750a136c72f9} | def | hmm35wog.pac · WoG |
+| `z358o14.msk` {#file-b5eefb127f85} | msk | hmm35wog.pac · WoG |
+| `z358o15.def` {#file-55bf908805c2} | def | hmm35wog.pac · WoG |
+| `z358o15.msk` {#file-12dd80b09ecb} | msk | hmm35wog.pac · WoG |
+| `z358o16.def` {#file-0d099ed254b2} | def | hmm35wog.pac · WoG |
+| `z358o16.msk` {#file-2ac58b0fcf3f} | msk | hmm35wog.pac · WoG |
+| `z358o2.def` {#file-d3f51e2d4c5d} | def | hmm35wog.pac · WoG |
+| `z358o2.msk` {#file-7e5bf0e3a1c4} | msk | hmm35wog.pac · WoG |
+| `z358o3.def` {#file-7e989db57f87} | def | hmm35wog.pac · WoG |
+| `z358o3.msk` {#file-ef5a88f2d68f} | msk | hmm35wog.pac · WoG |
+| `z358o4.def` {#file-36acaa9a0445} | def | hmm35wog.pac · WoG |
+| `z358o4.msk` {#file-da6931aba903} | msk | hmm35wog.pac · WoG |
+| `z358o5.def` {#file-aea15d31bf86} | def | hmm35wog.pac · WoG |
+| `z358o5.msk` {#file-7ff844533c27} | msk | hmm35wog.pac · WoG |
+| `z358o6.def` {#file-36132c004e94} | def | hmm35wog.pac · WoG |
+| `z358o6.msk` {#file-c25e5d677ed2} | msk | hmm35wog.pac · WoG |
+| `z358o7.def` {#file-fab414b3814b} | def | hmm35wog.pac · WoG |
+| `z358o7.msk` {#file-cc22107ad338} | msk | hmm35wog.pac · WoG |
+| `z358o8.def` {#file-33bfb79ea077} | def | hmm35wog.pac · WoG |
+| `z358o8.msk` {#file-0e5128ce141d} | msk | hmm35wog.pac · WoG |
+| `z358o9.def` {#file-b039eaf7a6a4} | def | hmm35wog.pac · WoG |
+| `z358o9.msk` {#file-78ca6352ca88} | msk | hmm35wog.pac · WoG |
+| `zart141.def` {#file-f264266ebad2} | def | hmm35wog.pac · WoG |
+| `zart141.msk` {#file-e5425588a2e1} | msk | hmm35wog.pac · WoG |
+| `zart142.def` {#file-cb50a1b303c3} | def | hmm35wog.pac · WoG |
+| `zart142.msk` {#file-53596b20fbe4} | msk | hmm35wog.pac · WoG |
+| `zart143.def` {#file-d18371e576ca} | def | hmm35wog.pac · WoG |
+| `zart143.msk` {#file-52bf108698f6} | msk | hmm35wog.pac · WoG |
+| `zart146.def` {#file-3589e7e8349f} | def | hmm35wog.pac · WoG |
+| `zart146.msk` {#file-e33a066fef90} | msk | hmm35wog.pac · WoG |
+| `zart147.def` {#file-3a1c963d0003} | def | hmm35wog.pac · WoG |
+| `zart147.msk` {#file-6311607e4d32} | msk | hmm35wog.pac · WoG |
+| `zart148.def` {#file-0106a12f9b88} | def | hmm35wog.pac · WoG |
+| `zart148.msk` {#file-53e7a20dd9c1} | msk | hmm35wog.pac · WoG |
+| `zart149.def` {#file-27b000ceb035} | def | hmm35wog.pac · WoG |
+| `zart149.msk` {#file-b25d9baa820a} | msk | hmm35wog.pac · WoG |
+| `zart150.def` {#file-f34663781bbb} | def | hmm35wog.pac · WoG |
+| `zart150.msk` {#file-b447692b27e1} | msk | hmm35wog.pac · WoG |
+| `zart151.def` {#file-432b6d3dd65a} | def | hmm35wog.pac · WoG |
+| `zart151.msk` {#file-eac69041ccbf} | msk | hmm35wog.pac · WoG |
+| `zart152.def` {#file-f1f2c59e8cb7} | def | hmm35wog.pac · WoG |
+| `zart152.msk` {#file-b21ba1961ac5} | msk | hmm35wog.pac · WoG |
+| `zart153.def` {#file-ccc2163b32d5} | def | hmm35wog.pac · WoG |
+| `zart153.msk` {#file-0a8ff4a5b103} | msk | hmm35wog.pac · WoG |
+| `zart154.def` {#file-ce4ebee8431b} | def | hmm35wog.pac · WoG |
+| `zart154.msk` {#file-05de5a725eec} | msk | hmm35wog.pac · WoG |
+| `zart155.def` {#file-c0caf653915f} | def | hmm35wog.pac · WoG |
+| `zart155.msk` {#file-6034d1ff65a2} | msk | hmm35wog.pac · WoG |
+| `zart156.def` {#file-baff75eff8ce} | def | hmm35wog.pac · WoG |
+| `zart156.msk` {#file-95f8aa67fa97} | msk | hmm35wog.pac · WoG |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs.page-4
+URL: /en/wiki/wog/defs/page-4/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 4/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `zart157.def` {#file-d10dede450e6} | def | hmm35wog.pac · WoG |
+| `zart157.msk` {#file-5e99746863c1} | msk | hmm35wog.pac · WoG |
+| `zart158.def` {#file-53e73833e94c} | def | hmm35wog.pac · WoG |
+| `zart158.msk` {#file-fa624ce03b20} | msk | hmm35wog.pac · WoG |
+| `zart159.def` {#file-4dabecff8be7} | def | hmm35wog.pac · WoG |
+| `zart159.msk` {#file-01f8edf4f38a} | msk | hmm35wog.pac · WoG |
+| `zart160.def` {#file-57ca5190b093} | def | hmm35wog.pac · WoG |
+| `zart160.msk` {#file-808a0218cec9} | msk | hmm35wog.pac · WoG |
+| `zart161.def` {#file-2d879f73d6b8} | def | hmm35wog.pac · WoG |
+| `zart161.msk` {#file-e36da251fa34} | msk | hmm35wog.pac · WoG |
+| `zart162.def` {#file-3ab68fa3766c} | def | hmm35wog.pac · WoG |
+| `zart162.msk` {#file-0a001864f29c} | msk | hmm35wog.pac · WoG |
+| `zart163.def` {#file-90e8318e0627} | def | hmm35wog.pac · WoG |
+| `zart163.msk` {#file-8168df216833} | msk | hmm35wog.pac · WoG |
+| `zart164.def` {#file-7bbc29bbc057} | def | hmm35wog.pac · WoG |
+| `zart164.msk` {#file-c5fb4f9aab9a} | msk | hmm35wog.pac · WoG |
+| `zart165.def` {#file-c29f02ced365} | def | hmm35wog.pac · WoG |
+| `zart165.msk` {#file-a1a03a29e06f} | msk | hmm35wog.pac · WoG |
+| `zart166.def` {#file-312171337240} | def | hmm35wog.pac · WoG |
+| `zart166.msk` {#file-f66ad53c4598} | msk | hmm35wog.pac · WoG |
+| `zart167.def` {#file-1d01ea62ae53} | def | hmm35wog.pac · WoG |
+| `zart167.msk` {#file-0d5972136622} | msk | hmm35wog.pac · WoG |
+| `zart168.def` {#file-a27380dfa5b2} | def | hmm35wog.pac · WoG |
+| `zart168.msk` {#file-84cc2b32eb9b} | msk | hmm35wog.pac · WoG |
+| `zart169.def` {#file-8eba4c3e3ab0} | def | hmm35wog.pac · WoG |
+| `zart169.msk` {#file-0c268ddff4b0} | msk | hmm35wog.pac · WoG |
+| `zart170.def` {#file-b27b2e9f3ae5} | def | hmm35wog.pac · WoG |
+| `zart170.msk` {#file-e506a7771c67} | msk | hmm35wog.pac · WoG |
+| `zartif1.def` {#file-ee777760a5d0} | def | hmm35wog.pac · WoG |
+| `zartif1.msk` {#file-380b5fb8689c} | msk | hmm35wog.pac · WoG |
+| `zavg150z.def` {#file-a4b99307661b} | def | hmm35wog.pac · WoG |
+| `zavg150z.msk` {#file-4cb9fc1fb63c} | msk | hmm35wog.pac · WoG |
+| `zavg151z.def` {#file-c54266319b77} | def | hmm35wog.pac · WoG |
+| `zavg151z.msk` {#file-61eaefdfe6f4} | msk | hmm35wog.pac · WoG |
+| `zavg152z.def` {#file-a78b9e34740f} | def | hmm35wog.pac · WoG |
+| `zavg152z.msk` {#file-eeed303e221d} | msk | hmm35wog.pac · WoG |
+| `zavg153z.def` {#file-a179dcd436d5} | def | hmm35wog.pac · WoG |
+| `zavg153z.msk` {#file-14302f883357} | msk | hmm35wog.pac · WoG |
+| `zavg154z.def` {#file-72feba2d2431} | def | hmm35wog.pac · WoG |
+| `zavg154z.msk` {#file-701dbf12f774} | msk | hmm35wog.pac · WoG |
+| `zavg155z.def` {#file-d0dc74f7cf51} | def | hmm35wog.pac · WoG |
+| `zavg155z.msk` {#file-317775088024} | msk | hmm35wog.pac · WoG |
+| `zavg156z.def` {#file-ff20cc67ebf6} | def | hmm35wog.pac · WoG |
+| `zavg156z.msk` {#file-36c75cf2d5b2} | msk | hmm35wog.pac · WoG |
+| `zavg157z.def` {#file-ffde11ce7b64} | def | hmm35wog.pac · WoG |
+| `zavg157z.msk` {#file-29e598ce381e} | msk | hmm35wog.pac · WoG |
+| `zavg158z.def` {#file-b0955fca37b6} | def | hmm35wog.pac · WoG |
+| `zavg158z.msk` {#file-7460469909c2} | msk | hmm35wog.pac · WoG |
+| `zavg169.def` {#file-0ab5d4c730bd} | def | hmm35wog.pac · WoG |
+| `zavg169.msk` {#file-a230ff1c3369} | msk | hmm35wog.pac · WoG |
+| `zavg170z.def` {#file-36d4d6070a4d} | def | hmm35wog.pac · WoG |
+| `zavg170z.msk` {#file-ede30807a34c} | msk | hmm35wog.pac · WoG |
+| `zavg171z.def` {#file-97599b927bed} | def | hmm35wog.pac · WoG |
+| `zavg171z.msk` {#file-022f6654ecc5} | msk | hmm35wog.pac · WoG |
+| `zavg172a.def` {#file-b9e7e3c24550} | def | hmm35wog.pac · WoG |
+| `zavg172a.msk` {#file-3269b623a9a5} | msk | hmm35wog.pac · WoG |
+| `zavg172b.def` {#file-2b856501c363} | def | hmm35wog.pac · WoG |
+| `zavg172b.msk` {#file-6e130926dcdb} | msk | hmm35wog.pac · WoG |
+| `zavg173.def` {#file-8a2b190dd37b} | def | hmm35wog.pac · WoG |
+| `zavg173.msk` {#file-8c1a3946a26a} | msk | hmm35wog.pac · WoG |
+| `zavg173a.def` {#file-06a188c7d5bb} | def | hmm35wog.pac · WoG |
+| `zavg173a.msk` {#file-c9f7c156cb55} | msk | hmm35wog.pac · WoG |
+| `zavg174a.def` {#file-f5c084c7f61d} | def | hmm35wog.pac · WoG |
+| `zavg174a.msk` {#file-78fd74df1435} | msk | hmm35wog.pac · WoG |
+| `zavg192.def` {#file-8583eed14142} | def | hmm35wog.pac · WoG |
+| `zavg192.msk` {#file-c27f13bf98e4} | msk | hmm35wog.pac · WoG |
+| `zavg193.def` {#file-23f3f616a8d0} | def | hmm35wog.pac · WoG |
+| `zavg193.msk` {#file-3aeff2d62c48} | msk | hmm35wog.pac · WoG |
+| `zavg194.def` {#file-48bdcf426198} | def | hmm35wog.pac · WoG |
+| `zavg194.msk` {#file-91cb1d289fe5} | msk | hmm35wog.pac · WoG |
+| `zavg195.def` {#file-440bd10236ed} | def | hmm35wog.pac · WoG |
+| `zavg195.msk` {#file-3929e39ccfb9} | msk | hmm35wog.pac · WoG |
+| `zavg196.def` {#file-1eb698e7f639} | def | hmm35wog.pac · WoG |
+| `zavg196.msk` {#file-0d297fb47dc4} | msk | hmm35wog.pac · WoG |
+| `zcave1.def` {#file-36e16de928af} | def | hmm35wog.pac · WoG |
+| `zcave1.msk` {#file-94ffe7fa7362} | msk | hmm35wog.pac · WoG |
+| `zcave2.def` {#file-b4a98eb27f9f} | def | hmm35wog.pac · WoG |
+| `zcave2.msk` {#file-db21cdd96cfc} | msk | hmm35wog.pac · WoG |
+| `zcave3.def` {#file-837c2be57fa3} | def | hmm35wog.pac · WoG |
+| `zcave3.msk` {#file-3cf11fc5cb58} | msk | hmm35wog.pac · WoG |
+| `zcave4.def` {#file-807aa3fcfbe5} | def | hmm35wog.pac · WoG |
+| `zcave4.msk` {#file-ee9126c6c7f5} | msk | hmm35wog.pac · WoG |
+| `zcave5.def` {#file-a1e97283cc23} | def | hmm35wog.pac · WoG |
+| `zcave5.msk` {#file-6c9e8166e3d7} | msk | hmm35wog.pac · WoG |
+| `zcbon000.def` {#file-cad3325bc069} | def | hmm35wog.pac · WoG |
+| `zcbon000.msk` {#file-b15f0806ad37} | msk | hmm35wog.pac · WoG |
+| `zcbon001.def` {#file-d608f325965b} | def | hmm35wog.pac · WoG |
+| `zcbon001.msk` {#file-08d90fed6c1a} | msk | hmm35wog.pac · WoG |
+| `zcbon002.def` {#file-b8e16743ae1a} | def | hmm35wog.pac · WoG |
+| `zcbon002.msk` {#file-ea3042effc81} | msk | hmm35wog.pac · WoG |
+| `zcbon003.def` {#file-f47f01e96d7d} | def | hmm35wog.pac · WoG |
+| `zcbon003.msk` {#file-7f1e492675b6} | msk | hmm35wog.pac · WoG |
+| `zchst1.def` {#file-c0d7ed54dec5} | def | hmm35wog.pac · WoG |
+| `zchst1.msk` {#file-2d7859b71304} | msk | hmm35wog.pac · WoG |
+| `zchst2.def` {#file-2eb17ca14dee} | def | hmm35wog.pac · WoG |
+| `zchst2.msk` {#file-599fb8cad217} | msk | hmm35wog.pac · WoG |
+| `zchst3.def` {#file-44992d2e9887} | def | hmm35wog.pac · WoG |
+| `zchst3.msk` {#file-f6f57a2d24a1} | msk | hmm35wog.pac · WoG |
+| `zchst4.def` {#file-5d13194f73b0} | def | hmm35wog.pac · WoG |
+| `zchst4.msk` {#file-1ae2113e0b05} | msk | hmm35wog.pac · WoG |
+| `zchst5.def` {#file-aeb4927c9560} | def | hmm35wog.pac · WoG |
+| `zchst5.msk` {#file-adfa37d327a2} | msk | hmm35wog.pac · WoG |
+| `zchst6.def` {#file-a6e9f3c11e14} | def | hmm35wog.pac · WoG |
+| `zchst6.msk` {#file-f0a1ea9862e4} | msk | hmm35wog.pac · WoG |
+| `zcrbank1.def` {#file-1b427cd3df60} | def | hmm35wog.pac · WoG |
+| `zcrbank1.msk` {#file-cd52cddb87d2} | msk | hmm35wog.pac · WoG |
+| `zcrbank2.def` {#file-58cba1f73be8} | def | hmm35wog.pac · WoG |
+| `zcrbank2.msk` {#file-794de2992876} | msk | hmm35wog.pac · WoG |
+| `zcrbank3.def` {#file-c963732faa55} | def | hmm35wog.pac · WoG |
+| `zcrbank3.msk` {#file-62590ecb3f26} | msk | hmm35wog.pac · WoG |
+| `zcrbgod1.def` {#file-f932f01698e2} | def | hmm35wog.pac · WoG |
+| `zcrbgod1.msk` {#file-837cdaab57b0} | msk | hmm35wog.pac · WoG |
+| `zcrbgod2.def` {#file-5751183f8016} | def | hmm35wog.pac · WoG |
+| `zcrbgod2.msk` {#file-d134602f31a5} | msk | hmm35wog.pac · WoG |
+| `zcrbgod3.def` {#file-dfce9ca582f8} | def | hmm35wog.pac · WoG |
+| `zcrbgod3.msk` {#file-104e82751dbb} | msk | hmm35wog.pac · WoG |
+| `zcrbgod4.def` {#file-4917d133720e} | def | hmm35wog.pac · WoG |
+| `zcrbgod4.msk` {#file-393d26ec94d6} | msk | hmm35wog.pac · WoG |
+| `zcrbjn19.def` {#file-2d11652bfda8} | def | hmm35wog.pac · WoG |
+| `zcrbjn19.msk` {#file-5aa3b042aa3f} | msk | hmm35wog.pac · WoG |
+| `zcrbvm17.def` {#file-0d2739580343} | def | hmm35wog.pac · WoG |
+| `zcrbvm17.msk` {#file-40c6c55a2d9e} | msk | hmm35wog.pac · WoG |
+| `zcrbvm18.def` {#file-2a7f859eb3b1} | def | hmm35wog.pac · WoG |
+| `zcrbvm18.msk` {#file-434e1e2dd98c} | msk | hmm35wog.pac · WoG |
+| `zdec0001.def` {#file-723d0866ea22} | def | hmm35wog.pac · WoG |
+| `zdec0001.msk` {#file-063a1ae3c2ba} | msk | hmm35wog.pac · WoG |
+| `zdec0002.def` {#file-2b972f457289} | def | hmm35wog.pac · WoG |
+| `zdec0002.msk` {#file-07328eb52e8b} | msk | hmm35wog.pac · WoG |
+| `zdec0003.def` {#file-0d7b454d4fa3} | def | hmm35wog.pac · WoG |
+| `zdec0003.msk` {#file-e6626a43188d} | msk | hmm35wog.pac · WoG |
+| `zdec0004.def` {#file-92281c3c2cd8} | def | hmm35wog.pac · WoG |
+| `zdec0004.msk` {#file-74f4bf5c1a58} | msk | hmm35wog.pac · WoG |
+| `zdec0005.def` {#file-18b460be6f7d} | def | hmm35wog.pac · WoG |
+| `zdec0005.msk` {#file-9a7ee9588eae} | msk | hmm35wog.pac · WoG |
+| `zdec0007.def` {#file-e6185875838b} | def | hmm35wog.pac · WoG |
+| `zdec0007.msk` {#file-0320ee206339} | msk | hmm35wog.pac · WoG |
+| `zdec0008.def` {#file-12b2b26e198e} | def | hmm35wog.pac · WoG |
+| `zdec0008.msk` {#file-54e5b1b21a43} | msk | hmm35wog.pac · WoG |
+| `zdec0009.def` {#file-e2838e1f6883} | def | hmm35wog.pac · WoG |
+| `zdec0009.msk` {#file-8f0422e28098} | msk | hmm35wog.pac · WoG |
+| `zdec0010.def` {#file-7d0b0b680e94} | def | hmm35wog.pac · WoG |
+| `zdec0010.msk` {#file-c270a1e60def} | msk | hmm35wog.pac · WoG |
+| `zdec0011.def` {#file-1955f4a56be3} | def | hmm35wog.pac · WoG |
+| `zdec0011.msk` {#file-3d7f4a3c061e} | msk | hmm35wog.pac · WoG |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs.page-5
+URL: /en/wiki/wog/defs/page-5/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 5/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `zdec0012.def` {#file-99643f45dffa} | def | hmm35wog.pac · WoG |
+| `zdec0012.msk` {#file-fbd64366bc2d} | msk | hmm35wog.pac · WoG |
+| `zdec0013.def` {#file-6800c4e5fc29} | def | hmm35wog.pac · WoG |
+| `zdec0013.msk` {#file-5603c031d822} | msk | hmm35wog.pac · WoG |
+| `zdec0014.def` {#file-75ca87c9728e} | def | hmm35wog.pac · WoG |
+| `zdec0014.msk` {#file-f6775f395ba0} | msk | hmm35wog.pac · WoG |
+| `zdec0015.def` {#file-a7ec8a8f9f2f} | def | hmm35wog.pac · WoG |
+| `zdec0015.msk` {#file-e901bdd15f27} | msk | hmm35wog.pac · WoG |
+| `zdent001.def` {#file-45988057d3dc} | def | hmm35wog.pac · WoG |
+| `zdent001.msk` {#file-0c4b0386aeb1} | msk | hmm35wog.pac · WoG |
+| `zflame1.def` {#file-4ccaf8d0930b} | def | hmm35wog.pac · WoG |
+| `zflame1.msk` {#file-e4f860d19110} | msk | hmm35wog.pac · WoG |
+| `zfntng01.def` {#file-e5125efc24bc} | def | hmm35wog.pac · WoG |
+| `zfntng01.msk` {#file-edd4711ff273} | msk | hmm35wog.pac · WoG |
+| `zfohill0.def` {#file-9dc65673fdf1} | def | hmm35wog.pac · WoG |
+| `zfohill0.msk` {#file-cc0793c960f3} | msk | hmm35wog.pac · WoG |
+| `zgarn001.def` {#file-995b432a1b1b} | def | hmm35wog.pac · WoG |
+| `zgarn001.msk` {#file-8308b72fea4c} | msk | hmm35wog.pac · WoG |
+| `zgarn002.def` {#file-e56188a055a9} | def | hmm35wog.pac · WoG |
+| `zgarn002.msk` {#file-22f3469896f6} | msk | hmm35wog.pac · WoG |
+| `zgarn003.def` {#file-96ebce63228d} | def | hmm35wog.pac · WoG |
+| `zgarn003.msk` {#file-1c98f28d2220} | msk | hmm35wog.pac · WoG |
+| `zgodbon.def` {#file-aafc714c461b} | def | hmm35wog.pac · WoG |
+| `zh4obj01.def` {#file-b2cc3d4b9499} | def | hmm35wog.pac · WoG |
+| `zh4obj01.msk` {#file-51714f047e6d} | msk | hmm35wog.pac · WoG |
+| `zh4obj02.def` {#file-4468ffcfa5aa} | def | hmm35wog.pac · WoG |
+| `zh4obj02.msk` {#file-99a03fed7458} | msk | hmm35wog.pac · WoG |
+| `zlagport.def` {#file-c874939f065c} | def | hmm35wog.pac · WoG |
+| `zlava001.def` {#file-df4f1a34862e} | def | hmm35wog.pac · WoG |
+| `zlava001.msk` {#file-b2921c5dee47} | msk | hmm35wog.pac · WoG |
+| `zlwork1.def` {#file-3162e65bd32a} | def | hmm35wog.pac · WoG |
+| `zlwork1.msk` {#file-b2081f048042} | msk | hmm35wog.pac · WoG |
+| `zm150z.def` {#file-6549c15be2da} | def | hmm35wog.pac · WoG |
+| `zm151z.def` {#file-8d56510fc2c6} | def | hmm35wog.pac · WoG |
+| `zm152z.def` {#file-f5638f4ced6e} | def | hmm35wog.pac · WoG |
+| `zm153z.def` {#file-1334b68f4088} | def | hmm35wog.pac · WoG |
+| `zm154z.def` {#file-ddb9f2b9b807} | def | hmm35wog.pac · WoG |
+| `zm155z.def` {#file-ec65ee616d51} | def | hmm35wog.pac · WoG |
+| `zm156z.def` {#file-52395ad4f2e9} | def | hmm35wog.pac · WoG |
+| `zm157z.def` {#file-d9c6085eef57} | def | hmm35wog.pac · WoG |
+| `zm158z.def` {#file-17a41974b231} | def | hmm35wog.pac · WoG |
+| `zm159g.def` {#file-87508bed97df} | def | hmm35wog.pac · WoG |
+| `zm160g.def` {#file-16530bb2dfcc} | def | hmm35wog.pac · WoG |
+| `zm161g.def` {#file-7b10f4ace3ed} | def | hmm35wog.pac · WoG |
+| `zm162g.def` {#file-85d3b092d917} | def | hmm35wog.pac · WoG |
+| `zm163g.def` {#file-304237686437} | def | hmm35wog.pac · WoG |
+| `zm164gd.def` {#file-a8b4d9fe051f} | def | hmm35wog.pac · WoG |
+| `zm165gd.def` {#file-7f01edeb4d83} | def | hmm35wog.pac · WoG |
+| `zm166gd.def` {#file-4afb1fdbd7a4} | def | hmm35wog.pac · WoG |
+| `zm167gd.def` {#file-e1d92312a418} | def | hmm35wog.pac · WoG |
+| `zm168dg.def` {#file-f714a243d7af} | def | hmm35wog.pac · WoG |
+| `zm169zl.def` {#file-1b4fe59d6f5b} | def | hmm35wog.pac · WoG |
+| `zm170sw.def` {#file-42fce11348bf} | def | hmm35wog.pac · WoG |
+| `zm171sr.def` {#file-d7e1c519be89} | def | hmm35wog.pac · WoG |
+| `zm172n.def` {#file-4a410c33c0d6} | def | hmm35wog.pac · WoG |
+| `zm173m.def` {#file-eef2c35c0ed0} | def | hmm35wog.pac · WoG |
+| `zm174npc.def` {#file-ab477ab7b5f8} | def | hmm35wog.pac · WoG |
+| `zm175npc.def` {#file-2c12c09f291b} | def | hmm35wog.pac · WoG |
+| `zm176npc.def` {#file-b48a0339a0fb} | def | hmm35wog.pac · WoG |
+| `zm177npc.def` {#file-776bbabc7885} | def | hmm35wog.pac · WoG |
+| `zm178npc.def` {#file-8ef805370ff4} | def | hmm35wog.pac · WoG |
+| `zm179npc.def` {#file-9dc0e114e52e} | def | hmm35wog.pac · WoG |
+| `zm180npc.def` {#file-2b9b7579fcc7} | def | hmm35wog.pac · WoG |
+| `zm181npc.def` {#file-a666c6a4c519} | def | hmm35wog.pac · WoG |
+| `zm182npc.def` {#file-2ecdb6a60c73} | def | hmm35wog.pac · WoG |
+| `zm192z.def` {#file-d92c85c9c8fc} | def | hmm35wog.pac · WoG |
+| `zm193z.def` {#file-42a0973832b7} | def | hmm35wog.pac · WoG |
+| `zm194z.def` {#file-185e0e57cfe8} | def | hmm35wog.pac · WoG |
+| `zm195z.def` {#file-177a34be2bb9} | def | hmm35wog.pac · WoG |
+| `zm196z.def` {#file-0550d66c9656} | def | hmm35wog.pac · WoG |
+| `zmagic1.def` {#file-6f242fac3c51} | def | hmm35wog.pac · WoG |
+| `zmark1.def` {#file-f86540442665} | def | hmm35wog.pac · WoG |
+| `zmark1.msk` {#file-aba00241384d} | msk | hmm35wog.pac · WoG |
+| `zmermd01.def` {#file-bf6e6a3afb1e} | def | hmm35wog.pac · WoG |
+| `zmermd01.msk` {#file-ff79aac4dbf1} | msk | hmm35wog.pac · WoG |
+| `zmermd02.def` {#file-7402f52fb190} | def | hmm35wog.pac · WoG |
+| `zmermd02.msk` {#file-d197a19b531e} | msk | hmm35wog.pac · WoG |
+| `zmgc01.def` {#file-a21c1ccda1e2} | def | hmm35wog.pac · WoG |
+| `zmgc02.def` {#file-6bef128beb2d} | def | hmm35wog.pac · WoG |
+| `zmgc03.def` {#file-69e0b8890956} | def | hmm35wog.pac · WoG |
+| `ZMITHR.def` {#file-e297a8b70bf2} | def | hmm35wog.pac · WoG |
+| `zmithr.msk` {#file-8e1fa002cbd9} | msk | hmm35wog.pac · WoG |
+| `zmm150z.def` {#file-1a58986cf474} | def | hmm35wog.pac · WoG |
+| `zmm150z.msk` {#file-2903de65982a} | msk | hmm35wog.pac · WoG |
+| `zmm151z.def` {#file-3b7c642ec555} | def | hmm35wog.pac · WoG |
+| `zmm151z.msk` {#file-9ef3bb2374a0} | msk | hmm35wog.pac · WoG |
+| `zmm152z.def` {#file-54cc65650301} | def | hmm35wog.pac · WoG |
+| `zmm152z.msk` {#file-408f8e682198} | msk | hmm35wog.pac · WoG |
+| `zmm153z.def` {#file-0e7e8614d162} | def | hmm35wog.pac · WoG |
+| `zmm153z.msk` {#file-033466d9b9bf} | msk | hmm35wog.pac · WoG |
+| `zmm154z.def` {#file-4f10dc661d4b} | def | hmm35wog.pac · WoG |
+| `zmm154z.msk` {#file-374645a07cd4} | msk | hmm35wog.pac · WoG |
+| `zmm155z.def` {#file-8d1064f94d60} | def | hmm35wog.pac · WoG |
+| `zmm155z.msk` {#file-af1b223e8404} | msk | hmm35wog.pac · WoG |
+| `zmm156z.def` {#file-7de421442315} | def | hmm35wog.pac · WoG |
+| `zmm156z.msk` {#file-30118755ff83} | msk | hmm35wog.pac · WoG |
+| `zmm157z.def` {#file-8cc61fb864cb} | def | hmm35wog.pac · WoG |
+| `zmm157z.msk` {#file-68dbeaaaac65} | msk | hmm35wog.pac · WoG |
+| `zmm158z.def` {#file-a1ee510c44c9} | def | hmm35wog.pac · WoG |
+| `zmm158z.msk` {#file-1c56531eb16e} | msk | hmm35wog.pac · WoG |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs.page-6
+URL: /en/wiki/wog/defs/page-6/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 6/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `zmm159g.def` {#file-6c360fb8ba25} | def | hmm35wog.pac · WoG |
+| `zmm159g.msk` {#file-3a773a9e1338} | msk | hmm35wog.pac · WoG |
+| `zmm160g.def` {#file-8778bfde6008} | def | hmm35wog.pac · WoG |
+| `zmm160g.msk` {#file-454665e7cea7} | msk | hmm35wog.pac · WoG |
+| `zmm161g.def` {#file-d0c4b7c7b95c} | def | hmm35wog.pac · WoG |
+| `zmm161g.msk` {#file-f6a22c8fb914} | msk | hmm35wog.pac · WoG |
+| `zmm162g.def` {#file-5c099aa731aa} | def | hmm35wog.pac · WoG |
+| `zmm162g.msk` {#file-3339be95c36f} | msk | hmm35wog.pac · WoG |
+| `zmm163g.def` {#file-a9627b12b67d} | def | hmm35wog.pac · WoG |
+| `zmm163g.msk` {#file-d93056836910} | msk | hmm35wog.pac · WoG |
+| `zmm164d.def` {#file-550da1cec621} | def | hmm35wog.pac · WoG |
+| `zmm164d.msk` {#file-de4a6f98ac9e} | msk | hmm35wog.pac · WoG |
+| `zmm165d.def` {#file-334c1b9e77b5} | def | hmm35wog.pac · WoG |
+| `zmm165d.msk` {#file-b0a1cdcc8339} | msk | hmm35wog.pac · WoG |
+| `zmm166d.def` {#file-6605aed0abcd} | def | hmm35wog.pac · WoG |
+| `zmm166d.msk` {#file-baea55d0c4a9} | msk | hmm35wog.pac · WoG |
+| `zmm167d.def` {#file-96c8f186edb0} | def | hmm35wog.pac · WoG |
+| `zmm167d.msk` {#file-352ba196259f} | msk | hmm35wog.pac · WoG |
+| `zmm168g.def` {#file-80d94f183242} | def | hmm35wog.pac · WoG |
+| `zmm168g.msk` {#file-fed661e31d63} | msk | hmm35wog.pac · WoG |
+| `zmm169z.def` {#file-169977405269} | def | hmm35wog.pac · WoG |
+| `zmm169z.msk` {#file-bd72112511da} | msk | hmm35wog.pac · WoG |
+| `zmm170s.def` {#file-65fbc83fb049} | def | hmm35wog.pac · WoG |
+| `zmm170s.msk` {#file-b2912f542954} | msk | hmm35wog.pac · WoG |
+| `zmm171s.def` {#file-e87a6d442169} | def | hmm35wog.pac · WoG |
+| `zmm171s.msk` {#file-9bb0f65fd2d5} | msk | hmm35wog.pac · WoG |
+| `zmm172n.def` {#file-e759eb245920} | def | hmm35wog.pac · WoG |
+| `zmm172n.msk` {#file-e8a18392750f} | msk | hmm35wog.pac · WoG |
+| `zmm173m.def` {#file-c382a89fa694} | def | hmm35wog.pac · WoG |
+| `zmm173m.msk` {#file-42532d0e79b0} | msk | hmm35wog.pac · WoG |
+| `zmm174n.def` {#file-8fc7893f75a7} | def | hmm35wog.pac · WoG |
+| `zmm174n.msk` {#file-146688c72fae} | msk | hmm35wog.pac · WoG |
+| `zmm175n.def` {#file-d6f86cbe48d5} | def | hmm35wog.pac · WoG |
+| `zmm175n.msk` {#file-f81f4fc28327} | msk | hmm35wog.pac · WoG |
+| `zmm176n.def` {#file-63739a9df336} | def | hmm35wog.pac · WoG |
+| `zmm176n.msk` {#file-a2ecbf23e399} | msk | hmm35wog.pac · WoG |
+| `zmm177n.def` {#file-5011ea7e07d3} | def | hmm35wog.pac · WoG |
+| `zmm177n.msk` {#file-ec412cdb4803} | msk | hmm35wog.pac · WoG |
+| `zmm178n.def` {#file-79d29f0c998a} | def | hmm35wog.pac · WoG |
+| `zmm178n.msk` {#file-8745b49a736d} | msk | hmm35wog.pac · WoG |
+| `zmm179n.def` {#file-e9ed04b1b52a} | def | hmm35wog.pac · WoG |
+| `zmm179n.msk` {#file-3d2d523846b8} | msk | hmm35wog.pac · WoG |
+| `zmm180n.def` {#file-8b4c5bfb30c2} | def | hmm35wog.pac · WoG |
+| `zmm180n.msk` {#file-1dbde3a49707} | msk | hmm35wog.pac · WoG |
+| `zmm181n.def` {#file-a796dbdfb647} | def | hmm35wog.pac · WoG |
+| `zmm181n.msk` {#file-4dd59265d90d} | msk | hmm35wog.pac · WoG |
+| `zmm182n.def` {#file-d567470317a6} | def | hmm35wog.pac · WoG |
+| `zmm182n.msk` {#file-3352972ea47b} | msk | hmm35wog.pac · WoG |
+| `zmm192z.def` {#file-f8579d41af9c} | def | hmm35wog.pac · WoG |
+| `zmm192z.msk` {#file-5ad7f09d115d} | msk | hmm35wog.pac · WoG |
+| `zmm193z.def` {#file-c9ed213e3f63} | def | hmm35wog.pac · WoG |
+| `zmm193z.msk` {#file-a6c12dec2b59} | msk | hmm35wog.pac · WoG |
+| `zmm194z.def` {#file-b19773b1f769} | def | hmm35wog.pac · WoG |
+| `zmm194z.msk` {#file-e2edaa7336a7} | msk | hmm35wog.pac · WoG |
+| `zmm195z.def` {#file-23f5cfee4738} | def | hmm35wog.pac · WoG |
+| `zmm195z.msk` {#file-b733e28525b2} | msk | hmm35wog.pac · WoG |
+| `zmm196z.def` {#file-e6854d27faae} | def | hmm35wog.pac · WoG |
+| `zmm196z.msk` {#file-8c6e3ed99f2c} | msk | hmm35wog.pac · WoG |
+| `zobj001.def` {#file-c78915f47d8b} | def | hmm35wog.pac · WoG |
+| `zobj001.msk` {#file-ef3fac547bb1} | msk | hmm35wog.pac · WoG |
+| `zobj002.def` {#file-b1451e3c8bcd} | def | hmm35wog.pac · WoG |
+| `zobj002.msk` {#file-c8669d08587b} | msk | hmm35wog.pac · WoG |
+| `zobj003.def` {#file-5517b2ef90ae} | def | hmm35wog.pac · WoG |
+| `zobj003.msk` {#file-bc5a60f8ada7} | msk | hmm35wog.pac · WoG |
+| `zobj004.def` {#file-3b339b79180c} | def | hmm35wog.pac · WoG |
+| `zobj004.msk` {#file-065a4288a8d0} | msk | hmm35wog.pac · WoG |
+| `zobj005.def` {#file-a39f5138ae21} | def | hmm35wog.pac · WoG |
+| `zobj005.msk` {#file-2ba3608643e9} | msk | hmm35wog.pac · WoG |
+| `zobj006.def` {#file-0e97b764ec75} | def | hmm35wog.pac · WoG |
+| `zobj006.msk` {#file-5047dfb877c1} | msk | hmm35wog.pac · WoG |
+| `zobj007.def` {#file-3b5b3d9e9787} | def | hmm35wog.pac · WoG |
+| `zobj007.msk` {#file-15026858c0dd} | msk | hmm35wog.pac · WoG |
+| `zobj008.def` {#file-847bf6c6bb58} | def | hmm35wog.pac · WoG |
+| `zobj008.msk` {#file-2d4c47ecc79f} | msk | hmm35wog.pac · WoG |
+| `zobj009.def` {#file-0caf5fd4f5ec} | def | hmm35wog.pac · WoG |
+| `zobj009.msk` {#file-4dd93a66cb9c} | msk | hmm35wog.pac · WoG |
+| `zobj010.def` {#file-ff58345029bf} | def | hmm35wog.pac · WoG |
+| `zobj010.msk` {#file-f7c6546f3551} | msk | hmm35wog.pac · WoG |
+| `zobj011.def` {#file-04a261743410} | def | hmm35wog.pac · WoG |
+| `zobj011.msk` {#file-11974bbfcf70} | msk | hmm35wog.pac · WoG |
+| `zobj012.def` {#file-b5a8eef75de2} | def | hmm35wog.pac · WoG |
+| `zobj012.msk` {#file-e31968c944f4} | msk | hmm35wog.pac · WoG |
+| `zobj013.def` {#file-337970551088} | def | hmm35wog.pac · WoG |
+| `zobj013.msk` {#file-954a5502f167} | msk | hmm35wog.pac · WoG |
+| `zobj014.def` {#file-4658c115953b} | def | hmm35wog.pac · WoG |
+| `zobj014.msk` {#file-c8d56c12f47a} | msk | hmm35wog.pac · WoG |
+| `zobj015.def` {#file-26a4d0376511} | def | hmm35wog.pac · WoG |
+| `zobj015.msk` {#file-d5e013cec173} | msk | hmm35wog.pac · WoG |
+| `zobj016.def` {#file-6373d19a9021} | def | hmm35wog.pac · WoG |
+| `zobj016.msk` {#file-5631f401c9b4} | msk | hmm35wog.pac · WoG |
+| `zobj017.def` {#file-c5c310dae025} | def | hmm35wog.pac · WoG |
+| `zobj017.msk` {#file-3c4de2676717} | msk | hmm35wog.pac · WoG |
+| `zobj018.def` {#file-148a9e76884c} | def | hmm35wog.pac · WoG |
+| `zobj018.msk` {#file-5560bb9a48ff} | msk | hmm35wog.pac · WoG |
+| `zobj019.def` {#file-facad21f2d81} | def | hmm35wog.pac · WoG |
+| `zobj019.msk` {#file-52aa7cbcaf37} | msk | hmm35wog.pac · WoG |
+| `zobj020.def` {#file-72400a68ed69} | def | hmm35wog.pac · WoG |
+| `zobj020.msk` {#file-19b2250e711f} | msk | hmm35wog.pac · WoG |
+| `zobj021.def` {#file-8e2c35580926} | def | hmm35wog.pac · WoG |
+| `zobj021.msk` {#file-f9510041dd0d} | msk | hmm35wog.pac · WoG |
+| `zobj022.def` {#file-78e421114b78} | def | hmm35wog.pac · WoG |
+| `zobj022.msk` {#file-1dddb33a2e42} | msk | hmm35wog.pac · WoG |
+| `zobj023.def` {#file-3654d36a539d} | def | hmm35wog.pac · WoG |
+| `zobj023.msk` {#file-ce4cf96a1b2a} | msk | hmm35wog.pac · WoG |
+| `zobj024.def` {#file-3a7ab2f2267d} | def | hmm35wog.pac · WoG |
+| `zobj024.msk` {#file-56f65abcd43e} | msk | hmm35wog.pac · WoG |
+| `zobj025.def` {#file-b2bfabf33272} | def | hmm35wog.pac · WoG |
+| `zobj025.msk` {#file-e4e28319a564} | msk | hmm35wog.pac · WoG |
+| `zobj026.def` {#file-76069da18e7d} | def | hmm35wog.pac · WoG |
+| `zobj026.msk` {#file-508399e74165} | msk | hmm35wog.pac · WoG |
+| `zobj027.def` {#file-7c4fcf82aee3} | def | hmm35wog.pac · WoG |
+| `zobj027.msk` {#file-6d06d33bb9bf} | msk | hmm35wog.pac · WoG |
+| `zobj028.def` {#file-2deef7db5d10} | def | hmm35wog.pac · WoG |
+| `zobj028.msk` {#file-3cfbd1402524} | msk | hmm35wog.pac · WoG |
+| `zobj029.def` {#file-3fe593284400} | def | hmm35wog.pac · WoG |
+| `zobj029.msk` {#file-52d07b2e9529} | msk | hmm35wog.pac · WoG |
+| `zobj030.def` {#file-90d0fafbcc3a} | def | hmm35wog.pac · WoG |
+| `zobj030.msk` {#file-fb462b26b355} | msk | hmm35wog.pac · WoG |
+| `zobj031.def` {#file-32dfc11a187e} | def | hmm35wog.pac · WoG |
+| `zobj031.msk` {#file-976d861b7195} | msk | hmm35wog.pac · WoG |
+| `zobj032.def` {#file-54f5a8cc99f6} | def | hmm35wog.pac · WoG |
+| `zobj032.msk` {#file-81d77bf5498f} | msk | hmm35wog.pac · WoG |
+| `zobj033.def` {#file-cbb5b7e3e95d} | def | hmm35wog.pac · WoG |
+| `zobj033.msk` {#file-87b20d0631e2} | msk | hmm35wog.pac · WoG |
+| `zobj034.def` {#file-0d4a24058345} | def | hmm35wog.pac · WoG |
+| `zobj034.msk` {#file-a7c30fd557a3} | msk | hmm35wog.pac · WoG |
+| `zobj035.def` {#file-f949701c6383} | def | hmm35wog.pac · WoG |
+| `zobj035.msk` {#file-d8061a519504} | msk | hmm35wog.pac · WoG |
+| `zobj036.def` {#file-dc22f8e757ba} | def | hmm35wog.pac · WoG |
+| `zobj036.msk` {#file-f3fa537081cf} | msk | hmm35wog.pac · WoG |
+| `zobj037.def` {#file-6d1d31be1932} | def | hmm35wog.pac · WoG |
+| `zobj037.msk` {#file-a3b8aad0ec36} | msk | hmm35wog.pac · WoG |
+| `zobj038.def` {#file-e207de73a686} | def | hmm35wog.pac · WoG |
+| `zobj038.msk` {#file-3710466b8611} | msk | hmm35wog.pac · WoG |
+| `zobj039.def` {#file-25ef4765c8ba} | def | hmm35wog.pac · WoG |
+| `zobj039.msk` {#file-b574b5f42d75} | msk | hmm35wog.pac · WoG |
+| `zobj040.def` {#file-0239e49d064e} | def | hmm35wog.pac · WoG |
+| `zobj040.msk` {#file-fc5974f469dd} | msk | hmm35wog.pac · WoG |
+| `zobj041.def` {#file-27126045b6c2} | def | hmm35wog.pac · WoG |
+| `zobj041.msk` {#file-d3fabffd4ea5} | msk | hmm35wog.pac · WoG |
+| `zobj042.def` {#file-79f3d122f947} | def | hmm35wog.pac · WoG |
+| `zobj042.msk` {#file-834228fa9aba} | msk | hmm35wog.pac · WoG |
+| `zobj043.def` {#file-cb7043a88266} | def | hmm35wog.pac · WoG |
+| `zobj043.msk` {#file-3f0949b1a8c9} | msk | hmm35wog.pac · WoG |
+
+---
+
+# DEF files (*.def)
+
+ID: wiki.wog.defs.page-7
+URL: /en/wiki/wog/defs/page-7/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 7/7
+
+## DEF files (*.def) {#group-0}
+
+### DEF files (*.def) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `zobj044.def` {#file-2db5169b3c33} | def | hmm35wog.pac · WoG |
+| `zobj044.msk` {#file-d785dfb21411} | msk | hmm35wog.pac · WoG |
+| `zobj045.def` {#file-d4070ce7c1d3} | def | hmm35wog.pac · WoG |
+| `zobj045.msk` {#file-e847a348c47e} | msk | hmm35wog.pac · WoG |
+| `zobj046.def` {#file-bc434f289acf} | def | hmm35wog.pac · WoG |
+| `zobj046.msk` {#file-3acdbf3d11c5} | msk | hmm35wog.pac · WoG |
+| `zobj047.def` {#file-6af77f503247} | def | hmm35wog.pac · WoG |
+| `zobj047.msk` {#file-8bf9902b3f17} | msk | hmm35wog.pac · WoG |
+| `zobj048.def` {#file-885a59dc73e0} | def | hmm35wog.pac · WoG |
+| `zobj048.msk` {#file-e6eba976a41a} | msk | hmm35wog.pac · WoG |
+| `zobj049.def` {#file-aa9f77959a5e} | def | hmm35wog.pac · WoG |
+| `zobj049.msk` {#file-c42f34ee2388} | msk | hmm35wog.pac · WoG |
+| `zobj050.def` {#file-a9328714cf16} | def | hmm35wog.pac · WoG |
+| `zobj050.msk` {#file-f04edd649c3b} | msk | hmm35wog.pac · WoG |
+| `zobrevno.def` {#file-072f68698285} | def | hmm35wog.pac · WoG |
+| `zobrevno.msk` {#file-3b656751bd94} | msk | hmm35wog.pac · WoG |
+| `zrain00.def` {#file-5982309d96dc} | def | hmm35wog.pac · WoG |
+| `zrain00.msk` {#file-1e13a8a493aa} | msk | hmm35wog.pac · WoG |
+| `zreef1.def` {#file-ed6b8f1df14e} | def | hmm35wog.pac · WoG |
+| `zreef1.msk` {#file-61dc47fa18b5} | msk | hmm35wog.pac · WoG |
+| `zreef2.def` {#file-1185e08ca428} | def | hmm35wog.pac · WoG |
+| `zreef2.msk` {#file-7f72ec6d0da5} | msk | hmm35wog.pac · WoG |
+| `zreef3.def` {#file-b0a034a27a30} | def | hmm35wog.pac · WoG |
+| `zreef3.msk` {#file-1717c76a12bf} | msk | hmm35wog.pac · WoG |
+| `zreef4.def` {#file-e3dbe3745b9b} | def | hmm35wog.pac · WoG |
+| `zreef4.msk` {#file-4388d6b74b7f} | msk | hmm35wog.pac · WoG |
+| `zreef5.def` {#file-d2c473cc090a} | def | hmm35wog.pac · WoG |
+| `zreef5.msk` {#file-dbaf6acfb11c} | msk | hmm35wog.pac · WoG |
+| `zseer001.def` {#file-19f10dcf1bc2} | def | hmm35wog.pac · WoG |
+| `zseer001.msk` {#file-679caa5db70c} | msk | hmm35wog.pac · WoG |
+| `zseer002.def` {#file-d138b38d5dd2} | def | hmm35wog.pac · WoG |
+| `zseer002.msk` {#file-1a0c6ca6add1} | msk | hmm35wog.pac · WoG |
+| `zshot195.def` {#file-a53d3775da5a} | def | hmm35wog.pac · WoG |
+| `zsnow001.def` {#file-1a9d8bcd78f3} | def | hmm35wog.pac · WoG |
+| `zsnow001.msk` {#file-a3f774937af5} | msk | hmm35wog.pac · WoG |
+| `zsphnx10.def` {#file-29d8ce15a7ff} | def | hmm35wog.pac · WoG |
+| `zsphnx10.msk` {#file-23b47eabf2b0} | msk | hmm35wog.pac · WoG |
+| `zsphnx11.def` {#file-d07620ee8c82} | def | hmm35wog.pac · WoG |
+| `zsphnx11.msk` {#file-c84256b79d33} | msk | hmm35wog.pac · WoG |
+| `zsphnx12.def` {#file-987031616146} | def | hmm35wog.pac · WoG |
+| `zsphnx12.msk` {#file-d3910c11d17e} | msk | hmm35wog.pac · WoG |
+| `zsphnx13.def` {#file-3edb94d92076} | def | hmm35wog.pac · WoG |
+| `zsphnx13.msk` {#file-987d4adaff94} | msk | hmm35wog.pac · WoG |
+| `ztower1.def` {#file-e218a857008d} | def | hmm35wog.pac · WoG |
+| `ztower1.msk` {#file-b2e67abba92c} | msk | hmm35wog.pac · WoG |
+| `ztport01.def` {#file-869f76c62001} | def | hmm35wog.pac · WoG |
+| `ztport01.msk` {#file-735dae2eb534} | msk | hmm35wog.pac · WoG |
+| `ztport02.def` {#file-ed1ce36950c2} | def | hmm35wog.pac · WoG |
+| `ztport02.msk` {#file-bdbc04916ae7} | msk | hmm35wog.pac · WoG |
+| `ztport03.def` {#file-6f9fa87572c4} | def | hmm35wog.pac · WoG |
+| `ztport03.msk` {#file-345202106094} | msk | hmm35wog.pac · WoG |
+| `ztport04.def` {#file-15be5c11d475} | def | hmm35wog.pac · WoG |
+| `ztport04.msk` {#file-856541920d7f} | msk | hmm35wog.pac · WoG |
+| `ztport05.def` {#file-f5e32da2fa5f} | def | hmm35wog.pac · WoG |
+| `ztport05.msk` {#file-46f9b207974c} | msk | hmm35wog.pac · WoG |
+| `ztport06.def` {#file-34778d1900c7} | def | hmm35wog.pac · WoG |
+| `ztport06.msk` {#file-5aaeb931565b} | msk | hmm35wog.pac · WoG |
+| `ztport07.def` {#file-c8d206b456f5} | def | hmm35wog.pac · WoG |
+| `ztport07.msk` {#file-c38044414578} | msk | hmm35wog.pac · WoG |
+| `ztport08.def` {#file-a7ee73ae8d58} | def | hmm35wog.pac · WoG |
+| `ztport08.msk` {#file-7e9c6ae369b1} | msk | hmm35wog.pac · WoG |
+| `zwall001.def` {#file-0f483c01a2c3} | def | hmm35wog.pac · WoG |
+| `zwall001.msk` {#file-4a396817a499} | msk | hmm35wog.pac · WoG |
+| `zwall002.def` {#file-16038bddf382} | def | hmm35wog.pac · WoG |
+| `zwall002.msk` {#file-780cc6e6cc8e} | msk | hmm35wog.pac · WoG |
+| `zwall003.def` {#file-380643ba1e60} | def | hmm35wog.pac · WoG |
+| `zwall003.msk` {#file-1223fbfe37ac} | msk | hmm35wog.pac · WoG |
+| `zwfall01.def` {#file-12a45172788d} | def | hmm35wog.pac · WoG |
+| `zwfall01.msk` {#file-cba971b78b58} | msk | hmm35wog.pac · WoG |
+| `zwfall02.def` {#file-556bbe84f882} | def | hmm35wog.pac · WoG |
+| `zwfall02.msk` {#file-9fdefe3688f6} | msk | hmm35wog.pac · WoG |
+| `zwfall03.def` {#file-ef98f766c42d} | def | hmm35wog.pac · WoG |
+| `zwfall03.msk` {#file-110e45e3f16c} | msk | hmm35wog.pac · WoG |
+| `zwvolc1.def` {#file-8fd1c96d1b3b} | def | hmm35wog.pac · WoG |
+| `zwvolc1.msk` {#file-1350480bfea9} | msk | hmm35wog.pac · WoG |
+| `zyzop1.def` {#file-33ba35d8e3f7} | def | hmm35wog.pac · WoG |
+| `zyzop1.msk` {#file-1f9be7f4b131} | msk | hmm35wog.pac · WoG |
+| `zyzop2.def` {#file-1221b47b29e1} | def | hmm35wog.pac · WoG |
+| `zyzop2.msk` {#file-74d3623faaaf} | msk | hmm35wog.pac · WoG |
+| `zzzz.def` {#file-5e7a23b09fef} | def | hmm35wog.pac · WoG |
+| `zzzz.msk` {#file-4bae63692f54} | msk | hmm35wog.pac · WoG |
+
+---
+
+# Fonts (*.fnt)
+
+ID: wiki.wog.fonts
+URL: /en/wiki/wog/fonts/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 1/1
+
+## Fonts (*.fnt) {#group-0}
+
+### Fonts (*.fnt) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `bigfont.fnt` {#file-38484cd2969a} | fnt | hmm35wog.pac · WoG |
+| `bigfont2.fnt` {#file-482f25eb5e00} | fnt | hmm35wog.pac · WoG |
+| `CALLI10R.FNT` {#file-e0c9949b1799} | fnt | hmm35wog.pac · WoG |
+| `CREDITS.FNT` {#file-51df4fb31a2b} | fnt | hmm35wog.pac · WoG |
+| `HISCORE.FNT` {#file-70851b1b05eb} | fnt | hmm35wog.pac · WoG |
+| `medfont.fnt` {#file-dc8faa476abb} | fnt | hmm35wog.pac · WoG |
+| `medfont2.fnt` {#file-66caa750b3ac} | fnt | hmm35wog.pac · WoG |
+| `smalfont.fnt` {#file-ec7b893e5af0} | fnt | hmm35wog.pac · WoG |
+| `smalfont2.fnt` {#file-a1b7073ea38e} | fnt | hmm35wog.pac · WoG |
+| `TIMES08R.FNT` {#file-7f11f7f06080} | fnt | hmm35wog.pac · WoG |
+| `tiny.fnt` {#file-25238d841900} | fnt | hmm35wog.pac · WoG |
+| `verd10b.fnt` {#file-f78b66de71d6} | fnt | hmm35wog.pac · WoG |
+
+---
+
+# Images (*.pcx)
+
+ID: wiki.wog.images
+URL: /en/wiki/wog/images/
+Source references: wiki-wog:hmm35wog.pac
+
+WoG · hmm35wog.pac · 1/1
+
+## Images (*.pcx) {#group-0}
+
+### Images (*.pcx) {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `artslot.pcx` {#file-cbdb9ccd858d} | pcx | hmm35wog.pac · WoG |
+| `b21p_bl.pcx` {#file-798a1547cc01} | pcx | hmm35wog.pac · WoG |
+| `b21p_bs.pcx` {#file-ad416ef2036e} | pcx | hmm35wog.pac · WoG |
+| `battlelog.pcx` {#file-97644e28b392} | pcx | hmm35wog.pac · WoG |
+| `ccellgrd.pcx` {#file-e5d2f1e5115d} | pcx | hmm35wog.pac · WoG |
+| `ccellshd.pcx` {#file-b605d2284e28} | pcx | hmm35wog.pac · WoG |
+| `dfault24.pcx` {#file-2f50dcd406e0} | pcx | hmm35wog.pac · WoG |
+| `dlg_npcn.pcx` {#file-2eae2025457d} | pcx | hmm35wog.pac · WoG |
+| `dlg_npcu.pcx` {#file-c6086276351b} | pcx | hmm35wog.pac · WoG |
+| `kovspexp.pcx` {#file-6f6847035747} | pcx | hmm35wog.pac · WoG |
+| `Townhrtr.pcx` {#file-d55e905ef5ac} | pcx | hmm35wog.pac · WoG |
+| `townscrn.pcx` {#file-362f67d56475} | pcx | hmm35wog.pac · WoG |
+| `wogoptions.pcx` {#file-6a102998a466} | pcx | hmm35wog.pac · WoG |
+| `wogtextedit.pcx` {#file-0af8ce9f29e3} | pcx | hmm35wog.pac · WoG |
+| `z11p_1l.pcx` {#file-26ac3d7d6def} | pcx | hmm35wog.pac · WoG |
+| `z11p_1s.pcx` {#file-c2b59b4fefa0} | pcx | hmm35wog.pac · WoG |
+| `z11p_2l.pcx` {#file-f74777dee9af} | pcx | hmm35wog.pac · WoG |
+| `z11p_2s.pcx` {#file-66a21194773d} | pcx | hmm35wog.pac · WoG |
+| `z11p_3l.pcx` {#file-62d228a0ae7c} | pcx | hmm35wog.pac · WoG |
+| `z11p_3s.pcx` {#file-75fa80fc73a1} | pcx | hmm35wog.pac · WoG |
+| `z11p_4l.pcx` {#file-36cd13a8226c} | pcx | hmm35wog.pac · WoG |
+| `z11p_4s.pcx` {#file-f024aa165c66} | pcx | hmm35wog.pac · WoG |
+| `zmainmen.pcx` {#file-67cf2750794c} | pcx | hmm35wog.pac · WoG |
+| `zpic1005.pcx` {#file-141f333d6a6d} | pcx | hmm35wog.pac · WoG |
+
+---
+
+# Sounds
+
+ID: wiki.wog.sounds
+URL: /en/wiki/wog/sounds/
+Source references: wiki-wog:wog.snd
+
+WoG · wog.snd · 1/1
+
+## Sounds {#group-0}
+
+### Sounds {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `aelmattk` {#file-230089d020e5} | audio | wog.snd · WoG |
+| `aelmdfnd` {#file-aa3e2ded907b} | audio | wog.snd · WoG |
+| `aelmkill` {#file-2e13f4df48d5} | audio | wog.snd · WoG |
+| `aelmwnce` {#file-ec1ae6f62d28} | audio | wog.snd · WoG |
+| `amagshot` {#file-4f64749d6018} | audio | wog.snd · WoG |
+| `BUTTON0` {#file-81ac749a704f} | audio | wog.snd · WoG |
+| `BUTTON1` {#file-a75b3885f32d} | audio | wog.snd · WoG |
+| `crusshot` {#file-7720a171add4} | audio | wog.snd · WoG |
+| `ecntshot` {#file-c2c39cd83ec6} | audio | wog.snd · WoG |
+| `firbattk` {#file-d478d1977382} | audio | wog.snd · WoG |
+| `genishot` {#file-c76d9367b071} | audio | wog.snd · WoG |
+| `ghdrshot` {#file-c0747b2387ba} | audio | wog.snd · WoG |
+| `gnolshot` {#file-0297aeae3955} | audio | wog.snd · WoG |
+| `imppdfnd` {#file-ac98ad343a05} | audio | wog.snd · WoG |
+| `imppkill` {#file-806fb2c39538} | audio | wog.snd · WoG |
+| `imppwnce` {#file-baf37583c9a1} | audio | wog.snd · WoG |
+| `lichshot` {#file-b8440d14198e} | audio | wog.snd · WoG |
+| `monkshot` {#file-5f575f784140} | audio | wog.snd · WoG |
+| `pfoeshot` {#file-097b21250636} | audio | wog.snd · WoG |
+| `pixidfnd` {#file-06919c436315} | audio | wog.snd · WoG |
+| `rustattk` {#file-557061b9abf0} | audio | wog.snd · WoG |
+| `sgrgshot` {#file-fd62f061301d} | audio | wog.snd · WoG |
+| `sprtdfnd` {#file-32c101fe4c05} | audio | wog.snd · WoG |
+| `trllshot` {#file-ddaf0c421f39} | audio | wog.snd · WoG |
+| `zquiet` {#file-c6f384149ecd} | audio | wog.snd · WoG |
+
+---
+
+# Videos
+
+ID: wiki.wog.videos
+URL: /en/wiki/wog/videos/
+Source references: wiki-wog:wog.vid
+
+WoG · wog.vid · 1/1
+
+## Videos {#group-0}
+
+### Videos {#group-0-depth-0}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `C1ab7.bik` {#file-7b47e762a314} | video | wog.vid · WoG |
+| `C1db2.bik` {#file-65c7d8cd9c27} | video | wog.vid · WoG |
+| `C1ds1.bik` {#file-2f417b4083a4} | video | wog.vid · WoG |
+| `C1fl3.bik` {#file-13aef07f336d} | video | wog.vid · WoG |
+| `C1fw1.bik` {#file-9914b55f48a1} | video | wog.vid · WoG |
+| `C1pf2.bik` {#file-5b325922445d} | video | wog.vid · WoG |
+| `HSANIM.smk` {#file-da8d9fbe58b0} | video | wog.vid · WoG |
+| `LOSEGAME.smk` {#file-62cb0d8da87d} | video | wog.vid · WoG |

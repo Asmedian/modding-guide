@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 23/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 23/39", "translationStatus": "reviewed"}
 ---
 
 ## Карты регионов / Дыхание Смерти / Руби и кромсай {#group-0}

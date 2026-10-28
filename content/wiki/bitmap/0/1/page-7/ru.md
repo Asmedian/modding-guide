@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 7/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 7/39", "translationStatus": "reviewed"}
 ---
 
 ## Карты регионов / Возрождение Эрафии / Да здравствует Король! {#group-0}

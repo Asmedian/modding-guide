@@ -1,5 +1,5 @@
 ---
-{"title": "Restoration of Erathia", "summary": "SoD · H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
+{"title": "Restoration of Erathia", "summary": "H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
 ---
 
 ## Long Live the Queen {#group-0}

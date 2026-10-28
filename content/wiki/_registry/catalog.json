@@ -1,5 +1,5 @@
 {
-  "edition": "SoD",
+  "edition": "SoD / AB / WoG",
   "roots": [
     {
       "title": {
@@ -25,11 +25,13 @@
         },
         {
           "labelKey": "wiki-0-0-1",
-          "slug": "wiki/bitmap/0/1"
+          "slug": "wiki/bitmap/0/1",
+          "showEdition": false
         }
       ],
       "href": null,
-      "count": 4810
+      "count": 4828,
+      "edition": "SoD"
     },
     {
       "title": {
@@ -71,7 +73,8 @@
         }
       ],
       "href": null,
-      "count": 2565
+      "count": 2565,
+      "edition": "SoD"
     },
     {
       "title": {
@@ -80,7 +83,8 @@
       },
       "items": [],
       "href": "wiki/sounds",
-      "count": 1014
+      "count": 1014,
+      "edition": "SoD"
     },
     {
       "title": {
@@ -89,7 +93,8 @@
       },
       "items": [],
       "href": "wiki/videos",
-      "count": 32
+      "count": 32,
+      "edition": "SoD"
     },
     {
       "title": {
@@ -102,12 +107,19 @@
           "slug": "wiki/bitmap/3/0"
         },
         {
+          "labelKey": "wiki-0-3-1",
+          "slug": "wiki/bitmap/3/1",
+          "edition": "AB"
+        },
+        {
           "labelKey": "wiki-0-3-2",
           "slug": "wiki/bitmap/3/2"
         }
       ],
       "href": null,
-      "count": 14
+      "count": 21,
+      "edition": "SoD",
+      "showEdition": false
     },
     {
       "title": {
@@ -116,7 +128,8 @@
       },
       "items": [],
       "href": "wiki/bitmap/4",
-      "count": 3
+      "count": 3,
+      "edition": "SoD"
     },
     {
       "title": {
@@ -125,7 +138,8 @@
       },
       "items": [],
       "href": "wiki/bitmap/2",
-      "count": 9
+      "count": 9,
+      "edition": "SoD"
     },
     {
       "title": {
@@ -134,9 +148,65 @@
       },
       "items": [],
       "href": "wiki/bitmap/5",
-      "count": 13
+      "count": 13,
+      "edition": "SoD"
+    },
+    {
+      "title": {
+        "ru": "Изображения (*.pcx)",
+        "en": "Images (*.pcx)"
+      },
+      "items": [],
+      "href": "wiki/wog/images",
+      "count": 24,
+      "edition": "WoG"
+    },
+    {
+      "title": {
+        "ru": "DEF-файлы (*.def)",
+        "en": "DEF files (*.def)"
+      },
+      "items": [],
+      "href": "wiki/wog/defs",
+      "count": 473,
+      "edition": "WoG"
+    },
+    {
+      "title": {
+        "ru": "Звуки",
+        "en": "Sounds"
+      },
+      "items": [],
+      "href": "wiki/wog/sounds",
+      "count": 25,
+      "edition": "WoG"
+    },
+    {
+      "title": {
+        "ru": "Видео",
+        "en": "Videos"
+      },
+      "items": [],
+      "href": "wiki/wog/videos",
+      "count": 8,
+      "edition": "WoG"
+    },
+    {
+      "title": {
+        "ru": "Шрифты (*.fnt)",
+        "en": "Fonts (*.fnt)"
+      },
+      "items": [],
+      "href": "wiki/wog/fonts",
+      "count": 12,
+      "edition": "WoG"
     }
   ],
-  "resourceCount": 9896,
-  "pageCount": 139
+  "resourceCount": 10799,
+  "pageCount": 151,
+  "editions": [
+    "SoD",
+    "AB",
+    "WoG"
+  ]
 }

@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 16/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 16/39", "translationStatus": "reviewed"}
 ---
 
 ## Region maps / Armageddon's Blade / Festival of Life {#group-0}

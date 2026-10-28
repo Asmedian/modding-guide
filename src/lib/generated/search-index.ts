@@ -63959,7 +63959,7 @@ export const searchIndex = [
     "slug": "",
     "url": "/en/wiki/",
     "title": "Wiki",
-    "summary": "Heroes III resources: SoD images, DEF animations, sounds and videos.",
+    "summary": "Heroes III resources: SoD, AB and WoG graphics, DEF animations, sounds, videos and campaigns.",
     "keywords": [
       "Wiki",
       "SoD",
@@ -63967,7 +63967,10 @@ export const searchIndex = [
       "DEF",
       "LOD",
       "SND",
-      "VID"
+      "VID",
+      "AB",
+      "WoG",
+      "PAC"
     ],
     "questions": [
       "Где найти графику, звуки и видео SoD?",
@@ -63982,7 +63985,35 @@ export const searchIndex = [
       "wiki-sod:VIDEO.VID",
       "wiki-sod:H3DefTool_portable_creature_packer.zip",
       "wiki-sod:homm3-explorer-main.zip",
-      "wiki-sod:h3deftool-groups"
+      "wiki-sod:h3deftool-groups",
+      "wiki-ab:ab.h3c",
+      "wiki-ab:blood.h3c",
+      "wiki-ab:Camp1AB7.bmp",
+      "wiki-ab:Camp1DB2.bmp",
+      "wiki-ab:Camp1DS1.bmp",
+      "wiki-ab:Camp1FL3.bmp",
+      "wiki-ab:Camp1FW1.bmp",
+      "wiki-ab:Camp1PF2.bmp",
+      "wiki-ab:festival.h3c",
+      "wiki-ab:fire.h3c",
+      "wiki-ab:fool.h3c",
+      "wiki-ab:Neutral.h3c",
+      "wiki-ab:slayer.h3c",
+      "wiki-ab:TarnumBL.bmp",
+      "wiki-ab:TarnumBS.bmp",
+      "wiki-ab:TarnumCL.bmp",
+      "wiki-ab:TarnumCS.bmp",
+      "wiki-ab:TarnumEL.bmp",
+      "wiki-ab:TarnumES.bmp",
+      "wiki-ab:TarnumFL.bmp",
+      "wiki-ab:TarnumFS.bmp",
+      "wiki-ab:TarnumUL.bmp",
+      "wiki-ab:TarnumUS.bmp",
+      "wiki-ab:TarnumWL.bmp",
+      "wiki-ab:TarnumWS.bmp",
+      "wiki-wog:hmm35wog.pac",
+      "wiki-wog:wog.snd",
+      "wiki-wog:wog.vid"
     ],
     "text": "",
     "segments": []
@@ -72205,10 +72236,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1",
     "url": "/en/wiki/bitmap/0/1/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 1/39",
+    "summary": "H3bitmap.lod · 1/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -72697,10 +72727,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-10",
     "url": "/en/wiki/bitmap/0/1/page-10/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 10/39",
+    "summary": "H3bitmap.lod · 10/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -73094,10 +73123,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-11",
     "url": "/en/wiki/bitmap/0/1/page-11/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 11/39",
+    "summary": "H3bitmap.lod · 11/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -73486,10 +73514,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-12",
     "url": "/en/wiki/bitmap/0/1/page-12/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 12/39",
+    "summary": "H3bitmap.lod · 12/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -73883,10 +73910,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-13",
     "url": "/en/wiki/bitmap/0/1/page-13/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 13/39",
+    "summary": "H3bitmap.lod · 13/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -74275,10 +74301,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-14",
     "url": "/en/wiki/bitmap/0/1/page-14/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 14/39",
+    "summary": "H3bitmap.lod · 14/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -74672,10 +74697,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-15",
     "url": "/en/wiki/bitmap/0/1/page-15/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 15/39",
+    "summary": "H3bitmap.lod · 15/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -75069,10 +75093,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-16",
     "url": "/en/wiki/bitmap/0/1/page-16/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 16/39",
+    "summary": "H3bitmap.lod · 16/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -75466,10 +75489,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-17",
     "url": "/en/wiki/bitmap/0/1/page-17/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 17/39",
+    "summary": "H3bitmap.lod · 17/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -75863,10 +75885,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-18",
     "url": "/en/wiki/bitmap/0/1/page-18/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 18/39",
+    "summary": "H3bitmap.lod · 18/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -76255,10 +76276,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-19",
     "url": "/en/wiki/bitmap/0/1/page-19/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 19/39",
+    "summary": "H3bitmap.lod · 19/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -76652,10 +76672,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-2",
     "url": "/en/wiki/bitmap/0/1/page-2/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 2/39",
+    "summary": "H3bitmap.lod · 2/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -77049,10 +77068,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-20",
     "url": "/en/wiki/bitmap/0/1/page-20/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 20/39",
+    "summary": "H3bitmap.lod · 20/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -77446,10 +77464,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-21",
     "url": "/en/wiki/bitmap/0/1/page-21/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 21/39",
+    "summary": "H3bitmap.lod · 21/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -77843,10 +77860,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-22",
     "url": "/en/wiki/bitmap/0/1/page-22/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 22/39",
+    "summary": "H3bitmap.lod · 22/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -78235,10 +78251,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-23",
     "url": "/en/wiki/bitmap/0/1/page-23/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 23/39",
+    "summary": "H3bitmap.lod · 23/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -78632,10 +78647,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-24",
     "url": "/en/wiki/bitmap/0/1/page-24/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 24/39",
+    "summary": "H3bitmap.lod · 24/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -79029,10 +79043,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-25",
     "url": "/en/wiki/bitmap/0/1/page-25/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 25/39",
+    "summary": "H3bitmap.lod · 25/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -79421,10 +79434,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-26",
     "url": "/en/wiki/bitmap/0/1/page-26/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 26/39",
+    "summary": "H3bitmap.lod · 26/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -79818,10 +79830,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-27",
     "url": "/en/wiki/bitmap/0/1/page-27/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 27/39",
+    "summary": "H3bitmap.lod · 27/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -80210,10 +80221,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-28",
     "url": "/en/wiki/bitmap/0/1/page-28/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 28/39",
+    "summary": "H3bitmap.lod · 28/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -80602,10 +80612,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-29",
     "url": "/en/wiki/bitmap/0/1/page-29/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 29/39",
+    "summary": "H3bitmap.lod · 29/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -80994,10 +81003,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-3",
     "url": "/en/wiki/bitmap/0/1/page-3/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 3/39",
+    "summary": "H3bitmap.lod · 3/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -81386,10 +81394,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-30",
     "url": "/en/wiki/bitmap/0/1/page-30/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 30/39",
+    "summary": "H3bitmap.lod · 30/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -81783,10 +81790,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-31",
     "url": "/en/wiki/bitmap/0/1/page-31/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 31/39",
+    "summary": "H3bitmap.lod · 31/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -82180,10 +82186,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-32",
     "url": "/en/wiki/bitmap/0/1/page-32/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 32/39",
+    "summary": "H3bitmap.lod · 32/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -82587,10 +82592,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-33",
     "url": "/en/wiki/bitmap/0/1/page-33/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 33/39",
+    "summary": "H3bitmap.lod · 33/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -82989,10 +82993,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-34",
     "url": "/en/wiki/bitmap/0/1/page-34/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 34/39",
+    "summary": "H3bitmap.lod · 34/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -83391,10 +83394,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-35",
     "url": "/en/wiki/bitmap/0/1/page-35/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 35/39",
+    "summary": "H3bitmap.lod, AB campaigns · 35/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -83404,9 +83406,15 @@ export const searchIndex = [
     ],
     "sourceRefs": [
       "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
+      "wiki-sod:H3bitmap.lod",
+      "wiki-ab:Camp1AB7.bmp",
+      "wiki-ab:Camp1DB2.bmp",
+      "wiki-ab:Camp1DS1.bmp",
+      "wiki-ab:Camp1FL3.bmp",
+      "wiki-ab:Camp1PF2.bmp",
+      "wiki-ab:Camp1FW1.bmp"
     ],
-    "text": "Building bonus icons / Fortress Building bonus icons Fortress File Resource Source BoFGrail.pcx pcx H3bitmap.lod · SoD BoFHall2.pcx pcx H3bitmap.lod · SoD BoFHall3.pcx pcx H3bitmap.lod · SoD BoFHall4.pcx pcx H3bitmap.lod · SoD BoFHydr1.pcx pcx H3bitmap.lod · SoD BoFHydr2.pcx pcx H3bitmap.lod · SoD BoFLizr1.pcx pcx H3bitmap.lod · SoD BoFLizr2.pcx pcx H3bitmap.lod · SoD BoFMage1.pcx pcx H3bitmap.lod · SoD BoFMage2.pcx pcx H3bitmap.lod · SoD BoFMage3.pcx pcx H3bitmap.lod · SoD BoFMark1.pcx pcx H3bitmap.lod · SoD BoFMark2.pcx pcx H3bitmap.lod · SoD BoFSHIP.pcx pcx H3bitmap.lod · SoD BoFTav.pcx pcx H3bitmap.lod · SoD BoFWyvr1.pcx pcx H3bitmap.lod · SoD BoFWyvr2.pcx pcx H3bitmap.lod · SoD Building bonus icons / Conflux Conflux File Resource Source BoEBlack.pcx pcx H3bitmap.lod · SoD BoECast1.pcx pcx H3bitmap.lod · SoD BoECast2.pcx pcx H3bitmap.lod · SoD BoECast3.pcx pcx H3bitmap.lod · SoD BoEDn_0.pcx pcx H3bitmap.lod · SoD BoEDn_1.pcx pcx H3bitmap.lod · SoD BoEDn_2.pcx pcx H3bitmap.lod · SoD BoEDn_3.pcx pcx H3bitmap.lod · SoD BoEDn_4.pcx pcx H3bitmap.lod · SoD BoEDn_5.pcx pcx H3bitmap.lod · SoD BoEDn_6.pcx pcx H3bitmap.lod · SoD BoEGld1.pcx pcx H3bitmap.lod · SoD BoEGld2.pcx pcx H3bitmap.lod · SoD BoEGld3.pcx pcx H3bitmap.lod · SoD BoEGld4.pcx pcx H3bitmap.lod · SoD BoEGld5.pcx pcx H3bitmap.lod · SoD BoEGrail.pcx pcx H3bitmap.lod · SoD BoEHall2.pcx pcx H3bitmap.lod · SoD BoEHall3.pcx pcx H3bitmap.lod · SoD BoEHall4.pcx pcx H3bitmap.lod · SoD BoEHrd1.pcx pcx H3bitmap.lod · SoD BoEMarkA.pcx pcx H3bitmap.lod · SoD BoEMarkS.pcx pcx H3bitmap.lod · SoD BoEShip.pcx pcx H3bitmap.lod · SoD BoETav.pcx pcx H3bitmap.lod · SoD BoEUniv.pcx pcx H3bitmap.lod · SoD BoEUp_0.pcx pcx H3bitmap.lod · SoD BoEUp_1.pcx pcx H3bitmap.lod · SoD BoEUp_2.pcx pcx H3bitmap.lod · SoD BoEUp_3.pcx pcx H3bitmap.lod · SoD BoEUp_4.pcx pcx H3bitmap.lod · SoD BoEUp_5.pcx pcx H3bitmap.lod · SoD BoEUp_6.pcx pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Long Live the Queen Campaign selection images Restoration of Erathia Long Live the Queen File Resource Source CAMPGD1S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Dungeons and Devils Dungeons and Devils File Resource Source CAMPEV1S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Spoils of War Spoils of War File Resource Source CAMPNEUS.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Liberation Liberation File Resource Source CAMPGD2S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Long Live the King Long Live the King File Resource Source CAMPEV2S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Song for the Father Song for the Father File Resource Source CAMPGD3S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Seeds of Discontent Seeds of Discontent File Resource Source CAMPSCTS.PCX pcx H3bitmap.lod · SoD Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness Armageddon's Blade (note #3) Foolhardy Waywardness File Resource Source Camp1FWX.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / New Beginning The Shadow of Death New Beginning File Resource Source CampNB1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Elixir of Life Elixir of Life File Resource Source CampEL1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Hack and Slash Hack and Slash File Resource Source CampHS1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Birth of a Barbarian Birth of a Barbarian File Resource Source CampBB1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Rise of the Necromancer Rise of the Necromancer File Resource Source CampRN1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Unholy Alliance Unholy Alliance File Resource Source CampUA1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Specter of Power Specter of Power File Resource Source CampSP1.pcx pcx H3bitmap.lod · SoD Campaign selection images / Secret campaign Secret campaign File Resource Source CAMPNOSC.PCX pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Long Live the Queen Video previews Restoration of Erathia Long Live the Queen File Resource Source CslReG1a.pcx pcx H3bitmap.lod · SoD CslReG1b.pcx pcx H3bitmap.lod · SoD CslReG1c.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Dungeons and Devils Dungeons and Devils File Resource Source CslReE3a.pcx pcx H3bitmap.lod · SoD CslReE3b.pcx pcx H3bitmap.lod · SoD CslReE3c.pcx pcx H3bitmap.lod · SoD",
+    "text": "Building bonus icons / Fortress Building bonus icons Fortress File Resource Source BoFGrail.pcx pcx H3bitmap.lod · SoD BoFHall2.pcx pcx H3bitmap.lod · SoD BoFHall3.pcx pcx H3bitmap.lod · SoD BoFHall4.pcx pcx H3bitmap.lod · SoD BoFHydr1.pcx pcx H3bitmap.lod · SoD BoFHydr2.pcx pcx H3bitmap.lod · SoD BoFLizr1.pcx pcx H3bitmap.lod · SoD BoFLizr2.pcx pcx H3bitmap.lod · SoD BoFMage1.pcx pcx H3bitmap.lod · SoD BoFMage2.pcx pcx H3bitmap.lod · SoD BoFMage3.pcx pcx H3bitmap.lod · SoD BoFMark1.pcx pcx H3bitmap.lod · SoD BoFMark2.pcx pcx H3bitmap.lod · SoD BoFSHIP.pcx pcx H3bitmap.lod · SoD BoFTav.pcx pcx H3bitmap.lod · SoD BoFWyvr1.pcx pcx H3bitmap.lod · SoD BoFWyvr2.pcx pcx H3bitmap.lod · SoD Building bonus icons / Conflux Conflux File Resource Source BoEBlack.pcx pcx H3bitmap.lod · SoD BoECast1.pcx pcx H3bitmap.lod · SoD BoECast2.pcx pcx H3bitmap.lod · SoD BoECast3.pcx pcx H3bitmap.lod · SoD BoEDn_0.pcx pcx H3bitmap.lod · SoD BoEDn_1.pcx pcx H3bitmap.lod · SoD BoEDn_2.pcx pcx H3bitmap.lod · SoD BoEDn_3.pcx pcx H3bitmap.lod · SoD BoEDn_4.pcx pcx H3bitmap.lod · SoD BoEDn_5.pcx pcx H3bitmap.lod · SoD BoEDn_6.pcx pcx H3bitmap.lod · SoD BoEGld1.pcx pcx H3bitmap.lod · SoD BoEGld2.pcx pcx H3bitmap.lod · SoD BoEGld3.pcx pcx H3bitmap.lod · SoD BoEGld4.pcx pcx H3bitmap.lod · SoD BoEGld5.pcx pcx H3bitmap.lod · SoD BoEGrail.pcx pcx H3bitmap.lod · SoD BoEHall2.pcx pcx H3bitmap.lod · SoD BoEHall3.pcx pcx H3bitmap.lod · SoD BoEHall4.pcx pcx H3bitmap.lod · SoD BoEHrd1.pcx pcx H3bitmap.lod · SoD BoEMarkA.pcx pcx H3bitmap.lod · SoD BoEMarkS.pcx pcx H3bitmap.lod · SoD BoEShip.pcx pcx H3bitmap.lod · SoD BoETav.pcx pcx H3bitmap.lod · SoD BoEUniv.pcx pcx H3bitmap.lod · SoD BoEUp_0.pcx pcx H3bitmap.lod · SoD BoEUp_1.pcx pcx H3bitmap.lod · SoD BoEUp_2.pcx pcx H3bitmap.lod · SoD BoEUp_3.pcx pcx H3bitmap.lod · SoD BoEUp_4.pcx pcx H3bitmap.lod · SoD BoEUp_5.pcx pcx H3bitmap.lod · SoD BoEUp_6.pcx pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Long Live the Queen Campaign selection images Restoration of Erathia Long Live the Queen File Resource Source CAMPGD1S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Dungeons and Devils Dungeons and Devils File Resource Source CAMPEV1S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Spoils of War Spoils of War File Resource Source CAMPNEUS.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Liberation Liberation File Resource Source CAMPGD2S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Long Live the King Long Live the King File Resource Source CAMPEV2S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Song for the Father Song for the Father File Resource Source CAMPGD3S.PCX pcx H3bitmap.lod · SoD Campaign selection images / Restoration of Erathia / Seeds of Discontent Seeds of Discontent File Resource Source CAMPSCTS.PCX pcx H3bitmap.lod · SoD Campaign selection images / Armageddon's Blade (note #3) / Armageddon's Blade Armageddon's Blade (note #3) Armageddon's Blade File Resource Source Camp1AB7.pcx pcx AB campaigns · AB Campaign selection images / Armageddon's Blade (note #3) / Dragon's Blood Dragon's Blood File Resource Source Camp1DB2.pcx pcx AB campaigns · AB Campaign selection images / Armageddon's Blade (note #3) / Dragon Slayer Dragon Slayer File Resource Source Camp1DS1.pcx pcx AB campaigns · AB Campaign selection images / Armageddon's Blade (note #3) / Festival of Life Festival of Life File Resource Source Camp1FL3.pcx pcx AB campaigns · AB Campaign selection images / Armageddon's Blade (note #3) / Playing with Fire Playing with Fire File Resource Source Camp1PF2.pcx pcx AB campaigns · AB Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness Foolhardy Waywardness File Resource Source Camp1FWX.pcx pcx H3bitmap.lod · SoD Camp1FW1.pcx pcx AB campaigns · AB Campaign selection images / The Shadow of Death / New Beginning The Shadow of Death New Beginning File Resource Source CampNB1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Elixir of Life Elixir of Life File Resource Source CampEL1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Hack and Slash Hack and Slash File Resource Source CampHS1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Birth of a Barbarian Birth of a Barbarian File Resource Source CampBB1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Rise of the Necromancer Rise of the Necromancer File Resource Source CampRN1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Unholy Alliance Unholy Alliance File Resource Source CampUA1.pcx pcx H3bitmap.lod · SoD Campaign selection images / The Shadow of Death / Specter of Power Specter of Power File Resource Source CampSP1.pcx pcx H3bitmap.lod · SoD Campaign selection images / Secret campaign Secret campaign File Resource Source CAMPNOSC.PCX pcx H3bitmap.lod · SoD",
     "segments": [
       {
         "id": "file-5070b56f56c3",
@@ -83739,12 +83747,67 @@ export const searchIndex = [
         "text": "File Resource Source"
       },
       {
+        "id": "file-5a33e60d3a0c",
+        "heading": "Armageddon's Blade",
+        "text": "Camp1AB7.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-9-depth-2",
+        "heading": "Armageddon's Blade",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-86875003fae2",
+        "heading": "Dragon's Blood",
+        "text": "Camp1DB2.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-10-depth-2",
+        "heading": "Dragon's Blood",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-a66dc933a8c0",
+        "heading": "Dragon Slayer",
+        "text": "Camp1DS1.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-11-depth-2",
+        "heading": "Dragon Slayer",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-2cb26c854780",
+        "heading": "Festival of Life",
+        "text": "Camp1FL3.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-12-depth-2",
+        "heading": "Festival of Life",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-c9a604e741c3",
+        "heading": "Playing with Fire",
+        "text": "Camp1PF2.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-13-depth-2",
+        "heading": "Playing with Fire",
+        "text": "File Resource Source"
+      },
+      {
         "id": "file-9ec650c33fb0",
         "heading": "Foolhardy Waywardness",
         "text": "Camp1FWX.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-9-depth-2",
+        "id": "file-26a298933de1",
+        "heading": "Foolhardy Waywardness",
+        "text": "Camp1FW1.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-14-depth-2",
         "heading": "Foolhardy Waywardness",
         "text": "File Resource Source"
       },
@@ -83754,7 +83817,7 @@ export const searchIndex = [
         "text": "CampNB1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-10-depth-2",
+        "id": "group-15-depth-2",
         "heading": "New Beginning",
         "text": "File Resource Source"
       },
@@ -83764,7 +83827,7 @@ export const searchIndex = [
         "text": "CampEL1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-11-depth-2",
+        "id": "group-16-depth-2",
         "heading": "Elixir of Life",
         "text": "File Resource Source"
       },
@@ -83774,7 +83837,7 @@ export const searchIndex = [
         "text": "CampHS1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-12-depth-2",
+        "id": "group-17-depth-2",
         "heading": "Hack and Slash",
         "text": "File Resource Source"
       },
@@ -83784,7 +83847,7 @@ export const searchIndex = [
         "text": "CampBB1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-13-depth-2",
+        "id": "group-18-depth-2",
         "heading": "Birth of a Barbarian",
         "text": "File Resource Source"
       },
@@ -83794,7 +83857,7 @@ export const searchIndex = [
         "text": "CampRN1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-14-depth-2",
+        "id": "group-19-depth-2",
         "heading": "Rise of the Necromancer",
         "text": "File Resource Source"
       },
@@ -83804,7 +83867,7 @@ export const searchIndex = [
         "text": "CampUA1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-15-depth-2",
+        "id": "group-20-depth-2",
         "heading": "Unholy Alliance",
         "text": "File Resource Source"
       },
@@ -83814,7 +83877,7 @@ export const searchIndex = [
         "text": "CampSP1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-16-depth-2",
+        "id": "group-21-depth-2",
         "heading": "Specter of Power",
         "text": "File Resource Source"
       },
@@ -83824,8 +83887,111 @@ export const searchIndex = [
         "text": "CAMPNOSC.PCX pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-17-depth-1",
+        "id": "group-22-depth-1",
         "heading": "Secret campaign",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-36",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "bitmap/0/1/page-36",
+    "url": "/en/wiki/bitmap/0/1/page-36/",
+    "title": "Campaign elements",
+    "summary": "AB campaigns, H3bitmap.lod · 36/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod",
+      "wiki-ab:TarnumBL.bmp",
+      "wiki-ab:TarnumBS.bmp",
+      "wiki-ab:TarnumCL.bmp",
+      "wiki-ab:TarnumCS.bmp",
+      "wiki-ab:TarnumEL.bmp",
+      "wiki-ab:TarnumES.bmp",
+      "wiki-ab:TarnumFL.bmp",
+      "wiki-ab:TarnumFS.bmp",
+      "wiki-ab:TarnumUL.bmp",
+      "wiki-ab:TarnumUS.bmp",
+      "wiki-ab:TarnumWL.bmp",
+      "wiki-ab:TarnumWS.bmp"
+    ],
+    "text": "Additional campaign images / Armageddon's Blade Additional campaign images Armageddon's Blade File Resource Source TarnumBL.pcx pcx AB campaigns · AB TarnumBS.pcx pcx AB campaigns · AB TarnumCL.pcx pcx AB campaigns · AB TarnumCS.pcx pcx AB campaigns · AB TarnumEL.pcx pcx AB campaigns · AB TarnumES.pcx pcx AB campaigns · AB TarnumFL.pcx pcx AB campaigns · AB TarnumFS.pcx pcx AB campaigns · AB TarnumUL.pcx pcx AB campaigns · AB TarnumUS.pcx pcx AB campaigns · AB TarnumWL.pcx pcx AB campaigns · AB TarnumWS.pcx pcx AB campaigns · AB Video previews / Restoration of Erathia / Long Live the Queen Video previews Restoration of Erathia Long Live the Queen File Resource Source CslReG1a.pcx pcx H3bitmap.lod · SoD CslReG1b.pcx pcx H3bitmap.lod · SoD CslReG1c.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Dungeons and Devils Dungeons and Devils File Resource Source CslReE3a.pcx pcx H3bitmap.lod · SoD CslReE3b.pcx pcx H3bitmap.lod · SoD CslReE3c.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Spoils of War (*) Spoils of War (*) File Resource Source CslReG1d.pcx pcx H3bitmap.lod · SoD CslReN2a.pcx pcx H3bitmap.lod · SoD CslReN2b.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Liberation Liberation File Resource Source CslReG4a.pcx pcx H3bitmap.lod · SoD CslReG4b.pcx pcx H3bitmap.lod · SoD CslReG4c.pcx pcx H3bitmap.lod · SoD CslReG4d.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Long Live the King Long Live the King File Resource Source CslReE5a.pcx pcx H3bitmap.lod · SoD CslReE5b.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD CslReE5d.pcx pcx H3bitmap.lod · SoD CslReE5e.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Song for the Father Song for the Father File Resource Source CslReG6a.pcx pcx H3bitmap.lod · SoD CslReG6b.pcx pcx H3bitmap.lod · SoD CslReG6c.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Seeds of Discontent Seeds of Discontent File Resource Source CslReS7a.pcx pcx H3bitmap.lod · SoD CslReS7b.pcx pcx H3bitmap.lod · SoD CslReS7c.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Armageddon's Blade Armageddon's Blade Armageddon's Blade File Resource Source CslAbAb1.pcx pcx H3bitmap.lod · SoD CslAbAb2.pcx pcx H3bitmap.lod · SoD CslAbAb3.pcx pcx H3bitmap.lod · SoD CslAbAb4.pcx pcx H3bitmap.lod · SoD CslAbAb5.pcx pcx H3bitmap.lod · SoD CslAbAb6.pcx pcx H3bitmap.lod · SoD CslAbAb7.pcx pcx H3bitmap.lod · SoD CslAbAb8.pcx pcx H3bitmap.lod · SoD CslAbAb9.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Dragon's Blood Dragon's Blood File Resource Source CslAbDb1.pcx pcx H3bitmap.lod · SoD CslAbdb2.pcx pcx H3bitmap.lod · SoD CslAbDb3.pcx pcx H3bitmap.lod · SoD CslAbDb4.pcx pcx H3bitmap.lod · SoD CslAbDb5.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Dragon Slayer Dragon Slayer File Resource Source CslAbds1.pcx pcx H3bitmap.lod · SoD CslAbDs2.pcx pcx H3bitmap.lod · SoD CslAbDs3.pcx pcx H3bitmap.lod · SoD CslAbDs4.pcx pcx H3bitmap.lod · SoD CslAbDs5.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Festival of Life Festival of Life File Resource Source CslAbFl1.pcx pcx H3bitmap.lod · SoD CslAbFl2.pcx pcx H3bitmap.lod · SoD CslAbfl3.pcx pcx H3bitmap.lod · SoD CslAbFl4.pcx pcx H3bitmap.lod · SoD CslAbFl5.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Playing with Fire Playing with Fire File Resource Source CslAbPf1.pcx pcx H3bitmap.lod · SoD CslAbpf2.pcx pcx H3bitmap.lod · SoD CslAbPf3.pcx pcx H3bitmap.lod · SoD CslAbPf4.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Foolhardy Waywardness Foolhardy Waywardness File Resource Source CslAbfw1.pcx pcx H3bitmap.lod · SoD CslAbFw2.pcx pcx H3bitmap.lod · SoD CslAbFw3.pcx pcx H3bitmap.lod · SoD CslAbFw4.pcx pcx H3bitmap.lod · SoD CslAbFw5.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / New Beginning The Shadow of Death New Beginning File Resource Source Csl2NBa.pcx pcx H3bitmap.lod · SoD Csl2NBb.pcx pcx H3bitmap.lod · SoD Csl2NBc.pcx pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
+        "id": "file-e125f57f1cf7",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumBL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-284238bf410c",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumBS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-325ae0d0bb9e",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumCL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-41eac71629c3",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumCS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-0f65b389196b",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumEL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-da39527de132",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumES.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-1091a8a23451",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumFL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-f22631a71a68",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumFS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-96d9bc73b530",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumUL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-0718067b1b38",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumUS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-cb2ac5c96ffd",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumWL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-37682e719669",
+        "heading": "Armageddon's Blade",
+        "text": "TarnumWS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-0-depth-1",
+        "heading": "Armageddon's Blade",
         "text": "File Resource Source"
       },
       {
@@ -83844,7 +84010,7 @@ export const searchIndex = [
         "text": "CslReG1c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-18-depth-2",
+        "id": "group-1-depth-2",
         "heading": "Long Live the Queen",
         "text": "File Resource Source"
       },
@@ -83864,37 +84030,10 @@ export const searchIndex = [
         "text": "CslReE3c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-19-depth-2",
+        "id": "group-2-depth-2",
         "heading": "Dungeons and Devils",
         "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-36",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "en",
-    "slug": "bitmap/0/1/page-36",
-    "url": "/en/wiki/bitmap/0/1/page-36/",
-    "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 36/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Video previews / Restoration of Erathia / Spoils of War (*) Video previews Restoration of Erathia Spoils of War (*) File Resource Source CslReG1d.pcx pcx H3bitmap.lod · SoD CslReN2a.pcx pcx H3bitmap.lod · SoD CslReN2b.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Liberation Liberation File Resource Source CslReG4a.pcx pcx H3bitmap.lod · SoD CslReG4b.pcx pcx H3bitmap.lod · SoD CslReG4c.pcx pcx H3bitmap.lod · SoD CslReG4d.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Long Live the King Long Live the King File Resource Source CslReE5a.pcx pcx H3bitmap.lod · SoD CslReE5b.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD CslReE5d.pcx pcx H3bitmap.lod · SoD CslReE5e.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Song for the Father Song for the Father File Resource Source CslReG6a.pcx pcx H3bitmap.lod · SoD CslReG6b.pcx pcx H3bitmap.lod · SoD CslReG6c.pcx pcx H3bitmap.lod · SoD Video previews / Restoration of Erathia / Seeds of Discontent Seeds of Discontent File Resource Source CslReS7a.pcx pcx H3bitmap.lod · SoD CslReS7b.pcx pcx H3bitmap.lod · SoD CslReS7c.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Armageddon's Blade Armageddon's Blade Armageddon's Blade File Resource Source CslAbAb1.pcx pcx H3bitmap.lod · SoD CslAbAb2.pcx pcx H3bitmap.lod · SoD CslAbAb3.pcx pcx H3bitmap.lod · SoD CslAbAb4.pcx pcx H3bitmap.lod · SoD CslAbAb5.pcx pcx H3bitmap.lod · SoD CslAbAb6.pcx pcx H3bitmap.lod · SoD CslAbAb7.pcx pcx H3bitmap.lod · SoD CslAbAb8.pcx pcx H3bitmap.lod · SoD CslAbAb9.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Dragon's Blood Dragon's Blood File Resource Source CslAbDb1.pcx pcx H3bitmap.lod · SoD CslAbdb2.pcx pcx H3bitmap.lod · SoD CslAbDb3.pcx pcx H3bitmap.lod · SoD CslAbDb4.pcx pcx H3bitmap.lod · SoD CslAbDb5.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Dragon Slayer Dragon Slayer File Resource Source CslAbds1.pcx pcx H3bitmap.lod · SoD CslAbDs2.pcx pcx H3bitmap.lod · SoD CslAbDs3.pcx pcx H3bitmap.lod · SoD CslAbDs4.pcx pcx H3bitmap.lod · SoD CslAbDs5.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Festival of Life Festival of Life File Resource Source CslAbFl1.pcx pcx H3bitmap.lod · SoD CslAbFl2.pcx pcx H3bitmap.lod · SoD CslAbfl3.pcx pcx H3bitmap.lod · SoD CslAbFl4.pcx pcx H3bitmap.lod · SoD CslAbFl5.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Playing with Fire Playing with Fire File Resource Source CslAbPf1.pcx pcx H3bitmap.lod · SoD CslAbpf2.pcx pcx H3bitmap.lod · SoD CslAbPf3.pcx pcx H3bitmap.lod · SoD CslAbPf4.pcx pcx H3bitmap.lod · SoD Video previews / Armageddon's Blade / Foolhardy Waywardness Foolhardy Waywardness File Resource Source CslAbfw1.pcx pcx H3bitmap.lod · SoD CslAbFw2.pcx pcx H3bitmap.lod · SoD CslAbFw3.pcx pcx H3bitmap.lod · SoD CslAbFw4.pcx pcx H3bitmap.lod · SoD CslAbFw5.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / New Beginning The Shadow of Death New Beginning File Resource Source Csl2NBa.pcx pcx H3bitmap.lod · SoD Csl2NBb.pcx pcx H3bitmap.lod · SoD Csl2NBc.pcx pcx H3bitmap.lod · SoD Csl2NBd.pcx pcx H3bitmap.lod · SoD Csl2NBe.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Elixir of Life Elixir of Life File Resource Source Csl2ELa.pcx pcx H3bitmap.lod · SoD Csl2ELb.pcx pcx H3bitmap.lod · SoD Csl2ELc.pcx pcx H3bitmap.lod · SoD Csl2ELd.pcx pcx H3bitmap.lod · SoD Csl2ELe.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Hack and Slash Hack and Slash File Resource Source Csl2HSa.pcx pcx H3bitmap.lod · SoD Csl2HSc.pcx pcx H3bitmap.lod · SoD Csl2HSd.pcx pcx H3bitmap.lod · SoD Csl2HSe.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Birth of a Barbarian Birth of a Barbarian File Resource Source Csl2BBa.pcx pcx H3bitmap.lod · SoD Csl2BBb.pcx pcx H3bitmap.lod · SoD Csl2BBc.pcx pcx H3bitmap.lod · SoD Csl2BBd.pcx pcx H3bitmap.lod · SoD Csl2BBe.pcx pcx H3bitmap.lod · SoD Csl2BBf.pcx pcx H3bitmap.lod · SoD",
-    "segments": [
+      },
       {
         "id": "file-132a2ddffe4d",
         "heading": "Spoils of War (*)",
@@ -83911,7 +84050,7 @@ export const searchIndex = [
         "text": "CslReN2b.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-0-depth-2",
+        "id": "group-3-depth-2",
         "heading": "Spoils of War (*)",
         "text": "File Resource Source"
       },
@@ -83936,7 +84075,7 @@ export const searchIndex = [
         "text": "CslReG4d.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-1-depth-2",
+        "id": "group-4-depth-2",
         "heading": "Liberation",
         "text": "File Resource Source"
       },
@@ -83966,7 +84105,7 @@ export const searchIndex = [
         "text": "CslReE5e.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-2-depth-2",
+        "id": "group-5-depth-2",
         "heading": "Long Live the King",
         "text": "File Resource Source"
       },
@@ -83986,7 +84125,7 @@ export const searchIndex = [
         "text": "CslReG6c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-3-depth-2",
+        "id": "group-6-depth-2",
         "heading": "Song for the Father",
         "text": "File Resource Source"
       },
@@ -84006,7 +84145,7 @@ export const searchIndex = [
         "text": "CslReS7c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-4-depth-2",
+        "id": "group-7-depth-2",
         "heading": "Seeds of Discontent",
         "text": "File Resource Source"
       },
@@ -84056,7 +84195,7 @@ export const searchIndex = [
         "text": "CslAbAb9.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-5-depth-2",
+        "id": "group-8-depth-2",
         "heading": "Armageddon's Blade",
         "text": "File Resource Source"
       },
@@ -84086,7 +84225,7 @@ export const searchIndex = [
         "text": "CslAbDb5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-6-depth-2",
+        "id": "group-9-depth-2",
         "heading": "Dragon's Blood",
         "text": "File Resource Source"
       },
@@ -84116,7 +84255,7 @@ export const searchIndex = [
         "text": "CslAbDs5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-7-depth-2",
+        "id": "group-10-depth-2",
         "heading": "Dragon Slayer",
         "text": "File Resource Source"
       },
@@ -84146,7 +84285,7 @@ export const searchIndex = [
         "text": "CslAbFl5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-8-depth-2",
+        "id": "group-11-depth-2",
         "heading": "Festival of Life",
         "text": "File Resource Source"
       },
@@ -84171,7 +84310,7 @@ export const searchIndex = [
         "text": "CslAbPf4.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-9-depth-2",
+        "id": "group-12-depth-2",
         "heading": "Playing with Fire",
         "text": "File Resource Source"
       },
@@ -84201,7 +84340,7 @@ export const searchIndex = [
         "text": "CslAbFw5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-10-depth-2",
+        "id": "group-13-depth-2",
         "heading": "Foolhardy Waywardness",
         "text": "File Resource Source"
       },
@@ -84221,6 +84360,37 @@ export const searchIndex = [
         "text": "Csl2NBc.pcx pcx H3bitmap.lod · SoD"
       },
       {
+        "id": "group-14-depth-2",
+        "heading": "New Beginning",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-37",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "bitmap/0/1/page-37",
+    "url": "/en/wiki/bitmap/0/1/page-37/",
+    "title": "Campaign elements",
+    "summary": "H3bitmap.lod · 37/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod"
+    ],
+    "text": "Video previews / The Shadow of Death / New Beginning Video previews The Shadow of Death New Beginning File Resource Source Csl2NBd.pcx pcx H3bitmap.lod · SoD Csl2NBe.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Elixir of Life Elixir of Life File Resource Source Csl2ELa.pcx pcx H3bitmap.lod · SoD Csl2ELb.pcx pcx H3bitmap.lod · SoD Csl2ELc.pcx pcx H3bitmap.lod · SoD Csl2ELd.pcx pcx H3bitmap.lod · SoD Csl2ELe.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Hack and Slash Hack and Slash File Resource Source Csl2HSa.pcx pcx H3bitmap.lod · SoD Csl2HSc.pcx pcx H3bitmap.lod · SoD Csl2HSd.pcx pcx H3bitmap.lod · SoD Csl2HSe.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Birth of a Barbarian Birth of a Barbarian File Resource Source Csl2BBa.pcx pcx H3bitmap.lod · SoD Csl2BBb.pcx pcx H3bitmap.lod · SoD Csl2BBc.pcx pcx H3bitmap.lod · SoD Csl2BBd.pcx pcx H3bitmap.lod · SoD Csl2BBe.pcx pcx H3bitmap.lod · SoD Csl2BBf.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Rise of the Necromancer Rise of the Necromancer File Resource Source Csl2RNa.pcx pcx H3bitmap.lod · SoD Csl2RNb.pcx pcx H3bitmap.lod · SoD Csl2RNc.pcx pcx H3bitmap.lod · SoD Csl2RNd.pcx pcx H3bitmap.lod · SoD Csl2RNe.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Unholy Alliance Unholy Alliance File Resource Source Csl2UAa.pcx pcx H3bitmap.lod · SoD Csl2UAb.pcx pcx H3bitmap.lod · SoD Csl2UAc.pcx pcx H3bitmap.lod · SoD Csl2UAd.pcx pcx H3bitmap.lod · SoD Csl2UAe.pcx pcx H3bitmap.lod · SoD Csl2UAf.pcx pcx H3bitmap.lod · SoD Csl2UAg.pcx pcx H3bitmap.lod · SoD Csl2UAh.pcx pcx H3bitmap.lod · SoD Csl2UAi.pcx pcx H3bitmap.lod · SoD Csl2UAj.pcx pcx H3bitmap.lod · SoD Csl2UAk.pcx pcx H3bitmap.lod · SoD Csl2UAl.pcx pcx H3bitmap.lod · SoD Csl2UAm.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Specter of Power Specter of Power File Resource Source Csl2SPa.pcx pcx H3bitmap.lod · SoD Csl2SPb.pcx pcx H3bitmap.lod · SoD Csl2SPc.pcx pcx H3bitmap.lod · SoD Csl2SPd.pcx pcx H3bitmap.lod · SoD Csl2SPe.pcx pcx H3bitmap.lod · SoD Other files Other files File Resource Source CBONE1A1.PCX pcx H3bitmap.lod · SoD CBONE1A2.PCX pcx H3bitmap.lod · SoD CBONE1A3.PCX pcx H3bitmap.lod · SoD CBONE1B1.PCX pcx H3bitmap.lod · SoD CBONE1B2.PCX pcx H3bitmap.lod · SoD CBONE1B3.PCX pcx H3bitmap.lod · SoD CBONE1C1.PCX pcx H3bitmap.lod · SoD CBONE1C2.PCX pcx H3bitmap.lod · SoD CBONE2A1.PCX pcx H3bitmap.lod · SoD CBONE2A2.PCX pcx H3bitmap.lod · SoD CBONE2A3.PCX pcx H3bitmap.lod · SoD CBONE2B1.PCX pcx H3bitmap.lod · SoD CBONE2B2.PCX pcx H3bitmap.lod · SoD CBONE2B3.PCX pcx H3bitmap.lod · SoD CBONE2C1.PCX pcx H3bitmap.lod · SoD CBONE2C2.PCX pcx H3bitmap.lod · SoD CBONE2C3.PCX pcx H3bitmap.lod · SoD CBONE2D1.PCX pcx H3bitmap.lod · SoD CBONE2D2.PCX pcx H3bitmap.lod · SoD CBONE2D3.PCX pcx H3bitmap.lod · SoD CBONG1A1.PCX pcx H3bitmap.lod · SoD CBONG1A2.PCX pcx H3bitmap.lod · SoD CBONG1A3.PCX pcx H3bitmap.lod · SoD CBONG1B1.PCX pcx H3bitmap.lod · SoD CBONG1B2.PCX pcx H3bitmap.lod · SoD CBONG1B3.PCX pcx H3bitmap.lod · SoD CBONG1C1.PCX pcx H3bitmap.lod · SoD CBONG1C2.PCX pcx H3bitmap.lod · SoD CBONG1C3.PCX pcx H3bitmap.lod · SoD CBONG2A1.PCX pcx H3bitmap.lod · SoD CBONG2A2.PCX pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
         "id": "file-2fa8d403fe50",
         "heading": "New Beginning",
         "text": "Csl2NBd.pcx pcx H3bitmap.lod · SoD"
@@ -84231,7 +84401,7 @@ export const searchIndex = [
         "text": "Csl2NBe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-11-depth-2",
+        "id": "group-0-depth-2",
         "heading": "New Beginning",
         "text": "File Resource Source"
       },
@@ -84261,7 +84431,7 @@ export const searchIndex = [
         "text": "Csl2ELe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-12-depth-2",
+        "id": "group-1-depth-2",
         "heading": "Elixir of Life",
         "text": "File Resource Source"
       },
@@ -84291,7 +84461,7 @@ export const searchIndex = [
         "text": "CslReE5c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-13-depth-2",
+        "id": "group-2-depth-2",
         "heading": "Hack and Slash",
         "text": "File Resource Source"
       },
@@ -84326,37 +84496,10 @@ export const searchIndex = [
         "text": "Csl2BBf.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-14-depth-2",
+        "id": "group-3-depth-2",
         "heading": "Birth of a Barbarian",
         "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-37",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "en",
-    "slug": "bitmap/0/1/page-37",
-    "url": "/en/wiki/bitmap/0/1/page-37/",
-    "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 37/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Video previews / The Shadow of Death / Rise of the Necromancer Video previews The Shadow of Death Rise of the Necromancer File Resource Source Csl2RNa.pcx pcx H3bitmap.lod · SoD Csl2RNb.pcx pcx H3bitmap.lod · SoD Csl2RNc.pcx pcx H3bitmap.lod · SoD Csl2RNd.pcx pcx H3bitmap.lod · SoD Csl2RNe.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Unholy Alliance Unholy Alliance File Resource Source Csl2UAa.pcx pcx H3bitmap.lod · SoD Csl2UAb.pcx pcx H3bitmap.lod · SoD Csl2UAc.pcx pcx H3bitmap.lod · SoD Csl2UAd.pcx pcx H3bitmap.lod · SoD Csl2UAe.pcx pcx H3bitmap.lod · SoD Csl2UAf.pcx pcx H3bitmap.lod · SoD Csl2UAg.pcx pcx H3bitmap.lod · SoD Csl2UAh.pcx pcx H3bitmap.lod · SoD Csl2UAi.pcx pcx H3bitmap.lod · SoD Csl2UAj.pcx pcx H3bitmap.lod · SoD Csl2UAk.pcx pcx H3bitmap.lod · SoD Csl2UAl.pcx pcx H3bitmap.lod · SoD Csl2UAm.pcx pcx H3bitmap.lod · SoD Video previews / The Shadow of Death / Specter of Power Specter of Power File Resource Source Csl2SPa.pcx pcx H3bitmap.lod · SoD Csl2SPb.pcx pcx H3bitmap.lod · SoD Csl2SPc.pcx pcx H3bitmap.lod · SoD Csl2SPd.pcx pcx H3bitmap.lod · SoD Csl2SPe.pcx pcx H3bitmap.lod · SoD Other files Other files File Resource Source CBONE1A1.PCX pcx H3bitmap.lod · SoD CBONE1A2.PCX pcx H3bitmap.lod · SoD CBONE1A3.PCX pcx H3bitmap.lod · SoD CBONE1B1.PCX pcx H3bitmap.lod · SoD CBONE1B2.PCX pcx H3bitmap.lod · SoD CBONE1B3.PCX pcx H3bitmap.lod · SoD CBONE1C1.PCX pcx H3bitmap.lod · SoD CBONE1C2.PCX pcx H3bitmap.lod · SoD CBONE2A1.PCX pcx H3bitmap.lod · SoD CBONE2A2.PCX pcx H3bitmap.lod · SoD CBONE2A3.PCX pcx H3bitmap.lod · SoD CBONE2B1.PCX pcx H3bitmap.lod · SoD CBONE2B2.PCX pcx H3bitmap.lod · SoD CBONE2B3.PCX pcx H3bitmap.lod · SoD CBONE2C1.PCX pcx H3bitmap.lod · SoD CBONE2C2.PCX pcx H3bitmap.lod · SoD CBONE2C3.PCX pcx H3bitmap.lod · SoD CBONE2D1.PCX pcx H3bitmap.lod · SoD CBONE2D2.PCX pcx H3bitmap.lod · SoD CBONE2D3.PCX pcx H3bitmap.lod · SoD CBONG1A1.PCX pcx H3bitmap.lod · SoD CBONG1A2.PCX pcx H3bitmap.lod · SoD CBONG1A3.PCX pcx H3bitmap.lod · SoD CBONG1B1.PCX pcx H3bitmap.lod · SoD CBONG1B2.PCX pcx H3bitmap.lod · SoD CBONG1B3.PCX pcx H3bitmap.lod · SoD CBONG1C1.PCX pcx H3bitmap.lod · SoD CBONG1C2.PCX pcx H3bitmap.lod · SoD CBONG1C3.PCX pcx H3bitmap.lod · SoD CBONG2A1.PCX pcx H3bitmap.lod · SoD CBONG2A2.PCX pcx H3bitmap.lod · SoD CBONG2A3.PCX pcx H3bitmap.lod · SoD CBONG2B1.PCX pcx H3bitmap.lod · SoD CBONG2B2.PCX pcx H3bitmap.lod · SoD CBONG2B3.PCX pcx H3bitmap.lod · SoD CBONG2C1.PCX pcx H3bitmap.lod · SoD CBONG2C2.PCX pcx H3bitmap.lod · SoD CBONG2C3.PCX pcx H3bitmap.lod · SoD CBONG2D1.PCX pcx H3bitmap.lod · SoD CBONG2D2.PCX pcx H3bitmap.lod · SoD CBONG2D3.PCX pcx H3bitmap.lod · SoD CBONG3A1.PCX pcx H3bitmap.lod · SoD CBONG3A2.PCX pcx H3bitmap.lod · SoD CBONG3A3.PCX pcx H3bitmap.lod · SoD CBONG3B1.PCX pcx H3bitmap.lod · SoD CBONG3B2.PCX pcx H3bitmap.lod · SoD CBONG3B3.PCX pcx H3bitmap.lod · SoD CBONG3C1.PCX pcx H3bitmap.lod · SoD CBONG3C2.PCX pcx H3bitmap.lod · SoD",
-    "segments": [
+      },
       {
         "id": "file-719ccb44f605",
         "heading": "Rise of the Necromancer",
@@ -84383,7 +84526,7 @@ export const searchIndex = [
         "text": "Csl2RNe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-0-depth-2",
+        "id": "group-4-depth-2",
         "heading": "Rise of the Necromancer",
         "text": "File Resource Source"
       },
@@ -84453,7 +84596,7 @@ export const searchIndex = [
         "text": "Csl2UAm.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-1-depth-2",
+        "id": "group-5-depth-2",
         "heading": "Unholy Alliance",
         "text": "File Resource Source"
       },
@@ -84483,7 +84626,7 @@ export const searchIndex = [
         "text": "Csl2SPe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-2-depth-2",
+        "id": "group-6-depth-2",
         "heading": "Specter of Power",
         "text": "File Resource Source"
       },
@@ -84643,6 +84786,37 @@ export const searchIndex = [
         "text": "CBONG2A2.PCX pcx H3bitmap.lod · SoD"
       },
       {
+        "id": "group-7-depth-0",
+        "heading": "Other files",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-38",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "bitmap/0/1/page-38",
+    "url": "/en/wiki/bitmap/0/1/page-38/",
+    "title": "Campaign elements",
+    "summary": "H3bitmap.lod · 38/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod"
+    ],
+    "text": "Other files Other files File Resource Source CBONG2A3.PCX pcx H3bitmap.lod · SoD CBONG2B1.PCX pcx H3bitmap.lod · SoD CBONG2B2.PCX pcx H3bitmap.lod · SoD CBONG2B3.PCX pcx H3bitmap.lod · SoD CBONG2C1.PCX pcx H3bitmap.lod · SoD CBONG2C2.PCX pcx H3bitmap.lod · SoD CBONG2C3.PCX pcx H3bitmap.lod · SoD CBONG2D1.PCX pcx H3bitmap.lod · SoD CBONG2D2.PCX pcx H3bitmap.lod · SoD CBONG2D3.PCX pcx H3bitmap.lod · SoD CBONG3A1.PCX pcx H3bitmap.lod · SoD CBONG3A2.PCX pcx H3bitmap.lod · SoD CBONG3A3.PCX pcx H3bitmap.lod · SoD CBONG3B1.PCX pcx H3bitmap.lod · SoD CBONG3B2.PCX pcx H3bitmap.lod · SoD CBONG3B3.PCX pcx H3bitmap.lod · SoD CBONG3C1.PCX pcx H3bitmap.lod · SoD CBONG3C2.PCX pcx H3bitmap.lod · SoD CBONG3C3.PCX pcx H3bitmap.lod · SoD CBONN1A1.PCX pcx H3bitmap.lod · SoD CBONN1A2.PCX pcx H3bitmap.lod · SoD CBONN1B1.PCX pcx H3bitmap.lod · SoD CBONN1B2.PCX pcx H3bitmap.lod · SoD CBONN1B3.PCX pcx H3bitmap.lod · SoD CBONN1C1.PCX pcx H3bitmap.lod · SoD CBONN1C2.PCX pcx H3bitmap.lod · SoD CBONS1A1.PCX pcx H3bitmap.lod · SoD CBONS1A2.PCX pcx H3bitmap.lod · SoD CBONS1A3.PCX pcx H3bitmap.lod · SoD CBONS1B1.PCX pcx H3bitmap.lod · SoD CBONS1B2.PCX pcx H3bitmap.lod · SoD CBONS1B3.PCX pcx H3bitmap.lod · SoD CBONS1C1.PCX pcx H3bitmap.lod · SoD CBONS1C2.PCX pcx H3bitmap.lod · SoD CBONS1C3.PCX pcx H3bitmap.lod · SoD CampSwrd.pcx pcx H3bitmap.lod · SoD CmBkFW.pcx pcx H3bitmap.lod · SoD CrestBk.pcx pcx H3bitmap.lod · SoD CslReS5a.pcx pcx H3bitmap.lod · SoD DIBOX128.PCX pcx H3bitmap.lod · SoD E1A_CO.PCX pcx H3bitmap.lod · SoD E1A_EN.PCX pcx H3bitmap.lod · SoD E1A_SE.PCX pcx H3bitmap.lod · SoD E1B_CO.PCX pcx H3bitmap.lod · SoD E1B_EN.PCX pcx H3bitmap.lod · SoD E1B_SE.PCX pcx H3bitmap.lod · SoD E1C_CO.PCX pcx H3bitmap.lod · SoD E1C_EN.PCX pcx H3bitmap.lod · SoD E1C_SE.PCX pcx H3bitmap.lod · SoD E1P1_CO.PCX pcx H3bitmap.lod · SoD E1P1_EN.PCX pcx H3bitmap.lod · SoD E1P1_SE.PCX pcx H3bitmap.lod · SoD E1P2_CO.PCX pcx H3bitmap.lod · SoD E1P2_EN.PCX pcx H3bitmap.lod · SoD E1P2_SE.PCX pcx H3bitmap.lod · SoD E1P3_CO.PCX pcx H3bitmap.lod · SoD E1P3_EN.PCX pcx H3bitmap.lod · SoD E1P3_SE.PCX pcx H3bitmap.lod · SoD E1P4_CO.PCX pcx H3bitmap.lod · SoD E1P4_EN.PCX pcx H3bitmap.lod · SoD E1P4_SE.PCX pcx H3bitmap.lod · SoD E2A_CO.PCX pcx H3bitmap.lod · SoD E2A_EN.PCX pcx H3bitmap.lod · SoD E2A_SE.PCX pcx H3bitmap.lod · SoD E2B_CO.PCX pcx H3bitmap.lod · SoD E2B_EN.PCX pcx H3bitmap.lod · SoD E2B_SE.PCX pcx H3bitmap.lod · SoD E2C_CO.PCX pcx H3bitmap.lod · SoD E2C_EN.PCX pcx H3bitmap.lod · SoD E2C_SE.PCX pcx H3bitmap.lod · SoD E2D_CO.PCX pcx H3bitmap.lod · SoD E2D_EN.PCX pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
         "id": "file-580d596640df",
         "heading": "Other files",
         "text": "CBONG2A3.PCX pcx H3bitmap.lod · SoD"
@@ -84732,38 +84906,6 @@ export const searchIndex = [
         "heading": "Other files",
         "text": "CBONG3C2.PCX pcx H3bitmap.lod · SoD"
       },
-      {
-        "id": "group-3-depth-0",
-        "heading": "Other files",
-        "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-38",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "en",
-    "slug": "bitmap/0/1/page-38",
-    "url": "/en/wiki/bitmap/0/1/page-38/",
-    "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 38/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Other files Other files File Resource Source CBONG3C3.PCX pcx H3bitmap.lod · SoD CBONN1A1.PCX pcx H3bitmap.lod · SoD CBONN1A2.PCX pcx H3bitmap.lod · SoD CBONN1B1.PCX pcx H3bitmap.lod · SoD CBONN1B2.PCX pcx H3bitmap.lod · SoD CBONN1B3.PCX pcx H3bitmap.lod · SoD CBONN1C1.PCX pcx H3bitmap.lod · SoD CBONN1C2.PCX pcx H3bitmap.lod · SoD CBONS1A1.PCX pcx H3bitmap.lod · SoD CBONS1A2.PCX pcx H3bitmap.lod · SoD CBONS1A3.PCX pcx H3bitmap.lod · SoD CBONS1B1.PCX pcx H3bitmap.lod · SoD CBONS1B2.PCX pcx H3bitmap.lod · SoD CBONS1B3.PCX pcx H3bitmap.lod · SoD CBONS1C1.PCX pcx H3bitmap.lod · SoD CBONS1C2.PCX pcx H3bitmap.lod · SoD CBONS1C3.PCX pcx H3bitmap.lod · SoD CampSwrd.pcx pcx H3bitmap.lod · SoD CmBkFW.pcx pcx H3bitmap.lod · SoD CrestBk.pcx pcx H3bitmap.lod · SoD CslReS5a.pcx pcx H3bitmap.lod · SoD DIBOX128.PCX pcx H3bitmap.lod · SoD E1A_CO.PCX pcx H3bitmap.lod · SoD E1A_EN.PCX pcx H3bitmap.lod · SoD E1A_SE.PCX pcx H3bitmap.lod · SoD E1B_CO.PCX pcx H3bitmap.lod · SoD E1B_EN.PCX pcx H3bitmap.lod · SoD E1B_SE.PCX pcx H3bitmap.lod · SoD E1C_CO.PCX pcx H3bitmap.lod · SoD E1C_EN.PCX pcx H3bitmap.lod · SoD E1C_SE.PCX pcx H3bitmap.lod · SoD E1P1_CO.PCX pcx H3bitmap.lod · SoD E1P1_EN.PCX pcx H3bitmap.lod · SoD E1P1_SE.PCX pcx H3bitmap.lod · SoD E1P2_CO.PCX pcx H3bitmap.lod · SoD E1P2_EN.PCX pcx H3bitmap.lod · SoD E1P2_SE.PCX pcx H3bitmap.lod · SoD E1P3_CO.PCX pcx H3bitmap.lod · SoD E1P3_EN.PCX pcx H3bitmap.lod · SoD E1P3_SE.PCX pcx H3bitmap.lod · SoD E1P4_CO.PCX pcx H3bitmap.lod · SoD E1P4_EN.PCX pcx H3bitmap.lod · SoD E1P4_SE.PCX pcx H3bitmap.lod · SoD E2A_CO.PCX pcx H3bitmap.lod · SoD E2A_EN.PCX pcx H3bitmap.lod · SoD E2A_SE.PCX pcx H3bitmap.lod · SoD E2B_CO.PCX pcx H3bitmap.lod · SoD E2B_EN.PCX pcx H3bitmap.lod · SoD E2B_SE.PCX pcx H3bitmap.lod · SoD E2C_CO.PCX pcx H3bitmap.lod · SoD E2C_EN.PCX pcx H3bitmap.lod · SoD E2C_SE.PCX pcx H3bitmap.lod · SoD E2D_CO.PCX pcx H3bitmap.lod · SoD E2D_EN.PCX pcx H3bitmap.lod · SoD E2D_SE.PCX pcx H3bitmap.lod · SoD G1A_CO.PCX pcx H3bitmap.lod · SoD G1A_EN.PCX pcx H3bitmap.lod · SoD G1A_SE.PCX pcx H3bitmap.lod · SoD G1B_CO.PCX pcx H3bitmap.lod · SoD G1B_EN.PCX pcx H3bitmap.lod · SoD G1B_SE.PCX pcx H3bitmap.lod · SoD G1C_CO.PCX pcx H3bitmap.lod · SoD G1C_EN.PCX pcx H3bitmap.lod · SoD G1C_SE.PCX pcx H3bitmap.lod · SoD G2A_CO.PCX pcx H3bitmap.lod · SoD G2A_EN.PCX pcx H3bitmap.lod · SoD G2A_SE.PCX pcx H3bitmap.lod · SoD G2B_CO.PCX pcx H3bitmap.lod · SoD G2B_EN.PCX pcx H3bitmap.lod · SoD G2B_SE.PCX pcx H3bitmap.lod · SoD G2C_CO.PCX pcx H3bitmap.lod · SoD G2C_EN.PCX pcx H3bitmap.lod · SoD",
-    "segments": [
       {
         "id": "file-620f5df924c9",
         "heading": "Other files",
@@ -85035,6 +85177,37 @@ export const searchIndex = [
         "text": "E2D_EN.PCX pcx H3bitmap.lod · SoD"
       },
       {
+        "id": "group-0-depth-0",
+        "heading": "Other files",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-39",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "bitmap/0/1/page-39",
+    "url": "/en/wiki/bitmap/0/1/page-39/",
+    "title": "Campaign elements",
+    "summary": "H3bitmap.lod · 39/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod"
+    ],
+    "text": "Other files Other files File Resource Source E2D_SE.PCX pcx H3bitmap.lod · SoD G1A_CO.PCX pcx H3bitmap.lod · SoD G1A_EN.PCX pcx H3bitmap.lod · SoD G1A_SE.PCX pcx H3bitmap.lod · SoD G1B_CO.PCX pcx H3bitmap.lod · SoD G1B_EN.PCX pcx H3bitmap.lod · SoD G1B_SE.PCX pcx H3bitmap.lod · SoD G1C_CO.PCX pcx H3bitmap.lod · SoD G1C_EN.PCX pcx H3bitmap.lod · SoD G1C_SE.PCX pcx H3bitmap.lod · SoD G2A_CO.PCX pcx H3bitmap.lod · SoD G2A_EN.PCX pcx H3bitmap.lod · SoD G2A_SE.PCX pcx H3bitmap.lod · SoD G2B_CO.PCX pcx H3bitmap.lod · SoD G2B_EN.PCX pcx H3bitmap.lod · SoD G2B_SE.PCX pcx H3bitmap.lod · SoD G2C_CO.PCX pcx H3bitmap.lod · SoD G2C_EN.PCX pcx H3bitmap.lod · SoD G2C_SE.PCX pcx H3bitmap.lod · SoD G2D_CO.PCX pcx H3bitmap.lod · SoD G2D_EN.PCX pcx H3bitmap.lod · SoD G2D_SE.PCX pcx H3bitmap.lod · SoD G3A_CO.PCX pcx H3bitmap.lod · SoD G3A_EN.PCX pcx H3bitmap.lod · SoD G3A_SE.PCX pcx H3bitmap.lod · SoD G3B_CO.PCX pcx H3bitmap.lod · SoD G3B_EN.PCX pcx H3bitmap.lod · SoD G3B_SE.PCX pcx H3bitmap.lod · SoD G3C_CO.PCX pcx H3bitmap.lod · SoD G3C_EN.PCX pcx H3bitmap.lod · SoD G3C_SE.PCX pcx H3bitmap.lod · SoD N1A_CO.PCX pcx H3bitmap.lod · SoD N1A_EN.PCX pcx H3bitmap.lod · SoD N1A_SE.PCX pcx H3bitmap.lod · SoD N1B_CO.PCX pcx H3bitmap.lod · SoD N1B_EN.PCX pcx H3bitmap.lod · SoD N1B_SE.PCX pcx H3bitmap.lod · SoD N1CD_CO.PCX pcx H3bitmap.lod · SoD N1CD_EN.PCX pcx H3bitmap.lod · SoD N1CD_SE.PCX pcx H3bitmap.lod · SoD S1A_CO.PCX pcx H3bitmap.lod · SoD S1A_EN.PCX pcx H3bitmap.lod · SoD S1A_SE.PCX pcx H3bitmap.lod · SoD S1B_CO.PCX pcx H3bitmap.lod · SoD S1B_EN.PCX pcx H3bitmap.lod · SoD S1B_SE.PCX pcx H3bitmap.lod · SoD S1C_CO.PCX pcx H3bitmap.lod · SoD S1C_EN.PCX pcx H3bitmap.lod · SoD S1C_SE.PCX pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
         "id": "file-9ee9b1a23089",
         "heading": "Other files",
         "text": "E2D_SE.PCX pcx H3bitmap.lod · SoD"
@@ -85124,38 +85297,6 @@ export const searchIndex = [
         "heading": "Other files",
         "text": "G2C_EN.PCX pcx H3bitmap.lod · SoD"
       },
-      {
-        "id": "group-0-depth-0",
-        "heading": "Other files",
-        "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-39",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "en",
-    "slug": "bitmap/0/1/page-39",
-    "url": "/en/wiki/bitmap/0/1/page-39/",
-    "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 39/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Other files Other files File Resource Source G2C_SE.PCX pcx H3bitmap.lod · SoD G2D_CO.PCX pcx H3bitmap.lod · SoD G2D_EN.PCX pcx H3bitmap.lod · SoD G2D_SE.PCX pcx H3bitmap.lod · SoD G3A_CO.PCX pcx H3bitmap.lod · SoD G3A_EN.PCX pcx H3bitmap.lod · SoD G3A_SE.PCX pcx H3bitmap.lod · SoD G3B_CO.PCX pcx H3bitmap.lod · SoD G3B_EN.PCX pcx H3bitmap.lod · SoD G3B_SE.PCX pcx H3bitmap.lod · SoD G3C_CO.PCX pcx H3bitmap.lod · SoD G3C_EN.PCX pcx H3bitmap.lod · SoD G3C_SE.PCX pcx H3bitmap.lod · SoD N1A_CO.PCX pcx H3bitmap.lod · SoD N1A_EN.PCX pcx H3bitmap.lod · SoD N1A_SE.PCX pcx H3bitmap.lod · SoD N1B_CO.PCX pcx H3bitmap.lod · SoD N1B_EN.PCX pcx H3bitmap.lod · SoD N1B_SE.PCX pcx H3bitmap.lod · SoD N1CD_CO.PCX pcx H3bitmap.lod · SoD N1CD_EN.PCX pcx H3bitmap.lod · SoD N1CD_SE.PCX pcx H3bitmap.lod · SoD S1A_CO.PCX pcx H3bitmap.lod · SoD S1A_EN.PCX pcx H3bitmap.lod · SoD S1A_SE.PCX pcx H3bitmap.lod · SoD S1B_CO.PCX pcx H3bitmap.lod · SoD S1B_EN.PCX pcx H3bitmap.lod · SoD S1B_SE.PCX pcx H3bitmap.lod · SoD S1C_CO.PCX pcx H3bitmap.lod · SoD S1C_EN.PCX pcx H3bitmap.lod · SoD S1C_SE.PCX pcx H3bitmap.lod · SoD",
-    "segments": [
       {
         "id": "file-4f5e8a5c640c",
         "heading": "Other files",
@@ -85326,10 +85467,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-4",
     "url": "/en/wiki/bitmap/0/1/page-4/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 4/39",
+    "summary": "H3bitmap.lod · 4/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -85723,10 +85863,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-5",
     "url": "/en/wiki/bitmap/0/1/page-5/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 5/39",
+    "summary": "H3bitmap.lod · 5/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -86120,10 +86259,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-6",
     "url": "/en/wiki/bitmap/0/1/page-6/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 6/39",
+    "summary": "H3bitmap.lod · 6/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -86517,10 +86655,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-7",
     "url": "/en/wiki/bitmap/0/1/page-7/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 7/39",
+    "summary": "H3bitmap.lod · 7/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -86909,10 +87046,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-8",
     "url": "/en/wiki/bitmap/0/1/page-8/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 8/39",
+    "summary": "H3bitmap.lod · 8/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -87306,10 +87442,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-9",
     "url": "/en/wiki/bitmap/0/1/page-9/",
     "title": "Campaign elements",
-    "summary": "SoD · H3bitmap.lod · 9/39",
+    "summary": "H3bitmap.lod · 9/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -92271,10 +92406,9 @@ export const searchIndex = [
     "slug": "bitmap/3/0",
     "url": "/en/wiki/bitmap/3/0/",
     "title": "Restoration of Erathia",
-    "summary": "SoD · H3bitmap.lod · 1/1",
+    "summary": "H3bitmap.lod · 1/1",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Возрождение Эрафии",
       "Restoration of Erathia"
     ],
@@ -92361,6 +92495,107 @@ export const searchIndex = [
     ]
   },
   {
+    "id": "wiki.bitmap.3.1",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "bitmap/3/1",
+    "url": "/en/wiki/bitmap/3/1/",
+    "title": "Armageddon's Blade",
+    "summary": "AB campaigns · 1/1",
+    "keywords": [
+      "AB",
+      "Клинок Армагеддона",
+      "Armageddon's Blade"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Клинок Армагеддона?",
+      "Which files are in Armageddon's Blade?"
+    ],
+    "sourceRefs": [
+      "wiki-ab:ab.h3c",
+      "wiki-ab:blood.h3c",
+      "wiki-ab:festival.h3c",
+      "wiki-ab:fire.h3c",
+      "wiki-ab:fool.h3c",
+      "wiki-ab:Neutral.h3c",
+      "wiki-ab:slayer.h3c"
+    ],
+    "text": "Armageddon's Blade Armageddon's Blade File Resource Source ab.h3c h3c AB campaigns · AB Dragon's Blood Dragon's Blood File Resource Source blood.h3c h3c AB campaigns · AB Festival of Life Festival of Life File Resource Source festival.h3c h3c AB campaigns · AB Playing with Fire Playing with Fire File Resource Source fire.h3c h3c AB campaigns · AB Foolhardy Waywardness Foolhardy Waywardness File Resource Source fool.h3c h3c AB campaigns · AB Spoils of War Spoils of War File Resource Source Neutral.h3c h3c AB campaigns · AB Dragon Slayer Dragon Slayer File Resource Source slayer.h3c h3c AB campaigns · AB",
+    "segments": [
+      {
+        "id": "file-925c5a7ab0fe",
+        "heading": "Armageddon's Blade",
+        "text": "ab.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Armageddon's Blade",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-3e6f1c34bc4f",
+        "heading": "Dragon's Blood",
+        "text": "blood.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-1-depth-0",
+        "heading": "Dragon's Blood",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-121e9e51b8a2",
+        "heading": "Festival of Life",
+        "text": "festival.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-2-depth-0",
+        "heading": "Festival of Life",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-f541389e530d",
+        "heading": "Playing with Fire",
+        "text": "fire.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-3-depth-0",
+        "heading": "Playing with Fire",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-f1de8d994c02",
+        "heading": "Foolhardy Waywardness",
+        "text": "fool.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-4-depth-0",
+        "heading": "Foolhardy Waywardness",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-ddc8369b932c",
+        "heading": "Spoils of War",
+        "text": "Neutral.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-5-depth-0",
+        "heading": "Spoils of War",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-2da79b32a78b",
+        "heading": "Dragon Slayer",
+        "text": "slayer.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-6-depth-0",
+        "heading": "Dragon Slayer",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
     "id": "wiki.bitmap.3.2",
     "kind": "article",
     "section": "wiki",
@@ -92368,10 +92603,9 @@ export const searchIndex = [
     "slug": "bitmap/3/2",
     "url": "/en/wiki/bitmap/3/2/",
     "title": "The Shadow of Death",
-    "summary": "SoD · H3bitmap.lod · 1/1",
+    "summary": "H3bitmap.lod · 1/1",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Дыхание Смерти",
       "The Shadow of Death"
     ],
@@ -120273,6 +120507,4726 @@ export const searchIndex = [
         "id": "file-931ff09bc075",
         "heading": "Videos",
         "text": "WIN3.BIK video VIDEO.VID · SoD"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Videos",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs",
+    "url": "/en/wiki/wog/defs/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 1/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source artifact.def def hmm35wog.pac · WoG ava0000.def def hmm35wog.pac · WoG ava0000.msk msk hmm35wog.pac · WoG ava0002.def def hmm35wog.pac · WoG ava0002.msk msk hmm35wog.pac · WoG ava0003.def def hmm35wog.pac · WoG ava0003.msk msk hmm35wog.pac · WoG ava0004.def def hmm35wog.pac · WoG ava0004.msk msk hmm35wog.pac · WoG ava0005.def def hmm35wog.pac · WoG ava0005.msk msk hmm35wog.pac · WoG ava0006.def def hmm35wog.pac · WoG ava0006.msk msk hmm35wog.pac · WoG ava0007.def def hmm35wog.pac · WoG avarand.def def hmm35wog.pac · WoG avarand.msk msk hmm35wog.pac · WoG AVArnd1.def def hmm35wog.pac · WoG AVArnd1.msk msk hmm35wog.pac · WoG AVArnd2.def def hmm35wog.pac · WoG AVArnd2.msk msk hmm35wog.pac · WoG AVArnd3.def def hmm35wog.pac · WoG AVArnd3.msk msk hmm35wog.pac · WoG AVArnd4.def def hmm35wog.pac · WoG AVArnd4.msk msk hmm35wog.pac · WoG avccast1.def def hmm35wog.pac · WoG avccast1.msk msk hmm35wog.pac · WoG avccast2.def def hmm35wog.pac · WoG avccast2.msk msk hmm35wog.pac · WoG avccast3.def def hmm35wog.pac · WoG avccast3.msk msk hmm35wog.pac · WoG AVCCAST4.def def hmm35wog.pac · WoG avccast4.msk msk hmm35wog.pac · WoG avcconf1.def def hmm35wog.pac · WoG avcconf1.msk msk hmm35wog.pac · WoG avcconf2.def def hmm35wog.pac · WoG avcconf2.msk msk hmm35wog.pac · WoG avcconf3.def def hmm35wog.pac · WoG avcconf3.msk msk hmm35wog.pac · WoG avcconf4.def def hmm35wog.pac · WoG avcconf4.msk msk hmm35wog.pac · WoG avcdung1.def def hmm35wog.pac · WoG avcdung1.msk msk hmm35wog.pac · WoG avcdung2.def def hmm35wog.pac · WoG avcdung2.msk msk hmm35wog.pac · WoG avcdung3.def def hmm35wog.pac · WoG avcdung3.msk msk hmm35wog.pac · WoG AVCDUNG4.def def hmm35wog.pac · WoG avcdung4.msk msk hmm35wog.pac · WoG avcfort1.def def hmm35wog.pac · WoG avcfort1.msk msk hmm35wog.pac · WoG avcfort2.def def hmm35wog.pac · WoG avcfort2.msk msk hmm35wog.pac · WoG avcfort3.def def hmm35wog.pac · WoG avcfort3.msk msk hmm35wog.pac · WoG AVCfort4.def def hmm35wog.pac · WoG avcfort4.msk msk hmm35wog.pac · WoG avcgar10.def def hmm35wog.pac · WoG avcgar20.def def hmm35wog.pac · WoG avcinfr1.def def hmm35wog.pac · WoG avcinfr1.msk msk hmm35wog.pac · WoG avcinfr2.def def hmm35wog.pac · WoG avcinfr2.msk msk hmm35wog.pac · WoG avcinfr3.def def hmm35wog.pac · WoG avcinfr3.msk msk hmm35wog.pac · WoG AVCinfr4.def def hmm35wog.pac · WoG avcinfr4.msk msk hmm35wog.pac · WoG avcnecr1.def def hmm35wog.pac · WoG avcnecr1.msk msk hmm35wog.pac · WoG avcnecr2.def def hmm35wog.pac · WoG avcnecr2.msk msk hmm35wog.pac · WoG avcnecr3.def def hmm35wog.pac · WoG avcnecr3.msk msk hmm35wog.pac · WoG AVCNECR4.def def hmm35wog.pac · WoG avcnecr4.msk msk hmm35wog.pac · WoG avcramp1.def def hmm35wog.pac · WoG avcramp1.msk msk hmm35wog.pac · WoG avcramp2.def def hmm35wog.pac · WoG avcramp2.msk msk hmm35wog.pac · WoG avcramp3.def def hmm35wog.pac · WoG avcramp3.msk msk hmm35wog.pac · WoG AVCRAMP4.def def hmm35wog.pac · WoG avcramp4.msk msk hmm35wog.pac · WoG avcstrn1.def def hmm35wog.pac · WoG avcstrn1.msk msk hmm35wog.pac · WoG avcstrn2.def def hmm35wog.pac · WoG avcstrn2.msk msk hmm35wog.pac · WoG avcstrn3.def def hmm35wog.pac · WoG avcstrn3.msk msk hmm35wog.pac · WoG AVCSTRN4.def def hmm35wog.pac · WoG avcstrn4.msk msk hmm35wog.pac · WoG avctowr1.def def hmm35wog.pac · WoG avctowr1.msk msk hmm35wog.pac · WoG avctowr2.def def hmm35wog.pac · WoG avctowr2.msk msk hmm35wog.pac · WoG avctowr3.def def hmm35wog.pac · WoG avctowr3.msk msk hmm35wog.pac · WoG AVCTOWR4.def def hmm35wog.pac · WoG avctowr4.msk msk hmm35wog.pac · WoG avcvgarm.def def hmm35wog.pac · WoG avcvgr.def def hmm35wog.pac · WoG avgelp.def def hmm35wog.pac · WoG avgelp.msk msk hmm35wog.pac · WoG avgtrll.def def hmm35wog.pac · WoG avllk1d0.def def hmm35wog.pac · WoG avllk1g0.def def hmm35wog.pac · WoG avllk1r.def def hmm35wog.pac · WoG avllk1s0.def def hmm35wog.pac · WoG avllk1u0.def def hmm35wog.pac · WoG avllk2d0.def def hmm35wog.pac · WoG avllk2g0.def def hmm35wog.pac · WoG avllk2s0.def def hmm35wog.pac · WoG avllk2u0.def def hmm35wog.pac · WoG avllk3d0.def def hmm35wog.pac · WoG avllk3g0.def def hmm35wog.pac · WoG avllk3s0.def def hmm35wog.pac · WoG avllk3u0.def def hmm35wog.pac · WoG avlswp50.def def hmm35wog.pac · WoG avmgedr0.def def hmm35wog.pac · WoG avmgelv0.def def hmm35wog.pac · WoG avmgems0.def def hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-8c7d90bead43",
+        "heading": "DEF files (*.def)",
+        "text": "artifact.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7c5273b9e889",
+        "heading": "DEF files (*.def)",
+        "text": "ava0000.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d303c6fbc2a6",
+        "heading": "DEF files (*.def)",
+        "text": "ava0000.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d436bc10cfb",
+        "heading": "DEF files (*.def)",
+        "text": "ava0002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-faab61ca90a6",
+        "heading": "DEF files (*.def)",
+        "text": "ava0002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5388f6771852",
+        "heading": "DEF files (*.def)",
+        "text": "ava0003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f370611adb79",
+        "heading": "DEF files (*.def)",
+        "text": "ava0003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5c6db65b60aa",
+        "heading": "DEF files (*.def)",
+        "text": "ava0004.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-48fd9fd37473",
+        "heading": "DEF files (*.def)",
+        "text": "ava0004.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c1fb3ade1c14",
+        "heading": "DEF files (*.def)",
+        "text": "ava0005.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0f4e5873c02a",
+        "heading": "DEF files (*.def)",
+        "text": "ava0005.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7624af6d657d",
+        "heading": "DEF files (*.def)",
+        "text": "ava0006.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-58d717f41eeb",
+        "heading": "DEF files (*.def)",
+        "text": "ava0006.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-68129a42a462",
+        "heading": "DEF files (*.def)",
+        "text": "ava0007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7a6e8ac8efc0",
+        "heading": "DEF files (*.def)",
+        "text": "avarand.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-de87a40b782e",
+        "heading": "DEF files (*.def)",
+        "text": "avarand.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-88368c202a37",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-892074c2ff9e",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ee02c424f2c9",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-14701fd011a6",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-357d22e76763",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-efc854c6d91a",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cfdcb82b98aa",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a205977285d0",
+        "heading": "DEF files (*.def)",
+        "text": "AVArnd4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5f4e6dd3708",
+        "heading": "DEF files (*.def)",
+        "text": "avccast1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-166b1b6dd4c4",
+        "heading": "DEF files (*.def)",
+        "text": "avccast1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff3adc37c237",
+        "heading": "DEF files (*.def)",
+        "text": "avccast2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f0acb45c809c",
+        "heading": "DEF files (*.def)",
+        "text": "avccast2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9afbc4a485cc",
+        "heading": "DEF files (*.def)",
+        "text": "avccast3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42df11506bfb",
+        "heading": "DEF files (*.def)",
+        "text": "avccast3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3a4dafa5f89",
+        "heading": "DEF files (*.def)",
+        "text": "AVCCAST4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-37fba2f3c93b",
+        "heading": "DEF files (*.def)",
+        "text": "avccast4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a53e74b0b74b",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-393454b025e3",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8580bddcb57",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3de37077418e",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dfa95791922d",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-da28e23d861b",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9e2a76aea3d",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f64453a3c80d",
+        "heading": "DEF files (*.def)",
+        "text": "avcconf4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e71478f3082e",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66d49a92300d",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-96e381921127",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-37b8ea61da5f",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5c9a798e92ca",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fbdd2ee93178",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a74e79a19e50",
+        "heading": "DEF files (*.def)",
+        "text": "AVCDUNG4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-052de4918093",
+        "heading": "DEF files (*.def)",
+        "text": "avcdung4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-189f9fa92882",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-32a10eaa75b2",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-73dbd86cf71d",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-535f572efc70",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e7b383cd9c15",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-266b5f5283b2",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-45a3484ab00d",
+        "heading": "DEF files (*.def)",
+        "text": "AVCfort4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dcecddf506bd",
+        "heading": "DEF files (*.def)",
+        "text": "avcfort4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c9deec315f5",
+        "heading": "DEF files (*.def)",
+        "text": "avcgar10.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dbabf027f6e8",
+        "heading": "DEF files (*.def)",
+        "text": "avcgar20.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d737f0ee272f",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-562f6666906c",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4130ce2087d2",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ab3cca646b81",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1da608500c5b",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54ce921d78a5",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f78d6ca0b310",
+        "heading": "DEF files (*.def)",
+        "text": "AVCinfr4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-be12c0e4f94d",
+        "heading": "DEF files (*.def)",
+        "text": "avcinfr4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1fc4d21388d1",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-80c96319d4e2",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4561ed013831",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-35f798cff05b",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e06a360e1542",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-75afaf431bb6",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc5c5cf00165",
+        "heading": "DEF files (*.def)",
+        "text": "AVCNECR4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ebe1c708c2c",
+        "heading": "DEF files (*.def)",
+        "text": "avcnecr4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-46f1965a6e06",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-291047e2755f",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-67915502e6a7",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec3042a0d3b5",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-76cbe43db083",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c3169a44dac",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3fc5e68703bf",
+        "heading": "DEF files (*.def)",
+        "text": "AVCRAMP4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-06102e9e23d5",
+        "heading": "DEF files (*.def)",
+        "text": "avcramp4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-912e7c9c65dd",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c3662a3ff043",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e075b0c95960",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b303d270c9e2",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-03dd5f434159",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1b5c3460601f",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9e017a34623",
+        "heading": "DEF files (*.def)",
+        "text": "AVCSTRN4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c9871a4b8ef9",
+        "heading": "DEF files (*.def)",
+        "text": "avcstrn4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a71165fb16dd",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-591321b399ec",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-626c813553f4",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-494fca4c1909",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-22a8fe06df9b",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d46ad06d366",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ebe2f39ef998",
+        "heading": "DEF files (*.def)",
+        "text": "AVCTOWR4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52c03e85d1c3",
+        "heading": "DEF files (*.def)",
+        "text": "avctowr4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-218ec6d71ec3",
+        "heading": "DEF files (*.def)",
+        "text": "avcvgarm.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc206a8287b6",
+        "heading": "DEF files (*.def)",
+        "text": "avcvgr.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8f59ed93326e",
+        "heading": "DEF files (*.def)",
+        "text": "avgelp.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54e94b1a707c",
+        "heading": "DEF files (*.def)",
+        "text": "avgelp.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b85bad7e1c9",
+        "heading": "DEF files (*.def)",
+        "text": "avgtrll.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78f2e155d7d9",
+        "heading": "DEF files (*.def)",
+        "text": "avllk1d0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-46a64f64ebd1",
+        "heading": "DEF files (*.def)",
+        "text": "avllk1g0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c18359a1551",
+        "heading": "DEF files (*.def)",
+        "text": "avllk1r.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a0087b9f0883",
+        "heading": "DEF files (*.def)",
+        "text": "avllk1s0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5eabe406fbab",
+        "heading": "DEF files (*.def)",
+        "text": "avllk1u0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-45b47b3db9cf",
+        "heading": "DEF files (*.def)",
+        "text": "avllk2d0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d553e3f55a5",
+        "heading": "DEF files (*.def)",
+        "text": "avllk2g0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5bd5ff957d88",
+        "heading": "DEF files (*.def)",
+        "text": "avllk2s0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8072990cf55",
+        "heading": "DEF files (*.def)",
+        "text": "avllk2u0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c794a2ace02",
+        "heading": "DEF files (*.def)",
+        "text": "avllk3d0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-31fd0eaed5b9",
+        "heading": "DEF files (*.def)",
+        "text": "avllk3g0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-da3a916e32eb",
+        "heading": "DEF files (*.def)",
+        "text": "avllk3s0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1233a6b080c4",
+        "heading": "DEF files (*.def)",
+        "text": "avllk3u0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8cbfd5c5a48d",
+        "heading": "DEF files (*.def)",
+        "text": "avlswp50.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a44309c21d3",
+        "heading": "DEF files (*.def)",
+        "text": "avmgedr0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1f77ee44f336",
+        "heading": "DEF files (*.def)",
+        "text": "avmgelv0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aa0f6674c438",
+        "heading": "DEF files (*.def)",
+        "text": "avmgems0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-2",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs/page-2",
+    "url": "/en/wiki/wog/defs/page-2/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 2/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source avmgerf0.def def hmm35wog.pac · WoG avmgesd0.def def hmm35wog.pac · WoG avmgesu0.def def hmm35wog.pac · WoG avmgesw0.def def hmm35wog.pac · WoG avrcgen0.def def hmm35wog.pac · WoG avrcgen0.msk msk hmm35wog.pac · WoG avrcgen1.def def hmm35wog.pac · WoG avrcgen1.msk msk hmm35wog.pac · WoG avrcgen2.def def hmm35wog.pac · WoG avrcgen2.msk msk hmm35wog.pac · WoG avrcgen3.def def hmm35wog.pac · WoG avrcgen3.msk msk hmm35wog.pac · WoG avrcgen4.def def hmm35wog.pac · WoG avrcgen4.msk msk hmm35wog.pac · WoG avrcgen5.def def hmm35wog.pac · WoG avrcgen5.msk msk hmm35wog.pac · WoG avrcgen6.def def hmm35wog.pac · WoG avrcgen6.msk msk hmm35wog.pac · WoG avrcgen7.def def hmm35wog.pac · WoG avrcgen7.msk msk hmm35wog.pac · WoG avrcgn00.def def hmm35wog.pac · WoG avrcgn00.msk msk hmm35wog.pac · WoG avrcgn01.def def hmm35wog.pac · WoG avrcgn01.msk msk hmm35wog.pac · WoG avrcgn02.def def hmm35wog.pac · WoG avrcgn02.msk msk hmm35wog.pac · WoG avrcgn03.def def hmm35wog.pac · WoG avrcgn03.msk msk hmm35wog.pac · WoG avrcgn04.def def hmm35wog.pac · WoG avrcgn04.msk msk hmm35wog.pac · WoG avrcgn05.def def hmm35wog.pac · WoG avrcgn05.msk msk hmm35wog.pac · WoG avrcgn06.def def hmm35wog.pac · WoG avrcgn06.msk msk hmm35wog.pac · WoG avrcgn07.def def hmm35wog.pac · WoG avrcgn07.msk msk hmm35wog.pac · WoG avrcgn08.def def hmm35wog.pac · WoG avrcgn08.msk msk hmm35wog.pac · WoG avsgzbs0.def def hmm35wog.pac · WoG avsgzbs0.msk msk hmm35wog.pac · WoG avsidls0.def def hmm35wog.pac · WoG avsidls0.msk msk hmm35wog.pac · WoG avslibs0.def def hmm35wog.pac · WoG avslibs0.msk msk hmm35wog.pac · WoG avswtcs0.def def hmm35wog.pac · WoG avswtcs0.msk msk hmm35wog.pac · WoG avtcavs0.def def hmm35wog.pac · WoG avtcavs0.msk msk hmm35wog.pac · WoG avtrndm0.def def hmm35wog.pac · WoG avtrndm0.msk msk hmm35wog.pac · WoG avwattak.def def hmm35wog.pac · WoG avwbonx0.def def hmm35wog.pac · WoG avwefre0.def def hmm35wog.pac · WoG avwelmf0.def def hmm35wog.pac · WoG AVWmon1.def def hmm35wog.pac · WoG AVWmon1.msk msk hmm35wog.pac · WoG AVWmon2.def def hmm35wog.pac · WoG AVWmon2.msk msk hmm35wog.pac · WoG AVWmon3.def def hmm35wog.pac · WoG AVWmon3.msk msk hmm35wog.pac · WoG AVWmon4.def def hmm35wog.pac · WoG AVWmon4.msk msk hmm35wog.pac · WoG AVWmon5.def def hmm35wog.pac · WoG AVWmon5.msk msk hmm35wog.pac · WoG AVWmon6.def def hmm35wog.pac · WoG AVWmon6.msk msk hmm35wog.pac · WoG AVWmon7.def def hmm35wog.pac · WoG AVWmon7.msk msk hmm35wog.pac · WoG AVWmrnd0.def def hmm35wog.pac · WoG AVWmrnd0.msk msk hmm35wog.pac · WoG avwphx.def def hmm35wog.pac · WoG avwskex0.def def hmm35wog.pac · WoG avxdens0.def def hmm35wog.pac · WoG avxdens0.msk msk hmm35wog.pac · WoG avxgzbs0.def def hmm35wog.pac · WoG avxgzbs0.msk msk hmm35wog.pac · WoG avxhils0.def def hmm35wog.pac · WoG avxhils0.msk msk hmm35wog.pac · WoG avxosis0.def def hmm35wog.pac · WoG avxtrks0.def def hmm35wog.pac · WoG avxtrks0.msk msk hmm35wog.pac · WoG avxtvrs0.def def hmm35wog.pac · WoG avxtvrs0.msk msk hmm35wog.pac · WoG avxwtrh0.def def hmm35wog.pac · WoG avzevnt0.def def hmm35wog.pac · WoG avzevnt0.msk msk hmm35wog.pac · WoG avzgrail.def def hmm35wog.pac · WoG avzgrail.msk msk hmm35wog.pac · WoG bttnnpc.def def hmm35wog.pac · WoG catap_ml.def def hmm35wog.pac · WoG catap_ml.msk msk hmm35wog.pac · WoG catap_mr.def def hmm35wog.pac · WoG catap_mr.msk msk hmm35wog.pac · WoG cfelem.def def hmm35wog.pac · WoG chdrgn.def def hmm35wog.pac · WoG checkbox.def def hmm35wog.pac · WoG cphx.def def hmm35wog.pac · WoG cprsmall.def def hmm35wog.pac · WoG dlg_npc1.def def hmm35wog.pac · WoG dlg_npc2.def def hmm35wog.pac · WoG dlg_npc3.def def hmm35wog.pac · WoG dlg_npcdel.def def hmm35wog.pac · WoG dlgcrexp.def def hmm35wog.pac · WoG dlgexpup.def def hmm35wog.pac · WoG flame.def def hmm35wog.pac · WoG flame.msk msk hmm35wog.pac · WoG icm007.def def hmm35wog.pac · WoG ILCK22.def def hmm35wog.pac · WoG ILCK30.def def hmm35wog.pac · WoG ILCK42.def def hmm35wog.pac · WoG ilck82.def def hmm35wog.pac · WoG ilckb.def def hmm35wog.pac · WoG ILCKS.def def hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-ada6a7fe4880",
+        "heading": "DEF files (*.def)",
+        "text": "avmgerf0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dfd458f95e2c",
+        "heading": "DEF files (*.def)",
+        "text": "avmgesd0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-43e6adfecf8f",
+        "heading": "DEF files (*.def)",
+        "text": "avmgesu0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e3d65329f67e",
+        "heading": "DEF files (*.def)",
+        "text": "avmgesw0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8142544f5653",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5b149b43155e",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c1fecf922f99",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-efd6b03fcd26",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-acbb895f0dd1",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-86ac6f77d4cf",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23f181469138",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8f9c695b68d7",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bf819e000ae3",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e27e2753bb78",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-33d4a0e5f3a4",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7428355f580e",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-81e1caaf81cc",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-97deacfb3f08",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-88624e59a000",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen7.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8d573194b9c",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgen7.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7b5a042aceb7",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn00.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4457fe085fab",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn00.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d2a7eb43b717",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a6ddc67f975e",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-311b38265473",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e45bab6426bd",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1d418d2f344a",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7302eddf1835",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn03.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9caadc969d09",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn04.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-db60b6b40a26",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn04.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e9fb528b0805",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn05.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4acf7e1c98a2",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn05.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d1db86f7a658",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn06.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66a5d0dcf8f5",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn06.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c25582c79aee",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn07.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1eeb7f35692b",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn07.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5146a303428",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn08.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1ecadfd88b16",
+        "heading": "DEF files (*.def)",
+        "text": "avrcgn08.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4f1280c32e37",
+        "heading": "DEF files (*.def)",
+        "text": "avsgzbs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8797baedb9c9",
+        "heading": "DEF files (*.def)",
+        "text": "avsgzbs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fa531df25187",
+        "heading": "DEF files (*.def)",
+        "text": "avsidls0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d265e1177d47",
+        "heading": "DEF files (*.def)",
+        "text": "avsidls0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36724b1048fc",
+        "heading": "DEF files (*.def)",
+        "text": "avslibs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9cef72b57bf7",
+        "heading": "DEF files (*.def)",
+        "text": "avslibs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5bbaec997aa0",
+        "heading": "DEF files (*.def)",
+        "text": "avswtcs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-87359b092fb4",
+        "heading": "DEF files (*.def)",
+        "text": "avswtcs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-11f8a0cfad38",
+        "heading": "DEF files (*.def)",
+        "text": "avtcavs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9b274f38141c",
+        "heading": "DEF files (*.def)",
+        "text": "avtcavs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8a4a2dac6101",
+        "heading": "DEF files (*.def)",
+        "text": "avtrndm0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12344eb9df69",
+        "heading": "DEF files (*.def)",
+        "text": "avtrndm0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6216e4d0ef93",
+        "heading": "DEF files (*.def)",
+        "text": "avwattak.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6243a2205b5f",
+        "heading": "DEF files (*.def)",
+        "text": "avwbonx0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d0cb6cfa7cc",
+        "heading": "DEF files (*.def)",
+        "text": "avwefre0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2ef7efea4df",
+        "heading": "DEF files (*.def)",
+        "text": "avwelmf0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6e4ab9cccf4f",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f427d49f6de1",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5379b68ec83",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-77028449e20a",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9f248f92572b",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5e1241b174a",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c159eff05f6d",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-af4c25bd06e3",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8ab778446415",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9f3076b04fd",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d0066ef10ba",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-649e7b9558f1",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53f7144ae55f",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon7.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-22235fbd86fc",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmon7.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9fcadc3475d8",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmrnd0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4eb10a60adcc",
+        "heading": "DEF files (*.def)",
+        "text": "AVWmrnd0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec6b40a69f3a",
+        "heading": "DEF files (*.def)",
+        "text": "avwphx.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-83f9822d2b45",
+        "heading": "DEF files (*.def)",
+        "text": "avwskex0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9881f692805",
+        "heading": "DEF files (*.def)",
+        "text": "avxdens0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5971c43655c2",
+        "heading": "DEF files (*.def)",
+        "text": "avxdens0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-599ee6b49c65",
+        "heading": "DEF files (*.def)",
+        "text": "avxgzbs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6aca6838f2a1",
+        "heading": "DEF files (*.def)",
+        "text": "avxgzbs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6d98e75a1450",
+        "heading": "DEF files (*.def)",
+        "text": "avxhils0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4c0f9e8ee4a2",
+        "heading": "DEF files (*.def)",
+        "text": "avxhils0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b67f9fc1246",
+        "heading": "DEF files (*.def)",
+        "text": "avxosis0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9e3d91739a79",
+        "heading": "DEF files (*.def)",
+        "text": "avxtrks0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-69760d0e99b6",
+        "heading": "DEF files (*.def)",
+        "text": "avxtrks0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-be2280b8dcf1",
+        "heading": "DEF files (*.def)",
+        "text": "avxtvrs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff6b22b944ba",
+        "heading": "DEF files (*.def)",
+        "text": "avxtvrs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-256af25eb86c",
+        "heading": "DEF files (*.def)",
+        "text": "avxwtrh0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d522f259b33b",
+        "heading": "DEF files (*.def)",
+        "text": "avzevnt0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-98d705cc5be9",
+        "heading": "DEF files (*.def)",
+        "text": "avzevnt0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d5a14c391c35",
+        "heading": "DEF files (*.def)",
+        "text": "avzgrail.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2492c55acadf",
+        "heading": "DEF files (*.def)",
+        "text": "avzgrail.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a31b72991ffb",
+        "heading": "DEF files (*.def)",
+        "text": "bttnnpc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0f20caeb0525",
+        "heading": "DEF files (*.def)",
+        "text": "catap_ml.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d0c894a110a",
+        "heading": "DEF files (*.def)",
+        "text": "catap_ml.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0ab8eb129e45",
+        "heading": "DEF files (*.def)",
+        "text": "catap_mr.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b4b9a727e13d",
+        "heading": "DEF files (*.def)",
+        "text": "catap_mr.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-313320a73a0e",
+        "heading": "DEF files (*.def)",
+        "text": "cfelem.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-19f650d679ab",
+        "heading": "DEF files (*.def)",
+        "text": "chdrgn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-55b0da601cba",
+        "heading": "DEF files (*.def)",
+        "text": "checkbox.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-230bfe33a454",
+        "heading": "DEF files (*.def)",
+        "text": "cphx.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0fba92106f53",
+        "heading": "DEF files (*.def)",
+        "text": "cprsmall.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e1f54a45b885",
+        "heading": "DEF files (*.def)",
+        "text": "dlg_npc1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bee06fa8eed4",
+        "heading": "DEF files (*.def)",
+        "text": "dlg_npc2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-03166c6bb2ca",
+        "heading": "DEF files (*.def)",
+        "text": "dlg_npc3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a9d26a1a3e5",
+        "heading": "DEF files (*.def)",
+        "text": "dlg_npcdel.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f8cae889c66e",
+        "heading": "DEF files (*.def)",
+        "text": "dlgcrexp.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b4b1e83b82cf",
+        "heading": "DEF files (*.def)",
+        "text": "dlgexpup.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-528318f8f6ed",
+        "heading": "DEF files (*.def)",
+        "text": "flame.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec72a0224836",
+        "heading": "DEF files (*.def)",
+        "text": "flame.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e64babaa8aff",
+        "heading": "DEF files (*.def)",
+        "text": "icm007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5917840a1416",
+        "heading": "DEF files (*.def)",
+        "text": "ILCK22.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2f704d2e195b",
+        "heading": "DEF files (*.def)",
+        "text": "ILCK30.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78c17ce152d6",
+        "heading": "DEF files (*.def)",
+        "text": "ILCK42.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8589185edd89",
+        "heading": "DEF files (*.def)",
+        "text": "ilck82.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ee5d42bcc10",
+        "heading": "DEF files (*.def)",
+        "text": "ilckb.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d400b9366623",
+        "heading": "DEF files (*.def)",
+        "text": "ILCKS.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-3",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs/page-3",
+    "url": "/en/wiki/wog/defs/page-3/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 3/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source lavam.def def hmm35wog.pac · WoG lavam.msk msk hmm35wog.pac · WoG monprt44.def def hmm35wog.pac · WoG obbhs11a.def def hmm35wog.pac · WoG obbhs12b.def def hmm35wog.pac · WoG obdsm01.def def hmm35wog.pac · WoG obgrs01.def def hmm35wog.pac · WoG obsns09.def def hmm35wog.pac · WoG obsws11b.def def hmm35wog.pac · WoG radiobttn.def def hmm35wog.pac · WoG RanNorm.def def hmm35wog.pac · WoG RanStrg.def def hmm35wog.pac · WoG RanWeak.def def hmm35wog.pac · WoG resour82.def def hmm35wog.pac · WoG RESOURCE.def def hmm35wog.pac · WoG scselc.def def hmm35wog.pac · WoG sfzerk.def def hmm35wog.pac · WoG sfzerk.msk msk hmm35wog.pac · WoG skull.def def hmm35wog.pac · WoG skull.msk msk hmm35wog.pac · WoG SMALRES.def def hmm35wog.pac · WoG smcata.def def hmm35wog.pac · WoG smtent.def def hmm35wog.pac · WoG spells.def def hmm35wog.pac · WoG sskilbon.def def hmm35wog.pac · WoG tbcshal4.def def hmm35wog.pac · WoG tbeldw_5.def def hmm35wog.pac · WoG tbelup_5.def def hmm35wog.pac · WoG tbelup_6.def def hmm35wog.pac · WoG tbfrboat.def def hmm35wog.pac · WoG tbfrdw_6.def def hmm35wog.pac · WoG tbfrtvrn.def def hmm35wog.pac · WoG tbncdw_3.def def hmm35wog.pac · WoG tbncup_3.def def hmm35wog.pac · WoG tbsthal4.def def hmm35wog.pac · WoG tbstholy.def def hmm35wog.pac · WoG townhrtd.def def hmm35wog.pac · WoG twcrport.def def hmm35wog.pac · WoG un32.def def hmm35wog.pac · WoG un44.def def hmm35wog.pac · WoG wall1.def def hmm35wog.pac · WoG wall1.msk msk hmm35wog.pac · WoG wall2.def def hmm35wog.pac · WoG wall2.msk msk hmm35wog.pac · WoG wndfolder.def def hmm35wog.pac · WoG wogbttn.def def hmm35wog.pac · WoG wogcurse.def def hmm35wog.pac · WoG z358o1.def def hmm35wog.pac · WoG z358o1.msk msk hmm35wog.pac · WoG z358o10.def def hmm35wog.pac · WoG z358o10.msk msk hmm35wog.pac · WoG z358o11.def def hmm35wog.pac · WoG z358o11.msk msk hmm35wog.pac · WoG z358o12.def def hmm35wog.pac · WoG z358o12.msk msk hmm35wog.pac · WoG z358o13.def def hmm35wog.pac · WoG z358o13.msk msk hmm35wog.pac · WoG z358o14.def def hmm35wog.pac · WoG z358o14.msk msk hmm35wog.pac · WoG z358o15.def def hmm35wog.pac · WoG z358o15.msk msk hmm35wog.pac · WoG z358o16.def def hmm35wog.pac · WoG z358o16.msk msk hmm35wog.pac · WoG z358o2.def def hmm35wog.pac · WoG z358o2.msk msk hmm35wog.pac · WoG z358o3.def def hmm35wog.pac · WoG z358o3.msk msk hmm35wog.pac · WoG z358o4.def def hmm35wog.pac · WoG z358o4.msk msk hmm35wog.pac · WoG z358o5.def def hmm35wog.pac · WoG z358o5.msk msk hmm35wog.pac · WoG z358o6.def def hmm35wog.pac · WoG z358o6.msk msk hmm35wog.pac · WoG z358o7.def def hmm35wog.pac · WoG z358o7.msk msk hmm35wog.pac · WoG z358o8.def def hmm35wog.pac · WoG z358o8.msk msk hmm35wog.pac · WoG z358o9.def def hmm35wog.pac · WoG z358o9.msk msk hmm35wog.pac · WoG zart141.def def hmm35wog.pac · WoG zart141.msk msk hmm35wog.pac · WoG zart142.def def hmm35wog.pac · WoG zart142.msk msk hmm35wog.pac · WoG zart143.def def hmm35wog.pac · WoG zart143.msk msk hmm35wog.pac · WoG zart146.def def hmm35wog.pac · WoG zart146.msk msk hmm35wog.pac · WoG zart147.def def hmm35wog.pac · WoG zart147.msk msk hmm35wog.pac · WoG zart148.def def hmm35wog.pac · WoG zart148.msk msk hmm35wog.pac · WoG zart149.def def hmm35wog.pac · WoG zart149.msk msk hmm35wog.pac · WoG zart150.def def hmm35wog.pac · WoG zart150.msk msk hmm35wog.pac · WoG zart151.def def hmm35wog.pac · WoG zart151.msk msk hmm35wog.pac · WoG zart152.def def hmm35wog.pac · WoG zart152.msk msk hmm35wog.pac · WoG zart153.def def hmm35wog.pac · WoG zart153.msk msk hmm35wog.pac · WoG zart154.def def hmm35wog.pac · WoG zart154.msk msk hmm35wog.pac · WoG zart155.def def hmm35wog.pac · WoG zart155.msk msk hmm35wog.pac · WoG zart156.def def hmm35wog.pac · WoG zart156.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-7037bc3c0752",
+        "heading": "DEF files (*.def)",
+        "text": "lavam.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7b3cb754b040",
+        "heading": "DEF files (*.def)",
+        "text": "lavam.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d8e8676a3c88",
+        "heading": "DEF files (*.def)",
+        "text": "monprt44.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a90337b670b",
+        "heading": "DEF files (*.def)",
+        "text": "obbhs11a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dcfff3e39c67",
+        "heading": "DEF files (*.def)",
+        "text": "obbhs12b.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6c87e138a859",
+        "heading": "DEF files (*.def)",
+        "text": "obdsm01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1e5be222b934",
+        "heading": "DEF files (*.def)",
+        "text": "obgrs01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1acb3a5181bc",
+        "heading": "DEF files (*.def)",
+        "text": "obsns09.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f97b224205ca",
+        "heading": "DEF files (*.def)",
+        "text": "obsws11b.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-10af84385014",
+        "heading": "DEF files (*.def)",
+        "text": "radiobttn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c4b0d410c7f",
+        "heading": "DEF files (*.def)",
+        "text": "RanNorm.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-605041dee492",
+        "heading": "DEF files (*.def)",
+        "text": "RanStrg.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-358abcd5145c",
+        "heading": "DEF files (*.def)",
+        "text": "RanWeak.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-af4d68eb10c7",
+        "heading": "DEF files (*.def)",
+        "text": "resour82.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-73fb02cca24e",
+        "heading": "DEF files (*.def)",
+        "text": "RESOURCE.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8b5290730630",
+        "heading": "DEF files (*.def)",
+        "text": "scselc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3244629e2ebc",
+        "heading": "DEF files (*.def)",
+        "text": "sfzerk.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-353ebfb25230",
+        "heading": "DEF files (*.def)",
+        "text": "sfzerk.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3eaa90b6dacd",
+        "heading": "DEF files (*.def)",
+        "text": "skull.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a008dbcdfb5b",
+        "heading": "DEF files (*.def)",
+        "text": "skull.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a8084cb7be74",
+        "heading": "DEF files (*.def)",
+        "text": "SMALRES.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ecb7e490487d",
+        "heading": "DEF files (*.def)",
+        "text": "smcata.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a13cd9aa9605",
+        "heading": "DEF files (*.def)",
+        "text": "smtent.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-228181dd13bd",
+        "heading": "DEF files (*.def)",
+        "text": "spells.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1d24e648cc89",
+        "heading": "DEF files (*.def)",
+        "text": "sskilbon.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-61edeb86dc92",
+        "heading": "DEF files (*.def)",
+        "text": "tbcshal4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f31fb8f98584",
+        "heading": "DEF files (*.def)",
+        "text": "tbeldw_5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6f1a4efc333",
+        "heading": "DEF files (*.def)",
+        "text": "tbelup_5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8fc5a0a125e5",
+        "heading": "DEF files (*.def)",
+        "text": "tbelup_6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-309a21773d03",
+        "heading": "DEF files (*.def)",
+        "text": "tbfrboat.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-57a6bf5bee6a",
+        "heading": "DEF files (*.def)",
+        "text": "tbfrdw_6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2a5c19917ccf",
+        "heading": "DEF files (*.def)",
+        "text": "tbfrtvrn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-107445e77b53",
+        "heading": "DEF files (*.def)",
+        "text": "tbncdw_3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2895dcd5d597",
+        "heading": "DEF files (*.def)",
+        "text": "tbncup_3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-597f1a90b21a",
+        "heading": "DEF files (*.def)",
+        "text": "tbsthal4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f2958a0c9d23",
+        "heading": "DEF files (*.def)",
+        "text": "tbstholy.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a854643a15d8",
+        "heading": "DEF files (*.def)",
+        "text": "townhrtd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1c6031ea94a9",
+        "heading": "DEF files (*.def)",
+        "text": "twcrport.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a82ebe47c76",
+        "heading": "DEF files (*.def)",
+        "text": "un32.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-17feeff87b9b",
+        "heading": "DEF files (*.def)",
+        "text": "un44.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aa0aa58a0750",
+        "heading": "DEF files (*.def)",
+        "text": "wall1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4e06e1ff5d58",
+        "heading": "DEF files (*.def)",
+        "text": "wall1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ca78b97c34ce",
+        "heading": "DEF files (*.def)",
+        "text": "wall2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c597b522cd94",
+        "heading": "DEF files (*.def)",
+        "text": "wall2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-440f37f1fd42",
+        "heading": "DEF files (*.def)",
+        "text": "wndfolder.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c28ab807ddc2",
+        "heading": "DEF files (*.def)",
+        "text": "wogbttn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-299ab66dda9a",
+        "heading": "DEF files (*.def)",
+        "text": "wogcurse.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a048c5ae16d5",
+        "heading": "DEF files (*.def)",
+        "text": "z358o1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2d342dc1470",
+        "heading": "DEF files (*.def)",
+        "text": "z358o1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-003fbeb00686",
+        "heading": "DEF files (*.def)",
+        "text": "z358o10.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fbcbdaa0177d",
+        "heading": "DEF files (*.def)",
+        "text": "z358o10.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f4379706e852",
+        "heading": "DEF files (*.def)",
+        "text": "z358o11.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ea838c8624c",
+        "heading": "DEF files (*.def)",
+        "text": "z358o11.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d8c08dc9bbcb",
+        "heading": "DEF files (*.def)",
+        "text": "z358o12.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a76a991c8b8",
+        "heading": "DEF files (*.def)",
+        "text": "z358o12.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-883a8c603cb7",
+        "heading": "DEF files (*.def)",
+        "text": "z358o13.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a842ffe02112",
+        "heading": "DEF files (*.def)",
+        "text": "z358o13.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-750a136c72f9",
+        "heading": "DEF files (*.def)",
+        "text": "z358o14.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5eefb127f85",
+        "heading": "DEF files (*.def)",
+        "text": "z358o14.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-55bf908805c2",
+        "heading": "DEF files (*.def)",
+        "text": "z358o15.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12dd80b09ecb",
+        "heading": "DEF files (*.def)",
+        "text": "z358o15.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d099ed254b2",
+        "heading": "DEF files (*.def)",
+        "text": "z358o16.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2ac58b0fcf3f",
+        "heading": "DEF files (*.def)",
+        "text": "z358o16.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3f51e2d4c5d",
+        "heading": "DEF files (*.def)",
+        "text": "z358o2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7e5bf0e3a1c4",
+        "heading": "DEF files (*.def)",
+        "text": "z358o2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7e989db57f87",
+        "heading": "DEF files (*.def)",
+        "text": "z358o3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ef5a88f2d68f",
+        "heading": "DEF files (*.def)",
+        "text": "z358o3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36acaa9a0445",
+        "heading": "DEF files (*.def)",
+        "text": "z358o4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-da6931aba903",
+        "heading": "DEF files (*.def)",
+        "text": "z358o4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aea15d31bf86",
+        "heading": "DEF files (*.def)",
+        "text": "z358o5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7ff844533c27",
+        "heading": "DEF files (*.def)",
+        "text": "z358o5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36132c004e94",
+        "heading": "DEF files (*.def)",
+        "text": "z358o6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c25e5d677ed2",
+        "heading": "DEF files (*.def)",
+        "text": "z358o6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fab414b3814b",
+        "heading": "DEF files (*.def)",
+        "text": "z358o7.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cc22107ad338",
+        "heading": "DEF files (*.def)",
+        "text": "z358o7.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-33bfb79ea077",
+        "heading": "DEF files (*.def)",
+        "text": "z358o8.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0e5128ce141d",
+        "heading": "DEF files (*.def)",
+        "text": "z358o8.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b039eaf7a6a4",
+        "heading": "DEF files (*.def)",
+        "text": "z358o9.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78ca6352ca88",
+        "heading": "DEF files (*.def)",
+        "text": "z358o9.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f264266ebad2",
+        "heading": "DEF files (*.def)",
+        "text": "zart141.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5425588a2e1",
+        "heading": "DEF files (*.def)",
+        "text": "zart141.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cb50a1b303c3",
+        "heading": "DEF files (*.def)",
+        "text": "zart142.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53596b20fbe4",
+        "heading": "DEF files (*.def)",
+        "text": "zart142.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d18371e576ca",
+        "heading": "DEF files (*.def)",
+        "text": "zart143.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52bf108698f6",
+        "heading": "DEF files (*.def)",
+        "text": "zart143.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3589e7e8349f",
+        "heading": "DEF files (*.def)",
+        "text": "zart146.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e33a066fef90",
+        "heading": "DEF files (*.def)",
+        "text": "zart146.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a1c963d0003",
+        "heading": "DEF files (*.def)",
+        "text": "zart147.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6311607e4d32",
+        "heading": "DEF files (*.def)",
+        "text": "zart147.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0106a12f9b88",
+        "heading": "DEF files (*.def)",
+        "text": "zart148.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53e7a20dd9c1",
+        "heading": "DEF files (*.def)",
+        "text": "zart148.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-27b000ceb035",
+        "heading": "DEF files (*.def)",
+        "text": "zart149.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b25d9baa820a",
+        "heading": "DEF files (*.def)",
+        "text": "zart149.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f34663781bbb",
+        "heading": "DEF files (*.def)",
+        "text": "zart150.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b447692b27e1",
+        "heading": "DEF files (*.def)",
+        "text": "zart150.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-432b6d3dd65a",
+        "heading": "DEF files (*.def)",
+        "text": "zart151.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-eac69041ccbf",
+        "heading": "DEF files (*.def)",
+        "text": "zart151.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f1f2c59e8cb7",
+        "heading": "DEF files (*.def)",
+        "text": "zart152.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b21ba1961ac5",
+        "heading": "DEF files (*.def)",
+        "text": "zart152.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ccc2163b32d5",
+        "heading": "DEF files (*.def)",
+        "text": "zart153.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a8ff4a5b103",
+        "heading": "DEF files (*.def)",
+        "text": "zart153.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ce4ebee8431b",
+        "heading": "DEF files (*.def)",
+        "text": "zart154.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-05de5a725eec",
+        "heading": "DEF files (*.def)",
+        "text": "zart154.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c0caf653915f",
+        "heading": "DEF files (*.def)",
+        "text": "zart155.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6034d1ff65a2",
+        "heading": "DEF files (*.def)",
+        "text": "zart155.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-baff75eff8ce",
+        "heading": "DEF files (*.def)",
+        "text": "zart156.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-95f8aa67fa97",
+        "heading": "DEF files (*.def)",
+        "text": "zart156.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-4",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs/page-4",
+    "url": "/en/wiki/wog/defs/page-4/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 4/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source zart157.def def hmm35wog.pac · WoG zart157.msk msk hmm35wog.pac · WoG zart158.def def hmm35wog.pac · WoG zart158.msk msk hmm35wog.pac · WoG zart159.def def hmm35wog.pac · WoG zart159.msk msk hmm35wog.pac · WoG zart160.def def hmm35wog.pac · WoG zart160.msk msk hmm35wog.pac · WoG zart161.def def hmm35wog.pac · WoG zart161.msk msk hmm35wog.pac · WoG zart162.def def hmm35wog.pac · WoG zart162.msk msk hmm35wog.pac · WoG zart163.def def hmm35wog.pac · WoG zart163.msk msk hmm35wog.pac · WoG zart164.def def hmm35wog.pac · WoG zart164.msk msk hmm35wog.pac · WoG zart165.def def hmm35wog.pac · WoG zart165.msk msk hmm35wog.pac · WoG zart166.def def hmm35wog.pac · WoG zart166.msk msk hmm35wog.pac · WoG zart167.def def hmm35wog.pac · WoG zart167.msk msk hmm35wog.pac · WoG zart168.def def hmm35wog.pac · WoG zart168.msk msk hmm35wog.pac · WoG zart169.def def hmm35wog.pac · WoG zart169.msk msk hmm35wog.pac · WoG zart170.def def hmm35wog.pac · WoG zart170.msk msk hmm35wog.pac · WoG zartif1.def def hmm35wog.pac · WoG zartif1.msk msk hmm35wog.pac · WoG zavg150z.def def hmm35wog.pac · WoG zavg150z.msk msk hmm35wog.pac · WoG zavg151z.def def hmm35wog.pac · WoG zavg151z.msk msk hmm35wog.pac · WoG zavg152z.def def hmm35wog.pac · WoG zavg152z.msk msk hmm35wog.pac · WoG zavg153z.def def hmm35wog.pac · WoG zavg153z.msk msk hmm35wog.pac · WoG zavg154z.def def hmm35wog.pac · WoG zavg154z.msk msk hmm35wog.pac · WoG zavg155z.def def hmm35wog.pac · WoG zavg155z.msk msk hmm35wog.pac · WoG zavg156z.def def hmm35wog.pac · WoG zavg156z.msk msk hmm35wog.pac · WoG zavg157z.def def hmm35wog.pac · WoG zavg157z.msk msk hmm35wog.pac · WoG zavg158z.def def hmm35wog.pac · WoG zavg158z.msk msk hmm35wog.pac · WoG zavg169.def def hmm35wog.pac · WoG zavg169.msk msk hmm35wog.pac · WoG zavg170z.def def hmm35wog.pac · WoG zavg170z.msk msk hmm35wog.pac · WoG zavg171z.def def hmm35wog.pac · WoG zavg171z.msk msk hmm35wog.pac · WoG zavg172a.def def hmm35wog.pac · WoG zavg172a.msk msk hmm35wog.pac · WoG zavg172b.def def hmm35wog.pac · WoG zavg172b.msk msk hmm35wog.pac · WoG zavg173.def def hmm35wog.pac · WoG zavg173.msk msk hmm35wog.pac · WoG zavg173a.def def hmm35wog.pac · WoG zavg173a.msk msk hmm35wog.pac · WoG zavg174a.def def hmm35wog.pac · WoG zavg174a.msk msk hmm35wog.pac · WoG zavg192.def def hmm35wog.pac · WoG zavg192.msk msk hmm35wog.pac · WoG zavg193.def def hmm35wog.pac · WoG zavg193.msk msk hmm35wog.pac · WoG zavg194.def def hmm35wog.pac · WoG zavg194.msk msk hmm35wog.pac · WoG zavg195.def def hmm35wog.pac · WoG zavg195.msk msk hmm35wog.pac · WoG zavg196.def def hmm35wog.pac · WoG zavg196.msk msk hmm35wog.pac · WoG zcave1.def def hmm35wog.pac · WoG zcave1.msk msk hmm35wog.pac · WoG zcave2.def def hmm35wog.pac · WoG zcave2.msk msk hmm35wog.pac · WoG zcave3.def def hmm35wog.pac · WoG zcave3.msk msk hmm35wog.pac · WoG zcave4.def def hmm35wog.pac · WoG zcave4.msk msk hmm35wog.pac · WoG zcave5.def def hmm35wog.pac · WoG zcave5.msk msk hmm35wog.pac · WoG zcbon000.def def hmm35wog.pac · WoG zcbon000.msk msk hmm35wog.pac · WoG zcbon001.def def hmm35wog.pac · WoG zcbon001.msk msk hmm35wog.pac · WoG zcbon002.def def hmm35wog.pac · WoG zcbon002.msk msk hmm35wog.pac · WoG zcbon003.def def hmm35wog.pac · WoG zcbon003.msk msk hmm35wog.pac · WoG zchst1.def def hmm35wog.pac · WoG zchst1.msk msk hmm35wog.pac · WoG zchst2.def def hmm35wog.pac · WoG zchst2.msk msk hmm35wog.pac · WoG zchst3.def def hmm35wog.pac · WoG zchst3.msk msk hmm35wog.pac · WoG zchst4.def def hmm35wog.pac · WoG zchst4.msk msk hmm35wog.pac · WoG zchst5.def def hmm35wog.pac · WoG zchst5.msk msk hmm35wog.pac · WoG zchst6.def def hmm35wog.pac · WoG zchst6.msk msk hmm35wog.pac · WoG zcrbank1.def def hmm35wog.pac · WoG zcrbank1.msk msk hmm35wog.pac · WoG zcrbank2.def def hmm35wog.pac · WoG zcrbank2.msk msk hmm35wog.pac · WoG zcrbank3.def def hmm35wog.pac · WoG zcrbank3.msk msk hmm35wog.pac · WoG zcrbgod1.def def hmm35wog.pac · WoG zcrbgod1.msk msk hmm35wog.pac · WoG zcrbgod2.def def hmm35wog.pac · WoG zcrbgod2.msk msk hmm35wog.pac · WoG zcrbgod3.def def hmm35wog.pac · WoG zcrbgod3.msk msk hmm35wog.pac · WoG zcrbgod4.def def hmm35wog.pac · WoG zcrbgod4.msk msk hmm35wog.pac · WoG zcrbjn19.def def hmm35wog.pac · WoG zcrbjn19.msk msk hmm35wog.pac · WoG zcrbvm17.def def hmm35wog.pac · WoG zcrbvm17.msk msk hmm35wog.pac · WoG zcrbvm18.def def hmm35wog.pac · WoG zcrbvm18.msk msk hmm35wog.pac · WoG zdec0001.def def hmm35wog.pac · WoG zdec0001.msk msk hmm35wog.pac · WoG zdec0002.def def hmm35wog.pac · WoG zdec0002.msk msk hmm35wog.pac · WoG zdec0003.def def hmm35wog.pac · WoG zdec0003.msk msk hmm35wog.pac · WoG zdec0004.def def hmm35wog.pac · WoG zdec0004.msk msk hmm35wog.pac · WoG zdec0005.def def hmm35wog.pac · WoG zdec0005.msk msk hmm35wog.pac · WoG zdec0007.def def hmm35wog.pac · WoG zdec0007.msk msk hmm35wog.pac · WoG zdec0008.def def hmm35wog.pac · WoG zdec0008.msk msk hmm35wog.pac · WoG zdec0009.def def hmm35wog.pac · WoG zdec0009.msk msk hmm35wog.pac · WoG zdec0010.def def hmm35wog.pac · WoG zdec0010.msk msk hmm35wog.pac · WoG zdec0011.def def hmm35wog.pac · WoG zdec0011.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-d10dede450e6",
+        "heading": "DEF files (*.def)",
+        "text": "zart157.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5e99746863c1",
+        "heading": "DEF files (*.def)",
+        "text": "zart157.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53e73833e94c",
+        "heading": "DEF files (*.def)",
+        "text": "zart158.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fa624ce03b20",
+        "heading": "DEF files (*.def)",
+        "text": "zart158.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4dabecff8be7",
+        "heading": "DEF files (*.def)",
+        "text": "zart159.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-01f8edf4f38a",
+        "heading": "DEF files (*.def)",
+        "text": "zart159.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-57ca5190b093",
+        "heading": "DEF files (*.def)",
+        "text": "zart160.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-808a0218cec9",
+        "heading": "DEF files (*.def)",
+        "text": "zart160.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d879f73d6b8",
+        "heading": "DEF files (*.def)",
+        "text": "zart161.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e36da251fa34",
+        "heading": "DEF files (*.def)",
+        "text": "zart161.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3ab68fa3766c",
+        "heading": "DEF files (*.def)",
+        "text": "zart162.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a001864f29c",
+        "heading": "DEF files (*.def)",
+        "text": "zart162.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-90e8318e0627",
+        "heading": "DEF files (*.def)",
+        "text": "zart163.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8168df216833",
+        "heading": "DEF files (*.def)",
+        "text": "zart163.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7bbc29bbc057",
+        "heading": "DEF files (*.def)",
+        "text": "zart164.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c5fb4f9aab9a",
+        "heading": "DEF files (*.def)",
+        "text": "zart164.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c29f02ced365",
+        "heading": "DEF files (*.def)",
+        "text": "zart165.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1a03a29e06f",
+        "heading": "DEF files (*.def)",
+        "text": "zart165.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-312171337240",
+        "heading": "DEF files (*.def)",
+        "text": "zart166.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f66ad53c4598",
+        "heading": "DEF files (*.def)",
+        "text": "zart166.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1d01ea62ae53",
+        "heading": "DEF files (*.def)",
+        "text": "zart167.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d5972136622",
+        "heading": "DEF files (*.def)",
+        "text": "zart167.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a27380dfa5b2",
+        "heading": "DEF files (*.def)",
+        "text": "zart168.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-84cc2b32eb9b",
+        "heading": "DEF files (*.def)",
+        "text": "zart168.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8eba4c3e3ab0",
+        "heading": "DEF files (*.def)",
+        "text": "zart169.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0c268ddff4b0",
+        "heading": "DEF files (*.def)",
+        "text": "zart169.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b27b2e9f3ae5",
+        "heading": "DEF files (*.def)",
+        "text": "zart170.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e506a7771c67",
+        "heading": "DEF files (*.def)",
+        "text": "zart170.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ee777760a5d0",
+        "heading": "DEF files (*.def)",
+        "text": "zartif1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-380b5fb8689c",
+        "heading": "DEF files (*.def)",
+        "text": "zartif1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a4b99307661b",
+        "heading": "DEF files (*.def)",
+        "text": "zavg150z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4cb9fc1fb63c",
+        "heading": "DEF files (*.def)",
+        "text": "zavg150z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c54266319b77",
+        "heading": "DEF files (*.def)",
+        "text": "zavg151z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-61eaefdfe6f4",
+        "heading": "DEF files (*.def)",
+        "text": "zavg151z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a78b9e34740f",
+        "heading": "DEF files (*.def)",
+        "text": "zavg152z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-eeed303e221d",
+        "heading": "DEF files (*.def)",
+        "text": "zavg152z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a179dcd436d5",
+        "heading": "DEF files (*.def)",
+        "text": "zavg153z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-14302f883357",
+        "heading": "DEF files (*.def)",
+        "text": "zavg153z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-72feba2d2431",
+        "heading": "DEF files (*.def)",
+        "text": "zavg154z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-701dbf12f774",
+        "heading": "DEF files (*.def)",
+        "text": "zavg154z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d0dc74f7cf51",
+        "heading": "DEF files (*.def)",
+        "text": "zavg155z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-317775088024",
+        "heading": "DEF files (*.def)",
+        "text": "zavg155z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff20cc67ebf6",
+        "heading": "DEF files (*.def)",
+        "text": "zavg156z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36c75cf2d5b2",
+        "heading": "DEF files (*.def)",
+        "text": "zavg156z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ffde11ce7b64",
+        "heading": "DEF files (*.def)",
+        "text": "zavg157z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-29e598ce381e",
+        "heading": "DEF files (*.def)",
+        "text": "zavg157z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b0955fca37b6",
+        "heading": "DEF files (*.def)",
+        "text": "zavg158z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7460469909c2",
+        "heading": "DEF files (*.def)",
+        "text": "zavg158z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0ab5d4c730bd",
+        "heading": "DEF files (*.def)",
+        "text": "zavg169.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a230ff1c3369",
+        "heading": "DEF files (*.def)",
+        "text": "zavg169.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36d4d6070a4d",
+        "heading": "DEF files (*.def)",
+        "text": "zavg170z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ede30807a34c",
+        "heading": "DEF files (*.def)",
+        "text": "zavg170z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-97599b927bed",
+        "heading": "DEF files (*.def)",
+        "text": "zavg171z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-022f6654ecc5",
+        "heading": "DEF files (*.def)",
+        "text": "zavg171z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b9e7e3c24550",
+        "heading": "DEF files (*.def)",
+        "text": "zavg172a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3269b623a9a5",
+        "heading": "DEF files (*.def)",
+        "text": "zavg172a.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b856501c363",
+        "heading": "DEF files (*.def)",
+        "text": "zavg172b.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6e130926dcdb",
+        "heading": "DEF files (*.def)",
+        "text": "zavg172b.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8a2b190dd37b",
+        "heading": "DEF files (*.def)",
+        "text": "zavg173.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c1a3946a26a",
+        "heading": "DEF files (*.def)",
+        "text": "zavg173.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-06a188c7d5bb",
+        "heading": "DEF files (*.def)",
+        "text": "zavg173a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c9f7c156cb55",
+        "heading": "DEF files (*.def)",
+        "text": "zavg173a.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5c084c7f61d",
+        "heading": "DEF files (*.def)",
+        "text": "zavg174a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78fd74df1435",
+        "heading": "DEF files (*.def)",
+        "text": "zavg174a.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8583eed14142",
+        "heading": "DEF files (*.def)",
+        "text": "zavg192.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c27f13bf98e4",
+        "heading": "DEF files (*.def)",
+        "text": "zavg192.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23f3f616a8d0",
+        "heading": "DEF files (*.def)",
+        "text": "zavg193.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3aeff2d62c48",
+        "heading": "DEF files (*.def)",
+        "text": "zavg193.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-48bdcf426198",
+        "heading": "DEF files (*.def)",
+        "text": "zavg194.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-91cb1d289fe5",
+        "heading": "DEF files (*.def)",
+        "text": "zavg194.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-440bd10236ed",
+        "heading": "DEF files (*.def)",
+        "text": "zavg195.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3929e39ccfb9",
+        "heading": "DEF files (*.def)",
+        "text": "zavg195.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1eb698e7f639",
+        "heading": "DEF files (*.def)",
+        "text": "zavg196.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d297fb47dc4",
+        "heading": "DEF files (*.def)",
+        "text": "zavg196.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36e16de928af",
+        "heading": "DEF files (*.def)",
+        "text": "zcave1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-94ffe7fa7362",
+        "heading": "DEF files (*.def)",
+        "text": "zcave1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b4a98eb27f9f",
+        "heading": "DEF files (*.def)",
+        "text": "zcave2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-db21cdd96cfc",
+        "heading": "DEF files (*.def)",
+        "text": "zcave2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-837c2be57fa3",
+        "heading": "DEF files (*.def)",
+        "text": "zcave3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3cf11fc5cb58",
+        "heading": "DEF files (*.def)",
+        "text": "zcave3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-807aa3fcfbe5",
+        "heading": "DEF files (*.def)",
+        "text": "zcave4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ee9126c6c7f5",
+        "heading": "DEF files (*.def)",
+        "text": "zcave4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1e97283cc23",
+        "heading": "DEF files (*.def)",
+        "text": "zcave5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6c9e8166e3d7",
+        "heading": "DEF files (*.def)",
+        "text": "zcave5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cad3325bc069",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon000.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b15f0806ad37",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon000.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d608f325965b",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-08d90fed6c1a",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b8e16743ae1a",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ea3042effc81",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f47f01e96d7d",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f1e492675b6",
+        "heading": "DEF files (*.def)",
+        "text": "zcbon003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c0d7ed54dec5",
+        "heading": "DEF files (*.def)",
+        "text": "zchst1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d7859b71304",
+        "heading": "DEF files (*.def)",
+        "text": "zchst1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2eb17ca14dee",
+        "heading": "DEF files (*.def)",
+        "text": "zchst2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-599fb8cad217",
+        "heading": "DEF files (*.def)",
+        "text": "zchst2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-44992d2e9887",
+        "heading": "DEF files (*.def)",
+        "text": "zchst3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f6f57a2d24a1",
+        "heading": "DEF files (*.def)",
+        "text": "zchst3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5d13194f73b0",
+        "heading": "DEF files (*.def)",
+        "text": "zchst4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1ae2113e0b05",
+        "heading": "DEF files (*.def)",
+        "text": "zchst4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aeb4927c9560",
+        "heading": "DEF files (*.def)",
+        "text": "zchst5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-adfa37d327a2",
+        "heading": "DEF files (*.def)",
+        "text": "zchst5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a6e9f3c11e14",
+        "heading": "DEF files (*.def)",
+        "text": "zchst6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f0a1ea9862e4",
+        "heading": "DEF files (*.def)",
+        "text": "zchst6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1b427cd3df60",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbank1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cd52cddb87d2",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbank1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-58cba1f73be8",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbank2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-794de2992876",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbank2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c963732faa55",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbank3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-62590ecb3f26",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbank3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f932f01698e2",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-837cdaab57b0",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5751183f8016",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d134602f31a5",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dfce9ca582f8",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-104e82751dbb",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4917d133720e",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-393d26ec94d6",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbgod4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d11652bfda8",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbjn19.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5aa3b042aa3f",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbjn19.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d2739580343",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbvm17.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-40c6c55a2d9e",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbvm17.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2a7f859eb3b1",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbvm18.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-434e1e2dd98c",
+        "heading": "DEF files (*.def)",
+        "text": "zcrbvm18.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-723d0866ea22",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-063a1ae3c2ba",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b972f457289",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-07328eb52e8b",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d7b454d4fa3",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6626a43188d",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-92281c3c2cd8",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0004.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-74f4bf5c1a58",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0004.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-18b460be6f7d",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0005.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9a7ee9588eae",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0005.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6185875838b",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0320ee206339",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0007.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12b2b26e198e",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0008.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54e5b1b21a43",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0008.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e2838e1f6883",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0009.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8f0422e28098",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0009.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d0b0b680e94",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0010.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c270a1e60def",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0010.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1955f4a56be3",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0011.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d7f4a3c061e",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0011.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-5",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs/page-5",
+    "url": "/en/wiki/wog/defs/page-5/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 5/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source zdec0012.def def hmm35wog.pac · WoG zdec0012.msk msk hmm35wog.pac · WoG zdec0013.def def hmm35wog.pac · WoG zdec0013.msk msk hmm35wog.pac · WoG zdec0014.def def hmm35wog.pac · WoG zdec0014.msk msk hmm35wog.pac · WoG zdec0015.def def hmm35wog.pac · WoG zdec0015.msk msk hmm35wog.pac · WoG zdent001.def def hmm35wog.pac · WoG zdent001.msk msk hmm35wog.pac · WoG zflame1.def def hmm35wog.pac · WoG zflame1.msk msk hmm35wog.pac · WoG zfntng01.def def hmm35wog.pac · WoG zfntng01.msk msk hmm35wog.pac · WoG zfohill0.def def hmm35wog.pac · WoG zfohill0.msk msk hmm35wog.pac · WoG zgarn001.def def hmm35wog.pac · WoG zgarn001.msk msk hmm35wog.pac · WoG zgarn002.def def hmm35wog.pac · WoG zgarn002.msk msk hmm35wog.pac · WoG zgarn003.def def hmm35wog.pac · WoG zgarn003.msk msk hmm35wog.pac · WoG zgodbon.def def hmm35wog.pac · WoG zh4obj01.def def hmm35wog.pac · WoG zh4obj01.msk msk hmm35wog.pac · WoG zh4obj02.def def hmm35wog.pac · WoG zh4obj02.msk msk hmm35wog.pac · WoG zlagport.def def hmm35wog.pac · WoG zlava001.def def hmm35wog.pac · WoG zlava001.msk msk hmm35wog.pac · WoG zlwork1.def def hmm35wog.pac · WoG zlwork1.msk msk hmm35wog.pac · WoG zm150z.def def hmm35wog.pac · WoG zm151z.def def hmm35wog.pac · WoG zm152z.def def hmm35wog.pac · WoG zm153z.def def hmm35wog.pac · WoG zm154z.def def hmm35wog.pac · WoG zm155z.def def hmm35wog.pac · WoG zm156z.def def hmm35wog.pac · WoG zm157z.def def hmm35wog.pac · WoG zm158z.def def hmm35wog.pac · WoG zm159g.def def hmm35wog.pac · WoG zm160g.def def hmm35wog.pac · WoG zm161g.def def hmm35wog.pac · WoG zm162g.def def hmm35wog.pac · WoG zm163g.def def hmm35wog.pac · WoG zm164gd.def def hmm35wog.pac · WoG zm165gd.def def hmm35wog.pac · WoG zm166gd.def def hmm35wog.pac · WoG zm167gd.def def hmm35wog.pac · WoG zm168dg.def def hmm35wog.pac · WoG zm169zl.def def hmm35wog.pac · WoG zm170sw.def def hmm35wog.pac · WoG zm171sr.def def hmm35wog.pac · WoG zm172n.def def hmm35wog.pac · WoG zm173m.def def hmm35wog.pac · WoG zm174npc.def def hmm35wog.pac · WoG zm175npc.def def hmm35wog.pac · WoG zm176npc.def def hmm35wog.pac · WoG zm177npc.def def hmm35wog.pac · WoG zm178npc.def def hmm35wog.pac · WoG zm179npc.def def hmm35wog.pac · WoG zm180npc.def def hmm35wog.pac · WoG zm181npc.def def hmm35wog.pac · WoG zm182npc.def def hmm35wog.pac · WoG zm192z.def def hmm35wog.pac · WoG zm193z.def def hmm35wog.pac · WoG zm194z.def def hmm35wog.pac · WoG zm195z.def def hmm35wog.pac · WoG zm196z.def def hmm35wog.pac · WoG zmagic1.def def hmm35wog.pac · WoG zmark1.def def hmm35wog.pac · WoG zmark1.msk msk hmm35wog.pac · WoG zmermd01.def def hmm35wog.pac · WoG zmermd01.msk msk hmm35wog.pac · WoG zmermd02.def def hmm35wog.pac · WoG zmermd02.msk msk hmm35wog.pac · WoG zmgc01.def def hmm35wog.pac · WoG zmgc02.def def hmm35wog.pac · WoG zmgc03.def def hmm35wog.pac · WoG ZMITHR.def def hmm35wog.pac · WoG zmithr.msk msk hmm35wog.pac · WoG zmm150z.def def hmm35wog.pac · WoG zmm150z.msk msk hmm35wog.pac · WoG zmm151z.def def hmm35wog.pac · WoG zmm151z.msk msk hmm35wog.pac · WoG zmm152z.def def hmm35wog.pac · WoG zmm152z.msk msk hmm35wog.pac · WoG zmm153z.def def hmm35wog.pac · WoG zmm153z.msk msk hmm35wog.pac · WoG zmm154z.def def hmm35wog.pac · WoG zmm154z.msk msk hmm35wog.pac · WoG zmm155z.def def hmm35wog.pac · WoG zmm155z.msk msk hmm35wog.pac · WoG zmm156z.def def hmm35wog.pac · WoG zmm156z.msk msk hmm35wog.pac · WoG zmm157z.def def hmm35wog.pac · WoG zmm157z.msk msk hmm35wog.pac · WoG zmm158z.def def hmm35wog.pac · WoG zmm158z.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-99643f45dffa",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0012.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fbd64366bc2d",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0012.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6800c4e5fc29",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0013.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5603c031d822",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0013.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-75ca87c9728e",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0014.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f6775f395ba0",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0014.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a7ec8a8f9f2f",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0015.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e901bdd15f27",
+        "heading": "DEF files (*.def)",
+        "text": "zdec0015.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-45988057d3dc",
+        "heading": "DEF files (*.def)",
+        "text": "zdent001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0c4b0386aeb1",
+        "heading": "DEF files (*.def)",
+        "text": "zdent001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4ccaf8d0930b",
+        "heading": "DEF files (*.def)",
+        "text": "zflame1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e4f860d19110",
+        "heading": "DEF files (*.def)",
+        "text": "zflame1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5125efc24bc",
+        "heading": "DEF files (*.def)",
+        "text": "zfntng01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-edd4711ff273",
+        "heading": "DEF files (*.def)",
+        "text": "zfntng01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9dc65673fdf1",
+        "heading": "DEF files (*.def)",
+        "text": "zfohill0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cc0793c960f3",
+        "heading": "DEF files (*.def)",
+        "text": "zfohill0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-995b432a1b1b",
+        "heading": "DEF files (*.def)",
+        "text": "zgarn001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8308b72fea4c",
+        "heading": "DEF files (*.def)",
+        "text": "zgarn001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e56188a055a9",
+        "heading": "DEF files (*.def)",
+        "text": "zgarn002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-22f3469896f6",
+        "heading": "DEF files (*.def)",
+        "text": "zgarn002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-96ebce63228d",
+        "heading": "DEF files (*.def)",
+        "text": "zgarn003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1c98f28d2220",
+        "heading": "DEF files (*.def)",
+        "text": "zgarn003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aafc714c461b",
+        "heading": "DEF files (*.def)",
+        "text": "zgodbon.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2cc3d4b9499",
+        "heading": "DEF files (*.def)",
+        "text": "zh4obj01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-51714f047e6d",
+        "heading": "DEF files (*.def)",
+        "text": "zh4obj01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4468ffcfa5aa",
+        "heading": "DEF files (*.def)",
+        "text": "zh4obj02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-99a03fed7458",
+        "heading": "DEF files (*.def)",
+        "text": "zh4obj02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c874939f065c",
+        "heading": "DEF files (*.def)",
+        "text": "zlagport.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-df4f1a34862e",
+        "heading": "DEF files (*.def)",
+        "text": "zlava001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2921c5dee47",
+        "heading": "DEF files (*.def)",
+        "text": "zlava001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3162e65bd32a",
+        "heading": "DEF files (*.def)",
+        "text": "zlwork1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2081f048042",
+        "heading": "DEF files (*.def)",
+        "text": "zlwork1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6549c15be2da",
+        "heading": "DEF files (*.def)",
+        "text": "zm150z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8d56510fc2c6",
+        "heading": "DEF files (*.def)",
+        "text": "zm151z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5638f4ced6e",
+        "heading": "DEF files (*.def)",
+        "text": "zm152z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1334b68f4088",
+        "heading": "DEF files (*.def)",
+        "text": "zm153z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ddb9f2b9b807",
+        "heading": "DEF files (*.def)",
+        "text": "zm154z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec65ee616d51",
+        "heading": "DEF files (*.def)",
+        "text": "zm155z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52395ad4f2e9",
+        "heading": "DEF files (*.def)",
+        "text": "zm156z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9c6085eef57",
+        "heading": "DEF files (*.def)",
+        "text": "zm157z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-17a41974b231",
+        "heading": "DEF files (*.def)",
+        "text": "zm158z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-87508bed97df",
+        "heading": "DEF files (*.def)",
+        "text": "zm159g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-16530bb2dfcc",
+        "heading": "DEF files (*.def)",
+        "text": "zm160g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7b10f4ace3ed",
+        "heading": "DEF files (*.def)",
+        "text": "zm161g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-85d3b092d917",
+        "heading": "DEF files (*.def)",
+        "text": "zm162g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-304237686437",
+        "heading": "DEF files (*.def)",
+        "text": "zm163g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a8b4d9fe051f",
+        "heading": "DEF files (*.def)",
+        "text": "zm164gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f01edeb4d83",
+        "heading": "DEF files (*.def)",
+        "text": "zm165gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4afb1fdbd7a4",
+        "heading": "DEF files (*.def)",
+        "text": "zm166gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e1d92312a418",
+        "heading": "DEF files (*.def)",
+        "text": "zm167gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f714a243d7af",
+        "heading": "DEF files (*.def)",
+        "text": "zm168dg.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1b4fe59d6f5b",
+        "heading": "DEF files (*.def)",
+        "text": "zm169zl.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42fce11348bf",
+        "heading": "DEF files (*.def)",
+        "text": "zm170sw.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d7e1c519be89",
+        "heading": "DEF files (*.def)",
+        "text": "zm171sr.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4a410c33c0d6",
+        "heading": "DEF files (*.def)",
+        "text": "zm172n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-eef2c35c0ed0",
+        "heading": "DEF files (*.def)",
+        "text": "zm173m.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ab477ab7b5f8",
+        "heading": "DEF files (*.def)",
+        "text": "zm174npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2c12c09f291b",
+        "heading": "DEF files (*.def)",
+        "text": "zm175npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b48a0339a0fb",
+        "heading": "DEF files (*.def)",
+        "text": "zm176npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-776bbabc7885",
+        "heading": "DEF files (*.def)",
+        "text": "zm177npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8ef805370ff4",
+        "heading": "DEF files (*.def)",
+        "text": "zm178npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9dc0e114e52e",
+        "heading": "DEF files (*.def)",
+        "text": "zm179npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b9b7579fcc7",
+        "heading": "DEF files (*.def)",
+        "text": "zm180npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a666c6a4c519",
+        "heading": "DEF files (*.def)",
+        "text": "zm181npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2ecdb6a60c73",
+        "heading": "DEF files (*.def)",
+        "text": "zm182npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d92c85c9c8fc",
+        "heading": "DEF files (*.def)",
+        "text": "zm192z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42a0973832b7",
+        "heading": "DEF files (*.def)",
+        "text": "zm193z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-185e0e57cfe8",
+        "heading": "DEF files (*.def)",
+        "text": "zm194z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-177a34be2bb9",
+        "heading": "DEF files (*.def)",
+        "text": "zm195z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0550d66c9656",
+        "heading": "DEF files (*.def)",
+        "text": "zm196z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6f242fac3c51",
+        "heading": "DEF files (*.def)",
+        "text": "zmagic1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f86540442665",
+        "heading": "DEF files (*.def)",
+        "text": "zmark1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aba00241384d",
+        "heading": "DEF files (*.def)",
+        "text": "zmark1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bf6e6a3afb1e",
+        "heading": "DEF files (*.def)",
+        "text": "zmermd01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff79aac4dbf1",
+        "heading": "DEF files (*.def)",
+        "text": "zmermd01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7402f52fb190",
+        "heading": "DEF files (*.def)",
+        "text": "zmermd02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d197a19b531e",
+        "heading": "DEF files (*.def)",
+        "text": "zmermd02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a21c1ccda1e2",
+        "heading": "DEF files (*.def)",
+        "text": "zmgc01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6bef128beb2d",
+        "heading": "DEF files (*.def)",
+        "text": "zmgc02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-69e0b8890956",
+        "heading": "DEF files (*.def)",
+        "text": "zmgc03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e297a8b70bf2",
+        "heading": "DEF files (*.def)",
+        "text": "ZMITHR.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8e1fa002cbd9",
+        "heading": "DEF files (*.def)",
+        "text": "zmithr.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a58986cf474",
+        "heading": "DEF files (*.def)",
+        "text": "zmm150z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2903de65982a",
+        "heading": "DEF files (*.def)",
+        "text": "zmm150z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b7c642ec555",
+        "heading": "DEF files (*.def)",
+        "text": "zmm151z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ef3bb2374a0",
+        "heading": "DEF files (*.def)",
+        "text": "zmm151z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54cc65650301",
+        "heading": "DEF files (*.def)",
+        "text": "zmm152z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-408f8e682198",
+        "heading": "DEF files (*.def)",
+        "text": "zmm152z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0e7e8614d162",
+        "heading": "DEF files (*.def)",
+        "text": "zmm153z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-033466d9b9bf",
+        "heading": "DEF files (*.def)",
+        "text": "zmm153z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4f10dc661d4b",
+        "heading": "DEF files (*.def)",
+        "text": "zmm154z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-374645a07cd4",
+        "heading": "DEF files (*.def)",
+        "text": "zmm154z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8d1064f94d60",
+        "heading": "DEF files (*.def)",
+        "text": "zmm155z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-af1b223e8404",
+        "heading": "DEF files (*.def)",
+        "text": "zmm155z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7de421442315",
+        "heading": "DEF files (*.def)",
+        "text": "zmm156z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-30118755ff83",
+        "heading": "DEF files (*.def)",
+        "text": "zmm156z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8cc61fb864cb",
+        "heading": "DEF files (*.def)",
+        "text": "zmm157z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-68dbeaaaac65",
+        "heading": "DEF files (*.def)",
+        "text": "zmm157z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1ee510c44c9",
+        "heading": "DEF files (*.def)",
+        "text": "zmm158z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1c56531eb16e",
+        "heading": "DEF files (*.def)",
+        "text": "zmm158z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-6",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs/page-6",
+    "url": "/en/wiki/wog/defs/page-6/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 6/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source zmm159g.def def hmm35wog.pac · WoG zmm159g.msk msk hmm35wog.pac · WoG zmm160g.def def hmm35wog.pac · WoG zmm160g.msk msk hmm35wog.pac · WoG zmm161g.def def hmm35wog.pac · WoG zmm161g.msk msk hmm35wog.pac · WoG zmm162g.def def hmm35wog.pac · WoG zmm162g.msk msk hmm35wog.pac · WoG zmm163g.def def hmm35wog.pac · WoG zmm163g.msk msk hmm35wog.pac · WoG zmm164d.def def hmm35wog.pac · WoG zmm164d.msk msk hmm35wog.pac · WoG zmm165d.def def hmm35wog.pac · WoG zmm165d.msk msk hmm35wog.pac · WoG zmm166d.def def hmm35wog.pac · WoG zmm166d.msk msk hmm35wog.pac · WoG zmm167d.def def hmm35wog.pac · WoG zmm167d.msk msk hmm35wog.pac · WoG zmm168g.def def hmm35wog.pac · WoG zmm168g.msk msk hmm35wog.pac · WoG zmm169z.def def hmm35wog.pac · WoG zmm169z.msk msk hmm35wog.pac · WoG zmm170s.def def hmm35wog.pac · WoG zmm170s.msk msk hmm35wog.pac · WoG zmm171s.def def hmm35wog.pac · WoG zmm171s.msk msk hmm35wog.pac · WoG zmm172n.def def hmm35wog.pac · WoG zmm172n.msk msk hmm35wog.pac · WoG zmm173m.def def hmm35wog.pac · WoG zmm173m.msk msk hmm35wog.pac · WoG zmm174n.def def hmm35wog.pac · WoG zmm174n.msk msk hmm35wog.pac · WoG zmm175n.def def hmm35wog.pac · WoG zmm175n.msk msk hmm35wog.pac · WoG zmm176n.def def hmm35wog.pac · WoG zmm176n.msk msk hmm35wog.pac · WoG zmm177n.def def hmm35wog.pac · WoG zmm177n.msk msk hmm35wog.pac · WoG zmm178n.def def hmm35wog.pac · WoG zmm178n.msk msk hmm35wog.pac · WoG zmm179n.def def hmm35wog.pac · WoG zmm179n.msk msk hmm35wog.pac · WoG zmm180n.def def hmm35wog.pac · WoG zmm180n.msk msk hmm35wog.pac · WoG zmm181n.def def hmm35wog.pac · WoG zmm181n.msk msk hmm35wog.pac · WoG zmm182n.def def hmm35wog.pac · WoG zmm182n.msk msk hmm35wog.pac · WoG zmm192z.def def hmm35wog.pac · WoG zmm192z.msk msk hmm35wog.pac · WoG zmm193z.def def hmm35wog.pac · WoG zmm193z.msk msk hmm35wog.pac · WoG zmm194z.def def hmm35wog.pac · WoG zmm194z.msk msk hmm35wog.pac · WoG zmm195z.def def hmm35wog.pac · WoG zmm195z.msk msk hmm35wog.pac · WoG zmm196z.def def hmm35wog.pac · WoG zmm196z.msk msk hmm35wog.pac · WoG zobj001.def def hmm35wog.pac · WoG zobj001.msk msk hmm35wog.pac · WoG zobj002.def def hmm35wog.pac · WoG zobj002.msk msk hmm35wog.pac · WoG zobj003.def def hmm35wog.pac · WoG zobj003.msk msk hmm35wog.pac · WoG zobj004.def def hmm35wog.pac · WoG zobj004.msk msk hmm35wog.pac · WoG zobj005.def def hmm35wog.pac · WoG zobj005.msk msk hmm35wog.pac · WoG zobj006.def def hmm35wog.pac · WoG zobj006.msk msk hmm35wog.pac · WoG zobj007.def def hmm35wog.pac · WoG zobj007.msk msk hmm35wog.pac · WoG zobj008.def def hmm35wog.pac · WoG zobj008.msk msk hmm35wog.pac · WoG zobj009.def def hmm35wog.pac · WoG zobj009.msk msk hmm35wog.pac · WoG zobj010.def def hmm35wog.pac · WoG zobj010.msk msk hmm35wog.pac · WoG zobj011.def def hmm35wog.pac · WoG zobj011.msk msk hmm35wog.pac · WoG zobj012.def def hmm35wog.pac · WoG zobj012.msk msk hmm35wog.pac · WoG zobj013.def def hmm35wog.pac · WoG zobj013.msk msk hmm35wog.pac · WoG zobj014.def def hmm35wog.pac · WoG zobj014.msk msk hmm35wog.pac · WoG zobj015.def def hmm35wog.pac · WoG zobj015.msk msk hmm35wog.pac · WoG zobj016.def def hmm35wog.pac · WoG zobj016.msk msk hmm35wog.pac · WoG zobj017.def def hmm35wog.pac · WoG zobj017.msk msk hmm35wog.pac · WoG zobj018.def def hmm35wog.pac · WoG zobj018.msk msk hmm35wog.pac · WoG zobj019.def def hmm35wog.pac · WoG zobj019.msk msk hmm35wog.pac · WoG zobj020.def def hmm35wog.pac · WoG zobj020.msk msk hmm35wog.pac · WoG zobj021.def def hmm35wog.pac · WoG zobj021.msk msk hmm35wog.pac · WoG zobj022.def def hmm35wog.pac · WoG zobj022.msk msk hmm35wog.pac · WoG zobj023.def def hmm35wog.pac · WoG zobj023.msk msk hmm35wog.pac · WoG zobj024.def def hmm35wog.pac · WoG zobj024.msk msk hmm35wog.pac · WoG zobj025.def def hmm35wog.pac · WoG zobj025.msk msk hmm35wog.pac · WoG zobj026.def def hmm35wog.pac · WoG zobj026.msk msk hmm35wog.pac · WoG zobj027.def def hmm35wog.pac · WoG zobj027.msk msk hmm35wog.pac · WoG zobj028.def def hmm35wog.pac · WoG zobj028.msk msk hmm35wog.pac · WoG zobj029.def def hmm35wog.pac · WoG zobj029.msk msk hmm35wog.pac · WoG zobj030.def def hmm35wog.pac · WoG zobj030.msk msk hmm35wog.pac · WoG zobj031.def def hmm35wog.pac · WoG zobj031.msk msk hmm35wog.pac · WoG zobj032.def def hmm35wog.pac · WoG zobj032.msk msk hmm35wog.pac · WoG zobj033.def def hmm35wog.pac · WoG zobj033.msk msk hmm35wog.pac · WoG zobj034.def def hmm35wog.pac · WoG zobj034.msk msk hmm35wog.pac · WoG zobj035.def def hmm35wog.pac · WoG zobj035.msk msk hmm35wog.pac · WoG zobj036.def def hmm35wog.pac · WoG zobj036.msk msk hmm35wog.pac · WoG zobj037.def def hmm35wog.pac · WoG zobj037.msk msk hmm35wog.pac · WoG zobj038.def def hmm35wog.pac · WoG zobj038.msk msk hmm35wog.pac · WoG zobj039.def def hmm35wog.pac · WoG zobj039.msk msk hmm35wog.pac · WoG zobj040.def def hmm35wog.pac · WoG zobj040.msk msk hmm35wog.pac · WoG zobj041.def def hmm35wog.pac · WoG zobj041.msk msk hmm35wog.pac · WoG zobj042.def def hmm35wog.pac · WoG zobj042.msk msk hmm35wog.pac · WoG zobj043.def def hmm35wog.pac · WoG zobj043.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-6c360fb8ba25",
+        "heading": "DEF files (*.def)",
+        "text": "zmm159g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a773a9e1338",
+        "heading": "DEF files (*.def)",
+        "text": "zmm159g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8778bfde6008",
+        "heading": "DEF files (*.def)",
+        "text": "zmm160g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-454665e7cea7",
+        "heading": "DEF files (*.def)",
+        "text": "zmm160g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d0c4b7c7b95c",
+        "heading": "DEF files (*.def)",
+        "text": "zmm161g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f6a22c8fb914",
+        "heading": "DEF files (*.def)",
+        "text": "zmm161g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5c099aa731aa",
+        "heading": "DEF files (*.def)",
+        "text": "zmm162g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3339be95c36f",
+        "heading": "DEF files (*.def)",
+        "text": "zmm162g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a9627b12b67d",
+        "heading": "DEF files (*.def)",
+        "text": "zmm163g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d93056836910",
+        "heading": "DEF files (*.def)",
+        "text": "zmm163g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-550da1cec621",
+        "heading": "DEF files (*.def)",
+        "text": "zmm164d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-de4a6f98ac9e",
+        "heading": "DEF files (*.def)",
+        "text": "zmm164d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-334c1b9e77b5",
+        "heading": "DEF files (*.def)",
+        "text": "zmm165d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b0a1cdcc8339",
+        "heading": "DEF files (*.def)",
+        "text": "zmm165d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6605aed0abcd",
+        "heading": "DEF files (*.def)",
+        "text": "zmm166d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-baea55d0c4a9",
+        "heading": "DEF files (*.def)",
+        "text": "zmm166d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-96c8f186edb0",
+        "heading": "DEF files (*.def)",
+        "text": "zmm167d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-352ba196259f",
+        "heading": "DEF files (*.def)",
+        "text": "zmm167d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-80d94f183242",
+        "heading": "DEF files (*.def)",
+        "text": "zmm168g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fed661e31d63",
+        "heading": "DEF files (*.def)",
+        "text": "zmm168g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-169977405269",
+        "heading": "DEF files (*.def)",
+        "text": "zmm169z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bd72112511da",
+        "heading": "DEF files (*.def)",
+        "text": "zmm169z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-65fbc83fb049",
+        "heading": "DEF files (*.def)",
+        "text": "zmm170s.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2912f542954",
+        "heading": "DEF files (*.def)",
+        "text": "zmm170s.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e87a6d442169",
+        "heading": "DEF files (*.def)",
+        "text": "zmm171s.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9bb0f65fd2d5",
+        "heading": "DEF files (*.def)",
+        "text": "zmm171s.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e759eb245920",
+        "heading": "DEF files (*.def)",
+        "text": "zmm172n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e8a18392750f",
+        "heading": "DEF files (*.def)",
+        "text": "zmm172n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c382a89fa694",
+        "heading": "DEF files (*.def)",
+        "text": "zmm173m.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42532d0e79b0",
+        "heading": "DEF files (*.def)",
+        "text": "zmm173m.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8fc7893f75a7",
+        "heading": "DEF files (*.def)",
+        "text": "zmm174n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-146688c72fae",
+        "heading": "DEF files (*.def)",
+        "text": "zmm174n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d6f86cbe48d5",
+        "heading": "DEF files (*.def)",
+        "text": "zmm175n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f81f4fc28327",
+        "heading": "DEF files (*.def)",
+        "text": "zmm175n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-63739a9df336",
+        "heading": "DEF files (*.def)",
+        "text": "zmm176n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a2ecbf23e399",
+        "heading": "DEF files (*.def)",
+        "text": "zmm176n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5011ea7e07d3",
+        "heading": "DEF files (*.def)",
+        "text": "zmm177n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec412cdb4803",
+        "heading": "DEF files (*.def)",
+        "text": "zmm177n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-79d29f0c998a",
+        "heading": "DEF files (*.def)",
+        "text": "zmm178n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8745b49a736d",
+        "heading": "DEF files (*.def)",
+        "text": "zmm178n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e9ed04b1b52a",
+        "heading": "DEF files (*.def)",
+        "text": "zmm179n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d2d523846b8",
+        "heading": "DEF files (*.def)",
+        "text": "zmm179n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8b4c5bfb30c2",
+        "heading": "DEF files (*.def)",
+        "text": "zmm180n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1dbde3a49707",
+        "heading": "DEF files (*.def)",
+        "text": "zmm180n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a796dbdfb647",
+        "heading": "DEF files (*.def)",
+        "text": "zmm181n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4dd59265d90d",
+        "heading": "DEF files (*.def)",
+        "text": "zmm181n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d567470317a6",
+        "heading": "DEF files (*.def)",
+        "text": "zmm182n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3352972ea47b",
+        "heading": "DEF files (*.def)",
+        "text": "zmm182n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f8579d41af9c",
+        "heading": "DEF files (*.def)",
+        "text": "zmm192z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5ad7f09d115d",
+        "heading": "DEF files (*.def)",
+        "text": "zmm192z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c9ed213e3f63",
+        "heading": "DEF files (*.def)",
+        "text": "zmm193z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a6c12dec2b59",
+        "heading": "DEF files (*.def)",
+        "text": "zmm193z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b19773b1f769",
+        "heading": "DEF files (*.def)",
+        "text": "zmm194z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e2edaa7336a7",
+        "heading": "DEF files (*.def)",
+        "text": "zmm194z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23f5cfee4738",
+        "heading": "DEF files (*.def)",
+        "text": "zmm195z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b733e28525b2",
+        "heading": "DEF files (*.def)",
+        "text": "zmm195z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6854d27faae",
+        "heading": "DEF files (*.def)",
+        "text": "zmm196z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c6e3ed99f2c",
+        "heading": "DEF files (*.def)",
+        "text": "zmm196z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c78915f47d8b",
+        "heading": "DEF files (*.def)",
+        "text": "zobj001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ef3fac547bb1",
+        "heading": "DEF files (*.def)",
+        "text": "zobj001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b1451e3c8bcd",
+        "heading": "DEF files (*.def)",
+        "text": "zobj002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8669d08587b",
+        "heading": "DEF files (*.def)",
+        "text": "zobj002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5517b2ef90ae",
+        "heading": "DEF files (*.def)",
+        "text": "zobj003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bc5a60f8ada7",
+        "heading": "DEF files (*.def)",
+        "text": "zobj003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b339b79180c",
+        "heading": "DEF files (*.def)",
+        "text": "zobj004.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-065a4288a8d0",
+        "heading": "DEF files (*.def)",
+        "text": "zobj004.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a39f5138ae21",
+        "heading": "DEF files (*.def)",
+        "text": "zobj005.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2ba3608643e9",
+        "heading": "DEF files (*.def)",
+        "text": "zobj005.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0e97b764ec75",
+        "heading": "DEF files (*.def)",
+        "text": "zobj006.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5047dfb877c1",
+        "heading": "DEF files (*.def)",
+        "text": "zobj006.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b5b3d9e9787",
+        "heading": "DEF files (*.def)",
+        "text": "zobj007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-15026858c0dd",
+        "heading": "DEF files (*.def)",
+        "text": "zobj007.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-847bf6c6bb58",
+        "heading": "DEF files (*.def)",
+        "text": "zobj008.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d4c47ecc79f",
+        "heading": "DEF files (*.def)",
+        "text": "zobj008.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0caf5fd4f5ec",
+        "heading": "DEF files (*.def)",
+        "text": "zobj009.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4dd93a66cb9c",
+        "heading": "DEF files (*.def)",
+        "text": "zobj009.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff58345029bf",
+        "heading": "DEF files (*.def)",
+        "text": "zobj010.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f7c6546f3551",
+        "heading": "DEF files (*.def)",
+        "text": "zobj010.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-04a261743410",
+        "heading": "DEF files (*.def)",
+        "text": "zobj011.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-11974bbfcf70",
+        "heading": "DEF files (*.def)",
+        "text": "zobj011.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5a8eef75de2",
+        "heading": "DEF files (*.def)",
+        "text": "zobj012.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e31968c944f4",
+        "heading": "DEF files (*.def)",
+        "text": "zobj012.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-337970551088",
+        "heading": "DEF files (*.def)",
+        "text": "zobj013.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-954a5502f167",
+        "heading": "DEF files (*.def)",
+        "text": "zobj013.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4658c115953b",
+        "heading": "DEF files (*.def)",
+        "text": "zobj014.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8d56c12f47a",
+        "heading": "DEF files (*.def)",
+        "text": "zobj014.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-26a4d0376511",
+        "heading": "DEF files (*.def)",
+        "text": "zobj015.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d5e013cec173",
+        "heading": "DEF files (*.def)",
+        "text": "zobj015.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6373d19a9021",
+        "heading": "DEF files (*.def)",
+        "text": "zobj016.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5631f401c9b4",
+        "heading": "DEF files (*.def)",
+        "text": "zobj016.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c5c310dae025",
+        "heading": "DEF files (*.def)",
+        "text": "zobj017.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c4de2676717",
+        "heading": "DEF files (*.def)",
+        "text": "zobj017.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-148a9e76884c",
+        "heading": "DEF files (*.def)",
+        "text": "zobj018.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5560bb9a48ff",
+        "heading": "DEF files (*.def)",
+        "text": "zobj018.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-facad21f2d81",
+        "heading": "DEF files (*.def)",
+        "text": "zobj019.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52aa7cbcaf37",
+        "heading": "DEF files (*.def)",
+        "text": "zobj019.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-72400a68ed69",
+        "heading": "DEF files (*.def)",
+        "text": "zobj020.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-19b2250e711f",
+        "heading": "DEF files (*.def)",
+        "text": "zobj020.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8e2c35580926",
+        "heading": "DEF files (*.def)",
+        "text": "zobj021.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f9510041dd0d",
+        "heading": "DEF files (*.def)",
+        "text": "zobj021.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78e421114b78",
+        "heading": "DEF files (*.def)",
+        "text": "zobj022.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1dddb33a2e42",
+        "heading": "DEF files (*.def)",
+        "text": "zobj022.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3654d36a539d",
+        "heading": "DEF files (*.def)",
+        "text": "zobj023.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ce4cf96a1b2a",
+        "heading": "DEF files (*.def)",
+        "text": "zobj023.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a7ab2f2267d",
+        "heading": "DEF files (*.def)",
+        "text": "zobj024.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-56f65abcd43e",
+        "heading": "DEF files (*.def)",
+        "text": "zobj024.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2bfabf33272",
+        "heading": "DEF files (*.def)",
+        "text": "zobj025.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e4e28319a564",
+        "heading": "DEF files (*.def)",
+        "text": "zobj025.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-76069da18e7d",
+        "heading": "DEF files (*.def)",
+        "text": "zobj026.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-508399e74165",
+        "heading": "DEF files (*.def)",
+        "text": "zobj026.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7c4fcf82aee3",
+        "heading": "DEF files (*.def)",
+        "text": "zobj027.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6d06d33bb9bf",
+        "heading": "DEF files (*.def)",
+        "text": "zobj027.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2deef7db5d10",
+        "heading": "DEF files (*.def)",
+        "text": "zobj028.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3cfbd1402524",
+        "heading": "DEF files (*.def)",
+        "text": "zobj028.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3fe593284400",
+        "heading": "DEF files (*.def)",
+        "text": "zobj029.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52d07b2e9529",
+        "heading": "DEF files (*.def)",
+        "text": "zobj029.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-90d0fafbcc3a",
+        "heading": "DEF files (*.def)",
+        "text": "zobj030.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fb462b26b355",
+        "heading": "DEF files (*.def)",
+        "text": "zobj030.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-32dfc11a187e",
+        "heading": "DEF files (*.def)",
+        "text": "zobj031.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-976d861b7195",
+        "heading": "DEF files (*.def)",
+        "text": "zobj031.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54f5a8cc99f6",
+        "heading": "DEF files (*.def)",
+        "text": "zobj032.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-81d77bf5498f",
+        "heading": "DEF files (*.def)",
+        "text": "zobj032.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cbb5b7e3e95d",
+        "heading": "DEF files (*.def)",
+        "text": "zobj033.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-87b20d0631e2",
+        "heading": "DEF files (*.def)",
+        "text": "zobj033.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d4a24058345",
+        "heading": "DEF files (*.def)",
+        "text": "zobj034.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a7c30fd557a3",
+        "heading": "DEF files (*.def)",
+        "text": "zobj034.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f949701c6383",
+        "heading": "DEF files (*.def)",
+        "text": "zobj035.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d8061a519504",
+        "heading": "DEF files (*.def)",
+        "text": "zobj035.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc22f8e757ba",
+        "heading": "DEF files (*.def)",
+        "text": "zobj036.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f3fa537081cf",
+        "heading": "DEF files (*.def)",
+        "text": "zobj036.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6d1d31be1932",
+        "heading": "DEF files (*.def)",
+        "text": "zobj037.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a3b8aad0ec36",
+        "heading": "DEF files (*.def)",
+        "text": "zobj037.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e207de73a686",
+        "heading": "DEF files (*.def)",
+        "text": "zobj038.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3710466b8611",
+        "heading": "DEF files (*.def)",
+        "text": "zobj038.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-25ef4765c8ba",
+        "heading": "DEF files (*.def)",
+        "text": "zobj039.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b574b5f42d75",
+        "heading": "DEF files (*.def)",
+        "text": "zobj039.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0239e49d064e",
+        "heading": "DEF files (*.def)",
+        "text": "zobj040.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fc5974f469dd",
+        "heading": "DEF files (*.def)",
+        "text": "zobj040.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-27126045b6c2",
+        "heading": "DEF files (*.def)",
+        "text": "zobj041.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3fabffd4ea5",
+        "heading": "DEF files (*.def)",
+        "text": "zobj041.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-79f3d122f947",
+        "heading": "DEF files (*.def)",
+        "text": "zobj042.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-834228fa9aba",
+        "heading": "DEF files (*.def)",
+        "text": "zobj042.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cb7043a88266",
+        "heading": "DEF files (*.def)",
+        "text": "zobj043.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3f0949b1a8c9",
+        "heading": "DEF files (*.def)",
+        "text": "zobj043.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-7",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/defs/page-7",
+    "url": "/en/wiki/wog/defs/page-7/",
+    "title": "DEF files (*.def)",
+    "summary": "WoG · hmm35wog.pac · 7/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF files (*.def) DEF files (*.def) File Resource Source zobj044.def def hmm35wog.pac · WoG zobj044.msk msk hmm35wog.pac · WoG zobj045.def def hmm35wog.pac · WoG zobj045.msk msk hmm35wog.pac · WoG zobj046.def def hmm35wog.pac · WoG zobj046.msk msk hmm35wog.pac · WoG zobj047.def def hmm35wog.pac · WoG zobj047.msk msk hmm35wog.pac · WoG zobj048.def def hmm35wog.pac · WoG zobj048.msk msk hmm35wog.pac · WoG zobj049.def def hmm35wog.pac · WoG zobj049.msk msk hmm35wog.pac · WoG zobj050.def def hmm35wog.pac · WoG zobj050.msk msk hmm35wog.pac · WoG zobrevno.def def hmm35wog.pac · WoG zobrevno.msk msk hmm35wog.pac · WoG zrain00.def def hmm35wog.pac · WoG zrain00.msk msk hmm35wog.pac · WoG zreef1.def def hmm35wog.pac · WoG zreef1.msk msk hmm35wog.pac · WoG zreef2.def def hmm35wog.pac · WoG zreef2.msk msk hmm35wog.pac · WoG zreef3.def def hmm35wog.pac · WoG zreef3.msk msk hmm35wog.pac · WoG zreef4.def def hmm35wog.pac · WoG zreef4.msk msk hmm35wog.pac · WoG zreef5.def def hmm35wog.pac · WoG zreef5.msk msk hmm35wog.pac · WoG zseer001.def def hmm35wog.pac · WoG zseer001.msk msk hmm35wog.pac · WoG zseer002.def def hmm35wog.pac · WoG zseer002.msk msk hmm35wog.pac · WoG zshot195.def def hmm35wog.pac · WoG zsnow001.def def hmm35wog.pac · WoG zsnow001.msk msk hmm35wog.pac · WoG zsphnx10.def def hmm35wog.pac · WoG zsphnx10.msk msk hmm35wog.pac · WoG zsphnx11.def def hmm35wog.pac · WoG zsphnx11.msk msk hmm35wog.pac · WoG zsphnx12.def def hmm35wog.pac · WoG zsphnx12.msk msk hmm35wog.pac · WoG zsphnx13.def def hmm35wog.pac · WoG zsphnx13.msk msk hmm35wog.pac · WoG ztower1.def def hmm35wog.pac · WoG ztower1.msk msk hmm35wog.pac · WoG ztport01.def def hmm35wog.pac · WoG ztport01.msk msk hmm35wog.pac · WoG ztport02.def def hmm35wog.pac · WoG ztport02.msk msk hmm35wog.pac · WoG ztport03.def def hmm35wog.pac · WoG ztport03.msk msk hmm35wog.pac · WoG ztport04.def def hmm35wog.pac · WoG ztport04.msk msk hmm35wog.pac · WoG ztport05.def def hmm35wog.pac · WoG ztport05.msk msk hmm35wog.pac · WoG ztport06.def def hmm35wog.pac · WoG ztport06.msk msk hmm35wog.pac · WoG ztport07.def def hmm35wog.pac · WoG ztport07.msk msk hmm35wog.pac · WoG ztport08.def def hmm35wog.pac · WoG ztport08.msk msk hmm35wog.pac · WoG zwall001.def def hmm35wog.pac · WoG zwall001.msk msk hmm35wog.pac · WoG zwall002.def def hmm35wog.pac · WoG zwall002.msk msk hmm35wog.pac · WoG zwall003.def def hmm35wog.pac · WoG zwall003.msk msk hmm35wog.pac · WoG zwfall01.def def hmm35wog.pac · WoG zwfall01.msk msk hmm35wog.pac · WoG zwfall02.def def hmm35wog.pac · WoG zwfall02.msk msk hmm35wog.pac · WoG zwfall03.def def hmm35wog.pac · WoG zwfall03.msk msk hmm35wog.pac · WoG zwvolc1.def def hmm35wog.pac · WoG zwvolc1.msk msk hmm35wog.pac · WoG zyzop1.def def hmm35wog.pac · WoG zyzop1.msk msk hmm35wog.pac · WoG zyzop2.def def hmm35wog.pac · WoG zyzop2.msk msk hmm35wog.pac · WoG zzzz.def def hmm35wog.pac · WoG zzzz.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-2db5169b3c33",
+        "heading": "DEF files (*.def)",
+        "text": "zobj044.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d785dfb21411",
+        "heading": "DEF files (*.def)",
+        "text": "zobj044.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d4070ce7c1d3",
+        "heading": "DEF files (*.def)",
+        "text": "zobj045.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e847a348c47e",
+        "heading": "DEF files (*.def)",
+        "text": "zobj045.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bc434f289acf",
+        "heading": "DEF files (*.def)",
+        "text": "zobj046.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3acdbf3d11c5",
+        "heading": "DEF files (*.def)",
+        "text": "zobj046.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6af77f503247",
+        "heading": "DEF files (*.def)",
+        "text": "zobj047.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8bf9902b3f17",
+        "heading": "DEF files (*.def)",
+        "text": "zobj047.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-885a59dc73e0",
+        "heading": "DEF files (*.def)",
+        "text": "zobj048.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6eba976a41a",
+        "heading": "DEF files (*.def)",
+        "text": "zobj048.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aa9f77959a5e",
+        "heading": "DEF files (*.def)",
+        "text": "zobj049.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c42f34ee2388",
+        "heading": "DEF files (*.def)",
+        "text": "zobj049.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a9328714cf16",
+        "heading": "DEF files (*.def)",
+        "text": "zobj050.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f04edd649c3b",
+        "heading": "DEF files (*.def)",
+        "text": "zobj050.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-072f68698285",
+        "heading": "DEF files (*.def)",
+        "text": "zobrevno.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b656751bd94",
+        "heading": "DEF files (*.def)",
+        "text": "zobrevno.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5982309d96dc",
+        "heading": "DEF files (*.def)",
+        "text": "zrain00.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1e13a8a493aa",
+        "heading": "DEF files (*.def)",
+        "text": "zrain00.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ed6b8f1df14e",
+        "heading": "DEF files (*.def)",
+        "text": "zreef1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-61dc47fa18b5",
+        "heading": "DEF files (*.def)",
+        "text": "zreef1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1185e08ca428",
+        "heading": "DEF files (*.def)",
+        "text": "zreef2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f72ec6d0da5",
+        "heading": "DEF files (*.def)",
+        "text": "zreef2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b0a034a27a30",
+        "heading": "DEF files (*.def)",
+        "text": "zreef3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1717c76a12bf",
+        "heading": "DEF files (*.def)",
+        "text": "zreef3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e3dbe3745b9b",
+        "heading": "DEF files (*.def)",
+        "text": "zreef4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4388d6b74b7f",
+        "heading": "DEF files (*.def)",
+        "text": "zreef4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d2c473cc090a",
+        "heading": "DEF files (*.def)",
+        "text": "zreef5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dbaf6acfb11c",
+        "heading": "DEF files (*.def)",
+        "text": "zreef5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-19f10dcf1bc2",
+        "heading": "DEF files (*.def)",
+        "text": "zseer001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-679caa5db70c",
+        "heading": "DEF files (*.def)",
+        "text": "zseer001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d138b38d5dd2",
+        "heading": "DEF files (*.def)",
+        "text": "zseer002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a0c6ca6add1",
+        "heading": "DEF files (*.def)",
+        "text": "zseer002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a53d3775da5a",
+        "heading": "DEF files (*.def)",
+        "text": "zshot195.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a9d8bcd78f3",
+        "heading": "DEF files (*.def)",
+        "text": "zsnow001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a3f774937af5",
+        "heading": "DEF files (*.def)",
+        "text": "zsnow001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-29d8ce15a7ff",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx10.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23b47eabf2b0",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx10.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d07620ee8c82",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx11.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c84256b79d33",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx11.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-987031616146",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx12.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3910c11d17e",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx12.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3edb94d92076",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx13.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-987d4adaff94",
+        "heading": "DEF files (*.def)",
+        "text": "zsphnx13.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e218a857008d",
+        "heading": "DEF files (*.def)",
+        "text": "ztower1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2e67abba92c",
+        "heading": "DEF files (*.def)",
+        "text": "ztower1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-869f76c62001",
+        "heading": "DEF files (*.def)",
+        "text": "ztport01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-735dae2eb534",
+        "heading": "DEF files (*.def)",
+        "text": "ztport01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ed1ce36950c2",
+        "heading": "DEF files (*.def)",
+        "text": "ztport02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bdbc04916ae7",
+        "heading": "DEF files (*.def)",
+        "text": "ztport02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6f9fa87572c4",
+        "heading": "DEF files (*.def)",
+        "text": "ztport03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-345202106094",
+        "heading": "DEF files (*.def)",
+        "text": "ztport03.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-15be5c11d475",
+        "heading": "DEF files (*.def)",
+        "text": "ztport04.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-856541920d7f",
+        "heading": "DEF files (*.def)",
+        "text": "ztport04.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5e32da2fa5f",
+        "heading": "DEF files (*.def)",
+        "text": "ztport05.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-46f9b207974c",
+        "heading": "DEF files (*.def)",
+        "text": "ztport05.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-34778d1900c7",
+        "heading": "DEF files (*.def)",
+        "text": "ztport06.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5aaeb931565b",
+        "heading": "DEF files (*.def)",
+        "text": "ztport06.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8d206b456f5",
+        "heading": "DEF files (*.def)",
+        "text": "ztport07.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c38044414578",
+        "heading": "DEF files (*.def)",
+        "text": "ztport07.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a7ee73ae8d58",
+        "heading": "DEF files (*.def)",
+        "text": "ztport08.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7e9c6ae369b1",
+        "heading": "DEF files (*.def)",
+        "text": "ztport08.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0f483c01a2c3",
+        "heading": "DEF files (*.def)",
+        "text": "zwall001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4a396817a499",
+        "heading": "DEF files (*.def)",
+        "text": "zwall001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-16038bddf382",
+        "heading": "DEF files (*.def)",
+        "text": "zwall002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-780cc6e6cc8e",
+        "heading": "DEF files (*.def)",
+        "text": "zwall002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-380643ba1e60",
+        "heading": "DEF files (*.def)",
+        "text": "zwall003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1223fbfe37ac",
+        "heading": "DEF files (*.def)",
+        "text": "zwall003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12a45172788d",
+        "heading": "DEF files (*.def)",
+        "text": "zwfall01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cba971b78b58",
+        "heading": "DEF files (*.def)",
+        "text": "zwfall01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-556bbe84f882",
+        "heading": "DEF files (*.def)",
+        "text": "zwfall02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9fdefe3688f6",
+        "heading": "DEF files (*.def)",
+        "text": "zwfall02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ef98f766c42d",
+        "heading": "DEF files (*.def)",
+        "text": "zwfall03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-110e45e3f16c",
+        "heading": "DEF files (*.def)",
+        "text": "zwfall03.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8fd1c96d1b3b",
+        "heading": "DEF files (*.def)",
+        "text": "zwvolc1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1350480bfea9",
+        "heading": "DEF files (*.def)",
+        "text": "zwvolc1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-33ba35d8e3f7",
+        "heading": "DEF files (*.def)",
+        "text": "zyzop1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1f9be7f4b131",
+        "heading": "DEF files (*.def)",
+        "text": "zyzop1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1221b47b29e1",
+        "heading": "DEF files (*.def)",
+        "text": "zyzop2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-74d3623faaaf",
+        "heading": "DEF files (*.def)",
+        "text": "zyzop2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5e7a23b09fef",
+        "heading": "DEF files (*.def)",
+        "text": "zzzz.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4bae63692f54",
+        "heading": "DEF files (*.def)",
+        "text": "zzzz.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF files (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.fonts",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/fonts",
+    "url": "/en/wiki/wog/fonts/",
+    "title": "Fonts (*.fnt)",
+    "summary": "WoG · hmm35wog.pac · 1/1",
+    "keywords": [
+      "WoG",
+      "Шрифты (*.fnt)",
+      "Fonts (*.fnt)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Шрифты (*.fnt)?",
+      "Which files are in Fonts (*.fnt)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "Fonts (*.fnt) Fonts (*.fnt) File Resource Source bigfont.fnt fnt hmm35wog.pac · WoG bigfont2.fnt fnt hmm35wog.pac · WoG CALLI10R.FNT fnt hmm35wog.pac · WoG CREDITS.FNT fnt hmm35wog.pac · WoG HISCORE.FNT fnt hmm35wog.pac · WoG medfont.fnt fnt hmm35wog.pac · WoG medfont2.fnt fnt hmm35wog.pac · WoG smalfont.fnt fnt hmm35wog.pac · WoG smalfont2.fnt fnt hmm35wog.pac · WoG TIMES08R.FNT fnt hmm35wog.pac · WoG tiny.fnt fnt hmm35wog.pac · WoG verd10b.fnt fnt hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-38484cd2969a",
+        "heading": "Fonts (*.fnt)",
+        "text": "bigfont.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-482f25eb5e00",
+        "heading": "Fonts (*.fnt)",
+        "text": "bigfont2.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e0c9949b1799",
+        "heading": "Fonts (*.fnt)",
+        "text": "CALLI10R.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-51df4fb31a2b",
+        "heading": "Fonts (*.fnt)",
+        "text": "CREDITS.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-70851b1b05eb",
+        "heading": "Fonts (*.fnt)",
+        "text": "HISCORE.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc8faa476abb",
+        "heading": "Fonts (*.fnt)",
+        "text": "medfont.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66caa750b3ac",
+        "heading": "Fonts (*.fnt)",
+        "text": "medfont2.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec7b893e5af0",
+        "heading": "Fonts (*.fnt)",
+        "text": "smalfont.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1b7073ea38e",
+        "heading": "Fonts (*.fnt)",
+        "text": "smalfont2.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f11f7f06080",
+        "heading": "Fonts (*.fnt)",
+        "text": "TIMES08R.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-25238d841900",
+        "heading": "Fonts (*.fnt)",
+        "text": "tiny.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f78b66de71d6",
+        "heading": "Fonts (*.fnt)",
+        "text": "verd10b.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Fonts (*.fnt)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.images",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/images",
+    "url": "/en/wiki/wog/images/",
+    "title": "Images (*.pcx)",
+    "summary": "WoG · hmm35wog.pac · 1/1",
+    "keywords": [
+      "WoG",
+      "Изображения (*.pcx)",
+      "Images (*.pcx)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Изображения (*.pcx)?",
+      "Which files are in Images (*.pcx)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "Images (*.pcx) Images (*.pcx) File Resource Source artslot.pcx pcx hmm35wog.pac · WoG b21p_bl.pcx pcx hmm35wog.pac · WoG b21p_bs.pcx pcx hmm35wog.pac · WoG battlelog.pcx pcx hmm35wog.pac · WoG ccellgrd.pcx pcx hmm35wog.pac · WoG ccellshd.pcx pcx hmm35wog.pac · WoG dfault24.pcx pcx hmm35wog.pac · WoG dlg_npcn.pcx pcx hmm35wog.pac · WoG dlg_npcu.pcx pcx hmm35wog.pac · WoG kovspexp.pcx pcx hmm35wog.pac · WoG Townhrtr.pcx pcx hmm35wog.pac · WoG townscrn.pcx pcx hmm35wog.pac · WoG wogoptions.pcx pcx hmm35wog.pac · WoG wogtextedit.pcx pcx hmm35wog.pac · WoG z11p_1l.pcx pcx hmm35wog.pac · WoG z11p_1s.pcx pcx hmm35wog.pac · WoG z11p_2l.pcx pcx hmm35wog.pac · WoG z11p_2s.pcx pcx hmm35wog.pac · WoG z11p_3l.pcx pcx hmm35wog.pac · WoG z11p_3s.pcx pcx hmm35wog.pac · WoG z11p_4l.pcx pcx hmm35wog.pac · WoG z11p_4s.pcx pcx hmm35wog.pac · WoG zmainmen.pcx pcx hmm35wog.pac · WoG zpic1005.pcx pcx hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-cbdb9ccd858d",
+        "heading": "Images (*.pcx)",
+        "text": "artslot.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-798a1547cc01",
+        "heading": "Images (*.pcx)",
+        "text": "b21p_bl.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ad416ef2036e",
+        "heading": "Images (*.pcx)",
+        "text": "b21p_bs.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-97644e28b392",
+        "heading": "Images (*.pcx)",
+        "text": "battlelog.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5d2f1e5115d",
+        "heading": "Images (*.pcx)",
+        "text": "ccellgrd.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b605d2284e28",
+        "heading": "Images (*.pcx)",
+        "text": "ccellshd.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2f50dcd406e0",
+        "heading": "Images (*.pcx)",
+        "text": "dfault24.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2eae2025457d",
+        "heading": "Images (*.pcx)",
+        "text": "dlg_npcn.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c6086276351b",
+        "heading": "Images (*.pcx)",
+        "text": "dlg_npcu.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6f6847035747",
+        "heading": "Images (*.pcx)",
+        "text": "kovspexp.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d55e905ef5ac",
+        "heading": "Images (*.pcx)",
+        "text": "Townhrtr.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-362f67d56475",
+        "heading": "Images (*.pcx)",
+        "text": "townscrn.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6a102998a466",
+        "heading": "Images (*.pcx)",
+        "text": "wogoptions.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0af8ce9f29e3",
+        "heading": "Images (*.pcx)",
+        "text": "wogtextedit.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-26ac3d7d6def",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_1l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c2b59b4fefa0",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_1s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f74777dee9af",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_2l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66a21194773d",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_2s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-62d228a0ae7c",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_3l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-75fa80fc73a1",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_3s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36cd13a8226c",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_4l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f024aa165c66",
+        "heading": "Images (*.pcx)",
+        "text": "z11p_4s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-67cf2750794c",
+        "heading": "Images (*.pcx)",
+        "text": "zmainmen.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-141f333d6a6d",
+        "heading": "Images (*.pcx)",
+        "text": "zpic1005.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Images (*.pcx)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.sounds",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/sounds",
+    "url": "/en/wiki/wog/sounds/",
+    "title": "Sounds",
+    "summary": "WoG · wog.snd · 1/1",
+    "keywords": [
+      "WoG",
+      "Звуки",
+      "Sounds"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Звуки?",
+      "Which files are in Sounds?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:wog.snd"
+    ],
+    "text": "Sounds Sounds File Resource Source aelmattk audio wog.snd · WoG aelmdfnd audio wog.snd · WoG aelmkill audio wog.snd · WoG aelmwnce audio wog.snd · WoG amagshot audio wog.snd · WoG BUTTON0 audio wog.snd · WoG BUTTON1 audio wog.snd · WoG crusshot audio wog.snd · WoG ecntshot audio wog.snd · WoG firbattk audio wog.snd · WoG genishot audio wog.snd · WoG ghdrshot audio wog.snd · WoG gnolshot audio wog.snd · WoG imppdfnd audio wog.snd · WoG imppkill audio wog.snd · WoG imppwnce audio wog.snd · WoG lichshot audio wog.snd · WoG monkshot audio wog.snd · WoG pfoeshot audio wog.snd · WoG pixidfnd audio wog.snd · WoG rustattk audio wog.snd · WoG sgrgshot audio wog.snd · WoG sprtdfnd audio wog.snd · WoG trllshot audio wog.snd · WoG zquiet audio wog.snd · WoG",
+    "segments": [
+      {
+        "id": "file-230089d020e5",
+        "heading": "Sounds",
+        "text": "aelmattk audio wog.snd · WoG"
+      },
+      {
+        "id": "file-aa3e2ded907b",
+        "heading": "Sounds",
+        "text": "aelmdfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-2e13f4df48d5",
+        "heading": "Sounds",
+        "text": "aelmkill audio wog.snd · WoG"
+      },
+      {
+        "id": "file-ec1ae6f62d28",
+        "heading": "Sounds",
+        "text": "aelmwnce audio wog.snd · WoG"
+      },
+      {
+        "id": "file-4f64749d6018",
+        "heading": "Sounds",
+        "text": "amagshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-81ac749a704f",
+        "heading": "Sounds",
+        "text": "BUTTON0 audio wog.snd · WoG"
+      },
+      {
+        "id": "file-a75b3885f32d",
+        "heading": "Sounds",
+        "text": "BUTTON1 audio wog.snd · WoG"
+      },
+      {
+        "id": "file-7720a171add4",
+        "heading": "Sounds",
+        "text": "crusshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c2c39cd83ec6",
+        "heading": "Sounds",
+        "text": "ecntshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-d478d1977382",
+        "heading": "Sounds",
+        "text": "firbattk audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c76d9367b071",
+        "heading": "Sounds",
+        "text": "genishot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c0747b2387ba",
+        "heading": "Sounds",
+        "text": "ghdrshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-0297aeae3955",
+        "heading": "Sounds",
+        "text": "gnolshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-ac98ad343a05",
+        "heading": "Sounds",
+        "text": "imppdfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-806fb2c39538",
+        "heading": "Sounds",
+        "text": "imppkill audio wog.snd · WoG"
+      },
+      {
+        "id": "file-baf37583c9a1",
+        "heading": "Sounds",
+        "text": "imppwnce audio wog.snd · WoG"
+      },
+      {
+        "id": "file-b8440d14198e",
+        "heading": "Sounds",
+        "text": "lichshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-5f575f784140",
+        "heading": "Sounds",
+        "text": "monkshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-097b21250636",
+        "heading": "Sounds",
+        "text": "pfoeshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-06919c436315",
+        "heading": "Sounds",
+        "text": "pixidfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-557061b9abf0",
+        "heading": "Sounds",
+        "text": "rustattk audio wog.snd · WoG"
+      },
+      {
+        "id": "file-fd62f061301d",
+        "heading": "Sounds",
+        "text": "sgrgshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-32c101fe4c05",
+        "heading": "Sounds",
+        "text": "sprtdfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-ddaf0c421f39",
+        "heading": "Sounds",
+        "text": "trllshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c6f384149ecd",
+        "heading": "Sounds",
+        "text": "zquiet audio wog.snd · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Sounds",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.videos",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "en",
+    "slug": "wog/videos",
+    "url": "/en/wiki/wog/videos/",
+    "title": "Videos",
+    "summary": "WoG · wog.vid · 1/1",
+    "keywords": [
+      "WoG",
+      "Видео",
+      "Videos"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Видео?",
+      "Which files are in Videos?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:wog.vid"
+    ],
+    "text": "Videos Videos File Resource Source C1ab7.bik video wog.vid · WoG C1db2.bik video wog.vid · WoG C1ds1.bik video wog.vid · WoG C1fl3.bik video wog.vid · WoG C1fw1.bik video wog.vid · WoG C1pf2.bik video wog.vid · WoG HSANIM.smk video wog.vid · WoG LOSEGAME.smk video wog.vid · WoG",
+    "segments": [
+      {
+        "id": "file-7b47e762a314",
+        "heading": "Videos",
+        "text": "C1ab7.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-65c7d8cd9c27",
+        "heading": "Videos",
+        "text": "C1db2.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-2f417b4083a4",
+        "heading": "Videos",
+        "text": "C1ds1.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-13aef07f336d",
+        "heading": "Videos",
+        "text": "C1fl3.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-9914b55f48a1",
+        "heading": "Videos",
+        "text": "C1fw1.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-5b325922445d",
+        "heading": "Videos",
+        "text": "C1pf2.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-da8d9fbe58b0",
+        "heading": "Videos",
+        "text": "HSANIM.smk video wog.vid · WoG"
+      },
+      {
+        "id": "file-62cb0d8da87d",
+        "heading": "Videos",
+        "text": "LOSEGAME.smk video wog.vid · WoG"
       },
       {
         "id": "group-0-depth-0",
@@ -184240,7 +189194,7 @@ export const searchIndex = [
     "slug": "",
     "url": "/ru/wiki/",
     "title": "Wiki",
-    "summary": "Ресурсы Heroes III: изображения, DEF, звуки и видео из SoD.",
+    "summary": "Ресурсы Heroes III: графика, DEF-анимации, звуки, видео и кампании SoD, AB и WoG.",
     "keywords": [
       "Wiki",
       "SoD",
@@ -184248,7 +189202,10 @@ export const searchIndex = [
       "DEF",
       "LOD",
       "SND",
-      "VID"
+      "VID",
+      "AB",
+      "WoG",
+      "PAC"
     ],
     "questions": [
       "Где найти графику, звуки и видео SoD?",
@@ -184263,7 +189220,35 @@ export const searchIndex = [
       "wiki-sod:VIDEO.VID",
       "wiki-sod:H3DefTool_portable_creature_packer.zip",
       "wiki-sod:homm3-explorer-main.zip",
-      "wiki-sod:h3deftool-groups"
+      "wiki-sod:h3deftool-groups",
+      "wiki-ab:ab.h3c",
+      "wiki-ab:blood.h3c",
+      "wiki-ab:Camp1AB7.bmp",
+      "wiki-ab:Camp1DB2.bmp",
+      "wiki-ab:Camp1DS1.bmp",
+      "wiki-ab:Camp1FL3.bmp",
+      "wiki-ab:Camp1FW1.bmp",
+      "wiki-ab:Camp1PF2.bmp",
+      "wiki-ab:festival.h3c",
+      "wiki-ab:fire.h3c",
+      "wiki-ab:fool.h3c",
+      "wiki-ab:Neutral.h3c",
+      "wiki-ab:slayer.h3c",
+      "wiki-ab:TarnumBL.bmp",
+      "wiki-ab:TarnumBS.bmp",
+      "wiki-ab:TarnumCL.bmp",
+      "wiki-ab:TarnumCS.bmp",
+      "wiki-ab:TarnumEL.bmp",
+      "wiki-ab:TarnumES.bmp",
+      "wiki-ab:TarnumFL.bmp",
+      "wiki-ab:TarnumFS.bmp",
+      "wiki-ab:TarnumUL.bmp",
+      "wiki-ab:TarnumUS.bmp",
+      "wiki-ab:TarnumWL.bmp",
+      "wiki-ab:TarnumWS.bmp",
+      "wiki-wog:hmm35wog.pac",
+      "wiki-wog:wog.snd",
+      "wiki-wog:wog.vid"
     ],
     "text": "",
     "segments": []
@@ -192486,10 +197471,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1",
     "url": "/ru/wiki/bitmap/0/1/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 1/39",
+    "summary": "H3bitmap.lod · 1/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -192978,10 +197962,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-10",
     "url": "/ru/wiki/bitmap/0/1/page-10/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 10/39",
+    "summary": "H3bitmap.lod · 10/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -193375,10 +198358,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-11",
     "url": "/ru/wiki/bitmap/0/1/page-11/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 11/39",
+    "summary": "H3bitmap.lod · 11/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -193767,10 +198749,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-12",
     "url": "/ru/wiki/bitmap/0/1/page-12/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 12/39",
+    "summary": "H3bitmap.lod · 12/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -194164,10 +199145,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-13",
     "url": "/ru/wiki/bitmap/0/1/page-13/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 13/39",
+    "summary": "H3bitmap.lod · 13/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -194556,10 +199536,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-14",
     "url": "/ru/wiki/bitmap/0/1/page-14/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 14/39",
+    "summary": "H3bitmap.lod · 14/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -194953,10 +199932,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-15",
     "url": "/ru/wiki/bitmap/0/1/page-15/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 15/39",
+    "summary": "H3bitmap.lod · 15/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -195350,10 +200328,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-16",
     "url": "/ru/wiki/bitmap/0/1/page-16/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 16/39",
+    "summary": "H3bitmap.lod · 16/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -195747,10 +200724,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-17",
     "url": "/ru/wiki/bitmap/0/1/page-17/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 17/39",
+    "summary": "H3bitmap.lod · 17/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -196144,10 +201120,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-18",
     "url": "/ru/wiki/bitmap/0/1/page-18/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 18/39",
+    "summary": "H3bitmap.lod · 18/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -196536,10 +201511,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-19",
     "url": "/ru/wiki/bitmap/0/1/page-19/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 19/39",
+    "summary": "H3bitmap.lod · 19/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -196933,10 +201907,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-2",
     "url": "/ru/wiki/bitmap/0/1/page-2/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 2/39",
+    "summary": "H3bitmap.lod · 2/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -197330,10 +202303,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-20",
     "url": "/ru/wiki/bitmap/0/1/page-20/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 20/39",
+    "summary": "H3bitmap.lod · 20/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -197727,10 +202699,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-21",
     "url": "/ru/wiki/bitmap/0/1/page-21/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 21/39",
+    "summary": "H3bitmap.lod · 21/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -198124,10 +203095,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-22",
     "url": "/ru/wiki/bitmap/0/1/page-22/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 22/39",
+    "summary": "H3bitmap.lod · 22/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -198516,10 +203486,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-23",
     "url": "/ru/wiki/bitmap/0/1/page-23/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 23/39",
+    "summary": "H3bitmap.lod · 23/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -198913,10 +203882,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-24",
     "url": "/ru/wiki/bitmap/0/1/page-24/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 24/39",
+    "summary": "H3bitmap.lod · 24/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -199310,10 +204278,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-25",
     "url": "/ru/wiki/bitmap/0/1/page-25/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 25/39",
+    "summary": "H3bitmap.lod · 25/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -199702,10 +204669,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-26",
     "url": "/ru/wiki/bitmap/0/1/page-26/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 26/39",
+    "summary": "H3bitmap.lod · 26/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -200099,10 +205065,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-27",
     "url": "/ru/wiki/bitmap/0/1/page-27/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 27/39",
+    "summary": "H3bitmap.lod · 27/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -200491,10 +205456,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-28",
     "url": "/ru/wiki/bitmap/0/1/page-28/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 28/39",
+    "summary": "H3bitmap.lod · 28/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -200883,10 +205847,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-29",
     "url": "/ru/wiki/bitmap/0/1/page-29/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 29/39",
+    "summary": "H3bitmap.lod · 29/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -201275,10 +206238,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-3",
     "url": "/ru/wiki/bitmap/0/1/page-3/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 3/39",
+    "summary": "H3bitmap.lod · 3/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -201667,10 +206629,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-30",
     "url": "/ru/wiki/bitmap/0/1/page-30/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 30/39",
+    "summary": "H3bitmap.lod · 30/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -202064,10 +207025,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-31",
     "url": "/ru/wiki/bitmap/0/1/page-31/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 31/39",
+    "summary": "H3bitmap.lod · 31/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -202461,10 +207421,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-32",
     "url": "/ru/wiki/bitmap/0/1/page-32/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 32/39",
+    "summary": "H3bitmap.lod · 32/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -202868,10 +207827,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-33",
     "url": "/ru/wiki/bitmap/0/1/page-33/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 33/39",
+    "summary": "H3bitmap.lod · 33/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -203270,10 +208228,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-34",
     "url": "/ru/wiki/bitmap/0/1/page-34/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 34/39",
+    "summary": "H3bitmap.lod · 34/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -203672,10 +208629,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-35",
     "url": "/ru/wiki/bitmap/0/1/page-35/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 35/39",
+    "summary": "H3bitmap.lod, AB campaigns · 35/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -203685,9 +208641,15 @@ export const searchIndex = [
     ],
     "sourceRefs": [
       "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
+      "wiki-sod:H3bitmap.lod",
+      "wiki-ab:Camp1AB7.bmp",
+      "wiki-ab:Camp1DB2.bmp",
+      "wiki-ab:Camp1DS1.bmp",
+      "wiki-ab:Camp1FL3.bmp",
+      "wiki-ab:Camp1PF2.bmp",
+      "wiki-ab:Camp1FW1.bmp"
     ],
-    "text": "Иконки бонусов-строений / Крепость Иконки бонусов-строений Крепость File Resource Source BoFGrail.pcx pcx H3bitmap.lod · SoD BoFHall2.pcx pcx H3bitmap.lod · SoD BoFHall3.pcx pcx H3bitmap.lod · SoD BoFHall4.pcx pcx H3bitmap.lod · SoD BoFHydr1.pcx pcx H3bitmap.lod · SoD BoFHydr2.pcx pcx H3bitmap.lod · SoD BoFLizr1.pcx pcx H3bitmap.lod · SoD BoFLizr2.pcx pcx H3bitmap.lod · SoD BoFMage1.pcx pcx H3bitmap.lod · SoD BoFMage2.pcx pcx H3bitmap.lod · SoD BoFMage3.pcx pcx H3bitmap.lod · SoD BoFMark1.pcx pcx H3bitmap.lod · SoD BoFMark2.pcx pcx H3bitmap.lod · SoD BoFSHIP.pcx pcx H3bitmap.lod · SoD BoFTav.pcx pcx H3bitmap.lod · SoD BoFWyvr1.pcx pcx H3bitmap.lod · SoD BoFWyvr2.pcx pcx H3bitmap.lod · SoD Иконки бонусов-строений / Слияние Слияние File Resource Source BoEBlack.pcx pcx H3bitmap.lod · SoD BoECast1.pcx pcx H3bitmap.lod · SoD BoECast2.pcx pcx H3bitmap.lod · SoD BoECast3.pcx pcx H3bitmap.lod · SoD BoEDn_0.pcx pcx H3bitmap.lod · SoD BoEDn_1.pcx pcx H3bitmap.lod · SoD BoEDn_2.pcx pcx H3bitmap.lod · SoD BoEDn_3.pcx pcx H3bitmap.lod · SoD BoEDn_4.pcx pcx H3bitmap.lod · SoD BoEDn_5.pcx pcx H3bitmap.lod · SoD BoEDn_6.pcx pcx H3bitmap.lod · SoD BoEGld1.pcx pcx H3bitmap.lod · SoD BoEGld2.pcx pcx H3bitmap.lod · SoD BoEGld3.pcx pcx H3bitmap.lod · SoD BoEGld4.pcx pcx H3bitmap.lod · SoD BoEGld5.pcx pcx H3bitmap.lod · SoD BoEGrail.pcx pcx H3bitmap.lod · SoD BoEHall2.pcx pcx H3bitmap.lod · SoD BoEHall3.pcx pcx H3bitmap.lod · SoD BoEHall4.pcx pcx H3bitmap.lod · SoD BoEHrd1.pcx pcx H3bitmap.lod · SoD BoEMarkA.pcx pcx H3bitmap.lod · SoD BoEMarkS.pcx pcx H3bitmap.lod · SoD BoEShip.pcx pcx H3bitmap.lod · SoD BoETav.pcx pcx H3bitmap.lod · SoD BoEUniv.pcx pcx H3bitmap.lod · SoD BoEUp_0.pcx pcx H3bitmap.lod · SoD BoEUp_1.pcx pcx H3bitmap.lod · SoD BoEUp_2.pcx pcx H3bitmap.lod · SoD BoEUp_3.pcx pcx H3bitmap.lod · SoD BoEUp_4.pcx pcx H3bitmap.lod · SoD BoEUp_5.pcx pcx H3bitmap.lod · SoD BoEUp_6.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Да здравствует Королева! Изображения для выбора кампаний Возрождение Эрафии Да здравствует Королева! File Resource Source CAMPGD1S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Подземелья и дяьволы Подземелья и дяьволы File Resource Source CAMPEV1S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Отголоски войны Отголоски войны File Resource Source CAMPNEUS.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Освобождение Освобождение File Resource Source CAMPGD2S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Да здравствует Король! Да здравствует Король! File Resource Source CAMPEV2S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Хвала отцу Хвала отцу File Resource Source CAMPGD3S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Семена недовольства Семена недовольства File Resource Source CAMPSCTS.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Своенравный храбрец Клинок Армагеддона (см. прим. #3) Своенравный храбрец File Resource Source Camp1FWX.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Новое начало Дыхание Смерти Новое начало File Resource Source CampNB1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Эликсир жизни Эликсир жизни File Resource Source CampEL1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Руби и кромсай Руби и кромсай File Resource Source CampHS1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Рождение варвара Рождение варвара File Resource Source CampBB1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Возвышение некроманта Возвышение некроманта File Resource Source CampRN1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Союз нечисти Союз нечисти File Resource Source CampUA1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Призрак власти Призрак власти File Resource Source CampSP1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Секртеная кампания Секртеная кампания File Resource Source CAMPNOSC.PCX pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Да здравствует Королева! Превью к видеороликам Возрождение Эрафии Да здравствует Королева! File Resource Source CslReG1a.pcx pcx H3bitmap.lod · SoD CslReG1b.pcx pcx H3bitmap.lod · SoD CslReG1c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Подземелья и дьяволы Подземелья и дьяволы File Resource Source CslReE3a.pcx pcx H3bitmap.lod · SoD CslReE3b.pcx pcx H3bitmap.lod · SoD CslReE3c.pcx pcx H3bitmap.lod · SoD",
+    "text": "Иконки бонусов-строений / Крепость Иконки бонусов-строений Крепость File Resource Source BoFGrail.pcx pcx H3bitmap.lod · SoD BoFHall2.pcx pcx H3bitmap.lod · SoD BoFHall3.pcx pcx H3bitmap.lod · SoD BoFHall4.pcx pcx H3bitmap.lod · SoD BoFHydr1.pcx pcx H3bitmap.lod · SoD BoFHydr2.pcx pcx H3bitmap.lod · SoD BoFLizr1.pcx pcx H3bitmap.lod · SoD BoFLizr2.pcx pcx H3bitmap.lod · SoD BoFMage1.pcx pcx H3bitmap.lod · SoD BoFMage2.pcx pcx H3bitmap.lod · SoD BoFMage3.pcx pcx H3bitmap.lod · SoD BoFMark1.pcx pcx H3bitmap.lod · SoD BoFMark2.pcx pcx H3bitmap.lod · SoD BoFSHIP.pcx pcx H3bitmap.lod · SoD BoFTav.pcx pcx H3bitmap.lod · SoD BoFWyvr1.pcx pcx H3bitmap.lod · SoD BoFWyvr2.pcx pcx H3bitmap.lod · SoD Иконки бонусов-строений / Слияние Слияние File Resource Source BoEBlack.pcx pcx H3bitmap.lod · SoD BoECast1.pcx pcx H3bitmap.lod · SoD BoECast2.pcx pcx H3bitmap.lod · SoD BoECast3.pcx pcx H3bitmap.lod · SoD BoEDn_0.pcx pcx H3bitmap.lod · SoD BoEDn_1.pcx pcx H3bitmap.lod · SoD BoEDn_2.pcx pcx H3bitmap.lod · SoD BoEDn_3.pcx pcx H3bitmap.lod · SoD BoEDn_4.pcx pcx H3bitmap.lod · SoD BoEDn_5.pcx pcx H3bitmap.lod · SoD BoEDn_6.pcx pcx H3bitmap.lod · SoD BoEGld1.pcx pcx H3bitmap.lod · SoD BoEGld2.pcx pcx H3bitmap.lod · SoD BoEGld3.pcx pcx H3bitmap.lod · SoD BoEGld4.pcx pcx H3bitmap.lod · SoD BoEGld5.pcx pcx H3bitmap.lod · SoD BoEGrail.pcx pcx H3bitmap.lod · SoD BoEHall2.pcx pcx H3bitmap.lod · SoD BoEHall3.pcx pcx H3bitmap.lod · SoD BoEHall4.pcx pcx H3bitmap.lod · SoD BoEHrd1.pcx pcx H3bitmap.lod · SoD BoEMarkA.pcx pcx H3bitmap.lod · SoD BoEMarkS.pcx pcx H3bitmap.lod · SoD BoEShip.pcx pcx H3bitmap.lod · SoD BoETav.pcx pcx H3bitmap.lod · SoD BoEUniv.pcx pcx H3bitmap.lod · SoD BoEUp_0.pcx pcx H3bitmap.lod · SoD BoEUp_1.pcx pcx H3bitmap.lod · SoD BoEUp_2.pcx pcx H3bitmap.lod · SoD BoEUp_3.pcx pcx H3bitmap.lod · SoD BoEUp_4.pcx pcx H3bitmap.lod · SoD BoEUp_5.pcx pcx H3bitmap.lod · SoD BoEUp_6.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Да здравствует Королева! Изображения для выбора кампаний Возрождение Эрафии Да здравствует Королева! File Resource Source CAMPGD1S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Подземелья и дяьволы Подземелья и дяьволы File Resource Source CAMPEV1S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Отголоски войны Отголоски войны File Resource Source CAMPNEUS.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Освобождение Освобождение File Resource Source CAMPGD2S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Да здравствует Король! Да здравствует Король! File Resource Source CAMPEV2S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Хвала отцу Хвала отцу File Resource Source CAMPGD3S.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Возрождение Эрафии / Семена недовольства Семена недовольства File Resource Source CAMPSCTS.PCX pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Клинок Армагеддона Клинок Армагеддона (см. прим. #3) Клинок Армагеддона File Resource Source Camp1AB7.pcx pcx AB campaigns · AB Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Кровь дракона Кровь дракона File Resource Source Camp1DB2.pcx pcx AB campaigns · AB Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Убийца драконов Убийца драконов File Resource Source Camp1DS1.pcx pcx AB campaigns · AB Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Праздник жизни Праздник жизни File Resource Source Camp1FL3.pcx pcx AB campaigns · AB Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Игры с огнем Игры с огнем File Resource Source Camp1PF2.pcx pcx AB campaigns · AB Изображения для выбора кампаний / Клинок Армагеддона (см. прим. #3) / Своенравный храбрец Своенравный храбрец File Resource Source Camp1FWX.pcx pcx H3bitmap.lod · SoD Camp1FW1.pcx pcx AB campaigns · AB Изображения для выбора кампаний / Дыхание Смерти / Новое начало Дыхание Смерти Новое начало File Resource Source CampNB1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Эликсир жизни Эликсир жизни File Resource Source CampEL1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Руби и кромсай Руби и кромсай File Resource Source CampHS1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Рождение варвара Рождение варвара File Resource Source CampBB1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Возвышение некроманта Возвышение некроманта File Resource Source CampRN1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Союз нечисти Союз нечисти File Resource Source CampUA1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Дыхание Смерти / Призрак власти Призрак власти File Resource Source CampSP1.pcx pcx H3bitmap.lod · SoD Изображения для выбора кампаний / Секртеная кампания Секртеная кампания File Resource Source CAMPNOSC.PCX pcx H3bitmap.lod · SoD",
     "segments": [
       {
         "id": "file-5070b56f56c3",
@@ -204020,12 +208982,67 @@ export const searchIndex = [
         "text": "File Resource Source"
       },
       {
+        "id": "file-5a33e60d3a0c",
+        "heading": "Клинок Армагеддона",
+        "text": "Camp1AB7.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-9-depth-2",
+        "heading": "Клинок Армагеддона",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-86875003fae2",
+        "heading": "Кровь дракона",
+        "text": "Camp1DB2.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-10-depth-2",
+        "heading": "Кровь дракона",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-a66dc933a8c0",
+        "heading": "Убийца драконов",
+        "text": "Camp1DS1.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-11-depth-2",
+        "heading": "Убийца драконов",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-2cb26c854780",
+        "heading": "Праздник жизни",
+        "text": "Camp1FL3.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-12-depth-2",
+        "heading": "Праздник жизни",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-c9a604e741c3",
+        "heading": "Игры с огнем",
+        "text": "Camp1PF2.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-13-depth-2",
+        "heading": "Игры с огнем",
+        "text": "File Resource Source"
+      },
+      {
         "id": "file-9ec650c33fb0",
         "heading": "Своенравный храбрец",
         "text": "Camp1FWX.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-9-depth-2",
+        "id": "file-26a298933de1",
+        "heading": "Своенравный храбрец",
+        "text": "Camp1FW1.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-14-depth-2",
         "heading": "Своенравный храбрец",
         "text": "File Resource Source"
       },
@@ -204035,7 +209052,7 @@ export const searchIndex = [
         "text": "CampNB1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-10-depth-2",
+        "id": "group-15-depth-2",
         "heading": "Новое начало",
         "text": "File Resource Source"
       },
@@ -204045,7 +209062,7 @@ export const searchIndex = [
         "text": "CampEL1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-11-depth-2",
+        "id": "group-16-depth-2",
         "heading": "Эликсир жизни",
         "text": "File Resource Source"
       },
@@ -204055,7 +209072,7 @@ export const searchIndex = [
         "text": "CampHS1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-12-depth-2",
+        "id": "group-17-depth-2",
         "heading": "Руби и кромсай",
         "text": "File Resource Source"
       },
@@ -204065,7 +209082,7 @@ export const searchIndex = [
         "text": "CampBB1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-13-depth-2",
+        "id": "group-18-depth-2",
         "heading": "Рождение варвара",
         "text": "File Resource Source"
       },
@@ -204075,7 +209092,7 @@ export const searchIndex = [
         "text": "CampRN1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-14-depth-2",
+        "id": "group-19-depth-2",
         "heading": "Возвышение некроманта",
         "text": "File Resource Source"
       },
@@ -204085,7 +209102,7 @@ export const searchIndex = [
         "text": "CampUA1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-15-depth-2",
+        "id": "group-20-depth-2",
         "heading": "Союз нечисти",
         "text": "File Resource Source"
       },
@@ -204095,7 +209112,7 @@ export const searchIndex = [
         "text": "CampSP1.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-16-depth-2",
+        "id": "group-21-depth-2",
         "heading": "Призрак власти",
         "text": "File Resource Source"
       },
@@ -204105,8 +209122,111 @@ export const searchIndex = [
         "text": "CAMPNOSC.PCX pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-17-depth-1",
+        "id": "group-22-depth-1",
         "heading": "Секртеная кампания",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-36",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "bitmap/0/1/page-36",
+    "url": "/ru/wiki/bitmap/0/1/page-36/",
+    "title": "Элементы кампаний",
+    "summary": "AB campaigns, H3bitmap.lod · 36/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod",
+      "wiki-ab:TarnumBL.bmp",
+      "wiki-ab:TarnumBS.bmp",
+      "wiki-ab:TarnumCL.bmp",
+      "wiki-ab:TarnumCS.bmp",
+      "wiki-ab:TarnumEL.bmp",
+      "wiki-ab:TarnumES.bmp",
+      "wiki-ab:TarnumFL.bmp",
+      "wiki-ab:TarnumFS.bmp",
+      "wiki-ab:TarnumUL.bmp",
+      "wiki-ab:TarnumUS.bmp",
+      "wiki-ab:TarnumWL.bmp",
+      "wiki-ab:TarnumWS.bmp"
+    ],
+    "text": "Дополнительные изображения кампаний / Клинок Армагеддона Дополнительные изображения кампаний Клинок Армагеддона File Resource Source TarnumBL.pcx pcx AB campaigns · AB TarnumBS.pcx pcx AB campaigns · AB TarnumCL.pcx pcx AB campaigns · AB TarnumCS.pcx pcx AB campaigns · AB TarnumEL.pcx pcx AB campaigns · AB TarnumES.pcx pcx AB campaigns · AB TarnumFL.pcx pcx AB campaigns · AB TarnumFS.pcx pcx AB campaigns · AB TarnumUL.pcx pcx AB campaigns · AB TarnumUS.pcx pcx AB campaigns · AB TarnumWL.pcx pcx AB campaigns · AB TarnumWS.pcx pcx AB campaigns · AB Превью к видеороликам / Возрождение Эрафии / Да здравствует Королева! Превью к видеороликам Возрождение Эрафии Да здравствует Королева! File Resource Source CslReG1a.pcx pcx H3bitmap.lod · SoD CslReG1b.pcx pcx H3bitmap.lod · SoD CslReG1c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Подземелья и дьяволы Подземелья и дьяволы File Resource Source CslReE3a.pcx pcx H3bitmap.lod · SoD CslReE3b.pcx pcx H3bitmap.lod · SoD CslReE3c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Отголоски войны (*) Отголоски войны (*) File Resource Source CslReG1d.pcx pcx H3bitmap.lod · SoD CslReN2a.pcx pcx H3bitmap.lod · SoD CslReN2b.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Освобождение Освобождение File Resource Source CslReG4a.pcx pcx H3bitmap.lod · SoD CslReG4b.pcx pcx H3bitmap.lod · SoD CslReG4c.pcx pcx H3bitmap.lod · SoD CslReG4d.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Да здравствует Король! Да здравствует Король! File Resource Source CslReE5a.pcx pcx H3bitmap.lod · SoD CslReE5b.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD CslReE5d.pcx pcx H3bitmap.lod · SoD CslReE5e.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Хвала отцу Хвала отцу File Resource Source CslReG6a.pcx pcx H3bitmap.lod · SoD CslReG6b.pcx pcx H3bitmap.lod · SoD CslReG6c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Семена недовольства Семена недовольства File Resource Source CslReS7a.pcx pcx H3bitmap.lod · SoD CslReS7b.pcx pcx H3bitmap.lod · SoD CslReS7c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Клинок Армагеддона Клинок Армагеддона Клинок Армагеддона File Resource Source CslAbAb1.pcx pcx H3bitmap.lod · SoD CslAbAb2.pcx pcx H3bitmap.lod · SoD CslAbAb3.pcx pcx H3bitmap.lod · SoD CslAbAb4.pcx pcx H3bitmap.lod · SoD CslAbAb5.pcx pcx H3bitmap.lod · SoD CslAbAb6.pcx pcx H3bitmap.lod · SoD CslAbAb7.pcx pcx H3bitmap.lod · SoD CslAbAb8.pcx pcx H3bitmap.lod · SoD CslAbAb9.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Кровь дракона Кровь дракона File Resource Source CslAbDb1.pcx pcx H3bitmap.lod · SoD CslAbdb2.pcx pcx H3bitmap.lod · SoD CslAbDb3.pcx pcx H3bitmap.lod · SoD CslAbDb4.pcx pcx H3bitmap.lod · SoD CslAbDb5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Убийца драконов Убийца драконов File Resource Source CslAbds1.pcx pcx H3bitmap.lod · SoD CslAbDs2.pcx pcx H3bitmap.lod · SoD CslAbDs3.pcx pcx H3bitmap.lod · SoD CslAbDs4.pcx pcx H3bitmap.lod · SoD CslAbDs5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Праздник жизни Праздник жизни File Resource Source CslAbFl1.pcx pcx H3bitmap.lod · SoD CslAbFl2.pcx pcx H3bitmap.lod · SoD CslAbfl3.pcx pcx H3bitmap.lod · SoD CslAbFl4.pcx pcx H3bitmap.lod · SoD CslAbFl5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Игры с огнем Игры с огнем File Resource Source CslAbPf1.pcx pcx H3bitmap.lod · SoD CslAbpf2.pcx pcx H3bitmap.lod · SoD CslAbPf3.pcx pcx H3bitmap.lod · SoD CslAbPf4.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Своенравный храбрец Своенравный храбрец File Resource Source CslAbfw1.pcx pcx H3bitmap.lod · SoD CslAbFw2.pcx pcx H3bitmap.lod · SoD CslAbFw3.pcx pcx H3bitmap.lod · SoD CslAbFw4.pcx pcx H3bitmap.lod · SoD CslAbFw5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Новое начало Дыхание Смерти Новое начало File Resource Source Csl2NBa.pcx pcx H3bitmap.lod · SoD Csl2NBb.pcx pcx H3bitmap.lod · SoD Csl2NBc.pcx pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
+        "id": "file-e125f57f1cf7",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumBL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-284238bf410c",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumBS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-325ae0d0bb9e",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumCL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-41eac71629c3",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumCS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-0f65b389196b",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumEL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-da39527de132",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumES.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-1091a8a23451",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumFL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-f22631a71a68",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumFS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-96d9bc73b530",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumUL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-0718067b1b38",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumUS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-cb2ac5c96ffd",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumWL.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "file-37682e719669",
+        "heading": "Клинок Армагеддона",
+        "text": "TarnumWS.pcx pcx AB campaigns · AB"
+      },
+      {
+        "id": "group-0-depth-1",
+        "heading": "Клинок Армагеддона",
         "text": "File Resource Source"
       },
       {
@@ -204125,7 +209245,7 @@ export const searchIndex = [
         "text": "CslReG1c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-18-depth-2",
+        "id": "group-1-depth-2",
         "heading": "Да здравствует Королева!",
         "text": "File Resource Source"
       },
@@ -204145,37 +209265,10 @@ export const searchIndex = [
         "text": "CslReE3c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-19-depth-2",
+        "id": "group-2-depth-2",
         "heading": "Подземелья и дьяволы",
         "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-36",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "ru",
-    "slug": "bitmap/0/1/page-36",
-    "url": "/ru/wiki/bitmap/0/1/page-36/",
-    "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 36/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Превью к видеороликам / Возрождение Эрафии / Отголоски войны (*) Превью к видеороликам Возрождение Эрафии Отголоски войны (*) File Resource Source CslReG1d.pcx pcx H3bitmap.lod · SoD CslReN2a.pcx pcx H3bitmap.lod · SoD CslReN2b.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Освобождение Освобождение File Resource Source CslReG4a.pcx pcx H3bitmap.lod · SoD CslReG4b.pcx pcx H3bitmap.lod · SoD CslReG4c.pcx pcx H3bitmap.lod · SoD CslReG4d.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Да здравствует Король! Да здравствует Король! File Resource Source CslReE5a.pcx pcx H3bitmap.lod · SoD CslReE5b.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD CslReE5d.pcx pcx H3bitmap.lod · SoD CslReE5e.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Хвала отцу Хвала отцу File Resource Source CslReG6a.pcx pcx H3bitmap.lod · SoD CslReG6b.pcx pcx H3bitmap.lod · SoD CslReG6c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Возрождение Эрафии / Семена недовольства Семена недовольства File Resource Source CslReS7a.pcx pcx H3bitmap.lod · SoD CslReS7b.pcx pcx H3bitmap.lod · SoD CslReS7c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Клинок Армагеддона Клинок Армагеддона Клинок Армагеддона File Resource Source CslAbAb1.pcx pcx H3bitmap.lod · SoD CslAbAb2.pcx pcx H3bitmap.lod · SoD CslAbAb3.pcx pcx H3bitmap.lod · SoD CslAbAb4.pcx pcx H3bitmap.lod · SoD CslAbAb5.pcx pcx H3bitmap.lod · SoD CslAbAb6.pcx pcx H3bitmap.lod · SoD CslAbAb7.pcx pcx H3bitmap.lod · SoD CslAbAb8.pcx pcx H3bitmap.lod · SoD CslAbAb9.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Кровь дракона Кровь дракона File Resource Source CslAbDb1.pcx pcx H3bitmap.lod · SoD CslAbdb2.pcx pcx H3bitmap.lod · SoD CslAbDb3.pcx pcx H3bitmap.lod · SoD CslAbDb4.pcx pcx H3bitmap.lod · SoD CslAbDb5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Убийца драконов Убийца драконов File Resource Source CslAbds1.pcx pcx H3bitmap.lod · SoD CslAbDs2.pcx pcx H3bitmap.lod · SoD CslAbDs3.pcx pcx H3bitmap.lod · SoD CslAbDs4.pcx pcx H3bitmap.lod · SoD CslAbDs5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Праздник жизни Праздник жизни File Resource Source CslAbFl1.pcx pcx H3bitmap.lod · SoD CslAbFl2.pcx pcx H3bitmap.lod · SoD CslAbfl3.pcx pcx H3bitmap.lod · SoD CslAbFl4.pcx pcx H3bitmap.lod · SoD CslAbFl5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Игры с огнем Игры с огнем File Resource Source CslAbPf1.pcx pcx H3bitmap.lod · SoD CslAbpf2.pcx pcx H3bitmap.lod · SoD CslAbPf3.pcx pcx H3bitmap.lod · SoD CslAbPf4.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Клинок Армагеддона / Своенравный храбрец Своенравный храбрец File Resource Source CslAbfw1.pcx pcx H3bitmap.lod · SoD CslAbFw2.pcx pcx H3bitmap.lod · SoD CslAbFw3.pcx pcx H3bitmap.lod · SoD CslAbFw4.pcx pcx H3bitmap.lod · SoD CslAbFw5.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Новое начало Дыхание Смерти Новое начало File Resource Source Csl2NBa.pcx pcx H3bitmap.lod · SoD Csl2NBb.pcx pcx H3bitmap.lod · SoD Csl2NBc.pcx pcx H3bitmap.lod · SoD Csl2NBd.pcx pcx H3bitmap.lod · SoD Csl2NBe.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Эликсир жизни Эликсир жизни File Resource Source Csl2ELa.pcx pcx H3bitmap.lod · SoD Csl2ELb.pcx pcx H3bitmap.lod · SoD Csl2ELc.pcx pcx H3bitmap.lod · SoD Csl2ELd.pcx pcx H3bitmap.lod · SoD Csl2ELe.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Руби и Кромсай() Руби и Кромсай() File Resource Source Csl2HSa.pcx pcx H3bitmap.lod · SoD Csl2HSc.pcx pcx H3bitmap.lod · SoD Csl2HSd.pcx pcx H3bitmap.lod · SoD Csl2HSe.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Рождение варвара Рождение варвара File Resource Source Csl2BBa.pcx pcx H3bitmap.lod · SoD Csl2BBb.pcx pcx H3bitmap.lod · SoD Csl2BBc.pcx pcx H3bitmap.lod · SoD Csl2BBd.pcx pcx H3bitmap.lod · SoD Csl2BBe.pcx pcx H3bitmap.lod · SoD Csl2BBf.pcx pcx H3bitmap.lod · SoD",
-    "segments": [
+      },
       {
         "id": "file-132a2ddffe4d",
         "heading": "Отголоски войны (*)",
@@ -204192,7 +209285,7 @@ export const searchIndex = [
         "text": "CslReN2b.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-0-depth-2",
+        "id": "group-3-depth-2",
         "heading": "Отголоски войны (*)",
         "text": "File Resource Source"
       },
@@ -204217,7 +209310,7 @@ export const searchIndex = [
         "text": "CslReG4d.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-1-depth-2",
+        "id": "group-4-depth-2",
         "heading": "Освобождение",
         "text": "File Resource Source"
       },
@@ -204247,7 +209340,7 @@ export const searchIndex = [
         "text": "CslReE5e.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-2-depth-2",
+        "id": "group-5-depth-2",
         "heading": "Да здравствует Король!",
         "text": "File Resource Source"
       },
@@ -204267,7 +209360,7 @@ export const searchIndex = [
         "text": "CslReG6c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-3-depth-2",
+        "id": "group-6-depth-2",
         "heading": "Хвала отцу",
         "text": "File Resource Source"
       },
@@ -204287,7 +209380,7 @@ export const searchIndex = [
         "text": "CslReS7c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-4-depth-2",
+        "id": "group-7-depth-2",
         "heading": "Семена недовольства",
         "text": "File Resource Source"
       },
@@ -204337,7 +209430,7 @@ export const searchIndex = [
         "text": "CslAbAb9.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-5-depth-2",
+        "id": "group-8-depth-2",
         "heading": "Клинок Армагеддона",
         "text": "File Resource Source"
       },
@@ -204367,7 +209460,7 @@ export const searchIndex = [
         "text": "CslAbDb5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-6-depth-2",
+        "id": "group-9-depth-2",
         "heading": "Кровь дракона",
         "text": "File Resource Source"
       },
@@ -204397,7 +209490,7 @@ export const searchIndex = [
         "text": "CslAbDs5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-7-depth-2",
+        "id": "group-10-depth-2",
         "heading": "Убийца драконов",
         "text": "File Resource Source"
       },
@@ -204427,7 +209520,7 @@ export const searchIndex = [
         "text": "CslAbFl5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-8-depth-2",
+        "id": "group-11-depth-2",
         "heading": "Праздник жизни",
         "text": "File Resource Source"
       },
@@ -204452,7 +209545,7 @@ export const searchIndex = [
         "text": "CslAbPf4.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-9-depth-2",
+        "id": "group-12-depth-2",
         "heading": "Игры с огнем",
         "text": "File Resource Source"
       },
@@ -204482,7 +209575,7 @@ export const searchIndex = [
         "text": "CslAbFw5.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-10-depth-2",
+        "id": "group-13-depth-2",
         "heading": "Своенравный храбрец",
         "text": "File Resource Source"
       },
@@ -204502,6 +209595,37 @@ export const searchIndex = [
         "text": "Csl2NBc.pcx pcx H3bitmap.lod · SoD"
       },
       {
+        "id": "group-14-depth-2",
+        "heading": "Новое начало",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-37",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "bitmap/0/1/page-37",
+    "url": "/ru/wiki/bitmap/0/1/page-37/",
+    "title": "Элементы кампаний",
+    "summary": "H3bitmap.lod · 37/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod"
+    ],
+    "text": "Превью к видеороликам / Дыхание Смерти / Новое начало Превью к видеороликам Дыхание Смерти Новое начало File Resource Source Csl2NBd.pcx pcx H3bitmap.lod · SoD Csl2NBe.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Эликсир жизни Эликсир жизни File Resource Source Csl2ELa.pcx pcx H3bitmap.lod · SoD Csl2ELb.pcx pcx H3bitmap.lod · SoD Csl2ELc.pcx pcx H3bitmap.lod · SoD Csl2ELd.pcx pcx H3bitmap.lod · SoD Csl2ELe.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Руби и Кромсай() Руби и Кромсай() File Resource Source Csl2HSa.pcx pcx H3bitmap.lod · SoD Csl2HSc.pcx pcx H3bitmap.lod · SoD Csl2HSd.pcx pcx H3bitmap.lod · SoD Csl2HSe.pcx pcx H3bitmap.lod · SoD CslReE5c.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Рождение варвара Рождение варвара File Resource Source Csl2BBa.pcx pcx H3bitmap.lod · SoD Csl2BBb.pcx pcx H3bitmap.lod · SoD Csl2BBc.pcx pcx H3bitmap.lod · SoD Csl2BBd.pcx pcx H3bitmap.lod · SoD Csl2BBe.pcx pcx H3bitmap.lod · SoD Csl2BBf.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Возвышение некроманта Возвышение некроманта File Resource Source Csl2RNa.pcx pcx H3bitmap.lod · SoD Csl2RNb.pcx pcx H3bitmap.lod · SoD Csl2RNc.pcx pcx H3bitmap.lod · SoD Csl2RNd.pcx pcx H3bitmap.lod · SoD Csl2RNe.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Союз нечисти Союз нечисти File Resource Source Csl2UAa.pcx pcx H3bitmap.lod · SoD Csl2UAb.pcx pcx H3bitmap.lod · SoD Csl2UAc.pcx pcx H3bitmap.lod · SoD Csl2UAd.pcx pcx H3bitmap.lod · SoD Csl2UAe.pcx pcx H3bitmap.lod · SoD Csl2UAf.pcx pcx H3bitmap.lod · SoD Csl2UAg.pcx pcx H3bitmap.lod · SoD Csl2UAh.pcx pcx H3bitmap.lod · SoD Csl2UAi.pcx pcx H3bitmap.lod · SoD Csl2UAj.pcx pcx H3bitmap.lod · SoD Csl2UAk.pcx pcx H3bitmap.lod · SoD Csl2UAl.pcx pcx H3bitmap.lod · SoD Csl2UAm.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Призрак власти Призрак власти File Resource Source Csl2SPa.pcx pcx H3bitmap.lod · SoD Csl2SPb.pcx pcx H3bitmap.lod · SoD Csl2SPc.pcx pcx H3bitmap.lod · SoD Csl2SPd.pcx pcx H3bitmap.lod · SoD Csl2SPe.pcx pcx H3bitmap.lod · SoD Прочие файлы Прочие файлы File Resource Source CBONE1A1.PCX pcx H3bitmap.lod · SoD CBONE1A2.PCX pcx H3bitmap.lod · SoD CBONE1A3.PCX pcx H3bitmap.lod · SoD CBONE1B1.PCX pcx H3bitmap.lod · SoD CBONE1B2.PCX pcx H3bitmap.lod · SoD CBONE1B3.PCX pcx H3bitmap.lod · SoD CBONE1C1.PCX pcx H3bitmap.lod · SoD CBONE1C2.PCX pcx H3bitmap.lod · SoD CBONE2A1.PCX pcx H3bitmap.lod · SoD CBONE2A2.PCX pcx H3bitmap.lod · SoD CBONE2A3.PCX pcx H3bitmap.lod · SoD CBONE2B1.PCX pcx H3bitmap.lod · SoD CBONE2B2.PCX pcx H3bitmap.lod · SoD CBONE2B3.PCX pcx H3bitmap.lod · SoD CBONE2C1.PCX pcx H3bitmap.lod · SoD CBONE2C2.PCX pcx H3bitmap.lod · SoD CBONE2C3.PCX pcx H3bitmap.lod · SoD CBONE2D1.PCX pcx H3bitmap.lod · SoD CBONE2D2.PCX pcx H3bitmap.lod · SoD CBONE2D3.PCX pcx H3bitmap.lod · SoD CBONG1A1.PCX pcx H3bitmap.lod · SoD CBONG1A2.PCX pcx H3bitmap.lod · SoD CBONG1A3.PCX pcx H3bitmap.lod · SoD CBONG1B1.PCX pcx H3bitmap.lod · SoD CBONG1B2.PCX pcx H3bitmap.lod · SoD CBONG1B3.PCX pcx H3bitmap.lod · SoD CBONG1C1.PCX pcx H3bitmap.lod · SoD CBONG1C2.PCX pcx H3bitmap.lod · SoD CBONG1C3.PCX pcx H3bitmap.lod · SoD CBONG2A1.PCX pcx H3bitmap.lod · SoD CBONG2A2.PCX pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
         "id": "file-2fa8d403fe50",
         "heading": "Новое начало",
         "text": "Csl2NBd.pcx pcx H3bitmap.lod · SoD"
@@ -204512,7 +209636,7 @@ export const searchIndex = [
         "text": "Csl2NBe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-11-depth-2",
+        "id": "group-0-depth-2",
         "heading": "Новое начало",
         "text": "File Resource Source"
       },
@@ -204542,7 +209666,7 @@ export const searchIndex = [
         "text": "Csl2ELe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-12-depth-2",
+        "id": "group-1-depth-2",
         "heading": "Эликсир жизни",
         "text": "File Resource Source"
       },
@@ -204572,7 +209696,7 @@ export const searchIndex = [
         "text": "CslReE5c.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-13-depth-2",
+        "id": "group-2-depth-2",
         "heading": "Руби и Кромсай(**)",
         "text": "File Resource Source"
       },
@@ -204607,37 +209731,10 @@ export const searchIndex = [
         "text": "Csl2BBf.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-14-depth-2",
+        "id": "group-3-depth-2",
         "heading": "Рождение варвара",
         "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-37",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "ru",
-    "slug": "bitmap/0/1/page-37",
-    "url": "/ru/wiki/bitmap/0/1/page-37/",
-    "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 37/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Превью к видеороликам / Дыхание Смерти / Возвышение некроманта Превью к видеороликам Дыхание Смерти Возвышение некроманта File Resource Source Csl2RNa.pcx pcx H3bitmap.lod · SoD Csl2RNb.pcx pcx H3bitmap.lod · SoD Csl2RNc.pcx pcx H3bitmap.lod · SoD Csl2RNd.pcx pcx H3bitmap.lod · SoD Csl2RNe.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Союз нечисти Союз нечисти File Resource Source Csl2UAa.pcx pcx H3bitmap.lod · SoD Csl2UAb.pcx pcx H3bitmap.lod · SoD Csl2UAc.pcx pcx H3bitmap.lod · SoD Csl2UAd.pcx pcx H3bitmap.lod · SoD Csl2UAe.pcx pcx H3bitmap.lod · SoD Csl2UAf.pcx pcx H3bitmap.lod · SoD Csl2UAg.pcx pcx H3bitmap.lod · SoD Csl2UAh.pcx pcx H3bitmap.lod · SoD Csl2UAi.pcx pcx H3bitmap.lod · SoD Csl2UAj.pcx pcx H3bitmap.lod · SoD Csl2UAk.pcx pcx H3bitmap.lod · SoD Csl2UAl.pcx pcx H3bitmap.lod · SoD Csl2UAm.pcx pcx H3bitmap.lod · SoD Превью к видеороликам / Дыхание Смерти / Призрак власти Призрак власти File Resource Source Csl2SPa.pcx pcx H3bitmap.lod · SoD Csl2SPb.pcx pcx H3bitmap.lod · SoD Csl2SPc.pcx pcx H3bitmap.lod · SoD Csl2SPd.pcx pcx H3bitmap.lod · SoD Csl2SPe.pcx pcx H3bitmap.lod · SoD Прочие файлы Прочие файлы File Resource Source CBONE1A1.PCX pcx H3bitmap.lod · SoD CBONE1A2.PCX pcx H3bitmap.lod · SoD CBONE1A3.PCX pcx H3bitmap.lod · SoD CBONE1B1.PCX pcx H3bitmap.lod · SoD CBONE1B2.PCX pcx H3bitmap.lod · SoD CBONE1B3.PCX pcx H3bitmap.lod · SoD CBONE1C1.PCX pcx H3bitmap.lod · SoD CBONE1C2.PCX pcx H3bitmap.lod · SoD CBONE2A1.PCX pcx H3bitmap.lod · SoD CBONE2A2.PCX pcx H3bitmap.lod · SoD CBONE2A3.PCX pcx H3bitmap.lod · SoD CBONE2B1.PCX pcx H3bitmap.lod · SoD CBONE2B2.PCX pcx H3bitmap.lod · SoD CBONE2B3.PCX pcx H3bitmap.lod · SoD CBONE2C1.PCX pcx H3bitmap.lod · SoD CBONE2C2.PCX pcx H3bitmap.lod · SoD CBONE2C3.PCX pcx H3bitmap.lod · SoD CBONE2D1.PCX pcx H3bitmap.lod · SoD CBONE2D2.PCX pcx H3bitmap.lod · SoD CBONE2D3.PCX pcx H3bitmap.lod · SoD CBONG1A1.PCX pcx H3bitmap.lod · SoD CBONG1A2.PCX pcx H3bitmap.lod · SoD CBONG1A3.PCX pcx H3bitmap.lod · SoD CBONG1B1.PCX pcx H3bitmap.lod · SoD CBONG1B2.PCX pcx H3bitmap.lod · SoD CBONG1B3.PCX pcx H3bitmap.lod · SoD CBONG1C1.PCX pcx H3bitmap.lod · SoD CBONG1C2.PCX pcx H3bitmap.lod · SoD CBONG1C3.PCX pcx H3bitmap.lod · SoD CBONG2A1.PCX pcx H3bitmap.lod · SoD CBONG2A2.PCX pcx H3bitmap.lod · SoD CBONG2A3.PCX pcx H3bitmap.lod · SoD CBONG2B1.PCX pcx H3bitmap.lod · SoD CBONG2B2.PCX pcx H3bitmap.lod · SoD CBONG2B3.PCX pcx H3bitmap.lod · SoD CBONG2C1.PCX pcx H3bitmap.lod · SoD CBONG2C2.PCX pcx H3bitmap.lod · SoD CBONG2C3.PCX pcx H3bitmap.lod · SoD CBONG2D1.PCX pcx H3bitmap.lod · SoD CBONG2D2.PCX pcx H3bitmap.lod · SoD CBONG2D3.PCX pcx H3bitmap.lod · SoD CBONG3A1.PCX pcx H3bitmap.lod · SoD CBONG3A2.PCX pcx H3bitmap.lod · SoD CBONG3A3.PCX pcx H3bitmap.lod · SoD CBONG3B1.PCX pcx H3bitmap.lod · SoD CBONG3B2.PCX pcx H3bitmap.lod · SoD CBONG3B3.PCX pcx H3bitmap.lod · SoD CBONG3C1.PCX pcx H3bitmap.lod · SoD CBONG3C2.PCX pcx H3bitmap.lod · SoD",
-    "segments": [
+      },
       {
         "id": "file-719ccb44f605",
         "heading": "Возвышение некроманта",
@@ -204664,7 +209761,7 @@ export const searchIndex = [
         "text": "Csl2RNe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-0-depth-2",
+        "id": "group-4-depth-2",
         "heading": "Возвышение некроманта",
         "text": "File Resource Source"
       },
@@ -204734,7 +209831,7 @@ export const searchIndex = [
         "text": "Csl2UAm.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-1-depth-2",
+        "id": "group-5-depth-2",
         "heading": "Союз нечисти",
         "text": "File Resource Source"
       },
@@ -204764,7 +209861,7 @@ export const searchIndex = [
         "text": "Csl2SPe.pcx pcx H3bitmap.lod · SoD"
       },
       {
-        "id": "group-2-depth-2",
+        "id": "group-6-depth-2",
         "heading": "Призрак власти",
         "text": "File Resource Source"
       },
@@ -204924,6 +210021,37 @@ export const searchIndex = [
         "text": "CBONG2A2.PCX pcx H3bitmap.lod · SoD"
       },
       {
+        "id": "group-7-depth-0",
+        "heading": "Прочие файлы",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-38",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "bitmap/0/1/page-38",
+    "url": "/ru/wiki/bitmap/0/1/page-38/",
+    "title": "Элементы кампаний",
+    "summary": "H3bitmap.lod · 38/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod"
+    ],
+    "text": "Прочие файлы Прочие файлы File Resource Source CBONG2A3.PCX pcx H3bitmap.lod · SoD CBONG2B1.PCX pcx H3bitmap.lod · SoD CBONG2B2.PCX pcx H3bitmap.lod · SoD CBONG2B3.PCX pcx H3bitmap.lod · SoD CBONG2C1.PCX pcx H3bitmap.lod · SoD CBONG2C2.PCX pcx H3bitmap.lod · SoD CBONG2C3.PCX pcx H3bitmap.lod · SoD CBONG2D1.PCX pcx H3bitmap.lod · SoD CBONG2D2.PCX pcx H3bitmap.lod · SoD CBONG2D3.PCX pcx H3bitmap.lod · SoD CBONG3A1.PCX pcx H3bitmap.lod · SoD CBONG3A2.PCX pcx H3bitmap.lod · SoD CBONG3A3.PCX pcx H3bitmap.lod · SoD CBONG3B1.PCX pcx H3bitmap.lod · SoD CBONG3B2.PCX pcx H3bitmap.lod · SoD CBONG3B3.PCX pcx H3bitmap.lod · SoD CBONG3C1.PCX pcx H3bitmap.lod · SoD CBONG3C2.PCX pcx H3bitmap.lod · SoD CBONG3C3.PCX pcx H3bitmap.lod · SoD CBONN1A1.PCX pcx H3bitmap.lod · SoD CBONN1A2.PCX pcx H3bitmap.lod · SoD CBONN1B1.PCX pcx H3bitmap.lod · SoD CBONN1B2.PCX pcx H3bitmap.lod · SoD CBONN1B3.PCX pcx H3bitmap.lod · SoD CBONN1C1.PCX pcx H3bitmap.lod · SoD CBONN1C2.PCX pcx H3bitmap.lod · SoD CBONS1A1.PCX pcx H3bitmap.lod · SoD CBONS1A2.PCX pcx H3bitmap.lod · SoD CBONS1A3.PCX pcx H3bitmap.lod · SoD CBONS1B1.PCX pcx H3bitmap.lod · SoD CBONS1B2.PCX pcx H3bitmap.lod · SoD CBONS1B3.PCX pcx H3bitmap.lod · SoD CBONS1C1.PCX pcx H3bitmap.lod · SoD CBONS1C2.PCX pcx H3bitmap.lod · SoD CBONS1C3.PCX pcx H3bitmap.lod · SoD CampSwrd.pcx pcx H3bitmap.lod · SoD CmBkFW.pcx pcx H3bitmap.lod · SoD CrestBk.pcx pcx H3bitmap.lod · SoD CslReS5a.pcx pcx H3bitmap.lod · SoD DIBOX128.PCX pcx H3bitmap.lod · SoD E1A_CO.PCX pcx H3bitmap.lod · SoD E1A_EN.PCX pcx H3bitmap.lod · SoD E1A_SE.PCX pcx H3bitmap.lod · SoD E1B_CO.PCX pcx H3bitmap.lod · SoD E1B_EN.PCX pcx H3bitmap.lod · SoD E1B_SE.PCX pcx H3bitmap.lod · SoD E1C_CO.PCX pcx H3bitmap.lod · SoD E1C_EN.PCX pcx H3bitmap.lod · SoD E1C_SE.PCX pcx H3bitmap.lod · SoD E1P1_CO.PCX pcx H3bitmap.lod · SoD E1P1_EN.PCX pcx H3bitmap.lod · SoD E1P1_SE.PCX pcx H3bitmap.lod · SoD E1P2_CO.PCX pcx H3bitmap.lod · SoD E1P2_EN.PCX pcx H3bitmap.lod · SoD E1P2_SE.PCX pcx H3bitmap.lod · SoD E1P3_CO.PCX pcx H3bitmap.lod · SoD E1P3_EN.PCX pcx H3bitmap.lod · SoD E1P3_SE.PCX pcx H3bitmap.lod · SoD E1P4_CO.PCX pcx H3bitmap.lod · SoD E1P4_EN.PCX pcx H3bitmap.lod · SoD E1P4_SE.PCX pcx H3bitmap.lod · SoD E2A_CO.PCX pcx H3bitmap.lod · SoD E2A_EN.PCX pcx H3bitmap.lod · SoD E2A_SE.PCX pcx H3bitmap.lod · SoD E2B_CO.PCX pcx H3bitmap.lod · SoD E2B_EN.PCX pcx H3bitmap.lod · SoD E2B_SE.PCX pcx H3bitmap.lod · SoD E2C_CO.PCX pcx H3bitmap.lod · SoD E2C_EN.PCX pcx H3bitmap.lod · SoD E2C_SE.PCX pcx H3bitmap.lod · SoD E2D_CO.PCX pcx H3bitmap.lod · SoD E2D_EN.PCX pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
         "id": "file-580d596640df",
         "heading": "Прочие файлы",
         "text": "CBONG2A3.PCX pcx H3bitmap.lod · SoD"
@@ -205013,38 +210141,6 @@ export const searchIndex = [
         "heading": "Прочие файлы",
         "text": "CBONG3C2.PCX pcx H3bitmap.lod · SoD"
       },
-      {
-        "id": "group-3-depth-0",
-        "heading": "Прочие файлы",
-        "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-38",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "ru",
-    "slug": "bitmap/0/1/page-38",
-    "url": "/ru/wiki/bitmap/0/1/page-38/",
-    "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 38/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Прочие файлы Прочие файлы File Resource Source CBONG3C3.PCX pcx H3bitmap.lod · SoD CBONN1A1.PCX pcx H3bitmap.lod · SoD CBONN1A2.PCX pcx H3bitmap.lod · SoD CBONN1B1.PCX pcx H3bitmap.lod · SoD CBONN1B2.PCX pcx H3bitmap.lod · SoD CBONN1B3.PCX pcx H3bitmap.lod · SoD CBONN1C1.PCX pcx H3bitmap.lod · SoD CBONN1C2.PCX pcx H3bitmap.lod · SoD CBONS1A1.PCX pcx H3bitmap.lod · SoD CBONS1A2.PCX pcx H3bitmap.lod · SoD CBONS1A3.PCX pcx H3bitmap.lod · SoD CBONS1B1.PCX pcx H3bitmap.lod · SoD CBONS1B2.PCX pcx H3bitmap.lod · SoD CBONS1B3.PCX pcx H3bitmap.lod · SoD CBONS1C1.PCX pcx H3bitmap.lod · SoD CBONS1C2.PCX pcx H3bitmap.lod · SoD CBONS1C3.PCX pcx H3bitmap.lod · SoD CampSwrd.pcx pcx H3bitmap.lod · SoD CmBkFW.pcx pcx H3bitmap.lod · SoD CrestBk.pcx pcx H3bitmap.lod · SoD CslReS5a.pcx pcx H3bitmap.lod · SoD DIBOX128.PCX pcx H3bitmap.lod · SoD E1A_CO.PCX pcx H3bitmap.lod · SoD E1A_EN.PCX pcx H3bitmap.lod · SoD E1A_SE.PCX pcx H3bitmap.lod · SoD E1B_CO.PCX pcx H3bitmap.lod · SoD E1B_EN.PCX pcx H3bitmap.lod · SoD E1B_SE.PCX pcx H3bitmap.lod · SoD E1C_CO.PCX pcx H3bitmap.lod · SoD E1C_EN.PCX pcx H3bitmap.lod · SoD E1C_SE.PCX pcx H3bitmap.lod · SoD E1P1_CO.PCX pcx H3bitmap.lod · SoD E1P1_EN.PCX pcx H3bitmap.lod · SoD E1P1_SE.PCX pcx H3bitmap.lod · SoD E1P2_CO.PCX pcx H3bitmap.lod · SoD E1P2_EN.PCX pcx H3bitmap.lod · SoD E1P2_SE.PCX pcx H3bitmap.lod · SoD E1P3_CO.PCX pcx H3bitmap.lod · SoD E1P3_EN.PCX pcx H3bitmap.lod · SoD E1P3_SE.PCX pcx H3bitmap.lod · SoD E1P4_CO.PCX pcx H3bitmap.lod · SoD E1P4_EN.PCX pcx H3bitmap.lod · SoD E1P4_SE.PCX pcx H3bitmap.lod · SoD E2A_CO.PCX pcx H3bitmap.lod · SoD E2A_EN.PCX pcx H3bitmap.lod · SoD E2A_SE.PCX pcx H3bitmap.lod · SoD E2B_CO.PCX pcx H3bitmap.lod · SoD E2B_EN.PCX pcx H3bitmap.lod · SoD E2B_SE.PCX pcx H3bitmap.lod · SoD E2C_CO.PCX pcx H3bitmap.lod · SoD E2C_EN.PCX pcx H3bitmap.lod · SoD E2C_SE.PCX pcx H3bitmap.lod · SoD E2D_CO.PCX pcx H3bitmap.lod · SoD E2D_EN.PCX pcx H3bitmap.lod · SoD E2D_SE.PCX pcx H3bitmap.lod · SoD G1A_CO.PCX pcx H3bitmap.lod · SoD G1A_EN.PCX pcx H3bitmap.lod · SoD G1A_SE.PCX pcx H3bitmap.lod · SoD G1B_CO.PCX pcx H3bitmap.lod · SoD G1B_EN.PCX pcx H3bitmap.lod · SoD G1B_SE.PCX pcx H3bitmap.lod · SoD G1C_CO.PCX pcx H3bitmap.lod · SoD G1C_EN.PCX pcx H3bitmap.lod · SoD G1C_SE.PCX pcx H3bitmap.lod · SoD G2A_CO.PCX pcx H3bitmap.lod · SoD G2A_EN.PCX pcx H3bitmap.lod · SoD G2A_SE.PCX pcx H3bitmap.lod · SoD G2B_CO.PCX pcx H3bitmap.lod · SoD G2B_EN.PCX pcx H3bitmap.lod · SoD G2B_SE.PCX pcx H3bitmap.lod · SoD G2C_CO.PCX pcx H3bitmap.lod · SoD G2C_EN.PCX pcx H3bitmap.lod · SoD",
-    "segments": [
       {
         "id": "file-620f5df924c9",
         "heading": "Прочие файлы",
@@ -205316,6 +210412,37 @@ export const searchIndex = [
         "text": "E2D_EN.PCX pcx H3bitmap.lod · SoD"
       },
       {
+        "id": "group-0-depth-0",
+        "heading": "Прочие файлы",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.bitmap.0.1.page-39",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "bitmap/0/1/page-39",
+    "url": "/ru/wiki/bitmap/0/1/page-39/",
+    "title": "Элементы кампаний",
+    "summary": "H3bitmap.lod · 39/39",
+    "keywords": [
+      "SoD",
+      "Элементы кампаний",
+      "Campaign elements"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Элементы кампаний?",
+      "Which files are in Campaign elements?"
+    ],
+    "sourceRefs": [
+      "wiki-sod:H3bitmap.lf",
+      "wiki-sod:H3bitmap.lod"
+    ],
+    "text": "Прочие файлы Прочие файлы File Resource Source E2D_SE.PCX pcx H3bitmap.lod · SoD G1A_CO.PCX pcx H3bitmap.lod · SoD G1A_EN.PCX pcx H3bitmap.lod · SoD G1A_SE.PCX pcx H3bitmap.lod · SoD G1B_CO.PCX pcx H3bitmap.lod · SoD G1B_EN.PCX pcx H3bitmap.lod · SoD G1B_SE.PCX pcx H3bitmap.lod · SoD G1C_CO.PCX pcx H3bitmap.lod · SoD G1C_EN.PCX pcx H3bitmap.lod · SoD G1C_SE.PCX pcx H3bitmap.lod · SoD G2A_CO.PCX pcx H3bitmap.lod · SoD G2A_EN.PCX pcx H3bitmap.lod · SoD G2A_SE.PCX pcx H3bitmap.lod · SoD G2B_CO.PCX pcx H3bitmap.lod · SoD G2B_EN.PCX pcx H3bitmap.lod · SoD G2B_SE.PCX pcx H3bitmap.lod · SoD G2C_CO.PCX pcx H3bitmap.lod · SoD G2C_EN.PCX pcx H3bitmap.lod · SoD G2C_SE.PCX pcx H3bitmap.lod · SoD G2D_CO.PCX pcx H3bitmap.lod · SoD G2D_EN.PCX pcx H3bitmap.lod · SoD G2D_SE.PCX pcx H3bitmap.lod · SoD G3A_CO.PCX pcx H3bitmap.lod · SoD G3A_EN.PCX pcx H3bitmap.lod · SoD G3A_SE.PCX pcx H3bitmap.lod · SoD G3B_CO.PCX pcx H3bitmap.lod · SoD G3B_EN.PCX pcx H3bitmap.lod · SoD G3B_SE.PCX pcx H3bitmap.lod · SoD G3C_CO.PCX pcx H3bitmap.lod · SoD G3C_EN.PCX pcx H3bitmap.lod · SoD G3C_SE.PCX pcx H3bitmap.lod · SoD N1A_CO.PCX pcx H3bitmap.lod · SoD N1A_EN.PCX pcx H3bitmap.lod · SoD N1A_SE.PCX pcx H3bitmap.lod · SoD N1B_CO.PCX pcx H3bitmap.lod · SoD N1B_EN.PCX pcx H3bitmap.lod · SoD N1B_SE.PCX pcx H3bitmap.lod · SoD N1CD_CO.PCX pcx H3bitmap.lod · SoD N1CD_EN.PCX pcx H3bitmap.lod · SoD N1CD_SE.PCX pcx H3bitmap.lod · SoD S1A_CO.PCX pcx H3bitmap.lod · SoD S1A_EN.PCX pcx H3bitmap.lod · SoD S1A_SE.PCX pcx H3bitmap.lod · SoD S1B_CO.PCX pcx H3bitmap.lod · SoD S1B_EN.PCX pcx H3bitmap.lod · SoD S1B_SE.PCX pcx H3bitmap.lod · SoD S1C_CO.PCX pcx H3bitmap.lod · SoD S1C_EN.PCX pcx H3bitmap.lod · SoD S1C_SE.PCX pcx H3bitmap.lod · SoD",
+    "segments": [
+      {
         "id": "file-9ee9b1a23089",
         "heading": "Прочие файлы",
         "text": "E2D_SE.PCX pcx H3bitmap.lod · SoD"
@@ -205405,38 +210532,6 @@ export const searchIndex = [
         "heading": "Прочие файлы",
         "text": "G2C_EN.PCX pcx H3bitmap.lod · SoD"
       },
-      {
-        "id": "group-0-depth-0",
-        "heading": "Прочие файлы",
-        "text": "File Resource Source"
-      }
-    ]
-  },
-  {
-    "id": "wiki.bitmap.0.1.page-39",
-    "kind": "article",
-    "section": "wiki",
-    "locale": "ru",
-    "slug": "bitmap/0/1/page-39",
-    "url": "/ru/wiki/bitmap/0/1/page-39/",
-    "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 39/39",
-    "keywords": [
-      "SoD",
-      "H3bitmap.lod",
-      "Элементы кампаний",
-      "Campaign elements"
-    ],
-    "questions": [
-      "Какие ресурсы содержит Элементы кампаний?",
-      "Which files are in Campaign elements?"
-    ],
-    "sourceRefs": [
-      "wiki-sod:H3bitmap.lf",
-      "wiki-sod:H3bitmap.lod"
-    ],
-    "text": "Прочие файлы Прочие файлы File Resource Source G2C_SE.PCX pcx H3bitmap.lod · SoD G2D_CO.PCX pcx H3bitmap.lod · SoD G2D_EN.PCX pcx H3bitmap.lod · SoD G2D_SE.PCX pcx H3bitmap.lod · SoD G3A_CO.PCX pcx H3bitmap.lod · SoD G3A_EN.PCX pcx H3bitmap.lod · SoD G3A_SE.PCX pcx H3bitmap.lod · SoD G3B_CO.PCX pcx H3bitmap.lod · SoD G3B_EN.PCX pcx H3bitmap.lod · SoD G3B_SE.PCX pcx H3bitmap.lod · SoD G3C_CO.PCX pcx H3bitmap.lod · SoD G3C_EN.PCX pcx H3bitmap.lod · SoD G3C_SE.PCX pcx H3bitmap.lod · SoD N1A_CO.PCX pcx H3bitmap.lod · SoD N1A_EN.PCX pcx H3bitmap.lod · SoD N1A_SE.PCX pcx H3bitmap.lod · SoD N1B_CO.PCX pcx H3bitmap.lod · SoD N1B_EN.PCX pcx H3bitmap.lod · SoD N1B_SE.PCX pcx H3bitmap.lod · SoD N1CD_CO.PCX pcx H3bitmap.lod · SoD N1CD_EN.PCX pcx H3bitmap.lod · SoD N1CD_SE.PCX pcx H3bitmap.lod · SoD S1A_CO.PCX pcx H3bitmap.lod · SoD S1A_EN.PCX pcx H3bitmap.lod · SoD S1A_SE.PCX pcx H3bitmap.lod · SoD S1B_CO.PCX pcx H3bitmap.lod · SoD S1B_EN.PCX pcx H3bitmap.lod · SoD S1B_SE.PCX pcx H3bitmap.lod · SoD S1C_CO.PCX pcx H3bitmap.lod · SoD S1C_EN.PCX pcx H3bitmap.lod · SoD S1C_SE.PCX pcx H3bitmap.lod · SoD",
-    "segments": [
       {
         "id": "file-4f5e8a5c640c",
         "heading": "Прочие файлы",
@@ -205607,10 +210702,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-4",
     "url": "/ru/wiki/bitmap/0/1/page-4/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 4/39",
+    "summary": "H3bitmap.lod · 4/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -206004,10 +211098,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-5",
     "url": "/ru/wiki/bitmap/0/1/page-5/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 5/39",
+    "summary": "H3bitmap.lod · 5/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -206401,10 +211494,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-6",
     "url": "/ru/wiki/bitmap/0/1/page-6/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 6/39",
+    "summary": "H3bitmap.lod · 6/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -206798,10 +211890,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-7",
     "url": "/ru/wiki/bitmap/0/1/page-7/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 7/39",
+    "summary": "H3bitmap.lod · 7/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -207190,10 +212281,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-8",
     "url": "/ru/wiki/bitmap/0/1/page-8/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 8/39",
+    "summary": "H3bitmap.lod · 8/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -207587,10 +212677,9 @@ export const searchIndex = [
     "slug": "bitmap/0/1/page-9",
     "url": "/ru/wiki/bitmap/0/1/page-9/",
     "title": "Элементы кампаний",
-    "summary": "SoD · H3bitmap.lod · 9/39",
+    "summary": "H3bitmap.lod · 9/39",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Элементы кампаний",
       "Campaign elements"
     ],
@@ -212552,10 +217641,9 @@ export const searchIndex = [
     "slug": "bitmap/3/0",
     "url": "/ru/wiki/bitmap/3/0/",
     "title": "Возрождение Эрафии",
-    "summary": "SoD · H3bitmap.lod · 1/1",
+    "summary": "H3bitmap.lod · 1/1",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Возрождение Эрафии",
       "Restoration of Erathia"
     ],
@@ -212642,6 +217730,107 @@ export const searchIndex = [
     ]
   },
   {
+    "id": "wiki.bitmap.3.1",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "bitmap/3/1",
+    "url": "/ru/wiki/bitmap/3/1/",
+    "title": "Клинок Армагеддона",
+    "summary": "AB campaigns · 1/1",
+    "keywords": [
+      "AB",
+      "Клинок Армагеддона",
+      "Armageddon's Blade"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Клинок Армагеддона?",
+      "Which files are in Armageddon's Blade?"
+    ],
+    "sourceRefs": [
+      "wiki-ab:ab.h3c",
+      "wiki-ab:blood.h3c",
+      "wiki-ab:festival.h3c",
+      "wiki-ab:fire.h3c",
+      "wiki-ab:fool.h3c",
+      "wiki-ab:Neutral.h3c",
+      "wiki-ab:slayer.h3c"
+    ],
+    "text": "Клинок Армагеддона Клинок Армагеддона File Resource Source ab.h3c h3c AB campaigns · AB Кровь дракона Кровь дракона File Resource Source blood.h3c h3c AB campaigns · AB Праздник жизни Праздник жизни File Resource Source festival.h3c h3c AB campaigns · AB Игры с огнем Игры с огнем File Resource Source fire.h3c h3c AB campaigns · AB Своенравный храбрец Своенравный храбрец File Resource Source fool.h3c h3c AB campaigns · AB Отголоски войны Отголоски войны File Resource Source Neutral.h3c h3c AB campaigns · AB Убийца драконов Убийца драконов File Resource Source slayer.h3c h3c AB campaigns · AB",
+    "segments": [
+      {
+        "id": "file-925c5a7ab0fe",
+        "heading": "Клинок Армагеддона",
+        "text": "ab.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Клинок Армагеддона",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-3e6f1c34bc4f",
+        "heading": "Кровь дракона",
+        "text": "blood.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-1-depth-0",
+        "heading": "Кровь дракона",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-121e9e51b8a2",
+        "heading": "Праздник жизни",
+        "text": "festival.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-2-depth-0",
+        "heading": "Праздник жизни",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-f541389e530d",
+        "heading": "Игры с огнем",
+        "text": "fire.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-3-depth-0",
+        "heading": "Игры с огнем",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-f1de8d994c02",
+        "heading": "Своенравный храбрец",
+        "text": "fool.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-4-depth-0",
+        "heading": "Своенравный храбрец",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-ddc8369b932c",
+        "heading": "Отголоски войны",
+        "text": "Neutral.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-5-depth-0",
+        "heading": "Отголоски войны",
+        "text": "File Resource Source"
+      },
+      {
+        "id": "file-2da79b32a78b",
+        "heading": "Убийца драконов",
+        "text": "slayer.h3c h3c AB campaigns · AB"
+      },
+      {
+        "id": "group-6-depth-0",
+        "heading": "Убийца драконов",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
     "id": "wiki.bitmap.3.2",
     "kind": "article",
     "section": "wiki",
@@ -212649,10 +217838,9 @@ export const searchIndex = [
     "slug": "bitmap/3/2",
     "url": "/ru/wiki/bitmap/3/2/",
     "title": "Дыхание Смерти",
-    "summary": "SoD · H3bitmap.lod · 1/1",
+    "summary": "H3bitmap.lod · 1/1",
     "keywords": [
       "SoD",
-      "H3bitmap.lod",
       "Дыхание Смерти",
       "The Shadow of Death"
     ],
@@ -240554,6 +245742,4726 @@ export const searchIndex = [
         "id": "file-931ff09bc075",
         "heading": "Видео",
         "text": "WIN3.BIK video VIDEO.VID · SoD"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Видео",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs",
+    "url": "/ru/wiki/wog/defs/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 1/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source artifact.def def hmm35wog.pac · WoG ava0000.def def hmm35wog.pac · WoG ava0000.msk msk hmm35wog.pac · WoG ava0002.def def hmm35wog.pac · WoG ava0002.msk msk hmm35wog.pac · WoG ava0003.def def hmm35wog.pac · WoG ava0003.msk msk hmm35wog.pac · WoG ava0004.def def hmm35wog.pac · WoG ava0004.msk msk hmm35wog.pac · WoG ava0005.def def hmm35wog.pac · WoG ava0005.msk msk hmm35wog.pac · WoG ava0006.def def hmm35wog.pac · WoG ava0006.msk msk hmm35wog.pac · WoG ava0007.def def hmm35wog.pac · WoG avarand.def def hmm35wog.pac · WoG avarand.msk msk hmm35wog.pac · WoG AVArnd1.def def hmm35wog.pac · WoG AVArnd1.msk msk hmm35wog.pac · WoG AVArnd2.def def hmm35wog.pac · WoG AVArnd2.msk msk hmm35wog.pac · WoG AVArnd3.def def hmm35wog.pac · WoG AVArnd3.msk msk hmm35wog.pac · WoG AVArnd4.def def hmm35wog.pac · WoG AVArnd4.msk msk hmm35wog.pac · WoG avccast1.def def hmm35wog.pac · WoG avccast1.msk msk hmm35wog.pac · WoG avccast2.def def hmm35wog.pac · WoG avccast2.msk msk hmm35wog.pac · WoG avccast3.def def hmm35wog.pac · WoG avccast3.msk msk hmm35wog.pac · WoG AVCCAST4.def def hmm35wog.pac · WoG avccast4.msk msk hmm35wog.pac · WoG avcconf1.def def hmm35wog.pac · WoG avcconf1.msk msk hmm35wog.pac · WoG avcconf2.def def hmm35wog.pac · WoG avcconf2.msk msk hmm35wog.pac · WoG avcconf3.def def hmm35wog.pac · WoG avcconf3.msk msk hmm35wog.pac · WoG avcconf4.def def hmm35wog.pac · WoG avcconf4.msk msk hmm35wog.pac · WoG avcdung1.def def hmm35wog.pac · WoG avcdung1.msk msk hmm35wog.pac · WoG avcdung2.def def hmm35wog.pac · WoG avcdung2.msk msk hmm35wog.pac · WoG avcdung3.def def hmm35wog.pac · WoG avcdung3.msk msk hmm35wog.pac · WoG AVCDUNG4.def def hmm35wog.pac · WoG avcdung4.msk msk hmm35wog.pac · WoG avcfort1.def def hmm35wog.pac · WoG avcfort1.msk msk hmm35wog.pac · WoG avcfort2.def def hmm35wog.pac · WoG avcfort2.msk msk hmm35wog.pac · WoG avcfort3.def def hmm35wog.pac · WoG avcfort3.msk msk hmm35wog.pac · WoG AVCfort4.def def hmm35wog.pac · WoG avcfort4.msk msk hmm35wog.pac · WoG avcgar10.def def hmm35wog.pac · WoG avcgar20.def def hmm35wog.pac · WoG avcinfr1.def def hmm35wog.pac · WoG avcinfr1.msk msk hmm35wog.pac · WoG avcinfr2.def def hmm35wog.pac · WoG avcinfr2.msk msk hmm35wog.pac · WoG avcinfr3.def def hmm35wog.pac · WoG avcinfr3.msk msk hmm35wog.pac · WoG AVCinfr4.def def hmm35wog.pac · WoG avcinfr4.msk msk hmm35wog.pac · WoG avcnecr1.def def hmm35wog.pac · WoG avcnecr1.msk msk hmm35wog.pac · WoG avcnecr2.def def hmm35wog.pac · WoG avcnecr2.msk msk hmm35wog.pac · WoG avcnecr3.def def hmm35wog.pac · WoG avcnecr3.msk msk hmm35wog.pac · WoG AVCNECR4.def def hmm35wog.pac · WoG avcnecr4.msk msk hmm35wog.pac · WoG avcramp1.def def hmm35wog.pac · WoG avcramp1.msk msk hmm35wog.pac · WoG avcramp2.def def hmm35wog.pac · WoG avcramp2.msk msk hmm35wog.pac · WoG avcramp3.def def hmm35wog.pac · WoG avcramp3.msk msk hmm35wog.pac · WoG AVCRAMP4.def def hmm35wog.pac · WoG avcramp4.msk msk hmm35wog.pac · WoG avcstrn1.def def hmm35wog.pac · WoG avcstrn1.msk msk hmm35wog.pac · WoG avcstrn2.def def hmm35wog.pac · WoG avcstrn2.msk msk hmm35wog.pac · WoG avcstrn3.def def hmm35wog.pac · WoG avcstrn3.msk msk hmm35wog.pac · WoG AVCSTRN4.def def hmm35wog.pac · WoG avcstrn4.msk msk hmm35wog.pac · WoG avctowr1.def def hmm35wog.pac · WoG avctowr1.msk msk hmm35wog.pac · WoG avctowr2.def def hmm35wog.pac · WoG avctowr2.msk msk hmm35wog.pac · WoG avctowr3.def def hmm35wog.pac · WoG avctowr3.msk msk hmm35wog.pac · WoG AVCTOWR4.def def hmm35wog.pac · WoG avctowr4.msk msk hmm35wog.pac · WoG avcvgarm.def def hmm35wog.pac · WoG avcvgr.def def hmm35wog.pac · WoG avgelp.def def hmm35wog.pac · WoG avgelp.msk msk hmm35wog.pac · WoG avgtrll.def def hmm35wog.pac · WoG avllk1d0.def def hmm35wog.pac · WoG avllk1g0.def def hmm35wog.pac · WoG avllk1r.def def hmm35wog.pac · WoG avllk1s0.def def hmm35wog.pac · WoG avllk1u0.def def hmm35wog.pac · WoG avllk2d0.def def hmm35wog.pac · WoG avllk2g0.def def hmm35wog.pac · WoG avllk2s0.def def hmm35wog.pac · WoG avllk2u0.def def hmm35wog.pac · WoG avllk3d0.def def hmm35wog.pac · WoG avllk3g0.def def hmm35wog.pac · WoG avllk3s0.def def hmm35wog.pac · WoG avllk3u0.def def hmm35wog.pac · WoG avlswp50.def def hmm35wog.pac · WoG avmgedr0.def def hmm35wog.pac · WoG avmgelv0.def def hmm35wog.pac · WoG avmgems0.def def hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-8c7d90bead43",
+        "heading": "DEF-файлы (*.def)",
+        "text": "artifact.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7c5273b9e889",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0000.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d303c6fbc2a6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0000.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d436bc10cfb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-faab61ca90a6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5388f6771852",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f370611adb79",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5c6db65b60aa",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0004.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-48fd9fd37473",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0004.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c1fb3ade1c14",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0005.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0f4e5873c02a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0005.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7624af6d657d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0006.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-58d717f41eeb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0006.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-68129a42a462",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ava0007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7a6e8ac8efc0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avarand.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-de87a40b782e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avarand.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-88368c202a37",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-892074c2ff9e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ee02c424f2c9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-14701fd011a6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-357d22e76763",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-efc854c6d91a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cfdcb82b98aa",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a205977285d0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVArnd4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5f4e6dd3708",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-166b1b6dd4c4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff3adc37c237",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f0acb45c809c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9afbc4a485cc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42df11506bfb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3a4dafa5f89",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCCAST4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-37fba2f3c93b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avccast4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a53e74b0b74b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-393454b025e3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8580bddcb57",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3de37077418e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dfa95791922d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-da28e23d861b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9e2a76aea3d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f64453a3c80d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcconf4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e71478f3082e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66d49a92300d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-96e381921127",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-37b8ea61da5f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5c9a798e92ca",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fbdd2ee93178",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a74e79a19e50",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCDUNG4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-052de4918093",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcdung4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-189f9fa92882",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-32a10eaa75b2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-73dbd86cf71d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-535f572efc70",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e7b383cd9c15",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-266b5f5283b2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-45a3484ab00d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCfort4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dcecddf506bd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcfort4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c9deec315f5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcgar10.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dbabf027f6e8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcgar20.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d737f0ee272f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-562f6666906c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4130ce2087d2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ab3cca646b81",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1da608500c5b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54ce921d78a5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f78d6ca0b310",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCinfr4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-be12c0e4f94d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcinfr4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1fc4d21388d1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-80c96319d4e2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4561ed013831",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-35f798cff05b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e06a360e1542",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-75afaf431bb6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc5c5cf00165",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCNECR4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ebe1c708c2c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcnecr4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-46f1965a6e06",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-291047e2755f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-67915502e6a7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec3042a0d3b5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-76cbe43db083",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c3169a44dac",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3fc5e68703bf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCRAMP4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-06102e9e23d5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcramp4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-912e7c9c65dd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c3662a3ff043",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e075b0c95960",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b303d270c9e2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-03dd5f434159",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1b5c3460601f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9e017a34623",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCSTRN4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c9871a4b8ef9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcstrn4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a71165fb16dd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-591321b399ec",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-626c813553f4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-494fca4c1909",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-22a8fe06df9b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d46ad06d366",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ebe2f39ef998",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVCTOWR4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52c03e85d1c3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avctowr4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-218ec6d71ec3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcvgarm.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc206a8287b6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avcvgr.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8f59ed93326e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avgelp.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54e94b1a707c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avgelp.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b85bad7e1c9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avgtrll.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78f2e155d7d9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk1d0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-46a64f64ebd1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk1g0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c18359a1551",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk1r.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a0087b9f0883",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk1s0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5eabe406fbab",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk1u0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-45b47b3db9cf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk2d0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d553e3f55a5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk2g0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5bd5ff957d88",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk2s0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8072990cf55",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk2u0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c794a2ace02",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk3d0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-31fd0eaed5b9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk3g0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-da3a916e32eb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk3s0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1233a6b080c4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avllk3u0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8cbfd5c5a48d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avlswp50.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a44309c21d3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgedr0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1f77ee44f336",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgelv0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aa0f6674c438",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgems0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-2",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs/page-2",
+    "url": "/ru/wiki/wog/defs/page-2/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 2/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source avmgerf0.def def hmm35wog.pac · WoG avmgesd0.def def hmm35wog.pac · WoG avmgesu0.def def hmm35wog.pac · WoG avmgesw0.def def hmm35wog.pac · WoG avrcgen0.def def hmm35wog.pac · WoG avrcgen0.msk msk hmm35wog.pac · WoG avrcgen1.def def hmm35wog.pac · WoG avrcgen1.msk msk hmm35wog.pac · WoG avrcgen2.def def hmm35wog.pac · WoG avrcgen2.msk msk hmm35wog.pac · WoG avrcgen3.def def hmm35wog.pac · WoG avrcgen3.msk msk hmm35wog.pac · WoG avrcgen4.def def hmm35wog.pac · WoG avrcgen4.msk msk hmm35wog.pac · WoG avrcgen5.def def hmm35wog.pac · WoG avrcgen5.msk msk hmm35wog.pac · WoG avrcgen6.def def hmm35wog.pac · WoG avrcgen6.msk msk hmm35wog.pac · WoG avrcgen7.def def hmm35wog.pac · WoG avrcgen7.msk msk hmm35wog.pac · WoG avrcgn00.def def hmm35wog.pac · WoG avrcgn00.msk msk hmm35wog.pac · WoG avrcgn01.def def hmm35wog.pac · WoG avrcgn01.msk msk hmm35wog.pac · WoG avrcgn02.def def hmm35wog.pac · WoG avrcgn02.msk msk hmm35wog.pac · WoG avrcgn03.def def hmm35wog.pac · WoG avrcgn03.msk msk hmm35wog.pac · WoG avrcgn04.def def hmm35wog.pac · WoG avrcgn04.msk msk hmm35wog.pac · WoG avrcgn05.def def hmm35wog.pac · WoG avrcgn05.msk msk hmm35wog.pac · WoG avrcgn06.def def hmm35wog.pac · WoG avrcgn06.msk msk hmm35wog.pac · WoG avrcgn07.def def hmm35wog.pac · WoG avrcgn07.msk msk hmm35wog.pac · WoG avrcgn08.def def hmm35wog.pac · WoG avrcgn08.msk msk hmm35wog.pac · WoG avsgzbs0.def def hmm35wog.pac · WoG avsgzbs0.msk msk hmm35wog.pac · WoG avsidls0.def def hmm35wog.pac · WoG avsidls0.msk msk hmm35wog.pac · WoG avslibs0.def def hmm35wog.pac · WoG avslibs0.msk msk hmm35wog.pac · WoG avswtcs0.def def hmm35wog.pac · WoG avswtcs0.msk msk hmm35wog.pac · WoG avtcavs0.def def hmm35wog.pac · WoG avtcavs0.msk msk hmm35wog.pac · WoG avtrndm0.def def hmm35wog.pac · WoG avtrndm0.msk msk hmm35wog.pac · WoG avwattak.def def hmm35wog.pac · WoG avwbonx0.def def hmm35wog.pac · WoG avwefre0.def def hmm35wog.pac · WoG avwelmf0.def def hmm35wog.pac · WoG AVWmon1.def def hmm35wog.pac · WoG AVWmon1.msk msk hmm35wog.pac · WoG AVWmon2.def def hmm35wog.pac · WoG AVWmon2.msk msk hmm35wog.pac · WoG AVWmon3.def def hmm35wog.pac · WoG AVWmon3.msk msk hmm35wog.pac · WoG AVWmon4.def def hmm35wog.pac · WoG AVWmon4.msk msk hmm35wog.pac · WoG AVWmon5.def def hmm35wog.pac · WoG AVWmon5.msk msk hmm35wog.pac · WoG AVWmon6.def def hmm35wog.pac · WoG AVWmon6.msk msk hmm35wog.pac · WoG AVWmon7.def def hmm35wog.pac · WoG AVWmon7.msk msk hmm35wog.pac · WoG AVWmrnd0.def def hmm35wog.pac · WoG AVWmrnd0.msk msk hmm35wog.pac · WoG avwphx.def def hmm35wog.pac · WoG avwskex0.def def hmm35wog.pac · WoG avxdens0.def def hmm35wog.pac · WoG avxdens0.msk msk hmm35wog.pac · WoG avxgzbs0.def def hmm35wog.pac · WoG avxgzbs0.msk msk hmm35wog.pac · WoG avxhils0.def def hmm35wog.pac · WoG avxhils0.msk msk hmm35wog.pac · WoG avxosis0.def def hmm35wog.pac · WoG avxtrks0.def def hmm35wog.pac · WoG avxtrks0.msk msk hmm35wog.pac · WoG avxtvrs0.def def hmm35wog.pac · WoG avxtvrs0.msk msk hmm35wog.pac · WoG avxwtrh0.def def hmm35wog.pac · WoG avzevnt0.def def hmm35wog.pac · WoG avzevnt0.msk msk hmm35wog.pac · WoG avzgrail.def def hmm35wog.pac · WoG avzgrail.msk msk hmm35wog.pac · WoG bttnnpc.def def hmm35wog.pac · WoG catap_ml.def def hmm35wog.pac · WoG catap_ml.msk msk hmm35wog.pac · WoG catap_mr.def def hmm35wog.pac · WoG catap_mr.msk msk hmm35wog.pac · WoG cfelem.def def hmm35wog.pac · WoG chdrgn.def def hmm35wog.pac · WoG checkbox.def def hmm35wog.pac · WoG cphx.def def hmm35wog.pac · WoG cprsmall.def def hmm35wog.pac · WoG dlg_npc1.def def hmm35wog.pac · WoG dlg_npc2.def def hmm35wog.pac · WoG dlg_npc3.def def hmm35wog.pac · WoG dlg_npcdel.def def hmm35wog.pac · WoG dlgcrexp.def def hmm35wog.pac · WoG dlgexpup.def def hmm35wog.pac · WoG flame.def def hmm35wog.pac · WoG flame.msk msk hmm35wog.pac · WoG icm007.def def hmm35wog.pac · WoG ILCK22.def def hmm35wog.pac · WoG ILCK30.def def hmm35wog.pac · WoG ILCK42.def def hmm35wog.pac · WoG ilck82.def def hmm35wog.pac · WoG ilckb.def def hmm35wog.pac · WoG ILCKS.def def hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-ada6a7fe4880",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgerf0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dfd458f95e2c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgesd0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-43e6adfecf8f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgesu0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e3d65329f67e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avmgesw0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8142544f5653",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5b149b43155e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c1fecf922f99",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-efd6b03fcd26",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-acbb895f0dd1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-86ac6f77d4cf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23f181469138",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8f9c695b68d7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bf819e000ae3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e27e2753bb78",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-33d4a0e5f3a4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7428355f580e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-81e1caaf81cc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-97deacfb3f08",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-88624e59a000",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen7.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8d573194b9c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgen7.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7b5a042aceb7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn00.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4457fe085fab",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn00.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d2a7eb43b717",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a6ddc67f975e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-311b38265473",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e45bab6426bd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1d418d2f344a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7302eddf1835",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn03.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9caadc969d09",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn04.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-db60b6b40a26",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn04.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e9fb528b0805",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn05.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4acf7e1c98a2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn05.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d1db86f7a658",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn06.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66a5d0dcf8f5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn06.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c25582c79aee",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn07.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1eeb7f35692b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn07.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5146a303428",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn08.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1ecadfd88b16",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avrcgn08.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4f1280c32e37",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avsgzbs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8797baedb9c9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avsgzbs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fa531df25187",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avsidls0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d265e1177d47",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avsidls0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36724b1048fc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avslibs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9cef72b57bf7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avslibs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5bbaec997aa0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avswtcs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-87359b092fb4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avswtcs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-11f8a0cfad38",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avtcavs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9b274f38141c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avtcavs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8a4a2dac6101",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avtrndm0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12344eb9df69",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avtrndm0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6216e4d0ef93",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avwattak.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6243a2205b5f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avwbonx0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d0cb6cfa7cc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avwefre0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2ef7efea4df",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avwelmf0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6e4ab9cccf4f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f427d49f6de1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5379b68ec83",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-77028449e20a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9f248f92572b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5e1241b174a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c159eff05f6d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-af4c25bd06e3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8ab778446415",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9f3076b04fd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d0066ef10ba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-649e7b9558f1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53f7144ae55f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon7.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-22235fbd86fc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmon7.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9fcadc3475d8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmrnd0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4eb10a60adcc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "AVWmrnd0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec6b40a69f3a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avwphx.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-83f9822d2b45",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avwskex0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9881f692805",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxdens0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5971c43655c2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxdens0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-599ee6b49c65",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxgzbs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6aca6838f2a1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxgzbs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6d98e75a1450",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxhils0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4c0f9e8ee4a2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxhils0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b67f9fc1246",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxosis0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9e3d91739a79",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxtrks0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-69760d0e99b6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxtrks0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-be2280b8dcf1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxtvrs0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff6b22b944ba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxtvrs0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-256af25eb86c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avxwtrh0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d522f259b33b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avzevnt0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-98d705cc5be9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avzevnt0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d5a14c391c35",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avzgrail.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2492c55acadf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "avzgrail.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a31b72991ffb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "bttnnpc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0f20caeb0525",
+        "heading": "DEF-файлы (*.def)",
+        "text": "catap_ml.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d0c894a110a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "catap_ml.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0ab8eb129e45",
+        "heading": "DEF-файлы (*.def)",
+        "text": "catap_mr.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b4b9a727e13d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "catap_mr.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-313320a73a0e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "cfelem.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-19f650d679ab",
+        "heading": "DEF-файлы (*.def)",
+        "text": "chdrgn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-55b0da601cba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "checkbox.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-230bfe33a454",
+        "heading": "DEF-файлы (*.def)",
+        "text": "cphx.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0fba92106f53",
+        "heading": "DEF-файлы (*.def)",
+        "text": "cprsmall.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e1f54a45b885",
+        "heading": "DEF-файлы (*.def)",
+        "text": "dlg_npc1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bee06fa8eed4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "dlg_npc2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-03166c6bb2ca",
+        "heading": "DEF-файлы (*.def)",
+        "text": "dlg_npc3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a9d26a1a3e5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "dlg_npcdel.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f8cae889c66e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "dlgcrexp.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b4b1e83b82cf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "dlgexpup.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-528318f8f6ed",
+        "heading": "DEF-файлы (*.def)",
+        "text": "flame.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec72a0224836",
+        "heading": "DEF-файлы (*.def)",
+        "text": "flame.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e64babaa8aff",
+        "heading": "DEF-файлы (*.def)",
+        "text": "icm007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5917840a1416",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ILCK22.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2f704d2e195b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ILCK30.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78c17ce152d6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ILCK42.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8589185edd89",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ilck82.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ee5d42bcc10",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ilckb.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d400b9366623",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ILCKS.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-3",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs/page-3",
+    "url": "/ru/wiki/wog/defs/page-3/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 3/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source lavam.def def hmm35wog.pac · WoG lavam.msk msk hmm35wog.pac · WoG monprt44.def def hmm35wog.pac · WoG obbhs11a.def def hmm35wog.pac · WoG obbhs12b.def def hmm35wog.pac · WoG obdsm01.def def hmm35wog.pac · WoG obgrs01.def def hmm35wog.pac · WoG obsns09.def def hmm35wog.pac · WoG obsws11b.def def hmm35wog.pac · WoG radiobttn.def def hmm35wog.pac · WoG RanNorm.def def hmm35wog.pac · WoG RanStrg.def def hmm35wog.pac · WoG RanWeak.def def hmm35wog.pac · WoG resour82.def def hmm35wog.pac · WoG RESOURCE.def def hmm35wog.pac · WoG scselc.def def hmm35wog.pac · WoG sfzerk.def def hmm35wog.pac · WoG sfzerk.msk msk hmm35wog.pac · WoG skull.def def hmm35wog.pac · WoG skull.msk msk hmm35wog.pac · WoG SMALRES.def def hmm35wog.pac · WoG smcata.def def hmm35wog.pac · WoG smtent.def def hmm35wog.pac · WoG spells.def def hmm35wog.pac · WoG sskilbon.def def hmm35wog.pac · WoG tbcshal4.def def hmm35wog.pac · WoG tbeldw_5.def def hmm35wog.pac · WoG tbelup_5.def def hmm35wog.pac · WoG tbelup_6.def def hmm35wog.pac · WoG tbfrboat.def def hmm35wog.pac · WoG tbfrdw_6.def def hmm35wog.pac · WoG tbfrtvrn.def def hmm35wog.pac · WoG tbncdw_3.def def hmm35wog.pac · WoG tbncup_3.def def hmm35wog.pac · WoG tbsthal4.def def hmm35wog.pac · WoG tbstholy.def def hmm35wog.pac · WoG townhrtd.def def hmm35wog.pac · WoG twcrport.def def hmm35wog.pac · WoG un32.def def hmm35wog.pac · WoG un44.def def hmm35wog.pac · WoG wall1.def def hmm35wog.pac · WoG wall1.msk msk hmm35wog.pac · WoG wall2.def def hmm35wog.pac · WoG wall2.msk msk hmm35wog.pac · WoG wndfolder.def def hmm35wog.pac · WoG wogbttn.def def hmm35wog.pac · WoG wogcurse.def def hmm35wog.pac · WoG z358o1.def def hmm35wog.pac · WoG z358o1.msk msk hmm35wog.pac · WoG z358o10.def def hmm35wog.pac · WoG z358o10.msk msk hmm35wog.pac · WoG z358o11.def def hmm35wog.pac · WoG z358o11.msk msk hmm35wog.pac · WoG z358o12.def def hmm35wog.pac · WoG z358o12.msk msk hmm35wog.pac · WoG z358o13.def def hmm35wog.pac · WoG z358o13.msk msk hmm35wog.pac · WoG z358o14.def def hmm35wog.pac · WoG z358o14.msk msk hmm35wog.pac · WoG z358o15.def def hmm35wog.pac · WoG z358o15.msk msk hmm35wog.pac · WoG z358o16.def def hmm35wog.pac · WoG z358o16.msk msk hmm35wog.pac · WoG z358o2.def def hmm35wog.pac · WoG z358o2.msk msk hmm35wog.pac · WoG z358o3.def def hmm35wog.pac · WoG z358o3.msk msk hmm35wog.pac · WoG z358o4.def def hmm35wog.pac · WoG z358o4.msk msk hmm35wog.pac · WoG z358o5.def def hmm35wog.pac · WoG z358o5.msk msk hmm35wog.pac · WoG z358o6.def def hmm35wog.pac · WoG z358o6.msk msk hmm35wog.pac · WoG z358o7.def def hmm35wog.pac · WoG z358o7.msk msk hmm35wog.pac · WoG z358o8.def def hmm35wog.pac · WoG z358o8.msk msk hmm35wog.pac · WoG z358o9.def def hmm35wog.pac · WoG z358o9.msk msk hmm35wog.pac · WoG zart141.def def hmm35wog.pac · WoG zart141.msk msk hmm35wog.pac · WoG zart142.def def hmm35wog.pac · WoG zart142.msk msk hmm35wog.pac · WoG zart143.def def hmm35wog.pac · WoG zart143.msk msk hmm35wog.pac · WoG zart146.def def hmm35wog.pac · WoG zart146.msk msk hmm35wog.pac · WoG zart147.def def hmm35wog.pac · WoG zart147.msk msk hmm35wog.pac · WoG zart148.def def hmm35wog.pac · WoG zart148.msk msk hmm35wog.pac · WoG zart149.def def hmm35wog.pac · WoG zart149.msk msk hmm35wog.pac · WoG zart150.def def hmm35wog.pac · WoG zart150.msk msk hmm35wog.pac · WoG zart151.def def hmm35wog.pac · WoG zart151.msk msk hmm35wog.pac · WoG zart152.def def hmm35wog.pac · WoG zart152.msk msk hmm35wog.pac · WoG zart153.def def hmm35wog.pac · WoG zart153.msk msk hmm35wog.pac · WoG zart154.def def hmm35wog.pac · WoG zart154.msk msk hmm35wog.pac · WoG zart155.def def hmm35wog.pac · WoG zart155.msk msk hmm35wog.pac · WoG zart156.def def hmm35wog.pac · WoG zart156.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-7037bc3c0752",
+        "heading": "DEF-файлы (*.def)",
+        "text": "lavam.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7b3cb754b040",
+        "heading": "DEF-файлы (*.def)",
+        "text": "lavam.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d8e8676a3c88",
+        "heading": "DEF-файлы (*.def)",
+        "text": "monprt44.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a90337b670b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "obbhs11a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dcfff3e39c67",
+        "heading": "DEF-файлы (*.def)",
+        "text": "obbhs12b.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6c87e138a859",
+        "heading": "DEF-файлы (*.def)",
+        "text": "obdsm01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1e5be222b934",
+        "heading": "DEF-файлы (*.def)",
+        "text": "obgrs01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1acb3a5181bc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "obsns09.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f97b224205ca",
+        "heading": "DEF-файлы (*.def)",
+        "text": "obsws11b.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-10af84385014",
+        "heading": "DEF-файлы (*.def)",
+        "text": "radiobttn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c4b0d410c7f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "RanNorm.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-605041dee492",
+        "heading": "DEF-файлы (*.def)",
+        "text": "RanStrg.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-358abcd5145c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "RanWeak.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-af4d68eb10c7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "resour82.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-73fb02cca24e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "RESOURCE.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8b5290730630",
+        "heading": "DEF-файлы (*.def)",
+        "text": "scselc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3244629e2ebc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "sfzerk.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-353ebfb25230",
+        "heading": "DEF-файлы (*.def)",
+        "text": "sfzerk.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3eaa90b6dacd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "skull.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a008dbcdfb5b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "skull.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a8084cb7be74",
+        "heading": "DEF-файлы (*.def)",
+        "text": "SMALRES.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ecb7e490487d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "smcata.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a13cd9aa9605",
+        "heading": "DEF-файлы (*.def)",
+        "text": "smtent.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-228181dd13bd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "spells.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1d24e648cc89",
+        "heading": "DEF-файлы (*.def)",
+        "text": "sskilbon.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-61edeb86dc92",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbcshal4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f31fb8f98584",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbeldw_5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6f1a4efc333",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbelup_5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8fc5a0a125e5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbelup_6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-309a21773d03",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbfrboat.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-57a6bf5bee6a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbfrdw_6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2a5c19917ccf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbfrtvrn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-107445e77b53",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbncdw_3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2895dcd5d597",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbncup_3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-597f1a90b21a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbsthal4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f2958a0c9d23",
+        "heading": "DEF-файлы (*.def)",
+        "text": "tbstholy.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a854643a15d8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "townhrtd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1c6031ea94a9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "twcrport.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a82ebe47c76",
+        "heading": "DEF-файлы (*.def)",
+        "text": "un32.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-17feeff87b9b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "un44.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aa0aa58a0750",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wall1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4e06e1ff5d58",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wall1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ca78b97c34ce",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wall2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c597b522cd94",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wall2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-440f37f1fd42",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wndfolder.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c28ab807ddc2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wogbttn.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-299ab66dda9a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "wogcurse.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a048c5ae16d5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2d342dc1470",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-003fbeb00686",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o10.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fbcbdaa0177d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o10.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f4379706e852",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o11.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ea838c8624c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o11.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d8c08dc9bbcb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o12.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a76a991c8b8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o12.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-883a8c603cb7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o13.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a842ffe02112",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o13.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-750a136c72f9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o14.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5eefb127f85",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o14.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-55bf908805c2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o15.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12dd80b09ecb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o15.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d099ed254b2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o16.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2ac58b0fcf3f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o16.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3f51e2d4c5d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7e5bf0e3a1c4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7e989db57f87",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ef5a88f2d68f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36acaa9a0445",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-da6931aba903",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aea15d31bf86",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7ff844533c27",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36132c004e94",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c25e5d677ed2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fab414b3814b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o7.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cc22107ad338",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o7.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-33bfb79ea077",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o8.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0e5128ce141d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o8.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b039eaf7a6a4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o9.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78ca6352ca88",
+        "heading": "DEF-файлы (*.def)",
+        "text": "z358o9.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f264266ebad2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart141.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5425588a2e1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart141.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cb50a1b303c3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart142.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53596b20fbe4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart142.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d18371e576ca",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart143.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52bf108698f6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart143.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3589e7e8349f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart146.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e33a066fef90",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart146.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a1c963d0003",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart147.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6311607e4d32",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart147.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0106a12f9b88",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart148.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53e7a20dd9c1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart148.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-27b000ceb035",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart149.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b25d9baa820a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart149.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f34663781bbb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart150.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b447692b27e1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart150.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-432b6d3dd65a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart151.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-eac69041ccbf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart151.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f1f2c59e8cb7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart152.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b21ba1961ac5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart152.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ccc2163b32d5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart153.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a8ff4a5b103",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart153.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ce4ebee8431b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart154.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-05de5a725eec",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart154.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c0caf653915f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart155.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6034d1ff65a2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart155.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-baff75eff8ce",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart156.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-95f8aa67fa97",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart156.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-4",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs/page-4",
+    "url": "/ru/wiki/wog/defs/page-4/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 4/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source zart157.def def hmm35wog.pac · WoG zart157.msk msk hmm35wog.pac · WoG zart158.def def hmm35wog.pac · WoG zart158.msk msk hmm35wog.pac · WoG zart159.def def hmm35wog.pac · WoG zart159.msk msk hmm35wog.pac · WoG zart160.def def hmm35wog.pac · WoG zart160.msk msk hmm35wog.pac · WoG zart161.def def hmm35wog.pac · WoG zart161.msk msk hmm35wog.pac · WoG zart162.def def hmm35wog.pac · WoG zart162.msk msk hmm35wog.pac · WoG zart163.def def hmm35wog.pac · WoG zart163.msk msk hmm35wog.pac · WoG zart164.def def hmm35wog.pac · WoG zart164.msk msk hmm35wog.pac · WoG zart165.def def hmm35wog.pac · WoG zart165.msk msk hmm35wog.pac · WoG zart166.def def hmm35wog.pac · WoG zart166.msk msk hmm35wog.pac · WoG zart167.def def hmm35wog.pac · WoG zart167.msk msk hmm35wog.pac · WoG zart168.def def hmm35wog.pac · WoG zart168.msk msk hmm35wog.pac · WoG zart169.def def hmm35wog.pac · WoG zart169.msk msk hmm35wog.pac · WoG zart170.def def hmm35wog.pac · WoG zart170.msk msk hmm35wog.pac · WoG zartif1.def def hmm35wog.pac · WoG zartif1.msk msk hmm35wog.pac · WoG zavg150z.def def hmm35wog.pac · WoG zavg150z.msk msk hmm35wog.pac · WoG zavg151z.def def hmm35wog.pac · WoG zavg151z.msk msk hmm35wog.pac · WoG zavg152z.def def hmm35wog.pac · WoG zavg152z.msk msk hmm35wog.pac · WoG zavg153z.def def hmm35wog.pac · WoG zavg153z.msk msk hmm35wog.pac · WoG zavg154z.def def hmm35wog.pac · WoG zavg154z.msk msk hmm35wog.pac · WoG zavg155z.def def hmm35wog.pac · WoG zavg155z.msk msk hmm35wog.pac · WoG zavg156z.def def hmm35wog.pac · WoG zavg156z.msk msk hmm35wog.pac · WoG zavg157z.def def hmm35wog.pac · WoG zavg157z.msk msk hmm35wog.pac · WoG zavg158z.def def hmm35wog.pac · WoG zavg158z.msk msk hmm35wog.pac · WoG zavg169.def def hmm35wog.pac · WoG zavg169.msk msk hmm35wog.pac · WoG zavg170z.def def hmm35wog.pac · WoG zavg170z.msk msk hmm35wog.pac · WoG zavg171z.def def hmm35wog.pac · WoG zavg171z.msk msk hmm35wog.pac · WoG zavg172a.def def hmm35wog.pac · WoG zavg172a.msk msk hmm35wog.pac · WoG zavg172b.def def hmm35wog.pac · WoG zavg172b.msk msk hmm35wog.pac · WoG zavg173.def def hmm35wog.pac · WoG zavg173.msk msk hmm35wog.pac · WoG zavg173a.def def hmm35wog.pac · WoG zavg173a.msk msk hmm35wog.pac · WoG zavg174a.def def hmm35wog.pac · WoG zavg174a.msk msk hmm35wog.pac · WoG zavg192.def def hmm35wog.pac · WoG zavg192.msk msk hmm35wog.pac · WoG zavg193.def def hmm35wog.pac · WoG zavg193.msk msk hmm35wog.pac · WoG zavg194.def def hmm35wog.pac · WoG zavg194.msk msk hmm35wog.pac · WoG zavg195.def def hmm35wog.pac · WoG zavg195.msk msk hmm35wog.pac · WoG zavg196.def def hmm35wog.pac · WoG zavg196.msk msk hmm35wog.pac · WoG zcave1.def def hmm35wog.pac · WoG zcave1.msk msk hmm35wog.pac · WoG zcave2.def def hmm35wog.pac · WoG zcave2.msk msk hmm35wog.pac · WoG zcave3.def def hmm35wog.pac · WoG zcave3.msk msk hmm35wog.pac · WoG zcave4.def def hmm35wog.pac · WoG zcave4.msk msk hmm35wog.pac · WoG zcave5.def def hmm35wog.pac · WoG zcave5.msk msk hmm35wog.pac · WoG zcbon000.def def hmm35wog.pac · WoG zcbon000.msk msk hmm35wog.pac · WoG zcbon001.def def hmm35wog.pac · WoG zcbon001.msk msk hmm35wog.pac · WoG zcbon002.def def hmm35wog.pac · WoG zcbon002.msk msk hmm35wog.pac · WoG zcbon003.def def hmm35wog.pac · WoG zcbon003.msk msk hmm35wog.pac · WoG zchst1.def def hmm35wog.pac · WoG zchst1.msk msk hmm35wog.pac · WoG zchst2.def def hmm35wog.pac · WoG zchst2.msk msk hmm35wog.pac · WoG zchst3.def def hmm35wog.pac · WoG zchst3.msk msk hmm35wog.pac · WoG zchst4.def def hmm35wog.pac · WoG zchst4.msk msk hmm35wog.pac · WoG zchst5.def def hmm35wog.pac · WoG zchst5.msk msk hmm35wog.pac · WoG zchst6.def def hmm35wog.pac · WoG zchst6.msk msk hmm35wog.pac · WoG zcrbank1.def def hmm35wog.pac · WoG zcrbank1.msk msk hmm35wog.pac · WoG zcrbank2.def def hmm35wog.pac · WoG zcrbank2.msk msk hmm35wog.pac · WoG zcrbank3.def def hmm35wog.pac · WoG zcrbank3.msk msk hmm35wog.pac · WoG zcrbgod1.def def hmm35wog.pac · WoG zcrbgod1.msk msk hmm35wog.pac · WoG zcrbgod2.def def hmm35wog.pac · WoG zcrbgod2.msk msk hmm35wog.pac · WoG zcrbgod3.def def hmm35wog.pac · WoG zcrbgod3.msk msk hmm35wog.pac · WoG zcrbgod4.def def hmm35wog.pac · WoG zcrbgod4.msk msk hmm35wog.pac · WoG zcrbjn19.def def hmm35wog.pac · WoG zcrbjn19.msk msk hmm35wog.pac · WoG zcrbvm17.def def hmm35wog.pac · WoG zcrbvm17.msk msk hmm35wog.pac · WoG zcrbvm18.def def hmm35wog.pac · WoG zcrbvm18.msk msk hmm35wog.pac · WoG zdec0001.def def hmm35wog.pac · WoG zdec0001.msk msk hmm35wog.pac · WoG zdec0002.def def hmm35wog.pac · WoG zdec0002.msk msk hmm35wog.pac · WoG zdec0003.def def hmm35wog.pac · WoG zdec0003.msk msk hmm35wog.pac · WoG zdec0004.def def hmm35wog.pac · WoG zdec0004.msk msk hmm35wog.pac · WoG zdec0005.def def hmm35wog.pac · WoG zdec0005.msk msk hmm35wog.pac · WoG zdec0007.def def hmm35wog.pac · WoG zdec0007.msk msk hmm35wog.pac · WoG zdec0008.def def hmm35wog.pac · WoG zdec0008.msk msk hmm35wog.pac · WoG zdec0009.def def hmm35wog.pac · WoG zdec0009.msk msk hmm35wog.pac · WoG zdec0010.def def hmm35wog.pac · WoG zdec0010.msk msk hmm35wog.pac · WoG zdec0011.def def hmm35wog.pac · WoG zdec0011.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-d10dede450e6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart157.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5e99746863c1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart157.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-53e73833e94c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart158.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fa624ce03b20",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart158.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4dabecff8be7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart159.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-01f8edf4f38a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart159.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-57ca5190b093",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart160.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-808a0218cec9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart160.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d879f73d6b8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart161.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e36da251fa34",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart161.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3ab68fa3766c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart162.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0a001864f29c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart162.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-90e8318e0627",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart163.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8168df216833",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart163.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7bbc29bbc057",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart164.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c5fb4f9aab9a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart164.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c29f02ced365",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart165.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1a03a29e06f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart165.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-312171337240",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart166.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f66ad53c4598",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart166.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1d01ea62ae53",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart167.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d5972136622",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart167.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a27380dfa5b2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart168.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-84cc2b32eb9b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart168.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8eba4c3e3ab0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart169.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0c268ddff4b0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart169.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b27b2e9f3ae5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart170.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e506a7771c67",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zart170.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ee777760a5d0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zartif1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-380b5fb8689c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zartif1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a4b99307661b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg150z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4cb9fc1fb63c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg150z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c54266319b77",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg151z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-61eaefdfe6f4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg151z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a78b9e34740f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg152z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-eeed303e221d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg152z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a179dcd436d5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg153z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-14302f883357",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg153z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-72feba2d2431",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg154z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-701dbf12f774",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg154z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d0dc74f7cf51",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg155z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-317775088024",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg155z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff20cc67ebf6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg156z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36c75cf2d5b2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg156z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ffde11ce7b64",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg157z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-29e598ce381e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg157z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b0955fca37b6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg158z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7460469909c2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg158z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0ab5d4c730bd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg169.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a230ff1c3369",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg169.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36d4d6070a4d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg170z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ede30807a34c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg170z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-97599b927bed",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg171z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-022f6654ecc5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg171z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b9e7e3c24550",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg172a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3269b623a9a5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg172a.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b856501c363",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg172b.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6e130926dcdb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg172b.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8a2b190dd37b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg173.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c1a3946a26a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg173.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-06a188c7d5bb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg173a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c9f7c156cb55",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg173a.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5c084c7f61d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg174a.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78fd74df1435",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg174a.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8583eed14142",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg192.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c27f13bf98e4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg192.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23f3f616a8d0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg193.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3aeff2d62c48",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg193.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-48bdcf426198",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg194.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-91cb1d289fe5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg194.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-440bd10236ed",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg195.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3929e39ccfb9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg195.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1eb698e7f639",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg196.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d297fb47dc4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zavg196.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36e16de928af",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-94ffe7fa7362",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b4a98eb27f9f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-db21cdd96cfc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-837c2be57fa3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3cf11fc5cb58",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-807aa3fcfbe5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ee9126c6c7f5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1e97283cc23",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6c9e8166e3d7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcave5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cad3325bc069",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon000.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b15f0806ad37",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon000.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d608f325965b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-08d90fed6c1a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b8e16743ae1a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ea3042effc81",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f47f01e96d7d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f1e492675b6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcbon003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c0d7ed54dec5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d7859b71304",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2eb17ca14dee",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-599fb8cad217",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-44992d2e9887",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f6f57a2d24a1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5d13194f73b0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1ae2113e0b05",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aeb4927c9560",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-adfa37d327a2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a6e9f3c11e14",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst6.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f0a1ea9862e4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zchst6.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1b427cd3df60",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbank1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cd52cddb87d2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbank1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-58cba1f73be8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbank2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-794de2992876",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbank2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c963732faa55",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbank3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-62590ecb3f26",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbank3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f932f01698e2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-837cdaab57b0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5751183f8016",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d134602f31a5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dfce9ca582f8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-104e82751dbb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4917d133720e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-393d26ec94d6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbgod4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d11652bfda8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbjn19.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5aa3b042aa3f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbjn19.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d2739580343",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbvm17.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-40c6c55a2d9e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbvm17.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2a7f859eb3b1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbvm18.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-434e1e2dd98c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zcrbvm18.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-723d0866ea22",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-063a1ae3c2ba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b972f457289",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-07328eb52e8b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d7b454d4fa3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6626a43188d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-92281c3c2cd8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0004.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-74f4bf5c1a58",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0004.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-18b460be6f7d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0005.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9a7ee9588eae",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0005.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6185875838b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0320ee206339",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0007.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12b2b26e198e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0008.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54e5b1b21a43",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0008.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e2838e1f6883",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0009.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8f0422e28098",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0009.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7d0b0b680e94",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0010.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c270a1e60def",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0010.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1955f4a56be3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0011.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d7f4a3c061e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0011.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-5",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs/page-5",
+    "url": "/ru/wiki/wog/defs/page-5/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 5/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source zdec0012.def def hmm35wog.pac · WoG zdec0012.msk msk hmm35wog.pac · WoG zdec0013.def def hmm35wog.pac · WoG zdec0013.msk msk hmm35wog.pac · WoG zdec0014.def def hmm35wog.pac · WoG zdec0014.msk msk hmm35wog.pac · WoG zdec0015.def def hmm35wog.pac · WoG zdec0015.msk msk hmm35wog.pac · WoG zdent001.def def hmm35wog.pac · WoG zdent001.msk msk hmm35wog.pac · WoG zflame1.def def hmm35wog.pac · WoG zflame1.msk msk hmm35wog.pac · WoG zfntng01.def def hmm35wog.pac · WoG zfntng01.msk msk hmm35wog.pac · WoG zfohill0.def def hmm35wog.pac · WoG zfohill0.msk msk hmm35wog.pac · WoG zgarn001.def def hmm35wog.pac · WoG zgarn001.msk msk hmm35wog.pac · WoG zgarn002.def def hmm35wog.pac · WoG zgarn002.msk msk hmm35wog.pac · WoG zgarn003.def def hmm35wog.pac · WoG zgarn003.msk msk hmm35wog.pac · WoG zgodbon.def def hmm35wog.pac · WoG zh4obj01.def def hmm35wog.pac · WoG zh4obj01.msk msk hmm35wog.pac · WoG zh4obj02.def def hmm35wog.pac · WoG zh4obj02.msk msk hmm35wog.pac · WoG zlagport.def def hmm35wog.pac · WoG zlava001.def def hmm35wog.pac · WoG zlava001.msk msk hmm35wog.pac · WoG zlwork1.def def hmm35wog.pac · WoG zlwork1.msk msk hmm35wog.pac · WoG zm150z.def def hmm35wog.pac · WoG zm151z.def def hmm35wog.pac · WoG zm152z.def def hmm35wog.pac · WoG zm153z.def def hmm35wog.pac · WoG zm154z.def def hmm35wog.pac · WoG zm155z.def def hmm35wog.pac · WoG zm156z.def def hmm35wog.pac · WoG zm157z.def def hmm35wog.pac · WoG zm158z.def def hmm35wog.pac · WoG zm159g.def def hmm35wog.pac · WoG zm160g.def def hmm35wog.pac · WoG zm161g.def def hmm35wog.pac · WoG zm162g.def def hmm35wog.pac · WoG zm163g.def def hmm35wog.pac · WoG zm164gd.def def hmm35wog.pac · WoG zm165gd.def def hmm35wog.pac · WoG zm166gd.def def hmm35wog.pac · WoG zm167gd.def def hmm35wog.pac · WoG zm168dg.def def hmm35wog.pac · WoG zm169zl.def def hmm35wog.pac · WoG zm170sw.def def hmm35wog.pac · WoG zm171sr.def def hmm35wog.pac · WoG zm172n.def def hmm35wog.pac · WoG zm173m.def def hmm35wog.pac · WoG zm174npc.def def hmm35wog.pac · WoG zm175npc.def def hmm35wog.pac · WoG zm176npc.def def hmm35wog.pac · WoG zm177npc.def def hmm35wog.pac · WoG zm178npc.def def hmm35wog.pac · WoG zm179npc.def def hmm35wog.pac · WoG zm180npc.def def hmm35wog.pac · WoG zm181npc.def def hmm35wog.pac · WoG zm182npc.def def hmm35wog.pac · WoG zm192z.def def hmm35wog.pac · WoG zm193z.def def hmm35wog.pac · WoG zm194z.def def hmm35wog.pac · WoG zm195z.def def hmm35wog.pac · WoG zm196z.def def hmm35wog.pac · WoG zmagic1.def def hmm35wog.pac · WoG zmark1.def def hmm35wog.pac · WoG zmark1.msk msk hmm35wog.pac · WoG zmermd01.def def hmm35wog.pac · WoG zmermd01.msk msk hmm35wog.pac · WoG zmermd02.def def hmm35wog.pac · WoG zmermd02.msk msk hmm35wog.pac · WoG zmgc01.def def hmm35wog.pac · WoG zmgc02.def def hmm35wog.pac · WoG zmgc03.def def hmm35wog.pac · WoG ZMITHR.def def hmm35wog.pac · WoG zmithr.msk msk hmm35wog.pac · WoG zmm150z.def def hmm35wog.pac · WoG zmm150z.msk msk hmm35wog.pac · WoG zmm151z.def def hmm35wog.pac · WoG zmm151z.msk msk hmm35wog.pac · WoG zmm152z.def def hmm35wog.pac · WoG zmm152z.msk msk hmm35wog.pac · WoG zmm153z.def def hmm35wog.pac · WoG zmm153z.msk msk hmm35wog.pac · WoG zmm154z.def def hmm35wog.pac · WoG zmm154z.msk msk hmm35wog.pac · WoG zmm155z.def def hmm35wog.pac · WoG zmm155z.msk msk hmm35wog.pac · WoG zmm156z.def def hmm35wog.pac · WoG zmm156z.msk msk hmm35wog.pac · WoG zmm157z.def def hmm35wog.pac · WoG zmm157z.msk msk hmm35wog.pac · WoG zmm158z.def def hmm35wog.pac · WoG zmm158z.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-99643f45dffa",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0012.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fbd64366bc2d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0012.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6800c4e5fc29",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0013.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5603c031d822",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0013.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-75ca87c9728e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0014.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f6775f395ba0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0014.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a7ec8a8f9f2f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0015.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e901bdd15f27",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdec0015.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-45988057d3dc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdent001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0c4b0386aeb1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zdent001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4ccaf8d0930b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zflame1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e4f860d19110",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zflame1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5125efc24bc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zfntng01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-edd4711ff273",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zfntng01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9dc65673fdf1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zfohill0.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cc0793c960f3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zfohill0.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-995b432a1b1b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgarn001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8308b72fea4c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgarn001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e56188a055a9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgarn002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-22f3469896f6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgarn002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-96ebce63228d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgarn003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1c98f28d2220",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgarn003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aafc714c461b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zgodbon.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2cc3d4b9499",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zh4obj01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-51714f047e6d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zh4obj01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4468ffcfa5aa",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zh4obj02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-99a03fed7458",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zh4obj02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c874939f065c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zlagport.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-df4f1a34862e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zlava001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2921c5dee47",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zlava001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3162e65bd32a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zlwork1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2081f048042",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zlwork1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6549c15be2da",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm150z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8d56510fc2c6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm151z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5638f4ced6e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm152z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1334b68f4088",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm153z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ddb9f2b9b807",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm154z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec65ee616d51",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm155z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52395ad4f2e9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm156z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d9c6085eef57",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm157z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-17a41974b231",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm158z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-87508bed97df",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm159g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-16530bb2dfcc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm160g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7b10f4ace3ed",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm161g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-85d3b092d917",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm162g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-304237686437",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm163g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a8b4d9fe051f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm164gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f01edeb4d83",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm165gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4afb1fdbd7a4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm166gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e1d92312a418",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm167gd.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f714a243d7af",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm168dg.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1b4fe59d6f5b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm169zl.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42fce11348bf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm170sw.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d7e1c519be89",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm171sr.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4a410c33c0d6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm172n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-eef2c35c0ed0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm173m.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ab477ab7b5f8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm174npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2c12c09f291b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm175npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b48a0339a0fb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm176npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-776bbabc7885",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm177npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8ef805370ff4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm178npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9dc0e114e52e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm179npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2b9b7579fcc7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm180npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a666c6a4c519",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm181npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2ecdb6a60c73",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm182npc.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d92c85c9c8fc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm192z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42a0973832b7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm193z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-185e0e57cfe8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm194z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-177a34be2bb9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm195z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0550d66c9656",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zm196z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6f242fac3c51",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmagic1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f86540442665",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmark1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aba00241384d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmark1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bf6e6a3afb1e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmermd01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff79aac4dbf1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmermd01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7402f52fb190",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmermd02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d197a19b531e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmermd02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a21c1ccda1e2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmgc01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6bef128beb2d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmgc02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-69e0b8890956",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmgc03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e297a8b70bf2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ZMITHR.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8e1fa002cbd9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmithr.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a58986cf474",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm150z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2903de65982a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm150z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b7c642ec555",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm151z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9ef3bb2374a0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm151z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54cc65650301",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm152z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-408f8e682198",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm152z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0e7e8614d162",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm153z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-033466d9b9bf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm153z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4f10dc661d4b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm154z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-374645a07cd4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm154z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8d1064f94d60",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm155z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-af1b223e8404",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm155z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7de421442315",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm156z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-30118755ff83",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm156z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8cc61fb864cb",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm157z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-68dbeaaaac65",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm157z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1ee510c44c9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm158z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1c56531eb16e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm158z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-6",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs/page-6",
+    "url": "/ru/wiki/wog/defs/page-6/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 6/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source zmm159g.def def hmm35wog.pac · WoG zmm159g.msk msk hmm35wog.pac · WoG zmm160g.def def hmm35wog.pac · WoG zmm160g.msk msk hmm35wog.pac · WoG zmm161g.def def hmm35wog.pac · WoG zmm161g.msk msk hmm35wog.pac · WoG zmm162g.def def hmm35wog.pac · WoG zmm162g.msk msk hmm35wog.pac · WoG zmm163g.def def hmm35wog.pac · WoG zmm163g.msk msk hmm35wog.pac · WoG zmm164d.def def hmm35wog.pac · WoG zmm164d.msk msk hmm35wog.pac · WoG zmm165d.def def hmm35wog.pac · WoG zmm165d.msk msk hmm35wog.pac · WoG zmm166d.def def hmm35wog.pac · WoG zmm166d.msk msk hmm35wog.pac · WoG zmm167d.def def hmm35wog.pac · WoG zmm167d.msk msk hmm35wog.pac · WoG zmm168g.def def hmm35wog.pac · WoG zmm168g.msk msk hmm35wog.pac · WoG zmm169z.def def hmm35wog.pac · WoG zmm169z.msk msk hmm35wog.pac · WoG zmm170s.def def hmm35wog.pac · WoG zmm170s.msk msk hmm35wog.pac · WoG zmm171s.def def hmm35wog.pac · WoG zmm171s.msk msk hmm35wog.pac · WoG zmm172n.def def hmm35wog.pac · WoG zmm172n.msk msk hmm35wog.pac · WoG zmm173m.def def hmm35wog.pac · WoG zmm173m.msk msk hmm35wog.pac · WoG zmm174n.def def hmm35wog.pac · WoG zmm174n.msk msk hmm35wog.pac · WoG zmm175n.def def hmm35wog.pac · WoG zmm175n.msk msk hmm35wog.pac · WoG zmm176n.def def hmm35wog.pac · WoG zmm176n.msk msk hmm35wog.pac · WoG zmm177n.def def hmm35wog.pac · WoG zmm177n.msk msk hmm35wog.pac · WoG zmm178n.def def hmm35wog.pac · WoG zmm178n.msk msk hmm35wog.pac · WoG zmm179n.def def hmm35wog.pac · WoG zmm179n.msk msk hmm35wog.pac · WoG zmm180n.def def hmm35wog.pac · WoG zmm180n.msk msk hmm35wog.pac · WoG zmm181n.def def hmm35wog.pac · WoG zmm181n.msk msk hmm35wog.pac · WoG zmm182n.def def hmm35wog.pac · WoG zmm182n.msk msk hmm35wog.pac · WoG zmm192z.def def hmm35wog.pac · WoG zmm192z.msk msk hmm35wog.pac · WoG zmm193z.def def hmm35wog.pac · WoG zmm193z.msk msk hmm35wog.pac · WoG zmm194z.def def hmm35wog.pac · WoG zmm194z.msk msk hmm35wog.pac · WoG zmm195z.def def hmm35wog.pac · WoG zmm195z.msk msk hmm35wog.pac · WoG zmm196z.def def hmm35wog.pac · WoG zmm196z.msk msk hmm35wog.pac · WoG zobj001.def def hmm35wog.pac · WoG zobj001.msk msk hmm35wog.pac · WoG zobj002.def def hmm35wog.pac · WoG zobj002.msk msk hmm35wog.pac · WoG zobj003.def def hmm35wog.pac · WoG zobj003.msk msk hmm35wog.pac · WoG zobj004.def def hmm35wog.pac · WoG zobj004.msk msk hmm35wog.pac · WoG zobj005.def def hmm35wog.pac · WoG zobj005.msk msk hmm35wog.pac · WoG zobj006.def def hmm35wog.pac · WoG zobj006.msk msk hmm35wog.pac · WoG zobj007.def def hmm35wog.pac · WoG zobj007.msk msk hmm35wog.pac · WoG zobj008.def def hmm35wog.pac · WoG zobj008.msk msk hmm35wog.pac · WoG zobj009.def def hmm35wog.pac · WoG zobj009.msk msk hmm35wog.pac · WoG zobj010.def def hmm35wog.pac · WoG zobj010.msk msk hmm35wog.pac · WoG zobj011.def def hmm35wog.pac · WoG zobj011.msk msk hmm35wog.pac · WoG zobj012.def def hmm35wog.pac · WoG zobj012.msk msk hmm35wog.pac · WoG zobj013.def def hmm35wog.pac · WoG zobj013.msk msk hmm35wog.pac · WoG zobj014.def def hmm35wog.pac · WoG zobj014.msk msk hmm35wog.pac · WoG zobj015.def def hmm35wog.pac · WoG zobj015.msk msk hmm35wog.pac · WoG zobj016.def def hmm35wog.pac · WoG zobj016.msk msk hmm35wog.pac · WoG zobj017.def def hmm35wog.pac · WoG zobj017.msk msk hmm35wog.pac · WoG zobj018.def def hmm35wog.pac · WoG zobj018.msk msk hmm35wog.pac · WoG zobj019.def def hmm35wog.pac · WoG zobj019.msk msk hmm35wog.pac · WoG zobj020.def def hmm35wog.pac · WoG zobj020.msk msk hmm35wog.pac · WoG zobj021.def def hmm35wog.pac · WoG zobj021.msk msk hmm35wog.pac · WoG zobj022.def def hmm35wog.pac · WoG zobj022.msk msk hmm35wog.pac · WoG zobj023.def def hmm35wog.pac · WoG zobj023.msk msk hmm35wog.pac · WoG zobj024.def def hmm35wog.pac · WoG zobj024.msk msk hmm35wog.pac · WoG zobj025.def def hmm35wog.pac · WoG zobj025.msk msk hmm35wog.pac · WoG zobj026.def def hmm35wog.pac · WoG zobj026.msk msk hmm35wog.pac · WoG zobj027.def def hmm35wog.pac · WoG zobj027.msk msk hmm35wog.pac · WoG zobj028.def def hmm35wog.pac · WoG zobj028.msk msk hmm35wog.pac · WoG zobj029.def def hmm35wog.pac · WoG zobj029.msk msk hmm35wog.pac · WoG zobj030.def def hmm35wog.pac · WoG zobj030.msk msk hmm35wog.pac · WoG zobj031.def def hmm35wog.pac · WoG zobj031.msk msk hmm35wog.pac · WoG zobj032.def def hmm35wog.pac · WoG zobj032.msk msk hmm35wog.pac · WoG zobj033.def def hmm35wog.pac · WoG zobj033.msk msk hmm35wog.pac · WoG zobj034.def def hmm35wog.pac · WoG zobj034.msk msk hmm35wog.pac · WoG zobj035.def def hmm35wog.pac · WoG zobj035.msk msk hmm35wog.pac · WoG zobj036.def def hmm35wog.pac · WoG zobj036.msk msk hmm35wog.pac · WoG zobj037.def def hmm35wog.pac · WoG zobj037.msk msk hmm35wog.pac · WoG zobj038.def def hmm35wog.pac · WoG zobj038.msk msk hmm35wog.pac · WoG zobj039.def def hmm35wog.pac · WoG zobj039.msk msk hmm35wog.pac · WoG zobj040.def def hmm35wog.pac · WoG zobj040.msk msk hmm35wog.pac · WoG zobj041.def def hmm35wog.pac · WoG zobj041.msk msk hmm35wog.pac · WoG zobj042.def def hmm35wog.pac · WoG zobj042.msk msk hmm35wog.pac · WoG zobj043.def def hmm35wog.pac · WoG zobj043.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-6c360fb8ba25",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm159g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a773a9e1338",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm159g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8778bfde6008",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm160g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-454665e7cea7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm160g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d0c4b7c7b95c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm161g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f6a22c8fb914",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm161g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5c099aa731aa",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm162g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3339be95c36f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm162g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a9627b12b67d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm163g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d93056836910",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm163g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-550da1cec621",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm164d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-de4a6f98ac9e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm164d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-334c1b9e77b5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm165d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b0a1cdcc8339",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm165d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6605aed0abcd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm166d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-baea55d0c4a9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm166d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-96c8f186edb0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm167d.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-352ba196259f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm167d.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-80d94f183242",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm168g.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fed661e31d63",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm168g.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-169977405269",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm169z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bd72112511da",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm169z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-65fbc83fb049",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm170s.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2912f542954",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm170s.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e87a6d442169",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm171s.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9bb0f65fd2d5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm171s.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e759eb245920",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm172n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e8a18392750f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm172n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c382a89fa694",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm173m.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-42532d0e79b0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm173m.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8fc7893f75a7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm174n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-146688c72fae",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm174n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d6f86cbe48d5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm175n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f81f4fc28327",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm175n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-63739a9df336",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm176n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a2ecbf23e399",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm176n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5011ea7e07d3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm177n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec412cdb4803",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm177n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-79d29f0c998a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm178n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8745b49a736d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm178n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e9ed04b1b52a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm179n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3d2d523846b8",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm179n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8b4c5bfb30c2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm180n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1dbde3a49707",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm180n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a796dbdfb647",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm181n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4dd59265d90d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm181n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d567470317a6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm182n.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3352972ea47b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm182n.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f8579d41af9c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm192z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5ad7f09d115d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm192z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c9ed213e3f63",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm193z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a6c12dec2b59",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm193z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b19773b1f769",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm194z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e2edaa7336a7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm194z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23f5cfee4738",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm195z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b733e28525b2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm195z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6854d27faae",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm196z.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8c6e3ed99f2c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zmm196z.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c78915f47d8b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ef3fac547bb1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b1451e3c8bcd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8669d08587b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5517b2ef90ae",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bc5a60f8ada7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b339b79180c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj004.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-065a4288a8d0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj004.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a39f5138ae21",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj005.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2ba3608643e9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj005.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0e97b764ec75",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj006.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5047dfb877c1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj006.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b5b3d9e9787",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj007.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-15026858c0dd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj007.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-847bf6c6bb58",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj008.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2d4c47ecc79f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj008.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0caf5fd4f5ec",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj009.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4dd93a66cb9c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj009.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ff58345029bf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj010.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f7c6546f3551",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj010.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-04a261743410",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj011.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-11974bbfcf70",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj011.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b5a8eef75de2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj012.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e31968c944f4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj012.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-337970551088",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj013.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-954a5502f167",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj013.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4658c115953b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj014.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8d56c12f47a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj014.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-26a4d0376511",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj015.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d5e013cec173",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj015.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6373d19a9021",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj016.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5631f401c9b4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj016.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c5c310dae025",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj017.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3c4de2676717",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj017.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-148a9e76884c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj018.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5560bb9a48ff",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj018.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-facad21f2d81",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj019.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52aa7cbcaf37",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj019.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-72400a68ed69",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj020.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-19b2250e711f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj020.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8e2c35580926",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj021.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f9510041dd0d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj021.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-78e421114b78",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj022.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1dddb33a2e42",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj022.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3654d36a539d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj023.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ce4cf96a1b2a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj023.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3a7ab2f2267d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj024.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-56f65abcd43e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj024.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2bfabf33272",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj025.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e4e28319a564",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj025.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-76069da18e7d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj026.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-508399e74165",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj026.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7c4fcf82aee3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj027.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6d06d33bb9bf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj027.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2deef7db5d10",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj028.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3cfbd1402524",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj028.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3fe593284400",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj029.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-52d07b2e9529",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj029.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-90d0fafbcc3a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj030.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fb462b26b355",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj030.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-32dfc11a187e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj031.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-976d861b7195",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj031.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-54f5a8cc99f6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj032.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-81d77bf5498f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj032.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cbb5b7e3e95d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj033.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-87b20d0631e2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj033.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0d4a24058345",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj034.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a7c30fd557a3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj034.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f949701c6383",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj035.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d8061a519504",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj035.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc22f8e757ba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj036.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f3fa537081cf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj036.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6d1d31be1932",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj037.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a3b8aad0ec36",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj037.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e207de73a686",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj038.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3710466b8611",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj038.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-25ef4765c8ba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj039.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b574b5f42d75",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj039.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0239e49d064e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj040.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-fc5974f469dd",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj040.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-27126045b6c2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj041.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3fabffd4ea5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj041.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-79f3d122f947",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj042.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-834228fa9aba",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj042.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cb7043a88266",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj043.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3f0949b1a8c9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj043.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.defs.page-7",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/defs/page-7",
+    "url": "/ru/wiki/wog/defs/page-7/",
+    "title": "DEF-файлы (*.def)",
+    "summary": "WoG · hmm35wog.pac · 7/7",
+    "keywords": [
+      "WoG",
+      "DEF-файлы (*.def)",
+      "DEF files (*.def)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит DEF-файлы (*.def)?",
+      "Which files are in DEF files (*.def)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "DEF-файлы (*.def) DEF-файлы (*.def) File Resource Source zobj044.def def hmm35wog.pac · WoG zobj044.msk msk hmm35wog.pac · WoG zobj045.def def hmm35wog.pac · WoG zobj045.msk msk hmm35wog.pac · WoG zobj046.def def hmm35wog.pac · WoG zobj046.msk msk hmm35wog.pac · WoG zobj047.def def hmm35wog.pac · WoG zobj047.msk msk hmm35wog.pac · WoG zobj048.def def hmm35wog.pac · WoG zobj048.msk msk hmm35wog.pac · WoG zobj049.def def hmm35wog.pac · WoG zobj049.msk msk hmm35wog.pac · WoG zobj050.def def hmm35wog.pac · WoG zobj050.msk msk hmm35wog.pac · WoG zobrevno.def def hmm35wog.pac · WoG zobrevno.msk msk hmm35wog.pac · WoG zrain00.def def hmm35wog.pac · WoG zrain00.msk msk hmm35wog.pac · WoG zreef1.def def hmm35wog.pac · WoG zreef1.msk msk hmm35wog.pac · WoG zreef2.def def hmm35wog.pac · WoG zreef2.msk msk hmm35wog.pac · WoG zreef3.def def hmm35wog.pac · WoG zreef3.msk msk hmm35wog.pac · WoG zreef4.def def hmm35wog.pac · WoG zreef4.msk msk hmm35wog.pac · WoG zreef5.def def hmm35wog.pac · WoG zreef5.msk msk hmm35wog.pac · WoG zseer001.def def hmm35wog.pac · WoG zseer001.msk msk hmm35wog.pac · WoG zseer002.def def hmm35wog.pac · WoG zseer002.msk msk hmm35wog.pac · WoG zshot195.def def hmm35wog.pac · WoG zsnow001.def def hmm35wog.pac · WoG zsnow001.msk msk hmm35wog.pac · WoG zsphnx10.def def hmm35wog.pac · WoG zsphnx10.msk msk hmm35wog.pac · WoG zsphnx11.def def hmm35wog.pac · WoG zsphnx11.msk msk hmm35wog.pac · WoG zsphnx12.def def hmm35wog.pac · WoG zsphnx12.msk msk hmm35wog.pac · WoG zsphnx13.def def hmm35wog.pac · WoG zsphnx13.msk msk hmm35wog.pac · WoG ztower1.def def hmm35wog.pac · WoG ztower1.msk msk hmm35wog.pac · WoG ztport01.def def hmm35wog.pac · WoG ztport01.msk msk hmm35wog.pac · WoG ztport02.def def hmm35wog.pac · WoG ztport02.msk msk hmm35wog.pac · WoG ztport03.def def hmm35wog.pac · WoG ztport03.msk msk hmm35wog.pac · WoG ztport04.def def hmm35wog.pac · WoG ztport04.msk msk hmm35wog.pac · WoG ztport05.def def hmm35wog.pac · WoG ztport05.msk msk hmm35wog.pac · WoG ztport06.def def hmm35wog.pac · WoG ztport06.msk msk hmm35wog.pac · WoG ztport07.def def hmm35wog.pac · WoG ztport07.msk msk hmm35wog.pac · WoG ztport08.def def hmm35wog.pac · WoG ztport08.msk msk hmm35wog.pac · WoG zwall001.def def hmm35wog.pac · WoG zwall001.msk msk hmm35wog.pac · WoG zwall002.def def hmm35wog.pac · WoG zwall002.msk msk hmm35wog.pac · WoG zwall003.def def hmm35wog.pac · WoG zwall003.msk msk hmm35wog.pac · WoG zwfall01.def def hmm35wog.pac · WoG zwfall01.msk msk hmm35wog.pac · WoG zwfall02.def def hmm35wog.pac · WoG zwfall02.msk msk hmm35wog.pac · WoG zwfall03.def def hmm35wog.pac · WoG zwfall03.msk msk hmm35wog.pac · WoG zwvolc1.def def hmm35wog.pac · WoG zwvolc1.msk msk hmm35wog.pac · WoG zyzop1.def def hmm35wog.pac · WoG zyzop1.msk msk hmm35wog.pac · WoG zyzop2.def def hmm35wog.pac · WoG zyzop2.msk msk hmm35wog.pac · WoG zzzz.def def hmm35wog.pac · WoG zzzz.msk msk hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-2db5169b3c33",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj044.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d785dfb21411",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj044.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d4070ce7c1d3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj045.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e847a348c47e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj045.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bc434f289acf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj046.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3acdbf3d11c5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj046.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6af77f503247",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj047.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8bf9902b3f17",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj047.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-885a59dc73e0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj048.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e6eba976a41a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj048.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-aa9f77959a5e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj049.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c42f34ee2388",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj049.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a9328714cf16",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj050.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f04edd649c3b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobj050.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-072f68698285",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobrevno.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3b656751bd94",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zobrevno.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5982309d96dc",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zrain00.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1e13a8a493aa",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zrain00.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ed6b8f1df14e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-61dc47fa18b5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1185e08ca428",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f72ec6d0da5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b0a034a27a30",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef3.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1717c76a12bf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef3.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e3dbe3745b9b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef4.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4388d6b74b7f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef4.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d2c473cc090a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef5.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dbaf6acfb11c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zreef5.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-19f10dcf1bc2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zseer001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-679caa5db70c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zseer001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d138b38d5dd2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zseer002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a0c6ca6add1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zseer002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a53d3775da5a",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zshot195.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1a9d8bcd78f3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsnow001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a3f774937af5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsnow001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-29d8ce15a7ff",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx10.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-23b47eabf2b0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx10.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d07620ee8c82",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx11.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c84256b79d33",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx11.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-987031616146",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx12.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d3910c11d17e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx12.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-3edb94d92076",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx13.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-987d4adaff94",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zsphnx13.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e218a857008d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztower1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b2e67abba92c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztower1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-869f76c62001",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-735dae2eb534",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ed1ce36950c2",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-bdbc04916ae7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6f9fa87572c4",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-345202106094",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport03.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-15be5c11d475",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport04.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-856541920d7f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport04.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f5e32da2fa5f",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport05.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-46f9b207974c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport05.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-34778d1900c7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport06.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5aaeb931565b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport06.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c8d206b456f5",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport07.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c38044414578",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport07.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a7ee73ae8d58",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport08.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7e9c6ae369b1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "ztport08.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0f483c01a2c3",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwall001.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4a396817a499",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwall001.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-16038bddf382",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwall002.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-780cc6e6cc8e",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwall002.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-380643ba1e60",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwall003.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1223fbfe37ac",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwall003.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-12a45172788d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwfall01.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-cba971b78b58",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwfall01.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-556bbe84f882",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwfall02.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-9fdefe3688f6",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwfall02.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ef98f766c42d",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwfall03.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-110e45e3f16c",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwfall03.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-8fd1c96d1b3b",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwvolc1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1350480bfea9",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zwvolc1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-33ba35d8e3f7",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zyzop1.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1f9be7f4b131",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zyzop1.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-1221b47b29e1",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zyzop2.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-74d3623faaaf",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zyzop2.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-5e7a23b09fef",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zzzz.def def hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-4bae63692f54",
+        "heading": "DEF-файлы (*.def)",
+        "text": "zzzz.msk msk hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "DEF-файлы (*.def)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.fonts",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/fonts",
+    "url": "/ru/wiki/wog/fonts/",
+    "title": "Шрифты (*.fnt)",
+    "summary": "WoG · hmm35wog.pac · 1/1",
+    "keywords": [
+      "WoG",
+      "Шрифты (*.fnt)",
+      "Fonts (*.fnt)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Шрифты (*.fnt)?",
+      "Which files are in Fonts (*.fnt)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "Шрифты (*.fnt) Шрифты (*.fnt) File Resource Source bigfont.fnt fnt hmm35wog.pac · WoG bigfont2.fnt fnt hmm35wog.pac · WoG CALLI10R.FNT fnt hmm35wog.pac · WoG CREDITS.FNT fnt hmm35wog.pac · WoG HISCORE.FNT fnt hmm35wog.pac · WoG medfont.fnt fnt hmm35wog.pac · WoG medfont2.fnt fnt hmm35wog.pac · WoG smalfont.fnt fnt hmm35wog.pac · WoG smalfont2.fnt fnt hmm35wog.pac · WoG TIMES08R.FNT fnt hmm35wog.pac · WoG tiny.fnt fnt hmm35wog.pac · WoG verd10b.fnt fnt hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-38484cd2969a",
+        "heading": "Шрифты (*.fnt)",
+        "text": "bigfont.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-482f25eb5e00",
+        "heading": "Шрифты (*.fnt)",
+        "text": "bigfont2.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e0c9949b1799",
+        "heading": "Шрифты (*.fnt)",
+        "text": "CALLI10R.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-51df4fb31a2b",
+        "heading": "Шрифты (*.fnt)",
+        "text": "CREDITS.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-70851b1b05eb",
+        "heading": "Шрифты (*.fnt)",
+        "text": "HISCORE.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-dc8faa476abb",
+        "heading": "Шрифты (*.fnt)",
+        "text": "medfont.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66caa750b3ac",
+        "heading": "Шрифты (*.fnt)",
+        "text": "medfont2.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ec7b893e5af0",
+        "heading": "Шрифты (*.fnt)",
+        "text": "smalfont.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-a1b7073ea38e",
+        "heading": "Шрифты (*.fnt)",
+        "text": "smalfont2.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-7f11f7f06080",
+        "heading": "Шрифты (*.fnt)",
+        "text": "TIMES08R.FNT fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-25238d841900",
+        "heading": "Шрифты (*.fnt)",
+        "text": "tiny.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f78b66de71d6",
+        "heading": "Шрифты (*.fnt)",
+        "text": "verd10b.fnt fnt hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Шрифты (*.fnt)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.images",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/images",
+    "url": "/ru/wiki/wog/images/",
+    "title": "Изображения (*.pcx)",
+    "summary": "WoG · hmm35wog.pac · 1/1",
+    "keywords": [
+      "WoG",
+      "Изображения (*.pcx)",
+      "Images (*.pcx)"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Изображения (*.pcx)?",
+      "Which files are in Images (*.pcx)?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:hmm35wog.pac"
+    ],
+    "text": "Изображения (*.pcx) Изображения (*.pcx) File Resource Source artslot.pcx pcx hmm35wog.pac · WoG b21p_bl.pcx pcx hmm35wog.pac · WoG b21p_bs.pcx pcx hmm35wog.pac · WoG battlelog.pcx pcx hmm35wog.pac · WoG ccellgrd.pcx pcx hmm35wog.pac · WoG ccellshd.pcx pcx hmm35wog.pac · WoG dfault24.pcx pcx hmm35wog.pac · WoG dlg_npcn.pcx pcx hmm35wog.pac · WoG dlg_npcu.pcx pcx hmm35wog.pac · WoG kovspexp.pcx pcx hmm35wog.pac · WoG Townhrtr.pcx pcx hmm35wog.pac · WoG townscrn.pcx pcx hmm35wog.pac · WoG wogoptions.pcx pcx hmm35wog.pac · WoG wogtextedit.pcx pcx hmm35wog.pac · WoG z11p_1l.pcx pcx hmm35wog.pac · WoG z11p_1s.pcx pcx hmm35wog.pac · WoG z11p_2l.pcx pcx hmm35wog.pac · WoG z11p_2s.pcx pcx hmm35wog.pac · WoG z11p_3l.pcx pcx hmm35wog.pac · WoG z11p_3s.pcx pcx hmm35wog.pac · WoG z11p_4l.pcx pcx hmm35wog.pac · WoG z11p_4s.pcx pcx hmm35wog.pac · WoG zmainmen.pcx pcx hmm35wog.pac · WoG zpic1005.pcx pcx hmm35wog.pac · WoG",
+    "segments": [
+      {
+        "id": "file-cbdb9ccd858d",
+        "heading": "Изображения (*.pcx)",
+        "text": "artslot.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-798a1547cc01",
+        "heading": "Изображения (*.pcx)",
+        "text": "b21p_bl.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-ad416ef2036e",
+        "heading": "Изображения (*.pcx)",
+        "text": "b21p_bs.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-97644e28b392",
+        "heading": "Изображения (*.pcx)",
+        "text": "battlelog.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-e5d2f1e5115d",
+        "heading": "Изображения (*.pcx)",
+        "text": "ccellgrd.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-b605d2284e28",
+        "heading": "Изображения (*.pcx)",
+        "text": "ccellshd.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2f50dcd406e0",
+        "heading": "Изображения (*.pcx)",
+        "text": "dfault24.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-2eae2025457d",
+        "heading": "Изображения (*.pcx)",
+        "text": "dlg_npcn.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c6086276351b",
+        "heading": "Изображения (*.pcx)",
+        "text": "dlg_npcu.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6f6847035747",
+        "heading": "Изображения (*.pcx)",
+        "text": "kovspexp.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-d55e905ef5ac",
+        "heading": "Изображения (*.pcx)",
+        "text": "Townhrtr.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-362f67d56475",
+        "heading": "Изображения (*.pcx)",
+        "text": "townscrn.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-6a102998a466",
+        "heading": "Изображения (*.pcx)",
+        "text": "wogoptions.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-0af8ce9f29e3",
+        "heading": "Изображения (*.pcx)",
+        "text": "wogtextedit.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-26ac3d7d6def",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_1l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-c2b59b4fefa0",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_1s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f74777dee9af",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_2l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-66a21194773d",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_2s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-62d228a0ae7c",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_3l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-75fa80fc73a1",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_3s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-36cd13a8226c",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_4l.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-f024aa165c66",
+        "heading": "Изображения (*.pcx)",
+        "text": "z11p_4s.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-67cf2750794c",
+        "heading": "Изображения (*.pcx)",
+        "text": "zmainmen.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "file-141f333d6a6d",
+        "heading": "Изображения (*.pcx)",
+        "text": "zpic1005.pcx pcx hmm35wog.pac · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Изображения (*.pcx)",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.sounds",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/sounds",
+    "url": "/ru/wiki/wog/sounds/",
+    "title": "Звуки",
+    "summary": "WoG · wog.snd · 1/1",
+    "keywords": [
+      "WoG",
+      "Звуки",
+      "Sounds"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Звуки?",
+      "Which files are in Sounds?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:wog.snd"
+    ],
+    "text": "Звуки Звуки File Resource Source aelmattk audio wog.snd · WoG aelmdfnd audio wog.snd · WoG aelmkill audio wog.snd · WoG aelmwnce audio wog.snd · WoG amagshot audio wog.snd · WoG BUTTON0 audio wog.snd · WoG BUTTON1 audio wog.snd · WoG crusshot audio wog.snd · WoG ecntshot audio wog.snd · WoG firbattk audio wog.snd · WoG genishot audio wog.snd · WoG ghdrshot audio wog.snd · WoG gnolshot audio wog.snd · WoG imppdfnd audio wog.snd · WoG imppkill audio wog.snd · WoG imppwnce audio wog.snd · WoG lichshot audio wog.snd · WoG monkshot audio wog.snd · WoG pfoeshot audio wog.snd · WoG pixidfnd audio wog.snd · WoG rustattk audio wog.snd · WoG sgrgshot audio wog.snd · WoG sprtdfnd audio wog.snd · WoG trllshot audio wog.snd · WoG zquiet audio wog.snd · WoG",
+    "segments": [
+      {
+        "id": "file-230089d020e5",
+        "heading": "Звуки",
+        "text": "aelmattk audio wog.snd · WoG"
+      },
+      {
+        "id": "file-aa3e2ded907b",
+        "heading": "Звуки",
+        "text": "aelmdfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-2e13f4df48d5",
+        "heading": "Звуки",
+        "text": "aelmkill audio wog.snd · WoG"
+      },
+      {
+        "id": "file-ec1ae6f62d28",
+        "heading": "Звуки",
+        "text": "aelmwnce audio wog.snd · WoG"
+      },
+      {
+        "id": "file-4f64749d6018",
+        "heading": "Звуки",
+        "text": "amagshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-81ac749a704f",
+        "heading": "Звуки",
+        "text": "BUTTON0 audio wog.snd · WoG"
+      },
+      {
+        "id": "file-a75b3885f32d",
+        "heading": "Звуки",
+        "text": "BUTTON1 audio wog.snd · WoG"
+      },
+      {
+        "id": "file-7720a171add4",
+        "heading": "Звуки",
+        "text": "crusshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c2c39cd83ec6",
+        "heading": "Звуки",
+        "text": "ecntshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-d478d1977382",
+        "heading": "Звуки",
+        "text": "firbattk audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c76d9367b071",
+        "heading": "Звуки",
+        "text": "genishot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c0747b2387ba",
+        "heading": "Звуки",
+        "text": "ghdrshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-0297aeae3955",
+        "heading": "Звуки",
+        "text": "gnolshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-ac98ad343a05",
+        "heading": "Звуки",
+        "text": "imppdfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-806fb2c39538",
+        "heading": "Звуки",
+        "text": "imppkill audio wog.snd · WoG"
+      },
+      {
+        "id": "file-baf37583c9a1",
+        "heading": "Звуки",
+        "text": "imppwnce audio wog.snd · WoG"
+      },
+      {
+        "id": "file-b8440d14198e",
+        "heading": "Звуки",
+        "text": "lichshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-5f575f784140",
+        "heading": "Звуки",
+        "text": "monkshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-097b21250636",
+        "heading": "Звуки",
+        "text": "pfoeshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-06919c436315",
+        "heading": "Звуки",
+        "text": "pixidfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-557061b9abf0",
+        "heading": "Звуки",
+        "text": "rustattk audio wog.snd · WoG"
+      },
+      {
+        "id": "file-fd62f061301d",
+        "heading": "Звуки",
+        "text": "sgrgshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-32c101fe4c05",
+        "heading": "Звуки",
+        "text": "sprtdfnd audio wog.snd · WoG"
+      },
+      {
+        "id": "file-ddaf0c421f39",
+        "heading": "Звуки",
+        "text": "trllshot audio wog.snd · WoG"
+      },
+      {
+        "id": "file-c6f384149ecd",
+        "heading": "Звуки",
+        "text": "zquiet audio wog.snd · WoG"
+      },
+      {
+        "id": "group-0-depth-0",
+        "heading": "Звуки",
+        "text": "File Resource Source"
+      }
+    ]
+  },
+  {
+    "id": "wiki.wog.videos",
+    "kind": "article",
+    "section": "wiki",
+    "locale": "ru",
+    "slug": "wog/videos",
+    "url": "/ru/wiki/wog/videos/",
+    "title": "Видео",
+    "summary": "WoG · wog.vid · 1/1",
+    "keywords": [
+      "WoG",
+      "Видео",
+      "Videos"
+    ],
+    "questions": [
+      "Какие ресурсы содержит Видео?",
+      "Which files are in Videos?"
+    ],
+    "sourceRefs": [
+      "wiki-wog:wog.vid"
+    ],
+    "text": "Видео Видео File Resource Source C1ab7.bik video wog.vid · WoG C1db2.bik video wog.vid · WoG C1ds1.bik video wog.vid · WoG C1fl3.bik video wog.vid · WoG C1fw1.bik video wog.vid · WoG C1pf2.bik video wog.vid · WoG HSANIM.smk video wog.vid · WoG LOSEGAME.smk video wog.vid · WoG",
+    "segments": [
+      {
+        "id": "file-7b47e762a314",
+        "heading": "Видео",
+        "text": "C1ab7.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-65c7d8cd9c27",
+        "heading": "Видео",
+        "text": "C1db2.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-2f417b4083a4",
+        "heading": "Видео",
+        "text": "C1ds1.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-13aef07f336d",
+        "heading": "Видео",
+        "text": "C1fl3.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-9914b55f48a1",
+        "heading": "Видео",
+        "text": "C1fw1.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-5b325922445d",
+        "heading": "Видео",
+        "text": "C1pf2.bik video wog.vid · WoG"
+      },
+      {
+        "id": "file-da8d9fbe58b0",
+        "heading": "Видео",
+        "text": "HSANIM.smk video wog.vid · WoG"
+      },
+      {
+        "id": "file-62cb0d8da87d",
+        "heading": "Видео",
+        "text": "LOSEGAME.smk video wog.vid · WoG"
       },
       {
         "id": "group-0-depth-0",

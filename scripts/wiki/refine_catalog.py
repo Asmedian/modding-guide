@@ -28,16 +28,16 @@ def clean(text):
     return re.sub(r' {2,}', ' ', text).replace('расстения', 'растения').replace('Освобождние', 'Освобождение')
 
 
-def create_resource(root, archive, name, data):
+def create_resource(root, archive, name, data, edition='SoD'):
     import struct
     kind = Path(name).suffix[1:].lower()
-    prefix = '/assets/wiki/sod/'+archive.replace('.', '-').lower()
+    prefix = '/assets/wiki/'+edition.lower()+'/'+archive.replace('.', '-').lower().replace(' ', '-')
     folder = root/'static'/prefix.lstrip('/')
     for sub in ['original', 'display', 'preview']:
         (folder/sub).mkdir(parents=True, exist_ok=True)
     (folder/'original'/name).write_bytes(data)
     rid = archive+'/'+name
-    item = dict(id=rid, name=name, archive=archive, edition='SoD', kind=kind,
+    item = dict(id=rid, name=name, archive=archive, edition=edition, kind=kind,
                 bytes=len(data), sha256=hashlib.sha256(data).hexdigest(),
                 anchor='file-'+hashlib.sha256(rid.encode()).hexdigest()[:12], original=prefix+'/original/'+name)
     if kind == 'pcx':

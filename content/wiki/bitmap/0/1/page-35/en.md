@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 35/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod, AB campaigns · 35/39", "translationStatus": "reviewed"}
 ---
 
 ## Building bonus icons / Fortress {#group-0}
@@ -128,103 +128,120 @@
 | --- | --- | --- |
 | `CAMPSCTS.PCX` {#file-bdf914eb64ad} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness {#group-9}
+## Campaign selection images / Armageddon's Blade (note #3) / Armageddon's Blade {#group-9}
 
 ### Armageddon's Blade (note #3) {#group-9-depth-1}
 
-### Foolhardy Waywardness {#group-9-depth-2}
+### Armageddon's Blade {#group-9-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1AB7.pcx` {#file-5a33e60d3a0c} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Dragon's Blood {#group-10}
+
+### Dragon's Blood {#group-10-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1DB2.pcx` {#file-86875003fae2} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Dragon Slayer {#group-11}
+
+### Dragon Slayer {#group-11-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1DS1.pcx` {#file-a66dc933a8c0} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Festival of Life {#group-12}
+
+### Festival of Life {#group-12-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1FL3.pcx` {#file-2cb26c854780} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Playing with Fire {#group-13}
+
+### Playing with Fire {#group-13-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `Camp1PF2.pcx` {#file-c9a604e741c3} | pcx | AB campaigns · AB |
+
+## Campaign selection images / Armageddon's Blade (note #3) / Foolhardy Waywardness {#group-14}
+
+### Foolhardy Waywardness {#group-14-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `Camp1FWX.pcx` {#file-9ec650c33fb0} | pcx | H3bitmap.lod · SoD |
+| `Camp1FW1.pcx` {#file-26a298933de1} | pcx | AB campaigns · AB |
 
-## Campaign selection images / The Shadow of Death / New Beginning {#group-10}
+## Campaign selection images / The Shadow of Death / New Beginning {#group-15}
 
-### The Shadow of Death {#group-10-depth-1}
+### The Shadow of Death {#group-15-depth-1}
 
-### New Beginning {#group-10-depth-2}
+### New Beginning {#group-15-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampNB1.pcx` {#file-211d9ef8786a} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Elixir of Life {#group-11}
+## Campaign selection images / The Shadow of Death / Elixir of Life {#group-16}
 
-### Elixir of Life {#group-11-depth-2}
+### Elixir of Life {#group-16-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampEL1.pcx` {#file-5d62bfbdd51d} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Hack and Slash {#group-12}
+## Campaign selection images / The Shadow of Death / Hack and Slash {#group-17}
 
-### Hack and Slash {#group-12-depth-2}
+### Hack and Slash {#group-17-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampHS1.pcx` {#file-e491de023ab4} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Birth of a Barbarian {#group-13}
+## Campaign selection images / The Shadow of Death / Birth of a Barbarian {#group-18}
 
-### Birth of a Barbarian {#group-13-depth-2}
+### Birth of a Barbarian {#group-18-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampBB1.pcx` {#file-f547af4e493e} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Rise of the Necromancer {#group-14}
+## Campaign selection images / The Shadow of Death / Rise of the Necromancer {#group-19}
 
-### Rise of the Necromancer {#group-14-depth-2}
+### Rise of the Necromancer {#group-19-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampRN1.pcx` {#file-966c4b6d08aa} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Unholy Alliance {#group-15}
+## Campaign selection images / The Shadow of Death / Unholy Alliance {#group-20}
 
-### Unholy Alliance {#group-15-depth-2}
+### Unholy Alliance {#group-20-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampUA1.pcx` {#file-4d07200c59bc} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / The Shadow of Death / Specter of Power {#group-16}
+## Campaign selection images / The Shadow of Death / Specter of Power {#group-21}
 
-### Specter of Power {#group-16-depth-2}
+### Specter of Power {#group-21-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CampSP1.pcx` {#file-61b2595cd827} | pcx | H3bitmap.lod · SoD |
 
-## Campaign selection images / Secret campaign {#group-17}
+## Campaign selection images / Secret campaign {#group-22}
 
-### Secret campaign {#group-17-depth-1}
+### Secret campaign {#group-22-depth-1}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `CAMPNOSC.PCX` {#file-d15795d53633} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / Restoration of Erathia / Long Live the Queen {#group-18}
-
-### Video previews {#group-18-depth-0}
-
-### Restoration of Erathia {#group-18-depth-1}
-
-### Long Live the Queen {#group-18-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `CslReG1a.pcx` {#file-fc6e8371ce73} | pcx | H3bitmap.lod · SoD |
-| `CslReG1b.pcx` {#file-aa52e7272c44} | pcx | H3bitmap.lod · SoD |
-| `CslReG1c.pcx` {#file-5d5f84484d7b} | pcx | H3bitmap.lod · SoD |
-
-## Video previews / Restoration of Erathia / Dungeons and Devils {#group-19}
-
-### Dungeons and Devils {#group-19-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `CslReE3a.pcx` {#file-08a8bddae107} | pcx | H3bitmap.lod · SoD |
-| `CslReE3b.pcx` {#file-4a68a90b1c8a} | pcx | H3bitmap.lod · SoD |
-| `CslReE3c.pcx` {#file-392095124215} | pcx | H3bitmap.lod · SoD |
 

@@ -21,7 +21,7 @@
   export let toc: Array<{ id: string; label: string }> = [];
   export let activeSlug = '';
   export let navigation: {
-    groups: Array<{ id: string; labelKey: string; href?: string; edition?: string; items: Array<{ labelKey: string; slug: string }> }>;
+    groups: Array<{ id: string; labelKey: string; href?: string; edition?: string; showEdition?: boolean; items: Array<{ labelKey: string; slug: string; edition?: string; showEdition?: boolean }> }>;
   };
   export let ermAlphabet: Array<{ id: string; parent: string | null; depth: number; label: Record<Locale, string>; slug: string; anchor: string }> = [];
   export let ermReceivers: Array<{ code: string; slug: string; title: Record<Locale, string> }> = [];
@@ -462,7 +462,7 @@
       {#each isHome ? [] : navigation.groups as group}
         {#if group.href}
           <a class="nav-group wiki-nav-direct" class:current={isCurrentNavigationLink(group.href)} href={`${base}/${lang}/${group.href}/`} on:click={leaveSidebar}>
-            <h2>{t(group.labelKey)}</h2><small class="wiki-nav-edition">{group.edition}</small>
+            <h2>{t(group.labelKey)}</h2>{#if group.showEdition !== false}<small class="wiki-nav-edition">{group.edition}</small>{/if}
           </a>
         {:else}
         <details class="nav-group" data-group={group.id} class:wiki-navigation={Boolean(group.edition)} open={!collapsedGroups.includes(group.id)} on:toggle={(event) => updateGroup(group.id, event.currentTarget.open)}>
@@ -477,7 +477,7 @@
                 <a class:current={isCurrentNavigationLink(item.slug)} aria-current={isCurrentNavigationLink(item.slug) ? 'page' : undefined} href={item.slug ? `${base}/${lang}/${item.slug}/` : `${base}/${lang}/`} on:click={leaveSidebar}>
                   <span class="nav-rune" aria-hidden="true"></span>
                   <span>{t(item.labelKey)}</span>
-                  {#if group.edition}<small class="wiki-nav-edition">{group.edition}</small>{/if}
+                  {#if group.showEdition !== false && item.showEdition !== false && (item.edition || group.edition)}<small class="wiki-nav-edition">{item.edition || group.edition}</small>{/if}
                 </a>
               </li>
             {/each}

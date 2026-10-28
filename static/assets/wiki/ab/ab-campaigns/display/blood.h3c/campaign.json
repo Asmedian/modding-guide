@@ -1,0 +1,715 @@
+{
+  "name": "Dragon's Blood",
+  "description": "Overlord Mutare, an ambitious Nighon Lady, wishes to take her rightful place among the ranks of powerful Nighon Lords.  In Nighon, you don't inherit your lands - you take them from those too weak to hold them.  Only the strong are fit to rule, and the bones of the weak litter the tunnels of Nighon.",
+  "version": "AB",
+  "scenarioCount": 4,
+  "mapCount": 4,
+  "allowDifficultySelection": false,
+  "aggregate": {
+    "area": 80352,
+    "objects": 9387,
+    "towns": 36,
+    "monsters": 228,
+    "factions": {
+      "Dungeon": 36
+    }
+  },
+  "scenarios": [
+    {
+      "index": 0,
+      "mapName": "DB1 Culling the Weak.h3m",
+      "regionText": "Ordwald, your near neighbor, is the oldest lord in Nighon.  Age has started to effect the old warlock, but he is still able to beat off the other young lords.  Unlike the others, you have patiently waited for Ordwald to stumble before you move.  Last week, Ordwald slipped.  Time to take him down.",
+      "prologText": "Ordwald.  I find the name distasteful.  This old man has held rich Nighon lands given to him by a much greater father.  He has squandered his time and done little to earn his stature.  I have stood in his shadow and by his borders too long.  His lands will be mine.",
+      "preconditions": 0,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 2,
+          "buildingId": 28
+        },
+        {
+          "type": 3,
+          "heroId": 151,
+          "artifactId": 37
+        },
+        {
+          "type": 1,
+          "heroId": 151,
+          "creatureId": 73,
+          "amount": 12
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-1.h3m",
+      "name": "Culling the Weak",
+      "description": "Crush your enemies, but be careful not lose Mutare.  Mutare will be limited to level ten, but will transfer to the next scenario. Gain the Charm of Mana from the Seer's Hut and carry it into the next scenario to access a bonus area.",
+      "mapSize": 72,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 52,
+          "mainTownY": 57,
+          "mainTownZ": 1,
+          "hasRandomHero": false,
+          "mainHeroId": 151,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 151,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 19,
+          "mainTownY": 18,
+          "mainTownZ": 1,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 52,
+          "mainTownY": 19,
+          "mainTownZ": 1,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 22,
+          "mainTownY": 57,
+          "mainTownZ": 1,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 4,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 52,
+        "y": 58,
+        "z": 1
+      },
+      "factions": {
+        "Dungeon": 12
+      },
+      "objects": 2192,
+      "towns": 12,
+      "monsters": 38,
+      "minimaps": [
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-1-0.png"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-1-1.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "mapName": "DB2 Savaging the Scavengers.h3m",
+      "regionText": "Interrogation reveals Ordwald didn't personally defend his lands because he is seeking the fabled Vial of Dragon Blood. Unfortunately, Caomham and Preuet have also heard about the Vial. They will certainly follow you into the Deep Caverns after Ordwald if they can. You need to dispose of them first.",
+      "prologText": "Ordwald is absent.  No wonder his lands were so easy to take.  It seems he has spent his life and his father's fortune in pursuit of the fabled Vial of Dragon Blood.  It is said to hold blood taken from the Dragon Father.  It is believed drinking it will transform the user into a sentient dragon.  Orwald isn't as stupid as I believed.  Still, he is old.  I will find him and the vial, but first, I must dispose of the young lords who have heard the news and nip at my heels.",
+      "preconditions": 1,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 151,
+          "artifactId": 37
+        },
+        {
+          "type": 3,
+          "heroId": 151,
+          "artifactId": 42
+        },
+        {
+          "type": 1,
+          "heroId": 151,
+          "creatureId": 76,
+          "amount": 4
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-2.h3m",
+      "name": "Savaging the Scavengers",
+      "description": "Obliterate your opponents, but once again do not lose the hero Mutare. To do so would mean instant destruction. Mutare will be limited to eighteenth level, but will carry over the Dragon Scale Shield to use in the next scenario.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 151,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 93,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 93,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": false,
+          "hasRandomHero": false,
+          "mainHeroId": 80,
+          "mainHeroPortrait": 255,
+          "mainHeroName": "",
+          "heroes": [
+            {
+              "id": 80,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 3,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 104,
+        "y": 105,
+        "z": 0
+      },
+      "factions": {
+        "Dungeon": 6
+      },
+      "objects": 2533,
+      "towns": 6,
+      "monsters": 48,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-2-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-2-1.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "mapName": "DB3 Blood of the Dragon Father.h3m",
+      "regionText": "Whoever gains the Vial of Dragon Blood and drinks the Blood of the Dragon Father with transform into a Sentient Dragon.  You MUST beat Ordwald to the Vial and defeat its guardians.  Nothing else matters.  Nothing!",
+      "prologText": "I have found Ordwald.  He is close to the vial, but his conservative actions and slow thinking leaves the way open for me to surpass him.  As much as I must worry about Ordwald, I must consider the vial.  Once I have passed him, there is the vial, and no doubt, it will have guardians... dragon guardians.",
+      "preconditions": 2,
+      "difficulty": "Hard",
+      "bonuses": [
+        {
+          "type": 3,
+          "heroId": 151,
+          "artifactId": 117
+        },
+        {
+          "type": 2,
+          "buildingId": 34
+        },
+        {
+          "type": 1,
+          "heroId": 151,
+          "creatureId": 82,
+          "amount": 1
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-3.h3m",
+      "name": "Blood of the Dragon Father",
+      "description": "Find the Vial of Dragon Blood before Ordwald or lose the race.  Also, losing the hero Mutare means instant destruction.  Mutare and two of her best heroes will be transferred to the next scenario, without level limitations.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 98,
+          "mainTownY": 99,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 151,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 1,
+          "aiTacticName": "Builder",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 57,
+          "mainTownY": 89,
+          "mainTownZ": 0,
+          "hasRandomHero": true,
+          "mainHeroId": 24,
+          "mainHeroPortrait": 158,
+          "mainHeroName": "Ordwald",
+          "heroes": [
+            {
+              "id": 24,
+              "name": "Ordwald"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 2,
+      "victory": {
+        "type": 0,
+        "name": "Acquire artifact",
+        "allowNormalVictory": true,
+        "appliesToComputer": true,
+        "artifactId": 127
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 98,
+        "y": 100,
+        "z": 0
+      },
+      "factions": {
+        "Dungeon": 6
+      },
+      "objects": 2258,
+      "towns": 6,
+      "monsters": 74,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-3-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-3-1.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "mapName": "DB4 Blood Thirsty.h3m",
+      "regionText": "Ordwald lied to three powerful Nighon Lords.  He told them, if they were to drink your blood they would also transform into dragons.  Now your old opponent Ordwald and three powerful lords block your access to the upper tunnels.  They want to kill you and drink your blood.  You plan to drink theirs.",
+      "prologText": "I am successful.  Now Ordwald and his lacky's seek to slay me and drink my blood.  They believe it will transform them as the vial transformed me.  They will never drink my blood.  I will be the one to drink their blood.",
+      "epilogText": "Ordwald is dead.  His lackeys are dead.  Their lands and riches belong to me.   Soon, all of Nighon will belong to me.",
+      "preconditions": 4,
+      "difficulty": "Expert",
+      "bonuses": [
+        {
+          "type": 1,
+          "heroId": 151,
+          "creatureId": 133,
+          "amount": 2
+        },
+        {
+          "type": 1,
+          "heroId": 151,
+          "creatureId": 134,
+          "amount": 3
+        },
+        {
+          "type": 1,
+          "heroId": 151,
+          "creatureId": 83,
+          "amount": 6
+        }
+      ],
+      "original": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-4.h3m",
+      "name": "Blood Thirsty",
+      "description": "Once again you must crush your enemies before they crush you.  If Mutare dies then all is lost.  With your two best aides this will still be a difficult battle.",
+      "mapSize": 108,
+      "hasUnderground": true,
+      "players": [
+        {
+          "id": 0,
+          "colorName": "Red",
+          "canHumanPlay": true,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": false,
+          "mainTownX": 55,
+          "mainTownY": 52,
+          "mainTownZ": 1,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": [
+            {
+              "id": 151,
+              "name": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "colorName": "Blue",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 47,
+          "mainTownY": 104,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 24,
+          "mainHeroPortrait": 158,
+          "mainHeroName": "Ordwald",
+          "heroes": [
+            {
+              "id": 24,
+              "name": "Ordwald"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorName": "Tan",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 3,
+          "colorName": "Green",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        },
+        {
+          "id": 4,
+          "colorName": "Orange",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 7,
+          "mainTownY": 70,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 5,
+          "colorName": "Purple",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 66,
+          "mainTownY": 12,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 6,
+          "colorName": "Teal",
+          "canHumanPlay": false,
+          "canComputerPlay": true,
+          "aiTactic": 0,
+          "aiTacticName": "No aggression",
+          "allowedFactions": 32,
+          "isFactionRandom": false,
+          "factions": [
+            "Dungeon"
+          ],
+          "hasMainTown": true,
+          "generateHeroAtTown": true,
+          "mainTownX": 96,
+          "mainTownY": 50,
+          "mainTownZ": 0,
+          "hasRandomHero": false,
+          "mainHeroId": 255,
+          "heroes": []
+        },
+        {
+          "id": 7,
+          "colorName": "Pink",
+          "canHumanPlay": false,
+          "canComputerPlay": false
+        }
+      ],
+      "playerCount": 5,
+      "victory": {
+        "type": 255,
+        "name": "Standard (defeat all enemies)"
+      },
+      "loss": {
+        "type": 1,
+        "name": "Lose specific hero",
+        "x": 55,
+        "y": 53,
+        "z": 1
+      },
+      "factions": {
+        "Dungeon": 12
+      },
+      "objects": 2404,
+      "towns": 12,
+      "monsters": 68,
+      "minimaps": [
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-4-0.png"
+        },
+        {
+          "width": 108,
+          "height": 108,
+          "image": "/assets/wiki/ab/ab-campaigns/display/blood.h3c/scenario-4-1.png"
+        }
+      ]
+    }
+  ]
+}

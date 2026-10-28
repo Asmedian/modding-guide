@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 9/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 9/39", "translationStatus": "reviewed"}
 ---
 
 ## Region maps / Restoration of Erathia / Song for the Father {#group-0}

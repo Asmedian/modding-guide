@@ -1,14 +1,55 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 36/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "AB campaigns, H3bitmap.lod · 36/39", "translationStatus": "reviewed"}
 ---
 
-## Превью к видеороликам / Возрождение Эрафии / Отголоски войны (*) {#group-0}
+## Дополнительные изображения кампаний / Клинок Армагеддона {#group-0}
 
-### Превью к видеороликам {#group-0-depth-0}
+### Дополнительные изображения кампаний {#group-0-depth-0}
 
-### Возрождение Эрафии {#group-0-depth-1}
+### Клинок Армагеддона {#group-0-depth-1}
 
-### Отголоски войны (*) {#group-0-depth-2}
+| File | Resource | Source |
+| --- | --- | --- |
+| `TarnumBL.pcx` {#file-e125f57f1cf7} | pcx | AB campaigns · AB |
+| `TarnumBS.pcx` {#file-284238bf410c} | pcx | AB campaigns · AB |
+| `TarnumCL.pcx` {#file-325ae0d0bb9e} | pcx | AB campaigns · AB |
+| `TarnumCS.pcx` {#file-41eac71629c3} | pcx | AB campaigns · AB |
+| `TarnumEL.pcx` {#file-0f65b389196b} | pcx | AB campaigns · AB |
+| `TarnumES.pcx` {#file-da39527de132} | pcx | AB campaigns · AB |
+| `TarnumFL.pcx` {#file-1091a8a23451} | pcx | AB campaigns · AB |
+| `TarnumFS.pcx` {#file-f22631a71a68} | pcx | AB campaigns · AB |
+| `TarnumUL.pcx` {#file-96d9bc73b530} | pcx | AB campaigns · AB |
+| `TarnumUS.pcx` {#file-0718067b1b38} | pcx | AB campaigns · AB |
+| `TarnumWL.pcx` {#file-cb2ac5c96ffd} | pcx | AB campaigns · AB |
+| `TarnumWS.pcx` {#file-37682e719669} | pcx | AB campaigns · AB |
+
+## Превью к видеороликам / Возрождение Эрафии / Да здравствует Королева! {#group-1}
+
+### Превью к видеороликам {#group-1-depth-0}
+
+### Возрождение Эрафии {#group-1-depth-1}
+
+### Да здравствует Королева! {#group-1-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `CslReG1a.pcx` {#file-fc6e8371ce73} | pcx | H3bitmap.lod · SoD |
+| `CslReG1b.pcx` {#file-aa52e7272c44} | pcx | H3bitmap.lod · SoD |
+| `CslReG1c.pcx` {#file-5d5f84484d7b} | pcx | H3bitmap.lod · SoD |
+
+## Превью к видеороликам / Возрождение Эрафии / Подземелья и дьяволы {#group-2}
+
+### Подземелья и дьяволы {#group-2-depth-2}
+
+| File | Resource | Source |
+| --- | --- | --- |
+| `CslReE3a.pcx` {#file-08a8bddae107} | pcx | H3bitmap.lod · SoD |
+| `CslReE3b.pcx` {#file-4a68a90b1c8a} | pcx | H3bitmap.lod · SoD |
+| `CslReE3c.pcx` {#file-392095124215} | pcx | H3bitmap.lod · SoD |
+
+## Превью к видеороликам / Возрождение Эрафии / Отголоски войны (*) {#group-3}
+
+### Отголоски войны (*) {#group-3-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -16,9 +57,9 @@
 | `CslReN2a.pcx` {#file-b7b3e8ca9b94} | pcx | H3bitmap.lod · SoD |
 | `CslReN2b.pcx` {#file-d1223a43ef38} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Возрождение Эрафии / Освобождение {#group-1}
+## Превью к видеороликам / Возрождение Эрафии / Освобождение {#group-4}
 
-### Освобождение {#group-1-depth-2}
+### Освобождение {#group-4-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -27,9 +68,9 @@
 | `CslReG4c.pcx` {#file-39c7c8a129a2} | pcx | H3bitmap.lod · SoD |
 | `CslReG4d.pcx` {#file-f9873b56edbd} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Возрождение Эрафии / Да здравствует Король! {#group-2}
+## Превью к видеороликам / Возрождение Эрафии / Да здравствует Король! {#group-5}
 
-### Да здравствует Король! {#group-2-depth-2}
+### Да здравствует Король! {#group-5-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -39,9 +80,9 @@
 | `CslReE5d.pcx` {#file-d94850843b37} | pcx | H3bitmap.lod · SoD |
 | `CslReE5e.pcx` {#file-b37c41d88773} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Возрождение Эрафии / Хвала отцу {#group-3}
+## Превью к видеороликам / Возрождение Эрафии / Хвала отцу {#group-6}
 
-### Хвала отцу {#group-3-depth-2}
+### Хвала отцу {#group-6-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -49,9 +90,9 @@
 | `CslReG6b.pcx` {#file-295aa2e7ce12} | pcx | H3bitmap.lod · SoD |
 | `CslReG6c.pcx` {#file-e3318f717b95} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Возрождение Эрафии / Семена недовольства {#group-4}
+## Превью к видеороликам / Возрождение Эрафии / Семена недовольства {#group-7}
 
-### Семена недовольства {#group-4-depth-2}
+### Семена недовольства {#group-7-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -59,11 +100,11 @@
 | `CslReS7b.pcx` {#file-03255b6df7c8} | pcx | H3bitmap.lod · SoD |
 | `CslReS7c.pcx` {#file-ad9b1bce7b0f} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Клинок Армагеддона / Клинок Армагеддона {#group-5}
+## Превью к видеороликам / Клинок Армагеддона / Клинок Армагеддона {#group-8}
 
-### Клинок Армагеддона {#group-5-depth-1}
+### Клинок Армагеддона {#group-8-depth-1}
 
-### Клинок Армагеддона {#group-5-depth-2}
+### Клинок Армагеддона {#group-8-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -77,9 +118,9 @@
 | `CslAbAb8.pcx` {#file-0a6b324fb43b} | pcx | H3bitmap.lod · SoD |
 | `CslAbAb9.pcx` {#file-c6fb8e23b129} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Клинок Армагеддона / Кровь дракона {#group-6}
+## Превью к видеороликам / Клинок Армагеддона / Кровь дракона {#group-9}
 
-### Кровь дракона {#group-6-depth-2}
+### Кровь дракона {#group-9-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -89,9 +130,9 @@
 | `CslAbDb4.pcx` {#file-903afcbb0fe2} | pcx | H3bitmap.lod · SoD |
 | `CslAbDb5.pcx` {#file-d8778a18b9e8} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Клинок Армагеддона / Убийца драконов {#group-7}
+## Превью к видеороликам / Клинок Армагеддона / Убийца драконов {#group-10}
 
-### Убийца драконов {#group-7-depth-2}
+### Убийца драконов {#group-10-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -101,9 +142,9 @@
 | `CslAbDs4.pcx` {#file-4caffd78efa5} | pcx | H3bitmap.lod · SoD |
 | `CslAbDs5.pcx` {#file-6157480011c5} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Клинок Армагеддона / Праздник жизни {#group-8}
+## Превью к видеороликам / Клинок Армагеддона / Праздник жизни {#group-11}
 
-### Праздник жизни {#group-8-depth-2}
+### Праздник жизни {#group-11-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -113,9 +154,9 @@
 | `CslAbFl4.pcx` {#file-efc5018b953f} | pcx | H3bitmap.lod · SoD |
 | `CslAbFl5.pcx` {#file-7bd8776a64c0} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Клинок Армагеддона / Игры с огнем {#group-9}
+## Превью к видеороликам / Клинок Армагеддона / Игры с огнем {#group-12}
 
-### Игры с огнем {#group-9-depth-2}
+### Игры с огнем {#group-12-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -124,9 +165,9 @@
 | `CslAbPf3.pcx` {#file-14052605abf5} | pcx | H3bitmap.lod · SoD |
 | `CslAbPf4.pcx` {#file-63088e8cb4ff} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Клинок Армагеддона / Своенравный храбрец {#group-10}
+## Превью к видеороликам / Клинок Армагеддона / Своенравный храбрец {#group-13}
 
-### Своенравный храбрец {#group-10-depth-2}
+### Своенравный храбрец {#group-13-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
@@ -136,54 +177,15 @@
 | `CslAbFw4.pcx` {#file-d1e8abdec29c} | pcx | H3bitmap.lod · SoD |
 | `CslAbFw5.pcx` {#file-b1e814b85ccd} | pcx | H3bitmap.lod · SoD |
 
-## Превью к видеороликам / Дыхание Смерти / Новое начало {#group-11}
+## Превью к видеороликам / Дыхание Смерти / Новое начало {#group-14}
 
-### Дыхание Смерти {#group-11-depth-1}
+### Дыхание Смерти {#group-14-depth-1}
 
-### Новое начало {#group-11-depth-2}
+### Новое начало {#group-14-depth-2}
 
 | File | Resource | Source |
 | --- | --- | --- |
 | `Csl2NBa.pcx` {#file-f178b64c4582} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBb.pcx` {#file-e4b595dd4ce6} | pcx | H3bitmap.lod · SoD |
 | `Csl2NBc.pcx` {#file-11f309d9e3fe} | pcx | H3bitmap.lod · SoD |
-| `Csl2NBd.pcx` {#file-2fa8d403fe50} | pcx | H3bitmap.lod · SoD |
-| `Csl2NBe.pcx` {#file-73dabc677b9a} | pcx | H3bitmap.lod · SoD |
-
-## Превью к видеороликам / Дыхание Смерти / Эликсир жизни {#group-12}
-
-### Эликсир жизни {#group-12-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `Csl2ELa.pcx` {#file-fc685d5d26b8} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELb.pcx` {#file-f8550fdd6ccc} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELc.pcx` {#file-5749867c3a5a} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELd.pcx` {#file-c51401381348} | pcx | H3bitmap.lod · SoD |
-| `Csl2ELe.pcx` {#file-b310fc59fcc2} | pcx | H3bitmap.lod · SoD |
-
-## Превью к видеороликам / Дыхание Смерти / Руби и Кромсай(**) {#group-13}
-
-### Руби и Кромсай(**) {#group-13-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `Csl2HSa.pcx` {#file-8723b9dff7fe} | pcx | H3bitmap.lod · SoD |
-| `Csl2HSc.pcx` {#file-ab95dd4e9b18} | pcx | H3bitmap.lod · SoD |
-| `Csl2HSd.pcx` {#file-38216bcc9861} | pcx | H3bitmap.lod · SoD |
-| `Csl2HSe.pcx` {#file-f60bf47ee218} | pcx | H3bitmap.lod · SoD |
-| `CslReE5c.pcx` {#file-f765e7762f71-2} | pcx | H3bitmap.lod · SoD |
-
-## Превью к видеороликам / Дыхание Смерти / Рождение варвара {#group-14}
-
-### Рождение варвара {#group-14-depth-2}
-
-| File | Resource | Source |
-| --- | --- | --- |
-| `Csl2BBa.pcx` {#file-02b392596aca} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBb.pcx` {#file-ad09c86d4b38} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBc.pcx` {#file-ec9ee680e619} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBd.pcx` {#file-91df8e26ac7f} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBe.pcx` {#file-acd9286ad447} | pcx | H3bitmap.lod · SoD |
-| `Csl2BBf.pcx` {#file-69037cc37fa0} | pcx | H3bitmap.lod · SoD |
 

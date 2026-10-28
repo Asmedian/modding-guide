@@ -20,7 +20,7 @@
 <section class="wiki-campaign-view">
   {#if scenario}
     <button class="wiki-raised-button" on:click={()=>selected=null}>← {t('wiki.campaign')}</button>
-    <h3 class="wiki-heading">{scenario.name||scenario.mapName}<small class="wiki-edition">SoD</small></h3>
+    <h3 class="wiki-heading">{scenario.name||scenario.mapName}</h3>
     <p class="wiki-campaign-description"><WikiH3Text text={scenario.description??''} /></p>
     {#if scenario.minimaps?.length}
       <div class="wiki-map-levels">{#each scenario.minimaps as mini,i}<button class="wiki-raised-button" class:current={level===i} on:click={()=>level=i}>{i===0?t('wiki.surface'):t('wiki.underground')}</button>{/each}</div>
@@ -31,16 +31,16 @@
     {#if scenario.victory}<p>{t('wiki.victory')}: {scenario.victory.name}</p>{/if}
     {#if scenario.loss}<p>{t('wiki.loss')}: {scenario.loss.name}</p>{/if}
   {:else}
-    <h3 class="wiki-heading">{campaign.name}<small class="wiki-edition">SoD</small></h3>
+    <h3 class="wiki-heading">{campaign.name}</h3>
     <p class="wiki-campaign-description"><WikiH3Text text={campaign.description} /></p>
     <dl class="wiki-campaign-stats">
       <div><dt>{t('wiki.version')}</dt><dd>{campaign.version}</dd></div><div><dt>{t('wiki.scenarios')}</dt><dd>{campaign.scenarioCount}</dd></div><div><dt>{t('wiki.maps')}</dt><dd>{campaign.mapCount}</dd></div><div><dt>{t('wiki.totalArea')}</dt><dd>{campaign.aggregate.area.toLocaleString(lang)}</dd></div><div><dt>{t('wiki.objects')}</dt><dd>{campaign.aggregate.objects.toLocaleString(lang)}</dd></div><div><dt>{t('wiki.towns')}</dt><dd>{campaign.aggregate.towns}</dd></div><div><dt>{t('wiki.monsters')}</dt><dd>{campaign.aggregate.monsters}</dd></div>
     </dl>
     <div class="wiki-factions">{#each Object.entries(campaign.aggregate.factions).sort((a,b)=>b[1]-a[1]) as [name,count]}<div><span>{faction(name)}</span><meter min="0" max={campaign.aggregate.towns||1} value={count}>{count}</meter><span>{count}</span></div>{/each}</div>
-    <h3 class="wiki-heading">{t('wiki.scenarios')}<small class="wiki-edition">SoD</small></h3>
+    <h3 class="wiki-heading">{t('wiki.scenarios')}</h3>
     <div class="wiki-scenario-grid">
       {#each campaign.scenarios as item,i}
-        <section class="wiki-scenario-card"><h4 class="wiki-heading"><span>{i+1}</span> {item.name||item.mapName}<small class="wiki-edition">SoD</small></h4>
+        <section class="wiki-scenario-card"><h4 class="wiki-heading"><span>{i+1}</span> {item.name||item.mapName}</h4>
           <div class="wiki-scenario-info">{#if item.minimaps?.[0]}<img src={`${base}${item.minimaps[0].image}`} width={item.minimaps[0].width} height={item.minimaps[0].height} alt={item.name||item.mapName} loading="lazy" decoding="async" />{/if}<div>
             <p>{item.mapSize}×{item.mapSize}{item.hasUnderground?` + ${t('wiki.underground')}`:''} · {t('wiki.players')}: {item.playerCount}</p>
             {#if item.difficulty}<p>{t('wiki.difficulty')}: {item.difficulty}</p>{/if}

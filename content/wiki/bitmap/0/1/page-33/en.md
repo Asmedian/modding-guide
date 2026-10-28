@@ -1,5 +1,5 @@
 ---
-{"title": "Campaign elements", "summary": "SoD · H3bitmap.lod · 33/39", "translationStatus": "reviewed"}
+{"title": "Campaign elements", "summary": "H3bitmap.lod · 33/39", "translationStatus": "reviewed"}
 ---
 
 ## Building bonus icons / Inferno {#group-0}

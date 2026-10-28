@@ -1,5 +1,5 @@
 ---
-{"title": "Возрождение Эрафии", "summary": "SoD · H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
+{"title": "Возрождение Эрафии", "summary": "H3bitmap.lod · 1/1", "translationStatus": "reviewed"}
 ---
 
 ## Да здравствует Королева! {#group-0}

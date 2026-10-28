@@ -16,7 +16,10 @@
         "DEF",
         "LOD",
         "SND",
-        "VID"
+        "VID",
+        "AB",
+        "WoG",
+        "PAC"
       ]
     },
     {
@@ -48,12 +51,13 @@
     {
       "topic": "bitmap-3",
       "title": "Restoration of Erathia",
-      "count": 2,
+      "count": 3,
       "url": "/llm/browse/en/wiki/bitmap-3/index.json",
       "keywords": [
         "SoD",
-        "H3bitmap.lod",
         "Restoration of Erathia",
+        "AB",
+        "Armageddon's Blade",
         "The Shadow of Death"
       ]
     },
@@ -270,6 +274,56 @@
       "keywords": [
         "SoD",
         "VIDEO.VID",
+        "Videos"
+      ]
+    },
+    {
+      "topic": "wog-defs",
+      "title": "DEF files (*.def)",
+      "count": 7,
+      "url": "/llm/browse/en/wiki/wog-defs/index.json",
+      "keywords": [
+        "WoG",
+        "DEF files (*.def)"
+      ]
+    },
+    {
+      "topic": "wog-fonts",
+      "title": "Fonts (*.fnt)",
+      "count": 1,
+      "url": "/llm/browse/en/wiki/wog-fonts/index.json",
+      "keywords": [
+        "WoG",
+        "Fonts (*.fnt)"
+      ]
+    },
+    {
+      "topic": "wog-images",
+      "title": "Images (*.pcx)",
+      "count": 1,
+      "url": "/llm/browse/en/wiki/wog-images/index.json",
+      "keywords": [
+        "WoG",
+        "Images (*.pcx)"
+      ]
+    },
+    {
+      "topic": "wog-sounds",
+      "title": "Sounds",
+      "count": 1,
+      "url": "/llm/browse/en/wiki/wog-sounds/index.json",
+      "keywords": [
+        "WoG",
+        "Sounds"
+      ]
+    },
+    {
+      "topic": "wog-videos",
+      "title": "Videos",
+      "count": 1,
+      "url": "/llm/browse/en/wiki/wog-videos/index.json",
+      "keywords": [
+        "WoG",
         "Videos"
       ]
     }

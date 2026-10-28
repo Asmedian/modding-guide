@@ -1,5 +1,5 @@
 ---
-{"title": "Элементы кампаний", "summary": "SoD · H3bitmap.lod · 32/39", "translationStatus": "reviewed"}
+{"title": "Элементы кампаний", "summary": "H3bitmap.lod · 32/39", "translationStatus": "reviewed"}
 ---
 
 ## Иконки бонусов-строений / Замок (см. прим. #4) {#group-0}
